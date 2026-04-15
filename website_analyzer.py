@@ -261,3 +261,114 @@ Important rules:
         analysis["products"] = products
 
     return analysis
+
+
+# ---------------------------------------------------------------------------
+# Shopify-specific analyser  (used by the embeddable widget)
+# ---------------------------------------------------------------------------
+
+def _fetch_shopify_products(domain: str, timeout: int = 15) -> list[dict]:
+    """
+    Uses Shopify's public /products.json endpoint — available on every
+    Shopify store without authentication (unless the store is password-protected).
+    Returns a normalised list of product dicts.
+    """
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+    url = f"https://{domain}/products.json?limit=250"
+    try:
+        resp = httpx.get(url, headers=headers, timeout=timeout, follow_redirects=True)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception:
+        return []   # password-protected or not Shopify
+
+    products = []
+    for p in data.get("products", []):
+        variant  = (p.get("variants") or [{}])[0]
+        image    = (p.get("images") or [{}])[0]
+        handle   = p.get("handle", "")
+        products.append({
+            "name":        p.get("title", ""),
+            "price":       f"${variant.get('price', '')}" if variant.get("price") else "",
+            "image":       image.get("src", ""),
+            "url":         f"https://{domain}/products/{handle}" if handle else "",
+            "description": BeautifulSoup(p.get("body_html") or "", "lxml").get_text(" ", strip=True)[:300],
+            "category":    p.get("product_type", ""),
+            "tags":        p.get("tags", []),
+        })
+    return products[:60]   # cap for prompt size
+
+
+def analyze_shopify_store(shop_domain: str) -> dict:
+    """
+    Entry point for the widget API.
+    Fetches products via Shopify's JSON API (faster + more reliable than HTML
+    scraping), then falls back to HTML if no products are returned.
+
+    Returns the same structured analysis dict as analyze_website().
+    """
+    # 1. Shopify native products
+    products = _fetch_shopify_products(shop_domain)
+
+    # 2. Homepage HTML for branding signals (title, meta, colours, nav)
+    homepage_url = f"https://{shop_domain}"
+    try:
+        html          = _fetch_html(homepage_url)
+        page_text     = _clean_text(html)
+        brand_signals = _extract_brand_signals(html)
+    except Exception:
+        page_text     = ""
+        brand_signals = {}
+
+    # 3. If Shopify API gave nothing, fall back to HTML product scraping
+    if not products:
+        try:
+            products = _extract_products(html, homepage_url)
+        except Exception:
+            products = []
+
+    # 4. Claude analysis (same schema as analyze_website)
+    prompt = f"""
+Website domain: {shop_domain}
+
+--- BRAND SIGNALS ---
+{json.dumps(brand_signals, indent=2)}
+
+--- HOMEPAGE TEXT (first 12 000 chars) ---
+{page_text}
+
+--- PRODUCTS FROM SHOPIFY API ({len(products)} items) ---
+{json.dumps(products, indent=2)}
+
+---
+Using all of the above, return the JSON object matching exactly this schema:
+{_ANALYSIS_SCHEMA}
+
+Important rules:
+- Populate the `products` array with the real items found; add style_tags to each.
+  Use the product URL and image as provided – do not invent or alter them.
+- quiz_themes must be completely tailored to THIS shop – do not use generic fashion terms.
+- All options in quiz_themes should feel native to this store's specific vibe and inventory.
+""".strip()
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=4096,
+        system=_ANALYSIS_SYSTEM,
+        messages=[{"role": "user", "content": prompt}],
+    )
+
+    raw = response.content[0].text.strip()
+    raw = re.sub(r"^```json\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    analysis = json.loads(raw)
+
+    if not analysis.get("products") and products:
+        analysis["products"] = products
+
+    return analysis

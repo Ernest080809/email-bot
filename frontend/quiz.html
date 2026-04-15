@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Style Quiz – AI Vintage Stylist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-header__logo">&#10023; AI Vintage Stylist</a>
+      <div class="site-header__sub">Powered by Claude AI</div>
+    </div>
+  </header>
+
+  <!-- Loading overlay (used while submitting answers) -->
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-spinner"></div>
+    <div class="loading-title">Finding your perfect picks&hellip;</div>
+    <div class="loading-subtitle">Matching your style to the shop&rsquo;s inventory</div>
+  </div>
+
+  <main class="container" style="padding-top: 0; padding-bottom: 60px;">
+
+    <!-- Quiz header – populated by JS -->
+    <div class="quiz-header">
+      <div class="quiz-header__shop" id="shopName">Loading&hellip;</div>
+      <h1 class="quiz-header__title" id="quizTitle">&nbsp;</h1>
+      <p class="quiz-header__intro" id="quizIntro">&nbsp;</p>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-bar">
+      <div class="progress-bar__fill" id="progressFill" style="width: 0%"></div>
+    </div>
+
+    <!-- Questions rendered here -->
+    <div id="questionsContainer"></div>
+
+    <!-- Nav -->
+    <div class="quiz-nav">
+      <button class="btn btn--secondary" id="prevBtn" style="visibility:hidden;">
+        &larr; Back
+      </button>
+      <span class="question-of" id="questionOf">Question 1 of 7</span>
+      <button class="btn btn--primary" id="nextBtn" disabled>
+        Next &rarr;
+      </button>
+    </div>
+
+    <div class="error-alert" id="errorAlert"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      AI Vintage Stylist &mdash; powered by Claude
+    </div>
+  </footer>
+
+  <script>
+    // ---- Load session data ----
+    const rawSession = sessionStorage.getItem('stylistSession');
+    if (!rawSession) {
+      window.location.href = '/';
+    }
+    const session = JSON.parse(rawSession);
+    const quiz     = session.quiz;
+    const questions = quiz.questions;
+    const totalQ    = questions.length;
+
+    // ---- State ----
+    let currentQ = 0;
+    const answers = {}; // { q1: "b", q2: "a", ... }
+
+    // ---- Populate header ----
+    document.getElementById('shopName').textContent  = session.shop_name || '';
+    document.getElementById('quizTitle').textContent = quiz.quiz_title   || 'Your Style Quiz';
+    document.getElementById('quizIntro').textContent = quiz.quiz_intro   || '';
+
+    // ---- Render helpers ----
+    function renderQuestion(index) {
+      const q   = questions[index];
+      const qid = q.id;
+
+      document.getElementById('questionsContainer').innerHTML = `
+        <div class="question-card fade-in">
+          <div class="question-counter">Question ${index + 1} of ${totalQ}</div>
+          <div class="question-text">${escHtml(q.question)}</div>
+          ${q.context_hint ? `<div class="question-hint">${escHtml(q.context_hint)}</div>` : ''}
+          <div class="options-grid" id="optionsGrid">
+            ${q.options.map(opt => `
+              <button
+                class="option-btn ${answers[qid] === opt.id ? 'selected' : ''}"
+                data-qid="${qid}"
+                data-oid="${opt.id}"
+              >
+                <span class="option-btn__emoji">${opt.emoji || ''}</span>
+                <span class="option-btn__text">${escHtml(opt.text)}</span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+      `;
+
+      // Attach option click listeners
+      document.querySelectorAll('.option-btn').forEach(btn => {
+        btn.addEventListener('click', () => selectOption(qid, btn.dataset.oid));
+      });
+
+      updateNav();
+    }
+
+    function selectOption(qid, oid) {
+      answers[qid] = oid;
+      document.querySelectorAll('.option-btn').forEach(btn => {
+        btn.classList.toggle('selected', btn.dataset.oid === oid);
+      });
+      document.getElementById('nextBtn').disabled = false;
+    }
+
+    function updateNav() {
+      const progress  = ((currentQ + 1) / totalQ) * 100;
+      document.getElementById('progressFill').style.width = progress + '%';
+      document.getElementById('questionOf').textContent =
+        `Question ${currentQ + 1} of ${totalQ}`;
+
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+
+      prevBtn.style.visibility = currentQ === 0 ? 'hidden' : 'visible';
+      nextBtn.textContent       = currentQ === totalQ - 1 ? 'See my style picks ✦' : 'Next →';
+      nextBtn.disabled          = !answers[questions[currentQ].id];
+    }
+
+    // ---- Navigation ----
+    document.getElementById('nextBtn').addEventListener('click', async () => {
+      if (currentQ < totalQ - 1) {
+        currentQ++;
+        renderQuestion(currentQ);
+      } else {
+        await submitAnswers();
+      }
+    });
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      if (currentQ > 0) {
+        currentQ--;
+        renderQuestion(currentQ);
+      }
+    });
+
+    // ---- Submit answers ----
+    async function submitAnswers() {
+      document.getElementById('loadingOverlay').classList.add('active');
+
+      try {
+        const resp = await fetch('/api/recommendations', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            session_id: session.session_id,
+            answers: answers,
+          }),
+        });
+
+        const data = await resp.json();
+        if (!resp.ok) {
+          throw new Error(data.detail || 'Could not get recommendations.');
+        }
+
+        // Persist recommendations and navigate
+        session.recommendations = data;
+        sessionStorage.setItem('stylistSession', JSON.stringify(session));
+        window.location.href = '/results';
+
+      } catch (err) {
+        document.getElementById('loadingOverlay').classList.remove('active');
+        const alert = document.getElementById('errorAlert');
+        alert.textContent = err.message;
+        alert.classList.add('visible');
+      }
+    }
+
+    // ---- Utility ----
+    function escHtml(str) {
+      return (str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // ---- Bootstrap ----
+    renderQuestion(0);
+  </script>
+</body>
+</html>

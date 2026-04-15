@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Style Picks – AI Vintage Stylist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    /* Results-only extras */
+    .outfit-section { padding: 0 0 60px; }
+
+    .outfit-section__inner {
+      background: var(--warm-white);
+      border: 1px solid var(--light-tan);
+      border-radius: var(--radius);
+      padding: 40px;
+      text-align: center;
+    }
+
+    .outfit-section__title {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+
+    .outfit-section__sub {
+      color: var(--warm-brown);
+      font-size: 0.9rem;
+      margin-bottom: 28px;
+    }
+
+    .upload-preview {
+      display: none;
+      margin: 0 auto 16px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--terracotta);
+    }
+
+    .upload-preview.visible { display: block; }
+
+    #fileInput { display: none; }
+
+    .generating-pill {
+      display: none;
+      align-items: center;
+      gap: 10px;
+      background: var(--charcoal);
+      color: var(--cream);
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      margin: 20px auto 0;
+      width: fit-content;
+    }
+
+    .generating-pill.visible { display: inline-flex; }
+
+    .generating-pill .dot-loader {
+      display: flex; gap: 4px;
+    }
+
+    .generating-pill .dot-loader span {
+      width: 6px; height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+      animation: blink 1.2s ease infinite;
+    }
+
+    .generating-pill .dot-loader span:nth-child(2) { animation-delay: 0.2s; }
+    .generating-pill .dot-loader span:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes blink {
+      0%, 80%, 100% { opacity: 0.2; transform: scale(0.8); }
+      40% { opacity: 1; transform: scale(1); }
+    }
+
+    .restart-bar {
+      text-align: center;
+      padding: 40px 0 60px;
+      border-top: 1px solid var(--light-tan);
+    }
+
+    .restart-bar p {
+      color: var(--warm-brown);
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-header__logo">&#10023; AI Vintage Stylist</a>
+      <div class="site-header__sub" id="shopNameHeader">&nbsp;</div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Results header -->
+    <div class="results-header container">
+      <div class="results-header__eyebrow">Your personalised style profile</div>
+      <h1 class="results-header__title" id="profileTitle">Loading&hellip;</h1>
+    </div>
+
+    <!-- Style profile card -->
+    <div class="container">
+      <div class="style-profile-card fade-in" id="profileCard">
+        <div class="style-profile-card__label">Your style is&hellip;</div>
+        <div class="style-profile-card__title" id="profileStyleTitle">&nbsp;</div>
+        <div class="style-profile-card__description" id="profileDescription">&nbsp;</div>
+      </div>
+    </div>
+
+    <!-- Product recommendations -->
+    <div class="container--wide" style="padding-bottom: 52px;">
+      <h2 class="section-title">Your curated picks</h2>
+      <div class="products-grid fade-in" id="productsGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+
+    <!-- Styling tip -->
+    <div class="container" id="stylingTipWrap"></div>
+
+    <!-- Try-it-on section -->
+    <div class="container outfit-section" id="outfitSection">
+      <div class="outfit-section__inner">
+        <h2 class="outfit-section__title">&#128247; See yourself in the outfit</h2>
+        <p class="outfit-section__sub">
+          Upload a photo and our AI will generate an image of you wearing the top pick.
+        </p>
+
+        <img id="uploadPreview" class="upload-preview" src="" alt="Your photo preview" />
+
+        <div>
+          <label for="fileInput" class="btn btn--secondary" style="cursor:pointer; display:inline-flex;">
+            &#128247;&nbsp; Choose photo
+          </label>
+          <input type="file" id="fileInput" accept="image/*" />
+        </div>
+
+        <div class="generating-pill" id="generatingPill">
+          <div class="dot-loader">
+            <span></span><span></span><span></span>
+          </div>
+          Generating your look&hellip;
+        </div>
+
+        <div class="outfit-result" id="outfitResult">
+          <img id="outfitImage" class="outfit-result__image" src="" alt="AI-generated outfit" />
+          <p class="outfit-result__caption" id="outfitCaption"></p>
+        </div>
+
+        <div id="outfitUnavailableMsg" style="display:none; margin-top:16px; color: var(--warm-brown); font-size:0.88rem;"></div>
+      </div>
+    </div>
+
+    <!-- Restart -->
+    <div class="container restart-bar">
+      <p>Want to try another boutique? Let&rsquo;s start fresh.</p>
+      <a href="/" class="btn btn--primary">Analyse another shop &rarr;</a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      AI Vintage Stylist &mdash; powered by Claude &middot; Built for boutiques that deserve better
+    </div>
+  </footer>
+
+  <script>
+    // ---- Load session ----
+    const rawSession = sessionStorage.getItem('stylistSession');
+    if (!rawSession) { window.location.href = '/'; }
+
+    const session = JSON.parse(rawSession);
+    const recs    = session.recommendations;
+
+    if (!recs) { window.location.href = '/quiz'; }
+
+    // ---- Populate header ----
+    document.getElementById('shopNameHeader').textContent = session.shop_name || '';
+    document.getElementById('profileTitle').textContent =
+      `Your recommendations from ${session.shop_name || 'the boutique'}`;
+
+    // ---- Style profile ----
+    document.getElementById('profileStyleTitle').textContent =
+      recs.style_profile_title || 'Your Unique Style';
+    document.getElementById('profileDescription').textContent =
+      recs.style_profile || '';
+
+    // ---- Product cards ----
+    const grid = document.getElementById('productsGrid');
+    const recommendations = recs.recommendations || [];
+
+    if (recommendations.length === 0) {
+      grid.innerHTML = '<p style="color: var(--warm-brown); text-align:center;">No products found for your style. Try a different shop!</p>';
+    } else {
+      grid.innerHTML = recommendations.map(rec => {
+        const tags = (rec.style_tags || [])
+          .map(t => `<span class="tag-pill">${escHtml(t)}</span>`)
+          .join('');
+
+        const imageHtml = rec.product_image
+          ? `<img class="product-card__image" src="${escHtml(rec.product_image)}" alt="${escHtml(rec.product_name)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\"product-card__no-image\\">&#128449;</div>'" />`
+          : `<div class="product-card__no-image">&#128449;</div>`;
+
+        const ctaHtml = rec.product_url
+          ? `<a href="${escHtml(rec.product_url)}" target="_blank" rel="noopener" class="product-card__cta">View in shop &rarr;</a>`
+          : `<span class="product-card__cta" style="opacity:0.5; cursor:default;">View in shop</span>`;
+
+        return `
+          <div class="product-card fade-in">
+            <div class="product-card__image-wrap">
+              ${imageHtml}
+              ${rec.match_score ? `<div class="product-card__match">${rec.match_score}% match</div>` : ''}
+            </div>
+            <div class="product-card__body">
+              <div class="product-card__name">${escHtml(rec.product_name)}</div>
+              ${rec.product_price ? `<div class="product-card__price">${escHtml(rec.product_price)}</div>` : ''}
+              <div class="product-card__why">${escHtml(rec.why_for_you)}</div>
+              ${tags ? `<div class="product-card__tags">${tags}</div>` : ''}
+              ${ctaHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // ---- Styling tip ----
+    if (recs.styling_tip) {
+      document.getElementById('stylingTipWrap').innerHTML = `
+        <div class="styling-tip fade-in">
+          <div class="styling-tip__icon">&#128161;</div>
+          <div>
+            <div class="styling-tip__label">Stylist tip</div>
+            <div class="styling-tip__text">${escHtml(recs.styling_tip)}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    // ---- Outfit image feature ----
+    const fileInput   = document.getElementById('fileInput');
+    const preview     = document.getElementById('uploadPreview');
+    const genPill     = document.getElementById('generatingPill');
+    const outfitResult = document.getElementById('outfitResult');
+    const outfitImage = document.getElementById('outfitImage');
+    const outfitCaption = document.getElementById('outfitCaption');
+    const unavailMsg  = document.getElementById('outfitUnavailableMsg');
+
+    fileInput.addEventListener('change', async () => {
+      const file = fileInput.files[0];
+      if (!file) return;
+
+      // Show preview
+      const reader = new FileReader();
+      reader.onload = e => {
+        preview.src = e.target.result;
+        preview.classList.add('visible');
+      };
+      reader.readAsDataURL(file);
+
+      // Show generating state
+      genPill.classList.add('visible');
+      outfitResult.classList.remove('visible');
+      unavailMsg.style.display = 'none';
+
+      try {
+        const formData = new FormData();
+        formData.append('session_id', session.session_id);
+        formData.append('photo', file);
+
+        const resp = await fetch('/api/outfit-image', {
+          method: 'POST',
+          body: formData,
+        });
+
+        const data = await resp.json();
+        genPill.classList.remove('visible');
+
+        if (data.success && data.image_url) {
+          outfitImage.src = data.image_url;
+          outfitCaption.textContent = data.message || '';
+          outfitResult.classList.add('visible');
+        } else {
+          unavailMsg.textContent = data.message || 'Image generation unavailable.';
+          unavailMsg.style.display = 'block';
+        }
+      } catch (err) {
+        genPill.classList.remove('visible');
+        unavailMsg.textContent = 'Image generation failed. Please try again.';
+        unavailMsg.style.display = 'block';
+      }
+    });
+
+    // ---- Utility ----
+    function escHtml(str) {
+      return (str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+  </script>
+</body>
+</html>

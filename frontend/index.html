@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Vintage Stylist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__logo">&#10023; AI Vintage Stylist</div>
+      <div class="site-header__sub">Powered by Claude AI</div>
+    </div>
+  </header>
+
+  <!-- Loading overlay -->
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-spinner"></div>
+    <div class="loading-title" id="loadingTitle">Analysing the boutique&hellip;</div>
+    <div class="loading-subtitle" id="loadingSubtitle">Reading the aesthetic, mood, and products</div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero__eyebrow">Personalised for every store</span>
+      <h1 class="hero__title">Your personal<br /><em>vintage stylist</em></h1>
+      <p class="hero__description">
+        Enter any vintage fashion website and our AI will analyse its unique aesthetic,
+        then build a style quiz made exclusively for that shop—followed by product
+        recommendations tailored perfectly to you.
+      </p>
+
+      <div class="url-card">
+        <label class="url-card__label" for="shopUrl">Vintage shop website URL</label>
+        <div class="url-input-row">
+          <input
+            type="url"
+            id="shopUrl"
+            class="url-input"
+            placeholder="e.g. https://myvintageshop.com"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button class="btn btn--primary" id="analyzeBtn">
+            <span>Analyse shop</span>
+            <span>&rarr;</span>
+          </button>
+        </div>
+        <div class="analysis-pill" id="analysisPill">
+          <span>&#10003;</span>
+          <span id="analysisPillText">Shop analysed</span>
+        </div>
+        <div class="error-alert" id="errorAlert"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how-it-works">
+    <div class="container">
+      <h2 class="how-it-works__title">How it works</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step__icon">&#128269;</div>
+          <div class="step__title">Shop Analysis</div>
+          <p class="step__desc">
+            Our AI reads the website's products, aesthetic, colour palette,
+            and brand story.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__icon">&#128203;</div>
+          <div class="step__title">Custom Quiz</div>
+          <p class="step__desc">
+            A unique style quiz is generated specifically for that shop—never
+            a one-size-fits-all questionnaire.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__icon">&#127775;</div>
+          <div class="step__title">Style Matching</div>
+          <p class="step__desc">
+            Your answers map to a personal style profile that guides the
+            recommendation engine.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__icon">&#128717;</div>
+          <div class="step__title">Personalised Picks</div>
+          <p class="step__desc">
+            The AI selects the most relevant pieces from that shop's inventory,
+            with a personal note for each.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__icon">&#128247;</div>
+          <div class="step__title">Try It On</div>
+          <p class="step__desc">
+            Optionally upload your photo and see an AI-generated image of you
+            wearing the recommended outfit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      AI Vintage Stylist &mdash; powered by Claude &middot; Built for boutiques that deserve better
+    </div>
+  </footer>
+
+  <script>
+    const analyzeBtn = document.getElementById('analyzeBtn');
+    const shopUrl    = document.getElementById('shopUrl');
+    const overlay    = document.getElementById('loadingOverlay');
+    const loadTitle  = document.getElementById('loadingTitle');
+    const loadSub    = document.getElementById('loadingSubtitle');
+    const pill       = document.getElementById('analysisPill');
+    const pillText   = document.getElementById('analysisPillText');
+    const errorAlert = document.getElementById('errorAlert');
+
+    const loadingMessages = [
+      ['Scanning the boutique&hellip;', 'Reading products, colours, and brand voice'],
+      ['Studying the aesthetic&hellip;', 'Identifying style eras, silhouettes, and mood'],
+      ['Crafting your quiz&hellip;', 'Building questions exclusive to this shop'],
+    ];
+    let msgIndex = 0;
+    let msgInterval = null;
+
+    function startLoadingMessages() {
+      msgIndex = 0;
+      updateLoadingMessage();
+      msgInterval = setInterval(() => {
+        msgIndex = (msgIndex + 1) % loadingMessages.length;
+        updateLoadingMessage();
+      }, 3500);
+    }
+
+    function stopLoadingMessages() {
+      if (msgInterval) { clearInterval(msgInterval); msgInterval = null; }
+    }
+
+    function updateLoadingMessage() {
+      loadTitle.innerHTML = loadingMessages[msgIndex][0];
+      loadSub.innerHTML   = loadingMessages[msgIndex][1];
+    }
+
+    function showError(msg) {
+      errorAlert.textContent = msg;
+      errorAlert.classList.add('visible');
+    }
+
+    function clearError() {
+      errorAlert.classList.remove('visible');
+      errorAlert.textContent = '';
+    }
+
+    analyzeBtn.addEventListener('click', runAnalysis);
+    shopUrl.addEventListener('keydown', e => { if (e.key === 'Enter') runAnalysis(); });
+
+    async function runAnalysis() {
+      const url = shopUrl.value.trim();
+      if (!url) { showError('Please enter a website URL.'); return; }
+
+      clearError();
+      pill.classList.remove('visible');
+      analyzeBtn.disabled = true;
+
+      overlay.classList.add('active');
+      startLoadingMessages();
+
+      try {
+        const resp = await fetch('/api/analyze', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url }),
+        });
+
+        const data = await resp.json();
+
+        if (!resp.ok) {
+          throw new Error(data.detail || 'Analysis failed. Please check the URL and try again.');
+        }
+
+        // Store in sessionStorage for the quiz page
+        sessionStorage.setItem('stylistSession', JSON.stringify(data));
+
+        pillText.textContent = `✓ ${data.shop_name || 'Shop'} analysed`;
+        pill.classList.add('visible');
+
+        // Brief pause then navigate
+        setTimeout(() => { window.location.href = '/quiz'; }, 800);
+
+      } catch (err) {
+        overlay.classList.remove('active');
+        stopLoadingMessages();
+        analyzeBtn.disabled = false;
+        showError(err.message || 'Something went wrong. Please try again.');
+      }
+    }
+  </script>
+</body>
+</html>

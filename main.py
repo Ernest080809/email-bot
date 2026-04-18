@@ -19,10 +19,13 @@ Two sets of endpoints
 import os
 import time
 import uuid
+import hmac
+import hashlib
+import base64
 from pathlib import Path
 from typing import Annotated
 
-from fastapi import FastAPI, HTTPException, Header, UploadFile, File, Form, Request
+from fastapi import FastAPI, HTTPException, Header, UploadFile, File, Form, Request, BackgroundTasks
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -54,8 +57,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-FRONTEND_DIR = Path(__file__).parent / "frontend"
-WIDGET_PATH  = Path(__file__).parent / "widget.js"
+FRONTEND_DIR           = Path(__file__).parent / "frontend"
+WIDGET_PATH            = Path(__file__).parent / "widget.js"
+SHOPIFY_WEBHOOK_SECRET = os.getenv("SHOPIFY_WEBHOOK_SECRET", "")
 
 # ---------------------------------------------------------------------------
 # API key validation
@@ -77,23 +81,45 @@ def _require_api_key(x_api_key: str | None) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Shop analysis cache  (in-memory, 24-hour TTL per domain)
+# Shop analysis cache  (in-memory, 6-hour TTL per domain)
+# Products are re-read every 6 h automatically.  The /api/shop/refresh
+# endpoint and the Shopify webhook both clear this instantly when new
+# products are added.
 # Swap for Redis in production for multi-process deployments.
 # ---------------------------------------------------------------------------
 
-_SHOP_CACHE: dict[str, dict] = {}   # domain → {"data": analysis_dict, "ts": float}
-_CACHE_TTL  = 24 * 3600             # 24 hours
+_SHOP_CACHE: dict[str, dict] = {}   # domain → {"analysis": …, "quiz": …, "ts": float}
+_CACHE_TTL  = 6 * 3600              # 6 hours (was 24 h)
 
 
 def _get_cached_analysis(domain: str) -> dict | None:
     entry = _SHOP_CACHE.get(domain)
     if entry and (time.time() - entry["ts"]) < _CACHE_TTL:
-        return entry["data"]
+        return entry
     return None
 
 
 def _set_cached_analysis(domain: str, data: dict) -> None:
-    _SHOP_CACHE[domain] = {"data": data, "ts": time.time()}
+    _SHOP_CACHE[domain] = {**data, "ts": time.time()}
+
+
+def _clear_cache(domain: str) -> None:
+    _SHOP_CACHE.pop(domain, None)
+
+
+# ---------------------------------------------------------------------------
+# Background refresh helper
+# ---------------------------------------------------------------------------
+
+async def _refresh_store(domain: str) -> None:
+    """Re-analyse a shop and update the cache. Runs as a background task."""
+    try:
+        analysis = analyze_shopify_store(domain)
+        quiz     = generate_quiz(analysis)
+        _set_cached_analysis(domain, {"analysis": analysis, "quiz": quiz})
+        print(f"[AI Stylist] Cache refreshed for {domain}")
+    except Exception as exc:
+        print(f"[AI Stylist] Background refresh failed for {domain}: {exc}")
 
 
 # ---------------------------------------------------------------------------
@@ -263,6 +289,82 @@ async def shop_outfit_image(
 
     style_profile = session.get("recommendations", {}).get("style_profile", "")
     return generate_outfit_image(photo_bytes, recs[0], style_profile)
+
+
+@app.post("/api/shop/refresh")
+async def shop_refresh(
+    body: ShopAnalyzeRequest,
+    background_tasks: BackgroundTasks,
+    x_api_key: Annotated[str | None, Header()] = None,
+):
+    """
+    Force an immediate cache clear + re-analysis for a shop.
+
+    Shop owners can call this manually after adding new products, or you can
+    wire it up automatically via a Shopify webhook (see /api/shop/webhook/shopify).
+
+    The refresh runs in the background so this endpoint returns instantly.
+    New analysis will be ready in ~20-30 seconds.
+    """
+    _require_api_key(x_api_key)
+
+    domain = body.shop_domain.lower().strip()
+    domain = domain.replace("https://", "").replace("http://", "").split("/")[0]
+
+    _clear_cache(domain)
+    background_tasks.add_task(_refresh_store, domain)
+
+    return {
+        "status": "refreshing",
+        "domain": domain,
+        "message": "Cache cleared. New analysis running in background (~20-30 s). Next visitor will get the updated quiz.",
+    }
+
+
+@app.post("/api/shop/webhook/shopify", status_code=200)
+async def shopify_product_webhook(
+    request: Request,
+    background_tasks: BackgroundTasks,
+):
+    """
+    Shopify webhook — triggered automatically when a product is created or updated.
+
+    Setup (in Shopify admin):
+      Settings → Notifications → Webhooks → Create webhook
+        Event:  Product creation   (repeat for Product update)
+        Format: JSON
+        URL:    https://YOUR-SERVER.com/api/shop/webhook/shopify
+
+    Copy the "Webhook signing secret" shown by Shopify into your .env as
+    SHOPIFY_WEBHOOK_SECRET=xxxxx
+
+    When a shop owner adds or changes a product, Shopify calls this endpoint,
+    the cache is cleared, and the quiz is silently rebuilt in the background.
+    The very next customer will see fresh recommendations including the new item.
+    """
+    raw_body = await request.body()
+
+    # ── Verify the request genuinely came from Shopify ──
+    if SHOPIFY_WEBHOOK_SECRET:
+        shopify_hmac = request.headers.get("X-Shopify-Hmac-Sha256", "")
+        digest = base64.b64encode(
+            hmac.new(
+                SHOPIFY_WEBHOOK_SECRET.encode("utf-8"),
+                raw_body,
+                hashlib.sha256,
+            ).digest()
+        ).decode("utf-8")
+        if not hmac.compare_digest(digest, shopify_hmac):
+            raise HTTPException(status_code=401, detail="Webhook signature invalid.")
+
+    shop_domain = request.headers.get("X-Shopify-Shop-Domain", "").strip()
+    if not shop_domain:
+        raise HTTPException(status_code=400, detail="Missing X-Shopify-Shop-Domain header.")
+
+    _clear_cache(shop_domain)
+    background_tasks.add_task(_refresh_store, shop_domain)
+
+    return {"status": "ok"}
 
 
 # ---------------------------------------------------------------------------

@@ -46,15 +46,17 @@
   const BTN_TXT_C    = userCfg.buttonTextColor || '#faf7f2';
 
   /* ─── State ───────────────────────────────────────────────── */
-  let sessionId     = null;
-  let quiz          = null;
-  let shopName      = '';
-  let currentQ      = 0;
-  let answers       = {};
-  let analysisReady = false;
-  let pendingOpen   = false;
-  let shadow        = null;
-  let cardBody      = null;
+  let sessionId      = null;
+  let quiz           = null;
+  let shopName       = '';
+  let currentQ       = 0;
+  let answers        = {};
+  let analysisReady  = false;
+  let analysisFailed = false;
+  let analysisError  = '';
+  let pendingOpen    = false;
+  let shadow         = null;
+  let cardBody       = null;
 
   /* ─── Shadow DOM styles ───────────────────────────────────── */
   const CSS = `
@@ -279,14 +281,24 @@
   }
 
   async function apiPost(path, body) {
-    const r = await fetch(API_BASE + path, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-API-Key': API_KEY },
-      body: JSON.stringify(body),
-    });
-    const data = await r.json();
-    if (!r.ok) throw new Error(data.detail || 'Request failed');
-    return data;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 60000); // 60 s timeout
+    try {
+      const r = await fetch(API_BASE + path, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-API-Key': API_KEY },
+        body: JSON.stringify(body),
+        signal: ctrl.signal,
+      });
+      const data = await r.json();
+      if (!r.ok) throw new Error(data.detail || 'Request failed');
+      return data;
+    } catch (err) {
+      if (err.name === 'AbortError') throw new Error('Request timed out. The server may be waking up — please try again.');
+      throw err;
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   /* ─── DOM setup ───────────────────────────────────────────── */
@@ -365,14 +377,34 @@
   }
 
   /* ─── Modal control ───────────────────────────────────────── */
+  function showError(msg) {
+    hdrTitle.textContent = 'AI Stylist';
+    cardBody.innerHTML = `
+      <div style="padding:32px 0;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:14px;">😕</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#2c2825;margin-bottom:8px;">Couldn't load the quiz</div>
+        <div style="font-size:0.83rem;color:#8b6f5e;line-height:1.55;margin-bottom:22px;">${esc(msg)}</div>
+        <button class="btn btn-primary" id="ais-retry">↺ Try Again</button>
+      </div>
+    `;
+    shadow.getElementById('ais-retry').addEventListener('click', () => {
+      analysisFailed = false;
+      analysisError  = '';
+      showLoading('Waking up the stylist…', 'This can take up to 60 seconds');
+      preloadAnalysis();
+    });
+  }
+
   function openModal() {
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
     if (analysisReady) {
       showQuiz();
+    } else if (analysisFailed) {
+      showError(analysisError || 'Could not load the style quiz. Please try again.');
     } else {
       pendingOpen = true;
-      showLoading('Discovering your store\u2019s style\u2026', 'This takes ~15 seconds on first visit');
+      showLoading('Waking up the stylist\u2026', 'This can take up to 60 seconds on first visit');
     }
   }
 
@@ -578,9 +610,11 @@
       if (pendingOpen) { pendingOpen = false; showQuiz(); }
     } catch (err) {
       console.warn('[AI Stylist] Could not load quiz:', err.message);
+      analysisFailed = true;
+      analysisError  = err.message || 'Could not load the style quiz. Please try again.';
       if (pendingOpen) {
         pendingOpen = false;
-        cardBody.innerHTML = `<div class="err on">Could not load the style quiz. Please refresh and try again.</div>`;
+        showError(analysisError);
       }
     }
   }

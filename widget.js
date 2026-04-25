@@ -92,16 +92,23 @@
   /* ── overlay HTML ── */
   var overlayEl = document.createElement('div');
   overlayEl.id = 'ais-overlay';
+  /* Set critical layout via inline style — does NOT depend on the injected CSS */
+  overlayEl.style.cssText = [
+    'display:none', 'position:fixed', 'top:0', 'left:0', 'right:0', 'bottom:0',
+    'z-index:2147483646', 'background:rgba(0,0,0,.6)',
+    'align-items:center', 'justify-content:center', 'padding:16px',
+    'font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif',
+  ].join(';');
   overlayEl.innerHTML = [
-    '<div id="ais-card">',
-    '  <div id="ais-hdr">',
-    '    <div id="ais-hdr-left">',
-    '      <span id="ais-tag">✦ AI Stylist</span>',
-    '      <span id="ais-title">Style Quiz</span>',
+    '<div id="ais-card" style="background:#fff;border-radius:16px;width:100%;max-width:450px;max-height:88vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.4);color:#111">',
+    '  <div id="ais-hdr" style="padding:15px 18px;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:#fff;z-index:1;border-radius:16px 16px 0 0">',
+    '    <div style="display:flex;flex-direction:column;gap:2px">',
+    '      <span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#b05e30;font-weight:700">✦ AI Stylist</span>',
+    '      <span id="ais-title" style="font-size:15px;font-weight:700;color:#111">Style Quiz</span>',
     '    </div>',
-    '    <button id="ais-close">✕</button>',
+    '    <button id="ais-close" style="width:28px;height:28px;border:none;background:#f0f0f0;border-radius:50%;cursor:pointer;font-size:16px;color:#555;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding:0;line-height:1">✕</button>',
     '  </div>',
-    '  <div id="ais-body"></div>',
+    '  <div id="ais-body" style="padding:22px 20px"></div>',
     '</div>',
   ].join('');
   document.body.appendChild(overlayEl);
@@ -114,14 +121,14 @@
   triggerBtn.id = 'ais-trigger';
   triggerBtn.textContent = BTN_TEXT;
   triggerBtn.style.cssText = [
-    'position:fixed!important', 'bottom:22px!important', 'right:22px!important',
-    'z-index:2147483645!important', 'padding:13px 22px!important',
-    'background:' + BTN_BG + '!important', 'color:' + BTN_FG + '!important',
-    'border:none!important', 'border-radius:50px!important',
-    'font-family:inherit!important', 'font-size:14px!important', 'font-weight:700!important',
-    'cursor:pointer!important', 'letter-spacing:.01em!important',
-    'box-shadow:0 4px 18px rgba(0,0,0,.3)!important',
-    'transition:transform .2s,box-shadow .2s!important',
+    'position:fixed', 'bottom:22px', 'right:22px',
+    'z-index:2147483645', 'padding:13px 22px',
+    'background:' + BTN_BG, 'color:' + BTN_FG,
+    'border:none', 'border-radius:50px',
+    'font-family:inherit', 'font-size:14px', 'font-weight:700',
+    'cursor:pointer', 'letter-spacing:.01em',
+    'box-shadow:0 4px 18px rgba(0,0,0,.3)',
+    'transition:transform .2s,box-shadow .2s',
   ].join(';');
   triggerBtn.addEventListener('mouseover', function () { triggerBtn.style.transform = 'translateY(-2px)'; });
   triggerBtn.addEventListener('mouseout',  function () { triggerBtn.style.transform = ''; });
@@ -134,7 +141,7 @@
 
   /* ── modal ── */
   function openModal() {
-    overlayEl.classList.add('ais-open');
+    overlayEl.style.display = 'flex';
     document.body.style.overflow = 'hidden';
     if (phase === 'idle')    runAnalysis();
     else if (phase === 'quiz')    renderQuestion();
@@ -143,7 +150,7 @@
   }
 
   function closeModal() {
-    overlayEl.classList.remove('ais-open');
+    overlayEl.style.display = 'none';
     document.body.style.overflow = '';
   }
 

@@ -170,7 +170,7 @@ async def serve_widget():
         WIDGET_PATH,
         media_type="application/javascript",
         headers={
-            "Cache-Control": "public, max-age=3600",   # browsers cache for 1 h
+            "Cache-Control": "no-cache, no-store, must-revalidate",
         },
     )
 

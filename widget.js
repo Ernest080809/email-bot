@@ -266,10 +266,10 @@
       '<div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#aaa;margin-bottom:10px">Picked for you</div>',
       items.map(function(r){
         return '<a class="ais-prod" href="' + esc(r.product_url||'#') + '" target="_blank" rel="noopener">' +
-          '<div style="width:78px;flex-shrink:0;background:#f5f5f5">' +
+          '<div style="width:90px;min-height:90px;flex-shrink:0;background:#f5f5f5;overflow:hidden">' +
           (r.product_image
-            ? '<img src="' + esc(r.product_image) + '" alt="' + esc(r.product_name) + '" style="width:100%;height:100%;object-fit:cover;display:block" loading="lazy">'
-            : '<div style="width:100%;min-height:78px;display:flex;align-items:center;justify-content:center;font-size:22px;opacity:.3">👗</div>') +
+            ? '<img src="' + esc(r.product_image) + '" alt="' + esc(r.product_name) + '" style="width:90px;height:90px;object-fit:cover;display:block" onerror="this.style.display=\'none\'">'
+            : '<div style="width:90px;height:90px;display:flex;align-items:center;justify-content:center;font-size:24px;opacity:.3">👗</div>') +
           '</div>' +
           '<div style="padding:10px 12px;flex:1">' +
           '<div style="font-size:14px;font-weight:600;color:#111;margin-bottom:2px">' + esc(r.product_name) + '</div>' +

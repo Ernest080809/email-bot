@@ -70,6 +70,35 @@ LUXURY_BRANDS: dict[str, int] = {
     "Canada Goose":          3068,
     "Moose Knuckles":        5441,
     "Mackage":               4113,
+    # ── Sportswear / lifestyle ─────────────────────────────────────────────
+    "Nike":                  53,
+    "Adidas":                14,
+    "Puma":                  84,
+    "New Balance":           3061,
+    "Converse":              221,
+    "Vans":                  204,
+    "Asics":                 304,
+    "Salomon":               2415,
+    "On Running":            5765,
+    "Jordan":                53,
+    # ── Preppy / smart casual ──────────────────────────────────────────────
+    "Ralph Lauren":          88,
+    "Polo Ralph Lauren":     88,
+    "Tommy Hilfiger":        97,
+    "Calvin Klein":          78,
+    "Lacoste":               1002,
+    "Hugo Boss":             2237,
+    "Armani":                156,
+    "Emporio Armani":        158,
+    "Giorgio Armani":        156,
+    "Diesel":                198,
+    "Levi's":                384,
+    # ── Outdoor / technical ───────────────────────────────────────────────
+    "The North Face":        3305,
+    "Patagonia":             3019,
+    "Arc'teryx":             4250,
+    "Barbour":               2301,
+    "CP Company":            2562,
 }
 
 # Vinted catalog IDs for broad category filtering

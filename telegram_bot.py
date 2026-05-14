@@ -376,22 +376,23 @@ class SniperBot:
 
     async def cmd_brands(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         if context.args:
-            query = " ".join(context.args)
-            await update.message.reply_text(f"🔍 Searching Vinted for brand: *{query}*…", parse_mode=ParseMode.MARKDOWN)
-            results = await asyncio.to_thread(self._api.search_brand, query)
-            if not results:
-                await update.message.reply_text("No brands found.")
+            query = " ".join(context.args).lower()
+            matches = {name: bid for name, bid in LUXURY_BRANDS.items() if query in name.lower()}
+            if not matches:
+                await update.message.reply_text(
+                    f"No brand matching *{query}* found.\nUse /brands to see the full list.",
+                    parse_mode=ParseMode.MARKDOWN,
+                )
                 return
-            lines = ["*Brand search results:*\n"]
-            for b in results[:15]:
-                lines.append(f"• `{b['id']}` — {b.get('title', '?')}")
+            lines = [f"*Results for '{query}':*\n"]
+            for name, bid in matches.items():
+                lines.append(f"• `{bid}` — {name}")
             await update.message.reply_text("\n".join(lines), parse_mode=ParseMode.MARKDOWN)
         else:
-            # Show curated luxury brands
-            lines = ["*Curated luxury brand IDs:*\n"]
-            for name, bid in list(LUXURY_BRANDS.items())[:30]:
+            lines = ["*All brands in database:*\n"]
+            for name, bid in LUXURY_BRANDS.items():
                 lines.append(f"• `{bid}` — {name}")
-            lines.append("\n_Use /brands <name> to search for more._")
+            lines.append("\n_Use /brands <name> to search, e.g. /brands adidas_")
             await update.message.reply_text("\n".join(lines), parse_mode=ParseMode.MARKDOWN)
 
     # ── /test ──────────────────────────────────────────────────────────────────
@@ -496,30 +497,51 @@ class SniperBot:
 
     async def wl_brand_search(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
         await update.callback_query.answer()
-        context.user_data["_brand_search"] = True
-        await update.callback_query.message.reply_text("Type a brand name to search Vinted:")
+        await update.callback_query.message.reply_text(
+            "🔍 Type a brand name to search (e.g. `Adidas`, `Ralph Lauren`, `Nike`):",
+            parse_mode=ParseMode.MARKDOWN,
+        )
         return WL_BRANDS
 
     async def wl_brand_search_text(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-        if not context.user_data.get("_brand_search"):
-            # Treat any free text in BRANDS state as a search
-            context.user_data["_brand_search"] = True
-        context.user_data["_brand_search"] = False
-        query = update.message.text.strip()
-        results = await asyncio.to_thread(self._api.search_brand, query)
-        if not results:
-            await update.message.reply_text("No brands found. Try again or tap *Done*.", parse_mode=ParseMode.MARKDOWN)
-            return WL_BRANDS
+        query = update.message.text.strip().lower()
         selected = context.user_data["wl"]["brand_ids"]
+
+        # Search local database first (case-insensitive, partial match)
+        local_matches = [
+            {"id": bid, "title": name}
+            for name, bid in LUXURY_BRANDS.items()
+            if query in name.lower()
+        ]
+        # Deduplicate by ID
+        seen_ids: set[int] = set()
+        results: list[dict] = []
+        for b in local_matches:
+            if b["id"] not in seen_ids:
+                results.append(b)
+                seen_ids.add(b["id"])
+
+        if not results:
+            # Show all brands as fallback hint
+            all_names = ", ".join(LUXURY_BRANDS.keys())
+            await update.message.reply_text(
+                f"❌ No brand matching *{query}* found in the database.\n\n"
+                f"Available brands include:\n_{all_names}_\n\n"
+                "Try a shorter search (e.g. `ralph` instead of `Ralph Lauren`).",
+                parse_mode=ParseMode.MARKDOWN,
+            )
+            return WL_BRANDS
+
         rows = []
         for b in results[:10]:
             tick = "✅ " if b["id"] in selected else ""
             rows.append(
-                [InlineKeyboardButton(f"{tick}{b['title']} ({b['id']})", callback_data=f"b:{b['id']}")]
+                [InlineKeyboardButton(f"{tick}{b['title']}", callback_data=f"b:{b['id']}")]
             )
         rows.append([InlineKeyboardButton("✔️ Done", callback_data="bdone")])
         await update.message.reply_text(
-            f"Results for *{query}*:", parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(rows)
+            f"Results for *{query}*:", parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(rows),
         )
         return WL_BRANDS
 

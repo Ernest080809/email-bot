@@ -88,23 +88,11 @@
     .card:hover { transform: translateY(-6px); box-shadow: 0 14px 36px rgba(0,0,0,.13); }
 
     .card-img {
-      height: 280px;
-      position: relative;
-      overflow: hidden;
-      background: #e0e0e0;
+      height: 260px; position: relative; overflow: hidden; display: flex;
+      align-items: center; justify-content: center;
     }
-    .card-img img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform .4s ease;
-    }
-    .card:hover .card-img img { transform: scale(1.06); }
-    .card-img .img-fallback {
-      position: absolute; inset: 0;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 5rem; background: #f0f0f0;
-    }
+    .card-img svg { width: 100%; height: 100%; display: block; transition: transform .4s ease; }
+    .card:hover .card-img svg { transform: scale(1.04); }
 
     .badge {
       position: absolute; top: 12px; left: 12px; padding: 4px 12px;
@@ -116,7 +104,7 @@
     .badge-hot  { background: #e67e22; color: #fff; }
     .wish {
       position: absolute; top: 10px; right: 12px;
-      background: rgba(255,255,255,.92); border: none;
+      background: rgba(255,255,255,.9); border: none;
       width: 36px; height: 36px; border-radius: 50%;
       font-size: 1.1rem; cursor: pointer; z-index: 2;
       transition: transform .2s; display: flex; align-items: center; justify-content: center;
@@ -130,8 +118,7 @@
     .stars { color: #f9a825; font-size: .8rem; }
     .card-name { font-size: .97rem; font-weight: 700; margin-bottom: 10px; }
     .color-row { display: flex; gap: 5px; margin-bottom: 12px; }
-    .dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1.5px #ccc; cursor: pointer; transition: transform .15s; }
-    .dot:hover { transform: scale(1.3); }
+    .dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1.5px #ccc; }
     .card-foot { display: flex; align-items: center; justify-content: space-between; }
     .price { font-size: 1.15rem; font-weight: 900; }
     .old-price { font-size: .82rem; color: #bbb; text-decoration: line-through; margin-left: 5px; }
@@ -141,8 +128,6 @@
     }
     .btn-cart:hover { background: #e63946; }
     .btn-cart.ok { background: #2d6a4f; }
-
-    .empty-state { grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #aaa; }
 
     footer {
       background: #111; color: #666; padding: 36px 48px;
@@ -242,63 +227,378 @@
 <div id="toast"></div>
 
 <script>
+// ── SVG CLOTHING ILLUSTRATIONS ──
+function svgTshirt(bg1, bg2, c, c2, pat) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+      ${pat==='stripes'?`<pattern id="pt" width="12" height="12" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="12" y2="12" stroke="${c2}" stroke-width="3" opacity=".35"/></pattern>`:''}
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M65,55 L45,35 L12,65 L32,73 L32,178 L168,178 L168,73 L188,65 L155,35 L135,55 Q115,68 100,68 Q85,68 65,55Z" fill="${c}"/>
+      ${pat==='stripes'?`<path d="M65,55 L45,35 L12,65 L32,73 L32,178 L168,178 L168,73 L188,65 L155,35 L135,55 Q115,68 100,68 Q85,68 65,55Z" fill="url(#pt)"/>`:''}
+      <ellipse cx="100" cy="60" rx="18" ry="9" fill="${bg2}" opacity=".5"/>
+    </g>
+  </svg>`;
+}
+
+function svgHoodie(bg1, bg2, c, pocket) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M62,58 L42,38 L10,68 L30,76 L30,178 L170,178 L170,76 L190,68 L158,38 L138,58 Q118,44 100,46 Q82,44 62,58Z" fill="${c}"/>
+      <path d="M62,58 Q100,22 138,58" fill="none" stroke="${pocket}" stroke-width="5" opacity=".6"/>
+      <line x1="94" y1="46" x2="90" y2="80" stroke="${pocket}" stroke-width="3" opacity=".5"/>
+      <line x1="106" y1="46" x2="110" y2="80" stroke="${pocket}" stroke-width="3" opacity=".5"/>
+      <rect x="72" y="138" width="56" height="28" rx="6" fill="${pocket}" opacity=".3"/>
+    </g>
+  </svg>`;
+}
+
+function svgPants(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M35,30 L165,30 L170,108 L118,108 L114,198 L86,198 L82,108 L30,108Z" fill="${c}"/>
+      <line x1="35" y1="30" x2="165" y2="30" stroke="${c2}" stroke-width="5" opacity=".5"/>
+      <line x1="100" y1="108" x2="100" y2="198" stroke="${c2}" stroke-width="2" opacity=".2"/>
+      <rect x="38" y="35" width="28" height="18" rx="4" fill="${c2}" opacity=".25"/>
+    </g>
+  </svg>`;
+}
+
+function svgJeans(bg1, bg2, c) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M35,28 L165,28 L170,108 L118,108 L114,200 L86,200 L82,108 L30,108Z" fill="${c}"/>
+      <line x1="35" y1="28" x2="165" y2="28" stroke="#f9a825" stroke-width="3" opacity=".7"/>
+      <line x1="100" y1="108" x2="100" y2="200" stroke="#c8a96e" stroke-width="1.5" opacity=".4"/>
+      <path d="M52,35 Q60,42 52,50" fill="none" stroke="#c8a96e" stroke-width="2" opacity=".5"/>
+      <path d="M148,35 Q140,42 148,50" fill="none" stroke="#c8a96e" stroke-width="2" opacity=".5"/>
+      <rect x="85" y="30" width="30" height="12" rx="3" fill="#c8a96e" opacity=".3"/>
+    </g>
+  </svg>`;
+}
+
+function svgDress(bg1, bg2, c, c2, pat) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+      ${pat==='floral'?`<pattern id="pt" width="16" height="16" patternUnits="userSpaceOnUse">
+        <circle cx="8" cy="8" r="3" fill="${c2}" opacity=".4"/>
+        <circle cx="8" cy="8" r="1.2" fill="${bg1}" opacity=".6"/>
+        <circle cx="0" cy="0" r="1.5" fill="${c2}" opacity=".3"/>
+        <circle cx="16" cy="16" r="1.5" fill="${c2}" opacity=".3"/>
+      </pattern>`:''}
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M72,22 L128,22 L140,72 L178,208 L22,208 L60,72Z" fill="${c}"/>
+      ${pat==='floral'?`<path d="M72,22 L128,22 L140,72 L178,208 L22,208 L60,72Z" fill="url(#pt)"/>`:''}
+      <rect x="78" y="10" width="14" height="22" rx="6" fill="${c}"/>
+      <rect x="108" y="10" width="14" height="22" rx="6" fill="${c}"/>
+      <line x1="60" y1="72" x2="140" y2="72" stroke="${c2}" stroke-width="3" opacity=".4"/>
+    </g>
+  </svg>`;
+}
+
+function svgJacket(bg1, bg2, c, lapel, btn) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M38,28 L28,185 L172,185 L162,28 L135,18 L106,48 L94,48 L65,18Z" fill="${c}"/>
+      <path d="M94,48 L68,88 L65,18Z" fill="${lapel}"/>
+      <path d="M106,48 L132,88 L135,18Z" fill="${lapel}"/>
+      <line x1="94" y1="48" x2="100" y2="185" stroke="${lapel}" stroke-width="2" opacity=".3"/>
+      <line x1="106" y1="48" x2="100" y2="185" stroke="${lapel}" stroke-width="2" opacity=".3"/>
+      <circle cx="100" cy="95" r="4" fill="${btn}"/>
+      <circle cx="100" cy="118" r="4" fill="${btn}"/>
+      <circle cx="100" cy="141" r="4" fill="${btn}"/>
+    </g>
+  </svg>`;
+}
+
+function svgBlazer(bg1, bg2, c, lapel) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M40,25 L30,190 L170,190 L160,25 L132,15 L105,50 L95,50 L68,15Z" fill="${c}"/>
+      <path d="M95,50 L62,100 L68,15Z" fill="${lapel}" opacity=".85"/>
+      <path d="M105,50 L138,100 L132,15Z" fill="${lapel}" opacity=".85"/>
+      <rect x="28" y="138" width="30" height="12" rx="3" fill="${lapel}" opacity=".4"/>
+      <rect x="142" y="138" width="30" height="12" rx="3" fill="${lapel}" opacity=".4"/>
+      <line x1="95" y1="50" x2="100" y2="190" stroke="${lapel}" stroke-width="1.5" opacity=".2"/>
+      <line x1="105" y1="50" x2="100" y2="190" stroke="${lapel}" stroke-width="1.5" opacity=".2"/>
+    </g>
+  </svg>`;
+}
+
+function svgSkirt(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <rect x="65" y="22" width="70" height="28" rx="4" fill="${c}"/>
+      <path d="M58,50 L142,50 L185,210 L15,210Z" fill="${c}"/>
+      <line x1="58" y1="80" x2="188" y2="80" stroke="${c2}" stroke-width="2" opacity=".25"/>
+      <line x1="52" y1="120" x2="192" y2="120" stroke="${c2}" stroke-width="2" opacity=".25"/>
+      <line x1="42" y1="165" x2="196" y2="165" stroke="${c2}" stroke-width="2" opacity=".25"/>
+    </g>
+  </svg>`;
+}
+
+function svgShorts(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M30,48 L170,48 L175,112 L120,112 L115,158 L85,158 L80,112 L25,112Z" fill="${c}"/>
+      <line x1="30" y1="48" x2="170" y2="48" stroke="${c2}" stroke-width="4" opacity=".4"/>
+      <line x1="100" y1="112" x2="100" y2="158" stroke="${c2}" stroke-width="1.5" opacity=".2"/>
+      <rect x="142" y="55" width="22" height="30" rx="4" fill="${c2}" opacity=".2"/>
+    </g>
+  </svg>`;
+}
+
+function svgLeggings(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M52,25 L148,25 L152,108 L118,108 L115,205 L85,205 L82,108 L48,108Z" fill="${c}"/>
+      <line x1="52" y1="25" x2="148" y2="25" stroke="${c2}" stroke-width="4" opacity=".5"/>
+      <line x1="52" y1="40" x2="148" y2="40" stroke="${c2}" stroke-width="2" opacity=".2"/>
+      <path d="M55,80 Q65,76 75,80" fill="none" stroke="${c2}" stroke-width="1.5" opacity=".3"/>
+      <path d="M55,100 Q65,96 75,100" fill="none" stroke="${c2}" stroke-width="1.5" opacity=".3"/>
+    </g>
+  </svg>`;
+}
+
+function svgVest(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M42,22 L88,22 L84,185 L28,185Z" fill="${c}"/>
+      <path d="M112,22 L158,22 L172,185 L116,185Z" fill="${c}"/>
+      <path d="M88,22 L112,22 L116,185 L84,185Z" fill="${c2}"/>
+      <line x1="88" y1="22" x2="84" y2="185" stroke="${bg1}" stroke-width="1.5" opacity=".4"/>
+      <line x1="112" y1="22" x2="116" y2="185" stroke="${bg1}" stroke-width="1.5" opacity=".4"/>
+      <circle cx="100" cy="80" r="4" fill="${bg1}" opacity=".5"/>
+      <circle cx="100" cy="105" r="4" fill="${bg1}" opacity=".5"/>
+      <circle cx="100" cy="130" r="4" fill="${bg1}" opacity=".5"/>
+    </g>
+  </svg>`;
+}
+
+function svgBlouse(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M62,55 L42,35 L10,62 L30,70 L30,175 L170,175 L170,70 L190,62 L158,35 L138,55 Q118,68 100,68 Q82,68 62,55Z" fill="${c}"/>
+      <path d="M82,68 L100,105 L118,68" fill="${c2}" opacity=".6"/>
+      <path d="M62,55 L72,55 L70,175" fill="${c2}" opacity=".08"/>
+      <path d="M138,55 L128,55 L130,175" fill="${c2}" opacity=".08"/>
+    </g>
+  </svg>`;
+}
+
+function svgCardigan(bg1, bg2, c, btn) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M42,28 L32,185 L168,185 L158,28 L132,18 L105,48 L95,48 L68,18Z" fill="${c}"/>
+      <path d="M95,48 L65,95 L68,18Z" fill="${btn}" opacity=".4"/>
+      <path d="M105,48 L135,95 L132,18Z" fill="${btn}" opacity=".4"/>
+      <circle cx="100" cy="82"  r="5" fill="${btn}" opacity=".7"/>
+      <circle cx="100" cy="105" r="5" fill="${btn}" opacity=".7"/>
+      <circle cx="100" cy="128" r="5" fill="${btn}" opacity=".7"/>
+      <circle cx="100" cy="151" r="5" fill="${btn}" opacity=".7"/>
+      ${[60,72,84,96,108,120,132,144,156,168].map(y=>`<path d="M45,${y} Q52,${y-4} 58,${y} Q64,${y+4} 70,${y}" fill="none" stroke="${btn}" stroke-width="1.8" opacity=".2"/>`).join('')}
+    </g>
+  </svg>`;
+}
+
+function svgWindbreaker(bg1, bg2, c, stripe) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M32,35 L22,185 L178,185 L168,35 L138,15 L105,42 L95,42 L62,15Z" fill="${c}"/>
+      <path d="M32,35 L22,185 L42,185 L50,35Z" fill="${stripe}" opacity=".55"/>
+      <path d="M168,35 L178,185 L158,185 L150,35Z" fill="${stripe}" opacity=".55"/>
+      <ellipse cx="100" cy="22" rx="30" ry="22" fill="${c}"/>
+      <ellipse cx="100" cy="22" rx="20" ry="14" fill="${stripe}" opacity=".3"/>
+      <line x1="95" y1="42" x2="90" y2="90" stroke="${stripe}" stroke-width="3" opacity=".4"/>
+      <line x1="105" y1="42" x2="110" y2="90" stroke="${stripe}" stroke-width="3" opacity=".4"/>
+    </g>
+  </svg>`;
+}
+
+function svgFlannel(bg1, bg2, c, stripe) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+      <clipPath id="cp"><path d="M65,55 L45,35 L12,65 L32,73 L32,178 L168,178 L168,73 L188,65 L155,35 L135,55 Q115,68 100,68 Q85,68 65,55Z"/></clipPath>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M65,55 L45,35 L12,65 L32,73 L32,178 L168,178 L168,73 L188,65 L155,35 L135,55 Q115,68 100,68 Q85,68 65,55Z" fill="${c}"/>
+      <g clip-path="url(#cp)">
+        <line x1="68" y1="0" x2="68" y2="220" stroke="${stripe}" stroke-width="5" opacity=".3"/>
+        <line x1="100" y1="0" x2="100" y2="220" stroke="${stripe}" stroke-width="5" opacity=".3"/>
+        <line x1="132" y1="0" x2="132" y2="220" stroke="${stripe}" stroke-width="5" opacity=".3"/>
+        <line x1="0" y1="100" x2="200" y2="100" stroke="${stripe}" stroke-width="5" opacity=".3"/>
+        <line x1="0" y1="140" x2="200" y2="140" stroke="${stripe}" stroke-width="5" opacity=".3"/>
+      </g>
+      <ellipse cx="100" cy="60" rx="18" ry="9" fill="${bg2}" opacity=".4"/>
+    </g>
+  </svg>`;
+}
+
+function svgCropTop(bg1, bg2, c, c2) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+      <clipPath id="cp"><path d="M65,65 L45,45 L12,72 L32,80 L32,145 L168,145 L168,80 L188,72 L155,45 L135,65 Q115,78 100,78 Q85,78 65,65Z"/></clipPath>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M65,65 L45,45 L12,72 L32,80 L32,145 L168,145 L168,80 L188,72 L155,45 L135,65 Q115,78 100,78 Q85,78 65,65Z" fill="${c}"/>
+      <g clip-path="url(#cp)">
+        <line x1="0" y1="88" x2="200" y2="88" stroke="${c2}" stroke-width="6" opacity=".35"/>
+        <line x1="0" y1="106" x2="200" y2="106" stroke="${c2}" stroke-width="6" opacity=".35"/>
+        <line x1="0" y1="124" x2="200" y2="124" stroke="${c2}" stroke-width="6" opacity=".35"/>
+      </g>
+      <ellipse cx="100" cy="70" rx="18" ry="9" fill="${bg2}" opacity=".4"/>
+    </g>
+  </svg>`;
+}
+
+function svgSportTee(bg1, bg2, c, accent) {
+  return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
+      <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18"/></filter>
+    </defs>
+    <rect width="200" height="220" fill="url(#bg)"/>
+    <g filter="url(#sh)">
+      <path d="M65,55 L45,35 L12,65 L32,73 L32,178 L168,178 L168,73 L188,65 L155,35 L135,55 Q115,68 100,68 Q85,68 65,55Z" fill="${c}"/>
+      <path d="M32,73 L48,73 L48,178 L32,178Z" fill="${accent}" opacity=".7"/>
+      <path d="M152,73 L168,73 L168,178 L152,178Z" fill="${accent}" opacity=".7"/>
+      <ellipse cx="100" cy="60" rx="18" ry="9" fill="${bg2}" opacity=".4"/>
+    </g>
+  </svg>`;
+}
+
+// ── PRODUCT DATA ──
 const DEFAULT_PRODUCTS = [
-  { id:1,  name:"Essential White Tee",          style:"casual",     img:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",    price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
-  { id:2,  name:"Slim Fit Chino",               style:"casual",     img:"https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&h=600&fit=crop",    price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
-  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", img:"https://images.unsplash.com/photo-1556821840-3a63f15732d0?w=500&h=600&fit=crop",    price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
-  { id:4,  name:"Floral Summer Dress",          style:"casual",     img:"https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=600&fit=crop",    price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
-  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", img:"https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop",    price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
-  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    img:"https://images.unsplash.com/photo-1594938298603-f54fa35c1e0c?w=500&h=600&fit=crop",    price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
-  { id:7,  name:"Stripe Crop Top",              style:"casual",     img:"https://images.unsplash.com/photo-1503342564462-f8c1918dd8ff?w=500&h=600&fit=crop",    price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
-  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      img:"https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&h=600&fit=crop",    price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
-  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    img:"https://images.unsplash.com/photo-1542272454-0f1a8c29cd0d?w=500&h=600&fit=crop",    price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
-  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    img:"https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&h=600&fit=crop",    price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
-  { id:11, name:"Running Performance Tee",      style:"sport",      img:"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop",    price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
-  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    img:"https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",    price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
-  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    img:"https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=500&h=600&fit=crop",    price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
-  { id:14, name:"Wrap Midi Dress",              style:"elegant",    img:"https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",    price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
-  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", img:"https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",    price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
-  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    img:"https://images.unsplash.com/photo-1544923246-77307dd654cb?w=500&h=600&fit=crop",    price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
-  { id:17, name:"Satin Evening Blouse",         style:"elegant",    img:"https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=500&h=600&fit=crop",    price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
-  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    img:"https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=600&fit=crop",    price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
-  { id:19, name:"Compression Sport Shorts",     style:"sport",      img:"https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500&h=600&fit=crop",    price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
-  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    img:"https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?w=500&h=600&fit=crop",    price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
-  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    img:"https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=500&h=600&fit=crop",    price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
-  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     img:"https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=500&h=600&fit=crop",    price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
-  { id:23, name:"Neon Windbreaker",             style:"streetwear", img:"https://images.unsplash.com/photo-1604644401890-0bd678c83788?w=500&h=600&fit=crop",    price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
-  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    img:"https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&h=600&fit=crop",    price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
-  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      img:"https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&h=600&fit=crop",    price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
+  { id:1,  name:"Essential White Tee",          style:"casual",     svgFn:()=>svgTshirt('#e8e8e8','#f8f8f8','#ffffff','#ddd',''),              price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
+  { id:2,  name:"Slim Fit Chino",               style:"casual",     svgFn:()=>svgPants('#e8d5b0','#f5e6d0','#c8a96e','#a07840'),               price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
+  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", svgFn:()=>svgHoodie('#1a1a1a','#3a3a3a','#2d2d2d','#555'),                 price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
+  { id:4,  name:"Floral Summer Dress",          style:"casual",     svgFn:()=>svgDress('#fce4ec','#f8bbd0','#f48fb1','#fff','floral'),         price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
+  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", svgFn:()=>svgJacket('#111','#222','#1a1a1a','#3d2b1f','#555'),             price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
+  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    svgFn:()=>svgBlazer('#d0ebd4','#e8f5e9','#a5d6a7','#f5f5f5'),              price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
+  { id:7,  name:"Stripe Crop Top",              style:"casual",     svgFn:()=>svgCropTop('#bbdefb','#e3f2fd','#1565c0','#fff'),                price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
+  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      svgFn:()=>svgPants('#d1c4e9','#ede7f6','#7e57c2','#512da8'),               price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
+  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    svgFn:()=>svgJacket('#bbdefb','#e3f2fd','#1976d2','#0d47a1','#f9a825'),    price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
+  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    svgFn:()=>svgSkirt('#fff8e1','#ffe082','#ffca28','#ff7043'),                price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
+  { id:11, name:"Running Performance Tee",      style:"sport",      svgFn:()=>svgSportTee('#c8e6c9','#e8f5e9','#43a047','#fff'),               price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
+  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    svgFn:()=>svgTshirt('#fce4ec','#f8bbd0','#e91e63','#c2185b',''),           price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
+  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    svgFn:()=>svgShorts('#dcedc8','#f1f8e9','#558b2f','#33691e'),              price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
+  { id:14, name:"Wrap Midi Dress",              style:"elegant",    svgFn:()=>svgDress('#f3e5f5','#ce93d8','#9c27b0','#e1bee7',''),            price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
+  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", svgFn:()=>svgTshirt('#fff3e0','#ffe0b2','#ff9800','#212121',''),           price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
+  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    svgFn:()=>svgJacket('#b2dfdb','#e0f2f1','#26a69a','#004d40','#fff'),       price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
+  { id:17, name:"Satin Evening Blouse",         style:"elegant",    svgFn:()=>svgBlouse('#ede7f6','#d1c4e9','#7e57c2','#d4af37'),              price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
+  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    svgFn:()=>svgJeans('#bbdefb','#e3f2fd','#1565c0'),                         price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
+  { id:19, name:"Compression Sport Shorts",     style:"sport",      svgFn:()=>svgShorts('#ffcdd2','#ffebee','#e53935','#b71c1c'),              price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
+  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    svgFn:()=>svgPants('#efebe9','#d7ccc8','#8d6e63','#5d4037'),               price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
+  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    svgFn:()=>svgVest('#fff9c4','#fff176','#f9a825','#333'),                   price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
+  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     svgFn:()=>svgFlannel('#fbe9e7','#ffccbc','#bf360c','#fff'),                price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
+  { id:23, name:"Neon Windbreaker",             style:"streetwear", svgFn:()=>svgWindbreaker('#1b1b1b','#2d2d2d','#111','#00e676'),            price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
+  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    svgFn:()=>svgCardigan('#fff8e1','#ffe0b2','#ffb74d','#4a148c'),            price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
+  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      svgFn:()=>svgLeggings('#c5cae9','#e8eaf6','#3f51b5','#ff4081'),           price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
 ];
 
 function loadProducts() {
   try {
-    const s = localStorage.getItem('stylehub_products');
+    const s = localStorage.getItem('stylehub_products2');
     if (s) return JSON.parse(s);
   } catch(e) {}
-  localStorage.setItem('stylehub_products', JSON.stringify(DEFAULT_PRODUCTS));
-  return DEFAULT_PRODUCTS;
+  const data = DEFAULT_PRODUCTS.map(p => { const {svgFn,...rest}=p; return rest; });
+  localStorage.setItem('stylehub_products2', JSON.stringify(data));
+  return data;
 }
 
-let allProducts = loadProducts();
-let cart = 0;
+function getSVG(p) {
+  const found = DEFAULT_PRODUCTS.find(d => d.id === p.id);
+  if (found && found.svgFn) return found.svgFn();
+  return svgTshirt('#eee','#f5f5f5','#ccc','#bbb','');
+}
 
+let cart = 0;
 const badgeLabels = { sale:'SALE', new:'NEU', hot:'HOT' };
 const badgeClass  = { sale:'badge-sale', new:'badge-new', hot:'badge-hot' };
 const stars = n => '★'.repeat(n) + '☆'.repeat(5-n);
 const titleMap = { all:'Alle Produkte', casual:'Casual', streetwear:'Streetwear', elegant:'Elegant', sport:'Sport', vintage:'Vintage', outdoor:'Outdoor' };
 
 function card(p) {
-  const imgSrc = p.img || '';
   const colorsHTML = (p.colors||[]).map(c=>`<div class="dot" style="background:${c}"></div>`).join('');
   return `
   <div class="card">
     <div class="card-img">
       ${p.badge ? `<span class="badge ${badgeClass[p.badge]}">${badgeLabels[p.badge]}</span>` : ''}
       <button class="wish" onclick="this.textContent=this.textContent==='🤍'?'❤️':'🤍'">🤍</button>
-      ${imgSrc
-        ? `<img src="${imgSrc}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="img-fallback" style="display:none">👕</div>`
-        : `<div class="img-fallback">👕</div>`
-      }
+      ${getSVG(p)}
     </div>
     <div class="card-body">
       <div class="card-top">
@@ -322,15 +622,15 @@ function render(list) {
   const grid = document.getElementById('grid');
   grid.innerHTML = list.length
     ? list.map(card).join('')
-    : `<div class="empty-state"><p style="font-size:3rem">🛍️</p><p>Keine Produkte gefunden.</p></div>`;
+    : `<div style="grid-column:1/-1;text-align:center;padding:60px;color:#aaa">Keine Produkte gefunden.</div>`;
   document.getElementById('secCount').textContent = list.length + ' Artikel';
 }
 
 function filterBy(btn, style) {
   document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  allProducts = loadProducts();
-  const list = style === 'all' ? allProducts : allProducts.filter(p => p.style === style);
+  const all = loadProducts();
+  const list = style === 'all' ? all : all.filter(p => p.style === style);
   document.getElementById('secTitle').textContent = titleMap[style] || style;
   render(list);
 }
@@ -352,7 +652,7 @@ function showToast(msg) {
   t._t = setTimeout(() => t.classList.remove('show'), 3000);
 }
 
-render(allProducts);
+render(loadProducts());
 </script>
 </body>
 </html>

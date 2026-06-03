@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleHub – Admin Panel</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f0f0; color: #111; }
+
+    /* ── LOGIN SCREEN ── */
+    #loginScreen {
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    }
+    .login-box {
+      background: #fff; border-radius: 20px; padding: 48px 40px;
+      width: 380px; box-shadow: 0 20px 60px rgba(0,0,0,.4); text-align: center;
+    }
+    .login-box .logo { font-size: 1.8rem; font-weight: 900; letter-spacing: 3px; margin-bottom: 6px; }
+    .login-box .logo span { color: #e63946; }
+    .login-box .sub { color: #888; font-size: .9rem; margin-bottom: 32px; }
+    .login-box input {
+      width: 100%; padding: 13px 18px; border: 2px solid #ddd;
+      border-radius: 12px; font-size: .95rem; margin-bottom: 14px;
+      outline: none; transition: border-color .2s;
+    }
+    .login-box input:focus { border-color: #e63946; }
+    .login-box button {
+      width: 100%; background: #e63946; color: #fff; border: none;
+      padding: 14px; border-radius: 12px; font-size: 1rem;
+      font-weight: 700; cursor: pointer; transition: background .2s;
+    }
+    .login-box button:hover { background: #c1121f; }
+    .login-error { color: #e63946; font-size: .85rem; margin-top: 10px; display: none; }
+
+    /* ── ADMIN LAYOUT ── */
+    #adminPanel { display: none; }
+
+    .top-bar {
+      background: #111; height: 60px; padding: 0 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .top-bar .logo { color: #fff; font-size: 1.4rem; font-weight: 900; letter-spacing: 3px; }
+    .top-bar .logo span { color: #e63946; }
+    .top-bar .logo em { color: #aaa; font-style: normal; font-size: .85rem; margin-left: 10px; font-weight: 400; }
+    .top-bar-right { display: flex; gap: 12px; align-items: center; }
+    .btn-outline {
+      background: transparent; color: #aaa; border: 1px solid #444;
+      padding: 8px 18px; border-radius: 20px; font-size: .83rem;
+      font-weight: 600; cursor: pointer; text-decoration: none;
+      transition: all .2s; display: inline-block;
+    }
+    .btn-outline:hover { color: #fff; border-color: #888; }
+    .logout-btn {
+      background: #e63946; color: #fff; border: none;
+      padding: 8px 18px; border-radius: 20px; font-size: .83rem;
+      font-weight: 600; cursor: pointer; transition: background .2s;
+    }
+    .logout-btn:hover { background: #c1121f; }
+
+    .admin-body {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 24px;
+      padding: 28px 32px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* ── FORM PANEL ── */
+    .panel {
+      background: #fff; border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+      overflow: hidden;
+    }
+    .panel-header {
+      background: #111; color: #fff; padding: 18px 22px;
+      font-size: 1rem; font-weight: 700; display: flex;
+      align-items: center; justify-content: space-between;
+    }
+    .panel-header span { color: #e63946; }
+    .panel-body { padding: 22px; }
+
+    .form-group { margin-bottom: 16px; }
+    .form-group label {
+      display: block; font-size: .8rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .5px; color: #555; margin-bottom: 6px;
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 11px 14px; border: 2px solid #eee;
+      border-radius: 10px; font-size: .92rem; outline: none;
+      transition: border-color .2s; background: #fafafa;
+      font-family: inherit;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      border-color: #e63946; background: #fff;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+    .emoji-grid {
+      display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin-top: 8px;
+    }
+    .emoji-pick {
+      font-size: 1.4rem; padding: 6px; border: 2px solid #eee;
+      border-radius: 8px; cursor: pointer; text-align: center;
+      transition: border-color .2s, background .2s; background: #fafafa;
+    }
+    .emoji-pick:hover { border-color: #e63946; }
+    .emoji-pick.selected { border-color: #e63946; background: #fef0f0; }
+
+    #selectedEmoji {
+      font-size: 2rem; text-align: center; padding: 10px;
+      background: #f5f5f5; border-radius: 10px; margin-bottom: 8px;
+    }
+
+    .color-inputs { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .color-inputs input[type=color] {
+      width: 42px; height: 42px; padding: 2px;
+      border: 2px solid #eee; border-radius: 8px; cursor: pointer;
+    }
+    .color-inputs input[type=color]:focus { border-color: #e63946; }
+
+    .btn-submit {
+      width: 100%; background: #111; color: #fff; border: none;
+      padding: 14px; border-radius: 12px; font-size: .95rem;
+      font-weight: 700; cursor: pointer; transition: background .2s; margin-top: 4px;
+    }
+    .btn-submit:hover { background: #e63946; }
+    .btn-submit.editing { background: #1565c0; }
+    .btn-submit.editing:hover { background: #0d47a1; }
+
+    .btn-cancel {
+      width: 100%; background: #f0f0f0; color: #555; border: none;
+      padding: 12px; border-radius: 12px; font-size: .9rem;
+      font-weight: 600; cursor: pointer; transition: background .2s; margin-top: 8px; display: none;
+    }
+    .btn-cancel:hover { background: #ddd; }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px;
+    }
+    .stat-card {
+      background: #fff; border-radius: 12px; padding: 18px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06); text-align: center;
+    }
+    .stat-card .num { font-size: 1.8rem; font-weight: 900; color: #111; }
+    .stat-card .lbl { font-size: .75rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: .5px; margin-top: 2px; }
+
+    /* ── PRODUCT LIST ── */
+    .list-controls {
+      display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap;
+    }
+    .search-input {
+      flex: 1; min-width: 200px; padding: 10px 16px;
+      border: 2px solid #eee; border-radius: 24px; font-size: .9rem;
+      outline: none; transition: border-color .2s;
+    }
+    .search-input:focus { border-color: #e63946; }
+    .filter-select {
+      padding: 10px 16px; border: 2px solid #eee; border-radius: 24px;
+      font-size: .88rem; outline: none; cursor: pointer; background: #fff;
+    }
+    .filter-select:focus { border-color: #e63946; }
+
+    .product-list { display: flex; flex-direction: column; gap: 10px; }
+
+    .product-row {
+      background: #fff; border-radius: 12px; padding: 14px 18px;
+      display: flex; align-items: center; gap: 14px;
+      box-shadow: 0 1px 6px rgba(0,0,0,.06); transition: box-shadow .2s;
+    }
+    .product-row:hover { box-shadow: 0 4px 16px rgba(0,0,0,.1); }
+    .product-row.highlighted { border: 2px solid #e63946; }
+
+    .row-emoji { font-size: 2.2rem; min-width: 48px; text-align: center; }
+    .row-info { flex: 1; }
+    .row-info .rname { font-size: .95rem; font-weight: 700; margin-bottom: 3px; }
+    .row-info .rmeta { font-size: .78rem; color: #888; display: flex; gap: 10px; flex-wrap: wrap; }
+    .row-info .rmeta .rstyle {
+      background: #f0f0f0; padding: 2px 8px;
+      border-radius: 8px; font-weight: 600;
+    }
+    .row-colors { display: flex; gap: 4px; }
+    .row-color { width: 14px; height: 14px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px #ddd; }
+    .row-price { font-weight: 900; font-size: 1rem; min-width: 80px; text-align: right; }
+    .row-badge {
+      padding: 3px 10px; border-radius: 12px;
+      font-size: .68rem; font-weight: 800; text-transform: uppercase;
+    }
+    .rb-sale { background: #fde; color: #e63946; }
+    .rb-new  { background: #d4edda; color: #2d6a4f; }
+    .rb-hot  { background: #ffe8cc; color: #e67e22; }
+
+    .row-actions { display: flex; gap: 8px; }
+    .btn-edit {
+      background: #f0f4ff; color: #1565c0; border: none;
+      padding: 7px 16px; border-radius: 20px; font-size: .8rem;
+      font-weight: 700; cursor: pointer; transition: background .2s;
+    }
+    .btn-edit:hover { background: #dce8ff; }
+    .btn-delete {
+      background: #fff0f0; color: #e63946; border: none;
+      padding: 7px 14px; border-radius: 20px; font-size: .8rem;
+      font-weight: 700; cursor: pointer; transition: background .2s;
+    }
+    .btn-delete:hover { background: #ffdde0; }
+
+    .empty-list { text-align: center; padding: 48px; color: #aaa; font-size: .95rem; }
+
+    /* ── TOAST ── */
+    #toast {
+      position: fixed; bottom: 28px; right: 28px; background: #222; color: #fff;
+      padding: 14px 22px; border-radius: 12px; font-size: .9rem; font-weight: 600;
+      border-left: 4px solid #e63946; opacity: 0; transform: translateY(20px);
+      transition: all .3s; z-index: 999; pointer-events: none;
+    }
+    #toast.show { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 900px) {
+      .admin-body { grid-template-columns: 1fr; }
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── LOGIN ── -->
+<div id="loginScreen">
+  <div class="login-box">
+    <div class="logo">Style<span>Hub</span></div>
+    <div class="sub">Admin Panel — Bitte anmelden</div>
+    <input type="text" id="loginUser" placeholder="Benutzername" autocomplete="username" />
+    <input type="password" id="loginPass" placeholder="Passwort" autocomplete="current-password"
+           onkeydown="if(event.key==='Enter')doLogin()" />
+    <button onclick="doLogin()">Anmelden</button>
+    <div class="login-error" id="loginError">Falscher Benutzername oder Passwort.</div>
+    <div style="margin-top:16px;color:#ccc;font-size:.75rem">Standard: admin / admin123</div>
+  </div>
+</div>
+
+<!-- ── ADMIN PANEL ── -->
+<div id="adminPanel">
+  <div class="top-bar">
+    <div class="logo">Style<span>Hub</span> <em>Admin Panel</em></div>
+    <div class="top-bar-right">
+      <a href="shop.html" class="btn-outline">← Zur Website</a>
+      <button class="logout-btn" onclick="doLogout()">Abmelden</button>
+    </div>
+  </div>
+
+  <div class="admin-body">
+
+    <!-- LEFT: ADD / EDIT FORM -->
+    <div>
+      <div class="panel">
+        <div class="panel-header">
+          <span id="formTitle">+ Neues Produkt</span>
+        </div>
+        <div class="panel-body">
+
+          <div class="form-group">
+            <label>Produktname *</label>
+            <input type="text" id="fName" placeholder="z.B. Basic Streetwear Hoodie" />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Preis (€) *</label>
+              <input type="number" id="fPrice" placeholder="49.99" step="0.01" min="0" />
+            </div>
+            <div class="form-group">
+              <label>Alter Preis (€)</label>
+              <input type="number" id="fOld" placeholder="optional" step="0.01" min="0" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Kategorie *</label>
+              <select id="fStyle">
+                <option value="casual">Casual</option>
+                <option value="streetwear">Streetwear</option>
+                <option value="elegant">Elegant</option>
+                <option value="sport">Sport</option>
+                <option value="vintage">Vintage</option>
+                <option value="outdoor">Outdoor</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Badge</label>
+              <select id="fBadge">
+                <option value="">Kein Badge</option>
+                <option value="new">NEU</option>
+                <option value="sale">SALE</option>
+                <option value="hot">HOT</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Sterne (1–5)</label>
+            <select id="fStars">
+              <option value="5">★★★★★ (5)</option>
+              <option value="4" selected>★★★★☆ (4)</option>
+              <option value="3">★★★☆☆ (3)</option>
+              <option value="2">★★☆☆☆ (2)</option>
+              <option value="1">★☆☆☆☆ (1)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Emoji wählen *</label>
+            <div id="selectedEmoji">👕</div>
+            <div class="emoji-grid" id="emojiGrid"></div>
+          </div>
+
+          <div class="form-group">
+            <label>Hintergrundfarbe</label>
+            <div style="display:flex;gap:10px;align-items:center">
+              <input type="color" id="fBg1" value="#e0e0e0" style="width:50px;height:42px" />
+              <span style="color:#aaa;font-size:.85rem">→ Verlauf bis</span>
+              <input type="color" id="fBg2" value="#f5f5f5" style="width:50px;height:42px" />
+              <div id="bgPreview" style="flex:1;height:42px;border-radius:8px;border:1px solid #eee"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Farbvarianten (bis zu 3)</label>
+            <div class="color-inputs">
+              <input type="color" id="fC1" value="#ffffff" />
+              <input type="color" id="fC2" value="#111111" />
+              <input type="color" id="fC3" value="#e63946" />
+            </div>
+          </div>
+
+          <input type="hidden" id="editId" value="" />
+          <button class="btn-submit" id="submitBtn" onclick="submitProduct()">Produkt hinzufügen</button>
+          <button class="btn-cancel" id="cancelBtn" onclick="cancelEdit()">Abbrechen</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: PRODUCT LIST -->
+    <div>
+      <!-- Stats -->
+      <div class="stats-bar" id="statsBar"></div>
+
+      <div class="panel">
+        <div class="panel-header">
+          Alle Produkte <span id="listCount"></span>
+        </div>
+        <div class="panel-body">
+          <div class="list-controls">
+            <input class="search-input" id="searchInput" placeholder="🔍 Suchen..." oninput="renderList()" />
+            <select class="filter-select" id="filterSelect" onchange="renderList()">
+              <option value="all">Alle Kategorien</option>
+              <option value="casual">Casual</option>
+              <option value="streetwear">Streetwear</option>
+              <option value="elegant">Elegant</option>
+              <option value="sport">Sport</option>
+              <option value="vintage">Vintage</option>
+              <option value="outdoor">Outdoor</option>
+            </select>
+          </div>
+          <div class="product-list" id="productList"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+// ── AUTH ──
+const CREDENTIALS = { admin: 'admin123' };
+
+function doLogin() {
+  const u = document.getElementById('loginUser').value.trim();
+  const p = document.getElementById('loginPass').value;
+  if (CREDENTIALS[u] && CREDENTIALS[u] === p) {
+    sessionStorage.setItem('sh_admin', '1');
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('adminPanel').style.display = 'block';
+    init();
+  } else {
+    document.getElementById('loginError').style.display = 'block';
+  }
+}
+
+function doLogout() {
+  sessionStorage.removeItem('sh_admin');
+  location.reload();
+}
+
+if (sessionStorage.getItem('sh_admin') === '1') {
+  document.getElementById('loginScreen').style.display = 'none';
+  document.getElementById('adminPanel').style.display = 'block';
+}
+
+// ── DATA ──
+const DEFAULT_PRODUCTS = [
+  { id:1,  name:"Essential White Tee",          style:"casual",     emoji:"👕", bg:"linear-gradient(135deg,#e0e0e0,#f5f5f5)", price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
+  { id:2,  name:"Slim Fit Chino",               style:"casual",     emoji:"👖", bg:"linear-gradient(135deg,#d4a96a,#f5e6d0)", price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
+  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#1a1a1a,#3a3a3a)", price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
+  { id:4,  name:"Floral Summer Dress",          style:"casual",     emoji:"👗", bg:"linear-gradient(135deg,#f8bbd0,#fce4ec)", price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
+  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#111,#2d2d2d)",    price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
+  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    emoji:"🥼", bg:"linear-gradient(135deg,#c8e6c9,#e8f5e9)", price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
+  { id:7,  name:"Stripe Crop Top",              style:"casual",     emoji:"👚", bg:"linear-gradient(135deg,#bbdefb,#e3f2fd)", price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
+  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      emoji:"🩳", bg:"linear-gradient(135deg,#9575cd,#ede7f6)", price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
+  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    emoji:"🧥", bg:"linear-gradient(135deg,#1e88e5,#bbdefb)", price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
+  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    emoji:"👘", bg:"linear-gradient(135deg,#ffca28,#fff8e1)", price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
+  { id:11, name:"Running Performance Tee",      style:"sport",      emoji:"🏃", bg:"linear-gradient(135deg,#66bb6a,#e8f5e9)", price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
+  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    emoji:"🧣", bg:"linear-gradient(135deg,#e91e63,#fce4ec)", price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
+  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    emoji:"🩳", bg:"linear-gradient(135deg,#7cb342,#f1f8e9)", price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
+  { id:14, name:"Wrap Midi Dress",              style:"elegant",    emoji:"👗", bg:"linear-gradient(135deg,#ab47bc,#f3e5f5)", price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
+  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", emoji:"👕", bg:"linear-gradient(135deg,#ff9800,#fff3e0)", price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
+  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    emoji:"🧥", bg:"linear-gradient(135deg,#26a69a,#e0f2f1)", price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
+  { id:17, name:"Satin Evening Blouse",         style:"elegant",    emoji:"👚", bg:"linear-gradient(135deg,#7e57c2,#ede7f6)", price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
+  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    emoji:"👖", bg:"linear-gradient(135deg,#2196f3,#e3f2fd)", price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
+  { id:19, name:"Compression Sport Shorts",     style:"sport",      emoji:"🩳", bg:"linear-gradient(135deg,#ef5350,#ffebee)", price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
+  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    emoji:"👖", bg:"linear-gradient(135deg,#a1887f,#efebe9)", price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
+  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    emoji:"🦺", bg:"linear-gradient(135deg,#f9a825,#fff9c4)", price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
+  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     emoji:"🧥", bg:"linear-gradient(135deg,#d84315,#fbe9e7)", price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
+  { id:23, name:"Neon Windbreaker",             style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#00bfa5,#e8f5e9)", price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
+  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    emoji:"🧶", bg:"linear-gradient(135deg,#ffb74d,#fff8e1)", price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
+  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      emoji:"🧘", bg:"linear-gradient(135deg,#5c6bc0,#e8eaf6)", price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
+];
+
+const EMOJIS = ['👕','👖','👗','👘','👙','👚','🧥','🥼','🩱','🩲','🩳','🧣','🎩','🧤','🧦','👔','👒','🎒','🩴','👟','👠','👡','👢','🧶','🦺','🥾','🏃','🧘','🤸'];
+
+function loadProducts() {
+  const s = localStorage.getItem('stylehub_products');
+  if (s) return JSON.parse(s);
+  saveProducts(DEFAULT_PRODUCTS);
+  return DEFAULT_PRODUCTS;
+}
+
+function saveProducts(list) {
+  localStorage.setItem('stylehub_products', JSON.stringify(list));
+}
+
+let selectedEmoji = '👕';
+let editingId = null;
+
+function init() {
+  // Build emoji picker
+  const grid = document.getElementById('emojiGrid');
+  grid.innerHTML = EMOJIS.map(e =>
+    `<div class="emoji-pick${e===selectedEmoji?' selected':''}" onclick="pickEmoji('${e}')">${e}</div>`
+  ).join('');
+
+  // Live background preview
+  ['fBg1','fBg2'].forEach(id => {
+    document.getElementById(id).addEventListener('input', updateBgPreview);
+  });
+  updateBgPreview();
+
+  renderList();
+  renderStats();
+
+  if (!sessionStorage.getItem('sh_admin')) return;
+}
+
+function updateBgPreview() {
+  const c1 = document.getElementById('fBg1').value;
+  const c2 = document.getElementById('fBg2').value;
+  document.getElementById('bgPreview').style.background = `linear-gradient(135deg,${c1},${c2})`;
+}
+
+function pickEmoji(e) {
+  selectedEmoji = e;
+  document.getElementById('selectedEmoji').textContent = e;
+  document.querySelectorAll('.emoji-pick').forEach(el => el.classList.remove('selected'));
+  document.querySelectorAll('.emoji-pick').forEach(el => { if (el.textContent===e) el.classList.add('selected'); });
+}
+
+function submitProduct() {
+  const name  = document.getElementById('fName').value.trim();
+  const price = parseFloat(document.getElementById('fPrice').value);
+  const old   = parseFloat(document.getElementById('fOld').value) || null;
+  const style = document.getElementById('fStyle').value;
+  const badge = document.getElementById('fBadge').value || null;
+  const stars = parseInt(document.getElementById('fStars').value);
+  const c1    = document.getElementById('fBg1').value;
+  const c2    = document.getElementById('fBg2').value;
+  const col1  = document.getElementById('fC1').value;
+  const col2  = document.getElementById('fC2').value;
+  const col3  = document.getElementById('fC3').value;
+
+  if (!name) { showToast('⚠️ Bitte Produktname eingeben.'); return; }
+  if (!price || price <= 0) { showToast('⚠️ Bitte gültigen Preis eingeben.'); return; }
+
+  const products = loadProducts();
+
+  if (editingId !== null) {
+    const idx = products.findIndex(p => p.id === editingId);
+    if (idx !== -1) {
+      products[idx] = { ...products[idx], name, price, old, style, badge, stars, emoji: selectedEmoji,
+        bg: `linear-gradient(135deg,${c1},${c2})`, colors: [col1, col2, col3] };
+      saveProducts(products);
+      showToast('✅ Produkt aktualisiert!');
+    }
+    cancelEdit();
+  } else {
+    const newId = products.length ? Math.max(...products.map(p=>p.id)) + 1 : 1;
+    products.push({ id: newId, name, price, old, style, badge, stars, emoji: selectedEmoji,
+      bg: `linear-gradient(135deg,${c1},${c2})`, colors: [col1, col2, col3] });
+    saveProducts(products);
+    showToast('✅ Produkt "' + name + '" hinzugefügt!');
+    resetForm();
+  }
+
+  renderList();
+  renderStats();
+}
+
+function editProduct(id) {
+  const products = loadProducts();
+  const p = products.find(x => x.id === id);
+  if (!p) return;
+
+  editingId = id;
+  document.getElementById('fName').value  = p.name;
+  document.getElementById('fPrice').value = p.price;
+  document.getElementById('fOld').value   = p.old || '';
+  document.getElementById('fStyle').value = p.style;
+  document.getElementById('fBadge').value = p.badge || '';
+  document.getElementById('fStars').value = p.stars;
+  pickEmoji(p.emoji || '👕');
+
+  // Parse bg colors from gradient string
+  const match = (p.bg||'').match(/#[0-9a-fA-F]{3,6}/g);
+  if (match && match[0]) document.getElementById('fBg1').value = match[0];
+  if (match && match[1]) document.getElementById('fBg2').value = match[1];
+  updateBgPreview();
+
+  if (p.colors && p.colors[0]) document.getElementById('fC1').value = p.colors[0];
+  if (p.colors && p.colors[1]) document.getElementById('fC2').value = p.colors[1];
+  if (p.colors && p.colors[2]) document.getElementById('fC3').value = p.colors[2];
+
+  document.getElementById('formTitle').textContent = '✏️ Produkt bearbeiten';
+  document.getElementById('submitBtn').textContent = 'Änderungen speichern';
+  document.getElementById('submitBtn').classList.add('editing');
+  document.getElementById('cancelBtn').style.display = 'block';
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  document.getElementById('fName').focus();
+  renderList();
+}
+
+function cancelEdit() {
+  editingId = null;
+  resetForm();
+  document.getElementById('formTitle').textContent = '+ Neues Produkt';
+  document.getElementById('submitBtn').textContent = 'Produkt hinzufügen';
+  document.getElementById('submitBtn').classList.remove('editing');
+  document.getElementById('cancelBtn').style.display = 'none';
+  renderList();
+}
+
+function resetForm() {
+  document.getElementById('fName').value  = '';
+  document.getElementById('fPrice').value = '';
+  document.getElementById('fOld').value   = '';
+  document.getElementById('fStyle').value = 'casual';
+  document.getElementById('fBadge').value = '';
+  document.getElementById('fStars').value = '4';
+  pickEmoji('👕');
+  document.getElementById('fBg1').value = '#e0e0e0';
+  document.getElementById('fBg2').value = '#f5f5f5';
+  document.getElementById('fC1').value  = '#ffffff';
+  document.getElementById('fC2').value  = '#111111';
+  document.getElementById('fC3').value  = '#e63946';
+  updateBgPreview();
+}
+
+function deleteProduct(id) {
+  if (!confirm('Produkt wirklich löschen?')) return;
+  const products = loadProducts().filter(p => p.id !== id);
+  saveProducts(products);
+  if (editingId === id) cancelEdit();
+  renderList();
+  renderStats();
+  showToast('🗑️ Produkt gelöscht.');
+}
+
+function renderList() {
+  const q      = document.getElementById('searchInput').value.toLowerCase();
+  const filter = document.getElementById('filterSelect').value;
+  const products = loadProducts();
+
+  const filtered = products.filter(p => {
+    const matchSearch = p.name.toLowerCase().includes(q) || p.style.toLowerCase().includes(q);
+    const matchCat    = filter === 'all' || p.style === filter;
+    return matchSearch && matchCat;
+  });
+
+  document.getElementById('listCount').textContent = '(' + filtered.length + ')';
+
+  const badgeMap = { sale:'<span class="row-badge rb-sale">SALE</span>', new:'<span class="row-badge rb-new">NEU</span>', hot:'<span class="row-badge rb-hot">HOT</span>' };
+
+  if (!filtered.length) {
+    document.getElementById('productList').innerHTML = '<div class="empty-list">Keine Produkte gefunden.</div>';
+    return;
+  }
+
+  document.getElementById('productList').innerHTML = filtered.map(p => `
+    <div class="product-row${p.id===editingId?' highlighted':''}">
+      <div class="row-emoji" style="background:${p.bg||'#eee'};border-radius:10px;width:54px;height:54px;display:flex;align-items:center;justify-content:center;font-size:2rem">${p.emoji||'👕'}</div>
+      <div class="row-info">
+        <div class="rname">${p.name}</div>
+        <div class="rmeta">
+          <span class="rstyle">${p.style}</span>
+          <span>${'★'.repeat(p.stars||4)}</span>
+          ${p.badge ? badgeMap[p.badge]||'' : ''}
+        </div>
+      </div>
+      <div class="row-colors">
+        ${(p.colors||[]).map(c=>`<div class="row-color" style="background:${c}"></div>`).join('')}
+      </div>
+      <div class="row-price">€${Number(p.price).toFixed(2)}${p.old?`<br/><span style="font-size:.75rem;color:#bbb;text-decoration:line-through">€${Number(p.old).toFixed(2)}</span>`:''}</div>
+      <div class="row-actions">
+        <button class="btn-edit" onclick="editProduct(${p.id})">✏️ Edit</button>
+        <button class="btn-delete" onclick="deleteProduct(${p.id})">🗑️</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderStats() {
+  const products = loadProducts();
+  const total  = products.length;
+  const onSale = products.filter(p => p.badge === 'sale').length;
+  const cats   = new Set(products.map(p => p.style)).size;
+  const avgPrice = total ? (products.reduce((s,p)=>s+p.price,0)/total).toFixed(2) : '0.00';
+
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-card"><div class="num">${total}</div><div class="lbl">Produkte</div></div>
+    <div class="stat-card"><div class="num">${cats}</div><div class="lbl">Kategorien</div></div>
+    <div class="stat-card"><div class="num">${onSale}</div><div class="lbl">Im Sale</div></div>
+    <div class="stat-card"><div class="num">€${avgPrice}</div><div class="lbl">Ø Preis</div></div>
+  `;
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._t);
+  t._t = setTimeout(() => t.classList.remove('show'), 3200);
+}
+
+// Auto-init if already logged in
+if (sessionStorage.getItem('sh_admin') === '1') init();
+</script>
+</body>
+</html>

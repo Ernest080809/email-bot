@@ -6,252 +6,144 @@
   <title>StyleHub – Mode & Fashion</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f2f2f2; color: #111; }
 
-    body {
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      background: #f2f2f2;
-      color: #111;
-    }
-
-    /* HEADER */
     header {
-      background: #111;
-      height: 64px;
-      padding: 0 48px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 100;
+      background: #111; height: 64px; padding: 0 48px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
     }
     .logo { color: #fff; font-size: 1.7rem; font-weight: 900; letter-spacing: 3px; }
     .logo span { color: #e63946; }
     nav a { color: #aaa; text-decoration: none; margin-left: 28px; font-size: .9rem; font-weight: 600; }
     nav a:hover { color: #fff; }
+    .header-right { display: flex; gap: 12px; align-items: center; }
     .cart-pill {
-      background: #e63946;
-      color: #fff;
-      border: none;
-      padding: 10px 22px;
-      border-radius: 30px;
-      font-size: .88rem;
-      font-weight: 700;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      background: #e63946; color: #fff; border: none;
+      padding: 10px 22px; border-radius: 30px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 8px;
     }
     #cartBadge {
-      background: #fff;
-      color: #e63946;
-      border-radius: 50%;
-      width: 20px; height: 20px;
-      font-size: .72rem;
-      font-weight: 900;
+      background: #fff; color: #e63946; border-radius: 50%;
+      width: 20px; height: 20px; font-size: .72rem; font-weight: 900;
       display: flex; align-items: center; justify-content: center;
     }
+    .admin-link {
+      color: #aaa; text-decoration: none; font-size: .82rem;
+      font-weight: 600; padding: 8px 16px; border: 1px solid #333;
+      border-radius: 20px; transition: all .2s;
+    }
+    .admin-link:hover { color: #fff; border-color: #666; }
 
-    /* HERO */
     .hero {
       background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-      padding: 80px 80px 70px;
-      display: flex;
-      align-items: center;
-      gap: 60px;
+      padding: 80px 80px 70px; display: flex; align-items: center; gap: 60px;
     }
     .hero-left { flex: 1; }
     .hero-tag { color: #e63946; font-size: .85rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 16px; }
     .hero h1 { color: #fff; font-size: 3.4rem; font-weight: 900; line-height: 1.1; margin-bottom: 18px; }
-    .hero h1 b { color: #e63946; font-style: normal; }
+    .hero h1 b { color: #e63946; }
     .hero p { color: #aab; font-size: 1rem; line-height: 1.7; margin-bottom: 32px; max-width: 480px; }
     .hero-btn {
-      background: #e63946;
-      color: #fff;
-      border: none;
-      padding: 14px 40px;
-      border-radius: 30px;
-      font-size: 1rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: transform .2s, background .2s;
+      background: #e63946; color: #fff; border: none; padding: 14px 40px;
+      border-radius: 30px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: transform .2s, background .2s;
     }
     .hero-btn:hover { transform: scale(1.05); background: #c1121f; }
-    .hero-right {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      max-width: 320px;
-    }
+    .hero-right { display: flex; gap: 12px; flex-wrap: wrap; max-width: 300px; }
     .hero-chip {
-      background: rgba(255,255,255,.1);
-      color: #fff;
-      padding: 10px 18px;
-      border-radius: 20px;
-      font-size: .85rem;
-      font-weight: 600;
+      background: rgba(255,255,255,.1); color: #fff; padding: 10px 16px;
+      border-radius: 20px; font-size: .83rem; font-weight: 600;
       border: 1px solid rgba(255,255,255,.15);
     }
 
-    /* FILTERS */
     .filters {
-      background: #fff;
-      display: flex;
-      gap: 0;
-      padding: 0 48px;
-      border-bottom: 1px solid #ddd;
-      overflow-x: auto;
+      background: #fff; display: flex; padding: 0 48px;
+      border-bottom: 1px solid #ddd; overflow-x: auto;
     }
     .filters::-webkit-scrollbar { display: none; }
     .ftab {
-      padding: 18px 26px;
-      background: none;
-      border: none;
-      border-bottom: 3px solid transparent;
-      font-size: .88rem;
-      font-weight: 700;
-      color: #888;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: color .2s, border-color .2s;
+      padding: 18px 24px; background: none; border: none;
+      border-bottom: 3px solid transparent; font-size: .88rem;
+      font-weight: 700; color: #888; cursor: pointer; white-space: nowrap; transition: color .2s, border-color .2s;
     }
     .ftab:hover { color: #111; }
     .ftab.active { color: #e63946; border-bottom-color: #e63946; }
 
-    /* SECTION */
     .section-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 32px 48px 16px;
+      display: flex; align-items: center; justify-content: space-between; padding: 32px 48px 16px;
     }
     .section-head h2 { font-size: 1.4rem; font-weight: 800; }
     .section-head small { color: #888; font-size: .9rem; }
 
-    /* GRID */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 22px;
-      padding: 0 48px 64px;
+      gap: 22px; padding: 0 48px 64px;
     }
 
-    /* CARD */
     .card {
-      background: #fff;
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 2px 10px rgba(0,0,0,.07);
-      transition: transform .22s, box-shadow .22s;
+      background: #fff; border-radius: 16px; overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,.07); transition: transform .22s, box-shadow .22s;
     }
     .card:hover { transform: translateY(-6px); box-shadow: 0 14px 36px rgba(0,0,0,.13); }
-
     .card-img {
-      height: 220px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 6rem;
-      position: relative;
-      overflow: hidden;
-      user-select: none;
+      height: 220px; display: flex; align-items: center; justify-content: center;
+      font-size: 6rem; position: relative; overflow: hidden; user-select: none;
     }
-
-    /* colored gradient backgrounds per product */
     .card-img .emoji { position: relative; z-index: 1; line-height: 1; filter: drop-shadow(0 6px 12px rgba(0,0,0,.25)); }
-
     .badge {
-      position: absolute;
-      top: 12px; left: 12px;
-      padding: 4px 12px;
-      border-radius: 16px;
-      font-size: .7rem;
-      font-weight: 800;
-      letter-spacing: .5px;
-      text-transform: uppercase;
-      z-index: 2;
+      position: absolute; top: 12px; left: 12px; padding: 4px 12px;
+      border-radius: 16px; font-size: .7rem; font-weight: 800;
+      letter-spacing: .5px; text-transform: uppercase; z-index: 2;
     }
     .badge-sale { background: #e63946; color: #fff; }
     .badge-new  { background: #2d6a4f; color: #fff; }
     .badge-hot  { background: #e67e22; color: #fff; }
-
     .wish {
-      position: absolute;
-      top: 10px; right: 12px;
-      background: rgba(255,255,255,.9);
-      border: none;
-      width: 36px; height: 36px;
-      border-radius: 50%;
-      font-size: 1.1rem;
-      cursor: pointer;
-      z-index: 2;
-      transition: transform .2s;
-      display: flex; align-items: center; justify-content: center;
+      position: absolute; top: 10px; right: 12px;
+      background: rgba(255,255,255,.9); border: none;
+      width: 36px; height: 36px; border-radius: 50%;
+      font-size: 1.1rem; cursor: pointer; z-index: 2;
+      transition: transform .2s; display: flex; align-items: center; justify-content: center;
     }
     .wish:hover { transform: scale(1.2); }
-    .wish.on { color: #e63946; }
-
     .card-body { padding: 14px 16px 18px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
     .style-tag { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; color: #888; }
     .stars { color: #f9a825; font-size: .8rem; }
     .card-name { font-size: .97rem; font-weight: 700; margin-bottom: 10px; }
     .color-row { display: flex; gap: 5px; margin-bottom: 12px; }
-    .dot {
-      width: 16px; height: 16px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      box-shadow: 0 0 0 1.5px #ccc;
-    }
+    .dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1.5px #ccc; }
     .card-foot { display: flex; align-items: center; justify-content: space-between; }
     .price { font-size: 1.15rem; font-weight: 900; }
     .old-price { font-size: .82rem; color: #bbb; text-decoration: line-through; margin-left: 5px; }
     .btn-cart {
-      background: #111;
-      color: #fff;
-      border: none;
-      padding: 9px 18px;
-      border-radius: 24px;
-      font-size: .82rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background .2s;
+      background: #111; color: #fff; border: none; padding: 9px 18px;
+      border-radius: 24px; font-size: .82rem; font-weight: 700; cursor: pointer; transition: background .2s;
     }
     .btn-cart:hover { background: #e63946; }
     .btn-cart.ok { background: #2d6a4f; }
 
-    /* FOOTER */
+    .empty-state {
+      grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #aaa;
+    }
+    .empty-state div { font-size: 3rem; margin-bottom: 12px; }
+    .empty-state p { font-size: 1rem; }
+
     footer {
-      background: #111;
-      color: #666;
-      padding: 36px 48px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      align-items: center;
-      justify-content: space-between;
+      background: #111; color: #666; padding: 36px 48px;
+      display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;
     }
     footer .fl { color: #fff; font-size: 1.3rem; font-weight: 900; letter-spacing: 3px; }
     footer .fl span { color: #e63946; }
     footer a { color: #555; text-decoration: none; font-size: .85rem; margin-left: 20px; }
     footer a:hover { color: #fff; }
 
-    /* TOAST */
     #toast {
-      position: fixed;
-      bottom: 28px; right: 28px;
-      background: #222;
-      color: #fff;
-      padding: 14px 22px;
-      border-radius: 12px;
-      font-size: .9rem;
-      font-weight: 600;
-      border-left: 4px solid #e63946;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: all .3s;
-      z-index: 999;
-      pointer-events: none;
+      position: fixed; bottom: 28px; right: 28px; background: #222; color: #fff;
+      padding: 14px 22px; border-radius: 12px; font-size: .9rem; font-weight: 600;
+      border-left: 4px solid #e63946; opacity: 0; transform: translateY(20px);
+      transition: all .3s; z-index: 999; pointer-events: none;
     }
     #toast.show { opacity: 1; transform: translateY(0); }
 
@@ -268,26 +160,26 @@
 </head>
 <body>
 
-<!-- HEADER -->
 <header>
   <div class="logo">Style<span>Hub</span></div>
   <nav>
     <a href="#">Kollektion</a>
     <a href="#">Neuheiten</a>
     <a href="#">Sale</a>
-    <a href="#">Brands</a>
   </nav>
-  <button class="cart-pill" onclick="showToast('Warenkorb wird geöffnet...')">
-    🛒 Warenkorb <div id="cartBadge">0</div>
-  </button>
+  <div class="header-right">
+    <a href="admin.html" class="admin-link">⚙ Admin</a>
+    <button class="cart-pill" onclick="showToast('Warenkorb: ' + cart + ' Artikel')">
+      🛒 Warenkorb <div id="cartBadge">0</div>
+    </button>
+  </div>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-left">
     <p class="hero-tag">★ Frühling / Sommer 2026</p>
     <h1>Dein neuer<br/><b>Style.</b><br/>Deine Regeln.</h1>
-    <p>25 handverlesene Looks – von lässig bis elegant. Entdecke Mode die wirklich zu dir passt.</p>
+    <p>Handverlesene Looks – von lässig bis elegant. Entdecke Mode die wirklich zu dir passt.</p>
     <button class="hero-btn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">
       Kollektion entdecken →
     </button>
@@ -304,9 +196,8 @@
   </div>
 </section>
 
-<!-- FILTERS -->
 <div class="filters">
-  <button class="ftab active" onclick="filterBy(this,'all')">Alle (25)</button>
+  <button class="ftab active" onclick="filterBy(this,'all')">Alle</button>
   <button class="ftab" onclick="filterBy(this,'casual')">Casual</button>
   <button class="ftab" onclick="filterBy(this,'streetwear')">Streetwear</button>
   <button class="ftab" onclick="filterBy(this,'elegant')">Elegant</button>
@@ -315,23 +206,21 @@
   <button class="ftab" onclick="filterBy(this,'outdoor')">Outdoor</button>
 </div>
 
-<!-- PRODUCTS -->
 <div id="products">
   <div class="section-head">
     <h2 id="secTitle">Alle Produkte</h2>
-    <small id="secCount">25 Artikel</small>
+    <small id="secCount"></small>
   </div>
   <div class="grid" id="grid"></div>
 </div>
 
-<!-- FOOTER -->
 <footer>
   <div class="fl">Style<span>Hub</span></div>
   <div>
     <a href="#">Impressum</a>
     <a href="#">Datenschutz</a>
     <a href="#">AGB</a>
-    <a href="#">Kontakt</a>
+    <a href="admin.html">Admin</a>
   </div>
   <div style="font-size:.82rem">© 2026 StyleHub</div>
 </footer>
@@ -339,7 +228,7 @@
 <div id="toast"></div>
 
 <script>
-const items = [
+const DEFAULT_PRODUCTS = [
   { id:1,  name:"Essential White Tee",          style:"casual",     emoji:"👕", bg:"linear-gradient(135deg,#e0e0e0,#f5f5f5)", price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
   { id:2,  name:"Slim Fit Chino",               style:"casual",     emoji:"👖", bg:"linear-gradient(135deg,#d4a96a,#f5e6d0)", price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
   { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#1a1a1a,#3a3a3a)", price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
@@ -367,7 +256,16 @@ const items = [
   { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      emoji:"🧘", bg:"linear-gradient(135deg,#5c6bc0,#e8eaf6)", price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
 ];
 
+function loadProducts() {
+  const stored = localStorage.getItem('stylehub_products');
+  if (stored) return JSON.parse(stored);
+  localStorage.setItem('stylehub_products', JSON.stringify(DEFAULT_PRODUCTS));
+  return DEFAULT_PRODUCTS;
+}
+
+let allProducts = loadProducts();
 let cart = 0;
+let currentFilter = 'all';
 
 const badgeLabels = { sale:'SALE', new:'NEU', hot:'HOT' };
 const badgeClass  = { sale:'badge-sale', new:'badge-new', hot:'badge-hot' };
@@ -375,43 +273,49 @@ const stars = n => '★'.repeat(n) + '☆'.repeat(5-n);
 const titleMap = { all:'Alle Produkte', casual:'Casual', streetwear:'Streetwear', elegant:'Elegant', sport:'Sport', vintage:'Vintage', outdoor:'Outdoor' };
 
 function card(p) {
+  const colorsHTML = (p.colors||[]).map(c=>`<div class="dot" style="background:${c}"></div>`).join('');
   return `
-  <div class="card" data-style="${p.style}">
-    <div class="card-img" style="background:${p.bg}">
+  <div class="card">
+    <div class="card-img" style="background:${p.bg||'#eee'}">
       ${p.badge ? `<span class="badge ${badgeClass[p.badge]}">${badgeLabels[p.badge]}</span>` : ''}
-      <button class="wish" onclick="toggleWish(this)">🤍</button>
-      <span class="emoji">${p.emoji}</span>
+      <button class="wish" onclick="this.textContent=this.textContent==='🤍'?'❤️':'🤍'">🤍</button>
+      <span class="emoji">${p.emoji||'👕'}</span>
     </div>
     <div class="card-body">
       <div class="card-top">
-        <span class="style-tag">${p.style}</span>
-        <span class="stars">${stars(p.stars)}</span>
+        <span class="style-tag">${p.style||''}</span>
+        <span class="stars">${stars(p.stars||4)}</span>
       </div>
       <div class="card-name">${p.name}</div>
-      <div class="color-row">
-        ${p.colors.map(c=>`<div class="dot" style="background:${c}"></div>`).join('')}
-      </div>
+      <div class="color-row">${colorsHTML}</div>
       <div class="card-foot">
         <div>
-          <span class="price">€${p.price.toFixed(2)}</span>
-          ${p.old ? `<span class="old-price">€${p.old.toFixed(2)}</span>` : ''}
+          <span class="price">€${Number(p.price).toFixed(2)}</span>
+          ${p.old ? `<span class="old-price">€${Number(p.old).toFixed(2)}</span>` : ''}
         </div>
-        <button class="btn-cart" onclick="addCart(this,'${p.name}')">+ Warenkorb</button>
+        <button class="btn-cart" onclick="addCart(this,'${p.name.replace(/'/g,"\\'")}')">+ Warenkorb</button>
       </div>
     </div>
   </div>`;
 }
 
 function render(list) {
-  document.getElementById('grid').innerHTML = list.map(card).join('');
+  const grid = document.getElementById('grid');
+  if (!list.length) {
+    grid.innerHTML = `<div class="empty-state"><div>🛍️</div><p>Keine Produkte in dieser Kategorie.</p></div>`;
+  } else {
+    grid.innerHTML = list.map(card).join('');
+  }
   document.getElementById('secCount').textContent = list.length + ' Artikel';
 }
 
 function filterBy(btn, style) {
   document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  const list = style === 'all' ? items : items.filter(p => p.style === style);
-  document.getElementById('secTitle').textContent = titleMap[style];
+  currentFilter = style;
+  allProducts = loadProducts();
+  const list = style === 'all' ? allProducts : allProducts.filter(p => p.style === style);
+  document.getElementById('secTitle').textContent = titleMap[style]||style;
   render(list);
 }
 
@@ -424,11 +328,6 @@ function addCart(btn, name) {
   setTimeout(() => { btn.textContent = '+ Warenkorb'; btn.classList.remove('ok'); }, 2000);
 }
 
-function toggleWish(btn) {
-  const on = btn.classList.toggle('on');
-  btn.textContent = on ? '❤️' : '🤍';
-}
-
 function showToast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -437,7 +336,7 @@ function showToast(msg) {
   t._t = setTimeout(() => t.classList.remove('show'), 3000);
 }
 
-render(items);
+render(allProducts);
 </script>
 </body>
 </html>

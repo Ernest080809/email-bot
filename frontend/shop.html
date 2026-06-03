@@ -5,629 +5,439 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>StyleHub – Mode & Fashion</title>
   <style>
-    :root {
-      --black: #111111;
-      --white: #ffffff;
-      --accent: #e63946;
-      --gray-light: #f4f4f4;
-      --gray-mid: #dddddd;
-      --gray-dark: #666666;
-      --card-radius: 14px;
-    }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: var(--gray-light);
-      color: var(--black);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f2f2f2;
+      color: #111;
     }
 
-    /* ─── HEADER ─── */
+    /* HEADER */
     header {
-      background: var(--black);
-      padding: 0 48px;
+      background: #111;
       height: 64px;
+      padding: 0 48px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       position: sticky;
       top: 0;
-      z-index: 200;
+      z-index: 100;
     }
-    .logo {
-      font-size: 1.6rem;
-      font-weight: 900;
-      color: var(--white);
-      letter-spacing: 3px;
-      text-transform: uppercase;
-    }
-    .logo em { color: var(--accent); font-style: normal; }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: #aaa;
-      text-decoration: none;
-      font-size: .88rem;
-      font-weight: 600;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      transition: color .2s;
-    }
-    nav a:hover { color: var(--white); }
-    .cart-btn {
-      background: var(--accent);
-      color: var(--white);
+    .logo { color: #fff; font-size: 1.7rem; font-weight: 900; letter-spacing: 3px; }
+    .logo span { color: #e63946; }
+    nav a { color: #aaa; text-decoration: none; margin-left: 28px; font-size: .9rem; font-weight: 600; }
+    nav a:hover { color: #fff; }
+    .cart-pill {
+      background: #e63946;
+      color: #fff;
       border: none;
-      padding: 9px 20px;
-      border-radius: 24px;
-      font-size: .85rem;
+      padding: 10px 22px;
+      border-radius: 30px;
+      font-size: .88rem;
       font-weight: 700;
       cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 7px;
-      transition: background .2s;
+      gap: 8px;
     }
-    .cart-btn:hover { background: #c1121f; }
-    .cart-count {
-      background: var(--white);
-      color: var(--accent);
+    #cartBadge {
+      background: #fff;
+      color: #e63946;
       border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: .75rem;
+      width: 20px; height: 20px;
+      font-size: .72rem;
       font-weight: 900;
+      display: flex; align-items: center; justify-content: center;
     }
 
-    /* ─── HERO ─── */
+    /* HERO */
     .hero {
-      background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
-      min-height: 460px;
+      background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+      padding: 80px 80px 70px;
       display: flex;
       align-items: center;
-      padding: 60px 80px;
-      position: relative;
-      overflow: hidden;
+      gap: 60px;
     }
-    .hero::before {
-      content: '';
-      position: absolute;
-      right: -60px;
-      top: -60px;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(230,57,70,.25) 0%, transparent 70%);
-    }
-    .hero-text { max-width: 580px; position: relative; z-index: 1; }
-    .hero-text .pre {
-      color: var(--accent);
-      font-size: .85rem;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-    .hero-text h1 {
-      color: var(--white);
-      font-size: 3.6rem;
-      font-weight: 900;
-      line-height: 1.1;
-      margin-bottom: 20px;
-    }
-    .hero-text h1 span { color: var(--accent); }
-    .hero-text p {
-      color: #aab;
-      font-size: 1.05rem;
-      line-height: 1.7;
-      margin-bottom: 34px;
-    }
-    .hero-actions { display: flex; gap: 16px; }
-    .btn-primary {
-      background: var(--accent);
-      color: var(--white);
+    .hero-left { flex: 1; }
+    .hero-tag { color: #e63946; font-size: .85rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 16px; }
+    .hero h1 { color: #fff; font-size: 3.4rem; font-weight: 900; line-height: 1.1; margin-bottom: 18px; }
+    .hero h1 b { color: #e63946; font-style: normal; }
+    .hero p { color: #aab; font-size: 1rem; line-height: 1.7; margin-bottom: 32px; max-width: 480px; }
+    .hero-btn {
+      background: #e63946;
+      color: #fff;
       border: none;
-      padding: 14px 36px;
+      padding: 14px 40px;
       border-radius: 30px;
-      font-size: .95rem;
+      font-size: 1rem;
       font-weight: 700;
       cursor: pointer;
       transition: transform .2s, background .2s;
     }
-    .btn-primary:hover { transform: scale(1.05); background: #c1121f; }
-    .btn-secondary {
-      background: transparent;
-      color: var(--white);
-      border: 2px solid rgba(255,255,255,.3);
-      padding: 14px 36px;
-      border-radius: 30px;
-      font-size: .95rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: border-color .2s, color .2s;
-    }
-    .btn-secondary:hover { border-color: var(--white); }
-    .hero-stats {
+    .hero-btn:hover { transform: scale(1.05); background: #c1121f; }
+    .hero-right {
       display: flex;
-      gap: 48px;
-      margin-top: 48px;
+      gap: 16px;
+      flex-wrap: wrap;
+      max-width: 320px;
     }
-    .stat-item { color: var(--white); }
-    .stat-item .num { font-size: 2rem; font-weight: 900; color: var(--accent); }
-    .stat-item .label { font-size: .78rem; color: #aab; letter-spacing: 1px; text-transform: uppercase; }
+    .hero-chip {
+      background: rgba(255,255,255,.1);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 20px;
+      font-size: .85rem;
+      font-weight: 600;
+      border: 1px solid rgba(255,255,255,.15);
+    }
 
-    /* ─── FILTER BAR ─── */
-    .filter-wrap {
-      background: var(--white);
-      border-bottom: 1px solid var(--gray-mid);
-      padding: 0 48px;
+    /* FILTERS */
+    .filters {
+      background: #fff;
       display: flex;
-      align-items: center;
-      gap: 6px;
+      gap: 0;
+      padding: 0 48px;
+      border-bottom: 1px solid #ddd;
       overflow-x: auto;
     }
-    .filter-wrap::-webkit-scrollbar { display: none; }
-    .filter-tab {
-      padding: 18px 24px;
+    .filters::-webkit-scrollbar { display: none; }
+    .ftab {
+      padding: 18px 26px;
       background: none;
       border: none;
+      border-bottom: 3px solid transparent;
       font-size: .88rem;
-      font-weight: 600;
-      color: var(--gray-dark);
+      font-weight: 700;
+      color: #888;
       cursor: pointer;
       white-space: nowrap;
-      border-bottom: 3px solid transparent;
       transition: color .2s, border-color .2s;
     }
-    .filter-tab:hover { color: var(--black); }
-    .filter-tab.active {
-      color: var(--accent);
-      border-bottom-color: var(--accent);
-    }
+    .ftab:hover { color: #111; }
+    .ftab.active { color: #e63946; border-bottom-color: #e63946; }
 
-    /* ─── SECTION HEADER ─── */
-    .section-header {
+    /* SECTION */
+    .section-head {
       display: flex;
-      align-items: baseline;
+      align-items: center;
       justify-content: space-between;
-      padding: 36px 48px 20px;
+      padding: 32px 48px 16px;
     }
-    .section-header h2 { font-size: 1.4rem; font-weight: 800; }
-    .section-header span { font-size: .88rem; color: var(--gray-dark); }
+    .section-head h2 { font-size: 1.4rem; font-weight: 800; }
+    .section-head small { color: #888; font-size: .9rem; }
 
-    /* ─── PRODUCT GRID ─── */
+    /* GRID */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-      gap: 24px;
-      padding: 0 48px 72px;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 22px;
+      padding: 0 48px 64px;
     }
 
-    /* ─── PRODUCT CARD ─── */
+    /* CARD */
     .card {
-      background: var(--white);
-      border-radius: var(--card-radius);
+      background: #fff;
+      border-radius: 16px;
       overflow: hidden;
-      box-shadow: 0 1px 6px rgba(0,0,0,.07);
-      transition: box-shadow .25s, transform .25s;
+      box-shadow: 0 2px 10px rgba(0,0,0,.07);
+      transition: transform .22s, box-shadow .22s;
     }
-    .card:hover {
-      box-shadow: 0 12px 32px rgba(0,0,0,.13);
-      transform: translateY(-5px);
-    }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 14px 36px rgba(0,0,0,.13); }
 
-    .card-thumb {
-      height: 210px;
+    .card-img {
+      height: 220px;
       display: flex;
       align-items: center;
       justify-content: center;
+      font-size: 6rem;
       position: relative;
       overflow: hidden;
+      user-select: none;
     }
 
-    /* Clothing visuals using CSS */
-    .cloth {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+    /* colored gradient backgrounds per product */
+    .card-img .emoji { position: relative; z-index: 1; line-height: 1; filter: drop-shadow(0 6px 12px rgba(0,0,0,.25)); }
 
-    /* T-Shirt SVG-like shape */
-    .tshirt-shape {
-      width: 90px;
-      height: 80px;
-      clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 80% 20%, 80% 100%, 20% 100%, 20% 20%, 0% 20%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .pants-shape {
-      width: 70px;
-      height: 90px;
-      clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 65% 50%, 65% 100%, 55% 100%, 50% 55%, 45% 100%, 35% 100%, 35% 50%, 0% 50%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .dress-shape {
-      width: 80px;
-      height: 100px;
-      clip-path: polygon(30% 0%, 70% 0%, 85% 15%, 100% 55%, 85% 100%, 15% 100%, 0% 55%, 15% 15%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .jacket-shape {
-      width: 95px;
-      height: 88px;
-      clip-path: polygon(15% 0%, 35% 0%, 50% 15%, 65% 0%, 85% 0%, 100% 15%, 100% 100%, 65% 100%, 65% 40%, 35% 40%, 35% 100%, 0% 100%, 0% 15%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .skirt-shape {
-      width: 80px;
-      height: 80px;
-      clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .shorts-shape {
-      width: 78px;
-      height: 65px;
-      clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 65% 50%, 65% 100%, 55% 100%, 50% 55%, 45% 100%, 35% 100%, 35% 50%, 0% 50%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .hoodie-shape {
-      width: 95px;
-      height: 85px;
-      clip-path: polygon(20% 0%, 42% 0%, 50% 12%, 58% 0%, 80% 0%, 100% 20%, 80% 20%, 80% 100%, 20% 100%, 20% 20%, 0% 20%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-    .leggings-shape {
-      width: 65px;
-      height: 100px;
-      clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 65% 50%, 65% 100%, 55% 100%, 50% 55%, 45% 100%, 35% 100%, 35% 50%, 0% 50%);
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,.2));
-    }
-
-    .card-badge {
+    .badge {
       position: absolute;
-      top: 12px;
-      left: 14px;
-      padding: 4px 11px;
-      border-radius: 20px;
+      top: 12px; left: 12px;
+      padding: 4px 12px;
+      border-radius: 16px;
       font-size: .7rem;
       font-weight: 800;
       letter-spacing: .5px;
       text-transform: uppercase;
       z-index: 2;
     }
-    .badge-sale { background: var(--accent); color: var(--white); }
-    .badge-new  { background: #2d6a4f;       color: var(--white); }
-    .badge-hot  { background: #e67e22;        color: var(--white); }
+    .badge-sale { background: #e63946; color: #fff; }
+    .badge-new  { background: #2d6a4f; color: #fff; }
+    .badge-hot  { background: #e67e22; color: #fff; }
 
-    .wishlist-btn {
+    .wish {
       position: absolute;
-      top: 10px;
-      right: 12px;
+      top: 10px; right: 12px;
       background: rgba(255,255,255,.9);
       border: none;
-      width: 34px;
-      height: 34px;
+      width: 36px; height: 36px;
       border-radius: 50%;
-      font-size: 1rem;
+      font-size: 1.1rem;
       cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: transform .2s;
       z-index: 2;
+      transition: transform .2s;
+      display: flex; align-items: center; justify-content: center;
     }
-    .wishlist-btn:hover { transform: scale(1.2); }
-    .wishlist-btn.liked { color: var(--accent); }
+    .wish:hover { transform: scale(1.2); }
+    .wish.on { color: #e63946; }
 
-    .card-info { padding: 14px 16px 16px; }
-    .card-meta {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 6px;
-    }
-    .style-chip {
-      font-size: .7rem;
-      font-weight: 700;
-      color: #888;
-      text-transform: uppercase;
-      letter-spacing: .8px;
-    }
-    .stars { color: #f9a825; font-size: .78rem; }
-    .card-name {
-      font-size: .98rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-      line-height: 1.3;
-    }
-    .card-colors {
-      display: flex;
-      gap: 5px;
-      margin-bottom: 12px;
-    }
-    .color-dot {
-      width: 16px;
-      height: 16px;
+    .card-body { padding: 14px 16px 18px; }
+    .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .style-tag { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; color: #888; }
+    .stars { color: #f9a825; font-size: .8rem; }
+    .card-name { font-size: .97rem; font-weight: 700; margin-bottom: 10px; }
+    .color-row { display: flex; gap: 5px; margin-bottom: 12px; }
+    .dot {
+      width: 16px; height: 16px;
       border-radius: 50%;
-      border: 2px solid var(--white);
+      border: 2px solid #fff;
       box-shadow: 0 0 0 1.5px #ccc;
-      cursor: pointer;
-      transition: transform .15s;
     }
-    .color-dot:hover { transform: scale(1.3); }
-    .card-bottom {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .price-wrap .price {
-      font-size: 1.15rem;
-      font-weight: 900;
-      color: var(--black);
-    }
-    .price-wrap .old {
-      font-size: .8rem;
-      color: #bbb;
-      text-decoration: line-through;
-      margin-left: 5px;
-    }
-    .add-btn {
-      background: var(--black);
-      color: var(--white);
+    .card-foot { display: flex; align-items: center; justify-content: space-between; }
+    .price { font-size: 1.15rem; font-weight: 900; }
+    .old-price { font-size: .82rem; color: #bbb; text-decoration: line-through; margin-left: 5px; }
+    .btn-cart {
+      background: #111;
+      color: #fff;
       border: none;
       padding: 9px 18px;
-      border-radius: 22px;
+      border-radius: 24px;
       font-size: .82rem;
       font-weight: 700;
       cursor: pointer;
-      transition: background .2s, transform .15s;
+      transition: background .2s;
     }
-    .add-btn:hover { background: var(--accent); transform: scale(1.04); }
-    .add-btn.added { background: #2d6a4f; }
+    .btn-cart:hover { background: #e63946; }
+    .btn-cart.ok { background: #2d6a4f; }
 
-    /* ─── FOOTER ─── */
+    /* FOOTER */
     footer {
-      background: var(--black);
-      color: #777;
-      padding: 40px 48px;
+      background: #111;
+      color: #666;
+      padding: 36px 48px;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
       flex-wrap: wrap;
       gap: 20px;
+      align-items: center;
+      justify-content: space-between;
     }
-    footer .f-logo { font-size: 1.3rem; font-weight: 900; color: var(--white); letter-spacing: 3px; }
-    footer .f-logo em { color: var(--accent); font-style: normal; }
-    footer .f-links { display: flex; gap: 24px; }
-    footer .f-links a { color: #666; text-decoration: none; font-size: .85rem; transition: color .2s; }
-    footer .f-links a:hover { color: var(--white); }
-    footer .f-copy { font-size: .82rem; }
+    footer .fl { color: #fff; font-size: 1.3rem; font-weight: 900; letter-spacing: 3px; }
+    footer .fl span { color: #e63946; }
+    footer a { color: #555; text-decoration: none; font-size: .85rem; margin-left: 20px; }
+    footer a:hover { color: #fff; }
 
-    /* ─── CART TOAST ─── */
-    .toast {
+    /* TOAST */
+    #toast {
       position: fixed;
-      bottom: 28px;
-      right: 28px;
+      bottom: 28px; right: 28px;
       background: #222;
-      color: var(--white);
+      color: #fff;
       padding: 14px 22px;
       border-radius: 12px;
       font-size: .9rem;
       font-weight: 600;
-      transform: translateY(80px);
+      border-left: 4px solid #e63946;
       opacity: 0;
+      transform: translateY(20px);
       transition: all .3s;
       z-index: 999;
-      border-left: 4px solid var(--accent);
+      pointer-events: none;
     }
-    .toast.show { transform: translateY(0); opacity: 1; }
+    #toast.show { opacity: 1; transform: translateY(0); }
 
     @media (max-width: 768px) {
-      header { padding: 0 20px; }
+      header { padding: 0 16px; }
       nav { display: none; }
-      .hero { padding: 48px 24px; }
-      .hero-text h1 { font-size: 2.4rem; }
-      .hero-stats { gap: 28px; }
-      .section-header, .grid { padding-left: 20px; padding-right: 20px; }
-      .filter-wrap { padding: 0 16px; }
-      footer { padding: 32px 20px; flex-direction: column; }
+      .hero { padding: 40px 20px; flex-direction: column; gap: 28px; }
+      .hero h1 { font-size: 2.2rem; }
+      .hero-right { display: none; }
+      .filters, .section-head, .grid { padding-left: 16px; padding-right: 16px; }
+      footer { padding: 28px 16px; }
     }
   </style>
 </head>
 <body>
 
-<!-- ─── HEADER ─── -->
+<!-- HEADER -->
 <header>
-  <div class="logo">Style<em>Hub</em></div>
+  <div class="logo">Style<span>Hub</span></div>
   <nav>
     <a href="#">Kollektion</a>
     <a href="#">Neuheiten</a>
     <a href="#">Sale</a>
     <a href="#">Brands</a>
   </nav>
-  <button class="cart-btn" onclick="toggleCart()">
-    &#128722; Warenkorb
-    <span class="cart-count" id="cartCount">0</span>
+  <button class="cart-pill" onclick="showToast('Warenkorb wird geöffnet...')">
+    🛒 Warenkorb <div id="cartBadge">0</div>
   </button>
 </header>
 
-<!-- ─── HERO ─── -->
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-text">
-    <p class="pre">&#9733; Frühjahr / Sommer 2026</p>
-    <h1>Dein neuer<br /><span>Style.</span> Deine<br />Regeln.</h1>
-    <p>25 handverlesene Looks – von lässig bis elegant. Entdecke Mode, die wirklich zu dir passt.</p>
-    <div class="hero-actions">
-      <button class="btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Kollektion entdecken</button>
-      <button class="btn-secondary">Lookbook ansehen</button>
-    </div>
-    <div class="hero-stats">
-      <div class="stat-item"><div class="num">25</div><div class="label">Styles</div></div>
-      <div class="stat-item"><div class="num">6</div><div class="label">Kategorien</div></div>
-      <div class="stat-item"><div class="num">Free</div><div class="label">Versand ab 49€</div></div>
-    </div>
+  <div class="hero-left">
+    <p class="hero-tag">★ Frühling / Sommer 2026</p>
+    <h1>Dein neuer<br/><b>Style.</b><br/>Deine Regeln.</h1>
+    <p>25 handverlesene Looks – von lässig bis elegant. Entdecke Mode die wirklich zu dir passt.</p>
+    <button class="hero-btn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">
+      Kollektion entdecken →
+    </button>
+  </div>
+  <div class="hero-right">
+    <div class="hero-chip">👕 Casual</div>
+    <div class="hero-chip">🧥 Streetwear</div>
+    <div class="hero-chip">✨ Elegant</div>
+    <div class="hero-chip">🏃 Sport</div>
+    <div class="hero-chip">🎸 Vintage</div>
+    <div class="hero-chip">🏕️ Outdoor</div>
+    <div class="hero-chip">Free Versand ab 49€</div>
+    <div class="hero-chip">30 Tage Rückgabe</div>
   </div>
 </section>
 
-<!-- ─── FILTER TABS ─── -->
-<div class="filter-wrap">
-  <button class="filter-tab active" onclick="filterBy(this,'all')">Alle (25)</button>
-  <button class="filter-tab" onclick="filterBy(this,'casual')">Casual</button>
-  <button class="filter-tab" onclick="filterBy(this,'streetwear')">Streetwear</button>
-  <button class="filter-tab" onclick="filterBy(this,'elegant')">Elegant</button>
-  <button class="filter-tab" onclick="filterBy(this,'sport')">Sport</button>
-  <button class="filter-tab" onclick="filterBy(this,'vintage')">Vintage</button>
-  <button class="filter-tab" onclick="filterBy(this,'outdoor')">Outdoor</button>
+<!-- FILTERS -->
+<div class="filters">
+  <button class="ftab active" onclick="filterBy(this,'all')">Alle (25)</button>
+  <button class="ftab" onclick="filterBy(this,'casual')">Casual</button>
+  <button class="ftab" onclick="filterBy(this,'streetwear')">Streetwear</button>
+  <button class="ftab" onclick="filterBy(this,'elegant')">Elegant</button>
+  <button class="ftab" onclick="filterBy(this,'sport')">Sport</button>
+  <button class="ftab" onclick="filterBy(this,'vintage')">Vintage</button>
+  <button class="ftab" onclick="filterBy(this,'outdoor')">Outdoor</button>
 </div>
 
-<!-- ─── PRODUCT SECTION ─── -->
+<!-- PRODUCTS -->
 <div id="products">
-  <div class="section-header">
-    <h2 id="sectionTitle">Alle Produkte</h2>
-    <span id="resultCount">25 Artikel</span>
+  <div class="section-head">
+    <h2 id="secTitle">Alle Produkte</h2>
+    <small id="secCount">25 Artikel</small>
   </div>
-  <div class="grid" id="productGrid"></div>
+  <div class="grid" id="grid"></div>
 </div>
 
-<!-- ─── FOOTER ─── -->
+<!-- FOOTER -->
 <footer>
-  <div class="f-logo">Style<em>Hub</em></div>
-  <div class="f-links">
+  <div class="fl">Style<span>Hub</span></div>
+  <div>
     <a href="#">Impressum</a>
     <a href="#">Datenschutz</a>
     <a href="#">AGB</a>
     <a href="#">Kontakt</a>
-    <a href="#">Versand & Rückgabe</a>
   </div>
-  <div class="f-copy">&copy; 2026 StyleHub. Alle Rechte vorbehalten.</div>
+  <div style="font-size:.82rem">© 2026 StyleHub</div>
 </footer>
 
-<!-- ─── TOAST ─── -->
-<div class="toast" id="toast"></div>
+<div id="toast"></div>
 
 <script>
-  const products = [
-    { id:1,  name:"Essential White Tee",        style:"casual",     shape:"tshirt",   bg:"#e8e8e8", color:"#ccc",    price:19.99, old:null,   badge:"new",  stars:4, colors:["#ffffff","#222222","#c0392b"] },
-    { id:2,  name:"Slim Chino Pants",            style:"casual",     shape:"pants",    bg:"#f5e6d0", color:"#d4a96a", price:49.99, old:64.99,  badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
-    { id:3,  name:"Oversized Streetwear Hoodie", style:"streetwear", shape:"hoodie",   bg:"#1a1a1a", color:"#333",    price:64.99, old:84.99,  badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
-    { id:4,  name:"Floral Summer Dress",         style:"casual",     shape:"dress",    bg:"#fce4ec", color:"#f48fb1", price:54.99, old:null,   badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
-    { id:5,  name:"Leather Biker Jacket",        style:"streetwear", shape:"jacket",   bg:"#212121", color:"#111",    price:129.99,old:159.99, badge:"sale", stars:5, colors:["#111111","#795548","#b71c1c"] },
-    { id:6,  name:"Linen Summer Blazer",         style:"elegant",    shape:"jacket",   bg:"#e8f5e9", color:"#a5d6a7", price:89.99, old:null,   badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
-    { id:7,  name:"Stripe Crop Top",             style:"casual",     shape:"tshirt",   bg:"#e3f2fd", color:"#90caf9", price:24.99, old:null,   badge:null,   stars:4, colors:["#90caf9","#ffffff","#1565c0"] },
-    { id:8,  name:"Tapered Jogger Pants",        style:"sport",      shape:"pants",    bg:"#ede7f6", color:"#9575cd", price:39.99, old:49.99,  badge:"sale", stars:4, colors:["#9575cd","#333333","#fff"] },
-    { id:9,  name:"Classic Denim Jacket",        style:"vintage",    shape:"jacket",   bg:"#bbdefb", color:"#42a5f5", price:74.99, old:null,   badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
-    { id:10, name:"Boho Maxi Skirt",             style:"vintage",    shape:"skirt",    bg:"#fff8e1", color:"#ffca28", price:44.99, old:null,   badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
-    { id:11, name:"Running Performance Tee",     style:"sport",      shape:"tshirt",   bg:"#e8f5e9", color:"#66bb6a", price:34.99, old:44.99,  badge:"sale", stars:4, colors:["#66bb6a","#ffffff","#333"] },
-    { id:12, name:"Turtleneck Merino Sweater",   style:"elegant",    shape:"tshirt",   bg:"#fce4ec", color:"#e91e63", price:59.99, old:null,   badge:"new",  stars:5, colors:["#e91e63","#222222","#795548"] },
-    { id:13, name:"Utility Cargo Shorts",        style:"outdoor",    shape:"shorts",   bg:"#f1f8e9", color:"#7cb342", price:42.99, old:null,   badge:null,   stars:3, colors:["#558b2f","#795548","#000000"] },
-    { id:14, name:"Wrap Midi Dress",             style:"elegant",    shape:"dress",    bg:"#f3e5f5", color:"#ab47bc", price:79.99, old:99.99,  badge:"sale", stars:5, colors:["#ab47bc","#000000","#ffffff"] },
-    { id:15, name:"Graphic Print Streetwear Tee",style:"streetwear", shape:"tshirt",   bg:"#fff3e0", color:"#ff9800", price:29.99, old:null,   badge:"hot",  stars:5, colors:["#ff9800","#212121","#ffffff"] },
-    { id:16, name:"Fleece Mountain Jacket",      style:"outdoor",    shape:"jacket",   bg:"#e0f2f1", color:"#26a69a", price:109.99,old:139.99, badge:"sale", stars:4, colors:["#26a69a","#ff5722","#37474f"] },
-    { id:17, name:"Satin Evening Blouse",        style:"elegant",    shape:"tshirt",   bg:"#ede7f6", color:"#7e57c2", price:69.99, old:null,   badge:"new",  stars:5, colors:["#7e57c2","#ffffff","#d4af37"] },
-    { id:18, name:"High-Waist Mom Jeans",        style:"vintage",    shape:"pants",    bg:"#e3f2fd", color:"#2196f3", price:54.99, old:69.99,  badge:"sale", stars:4, colors:["#2196f3","#ffffff","#f9a825"] },
-    { id:19, name:"Compression Sport Shorts",    style:"sport",      shape:"shorts",   bg:"#ffebee", color:"#ef5350", price:27.99, old:null,   badge:null,   stars:4, colors:["#e53935","#111111","#1565c0"] },
-    { id:20, name:"Wide Leg Palazzo Pants",      style:"elegant",    shape:"pants",    bg:"#efebe9", color:"#a1887f", price:84.99, old:null,   badge:"new",  stars:4, colors:["#8d6e63","#000000","#f5f5f5"] },
-    { id:21, name:"Puffer Outdoor Vest",         style:"outdoor",    shape:"jacket",   bg:"#fff9c4", color:"#f9a825", price:64.99, old:79.99,  badge:"sale", stars:4, colors:["#f9a825","#111111","#f44336"] },
-    { id:22, name:"Oversized Flannel Shirt",     style:"casual",     shape:"jacket",   bg:"#fbe9e7", color:"#d84315", price:44.99, old:null,   badge:null,   stars:3, colors:["#d84315","#5d4037","#000000"] },
-    { id:23, name:"Neon Windbreaker",            style:"streetwear", shape:"jacket",   bg:"#f1f8e9", color:"#00e676", price:89.99, old:null,   badge:"hot",  stars:5, colors:["#00e676","#f50057","#111111"] },
-    { id:24, name:"Vintage Knit Cardigan",       style:"vintage",    shape:"jacket",   bg:"#fff8e1", color:"#ffb74d", price:57.99, old:72.99,  badge:"sale", stars:4, colors:["#ffb74d","#ffffff","#4a148c"] },
-    { id:25, name:"High-Waist Yoga Leggings",    style:"sport",      shape:"leggings", bg:"#e8eaf6", color:"#5c6bc0", price:37.99, old:null,   badge:"new",  stars:5, colors:["#5c6bc0","#111111","#ff4081"] },
-  ];
+const items = [
+  { id:1,  name:"Essential White Tee",          style:"casual",     emoji:"👕", bg:"linear-gradient(135deg,#e0e0e0,#f5f5f5)", price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
+  { id:2,  name:"Slim Fit Chino",               style:"casual",     emoji:"👖", bg:"linear-gradient(135deg,#d4a96a,#f5e6d0)", price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
+  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#1a1a1a,#3a3a3a)", price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
+  { id:4,  name:"Floral Summer Dress",          style:"casual",     emoji:"👗", bg:"linear-gradient(135deg,#f8bbd0,#fce4ec)", price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
+  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#111,#2d2d2d)",    price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
+  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    emoji:"🥼", bg:"linear-gradient(135deg,#c8e6c9,#e8f5e9)", price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
+  { id:7,  name:"Stripe Crop Top",              style:"casual",     emoji:"👚", bg:"linear-gradient(135deg,#bbdefb,#e3f2fd)", price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
+  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      emoji:"🩳", bg:"linear-gradient(135deg,#9575cd,#ede7f6)", price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
+  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    emoji:"🧥", bg:"linear-gradient(135deg,#1e88e5,#bbdefb)", price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
+  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    emoji:"👘", bg:"linear-gradient(135deg,#ffca28,#fff8e1)", price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
+  { id:11, name:"Running Performance Tee",      style:"sport",      emoji:"🏃", bg:"linear-gradient(135deg,#66bb6a,#e8f5e9)", price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
+  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    emoji:"🧣", bg:"linear-gradient(135deg,#e91e63,#fce4ec)", price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
+  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    emoji:"🩳", bg:"linear-gradient(135deg,#7cb342,#f1f8e9)", price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
+  { id:14, name:"Wrap Midi Dress",              style:"elegant",    emoji:"👗", bg:"linear-gradient(135deg,#ab47bc,#f3e5f5)", price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
+  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", emoji:"👕", bg:"linear-gradient(135deg,#ff9800,#fff3e0)", price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
+  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    emoji:"🧥", bg:"linear-gradient(135deg,#26a69a,#e0f2f1)", price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
+  { id:17, name:"Satin Evening Blouse",         style:"elegant",    emoji:"👚", bg:"linear-gradient(135deg,#7e57c2,#ede7f6)", price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
+  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    emoji:"👖", bg:"linear-gradient(135deg,#2196f3,#e3f2fd)", price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
+  { id:19, name:"Compression Sport Shorts",     style:"sport",      emoji:"🩳", bg:"linear-gradient(135deg,#ef5350,#ffebee)", price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
+  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    emoji:"👖", bg:"linear-gradient(135deg,#a1887f,#efebe9)", price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
+  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    emoji:"🦺", bg:"linear-gradient(135deg,#f9a825,#fff9c4)", price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
+  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     emoji:"🧥", bg:"linear-gradient(135deg,#d84315,#fbe9e7)", price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
+  { id:23, name:"Neon Windbreaker",             style:"streetwear", emoji:"🧥", bg:"linear-gradient(135deg,#00bfa5,#e8f5e9)", price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
+  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    emoji:"🧶", bg:"linear-gradient(135deg,#ffb74d,#fff8e1)", price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
+  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      emoji:"🧘", bg:"linear-gradient(135deg,#5c6bc0,#e8eaf6)", price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
+];
 
-  let cartCount = 0;
+let cart = 0;
 
-  const shapeMap = {
-    tshirt:   'tshirt-shape',
-    pants:    'pants-shape',
-    dress:    'dress-shape',
-    jacket:   'jacket-shape',
-    skirt:    'skirt-shape',
-    shorts:   'shorts-shape',
-    hoodie:   'hoodie-shape',
-    leggings: 'leggings-shape',
-  };
+const badgeLabels = { sale:'SALE', new:'NEU', hot:'HOT' };
+const badgeClass  = { sale:'badge-sale', new:'badge-new', hot:'badge-hot' };
+const stars = n => '★'.repeat(n) + '☆'.repeat(5-n);
+const titleMap = { all:'Alle Produkte', casual:'Casual', streetwear:'Streetwear', elegant:'Elegant', sport:'Sport', vintage:'Vintage', outdoor:'Outdoor' };
 
-  const badgeHTML = {
-    sale: '<span class="card-badge badge-sale">SALE</span>',
-    new:  '<span class="card-badge badge-new">NEU</span>',
-    hot:  '<span class="card-badge badge-hot">HOT</span>',
-  };
-
-  const starsHTML = n => '★'.repeat(n) + '☆'.repeat(5 - n);
-
-  function cardHTML(p) {
-    return `
-      <div class="card" data-style="${p.style}" data-id="${p.id}">
-        <div class="card-thumb" style="background:${p.bg}">
-          ${p.badge ? badgeHTML[p.badge] : ''}
-          <button class="wishlist-btn" onclick="toggleWish(this)" title="Merkliste">&#9825;</button>
-          <div class="cloth">
-            <div class="${shapeMap[p.shape]}" style="background:${p.color}"></div>
-          </div>
+function card(p) {
+  return `
+  <div class="card" data-style="${p.style}">
+    <div class="card-img" style="background:${p.bg}">
+      ${p.badge ? `<span class="badge ${badgeClass[p.badge]}">${badgeLabels[p.badge]}</span>` : ''}
+      <button class="wish" onclick="toggleWish(this)">🤍</button>
+      <span class="emoji">${p.emoji}</span>
+    </div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="style-tag">${p.style}</span>
+        <span class="stars">${stars(p.stars)}</span>
+      </div>
+      <div class="card-name">${p.name}</div>
+      <div class="color-row">
+        ${p.colors.map(c=>`<div class="dot" style="background:${c}"></div>`).join('')}
+      </div>
+      <div class="card-foot">
+        <div>
+          <span class="price">€${p.price.toFixed(2)}</span>
+          ${p.old ? `<span class="old-price">€${p.old.toFixed(2)}</span>` : ''}
         </div>
-        <div class="card-info">
-          <div class="card-meta">
-            <span class="style-chip">${p.style}</span>
-            <span class="stars">${starsHTML(p.stars)}</span>
-          </div>
-          <div class="card-name">${p.name}</div>
-          <div class="card-colors">
-            ${p.colors.map(c => `<div class="color-dot" style="background:${c}" title="${c}"></div>`).join('')}
-          </div>
-          <div class="card-bottom">
-            <div class="price-wrap">
-              <span class="price">€${p.price.toFixed(2)}</span>
-              ${p.old ? `<span class="old">€${p.old.toFixed(2)}</span>` : ''}
-            </div>
-            <button class="add-btn" onclick="addToCart(this,'${p.name}')">+ Warenkorb</button>
-          </div>
-        </div>
-      </div>`;
-  }
+        <button class="btn-cart" onclick="addCart(this,'${p.name}')">+ Warenkorb</button>
+      </div>
+    </div>
+  </div>`;
+}
 
-  function renderProducts(list) {
-    document.getElementById('productGrid').innerHTML = list.map(cardHTML).join('');
-    document.getElementById('resultCount').textContent = list.length + ' Artikel';
-  }
+function render(list) {
+  document.getElementById('grid').innerHTML = list.map(card).join('');
+  document.getElementById('secCount').textContent = list.length + ' Artikel';
+}
 
-  function filterBy(btn, style) {
-    document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const filtered = style === 'all' ? products : products.filter(p => p.style === style);
-    const titles = { all:'Alle Produkte', casual:'Casual', streetwear:'Streetwear', elegant:'Elegant', sport:'Sport', vintage:'Vintage', outdoor:'Outdoor' };
-    document.getElementById('sectionTitle').textContent = titles[style];
-    renderProducts(filtered);
-  }
+function filterBy(btn, style) {
+  document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const list = style === 'all' ? items : items.filter(p => p.style === style);
+  document.getElementById('secTitle').textContent = titleMap[style];
+  render(list);
+}
 
-  function addToCart(btn, name) {
-    btn.textContent = '✓ Hinzugefügt';
-    btn.classList.add('added');
-    cartCount++;
-    document.getElementById('cartCount').textContent = cartCount;
-    showToast(name + ' wurde zum Warenkorb hinzugefügt.');
-    setTimeout(() => { btn.textContent = '+ Warenkorb'; btn.classList.remove('added'); }, 2000);
-  }
+function addCart(btn, name) {
+  cart++;
+  document.getElementById('cartBadge').textContent = cart;
+  btn.textContent = '✓ Hinzugefügt';
+  btn.classList.add('ok');
+  showToast('🛒 ' + name + ' wurde hinzugefügt!');
+  setTimeout(() => { btn.textContent = '+ Warenkorb'; btn.classList.remove('ok'); }, 2000);
+}
 
-  function toggleWish(btn) {
-    btn.classList.toggle('liked');
-    btn.innerHTML = btn.classList.contains('liked') ? '&#9829;' : '&#9825;';
-  }
+function toggleWish(btn) {
+  const on = btn.classList.toggle('on');
+  btn.textContent = on ? '❤️' : '🤍';
+}
 
-  function showToast(msg) {
-    const t = document.getElementById('toast');
-    t.textContent = msg;
-    t.classList.add('show');
-    clearTimeout(t._timer);
-    t._timer = setTimeout(() => t.classList.remove('show'), 3000);
-  }
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._t);
+  t._t = setTimeout(() => t.classList.remove('show'), 3000);
+}
 
-  function toggleCart() {
-    showToast('Warenkorb: ' + cartCount + ' Artikel im Warenkorb.');
-  }
-
-  renderProducts(products);
+render(items);
 </script>
 </body>
 </html>

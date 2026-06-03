@@ -416,44 +416,46 @@ if (sessionStorage.getItem('sh_admin') === '1') {
 
 // ── DATA ──
 const DEFAULT_PRODUCTS = [
-  { id:1,  name:"Essential White Tee",          style:"casual",     img:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop", emoji:"👕", bg:"linear-gradient(135deg,#e0e0e0,#f5f5f5)", price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
-  { id:2,  name:"Slim Fit Chino",               style:"casual",     img:"https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&h=600&fit=crop", emoji:"👖", bg:"linear-gradient(135deg,#d4a96a,#f5e6d0)", price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
-  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", img:"https://images.unsplash.com/photo-1556821840-3a63f15732d0?w=500&h=600&fit=crop", emoji:"🧥", bg:"linear-gradient(135deg,#1a1a1a,#3a3a3a)", price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
-  { id:4,  name:"Floral Summer Dress",          style:"casual",     img:"https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=600&fit=crop", emoji:"👗", bg:"linear-gradient(135deg,#f8bbd0,#fce4ec)", price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
-  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", img:"https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop", emoji:"🧥", bg:"linear-gradient(135deg,#111,#2d2d2d)",    price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
-  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    img:"https://images.unsplash.com/photo-1594938298603-f54fa35c1e0c?w=500&h=600&fit=crop", emoji:"🥼", bg:"linear-gradient(135deg,#c8e6c9,#e8f5e9)", price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
-  { id:7,  name:"Stripe Crop Top",              style:"casual",     img:"https://images.unsplash.com/photo-1503342564462-f8c1918dd8ff?w=500&h=600&fit=crop", emoji:"👚", bg:"linear-gradient(135deg,#bbdefb,#e3f2fd)", price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
-  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      img:"https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&h=600&fit=crop", emoji:"🩳", bg:"linear-gradient(135deg,#9575cd,#ede7f6)", price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
-  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    img:"https://images.unsplash.com/photo-1542272454-0f1a8c29cd0d?w=500&h=600&fit=crop", emoji:"🧥", bg:"linear-gradient(135deg,#1e88e5,#bbdefb)", price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
-  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    img:"https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&h=600&fit=crop", emoji:"👘", bg:"linear-gradient(135deg,#ffca28,#fff8e1)", price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
-  { id:11, name:"Running Performance Tee",      style:"sport",      img:"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop", emoji:"🏃", bg:"linear-gradient(135deg,#66bb6a,#e8f5e9)", price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
-  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    img:"https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop", emoji:"🧣", bg:"linear-gradient(135deg,#e91e63,#fce4ec)", price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
-  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    img:"https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=500&h=600&fit=crop", emoji:"🩳", bg:"linear-gradient(135deg,#7cb342,#f1f8e9)", price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
-  { id:14, name:"Wrap Midi Dress",              style:"elegant",    img:"https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop", emoji:"👗", bg:"linear-gradient(135deg,#ab47bc,#f3e5f5)", price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
-  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", img:"https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop", emoji:"👕", bg:"linear-gradient(135deg,#ff9800,#fff3e0)", price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
-  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    img:"https://images.unsplash.com/photo-1544923246-77307dd654cb?w=500&h=600&fit=crop", emoji:"🧥", bg:"linear-gradient(135deg,#26a69a,#e0f2f1)", price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
-  { id:17, name:"Satin Evening Blouse",         style:"elegant",    img:"https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=500&h=600&fit=crop", emoji:"👚", bg:"linear-gradient(135deg,#7e57c2,#ede7f6)", price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
-  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    img:"https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=600&fit=crop", emoji:"👖", bg:"linear-gradient(135deg,#2196f3,#e3f2fd)", price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
-  { id:19, name:"Compression Sport Shorts",     style:"sport",      img:"https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500&h=600&fit=crop", emoji:"🩳", bg:"linear-gradient(135deg,#ef5350,#ffebee)", price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
-  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    img:"https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?w=500&h=600&fit=crop", emoji:"👖", bg:"linear-gradient(135deg,#a1887f,#efebe9)", price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
-  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    img:"https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=500&h=600&fit=crop", emoji:"🦺", bg:"linear-gradient(135deg,#f9a825,#fff9c4)", price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
-  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     img:"https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=500&h=600&fit=crop", emoji:"🧥", bg:"linear-gradient(135deg,#d84315,#fbe9e7)", price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
-  { id:23, name:"Neon Windbreaker",             style:"streetwear", img:"https://images.unsplash.com/photo-1604644401890-0bd678c83788?w=500&h=600&fit=crop", emoji:"🧥", bg:"linear-gradient(135deg,#00bfa5,#e8f5e9)", price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
-  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    img:"https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&h=600&fit=crop", emoji:"🧶", bg:"linear-gradient(135deg,#ffb74d,#fff8e1)", price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
-  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      img:"https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&h=600&fit=crop", emoji:"🧘", bg:"linear-gradient(135deg,#5c6bc0,#e8eaf6)", price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
+  { id:1,  name:"Essential White Tee",          style:"casual",     price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
+  { id:2,  name:"Slim Fit Chino",               style:"casual",     price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
+  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
+  { id:4,  name:"Floral Summer Dress",          style:"casual",     price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
+  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
+  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
+  { id:7,  name:"Stripe Crop Top",              style:"casual",     price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
+  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
+  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
+  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
+  { id:11, name:"Running Performance Tee",      style:"sport",      price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
+  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
+  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
+  { id:14, name:"Wrap Midi Dress",              style:"elegant",    price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
+  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
+  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
+  { id:17, name:"Satin Evening Blouse",         style:"elegant",    price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
+  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
+  { id:19, name:"Compression Sport Shorts",     style:"sport",      price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
+  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
+  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
+  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
+  { id:23, name:"Neon Windbreaker",             style:"streetwear", price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
+  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
+  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
 ];
 
 const EMOJIS = ['👕','👖','👗','👘','👙','👚','🧥','🥼','🩱','🩲','🩳','🧣','🎩','🧤','🧦','👔','👒','🎒','🩴','👟','👠','👡','👢','🧶','🦺','🥾','🏃','🧘','🤸'];
 
 function loadProducts() {
-  const s = localStorage.getItem('stylehub_products');
-  if (s) return JSON.parse(s);
+  try {
+    const s = localStorage.getItem('stylehub_products2');
+    if (s) return JSON.parse(s);
+  } catch(e) {}
   saveProducts(DEFAULT_PRODUCTS);
   return DEFAULT_PRODUCTS;
 }
 
 function saveProducts(list) {
-  localStorage.setItem('stylehub_products', JSON.stringify(list));
+  localStorage.setItem('stylehub_products2', JSON.stringify(list));
 }
 
 let selectedEmoji = '👕';
@@ -506,9 +508,6 @@ function submitProduct() {
   const style = document.getElementById('fStyle').value;
   const badge = document.getElementById('fBadge').value || null;
   const stars = parseInt(document.getElementById('fStars').value);
-  const img   = document.getElementById('fImg').value.trim() || null;
-  const c1    = document.getElementById('fBg1').value;
-  const c2    = document.getElementById('fBg2').value;
   const col1  = document.getElementById('fC1').value;
   const col2  = document.getElementById('fC2').value;
   const col3  = document.getElementById('fC3').value;
@@ -521,16 +520,14 @@ function submitProduct() {
   if (editingId !== null) {
     const idx = products.findIndex(p => p.id === editingId);
     if (idx !== -1) {
-      products[idx] = { ...products[idx], name, price, old, style, badge, stars, img, emoji: selectedEmoji,
-        bg: `linear-gradient(135deg,${c1},${c2})`, colors: [col1, col2, col3] };
+      products[idx] = { ...products[idx], name, price, old, style, badge, stars, colors: [col1, col2, col3] };
       saveProducts(products);
       showToast('✅ Produkt aktualisiert!');
     }
     cancelEdit();
   } else {
     const newId = products.length ? Math.max(...products.map(p=>p.id)) + 1 : 1;
-    products.push({ id: newId, name, price, old, style, badge, stars, img, emoji: selectedEmoji,
-      bg: `linear-gradient(135deg,${c1},${c2})`, colors: [col1, col2, col3] });
+    products.push({ id: newId, name, price, old, style, badge, stars, colors: [col1, col2, col3] });
     saveProducts(products);
     showToast('✅ Produkt "' + name + '" hinzugefügt!');
     resetForm();
@@ -552,16 +549,6 @@ function editProduct(id) {
   document.getElementById('fStyle').value = p.style;
   document.getElementById('fBadge').value = p.badge || '';
   document.getElementById('fStars').value = p.stars;
-  document.getElementById('fImg').value   = p.img || '';
-  previewImg();
-  pickEmoji(p.emoji || '👕');
-
-  // Parse bg colors from gradient string
-  const match = (p.bg||'').match(/#[0-9a-fA-F]{3,6}/g);
-  if (match && match[0]) document.getElementById('fBg1').value = match[0];
-  if (match && match[1]) document.getElementById('fBg2').value = match[1];
-  updateBgPreview();
-
   if (p.colors && p.colors[0]) document.getElementById('fC1').value = p.colors[0];
   if (p.colors && p.colors[1]) document.getElementById('fC2').value = p.colors[1];
   if (p.colors && p.colors[2]) document.getElementById('fC3').value = p.colors[2];
@@ -593,15 +580,9 @@ function resetForm() {
   document.getElementById('fStyle').value = 'casual';
   document.getElementById('fBadge').value = '';
   document.getElementById('fStars').value = '4';
-  document.getElementById('fImg').value   = '';
-  document.getElementById('imgPreviewWrap').style.display = 'none';
-  pickEmoji('👕');
-  document.getElementById('fBg1').value = '#e0e0e0';
-  document.getElementById('fBg2').value = '#f5f5f5';
   document.getElementById('fC1').value  = '#ffffff';
   document.getElementById('fC2').value  = '#111111';
   document.getElementById('fC3').value  = '#e63946';
-  updateBgPreview();
 }
 
 function deleteProduct(id) {
@@ -634,12 +615,16 @@ function renderList() {
     return;
   }
 
-  document.getElementById('productList').innerHTML = filtered.map(p => `
+  document.getElementById('productList').innerHTML = filtered.map(p => {
+    const c = (p.colors||['#ccc','#888','#444']);
+    const thumb = `<div style="width:54px;height:54px;border-radius:10px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;flex-shrink:0">
+      <div style="background:${c[0]||'#ccc'};grid-row:1/3"></div>
+      <div style="background:${c[1]||'#888'}"></div>
+      <div style="background:${c[2]||'#444'}"></div>
+    </div>`;
+    return `
     <div class="product-row${p.id===editingId?' highlighted':''}">
-      ${p.img
-        ? `<img class="row-img" src="${p.img}" alt="${p.name}" onerror="this.style.display='none'" />`
-        : `<div class="row-emoji" style="background:${p.bg||'#eee'};border-radius:10px;width:54px;height:54px;display:flex;align-items:center;justify-content:center;font-size:2rem">${p.emoji||'👕'}</div>`
-      }
+      ${thumb}
       <div class="row-info">
         <div class="rname">${p.name}</div>
         <div class="rmeta">
@@ -657,7 +642,7 @@ function renderList() {
         <button class="btn-delete" onclick="deleteProduct(${p.id})">🗑️</button>
       </div>
     </div>
-  `).join('');
+  `; }).join('');
 }
 
 function renderStats() {

@@ -56,6 +56,37 @@
       border: 1px solid rgba(255,255,255,.15);
     }
 
+    /* Collection Banner */
+    .coll-banner {
+      background: linear-gradient(90deg, #1a1a2e 0%, #16213e 100%);
+      padding: 14px 48px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+      border-bottom: 2px solid #e63946;
+    }
+    .coll-label { color: #e63946; font-size: .75rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; }
+    .coll-name-text { color: #fff; font-size: 1rem; font-weight: 800; }
+    .coll-sub-text { color: #778; font-size: .82rem; }
+    .coll-progress { color: #556; font-size: .78rem; }
+    .switch-btn {
+      margin-left: auto; background: linear-gradient(135deg, #e63946, #c1121f);
+      color: #fff; border: none; padding: 10px 24px; border-radius: 24px;
+      font-size: .88rem; font-weight: 700; cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 14px rgba(230,57,70,.4);
+    }
+    .switch-btn:hover { transform: scale(1.06); box-shadow: 0 6px 20px rgba(230,57,70,.6); }
+    .switch-btn:active { transform: scale(.97); }
+
+    /* Transition overlay */
+    .coll-transition {
+      position: fixed; inset: 0; background: #0f0c29;
+      z-index: 999; opacity: 0; pointer-events: none;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      transition: opacity .3s;
+    }
+    .coll-transition.show { opacity: 1; pointer-events: all; }
+    .coll-transition h2 { color: #fff; font-size: 2rem; font-weight: 900; margin-bottom: 8px; }
+    .coll-transition p { color: #aab; font-size: 1rem; }
+
     .filters {
       background: #fff; display: flex; padding: 0 48px;
       border-bottom: 1px solid #ddd; overflow-x: auto;
@@ -142,7 +173,7 @@
       position: fixed; bottom: 28px; right: 28px; background: #222; color: #fff;
       padding: 14px 22px; border-radius: 12px; font-size: .9rem; font-weight: 600;
       border-left: 4px solid #e63946; opacity: 0; transform: translateY(20px);
-      transition: all .3s; z-index: 999; pointer-events: none;
+      transition: all .3s; z-index: 998; pointer-events: none;
     }
     #toast.show { opacity: 1; transform: translateY(0); }
 
@@ -152,6 +183,7 @@
       .hero { padding: 40px 20px; flex-direction: column; gap: 28px; }
       .hero h1 { font-size: 2.2rem; }
       .hero-right { display: none; }
+      .coll-banner { padding: 12px 16px; }
       .filters, .section-head, .grid { padding-left: 16px; padding-right: 16px; }
       footer { padding: 28px 16px; }
     }
@@ -176,34 +208,25 @@
 
 <section class="hero">
   <div class="hero-left">
-    <p class="hero-tag">★ Frühling / Sommer 2026</p>
-    <h1>Dein neuer<br/><b>Style.</b><br/>Deine Regeln.</h1>
-    <p>Handverlesene Looks – von lässig bis elegant. Entdecke Mode die wirklich zu dir passt.</p>
+    <p class="hero-tag" id="heroTag">★ Frühling / Sommer 2026</p>
+    <h1 id="heroTitle">Dein neuer<br/><b>Style.</b><br/>Deine Regeln.</h1>
+    <p id="heroSub">Handverlesene Looks – von lässig bis elegant. Entdecke Mode die wirklich zu dir passt.</p>
     <button class="hero-btn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">
       Kollektion entdecken →
     </button>
   </div>
-  <div class="hero-right">
-    <div class="hero-chip">👕 Casual</div>
-    <div class="hero-chip">🧥 Streetwear</div>
-    <div class="hero-chip">✨ Elegant</div>
-    <div class="hero-chip">🏃 Sport</div>
-    <div class="hero-chip">🎸 Vintage</div>
-    <div class="hero-chip">🏕️ Outdoor</div>
-    <div class="hero-chip">Free Versand ab 49€</div>
-    <div class="hero-chip">30 Tage Rückgabe</div>
-  </div>
+  <div class="hero-right" id="heroChips"></div>
 </section>
 
-<div class="filters">
-  <button class="ftab active" onclick="filterBy(this,'all')">Alle</button>
-  <button class="ftab" onclick="filterBy(this,'casual')">Casual</button>
-  <button class="ftab" onclick="filterBy(this,'streetwear')">Streetwear</button>
-  <button class="ftab" onclick="filterBy(this,'elegant')">Elegant</button>
-  <button class="ftab" onclick="filterBy(this,'sport')">Sport</button>
-  <button class="ftab" onclick="filterBy(this,'vintage')">Vintage</button>
-  <button class="ftab" onclick="filterBy(this,'outdoor')">Outdoor</button>
+<div class="coll-banner">
+  <span class="coll-label">Kollektion</span>
+  <span class="coll-name-text" id="collName">StyleHub Classics</span>
+  <span class="coll-sub-text" id="collSub">Gemischte Styles 2026</span>
+  <span class="coll-progress" id="collProgress">1 / 5</span>
+  <button class="switch-btn" onclick="switchCollection()">🔄 Kollektion wechseln</button>
 </div>
+
+<div class="filters" id="filterBar"></div>
 
 <div id="products">
   <div class="section-head">
@@ -225,10 +248,14 @@
 </footer>
 
 <div id="toast"></div>
+<div class="coll-transition" id="collOverlay">
+  <h2 id="overlayName"></h2>
+  <p id="overlaySub"></p>
+</div>
 
 <script>
 // ── SVG CLOTHING ILLUSTRATIONS ──
-function svgTshirt(bg1, bg2, c, c2, pat) {
+function svgTshirt(bg1,bg2,c,c2,pat){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -243,8 +270,7 @@ function svgTshirt(bg1, bg2, c, c2, pat) {
     </g>
   </svg>`;
 }
-
-function svgHoodie(bg1, bg2, c, pocket) {
+function svgHoodie(bg1,bg2,c,pocket){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -260,8 +286,7 @@ function svgHoodie(bg1, bg2, c, pocket) {
     </g>
   </svg>`;
 }
-
-function svgPants(bg1, bg2, c, c2) {
+function svgPants(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -276,8 +301,7 @@ function svgPants(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgJeans(bg1, bg2, c) {
+function svgJeans(bg1,bg2,c){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -294,8 +318,7 @@ function svgJeans(bg1, bg2, c) {
     </g>
   </svg>`;
 }
-
-function svgDress(bg1, bg2, c, c2, pat) {
+function svgDress(bg1,bg2,c,c2,pat){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -317,8 +340,7 @@ function svgDress(bg1, bg2, c, c2, pat) {
     </g>
   </svg>`;
 }
-
-function svgJacket(bg1, bg2, c, lapel, btn) {
+function svgJacket(bg1,bg2,c,lapel,btn){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -337,8 +359,7 @@ function svgJacket(bg1, bg2, c, lapel, btn) {
     </g>
   </svg>`;
 }
-
-function svgBlazer(bg1, bg2, c, lapel) {
+function svgBlazer(bg1,bg2,c,lapel){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -356,8 +377,7 @@ function svgBlazer(bg1, bg2, c, lapel) {
     </g>
   </svg>`;
 }
-
-function svgSkirt(bg1, bg2, c, c2) {
+function svgSkirt(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -373,8 +393,7 @@ function svgSkirt(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgShorts(bg1, bg2, c, c2) {
+function svgShorts(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -389,8 +408,7 @@ function svgShorts(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgLeggings(bg1, bg2, c, c2) {
+function svgLeggings(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -406,8 +424,7 @@ function svgLeggings(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgVest(bg1, bg2, c, c2) {
+function svgVest(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -426,8 +443,7 @@ function svgVest(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgBlouse(bg1, bg2, c, c2) {
+function svgBlouse(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -442,8 +458,7 @@ function svgBlouse(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgCardigan(bg1, bg2, c, btn) {
+function svgCardigan(bg1,bg2,c,btn){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -462,8 +477,7 @@ function svgCardigan(bg1, bg2, c, btn) {
     </g>
   </svg>`;
 }
-
-function svgWindbreaker(bg1, bg2, c, stripe) {
+function svgWindbreaker(bg1,bg2,c,stripe){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -481,8 +495,7 @@ function svgWindbreaker(bg1, bg2, c, stripe) {
     </g>
   </svg>`;
 }
-
-function svgFlannel(bg1, bg2, c, stripe) {
+function svgFlannel(bg1,bg2,c,stripe){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -503,8 +516,7 @@ function svgFlannel(bg1, bg2, c, stripe) {
     </g>
   </svg>`;
 }
-
-function svgCropTop(bg1, bg2, c, c2) {
+function svgCropTop(bg1,bg2,c,c2){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -523,8 +535,7 @@ function svgCropTop(bg1, bg2, c, c2) {
     </g>
   </svg>`;
 }
-
-function svgSportTee(bg1, bg2, c, accent) {
+function svgSportTee(bg1,bg2,c,accent){
   return `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="${bg1}"/><stop offset="100%" stop-color="${bg2}"/></linearGradient>
@@ -540,77 +551,310 @@ function svgSportTee(bg1, bg2, c, accent) {
   </svg>`;
 }
 
-// ── PRODUCT DATA ──
-const DEFAULT_PRODUCTS = [
-  { id:1,  name:"Essential White Tee",          style:"casual",     svgFn:()=>svgTshirt('#e8e8e8','#f8f8f8','#ffffff','#ddd',''),              price:19.99, old:null,    badge:"new",  stars:4, colors:["#fff","#111","#c0392b"] },
-  { id:2,  name:"Slim Fit Chino",               style:"casual",     svgFn:()=>svgPants('#e8d5b0','#f5e6d0','#c8a96e','#a07840'),               price:49.99, old:64.99,   badge:"sale", stars:4, colors:["#c8a96e","#2c3e50","#7f8c8d"] },
-  { id:3,  name:"Oversized Streetwear Hoodie",  style:"streetwear", svgFn:()=>svgHoodie('#1a1a1a','#3a3a3a','#2d2d2d','#555'),                 price:64.99, old:84.99,   badge:"sale", stars:5, colors:["#222","#e74c3c","#3498db"] },
-  { id:4,  name:"Floral Summer Dress",          style:"casual",     svgFn:()=>svgDress('#fce4ec','#f8bbd0','#f48fb1','#fff','floral'),         price:54.99, old:null,    badge:"new",  stars:5, colors:["#f48fb1","#81c784","#ffb74d"] },
-  { id:5,  name:"Leather Biker Jacket",         style:"streetwear", svgFn:()=>svgJacket('#111','#222','#1a1a1a','#3d2b1f','#555'),             price:129.99,old:159.99,  badge:"sale", stars:5, colors:["#111","#795548","#b71c1c"] },
-  { id:6,  name:"Linen Summer Blazer",          style:"elegant",    svgFn:()=>svgBlazer('#d0ebd4','#e8f5e9','#a5d6a7','#f5f5f5'),              price:89.99, old:null,    badge:"new",  stars:4, colors:["#a5d6a7","#f5f5f5","#37474f"] },
-  { id:7,  name:"Stripe Crop Top",              style:"casual",     svgFn:()=>svgCropTop('#bbdefb','#e3f2fd','#1565c0','#fff'),                price:24.99, old:null,    badge:null,   stars:4, colors:["#90caf9","#fff","#1565c0"] },
-  { id:8,  name:"Tapered Jogger Pants",         style:"sport",      svgFn:()=>svgPants('#d1c4e9','#ede7f6','#7e57c2','#512da8'),               price:39.99, old:49.99,   badge:"sale", stars:4, colors:["#9575cd","#333","#fff"] },
-  { id:9,  name:"Classic Denim Jacket",         style:"vintage",    svgFn:()=>svgJacket('#bbdefb','#e3f2fd','#1976d2','#0d47a1','#f9a825'),    price:74.99, old:null,    badge:"new",  stars:5, colors:["#1e88e5","#0d47a1","#f9a825"] },
-  { id:10, name:"Boho Maxi Skirt",              style:"vintage",    svgFn:()=>svgSkirt('#fff8e1','#ffe082','#ffca28','#ff7043'),                price:44.99, old:null,    badge:null,   stars:4, colors:["#ffca28","#ff7043","#8d6e63"] },
-  { id:11, name:"Running Performance Tee",      style:"sport",      svgFn:()=>svgSportTee('#c8e6c9','#e8f5e9','#43a047','#fff'),               price:34.99, old:44.99,   badge:"sale", stars:4, colors:["#66bb6a","#fff","#333"] },
-  { id:12, name:"Turtleneck Merino Sweater",    style:"elegant",    svgFn:()=>svgTshirt('#fce4ec','#f8bbd0','#e91e63','#c2185b',''),           price:59.99, old:null,    badge:"new",  stars:5, colors:["#e91e63","#222","#795548"] },
-  { id:13, name:"Utility Cargo Shorts",         style:"outdoor",    svgFn:()=>svgShorts('#dcedc8','#f1f8e9','#558b2f','#33691e'),              price:42.99, old:null,    badge:null,   stars:3, colors:["#558b2f","#795548","#000"] },
-  { id:14, name:"Wrap Midi Dress",              style:"elegant",    svgFn:()=>svgDress('#f3e5f5','#ce93d8','#9c27b0','#e1bee7',''),            price:79.99, old:99.99,   badge:"sale", stars:5, colors:["#ab47bc","#000","#fff"] },
-  { id:15, name:"Graphic Streetwear Tee",       style:"streetwear", svgFn:()=>svgTshirt('#fff3e0','#ffe0b2','#ff9800','#212121',''),           price:29.99, old:null,    badge:"hot",  stars:5, colors:["#ff9800","#212121","#fff"] },
-  { id:16, name:"Fleece Mountain Jacket",       style:"outdoor",    svgFn:()=>svgJacket('#b2dfdb','#e0f2f1','#26a69a','#004d40','#fff'),       price:109.99,old:139.99,  badge:"sale", stars:4, colors:["#26a69a","#ff5722","#333"] },
-  { id:17, name:"Satin Evening Blouse",         style:"elegant",    svgFn:()=>svgBlouse('#ede7f6','#d1c4e9','#7e57c2','#d4af37'),              price:69.99, old:null,    badge:"new",  stars:5, colors:["#7e57c2","#fff","#d4af37"] },
-  { id:18, name:"High-Waist Mom Jeans",         style:"vintage",    svgFn:()=>svgJeans('#bbdefb','#e3f2fd','#1565c0'),                         price:54.99, old:69.99,   badge:"sale", stars:4, colors:["#2196f3","#fff","#f9a825"] },
-  { id:19, name:"Compression Sport Shorts",     style:"sport",      svgFn:()=>svgShorts('#ffcdd2','#ffebee','#e53935','#b71c1c'),              price:27.99, old:null,    badge:null,   stars:4, colors:["#e53935","#111","#1565c0"] },
-  { id:20, name:"Wide Leg Palazzo Pants",       style:"elegant",    svgFn:()=>svgPants('#efebe9','#d7ccc8','#8d6e63','#5d4037'),               price:84.99, old:null,    badge:"new",  stars:4, colors:["#8d6e63","#000","#f5f5f5"] },
-  { id:21, name:"Puffer Outdoor Vest",          style:"outdoor",    svgFn:()=>svgVest('#fff9c4','#fff176','#f9a825','#333'),                   price:64.99, old:79.99,   badge:"sale", stars:4, colors:["#f9a825","#111","#f44336"] },
-  { id:22, name:"Oversized Flannel Shirt",      style:"casual",     svgFn:()=>svgFlannel('#fbe9e7','#ffccbc','#bf360c','#fff'),                price:44.99, old:null,    badge:null,   stars:3, colors:["#d84315","#5d4037","#000"] },
-  { id:23, name:"Neon Windbreaker",             style:"streetwear", svgFn:()=>svgWindbreaker('#1b1b1b','#2d2d2d','#111','#00e676'),            price:89.99, old:null,    badge:"hot",  stars:5, colors:["#00e676","#f50057","#111"] },
-  { id:24, name:"Vintage Knit Cardigan",        style:"vintage",    svgFn:()=>svgCardigan('#fff8e1','#ffe0b2','#ffb74d','#4a148c'),            price:57.99, old:72.99,   badge:"sale", stars:4, colors:["#ffb74d","#fff","#4a148c"] },
-  { id:25, name:"High-Waist Yoga Leggings",     style:"sport",      svgFn:()=>svgLeggings('#c5cae9','#e8eaf6','#3f51b5','#ff4081'),           price:37.99, old:null,    badge:"new",  stars:5, colors:["#5c6bc0","#111","#ff4081"] },
+function makeVis(v){
+  const {type,bg1,bg2,c1,c2,pat} = v;
+  switch(type){
+    case 'tshirt':      return svgTshirt(bg1,bg2,c1,c2||'#ccc',pat||'');
+    case 'hoodie':      return svgHoodie(bg1,bg2,c1,c2||'#888');
+    case 'pants':       return svgPants(bg1,bg2,c1,c2||'#888');
+    case 'jeans':       return svgJeans(bg1,bg2,c1);
+    case 'dress':       return svgDress(bg1,bg2,c1,c2||'#fff',pat||'');
+    case 'jacket':      return svgJacket(bg1,bg2,c1,c2||'#888',pat||'#ccc');
+    case 'blazer':      return svgBlazer(bg1,bg2,c1,c2||'#f5f5f5');
+    case 'skirt':       return svgSkirt(bg1,bg2,c1,c2||'#888');
+    case 'shorts':      return svgShorts(bg1,bg2,c1,c2||'#888');
+    case 'leggings':    return svgLeggings(bg1,bg2,c1,c2||'#888');
+    case 'vest':        return svgVest(bg1,bg2,c1,c2||'#888');
+    case 'blouse':      return svgBlouse(bg1,bg2,c1,c2||'#888');
+    case 'cardigan':    return svgCardigan(bg1,bg2,c1,c2||'#888');
+    case 'windbreaker': return svgWindbreaker(bg1,bg2,c1,c2||'#888');
+    case 'flannel':     return svgFlannel(bg1,bg2,c1,c2||'#fff');
+    case 'croptop':     return svgCropTop(bg1,bg2,c1,c2||'#fff');
+    case 'sporttee':    return svgSportTee(bg1,bg2,c1,c2||'#fff');
+    default:            return svgTshirt(bg1,bg2,c1,c2||'#ccc','');
+  }
+}
+
+// ── COLLECTIONS ──
+// Each product: {id, name, style, vis:{type,bg1,bg2,c1,c2,pat}, price, old, badge, stars, colors}
+const COLLECTIONS = [
+  {
+    id:0, name:"StyleHub Classics", subtitle:"Gemischte Styles 2026",
+    season:"★ Frühling / Sommer 2026",
+    headline:"Dein neuer<br/><b>Style.</b><br/>Deine Regeln.",
+    desc:"Handverlesene Looks – von lässig bis elegant. Entdecke Mode die wirklich zu dir passt.",
+    chips:["👕 Casual","🧥 Streetwear","✨ Elegant","🏃 Sport","🎸 Vintage","🏕️ Outdoor","Free Versand ab 49€","30 Tage Rückgabe"],
+    products:[
+      {id:1, name:"Essential White Tee",         style:"casual",     vis:{type:'tshirt',     bg1:'#e8e8e8',bg2:'#f8f8f8',c1:'#ffffff',c2:'#ddd',   pat:''},          price:19.99,old:null,   badge:'new', stars:4, colors:['#fff','#111','#c0392b']},
+      {id:2, name:"Slim Fit Chino",              style:"casual",     vis:{type:'pants',      bg1:'#e8d5b0',bg2:'#f5e6d0',c1:'#c8a96e',c2:'#a07840',pat:''},          price:49.99,old:64.99,  badge:'sale',stars:4, colors:['#c8a96e','#2c3e50','#7f8c8d']},
+      {id:3, name:"Oversized Streetwear Hoodie", style:"streetwear", vis:{type:'hoodie',     bg1:'#1a1a1a',bg2:'#3a3a3a',c1:'#2d2d2d',c2:'#555',   pat:''},          price:64.99,old:84.99,  badge:'sale',stars:5, colors:['#222','#e74c3c','#3498db']},
+      {id:4, name:"Floral Summer Dress",         style:"casual",     vis:{type:'dress',      bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#f48fb1',c2:'#fff',   pat:'floral'},    price:54.99,old:null,   badge:'new', stars:5, colors:['#f48fb1','#81c784','#ffb74d']},
+      {id:5, name:"Leather Biker Jacket",        style:"streetwear", vis:{type:'jacket',     bg1:'#111',   bg2:'#222',   c1:'#1a1a1a',c2:'#3d2b1f',pat:'#555'},     price:129.99,old:159.99,badge:'sale',stars:5, colors:['#111','#795548','#b71c1c']},
+      {id:6, name:"Linen Summer Blazer",         style:"elegant",    vis:{type:'blazer',     bg1:'#d0ebd4',bg2:'#e8f5e9',c1:'#a5d6a7',c2:'#f5f5f5',pat:''},         price:89.99,old:null,   badge:'new', stars:4, colors:['#a5d6a7','#f5f5f5','#37474f']},
+      {id:7, name:"Stripe Crop Top",             style:"casual",     vis:{type:'croptop',    bg1:'#bbdefb',bg2:'#e3f2fd',c1:'#1565c0',c2:'#fff',   pat:''},          price:24.99,old:null,   badge:null,  stars:4, colors:['#90caf9','#fff','#1565c0']},
+      {id:8, name:"Tapered Jogger Pants",        style:"sport",      vis:{type:'pants',      bg1:'#d1c4e9',bg2:'#ede7f6',c1:'#7e57c2',c2:'#512da8',pat:''},          price:39.99,old:49.99,  badge:'sale',stars:4, colors:['#9575cd','#333','#fff']},
+      {id:9, name:"Classic Denim Jacket",        style:"vintage",    vis:{type:'jacket',     bg1:'#bbdefb',bg2:'#e3f2fd',c1:'#1976d2',c2:'#0d47a1',pat:'#f9a825'},  price:74.99,old:null,   badge:'new', stars:5, colors:['#1e88e5','#0d47a1','#f9a825']},
+      {id:10,name:"Boho Maxi Skirt",             style:"vintage",    vis:{type:'skirt',      bg1:'#fff8e1',bg2:'#ffe082',c1:'#ffca28',c2:'#ff7043',pat:''},          price:44.99,old:null,   badge:null,  stars:4, colors:['#ffca28','#ff7043','#8d6e63']},
+      {id:11,name:"Running Performance Tee",     style:"sport",      vis:{type:'sporttee',   bg1:'#c8e6c9',bg2:'#e8f5e9',c1:'#43a047',c2:'#fff',   pat:''},          price:34.99,old:44.99,  badge:'sale',stars:4, colors:['#66bb6a','#fff','#333']},
+      {id:12,name:"Turtleneck Merino Sweater",   style:"elegant",    vis:{type:'tshirt',     bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#e91e63',c2:'#c2185b',pat:''},          price:59.99,old:null,   badge:'new', stars:5, colors:['#e91e63','#222','#795548']},
+      {id:13,name:"Utility Cargo Shorts",        style:"outdoor",    vis:{type:'shorts',     bg1:'#dcedc8',bg2:'#f1f8e9',c1:'#558b2f',c2:'#33691e',pat:''},          price:42.99,old:null,   badge:null,  stars:3, colors:['#558b2f','#795548','#000']},
+      {id:14,name:"Wrap Midi Dress",             style:"elegant",    vis:{type:'dress',      bg1:'#f3e5f5',bg2:'#ce93d8',c1:'#9c27b0',c2:'#e1bee7',pat:''},          price:79.99,old:99.99,  badge:'sale',stars:5, colors:['#ab47bc','#000','#fff']},
+      {id:15,name:"Graphic Streetwear Tee",      style:"streetwear", vis:{type:'tshirt',     bg1:'#fff3e0',bg2:'#ffe0b2',c1:'#ff9800',c2:'#212121',pat:''},          price:29.99,old:null,   badge:'hot', stars:5, colors:['#ff9800','#212121','#fff']},
+      {id:16,name:"Fleece Mountain Jacket",      style:"outdoor",    vis:{type:'jacket',     bg1:'#b2dfdb',bg2:'#e0f2f1',c1:'#26a69a',c2:'#004d40',pat:'#fff'},     price:109.99,old:139.99,badge:'sale',stars:4, colors:['#26a69a','#ff5722','#333']},
+      {id:17,name:"Satin Evening Blouse",        style:"elegant",    vis:{type:'blouse',     bg1:'#ede7f6',bg2:'#d1c4e9',c1:'#7e57c2',c2:'#d4af37',pat:''},          price:69.99,old:null,   badge:'new', stars:5, colors:['#7e57c2','#fff','#d4af37']},
+      {id:18,name:"High-Waist Mom Jeans",        style:"vintage",    vis:{type:'jeans',      bg1:'#bbdefb',bg2:'#e3f2fd',c1:'#1565c0',c2:'',       pat:''},          price:54.99,old:69.99,  badge:'sale',stars:4, colors:['#2196f3','#fff','#f9a825']},
+      {id:19,name:"Compression Sport Shorts",    style:"sport",      vis:{type:'shorts',     bg1:'#ffcdd2',bg2:'#ffebee',c1:'#e53935',c2:'#b71c1c',pat:''},          price:27.99,old:null,   badge:null,  stars:4, colors:['#e53935','#111','#1565c0']},
+      {id:20,name:"Wide Leg Palazzo Pants",      style:"elegant",    vis:{type:'pants',      bg1:'#efebe9',bg2:'#d7ccc8',c1:'#8d6e63',c2:'#5d4037',pat:''},          price:84.99,old:null,   badge:'new', stars:4, colors:['#8d6e63','#000','#f5f5f5']},
+      {id:21,name:"Puffer Outdoor Vest",         style:"outdoor",    vis:{type:'vest',       bg1:'#fff9c4',bg2:'#fff176',c1:'#f9a825',c2:'#333',   pat:''},          price:64.99,old:79.99,  badge:'sale',stars:4, colors:['#f9a825','#111','#f44336']},
+      {id:22,name:"Oversized Flannel Shirt",     style:"casual",     vis:{type:'flannel',    bg1:'#fbe9e7',bg2:'#ffccbc',c1:'#bf360c',c2:'#fff',   pat:''},          price:44.99,old:null,   badge:null,  stars:3, colors:['#d84315','#5d4037','#000']},
+      {id:23,name:"Neon Windbreaker",            style:"streetwear", vis:{type:'windbreaker',bg1:'#1b1b1b',bg2:'#2d2d2d',c1:'#111',   c2:'#00e676',pat:''},          price:89.99,old:null,   badge:'hot', stars:5, colors:['#00e676','#f50057','#111']},
+      {id:24,name:"Vintage Knit Cardigan",       style:"vintage",    vis:{type:'cardigan',   bg1:'#fff8e1',bg2:'#ffe0b2',c1:'#ffb74d',c2:'#4a148c',pat:''},          price:57.99,old:72.99,  badge:'sale',stars:4, colors:['#ffb74d','#fff','#4a148c']},
+      {id:25,name:"High-Waist Yoga Leggings",    style:"sport",      vis:{type:'leggings',   bg1:'#c5cae9',bg2:'#e8eaf6',c1:'#3f51b5',c2:'#ff4081',pat:''},          price:37.99,old:null,   badge:'new', stars:5, colors:['#5c6bc0','#111','#ff4081']},
+    ]
+  },
+  {
+    id:1, name:"Girls Fashion", subtitle:"Feminine & Trendy",
+    season:"★ Girls Collection 2026",
+    headline:"Feminin.<br/><b>Trendy.</b><br/>Unverwechselbar.",
+    desc:"Zarte Farben, verspielter Schnitt – Mode für Mädchen die wissen was sie wollen.",
+    chips:["👗 Dresses","💕 Romantic","🌸 Floral","✨ Girly","🎀 Cute","💜 Pastel","Free Versand ab 49€","30 Tage Rückgabe"],
+    products:[
+      {id:1, name:"Floral Wrap Dress",        style:"elegant", vis:{type:'dress',   bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#e91e63',c2:'#fff',   pat:'floral'},  price:64.99,old:null,  badge:'new', stars:5, colors:['#e91e63','#fff','#f8bbd0']},
+      {id:2, name:"Puff Sleeve Blouse",       style:"casual",  vis:{type:'blouse',  bg1:'#e8f5e9',bg2:'#c8e6c9',c1:'#66bb6a',c2:'#fff',   pat:''},        price:39.99,old:null,  badge:null,  stars:4, colors:['#66bb6a','#fff','#a5d6a7']},
+      {id:3, name:"Tiered Mini Skirt",        style:"casual",  vis:{type:'skirt',   bg1:'#f3e5f5',bg2:'#e1bee7',c1:'#ce93d8',c2:'#f8bbd0',pat:''},        price:34.99,old:44.99, badge:'sale',stars:4, colors:['#ce93d8','#e91e63','#fff']},
+      {id:4, name:"Lace Crop Top",            style:"casual",  vis:{type:'croptop', bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#f48fb1',c2:'#fff',   pat:''},        price:24.99,old:null,  badge:'new', stars:4, colors:['#f48fb1','#fff','#c62828']},
+      {id:5, name:"High-Waist Cute Jeans",    style:"casual",  vis:{type:'jeans',   bg1:'#e3f2fd',bg2:'#bbdefb',c1:'#90caf9',c2:'',       pat:''},        price:54.99,old:null,  badge:null,  stars:4, colors:['#90caf9','#fff','#f48fb1']},
+      {id:6, name:"Satin Midi Dress",         style:"elegant", vis:{type:'dress',   bg1:'#fff8e1',bg2:'#ffe082',c1:'#ffd54f',c2:'#ffb74d',pat:'floral'},  price:79.99,old:99.99, badge:'sale',stars:5, colors:['#ffd54f','#ffb74d','#fff']},
+      {id:7, name:"Pink Knit Cardigan",       style:"casual",  vis:{type:'cardigan',bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#f48fb1',c2:'#ad1457',pat:''},        price:49.99,old:null,  badge:'new', stars:5, colors:['#f48fb1','#fff','#ad1457']},
+      {id:8, name:"Pleated Midi Skirt",       style:"elegant", vis:{type:'skirt',   bg1:'#fff3e0',bg2:'#ffe0b2',c1:'#ff9800',c2:'#795548',pat:''},        price:44.99,old:null,  badge:null,  stars:4, colors:['#ff9800','#fff','#795548']},
+      {id:9, name:"Off Shoulder Top",        style:"casual",  vis:{type:'croptop', bg1:'#e8eaf6',bg2:'#c5cae9',c1:'#7986cb',c2:'#e91e63',pat:''},        price:29.99,old:null,  badge:'hot', stars:5, colors:['#7986cb','#e91e63','#fff']},
+      {id:10,name:"Ruffle Blouse",            style:"elegant", vis:{type:'blouse',  bg1:'#f3e5f5',bg2:'#e1bee7',c1:'#9c27b0',c2:'#f48fb1',pat:''},        price:54.99,old:69.99, badge:'sale',stars:4, colors:['#9c27b0','#f48fb1','#fff']},
+      {id:11,name:"Floral Maxi Dress",        style:"casual",  vis:{type:'dress',   bg1:'#e8f5e9',bg2:'#c8e6c9',c1:'#43a047',c2:'#fff176',pat:'floral'},  price:69.99,old:null,  badge:'new', stars:5, colors:['#43a047','#fff176','#fff']},
+      {id:12,name:"Denim Mini Skirt",         style:"casual",  vis:{type:'skirt',   bg1:'#e3f2fd',bg2:'#bbdefb',c1:'#1565c0',c2:'#fff',   pat:''},        price:34.99,old:null,  badge:null,  stars:3, colors:['#1565c0','#fff','#f9a825']},
+      {id:13,name:"Pastel Pink Hoodie",       style:"casual",  vis:{type:'hoodie',  bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#f48fb1',c2:'#fff',   pat:''},        price:49.99,old:59.99, badge:'sale',stars:4, colors:['#f48fb1','#fff','#ad1457']},
+      {id:14,name:"Babydoll Sundress",        style:"casual",  vis:{type:'dress',   bg1:'#fff9c4',bg2:'#fff176',c1:'#f9a825',c2:'#e91e63',pat:'floral'},  price:44.99,old:null,  badge:'new', stars:4, colors:['#f9a825','#e91e63','#fff']},
+      {id:15,name:"Butterfly Crop Top",       style:"casual",  vis:{type:'croptop', bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#e91e63',c2:'#9c27b0',pat:''},        price:22.99,old:null,  badge:'hot', stars:5, colors:['#e91e63','#9c27b0','#fff']},
+      {id:16,name:"Flare Trousers",           style:"elegant", vis:{type:'pants',   bg1:'#f3e5f5',bg2:'#e1bee7',c1:'#9c27b0',c2:'#fff',   pat:''},        price:54.99,old:null,  badge:null,  stars:4, colors:['#9c27b0','#fff','#f48fb1']},
+      {id:17,name:"Cottagecore Blouse",       style:"vintage", vis:{type:'blouse',  bg1:'#fffde7',bg2:'#fff9c4',c1:'#f9a825',c2:'#fff',   pat:''},        price:39.99,old:49.99, badge:'sale',stars:4, colors:['#f9a825','#fff','#795548']},
+      {id:18,name:"Strappy Sundress",         style:"casual",  vis:{type:'dress',   bg1:'#e0f2f1',bg2:'#b2ebf2',c1:'#26c6da',c2:'#fff176',pat:'floral'},  price:59.99,old:null,  badge:'new', stars:5, colors:['#26c6da','#fff176','#fff']},
+      {id:19,name:"Sailor Mini Skirt",        style:"vintage", vis:{type:'skirt',   bg1:'#e3f2fd',bg2:'#bbdefb',c1:'#1565c0',c2:'#fff',   pat:''},        price:32.99,old:null,  badge:null,  stars:4, colors:['#1565c0','#fff','#e63946']},
+      {id:20,name:"Linen Summer Shorts",      style:"casual",  vis:{type:'shorts',  bg1:'#fff8e1',bg2:'#ffe082',c1:'#ffca28',c2:'#795548',pat:''},        price:28.99,old:null,  badge:null,  stars:3, colors:['#ffca28','#795548','#e91e63']},
+      {id:21,name:"Romantic Pink Blazer",     style:"elegant", vis:{type:'blazer',  bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#e91e63',c2:'#fff',   pat:''},        price:79.99,old:99.99, badge:'sale',stars:5, colors:['#e91e63','#fff','#ad1457']},
+      {id:22,name:"Bow Detail Crop Top",      style:"casual",  vis:{type:'croptop', bg1:'#f3e5f5',bg2:'#e1bee7',c1:'#ce93d8',c2:'#c62828',pat:''},        price:26.99,old:null,  badge:'new', stars:4, colors:['#ce93d8','#c62828','#fff']},
+      {id:23,name:"A-Line Floral Dress",      style:"elegant", vis:{type:'dress',   bg1:'#e8eaf6',bg2:'#c5cae9',c1:'#5c6bc0',c2:'#e91e63',pat:'floral'},  price:72.99,old:null,  badge:null,  stars:5, colors:['#5c6bc0','#e91e63','#fff']},
+      {id:24,name:"Patterned Leggings",       style:"casual",  vis:{type:'leggings',bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#f48fb1',c2:'#c62828',pat:''},        price:32.99,old:42.99, badge:'sale',stars:4, colors:['#f48fb1','#c62828','#fff']},
+      {id:25,name:"Knit Crop Sweater",        style:"casual",  vis:{type:'tshirt',  bg1:'#f3e5f5',bg2:'#e1bee7',c1:'#9c27b0',c2:'#ce93d8',pat:'stripes'}, price:44.99,old:null,  badge:'new', stars:4, colors:['#9c27b0','#ce93d8','#fff']},
+    ]
+  },
+  {
+    id:2, name:"Urban Streetwear", subtitle:"Bold Street Culture",
+    season:"★ Street Collection 2026",
+    headline:"Bold.<br/><b>Raw.</b><br/>Unfiltered.",
+    desc:"Oversized cuts, neon accents, street-ready layers. Make a statement before you say a word.",
+    chips:["🔥 Hype","🧢 Street","🖤 Dark","⚡ Neon","🏙️ Urban","💀 Grunge","Limited Drops","Worldwide Ship"],
+    products:[
+      {id:1, name:"Oversized Graphic Hoodie",  style:"streetwear",vis:{type:'hoodie',     bg1:'#121212',bg2:'#212121',c1:'#1a1a1a',c2:'#00e676',pat:''},          price:74.99,old:94.99, badge:'sale',stars:5, colors:['#1a1a1a','#00e676','#fff']},
+      {id:2, name:"Cargo Utility Pants",       style:"streetwear",vis:{type:'pants',      bg1:'#2e2e2e',bg2:'#424242',c1:'#3e3e3e',c2:'#9e9e9e',pat:''},          price:69.99,old:null,  badge:'new', stars:4, colors:['#3e3e3e','#9e9e9e','#f9a825']},
+      {id:3, name:"Neon Yellow Windbreaker",   style:"streetwear",vis:{type:'windbreaker',bg1:'#1b1b1b',bg2:'#2d2d2d',c1:'#111',   c2:'#ffea00',pat:''},          price:89.99,old:null,  badge:'hot', stars:5, colors:['#ffea00','#111','#f50057']},
+      {id:4, name:"Distressed Denim Jacket",   style:"streetwear",vis:{type:'jacket',     bg1:'#0d47a1',bg2:'#1565c0',c1:'#1976d2',c2:'#fff',   pat:'#f9a825'}, price:84.99,old:109.99,badge:'sale',stars:5, colors:['#1976d2','#fff','#f9a825']},
+      {id:5, name:"Boxy Graphic Tee",          style:"streetwear",vis:{type:'tshirt',     bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#fff',   pat:'stripes'},   price:34.99,old:null,  badge:null,  stars:4, colors:['#333','#fff','#e63946']},
+      {id:6, name:"Oversized Flannel Shirt",   style:"casual",    vis:{type:'flannel',    bg1:'#b71c1c',bg2:'#c62828',c1:'#c62828',c2:'#fff',   pat:''},          price:44.99,old:54.99, badge:'sale',stars:4, colors:['#c62828','#fff','#212121']},
+      {id:7, name:"Track Pants",               style:"streetwear",vis:{type:'pants',      bg1:'#1a237e',bg2:'#283593',c1:'#283593',c2:'#e8eaf6',pat:''},          price:54.99,old:null,  badge:'new', stars:4, colors:['#283593','#e8eaf6','#f50057']},
+      {id:8, name:"Puffer Street Vest",        style:"streetwear",vis:{type:'vest',       bg1:'#000',   bg2:'#111',   c1:'#212121',c2:'#ff4081',pat:''},          price:69.99,old:89.99, badge:'sale',stars:5, colors:['#212121','#ff4081','#fff']},
+      {id:9, name:"Cargo Shorts",              style:"casual",    vis:{type:'shorts',     bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#9e9e9e',pat:''},          price:42.99,old:null,  badge:null,  stars:3, colors:['#333','#9e9e9e','#f9a825']},
+      {id:10,name:"Logo Crop Hoodie",          style:"streetwear",vis:{type:'hoodie',     bg1:'#424242',bg2:'#616161',c1:'#4a4a4a',c2:'#f50057',pat:''},          price:59.99,old:null,  badge:'hot', stars:5, colors:['#4a4a4a','#f50057','#fff']},
+      {id:11,name:"Oversized Denim Pants",     style:"streetwear",vis:{type:'jeans',      bg1:'#0d47a1',bg2:'#1565c0',c1:'#1976d2',c2:'',       pat:''},          price:64.99,old:null,  badge:null,  stars:4, colors:['#1976d2','#fff','#f9a825']},
+      {id:12,name:"Street Bomber Jacket",      style:"streetwear",vis:{type:'jacket',     bg1:'#111',   bg2:'#222',   c1:'#1a1a1a',c2:'#d4af37',pat:'#fff'},     price:109.99,old:139.99,badge:'sale',stars:5, colors:['#1a1a1a','#d4af37','#fff']},
+      {id:13,name:"Mesh Layer Crop Top",       style:"streetwear",vis:{type:'croptop',    bg1:'#212121',bg2:'#333',   c1:'#424242',c2:'#ff6d00',pat:''},          price:28.99,old:null,  badge:'new', stars:4, colors:['#424242','#ff6d00','#fff']},
+      {id:14,name:"Cropped Hoodie",            style:"streetwear",vis:{type:'hoodie',     bg1:'#880e4f',bg2:'#ad1457',c1:'#ad1457',c2:'#fff',   pat:''},          price:54.99,old:64.99, badge:'sale',stars:4, colors:['#ad1457','#fff','#212121']},
+      {id:15,name:"Tie Dye Tee",              style:"casual",    vis:{type:'tshirt',     bg1:'#4a148c',bg2:'#6a1b9a',c1:'#7b1fa2',c2:'#e040fb',pat:'stripes'},   price:29.99,old:null,  badge:'hot', stars:5, colors:['#7b1fa2','#e040fb','#fff']},
+      {id:16,name:"Distressed Jeans",         style:"streetwear",vis:{type:'jeans',      bg1:'#0d47a1',bg2:'#1565c0',c1:'#0d47a1',c2:'',       pat:''},          price:59.99,old:74.99, badge:'sale',stars:4, colors:['#0d47a1','#fff','#9e9e9e']},
+      {id:17,name:"Streetwear Sport Tee",     style:"streetwear",vis:{type:'sporttee',   bg1:'#1b5e20',bg2:'#2e7d32',c1:'#2e7d32',c2:'#76ff03',pat:''},          price:34.99,old:null,  badge:'new', stars:4, colors:['#2e7d32','#76ff03','#fff']},
+      {id:18,name:"Patchwork Jacket",         style:"streetwear",vis:{type:'jacket',     bg1:'#795548',bg2:'#8d6e63',c1:'#8d6e63',c2:'#212121',pat:'#fff'},     price:94.99,old:null,  badge:'hot', stars:5, colors:['#8d6e63','#212121','#f9a825']},
+      {id:19,name:"Coach Jacket",             style:"streetwear",vis:{type:'jacket',     bg1:'#1a237e',bg2:'#283593',c1:'#283593',c2:'#fff',   pat:'#f9a825'}, price:84.99,old:104.99,badge:'sale',stars:4, colors:['#283593','#fff','#f9a825']},
+      {id:20,name:"Longline Street Cardigan", style:"casual",    vis:{type:'cardigan',   bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#9e9e9e',pat:''},          price:64.99,old:null,  badge:null,  stars:4, colors:['#333','#9e9e9e','#fff']},
+      {id:21,name:"Camo Cargo Pants",         style:"streetwear",vis:{type:'pants',      bg1:'#2e7d32',bg2:'#388e3c',c1:'#388e3c',c2:'#212121',pat:''},          price:74.99,old:null,  badge:'new', stars:5, colors:['#388e3c','#212121','#9e9e9e']},
+      {id:22,name:"Skate Shorts",             style:"streetwear",vis:{type:'shorts',     bg1:'#4a148c',bg2:'#6a1b9a',c1:'#6a1b9a',c2:'#ff4081',pat:''},          price:38.99,old:49.99, badge:'sale',stars:4, colors:['#6a1b9a','#ff4081','#fff']},
+      {id:23,name:"Retro Track Jacket",       style:"streetwear",vis:{type:'jacket',     bg1:'#1565c0',bg2:'#1976d2',c1:'#1976d2',c2:'#f44336',pat:'#fff'},     price:89.99,old:null,  badge:'hot', stars:5, colors:['#1976d2','#f44336','#fff']},
+      {id:24,name:"Grunge Flannel",           style:"casual",    vis:{type:'flannel',    bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#880e4f',pat:''},          price:44.99,old:54.99, badge:'sale',stars:4, colors:['#333','#880e4f','#fff']},
+      {id:25,name:"Street Layer Vest",        style:"streetwear",vis:{type:'vest',       bg1:'#ff4081',bg2:'#f50057',c1:'#f50057',c2:'#212121',pat:''},          price:54.99,old:null,  badge:'new', stars:4, colors:['#f50057','#212121','#fff']},
+    ]
+  },
+  {
+    id:3, name:"Sport & Active", subtitle:"Performance & Fitness",
+    season:"★ Active Collection 2026",
+    headline:"Train hard.<br/><b>Look good.</b><br/>Feel great.",
+    desc:"High-performance activewear for every workout. From yoga to marathon – we've got you covered.",
+    chips:["🏃 Running","🧘 Yoga","💪 Gym","🚴 Cycling","⚡ Performance","🔥 Intense","Free Versand","30 Tage Return"],
+    products:[
+      {id:1, name:"Compression Leggings Pro",  style:"sport", vis:{type:'leggings',   bg1:'#1a237e',bg2:'#283593',c1:'#283593',c2:'#00e5ff',pat:''},          price:44.99,old:54.99, badge:'sale',stars:5, colors:['#283593','#00e5ff','#fff']},
+      {id:2, name:"Sports Bra Stripe",         style:"sport", vis:{type:'croptop',    bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#00e5ff',pat:''},          price:29.99,old:null,  badge:'new', stars:4, colors:['#333','#00e5ff','#fff']},
+      {id:3, name:"Running Shorts",            style:"sport", vis:{type:'shorts',     bg1:'#006064',bg2:'#00838f',c1:'#00838f',c2:'#fff',   pat:''},          price:27.99,old:null,  badge:null,  stars:4, colors:['#00838f','#fff','#ff5722']},
+      {id:4, name:"Performance Tee",           style:"sport", vis:{type:'sporttee',   bg1:'#004d40',bg2:'#00695c',c1:'#00695c',c2:'#00e676',pat:''},          price:34.99,old:44.99, badge:'sale',stars:4, colors:['#00695c','#00e676','#fff']},
+      {id:5, name:"Track Jacket",              style:"outdoor",vis:{type:'jacket',    bg1:'#1b5e20',bg2:'#2e7d32',c1:'#2e7d32',c2:'#76ff03',pat:'#fff'},     price:74.99,old:null,  badge:'new', stars:5, colors:['#2e7d32','#76ff03','#fff']},
+      {id:6, name:"High-Waist Yoga Pants",     style:"sport", vis:{type:'leggings',   bg1:'#4a148c',bg2:'#6a1b9a',c1:'#7b1fa2',c2:'#e040fb',pat:''},          price:42.99,old:52.99, badge:'sale',stars:5, colors:['#7b1fa2','#e040fb','#fff']},
+      {id:7, name:"Marathon Tank Top",         style:"sport", vis:{type:'croptop',    bg1:'#f57f17',bg2:'#f9a825',c1:'#f9a825',c2:'#212121',pat:''},          price:24.99,old:null,  badge:null,  stars:4, colors:['#f9a825','#212121','#fff']},
+      {id:8, name:"Compression Shorts",        style:"sport", vis:{type:'shorts',     bg1:'#b71c1c',bg2:'#c62828',c1:'#c62828',c2:'#212121',pat:''},          price:29.99,old:null,  badge:'hot', stars:4, colors:['#c62828','#212121','#fff']},
+      {id:9, name:"Gym Hoodie",                style:"sport", vis:{type:'hoodie',     bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#ff4081',pat:''},          price:54.99,old:64.99, badge:'sale',stars:5, colors:['#333','#ff4081','#fff']},
+      {id:10,name:"Teal Athletic Leggings",    style:"sport", vis:{type:'leggings',   bg1:'#006064',bg2:'#00838f',c1:'#00838f',c2:'#ff5722',pat:''},          price:39.99,old:null,  badge:'new', stars:4, colors:['#00838f','#ff5722','#fff']},
+      {id:11,name:"Sports Windbreaker",        style:"outdoor",vis:{type:'windbreaker',bg1:'#006064',bg2:'#00838f',c1:'#00838f',c2:'#00e5ff',pat:''},          price:79.99,old:99.99, badge:'sale',stars:4, colors:['#00838f','#00e5ff','#fff']},
+      {id:12,name:"Fitness Crop Top",          style:"sport", vis:{type:'croptop',    bg1:'#880e4f',bg2:'#ad1457',c1:'#ad1457',c2:'#fff',   pat:''},          price:26.99,old:null,  badge:null,  stars:4, colors:['#ad1457','#fff','#ff4081']},
+      {id:13,name:"Dry-Fit Running Tee",       style:"sport", vis:{type:'tshirt',     bg1:'#1b5e20',bg2:'#2e7d32',c1:'#2e7d32',c2:'#76ff03',pat:'stripes'},   price:31.99,old:null,  badge:'new', stars:4, colors:['#2e7d32','#76ff03','#fff']},
+      {id:14,name:"Cycling Shorts",            style:"sport", vis:{type:'shorts',     bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#f9a825',pat:''},          price:34.99,old:44.99, badge:'sale',stars:5, colors:['#333','#f9a825','#fff']},
+      {id:15,name:"Zip Hoodie Sport",          style:"sport", vis:{type:'hoodie',     bg1:'#006064',bg2:'#00838f',c1:'#00838f',c2:'#fff',   pat:''},          price:59.99,old:null,  badge:null,  stars:4, colors:['#00838f','#fff','#ff5722']},
+      {id:16,name:"Power Leggings",            style:"sport", vis:{type:'leggings',   bg1:'#b71c1c',bg2:'#c62828',c1:'#c62828',c2:'#fff',   pat:''},          price:44.99,old:54.99, badge:'sale',stars:5, colors:['#c62828','#fff','#212121']},
+      {id:17,name:"Sport Jogger",              style:"sport", vis:{type:'pants',      bg1:'#1a237e',bg2:'#283593',c1:'#283593',c2:'#fff',   pat:''},          price:47.99,old:null,  badge:'new', stars:4, colors:['#283593','#fff','#00e5ff']},
+      {id:18,name:"Cross-Training Vest",       style:"outdoor",vis:{type:'vest',      bg1:'#ff4081',bg2:'#f50057',c1:'#f50057',c2:'#212121',pat:''},          price:52.99,old:64.99, badge:'sale',stars:4, colors:['#f50057','#212121','#fff']},
+      {id:19,name:"Endurance Sport Tee",       style:"sport", vis:{type:'sporttee',   bg1:'#4a148c',bg2:'#6a1b9a',c1:'#7b1fa2',c2:'#e040fb',pat:''},          price:32.99,old:null,  badge:'hot', stars:5, colors:['#7b1fa2','#e040fb','#fff']},
+      {id:20,name:"2-in-1 Sport Shorts",       style:"sport", vis:{type:'shorts',     bg1:'#006064',bg2:'#00838f',c1:'#00838f',c2:'#212121',pat:''},          price:36.99,old:null,  badge:null,  stars:4, colors:['#00838f','#212121','#fff']},
+      {id:21,name:"Trail Running Jacket",      style:"outdoor",vis:{type:'jacket',    bg1:'#1b5e20',bg2:'#2e7d32',c1:'#2e7d32',c2:'#ff5722',pat:'#fff'},     price:89.99,old:109.99,badge:'sale',stars:5, colors:['#2e7d32','#ff5722','#fff']},
+      {id:22,name:"High Waist Sport Leggings", style:"sport", vis:{type:'leggings',   bg1:'#880e4f',bg2:'#ad1457',c1:'#ad1457',c2:'#ff4081',pat:''},          price:46.99,old:null,  badge:'new', stars:5, colors:['#ad1457','#ff4081','#fff']},
+      {id:23,name:"Thermal Sport Top",         style:"sport", vis:{type:'tshirt',     bg1:'#004d40',bg2:'#00695c',c1:'#00695c',c2:'#fff',   pat:'stripes'},   price:38.99,old:48.99, badge:'sale',stars:4, colors:['#00695c','#fff','#00e676']},
+      {id:24,name:"Athletic Zip Hoodie",       style:"sport", vis:{type:'hoodie',     bg1:'#b71c1c',bg2:'#c62828',c1:'#c62828',c2:'#fff',   pat:''},          price:62.99,old:null,  badge:null,  stars:4, colors:['#c62828','#fff','#212121']},
+      {id:25,name:"Training Shorts Bold",      style:"sport", vis:{type:'shorts',     bg1:'#f57f17',bg2:'#f9a825',c1:'#f9a825',c2:'#212121',pat:''},          price:29.99,old:null,  badge:'hot', stars:4, colors:['#f9a825','#212121','#fff']},
+    ]
+  },
+  {
+    id:4, name:"Elegant & Business", subtitle:"Professional Looks",
+    season:"★ Business Collection 2026",
+    headline:"Power.<br/><b>Elegance.</b><br/>Authority.",
+    desc:"Tailored suits, silk blouses, refined cuts. Dress for the career you want.",
+    chips:["💼 Business","👔 Formal","✨ Luxury","🎩 Tailored","🏛️ Classic","💫 Premium","Free Versand","VIP Service"],
+    products:[
+      {id:1, name:"Power Suit Blazer",         style:"elegant", vis:{type:'blazer',  bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#d4af37',pat:''},          price:149.99,old:189.99,badge:'sale',stars:5, colors:['#333','#d4af37','#fff']},
+      {id:2, name:"Pencil Skirt",              style:"elegant", vis:{type:'skirt',   bg1:'#37474f',bg2:'#455a64',c1:'#546e7a',c2:'#b0bec5',pat:''},          price:69.99,old:null,  badge:'new', stars:4, colors:['#546e7a','#b0bec5','#d4af37']},
+      {id:3, name:"Silk Blouse Gold",          style:"elegant", vis:{type:'blouse',  bg1:'#fffde7',bg2:'#fff9c4',c1:'#f9a825',c2:'#d4af37',pat:''},          price:89.99,old:null,  badge:'new', stars:5, colors:['#f9a825','#d4af37','#fff']},
+      {id:4, name:"Wide-Leg Trousers",         style:"elegant", vis:{type:'pants',   bg1:'#37474f',bg2:'#455a64',c1:'#546e7a',c2:'#b0bec5',pat:''},          price:94.99,old:null,  badge:null,  stars:4, colors:['#546e7a','#b0bec5','#d4af37']},
+      {id:5, name:"Evening Gown",              style:"elegant", vis:{type:'dress',   bg1:'#1a1a2e',bg2:'#16213e',c1:'#0f3460',c2:'#d4af37',pat:'floral'},    price:189.99,old:229.99,badge:'sale',stars:5, colors:['#0f3460','#d4af37','#fff']},
+      {id:6, name:"Tailored Suit Jacket",      style:"elegant", vis:{type:'jacket',  bg1:'#37474f',bg2:'#455a64',c1:'#455a64',c2:'#d4af37',pat:'#fff'},     price:159.99,old:null,  badge:'new', stars:5, colors:['#455a64','#d4af37','#fff']},
+      {id:7, name:"Midi Wrap Dress",           style:"elegant", vis:{type:'dress',   bg1:'#4a148c',bg2:'#6a1b9a',c1:'#7b1fa2',c2:'#d4af37',pat:'floral'},    price:99.99,old:129.99,badge:'sale',stars:5, colors:['#7b1fa2','#d4af37','#fff']},
+      {id:8, name:"Office Blazer Beige",       style:"elegant", vis:{type:'blazer',  bg1:'#efebe9',bg2:'#d7ccc8',c1:'#a1887f',c2:'#5d4037',pat:''},          price:119.99,old:null, badge:'new', stars:4, colors:['#a1887f','#5d4037','#d4af37']},
+      {id:9, name:"Satin Wide Trousers",       style:"elegant", vis:{type:'pants',   bg1:'#212121',bg2:'#333',   c1:'#424242',c2:'#d4af37',pat:''},          price:109.99,old:null, badge:null,  stars:5, colors:['#424242','#d4af37','#fff']},
+      {id:10,name:"Column Evening Dress",      style:"elegant", vis:{type:'dress',   bg1:'#880e4f',bg2:'#ad1457',c1:'#c2185b',c2:'#d4af37',pat:'floral'},    price:139.99,old:169.99,badge:'sale',stars:5, colors:['#c2185b','#d4af37','#fff']},
+      {id:11,name:"Structured Cardigan",       style:"elegant", vis:{type:'cardigan',bg1:'#37474f',bg2:'#455a64',c1:'#546e7a',c2:'#d4af37',pat:''},          price:84.99,old:null,  badge:null,  stars:4, colors:['#546e7a','#d4af37','#fff']},
+      {id:12,name:"Formal White Blouse",       style:"elegant", vis:{type:'blouse',  bg1:'#fff',   bg2:'#f5f5f5',c1:'#e0e0e0',c2:'#212121',pat:''},          price:74.99,old:94.99, badge:'sale',stars:4, colors:['#e0e0e0','#212121','#d4af37']},
+      {id:13,name:"Business A-Line Skirt",     style:"elegant", vis:{type:'skirt',   bg1:'#1a237e',bg2:'#283593',c1:'#3949ab',c2:'#d4af37',pat:''},          price:79.99,old:null,  badge:'new', stars:5, colors:['#3949ab','#d4af37','#fff']},
+      {id:14,name:"Tailored Vest",             style:"elegant", vis:{type:'vest',    bg1:'#37474f',bg2:'#455a64',c1:'#546e7a',c2:'#d4af37',pat:''},          price:89.99,old:null,  badge:null,  stars:4, colors:['#546e7a','#d4af37','#fff']},
+      {id:15,name:"Strapless Evening Dress",   style:"elegant", vis:{type:'dress',   bg1:'#000',   bg2:'#111',   c1:'#212121',c2:'#d4af37',pat:'floral'},    price:199.99,old:249.99,badge:'sale',stars:5, colors:['#212121','#d4af37','#fff']},
+      {id:16,name:"Smart Casual Blazer",       style:"elegant", vis:{type:'blazer',  bg1:'#004d40',bg2:'#00695c',c1:'#00796b',c2:'#d4af37',pat:''},          price:134.99,old:null, badge:'new', stars:5, colors:['#00796b','#d4af37','#fff']},
+      {id:17,name:"Formal Wide-Leg Pants",     style:"elegant", vis:{type:'pants',   bg1:'#4a148c',bg2:'#6a1b9a',c1:'#7b1fa2',c2:'#d4af37',pat:''},          price:99.99,old:null,  badge:null,  stars:4, colors:['#7b1fa2','#d4af37','#fff']},
+      {id:18,name:"Lace Silk Blouse",          style:"elegant", vis:{type:'blouse',  bg1:'#fce4ec',bg2:'#f8bbd0',c1:'#f48fb1',c2:'#fff',   pat:''},          price:84.99,old:104.99,badge:'sale',stars:5, colors:['#f48fb1','#fff','#d4af37']},
+      {id:19,name:"Midi Pencil Dress",         style:"elegant", vis:{type:'dress',   bg1:'#37474f',bg2:'#455a64',c1:'#546e7a',c2:'#d4af37',pat:'floral'},    price:119.99,old:null, badge:'new', stars:5, colors:['#546e7a','#d4af37','#fff']},
+      {id:20,name:"Bold Color Blazer",         style:"elegant", vis:{type:'blazer',  bg1:'#b71c1c',bg2:'#c62828',c1:'#d32f2f',c2:'#fff',   pat:''},          price:129.99,old:159.99,badge:'sale',stars:4, colors:['#d32f2f','#fff','#d4af37']},
+      {id:21,name:"Cream Wide-Leg Trousers",   style:"elegant", vis:{type:'pants',   bg1:'#efebe9',bg2:'#d7ccc8',c1:'#bcaaa4',c2:'#5d4037',pat:''},          price:89.99,old:null,  badge:null,  stars:4, colors:['#bcaaa4','#5d4037','#d4af37']},
+      {id:22,name:"Business Cardigan",         style:"elegant", vis:{type:'cardigan',bg1:'#1a237e',bg2:'#283593',c1:'#3949ab',c2:'#d4af37',pat:''},          price:94.99,old:114.99,badge:'sale',stars:4, colors:['#3949ab','#d4af37','#fff']},
+      {id:23,name:"Embroidered Blouse",        style:"elegant", vis:{type:'blouse',  bg1:'#e8f5e9',bg2:'#c8e6c9',c1:'#66bb6a',c2:'#d4af37',pat:''},          price:79.99,old:null,  badge:'new', stars:5, colors:['#66bb6a','#d4af37','#fff']},
+      {id:24,name:"Formal Shift Dress",        style:"elegant", vis:{type:'dress',   bg1:'#212121',bg2:'#333',   c1:'#424242',c2:'#d4af37',pat:'floral'},    price:109.99,old:null, badge:null,  stars:4, colors:['#424242','#d4af37','#fff']},
+      {id:25,name:"Luxury Coat Blazer",        style:"elegant", vis:{type:'jacket',  bg1:'#212121',bg2:'#333',   c1:'#333',   c2:'#d4af37',pat:'#fff'},     price:219.99,old:269.99,badge:'sale',stars:5, colors:['#333','#d4af37','#fff']},
+    ]
+  }
 ];
 
-function loadProducts() {
+// ── STATE ──
+let cart = 0;
+let currentFilter = 'all';
+
+function getCollIdx(){
+  return parseInt(localStorage.getItem('stylehub_collection_idx')||'0') % COLLECTIONS.length;
+}
+function getColl(){
+  return COLLECTIONS[getCollIdx()];
+}
+
+function loadProducts(){
   try {
     const s = localStorage.getItem('stylehub_products2');
-    if (s) return JSON.parse(s);
-  } catch(e) {}
-  const data = DEFAULT_PRODUCTS.map(p => { const {svgFn,...rest}=p; return rest; });
+    if(s) return JSON.parse(s);
+  } catch(e){}
+  return saveCollectionProducts(getColl());
+}
+
+function saveCollectionProducts(coll){
+  const data = coll.products.map(({id,name,style,price,old,badge,stars,colors})=>({id,name,style,price,old,badge,stars,colors}));
   localStorage.setItem('stylehub_products2', JSON.stringify(data));
   return data;
 }
 
-function getSVG(p) {
-  const found = DEFAULT_PRODUCTS.find(d => d.id === p.id);
-  if (found && found.svgFn) return found.svgFn();
+function getSVG(p){
+  const coll = getColl();
+  const found = coll.products.find(cp => cp.id === p.id);
+  if(found && found.vis) return makeVis(found.vis);
   return svgTshirt('#eee','#f5f5f5','#ccc','#bbb','');
 }
 
-let cart = 0;
-const badgeLabels = { sale:'SALE', new:'NEU', hot:'HOT' };
-const badgeClass  = { sale:'badge-sale', new:'badge-new', hot:'badge-hot' };
-const stars = n => '★'.repeat(n) + '☆'.repeat(5-n);
-const titleMap = { all:'Alle Produkte', casual:'Casual', streetwear:'Streetwear', elegant:'Elegant', sport:'Sport', vintage:'Vintage', outdoor:'Outdoor' };
+function switchCollection(){
+  const nextIdx = (getCollIdx() + 1) % COLLECTIONS.length;
+  const nextColl = COLLECTIONS[nextIdx];
 
-function card(p) {
-  const colorsHTML = (p.colors||[]).map(c=>`<div class="dot" style="background:${c}"></div>`).join('');
+  // Show transition overlay
+  const overlay = document.getElementById('collOverlay');
+  document.getElementById('overlayName').textContent = nextColl.name;
+  document.getElementById('overlaySub').textContent = nextColl.subtitle;
+  overlay.classList.add('show');
+
+  setTimeout(()=>{
+    localStorage.setItem('stylehub_collection_idx', String(nextIdx));
+    saveCollectionProducts(nextColl);
+    updateHero(nextColl);
+    updateCollBanner(nextColl, nextIdx);
+    buildFilterTabs(nextColl.products);
+    currentFilter = 'all';
+    render(loadProducts());
+    overlay.classList.remove('show');
+    showToast('🔄 Kollektion gewechselt: ' + nextColl.name);
+  }, 700);
+}
+
+function updateHero(coll){
+  document.getElementById('heroTag').textContent = coll.season;
+  document.getElementById('heroTitle').innerHTML = coll.headline;
+  document.getElementById('heroSub').textContent = coll.desc;
+  document.getElementById('heroChips').innerHTML = coll.chips.map(c=>`<div class="hero-chip">${c}</div>`).join('');
+}
+
+function updateCollBanner(coll, idx){
+  document.getElementById('collName').textContent = coll.name;
+  document.getElementById('collSub').textContent = coll.subtitle;
+  document.getElementById('collProgress').textContent = (idx+1) + ' / ' + COLLECTIONS.length;
+}
+
+function buildFilterTabs(products){
+  const styles = ['all', ...new Set(products.map(p => p.style))].filter(Boolean);
+  const bar = document.getElementById('filterBar');
+  bar.innerHTML = styles.map((s,i)=>
+    `<button class="ftab${i===0?' active':''}" onclick="filterBy(this,'${s}')">${styleLabel(s)}</button>`
+  ).join('');
+}
+
+function styleLabel(s){
+  const map={all:'Alle',casual:'Casual',streetwear:'Streetwear',elegant:'Elegant',sport:'Sport',vintage:'Vintage',outdoor:'Outdoor'};
+  return map[s] || s.charAt(0).toUpperCase()+s.slice(1);
+}
+
+const badgeLabels = {sale:'SALE',new:'NEU',hot:'HOT'};
+const badgeClass  = {sale:'badge-sale',new:'badge-new',hot:'badge-hot'};
+const starsHtml = n => '★'.repeat(n)+'☆'.repeat(5-n);
+
+function card(p){
+  const cols = (p.colors||[]).map(c=>`<div class="dot" style="background:${c}"></div>`).join('');
   return `
   <div class="card">
     <div class="card-img">
-      ${p.badge ? `<span class="badge ${badgeClass[p.badge]}">${badgeLabels[p.badge]}</span>` : ''}
+      ${p.badge?`<span class="badge ${badgeClass[p.badge]}">${badgeLabels[p.badge]}</span>`:''}
       <button class="wish" onclick="this.textContent=this.textContent==='🤍'?'❤️':'🤍'">🤍</button>
       ${getSVG(p)}
     </div>
     <div class="card-body">
       <div class="card-top">
         <span class="style-tag">${p.style}</span>
-        <span class="stars">${stars(p.stars||4)}</span>
+        <span class="stars">${starsHtml(p.stars||4)}</span>
       </div>
       <div class="card-name">${p.name}</div>
-      <div class="color-row">${colorsHTML}</div>
+      <div class="color-row">${cols}</div>
       <div class="card-foot">
         <div>
           <span class="price">€${Number(p.price).toFixed(2)}</span>
-          ${p.old ? `<span class="old-price">€${Number(p.old).toFixed(2)}</span>` : ''}
+          ${p.old?`<span class="old-price">€${Number(p.old).toFixed(2)}</span>`:''}
         </div>
         <button class="btn-cart" onclick="addCart(this,'${p.name.replace(/'/g,"\\'")}')">+ Warenkorb</button>
       </div>
@@ -618,7 +862,7 @@ function card(p) {
   </div>`;
 }
 
-function render(list) {
+function render(list){
   const grid = document.getElementById('grid');
   grid.innerHTML = list.length
     ? list.map(card).join('')
@@ -626,33 +870,48 @@ function render(list) {
   document.getElementById('secCount').textContent = list.length + ' Artikel';
 }
 
-function filterBy(btn, style) {
-  document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+function filterBy(btn, style){
+  document.querySelectorAll('.ftab').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
+  currentFilter = style;
   const all = loadProducts();
-  const list = style === 'all' ? all : all.filter(p => p.style === style);
-  document.getElementById('secTitle').textContent = titleMap[style] || style;
+  const list = style==='all' ? all : all.filter(p=>p.style===style);
+  document.getElementById('secTitle').textContent = styleLabel(style);
   render(list);
 }
 
-function addCart(btn, name) {
+function addCart(btn, name){
   cart++;
   document.getElementById('cartBadge').textContent = cart;
   btn.textContent = '✓ Hinzugefügt';
   btn.classList.add('ok');
   showToast('🛒 ' + name + ' wurde hinzugefügt!');
-  setTimeout(() => { btn.textContent = '+ Warenkorb'; btn.classList.remove('ok'); }, 2000);
+  setTimeout(()=>{ btn.textContent = '+ Warenkorb'; btn.classList.remove('ok'); }, 2000);
 }
 
-function showToast(msg) {
+function showToast(msg){
   const t = document.getElementById('toast');
   t.textContent = msg;
   t.classList.add('show');
   clearTimeout(t._t);
-  t._t = setTimeout(() => t.classList.remove('show'), 3000);
+  t._t = setTimeout(()=>t.classList.remove('show'), 3000);
 }
 
-render(loadProducts());
+// ── INIT ──
+(function init(){
+  const coll = getColl();
+  const idx  = getCollIdx();
+  updateHero(coll);
+  updateCollBanner(coll, idx);
+  buildFilterTabs(coll.products);
+
+  // First visit: save default products
+  if(!localStorage.getItem('stylehub_products2')){
+    saveCollectionProducts(coll);
+  }
+
+  render(loadProducts());
+})();
 </script>
 </body>
 </html>

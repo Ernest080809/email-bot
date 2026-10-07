@@ -1,0 +1,665 @@
+{
+ "n": 11,
+ "phase": "P2",
+ "goal": "Proto entsteht, Shop rechtssicher, Stick-Abend, Sperrwoche ohne Ernte- und Serp-Bild einhalten",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "390 bestätigt (Alarm 170)"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.170 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante), Sa 28.11. kein Post"},
+  {"k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)", "ziel": "13"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Proto-Versand", "ziel": "schriftlich ≤ 30.11."}
+ ],
+ "days": {
+  "2026-11-23": [
+   {
+    "c": "N",
+    "t": "Sperrwoche 23.–29.11.: kein Ernte- und kein Serp-Post und kein solches Bild in Stories (Holodomor-Gedenktag Sa 28.11.). Sa 28.11. gar kein Post."
+   },
+   {
+    "c": "B",
+    "t": "Status Proto abfragen: Fotos und Versanddatum schriftlich",
+    "m": 15,
+    "s": [
+     "Mail an die Fabrik auf Englisch, Betreff „NVL-TT-01 · prototype status“: „Could you send photos of cutting, the embroidered panels and assembly? Please confirm the shipping date in writing. Our target: shipped by Mon 30.11., arriving Thu 03.12.“",
+     "Bei Portugal: auf die Feiertage 01.12. und 08.12. hinweisen (Allgemeinwissen, ungeprüft) und um Versand vor dem 01.12. bitten.",
+     "Fotos der Fabrik nicht posten: bis Do 03.12. zeigst du kein fertiges Teil. Sie gehen nur in den Ordner „Fabrik“ und zu Claude, wenn du etwas prüfen willst.",
+     "Versanddatum ins Blatt „Gates“ (Gate So 22.11. nachtragen, falls es dort noch fehlte)."
+    ],
+    "f": "die Mail raus ist und ein schriftliches Versanddatum oder ein Call-Termin im Blatt „Gates“ steht.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V019 „Drei Stoffe“ posten (BUILD Day 43)",
+    "m": 20,
+    "s": [
+     "Datei W11/final/V019 öffnen und noch einmal prüfen: kein Serp, keine Ähren, kein fertiges Teil.",
+     "17:55 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library oder keine, Caption unten einfügen. 18:00 posten.",
+     "Gleich danach als Reel auf Instagram (DE-Hook als erste Zeile) und als Short auf YouTube (Titel = Hook EN). Reel in die Story mit Link-Sticker.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Kommentare mit „Sowjet“, „Wappen“ oder „Holodomor“: danken, im Blatt „Content“ zählen (G7)."
+    ],
+    "f": "V019 auf drei Plattformen online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V019",
+     "slot": "BUILD",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Three denims. Only one becomes my jeans.",
+     "hook_de": "Drei Denims. Nur einer wird meine Jeans.",
+     "shots": [
+      "Drei Stoffmuster nebeneinander",
+      "Hand knüllt jedes Muster (Stoff-ASMR)",
+      "Gegenlicht am Fenster: Dichte",
+      "Lab Dips nebeneinander (Ziel, heller, dunkler)",
+      "Finger tippt auf den Gewinner"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite (gedreht am So 22.11.)",
+     "ton": "Originalton (Stoff). Keine Musik oder sehr leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, „100% cotton · rigid · no stretch“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 43. 100% cotton, rigid, no stretch. Three swatches, three wash tones. The dark one wins, because white thread needs contrast to read from three metres. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #rawdenim #novalifetimetravel",
+     "check": "Sperrwoche: kein Ernte- und kein Serp-Bild, nur Stoff, kein fertiges Teil, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Stick-Abend: Teilnehmer bestätigen, QR mit ?ref=stick bauen",
+    "m": 10,
+    "s": [
+     "Blatt „Abende“: alle Namen für Fr 27.11. Jedem eine kurze DM: „Fr 27.11., 18:30–20:00, [Ort vom 05.11.]. Du stickst eine Raute auf Denim, Material ist da. Kannst du sicher? Wenn nicht, rückt jemand nach.“",
+     "Absagen sofort an die Nachrücker weitergeben, bis 10 Plätze bestätigt sind.",
+     "Link für den Abend: deine Domain mit ?utm_source=qr&ref=stick. QR-Code daraus erzeugen, zweimal ausdrucken (Tisch, Eingang).",
+     "QR mit dem Handy testen: Seite öffnet, Testanmeldung bekommt den Tag „ref-stick“. Testkunden danach in Shopify löschen."
+    ],
+    "f": "10 Teilnehmer bestätigt sind (oder Nachrücker angeschrieben) und der getestete QR mit ref-stick ausgedruckt bereitliegt.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"},
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden: Tag ref-stick prüfen"}
+    ]
+   }
+  ],
+  "2026-11-24": [
+   {
+    "c": "A",
+    "t": "Rechtstexte: AGB, Widerruf, Versand, Zahlung mit Abmahnschutz + Hotline",
+    "m": 75,
+    "s": [
+     "Rechtstexte-Service mit Abmahnschutz wählen (z. B. IT-Recht Kanzlei oder Händlerbund, Websites selbst öffnen und prüfen). Preis vorher vergleichen. Über 80 € in die Zeile „ungeplant“ im Blatt „Kasse“.",
+     "Texte erzeugen: AGB, Widerrufsbelehrung mit Muster-Widerrufsformular, Versand- und Zahlungsinformationen. In Shopify → Einstellungen → Richtlinien einsetzen und im Footer verlinken. Bei englischen Hooks (Entscheidung 07.11.) die englischen Rechtstexte mitbuchen.",
+     "Hotline anrufen, Fragen vorher aufschreiben: 1 Creator-Kennzeichnung bei geschenkten Paaren · 2 Geld-zurück-Regel · 3 „Platz in der ersten Stunde sichern“ (kostenlos und mit 10 €) · 4 CTA „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“",
+     "Weiter: 5 Preisangabe „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“ ohne Streichpreis (PAngV § 11, ungeprüft) · 6 Widerruf bei Zipper und Polo, die erst nach Bestellung bestickt werden · 7 Bin ich bei bestickten Blanks Hersteller? · 8 der Preissatz in V021 („Pre-order price €149 from 14.01. until 21.03.“).",
+     "Antworten wörtlich mitschreiben, ins Blatt „Recht“. Es gilt, was die Hotline sagt, nicht Claude. Keine Rechtsberatung durch Claude.",
+     "Danach den Prompt unten an Claude, damit CTA, Captions und Shop-Texte angepasst werden."
+    ],
+    "f": "AGB, Widerruf, Versand- und Zahlungsinfos im Shop verlinkt sind und alle 8 Hotline-Antworten im Blatt „Recht“ stehen.",
+    "p": "Projekt Time Travel, Docket W11, Di 24.11. Antworten der Rechtstexte-Hotline: 1 Creator-Kennzeichnung: [..] · 2 Geld-zurück-Regel: [..] · 3 „Platz in der ersten Stunde sichern“ A/B: [..] · 4 CTA „Die Liste kauft zuerst“: [..] · 5 Preisangabe ohne Streichpreis: [..] · 6 Widerruf Zipper/Polo: [..] · 7 Hersteller bei bestickten Blanks: [..] · 8 Preissatz V021: [..] · Kosten Service: [€].\nSag mir: Welche CTA-Zeilen in 9.3 ändern sich, ob V021 am Fr so raus darf, was das für die Reservierung am So 29.11. heißt und was im Shop noch fehlt.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Richtlinien"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Recht“ und „Kasse“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Datenschutz-Endkontrolle (community.md 3.3), Double-Opt-in prüfen",
+    "m": 10,
+    "s": [
+     "Datenschutzerklärung (e-recht24 vom 07.10.) öffnen: Tally (13.10.), Quellen-Tags und Code (15.10.) und Größe (11.11.) stehen schon drin? Shopify Email mit Double-Opt-in und die Links zu deinen Kanälen erwähnt?",
+     "Double-Opt-in läuft: mit einer Testadresse eintragen, Bestätigungsmail kommt, erst danach zählt der Kunde. Testkunden löschen.",
+     "Keine Liste zu Meta hochladen. Keine Telefonnummern sammeln, WhatsApp nur als Kanal, nie als Gruppe.",
+     "Zettel für Fr ausdrucken: „Heute wird fotografiert. Sag Bescheid, wenn du nicht drauf willst.“"
+    ],
+    "f": "alle Punkte der Checkliste abgehakt sind und der Zettel für den Stick-Abend ausgedruckt ist.",
+    "o": [
+     {"n": "Tally", "u": "https://tally.so", "h": "Formular vom 13.10."},
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "LUCID: Verpackungsregister spätestens heute registrieren",
+    "m": 20,
+    "s": [
+     "Verpackungsregister öffnen und als Hersteller registrieren, bevor das erste Paket rausgeht (das Proto-Paket kommt zu dir, aber ab Januar verschickst du).",
+     "Bereitlegen: Name, Anschrift, Gewerbeanmeldung, Steuernummer, Marke „Novalife“, Mail.",
+     "Registrierungsnummer notieren und ins Blatt „Recht“. Die Systembeteiligung (Verpackungslizenz) kommt später am Di 23.02.",
+     "Unklar, welche Verpackungsarten du angeben musst: Prompt an Claude in einem Chat mit Websuche, Ergebnis selbst auf der Seite des Registers prüfen."
+    ],
+    "f": "die LUCID-Registrierungsnummer im Blatt „Recht“ steht.",
+    "p": "Projekt Time Travel, Docket W11, Di 24.11. Ich registriere mich heute bei LUCID (Verpackungsregister). Ich verschicke ab Januar Jeans in Versandkartons mit Seidenpapier, rund 100 Pakete. Erklär mir mit Websuche in 6 Punkten, welche Angaben die Registrierung verlangt und was danach bis zum ersten Versand noch fehlt (Systembeteiligung). Markiere, was du nicht auf der offiziellen Seite gefunden hast, als ungeprüft.",
+    "o": [
+     {"n": "Verpackungsregister (LUCID)", "u": "https://www.verpackungsregister.org", "h": "Registrierung vor dem ersten Paket"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "Chat mit Websuche"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berlin). Je ein Kommentar mit Inhalt.",
+     "Alle DMs beantworten. Jedes „Ja“ sofort ins Blatt „Abende“ oder „Die ersten 35“ (nur ausdrückliche Zusage mit Größe).",
+     "Sperrwoche: keine eigenen Kommentare mit Ernte- oder Serp-Bezug."
+    ],
+    "f": "5 Kommentare gesetzt, DMs beantwortet und jedes Ja im Blatt steht.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V117 „Antwort auf Kommentar“ (Grind+)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Einen echten Kommentar der letzten Woche wählen, der nichts mit Ernte oder Serp zu tun hat (z. B. zu Stoff, Wäsche, Preis oder Größe).",
+     "TikTok: „Mit Video antworten“, Instagram: Kommentar-Sticker. In einem Take antworten, dann ein Beweisbild (Papier, Maßband, Stoff).",
+     "Bei „Ist das russisch?“: nur die Standardantwort, nie diskutieren: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“",
+     "17:55 hochladen, 18:00 posten, Reel und Short, Reel in die Story mit Link-Sticker."
+    ],
+    "f": "V117 online ist oder bewusst gestrichen.",
+    "v": {
+     "id": "V117",
+     "slot": "REACH",
+     "dauer": "15–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Replying to: [comment, max. 8 words]",
+     "hook_de": "Antwort auf: [Kommentar]",
+     "shots": [
+      "Kommentar als Sticker (TikTok „mit Video antworten“, Instagram Kommentar-Sticker)",
+      "Du antwortest in einem Take",
+      "Ein Beweisbild: Papier, Maßband oder Stoff"
+     ],
+     "ort": "Wohnung · Schreibtisch, Handy auf Stativ, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "Kommentar-Sticker oben, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "You asked, here's the answer. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "check": "Sperrwoche: kein Ernte- und kein Serp-Bild, kein fertiges Teil, Standardantwort bei Herkunftsfragen, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-11-25": [
+   {
+    "c": "A",
+    "t": "Zahlungsanbieter: PayPal verbinden, Auszahlungspläne notieren",
+    "m": 30,
+    "s": [
+     "Shopify Payments ist seit 30.10. aktiv. Heute: Shopify → Einstellungen → Zahlungen → PayPal aktivieren und mit deinem PayPal-Geschäftskonto verbinden (Ausweis und Bankdaten bereithalten).",
+     "Auszahlungsplan Shopify Payments ablesen: Einstellungen → Zahlungen → Shopify Payments → Auszahlungen. Rhythmus und Dauer bis zum Bankkonto notieren.",
+     "PayPal: im PayPal-Konto nachsehen, wann und wie Geld aufs Bankkonto geht (automatisch oder manuell). Nichts annehmen, was du nicht im Konto siehst.",
+     "Beides ins Blatt „Kasse“, Zeile „Auszahlung“. Die Gates am 20.12. und 14.03. hängen an der Auszahlungsdauer.",
+     "Status von Shopify Payments prüfen: „verifiziert“? Wenn nicht, heute das Ticket beim Payments-Support aufmachen (Gate So 29.11.)."
+    ],
+    "f": "PayPal verbunden ist und beide Auszahlungspläne sowie der Status „verifiziert“ im Blatt „Kasse“ stehen.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Zahlungen"},
+     {"n": "PayPal-Geschäftskonto", "h": "in der PayPal-App oder im Browser selbst öffnen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V020 „Warum Panel-Stickerei“ posten (ORIGIN)",
+    "m": 20,
+    "s": [
+     "Datei W11/final/V020 prüfen: nur Band A oder Achtstern auf dem Papier, kein Serp, keine Ähren (Tausch mit dem 18.11., Sperrwoche).",
+     "17:55 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library, Caption einfügen. 18:00 posten.",
+     "Gleich danach Reel auf Instagram und Short auf YouTube. Reel in die Story mit Link-Sticker.",
+     "18:00–18:15 Kommentare beantworten (Regeln 9.3 Punkt 9). Fachfragen zur Stickerei anheften."
+    ],
+    "f": "V020 auf drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V020",
+     "slot": "ORIGIN",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Why you can't embroider a finished pair of jeans.",
+     "hook_de": "Warum man eine fertige Jeans nicht groß besticken kann.",
+     "shots": [
+      "Alte Jeans: Hand im Hosenbein zeigt die Röhre",
+      "Papierschnitt eines Vorderteils flach auf dem Laken",
+      "Papier von Band A oder Achtstern C auf das flache Teil legen",
+      "Text: „embroider flat → sew → wash“"
+     ],
+     "ort": "Wohnung · Boden-Flatlay auf hellem Laken, Draufsicht (gedreht am So 22.11.)",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, „embroider flat → sew → wash“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Large embroidery doesn't fit in the hoop on a sewn leg. It goes on the flat cut panel first, then the jeans get sewn and washed. That's why most factories said no. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidery #embroidereddenim #denim #buildinpublic #novalifetimetravel",
+     "check": "Sperrwoche: kein Ernte- oder Serp-Bild, nur Papier, keine Seitenansicht links, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-11-26": [
+   {
+    "c": "B",
+    "t": "Patch-Muster prüfen, 3× bei 60 °C waschen, Wäschemarker mittesten",
+    "m": 35,
+    "s": [
+     "Sind die Patch-Muster vom 13.11. vollständig? Wenn nicht: beim Anbieter nachfragen, Liefertermin ins Blatt „Patches“.",
+     "Gegen das Elementblatt (Freeze) halten: Maß mit dem Lineal, Linien nicht zugelaufen, Kanten sauber, Farben wie im Design. Foto mit Graukarte.",
+     "Test für V1 (Nummer am Patch): auf ein Stück Leinen mit dem Wäschemarker eine Probenummer „001“ schreiben.",
+     "Ein Patch-Muster und das Leinen 3× bei 60 °C waschen (heute morgens starten, zwischendurch an anderem arbeiten). Nach jeder Wäsche ein Foto.",
+     "Bewerten: Schrumpft das Leinen? Wellt sich der Patch? Franst die Kante? Ist die Nummer noch lesbar? Ergebnis mit Fotos vorher/nachher an Claude (Prompt unten)."
+    ],
+    "f": "du weißt, ob Patch und Nummer drei Wäschen bei 60 °C halten, oder der Anbieter eine Korrekturliste hat.",
+    "p": "Projekt Time Travel, Docket W11, Do 26.11. Hier sind Fotos meines Patch-Musters und der Wäschemarker-Nummer auf Leinen, vorher und nach 1, 2 und 3 Wäschen bei 60 °C: [Fotos]. Maß gemessen: [mm], Soll laut Elementblatt: [mm].\nBewerte: Schrumpf, Wellen, Kante, Farbe, Lesbarkeit der Nummer. Hält V1 (Nummer mit Wäschemarker) oder brauche ich eine andere Lösung? Schreib mir bei Mängeln eine kurze Korrekturliste an den Patch-Anbieter auf Deutsch.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Patches“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Prüfung des Protos vorbereiten: Prüfplan, Werkzeug, Fit-Termin",
+    "m": 20,
+    "s": [
+     "Docket → Referenz → Prüfplan Sample ausdrucken (Maße, Stickerei, Nähte, Waschung, Patch).",
+     "Bereitlegen: Maßband 150 cm, Lineal, Graukarte, heller Tisch, Waschstandard-Lappen vom 18.11., Handy mit freiem Speicher (Unboxing V025 wird am 03.12. sofort gefilmt).",
+     "Zwei Freunde mit W32 für Sa 05.12. anfragen (Fit-Test, 30 Minuten): „Hast du Sa 05.12. eine halbe Stunde? Du probierst den ersten Prototyp meiner Jeans an, ich messe und mache Fotos, nur mit deinem Okay.“",
+     "Termin ins Blatt „Abende“ (Fit-Test) und in den Kalender."
+    ],
+    "f": "der Prüfplan ausgedruckt bereitliegt und zwei W32-Termine für Sa 05.12. bestätigt sind.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Creator-Longlist Runde 3: auf 30 Namen komplett",
+    "m": 20,
+    "s": [
+     "Blatt „Creator“ öffnen: Runde 1 und 2 (20 Namen) stehen. Heute die letzten 10.",
+     "Suchen ohne Scraping, nur von Hand in der App: TikTok und Instagram mit #embroidereddenim, #berlinfashion, #denim, #rawdenim und Berliner Stickerei-Accounts. Kleine Creator aus Berlin oder mit Denim-Fokus.",
+     "Je Kandidat kurz prüfen: letzte 10 Posts, echte Kommentare, kein Politik-Content, keine Sowjet-Ästhetik. Ins Blatt: Name, Kanal-URL, Follower, Nische, Stadt, Grund.",
+     "Noch keine DM. Die Creator-Abmachung entscheidest du am Fr 11.12."
+    ],
+    "f": "im Blatt „Creator“ 30 Namen mit Kanal-URL und Grund stehen.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berlin). Je ein Kommentar mit Inhalt.",
+     "Alle DMs beantworten. Jedes „Ja“ sofort ins Blatt „Abende“ oder „Die ersten 35“.",
+     "Erinnerung an die 10 Stick-Abend-Gäste für morgen schicken."
+    ],
+    "f": "5 Kommentare gesetzt, DMs beantwortet, Erinnerung raus.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V118 „Stickmaschine ASMR“ (Grind+, nur mit Erlaubnis)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Nur posten, wenn du Material vom Berliner Sticker hast und er schriftlich erlaubt hat, es zu zeigen. Ohne Erlaubnis: heute stattdessen eine Variante deines besten Videos.",
+     "Sperrwoche: nur Raute oder Achtstern im Bild, kein Serp, keine Ähren. Vor dem 03.12. nur Stoffstück, kein fertiger Zipper oder Polo.",
+     "Die Zahl „1.000“ nur, wenn der Sticker sie für den Clip bestätigt. Sonst Hook B nehmen.",
+     "17:55 hochladen, 18:00 posten, Reel und Short, Story mit Link-Sticker."
+    ],
+    "f": "V118 mit Erlaubnis online ist oder durch eine Variante ersetzt wurde.",
+    "v": {
+     "id": "V118",
+     "slot": "DETAIL",
+     "dauer": "10–20 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Turn the sound on. This is 1,000 stitches.",
+     "hook_de": "Ton an. Das sind 1.000 Stiche.",
+     "shots": [
+      "Makro Stickkopf auf Stoffstück (Raute oder Achtstern)",
+      "Garnwechsel",
+      "Ergebnis auf dem Stoffstück"
+     ],
+     "ort": "Berliner Sticker (nur mit Erlaubnis), sonst Stickprobe zu Hause",
+     "ton": "Maschinenton, keine Musik",
+     "text": "0–2 s Hook EN, sonst kein Text",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Sound on. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
+     "check": "Nur mit Erlaubnis des Stickers, Sperrwoche ohne Serp und Ähren, kein fertiges Teil, Zahl nur bestätigt."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-11-27": [
+   {
+    "c": "C",
+    "t": "18:00 · V021 „Warum 169 €“ vorplanen (Stick-Abend ab 18:30)",
+    "m": 20,
+    "s": [
+     "Vormittags: Preissatz mit der Hotline-Antwort vom 24.11. abgleichen. Hat die Hotline etwas anders gesagt: Text im Bild und Caption anpassen, sonst nicht posten.",
+     "TikTok: Video hochladen, Caption einfügen, über die Planen-Funktion auf 18:00 stellen (Business-Konto). Instagram: Reel hochladen und für 18:00 planen. YouTube: Short für 18:00 planen.",
+     "Um 18:00 kurz prüfen, ob alles live ist. Reel in die Story mit Link-Sticker.",
+     "Kommentare nach dem Stick-Abend ab 20:15 beantworten, 15 Min."
+    ],
+    "f": "V021 um 18:00 auf drei Plattformen live ist und der Preissatz der Hotline-Antwort entspricht.",
+    "v": {
+     "id": "V021",
+     "slot": "REAL",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Why my jeans cost €169, line by line.",
+     "hook_de": "Warum meine Jeans 169 € kostet, Zeile für Zeile.",
+     "shots": [
+      "Papier: „€169 → ~€63 to make (estimate)“",
+      "Darunter: payment fees, shipping, returns, next drop",
+      "Text: „pre-order price €149 · 14.01.–21.03.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (gedreht am So 22.11.)",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, „estimate“ sichtbar",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "€169. About €63 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 21.03. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
+     "check": "Kein Streichpreis, keine fremden Marken, Schätzung gekennzeichnet, Preissatz von der Hotline geprüft, Sperrwoche ohne Ernte- und Serp-Bild."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Post planen"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel planen"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "18:30 · STICK-ABEND bis 20:00: Raute 7 × 7 in Rot/Weiß auf Denim",
+    "m": 90,
+    "s": [
+     "17:45 aufbauen am Ort vom 05.11. (bei dir oder Kunstraum Heartspace, Danziger Str. 172, wie angefragt). 10 Plätze: je Denim-Stück, Rahmen, Nadel, Garn Rot und Weiß, Vorlage „Raute 7 × 7“. QR mit ref-stick auf den Tisch, Foto-Zettel an den Eingang.",
+     "18:30 Begrüßung in zwei Sätzen: „Heute stickt jeder eine Raute. Die Raute steht für ein bestelltes Feld und ist eines der ältesten Motive im Kreuzstich.“ (nur sagen, wenn die Belegtabelle es trägt).",
+     "18:40–19:30 sticken. Du gehst herum und hilfst. Nur Raute und Achtstern auf dem Tisch: kein Weizen, kein Serp, auch nicht auf den Stickproben.",
+     "19:30 die gewaschenen Stickproben zeigen (nur Band A, Achtstern, Patch). Erzählen: am 03.12. kommt das Proto.",
+     "19:45 QR zeigen: „Wer auf die Liste will, scannt hier und bestätigt die Mail.“ Wer sagt, dass er am 14.01. bestellt: Größe fragen und ins Blatt „Die ersten 35“, Spalte „Zusage“. Alles andere „Vielleicht“.",
+     "Fotos nur von Leuten, die Ja sagen. Am Sa 28.11. postest du nichts davon (Gedenktag), frühestens ab So.",
+     "Danach: Zahl der Gäste, neue Anmeldungen mit ref-stick, Zusagen ins Blatt „Abende“."
+    ],
+    "f": "der Abend stattgefunden hat und Gäste, Anmeldungen mit ref-stick und Zusagen im Blatt „Abende“ stehen.",
+    "o": [
+     {"n": "Ort vom 05.11.: bei dir oder Kunstraum Heartspace", "a": "Danziger Str. 172", "h": "Bestätigung vom 05.11. prüfen, Zugang ab 17:45"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Abende“ und „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Stick-Abend bis 21:00 offen lassen (Grind+)",
+    "m": 60,
+    "plus": true,
+    "s": [
+     "Wer weiter sticken will, bleibt bis 21:00. Gespräche führen: Welche Größe trägst du? Was müsste die Jeans haben, damit du am 14.01. bestellst?",
+     "Jede ausdrückliche Zusage mit Größe sofort ins Blatt „Die ersten 35“.",
+     "21:00 aufräumen, Material für den nächsten Abend in eine Kiste."
+    ],
+    "f": "um 21:00 aufgeräumt ist und alle Zusagen im Blatt stehen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+    ]
+   }
+  ],
+  "2026-11-28": [
+   {
+    "c": "N",
+    "t": "Kein Post heute: Holodomor-Gedenktag (4. Samstag im November). Auch keine Story, kein Werbe-Kommentar."
+   },
+   {
+    "c": "A",
+    "t": "Versand im Shop einrichten: Deutschland, EU nur bei englischen Hooks",
+    "m": 30,
+    "s": [
+     "Shopify → Einstellungen → Versand und Zustellung → Versandprofil: Zone Deutschland anlegen.",
+     "EU nur, wenn du am 07.11. bei englischen Hooks geblieben bist. Dann die OSS-Antwort vom Steuerberater (13.10.) umsetzen. Bei deutschen Hooks: nur Versand nach DE bis zum Drop.",
+     "Gewicht je Paket 1,0 kg ansetzen (Jeans ca. 0,7 kg plus Karton). Echte Portokosten im DHL-Geschäftskundenportal nachsehen.",
+     "Kundenpreis: Empfehlung 4,90 € in Deutschland (aus Rev. 5.3), EU nach DHL-Tarif aufgerundet. Den Lieferzeit-Satz noch nicht einsetzen, der kommt am Mo 14.12.",
+     "Testbestellung kommt später. Heute nur speichern und Vorschau prüfen."
+    ],
+    "f": "die Versandzone(n) mit Preis gespeichert sind und die Wahl DE oder DE + EU zur Entscheidung vom 07.11. passt.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Versand und Zustellung"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Holy Shit Shopping im CANK + Sing Blackbird (Grind+, als Besucher)",
+    "m": 120,
+    "plus": true,
+    "s": [
+     "Vorher prüfen: Holy Shit Shopping im CANK, Karl-Marx-Straße, Neukölln, 28.–29.11. laut berlin.de. Datum, Öffnung und Eintritt auf der offiziellen Seite nachsehen.",
+     "Als Besucher hingehen, nicht verkaufen. 10 Designer ansprechen: „Wie bewirbt man sich hier, und was kostet ein Stand?“ Antworten ins Blatt „Berlin“.",
+     "Keine Fotos für Posts heute, kein Post (Gedenktag). Notizen reichen.",
+     "Danach Sing Blackbird, Sanderstr. 11: nach der Mail vom 18.11. fragen, Termine 12.01., 16.01., 23.01., 13.03. Öffnung vorher prüfen."
+    ],
+    "f": "10 Antworten zu Bewerbung und Standpreis im Blatt „Berlin“ stehen und Sing Blackbird nachgefasst ist.",
+    "o": [
+     {"n": "Holy Shit Shopping (berlin.de)", "u": "https://www.berlin.de/weihnachtsmarkt/2208886-3496862-holy-shit-shopping.html", "a": "CANK, Karl-Marx-Straße, Neukölln · 28.–29.11.", "h": "vor Ort prüfen"},
+     {"n": "Holy Shit Shopping", "u": "https://www.holyshitshopping.de/", "h": "Bewerbung und Termine prüfen"},
+     {"n": "Sing Blackbird", "u": "https://www.top10berlin.de/de/cat/shopping-271/vintage-mode-3141/sing-blackbird-vintage-5580", "a": "Sanderstr. 11, Neukölln", "h": "Öffnung vorher prüfen"}
+    ]
+   }
+  ],
+  "2026-11-29": [
+   {
+    "c": "A",
+    "t": "Wochenreview W11 + Reservierung entscheiden",
+    "m": 30,
+    "s": [
+     "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Zahl, Zuwachs und Verteilung nach Quellen-Tag (ref-stick neu) ins Blatt „Warteliste“. Monatsende November notieren.",
+     "Content: V019, V117, V020, V118, V021 mit Views, Saves, Shares, neuen Followern ins Blatt „Content“. Anmeldungen je 1.000 Views. Kommentare „Sowjet/Wappen/Holodomor“ zählen.",
+     "Kassencheck K − F − R (Rechtstexte, Stick-Material) ins Blatt „Kasse“. Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0).",
+     "Gates 7.1: G1 unter Alarm 170 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos · G2 unter 390 → bestes Video in 2 Varianten · G3 < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil · G5 Varianten-Regel · G6 schwacher Slot tauschen · G7 ≥ 3 kritische Kommentare → 2 Wochen kein Ernte- oder Serp-Bild · G8 Folklore → Totale aus 3 m · G9 > 70 % warme Tags → 3 neue Hooks · G12 Kasse gelb/rot → Ausgaben-Stopp.",
+     "Reservierung entscheiden (siehe Gate): Option B kostenlos ist Standard. Entscheidung ins Blatt „Gates“.",
+     "Zeile an Claude (Prompt unten)."
+    ],
+    "f": "die Cockpit-Zahlen eingetragen, alle Gates geprüft, die Reservierung A oder B entschieden ist und Claude die Zeile hat.",
+    "p": "Projekt Time Travel, Docket W11, So 29.11. W11: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Stick-Abend [Gäste]/10, Anmeldungen ref-stick [n]. Proto-Versand: [Datum]. Reservierung: Option [A/B]. Rechtstexte live: [ja/nein]. Payments verifiziert: [ja/nein]. Offen aus W11: [..]. Sag mir, welches Gate greift und was ich in W12 anders mache. Schreib mir außerdem die Reservierungsseite „Platz in der ersten Stunde sichern“ als Text für Option [A/B].",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
+     {"n": "Docket · Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE Reservierung A/B · Payments verifiziert · Rechtstexte live",
+    "m": 5,
+    "s": [
+     "Liste < 170: Reservierung mit 10 € (Option A), nur wenn Rechtstexte-Hotline und Shopify ok sind. Sonst die kostenlose Liste „Platz in der ersten Stunde sichern“ (Option B, Standard).",
+     "Shopify Payments verifiziert? Wenn nicht: Reservierung ohne Zahlung und Ticket beim Payments-Support aufmachen.",
+     "Rechtstexte live (AGB, Widerruf, Versand, Zahlung im Footer)? Wenn nicht: fertig machen bis Fr 04.12.",
+     "Ergebnis ins Blatt „Gates“. Die Reservierung baust du am Sa 05.12., sie öffnet Mo 07.12., 19:00."
+    ],
+    "f": "im Blatt „Gates“ für den 29.11. Option A oder B, Payments-Status und Rechtstexte-Status stehen.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Zahlungen, Richtlinien"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Instagram-Broadcast-Kanal „Time Travel · Werkstatt“ anlegen",
+    "m": 10,
+    "s": [
+     "Instagram (Handy) → Nachrichten → Erstellen → Broadcast-Kanal (Pfad in der App prüfen). Name „Time Travel · Werkstatt“, Zielgruppe: alle Follower.",
+     "Erste Nachricht vorbereiten, aber erst ab Mo 30.11. senden: „Hier zeige ich zuerst, was passiert. Das Proto kommt am Do 03.12. Ihr seht es hier vor allen anderen.“",
+     "Kanal nicht vor Montag ankündigen. Im Docket notieren: Broadcast ab Mo 30.11."
+    ],
+    "f": "der Kanal angelegt ist und die erste Nachricht als Entwurf für Mo 30.11. bereitliegt.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal in der App anlegen"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W12 (1/4): V022 „Sie ist unterwegs“ drehen",
+    "m": 20,
+    "s": [
+     "Ordner „W12“ anlegen. Schreibtisch, Draufsicht, Fensterlicht von der Seite, 9:16, je Shot 3 Takes.",
+     "Shots: Sendungsverfolgung am Handy (Nummer verpixeln). Gibt es heute noch kein Tracking: diesen Shot am Mo 30.11. früh nachdrehen. Kalender mit Do 03.12. umkringelt. Leerer Platz auf dem Tisch, Maßband und Papiervorlagen daneben. Du: „Thursday.“",
+     "Kein Produktbild, keine Fabrikfotos. Papiervorlagen nur Band A, Achtstern, Patch im Bild (Sperrwoche bis heute).",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel, 10–15 s. Export W12/final/V022."
+    ],
+    "f": "V022 geschnitten in W12/final liegt (oder nur der Tracking-Shot für Mo fehlt).",
+    "v": {
+     "id": "V022",
+     "slot": "BUILD",
+     "dauer": "10–15 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 50: my first prototype is on its way.",
+     "hook_de": "Tag 50: Mein erster Prototyp ist unterwegs.",
+     "shots": [
+      "Sendungsverfolgung am Handy, Nummer verpixelt",
+      "Kalender, Do 03.12. umkringelt",
+      "Leerer Platz auf dem Tisch, Maßband und Papiervorlagen daneben",
+      "Du: „Thursday.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "0–2 s Hook EN, Untertitel, „Thu 03.12.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 50. No photos yet. My rule: I only show what exists. On Thursday it exists. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Kein Produktbild vor dem 03.12., Trackingnummer verpixelt, CTA der Phase."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W12 (2/4): V023 „Warum ein Sample“ drehen",
+    "m": 20,
+    "s": [
+     "Schreibtisch, du in die Kamera, dann drei Karten von Hand: „1 design ✓ · 2 sample … · 3 show“.",
+     "Schnitt auf einen Papiertest-Clip vom Oktober aus content/archiv: nur Band A oder Achtstern, keine Seitenansicht links.",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel, 15–25 s. Export W12/final/V023."
+    ],
+    "f": "V023 geschnitten in W12/final liegt.",
+    "v": {
+     "id": "V023",
+     "slot": "ORIGIN",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I won't show you the jeans before I hold them.",
+     "hook_de": "Ich zeige dir die Jeans nicht, bevor ich sie in der Hand halte.",
+     "shots": [
+      "Du in die Kamera am Schreibtisch",
+      "Drei Karten: „1 design ✓ · 2 sample … · 3 show“",
+      "Schnitt auf einen Papiertest-Clip vom Oktober"
+     ],
+     "ort": "Wohnung · Schreibtisch, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, die drei Karten",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "My order of work: finish the design, get a sample, only then show the product. No renders pretending to be real. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #embroidery #denim #novalifetimetravel",
+     "check": "Kein Mockup, kein Rendering, nur Papier, CTA der Phase."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W12 (3/4): V024 „Donnerstag“ aus Archiv-Clips schneiden",
+    "m": 20,
+    "s": [
+     "Archiv-Clips aus content/archiv. Reihenfolge nach Bildregel 9.3: B · A · E · C · D · B2 (Serp-Papier, Band A, Münztasche E, Achtstern C, Patch D, Ähren-Papier B2), je 0,5 s.",
+     "B und B2 in eigenen Einstellungen, nie im selben Bild. Keine Seitenansicht links. Nur Papier.",
+     "Letzter Frame „Thu.“. Musik nicht in CapCut einbacken: Trend-Sound legst du am Mi 02.12. in TikTok aus der Commercial Music Library darunter.",
+     "Post erst am Mi 02.12., 19:00, also nach der Sperrwoche. Export W12/final/V024."
+    ],
+    "f": "V024 (6–10 s) in der Reihenfolge B · A · E · C · D · B2 in W12/final liegt.",
+    "v": {
+     "id": "V024",
+     "slot": "REACH",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Tomorrow paper becomes thread.",
+     "hook_de": "Morgen wird aus Papier Garn.",
+     "shots": [
+      "Serp-Papier B am Bein, eigene Einstellung, 0,5 s",
+      "Papierband A an der Tasche, 0,5 s",
+      "Münztasche E aus Papier, 0,5 s",
+      "Achtstern C, 0,5 s",
+      "Patch D, 0,5 s",
+      "Ähren-Papier B2 an der Gesäßtasche, eigene Einstellung, 0,5 s",
+      "Letzter Frame: „Thu.“"
+     ],
+     "ort": "Archiv-Clips aus früheren Drehs (Ordner content/archiv)",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library. Instagram: Musik aus der Business-Bibliothek der App",
+     "text": "Hook EN 0–1 s, letzter Frame „Thu.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Thursday. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "check": "Reihenfolge B · A · E · C · D · B2, B und B2 nie im selben Bild, keine Seitenansicht links, nur Papier, Post erst nach der Sperrwoche am 02.12."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W12 (4/4): V025 Unboxing vorbereiten",
+    "m": 15,
+    "s": [
+     "Fensterbank freiräumen, Handy-Stativ fest positionieren, Probeaufnahme bei Tageslicht. Cutter, Graukarte und Makro-Linse (falls vorhanden) bereitlegen.",
+     "Handy-Speicher freimachen (mindestens 10 GB), Akku-Pack laden.",
+     "Shotliste auf einen Zettel neben die Fensterbank. Regel: das Auspacken am 03.12. sofort filmen, egal ob du postest. Deine echte Reaktion, nicht gespielt, nicht wiederholt.",
+     "Caption als Entwurf in die Notizen. Fabrik im Bild und Text nicht nennen ohne Erlaubnis."
+    ],
+    "f": "Drehplatz, Stativ, Speicher und Shotliste für das Unboxing am Do 03.12. bereit sind.",
+    "v": {
+     "id": "V025",
+     "slot": "BUILD",
+     "dauer": "20–40 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Two months of paper. This is the first real pair.",
+     "hook_de": "Zwei Monate Papier. Das ist das erste echte Paar.",
+     "shots": [
+      "Paket auf dem Tisch, Cutter schneidet das Klebeband (ASMR)",
+      "Hände ziehen die Jeans heraus, erst die Rückseite mit den Goldfäden",
+      "Deine echte Reaktion, nicht gespielt, nicht wiederholt",
+      "Makro Band A",
+      "Endkarte: „fit test Saturday“"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "Originalton, keine Musik",
+     "text": "0–2 s Hook EN, „prototype“ sichtbar, Endkarte „fit test Saturday“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Prototype #1. Not perfect yet. Fit test on Saturday, then a list of fixes for the factory. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Erst ab Do 03.12. erlaubt, klar als „prototype“ gekennzeichnet, B und B2 nie im selben Bild, keine Seitenansicht links, Fabrik nur mit Erlaubnis."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   }
+  ]
+ }
+}

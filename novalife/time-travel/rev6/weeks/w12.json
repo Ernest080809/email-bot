@@ -1,0 +1,679 @@
+{
+ "n": 12,
+ "phase": "P2",
+ "goal": "Das erste echte Teil kommt, ab jetzt darf gezeigt werden",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "470 bestätigt (Alarm 200), Grind+-Ziel 530"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.410 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Zusagen „Die ersten 35“", "ziel": "15 (Name, Größe, „ich bestelle am 14.01.“)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Proto-Post V025", "ziel": "≥ 2 × Median Views, ≥ 80 neue Anmeldungen in der Woche"}
+ ],
+ "days": {
+  "2026-11-30": [
+   {
+    "c": "B",
+    "t": "09:00 · Versand des Protos verfolgen",
+    "m": 10,
+    "s": [
+     "Tracking-Nummer aus der Mail der Fabrik in die Seite des Paketdienstes eingeben. Fehlt die Nummer: der Fabrik heute früh schreiben „Please send the tracking number for prototype #1 today.“",
+     "Ankunftstag ins Blatt „Fabriken“ (Spalte Proto) und in den Kalender.",
+     "Versand aus der Türkei: Der Paketdienst meldet sich wegen Einfuhrumsatzsteuer (19 %) und einer Gebühr. EORI-Nummer, Rechnung der Fabrik als PDF und, wenn vorhanden, die A.TR bereitlegen. Versand aus Portugal: keine Einfuhr, nur Zustellung.",
+     "Screenshot der Sendungsverfolgung machen, Nummer schwärzen. Den brauchst du für V022 heute um 18:00.",
+     "Kommt das Proto später als Do 03.12.: Rest dieser Woche um die Tage schieben (V025, Proto-Runde, Fit-Test) und Claude schreiben „Proto kommt am [Datum], schieb W12.“"
+    ],
+    "f": "der Ankunftstag im Blatt „Fabriken“ und im Kalender steht.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Absender-Domain in Shopify authentifizieren (vor der Mail am 07.12.)",
+    "m": 15,
+    "s": [
+     "Shopify-Admin → Einstellungen → Benachrichtigungen → Absender-E-Mail (Menü vor Ort prüfen, der Pfad kann anders heißen).",
+     "Dort „Domain authentifizieren“ wählen. Shopify zeigt dir DNS-Einträge (meist CNAME). Fenster offen lassen.",
+     "Beim Anbieter deiner Domain einloggen → DNS-Verwaltung → die Einträge genau so anlegen, wie Shopify sie zeigt. Nichts Bestehendes löschen.",
+     "Zurück in Shopify auf „Überprüfen“ klicken. Ist es noch nicht grün: morgen und Mi noch einmal prüfen. DNS braucht manchmal Stunden.",
+     "Absender-Adresse auf deine Novalife-Adresse an der eigenen Domain setzen, nicht Gmail.",
+     "Status ins Blatt „Gates“: „Domain authentifiziert am …“. Die erste große Mail geht am Mo 07.12., 19:00."
+    ],
+    "f": "Shopify die Domain als authentifiziert zeigt oder die DNS-Einträge angelegt sind und die Prüfung für Mi 02.12. im Kalender steht.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Benachrichtigungen → Absender-E-Mail (vor Ort prüfen)"},
+     {"n": "Anbieter deiner Domain", "h": "DNS-Verwaltung, Login aus deinen Unterlagen"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "17:00 · Broadcast starten: „Am Donnerstag kommt das erste echte Teil“",
+    "m": 10,
+    "s": [
+     "Instagram (Handy) → Nachrichten → Broadcast-Kanal „Time Travel · Werkstatt“ öffnen (angelegt am So 29.11.).",
+     "Erste Nachricht senden: „Am Donnerstag kommt das erste echte Teil. Hier siehst du es zuerst.“",
+     "Dazu das Foto vom Tracking-Screenshot (Nummer geschwärzt) oder vom leeren Tisch mit Maßband.",
+     "Umfrage-Sticker im Kanal: „Willst du das Auspacken live sehen?“ Ja / Später.",
+     "In der Story auf den Kanal hinweisen: „Werkstatt-Kanal ist offen“ mit Kanal-Link (Funktion in der App prüfen)."
+    ],
+    "f": "die erste Nachricht im Kanal steht und die Story auf den Kanal zeigt.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal „Time Travel · Werkstatt“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V022 posten: BUILD Day 50 „Sie ist unterwegs“",
+    "m": 20,
+    "s": [
+     "Video liegt fertig in W12/final/V022 (gedreht am So 29.11.). Fehlt der Tracking-Shot: heute früh mit dem Screenshot von oben nachdrehen und in CapCut einsetzen.",
+     "17:55 in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, leise unter dem Originalton. Caption unten einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Tag 50: Mein erster Prototyp ist unterwegs.“) und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story teilen, Link-Sticker auf die Warteliste.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Standard: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“",
+     "Kommentare mit „Sowjet“, „Wappen“, „Holodomor“ danken und im Blatt „Content“ zählen (Gate G7 am So)."
+    ],
+    "f": "V022 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V022",
+     "slot": "BUILD",
+     "dauer": "10–15 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 50: my first prototype is on its way.",
+     "hook_de": "Tag 50: Mein erster Prototyp ist unterwegs.",
+     "shots": [
+      "Sendungsverfolgung am Handy, Nummer verpixelt",
+      "Kalender, Do 03.12. umkringelt",
+      "Leerer Platz auf dem Tisch, Maßband und Papiervorlagen daneben",
+      "Du in die Kamera: „Thursday.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "0–2 s Hook EN, Untertitel an, letzter Frame „Thu 03.12.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 50. No photos yet. My rule: I only show what exists. On Thursday it exists. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Kein Produktbild, kein Mockup (Proto erst Do), Fabrik nicht genannt, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+    ]
+   }
+  ],
+  "2026-12-01": [
+   {
+    "c": "C",
+    "t": "18:00 · V023 posten: ORIGIN „Warum ein Sample“",
+    "m": 20,
+    "s": [
+     "Video liegt fertig in W12/final/V023 (gedreht am So 29.11.).",
+     "17:55 in TikTok hochladen (Business-Konto, Musik nur leise aus der Commercial Music Library unter deiner Stimme). Caption unten einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (DE-Zeile: „Ich zeige dir die Jeans nicht, bevor ich sie in der Hand halte.“) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Warteliste. Zweiter Story-Frame: Countdown-Sticker „Proto · Do 19:00“.",
+     "15 Minuten Kommentare beantworten (Regeln 9.3 Punkt 9). Frage „Why not show a render?“ anheften und antworten: „Because a render can't be wrong. A sample can.“"
+    ],
+    "f": "V023 auf drei Plattformen online ist, der Countdown in der Story läuft und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "v": {
+     "id": "V023",
+     "slot": "ORIGIN",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I won't show you the jeans before I hold them.",
+     "hook_de": "Ich zeige dir die Jeans nicht, bevor ich sie in der Hand halte.",
+     "shots": [
+      "Du in die Kamera am Schreibtisch",
+      "Drei Karten von Hand: „1 design ✓ · 2 sample … · 3 show“",
+      "Schnitt auf einen Papiertest-Clip vom Oktober (nur Band A oder Achtstern, keine Seitenansicht links)"
+     ],
+     "ort": "Wohnung · Schreibtisch, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, Karten „1 design ✓ · 2 sample … · 3 show“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "My order of work: finish the design, buy a sample, only then show the product. No renders pretending to be real. Thursday the sample arrives. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #crossstitch #denim #embroidereddenim #novalifetimetravel",
+     "check": "Nur Papier und Karten, kein Mockup, Subjekt ist der Prozess, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Link- und Countdown-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-02": [
+   {
+    "c": "V",
+    "t": "Creator-Shortlist 12: Engagement, Views, Brand-Safety",
+    "m": 30,
+    "s": [
+     "Google Sheets → Blatt „Creator“ (Longlist mit 30 Namen aus W8, W9, W11) öffnen.",
+     "Je Kandidat 10 Minuten nach community.md 2.3: Engagement = (Likes + Kommentare der letzten 12 Posts) ÷ 12 ÷ Follower × 100, angepinnte Posts und Gewinnspiele weglassen. Unter 1 % genauer ansehen (Schätzung).",
+     "Ø Views der letzten 10 Reels oder TikToks: mindestens 10 % der Follower (Schätzung).",
+     "Publikum: Kommentare überwiegend deutsch, Berlin sichtbar. Größe W31–W33 ist ein Plus, kein Muss.",
+     "Brand-Safety: letzte 30 Posts, Highlights, Bio, markierte Beiträge, Ton der Kommentare. Ein Treffer aus „Ausschluss“ (community.md 2.1) = raus, ohne Diskussion. Datum in „Brand-Safety ok“.",
+     "Die 12 besten markieren, davon die Top 8 für die Erst-DM am Fr 11.12. (Vorlage C2). Nur prüfen, heute noch nicht anschreiben."
+    ],
+    "f": "im Blatt „Creator“ 12 Namen mit Engagement %, Ø Views, Brand-Safety-Datum stehen und die Top 8 markiert sind.",
+    "p": "Projekt Time Travel, Docket W12, Mi 02.12. Hier sind meine 12 Creator-Kandidaten mit Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Berlin ja/nein: [Tabelle einfügen]. Sortier sie nach Passung für 100 nummerierte Jeans mit Kreuzstich-Band aus Berlin, markier die Top 8 und sag mir je Name in einem Satz, was ich vor der DM am 11.12. noch ansehen soll. Keine Herkunftsangaben über Personen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Werkstatt-Mail „Das Proto ist da“ auf Do 03.12., 19:00 terminieren",
+    "m": 15,
+    "s": [
+     "Prompt unten an Claude, Text in Shopify Email einfügen.",
+     "Shopify-Admin → Marketing → Kampagnen → Kampagne erstellen → Shopify Email. Empfänger: Segment „E-Mail-Abonnenten“.",
+     "Betreff und Vorschau von Claude, Absender deine Novalife-Adresse (Domain seit Mo authentifiziert? Status prüfen).",
+     "Button „Das Unboxing ansehen“ auf dein TikTok-Profil, zweiter Link auf die Startseite mit utm_source=mail (Schema vom 10.10.).",
+     "Testmail an dich senden, auf dem Handy lesen.",
+     "Zeitplan: Do 03.12., 19:00. Kommt das Proto später: Termin heute noch verschieben, die Mail geht nie ohne Proto raus."
+    ],
+    "f": "die Mail in Shopify Email für Do 03.12., 19:00 terminiert ist und die Testmail gut aussieht.",
+    "p": "Projekt Time Travel, Docket W12, Mi 02.12. Schreib mir die Werkstatt-Mail 2 „Das Proto ist da“ an meine Warteliste, Versand Do 03.12., 19:00, zeitgleich mit dem Unboxing-Video V025. Max. 120 Wörter, deutsch, Du-Form, 3 Betreffzeilen, 1 Vorschauzeile. Inhalt: Zwei Monate Papier, heute kam der Prototyp. Nicht perfekt, Fit-Test am Samstag, dann Korrekturen an die Fabrik. Am Mo 07.12., 19:00 öffnet „Platz in der ersten Stunde sichern“. CTA: „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ Keine Nummer versprechen. Regeln: nie „authentisch“, Subjekt ist das Muster, „Kreuzstich-Band“, „entworfen in Berlin“, keine Länder.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Marketing → Kampagnen → Shopify Email"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "19:00 · V024 posten: REACH „Donnerstag“ + Countdown-Sticker",
+    "m": 20,
+    "s": [
+     "Video liegt fertig in W12/final/V024 (aus Archiv-Clips, Reihenfolge B · A · E · C · D · B2).",
+     "18:55 in TikTok hochladen, Trend-Sound aus der Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Nie in CapCut einbacken.",
+     "19:00 posten. Gleich danach als Reel auf Instagram (Musik aus der Business-Bibliothek der App) und als Short auf YouTube.",
+     "Reel in die Story, Countdown-Sticker „Proto · Do 19:00“ auf Do 03.12., 19:00, dazu Link-Sticker auf die Warteliste.",
+     "15 Minuten Kommentare beantworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V024 online ist und die Story mit Countdown auf Do 19:00 und Link-Sticker läuft.",
+    "v": {
+     "id": "V024",
+     "slot": "REACH",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Tomorrow paper becomes thread.",
+     "hook_de": "Morgen wird aus Papier Garn.",
+     "shots": [
+      "Serp-Papier B am Bein, eigene Einstellung, 0,5 s",
+      "Papierband A an der Tasche, 0,5 s",
+      "Münztasche E aus Papier, 0,5 s",
+      "Achtstern C, 0,5 s, dann Patch D, 0,5 s",
+      "Ähren-Papier B2 an der Gesäßtasche, eigene Einstellung, 0,5 s",
+      "Letzter Frame: „Thu.“"
+     ],
+     "ort": "Archiv-Clips aus früheren Drehs (Ordner content/archiv)",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library; Instagram: Business-Bibliothek der App",
+     "text": "Hook EN 0–1 s, letzter Frame „Thu.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Thursday. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #crossstitch #novalifetimetravel",
+     "check": "Nur Papier, B und B2 in eigenen Einstellungen, Reihenfolge B · A · E · C · D · B2, keine Seitenansicht links, Musik nicht eingebacken."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Countdown-Sticker auf Do 19:00"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-03": [
+   {
+    "c": "B",
+    "t": "PROTO DA: auspacken (filmen), 10 Messpunkte, Fotos",
+    "m": 75,
+    "s": [
+     "Erst filmen, dann denken: Handy auf dem Stativ an der Fensterbank (vorbereitet am So), Aufnahme läuft, bevor das Paket aufgeht. Auspacken ungeschnitten, deine echte Reaktion. Das ist V025.",
+     "Bei Türkei: Einfuhrumsatzsteuer und Paketdienst-Gebühr bezahlen, Beleg fotografieren, Betrag ins Blatt „Kasse“ Zeile „ungeplant“. Lag die A.TR bei? Ja/nein ins Blatt „Fabriken“ (ohne A.TR beim nächsten Versand Zoll teurer, mit der Fabrik klären).",
+     "Alle 10 Messpunkte (Docket → Referenz → Prüfplan Sample): flach hinlegen, glattstreichen, nicht ziehen, jeden Punkt zweimal. Ist-Wert gegen W32-Soll und Toleranz ins neue Blatt „Proto“.",
+     "Fotos mit Graukarte im ersten Bild: vorn, hinten, jedes Element A–E nah, Innenseite, Rückseite der Stickerei. Nie links seitlich. Dateinamen „proto1-01.jpg“ fortlaufend.",
+     "Makros für V026 morgen gleich mit: Band A, Münztasche E, langsam, Streiflicht vom Fenster.",
+     "Proto bleibt bei dir (vereinbart am 27.10.). Es ist bis 13.12. dein einziges Vorzeigeteil: nicht waschen, nicht tragen außer beim Fit-Test."
+    ],
+    "f": "10 Messwerte und mindestens 12 Fotos im Blatt „Proto“ stehen, das Unboxing gefilmt ist und eine eventuelle Zollzahlung in „ungeplant“ steht.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "10 Messpunkte, Toleranzen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Proto“, „Kasse“, „Fabriken“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "15:00 · Proto-Runde starten: 20 Termine bis So 13.12.",
+    "m": 15,
+    "s": [
+     "Google Sheets → Blatt „Die ersten 35“: alle „Vielleicht“ und die wärmsten Namen aus „Netz“ auswählen, Ziel 20 Termine bis So 13.12.",
+     "Je Person eine persönliche Nachricht (WhatsApp oder DM): „Das Proto ist da. Willst du es sehen? 15 Minuten, bei mir, im Café oder per Video-Call. Passt [Tag, Uhrzeit]?“",
+     "Die Slots dieser Woche zuerst anbieten: Fr 04.12. (2 Calls), Mo 07.12. (2 Calls), Di 08.12. (2 Calls), Mi 09.12. und Do 10.12. (je 2–3 Treffen), Sa 12.12. (3 Treffen mit der A-Liste).",
+     "Im Termin die eine Frage: „Bestellst du am 14.01. um 18:00?“ Antwort mit Größe ins Blatt, Spalte „Zusage“ nur bei klarem Ja mit Größe, sonst „Vielleicht“. Das Kaufsignal 18:00 gilt für die Liste.",
+     "Termine in den Kalender, Zahl der vereinbarten Termine oben ins Blatt."
+    ],
+    "f": "mindestens 10 Anfragen raus sind und die ersten Termine im Kalender stehen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Die ersten 35“ und „Netz“"},
+     {"n": "WhatsApp / Instagram-DM", "h": "persönlich, nie als Gruppe"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "18:00 · Broadcast: Proto 1 h vor dem Feed",
+    "m": 5,
+    "s": [
+     "Instagram → Broadcast-Kanal „Time Travel · Werkstatt“.",
+     "Ein Foto der Rückseite (ohne Serp im Bild) plus Text: „Da ist es. Ihr seht es eine Stunde vor allen anderen. Um 19:00 das Auspacken.“",
+     "Keine Fabrik nennen, „prototype“ klar sagen."
+    ],
+    "f": "die Nachricht um 18:00 im Kanal steht.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "19:00 · V025 posten: BUILD „Unboxing des Prototyps“ (NEU)",
+    "m": 20,
+    "s": [
+     "Ab heute darf das echte Teil gezeigt werden. Unboxing in CapCut auf 20–40 s kürzen: Cutter, Hände, Rückseite zuerst, Reaktion, Makro Band A, Endkarte „fit test Saturday“. Hook EN in die ersten 2 s, Untertitel.",
+     "18:55 in TikTok hochladen, Originalton, keine Musik. Caption unten einfügen.",
+     "19:00 posten (zeitgleich geht die Werkstatt-Mail raus). Gleich danach als Reel auf Instagram (DE-Zeile „Zwei Monate Papier. Das ist das erste echte Paar.“) und als Short auf YouTube.",
+     "Reel in die Story mit Link-Sticker auf die Warteliste.",
+     "15 Minuten antworten (Regeln 9.3 Punkt 9). Nach 48 h (Sa 19:00) Views gegen den Median prüfen: Gate am So."
+    ],
+    "f": "V025 auf drei Plattformen online ist, die Story läuft und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "v": {
+     "id": "V025",
+     "slot": "BUILD",
+     "dauer": "20–40 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Two months of paper. This is the first real pair.",
+     "hook_de": "Zwei Monate Papier. Das ist das erste echte Paar.",
+     "shots": [
+      "Paket auf dem Tisch, Cutter schneidet das Klebeband (ASMR)",
+      "Hände ziehen die Jeans heraus, erst die Rückseite mit den Goldfäden",
+      "Deine echte Reaktion, nicht gespielt, nicht wiederholt",
+      "Makro Band A",
+      "Endkarte: „prototype #1 · fit test Saturday“"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "Originalton, keine Musik",
+     "text": "0–2 s Hook EN, „prototype #1“ im Bild, Endkarte „fit test Saturday“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Prototype #1. Not perfect yet. Fit test on Saturday, then a list of fixes for the factory. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Klar „prototype“, Fabrik nicht genannt, Serp und Ähren nie im selben Bild, keine Seitenansicht links, nie „authentisch“."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "N",
+    "t": "19:00 geht die Werkstatt-Mail „Das Proto ist da“ geplant raus (terminiert am Mi)"
+   }
+  ],
+  "2026-12-04": [
+   {
+    "c": "B",
+    "t": "Stickerei und Verarbeitung prüfen (Prüfplan)",
+    "m": 45,
+    "s": [
+     "Docket → Referenz → Prüfplan Sample, Teil „Stickerei“: je Element A–E Lage, Maß, Farben gegen Graukarte, Stichdichte, Fadenschnitte, Rückseite (Vlies sauber geschnitten, keine losen Fäden), Wellen im Denim.",
+     "Teil „Verarbeitung“ Punkt für Punkt: Nähte, Riegel, Knöpfe und Nieten, Label, Goldfäden B2 (gesetzt? Länge?), Patch D.",
+     "Jede Abweichung mit Foto-Nummer ins Blatt „Proto“, Spalte „Befund“.",
+     "Farben B und B2 gegen die Entscheidung vom Sa 07.11. prüfen (Spec Rev. 14).",
+     "Am Ende jede Zeile mit Ergebnis ok / Korrektur / kritisch markieren. Kritische Punkte gehen am So in die Korrekturliste."
+    ],
+    "f": "alle Punkte des Prüfplans ein Ergebnis haben und jede Abweichung eine Foto-Nummer hat.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Proto-Runde: 2 Video-Calls à 15′",
+    "m": 30,
+    "s": [
+     "Vor dem Call: Proto auf Bügel an die weiße Tür, Ringlicht oder Fenster. Handy mit WhatsApp-Video oder Instagram-Video.",
+     "Zeigen: erst Totale, dann Band A, Münztasche E, Rückseite. Serp nur von vorn, nie links seitlich.",
+     "Die Frage: „Bestellst du am 14.01. um 18:00? Welche Größe?“ Kennt die Person ihre Größe nicht: Bundmaß ihrer Lieblingsjeans flach gemessen × 2.",
+     "Sofort danach ins Blatt „Die ersten 35“: Zusage (nur klares Ja mit Größe) oder Vielleicht (was fehlt).",
+     "Den Satz der Person, der am meisten überzeugt, als Zitat notieren (für Captions, nur mit Erlaubnis)."
+    ],
+    "f": "2 Calls geführt und beide Ergebnisse im Blatt „Die ersten 35“ stehen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V026 drehen und posten: DETAIL „Echter Kreuzstich“",
+    "m": 45,
+    "s": [
+     "14:00 drehen, solange Tageslicht da ist: Hose auf Bügel an der weißen Tür, Streiflicht vom Fenster, 9:16, je Shot 3 Takes.",
+     "Shot 1 Totale aus 3 m, Shot 2 langsam auf 30 cm heranfahren, Shot 3 Makro Band A, dann Münztasche E. Den 3-m-Clip extra sichern: daraus wird am So V125.",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel, 8–15 s, Export W12/final/V026.",
+     "17:55 in TikTok hochladen (Musik nur leise aus der Commercial Music Library). 18:00 posten, danach Reel auf Instagram (DE-Zeile „Echter Kreuzstich auf Denim. Schau genauer hin.“) und Short auf YouTube.",
+     "Reel in die Story mit Link-Sticker. 15 Minuten antworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V026 auf drei Plattformen online ist und der 3-m-Clip für V125 gesichert ist.",
+    "v": {
+     "id": "V026",
+     "slot": "DETAIL",
+     "dauer": "8–15 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Real cross-stitch on denim. Look closer.",
+     "hook_de": "Echter Kreuzstich auf Denim. Schau genauer hin.",
+     "shots": [
+      "Totale aus 3 m: Hose auf Bügel an der Tür (Vorderseite, Serp nur von vorn)",
+      "Langsam auf 30 cm heranfahren",
+      "Makro Band A, dann Münztasche E"
+     ],
+     "ort": "Wohnung · weiße Wand oder Tür, Hose auf Bügel, Streiflicht vom Fenster",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "0–2 s Hook EN, Untertitel, im Makro „1.33 mm per stitch“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Red and white cross-stitch along the pocket edge and on the coin pocket. 1.33 mm per stitch. Prototype #1. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #berlinfashion #novalifetimetravel",
+     "check": "Nach außen „cross-stitch band“ (Wortliste 9.3), kein roter Hintergrund, keine Seitenansicht links."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-05": [
+   {
+    "c": "B",
+    "t": "10:00 · Fit-Test mit zwei Körpergrößen",
+    "m": 60,
+    "s": [
+     "Zwei Personen mit verschiedener Körpergröße (eine davon gern du). Proto nacheinander anziehen, Tageslicht.",
+     "Je Person notieren: Körpergröße, eigene Jeansgröße, Bundmaß gemessen, getragene Größe des Protos.",
+     "Fotos je Person: vorn, hinten, sitzend von vorn. Nie links seitlich. Graukarte im ersten Bild.",
+     "Fragen: Wo drückt es? Bund, Schritt, Oberschenkel, Knie, Länge? Notizen ins Blatt „Proto“.",
+     "Oberschenkel: 30 cm statt 28 cm Halbmaß war Absicht für die Stickfläche. Beide sagen: zu weit, passt, zu eng? Hier entscheidet sich, ob er bleibt.",
+     "3 kurze Clips à 5 s (gehen, drehen von vorn nach hinten über rechts, Hand in die Tasche) für Varianten und V030."
+    ],
+    "f": "Fotos und Notizen beider Personen im Blatt „Proto“ stehen und eine Meinung zum Oberschenkel notiert ist.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "12:00 · V027 Story: ASK „Was zuerst?“",
+    "m": 10,
+    "s": [
+     "Instagram-Story Frame 1: Foto der Rückseite (ohne Serp), Text „Which detail should I film first?“",
+     "Frame 2: Umfrage-Sticker mit 4 Antworten: band · coin pocket · gold threads · star. Link-Sticker auf die Warteliste.",
+     "Dieselbe Frage als TikTok-Story oder Foto-Post mit Umfrage, wenn verfügbar.",
+     "Abends Frame 3: Ergebnis plus „filming it Sunday“. Ergebnis ins Blatt „Content“. Das Siegermotiv drehst du morgen im Batch zuerst."
+    ],
+    "f": "die Story um 12:00 online ist und das Ergebnis abends im Blatt „Content“ steht.",
+    "v": {
+     "id": "V027",
+     "slot": "ASK",
+     "dauer": "3 Story-Frames",
+     "plattform": "Instagram-Story (+ TikTok-Story)",
+     "hook_en": "Which detail should I film first?",
+     "hook_de": "Welches Detail soll ich zuerst filmen?",
+     "shots": [
+      "Frame 1: Foto der Rückseite",
+      "Frame 2: Umfrage-Sticker band · coin pocket · gold threads · star",
+      "Frame 3 (abends): Ergebnis + „filming it Sunday“"
+     ],
+     "ort": "Wohnung, Foto vom Do",
+     "ton": "kein Ton",
+     "text": "Frage als Sticker, Link-Sticker",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "(Story) Which detail should I film first? Link sticker: join the list.",
+     "check": "Umfrage bis 4 Antworten, Serp nicht im Rückseitenfoto, kein roter Hintergrund."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Reservierung bauen: „Platz in der ersten Stunde sichern“",
+    "m": 45,
+    "s": [
+     "Option prüfen: Am So 29.11. entschieden. Standard ist Option B (kostenlos). Option A (10 €) nur, wenn am 29.11. so entschieden.",
+     "Shopify-Admin → Onlineshop → Seiten → Seite hinzufügen: „Platz in der ersten Stunde sichern“, Text von Claude (Prompt vom 29.11.). Sichtbarkeit: verborgen bis Mo 07.12., 19:00.",
+     "Formular: E-Mail, Vorname, Größe. Kundenformular wie beim Newsletter (`{% form 'customer' %}`, `contact[tags]` = reserviert, Größe als zweiter Tag z. B. „gr-w32“). Den Bau macht Claude Code mit dem Prompt unten.",
+     "Bestätigungstext: „Am 14.01. um 17:55 bekommst du den Link von mir, deine Größe ist vorgemerkt.“ Keine Nummer versprechen: Nummern gehen nach Bestelldatum.",
+     "Test mit deiner zweiten Mail-Adresse: Kunde erscheint in Shopify → Kunden mit Tag „reserviert“ und Größen-Tag.",
+     "Segment anlegen: Shopify → Kunden → Segmente → „Tag enthält reserviert“. Das brauchst du am 14.01. um 17:55."
+    ],
+    "f": "die verborgene Seite funktioniert, der Testkunde den Tag „reserviert“ und seine Größe trägt und das Segment existiert.",
+    "p": "Projekt Time Travel, Docket W12, Sa 05.12. Bau mir in meinem Theme eine Seiten-Vorlage „page.reservierung“ mit einem Kundenformular wie in Dawn sections/newsletter.liquid ({% form 'customer' %}): Felder E-Mail (Pflicht), Vorname, Größe als Auswahl aus meiner Größentabelle [Größen einfügen]. Beim Absenden: contact[tags] = „reserviert, gr-[größe]“. Erfolgstext: „Am 14.01. um 17:55 bekommst du den Link von mir, deine Größe ist vorgemerkt.“ Kein Wort von Nummern. Halte dich an CLAUDE.md und zeig mir, wie ich es in der Vorschau teste. Commit nach meinem „passt“.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten · Kunden → Segmente"},
+     {"n": "Dawn · newsletter.liquid (Vorbild)", "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid"},
+     {"n": "Claude Code", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE Proto und Fit ok → PP am Mo 07.12. bestellen",
+    "m": 5,
+    "s": [
+     "Prüfen: Messwerte im Rahmen der Toleranz oder klar korrigierbar? Stickerei ohne kritischen Befund? Fit bei beiden Personen tragbar?",
+     "Alles ok: PP-Sample am Mo 07.12. bestellen, Korrekturen per Foto und Maß.",
+     "Nicht ok (Fit falsch, Stickerei kritisch): zweites Proto bestellen, Öffnung der Vorbestellung nach B-Zeitachse 1 auf Do 21.01. (strategie.md 7.4). Claude schreiben: „Gate 05.12. rot, Grund: …, rechne B-Zeitachse 1.“",
+     "Ergebnis ins Blatt „Gates“ mit Datum."
+    ],
+    "f": "im Blatt „Gates“ grün oder rot mit Grund steht.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   }
+  ],
+  "2026-12-06": [
+   {
+    "c": "B",
+    "t": "10:00 · Korrekturliste mit Claude",
+    "m": 45,
+    "s": [
+     "Blatt „Proto“ als Tabelle kopieren: 10 Messwerte (Ist, Soll, Toleranz), Befunde Stickerei und Verarbeitung mit Foto-Nummern, Fit-Notizen beider Personen.",
+     "Prompt unten in einen neuen Chat im Projekt, Tabelle und die wichtigsten 6 Fotos anhängen.",
+     "Liste lesen: Stimmt jede Zeile mit dem, was du gesehen hast? Falsches korrigieren lassen.",
+     "Oberschenkel 28 oder 30 cm entscheiden und ins Blatt „Gates“.",
+     "Fertige Liste als PDF in den Ordner „Fabrik“. Sie geht am Mo 07.12. mit der PP-Bestellung raus."
+    ],
+    "f": "die Korrekturliste auf Englisch als PDF vorliegt und die Oberschenkel-Entscheidung notiert ist.",
+    "p": "Projekt Time Travel, Docket W12, So 06.12. Hier sind Messwerte, Befunde und Fit-Notizen vom Proto #1: [Tabelle], Fotos: [Anhänge]. Das Proto bleibt bei mir, die Fabrik bekommt die Korrekturen nur per Foto und Maß. Schreib mir die Korrekturliste für die Fabrik auf Englisch: Messpunkt, Ist, Soll, Änderung in cm, Foto-Nummer; dann die Stickerei-Korrekturen je Element A–E; dann Verarbeitung. Gib mir eine Empfehlung: Oberschenkel 28 oder 30 cm Halbmaß, mit Begründung aus den Fit-Notizen. Markier, was das PP-Sample zwingend zeigen muss (W32, alle Korrekturen, bestickt, genäht, gewaschen, Goldfäden gesetzt, Labels dran).",
+    "o": [
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Wochenreview W12: Liste nach Quellen-Tag, Views, Kassencheck",
+    "m": 15,
+    "s": [
+     "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Zahl, Zuwachs, Verteilung nach Quellen-Tag (src-, ref-) ins Blatt „Warteliste“.",
+     "Content: V022, V023, V024, V025, V026, V027 mit Views, Saves, Shares, neuen Followern ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
+     "Kassencheck K − F − R ins Blatt „Kasse“ (Zoll Proto in „ungeplant“).",
+     "Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0).",
+     "Zeile an Claude (Prompt unten). Offenes dazuschreiben."
+    ],
+    "f": "Blätter und Zahlen-Cockpit aktuell sind und die Zeile an Claude gesendet ist.",
+    "p": "Projekt Time Travel, Docket W12, So 06.12. W12: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Proto-Runde [n] Termine vereinbart, Gate Proto/Fit [grün/rot], V025 nach 48 h [Views] bei Median [M]. Offen aus W12: [..]. Sag mir, welches Gate greift und was ich in W13 anders mache.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
+     {"n": "Docket · Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE W12: ≥ 80 neue Anmeldungen, Proto-Post ≥ 2 × Median, Liste ≥ 470",
+    "m": 5,
+    "s": [
+     "Neue Anmeldungen der Woche ≥ 80 und V025 ≥ 2 × Median nach 48 h? Sonst: Proto-Video in 3 Varianten bis So 13.12. (neuer Hook, neues erstes Bild, gleicher Kern).",
+     "Liste ≥ 470? Unter 200 (Alarm, G1): Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story, einen Abend in 14 Tagen festmachen, Claude die 3 schwächsten Videos zeigen. Zwischen 200 und 470 (G2): bestes Video in 2 Varianten.",
+     "G3 Anmeldungen je 1.000 Views < 1,0: angehefteter Kommentar „The list buys first. 35 pairs at the pre-order price.“, Link-Sticker in jede Story, Seite im Instagram-Browser testen.",
+     "G5 Video ≥ 2 × Median und Teil-Rate über Median: 5 Varianten in 14 Tagen. G6 drei schwache Videos im selben Slot: Slot 2 Wochen tauschen.",
+     "G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“: danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild. G8 Folklore: erst Totale aus 3 m. G9 > 70 % warme Tags: 3 neue Hooks.",
+     "G12 Kasse gelb (0–300 €): nur Ausgaben aus Plan 3 · rot: Ausgaben-Stopp-Liste, Notfall-Leiter. Ergebnis ins Blatt „Gates“."
+    ],
+    "f": "jedes Gate im Blatt „Gates“ grün oder mit Gegenmaßnahme und Datum steht.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W13 (1/3): V028 „Was nicht gepasst hat“ drehen",
+    "m": 20,
+    "s": [
+     "Ordner „W13“ anlegen. Rest der Woche drehst du beim Mini-Shoot Di (V030, V124) und bei den On-Body-Fotos Do.",
+     "Flurspiegel, Licht von vorn, 9:16, je Shot 3 Takes. Proto tragen, nur von vorn.",
+     "Shots: Ganzkörper im Spiegel, Maßband am Oberschenkel, Makro auf die größte Problemstelle aus der Korrekturliste, Korrekturliste auf Papier „to factory“.",
+     "Je Abweichung ein Satz in die Kamera, ehrlich, nicht dramatisch.",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel, 25–35 s. Export W13/final/V028."
+    ],
+    "f": "W13/final/V028 fertig geschnitten im Ordner liegt.",
+    "v": {
+     "id": "V028",
+     "slot": "BUILD",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 57: what's wrong with my prototype.",
+     "hook_de": "Tag 57: Was an meinem Prototyp nicht stimmt.",
+     "shots": [
+      "Ganzkörper im Spiegel von vorn, Proto getragen",
+      "Maßband am Oberschenkel (28 oder 30 cm Halbmaß)",
+      "Makro auf die Problemstelle",
+      "Korrekturliste auf Papier „to factory“"
+     ],
+     "ort": "Wohnung · Flurspiegel, Ganzkörper, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
+     "text": "0–2 s Hook EN, je Befund eine Zeile (z. B. „thigh −2 cm“)",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 57. Fit test done. What changes before the final sample: [Liste]. Better you see this now than get it in April. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Echte Befunde, Spiegel nur von vorn, Serp und Ähren-Tasche nie im selben Bild."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W13 (2/3): V029 „Das Band in echt“ (Match-Cut)",
+    "m": 15,
+    "s": [
+     "Den Oktober-Clip mit Papierband an der Tasche aus content/archiv öffnen, Ausschnitt und Lichtrichtung merken.",
+     "Gleiche Stelle, gleiches Licht, gleiche Höhe: dieselbe Einstellung mit dem echten Band A. 3 Takes.",
+     "Makro Band A, Finger fährt das Band entlang.",
+     "CapCut: Match-Cut Papier → Garn, Hook EN, 8–12 s. Export W13/final/V029."
+    ],
+    "f": "W13/final/V029 mit sauberem Match-Cut im Ordner liegt.",
+    "v": {
+     "id": "V029",
+     "slot": "ORIGIN",
+     "dauer": "8–12 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This band was paper in October.",
+     "hook_de": "Dieses Band war im Oktober aus Papier.",
+     "shots": [
+      "Match-Cut: Papierband an der Tasche (Oktober-Clip), gleiche Einstellung mit echtem Band",
+      "Makro",
+      "Finger fährt das Band entlang"
+     ],
+     "ort": "Gleiche Stelle und gleiches Licht wie beim Papiertest (Wohnung)",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library; Instagram: Business-Bibliothek",
+     "text": "Hook EN, „Oct“ / „Dec“ als Ecke im Bild",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "October: paper and tape. December: 23 mm of red and white cross-stitch on the pocket edge. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #denim #novalifetimetravel",
+     "check": "Nach außen „cross-stitch band“, kein roter Hintergrund, keine Seitenansicht links."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W13 (3/3): V031 „Die Goldfäden“ drehen",
+    "m": 20,
+    "s": [
+     "Fensterbank, Gegenlicht, damit das Gold glänzt. 9:16, je Shot 3 Takes.",
+     "Makro linke Gesäßtasche, Fäden hängen. Dann Fön auf kleinster Stufe oder Hand: Fäden schwingen.",
+     "Rückansicht beim Gehen (nur hinten, kein Serp).",
+     "Hat das Proto noch keine Fäden: stattdessen Münztasche E im Makro, Hook dann „The smallest pocket got the most stitches.“",
+     "CapCut: Hook EN, Untertitel, 8–12 s. Export W13/final/V031. Siegermotiv der Umfrage vom Sa zuerst drehen, falls es ein anderes ist."
+    ],
+    "f": "W13/final/V031 im Ordner liegt.",
+    "v": {
+     "id": "V031",
+     "slot": "DETAIL",
+     "dauer": "8–12 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Nine threads. Set by hand. After the wash.",
+     "hook_de": "Neun Fäden. Von Hand gesetzt. Nach der Wäsche.",
+     "shots": [
+      "Makro linke Gesäßtasche, Fäden hängen",
+      "Fön auf kleinster Stufe oder Hand: Fäden schwingen",
+      "Gehen, Rückansicht (nur hinten, kein Serp)"
+     ],
+     "ort": "Wohnung · Fensterbank, Gegenlicht",
+     "ton": "Originalton (Stoff), keine Musik oder sehr leise",
+     "text": "0–2 s Hook EN, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Gold polyester, triple-twisted, 18 to 30 mm, knotted inside the pocket. The care label says: don't cut them. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #berlinfashion #novalifetimetravel",
+     "check": "Drei Ähren, nie „fünf“, kein Serp im Bild, nie hellblauer Himmel über gelbem Weizen."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V125 „Aus drei Metern“ posten (Variante)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Aus dem 3-m-Clip vom Fr schneiden: Totale 3 m, Fahrt näher, Makro. 6–10 s, Hook EN.",
+     "17:55 in TikTok mit Trend-Sound aus der Commercial Music Library, 18:00 posten, danach Reel und Short.",
+     "Story mit Link-Sticker, 10 Minuten Kommentare."
+    ],
+    "f": "V125 auf TikTok und Instagram online ist.",
+    "v": {
+     "id": "V125",
+     "slot": "REACH",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Can you spot the embroidery from here?",
+     "hook_de": "Siehst du die Stickerei von hier?",
+     "shots": [
+      "Totale 3 m",
+      "Ein Schritt pro Sekunde näher",
+      "Makro"
+     ],
+     "ort": "Wohnung · weiße Tür (Clip vom Fr), sonst Hinterhof ohne Monumentalkulisse und ohne Flaggen",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library",
+     "text": "Hook EN 0–2 s",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Wearable from far. A clock up close. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "check": "Ab Proto erlaubt, keine Seitenansicht links, keine Flaggen im Bild."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ]
+ }
+}

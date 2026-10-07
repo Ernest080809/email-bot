@@ -1,0 +1,613 @@
+{
+ "n": 10,
+ "phase": "P2",
+ "goal": "Stickproben und Stoff bewerten und freigeben, Teppich-Post, Website Stufe 1 live, Orte für Januar und März schriftlich anfragen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "330 bestätigt (Alarm 140)"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~990 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)", "ziel": "12"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Stickproben", "ziel": "bestanden am Di 17.11."}
+ ],
+ "days": {
+  "2026-11-16": [
+   {
+    "c": "B",
+    "t": "Stickproben bewerten: gewaschen, aus 3 m, Rot auf Indigo, Weiß",
+    "m": 60,
+    "s": [
+     "Vorher: Docket → Referenz → Prüfplan Sample, Teil „Stickerei“ öffnen. Graukarte, Lineal, Maßband, weißes Druckerpapier und die Papiervorlagen vom Oktober bereitlegen. Handy für V016 auf das Stativ: dein erstes Ansehen läuft mit (siehe nächste Aufgabe).",
+     "Was da ist sortieren: physische Proben (ungewaschen und gewaschen) oder Fotos und Video der Fabrik. Fehlt die gewaschene Probe: der Fabrik heute schreiben „Please send photos and a short video of each stitch-out after one wash, flat, daylight, with a grey card.“",
+     "Bei Tageslicht am Fenster, Probe flach auf dem Tisch. Je Element A–E prüfen: Wellen im Stoff? Einzug (mit dem Lineal in mm messen)? Konturen scharf? Farben wie im Elementblatt? Rückseite sauber, Fäden gesichert? Nach der Wäsche ausgefranst oder stumpf?",
+     "Test aus 3 m: Maßband auf den Boden legen, Probe an die Wand kleben, aus 3 m ansehen und fotografieren. Liest sich Rot auf Indigo als Muster oder verschwimmt es? Sind die Halme von B einzeln zu erkennen?",
+     "Weiß nach der Wäsche: Ziel L* ≥ 80. Die Messung macht die Fabrik, frag nach dem Wert. Du legst nur weißes Papier und die Graukarte daneben und fotografierst: wirkt das Weiß grau oder gelblich?",
+     "B und B2 nie zusammen fotografieren, keine Seitenansicht links. Jedes Foto mit Graukarte im Bild, Dateiname „W10_Stickprobe_[Element]_[gewaschen|ungewaschen]“.",
+     "Fotos und Messwerte mit dem Prompt unten an Claude. Ergebnis je Element ins Blatt „Fabriken“, Spalte „Stickprobe“: ok oder Korrektur."
+    ],
+    "f": "für jedes Element A–E im Blatt „Fabriken“ „ok“ oder eine konkrete Korrektur steht und der 3-m-Test und das Weiß nach der Wäsche fotografiert sind.",
+    "p": "Projekt Time Travel, Docket W10, Mo 16.11. Hier sind Fotos und Video meiner Stickproben, ungewaschen und gewaschen: [Fotos anhängen]. Messwerte: Einzug [mm je Element], L* Weiß nach der Wäsche laut Fabrik [Wert oder „fehlt“], 3-m-Test: [was man erkennt].\nBewerte jedes Element A–E gegen die Spec (Freeze vom 09.10.): Wellen, Einzug, Konturen, Farben, Rückseite, Waschergebnis, Lesbarkeit aus 3 m (Rot auf Indigo, Halme von B), Weiß Ziel L* ≥ 80.\nGib mir je Element „ok“ oder eine konkrete Korrektur auf Englisch (mit Maß), die ich der Fabrik morgen schicke. Sag mir am Ende in einem Satz, ob das Gate morgen grün ist, und was du dafür noch brauchst.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "Teil „Stickerei“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“, Spalte „Stickprobe“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V016 „Die erste Stickprobe“ drehen und posten",
+    "m": 45,
+    "s": [
+     "Vorher die Fabrik fragen, ob du die Stickprobe zeigen darfst. Den Namen der Fabrik nennst du nicht, ohne dass sie Ja sagt.",
+     "16:00 drehen an der Fensterbank, Licht von der Seite, 9:16, je Shot 3 Takes. Reihenfolge: Umschlag öffnen, Makro mit Finger über die Stiche, Rückseite mit Stabilisator, Probe neben der Papiervorlage. Zuerst Band A oder Achtstern C zeigen. B und B2 nie im selben Bild, keine Seitenansicht links.",
+     "16:30 in CapCut schneiden: Hook EN als Text in die ersten 2 s, Untertitel automatisch, 15–25 s. Endkarte mit dem Hinweis „Stick-Abend Fr 27.11., 10 Plätze, DM me“. Keine Musik in CapCut einbacken. Export in W10/final.",
+     "17:55 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library oder keine, Caption unten einfügen. 18:00 posten.",
+     "Gleich danach als Reel auf Instagram (Caption plus DE-Hook als erste Zeile) und als Short auf YouTube (Titel = Hook EN). Reel in die Story mit Link-Sticker auf die Warteliste. Zweite Story: „Stick-Abend Fr 27.11., 18:30. 10 Plätze. Schreib mir „Stick“.“",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Bei Herkunftsfragen: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“",
+     "Jede DM mit „Stick“ ins Blatt „Abende“ (Name, Kanal, Datum). Bei 10 Namen: Warteliste für Nachrücker."
+    ],
+    "f": "V016 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker und der Stick-Abend-Hinweis laufen und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V016",
+     "slot": "BUILD",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "First time my pattern exists in thread.",
+     "hook_de": "Zum ersten Mal gibt es mein Muster in Garn.",
+     "shots": [
+      "Umschlag öffnen (Paket-ASMR)",
+      "Stickprobe auf dem Denim-Stück, Makro, Finger fährt über die Stiche (zuerst Band A oder Achtstern C)",
+      "Rückseite der Probe mit Stabilisator",
+      "Probe neben der Papiervorlage vom Oktober",
+      "Endkarte: „Stick-Abend Fr 27.11. · 10 spots · DM me“"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "Originalton (Papier, Stoff, Finger auf Stichen). Keine Musik oder sehr leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, Endkarte „Stick-Abend Fr 27.11. · 10 spots · DM me“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 36. A stitch-out is a test patch: my pattern on a scrap of real denim. Tomorrow I decide if it survives the wash. If it doesn't, no prototype gets sewn. Embroidery night in Berlin, Fri 27.11., 10 spots: DM me. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Stickprobe ist Prozess, kein fertiges Teil und kein Mockup; B und B2 nie im selben Bild, keine Seitenansicht links, Fabrik nur mit Erlaubnis, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Schnitt, keine Musik einbacken"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+    ]
+   }
+  ],
+  "2026-11-17": [
+   {
+    "c": "D",
+    "t": "Stickproben und Garnfarben freigeben, schriftlich an die Fabrik",
+    "m": 30,
+    "s": [
+     "Claudes Bewertung von gestern öffnen. Je Element A–E: freigeben oder Korrektur mit Foto und Maß (z. B. „Element C: pull-in 3 mm on the left edge, please add underlay“).",
+     "Garnfarben entscheiden: Weiß, Rot, Gold, Braun. Nur auf echtem, gewaschenem Denim beurteilen, bei Tageslicht und mit Graukarte, nie am Bildschirm.",
+     "Mail an die Fabrik auf Englisch, Betreff „NVL-TT-01 · stitch-out approval“: Liste je Element, Garnnummern, was vor dem Proto geändert wird, Bitte um Bestätigung und Proto-Versanddatum (Ziel Versand bis Mo 30.11.).",
+     "Garnnummern und Freigabe-Datum ins Blatt „Fabriken“. Die Mail-Bestätigung als PDF im Ordner „Fabrik“ ablegen."
+    ],
+    "f": "die schriftliche Freigabe oder Korrekturliste mit Garnnummern an die Fabrik raus ist und die Nummern im Blatt „Fabriken“ stehen.",
+    "p": "Projekt Time Travel, Docket W10, Di 17.11. Meine Entscheidung zu den Stickproben: A [ok/Korrektur], B [..], B2 [..], C [..], D [..], E [..]. Garnfarben: Weiß [Nr.], Rot [Nr.], Gold [Nr.], Braun [Nr.].\nSchreib mir die Mail an die Fabrik auf Englisch: kurz, je Element eine Zeile, mit Maß, Bitte um schriftliche Bestätigung und um das Proto-Versanddatum bis spätestens Mo 30.11.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE Stickproben: trägt die Stickerei auf gewaschenem Denim?",
+    "m": 10,
+    "s": [
+     "Grün, wenn alle Elemente nach der Wäsche ok sind oder nur Korrekturen haben, die die Fabrik ohne neue Probe zusagt: Proto läuft. Ergebnis ins Blatt „Gates“.",
+     "Rot, wenn die Stickerei auf gewaschenem Denim nicht trägt (Wellen, Einzug, Fransen, Weiß stumpf): kein Proto. Den Fehler benennen, nicht „sieht schlecht aus“.",
+     "Rot, Weg 1 (B-Zeitachse 1): Fabrik bekommt heute den benannten Fehler mit Foto und Maß und die Bitte um eine neue Stickprobe mit Datum. Öffnung rückt dann höchstens auf Do 21.01.",
+     "Rot, Weg 2 (B-Zeitachse 2): Fabrik 2 aus dem Blatt „Fabriken“ heute warm anschreiben (Vorlage „Nachfassen“, Docket → Referenz → Vorlagen), Tech Pack und Stickdatei anhängen, Stickprobe anfragen.",
+     "Bei Rot den Prompt unten an Claude, damit die Folgewochen neu geplant werden."
+    ],
+    "f": "im Blatt „Gates“ für den 17.11. „grün“ oder „rot + Weg 1/2“ steht und bei Rot die Mail an Fabrik 1 oder Fabrik 2 raus ist.",
+    "p": "Projekt Time Travel, Docket W10, Di 17.11. Gate Stickproben ist [grün/rot]. Benannter Fehler: [..]. Fabrik sagt: [neue Probe bis ..]. Fabrik 2: [Name, angeschrieben ja/nein].\nPlane mir die Wochen 10–13 nach B-Zeitachse [1/2] neu: Was verschiebt sich (Proto, Fit, PP, Öffnung), welche Posts müssen getauscht werden (nichts Fertiges vor dem Proto), und was sage ich der Liste.",
+    "o": [
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Nachfassen“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Gates“ und „Fabriken“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berlin). Je ein Kommentar mit Inhalt, eine Frage oder eine Beobachtung, kein „nice“.",
+     "Alle DMs beantworten. Jedes „Ja“ (Stick-Abend, Zusage mit Größe) sofort ins passende Blatt: „Abende“ oder „Die ersten 35“ (nur ausdrückliche Zusage mit Größe in „Zusage“).",
+     "Keine Herkunft neben Name oder E-Mail notieren."
+    ],
+    "f": "5 Kommentare gesetzt, alle DMs beantwortet und jedes Ja im Blatt steht.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Abende“ und „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V114 „Mein Fehler: Deadline verpasst“ (Grind+)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Nur posten, wenn der Freeze am Fr 09.10. wirklich gehalten hat. Sonst die Daten im Video auf die echten Tage ändern.",
+     "Am Schreibtisch in einem Take drehen, Handy auf Stativ: Kalender mit 05.10. durchgestrichen und 09.10. eingekreist, du sagst ehrlich, was sich verschoben hat, dann die neue Regel auf Papier (z. B. „Freeze-Datum mit 3 Tagen Puffer“).",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel. 17:55 hochladen, 18:00 posten, gleich danach Reel und Short. Reel in die Story mit Link-Sticker.",
+     "10 Min. Kommentare beantworten, wenn die Zeit fehlt, am Mi früh."
+    ],
+    "f": "V114 online ist oder bewusst gestrichen, weil heute keine Zeit war.",
+    "v": {
+     "id": "V114",
+     "slot": "REAL",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I missed my own design deadline. Here's the cost.",
+     "hook_de": "Ich habe meine eigene Design-Deadline verpasst. Das hat es gekostet.",
+     "shots": [
+      "Kalender: 05.10. durchgestrichen, 09.10. eingekreist",
+      "Du in die Kamera, ehrlich, was sich verschoben hat",
+      "Neue Regel auf Papier, Makro"
+     ],
+     "ort": "Wohnung · Schreibtisch, Handy auf Stativ oder Bücherstapel, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, Endkarte mit der neuen Regel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Design freeze was 05.10. It happened on 09.10. Four days don't sound like much. They push everything after it. New rule: every deadline gets 3 days of buffer. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Nur echte Daten, kein Produktbild, kein Mockup, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-11-18": [
+   {
+    "c": "B",
+    "t": "Stoffmuster und 3 Lab Dips bewerten, einen als Waschstandard freigeben",
+    "m": 45,
+    "s": [
+     "Vormittags bei Tageslicht am Fenster: alle Stoffmuster und die 3 Lab Dips (Ziel, heller, dunkler) nebeneinander, deine Eightyfive daneben. Ziel: deutlich dunkler als die Eightyfive (Spec L* 34–40).",
+     "Griff und Gewicht in der Hand, Köper im Streiflicht sichtbar? Weißes Garn oder eine weiße Stickprobe darauflegen: Kontrast aus 3 m prüfen.",
+     "Einen Lab Dip freigeben. Der freigegebene Stofflappen ist ab jetzt der Waschstandard: Foto mit Graukarte, Rückseite beschriften „NVL-TT-01 Waschstandard, freigegeben 18.11.2026“.",
+     "Ein Stück behältst du, ein Gegenstück bleibt bei der Fabrik. L* misst die Fabrik, du vergleichst jede spätere Lieferung nur mit deinem Lappen.",
+     "Mail an die Fabrik auf Englisch: gewählter Stoff und Lab Dip, „this swatch is our wash standard, please keep the counterpart“, Bitte um Reservierung des Stoffs für 100 Paar und um den L*-Wert.",
+     "Stoffmuster und Lab Dips aufheben: Sie sind die Requisiten für V019 am So 22.11."
+    ],
+    "f": "ein Lab Dip schriftlich freigegeben ist, der Lappen beschriftet bei dir liegt und die Fabrik die Reservierung für 100 Paar bestätigt oder angefragt hat.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“: Stoff, Lab Dip, Datum"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V017 „Der Teppich“ posten (ORIGIN, vorgezogen)",
+    "m": 20,
+    "s": [
+     "Video liegt im Ordner W10/final (gedreht am So 15.11.). Vorher prüfen: Subjekt ist der Teppich, nie „wir“. Kein „sowjetisch“, kein CCCP, keine Sowjet-Deko, Teppich nicht als roter Vollhintergrund hinter Text. Gesichter nur mit Einverständnis.",
+     "„Ours too.“ in der Caption nur, wenn es stimmt. Sonst den Satz streichen.",
+     "17:55 in TikTok hochladen (Business-Konto), Musik nur leise aus der Commercial Music Library, Caption einfügen. 18:00 posten.",
+     "Gleich danach als Reel auf Instagram und als Short auf YouTube. Reel in die Story mit Link-Sticker.",
+     "18:00–18:15 Kommentare beantworten. Wer schreibt „meine Oma hatte den auch“: danken und sagen, dass am Do eine Story kommt, in der man sein Teppich-Foto schicken kann (V122)."
+    ],
+    "f": "V017 auf drei Plattformen online ist, die Story läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V017",
+     "slot": "ORIGIN",
+     "dauer": "20–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This carpet hung on so many walls. Remember it?",
+     "hook_de": "Dieser Teppich hing an so vielen Wänden. Erinnerst du dich?",
+     "shots": [
+      "Eigenes Familienfoto mit Teppich im Hintergrund (Gesichter nur mit Einverständnis)",
+      "Wenn erreichbar: langsamer Schwenk über Medaillon und Rahmen des echten Teppichs",
+      "Hand zeichnet das Medaillon auf Rasterpapier ab",
+      "Text: „It's going on the back of a zipper.“"
+     ],
+     "ort": "Familie · Wohnung mit Teppich, sonst Fotoalbum und Schreibtisch",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, Schlusskarte „It's going on the back of a zipper.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Wall carpets hung in a lot of homes: for warmth, against noise, and because they were precious. [Only if true: Ours too.] Its medallion is becoming the back of the zipper. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #wallcarpet #novalifetimetravel",
+     "check": "Subjekt ist der Teppich, kein „wir“, keine Sowjet-Kulisse, kein roter Hintergrund, Familienaussage nur wenn wahr, vorgezogen vor die Sperrwoche, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Website Schritt 8: Stufe 1 live, altes Theme wird PLAN B, Test ?ref=test",
+    "m": 20,
+    "s": [
+     "Claude Code mit dem Prompt unten starten. Claude prüft git status, Budget-Check und theme check und pusht erst nach deinem „ja“ auf „TT Story“.",
+     "Shopify → Onlineshop → Themes: das bisher veröffentlichte Theme (Dawn-Warteliste vom 08.10.) in „PLAN B“ umbenennen.",
+     "„TT Story“ selbst veröffentlichen: im Admin auf „Veröffentlichen“.",
+     "Test mit dem Handy: Seite über deine Instagram-Bio öffnen, ?ref=test an die Adresse hängen, mit einer neuen Testadresse eintragen, Double-Opt-in bestätigen.",
+     "Shopify → Kunden → Testkunde öffnen: Tag „ref-test“ da? Eigener Code und persönlicher Link erscheinen nach der Bestätigung? Screenshot.",
+     "Testkunden danach löschen, damit er die Warteliste nicht zählt. Klappt etwas nicht: „PLAN B“ wieder veröffentlichen und Claude den Fehler schicken."
+    ],
+    "f": "„TT Story“ live ist, „PLAN B“ unveröffentlicht in der Theme-Bibliothek liegt und die Testanmeldung mit Tag „ref-test“, Code und persönlichem Link angekommen ist.",
+    "p": "Projekt Time Travel, Docket W10, Mi 18.11., Website Schritt 8. Ich will Stufe 1 live schalten. Prüfe vorher: git status sauber, tools/budget-check.mjs grün, shopify theme check ohne Fehler in tt-Dateien. Zeig mir den push-Befehl auf „TT Story“ und führ ihn erst aus, wenn ich „ja“ schreibe. Den publish mache ich selbst im Admin. Danach eine Checkliste, was ich auf dem Handy über die Instagram-Bio teste, inklusive ?ref=test: Tag ref-test, eigener Code, persönlicher Link.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Themes, Kunden"},
+     {"n": "Claude Code", "h": "im Repo der Website"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Orte schriftlich vorab anfragen: GATE194, Sing Blackbird, Studio183",
+    "m": 15,
+    "s": [
+     "Text mit dem Prompt unten bei Claude holen (DE und EN, je 5 Sätze).",
+     "GATE194: Mail an store@gate194.berlin. Sing Blackbird und Studio183: nur über ihre offiziellen Kanäle (Kontakt auf der eigenen Website oder offizielles Instagram), Links vorher öffnen und prüfen.",
+     "Inhalt: Bitte, Di 12.01., Sa 16.01., Sa 23.01. und Sa 13.03. abends freizuhalten. Kleine Abende (Mess-Abende), 10–20 Gäste. Das Proto ist ab Do 03.12. da, du kommst dann gern vorbei und zeigst es.",
+     "Ins Blatt „Orte“: Ort, Kanal, gesendet am 18.11., Antwort offen. Nachfassen am Mi 25.11., wenn nichts kommt."
+    ],
+    "f": "drei Anfragen raus sind und im Blatt „Orte“ stehen.",
+    "p": "Projekt Time Travel, Docket W10, Mi 18.11. Schreib mir eine kurze Voranfrage auf Deutsch und Englisch (je höchstens 5 Sätze) an drei Berliner Läden: GATE194, Sing Blackbird, Studio183. Ich bin Ernest, Novalife, eine kleine Denim-Marke aus Berlin, 100 nummerierte Jeans, Drop 22.04.2027. Bitte: Di 12.01., Sa 16.01., Sa 23.01. und Sa 13.03. abends für kleine Mess-Abende (10–20 Gäste) freihalten. Das Proto ist ab 03.12. da, ich zeige es gern vorbei. Ton: freundlich, konkret, keine Floskeln, nie „authentisch“.",
+    "o": [
+     {"n": "GATE194 (Overkill GATE Store)", "u": "https://www.overkillshop.com/pages/gate-store", "h": "Mail an store@gate194.berlin [berlin.md B-10]"},
+     {"n": "Sing Blackbird", "u": "https://www.top10berlin.de/de/cat/shopping-271/vintage-mode-3141/sing-blackbird-vintage-5580", "a": "Sanderstr. 11, Neukölln", "h": "Sekundärquelle, offiziellen Kanal selbst finden und prüfen"},
+     {"n": "Studio183", "u": "https://bikiniberlin.de/en/shopping/studio183/", "h": "Sekundärquelle, offiziellen Kanal selbst finden und prüfen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Orte“"}
+    ]
+   }
+  ],
+  "2026-11-19": [
+   {
+    "c": "A",
+    "t": "Produktseite Jeans als Entwurf + Vertrauens-Checkliste (9 Punkte)",
+    "m": 45,
+    "s": [
+     "Shopify → Produkte → Produkt hinzufügen. Status „Entwurf“ (unsichtbar). Titel „Time Travel Jeans · NVL-TT-01“. Varianten W30, W32, W34, W36, W38. Preis 169 €. Das Feld „Vergleichspreis“ bleibt leer: kein Streichpreis.",
+     "Produkttext mit dem Prompt unten bei Claude holen und einsetzen. Wortliste beachten: „Kreuzstich-Band“, „Achtstern“, „Das Feld danach“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“.",
+     "Vertrauens-Checkliste als 9 Abschnitte anlegen (Platzhalter, wo noch nichts da ist): 1 echte Fotos (ab Proto) · 2 Größe (Maßtabelle) · 3 Lieferdatum · 4 Geld-zurück-Regel · 5 „X von 35“ (nur echte Zahl) · 6 Gesicht (du, ein Foto, ein Satz) · 7 Element-Karten A–E · 8 Pflichtangaben (Material, Pflege, Hersteller) · 9 FAQ.",
+     "Bilder bleiben leer bis zum Proto. Kein Mockup, kein Rendering als Platzhalter.",
+     "Vorschau auf dem Handy ansehen. Was offen ist, als Liste ins Blatt „Website“."
+    ],
+    "f": "die Produktseite als Entwurf existiert, der Text drin ist und alle 9 Punkte der Checkliste als Abschnitt oder Platzhalter stehen.",
+    "p": "Projekt Time Travel, Docket W10, Do 19.11. Schreib mir den Produkttext für die Time Travel Jeans NVL-TT-01: 1 Satz Kern, 1 Absatz zum Muster (Kreuzstich-Band, Zickzack, Achtstern, Lebensbaum, „Das Feld danach“ mit Goldfäden), 1 Absatz Material und Passform (12 oz, 100 % Baumwolle, rigid, Straight, ehrliche Größen), Pflege, Stücknummer 001–100. Dazu je 2 Sätze für die Vertrauens-Checkliste: Größe, Lieferdatum (Platzhalter), Geld-zurück-Regel (Platzhalter), Pflichtangaben, und 5 FAQ. Regeln: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, Wortliste aus 9.3, „entworfen in Berlin“, kein Streichpreis.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte → Produkt hinzufügen, Status Entwurf"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Presseliste Teil 2: Kontakte nur aus Impressum oder offizieller Seite",
+    "m": 30,
+    "s": [
+     "Blatt „Presse“ öffnen. Teil 1 vom Sa 14.11. ist drin. Heute die übrigen Medien aus der Medienliste (community.md 5.2): FashionUnited DE, Gründerszene, deutsche-startups.de, Highsnobiety, Hypebeast, 032c, Rope Dye und Robin Denim, „Steppenkinder“, New East Digital Archive.",
+     "Je Medium die Website öffnen und prüfen, Kontakt nur aus Impressum oder offizieller Kontaktseite. Keine Adressen aus Listen oder Datenbanken. Namen nur, wenn sie auf der offiziellen Seite stehen.",
+     "Je Medium 3 aktuelle Artikel überfliegen: Wer schreibt über Mode, Läden, Gründer? Link zum passendsten Artikel ins Blatt.",
+     "Rope Dye und Robin Denim: Quellen von 2012 und 2017, erst prüfen, ob die Seite noch aktiv ist. „Steppenkinder“: vorher 3 Folgen hören. New East Digital Archive: Politik-Risiko, nur mit Sprachregel, sonst weglassen.",
+     "Spalten: Medium, Kontakt (URL), Person (falls offiziell), Winkel, Welle, geprüft am. Noch nichts senden."
+    ],
+    "f": "im Blatt „Presse“ alle 17 Medien mit geprüftem Kontaktweg oder dem Vermerk „kein Kontakt gefunden“ stehen.",
+    "o": [
+     {"n": "FashionUnited DE", "u": "https://fashionunited.de", "h": "Kontakt ungeprüft"},
+     {"n": "Highsnobiety", "u": "https://www.highsnobiety.com", "h": "Chance niedrig (Schätzung)"},
+     {"n": "Hypebeast", "u": "https://hypebeast.com", "h": "Chance sehr niedrig (Schätzung)"},
+     {"n": "032c", "u": "https://magazine.032c.com", "h": "Chance niedrig (Schätzung)"},
+     {"n": "Rope Dye", "u": "https://ropedye.com", "h": "erst prüfen, ob noch aktiv"},
+     {"n": "Robin Denim", "u": "https://robindenim.com", "h": "erst prüfen, ob noch aktiv"},
+     {"n": "New East Digital Archive", "u": "https://new-east-archive.org", "h": "Politik-Risiko, nur mit Sprachregel"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berlin). Je ein Kommentar mit Inhalt.",
+     "Alle DMs beantworten. Jedes „Ja“ sofort ins Blatt „Abende“ oder „Die ersten 35“.",
+     "Stand Stick-Abend zählen: Wie viele der 10 Plätze sind vergeben?"
+    ],
+    "f": "5 Kommentare gesetzt, DMs beantwortet und jedes Ja im Blatt steht.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V122 Story „Schick mir deinen Teppich“ (Grind+)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Instagram-Story: dein eigenes Teppich-Foto (ohne Gesichter), darauf Frage-Sticker „Send me a photo of your family's wall carpet.“ und darunter die DE-Zeile.",
+     "Link-Sticker auf die Warteliste dazu. 18:00 posten, auf TikTok als Foto-Story, wenn du magst.",
+     "Einsendungen nur mit schriftlicher Erlaubnis zeigen: Antworte jedem „Darf ich dein Foto in einer Collage zeigen? Ohne Namen.“ Keine Sowjet-Deko in der Auswahl.",
+     "Keine Herkunft notieren. Nur Foto, Erlaubnis ja/nein, Datum ins Blatt „Content“."
+    ],
+    "f": "die Story mit Frage- und Link-Sticker läuft und jede Einsendung beantwortet ist.",
+    "v": {
+     "id": "V122",
+     "slot": "ASK",
+     "dauer": "1 Frame",
+     "plattform": "Instagram-Story (optional TikTok-Story)",
+     "hook_en": "Send me a photo of your family's wall carpet.",
+     "hook_de": "Schick mir ein Foto vom Teppich deiner Familie.",
+     "shots": [
+      "Frame 1: dein Teppich-Foto + Frage-Sticker + Link-Sticker",
+      "Später: Collage der Einsendungen, nur mit ausdrücklicher schriftlicher Erlaubnis"
+     ],
+     "ort": "Story-Vorlage, eigenes Foto",
+     "ton": "kein Ton",
+     "text": "Frage-Sticker mit Hook EN, darunter Hook DE",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "(Story) Send me a photo of your family's wall carpet. Link sticker: join the list.",
+     "check": "Einsendungen nur mit schriftlicher Erlaubnis, keine Herkunft speichern, keine Sowjet-Deko, Teppich nicht als roter Vollhintergrund."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Frage- und Link-Sticker"}
+    ]
+   }
+  ],
+  "2026-11-20": [
+   {
+    "c": "C",
+    "t": "18:00 · V018 „Was die Wäsche mit der Stickprobe macht“ drehen + posten",
+    "m": 45,
+    "s": [
+     "16:00 drehen an der Fensterbank, Licht von der Seite, 9:16, je Shot 3 Takes: gewaschene und ungewaschene Probe nebeneinander, Makro auf Wellen, Einzug, Fransen (falls da), Lineal am Einzug in mm, du sagst „What changes: [ein Satz aus der Freigabe vom 17.11.]“.",
+     "Echtes Ergebnis zeigen, auch wenn es schlecht ist. B und B2 nie im selben Bild, keine Seitenansicht links. Fehler im Foto mit rotem Kreis markieren (Fotos-App → Markup), aber kein roter Hintergrund.",
+     "16:30 CapCut: Hook EN in die ersten 2 s, Untertitel, 20–30 s. Keine Musik einbacken. Export W10/final.",
+     "17:55 TikTok hochladen (Business-Konto, Musik nur aus der Commercial Music Library), Caption mit dem Befund einsetzen. 18:00 posten.",
+     "Gleich danach Reel und Short. Reel in die Story mit Link-Sticker. 15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V018 auf drei Plattformen online ist, die Caption den echten Befund nennt und die Kommentare beantwortet sind.",
+    "v": {
+     "id": "V018",
+     "slot": "REAL",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "What the wash did to my first stitch-out.",
+     "hook_de": "Was die Wäsche mit meiner ersten Stickprobe gemacht hat.",
+     "shots": [
+      "Vorher und nachher nebeneinander, Draufsicht",
+      "Makro auf Wellen, Einzug, Fransen (falls da)",
+      "Lineal am Einzug: Wert in mm",
+      "Du in die Kamera: „What changes: [ein Satz].“"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, Einblendung „washed / unwashed“, Messwert in mm",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Washed vs. unwashed. [Finding in one sentence]. That's why you test before making 100 pairs, not after. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #embroidereddenim #novalifetimetravel",
+     "check": "Echtes Ergebnis, Stickprobe ist kein fertiges Teil, B und B2 nie im selben Bild, keine Seitenansicht links, kein roter Hintergrund, CTA der Phase."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-11-21": [
+   {
+    "c": "V",
+    "t": "Burg & Schild: gewaschene Stickproben zeigen, Feedback holen",
+    "m": 60,
+    "s": [
+     "Vorher die Öffnungszeit prüfen (Link unten öffnen, Sekundärquelle). Mittags hingehen, wenn wenig los ist.",
+     "Mitnehmen: gewaschene Stickproben (Band A, Achtstern C, Patch D; B und B2 getrennt in Umschlägen), ein Stück vom freigegebenen Stoff (nicht den Waschstandard), Papiervorlagen, Notizbuch, 10 Karten mit QR zur Warteliste.",
+     "Sagen: „Ich bin Ernest, ich mache in Berlin 100 nummerierte Jeans mit Stickerei. Darf ich dir 5 Minuten die Stickproben zeigen? Mich interessiert deine ehrliche Meinung.“",
+     "Fragen: Wie findest du 12 oz rigid für eine bestickte Straight? Welche Waschung? Trägt Panel-Stickerei nach der Wäsche? Was fragen eure Kunden bei rigid Denim? Keine Konsignation erwarten und nicht ansprechen.",
+     "Danach sofort Notizen ins Blatt „Berlin“: Wer, was gesagt, was du änderst. Wenn jemand Interesse hat: Karte geben, Stick-Abend Fr 27.11. erwähnen."
+    ],
+    "f": "du mit jemandem bei Burg & Schild gesprochen hast und drei Aussagen zu Stoff, Waschung und Stickerei im Blatt „Berlin“ stehen.",
+    "o": [
+     {"n": "Burg & Schild", "u": "https://rawlooks.com/store/burg-und-schild-berlin/", "a": "Rosa-Luxemburg-Str. 3, Mitte", "h": "Öffnungszeit vorher prüfen, Sekundärquelle [B-1]"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Berlin“"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Material für den Stick-Abend kaufen: Denim, Garn, Nadeln, 10 Rahmen",
+    "m": 20,
+    "s": [
+     "Einkaufsliste: Denim-Reste für 10–12 Personen (z. B. zwei alte Jeans zerschneiden, je Person ein Stück ca. 20 × 20 cm), Stickgarn Rot und Weiß, Sticknadeln mit Spitze für Denim, 10 Stickrahmen, Schere, Kreide.",
+     "Wo: Kurzwaren- oder Stoffladen auf dem Weg (Google Maps: „Kurzwaren Mitte“, „Stoffladen Berlin“), Öffnung vorher prüfen. Preise vergleichen, nur was du wirklich brauchst.",
+     "Vorlage „Raute 7 × 7“ in Rot/Weiß zehnmal ausdrucken (Claude zeichnet sie dir, Prompt unten).",
+     "Beleg fotografieren und ins Blatt „Ausgaben“, Kassen-Ampel prüfen."
+    ],
+    "f": "Material für 10 Plätze und 10 Vorlagen zu Hause liegt und der Beleg im Blatt „Ausgaben“ steht.",
+    "p": "Projekt Time Travel, Docket W10, Sa 21.11. Zeichne mir eine Kreuzstich-Vorlage „Raute 7 × 7“ in Rot und Weiß für Anfänger auf Denim: Raster, Startpunkt markiert, Stichrichtung, eine Zeile Anleitung auf Deutsch und Englisch. Als druckbares A4 mit zwei Vorlagen pro Seite. Kein Weizen, kein Serp, nur die Raute.",
+    "o": [
+     {"n": "Google Maps", "u": "https://maps.google.com", "h": "Kurzwaren oder Stoffladen, Öffnung prüfen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Ausgaben“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berlin). Je ein Kommentar mit Inhalt.",
+     "Alle DMs beantworten. Jedes „Ja“ sofort ins Blatt „Abende“ oder „Die ersten 35“.",
+     "Teppich-Einsendungen aus V122 beantworten, Erlaubnis abfragen."
+    ],
+    "f": "5 Kommentare gesetzt, DMs beantwortet und jedes Ja im Blatt steht.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Nudie Repair Shop und Das Neue Schwarz auf dem Weg (Grind+)",
+    "m": 60,
+    "plus": true,
+    "s": [
+     "Öffnung beider Läden vorher prüfen. Die Nudie-Quelle ist von 2014: erst prüfen, ob der Laden an der Adresse noch existiert.",
+     "Nudie Repair Shop, Münzstr. 21: ansehen, wie Reparatur und Stickerei gezeigt werden. Fragen: Was lassen Kunden an rigid Denim am häufigsten reparieren?",
+     "Das Neue Schwarz, Mulackstr. 32: welche Denim-Marken, welche Preise, wie wird präsentiert? Nur ansehen, nicht pitchen.",
+     "Notizen ins Blatt „Berlin“. Keine Fotos ohne Erlaubnis."
+    ],
+    "f": "zu beiden Läden eine Notiz im Blatt „Berlin“ steht (oder „geschlossen/existiert nicht“).",
+    "o": [
+     {"n": "Nudie Repair Shop", "u": "https://hypebeast.com/2014/1/nudie-opens-repair-shop-in-berlin", "a": "Münzstr. 21, Mitte", "h": "Quelle von 2014, vor Ort prüfen"},
+     {"n": "Das Neue Schwarz", "u": "https://www.top10berlin.de/de/cat/shopping-271/second-hand-shops-861/das-neue-schwarz-310", "a": "Mulackstr. 32, Mitte", "h": "Öffnung vorher prüfen"}
+    ]
+   }
+  ],
+  "2026-11-22": [
+   {
+    "c": "A",
+    "t": "Wochenreview W10: Liste, Views, Anmeldungen je 1.000 Views, Kasse",
+    "m": 20,
+    "s": [
+     "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte zählen. Zahl und Zuwachs ins Blatt „Warteliste“, dazu die Verteilung nach Quellen-Tag (ref-netz, ref-papier, ref-stick, src-bio, src-qr …).",
+     "Content: je Post (V016, V114, V017, V122, V018) Views, Saves, Shares, neue Follower ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
+     "Kassencheck K − F − R ins Blatt „Kasse“: grün ≥ 300 €, gelb 0–300 €, rot < 0. Belege der Woche ins Blatt „Ausgaben“ (Stick-Material).",
+     "Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“ eintragen: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0 bis 14.01.).",
+     "Gates 7.1 prüfen: G1 Liste unter Alarm 140 → Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · G2 unter Soll 330 → bestes Video in 2 Varianten nachdrehen · G3 < 1,0 je 1.000 Views → angehefteter Kommentar „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“, Link-Sticker in jede Story · G4 Seitenquote < 6,6 % zwei Sonntage → Seite vereinfachen.",
+     "Weiter: G5 Video ≥ 2 × Median und Teilrate über Median → 5 Varianten in 14 Tagen · G6 3 schwache Videos im selben Slot → Slot 2 Wochen tauschen · G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“ → danken, zählen, nie löschen, 2 Wochen kein Ernte- oder Serp-Bild · G8 ≥ 3 Folklore-Kommentare → erst Totale aus 3 m im Streetwear-Outfit · G9 > 70 % warme Tags → 3 neue Hooks · G12 Kasse gelb/rot → Ausgaben-Stopp nach 7.3.",
+     "Zeile an Claude (Prompt unten), Offenes aus W10 dazuschreiben."
+    ],
+    "f": "Warteliste, Follower gesamt, Zusagen und bezahlte Jeans im Zahlen-Cockpit stehen, alle Gates geprüft sind und Claude die Zeile hat.",
+    "p": "Projekt Time Travel, Docket W10, So 22.11. W10: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Stick-Abend [n]/10. Gate Stickproben: [grün/rot]. Offen aus W10: [..]. Sag mir, welches Gate greift und was ich in W11 konkret anders mache.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Warteliste“, „Content“, „Kasse“, „Ausgaben“"},
+     {"n": "Docket · Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE Liste ≥ 330 (Alarm 140) · Proto-Versand schriftlich ≤ 30.11.",
+    "m": 10,
+    "s": [
+     "Liste ≥ 330: weiter. Unter 330, über 140: G2 (bestes Video in 2 Varianten). Unter 140: G1 komplett, siehe Wochenreview.",
+     "Proto-Versanddatum: Steht in einer Mail der Fabrik ein Datum ≤ Mo 30.11.? Dann ins Blatt „Gates“ mit Screenshot.",
+     "Kein schriftliches Datum: Montag früh Call mit der Fabrik vereinbaren (Vorlage „Call“, Docket → Referenz → Vorlagen) und das Datum danach per Mail bestätigen lassen.",
+     "Bei Portugal: 01.12. und 08.12. sind dort Feiertage (Allgemeinwissen, ungeprüft). Ein Versand am 30.11. kann sich deshalb verzögern: frag nach Versand bis Fr 27.11."
+    ],
+    "f": "im Blatt „Gates“ für den 22.11. Liste und Versanddatum mit grün/gelb/rot stehen und bei fehlendem Datum der Call vereinbart ist.",
+    "o": [
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Call“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W11 (1/3): V019 „Drei Stoffe“ drehen und schneiden",
+    "m": 25,
+    "s": [
+     "Sperrwoche 23.–29.11.: kein Ernte- und kein Serp-Bild in allen drei Videos dieses Batches. Ordner „W11“ anlegen.",
+     "Fensterbank, Tageslicht von der Seite, 9:16, je Shot 3 Takes: drei Stoffmuster nebeneinander, Hand knüllt jedes (Ton), Gegenlicht am Fenster, Lab Dips nebeneinander, Finger tippt auf den Gewinner.",
+     "Kein fertiges Teil, nur Stoff. Keine Stickprobe mit B oder B2 im Bild.",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel, 15–25 s, keine Musik einbacken. Export W11/final/V019."
+    ],
+    "f": "V019 geschnitten in W11/final liegt.",
+    "v": {
+     "id": "V019",
+     "slot": "BUILD",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Three denims. Only one becomes my jeans.",
+     "hook_de": "Drei Denims. Nur einer wird meine Jeans.",
+     "shots": [
+      "Drei Stoffmuster nebeneinander",
+      "Hand knüllt jedes Muster (Stoff-ASMR)",
+      "Gegenlicht am Fenster: Dichte",
+      "Lab Dips nebeneinander (Ziel, heller, dunkler)",
+      "Finger tippt auf den Gewinner"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "Originalton (Stoff). Keine Musik oder sehr leise",
+     "text": "0–2 s Hook EN, Untertitel, „100% cotton · rigid · no stretch“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 43. 100% cotton, rigid, no stretch. Three swatches, three wash tones. The dark one wins, because white thread needs contrast to read from three metres. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #rawdenim #novalifetimetravel",
+     "check": "Sperrwoche: kein Ernte- und kein Serp-Bild, nur Stoff, kein fertiges Teil, CTA der Phase."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W11 (2/3): V020 „Warum Panel-Stickerei“ drehen",
+    "m": 25,
+    "s": [
+     "Boden-Flatlay auf hellem Laken, Draufsicht, Handy auf Stativ, 9:16, je Shot 3 Takes.",
+     "Alte Jeans: Hand im Hosenbein zeigt die Röhre. Dann Papierschnitt eines Vorderteils flach. Darauf nur das Papier von Band A oder Achtstern C legen. Kein Serp-Papier, kein Ähren-Papier (Sperrwoche).",
+     "O-Ton einsprechen: „Large embroidery doesn't fit in the hoop on a sewn leg. It goes on the flat panel first.“ Text „embroider flat → sew → wash“.",
+     "CapCut: Hook EN in die ersten 2 s, Untertitel, 20–30 s. Export W11/final/V020."
+    ],
+    "f": "V020 geschnitten in W11/final liegt und kein Serp- oder Ernte-Bild enthält.",
+    "v": {
+     "id": "V020",
+     "slot": "ORIGIN",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Why you can't embroider a finished pair of jeans.",
+     "hook_de": "Warum man eine fertige Jeans nicht groß besticken kann.",
+     "shots": [
+      "Alte Jeans: Hand im Hosenbein zeigt die Röhre",
+      "Papierschnitt eines Vorderteils flach auf dem Laken",
+      "Papier von Band A oder Achtstern C auf das flache Teil legen",
+      "Text: „embroider flat → sew → wash“"
+     ],
+     "ort": "Wohnung · Boden-Flatlay auf hellem Laken, Draufsicht",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, „embroider flat → sew → wash“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Large embroidery doesn't fit in the hoop on a sewn leg. It goes on the flat cut panel first, then the jeans get sewn and washed. That's why most factories said no. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidery #embroidereddenim #denim #buildinpublic #novalifetimetravel",
+     "check": "Sperrwoche: nur Band A oder Achtstern, kein Serp, keine Ähren, keine Seitenansicht links, nur Papier, CTA der Phase."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W11 (3/3): V021 „Warum 169 €“ drehen",
+    "m": 25,
+    "s": [
+     "Schreibtisch, Draufsicht, Fensterlicht von der Seite. Auf Papier von Hand: „€169 → ~€63 to make (estimate)“. Die Zahl vorher mit Docket → Referenz → Kalkulation abgleichen, bei Abweichung die aktuelle Zahl nehmen.",
+     "Darunter: payment fees, shipping, returns, next drop. Am Ende: „Pre-order price €149 from 14.01. until 21.03.“. Keine fremden Marken, kein Streichpreis, kein „statt“.",
+     "O-Ton einsprechen, Zeile für Zeile. CapCut: Hook EN in die ersten 2 s, Untertitel, 25–35 s. Export W11/final/V021.",
+     "Den Preissatz lässt du am Di 24.11. von der Rechtstexte-Hotline prüfen, bevor du postest."
+    ],
+    "f": "V021 geschnitten in W11/final liegt und die Zahl mit der Kalkulation übereinstimmt.",
+    "v": {
+     "id": "V021",
+     "slot": "REAL",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Why my jeans cost €169, line by line.",
+     "hook_de": "Warum meine Jeans 169 € kostet, Zeile für Zeile.",
+     "shots": [
+      "Papier: „€169 → ~€63 to make (estimate)“",
+      "Darunter: payment fees, shipping, returns, next drop",
+      "Text: „pre-order price €149 · 14.01.–21.03.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Untertitel, „estimate“ sichtbar bei der Herstellzahl",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "€169. About €63 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 21.03. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
+     "check": "Kein Streichpreis, keine fremden Marken, Schätzung als Schätzung, Sperrwoche ohne Ernte- und Serp-Bild, Preissatz vor dem Post von der Hotline geprüft."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "Docket · Referenz → Kalkulation"}
+    ]
+   }
+  ]
+ }
+}

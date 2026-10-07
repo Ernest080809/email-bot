@@ -1,0 +1,253 @@
+{
+ "n": 15,
+ "phase": "P3",
+ "goal": "Feiertage: wenig, aber sauber. Nummern-Raster bauen, Belege sortieren, Proto-Bilder auswählen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "680 bestätigt (Alarm 280) · Grind+-Ziel 770"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~2.040 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "3 Kern"},
+  {"k": "Zusagen „Die ersten 35“", "ziel": "20 (Name, Größe, „ich bestelle am 14.01.“)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+ ],
+ "days": {
+  "2026-12-21": [
+   {
+    "c": "A",
+    "t": "Website Schritt 10: Nummern-Raster 001–100 als Kreuzstich",
+    "m": 90,
+    "s": [
+     "Vorher in Shopify: Testprodukt „TT Test“ mit Bestand 35, „Inventar verfolgen“ an, kurz auf Aktiv, in keiner Kollektion, nirgends verlinkt (ob Entwürfe in Liquid lesbar sind, ist ungeprüft).",
+     "Terminal im Theme-Ordner, Claude Code starten, Prompt aus website.md Schritt 10 einfügen und mit dem Zusatz unten ergänzen.",
+     "Theme-Einstellungen: tt_produkt_stufe2 (Produkt aus dem 14.12.) und tt_start_stufe2 = 25 (bei 75 Stück 10). tt_start_drop setzt du erst am 04.04.",
+     "Test: mit „TT Test“ als tt_produkt_vorbestellung. Bestand um 2 senken, Zeit stoppen, bis das Raster springt. Dauer notieren (Cache-Frage aus website.md).",
+     "Zeile prüfen: „17 von 35 Vorbestellungen“, ab Stufe 2 „41 von 60“. Reihenfolge der Felder: 001–035 · 036–060 · 061–065 · 066–067 · 068–100.",
+     "„TT Test“ zurück auf Entwurf. Commit erst nach deinem „passt“."
+    ],
+    "f": "das Raster mit „TT Test“ die richtige Zahl zeigt, nach −2 springt, die Sprungdauer notiert ist und „TT Test“ wieder Entwurf ist.",
+    "p": "Projekt Time Travel, Docket W15, Mo 21.12. Zusatz zum Prompt aus website.md Schritt 10 (Nummern-Raster): Lies zusätzlich tt_produkt_stufe2 (product) und tt_start_stufe2 (number, 25, bei 75 Stück 10); lege beide in config/settings_schema.json an, falls sie fehlen. vorbestellt_gesamt = (tt_start_vorbestellung minus Summe Bestand tt_produkt_vorbestellung) plus (tt_start_stufe2 minus Summe Bestand tt_produkt_stufe2). Das Raster füllt ab 001 ohne Lücke: alle Vorbestellungen (149 € und Stufe 2), dann 5 Creator, 2 Reserve (Gold), dann Drop. Bei vollem Verkauf: 001–035 · 036–060 · 061–065 · 066–067 · 068–100. Zeile in Worten: bis Nr. 035 „[n] von 35 Vorbestellungen“, ab Stufe 2 „[n] von 60“. Kein Preis als Text, keine Daten zu einzelnen Nummern. tt_start_drop bleibt leer bis 04.04.; ist es leer, keine Drop-Felder rechnen.",
+    "o": [
+     {"n": "Shopify-Admin · Online Store → Themes", "u": "https://admin.shopify.com", "h": "Theme-Einstellungen, Testprodukt „TT Test“"},
+     {"n": "website.md · Schritt 10", "h": "rev6/research/website.md, Prompt für Claude Code"},
+     {"n": "Claude Code (Terminal im Theme-Ordner)", "h": "CLAUDE.md mit deinen Regeln liegt im Repo"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V038 posten: BUILD Day 71 „Was bis zum Drop fehlt“",
+    "m": 20,
+    "s": [
+     "17:55 W15/final/V038_final.mp4 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library leise unter dem O-Ton. Caption einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (DE-Hook als erste Zeile) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare (Regeln 9.3 Punkt 9). Fragen nach Datum: „14.01., 18:00 for the list, 19:00 for everyone.“"
+    ],
+    "f": "V038 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V038",
+     "slot": "BUILD",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 71: everything left before the drop.",
+     "hook_de": "Tag 71: Alles, was bis zum Drop noch fehlt.",
+     "shots": [
+      "Zeitachse von Hand auf Papier schreiben (Draufsicht, Zeitraffer)",
+      "Termine: 04.01. final sample · 14.01. pre-order · Feb production · 20.02. shoot · 22.04. drop",
+      "Mit rotem Stift abhaken, was erledigt ist (Papiertest, Fabrik, Stickproben, Proto)",
+      "Finger auf „22.04.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Hook EN 0–2 s, Untertitel, Endkarte „Drop 22.04. · 19:00“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 71. Next: final sample approval 04.01., pre-order 14.01., production from February, drop 22.04., 19:00. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Rev.-5.3-Titel „12 Wochen“ ersetzt, Termine nur aus dem Plan, roter Stift ja, roter Hintergrund nein, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-22": [
+   {
+    "c": "A",
+    "t": "Belege 2026 sortieren, Summen pro Monat ins Blatt „Ausgaben“",
+    "m": 30,
+    "s": [
+     "Alle Rechnungen und Belege 2026 aus Mail (Suche „Rechnung“, „Invoice“, „Receipt“), Shopify → Einstellungen → Rechnungen, Bank und Papier in einen Ordner „Belege 2026“ (Google Drive).",
+     "Dateiname: JJJJ-MM-TT_Anbieter_Betrag.pdf. Papierbelege mit dem Handy scannen.",
+     "Summe pro Monat ins Blatt „Ausgaben“, Kategorie Sample, Shop, Material, Digitizing, Patches, Sonstiges.",
+     "Gesamtsumme Entwicklung notieren: Die echte Zahl brauchst du morgen für V039.",
+     "Fehlende Belege markieren und beim Anbieter anfordern."
+    ],
+    "f": "alle Belege 2026 benannt im Ordner liegen und die Monatssummen plus Gesamtsumme im Blatt stehen.",
+    "o": [
+     {"n": "Google Drive · Ordner „Belege 2026“", "u": "https://drive.google.com"},
+     {"n": "Shopify-Admin · Rechnungen", "u": "https://admin.shopify.com", "h": "Einstellungen → Rechnungen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Ausgaben“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "Fünf Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), ein Satz mit Bezug aufs Video.",
+     "DMs beantworten. Jedes „Ja“ mit Größe ins Blatt „Die ersten 35“, Zusage nur mit „ich bestelle am 14.01.“."
+    ],
+    "f": "5 Kommentare stehen und alle DMs beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2026-12-23": [
+   {
+    "c": "C",
+    "t": "18:00 · V039 posten: REAL „Was es bis jetzt gekostet hat“",
+    "m": 20,
+    "s": [
+     "Vorher: Summe im Video gegen das Blatt „Ausgaben“ von gestern prüfen. Weicht sie ab, Text im Bild in CapCut korrigieren.",
+     "17:55 W15/final/V039_final.mp4 in TikTok hochladen, Caption mit der echten Summe einsetzen.",
+     "18:00 posten, danach Reel und Short. Reel in die Story mit Link-Sticker.",
+     "15 Min. Kommentare. Frage „Warum so teuer?“ sachlich mit Posten beantworten."
+    ],
+    "f": "V039 mit echter Summe auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V039",
+     "slot": "REAL",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "What this drop has cost me so far.",
+     "hook_de": "Was mich dieser Drop bis jetzt gekostet hat.",
+     "shots": [
+      "Belege und Liste auf Papier: Digitizing, Stickproben, Proto, Stoffe, Patches",
+      "Summe einkreisen",
+      "„budget left: [X]“ von Hand",
+      "Ein Satz in die Kamera: Die Fabrikbestellung zahlen die Vorbestellungen"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Hook EN 0–2 s, Summen groß, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Development so far: €[echte Summe]. Not a cent of the factory order yet. That one gets paid by pre-orders. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #clothingbrand #novalifetimetravel",
+     "check": "Nur echte Summen aus dem Blatt, keine Schätzung als Fakt, kein Streichpreis, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Broadcast: „14.01., 19:00. Schöne Feiertage.“",
+    "m": 5,
+    "s": [
+     "Instagram → dein Broadcast-Kanal (seit Mo 30.11.) öffnen.",
+     "Ein Detailfoto vom Proto plus Text: „14.01., 19:00. Schöne Feiertage.“ Darunter EN: „14.01., 19:00. Happy holidays.“",
+     "Senden. Keine weitere Nachricht bis zum 02.01."
+    ],
+    "f": "die Nachricht im Broadcast-Kanal steht.",
+    "o": [
+     {"n": "Instagram · Broadcast-Kanal", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2026-12-24": [
+   {"c": "N", "t": "Frei. Kein Post, keine Aufgabe. DMs nur, wenn du willst."}
+  ],
+  "2026-12-25": [
+   {"c": "N", "t": "Frei. Kein Post, keine Aufgabe."}
+  ],
+  "2026-12-26": [
+   {
+    "c": "C",
+    "t": "12:00 · V040 ASK-Story „Erinnerung 14.01.“ mit Countdown",
+    "m": 10,
+    "s": [
+     "Instagram-Story Frame 1: Detailfoto aus dem Batch vom 20.12., Text „Tap remind me: pre-order opens 14.01.“",
+     "Frame 2: Countdown-Sticker „Pre-order · 14.01. 19:00“ (Enddatum 14.01.2027, 19:00) plus Link-Sticker auf die Warteliste.",
+     "12:00 posten. Am Abend Zahl der Erinnerungen und Link-Klicks ins Blatt „Content“."
+    ],
+    "f": "die Story um 12:00 online ist und die Zahlen am Abend im Blatt stehen.",
+    "v": {
+     "id": "V040",
+     "slot": "ASK",
+     "dauer": "2 Story-Frames",
+     "plattform": "Instagram Story",
+     "hook_en": "Tap remind me: pre-order opens 14.01.",
+     "hook_de": "Tipp auf Erinnern: Vorbestellung öffnet am 14.01.",
+     "shots": ["Frame 1: Detailfoto vom Proto", "Frame 2: Countdown-Sticker „Pre-order · 14.01. 19:00“"],
+     "ort": "Wohnung",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "Countdown-Sticker, Link-Sticker",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "(Story) Tap remind me: pre-order opens 14.01., 19:00. The list gets in at 18:00.",
+     "check": "Rev.-5.3-Umfrage „2027“ ersetzt, kein roter Hintergrund, keine Seitenansicht links."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2026-12-27": [
+   {
+    "c": "C",
+    "t": "Die 12 besten Proto-Bilder für Produktseite und Mails auswählen",
+    "m": 30,
+    "s": [
+     "Alle Proto-Fotos und Video-Standbilder seit 03.12. in einen Ordner „Proto-Auswahl“.",
+     "Auswahl nach: Farbtreue mit Graukarte, scharf, Licht von vorn, keine Seitenansicht links, B und B2 nie im selben Bild, kein roter Hintergrund.",
+     "12 wählen: 1 Totale vorn, 1 Totale hinten, 5 Makros (Kreuzstich-Band, Achtstern, Ähren, Lebensbaum, Patch), 2 getragen, 1 Maßband am Bund, 2 Reserve.",
+     "Dateien umbenennen: TT_01_front.jpg … TT_12. Erste 6 für die Produktseite, Rest für die Mails vom 07.01. und 14.01.",
+     "Kein Bild mit hellblauem Himmel über gelbem Weizen, keine Streifen in Verbotsfarben."
+    ],
+    "f": "12 benannte Bilder im Ordner „Proto-Auswahl“ liegen und die Reihenfolge für die Produktseite feststeht.",
+    "o": [
+     {"n": "Google Drive · „Proto-Auswahl“", "u": "https://drive.google.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Wochenreview W15 + Cockpit + Zeile an Claude",
+    "m": 15,
+    "s": [
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, src-/ref-Tags zählen. Views und Anmeldungen je 1.000 Views ins Blatt „Content“.",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans (0).",
+     "Kassencheck K − F − R: grün ≥ 300 €, gelb 0–300 € → keine Ausgaben außerhalb Plan 3, rot → Ausgaben-Stopp-Liste (G12).",
+     "G1/G2: Liste unter Alarm 280 → Netz-Runde bis Mi, „Bring 3“-Story, Abend festmachen · unter Soll 680 → bestes Video in 2 Varianten, Kommentarzeit 15′.",
+     "G3: < 1,0 Anmeldungen je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G5: Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7: ≥ 3 „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte- oder Serp-Bild.",
+     "Zeile an Claude (Prompt unten)."
+    ],
+    "f": "die vier Cockpit-Zahlen stehen, die Gates aus 7.1 geprüft sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W15, So 27.12. W15: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [Z35]. Raster-Sprungdauer [Sek.]. Offen aus W15: [..].",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Zahlen-Cockpit, „Content“, „Kasse“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "S",
+    "plus": true,
+    "x": "s",
+    "t": "Grind+ · Spiel-Stiltest (nur wenn das Pixel-Spiel noch Option ist)",
+    "m": 150,
+    "s": [
+     "Nur wenn du am 18.10. das Pixel-Spiel nicht gestrichen hast. Sonst entfällt die Aufgabe.",
+     "Aseprite kaufen (Preis auf der offiziellen Seite prüfen, aus dem Puffer).",
+     "Eine Figur 16 × 32 px in zwei Laufposen und eine Weizen-Kachel im Sonnenuntergang zeichnen. Kein hellblauer Himmel über gelbem Weizen.",
+     "Ehrliche Frage: Schaffst du das in dieser Qualität zehnmal? Nein → Silhouettenstil (Referenz → Das Spiel · Bauplan).",
+     "Ergebnis Claude melden."
+    ],
+    "f": "du weißt: Pixel oder Silhouette, und Claude hat das Ergebnis.",
+    "o": [
+     {"n": "Aseprite (GitHub)", "u": "https://github.com/aseprite/aseprite", "h": "Vertrieb unter EULA, Preis nicht im README"}
+    ]
+   }
+  ]
+ }
+}

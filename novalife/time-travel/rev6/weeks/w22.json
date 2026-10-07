@@ -1,0 +1,477 @@
+{
+ "n": 22,
+ "phase": "P4",
+ "goal": "Produktion läuft, Hangtags in Druck, Helfer suchen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "1.900 bestätigt (Alarm 720); Grind+-Ziel 2.150"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~5.700 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Vorbestellungen", "ziel": "20 kumuliert bezahlt (Alarm 14); für die Schwellen zählt nur ausgezahltes Geld"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+ ],
+ "days": {
+  "2027-02-08": [
+   {
+    "c": "B",
+    "t": "09:00 · Produktionsplan im Blick, Ramadan-Zeiten, Zuschnitt-Fotos",
+    "m": 15,
+    "s": [
+     "Den schriftlichen Produktionsplan vom Fr 05.02. öffnen (Ordner 02_Fabrik oder die Mail der Fabrik). Daneben das Blatt „Fabriken“ in „Time Travel Tracking“.",
+     "Ramadan läuft ungefähr 08.02.–09.03. (ungeprüft). Im Plan nachsehen: Welche Arbeitszeiten hat die Fabrik dafür genannt? Stehen Zuschnitt, Stickerei, Nähen, Wäsche und Endkontrolle noch auf denselben Daten?",
+     "Mail an deinen Ansprechpartner (Text per Prompt unten): Bitte um 3–5 Fotos vom Zuschnitt und vom Stoff, dazu die schriftliche Erlaubnis, Fabrikbilder ohne Namen und ohne Gesichter zu posten.",
+     "Weicht ein Datum ab: noch heute anrufen oder per WhatsApp nachfragen und den neuen Termin schriftlich bestätigen lassen. Nie nur mündlich.",
+     "Im Blatt „Fabriken“ notieren: Plan geprüft am 08.02., Abweichungen, Foto-Erlaubnis ja/nein. Ohne Erlaubnis drehst du V068 ohne Fabrikbilder (Variante Tech Pack)."
+    ],
+    "f": "der Plan mit den Ramadan-Zeiten abgeglichen ist, die Foto-Anfrage raus ist und die Erlaubnis (ja/nein/offen) im Blatt „Fabriken“ steht.",
+    "p": "Projekt Time Travel, Docket W22, Mo 08.02. Die Produktion meiner 100 Jeans läuft laut Plan vom 05.02. Schreib mir eine kurze, freundliche Mail auf Englisch an meinen Ansprechpartner [Name] bei [Fabrik]: 1) Bitte um 3–5 Fotos vom Zuschnitt und vom Stoffballen diese Woche. 2) Bitte um schriftliche Erlaubnis, Fabrikfotos ohne Firmennamen und ohne Gesichter auf TikTok und Instagram zu zeigen. 3) Kurze Bestätigung, dass die Termine aus dem Plan vom 05.02. auch mit den Arbeitszeiten im Ramadan gelten: [Termine aus dem Plan]. Höchstens 120 Wörter, kein Druck, ein Dank am Ende.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V068 drehen und posten: BUILD Day 120 „In Produktion“",
+    "m": 45,
+    "s": [
+     "17:00 Dreh am Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite, 9:16, je Shot 3 Takes. Mit Foto-Erlaubnis: Fabrikfotos vom Zuschnitt im Bild. Ohne Erlaubnis: Tech Pack auf dem Tisch und der Kalender bis Ende März.",
+     "In CapCut schneiden: Hook EN als Text in den ersten 2 Sekunden, Untertitel automatisch, 15–20 s. Keine Musik einbacken. Export als W22/final/V068_final.mp4.",
+     "Vorher [Y] prüfen: Shopify → Produkte → „Time Travel Jeans · NVL-TT-01“ → wie viele der 35 Paar zum Vorbestellpreis sind noch frei? Nur die echte Zahl in die Caption.",
+     "17:55 in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, leise unter dem O-Ton. Caption unten einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Tag 120: Meine Jeans sind in Produktion.“, höchstens 5 Hashtags) und als Short auf YouTube (Titel = Hook EN). Reel in die Story, Link-Sticker auf die Vorbestellung.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden. Kritik nie löschen. Bei „Ist das russisch?“: „The pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“",
+     "Kommentare mit „Sowjet“, „Wappen“, „Holodomor“: danken und im Blatt „Content“ zählen (G7 am So)."
+    ],
+    "f": "V068 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V068",
+     "slot": "BUILD",
+     "dauer": "15–20 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 120: my jeans are in production.",
+     "hook_de": "Tag 120: Meine Jeans sind in Produktion.",
+     "shots": [
+      "Fotos oder Clips der Fabrik vom Zuschnitt, nur mit schriftlicher Erlaubnis, ohne Firmennamen und Gesichter",
+      "Ohne Erlaubnis: Tech Pack auf dem Tisch, Finger fährt über die Maßtabelle, dann der Kalender bis Ende März",
+      "Du, ein Satz in die Kamera: „Next update: first inline photos.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s „Day 120: my jeans are in production.“ · Untertitel · Endkarte „Pre-order in bio · [Y] of 35 left“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
+     "caption": "Day 120. Production started. Next update: first inline photos. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Fabrikbilder nur mit schriftlicher Erlaubnis, kein „wir“, nie „authentisch“, kein Streichpreis „statt 169 €“, [Y] nur als echte Zahl."
+    },
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte → Time Travel Jeans · NVL-TT-01"},
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+    ]
+   }
+  ],
+  "2027-02-09": [
+   {
+    "c": "C",
+    "t": "18:00 · V069 posten: ORIGIN „Wie eine Jeans entsteht“ (Karussell)",
+    "m": 20,
+    "s": [
+     "Karussell und Video liegen fertig in W22/final (Content-Batch So 07.02.). Fehlen sie: 8 Papierkarten am Schreibtisch, je ein Schritt in einem Satz, Draufsicht abfotografieren.",
+     "Reihenfolge prüfen: 1 Zuschnitt · 2 Sticken auf dem flachen Teil (maschinengestickt auf dem Zuschnitt) · 3 Nähen + Patch · 4 Wäsche · 5 Abrieb · 6 Saum schneiden + Goldfäden von Hand · 7 Hangtag mit Nummer · 8 Endkarte mit CTA.",
+     "17:55 Video in TikTok hochladen (Business-Konto, ruhiger Track aus der Commercial Music Library), Caption unten einfügen. Auf Instagram das Karussell mit 8 Slides vorbereiten.",
+     "18:00 posten: TikTok-Video, Instagram-Karussell, YouTube Short. Ein Slide in die Story mit Link-Sticker auf die Vorbestellung.",
+     "18:00–18:15 Kommentare beantworten (Regeln 9.3 Punkt 9). Die beste Frage zum Ablauf anheften, sie ist Stoff für V117."
+    ],
+    "f": "V069 als Video auf TikTok und YouTube und als Karussell auf Instagram online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V069",
+     "slot": "ORIGIN",
+     "dauer": "8 Slides / 20–30 s",
+     "plattform": "TikTok + Instagram-Karussell + Shorts",
+     "hook_en": "How 100 embroidered jeans get made, in 8 steps.",
+     "hook_de": "Wie 100 bestickte Jeans entstehen, in 8 Schritten.",
+     "shots": [
+      "Slide 1 Zuschnitt",
+      "Slide 2 Sticken auf dem flachen Teil",
+      "Slide 3 Nähen + Patch",
+      "Slide 4 Wäsche",
+      "Slide 5 Abrieb",
+      "Slide 6 Saum schneiden + Goldfäden",
+      "Slide 7 Hangtag mit Nummer",
+      "Slide 8 Endkarte mit CTA"
+     ],
+     "ort": "Fabrik-Material mit Erlaubnis, sonst Papierkarten am Schreibtisch",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "Je Slide ein Satz, Prozesskette aus Spec 2.3",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "Embroider the flat panel, sew, patch, wash, abrade, cut the hem, set the gold threads by hand. Save this. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #embroidery #denim #buildinpublic #novalifetimetravel",
+     "check": "„maschinengestickt auf dem Zuschnitt, Fäden von Hand“, nie „handgestickt“, kein #slavicembroidery, Fabrikbilder nur mit Erlaubnis, B und B2 nie im selben Slide."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Karussell, Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "N",
+    "t": "Info: „Werkzeuge für das Spiel“ (Rev. 5.3) entfällt, die Werkzeuge stehen seit 31.10."
+   },
+   {
+    "c": "S",
+    "t": "20:00 · Nur bei Spiel = bauen: A1 Graubox (website.md 9)",
+    "m": 60,
+    "plus": true,
+    "x": "s",
+    "s": [
+     "Nur wenn die Spiel-Entscheidung vom Fr 05.02. „bauen“ lautet. Bei „streichen“ überspringen.",
+     "Projektordner der Theme-Kopie „Time Travel · Feld“ öffnen, git status prüfen, erst committen. Gebaut wird nur an der Kopie, nie am Live-Theme.",
+     "Prompt A1 aus Docket → Referenz → Das Spiel · Bauplan (website.md 9) an Claude Code geben.",
+     "Mit shopify theme dev die Vorschau auf deinem Handy öffnen: Ein Rechteck läuft durch ein Feld, Tippen = hinlaufen.",
+     "Läuft es: committen mit „A1 Graubox“."
+    ],
+    "f": "die Graubox auf deinem Handy läuft und der Commit „A1 Graubox“ existiert (oder das Spiel ist gestrichen).",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Themes → Kopie „Time Travel · Feld“"},
+     {"n": "Docket · Referenz → Das Spiel · Bauplan", "h": "Prompt A1"}
+    ]
+   }
+  ],
+  "2027-02-10": [
+   {
+    "c": "C",
+    "t": "19:00 · V070 posten: REACH „Stoff“",
+    "m": 20,
+    "s": [
+     "Video liegt in W22/final (Batch So 07.02.). Fehlt es: Stoffmuster auf der Fensterbank, Hand fährt darüber, 3 Takes, 6–9 s, Text „[100] pairs“.",
+     "18:55 in TikTok hochladen. Trend-Sound nur aus der Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Caption unten einfügen.",
+     "19:00 posten. Gleich danach als Reel (Musik aus der Business-Bibliothek von Instagram) und als Short. Reel in die Story mit Link-Sticker auf die Vorbestellung.",
+     "19:00–19:15 Kommentare beantworten (Regeln 9.3 Punkt 9), kritische Kommentare im Blatt „Content“ zählen."
+    ],
+    "f": "V070 auf allen drei Plattformen online ist und die Story mit Link-Sticker läuft.",
+    "v": {
+     "id": "V070",
+     "slot": "REACH",
+     "dauer": "6–9 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This roll becomes [100] pairs.",
+     "hook_de": "Aus dieser Rolle werden [100] Paar.",
+     "shots": [
+      "Stoffrolle in der Fabrik (nur mit Erlaubnis) oder dein Stoffmuster in Großaufnahme",
+      "Hand fährt über den Stoff",
+      "Text: „[100] pairs“"
+     ],
+     "ort": "Fabrik-Material mit Erlaubnis / Fensterbank, Tageslicht von der Seite",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library. Instagram: Musik aus der Business-Bibliothek der App",
+     "text": "„This roll becomes 100 pairs.“ · Endframe „100 pairs“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "Day one of production. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #rawdenim #novalifetimetravel",
+     "check": "Fabrikbild nur mit Erlaubnis, kein roter Hintergrund, kein „Made in Berlin“, Loop sauber."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "N",
+    "t": "Info: „Theme-Kopie holen“ (Rev. 5.3) entfällt, erledigt am 04.11."
+   }
+  ],
+  "2027-02-11": [
+   {
+    "c": "N",
+    "t": "Info: „Prompt 1: Graubox“ nur bei Spiel = bauen"
+   },
+   {
+    "c": "V",
+    "t": "12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin). Eine echte Frage oder Beobachtung, kein Emoji-Kommentar, keine Eigenwerbung.",
+     "Alle DMs beantworten. Größenfragen mit Maß in cm beantworten (W32 = 81 cm).",
+     "Jedes „Ja, ich bestelle“ mit Größe ins Blatt „Die ersten 35“, Spalte „Zusage“. Unsicheres in „Vielleicht“."
+    ],
+    "f": "5 Kommentare gesetzt, alle DMs beantwortet, jedes neue „Ja“ steht im Blatt.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "S",
+    "t": "20:00 · Nur bei Spiel = bauen: Graubox weiter",
+    "m": 60,
+    "plus": true,
+    "x": "s",
+    "s": [
+     "Nur bei Spiel = bauen. Erst committen, dann weiter.",
+     "Prompt 1 aus dem Bauplan zu Ende führen: Tippen = hinlaufen, das Rechteck bleibt im Feld.",
+     "Mit shopify theme dev auf dem Handy testen. Ruckelt es, Claude Code die Beobachtung in einem Satz schreiben.",
+     "Committen."
+    ],
+    "f": "die Graubox auf deinem Handy flüssig läuft und committet ist.",
+    "o": [
+     {"n": "Docket · Referenz → Das Spiel · Bauplan", "h": "Prompt 1"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+: Variante des besten Videos oder V117",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "TikTok-Analyse der letzten 14 Tage öffnen: Gilt die Varianten-Regel (≥ 2 × Median Views nach 48 h, Teil-Rate über Median)? Dann eine Variante: neuer Hook, neues erstes Bild, gleicher Kern.",
+     "Sonst V117: einen echten Kommentar wählen (max. 8 Wörter), in TikTok „Mit Video antworten“, ein Take, ein Beweisbild (Papier, Maßband, Detail).",
+     "18:00 posten, auch als Reel. Caption unten anpassen."
+    ],
+    "f": "eine Variante oder V117 ist um 18:00 online.",
+    "v": {
+     "id": "V117",
+     "slot": "REACH",
+     "dauer": "15–30 s",
+     "plattform": "TikTok + Reels",
+     "hook_en": "Replying to: [Kommentar, max. 8 Wörter]",
+     "hook_de": "Antwort auf: [Kommentar]",
+     "shots": [
+      "Kommentar als Sticker (TikTok „mit Video antworten“, Instagram Kommentar-Sticker)",
+      "Du antwortest in einem Take",
+      "Ein Beweisbild (Papier, Maßband, Detail)"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel",
+     "text": "Kommentar-Sticker, Untertitel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "You asked, here's the answer. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "check": "Bei „Ist das russisch?“ nur die Standardantwort, nie diskutieren. Keine Politik."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analysen → Inhalte"}
+    ]
+   }
+  ],
+  "2027-02-12": [
+   {
+    "c": "A",
+    "t": "10:00 · Hangtags und Hangtag-Karte in Druck geben (Nummer von Hand)",
+    "m": 45,
+    "s": [
+     "Druckdatei öffnen (von Claude, Ordner „Hangtag“). Das Nummernfeld bleibt leer: Du schreibst 001–100 von Hand. Prüfen: Wortlaut „entworfen in Berlin“, nie „Made in Berlin“, keine Länderliste.",
+     "Die Hangtag-Karte (Innenseite oder Beileger) mit dem Liefertext und der Pflegeregel „Fäden nicht abschneiden“ gegenlesen. Fehlt etwas, Prompt unten an Claude.",
+     "Bei der Online-Druckerei deiner Wahl bestellen: 300 g Recyclingkarton, mit Loch, 100 Stück plus 10 Reserve. Faden oder Schlaufen dazu. Preis vorher mit dem Kassenstand im Blatt „Kasse“ abgleichen.",
+     "Lieferdatum notieren: Die Hangtags müssen vor der Warenprüfung 31.03. da sein.",
+     "Nur falls noch offen: Nackenlabels für Zipper und Polo (Datei aus W8) bei einem Webetiketten-Anbieter in kleinster Menge bestellen. Vorher den Berliner Sticker fragen, ob er sie beim Besticken einnäht und was das kostet.",
+     "Beleg ins Blatt „Ausgaben“, Datei in den Ordner „Hangtag“."
+    ],
+    "f": "die Bestellung über 110 Hangtags mit Lieferdatum vor dem 31.03. bestätigt ist und der Beleg im Blatt „Ausgaben“ steht.",
+    "p": "Projekt Time Travel, Docket W22, Fr 12.02. Prüf meine Hangtag-Druckdatei und die Hangtag-Karte, bevor ich sie in Druck gebe: [Text oder Datei einfügen]. Prüfe: Nummernfeld leer für 001–100 von Hand, „entworfen in Berlin“ statt „Made in Berlin“, nie „authentisch“, keine Länderliste, Liefertext „Lieferung bis spätestens 30.04.2027, geplant Anfang April“ nur wenn er auf die Karte gehört, Pflegehinweis „Fäden nicht abschneiden“. Gib mir eine korrigierte Fassung und eine Checkliste für das Druck-Formular (Format, 300 g Recyclingkarton, Loch, 110 Stück).",
+    "o": [
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Kasse“ und „Ausgaben“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V071 drehen und posten: DETAIL „Der Hangtag“",
+    "m": 45,
+    "s": [
+     "17:00 Dreh am Schreibtisch, Draufsicht, Fensterlicht von der Seite. Hast du noch keine gedruckten Hangtags: einen Probedruck auf Karton oder die Druckdatei am Bildschirm, und „001“ von Hand schreiben.",
+     "Shots je 3 Takes: Makro Hangtag auf Recyclingkarton · Hand fächert 10 Hangtags auf · du schreibst „001“, Nummer groß.",
+     "CapCut: 8–12 s, Hook als Text in den ersten 2 Sekunden, Originalton (Papier, Stift). Export W22/final/V071_final.mp4.",
+     "17:55 hochladen, 18:00 posten auf TikTok, als Reel und Short. Reel in die Story mit Link-Sticker.",
+     "18:00–18:15 Kommentare beantworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V071 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V071",
+     "slot": "DETAIL",
+     "dauer": "8–12 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "001 to 100. Each number exists once.",
+     "hook_de": "001 bis 100. Jede Nummer gibt es einmal.",
+     "shots": [
+      "Hangtag-Makro auf Recyclingkarton",
+      "Hand fächert 10 Hangtags auf",
+      "Du schreibst „001“ von Hand, Nummer groß"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Originalton (Papier, Stift). Keine Musik oder sehr leise",
+     "text": "„001 to 100.“ · Endframe „100 numbered pairs“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "Recycled card, 300 g, one number per pair, written by hand. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #numbered #novalifetimetravel",
+     "check": "Kein roter Hintergrund, Nummer nur von Hand, kein Streichpreis, nie „authentisch“."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2027-02-13": [
+   {
+    "c": "C",
+    "t": "12:00 · V072 Story ASK „Casting“ für den Shoot am 20.02.",
+    "m": 10,
+    "s": [
+     "Instagram-Story, Frame 1: Moodboard (Teppich, Trockenweizen, Sonnenuntergang), Text „Shoot on 20.02. in Berlin. Want in?“.",
+     "Frame 2: Frage-Sticker „your size + why“. Link-Sticker auf die Vorbestellung.",
+     "12:00 posten, auch als TikTok-Story oder Foto-Post mit gleicher Frage.",
+     "Antworten bis So sammeln. 2–3 Personen auswählen (verschiedene Größen, Beweis „Passform“: W30, W32/34, W36/38), mit jeder schriftlich klären: Zeit, Ort, Bildnutzung."
+    ],
+    "f": "die Story ist online und die Antworten liegen gesammelt im Blatt „Content“ (Casting).",
+    "v": {
+     "id": "V072",
+     "slot": "ASK",
+     "dauer": "2 Frames",
+     "plattform": "Instagram-Story + TikTok-Story",
+     "hook_en": "Shoot on 20.02. in Berlin. Want in?",
+     "hook_de": "Shoot am 20.02. in Berlin. Bist du dabei?",
+     "shots": [
+      "Frame 1: Moodboard",
+      "Frame 2: Frage-Sticker „your size + why“"
+     ],
+     "ort": "Story-Vorlage",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "„Shoot on 20.02. in Berlin. Want in?“ · Frage-Sticker",
+     "cta": "Link-Sticker auf die Vorbestellung",
+     "caption": "(Story) Shoot on 20.02. in Berlin. Want in? Tell me your size and why.",
+     "check": "Moodboard ohne hellblauen Himmel über gelbem Weizen, keine Sowjet-Kulisse, Bildrechte schriftlich vor dem Shoot."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Frage-Sticker"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "14:00 · PRESSE: Pressetext v2 mit Drop-Daten, Helfer-Aushang Hochschulen",
+    "m": 30,
+    "s": [
+     "Prompt unten an Claude: Pressetext v2 (DE und EN) mit den Drop-Daten. Gegenlesen, als PDF in den Ordner „Presse“, auf der Seite /pages/presse den alten Text ersetzen (Shopify → Onlineshop → Seiten → Presse).",
+     "Helfer-Aushang nur, wenn die Antwort des Steuerberaters auf Frage 10 schriftlich vorliegt: Stundenlohn, Minijob oder kurzfristige Beschäftigung, Anmeldung. Fehlt sie: heute Mail an den Steuerberater, Aushang wartet.",
+     "Mit Antwort: Aushang von Claude schreiben lassen (zweiter Teil des Prompts). Tage: Warenprüfung 31.03.–02.04., Packen 06.–07.04. und 22.–24.04., DMs am Drop-Abend 18–20 Uhr. Kontakt: deine Novalife-Mail.",
+     "Hochschulen (alle ungeprüft, offizielle Seite selbst suchen): UdK Berlin Modedesign, HTW Berlin Bekleidungstechnik, AMD Akademie Mode & Design, ESMOD Berlin, Lette Verein Berlin. Je eine höfliche Mail an den Studiengang: Ist ein Aushang erlaubt? Nur über den offiziellen Weg.",
+     "Im Blatt „Netz“ einen Bereich „Helfer“ anlegen: Hochschule, angefragt am, Antwort."
+    ],
+    "f": "der Pressetext v2 auf /pages/presse steht und der Aushang an mindestens 3 Hochschulen angefragt ist (oder die Mail an den Steuerberater zu Frage 10 raus ist).",
+    "p": "Projekt Time Travel, Docket W22, Sa 13.02. Zwei Texte. 1) Pressetext v2 für Novalife Time Travel, deutsch und englisch, je höchstens 300 Wörter, plus Factsheet: 100 nummerierte Jeans mit fünf gestickten Stellen, Vorbestellung seit 14.01., Vorbestellpreis 149 € bis 21.03. (35 Paar), Drop Do 22.04.2027, 19:00, 169 €, Zipper 139 €, Polo 79 €, Produktion läuft seit 08.02., Shoot am 20.02., Lieferung „bis spätestens 30.04.2027, geplant Anfang April“. Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, keine Politik. 2) Aushang „Helfer gesucht, bezahlt“ für Hochschulen, eine A4-Seite: Warenprüfung 31.03.–02.04., Packen 06.–07.04. und 22.–24.04., DMs am Drop-Abend 18–20 Uhr, Stundenlohn [laut Steuerberater], Beschäftigungsart [laut Steuerberater], Kontakt [Mail]. Freundlich, kein Druck.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten → /pages/presse"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
+     {"n": "UdK Berlin, Modedesign", "h": "ungeprüft, offizielle Seite selbst suchen"},
+     {"n": "HTW Berlin, Bekleidungstechnik", "h": "ungeprüft, offizielle Seite selbst suchen"},
+     {"n": "AMD Akademie Mode & Design, ESMOD Berlin, Lette Verein Berlin", "h": "ungeprüft, offizielle Seiten selbst suchen"}
+    ]
+   }
+  ],
+  "2027-02-14": [
+   {
+    "c": "A",
+    "t": "10:00 · Wochenreview W22 und Zahlen ins Cockpit",
+    "m": 20,
+    "s": [
+     "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Dann nach Quellen-Tag filtern (src-, ref-): Wie viele Neue je Tag?",
+     "Views: TikTok und Instagram, je Post der Woche Views, Saves, Shares, neue Follower ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
+     "Kassencheck K − F − R im Blatt „Kasse“: Kontostand minus fällige Zahlungen minus Rücklage. Ampel grün ≥ 300 €, gelb 0–300 €, rot < 0.",
+     "Zahlen ins Cockpit (Docket → Zahlen-Cockpit): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Blatt „Die ersten 35“, Spalte „Zusage“), bezahlte Jeans (Shopify → Bestellungen, bezahlt).",
+     "Gates aus 7.1 durchgehen: G1 Liste unter 720 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · G2 unter 1.900 → bestes Video in 2 Varianten · G3 unter 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G5 Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte- oder Serp-Bild · G10 Vorbestellungen unter 14 → persönliche DM an jede Zusage ohne Kauf mit ihrer Größe · G11 Conversion < 1,3 % bei ≥ 300 Sitzungen → häufigste DM-Frage als erstes FAQ · G12 Kasse gelb/rot.",
+     "Offenes an Claude mit der Zeile unten."
+    ],
+    "f": "alle vier Cockpit-Zahlen eingetragen sind, jedes Gate aus 7.1 geprüft ist und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W22, So 14.02. W22: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Vorbestellungen bezahlt [B], Zusagen [Z2], Follower gesamt [F]. Offen aus W22: [..]. Sag mir, welches Gate greift und was ich in W23 vorziehe.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente; Bestellungen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Content“, „Kasse“, „Die ersten 35“"},
+     {"n": "Docket · Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "10:20 · Gate W22: Vorbestellungen ≥ 14, Produktionsplan, Stoff, Stufe 2",
+    "m": 5,
+    "s": [
+     "Vorbestellungen ≥ 14 bezahlt (Soll 20)? Darunter: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl (G10).",
+     "Produktionsplan schriftlich da? Wenn nein: Mail heute, Call Mo 09:00.",
+     "Stoff da (reserviert seit 06.01.)? Wenn nein: sofort Call mit der Fabrik, neues Datum schriftlich.",
+     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story."
+    ],
+    "f": "alle vier Fragen mit ja/nein im Blatt „Kasse“ (Gates) stehen und jede Gegenmaßnahme terminiert ist.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Bestellungen, Produkte → Stufe-2-Entwurf"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "11:00 · Content-Batch W23: V073, V074, V075, V076 drehen und schneiden",
+    "m": 95,
+    "s": [
+     "Ordner „W23/roh“ und „W23/final“ anlegen. Kamera 9:16, Licht von vorn oder vom Fenster, je Shot 3 Takes. Drehreihenfolge nach Orten.",
+     "Ort 1 Schreibtisch (V073 BUILD „Shoot am Samstag“): Moodboard auf dem Tisch (eigene Referenzen, Sonnenuntergang statt Blau über Gelb), Shotliste-Entwurf auf Papier, Foto der Location. Satz O-Ton: „One Saturday, one location at sunset.“",
+     "Ort 2 Tür oder weiße Wand, Streiflicht (V074 ORIGIN „Der Zipper“): Zipper hängt an der Tür, Makro der Bänder links und rechts der Zip-Leiste, Rücken mit Medaillon.",
+     "Ort 3 Fensterbank (V076 DETAIL „Der Polo“): Polo flach, Makro der zwei Bänder an der Knopfleiste, getragen Halbtotale.",
+     "V075 REACH „Drei Teile“ aus dem Archiv (content/archiv): Jeans auf Bügel 1 s, Zipper-Rücken 1 s, Polo-Knopfleiste 1 s, Endframe „22.04.“.",
+     "In CapCut schneiden: Hook als Text in den ersten 2 Sekunden, Untertitel automatisch, keine Musik einbacken. Export als W23/final/V073_final.mp4 bis V076_final.mp4.",
+     "Bild-Check je Video: B und B2 nie im selben Bild, keine Seitenansicht links, kein roter Hintergrund, keine Streifen in verbotenen Farbpaaren."
+    ],
+    "f": "4 fertige Videos (V073–V076) im Ordner „W23/final“ liegen. Am Posttag wird nichts mehr gedreht.",
+    "v": {
+     "id": "V073",
+     "slot": "BUILD",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 127: planning a shoot on €150.",
+     "hook_de": "Tag 127: Ich plane einen Shoot mit 150 €.",
+     "shots": [
+      "Moodboard auf dem Tisch (eigene Referenzen)",
+      "Shotliste auf Papier",
+      "Foto der Location"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s Hook EN · Untertitel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "Day 127. €150, one Saturday, one location at sunset. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Moodboard: Sonnenuntergang statt Blau über Gelb, keine Sowjet-Kulisse, keine echte Sichel."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ]
+   },
+   {
+    "c": "S",
+    "t": "16:00 · Nur bei Spiel = bauen: Spiel-Check Steuerung",
+    "m": 20,
+    "plus": true,
+    "x": "s",
+    "s": [
+     "Nur bei Spiel = bauen.",
+     "Auf dem Handy 2 Minuten spielen: Fühlt sich das Laufen mit dem Daumen gut an?",
+     "Wenn nein: erst das reparieren (Beobachtung in einem Satz an Claude Code). Es wird nichts gezeichnet, bevor das Laufen stimmt."
+    ],
+    "f": "die Steuerung sich gut anfühlt oder der Fehler als Satz notiert ist.",
+    "o": [
+     {"n": "Docket · Referenz → Das Spiel · Bauplan"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+: Variante des besten Videos oder V117",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Bestes Video der letzten 14 Tage aus dem Review nehmen. Varianten-Regel erfüllt: neuer Hook, neues erstes Bild, gleicher Kern.",
+     "Sonst V117 mit dem besten Kommentar der Woche, ein Take, ein Beweisbild.",
+     "18:00 posten, auch als Reel."
+    ],
+    "f": "eine Variante oder V117 ist um 18:00 online.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"}
+    ]
+   }
+  ]
+ }
+}

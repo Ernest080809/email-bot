@@ -1,0 +1,348 @@
+{
+ "n": 16,
+ "phase": "P3",
+ "goal": "PP unterwegs, Auszahlung bis aufs Konto testen, Brücke klären, Event-Tipps für die Mess-Abende raus",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "740 bestätigt (Alarm 300) · Grind+-Ziel 840 · Korridor 700 am 31.12."},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~2.220 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "3 Kern"},
+  {"k": "Zusagen „Die ersten 35“", "ziel": "22 (Name, Größe, „ich bestelle am 14.01.“)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Gate So 03.01.", "ziel": "Liste ≥ 740, Testauszahlung angekommen, Brücke ja/nein"}
+ ],
+ "days": {
+  "2026-12-28": [
+   {
+    "c": "B",
+    "t": "Versand des PP-Samples bestätigen, Tracking holen",
+    "m": 10,
+    "s": [
+     "Mail an die Fabrik: „Please confirm the PP sample has shipped and send the tracking number. We need it in Berlin by Wed 06.01.“",
+     "Tracking-Nummer ins Blatt „Fabrik“, Ankunftstag notieren.",
+     "Kein Tracking bis heute Abend: im Blatt „Gates“ notieren „Öffnung Do 21.01. als Plan B (B-Zeitachse 1)“, morgen anrufen."
+    ],
+    "f": "Tracking und Ankunftstag im Blatt stehen oder Plan B 21.01. notiert ist.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Fabrik“, „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V041 posten: BUILD Day 78 „Was 2027 passiert“",
+    "m": 20,
+    "s": [
+     "17:55 W16/final/V041_final.mp4 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library leise unter dem O-Ton. Caption einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V041 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V041",
+     "slot": "BUILD",
+     "dauer": "15–20 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "2027 plan: 100 jeans, one drop, 22 April.",
+     "hook_de": "Plan 2027: 100 Jeans, ein Drop, 22. April.",
+     "shots": [
+      "Kalender 2027 durchblättern",
+      "Vier Daten markieren: 14.01. · 01.02. · 20.02. · 22.04.",
+      "Du, ein Satz in die Kamera, Licht von vorn"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, dann Gesicht frontal",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Hook EN 0–2 s, Daten groß, Endkarte „Drop 22.04. · 19:00“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 78. Four dates: 14.01. pre-order, February production, 20.02. shoot, 22.04. drop at 19:00. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Nur Plan-Daten, Stückzahl 100 gilt bis 01.02., CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-29": [
+   {
+    "c": "A",
+    "t": "Testbestellung mit echter Karte, Auszahlung bis aufs Konto verfolgen",
+    "m": 30,
+    "s": [
+     "Shopify → Produkte → Testprodukt „TT Zahlungstest“ für 1 €, aktiv, in keiner Kollektion. Mit deiner echten Karte kaufen.",
+     "Prüfen: Bestellbestätigung (Vorbestell-Block vom 14.12. erscheint nur bei Vorbestell-Produkten), Rechnung, Hinweis § 19 UStG, Absender, Logo.",
+     "Shopify → Einstellungen → Payments → Auszahlungen: Datum der Zahlung notieren. Jeden Werktag nachsehen, bis der Betrag auf dem Bankkonto ist. Werktage zählen, ins Blatt „Kasse“.",
+     "Erst nach Eingang auf dem Konto: Bestellung erstatten, Testprodukt löschen. Gebühr notieren.",
+     "Mit der echten Dauer den Prompt unten an Claude: alle Geld-Fristen neu rechnen."
+    ],
+    "f": "der Testkauf gebucht ist, die Werktage bis zum Konto im Blatt stehen, erstattet ist und Claude die Fristen nachgerechnet hat.",
+    "p": "Projekt Time Travel, Docket W16. Testkauf am Di 29.12., Auszahlung auf dem Konto am [Datum], also [n] Werktage. Rechne mit dieser echten Dauer alle Geld-Fristen nach (bisher 3-Werktage-Regel): Schwelle 1 Mo 01.02. (ausgezahlt am 31.01.), 32 ausgezahlt bis Di 16.03., 40 ausgezahlt bis Mi 24.03. (Steuer, DAP). Sag mir je Frist den letzten Bestelltag, der noch rechtzeitig auf dem Konto ist, und was sich am Gate So 14.03. ändert.",
+    "o": [
+     {"n": "Shopify-Admin · Payments", "u": "https://admin.shopify.com", "h": "Einstellungen → Payments → Auszahlungen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Bank: Tageslimit ≥ 3.100 €, Auslandsüberweisung, Kontoart prüfen",
+    "m": 15,
+    "s": [
+     "Online-Banking → Limits: Tageslimit für Überweisungen auf mindestens 3.100 € setzen (für Anzahlung und Restzahlung an die Fabrik).",
+     "Gebühr und Dauer der Auslandsüberweisung vom 02.11. aus dem Kontoauszug ins Blatt „Kasse“.",
+     "Shopify → Einstellungen → Payments → Bankkonto: geht die Auszahlung auf ein Privat- oder ein Geschäftskonto? Abgleichen mit dem, was der Steuerberater am 13.10. gesagt hat. Passt es nicht: heute ändern, nicht im Januar."
+    ],
+    "f": "das Limit ≥ 3.100 € steht, Gebühr und Dauer im Blatt sind und das Auszahlungskonto zur Steuerberatung passt.",
+    "o": [
+     {"n": "Online-Banking deiner Bank", "h": "Limits"},
+     {"n": "Shopify-Admin · Payments", "u": "https://admin.shopify.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "Fünf Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin).",
+     "DMs beantworten, jedes „Ja“ mit Größe ins Blatt „Die ersten 35“."
+    ],
+    "f": "5 Kommentare stehen und alle DMs beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2026-12-30": [
+   {
+    "c": "V",
+    "t": "PRESSE: Event-Tipp P3 (Mess-Abende 16.01., 23.01.), geplant Sa 02.01., 09:00",
+    "m": 20,
+    "s": [
+     "Kontakt je Medium nur von der offiziellen Seite (Redaktion, Termine, Impressum): tip Berlin, Mit Vergnügen, iHeartBerlin, The Berliner.",
+     "Text mit dem Prompt unten holen, Orte aus dem Blatt „Abende“ (fest seit 19.12.).",
+     "Je Medium eine eigene Mail, Link mit ?ref=p-tip, p-mitvergnuegen, p-iheart, p-berliner.",
+     "Gmail → Senden-Pfeil → „Senden planen“ → Sa 02.01.2027, 09:00. Du planst selbst, Claude sendet nichts.",
+     "Ins Blatt „Presse“: Medium, Kontakt, geplant 02.01. 09:00."
+    ],
+    "f": "vier einzelne Mails für Sa 02.01., 09:00 geplant sind und im Blatt „Presse“ stehen.",
+    "p": "Projekt Time Travel, Docket W16, Mi 30.12. Schreib mir einen kurzen Event-Tipp für [Medium], deutsch, max. 90 Wörter, Betreff unter 50 Zeichen: Novalife Mess-Abend, Jeans „Time Travel“ anprobieren und messen, 100 nummerierte Jeans, entworfen in Berlin. Termine: Sa 16.01.2027 und Sa 23.01.2027, [Uhrzeit], [Ort, Adresse]. Eintritt frei. Am 14.01. öffnet die Vorbestellung. Link: [Link mit ?ref=p-medium]. Wortliste (Kreuzstich-Band, Achtstern), nie „authentisch“, nichts Politisches.",
+    "o": [
+     {"n": "tip Berlin", "u": "https://www.tip-berlin.de", "h": "Redaktions- oder Terminkontakt auf der Seite"},
+     {"n": "Mit Vergnügen", "h": "offizielle Seite per Suche öffnen, Kontakt aus dem Impressum"},
+     {"n": "iHeartBerlin", "u": "https://www.iheartberlin.de", "h": "Kontakt auf der Seite"},
+     {"n": "The Berliner", "u": "https://www.the-berliner.com", "h": "Kontakt auf der Seite"},
+     {"n": "Gmail", "u": "https://mail.google.com", "h": "Senden planen"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "19:00 · V042 posten: REACH „Die einzige ihrer Art“",
+    "m": 20,
+    "s": [
+     "18:55 W16/final/V042_final.mp4 in TikTok hochladen. Trend-Sound nur aus der Commercial Music Library (Creative Center, Region DE, für Business freigegeben).",
+     "19:00 posten, danach Reel (Musik aus der Business-Bibliothek von Instagram) und Short.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V042 um 19:00 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V042",
+     "slot": "REACH",
+     "dauer": "7–10 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Only one pair exists right now. This one.",
+     "hook_de": "Gerade gibt es nur ein Paar. Dieses.",
+     "shots": [
+      "Proto auf einem Stuhl mitten im Raum",
+      "Handy kreist langsam drumherum (Kreisfahrt nur von vorn über rechts nach hinten, die linke Seite nicht stehen lassen)",
+      "Endframe: „prototype“"
+     ],
+     "ort": "Wohnung · leerer Raum, Stuhl, Fensterlicht von vorn",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library; Instagram: Business-Bibliothek der App",
+     "text": "Hook EN 0–2 s, Endframe „prototype“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Prototype. Until 22.04. it stays the only one. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #prototype #novalifetimetravel",
+     "check": "Ehrlich als Prototyp bezeichnet, keine Seitenansicht links, kein roter Hintergrund."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-31": [
+   {
+    "c": "A",
+    "t": "Monatsabschluss Dezember (Korridor: 700 auf der Liste)",
+    "m": 15,
+    "s": [
+     "Liste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, Zahl gegen den Korridor 700.",
+     "Darunter: Prompt unten an Claude, welche Posts die meisten Anmeldungen gebracht haben, davon im Januar mehr.",
+     "Ausgaben Dezember aus dem Blatt „Ausgaben“ gegen den Plan im Blatt „Kasse“, Kassen-Ampel aktualisieren."
+    ],
+    "f": "Listenstand und Dezember-Ausgaben mit Abweichung im Blatt stehen.",
+    "p": "Projekt Time Travel, Docket W16, Do 31.12. Dezember: Liste [X] (Korridor 700), Anmeldungen je Post: [Tabelle aus Blatt „Content“]. Welche drei Posts haben die meisten Anmeldungen je 1.000 Views gebracht, und welche Formate soll ich im Januar verdoppeln?",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Brücke klären: schriftliche Stand-by-Zusage 1.500 € in der Familie",
+    "m": 30,
+    "s": [
+     "Mit der Person aus der Familie sprechen: „Ich brauche das Geld wahrscheinlich nicht. Es ist eine Versicherung für den Fall, dass Restzahlung, Steuer oder Erstattungen vor den Einnahmen fällig werden.“",
+     "Verwendung nur: Restzahlung an die Fabrik, Einfuhrsteuer, Erstattungen. Nichts sonst.",
+     "Text mit dem Prompt unten holen, ausdrucken, beide unterschreiben, Foto ins Blatt „Kasse“.",
+     "Kein Ja: im Blatt „Gates“ „Brücke nein“, Stufe 7 der Notfall-Leiter fällt weg."
+    ],
+    "f": "eine unterschriebene Zusage vorliegt oder „Brücke nein“ notiert ist.",
+    "p": "Projekt Time Travel, Docket W16, Do 31.12. Schreib mir eine einfache, freundliche Stand-by-Zusage auf einer halben Seite: [Name] sagt Ernest Veskimäe (Novalife) zu, bei Bedarf bis 1.500 € bis [Datum] zu leihen, nur für Restzahlung an die Fabrik, Einfuhrsteuer oder Erstattungen an Kunden. Abruf per Nachricht, Rückzahlung bis [Datum], ohne Zinsen. Zwei Unterschriftszeilen. Hinweis, dass das keine Rechtsberatung ist.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Kasse“, „Gates“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "Fünf Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin).",
+     "DMs beantworten, jedes „Ja“ mit Größe ins Blatt „Die ersten 35“."
+    ],
+    "f": "5 Kommentare stehen und alle DMs beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2027-01-01": [
+   {"c": "N", "t": "Frei. Kein Post, keine Aufgabe."}
+  ],
+  "2027-01-02": [
+   {"c": "N", "t": "09:00 geht der Event-Tipp geplant raus (in Gmail unter „Geplant“ kurz prüfen)."},
+   {
+    "c": "C",
+    "t": "12:00 · V043 ASK-Story „Frag mich alles“",
+    "m": 10,
+    "s": [
+     "Instagram-Story Frame 1: Proto-Detail plus Frage-Sticker „Pre-order opens in 12 days. Ask me anything.“ Link-Sticker auf die Warteliste.",
+     "12:00 posten.",
+     "Am Abend die besten Fragen als eigene Story-Frames beantworten (Frames 2–5). Gute Fragen ins Blatt „Content“ als Reserve-Videos (Antwort-Format V117)."
+    ],
+    "f": "die Story um 12:00 online ist und am Abend mindestens 3 Antworten als Story stehen.",
+    "v": {
+     "id": "V043",
+     "slot": "ASK",
+     "dauer": "1 + Antwort-Frames",
+     "plattform": "Instagram Story",
+     "hook_en": "Pre-order opens in 12 days. Ask me anything.",
+     "hook_de": "In 12 Tagen öffnet die Vorbestellung. Frag mich alles.",
+     "shots": ["Frame 1: Proto-Detail + Frage-Sticker", "Frames 2–5: Antworten als eigene Story"],
+     "ort": "Wohnung",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "Frage-Sticker, Antworten als Text",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "(Story) Pre-order opens in 12 days. Ask me anything.",
+     "check": "Antworten mit Liefersatz „bis spätestens 30.04.2027, geplant Anfang April“, kein Streichpreis, politische Fragen mit dem Standardsatz."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2027-01-03": [
+   {
+    "c": "A",
+    "t": "Wochenreview W16 + Cockpit + Zeile an Claude",
+    "m": 20,
+    "s": [
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, src-/ref-Tags zählen (auch p-tip, p-iheart usw.). Views, Anmeldungen je 1.000 Views ins Blatt „Content“.",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans (0).",
+     "Kassencheck K − F − R: grün ≥ 300 € · gelb → nur Plan 3 · rot → Ausgaben-Stopp-Liste, Notfall-Leiter (G12).",
+     "G1/G2: unter Alarm 300 → Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos · unter Soll 740 → bestes Video in 2 Varianten, Kommentarzeit 15′.",
+     "G3: < 1,0 je 1.000 Views → angehefteter Kommentar, Link-Sticker · G5: ≥ 2 × Median → 5 Varianten · G7/G8 Kommentare zählen · G9: > 70 % aus warmen Tags → 3 neue Hooks.",
+     "Zeile an Claude (Prompt unten)."
+    ],
+    "f": "die vier Cockpit-Zahlen stehen, die Gates aus 7.1 geprüft sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W16, So 03.01. W16: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [Z35], Testauszahlung [n Werktage], Brücke [ja/nein], PP-Tracking [Ankunft]. Offen aus W16: [..].",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE 03.01.: Liste ≥ 740, Testauszahlung angekommen, Brücke ja/nein",
+    "m": 10,
+    "s": [
+     "Liste ≥ 740 (Alarm 300)? Darunter: Maßnahmen G1/G2 aus dem Review mit Datum.",
+     "Testauszahlung auf dem Konto? Dauer > 3 Werktage → für jede Zahlung an die Fabrik eine Woche Vorlauf einplanen, neue Fristen von Claude (29.12.) ins Blatt „Gates“.",
+     "Noch nicht angekommen: morgen Shopify-Support über Hilfe-Center kontaktieren, Start 14.01. hängt daran.",
+     "Brücke ja/nein ins Blatt „Gates“."
+    ],
+    "f": "alle drei Kriterien mit Ergebnis oder Gegenmaßnahme im Blatt „Gates“ stehen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W17: V044–V048 vorbereiten und drehen",
+    "m": 75,
+    "s": [
+     "Ordner W17/final anlegen. Kamera 9:16, Licht von vorn, je Shot 3 Takes.",
+     "V044 „Das finale Sample“: Prüfplan auf Papier schreiben (Maße, fünf Elemente, Fäden, Patch) und abfilmen. Auspacken und Vergleich Proto gegen PP drehst du live, wenn das PP da ist (Mo 04.01. oder bei Ankunft).",
+     "V045–V047 laut Content-Bibliothek (Rev. 5.3: ORIGIN „Warum vorbestellen“, REACH „Nächster Donnerstag“ mit Endframe „14.01. · 19:00“, DETAIL „Stücknummer“ mit Hangtag-Entwurf). Den alten Satz „149 € statt 169 €“ streichen: „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“.",
+     "V048 Story: Foto für den Countdown-Sticker „14.01. 19:00“.",
+     "Schneiden in CapCut: Hook EN 0–2 s, Untertitel, keine Musik einbacken, Endkarte mit CTA der Phase. Export nach W17/final."
+    ],
+    "f": "die Videos V045–V047 und das Story-Foto für V048 in W17/final liegen und für V044 der Prüfplan gefilmt ist.",
+    "v": {
+     "id": "V044–V048",
+     "slot": "BUILD · ORIGIN · REACH · DETAIL · ASK",
+     "dauer": "8–35 s je Video, Story 2 Frames",
+     "plattform": "TikTok + Reels + Shorts, Story auf Instagram",
+     "hook_en": "Day 85: the final sample. Approve or not? · Tap remind me. Thursday, 19:00.",
+     "hook_de": "Tag 85: Das finale Sample. Freigeben oder nicht? · Tipp auf Erinnern. Donnerstag, 19 Uhr.",
+     "shots": [
+      "V044 Prüfplan auf Papier, später PP auspacken und Proto gegen PP",
+      "V045–V047 nach Content-Bibliothek",
+      "V048 Countdown-Sticker auf 14.01. 19:00, Link-Sticker"
+     ],
+     "ort": "Wohnung · Fensterbank mit Tageslicht von vorn, Schreibtisch",
+     "ton": "O-Ton + Untertitel; REACH mit Trend-Sound aus der Commercial Music Library",
+     "text": "Hook EN 0–2 s, Untertitel, Endkarte mit CTA",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Captions stehen am jeweiligen Posttag in W17.",
+     "check": "Kein Streichpreis, echtes Ergebnis beim PP, keine Seitenansicht links, B und B2 nie im selben Bild."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "keine Musik einbacken"}
+    ]
+   },
+   {
+    "c": "C",
+    "plus": true,
+    "t": "Grind+ · WhatsApp-Kanal anlegen (optional, nur Erinnerungen)",
+    "m": 10,
+    "s": [
+     "WhatsApp → Aktuelles → Kanäle → „+“ → Kanal erstellen: „Novalife Time Travel“, Profilbild Detailfoto.",
+     "Beschreibung: „Nur Erinnerungen: 14.01. Vorbestellung, 22.04. Drop.“",
+     "Kanal-Link in die Bio-Linkseite und die Willkommens-Mail; im Kanal nur Links mit utm_source=whatsapp, kein neuer ref-Tag. Keine Telegram-Gruppe."
+    ],
+    "f": "der Kanal existiert und sein Link steht in der Bio-Linkseite.",
+    "o": [
+     {"n": "WhatsApp", "u": "https://www.whatsapp.com", "h": "Kanäle in der App"}
+    ]
+   }
+  ]
+ }
+}

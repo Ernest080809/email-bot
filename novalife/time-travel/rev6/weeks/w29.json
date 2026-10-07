@@ -1,0 +1,502 @@
+{
+ "n": 29,
+ "phase": "P5",
+ "goal": "Countdown läuft, Ware annehmen und jede Jeans prüfen, Stufe 2 am So 20:00 schließen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "2.720 bestätigt (Alarm 1.170); Grind+-Ziel 3.070"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~8.160 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "7 Kern (Countdown CD-T24 bis CD-T18)"},
+  {"k": "Vorbestellungen", "ziel": "43 inkl. Stufe 2 bis So 04.04. (Alarm: 40 ausgezahlt bis Mi 24.03., nur wenn ~1.150 € Steuer fällig sind)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+ ],
+ "days": {
+  "2027-03-29": [
+   {"c": "N", "t": "Info · Ostermontag: Post und Läden zu, der Countdown läuft trotzdem"},
+   {"c": "N", "t": "Info · CTA bis So 04.04. mit Stufe 2 (siehe Mo 22.03.): „Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.“"},
+   {
+    "c": "A",
+    "t": "10:00 · Werbung: Freigabe prüfen (Kampagne 1)",
+    "m": 10,
+    "s": [
+     "Meta Business Suite → Werbeanzeigenmanager → Kampagnen. Ist Kampagne 1 „Aktiv“? Steht eine Anzeige auf „Abgelehnt“ oder „In Prüfung“?",
+     "Abgelehnt: Grund öffnen, Text oder Bild korrigieren (häufig: Text im Bild, Vorher/Nachher, Preisangabe). Neu einreichen.",
+     "Anzeigentext gegen den CTA der Phase halten: bis So 04.04. „Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April.“ Kein „149 € statt 169 €“, kein Streichpreis.",
+     "Bildregeln auch in Anzeigen: keine Seitenansicht links, B und B2 nie im selben Bild, kein hellblauer Himmel über gelbem Weizen.",
+     "Ausgabenlimit gegen Plan 3 im Blatt „Kasse“ prüfen. Kampagne 1 läuft nur, wenn am So 07.03. die Steuer-Rücklage stand (sonst gestrichen).",
+     "Status und Datum ins Blatt „Kasse“, Zeile „Werbung“."
+    ],
+    "f": "Kampagne 1 läuft ohne abgelehnte Anzeige, mit dem CTA der Phase, und der Status steht im Blatt „Kasse“.",
+    "o": [
+     {"n": "Meta Business Suite · Werbeanzeigenmanager", "h": "offizielle Seite per Suche öffnen, mit deinem Instagram-Konto anmelden"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“, Plan 3"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:15 · Feld-Kapitel der Startseite öffentlich schalten (ohne Spiel)",
+    "m": 10,
+    "s": [
+     "Shopify-Admin → Onlineshop → Themes → Live-Theme → Anpassen → Startseite. Den Abschnitt „Feld“ (Scroll-Story) einblenden.",
+     "Ohne Spiel: kein „Das Feld ist offen“, kein Spiel-Link, kein Launch-Clip. Das Kapitel ist ein Teil der Startseite, kein eigenes Ereignis.",
+     "Texte prüfen: Wortliste (Achtstern, Kreuzstich-Band, „Das Feld danach“ für den Serp), nie „authentisch“, Subjekt ist das Muster.",
+     "Bilder prüfen: kein Serp-Bild direkt neben Ähren auf Rot, keine Seitenansicht links, B und B2 nie im selben Bild.",
+     "Auf dem Handy im Instagram-Browser und in Safari öffnen: lädt das Kapitel, steht das Anmeldeformular darunter?"
+    ],
+    "f": "das Feld-Kapitel auf der Live-Startseite sichtbar ist, auf dem Handy lädt und keinen Spiel-Hinweis enthält.",
+    "o": [
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "nur Sichtbarkeit ändern, nichts am Code"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T24 posten: Ganzkörper vorn, Zoom auf die Tasche",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T24“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, oder O-Ton. Caption unten einfügen.",
+     "18:00 posten (Sommerzeit seit gestern, 18:00 MESZ). Gleich danach als Reel auf Instagram und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story: Countdown-Sticker „Drop“ auf 22.04., 19:00 und Link-Sticker zur Startseite. Wer „Erinnern“ tippt, bekommt um 19:00 eine Nachricht von Instagram.",
+     "Angehefteten Kommentar setzen: „Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April.“",
+     "18:00–18:15 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Herkunftsfrage: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“"
+    ],
+    "f": "CD-T24 auf TikTok, als Reel, als Short und als Story mit Countdown- und Link-Sticker online ist.",
+    "v": {
+     "id": "CD-T24",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "24 days. 100 numbered jeans. 22.04., 19:00.",
+     "hook_de": "24 Tage. 100 nummerierte Jeans. 22.04., 19 Uhr.",
+     "shots": ["Ganzkörper vorn aus dem Shoot", "Langsamer Zoom auf die rechte Vordertasche"],
+     "ort": "Material vom Shoot Sa 20.02.2027, geschnitten am Do 18.03. und Sa 20.03.",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library, nie in CapCut eingebacken",
+     "text": "„T−24“ groß, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−24. The countdown starts. 100 numbered pairs. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
+     "check": "Frontansicht, keine Seitenansicht links, B und B2 nicht im selben Bild, kein Streichpreis, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-03-30": [
+   {
+    "c": "B",
+    "t": "Ganztägig · WARENANNAHME: Kartons zählen, Fotos, Lieferschein",
+    "m": 45,
+    "s": [
+     "Vorher bereitlegen: Packliste der Fabrik (Stück je Größe), Handy geladen, Cutter, Edding, trockene Fläche (nicht auf dem Boden). Kommt die Ware an einem anderen Tag, tauschst du diese Aufgabe mit dem Ankunftstag.",
+     "Beim Fahrer: Kartons zählen, bevor du unterschreibst. Außenschäden fotografieren und auf dem Lieferschein „unter Vorbehalt: [Schaden]“ vermerken. Lieferschein fotografieren.",
+     "Ersten Karton öffnen und dabei filmen (9:16, Licht von vorn): Kartons im Flur, der erste Griff in den Karton. Das ist der Live-Clip für CD-T23.",
+     "Jeden Karton mit der Packliste abgleichen: Stück je Größe. Kartonnummer mit Edding drauf. Ins Blatt „QC“: Karton, Größe, Soll, Ist.",
+     "Abweichung zur Packliste: sofort Foto und kurze Mail an die Fabrik (Vorlage „Nachfassen“, Docket → Referenz → Vorlagen), Frist für Reklamationen 14 Tage ab heute.",
+     "Kartons trocken und erhöht lagern. Ankunftsdatum ins Blatt „Gates“ (Gate Do 15.04. ist damit grün)."
+    ],
+    "f": "alle Kartons gezählt, mit der Packliste abgeglichen und im Blatt „QC“ stehen, Lieferschein und Fotos gesichert sind.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „QC“ und „Gates“"},
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Nachfassen“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T23 als Live-Clip „They're here.“, zuerst im Broadcast",
+    "m": 20,
+    "s": [
+     "17:20 CapCut: Clip vom Auspacken in die T−23-Vorlage legen, 6–10 s, Text „They're here.“, Untertitel. Keine Musik einbacken. Ist die Ware heute nicht da, nimmst du das Asset „CD-T23“ (Band A im Makro, Schwenk entlang der Tasche).",
+     "17:50 Instagram → dein Broadcast-Kanal: Clip zuerst dorthin, Satz „Die Ware ist da. Ihr seht es zuerst.“",
+     "17:55 TikTok hochladen (Business-Konto), Caption unten, 18:00 posten. Gleich danach Reel und Short.",
+     "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker zur Startseite.",
+     "18:00–18:15 Kommentare beantworten. Frage „Wann kommt meine?“: „Pre-orders ship 06.–07.04.“"
+    ],
+    "f": "CD-T23 (Live-Clip oder Asset) im Broadcast, auf TikTok, als Reel, Short und Story online ist.",
+    "v": {
+     "id": "CD-T23",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "Broadcast + TikTok + Reels + Shorts + Story",
+     "hook_en": "23 days. They're here.",
+     "hook_de": "23 Tage. Sie sind da.",
+     "shots": ["Kartons im Flur, Totale von vorn", "Hand öffnet den ersten Karton", "Erster Griff: gefaltete Jeans, Kreuzstich-Band A sichtbar", "Ersatz-Asset: Makro-Schwenk entlang Band A"],
+     "ort": "Wohnung · Flur (Live-Clip vom Vormittag); Ersatz: Material vom Shoot Sa 20.02.2027",
+     "ton": "O-Ton (Karton, Klebeband), Untertitel",
+     "text": "„T−23 · They're here.“, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−23. They're here. 100 numbered pairs just arrived, every pair gets checked this week. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #buildinpublic #berlinfashion",
+     "check": "Nur echte Kartons, keine Seitenansicht links, B und B2 nicht im selben Bild, CTA der Phase."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "T−23-Vorlage, keine Musik einbacken"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal, Reel, Story"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-03-31": [
+   {
+    "c": "B",
+    "t": "10:00 · Prüfung Teil 1: Sichtprüfung der ersten 50 (mit Helfer)",
+    "m": 100,
+    "s": [
+     "Mitnehmen an den Tisch: Prüfplan Teil „Wareneingang“ ausgedruckt (Docket → Referenz → Prüfplan Sample), grüne und rote Klebepunkte, Handy für Fotos, Maßband, Tageslicht vom Fenster. Helfer kurz einweisen (10 Min.), Arbeitszeit für die Abrechnung notieren.",
+     "Je Jeans etwa 2 Minuten, ihr arbeitet zu zweit: einer prüft, einer schreibt. Vorn: Kreuzstich-Band A, Münztasche E. Hinten links: B2 mit drei Ähren, rotem Band und 9 Goldfäden (sitzen sie fest?). Hinten rechts: Achtstern C. Patch D gerade. Linkes Bein: Serp B an der Seitennaht.",
+     "Dazu: Nähte, Knopf, Reißverschluss, Saum, Flecken, Größenlabel.",
+     "In Ordnung: grüner Punkt auf das Größenlabel. Fehler: roter Punkt, Foto, Zeile im Blatt „QC“ (Karton, Größe, Fehler, Fehlerklasse aus dem Prüfplan, Foto-Nummer).",
+     "Noch keine Hangtags. Die Nummern vergibst du beim Packen am 06.–07.04.",
+     "Optional für den Countdown: 5 Sekunden filmen, wie ihr prüft (Clip „Checking 100 pairs, one by one.“), keine Seitenansicht links."
+    ],
+    "f": "die ersten 50 Jeans einen grünen oder roten Punkt haben und jeder rote im Blatt „QC“ mit Foto steht.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "Teil „Wareneingang“, Fehlerklassen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „QC“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T22 posten: Münztasche E, Lineal daneben",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T22“ (vorproduziert 18./20.03.) in TikTok hochladen. Hast du heute den Prüf-Clip gedreht, darf er das Asset ersetzen (T−22-Vorlage, Text „Checking 100 pairs, one by one.“).",
+     "18:00 posten, danach Reel und Short.",
+     "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker.",
+     "15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "CD-T22 auf TikTok, als Reel, Short und Story online ist.",
+    "v": {
+     "id": "CD-T22",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "22 days. The smallest pocket, fully stitched.",
+     "hook_de": "22 Tage. Die kleinste Tasche, voll bestickt.",
+     "shots": ["Makro Münztasche E", "Lineal 60 mm daneben"],
+     "ort": "Makros zu Hause, gedreht am Do 18.03. und Sa 20.03.",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−22“, „60 × 60 mm“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−22. 60 × 60 mm, 45 × 45 stitches. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #crossstitch #berlinfashion",
+     "check": "Nur Makro, kein Serp und keine Ähren im Bild, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2027-04-01": [
+   {
+    "c": "B",
+    "t": "10:00 · Prüfung Teil 2: Sichtprüfung der zweiten 50",
+    "m": 100,
+    "s": [
+     "Gleicher Aufbau wie gestern: Prüfplan „Wareneingang“, Klebepunkte, Tageslicht, Helfer schreibt mit.",
+     "Gleiche Punkte für jede Jeans: A, E, B2 mit drei Ähren und 9 Goldfäden, Achtstern C, Patch D, Serp B, Nähte, Knopf, Reißverschluss, Saum, Flecken, Größenlabel.",
+     "Rote Punkte mit Foto und Fehlerklasse ins Blatt „QC“.",
+     "Am Ende im Blatt „QC“: Zahl grün, Zahl rot, je Größe.",
+     "Helferzeit beider Tage ins Blatt „Kasse“."
+    ],
+    "f": "alle Jeans einen grünen oder roten Punkt haben und die Summen grün und rot je Größe im Blatt „QC“ stehen.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "Teil „Wareneingang“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „QC“ und „Kasse“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T21 posten: linke Gesäßtasche, drei Ähren, Goldfäden",
+    "m": 10,
+    "s": [
+     "Vor dem Hochladen prüfen: Ist im Asset irgendwo der Serp zu sehen? Dann nicht posten, sondern CD-T21 enger schneiden. Kein Aprilscherz, kein Witz zum Datum.",
+     "17:55 TikTok hochladen, 18:00 posten, danach Reel und Short.",
+     "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker.",
+     "15 Min. Kommentare. „Sowjet“, „Wappen“, „Holodomor“: danken, im Blatt „Content“ zählen (G7), nie löschen."
+    ],
+    "f": "CD-T21 ohne Serp im Bild auf TikTok, als Reel, Short und Story online ist.",
+    "v": {
+     "id": "CD-T21",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "21 days. Three ears, nine threads.",
+     "hook_de": "21 Tage. Drei Ähren, neun Fäden.",
+     "shots": ["Makro linke Gesäßtasche: drei Ähren, rotes Band", "Goldfäden hängen still"],
+     "ort": "Makros zu Hause, gedreht am Do 18.03. und Sa 20.03.",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−21“, „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−21. The harvest sits on the left. Three ears, nine gold threads. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
+     "check": "Kein Serp im Bild, B und B2 nie zusammen, nie „fünf Ähren“, kein roter Hintergrund."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2027-04-02": [
+   {
+    "c": "B",
+    "t": "10:00 · Prüfung Teil 3: Maße, 15 % Stichprobe, Grundton bei Tageslicht",
+    "m": 60,
+    "s": [
+     "15 Jeans ziehen (15 % von 100), gleichmäßig über alle Größen, nur grüne. Alle 10 Messpunkte laut Prüfplan messen, Werte ins Blatt „QC“, Toleranz daneben.",
+     "Je Stichprobe zusätzlich: Schnittkante am Saum sauber und gerade, Goldfäden fest (leicht ziehen), Patch D sitzt gerade und an der Stelle aus der Spec.",
+     "Grundton: am Fenster bei Tageslicht jede Stichprobe neben den Stofflappen vom 18.11. legen, mit Graukarte fotografieren. Sichtbar anders: als Hauptfehler eintragen.",
+     "Liegt eine ganze Größe außerhalb der Toleranz: sofort Claude schreiben (Prompt unten), bevor du einsortierst.",
+     "Ergebnis oben ins Blatt „QC“: „X von 100 geprüft und bestanden“. Diese echte Zahl darf am So in den Countdown."
+    ],
+    "f": "15 Messprotokolle mit Saum, Goldfäden, Patch-Sitz und Grundton im Blatt „QC“ stehen und die Zahl „X von 100 bestanden“ oben steht.",
+    "p": "Projekt Time Travel, Docket W29, Fr 02.04. Wareneingang: Hier meine 15 Messprotokolle (Größe, 10 Messpunkte, Soll laut Spec Rev. 14, Toleranz): [Tabelle einfügen]. Grundton gegen den Stofflappen vom 18.11.: [gleich / heller / dunkler, Fotos]. Sag mir je Größe: in Toleranz oder nicht, ob die Abweichung ein Hauptfehler oder kritisch nach meinem Prüfplan ist, und ob ich eine Größe zurückhalten oder mit einem Hinweis in der Größentabelle verkaufen kann.",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "10 Messpunkte, Toleranzen, Fehlerklassen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „QC“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "11:00 · Fehler sortieren und reklamieren, Fehlerteile nicht verkaufen",
+    "m": 30,
+    "s": [
+     "Alle roten Punkte nach Fehlerklasse sortieren: kritisch, Hauptfehler, Nebenfehler (Prüfplan).",
+     "Hauptfehler wie lose Fäden oder ein fehlender Goldfaden: selbst nacharbeiten, wenn es unter 5 Minuten dauert, dann grüner Punkt.",
+     "Alle übrigen roten Teile in die Kiste „B-Ware“. Sie werden nicht im Drop und nicht als Vorbestellung verschickt.",
+     "Kritische Fehler: Reklamation mit Fotos und Liste per Mail an die Fabrik (Prompt unten), Gutschrift oder Ersatz fordern. Frist 14 Tage ab Ankunft, also bis Di 13.04.",
+     "Datum der Reklamation und Forderung ins Blatt „QC“."
+    ],
+    "f": "jedes rote Teil nachgearbeitet oder in „B-Ware“ liegt und die Reklamation raus ist (oder im Blatt „QC“ „nichts zu reklamieren“ steht).",
+    "p": "Projekt Time Travel, Docket W29, Fr 02.04. Hier ist meine Fehlerliste aus der Wareneingangsprüfung (Karton, Größe, Fehler, Fehlerklasse, Foto-Nummer): [Liste einfügen]. Ankunft der Ware: Di 30.03. Schreib mir die Reklamation auf Englisch an meine Fabrik [Name]: sachlich, mit Foto-Nummern, Fehlerklasse nach unserem schriftlich vereinbarten Prüfplan und der Forderung (Gutschrift oder Ersatz je kritischem Teil), mit Bezug auf die vereinbarte Frist von 14 Tagen ab Ankunft. Bitte um Bestätigung bis [Datum].",
+    "o": [
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "Fehlerklassen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „QC“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T20 posten: Goldfäden in Bewegung",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T20“ (vorproduziert 18./20.03.) in TikTok hochladen, 18:00 posten, danach Reel und Short.",
+     "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker.",
+     "15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "CD-T20 auf TikTok, als Reel, Short und Story online ist.",
+    "v": {
+     "id": "CD-T20",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "20 days. The only part that moves.",
+     "hook_de": "20 Tage. Das Einzige, was sich bewegt.",
+     "shots": ["Goldfäden schwingen (Fön kleinste Stufe oder Gehen), Gegenlicht"],
+     "ort": "Makros zu Hause, gedreht am Do 18.03. und Sa 20.03.",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−20“, „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−20. Set by hand after the wash. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #goldthread #berlinfashion",
+     "check": "Kein Serp im Bild, kein hellblauer Himmel im Gegenlicht, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2027-04-03": [
+   {
+    "c": "A",
+    "t": "11:00 · Bestand einsortieren und im Shop setzen",
+    "m": 45,
+    "s": [
+     "Nur Jeans mit grünem Punkt ins Regal, sortiert nach Größe. Rote Teile bleiben in der Kiste „B-Ware“.",
+     "Blatt „Bestand“: je Größe geprüfte Jeans, davon reserviert für Vorbestellungen (Größen aus Shopify → Bestellungen), 5 Creator-Paare, 2 Reserve. Rest = vorläufiger Drop-Bestand.",
+     "Fehlt für eine Vorbestellung die Größe: heute sehen, nicht erst beim Packen. Der Person am Mo eine DM mit Optionen (andere Größe oder volle Erstattung).",
+     "Shopify-Admin → Produkte → Drop-Produkt (noch Entwurf, zeitgesteuert) → Varianten: Bestand je Größe eintragen. „Weiterverkaufen, wenn nicht vorrätig“ bleibt AUS.",
+     "Stufe 2 läuft bis morgen 20:00: deren Bestand nicht anfassen. Die Endzahl rechnest du morgen nach dem Schließen."
+    ],
+    "f": "das Regal, das Blatt „Bestand“ und der Shopify-Bestand des Drop-Produkts je Größe übereinstimmen.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte, Bestellungen", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Bestand“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T19 posten: Achtstern, Kamera kommt näher",
+    "m": 10,
+    "s": [
+     "Vor dem Hochladen: Steht im Asset „Alatyr“? Dann in CapCut durch „Achtstern“ / „eight-point star“ ersetzen. Den Satz „stands for the sun“ nur, wenn die Belegtabelle v1.0 ihn trägt, sonst weglassen.",
+     "17:55 TikTok hochladen, 18:00 posten, danach Reel und Short.",
+     "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker. Letzte Erinnerung in der Story: „Stufe 2 endet morgen 20:00.“",
+     "15 Min. Kommentare beantworten."
+    ],
+    "f": "CD-T19 auf TikTok, als Reel, Short und Story online ist, ohne „Alatyr“.",
+    "v": {
+     "id": "CD-T19",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "19 days. One star, 27 by 27 stitches.",
+     "hook_de": "19 Tage. Ein Stern, 27 mal 27 Stiche.",
+     "shots": ["Kamera fährt langsam an die rechte Gesäßtasche, Achtstern C"],
+     "ort": "Material vom Shoot Sa 20.02.2027 und Makros zu Hause (18./20.03.)",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−19“, Story-Zusatz „Pre-order ends tomorrow, 20:00“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−19. The eight-point star, 27 by 27 stitches. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #crossstitch #berlinfashion",
+     "check": "Nicht „Alatyr“, Bedeutung nur mit Beleg, nur rechte Gesäßtasche (kein B2 im Bild)."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "nur falls Text getauscht werden muss"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2027-04-04": [
+   {
+    "c": "A",
+    "t": "10:00 · Monatsabschluss März",
+    "m": 15,
+    "s": [
+     "Warteliste bestätigt (Shopify → Kunden → Segment „E-Mail-Abonnenten“) gegen den Korridor 2.400–3.000.",
+     "Ausgaben März gegen Plan im Blatt „Kasse“: Restzahlung, Steuer, Fracht, Werbung, Helfer. Jede Ausgabe mit Beleg im Blatt „Ausgaben“.",
+     "Vorbestellungen März: bezahlt, ausgezahlt (Shopify → Finanzen → Auszahlungen).",
+     "Drei Zahlen in den Monatsabschluss im Blatt „Gates“."
+    ],
+    "f": "Warteliste gegen Korridor, Ausgaben gegen Plan und Vorbestellungen März im Blatt „Gates“ stehen.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden, Finanzen", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Kasse“, „Ausgaben“, „Gates“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:15 · Wochenreview W29 + Cockpit + Zeile an Claude",
+    "m": 20,
+    "s": [
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, src- und ref-Tags zählen. Views und Anmeldungen je 1.000 Views der Countdown-Posts ins Blatt „Content“.",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans.",
+     "Kassencheck K − F − R nach Restzahlung, Fracht und Steuer: grün ≥ 300 € · gelb 0–300 € → keine Ausgaben außerhalb Plan 3 · rot → Ausgaben-Stopp-Liste, Notfall-Leiter (G12).",
+     "G1: Liste unter Alarm 1.170 → Netz-Runde bis Mi, „Bring 3“-Story · G2: unter Soll 2.720 → bestes Video in 2 Varianten · G3: < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G4: Anmeldequote < 6,6 % zwei Sonntage → echtes Foto oben, nur E-Mail Pflicht.",
+     "G5–G9: Varianten bei ≥ 2 × Median, schwacher Slot ersetzen, „Sowjet/Wappen/Holodomor“ (≥ 3 → 2 Wochen kein Ernte- oder Serp-Bild, CD-Assets tauschen) und Folklore-Kommentare zählen, > 70 % warm → 3 neue Hooks.",
+     "G10/G11: Vorbestellungen unter Alarm → DM an jede Zusage ohne Kauf · Conversion < 1,3 % bei ≥ 300 Sitzungen → FAQ und Größenblock.",
+     "Offenes aus W29 und die Zeile an Claude (Prompt unten)."
+    ],
+    "f": "die vier Cockpit-Zahlen stehen, G1–G12 geprüft sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W29, So 04.04. W29: Liste [X] (+[Y]), Views [Z], bestes Video CD-T[..], schwächstes CD-T[..], Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Ware geprüft: [X] von 100 bestanden, B-Ware [N], Reklamation [raus/keine]. Steuer [bezahlt/offen, €]. Vorbestellungen 149 € [N] + Stufe 2 [N], Drop-Bestand [N]. Monatsabschluss März: [..]. Offen aus W29: [..]. Sag mir, welches Gate greift und was in W30 nach vorn muss.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Zahlen-Cockpit, „Content“, „Kasse“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "10:35 · Gate: Ware geprüft · Steuer bezahlt · ≥ 40 · Liste ≥ 2.720",
+    "m": 10,
+    "s": [
+     "Ware geprüft? Blatt „QC“: alle 100 mit Punkt, Maße und Reklamation erledigt. Nein → heute die offenen Teile prüfen, bevor am Di gepackt wird.",
+     "Steuer bezahlt? Beleg der Einfuhrumsatzsteuer (Spediteur oder Zoll) liegt vor. Nein und Kasse deckt sie nicht → Brücke abrufen (Notfall-Leiter Stufe 7), heute anrufen.",
+     "Nur wenn ~1.150 € Steuer fällig waren: Vorbestellungen ≥ 40 (35 + Stufe 2)? Nein → Lücke in Euro ausrechnen, Brücke abrufen.",
+     "Liste ≥ 2.720 (Alarm 1.170)? Unter Alarm → G1 (Netz-Runde, „Bring 3“, Abend festmachen, Claude die 3 schwächsten Videos zeigen). Unter Soll → G2.",
+     "Ergebnis und Maßnahme ins Blatt „Gates“."
+    ],
+    "f": "die vier Gate-Zahlen und die Entscheidung „weiter“ oder „Brücke“ im Blatt „Gates“ stehen.",
+    "o": [
+     {"n": "Shopify-Admin · Bestellungen", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Gates“, „QC“, „Kasse“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T18 posten: Lebensbaum-Patch (oder echtes Prüfergebnis)",
+    "m": 10,
+    "s": [
+     "Wenn die Zahl im Blatt „QC“ steht: echter Clip ersetzt das Asset (T−18-Vorlage, 6–10 s): Stapel geprüfter Jeans, Maßband, Text „X of 100 checked and passed.“ Nur die echte Zahl. Sonst Asset „CD-T18“.",
+     "17:55 TikTok hochladen, 18:00 posten, danach Reel und Short.",
+     "Story mit Countdown-Sticker (22.04., 19:00), Link-Sticker und dem Satz „Pre-order ends tonight, 20:00.“",
+     "15 Min. Kommentare beantworten."
+    ],
+    "f": "CD-T18 auf TikTok, als Reel, Short und Story online ist.",
+    "v": {
+     "id": "CD-T18",
+     "slot": "COUNTDOWN",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "18 days. A tree where the label usually is.",
+     "hook_de": "18 Tage. Ein Baum, wo sonst das Label sitzt.",
+     "shots": ["Zoom auf Knoten und Wurzeln des Lebensbaum-Patches", "Ersatz: Stapel geprüfter Jeans, Maßband, echte Zahl"],
+     "ort": "Makros zu Hause (18./20.03.) oder Packtisch heute",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−18“, Story: „Pre-order ends tonight, 20:00“",
+     "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
+     "caption": "T−18. Tree of life, natural linen, 86 × 76 mm. Pre-order ends tonight, 20:00. Drop 22.04., 19:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #treeoflife #berlinfashion",
+     "check": "Nie „Slavic tree of life“, nur echte Prüfzahl, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "20:00 · Stufe 2 schließen, Drop-Bestand rechnen, Packliste",
+    "m": 15,
+    "s": [
+     "20:00 Shopify-Admin → Produkte → Stufe-2-Produkt → Status „Entwurf“ (bzw. Vorbestellung beenden). Nicht verlängern.",
+     "Drop-Bestand rechnen: 93 − 35 − Stufe-2-Verkäufe (bei 75 Stück: 68 − 35 − Stufe 2). Gegen das Regal halten (nur grüne Punkte). Weniger grüne als gerechnet: Drop-Bestand kleiner setzen, nie mehr verkaufen als im Regal liegt.",
+     "Shopify-Admin → Onlineshop → Themes → Anpassen → Theme-Einstellungen: tt_start_drop auf den Drop-Bestand setzen. Drop-Produkt: Bestand je Größe angleichen.",
+     "Packliste im Blatt „Bestand“: alle Vorbestellungen (149 € und Stufe 2 zusammen) nach Bestelldatum, ab 001 ohne Lücke, dazu Größe und Bestellnummer. Danach 5 Creator-Nummern, dann 2 Reserve.",
+     "Bio-Text, angehefteten Kommentar und Anzeigentext auf den CTA ab 05.04. umstellen: „Drop 22.04., 19:00. The list gets in at 18:00. Link in bio.“"
+    ],
+    "f": "Stufe 2 geschlossen ist, tt_start_drop gesetzt ist und die Packliste mit lückenlosen Nummern ab 001 im Blatt „Bestand“ steht.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte, Onlineshop → Themes", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Bestand“"},
+     {"n": "Meta Business Suite · Werbeanzeigenmanager", "h": "Anzeigentext auf den neuen CTA"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Grind+ · „Das Feld wächst“ Dreh 2 (vor Sonnenuntergang)",
+    "m": 90,
+    "plus": true,
+    "s": [
+     "Dasselbe Feld, dieselbe Stelle wie Dreh 1 am 28.03. Nur mit Erlaubnis des Landwirts. Stativ an die markierte Stelle, gleiche Höhe, gleicher Bildausschnitt.",
+     "Kamera 9:16, je Shot 3 Takes: Totale des Feldes (gleicher Ausschnitt wie Dreh 1), Makro der Halme, Hand streicht über die Halme.",
+     "Sonnenuntergang, Himmel warm. Nie hellblauer Himmel über Weizen. Keine Sichel, kein rotes Tuch, kein fertiges Teil neben Ähren und Serp.",
+     "Material in „Feld/roh/Dreh2“ ablegen, Datum in den Dateinamen. Geschnitten wird nach Dreh 3."
+    ],
+    "f": "Totale, Makro und Handshot vom gleichen Standort in „Feld/roh/Dreh2“ liegen.",
+    "v": {
+     "id": "Feld-Dreh 2",
+     "slot": "ORIGIN",
+     "dauer": "Rohmaterial, später 15–20 s",
+     "plattform": "später TikTok + Reels + Shorts",
+     "hook_en": "Same field, one week later.",
+     "hook_de": "Dasselbe Feld, eine Woche später.",
+     "shots": ["Totale vom markierten Standort", "Makro Halme", "Hand streicht über die Halme"],
+     "ort": "Feld von Dreh 1, nur mit Erlaubnis des Landwirts",
+     "ton": "O-Ton (Wind), keine Musik einbacken",
+     "text": "später: Datum je Dreh",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio.",
+     "caption": "Same field, one week later. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #denim #field #berlinfashion",
+     "check": "Nie hellblauer Himmel über Weizen, keine Sichel, kein Ernte-Bild in einer Woche mit G7."
+    },
+    "o": [
+     {"n": "Feld von Dreh 1", "h": "Standort aus Dreh 1, nur mit Erlaubnis des Landwirts"}
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,645 @@
+{
+ "n": 31,
+ "phase": "P5",
+ "goal": "Letzte Woche vor dem Drop: alles terminieren, alles testen, Freitag Code-Freeze, Bestand und Shop stimmen aufs Stück",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "2.920 bestätigt (Alarm 1.400) · Grind+-Ziel 3.300"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~8.760 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "7 Kern (CD-T10 bis CD-T04, Fr V125)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Feste Termine", "ziel": "Do 15.04. spätester Ankunftstermin und E-Mail T−7 · Sa 17.04. CODE-FREEZE"}
+ ],
+ "days": {
+  "2027-04-12": [
+   {
+    "c": "A",
+    "t": "09:00 · Bestand ein letztes Mal zählen: Regal gegen Shop",
+    "m": 30,
+    "s": [
+     "Blatt „Bestand“ ausdrucken oder am Laptop offen. Daneben Shopify → Produkte → Jeans „Time Travel“ → Varianten mit „Verfügbar“ je Größe.",
+     "Regal pro Größe zählen, jede Nummer einzeln abhaken. Vorbestellungen sind verschickt (Gate W30), also zählt nur, was physisch im Regal liegt.",
+     "Je Größe drei Zahlen nebeneinander: Regal · Shopify verfügbar · Blatt „Bestand“. Alle drei müssen gleich sein.",
+     "Abweichung? Erst klären, dann weiter: Retoure noch nicht eingebucht, Creator-Paar falsch abgezogen, B-Ware im Regal. B-Ware und PP-Sample liegen getrennt und stehen nicht im Shop.",
+     "Shopify-Wert nur nach unten korrigieren, wenn das Regal weniger hat. Nie hochsetzen ohne Teil in der Hand. Überverkauf in der Drop-Stunde ist der teuerste Fehler.",
+     "Zipper und Polo nur prüfen: Sie werden auf Bestellung gefertigt. Bestand so, wie am Fr 05.03. entschieden, Lieferzeit „Versand innerhalb von 3 Wochen“ steht auf der Seite.",
+     "Endzahl je Größe ins Blatt „Bestand“, Datum 12.04. dazu."
+    ],
+    "f": "Regal, Shopify und Blatt „Bestand“ zeigen je Größe dieselbe Zahl und das Datum 12.04. steht im Blatt.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte", "u": "https://admin.shopify.com", "h": "Jeans „Time Travel“ → Varianten, Spalte „Verfügbar“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Bestand“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:00 · Retouren bearbeiten: prüfen, erstatten, einbuchen, Grund eintragen",
+    "m": 20,
+    "s": [
+     "Shopify → Bestellungen → Filter „Rücksendestatus“: alle offenen Rücksendungen aus den Vorbestellungen öffnen.",
+     "Eingegangenes Paar prüfen bei Tageslicht: Fäden ganz, keine Flecken, Hangtag dran, Nummer stimmt mit der Bestellung. Zwei Fotos ins Blatt „Retouren“.",
+     "In Ordnung: in der Bestellung „Erstatten“ klicken und den Betrag erstatten. Frist: innerhalb von 14 Tagen nach Eingang des Widerrufs. Datum des Widerrufs in der Bestellung nachsehen.",
+     "Beim Erstatten „Artikel wieder auf Lager“ anhaken, damit die Größe wieder verkaufbar ist. Danach den Shopify-Bestand gegen das Regal von heute früh prüfen.",
+     "Die Nummer bleibt am Paar und wird neu verkauft. Im Blatt „Bestand“: Nummer frei, alte Bestellnummer durchgestrichen, Grund daneben.",
+     "Grund ins Blatt „Retouren“: zu klein, zu groß, gefällt nicht, Mangel. Bei Mangel: B-Ware, nicht zurück in den Shop.",
+     "Keine offene Retoure? Abhaken und nur prüfen, ob eine Widerrufs-Mail im Postfach liegt."
+    ],
+    "f": "keine Rücksendung älter als 14 Tage offen ist, jede eingegangene Nummer im Shop wieder verfügbar ist und jeder Grund im Blatt „Retouren“ steht.",
+    "o": [
+     {"n": "Shopify-Admin · Bestellungen", "u": "https://admin.shopify.com", "h": "Rücksendungen, „Erstatten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Retouren“ und „Bestand“"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "10:30 · Zipper und Polo vorbereiten: Blanks, Konto, Sticker, Preise",
+    "m": 20,
+    "s": [
+     "Großhändler der Navy-Blanks öffnen (der aus Woche 6, Link im Blatt „Sticker“ bzw. deinen Notizen). Lagerbestand der Navy-Blanks für Zipper und Polo in allen Größen notieren: XS bis XXL, was es gibt.",
+     "Kundenkonto beim Großhändler prüfen: Login klappt, Lieferadresse (deine oder direkt zum Sticker), Zahlungsart hinterlegt. Am So 25.04. bestellst du ohne Wartezeit.",
+     "Preis je Blank bei 10 und bei 50 Stück notieren (Staffelpreise auf der Produktseite, sonst kurz per Mail anfragen). Keine Zahl schätzen.",
+     "Mail an deinen Sticker (Text unten im Prompt holen): Kapazität für 26.04.–14.05. schriftlich bestätigen, Durchlaufzeit je 10 Stück, Abgabetag für die erste Charge.",
+     "Alles ins Blatt „Kasse“, Abschnitt Zipper/Polo: Bestand je Größe, Preis 10/50, Sticker-Zusage ja/offen.",
+     "Fehlt eine Größe beim Großhändler: heute noch einen zweiten Händler mit gleichem Blank suchen und notieren, nicht bestellen."
+    ],
+    "f": "Bestand je Größe und die Preise bei 10 und 50 Stück im Blatt stehen, das Kundenkonto funktioniert und die Mail an den Sticker raus ist.",
+    "p": "Projekt Time Travel, Docket W31, Mo 12.04. Schreib mir eine kurze Mail auf Deutsch an meinen Berliner Sticker [Name]. Ich brauche schriftlich: Kapazität vom 26.04. bis 14.05.2027 für Zipper und Polo in Navy mit meiner Stickdatei [Dateiname], Menge geschätzt [10–50] Stück, Lieferung der Blanks durch mich oder direkt vom Großhändler, Durchlaufzeit je 10 Stück, Preis je Stück bei 10 und bei 50, und ab wann ich die erste Charge abgeben kann. Meine Kunden lesen „Versand innerhalb von 3 Wochen“. Höflich, 8 Zeilen, keine Floskeln.",
+    "o": [
+     {"n": "Großhändler der Navy-Blanks (aus Woche 6)", "h": "Link aus deinen Notizen, Staffelpreise selbst ablesen"},
+     {"n": "Dein Berliner Sticker", "h": "Kontakt aus dem Blatt „Sticker“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T10 posten: Teppich-Foto, harter Schnitt aufs Medaillon",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T10“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, oder O-Ton. Caption unten einfügen.",
+     "Vorher einmal ansehen: Der Teppich erscheint nur als Familienerinnerung. Keine Sowjet-Deko, kein Wandschmuck, keine Fahne im Bild. Keine Länderzuordnung im Text.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story: Countdown-Sticker „Drop“ auf 22.04., 19:00 und Link-Sticker zur Startseite. Wer „Erinnern“ tippt, bekommt um 19:00 eine Nachricht von Instagram.",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Herkunftsfrage: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“"
+    ],
+    "f": "CD-T10 auf TikTok, als Reel, als Short und als Story mit Countdown- und Link-Sticker online ist.",
+    "v": {
+     "id": "CD-T10",
+     "slot": "COUNTDOWN",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "10 days. From the wall to the zipper.",
+     "hook_de": "10 Tage. Von der Wand auf den Zipper.",
+     "shots": ["Teppich-Foto aus der Familie, 1 s", "Harter Schnitt auf das Medaillon auf dem Zipper (Makro vom 18./20.03.)", "Endframe „T−10 · 22.04. · 19:00“"],
+     "ort": "Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht 18. und 20.03.) + Familienfoto vom Teppich",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library, nie in CapCut eingebacken",
+     "text": "„T−10“ groß, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−10. The carpet, remembered. Its medallion now sits on the zipper. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
+     "check": "Teppich nur als Familienerinnerung, keine Sowjet-Deko, keine Länder, nie „authentisch“, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-04-13": [
+   {
+    "c": "A",
+    "t": "09:00 · Veröffentlichung auf Do 22.04., 18:00 terminieren",
+    "m": 30,
+    "s": [
+     "Shopify → Einstellungen → Allgemein: Zeitzone „(GMT+01:00) Berlin“ prüfen. Am 22.04. gilt Sommerzeit, 18:00 MESZ.",
+     "Shopify → Produkte → Jeans „Time Travel“: Status „Aktiv“. Rechts unter „Veröffentlichung“ beim Onlineshop auf das Kalender-Symbol: 22.04.2027, 18:00. Hilfe im Shopify Help Center unter „Future publishing“ / „Veröffentlichung planen“.",
+     "Dasselbe für Zipper und Polo. Preise ein letztes Mal lesen: Jeans 169 €, Zipper 139 €, Polo 79 €.",
+     "Shopify → Produkte → Kollektionen → „Time Travel“: ebenfalls Onlineshop auf 22.04.2027, 18:00.",
+     "Kontrolle im privaten Browserfenster: Produkt-URL und Kollektions-URL zeigen heute „Seite nicht gefunden“.",
+     "Klappt das Terminieren nicht (Kalender-Symbol fehlt): Produkte bleiben „Entwurf“. Kalender-Erinnerung Do 22.04., 17:55: alle drei und die Kollektion von Hand auf „Aktiv“ und Onlineshop. Das steht dann auch im Drop-Ablauf.",
+     "Ins Blatt „Website“: terminiert ja/nein, Uhrzeit, Kontrolle 13.04."
+    ],
+    "f": "alle drei Produkte und die Kollektion auf 22.04., 18:00 geplant und heute im privaten Fenster unsichtbar sind, oder die 17:55-Erinnerung für das Freischalten von Hand steht.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte und Kollektionen", "u": "https://admin.shopify.com", "h": "Veröffentlichung → Onlineshop → Kalender-Symbol"},
+     {"n": "Shopify Help Center", "u": "https://help.shopify.com", "h": "Suche „Future publishing“, Pfad vor Ort prüfen"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "12:30 · 10 Min. Community: fünf Kommentare mit Inhalt in der Nische",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: fünf Videos aus deiner Nische (bestickte Denim, Berlin, Build in Public) öffnen.",
+     "Je ein Kommentar mit Inhalt, kein „nice“. Kein Eigenlink, keine Werbung für den Drop.",
+     "DM-Anfragen von gestern beantworten, offene Größenfragen ins Blatt „Netz“."
+    ],
+    "f": "fünf Kommentare mit Inhalt geschrieben und alle DMs von gestern beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T09 posten: Innenseite der Stickerei, Hose auf links",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T09“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, oder O-Ton. Caption unten einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story: Countdown-Sticker „Drop“ auf 22.04., 19:00 und Link-Sticker zur Startseite.",
+     "Angehefteten Kommentar setzen: „Machine-embroidered on the cut panel, threads finished by hand.“",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "CD-T09 auf TikTok, als Reel, als Short und als Story mit Countdown- und Link-Sticker online ist.",
+    "v": {
+     "id": "CD-T09",
+     "slot": "COUNTDOWN",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "9 days. Turn it inside out.",
+     "hook_de": "9 Tage. Dreh sie auf links.",
+     "shots": ["Hose auf links, Makro auf die Rückseite der Stickerei", "Endframe „T−9 · 22.04. · 19:00“"],
+     "ort": "Makros zu Hause (gedreht 18. und 20.03.), Graukarte im ersten Frame für Farbtreue",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−9“ groß, „Clean on both sides.“, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−9. Clean on both sides. Machine-embroidered on the cut panel, threads finished by hand. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #countdown #berlinfashion",
+     "check": "Wortliste („maschinengestickt auf dem Zuschnitt, Fäden von Hand“), kein roter Hintergrund, keine Seitenansicht links, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-04-14": [
+   {
+    "c": "A",
+    "t": "09:00 · Packstation für den Drop fertig machen",
+    "m": 30,
+    "s": [
+     "Bestand von Montag nehmen: so viele Pakete vorbereiten, wie Jeans im Regal sind, plus 10 % Reserve für Zipper und Polo später.",
+     "Material abzählen, je Paket ein Satz: Karton, Seidenpapier, Hangtag, Karte, Klebeband. Materialliste und Gewicht je Paket aus dem Blatt „Kasse“ (Probepaket) nehmen.",
+     "Kartons vorfalten und stapeln. Karten mit dem Danke-Text vorschreiben, Name und Nummer kommen beim Packen dazu.",
+     "Drucker für Versandlabel testen: ein Testblatt. Etiketten- oder Papiervorrat für alle Pakete.",
+     "Packtisch so stellen, dass er am Do 21:00 (V107) aufs Stativ passt: keine Kundennamen, keine Adressen, keine Label im Bild.",
+     "Zettel an die Wand: Reihenfolge für die Helfer (Zahlung prüfen · Adresse prüfen · Hangtag · Karte · Seidenpapier · Karton · Label · als versendet markieren)."
+    ],
+    "f": "für jede Jeans im Regal ein vollständiger Materialsatz und ein gefalteter Karton bereitliegen und der Label-Drucker druckt.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“, Materialliste je Paket"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:00 · Drop-Startseite vorbereiten: Hero ohne Serp, keine Ernte-Hooks",
+    "m": 45,
+    "s": [
+     "Die Seite „TT Story“ schaltet am 22.04. selbst auf die Drop-Stufe um (website.md 3.3). Heute prüfst du nur, was sie dann zeigt.",
+     "Vorschau der Drop-Stufe öffnen (mit dem ?t-Parameter wie bei Stufe 4 geübt). Hero-Bild ansehen: kein Serp im Bild, keine Ähren-Tasche groß, kein roter Hintergrund, B und B2 nicht im selben Bild. Am 22.04. gilt die Teilsperre.",
+     "Alle Texte der Drop-Stufe lesen: keine Ernte-Hooks („harvest“, „field after the harvest“), kein Streichpreis, Preise 169 / 139 / 79 €. Liefertext überall gleich, wie am 14.12. festgelegt.",
+     "Ist der Hero falsch: Bild tauschen gegen eine Frontaufnahme oder das Band-Makro aus dem Shoot. Mit dem Prompt unten Claude Code die Einstellung ändern lassen, Push erst nach deinem „ja“.",
+     "PLAN B (Shopify → Onlineshop → Themes) genauso prüfen: gleiches Hero-Bild ohne Serp, Kollektion „Time Travel“ verlinkt, Link zur Größenseite.",
+     "Am Handy aus Instagram heraus testen (Link-Sticker in einer privaten Test-Story oder DM an dich selbst): lädt die Vorschau, wirkt das Hero-Bild?",
+     "Ins Blatt „Website“: Hero geprüft 14.04., Datei, PLAN B gleich."
+    ],
+    "f": "Drop-Stufe von „TT Story“ und PLAN B ein Hero-Bild ohne Serp und keine Ernte-Texte zeigen und beides im Blatt „Website“ steht.",
+    "p": "Projekt Time Travel, Docket W31, Mi 14.04. Prüfe im Theme „TT Story“ mit shopify theme pull --only config/settings_data.json, welches Bild und welche Texte die Drop-Stufe ab 22.04., 18:00 zeigt. Am 22.04. gilt: kein Serp im Hero-Bild, keine Ernte-Hooks, kein roter Hintergrund, B und B2 nicht im selben Bild. Zeig mir jede Stelle, die dagegen verstößt, und schlag den Tausch gegen [Dateiname Frontaufnahme] vor. Ändere nichts und pushe erst nach meinem „ja“.",
+    "o": [
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "„TT Story“ und „PLAN B“"},
+     {"n": "Claude Code · Ordner der Website", "h": "Theme-Einstellungen nur nach deinem „ja“ pushen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Website“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T08 posten: Gehen, Rückansicht",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T08“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, oder O-Ton.",
+     "Vorher prüfen: Serp nicht im Bild, keine Seitenansicht links. Die Caption aus der Bibliothek („Left: harvest.“) nicht verwenden, unten steht die neue.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story: Countdown-Sticker „Drop“ auf 22.04., 19:00 und Link-Sticker zur Startseite.",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "CD-T08 auf TikTok, als Reel, als Short und als Story mit Countdown- und Link-Sticker online ist.",
+    "v": {
+     "id": "CD-T08",
+     "slot": "COUNTDOWN",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "8 days. Watch the back.",
+     "hook_de": "8 Tage. Schau auf die Rückseite.",
+     "shots": ["Gehen, Rückansicht aus dem Shoot, Fäden schwingen mit", "Endframe „T−8 · 22.04. · 19:00“"],
+     "ort": "Material vom Shoot Sa 20.02.2027, geschnitten 18. und 20.03.",
+     "ton": "O-Ton (Schritte) oder leise Musik aus der Commercial Music Library",
+     "text": "„T−8“ groß, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−8. Watch the back. The threads move when you walk. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
+     "check": "Serp nicht im Bild, keine Seitenansicht links, keine Flaggen- oder Streifenfarben im Hintergrund, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-04-15": [
+   {
+    "c": "D",
+    "t": "09:00 · Gate spätester Ankunftstermin: Ware war da?",
+    "m": 10,
+    "s": [
+     "Prüfen: Ist die Ware angekommen und geprüft (Warenannahme 30.03.–02.04., Vorbestellungen am 06.–07.04. verschickt)? Ja → Gate grün, Drop 22.04. bleibt. Ins Blatt „Gates“.",
+     "Nein: heute entscheiden zwischen Drop Do 29.04. (B-Zeitachse 2) und „Versand ab Ankunft“, offen angekündigt. Mit dem Prompt unten rechnen lassen.",
+     "Bei Drop 29.04.: Veröffentlichung von gestern auf 29.04., 18:00 umstellen, E-Mail T−7 heute nicht senden, sondern durch eine kurze Mail „Neuer Termin 29.04.“ ersetzen, Countdown-Posts pausieren.",
+     "Bei „Versand ab Ankunft“: den Satz auf Produktseite, in der Mail T−7 und im angehefteten Kommentar ergänzen. Kein Datum versprechen, das du nicht schriftlich von der Fabrik hast.",
+     "Kommt die Ware erst nach So 25.04.: Mail an alle Vorbesteller mit dem neuen Datum und dem Angebot voller Erstattung. Text von Claude, du sendest selbst."
+    ],
+    "f": "im Blatt „Gates“ steht: Ware da (grün) oder die Entscheidung Drop 29.04. / „Versand ab Ankunft“ mit Mail an die Vorbesteller.",
+    "p": "Projekt Time Travel, Docket W31, Do 15.04., Gate spätester Ankunftstermin. Stand: Ware [da / unterwegs, Tracking zeigt Ankunft am ..]. Vorbesteller: [N]. Liste: [X]. Rechne mir beide Wege: Drop Do 29.04. (B-Zeitachse 2) gegen Drop 22.04. mit „Versand ab Ankunft“. Was ändert sich an Mails, Countdown, Veröffentlichung und Helfern? Schreib mir die passende Mail an die Liste. Falls die Ware erst nach So 25.04. kommt: zusätzlich die Mail an alle Vorbesteller mit neuem Datum und dem Angebot voller Erstattung.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "09:15 · E-Mail T−7 heute 18:00 senden (terminieren)",
+    "m": 10,
+    "s": [
+     "Shopify → Marketing → Shopify Email → Entwurf „T−7“ (aus Woche 24) öffnen.",
+     "Zahlen prüfen: Drop 22.04., 19:00, Liste um 18:00, Preise 169 / 139 / 79 €, Liefertext wie am 14.12. festgelegt. Kein Streichpreis, nie „authentisch“.",
+     "Empfänger: ganze Liste. Nur wenn das Kontingent am 28.02. nicht gereicht hat: Segment „in 90 Tagen geöffnet oder geklickt“.",
+     "Links prüfen: utm_source=email, ?ref=… nur wenn vorgesehen. Testmail an dich, am Handy öffnen.",
+     "Versand auf heute 18:00 planen."
+    ],
+    "f": "die E-Mail T−7 auf heute 18:00 geplant ist und die Testmail am Handy korrekt aussieht.",
+    "o": [
+     {"n": "Shopify-Admin · Marketing → Shopify Email", "u": "https://admin.shopify.com", "h": "Entwurf „T−7“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "09:30 · Creator erinnern: Post zwischen 17. und 21.04., Kennzeichnung",
+    "m": 10,
+    "s": [
+     "Jedem der 5 Creator eine eigene DM im Kanal, über den ihr sprecht. Text unten anpassen, Name vorn.",
+     "Inhalt: Post bitte zwischen Sa 17.04. und Mi 21.04. Kennzeichnung als Werbung (Paar geschenkt), Link mit ihrem Code ?ref=c-[name].",
+     "Hinweis zum Inhalt: kein Bezug auf Länder, keine Ernte-Hooks am 22.04., Wortliste kurz (Kreuzstich-Band, Achtstern, maschinengestickt auf dem Zuschnitt, Fäden von Hand).",
+     "Im Blatt „Creator“: erinnert am 15.04., geplantes Datum des Posts."
+    ],
+    "f": "alle 5 Creator erinnert sind und das geplante Datum je Creator im Blatt steht.",
+    "p": "Projekt Time Travel, Docket W31, Do 15.04. Schreib mir eine kurze, freundliche DM auf [Deutsch/Englisch] an Creator [Name]: Erinnerung, den Post zu Time Travel zwischen Sa 17.04. und Mi 21.04. zu machen, als Werbung gekennzeichnet (Paar geschenkt), mit dem Link [Link mit ?ref=c-name]. Bitte um kein Länder-Bezug und keine Ernte-Wörter. 4 Sätze, kein Druck.",
+    "o": [
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Creator-DM“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:00 · Website Schritt 21: Schlüssel-Link in die E-Mail T−1h",
+    "m": 20,
+    "s": [
+     "Claude Code im Website-Ordner öffnen und den Prompt unten senden. Claude liest nur, ändert nichts.",
+     "Vergleiche, was Claude ausgibt: alle tt_zeit_* gegen docs/TERMINE.md (Liste 22.04., 18:00, öffentlich 19:00), tt_schluessel, Produkte, Kollektion, Startmengen, Testmodus.",
+     "Den Schlüssel-Link von Claude kopieren (Schema: deine Domain/?key=<schluessel>&utm_source=email&utm_medium=newsletter&utm_campaign=tt-t1h).",
+     "Shopify → Marketing → Shopify Email → Entwurf „T−1h“: Button und Textlink auf den Schlüssel-Link setzen.",
+     "Aus einem privaten Fenster testen: Mit Schlüssel öffnet sich die Vorschau (Testmodus), ohne Schlüssel bleibt die Tür zu.",
+     "Abweichung gefunden? Notieren, Claude Code korrigieren lassen, Push nur nach deinem „ja“. Ab Sa 17.04. ist Code-Freeze."
+    ],
+    "f": "der Schlüssel-Link im Entwurf T−1h steht, im privaten Fenster funktioniert und alle Zeiten mit docs/TERMINE.md übereinstimmen.",
+    "p": "Projekt Time Travel, Docket W31, Website Schritt 21. Hol mit shopify theme pull --theme „TT Story“ --only config/settings_data.json die aktuellen Einstellungen und lies sie mir vor: alle tt_zeit_*, tt_schluessel, Produkte, Kollektion, Startmengen, Testmodus. Vergleiche mit docs/TERMINE.md und markiere jede Abweichung. Erzeuge den Schlüssel-Link für die E-Mail T−1h: https://[DEINE-DOMAIN]/?key=<schluessel>&utm_source=email&utm_medium=newsletter&utm_campaign=tt-t1h. Ändere nichts.",
+    "o": [
+     {"n": "Claude Code · Ordner der Website", "h": "nur lesen, kein Push"},
+     {"n": "Shopify-Admin · Marketing → Shopify Email", "u": "https://admin.shopify.com", "h": "Entwurf „T−1h“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "10:20 · Presse: Welle 3 einmal nachfassen",
+    "m": 10,
+    "s": [
+     "Blatt „Presse“: alle aus Welle 3 ohne Antwort filtern.",
+     "Je Kontakt eine kurze Antwort auf die eigene Mail (gleicher Thread): Drop Do 22.04., 19:00, Pressebild und Fakten im Anhang der ersten Mail, gern ein Paar zum Ansehen.",
+     "Nur einmal nachfassen. Keine dritte Mail.",
+     "Datum „nachgefasst 15.04.“ ins Blatt."
+    ],
+    "f": "jeder Welle-3-Kontakt ohne Antwort genau eine Nachfass-Mail hat und das Datum im Blatt steht.",
+    "o": [
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Nachfassen“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T07 posten: Ganzkörper hinten, „Noch 1 Woche“",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T07“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, oder O-Ton.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube (Titel = Hook EN). Um 18:00 geht auch die Mail T−7 raus.",
+     "Reel in die Instagram-Story: Countdown-Sticker „Drop“ auf 22.04., 19:00 und Link-Sticker zur Startseite.",
+     "Angehefteten Kommentar: „One week. The list gets in at 18:00, everyone else at 19:00.“",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "CD-T07 auf TikTok, als Reel, als Short und als Story mit Countdown- und Link-Sticker online ist.",
+    "v": {
+     "id": "CD-T07",
+     "slot": "COUNTDOWN",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "One week. 22.04., 19:00.",
+     "hook_de": "Noch eine Woche. 22.04., 19 Uhr.",
+     "shots": ["Ganzkörper hinten aus dem Shoot", "Text „1 week“ eingeblendet"],
+     "ort": "Material vom Shoot Sa 20.02.2027, geschnitten 18. und 20.03.",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„Noch 1 Woche / 1 week“, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−7. One week. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
+     "check": "Rückansicht ohne Serp-Seite links, keine Streifen in Flaggenfarben, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-04-16": [
+   {
+    "c": "A",
+    "t": "09:00 · Drop-Ablauf durchplanen, ausdrucken",
+    "m": 30,
+    "s": [
+     "Docket → Referenz → „Drop-Tag Minute für Minute“ ausdrucken und mit deinen Zeiten ergänzen: 17:55 DM an Top-Werber · 18:00 Mail T−1h, V101, Live bis 18:30 · 19:00 öffentlich, LIVE-Mail, V102 · 20:00 V103 · 21:00 V107 und Gate · 21:15 Sofort-Maßnahme falls unter 15.",
+     "Wer hilft wann: ein Helfer beantwortet 18–20 Uhr die DMs mit den Bausteinen. Name, Handy, Zugang zu Instagram (nur DMs) ins Blatt.",
+     "Technik: Handy und Laptop geladen, Ladegeräte, zweiter Bildschirm mit Shopify → Bestellungen, Stativ für Live und V107.",
+     "Die Seite schaltet selbst um (website.md 3.3). PLAN B: Pfad Shopify → Onlineshop → Themes → PLAN B → Veröffentlichen auf den Zettel, geübt in unter einer Minute.",
+     "Prüfen: Schlüssel-Link steht im Entwurf T−1h (gestern), LIVE-Mail-Entwurf hat den Link zur Kollektion.",
+     "Den Zettel neben den Laptop legen. Foto davon an den Helfer."
+    ],
+    "f": "der Ablauf mit Uhrzeiten, Helfer und PLAN B ausgedruckt neben dem Laptop liegt und der Helfer ein Foto hat.",
+    "o": [
+     {"n": "Docket · Referenz → Drop-Tag Minute für Minute"},
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "PLAN B"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "09:30 · Top-Werber ziehen (3 bestätigte Freunde): DM um 17:55 am 22.04.",
+    "m": 10,
+    "s": [
+     "Shopify → Kunden → Export (CSV) mit Tags. Wer drei oder mehr bestätigte Anmeldungen mit seinem Code ref-[code] gebracht hat, ist Top-Werber. Nur bestätigte Anmeldungen zählen.",
+     "Export an Claude mit dem Prompt unten, Claude zählt je Werber-Code.",
+     "Liste ins Blatt „Netz“, Spalte „Top-Werber“: Name, Kanal (Instagram, WhatsApp), Größe falls bekannt. Keine Herkunft in dieses Blatt.",
+     "DM-Text vorbereiten (unten im Prompt) und als Entwurf/Notiz speichern. Gesendet wird am Do 22.04. um 17:55, persönlich, kein Link vor 18:00 öffentlich teilen.",
+     "Kalender-Erinnerung Do 22.04., 17:50: „Top-Werber-DMs“."
+    ],
+    "f": "die Liste der Top-Werber im Blatt „Netz“ steht, der DM-Text fertig ist und die Erinnerung für 17:50 gesetzt ist.",
+    "p": "Projekt Time Travel, Docket W31, Fr 16.04. Hier ist mein Kunden-Export aus Shopify (CSV): [Datei]. Zähle je Werber-Tag ref-[code] die bestätigten Anmeldungen (E-Mail-Marketing abonniert) und gib mir alle Codes mit 3 oder mehr, mit Name des Werbers. Danach schreib mir eine persönliche DM für den Drop-Tag um 17:55: Danke fürs Mitbringen, um 18:00 kommt die Mail mit dem frühen Zugang, Größe [Größe] schnell sichern. 3 Sätze, Deutsch, kein Rabatt.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden → Export", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Netz“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V125 „Aus drei Metern“ statt CD-T06 posten",
+    "m": 10,
+    "s": [
+     "Heute läuft V125 statt CD-T06 „Seitennaht im Streiflicht“ (Bildregel: keine Seitenansicht links). CD-T06 nur, wenn du die Regel am Sa 07.11. bewusst gelockert hast, Blatt „Gates“ prüfen.",
+     "17:55 Asset „V125“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik aus der Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“).",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Musik aus der Business-Bibliothek der App) und als Short auf YouTube.",
+     "Reel in die Instagram-Story: Countdown-Sticker auf 22.04., 19:00, Link-Sticker zur Startseite.",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "V125 auf TikTok, als Reel, als Short und als Story online ist und CD-T06 nicht gepostet wurde (außer bei gelockerter Regel).",
+    "v": {
+     "id": "V125",
+     "slot": "REACH",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "Can you spot the embroidery from here?",
+     "hook_de": "Siehst du die Stickerei von hier?",
+     "shots": ["Totale aus 3 m, Person steht still, Front", "Ein Schritt pro Sekunde näher", "Makro auf das Kreuzstich-Band", "Endframe „T−6 · 22.04. · 19:00“"],
+     "ort": "Berlin · Hinterhof oder Treppenhaus mit Fensterlicht (keine Sowjet- oder DDR-Monumentalkulisse, keine Flaggen im Bild), Material vom 18./20.03.",
+     "ton": "Musik aus der TikTok Commercial Music Library, Instagram: Business-Bibliothek der App",
+     "text": "„T−6“, darunter „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−6. Wearable from far. A clock up close. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #berlinfashion #denim #novalifetimetravel #countdown",
+     "check": "Front, keine Seitenansicht links, keine Flaggen, kein „wir“, CTA der Phase statt der alten Bibliotheks-CTA."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-04-17": [
+   {
+    "c": "A",
+    "t": "10:00 · Letzte Testbestellung: Handy und Laptop",
+    "m": 30,
+    "s": [
+     "Shopify → Produkte → Produkt hinzufügen: „Testprodukt“, 1 €, Bestand 2, nur Onlineshop, sichtbar.",
+     "Am Handy: Testprodukt kaufen mit echter Zahlung. Kasse, Versandart, Bestätigungsmail an dich prüfen.",
+     "Am Laptop: dasselbe mit einer anderen Zahlungsart.",
+     "Bei beiden Bestellungen in Shopify ein Versandlabel erzeugen (nicht drucken).",
+     "Danach: beide Bestellungen voll erstatten, Labels stornieren, Testprodukt löschen.",
+     "Kontrolle: Testprodukt nicht mehr im Shop, Jeans, Zipper, Polo weiterhin terminiert auf 22.04., 18:00."
+    ],
+    "f": "beide Testkäufe mit Mail und Label funktioniert haben, erstattet sind und das Testprodukt gelöscht ist.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte und Bestellungen", "u": "https://admin.shopify.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:30 · CODE-FREEZE: Testmodus aus",
+    "m": 5,
+    "s": [
+     "Shopify → Onlineshop → Themes → „TT Story“ → Anpassen → Theme-Einstellungen: Testmodus aus. Speichern.",
+     "Privates Fenster: Startseite zeigt die normale Vorstufe, keine Test-Hinweise.",
+     "Ab jetzt ändert niemand mehr etwas am Code, auch keine Kleinigkeit. Kein Push, kein Theme-Editor außer im Notfall PLAN B.",
+     "Ins Blatt „Website“: Code-Freeze 17.04., 10:30."
+    ],
+    "f": "der Testmodus aus ist, die Seite im privaten Fenster sauber aussieht und der Freeze im Blatt steht.",
+    "o": [
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "„TT Story“ → Theme-Einstellungen"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "12:00 · Story-Q&A zum Drop",
+    "m": 30,
+    "s": [
+     "Instagram-Story: Foto der Packstation (ohne Namen, ohne Adressen) als Hintergrund. Fragen-Sticker „Ask me anything about the drop“ (DE-Zeile: „Frag mich alles zum Drop“).",
+     "Zweite Story: Link-Sticker zur Startseite.",
+     "30 Minuten lang alle Fragen beantworten, als einzelne Antwort-Stories. Größe, Lieferung (Liefertext vom 14.12.), Zeiten 18:00 / 19:00, Preise 169 / 139 / 79 €.",
+     "Herkunftsfrage: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“ Feindselige Fragen nicht beantworten, nicht löschen.",
+     "Alle Antworten als Highlight „DROP INFO“ sichern.",
+     "Die drei häufigsten Fragen notieren: sie kommen am Mo 19.04. in die Textbausteine."
+    ],
+    "f": "die Q&A-Story online ist, alle Antworten im Highlight „DROP INFO“ stehen und die drei häufigsten Fragen notiert sind.",
+    "v": {
+     "id": "ASK-Q&A",
+     "slot": "ASK",
+     "dauer": "Story, 30 Min. Antworten",
+     "plattform": "Instagram-Story",
+     "hook_en": "Ask me anything about the drop.",
+     "hook_de": "Frag mich alles zum Drop.",
+     "shots": ["Packstation von oben, ohne Namen und Adressen", "Antwort-Stories mit Text"],
+     "ort": "Wohnung · Packstation",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "Fragen-Sticker, Antworten als Text",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio.",
+     "caption": "(Story) Drop 22.04., 19:00. The list gets in at 18:00. Link in bio.",
+     "check": "Keine Kundendaten im Bild, keine Länderwertung, nie „authentisch“."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story, Fragen-Sticker, Highlight „DROP INFO“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T05 posten: Pflegeetikett „Fäden nicht abschneiden“",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T05“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik aus der Commercial Music Library, oder O-Ton.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube.",
+     "Reel in die Instagram-Story: Countdown-Sticker auf 22.04., 19:00, Link-Sticker zur Startseite.",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "CD-T05 auf TikTok, als Reel, als Short und als Story online ist.",
+    "v": {
+     "id": "CD-T05",
+     "slot": "COUNTDOWN",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "5 days. Rule one: don't cut the threads.",
+     "hook_de": "5 Tage. Regel eins: Fäden nicht abschneiden.",
+     "shots": ["Makro Pflegeetikett „Fäden nicht abschneiden“", "Endframe „T−5 · 22.04. · 19:00“"],
+     "ort": "Makros zu Hause (gedreht 18. und 20.03.)",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−5“, „Wash inside out.“, „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−5. Rule one: don't cut the threads. Wash inside out. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #denimcare #countdown",
+     "check": "Kein roter Hintergrund, Graukarte für Farbtreue, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2027-04-18": [
+   {
+    "c": "A",
+    "t": "10:00 · Wochenreview W31 mit Gates, Kassencheck und Cockpit",
+    "m": 20,
+    "s": [
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“ = bestätigte Warteliste. Zahl und Zuwachs zur Vorwoche, Anteile src- und ref- ins Blatt „Warteliste“.",
+     "Content: je Post (CD-T10 bis CD-T04, V125) Views, Teilungen, Saves und neue Follower TikTok + Instagram ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
+     "Gates 7.1: G1 Liste unter 1.400 → Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos zeigen · G2 unter 2.920 → bestes Video als Variante, Kommentar-Zeit 15′ · G3 unter 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G7 ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, nie löschen, 2 Wochen kein Ernte- oder Serp-Bild (betrifft den Drop: Hero bleibt ohne Serp).",
+     "Kassencheck K − F − R im Blatt „Kasse“: grün ≥ 300 €, gelb 0–300 € (G12: keine Ausgaben außerhalb von Plan 3), rot < 0 (Ausgaben-Stopp-Liste, Notfall-Leiter 7.3).",
+     "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans (Vorbestellungen).",
+     "Alles abhaken. Offenes an Claude mit der Zeile unten."
+    ],
+    "f": "alle vier Cockpit-Zahlen eingetragen sind, jedes Gate geprüft ist und die Zeile an Claude gesendet ist.",
+    "p": "Projekt Time Travel, Docket W31, So 18.04., Wochenreview. W31: Liste [X] (+[Y]), Views [Z], bestes Video [V0xx/CD-Txx], schwächstes [V0xx/CD-Txx], Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Cockpit: Follower gesamt [F], Zusagen [Z], bezahlte Jeans [J]. Bestand im Shop [je Größe]. Offen aus W31: [..]. Sag mir, was ich vor dem Drop am Do 22.04. noch ändern muss und was ich lassen soll.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden → Segmente", "u": "https://admin.shopify.com", "h": "Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Warteliste“, „Content“, „Kasse“"},
+     {"n": "Docket · Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "10:20 · Gate: Liste ≥ 2.920 (Alarm 1.400) · Drop-Bestand im Shop korrekt",
+    "m": 10,
+    "s": [
+     "Liste aus dem Review: ≥ 2.920 → grün. 1.400–2.919 → G2: bestes Countdown-Video als Variante für Mo/Di vorbereiten (neuer Hook, gleicher Kern), Kommentar-Zeit auf 15′. Unter 1.400 → G1 und Stufe 1 der Notfall-Leiter: persönliche DMs an alle Zusagen und „Vielleicht“ bis Mi.",
+     "Drop-Bestand: Shopify-Varianten je Größe gegen Blatt „Bestand“ vom 12.04. plus Retouren seitdem. Muss aufs Stück stimmen.",
+     "Terminierung stichprobenartig öffnen: Jeans, Zipper, Polo, Kollektion auf 22.04., 18:00.",
+     "Ergebnis ins Blatt „Gates“: Liste [Zahl], Bestand ok/korrigiert."
+    ],
+    "f": "im Blatt „Gates“ die Listen-Zahl und „Bestand ok“ stehen, oder die Gegenmaßnahme mit Datum.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte", "u": "https://admin.shopify.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Gates“, „Bestand“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · CD-T04 posten: Hand in der Tasche, Detail",
+    "m": 10,
+    "s": [
+     "17:55 Asset „CD-T04“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik aus der Commercial Music Library, oder O-Ton.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube.",
+     "Reel in die Instagram-Story: Countdown-Sticker auf 22.04., 19:00, Link-Sticker zur Startseite.",
+     "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "CD-T04 auf TikTok, als Reel, als Short und als Story online ist.",
+    "v": {
+     "id": "CD-T04",
+     "slot": "COUNTDOWN",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Reels + Shorts + Story",
+     "hook_en": "4 days. Hands in pockets.",
+     "hook_de": "4 Tage. Hände in die Taschen.",
+     "shots": ["Hand gleitet in die rechte Vordertasche, Kreuzstich-Band im Fokus", "Endframe „T−4 · 22.04. · 19:00“"],
+     "ort": "Material vom Shoot Sa 20.02.2027 + Makros zu Hause (18. und 20.03.)",
+     "ton": "O-Ton oder leise Musik aus der Commercial Music Library",
+     "text": "„T−4“, „22.04. · 19:00“",
+     "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
+     "caption": "T−4. The band sits on the pocket edge. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
+     "check": "Rechte Tasche, keine Seitenansicht links, B und B2 nicht im selben Bild, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Countdown- und Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Grind+ · „Das Feld wächst“ Dreh 4 + Zeitraffer",
+    "m": 90,
+    "plus": true,
+    "s": [
+     "Vor Sonnenuntergang zum Feld am Stadtrand: dasselbe Feld, dieselbe Stelle, gleiche Einstellung wie Dreh 3 am 11.04. (Standort und Stativ-Markierung aus dem Blatt „Content“). Nur mit Erlaubnis des Landwirts. Handy 9:16, Licht von vorn, je Einstellung 3 Takes.",
+     "Einstellung 1: dieselbe Totale wie bei Dreh 1–3, 10 s ruhig. Einstellung 2: Hand im Bild als Größenvergleich. Einstellung 3: Makro auf einzelne Halme.",
+     "Bildregeln: kein hellblauer Himmel über gelbem Feld im Bild (Himmel abschneiden oder bewölkt), keine Sichel als Requisite, keine Fahnen.",
+     "Zu Hause in CapCut: Zeitraffer aus Dreh 1–4 in gleicher Einstellung hintereinander, je 1 s, harter Schnitt. Keine Musik einbacken.",
+     "Datei „Feld_Zeitraffer_D4.mp4“ in den Ordner „Content/Reserve“. Posten erst nach dem 22.04. (Teilsperre: keine Ernte-Hooks am Drop-Tag)."
+    ],
+    "f": "Dreh 4 im Ordner liegt und der Zeitraffer aus vier Drehs als Reserve-Datei exportiert ist.",
+    "v": {
+     "id": "Das Feld wächst · Dreh 4",
+     "slot": "Grind+",
+     "dauer": "8–12 s (Zeitraffer)",
+     "plattform": "Reserve, Post nach dem Drop",
+     "hook_en": "Four weeks, one spot. Watch it grow.",
+     "hook_de": "Vier Wochen, ein Ort. Schau, wie es wächst.",
+     "shots": ["Totale wie Dreh 1–3", "Hand als Größenvergleich", "Makro Halme", "Zeitraffer Dreh 1–4"],
+     "ort": "Ort von Dreh 1–3 (Blatt „Content“)",
+     "ton": "O-Ton Wind; Musik erst beim Posten aus der Business-Bibliothek",
+     "text": "„Dreh 1 · 2 · 3 · 4“ klein unten",
+     "cta": "nach dem Drop: Live now. Link in bio.",
+     "caption": "One spot, four visits. The field keeps growing. Live now. Link in bio. #novalifetimetravel #buildinpublic #denim #berlin",
+     "check": "Kein Post vor dem 23.04., kein blauer Himmel über gelbem Feld, keine Sichel, keine Fahne."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Zeitraffer, keine Musik einbacken"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Content“, Drehort"}
+    ]
+   }
+  ]
+ }
+}

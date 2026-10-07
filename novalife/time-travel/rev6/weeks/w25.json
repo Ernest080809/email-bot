@@ -1,0 +1,606 @@
+{
+ "n": 25,
+ "phase": "P4",
+ "goal": "Fertige Jeans prüfen, Versand aufbauen, Presse-Welle 2 raus und Mess-Abend 3 ankündigen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "2.450 bestätigt (Alarm 880); Grind+-Ziel 2.770"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~7.350 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Vorbestellungen", "ziel": "26 kumuliert bezahlt (Alarm 21); für die Schwellen zählt nur ausgezahltes Geld"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+ ],
+ "days": {
+  "2027-03-01": [
+   {
+    "c": "B",
+    "t": "09:00 · Inline-Kontrolle 2: genäht und gewaschen",
+    "m": 30,
+    "s": [
+     "Mail an deinen Kontakt in der Fabrik (Englisch, kurz): Bitte Fotos und ein kurzes Video von 5 zufällig gezogenen, fertig genähten und gewaschenen Jeans. Je Jeans: vorn, hinten, jedes Element A–E nah, Maßband an Bund und Innenbein im Bild. Text mit dem Prompt unten.",
+     "Gleiche Mail: Wann setzt ihr die Goldfäden? Wann ist die Endkontrolle? Bleibt der Versandtermin? Was ist vor dem Fest (TR 08.–11.03.) fertig? Darf ich die Fotos in meinen Videos zeigen (V086 am Mo 08.03.)?",
+     "Sobald die Fotos da sind: gegen den Prüfplan halten (Docket → Referenz → Prüfplan Sample): Position, Garnfarben, Wellen, Waschton, Saum, Maße gegen die Größentabelle. Graukarte im Bild? Sonst Farben nur grob beurteilen.",
+     "Fehler sofort mit Foto und Fehlerklasse aus dem Prüfplan melden. Jetzt kostet eine Korrektur Tage, nach dem Versand Wochen.",
+     "Fotos in den Ordner „Fabrik/Inline 2“, Befund in einem Satz ins Blatt „Gates“ (Spalte Inline-Fotos 2). Das Gate am So 07.03. fragt danach."
+    ],
+    "f": "die Fotos geprüft sind, deine Rückmeldung raus ist und Versandtermin, Goldfäden-Termin und Endkontrolle schriftlich vorliegen.",
+    "p": "Projekt Time Travel, Docket W25, Mo 01.03. Schreib mir eine kurze, freundliche Mail auf Englisch an meine Fabrik [Name, Land]. Ich bitte um die Inline-Kontrolle 2: Fotos und ein kurzes Video von 5 zufällig gezogenen, fertig genähten und gewaschenen Jeans, je vorn, hinten, jedes Stickelement nah, Maßband an Bund und Innenbein. Dazu drei Fragen: Termin Goldfäden, Termin Endkontrolle, bleibt der Versand am [Datum aus der PO]? Bei Türkei: Was ist vor dem Fest am 08.03. fertig? Und: Darf ich die Fotos in Social Media zeigen? Ton: partnerschaftlich, kein Druck. Max. 120 Wörter.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Docket · Referenz → Prüfplan Sample", "h": "Fehlerklassen, Maße"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V081 posten: BUILD „Das ist Time Travel“",
+    "m": 20,
+    "s": [
+     "17:55 W25/final/V081_final.mp4 in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, nie in CapCut eingebacken. Caption unten einfügen, [Y] durch die echte Restzahl aus Shopify ersetzen (35 minus bezahlte Vorbestellungen).",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Tag 141: Das ist Time Travel. Alles.“, Musik aus der Business-Bibliothek der App) und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story teilen, Link-Sticker auf die Vorbestellung.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden. Kritik nie löschen. Herkunftsfrage: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“",
+     "Kommentare mit „Sowjet“, „Wappen“ oder „Holodomor“ im Blatt „Content“ zählen (Gate G7 am So).",
+     "Sind die 35 schon weg (Stufe 2 live): CTA-Satz ersetzen durch „Pre-order at €149 is sold out. Drop 22.04., 19:00. Link in bio.“"
+    ],
+    "f": "V081 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V081",
+     "slot": "BUILD",
+     "dauer": "15–20 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 141: this is Time Travel. All of it.",
+     "hook_de": "Tag 141: Das ist Time Travel. Alles.",
+     "shots": [
+      "Papiertest-Clip vom Oktober (Papierband an der Tasche)",
+      "Stickprobe vom November, Makro",
+      "Proto-Unboxing vom Dezember",
+      "Shoot-Bild vom 20.02.",
+      "Endframe: „100 jeans · 22.04. · 19:00“"
+     ],
+     "ort": "Archiv-Clips aus früheren Drehs (Ordner content/archiv), geschnitten im Content-Batch am So 28.02.",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, je Clip ein Monatswort (Oct · Nov · Dec · Feb), Untertitel, Endframe „100 jeans · 22.04. · 19:00“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
+     "caption": "Day 141. Paper in October, thread in November, a prototype in December, production now. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Nur Clips, die die Bildregeln erfüllen (B und B2 nie im selben Bild, kein roter Hintergrund, kein blauer Himmel über Weizen), kein „149 € statt 169 €“, Subjekt ist das Muster, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"},
+     {"n": "Shopify-Admin · Produkte", "u": "https://admin.shopify.com", "h": "Restzahl für [Y]"}
+    ]
+   }
+  ],
+  "2027-03-02": [
+   {
+    "c": "A",
+    "t": "10:00 · Versandweg wählen und einrichten (DHL oder Sendcloud)",
+    "m": 45,
+    "s": [
+     "Drei Wege vergleichen: 1) DHL Online-Frankierung zu Privatkundenpreisen, 2) Sendcloud mit DHL-Tarif und Shopify-Anbindung, 3) eigener DHL-Geschäftskundenvertrag. Laut Rev. 5.3 kostet der Geschäftskundenvertrag seit Juli 2025 eine Monatspauschale ab 7,95 €; bei rund 150 Paketen im Jahr lohnt er sich selten (Preis selbst prüfen).",
+     "Kriterien: Preis pro Paket bis 1 kg in Deutschland und in die EU, Monatsgebühr, Import der Bestellungen aus Shopify, Label mit einem Klick, Tracking automatisch an den Kunden.",
+     "Prompt unten in einem Chat mit Websuche an Claude. Die Preise auf den offiziellen Seiten selbst gegenprüfen, dann einen Weg wählen und das Konto anlegen.",
+     "Ein Testlabel an deine eigene Adresse erzeugen und auf normalem A4-Papier drucken. Ein Etikettendrucker ist nicht nötig.",
+     "Shopify → Einstellungen → Versand und Zustellung: Stimmen deine Versandpreise aus Woche 11 noch? Sonst jetzt anpassen.",
+     "Gewählten Weg, Preis je Paket DE und EU und Monatsgebühr ins Blatt „Kasse“ (Zeile Versand)."
+    ],
+    "f": "der Versandweg gewählt ist, ein Testlabel gedruckt daliegt und die Versandpreise im Shop zum echten Paketpreis passen.",
+    "p": "Projekt Time Travel, Docket W25, Di 02.03. Vergleiche mit Websuche die aktuellen Preise für Pakete bis 1 kg (Deutschland und EU) bei DHL Online-Frankierung, Sendcloud mit DHL und einem DHL-Geschäftskundenvertrag mit Monatspauschale. Ich verschicke etwa 150 Pakete, fast alle zwischen 06.04. und 30.04.2027, aus einem Shopify-Shop. Nenn je Weg: Preis DE, Preis EU, Monatsgebühr, Shopify-Anbindung, Tracking-Mail an den Kunden, Quelle mit Link und Datum. Was ist am günstigsten und am einfachsten? Was du nicht geöffnet hast, markierst du als „ungeprüft“.",
+    "o": [
+     {"n": "DHL Online-Frankierung", "h": "offizielle DHL-Seite per Suche öffnen, Preise selbst prüfen"},
+     {"n": "Sendcloud", "h": "offizielle Seite per Suche öffnen, Tarife und Shopify-App prüfen"},
+     {"n": "Shopify-Admin · Einstellungen → Versand und Zustellung", "u": "https://admin.shopify.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "Chat mit Websuche"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V082 posten: ORIGIN „Rot und Weiß“",
+    "m": 20,
+    "s": [
+     "17:55 W25/final/V082_final.mp4 in TikTok hochladen (Business-Konto). Dein O-Ton zuerst, Musik höchstens leise aus der Commercial Music Library. Caption unten einfügen, [Y] mit der echten Restzahl.",
+     "Vor dem Hochladen das Titelbild prüfen: Rot-Weiß nur als Kreuzstich, nie als Streifen (Weiß-Rot-Weiß ist gesperrt), kein roter Hintergrund.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (DE-Zeile „Warum auf meinem Denim Weiß neben Rot sitzt.“) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Vorbestellung.",
+     "15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9). Fragt jemand nach der Bedeutung der Farben: nur sagen, was belegt ist (Belegtabelle), sonst „Here it's about contrast, not symbolism.“"
+    ],
+    "f": "V082 auf allen drei Plattformen online ist, die Story läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V082",
+     "slot": "ORIGIN",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Why white sits next to red on my denim.",
+     "hook_de": "Warum auf meinem Denim Weiß neben Rot sitzt.",
+     "shots": [
+      "Totale aus 2 m: rotes Garn allein auf Indigo, es verschwindet",
+      "Gleiche Einstellung mit weißer Kante: das Kreuzstich-Band liest sich",
+      "Makro Band A, Streiflicht vom Fenster",
+      "Du, ein Satz: „Deep red and indigo are almost equally bright. White carries the pattern.“"
+     ],
+     "ort": "Wohnung · weiße Wand oder Tür, Hose auf Bügel, Streiflicht vom Fenster",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s Hook EN, „2 m“ als Einblendung bei Shot 1 und 2, Untertitel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
+     "caption": "Deep red and indigo have almost the same brightness. From two metres, red alone disappears. So on the pattern side, white always sits next to red. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #embroidereddenim #novalifetimetravel",
+     "check": "Rot-Weiß nur als Kreuzstich, nie als Streifen, kein roter Hintergrund, Wortliste („Kreuzstich-Band“), keine Bedeutung ohne Beleg, keine Seitenansicht links (sofern am 07.11. nicht gelockert)."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "S",
+    "t": "20:00 · Spiel: Prompt 4 „Tür mit drei Zuständen“ (nur bei bauen)",
+    "m": 60,
+    "plus": true,
+    "x": "s",
+    "s": [
+     "Nur wenn du am Fr 05.02. „bauen“ entschieden hast. Sonst diese Aufgabe abhaken und weiter mit Website Schritt 15 am Fr.",
+     "Terminal im Theme-Ordner, Claude Code starten, Prompt 4 aus dem Bauplan (website.md, Abschnitt 9, Variante A) einfügen.",
+     "Mit dem Testmodus alle drei Zustände am Handy durchspielen: FELD, SCHLÜSSEL (mit ?key=…), OFFEN.",
+     "Läuft alles: „passt“ an Claude Code, committen. Hängt etwas: Fehler in einem Satz beschreiben, max. zwei Runden, dann stoppen und am Sa weiter."
+    ],
+    "f": "alle drei Zustände auf dem Handy laufen und der Commit gemacht ist.",
+    "o": [
+     {"n": "website.md · Abschnitt 9, Variante A", "h": "Prompt 4"},
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "Vorschau-Link"}
+    ]
+   }
+  ],
+  "2027-03-03": [
+   {
+    "c": "A",
+    "t": "16:00 · Probepaket packen, Zeit stoppen, Zeitraffer filmen",
+    "m": 40,
+    "s": [
+     "Ist die Verpackung da? Wenn nicht: beim Händler nachhaken, Liefertermin ins Blatt „Kasse“ (Zeile Verpackung).",
+     "Handy auf Stativ über den Tisch, Draufsicht, Zeitraffer an. Das ist das Material für V088 „So wird verpackt“ (Mi 10.03.).",
+     "Das PP-Sample packen wie eine echte Bestellung: Jeans falten, Hangtag dran, Karte mit Nummer und Danke-Satz, Seidenpapier, Karton, Stempel, Testlabel von gestern in die Lieferscheintasche.",
+     "Zeit stoppen. Ziel: unter 4 Minuten pro Paket. 100 Pakete sind dann knapp 7 Stunden. Liegst du drüber: den langsamsten Schritt notieren und vereinfachen.",
+     "Paket wiegen (Küchenwaage). Unter 1 kg: Preisstufe stimmt. Darüber: Seidenpapier oder Karton tauschen.",
+     "Zeit, Gewicht und Materialliste je Paket ins Blatt „Kasse“, damit die Helfer am 22.–24.04. danach packen."
+    ],
+    "f": "ein fertiges Probepaket dasteht, Zeit und Gewicht notiert sind und der Zeitraffer im Ordner „W26/roh“ liegt.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "19:00 · V083 posten: REACH „Nummer vergeben“",
+    "m": 20,
+    "s": [
+     "Vorher: Die zuletzt echt vergebene Nummer in Shopify nachsehen (Bestellungen → letzte bezahlte Vorbestellung). Nur diese Nummer zeigt das Video. Keine Nummer über 035, keine erfundene.",
+     "18:55 W25/final/V083_final.mp4 in TikTok hochladen, Trend-Sound aus der Commercial Music Library in der App wählen. Caption unten einfügen, [0XX] und [Y] ersetzen.",
+     "19:00 posten. Gleich danach als Reel auf Instagram (DE-Zeile „Paar [0XX] hat schon einen Besitzer.“) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Vorbestellung.",
+     "15 Min. Kommentare beantworten. Frage „Welche Nummer bekomme ich?“: „Numbers go in order of payment.“"
+    ],
+    "f": "V083 mit einer echt vergebenen Nummer online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V083",
+     "slot": "REACH",
+     "dauer": "6–9 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Pair [0XX] already has an owner.",
+     "hook_de": "Paar [0XX] hat schon einen Besitzer.",
+     "shots": [
+      "Makro Hangtag mit der echten Nummer der letzten Vorbestellung",
+      "Hand legt ihn auf den Stapel „taken“",
+      "Freie Nummern daneben, kurzer Schwenk, Loop zurück auf Shot 1"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App",
+     "text": "0–2 s Hook EN, Schild „taken“ auf dem Stapel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
+     "caption": "Numbers go in order. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #numbered #novalifetimetravel",
+     "check": "Nur eine echt vergebene Nummer (≤ 035), kein Name des Käufers im Bild, kein roter Hintergrund, CTA der Phase."
+    },
+    "o": [
+     {"n": "Shopify-Admin · Bestellungen", "u": "https://admin.shopify.com", "h": "letzte bezahlte Vorbestellung"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2027-03-04": [
+   {
+    "c": "B",
+    "t": "09:00 · Fabrik: Plan rund um das Ramadan-Fest (TR 08.–11.03.)",
+    "m": 15,
+    "s": [
+     "Nur bei einer Fabrik in der Türkei. Das Fest läuft laut Skelett 08.–11.03.; laut Rev. 5.3 beginnt es Mo 08.03. am Nachmittag (Türkei 13:00, Berlin 11:00, ungeprüft).",
+     "Schriftlich fragen: Was ist vor dem Fest fertig? Ab wann arbeitet ihr wieder, Fr 12.03. oder Mo 15.03.? Wann setzt ihr die Goldfäden, wann ist die Endkontrolle, wann der Versand? Die Endkontrolle muss vor der Restzahlung am Fr 19.03. als Nachweis da sein.",
+     "Ton: Respekt vor dem Fest, kein Druck. Guten Wünsche zum Fest in die Mail.",
+     "Antworten in den Kalender: Endkontrolle, Versand, Wiederbeginn.",
+     "Fabrik in Portugal: Das Fest entfällt. Versandtermin und Endkontrolle trotzdem schriftlich bestätigen lassen."
+    ],
+    "f": "Endkontrolle und Versandtermin schriftlich vorliegen und im Kalender stehen.",
+    "p": "Projekt Time Travel, Docket W25, Do 04.03. Schreib mir eine kurze Mail auf Englisch an meine Fabrik in der Türkei [Name]. Ich wünsche ein schönes Fest und frage: Was ist vor dem Fest fertig? Ab wann arbeitet ihr wieder (12.03. oder 15.03.)? Termin Goldfäden, Termin Endkontrolle mit Fotos und Maßen, Versanddatum. Hinweis: Ich zahle die Restzahlung am 19.03. nach dem Endkontroll-Nachweis. Freundlich, kein Druck, max. 110 Wörter.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Google Kalender", "u": "https://calendar.google.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:00 · Textbausteine für Kundenfragen als Kürzel aufs Handy",
+    "m": 30,
+    "s": [
+     "Prompt unten an Claude.",
+     "Jeden Baustein lesen und in deinem Ton anpassen. Liefertext überall gleich: „Lieferung bis spätestens 30.04.2027, geplant Anfang April“.",
+     "Auf dem Handy als Textersetzung speichern. iPhone: Einstellungen → Allgemein → Tastatur → Textersetzung. Android (Gboard): Einstellungen → Wörterbuch → Mein Wörterbuch. Kürzel wie „#gr“ für Größe, „#vs“ für Versand.",
+     "Die 10 Bausteine zusätzlich in Shopify Inbox als gespeicherte Antworten anlegen, falls du Inbox nutzt (Funktion vor Ort prüfen).",
+     "Liste der Kürzel ins Blatt „Content“ (Reiter „Antworten“), damit die Packhilfe sie im April auch nutzen kann."
+    ],
+    "f": "alle 10 Bausteine als Kürzel auf dem Handy funktionieren (einmal in WhatsApp getestet).",
+    "p": "Projekt Time Travel, Docket W25, Do 04.03. Schreib mir 10 kurze Antwort-Textbausteine in Du-Form (Deutsch, dazu je eine englische Fassung) für Instagram-DMs und E-Mails zum Drop: 1) Welche Größe? (ehrliche Größen, W32 = 81 cm Bund, Umrechnung von Eightyfive, Carhartt und Dickies aus meiner Größentabelle) 2) Wann wird verschickt? (Liefertext: „Lieferung bis spätestens 30.04.2027, geplant Anfang April“) 3) Versandkosten [Preis aus dem Shop] 4) Rückgabe [meine Regel] 5) Was ist die Stücknummer? 6) In meiner Größe ausverkauft 7) Vorbestellung: Wann kommt meine? 8) Zipper und Polo: Lieferzeit 9) Pflege und Goldfäden (auf links waschen, Fäden nicht abschneiden) 10) Zahlung hat nicht geklappt. Je 2–3 Sätze. Wortliste beachten (Kreuzstich-Band, Achtstern, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“), nie „authentisch“.",
+    "o": [
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Content“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "11:00 · PRESSE-WELLE 2 „Drop 22.04.“ an 7 Medien senden",
+    "m": 30,
+    "s": [
+     "Kontakt je Medium nur von der offiziellen Seite (Redaktion, Impressum, „Contact“, „Submit“). Keine Adressen scrapen, keine Verzeichnisse.",
+     "Reihenfolge: tip Berlin, Denimhunters, TextilWirtschaft, FashionUnited (DE), Highsnobiety, Hypebeast, 032c. Die letzten drei sind Bonus, Chancen niedrig.",
+     "Text mit dem Prompt unten holen: DE für tip Berlin, TextilWirtschaft und FashionUnited, EN für die anderen. Je Medium ein eigener erster Satz, warum es zu ihnen passt.",
+     "Anhang oder Link: Pressemappe v2 (aus W24). Link mit ?ref=p-[medium], z. B. ?ref=p-tip, p-denimhunters, p-tw, p-fu, p-hs, p-hb, p-032c.",
+     "Je Medium eine eigene Mail, nie CC. Du sendest selbst.",
+     "Ins Blatt „Presse“: Medium, Kontaktweg, gesendet 04.03., Welle 2. Nachfassen am Fr 12.03."
+    ],
+    "f": "sieben einzelne Mails raus sind (oder Formular gesendet) und im Blatt „Presse“ stehen.",
+    "p": "Projekt Time Travel, Docket W25, Do 04.03. Schreib mir einen Pitch für Presse-Welle 2 an [Medium], [DE oder EN], Betreff unter 60 Zeichen, max. 130 Wörter: Novalife aus Berlin bringt „Time Travel“: 100 nummerierte Jeans, maschinengestickt auf dem Zuschnitt, Fäden von Hand, ein Kreuzstich-Band, Goldfäden. Drop Do 22.04.2027, 19:00, entworfen in Berlin. [Zahl] Vorbestellungen, Pressemappe v2 mit Bildern: [Link mit ?ref=p-medium]. Erster Satz: warum genau [Medium] (z. B. Berlin-Fokus, Denim-Fokus). Subjekt ist das Muster, nie „authentisch“, keine Länder, nichts Politisches. Angebot: Probe-Anprobe beim Mess-Abend Sa 13.03. oder Interview.",
+    "o": [
+     {"n": "tip Berlin", "u": "https://www.tip-berlin.de", "h": "Redaktionskontakt auf der Seite"},
+     {"n": "Denimhunters", "u": "https://denimhunters.com", "h": "Kontakt auf der Seite suchen"},
+     {"n": "TextilWirtschaft", "u": "https://www.textilwirtschaft.de", "h": "Redaktion über Impressum"},
+     {"n": "FashionUnited DE", "u": "https://fashionunited.de", "h": "Redaktionskontakt auf der Seite"},
+     {"n": "Highsnobiety", "u": "https://www.highsnobiety.com", "h": "Bonus, Kontakt auf der Seite"},
+     {"n": "Hypebeast", "u": "https://hypebeast.com", "h": "Bonus, Kontakt auf der Seite"},
+     {"n": "032c", "u": "https://magazine.032c.com", "h": "Bonus, Kontakt auf der Seite"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "12:00 · Event-Tipp Mess-Abend 3 für Fr 05.03., 09:00 planen",
+    "m": 5,
+    "s": [
+     "Die Event-Tipp-Mails aus W16 (Mess-Abende 1 und 2) im Gmail-Ordner „Gesendet“ öffnen und weiterleiten bzw. kopieren.",
+     "Ändern: Sa 13.03.2027, 18:00–20:00, Ort aus Blatt „Abende“, Link mit ?ref=p-[medium]. Satz dazu: „Letzter Abend vor dem Ende des Vorbestellpreises am So 21.03.“",
+     "Gmail → Senden-Pfeil → „Senden planen“ → Fr 05.03.2027, 09:00. Mo 08.03. ist in Berlin Feiertag (Allgemeinwissen, ungeprüft), deshalb geht der Tipp schon Freitag raus.",
+     "Ins Blatt „Presse“: geplant 05.03., 09:00."
+    ],
+    "f": "die Event-Tipps an tip Berlin, Mit Vergnügen, iHeartBerlin und The Berliner für Fr 05.03., 09:00 geplant sind.",
+    "o": [
+     {"n": "tip Berlin", "u": "https://www.tip-berlin.de", "h": "Terminkontakt auf der Seite"},
+     {"n": "Mit Vergnügen", "h": "offizielle Seite per Suche öffnen, Kontakt aus dem Impressum"},
+     {"n": "iHeartBerlin", "u": "https://www.iheartberlin.de"},
+     {"n": "The Berliner", "u": "https://www.the-berliner.com"},
+     {"n": "Gmail", "u": "https://mail.google.com", "h": "Senden planen"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "17:00 · Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "Fünf Kommentare mit Inhalt bei Accounts aus deiner Nische: Denim, Stickerei, Berlin. Eine echte Frage oder Beobachtung, kein „nice“.",
+     "DMs beantworten, die neuen Textbausteine nutzen.",
+     "Jedes „Ja, ich bestelle“ ins Blatt „Die ersten 35“ (Spalte „Zusage“, mit Größe), jede Frage zur Bestellung als Strich im Blatt „Content“ (häufigste Frage für Gate G11)."
+    ],
+    "f": "fünf Kommentare stehen, alle DMs beantwortet sind und neue Zusagen im Blatt sind.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ Variante des besten Videos oder V117",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "TikTok-Analyse: bestes Video der letzten 14 Tage (V076–V084). ≥ 2 × Median Views nach 48 h und Teil-Rate über Median → Variante mit neuem Hook und neuem erstem Bild, gleicher Kern (Varianten-Regel).",
+     "Sonst V117: die häufigste Frage aus den Kommentaren dieser Woche mit Video beantworten (TikTok „mit Video antworten“).",
+     "18:00 auf TikTok, danach Reel und Short, CTA der Phase."
+    ],
+    "f": "die Variante oder V117 online ist.",
+    "v": {
+     "id": "V117",
+     "slot": "REACH",
+     "dauer": "15–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Replying to: [comment, max. 8 words]",
+     "hook_de": "Antwort auf: [Kommentar]",
+     "shots": ["Kommentar als Sticker", "Du antwortest in einem Take", "Ein Beweisbild (Maßband, Detail, Hangtag)"],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel",
+     "text": "Kommentar-Sticker, Untertitel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "You asked, here's the answer. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "check": "CTA der Phase, bei Herkunftsfragen die Standardantwort, nie diskutieren."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analyse → Inhalte"}
+    ]
+   }
+  ],
+  "2027-03-05": [
+   {
+    "c": "N",
+    "t": "09:00 · Der Event-Tipp Mess-Abend 3 geht geplant raus"
+   },
+   {
+    "c": "D",
+    "t": "09:30 · Freie Tage und Packhilfe planen; Drop-Abend Sa 24.04.?",
+    "m": 15,
+    "s": [
+     "Warenankunft (voraussichtlich Di 30.03. bis Fr 02.04.): zwei freie Tage zum Prüfen beantragen oder Schichten tauschen.",
+     "Vorbestellungen packen Di 06.–Mi 07.04. und Drop-Woche: Do 22.04. ab 17:00, Fr 23.04. ganz. Jetzt Urlaub beantragen.",
+     "Packhilfe: eine bis zwei Personen fragen, die am Fr 23.04. (und falls nötig Sa 24.04.) je 3 Stunden helfen. Bezahlung oder Gegenleistung vorher klar; Minijob oder kurzfristige Beschäftigung so, wie es der Steuerberater am 13.10. gesagt hat.",
+     "Drop-Abend Sa 24.04.: Ja nur, wenn Packen Tag 2 an die Helfer geht oder auf So 25.04. vormittags rückt. Sonst Nein (Rat aus Abschnitt 17).",
+     "Entscheidung, Helfer und freie Tage ins Blatt „Gates“. Bei Ja: am Fr 12.03. bestätigst du den Laden schriftlich."
+    ],
+    "f": "die freien Tage beantragt sind, mindestens eine Hilfe zugesagt hat und „Drop-Abend ja/nein“ im Blatt „Gates“ steht.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"},
+     {"n": "Google Kalender", "u": "https://calendar.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "10:00 · Countdown-Stand prüfen: Holzmarkt und Nowkoelln Flowmarkt",
+    "m": 15,
+    "s": [
+     "Beide Seiten unten öffnen. Prüfen: Termine in der Saison 2027 zwischen 29.03. und 18.04., Standpreis, Anmeldung, Frist. Steht nichts zu 2027: Link zur Anmeldung beim Veranstalter suchen und notieren „2027 offen“.",
+     "Regel: Nur wenn der Stand unter ~146 € kostet (= eine Vorbestellung). Teurer: streichen.",
+     "Passt ein Termin: anmelden und den Stand als Grind+ ins Blatt „Abende“ (Datum, Preis, Ort). Mitnehmen wäre dann: PP-Sample, QR-Aufsteller ?ref=p-markt, Maßband.",
+     "Entscheidung in einem Satz ins Blatt „Gates“."
+    ],
+    "f": "für beide Märkte Termin 2027 und Standpreis notiert sind (oder „offen“) und die Entscheidung im Blatt steht.",
+    "o": [
+     {"n": "Holzmarkt-Flohmarkt (berlin.de)", "u": "https://www.berlin.de/en/shopping/markets/flea-markets/9680476-2983302-holzmarkt-flohmarkt.en.html", "h": "Saison 2027 und Standpreis prüfen"},
+     {"n": "Nowkoelln Flowmarkt (berlin.de)", "u": "https://www.berlin.de/en/shopping/markets/flea-markets/1762126-2983302-nowkoelln-flowmarkt.en.html", "h": "Saison 2027 und Standpreis prüfen"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "11:00 · Website Schritt 15: Drop-Zustände (Schlüssel, Live, Ausverkauft)",
+    "m": 60,
+    "s": [
+     "Mac, Terminal im Theme-Ordner, `shopify theme dev` starten, Claude Code öffnen.",
+     "Prompt unten einfügen. Er ist der Prompt aus website.md Schritt 15, ergänzt um den Stufe-2-Knopf in der ZWISCHENZEIT.",
+     "Jeden Zustand mit dem Test-Link prüfen: ZWISCHENZEIT vor und nach So 04.04., 20:00 (Knopf „Vorbestellen · 169 € · Lieferung Anfang April“ erscheint bzw. verschwindet), SCHLÜSSEL mit `?t=2027-04-22T18:00:30+02:00&key=…`, LIVE mit `?t=2027-04-22T19:00:30+02:00`, AUSVERKAUFT mit „TT Test“ auf 0.",
+     "Am Handy, nicht nur am Mac. Ohne JavaScript: fester Text „Drop Do 22.04.2027, 19:00“ und Link zur Kollektion.",
+     "Stimmt alles: „passt“ an Claude Code, Commit. Die Tabelle aus dem Prompt in docs/TESTPLAN.md speichern."
+    ],
+    "f": "mit `?t=…18:00:30…&key=…` die Tür offen ist, ohne Schlüssel ein 60-Minuten-Countdown läuft, `?t=…19:00:30…` LIVE zeigt, „TT Test“ auf 0 AUSVERKAUFT zeigt und der Stufe-2-Knopf nach So 04.04., 20:00 weg ist.",
+    "p": "Projekt Time Travel, Docket W25, Fr 05.03., Website Schritt 15. Baue die Drop-Zustände. Halte dich an CLAUDE.md und docs/TERMINE.md.\n- ZWISCHENZEIT: Countdown „Drop in …“ bis tt_zeit_drop. Das Formular heißt „Hol dir den Schlüssel“ (ort=tt-huette), darunter: „Am 22.04. um 18:00 kommt dein Schlüssel per E-Mail. Damit bist du eine Stunde früher drin.“ Bis So 04.04.2027, 20:00 zeigt die ZWISCHENZEIT zusätzlich den Knopf „Vorbestellen · 169 € · Lieferung Anfang April“ zum Produkt tt_produkt_stufe2; danach nur „Hol dir den Schlüssel“. Lege die Frist als Einstellung in docs/TERMINE.md an.\n- SCHLUESSEL (18:00–19:00 und gültiger ?key=): Kopf „Die Tür ist offen“, Knopf zur Kollektion tt_kollektion. Ohne Schlüssel: Countdown bis 19:00 und Formular.\n- LIVE: Kopf zeigt die drei Produkte mit Preis und Link, darunter das Nummern-Raster, Shop-Button „Zum Shop“.\n- AUSVERKAUFT (data-tt-ausverkauft): „Alle 100 vergeben.“ Zipper und Polo weiter mit „auf Bestellung, Versand innerhalb von 3 Wochen“, Formular „Liste für den nächsten Drop“ (ort=tt-drop2).\n- Ohne JavaScript: fester Text „Drop Do 22.04.2027, 19:00“ und ein Link zur Kollektion.\nTeste jeden Zustand mit ?t= (auch ZWISCHENZEIT vor und nach dem 04.04., 20:00) und zeig mir eine Tabelle: Zustand | Test-Link | was ich sehen muss. Commit nach meinem „passt“.",
+    "o": [
+     {"n": "website.md · Schritt 15", "h": "Originalprompt"},
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "Theme „TT Story“, Produkt tt_produkt_stufe2"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V084 posten: DETAIL „Fäden nicht abschneiden“",
+    "m": 20,
+    "s": [
+     "17:55 W25/final/V084_final.mp4 in TikTok hochladen. Originalton, keine Musik oder sehr leise aus der Commercial Music Library. Caption unten, [Y] ersetzen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (DE-Zeile „Auf dem Pflegeetikett steht: Fäden nicht abschneiden.“) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Vorbestellung.",
+     "15 Min. Kommentare beantworten. Frage „Warum hängen da Fäden?“: Baustein „#pf“ (Pflege und Goldfäden) von gestern."
+    ],
+    "f": "V084 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V084",
+     "slot": "DETAIL",
+     "dauer": "8–12 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "The care label says: don't cut the threads.",
+     "hook_de": "Auf dem Pflegeetikett steht: Fäden nicht abschneiden.",
+     "shots": [
+      "Makro Pflegeetikett am PP-Sample, Text lesbar",
+      "Schnitt auf die Goldfäden, Seitenlicht vom Fenster",
+      "Hose wird auf links gedreht"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite (Gold und Stoffstruktur brauchen Streiflicht)",
+     "ton": "Originalton (Stoff). Keine Musik oder sehr leise",
+     "text": "0–2 s Hook EN, Untertitel, Endframe „Wash inside out.“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
+     "caption": "Wash inside out. Don't cut the threads. They're the moment. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #goldthread #novalifetimetravel",
+     "check": "Etikettentext wie Spec 3.7, „Fäden von Hand“ statt „handgestickt“, nie „fünf Ähren“, keine Seitenansicht links, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2027-03-06": [
+   {
+    "c": "V",
+    "t": "10:00 · Einladung Mess-Abend 3 (Sa 13.03.) an alle ohne Vorbestellung",
+    "m": 10,
+    "s": [
+     "Shopify → Marketing → Shopify Email → neue Mail an das Segment „abonniert, keine Bestellung“ (aus W20). Text mit dem Prompt unten. Versand heute 18:00 planen.",
+     "Persönliche DM (WhatsApp oder Instagram) an jede Zusage ohne Kauf aus „Die ersten 35“: „Am Sa 13.03. kannst du [Größe] anprobieren, 18–20 Uhr, [Ort].“",
+     "Link mit ?ref=mess3 und utm_source=mail. Ins Blatt „Abende“: eingeladen am 06.03., Zahl der DMs."
+    ],
+    "f": "die Mail für heute 18:00 geplant ist und jede Zusage ohne Kauf eine DM hat.",
+    "p": "Projekt Time Travel, Docket W25, Sa 06.03. Schreib mir eine kurze Einladung (Shopify Email, Deutsch, 60–80 Wörter, Betreff unter 45 Zeichen, Vorschautext, ein Button) zum Mess-Abend 3: Sa 13.03.2027, 18:00–20:00, [Ort, Adresse aus Blatt „Abende“]. Anprobieren, messen, vor Ort vorbestellen. Vorbestellpreis 149 € bis So 21.03., 20:00, ab 22.04. 169 €. Noch [Y] von 35. Link [mit ?ref=mess3]. Kein Druck, keine Knappheit, die nicht stimmt. Wortliste, nie „authentisch“.",
+    "o": [
+     {"n": "Shopify-Admin · Marketing → Shopify Email", "u": "https://admin.shopify.com", "h": "Segment „abonniert, keine Bestellung“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Die ersten 35“, „Abende“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "12:00 · V085 ASK-Story „Paket“",
+    "m": 10,
+    "s": [
+     "Instagram → Story → Foto: zwei Verpackungsmuster nebeneinander (was du vom Probepaket hast, z. B. Seidenpapier oder Stoffbeutel).",
+     "Umfrage-Sticker: „Which packaging should your pair arrive in?“ mit den zwei Antworten. DE-Zeile klein darunter: „In welcher Verpackung soll dein Paar ankommen?“",
+     "Link-Sticker auf die Vorbestellung.",
+     "Abends Ergebnis ins Blatt „Content“. Gewinner setzt du um, wenn er unter 1 € pro Paket kostet."
+    ],
+    "f": "die Story mit Umfrage und Link-Sticker online ist und das Ergebnis abends im Blatt steht.",
+    "v": {
+     "id": "V085",
+     "slot": "ASK",
+     "dauer": "1 Frame",
+     "plattform": "Instagram-Story (optional TikTok-Story)",
+     "hook_en": "Which packaging should your pair arrive in?",
+     "hook_de": "In welcher Verpackung soll dein Paar ankommen?",
+     "shots": ["Frame 1: zwei Verpackungsmuster auf dem Tisch, Umfrage-Sticker, Link-Sticker"],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "Umfrage-Sticker, DE-Zeile klein",
+     "cta": "Link-Sticker auf die Vorbestellung",
+     "caption": "(Story) Which packaging should your pair arrive in? Vote.",
+     "check": "Kein roter Hintergrund, keine Streifen in den gesperrten Farbpaaren, Link-Sticker gesetzt."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story, Umfrage- und Link-Sticker"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "14:00 · Website Schritt 16: „Der Weg zur Hütte“",
+    "m": 90,
+    "s": [
+     "Entfällt, wenn du am Fr 05.02. „bauen“ entschieden hast (dann ersetzt das Spiel diese Section). Sonst jetzt.",
+     "Terminal im Theme-Ordner, `shopify theme dev`, Claude Code öffnen, Prompt unten einfügen (aus website.md Schritt 16).",
+     "Am Handy prüfen: Feld zieht beim Scrollen vorbei, drei Stationen bei 20 %, 45 % und 70 %, am Ende die Hütte mit dem Teppich.",
+     "iPhone: Einstellungen → Bedienungshilfen → Bewegung → „Bewegung reduzieren“ an. Dann müssen es vier feste Bilder sein.",
+     "Flaggen-Check muss 0 Treffer melden (kein Blau, nie Blau über Gelb). Danach budget-check, „passt“, Commit."
+    ],
+    "f": "am Handy das Feld beim Scrollen vorbeizieht, die drei Stationen und die Hütte erscheinen, mit „Bewegung aus“ vier feste Bilder stehen und der Flaggen-Check 0 Treffer meldet.",
+    "p": "Projekt Time Travel, Docket W25, Sa 06.03., Website Schritt 16. Baue sections/tt-feld-scroll.liquid: „Der Weg zur Hütte“. Halte dich an CLAUDE.md (Palette, Flaggen-Regel, Budget).\n1. Zeichne SVG-Silhouetten in der Palette: assets/tt-feld-himmel.svg (Sonnenuntergang in 5 harten Stufen T01–T05, Sonne T06, KEIN Blau), tt-feld-huegel.svg (T07), tt-feld-huette.svg (Tür zu und Tür offen als zwei Gruppen mit id), tt-feld-weizen-hinten.svg und tt-feld-weizen-vorn.svg (Ähren T08/T09, Lichtkante T10), tt-feld-stationen.svg (Vogelscheuche, Zaun, Wäscheleine als Umriss). Zusammen höchstens 25 KB.\n2. Ein Bereich mit position: sticky, 400svh hoch. Beim Scrollen verschieben sich die Ebenen seitwärts mit den Faktoren Himmel 0 · Hügel 0,2 · Hütte 0,5 · Weizen hinten 0,8 · Weizen vorn 1,15. Nur transform, requestAnimationFrame, passive Scroll-Listener. Kein CSS animation-timeline, kein GSAP.\n3. Bei 20 %, 45 % und 70 % erscheint je eine Stations-Karte (die Blöcke „station“ aus Schritt 14), gesteuert mit IntersectionObserver. Bei 100 % die Hütte: Tür je Zustand aus tt-clock.js zu oder offen; darunter Foto des Teppichs und die drei Teile.\n4. Bei „Bewegung aus“ oder prefers-reduced-motion: keine Bewegung, vier feste Bilder untereinander.\n5. Lege tools/flaggen-check.mjs an (Node, ohne Pakete; liest bei SVG die Farben aus fill, stroke und stop-color): Alarm bei Farbton 180–250°, Sättigung über 25 % und Helligkeit über 45 %. Führ ihn aus.\n6. Die Section bleibt bis tt_zeit_feld_oeffentlich (29.03., 18:00) ausgeblendet, außer im Testmodus mit ?t=.\nDanach budget-check. Commit nach meinem „passt“.",
+    "o": [
+     {"n": "website.md · Schritt 16", "h": "Originalprompt, entfällt bei „bauen“"},
+     {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "Theme „TT Story“"}
+    ]
+   }
+  ],
+  "2027-03-07": [
+   {
+    "c": "A",
+    "t": "10:00 · Wochenreview W25 + Cockpit + Zeile an Claude",
+    "m": 20,
+    "s": [
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, src- und ref-Tags zählen (p-tip, p-denimhunters usw. sind neu). Views und Anmeldungen je 1.000 Views ins Blatt „Content“.",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (Shopify → Bestellungen, bezahlt).",
+     "Kassencheck K − F − R im Blatt „Kasse“: grün ≥ 300 € · gelb (0–300 €) → keine Ausgaben außerhalb von Plan 3 · rot (< 0) → Ausgaben-Stopp-Liste, Notfall-Leiter (G12).",
+     "G1: Liste unter Alarm 880 → Netz-Runde bis Mi, „Bring 3“-Story, Abend in 14 Tagen (Mess-Abend 3 steht), Claude die 3 schwächsten Videos zeigen · G2: unter Soll 2.450 → bestes Video in 2 Varianten, Kommentar-Zeit 15′ · G3: < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G4: Anmeldequote < 6,6 % zwei Sonntage in Folge → echtes Foto oben, nur E-Mail Pflicht.",
+     "G5: Video ≥ 2 × Median und Teil-Rate über Median → 5 Varianten in 14 Tagen · G6: 3 schwache im selben Slot → Slot 2 Wochen ersetzen · G7: ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“ → danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild · G8: ≥ 3 Folklore-Kommentare → erst Totale im Streetwear-Outfit · G9: > 70 % warm → 3 neue Hooks.",
+     "G10: Vorbestellungen unter Alarm 21 → persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zu Mess-Abend 3 · G11: Produktseiten-Conversion < 1,3 % bei ≥ 300 Sitzungen (Shopify → Analysen) → häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis.",
+     "Zeile an Claude (Prompt unten)."
+    ],
+    "f": "die vier Cockpit-Zahlen stehen, die Gates G1–G12 geprüft sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W25, So 07.03. W25: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Vorbestellungen bezahlt [N], ausgezahlt [N], Inline-Fotos 2 [ok/Befund], Versandweg [gewählt], Probepaket [Min., g], Presse-Welle 2 [7 raus, Antworten], Drop-Abend 24.04. [ja/nein], Countdown-Stand [ja/nein]. Offen aus W25: [..]. Sag mir, was ich in W26 vor dem Gate am So 14.03. (≥ 29, absehbar 32 ausgezahlt bis Di 16.03.) zuerst tun soll.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Zahlen-Cockpit, „Content“, „Kasse“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "10:20 · Gate: Vorbestellungen ≥ 21, Inline-Fotos 2, Rücklage, Stufe 2",
+    "m": 10,
+    "s": [
+     "Vorbestellungen ≥ 21 (Soll 26)? Darunter: Notfall-Leiter Stufe 1, persönliche DM an alle Zusagen und „Vielleicht“, Mess-Abend 3 doppelt bewerben.",
+     "Inline-Fotos 2 da und geprüft? Sonst Montag Call mit der Fabrik, Liefertermin schriftlich bestätigen lassen.",
+     "Steuer-Rücklage im Blatt „Kasse“ vorhanden? Fehlt sie: Kampagne 1 streichen (keine Werbung ab 09.03. außer Vorbereitung).",
+     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Shopify → Produkte → Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf (Shopify Email, Segment „abonniert, keine Bestellung“), Story mit Link-Sticker.",
+     "Alle vier Ergebnisse ins Blatt „Gates“."
+    ],
+    "f": "alle vier Prüfungen mit Ergebnis im Blatt „Gates“ stehen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Gates“, „Kasse“"},
+     {"n": "Shopify-Admin · Produkte", "u": "https://admin.shopify.com", "h": "Stufe-2-Entwurf vom 14.12."}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "15:30 · Content-Batch W26: V086–V090 drehen, bauen, schneiden",
+    "m": 80,
+    "s": [
+     "Ordner „W26“ mit „roh“ und „final“ anlegen. Kamera 9:16, Licht von vorn bzw. Fensterlicht von der Seite, je Shot 3 Takes. Reihenfolge nach Orten: erst Schreibtisch zu Hause, dann Tempelhofer Feld zum Sonnenuntergang.",
+     "Schreibtisch 1 · V086 BUILD „Fast fertig“: Inline-Fotos der Fabrik (nur mit schriftlicher Erlaubnis vom 01.03.) auf Laptop oder ausgedruckt, deine Prüf-Notizen daneben, du sagst einen Satz zum Befund. Bei TR-Fabrik der Satz: „The factory is closed this week for the holiday. Planned since January.“",
+     "Schreibtisch 2 · V088 REACH „So wird verpackt“: Zeitraffer vom 03.03. aus „W26/roh“ nehmen; fehlt der Klebeband-Moment, Paket-Zu-Shot mit Originalton (ASMR) nachdrehen.",
+     "Schreibtisch 3 · V087 ORIGIN Karussell „Für alle Neuen“ (7 Slides, 4:5 oder 9:16) in CapCut oder Canva bauen: Shoot-Bilder vom 20.02. und Makros. Slides: 1 Hook · 2 das Teil (B und B2 nie zusammen) · 3 Goldfäden · 4 ehrliche Größen · 5 Preis und Termine · 6 Warteliste und Vorbestellung · 7 CTA.",
+     "Schreibtisch 4 · V090 ASK: Story-Hintergrund (Shoot-Foto) für Sa 13.03. speichern; Countdown- und Link-Sticker setzt du erst am Samstag.",
+     "Tempelhofer Feld · V089 DETAIL „Gold im Licht“: 20 Min. vor Sonnenuntergang da sein (Öffnungszeiten vor Ort prüfen). Gegenlicht, Goldfäden im Wind, Makro Ähren, Person geht aus dem Bild. Himmel orange oder violett, nie Blau über Gelb. Bei Regen: zu Hause Makro der Ähren im Halbdunkel, Handylampe wandert darüber.",
+     "Schneiden in CapCut: Hook als Text in die ersten 2 Sekunden, Untertitel automatisch, keine Musik einbacken. Export nach „W26/final/V0xx_final.mp4“. Am Posttag wird nichts mehr gedreht."
+    ],
+    "f": "V086, V088, V089 als Video, V087 als 7 Slides und der V090-Hintergrund in „W26/final“ liegen.",
+    "v": {
+     "id": "V089",
+     "slot": "DETAIL",
+     "dauer": "6–10 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Gold thread at golden hour.",
+     "hook_de": "Goldfaden zur goldenen Stunde.",
+     "shots": [
+      "Gegenlicht im Sonnenuntergang, Goldfäden schwingen (Hosenbein nah, Kamera tief)",
+      "Makro Ähren mit Goldfaden, Sonne als Streiflicht",
+      "Totale: Person geht aus dem Bild, Horizont orange"
+     ],
+     "ort": "Berlin · Tempelhofer Feld bei Sonnenuntergang (Öffnungszeiten vor Ort prüfen); Ausweich: Wohnung, Halbdunkel, Handylampe",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library erst in der App, im Schnitt nur Originalton",
+     "text": "0–2 s Hook EN, Untertitel, sonst nichts",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "Nine threads, one sunset. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #goldthread #novalifetimetravel",
+     "check": "Himmel orange oder violett, nie hellblauer Himmel über gelbem Weizen, keine Sichel, keine Seitenansicht links, nie „fünf Ähren“."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "keine Musik einbacken"},
+     {"n": "Tempelhofer Feld", "h": "Öffnungszeiten und Sonnenuntergang vor Ort prüfen"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ Variante des besten Videos oder V117",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Bestes Video der letzten 14 Tage (V076–V084): ≥ 2 × Median nach 48 h und Teil-Rate über Median → Variante mit neuem Hook und neuem erstem Bild.",
+     "Sonst V117 auf eine Frage zu Lieferung, Größe oder Verpackung.",
+     "18:00 TikTok, danach Reel und Short, CTA der Phase."
+    ],
+    "f": "die Variante oder V117 online ist.",
+    "v": {
+     "id": "V117",
+     "slot": "REACH",
+     "dauer": "15–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Replying to: [comment, max. 8 words]",
+     "hook_de": "Antwort auf: [Kommentar]",
+     "shots": ["Kommentar als Sticker", "Antwort in einem Take", "Beweisbild (Probepaket, Maßband, Detail)"],
+     "ort": "Wohnung · Schreibtisch",
+     "ton": "O-Ton + Untertitel",
+     "text": "Kommentar-Sticker, Untertitel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "caption": "You asked, here's the answer. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "check": "CTA der Phase, Standardantwort bei Herkunftsfragen."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"}
+    ]
+   }
+  ]
+ }
+}

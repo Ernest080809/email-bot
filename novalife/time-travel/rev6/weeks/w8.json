@@ -1,0 +1,688 @@
+{
+ "n": 8,
+ "phase": "P1",
+ "goal": "Entwicklung bezahlen, Dateien an die Fabrik, Farbe und Namen endgültig",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "210 bestätigt (Alarm 80)"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~630 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)", "ziel": "10"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Spec Rev. 14", "ziel": "bis So 08.11. bei Claude"}
+ ],
+ "days": {
+  "2026-11-02": [
+   {
+    "c": "B",
+    "t": "09:00 · Proforma prüfen und Entwicklung bezahlen (nur grün/gelb)",
+    "m": 30,
+    "s": [
+     "Erst das Ergebnis der Validierung vom So 01.11. ansehen: Ampel grün (≥ 150) oder gelb (50–149)? Bei rot (< 50) heute nicht zahlen, B-Zeitachse 1 gilt, und du schreibst der Fabrik nur, dass sich der Start verschiebt.",
+     "Proforma Zeile für Zeile prüfen: Digitizing, gewaschene Stickproben, Proto W32 komplett, Expressversand. Summe gegen den Plan aus Rev. 5.3 (Digitizing 320 €, Stickproben 150 €, Proto 180 €) und gegen die Zeile im Blatt „Kasse“. Abweichung über 10 %: erst nachfragen, dann zahlen.",
+     "Kontodaten vergleichen: IBAN und Empfänger müssen genau denen aus der ersten Proforma entsprechen. Neue Bankverbindung per Mail = nicht zahlen, die Fabrik anrufen (Nummer aus dem Blatt „Fabriken“, nie aus der neuen Mail).",
+     "Banking-App → Überweisung (bei Türkei: Auslandsüberweisung in EUR). Verwendungszweck: Proforma-Nummer + „Novalife NVL-TT-01 development“.",
+     "Die Überweisung ist dein Test für das Ausland. Ins Blatt „Kasse“: Betrag, Gebühr deiner Bank, Datum der Überweisung. Spalte „Gutschrift“ bleibt offen, bis die Fabrik den Eingang bestätigt; dann die Tage bis zur Gutschrift eintragen.",
+     "Zahlungsbeleg als PDF an die Fabrik: „Payment for proforma [Nr.] sent today. Please confirm receipt.“ Beleg ins Blatt „Ausgaben“."
+    ],
+    "f": "die Entwicklung (nur bei grün/gelb) aufs Konto aus der ersten Proforma bezahlt ist, der Beleg an der Fabrik liegt und Gebühr und Datum im Blatt „Kasse“ stehen.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Kasse“, „Ausgaben“, „Fabriken“"},
+     {"n": "Deine Banking-App", "h": "Auslandsüberweisung, Gebühr notieren"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "15:00 · Werkstatt-Mail 1 an die Liste: Ergebnis der Validierung",
+    "m": 15,
+    "s": [
+     "Prompt unten in einen neuen Chat im Projekt „novalife time travel“ einfügen, Zahlen vom So 01.11. einsetzen.",
+     "Shopify-Admin → Marketing → Kampagnen → Kampagne erstellen → Shopify Email (Menüpfad vor Ort prüfen). Einfache Text-Vorlage, kein Banner.",
+     "Empfänger: Segment „E-Mail-Abonnenten“ (nur bestätigte). Betreff und Text von Claude einfügen.",
+     "Ein Papierfoto einsetzen (Papiertest an der Hose oder das Raster). Kein fertiges Teil, kein Mockup.",
+     "Link zur Seite mit utm_source=email (Schema vom 10.10.). Testmail an dich, am Handy lesen, Tippfehler und Link prüfen.",
+     "Senden oder für 19:00 terminieren. Mit „Werkstatt“-Schalter im Kopf: Sie bekommt künftig alle 2–4 Wochen so eine Mail."
+    ],
+    "f": "die Werkstatt-Mail 1 an das Segment „E-Mail-Abonnenten“ raus oder terminiert ist und die Testmail am Handy korrekt aussah.",
+    "p": "Projekt Time Travel, Docket W8, Mo 02.11. Schreib mir die Werkstatt-Mail 1 an meine Warteliste (Shopify Email, Deutsch, Du-Form, höchstens 150 Wörter, ein Betreff plus eine Alternative).\nInhalt: Was die Validierung am So 01.11. ergeben hat: Liste [X] bestätigt, [Y] Zusagen für die ersten 35, Ampel [grün/gelb]. Was als Nächstes kommt: Entwicklung ist bezahlt, die Fabrik bekommt diese Woche die Dateien, Stickproben Mitte November, Proto Anfang Dezember. Ein Papierfoto ist dabei.\nRegeln: Subjekt ist das Muster, nie „authentisch“, Wortliste (Time Travel, Kreuzstich-Band, Achtstern, „Das Feld danach“), kein fertiges Teil. Schluss mit dem CTA: „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ und der Bitte, die Mail an eine Person weiterzuleiten, die Jeans liebt.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Marketing → Kampagnen → Shopify Email; Kunden → Segmente"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V010 posten: BUILD Day 22 „Die Fabrik steht“",
+    "m": 20,
+    "s": [
+     "Fabrikname und Fabrikbilder nur, wenn die Fabrik schriftlich zugestimmt hat. Sonst nur Land als Text, Fenster im Call verpixelt.",
+     "Zahlen in der Caption gegen das Blatt „Fabriken“ prüfen ([X] Anfragen, [Y] Calls) und einsetzen.",
+     "17:55 W08/final/V010_final.mp4 in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, leise unter deiner Stimme. Caption einfügen.",
+     "18:00 posten. Gleich danach dieselbe Datei als Reel auf Instagram (Caption plus DE-Zeile „Tag 22: Ich habe mich für eine von acht Fabriken entschieden.“) und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story, Link-Sticker auf die Warteliste.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden. Kritik nie löschen. Frage nach dem Land: Land nennen, Name erst mit Erlaubnis."
+    ],
+    "f": "V010 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V010",
+     "slot": "BUILD",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 22: I picked one factory out of eight.",
+     "hook_de": "Tag 22: Ich habe mich für eine von acht Fabriken entschieden.",
+     "shots": [
+      "Call-Screen: nur dein Gesicht, Fabrikfenster verpixelt (Name/Bild nur mit schriftlicher Erlaubnis)",
+      "Bewertungsraster auf Papier: 5 Kriterien × 3 Fabriken, Punkte, Finger auf der Gewinnerzeile",
+      "Land als Text, kein Name",
+      "Du in die Kamera: „Next: samples.“"
+     ],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), dazu Gesicht und Hände am Schreibtisch, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s Hook EN, Untertitel, Einblendung „[Land]“, Endkarte „Next: samples.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 22. [X] requests, [Y] video calls, 1 factory. My criteria: denim and panel embroidery in-house, photos of past work, 50/50 payment, dates in writing. Name and photos once they say yes. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Nur Prozess und Papier, kein fertiges Teil, Fabrikname nur mit Erlaubnis, kein „wir“, nie „authentisch“, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+    ]
+   }
+  ],
+  "2026-11-03": [
+   {
+    "c": "B",
+    "t": "09:00 · Dateien an die Fabrik, Shade Card und 3 Lab Dips anfordern",
+    "m": 45,
+    "s": [
+     "Paket zusammenstellen: Tech Pack (aktuelle Version mit allen Antworten aus den Calls), Druckvorlagen 1:1, SVG der Elemente, Referenzfotos (Wash Reference Sheet), Freeze-Zettel. Gilt der Farbvorbehalt B/B2 noch: Satz „final colours B/B2 confirmed by 08.11.“ dazu.",
+     "Fehlt die Tech-Pack-Fassung mit den Call-Antworten: Prompt unten an Claude, dann erst senden.",
+     "Mail an die Fabrik (Novalife-Adresse, eine Mail, Anhänge als ZIP falls über 20 MB): Proto W32, Garnfarben werden an den Stickproben entschieden, bitte jedes Element in den vorgeschlagenen Farben sticken und die Garnnummern nennen.",
+     "Anfordern: Shade Card des Stoffs und 3 Lab Dips (Ziel, heller, dunkler) mit L*-Werten, gemessen von der Fabrik. Ziel L* 34–40, Toleranz ±2 (Spec 2.2). Ein eigenes Messgerät gibt es nicht; dein Werkzeug ist der freigegebene Stofflappen bei Tageslicht.",
+     "Termine schriftlich bestätigen lassen: Digitizing-Vorschau bis Mo 09.11., Stickproben-Fotos und Versand bis Mo 16.11., Proto-Versand bis 30.11.",
+     "Fragen, ob du die Digitizing-Vorschau als Bildschirmaufnahme zeigen darfst (für V013 am 09.11.).",
+     "Im Blatt „Fabriken“: Dateien gesendet am 03.11., Uhrzeit. Ab jetzt zählt die Uhr für das Gate „Antwort in ≤ 3 Werktagen“ (So 08.11.)."
+    ],
+    "f": "die Fabrik alle Dateien hat, Shade Card und 3 Lab Dips mit L*-Werten angefordert sind und das Sendedatum im Blatt „Fabriken“ steht.",
+    "p": "Projekt Time Travel, Docket W8, Di 03.11. Mach mir aus dem aktuellen Tech Pack die nächste Fassung mit diesen Antworten aus den Fabrik-Calls: [Antworten]. Ergänze: Lab Dips (Ziel, heller, dunkler) mit L*-Werten, Ziel L* 34–40 ±2 (Spec 2.2), Shade Card, Freeze-Zettel als Anhang, Termine (Digitizing-Vorschau 09.11., Stickproben bis 16.11., Proto-Versand bis 30.11.). Exportiere die Elemente als SVG in Originalgröße und schreib mir die Begleitmail auf Englisch (höchstens 150 Wörter).",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "12:00 · Story 7: Umfrage „Was zuerst?“ Jeans · Zipper · Polo",
+    "m": 5,
+    "s": [
+     "Strichzeichnung der drei Teile auf Papier (schwarzer Stift, kein Muster, kein Mockup) von oben fotografieren.",
+     "Instagram → Story → Foto → Umfrage-Sticker: „What first?“ mit drei Optionen Jeans · Zipper · Polo.",
+     "Link-Sticker auf die Warteliste darunter.",
+     "Ergebnis am So ins Blatt „Content“ (Story-Umfragen)."
+    ],
+    "f": "Story 7 mit Umfrage und Link-Sticker online ist.",
+    "v": {
+     "id": "Story 7",
+     "slot": "ASK",
+     "dauer": "1 Story",
+     "plattform": "Instagram Story",
+     "hook_en": "What first?",
+     "hook_de": "Was zuerst?",
+     "shots": ["Strichzeichnung Jeans, Zipper, Polo nebeneinander, Draufsicht"],
+     "ort": "Wohnung · Schreibtisch, Tageslicht",
+     "ton": "kein Ton",
+     "text": "„What first?“ + Umfrage Jeans · Zipper · Polo",
+     "cta": "Link-Sticker: join the list",
+     "caption": "What first? Jeans · Zipper · Polo. Link: join the list.",
+     "check": "Nur Strichzeichnung, kein Mockup, kein fertiges Teil."
+    },
+    "o": [{"n": "Instagram", "u": "https://www.instagram.com", "h": "Story, Umfrage- und Link-Sticker"}]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin). Ein echter Satz zur Sache, kein „nice“.",
+     "Alle DMs beantworten.",
+     "Jedes „Ja, ich bestelle am 14.01.“ mit Größe ins Blatt „Die ersten 35“, Bereich „Zusage“. Alles ohne Größe oder Datum unter „Vielleicht“."
+    ],
+    "f": "5 Kommentare geschrieben, keine DM offen, neue Zusagen eingetragen.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ · V110 Karussell „Achtstern“ (nur mit Beleg)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Belegtabelle v1.0 öffnen: Hat der Achtstern eine Zeile mit Quelle, Region und Abbildung für „Sonne“? Nein → statt V110 eine Variante deines besten Videos (neuer Hook, neues erstes Bild, gleicher Kern).",
+     "4 Slides in CapCut oder Canva im Format 9:16: Hook, leeres Raster 27 × 27, Stern halb gezeichnet, Stern fertig + Warteliste.",
+     "18:00 auf TikTok als Photo Mode, auf Instagram als Karussell. Musik nur aus der Business-Bibliothek.",
+     "In die Story mit Link-Sticker, 5 Min. Kommentare."
+    ],
+    "f": "V110 (oder die Variante) auf TikTok und Instagram online ist.",
+    "v": {
+     "id": "V110",
+     "slot": "Grind+",
+     "dauer": "4 Slides",
+     "plattform": "TikTok Photo Mode + Instagram Karussell",
+     "hook_en": "Eight points, one sun. Save this.",
+     "hook_de": "Acht Zacken, eine Sonne. Speicher dir das.",
+     "shots": ["Slide 1 Hook", "Slide 2 Raster 27 × 27 leer", "Slide 3 Stern halb gezeichnet", "Slide 4 Stern fertig + „Link in bio“"],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App",
+     "text": "Slide 1 Hook EN, Slide 4 CTA",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "In many textile traditions the eight-point star stands for the sun. Mine: 27 × 27 cross-stitches. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "„Achtstern“, nie „Alatyr“; keine Haken- oder Drehformen; Bedeutung nur mit Beleg."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2026-11-04": [
+   {
+    "c": "A",
+    "t": "09:00 · Labels, Hangtag-Karte „Bedeutung innen“, Patch-Datei bei Claude",
+    "m": 15,
+    "s": [
+     "Belegtabelle v1.0 danebenlegen: Auf die Hangtag-Karte kommen nur Motive mit Beleg. Motive ohne Beleg bekommen nur Name und Maß.",
+     "Prompt unten an Claude senden.",
+     "Nackenlabel für Zipper und Polo mit Novalife-Adresse (Entscheidung vom 09.10.).",
+     "Patch-Datei mit Lasche: für den Label-Patch am Bund, damit der Anbieter am 13.11. bestellen kann.",
+     "Morgen (Do) prüfst du Claudes Entwürfe und gibst sie frei."
+    ],
+    "f": "der Prompt abgeschickt ist und Claude die Entwürfe bis Do früh liefern kann.",
+    "p": "Projekt Time Travel, Docket W8, Mi 04.11. Entwirf für NVL-TT-01 druckfertig mit Maßen:\n1 gewebtes Hauptlabel (Bund innen hinten), 2 Größenlabel W30–W38, 3 EU-Pflegeetikett (100 % Baumwolle; 30 °C, auf links, nicht in den Trockner, Fäden nicht abschneiden; Herkunftsland [Land]; GPSR-Herstellerangabe mit Novalife-Adresse), 4 Hangtag mit Stücknummer 001–100, 5 Hangtag-Karte „Bedeutung innen“: je Motiv Name nach Wortliste (Kreuzstich-Band, Achtstern, Lebensbaum, „Das Feld danach“), Maß, Stichzahl und eine Zeile Bedeutung NUR für Motive mit Beleg in der Belegtabelle v1.0: [Motive mit Beleg], 6 Nackenlabel für Zipper und Polo mit Novalife-Adresse, 7 Patch-Datei mit Lasche für den Label-Patch am Bund (86 × 76 mm laut Spec, Lasche zum Annähen).\nRegeln: nie „authentisch“, Lebensbaum nie „slawisch“, „entworfen in Berlin“ statt „Made in Berlin“, Länder nur alphabetisch. Liefere PDF und SVG.",
+    "o": [{"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}]
+   },
+   {
+    "c": "V",
+    "t": "10:00 · Hochschul-Mails H1 an HTW, ESMOD, AMD, Weißensee",
+    "m": 30,
+    "s": [
+     "Je Hochschule die offizielle Website öffnen (selbst googeln, nur die Domain der Hochschule) und den Studiengang Mode/Modedesign plus Kontaktstelle suchen: Studiengangskoordination, Career Service oder Stellenbörse. Nie Adressen aus Verzeichnissen.",
+     "HTW Berlin (Modedesign) · ESMOD Berlin · AMD Akademie Mode & Design (Charlottenburg) · Kunsthochschule Weißensee. Die UdK nur, wenn du dort selbst eine Kontaktstelle findest (ungeprüft).",
+     "Mail H1 je Hochschule einzeln, Betreff „Praxisfall Jeans-Produktion: Angebot für Studierende“. Drei Angebote: 20-Minuten-Einblick ins Seminar (Papiertest bis Tech Pack), zwei offene Abende (Stick-Abend Fr 27.11., Mess-Abende im Januar), bezahlte Mithilfe im März und April (Warenprüfung, Packen). Frage: Darf ich aushängen oder in die Stellenbörse, und wie ist der richtige Weg?",
+     "Siezen, Absender Novalife-Adresse, Signatur mit Website.",
+     "Im Blatt „Netz“ einen Bereich „Hochschulen“: Name, Kontaktstelle (URL), gesendet am, Antwort. Später bekommt jede Hochschule ihr Kürzel ?ref=h-[kürzel]."
+    ],
+    "f": "4 Mails H1 an Kontaktstellen von den offiziellen Websites raus sind und im Blatt stehen.",
+    "o": [
+     {"n": "HTW Berlin · Modedesign (Sekundärquelle)", "u": "https://www.mygermanuniversity.com/de/universities/HTW-Berlin-University-of-Applied-Sciences/subject/fashion-design", "h": "nur zur Orientierung, Kontakt von der offiziellen HTW-Website"},
+     {"n": "tip Berlin · „Modemacher werden in Berlin“", "u": "https://www.tip-berlin.de/allgemein/modemacher-werden-in-berlin/", "h": "Überblick der Hochschulen, Kontakte selbst auf den offiziellen Seiten suchen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Netz“, Bereich „Hochschulen“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V011 posten: ORIGIN „Der Achtstern“",
+    "m": 20,
+    "s": [
+     "Vorher Belegtabelle: Achtstern mit Beleg für „Sonne“? Ja → Hook unten. Nein → Hook B „27 by 27 stitches. One star. Zero curves.“ und die Caption ohne Bedeutungssatz. Ganz ohne Beleg und ohne Hook B: V011 in die Reserve, Variante deines besten Videos posten.",
+     "17:55 W08/final/V011_final.mp4 in TikTok hochladen (Business-Konto), Musik höchstens leise aus der Commercial Music Library. Caption einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Dieser Achtstern steht für die Sonne.“) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare. Bei „Ist das russisch?“: „The pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“ Wer „Alatyr“ schreibt: danken, nicht übernehmen."
+    ],
+    "f": "V011 (oder die Reserve-Variante) auf TikTok, Instagram und YouTube online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V011",
+     "slot": "ORIGIN",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This eight-point star stands for the sun.",
+     "hook_de": "Dieser Achtstern steht für die Sonne.",
+     "shots": [
+      "Zeitraffer: Hand zeichnet den Stern Kästchen für Kästchen (27 × 27)",
+      "Makro auf die Mitte (ungerade Zahl = echte Mitte)",
+      "Papierstück auf der rechten Gesäßtasche",
+      "Text: „right back pocket“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Originalton (Papier, Stift). Keine Musik oder sehr leise",
+     "text": "0–2 s Hook EN, „27 × 27 · 36 mm“, „right back pocket“, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "In many textile traditions the eight-point star stands for the sun. Mine is 27 × 27 cross-stitches, 36 mm, only straight lines and diagonals. Odd numbers, so it has a true centre. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #embroidereddenim #novalifetimetravel",
+     "check": "Außen „Achtstern“/„eight-point star“, nie „Alatyr“; Bedeutung nur mit Beleg; keine Haken- oder Drehformen; nur Papier; keine Seitenansicht links."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "19:00 · Website Schritt 2: Theme-Kopie, Git, GitHub",
+    "m": 45,
+    "s": [
+     "Terminal im Ordner ~/Claude/Novalife/website: shopify theme list --store DEIN-SHOP (DEIN-SHOP = Teil vor .myshopify.com). Beim ersten Mal öffnet sich der Browser zum Einloggen. ID des Themes mit der Rolle „live“ notieren.",
+     "shopify theme duplicate --theme <ID> --name „TT Story“ --store DEIN-SHOP. Meldet Shopify „Maximum number of themes reached“: alte Test-Themes im Admin unter Onlineshop → Themes löschen (Höchstzahl ungeprüft).",
+     "mkdir tt-theme, hineinwechseln, shopify theme pull --theme „TT Story“ --store DEIN-SHOP.",
+     "git init, git add -A, git commit -m „Ausgangsstand TT Story“.",
+     "claude starten und den Prompt unten geben. Vor jedem Push fragt Claude Code dich.",
+     "Notieren, welches Theme du hast (Dawn, Horizon oder ein anderes)."
+    ],
+    "f": "der erste Commit in einem privaten GitHub-Repo „novalife-tt-theme“ liegt und du weißt, welches Theme du hast.",
+    "p": "Projekt Time Travel, Docket W8, Website Schritt 2. Dieser Ordner ist eine Kopie meines Shopify-Themes. In Shopify heißt sie „TT Story“ und ist NICHT veröffentlicht.\n1. Lies config/settings_schema.json und sag mir: Welches Theme ist das (Name, Version)?\n2. Lege eine .gitignore an mit: node_modules/, .DS_Store, .env, *.log.\n3. Lege eine .shopifyignore an, die CLAUDE.md, docs/ und tools/ vom Hochladen zu Shopify ausschließt.\n4. Hilf mir, dieses Repo als PRIVATES GitHub-Repo „novalife-tt-theme“ zu sichern. Erklär jeden Schritt in einem Satz, bevor du ihn ausführst, und frag mich vor jedem Push.\nLade nichts zu Shopify hoch. Commit am Ende: „gitignore und shopifyignore“.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Themes"},
+     {"n": "GitHub", "u": "https://github.com", "h": "privates Repo „novalife-tt-theme“"},
+     {"n": "Shopify CLI (npm)", "u": "https://registry.npmjs.org/@shopify/cli", "h": "Node ≥ 22.12.0"}
+    ]
+   }
+  ],
+  "2026-11-05": [
+   {
+    "c": "A",
+    "t": "09:00 · Labels freigeben und an die Fabrik",
+    "m": 30,
+    "s": [
+     "Claudes Entwürfe prüfen: Material „100 % Baumwolle“, Pflegesymbole in der Reihenfolge Waschen, Bleichen, Trocknen, Bügeln, Reinigung; Herkunftsland; GPSR-Herstellerangabe mit Novalife-Adresse; Stücknummer auf dem Hangtag.",
+     "Hangtag-Karte: steht bei jedem Motiv mit Bedeutungssatz eine Zeile in der Belegtabelle? Sonst Satz streichen. Wortliste und „entworfen in Berlin“ prüfen.",
+     "An die Fabrik: Hauptlabel, Größenlabel, Pflegeetikett. Fragen: Macht ihr die Labels selbst, zu welchem Preis? Gravierter Knopf „NOVALIFE“ 17 mm Antik-Messing: MOQ und Preis?",
+     "Hangtags und Hangtag-Karte druckst du selbst später, sie gehen nicht an die Fabrik.",
+     "Nackenlabel Zipper/Polo in den Ordner für die Berliner Sticker legen.",
+     "Antwort und Preise ins Blatt „Fabriken“."
+    ],
+    "f": "die Fabrik die freigegebenen Label-Dateien hat und die Fragen zu Labelpreis und Knopf gestellt sind.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "10:00 · Ort für den Stick-Abend Fr 27.11. anfragen",
+    "m": 15,
+    "s": [
+     "Kunstraum Heartspace, Danziger Str. 172 (Prenzlauer Berg): bietet laut berlin.de Stick-Workshops an. Kontakt nur von der eigenen Website des Raums oder persönlich vor Ort, Adresse und Öffnungszeit vor Ort prüfen.",
+     "Anfrage: Fr 27.11., ca. 19:00–21:00, 10–12 Gäste, gemeinsames Sticken am Kreuzstich-Raster, du bringst Material mit. Frage nach Miete, Tischen, Licht, Getränken.",
+     "Kein Ja bis Mi 11.11.: der Abend findet bei dir statt. Plan B jetzt schon ins Blatt schreiben.",
+     "Antwort ins Blatt „Netz“, Bereich „Abende“."
+    ],
+    "f": "die Anfrage an den Kunstraum raus ist (oder du dort warst) und Plan B notiert ist.",
+    "o": [
+     {"n": "Kunstraum Heartspace", "u": "https://www.berlin.de/tickets/freizeit/embroidery-workshop-50fe0879-2b66-46b8-bf66-806c8c366965/", "a": "Danziger Str. 172, Berlin", "h": "Eintrag auf berlin.de, Kontakt und Öffnungszeit vor Ort prüfen"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "12:00 · Story 8: „Wie würdest du dieses Band nennen?“",
+    "m": 5,
+    "s": [
+     "Makro vom Papier-Kreuzstich-Band (Band A) im Tageslicht, kein fertiges Teil.",
+     "Instagram → Story → Frage-Sticker: „What would you call this band?“ / „Wie würdest du dieses Band nennen?“",
+     "Link-Sticker auf die Warteliste.",
+     "Antworten am Sa in die Namensentscheidung (Wortliste) mitnehmen."
+    ],
+    "f": "Story 8 mit Frage- und Link-Sticker online ist.",
+    "v": {
+     "id": "Story 8",
+     "slot": "ASK",
+     "dauer": "1 Story",
+     "plattform": "Instagram Story",
+     "hook_en": "What would you call this band?",
+     "hook_de": "Wie würdest du dieses Band nennen?",
+     "shots": ["Makro Papierband A im Seitenlicht"],
+     "ort": "Wohnung · Fensterbank, Tageslicht",
+     "ton": "kein Ton",
+     "text": "Frage-Sticker EN + DE-Zeile",
+     "cta": "Link-Sticker: join the list",
+     "caption": "What would you call this band? Link: join the list.",
+     "check": "Nur Papier, kein Mockup, „Kreuzstich-Band“ nicht vorsagen."
+    },
+    "o": [{"n": "Instagram", "u": "https://www.instagram.com", "h": "Frage-Sticker"}]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin).",
+     "Alle DMs beantworten.",
+     "Jedes „Ja“ mit Größe und „ich bestelle am 14.01.“ ins Blatt „Die ersten 35“ (Zusage), alles andere „Vielleicht“."
+    ],
+    "f": "5 Kommentare geschrieben, keine DM offen, neue Zusagen eingetragen.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ · V113 „Mein Fehler: die realistische Szene“",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Am So mitgedreht oder heute 5 Min.: Ausdruck der verworfenen Szene (schwarz-weiß), du streichst sie mit Edding durch, daneben die drei Ähren auf Papier.",
+     "Kein roter Hintergrund, keine Sichel neben den Ähren, nie „fünf Ähren“.",
+     "18:00 auf TikTok, danach Reel und Short; Story mit Link-Sticker; 5 Min. Kommentare."
+    ],
+    "f": "V113 (oder eine Variante deines besten Videos) online ist.",
+    "v": {
+     "id": "V113",
+     "slot": "Grind+",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I designed this for a week. Then I scrapped it.",
+     "hook_de": "Ich habe eine Woche daran gezeichnet. Dann habe ich es gestrichen.",
+     "shots": ["Ausdruck der verworfenen Szene (schwarz-weiß auf Papier)", "Du streichst sie mit Edding durch", "Daneben die drei Ähren auf Papier", "Du: „Too many colours for embroidery.“"],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite, weiße Unterlage",
+     "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
+     "text": "0–2 s Hook EN, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Version 1.5 had a realistic harvest scene. Beautiful on screen, too many colours and stitches for embroidery. I went back to three ears. Simpler, and it saves money. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Kein roter Grund, keine Sichel neben Ähren, drei Ähren (nie fünf), nur Papier, keine farbige Flachzeichnung mit allen fünf Elementen."
+    },
+    "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}]
+   }
+  ],
+  "2026-11-06": [
+   {
+    "c": "B",
+    "t": "09:00 · Patch-Angebote eintragen",
+    "m": 20,
+    "s": [
+     "Antworten der Patch-Anbieter (Vorlage „Patch“ unter Referenz → Vorlagen) öffnen.",
+     "Ins Blatt „Patches“: Preis bei 50 / 100 / 200, Musterkosten, Lieferzeit, Mindestlinienbreite, Leinen vorgewaschen ja/nein, Kante.",
+     "Wer keine feinen Arbeiten zeigen kann, fliegt raus.",
+     "Besten Anbieter markieren: am Fr 13.11. bestellst du dort 3 Muster des Label-Patches.",
+     "Fehlt eine Antwort: kurz nachfassen (Vorlage „Nachfassen“)."
+    ],
+    "f": "alle Angebote im Blatt „Patches“ stehen und ein Favorit markiert ist.",
+    "o": [
+     {"n": "Docket · Referenz → Vorlagen", "h": "„Patch“, „Nachfassen“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Patches“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "10:00 · Produkthaftpflicht: Preis bei 1–2 Versicherern anfragen",
+    "m": 20,
+    "s": [
+     "Zwei Versicherer wählen, die Betriebs- oder Produkthaftpflicht für Kleingewerbe anbieten. Kontakt nur von deren offizieller Website (Formular oder Mail), keine Vergleichsportale.",
+     "Anfrage: „Ich bin Kleingewerbe in Berlin (Novalife). Ich lasse 100 Jeans unter eigener Marke im Ausland fertigen und verkaufe online in Deutschland [ggf. EU], Drop April 2027. Was kostet eine Produkthaftpflicht dafür pro Jahr, mit welcher Deckungssumme und Selbstbeteiligung?“",
+     "Preis ins Blatt „Kasse“, Zeile „ungeplant“ (Produkthaftpflicht). Bis zur Antwort: Schätzung mit dem Vermerk „ungeprüft“.",
+     "Keine Rechtsberatung: Ob du sie brauchst, entscheidest du mit dem Steuerberater oder der IHK."
+    ],
+    "f": "2 Anfragen raus sind und die Zeile „Produkthaftpflicht“ im Blatt „Kasse“ steht.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“, Zeile „ungeplant“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V012 posten: REAL „Ein einziges Thema“",
+    "m": 20,
+    "s": [
+     "17:55 W08/final/V012_final.mp4 in TikTok hochladen (Business-Konto), Musik nur leise aus der Commercial Music Library. Caption einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Ich habe zwei meiner drei Themen gestrichen. Darum.“) und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare. Fragen nach den geparkten Themen: „Parked for later. One drop, one theme.“ Keine Namen möglicher Partner."
+    ],
+    "f": "V012 auf TikTok, Instagram und YouTube online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V012",
+     "slot": "REAL",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I killed two of my three themes. Here's why.",
+     "hook_de": "Ich habe zwei meiner drei Themen gestrichen. Darum.",
+     "shots": [
+      "Drei Papierstapel auf dem Tisch (nur Rückseiten, keine Motive sichtbar), zwei wandern in eine Kiste mit Aufschrift „Drop 2“",
+      "Du: „Three themes = triple content, triple research, same 100 pieces.“",
+      "Ein Stapel bleibt liegen, Hand legt das Time-Travel-Raster obenauf"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek",
+     "text": "0–2 s Hook EN, „Drop 2“ auf der Kiste, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "In September I had three embroidery themes for one pair of jeans. Three themes on one drop are three drops on the same day. I kept one. The others are parked, not deleted. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Keine Bilder der geparkten Themen, keine Partnernamen (Gmail-Entwürfe bleiben unversendet), kein fertiges Teil, CTA der Phase."
+    },
+    "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "YouTube", "u": "https://www.youtube.com"}]
+   },
+   {
+    "c": "V",
+    "t": "Grind+ · ARD/ZDF-Medienstudie 2025: Reichweite 14–29 notieren",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "PDF selbst öffnen (Link unten, aus strategie.md 18, Z-Q23).",
+     "Suche (Cmd + F) nach „14 bis 29“ bzw. „14–29“: wöchentliche Nutzung von Instagram und TikTok in dieser Altersgruppe notieren. Die Recherche nennt 77 % und 50 %; prüf, ob das im PDF so steht.",
+     "Die beiden Zahlen mit Seitenzahl an Claude in den Chat für die Sprachentscheidung am Sa."
+    ],
+    "f": "beide Zahlen mit Seitenzahl notiert und an Claude geschickt sind.",
+    "o": [
+     {"n": "ARD/ZDF-Medienstudie 2025 (Media Perspektiven 31/2025, PDF)", "u": "https://www.media-perspektiven.de/fileadmin/user_upload/media-perspektiven/pdf/2025/MP_31_2025_ARD_ZDF-Medienstudie_Social_Media_zwischen_Wachstum_und_Saettigung_Nutzungsmuster_und_Plattformdynamiken_in_Deutschland.pdf", "h": "selbst öffnen und Zahlen prüfen"}
+    ]
+   }
+  ],
+  "2026-11-07": [
+   {
+    "c": "D",
+    "t": "10:00 · ENTSCHEIDUNGEN: Schneide, B2-Band, Namen, Sprache, Bildregel → Spec Rev. 14",
+    "m": 25,
+    "s": [
+     "Schneide (Serp) rot oder grau: Ergebnis des Serp-Tests und der UA/PL-Stimmen. Ohne Daten gilt der Rat: graue Schneide. Gab es diese Woche ≥ 3 Kommentare mit „Sowjet“, „Wappen“ oder „Holodomor“ (G7): grau und weiße B2-Kante jetzt einfrieren (0 bis +0,22 €/Paar).",
+     "B2-Band: Rat weiße Kante. Namen nach außen: Wortliste (Time Travel, Kreuzstich-Band, Achtstern, „Das Feld danach“), dazu die Antworten aus Story 8.",
+     "Sprache der Hooks nach dem DE-Test W6–W7 (V004, V006, V007, V009 mit Test-Hook B auf Deutsch): Anmeldungen je 1.000 Views DE gegen EN vergleichen. Ohne klares Ergebnis: EN-Hook mit DE-Zeile.",
+     "Liefergebiet folgt der Sprache: Hooks englisch → am 24.11. englische Rechtstexte mitbuchen, englische Produktseite am 18.12. · Hooks deutsch → bis zum Drop nur Versand nach Deutschland (spart OSS und Retouren-Aufwand). Dazu die Zahlen aus der Medienstudie.",
+     "Bildregel „keine Seitenansicht links“: halten (Rat) oder nach dem Serp-Test bewusst lockern. Halten heißt: V119 entfällt am 12.11., CD-T06 wird V125. Lockern heißt: V119 frühestens Do 12.11., CD-T06 bleibt möglich.",
+     "Alles in den Prompt unten, Claude baut daraus Spec Rev. 14 (bis So 08.11.). Danach Freeze-Zettel aktualisieren und der Fabrik die finalen Farben B/B2 schicken, bevor das Digitizing fertig ist."
+    ],
+    "f": "alle fünf Entscheidungen im Blatt „Entscheidungen“ stehen, der Prompt an Claude raus ist und die Fabrik die finalen Farben B/B2 hat.",
+    "p": "Projekt Time Travel, Docket W8, Sa 07.11. Meine Entscheidungen vor dem Digitizing:\n1 Schneide: [rot/grau], Grund: [Serp-Test, Stimmen]\n2 B2-Band: [weiße Kante / andere]\n3 Namen nach außen: [Wortliste bestätigt / Änderungen], Antworten aus Story 8: [..]\n4 Sprache der Hooks: [EN / DE / EN mit DE-Zeile], DE-Test: Anmeldungen je 1.000 Views DE [..] gegen EN [..]; Medienstudie: Instagram [..] %, TikTok [..] % bei 14–29\n5 Liefergebiet: [nur DE / DE + EU]\n6 Bildregel „keine Seitenansicht links“: [halten / lockern]\nMach daraus Spec Rev. 14 mit Änderungsliste gegen Rev. 13. Sag mir, was sich für V119, CD-T06 (V125), die Rechtstexte am 24.11. und die Produktseite am 18.12. ändert, und schreib mir die Mail mit den finalen Farben B/B2 an die Fabrik auf Englisch.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Content“ (DE-Test), „Entscheidungen“"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "11:00 · Creator-Longlist Runde 1: 10 Namen von Hand",
+    "m": 30,
+    "s": [
+     "Am Handy auf Instagram und TikTok die Orte suchen und markierte Beiträge ansehen: Mauerpark, GATE194/Overkill, Burg & Schild, Civilist.",
+     "Gesucht: Berliner Accounts mit Denim- oder Streetwear-Outfits, eigene Fotos, echte Kommentare unter den Posts. Keine Bot-Follower, keine reinen Repost-Seiten.",
+     "10 Namen ins Blatt „Creator“: Handle, Plattform, Ort, Follower ungefähr, Stil in 3 Wörtern, Größe falls sichtbar.",
+     "Nur folgen und je einen ehrlichen Kommentar mit Inhalt schreiben. Keine DM, keine Anfrage. Die Creator-DM kommt später (Vorlage „Creator-DM“).",
+     "Keine Adressen scrapen, keine Tools: alles von Hand."
+    ],
+    "f": "10 Namen im Blatt „Creator“ stehen, du allen folgst und einen ehrlichen Kommentar geschrieben hast.",
+    "o": [
+     {"n": "Mauerpark (berlin.de)", "u": "https://www.berlin.de/special/shopping/flohmaerkte/1998222-1724959-flohmarkt-am-mauerpark.html", "h": "Ortsmarkierung auf Instagram durchsehen"},
+     {"n": "GATE Store / Overkill", "u": "https://www.overkillshop.com/pages/gate-store", "h": "Overkill laut Sekundärquelle Köpenicker Straße 195A, ungeprüft"},
+     {"n": "Burg & Schild", "u": "https://rawlooks.com/store/burg-und-schild-berlin/", "h": "Sekundärquelle"},
+     {"n": "Civilist", "u": "https://magazine.032c.com/magazine/more-than-a-shop-alex-foley-s-civilist", "a": "Brunnenstr. 13, Berlin", "h": "Adresse vor Ort prüfen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "14:00 · Website Schritt 3: CLAUDE.md mit deinen Regeln",
+    "m": 30,
+    "s": [
+     "Anhang A aus website.md als CLAUDE.md in den Ordner tt-theme kopieren (TextEdit → Format → In reinen Text umwandeln, „Als reinen Text sichern“).",
+     "DEIN-SHOP und DEINE-DOMAIN ersetzen. Die Entscheidungen von heute (Sprache, Wortliste) in die Sprachregeln übernehmen.",
+     "claude starten, mit /context prüfen, ob CLAUDE.md geladen ist.",
+     "Prompt unten geben, Zusammenfassung lesen: Fehlt eine Regel (kein Mockup bis 03.12., nie „authentisch“), CLAUDE.md ergänzen.",
+     "Commit „Regeln und Termine“."
+    ],
+    "f": "Claude Code die Regeln richtig in 8 Punkten zusammenfasst, docs/TERMINE.md existiert und der Commit gemacht ist.",
+    "p": "Projekt Time Travel, Docket W8, Website Schritt 3. Lies CLAUDE.md. Fasse mir die harten Regeln in 8 kurzen Punkten zusammen, damit ich sehe, dass du sie verstanden hast.\nDann lege docs/TERMINE.md an: die Zustandstabelle aus CLAUDE.md, dazu für jeden Zustand einen Test-Link mit ?t= (30 Sekunden vor der Grenze) und einen mit ?t= und ?key=.\nCommit: „Regeln und Termine“.",
+    "o": [{"n": "GitHub", "u": "https://github.com", "h": "Repo „novalife-tt-theme“"}]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin).",
+     "Alle DMs beantworten.",
+     "Jedes „Ja“ mit Größe und Datum ins Blatt „Die ersten 35“ (Zusage)."
+    ],
+    "f": "5 Kommentare geschrieben, keine DM offen, Zusagen eingetragen.",
+    "o": [{"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "TikTok", "u": "https://www.tiktok.com"}]
+   },
+   {
+    "c": "V",
+    "t": "15:00 · Grind+ · Laden-Runde Mitte-Nord (4 Läden)",
+    "m": 120,
+    "plus": true,
+    "s": [
+     "Öffnungszeiten vorher auf Google Maps prüfen. Route zu Fuß: Brunnenstr. 183 → Brunnenstr. 13 → Linienstr. 40 → Torstr. 72.",
+     "Mitnehmen: Papiertest-Band, Raster vom Achtstern, eine Seite mit „100 Jeans, nummeriert, Drop 22.04.2027“ und QR-Code zur Warteliste (?ref=, Schema vom 10.10.). Kein Mockup.",
+     "Studio183 (Brunnenstr. 183) · Civilist (Brunnenstr. 13) · Firmament (Linienstr. 40) · Soto (Torstr. 72).",
+     "Nur Papier zeigen. Sagen: „Ich mache 100 bestickte Jeans in Berlin, Drop im April. Darf ich zeigen, woran ich arbeite?“ Fragen: Nehmt ihr kleine Marken in Konsignation? Gibt es bei euch Abende oder Events, bei denen so etwas Platz hat?",
+     "Namen der Ansprechperson und Antwort sofort ins Handy, abends ins Blatt „Berlin“.",
+     "Nicht verkaufen, nicht drängen. Bei Nein: danken und gehen."
+    ],
+    "f": "du in mindestens 3 Läden warst und Antwort und Ansprechperson im Blatt „Berlin“ stehen.",
+    "o": [
+     {"n": "Studio183 (Flagship)", "u": "https://inyourpocket.com/berlin/studio183-flagship_161452v", "a": "Brunnenstr. 183, Berlin", "h": "Öffnung vorher prüfen"},
+     {"n": "Civilist", "u": "https://magazine.032c.com/magazine/more-than-a-shop-alex-foley-s-civilist", "a": "Brunnenstr. 13, Berlin", "h": "Öffnung vorher prüfen"},
+     {"n": "Firmament", "u": "https://www.firmamentberlin.com/about", "a": "Linienstr. 40, Berlin", "h": "Öffnung vorher prüfen"},
+     {"n": "Soto", "u": "https://www.complex.com/style/2012/10/dope-interiors-soto-store-berlin", "a": "Torstr. 72, Berlin", "h": "Quelle von 2012, vor Ort prüfen"},
+     {"n": "Google Maps", "u": "https://maps.google.com"}
+    ]
+   }
+  ],
+  "2026-11-08": [
+   {
+    "c": "A",
+    "t": "10:00 · Wochenreview W8, Cockpit, Aktivzeiten, Zeile an Claude",
+    "m": 25,
+    "s": [
+     "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“ (nur bestätigte). Nach Quellen-Tag aufteilen (src-instagram, src-tiktok, src-qr, src-email, ref-netz, ref-papier, ref-stick, ref-…) ins Blatt „Warteliste“.",
+     "Content: je Post Views, Saves, Shares, neue Follower, Anmeldungen je 1.000 Views ins Blatt „Content“. Median der letzten Videos neu rechnen.",
+     "Kassencheck K − F − R im Blatt „Kasse“: Kontostand minus feste Ausgaben minus Rücklage. Grün ≥ 300 €, gelb 0–300 €, rot < 0 (G12).",
+     "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower gesamt TikTok + Instagram, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (bis 14.01. noch 0).",
+     "Aktivzeiten ablesen: TikTok → Profil → Menü → Business Suite → Analysen → Follower → Follower-Aktivität · Instagram → Profil → Professional Dashboard → Insights → Follower → Aktivste Zeiten (Menüpfade vor Ort prüfen). Weicht die Spitze mehr als 1 h von 18:00 ab: Postzeit ab W9 um ±1 h schieben und im Blatt notieren.",
+     "Offenes aus W8 im Blatt notieren. Dann die Zeile unten an Claude."
+    ],
+    "f": "Blätter und Cockpit aktuell sind, die Postzeit für W9 feststeht und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W8, So 08.11. W8: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [N], Follower gesamt [F], Aktivzeit-Spitze [Uhrzeit]. Offen aus W8: [..]. Sag mir, welche Gates greifen, was ich in W9 verschiebe und ob ein Video die Varianten-Regel (≥ 2 × Median, Teil-Rate über Median) erfüllt.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente → „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Warteliste, Content, Kasse, Die ersten 35"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analysen → Follower-Aktivität"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights → Aktivste Zeiten"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "10:25 · Gate: Liste ≥ 210 · Entwicklung bezahlt · Fabrik ≤ 3 Werktage",
+    "m": 10,
+    "s": [
+     "Liste ≥ 210 bestätigt: weiter. 80–209 (G2): bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen.",
+     "Liste < 80 (G1): Netz-Runde an alle Offenen bis Mi · „Bring 3“-Story + DM an alle mit 1–2 Freunden · einen Abend in den nächsten 14 Tagen festmachen · Claude die 3 schwächsten Videos zeigen. Zweiter Sonntag in Folge: Notfallhebel aus markt.md 5.2.",
+     "Anmeldungen je 1.000 Views < 1,0 (G3): angehefteter Kommentar „The list buys first. 35 pairs at the pre-order price.“, Link-Sticker in jede Story, Seite im Instagram-Browser testen. Anmeldequote der Seite < 6,6 % zum zweiten Mal (G4): echtes Foto oben, Vorteil in einem Satz, nur E-Mail Pflicht.",
+     "Video ≥ 2 × Median nach 48 h und Teil-Rate über Median (G5): 5 Varianten in 14 Tagen. 3 schwache Videos im selben Slot (G6): Slot 2 Wochen durch Reserve ersetzen. ≥ 3 Folklore-Kommentare (G8): 2 Wochen erst Totale im Streetwear-Outfit, dann Makro. > 70 % warme Tags (G9): 3 neue Hooks, Karussell „Miss deine Jeans“.",
+     "Entwicklung nur bei grün/gelb bezahlt? Wenn gezahlt trotz rot: sofort Claude schreiben, B-Zeitachse 1 prüfen.",
+     "Fabrik hat auf die Dateien vom 03.11. in ≤ 3 Werktagen geantwortet? Nein: Montag früh Call (Vorlage „Call“) und Fabrik 2 warm anschreiben (Vorlage „Nachfassen“), ohne abzusagen.",
+     "Kasse gelb: keine Ausgaben außerhalb von Plan 3 · rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter (G12)."
+    ],
+    "f": "jede Gate-Zeile mit grün/gelb/rot im Blatt „Gates“ steht und jede ausgelöste Maßnahme einen Termin in W9 hat.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"},
+     {"n": "Docket · Referenz → Vorlagen", "h": "„Call“, „Nachfassen“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "11:00 · Content-Batch W9 · 1/3: V013 vorbereiten (Gesicht, Raster)",
+    "m": 25,
+    "s": [
+     "Ordner W09/raw und W09/final anlegen. Kamera 9:16, Licht von vorn, je Shot 3 Takes.",
+     "Heute nur: dein Gesicht und deine Hände am Schreibtisch (Reaktion, ein Satz), Bildschirm mit „estimate ~33,000“ als Platzhalter.",
+     "Die Bildschirmaufnahme der Digitizing-Vorschau drehst du Mo 09.11. beim Prüfen (Cmd + Shift + 5), nur wenn die Fabrik sie freigegeben hat. Schnittvorlage in CapCut heute fertig machen: Hook-Text, Untertitel, Lücke für die Aufnahme.",
+     "Kommt die Vorschau Mo nicht bis 16:00: V013 auf Mo 16.11. schieben, am 09.11. eine Variante deines besten Videos posten."
+    ],
+    "f": "die CapCut-Vorlage für V013 mit Hook, Gesicht und Lücke für die Bildschirmaufnahme im Ordner W09 liegt.",
+    "v": {
+     "id": "V013",
+     "slot": "BUILD",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "My pattern just became machine code.",
+     "hook_de": "Mein Muster ist gerade Maschinen-Code geworden.",
+     "shots": ["Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose), Aufnahme am Mo 09.11.", "Echte Stichzahl groß einblenden", "Vergleich: estimate ~33,000 vs. real [ZAHL]", "Deine Reaktion, ein Satz"],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), Gesicht und Hände am Schreibtisch, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
+     "text": "0–2 s Hook EN, „~33,000 vs. [ZAHL]“, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Day 29. A digitizer turns a drawing into a stitch file: every needle point, every colour change. My estimate was ~33,000 stitches. The real count: [ZAHL]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidery #novalifetimetravel",
+     "check": "Nur Stichsimulation, kein Garment-Mockup, Datei nur mit Erlaubnis, echte Zahl."
+    },
+    "o": [{"n": "CapCut", "u": "https://www.capcut.com"}]
+   },
+   {
+    "c": "C",
+    "t": "11:25 · Content-Batch W9 · 2/3: V014 „Der Lebensbaum“ drehen",
+    "m": 25,
+    "s": [
+     "Belegtabelle: Lebensbaum mit Beleg? Nein → keinen Bedeutungssatz, nur Maß und Aufbau (Wurzeln, Stamm, Krone).",
+     "Schreibtisch, Draufsicht, Fensterlicht von der Seite. 3 Takes je Shot: Skizze, Finger Wurzeln → Stamm → Krone, Papierausschnitt 86 × 76 mm am Bund, Text-Einblendung.",
+     "Nur Papier und eigene Skizze, die Patch-Muster kommen erst um den 13.11.",
+     "Schnitt in CapCut: Hook-Text 0–2 s, Untertitel automatisch, ohne Musik exportieren. Export W09/final/V014_final.mp4."
+    ],
+    "f": "W09/final/V014_final.mp4 liegt fertig im Ordner.",
+    "v": {
+     "id": "V014",
+     "slot": "ORIGIN",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Roots, trunk, crown: the patch on my waistband.",
+     "hook_de": "Wurzeln, Stamm, Krone: der Patch an meinem Bund.",
+     "shots": ["Deine Referenz-Skizze des Baums auf dem Tisch (eigene Zeichnung)", "Finger fährt Wurzeln → Stamm → Krone nach", "Papierausschnitt 86 × 76 mm am Bund (Papiertest)", "Text: „natural linen · gold · brown · red“"],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Originalton, in der App ruhiger Track aus der Business-Bibliothek",
+     "text": "0–2 s Hook EN, „86 × 76 mm“, „natural linen · gold · brown · red“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "The tree of life sits on the back waistband: 86 × 76 mm on natural linen, a trunk of ten twisted strands, roots in a circle. Made as a patch by a specialist. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "Lebensbaum nie „slawisch“, nur Papier und Skizze, Bedeutung nur mit Beleg, kein roter Hintergrund."
+    },
+    "o": [{"n": "CapCut", "u": "https://www.capcut.com"}]
+   },
+   {
+    "c": "C",
+    "t": "11:50 · Content-Batch W9 · 3/3: V015 „Zickzack“ drehen",
+    "m": 25,
+    "s": [
+     "Fensterbank, Tageslicht von der Seite. Makro: Raster von Band A, Finger folgt dem Zickzack (3 Takes).",
+     "Papierband an der Kante der rechten Vordertasche, Lineal an 23 mm.",
+     "Belegtabelle: Zickzack = Wasser belegt? Nein → Hook B „17 stitches high. 23 millimeters. One pocket edge.“ und Caption ohne „water“.",
+     "Schnitt 8–15 s, Untertitel, Export W09/final/V015_final.mp4. Am Posttag wird nichts mehr gedreht (außer der Bildschirmaufnahme für V013)."
+    ],
+    "f": "W09/final/V015_final.mp4 liegt fertig im Ordner.",
+    "v": {
+     "id": "V015",
+     "slot": "DETAIL",
+     "dauer": "8–15 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This zigzag means water. It runs along my pocket.",
+     "hook_de": "Dieser Zickzack bedeutet Wasser. Er läuft an meiner Tasche entlang.",
+     "shots": ["Makro Raster von Band A, Finger folgt dem Zickzack", "Papierband an der Kante der rechten Vordertasche", "Lineal: 23 mm"],
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "Originalton (Papier, Finger). Keine Musik oder sehr leise",
+     "text": "0–2 s Hook EN, „23 mm · 17 stitches“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Zigzag = water. It frames the cross-stitch band on the right front pocket: 23 mm, 17 stitches high. White next to red, so it reads from three metres. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
+     "check": "Nur Papier, Bedeutung nur mit Beleg, keine Seitenansicht links, kein roter Hintergrund."
+    },
+    "o": [{"n": "CapCut", "u": "https://www.capcut.com"}]
+   }
+  ]
+ }
+}

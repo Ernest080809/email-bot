@@ -1,0 +1,610 @@
+{
+ "n": 14,
+ "phase": "P2",
+ "goal": "Vorbestellung und Stufe 2 als Entwurf bauen, Presse-Welle 1 senden, Kontingent, Nummern und Orte festlegen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "620 bestätigt (Alarm 260) · Grind+-Ziel 700"},
+  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.860 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Zusagen „Die ersten 35“", "ziel": "20 (Name, Größe, „ich bestelle am 14.01.“)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Gate So 20.12.", "ziel": "Zusagen ≥ 15, Auszahlung geklärt, Stufe 2 entschieden, Patch bestellt"}
+ ],
+ "days": {
+  "2026-12-14": [
+   {
+    "c": "A",
+    "t": "Vorbestellung in Shopify anlegen: 35 Paar, Liefertext, Status Entwurf",
+    "m": 60,
+    "s": [
+     "Shopify → Produkte → Produkt hinzufügen: „Time Travel Jeans · Vorbestellung“, Preis 149 €, Varianten W30 · W32 · W34 · W36 · W38. Kein Vergleichspreis, kein Streichpreis.",
+     "Bestand gesamt 35. Bis Sa 19.12. als Platzhalter die Startannahme aus Rev. 5.3: W30 5 · W32 10 · W34 10 · W36 7 · W38 3. Die echte Verteilung nach den gr-Tags machst du am Samstag. „Inventar verfolgen“ an, „Weiterverkaufen, wenn nicht vorrätig“ bei jeder Variante AUS.",
+     "Oben in den Text, fett, genau dieser eine Satz: „Lieferung bis spätestens 30.04.2027, geplant Anfang April.“ Derselbe Satz gilt überall: Produktseite, Bestellbestätigung, Website, Pressemappe. Kein anderes Lieferfenster mehr verwenden.",
+     "Preiszeile: „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“. Nie „149 € statt 169 €“, du hast 169 € nie verlangt (PAngV § 11, ungeprüft, keine Rechtsberatung).",
+     "Darunter: Faser- und Herstellerangabe (Faserzusammensetzung aus der Spec, Hersteller: Novalife mit Adresse wie im Nackenlabel), Hinweis § 19 UStG im Wortlaut vom Steuerberater (13.10.).",
+     "Satz unter dem Größenblock: „Deine Größe ist weg? Stufe 2 oder Liste.“",
+     "Status „Entwurf“ lassen. Speichern, Vorschau am Handy prüfen."
+    ],
+    "f": "das Produkt mit 5 Varianten, 35 Stück Bestand, Liefersatz, Preiszeile ohne Streichpreis, Faser-, Hersteller- und § 19-Angabe als Entwurf gespeichert ist.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte", "u": "https://admin.shopify.com", "h": "Produkte → Produkt hinzufügen"},
+     {"n": "Shopify Hilfe · Pre-orders", "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders", "h": "Einrichtung nachlesen"},
+     {"n": "§ 19 UStG", "u": "https://www.gesetze-im-internet.de/ustg_1980/__19.html", "h": "Wortlaut des Hinweises gilt laut Steuerberater"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Stufe 2 als Entwurf: tt_produkt_stufe2, Nr. 036–060, 25 Paar zu 169 €",
+    "m": 15,
+    "s": [
+     "Shopify → Produkte → das Vorbestell-Produkt öffnen → Mehr Aktionen → Duplizieren. Name „Time Travel Jeans · Vorbestellung Stufe 2“, Preis 169 €, Bestand 25, gleiche Varianten.",
+     "Gleicher Liefertext: „Lieferung bis spätestens 30.04.2027, geplant Anfang April.“ Preiszeile: „Stufe 2: 169 €, Nummern 036–060.“",
+     "Im Theme-Editor → Theme-Einstellungen das Feld tt_produkt_stufe2 auf dieses Produkt setzen (Feld legt Claude Code am Mo 21.12. an, falls es noch fehlt).",
+     "Regel oben in die interne Notiz des Produkts: „Geht live, sobald Nr. 035 verkauft ist, frühestens 14.01., spätestens So 21.03., 20:00.“",
+     "Status „Entwurf“."
+    ],
+    "f": "Stufe 2 als zweites Produkt mit 25 Stück zu 169 € im Entwurf liegt und die Live-Regel in der Notiz steht.",
+    "o": [
+     {"n": "Shopify-Admin · Produkte", "u": "https://admin.shopify.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Vorlage „Bestellbestätigung“ um Vorbestell-Textblock ergänzen",
+    "m": 20,
+    "s": [
+     "Shopify → Einstellungen → Benachrichtigungen → Kunden-Benachrichtigungen → Bestellbestätigung → Code bearbeiten.",
+     "Prompt unten an Claude schicken, den gelieferten Liquid-Block unter die Artikelliste setzen.",
+     "Der Block erscheint nur bei Vorbestell-Produkten und enthält: Liefersatz, Nummernlogik („Nummern nach Bestelldatum, ab 001“) und Geld-zurück-Regel („Startet die Produktion am 01.02. nicht, bekommst du dein Geld vollständig zurück.“).",
+     "Vorschau anzeigen, Test-Mail an dich senden. Den echten Test mit Zahlung machst du am Di 29.12."
+    ],
+    "f": "die Test-Mail den Block mit Liefersatz, Nummernlogik und Geld-zurück-Regel zeigt.",
+    "p": "Projekt Time Travel, Docket W14, Mo 14.12. Schreib mir einen Liquid-Block für die Shopify-Benachrichtigung „Bestellbestätigung“. Er soll nur erscheinen, wenn die Bestellung ein Produkt mit dem Tag „vorbestellung“ enthält (Hauptprodukt und Stufe 2). Inhalt auf Deutsch, kurz: 1) „Lieferung bis spätestens 30.04.2027, geplant Anfang April.“ 2) „Deine Nummer vergeben wir nach Bestelldatum, ab 001.“ 3) „Startet die Produktion am 01.02. nicht, bekommst du dein Geld vollständig zurück.“ Sag mir, wo genau im Standard-Template ich ihn einfüge und welchen Tag ich an beide Produkte hängen muss.",
+    "o": [
+     {"n": "Shopify-Admin · Benachrichtigungen", "u": "https://admin.shopify.com", "h": "Einstellungen → Benachrichtigungen"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V033 posten: BUILD Day 64 „Die Vorbestellseite“",
+    "m": 20,
+    "s": [
+     "17:55 W14/final/V033_final.mp4 in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, leise unter dem O-Ton. Caption unten einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Hook als erste Zeile, höchstens 5 Hashtags) und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story, Link-Sticker auf die Warteliste.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Standard: „Das Muster gibt es in Belarus, Polen, Russland und der Ukraine. Es gehört keinem allein.“",
+     "Wer nach Preis oder Datum fragt: „14.01., 18:00 für die Liste, 19:00 für alle. Link in Bio.“ Jedes „Ich will eine“ per DM nach Größe fragen, ins Blatt „Die ersten 35“."
+    ],
+    "f": "V033 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V033",
+     "slot": "BUILD",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 64: building the page where you'll pre-order.",
+     "hook_de": "Tag 64: Ich baue die Seite, auf der du vorbestellst.",
+     "shots": [
+      "Bildschirmaufnahme Shopify-Editor, Produktseite im Entwurf (Cmd + Shift + 5)",
+      "Größen-Buttons „W32 · 81 cm“",
+      "Liefersatz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“ (EN-Untertitel: delivery by 30.04.2027 at the latest, planned early April)",
+      "Handy-Vorschau der Seite, Gesicht oder Hände am Schreibtisch"
+     ],
+     "ort": "Wohnung · Mac-Bildschirmaufnahme plus Schreibtisch, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s Hook EN, darunter DE klein; Untertitel; Endkarte „Pre-order · 14.01. · 19:00“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 64. Pre-order opens 14.01., 19:00: 35 pairs at €149. Delivery by 30.04.2027 at the latest, planned early April. Every size button shows the real waist in cm. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Kein Streichpreis im Bild (Rev.-5.3-Text „149 € statt 169 €“ entfällt), Liefersatz statt „22.–30.04.“, Proto-Fotos erlaubt, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
+     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short"}
+    ]
+   }
+  ],
+  "2026-12-15": [
+   {
+    "c": "A",
+    "t": "Vorbestellung rechtlich sauber machen + Geld-zurück-Regel",
+    "m": 30,
+    "s": [
+     "Produktseite und FAQ: Geld-zurück-Regel wörtlich einfügen: „Startet die Produktion am 01.02. nicht, bekommst du dein Geld vollständig zurück.“",
+     "Interne Regel ins Blatt „Kasse“: Vorbestellgeld bleibt bis 01.02. unangetastet. Keine Ausgabe aus diesem Geld vor der Mengenentscheidung.",
+     "Liefersatz überall gleich prüfen: Produktseite, Stufe 2, Bestellbestätigung, FAQ, Website, Pressemappe. Nie nur „voraussichtlich“.",
+     "FAQ ergänzen: Widerrufsrecht 14 Tage ab Erhalt der Ware gilt auch bei Vorbestellung. „Was, wenn sich die Produktion verzögert?“ → „Du bekommst sofort eine Mail und auf Wunsch dein Geld zurück.“",
+     "Die Formulierungen beim Rechtstexte-Service (seit 24.11.) gegenlesen lassen: Mail mit Link auf die Entwurfsvorschau. Keine Rechtsberatung von Claude."
+    ],
+    "f": "Geld-zurück-Regel und Liefersatz auf Produktseite und FAQ identisch stehen, die Regel im Blatt „Kasse“ notiert ist und die Anfrage beim Rechtstexte-Service raus ist.",
+    "o": [
+     {"n": "Shopify-Admin · Seiten (FAQ)", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Handheber-DMs: jedes „Ja“ aus der ASK-Story vom 12.12. nach Größe fragen",
+    "m": 20,
+    "s": [
+     "Instagram → Story-Archiv → Story vom Sa 12.12. → Umfrage-Ergebnis öffnen, alle „Ja“-Stimmen ansehen.",
+     "Jedem eine DM: „Hey [Name], du hast bei meiner Story Ja gedrückt. Danke! Welche Größe trägst du (echter Bund in cm, wenn du ihn kennst)? Am 14.01. um 18:00 bekommt die Liste den Link, eine Stunde vor allen.“",
+     "Antworten ins Blatt „Die ersten 35“: „Zusage“ nur mit Name, Größe und dem Satz „ich bestelle am 14.01.“, sonst „Vielleicht“.",
+     "Keine Herkunft notieren (Art. 9 DSGVO)."
+    ],
+    "f": "jede „Ja“-Stimme eine DM hat und jede Antwort in „Zusage“ oder „Vielleicht“ steht.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story-Archiv → 12.12."},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "PRESSE-WELLE 1 „Vorbestellung ab 14.01.“ an 7 Medien",
+    "m": 25,
+    "s": [
+     "Kontakt je Medium nur von der offiziellen Seite (Impressum oder Redaktionskontakt), nie scrapen: Berliner Zeitung, Tagesspiegel, Denimhunters, TextilWirtschaft, FashionUnited, Gründerszene, deutsche-startups.",
+     "Text mit dem Prompt unten holen. Je Medium eine eigene Mail, erste Zeile mit Namen des Ressorts oder der Person, nie CC.",
+     "Link je Medium mit Quelle: https://[deine Domain]/?utm_source=mail&ref=p-[medium] (z. B. p-tagesspiegel).",
+     "Anhang: 3 echte Proto-Fotos (kein Mockup), Factsheet mit Liefersatz.",
+     "Ins Blatt „Presse“: Medium, Kontaktweg, gesendet 15.12., ref-Tag. Nachfassen nur einmal, am Di 05.01."
+    ],
+    "f": "7 einzelne Mails mit eigenem ref-Link gesendet sind und im Blatt „Presse“ stehen.",
+    "p": "Projekt Time Travel, Docket W14, Di 15.12. Schreib mir eine Pressemail „Vorbestellung ab 14.01.“ für [Medium] (Ressort [Ressort]). Fakten: Novalife, entworfen in Berlin, Jeans „Time Travel“, 100 Stück nummeriert, Kreuzstich-Band, Achtstern, maschinengestickt auf dem Zuschnitt, Fäden von Hand. Vorbestellung ab Do 14.01.2027, 19:00 (Liste ab 18:00), 35 Paar zum Vorbestellpreis 149 €, ab 22.04. 169 €. Lieferung bis spätestens 30.04.2027, geplant Anfang April. Drop Do 22.04.2027, 19:00. Link: [Link mit ?ref=p-medium]. Max. 150 Wörter, Betreff unter 60 Zeichen, deutsch, ein Angebot (Proto ansehen, Gespräch, Fotos). Wortliste beachten, nie „authentisch“, nichts Politisches, keine Länder außer alphabetisch und nur wenn nötig.",
+    "o": [
+     {"n": "Berliner Zeitung", "u": "https://www.berliner-zeitung.de", "h": "Redaktionskontakt auf der Seite suchen"},
+     {"n": "Tagesspiegel", "u": "https://www.tagesspiegel.de", "h": "Redaktionskontakt auf der Seite suchen"},
+     {"n": "Denimhunters", "u": "https://denimhunters.com", "h": "Kontakt auf der Seite"},
+     {"n": "TextilWirtschaft", "u": "https://www.textilwirtschaft.de", "h": "Redaktion"},
+     {"n": "FashionUnited", "u": "https://fashionunited.de", "h": "Redaktion DE"},
+     {"n": "Gründerszene", "h": "offizielle Seite per Suche öffnen, Kontakt aus dem Impressum"},
+     {"n": "deutsche-startups", "h": "offizielle Seite per Suche öffnen, Kontakt aus dem Impressum"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V034 posten: ORIGIN „Ehrliche Größen“",
+    "m": 20,
+    "s": [
+     "17:55 W14/final/V034_final.mp4 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library, leise. Caption einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube.",
+     "Reel in die Story, Link-Sticker auf die Warteliste. Zweiter Story-Frame: Frage-Sticker „Was misst deine Lieblingsjeans?“",
+     "15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9). Maß-Antworten ins Blatt „Content“, Spalte Notiz: wertvoll für die Größenverteilung am Sa."
+    ],
+    "f": "V034 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V034",
+     "slot": "ORIGIN",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "My W30 jeans measured 32 inches. So I label honestly.",
+     "hook_de": "Meine W30 hat 32 Zoll gemessen. Deshalb label ich ehrlich.",
+     "shots": [
+      "Referenzjeans flach auf dem Boden, zugeknöpft (Marke nicht im Bild)",
+      "Maßband quer über den Bund: 41 cm × 2 = 82 cm = 32 Zoll",
+      "Text im Bild: „label says W30“",
+      "Novalife-Maßtabelle auf Papier: W32 = 81 cm, dann Proto mit Maßband am Bund"
+     ],
+     "ort": "Wohnung · Boden-Flatlay auf hellem Laken, Draufsicht, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Hook EN 0–2 s, Zahlen groß eingeblendet, Endkarte „Measure before you order.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "My reference jeans say W30. Measured flat: 41 cm × 2 = 82 cm, that's 32 inches. Novalife sizes are the real waist: W32 = 81 cm. Measure your favourite pair before you order. Save this. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #denim #jeans #sizing #embroidereddenim #novalifetimetravel",
+     "check": "Fremdmarke nicht nennen, Messwerte aus Spec 1.5, kein Streichpreis, keine Seitenansicht links, CTA der Phase."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-16": [
+   {
+    "c": "C",
+    "t": "Vier Mails zum Vorbestell-Start als Entwurf (07.01., 13.01., 14.01., 18.01.)",
+    "m": 45,
+    "s": [
+     "Prompt unten an Claude, Texte prüfen: Liefersatz, kein Streichpreis, CTA der Phase, Wortliste.",
+     "Shopify → Marketing → Kampagnen → Kampagne erstellen → Shopify Email. Vier Entwürfe anlegen, Namen „TT-0107 Vorbestellung 1“, „TT-0113 Morgen“, „TT-0114 Die Liste kauft zuerst“, „TT-0118 Noch X Paar“.",
+     "Empfänger je Entwurf eintragen: 07.01. Liste (Mess-Abende), 13.01. ganze Liste, 14.01. 18:00 ganze Liste, 18.01. Liste ohne Kauf.",
+     "Button-Links mit utm_source=mail und ?ref= wie im Schema vom 10.10.",
+     "Nichts terminieren. Senden bzw. planen erst im Januar laut Plan."
+    ],
+    "f": "vier Entwürfe mit Betreff, Vorschautext und Button in Shopify Email liegen.",
+    "p": "Projekt Time Travel, Docket W14, Mi 16.12. Schreib mir 4 Mails für Shopify Email, deutsch, Du-Form: 1) Do 07.01. Vorbestellung 1: Am 14.01. öffnet die Vorbestellung, dazu Einladung zu den Mess-Abenden 16.01. und 23.01. ([Orte]). 2) Mi 13.01.: „Morgen: 18:00 für die Liste, 19:00 für alle.“ 3) Do 14.01., 18:00, an die ganze Liste: „Die Liste kauft zuerst“, 35 Paar zum Vorbestellpreis 149 €, ab 22.04. 169 €. 4) Mo 18.01.: „Noch [X] Paar“ (nur echte Zahl). Fakten: Lieferung bis spätestens 30.04.2027, geplant Anfang April. Startet die Produktion am 01.02. nicht, gibt es das Geld vollständig zurück. Nummern nach Bestelldatum ab 001. Kein Streichpreis, nie „149 statt 169“, nie „authentisch“, Wortliste (Kreuzstich-Band, Achtstern, entworfen in Berlin). Je Mail: Betreff unter 45 Zeichen, Vorschautext, 80–120 Wörter, ein Button.",
+    "o": [
+     {"n": "Shopify-Admin · Marketing", "u": "https://admin.shopify.com", "h": "Marketing → Kampagnen → Shopify Email"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "19:00 · V035 posten: REACH „100 Stück“ (nur echte Zahlen)",
+    "m": 20,
+    "s": [
+     "18:55 W14/final/V035_final.mp4 in TikTok hochladen. Trend-Sound nur aus der Commercial Music Library (Creative Center, Region DE, für Business freigegeben). Caption einfügen.",
+     "19:00 posten, danach Reel (Musik aus der Business-Bibliothek von Instagram) und Short.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare. Frage „Restock?“: „Not decided yet. These 100 are numbered.“ Keine Zusage zu „nie wieder“."
+    ],
+    "f": "V035 um 19:00 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V035",
+     "slot": "REACH",
+     "dauer": "7–10 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Only 100 will exist. Numbered 001 to 100.",
+     "hook_de": "Es wird nur 100 geben. Nummeriert 001 bis 100.",
+     "shots": [
+      "Hangtag-Entwurf auf Papier mit „001/100“",
+      "Schnelle Makro-Schnitte vom Proto: Kreuzstich-Band, Münztasche, Fäden, Patch, Achtstern",
+      "Endframe: „001–100“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Licht von vorn",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library; Instagram: Business-Bibliothek der App",
+     "text": "Hook EN 0–2 s, Endframe „001–100“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "100 pairs, each numbered on the hangtag. Pre-orders get the lowest numbers, in order. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #limitededition #novalifetimetravel",
+     "check": "Nur echte Zahlen (100 gilt bis zur Entscheidung 01.02.), kein „kein Restock“, Ähren und Serp nie direkt nacheinander auf Rot, keine Seitenansicht links."
+    },
+    "o": [
+     {"n": "TikTok Creative Center · Commercial Music", "u": "https://www.tiktok.com", "h": "Region DE, für Business freigegeben"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   }
+  ],
+  "2026-12-17": [
+   {
+    "c": "B",
+    "t": "Berliner Muster abholen und entscheiden (Stichbild, Topping, Rückseite)",
+    "m": 45,
+    "s": [
+     "Mitnehmen: Graukarte, Maßband, Handy, Notizzettel mit den drei Prüfpunkten. Zipper und Polo beim Berliner Sticker abholen (Adresse aus deinem Blatt „Sticker“, Öffnungszeit vorher prüfen).",
+     "Bei Tageslicht prüfen: Stichbild (sauber, keine Lücken), Topping-Reste im Fleece und im Piqué, Rückseite (Vlies sauber geschnitten, keine losen Fäden), Verzug.",
+     "Einmal waschen (30 °C, auf links) und nochmal prüfen. Fotos mit Graukarte.",
+     "Vor Ort fragen und schriftlich bestätigen lassen: Preis pro Teil bei 1 / 10 / 50, Lieferzeit pro Auftrag, und was das Teppich-Medaillon direkt auf den Zipper-Rücken gestickt kostet (Antwort brauchst du am Sa).",
+     "Ergebnis ins Blatt „Sticker“: bestanden ja/nein, Preis, Lieferzeit."
+    ],
+    "f": "Stichbild, Topping und Rückseite bewertet sind, der Sticker gewählt ist und Preis, Lieferzeit und Rücken-Preis schriftlich vorliegen.",
+    "o": [
+     {"n": "Berliner Sticker (gewählt)", "a": "[Adresse aus Blatt „Sticker“]", "h": "Öffnungszeit vorher prüfen"},
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Berliner Sticker“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Sticker“"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Patch D in Serie: 110 Stück direkt an die Fabrik bis 22.01.",
+    "m": 30,
+    "s": [
+     "Nur wenn der Waschtest aus W11 bestanden ist.",
+     "Vorher die Fabrik schriftlich fragen: „Please confirm delivery address and contact person for 110 label patches (NVL-TT-01). Incoterm for the patches? They return to us with the finished goods. Any customs paperwork you need from our side?“ Türkei ist kein EU-Land, Zoll auf die Patches ungeprüft.",
+     "Patch-Vorlage aus Docket → Referenz → Vorlagen nutzen, 110 Stück (100 + 10 Reserve) beim gewählten Anbieter, Lieferung an die Fabrik spätestens Fr 22.01.2027.",
+     "Auf den Karton: „NVL-TT-01 · Label patch D · 110 pcs“.",
+     "Zahlung (ca. 330 €, Rev. 5.3) ins Blatt „Ausgaben“. Fällig jetzt, nicht im Februar.",
+     "Klappt es heute nicht: Bestellung spätestens Mo 21.12., Fabrik über die neue Patch-Frist Fr 29.01. informieren (Gate So)."
+    ],
+    "f": "die Bestellung bestätigt ist und Lieferadresse, Incoterm, Zollweg und Termin 22.01. schriftlich vorliegen.",
+    "o": [
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Patch“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Ausgaben“"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "Fünf Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin). Ein Satz mit Bezug aufs Video, keine Eigenwerbung.",
+     "DMs beantworten. Jedes „Ja“ mit Größe ins Blatt „Die ersten 35“."
+    ],
+    "f": "5 Kommentare stehen und alle DMs sind beantwortet.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "plus": true,
+    "t": "Grind+ 18:00 · V111 Karussell „drei Ähren“ (nur mit Beleg)",
+    "m": 10,
+    "s": [
+     "Nur posten, wenn die Belegtabelle die Ähren-Zeile mit Quelle hat und der Serp-Test bestanden ist. Sonst Variante des besten Videos.",
+     "Gab es in den letzten 2 Wochen ≥ 3 Kommentare mit „Sowjet“, „Wappen“ oder „Holodomor“ (G7): kein Ernte-Bild, Variante statt V111.",
+     "18:00 als Karussell/Photo Mode auf TikTok und Instagram, Caption unten."
+    ],
+    "f": "V111 oder die Variante um 18:00 online ist.",
+    "v": {
+     "id": "V111",
+     "slot": "ORIGIN",
+     "dauer": "4 Slides",
+     "plattform": "TikTok Photo Mode + Instagram Karussell",
+     "hook_en": "Three wheat ears, nine gold threads. Here's why.",
+     "hook_de": "Drei Ähren, neun Goldfäden. Darum.",
+     "shots": ["Slide 1 Hook", "Slide 2 drei Ähren gezeichnet", "Slide 3 Fäden im Makro", "Slide 4 Warteliste"],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Licht von vorn",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App",
+     "text": "Slide-Texte EN, Quelle klein auf Slide 2",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Three ears on a red band, nine gold threads below. The harvest sits on the left. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #denim #novalifetimetravel",
+     "check": "Nie „fünf Ähren“, Ähren und Serp nie zusammen auf Rot, kein hellblauer Himmel über Weizen, nur mit Beleg."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ],
+  "2026-12-18": [
+   {
+    "c": "V",
+    "t": "CREATOR nachfassen (C3); unter 5 Zusagen: Nr. 9–12 anschreiben",
+    "m": 20,
+    "s": [
+     "Blatt „Creator“ öffnen: wer hat auf die Anfrage vom 12.12. nicht geantwortet?",
+     "Einmal kurz nachfassen mit der Vorlage „Creator-DM“ (Docket → Referenz → Vorlagen), Creator-Preview am Di 12.01. nennen, Link mit ?ref=c-[name].",
+     "Zusagen zählen. Unter 5: Creator Nr. 9–12 aus dem Blatt mit derselben Vorlage anschreiben.",
+     "Abmachung bleibt 1 Clip + 1 Story (Entscheidung 11.12.)."
+    ],
+    "f": "jeder offene Creator nachgefasst ist und bei unter 5 Zusagen Nr. 9–12 angeschrieben sind.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "DMs"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "DMs"},
+     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Creator-DM“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Nur bei englischen Hooks (07.11.): englische Produktseite",
+    "m": 30,
+    "s": [
+     "Hat die Entscheidung am Sa 07.11. deutsch ergeben (Versand nur DE): Aufgabe streichen.",
+     "Sonst: Shopify → Einstellungen → Sprachen → Englisch hinzufügen, Übersetzung mit der App Translate & Adapt (laut tools.md, vor Ort prüfen).",
+     "Vorbestellseite übersetzen. Liefersatz EN: „Delivery by 30.04.2027 at the latest, planned early April.“ Geld-zurück EN: „If production doesn't start on 01.02., you get your money back in full.“",
+     "Prompt unten für den Rest der Seite. Kein Streichpreis, Wortliste EN.",
+     "Sprachwechsler im Handy prüfen."
+    ],
+    "f": "die Vorbestellseite auf Englisch vollständig ist oder die Aufgabe begründet gestrichen ist.",
+    "p": "Projekt Time Travel, Docket W14, Fr 18.12. Übersetze mir die Produktseite „Time Travel Jeans · Vorbestellung“ ins Englische, knapp und klar: [Text der DE-Seite einfügen]. Feste Sätze: „Delivery by 30.04.2027 at the latest, planned early April.“ und „If production doesn't start on 01.02., you get your money back in full.“ Preiszeile: „Pre-order price €149 until 21.03. · from 22.04. €169“. Kein Streichpreis, kein „authentic“, Wortliste: cross-stitch band, eight-point star, designed in Berlin.",
+    "o": [
+     {"n": "Shopify-Admin · Sprachen", "u": "https://admin.shopify.com", "h": "Translate & Adapt, vor Ort prüfen"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V036 posten: DETAIL „Die Rückseite“",
+    "m": 20,
+    "s": [
+     "17:55 W14/final/V036_final.mp4 in TikTok hochladen, ruhiger Track aus der Commercial Music Library unter dem O-Ton. Caption einfügen.",
+     "18:00 posten, danach Reel und Short.",
+     "Reel in die Story, Link-Sticker auf die Warteliste.",
+     "15 Min. Kommentare (Regeln 9.3 Punkt 9). Kommentare mit „Sowjet“, „Wappen“, „Holodomor“ danken, zählen (G7), nie löschen."
+    ],
+    "f": "V036 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V036",
+     "slot": "DETAIL",
+     "dauer": "10–15 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Left pocket: harvest. Right pocket: pattern.",
+     "hook_de": "Linke Tasche: Ernte. Rechte Tasche: Muster.",
+     "shots": [
+      "Rückansicht Totale, getragen, gehen (frontal von hinten, keine Seitenansicht links)",
+      "Makro linke Gesäßtasche: drei Ähren, Band, Fäden",
+      "Makro rechte Gesäßtasche: Achtstern",
+      "Patch am Bund"
+     ],
+     "ort": "Berlin · Hinterhof oder Treppenhaus mit Fensterlicht, keine Sowjet- oder DDR-Monumentalkulisse, keine Flaggen, keine Streifen in Verbotsfarben",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "Hook EN 0–2 s, Untertitel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Right side: the pattern. Left side: the harvest. Three wheat ears with nine gold threads on the left, the eight-point star on the right, the tree of life on the waistband. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #berlinfashion #novalifetimetravel",
+     "check": "Serp (vorn links) nicht im Bild, B und B2 nie im selben Bild, kein roter Hintergrund, nie „fünf Ähren“, bei G7 aus der Vorwoche Ersatz-Detail ohne Ähren."
+    },
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "YouTube", "u": "https://www.youtube.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "plus": true,
+    "t": "Grind+ · A-Liste Teil 2 mit Proto: Studio183 und Konk",
+    "m": 60,
+    "s": [
+     "Mitnehmen: Proto, 10 Karten mit QR-Code (?ref=h-s183 bzw. h-konk), Handy mit Fotos der Stickproben.",
+     "Konk vorher prüfen: ist der Laden offen (TextilWirtschaft berichtet von Neuausrichtung)? Website oder Maps-Eintrag öffnen.",
+     "Vor Ort: „Ich bin Ernest, Novalife, entworfen in Berlin. 100 nummerierte Jeans, Drop 22.04. Darf ich dir das Proto zeigen? Ich suche einen Ort für einen Mess-Abend im Januar oder März.“",
+     "Ergebnis ins Blatt „Berlin“: Kontakt, Interesse, Fläche für Abend ja/nein, nächster Schritt."
+    ],
+    "f": "beide Läden besucht oder geprüft sind und das Ergebnis im Blatt „Berlin“ steht.",
+    "o": [
+     {"n": "Studio183", "u": "https://bikiniberlin.de/en/shopping/studio183/", "a": "Brunnenstr. 183, Berlin", "h": "Öffnungszeit vor Ort prüfen"},
+     {"n": "Konk", "u": "https://www.textilwirtschaft.de/fashion-management/berliner-designer-store-konk-richtet-sich-neu-aus-62843", "a": "Kleine Hamburger Str. 15, Berlin", "h": "vorher prüfen, ob offen"}
+    ]
+   }
+  ],
+  "2026-12-19": [
+   {
+    "c": "D",
+    "t": "Vorbestellung festlegen: 35 zu 149 € + Stufe 2, Nummern, Bestand je Größe",
+    "m": 20,
+    "s": [
+     "Entscheidung: 35 zu 149 € + Stufe 2 zu 169 € (statt „Kontingent 45“).",
+     "Nummern: 001–035 Vorbestellung · 036–060 Stufe 2 · 061–065 Creator · 066–067 Reserve · Rest Drop. Ohne Lücke nach Bestelldatum: Füllt sich Stufe 2 nicht, rücken Creator, Reserve und Drop nach. Bei 75 Stück: Stufe 2 nur 036–045.",
+     "Gilt für Website-Raster (Mo 21.12.), Hangtag-Plan und Packliste: in allen drei Dokumenten eintragen.",
+     "Bestand je Größe: Shopify → Kunden → Segmente, je gr-Tag (gr-w30 … gr-w38) zählen. Prompt unten, Claude verteilt 35 proportional. Ergebnis im Vorbestell-Produkt eintragen, Summe 35 prüfen.",
+     "Entscheidung Claude melden (Prompt)."
+    ],
+    "f": "Kontingent, Nummernplan und Bestand je Größe (Summe 35) im Produkt, Hangtag-Plan und Packliste stehen.",
+    "p": "Projekt Time Travel, Docket W14, Sa 19.12. Entscheidung: 35 zu 149 € + Stufe 2 zu 169 € (Nr. 036–060), Nummern 001–035 · 036–060 · 061–065 Creator · 066–067 Reserve · Rest Drop, ohne Lücke nach Bestelldatum. Größen-Tags auf der Liste: W30 [a], W32 [b], W34 [c], W36 [d], W38 [e]. Antworten aus V037 und den Zusagen: [Zahlen]. Verteil mir 35 Vorbestell-Paare auf W30–W38 (ganze Zahlen, Summe 35, keine Größe unter 2) und die 25 von Stufe 2 genauso. Prüfe, ob Mails, Raster-Prompt und Packliste noch zu dieser Logik passen.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden → Segmente", "u": "https://admin.shopify.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "12:00 · V037 ASK-Story „Größe“",
+    "m": 10,
+    "s": [
+     "Instagram-Story Frame 1: Foto Maßband am Bund des Protos, Text „What's your real waist in cm?“",
+     "Frame 2: Umfrage-Sticker „Welche Größe trägst du?“: W30 · W32 · W34 · W36+. Link-Sticker auf die Warteliste.",
+     "12:00 posten. Am Abend Ergebnis ins Blatt „Content“ und in die Größenverteilung (Aufgabe oben)."
+    ],
+    "f": "die Story um 12:00 online ist und das Ergebnis am Abend im Blatt steht.",
+    "v": {
+     "id": "V037",
+     "slot": "ASK",
+     "dauer": "2 Story-Frames",
+     "plattform": "Instagram Story (TikTok Story optional)",
+     "hook_en": "What's your real waist in cm?",
+     "hook_de": "Was ist dein echter Bund in cm?",
+     "shots": ["Frame 1: Maßband am Bund des Protos", "Frame 2: Umfrage W30 · W32 · W34 · W36+"],
+     "ort": "Wohnung, Licht von vorn",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "Frage EN, Umfrage-Sticker",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "(Story) What's your real waist in cm? Link in bio: join the list.",
+     "check": "Keine Seitenansicht links, nur Proto, kein Streichpreis."
+    },
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "Zipper-Rücken: gestickt (Rat) oder Chenille",
+    "m": 15,
+    "s": [
+     "Angebot vom Do (Medaillon gestickt beim Berliner Sticker, Mindestmenge 1) neben Chenille legen: Chenille hat meist 50–100 Stück Mindestmenge, vor dem Drop zu zahlen.",
+     "Rat: gestickt. Chenille nur, wenn ein Anbieter 20 Stück oder weniger macht. Teppich-Flor kommt in Drop 2.",
+     "Bei Chenille: Muster jetzt bestellen (Budget 120 €, steht auf der Ausgaben-Stopp-Liste).",
+     "Entscheidung Claude schreiben."
+    ],
+    "f": "die Entscheidung im Blatt „Entscheidungen“ steht und Claude sie hat.",
+    "o": [
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Orte fest: Creator-Preview 12.01., Mess-Abende 16.01., 23.01., 13.03.",
+    "m": 15,
+    "s": [
+     "Antworten auf die Anfragen vom 12.12. prüfen. Je Termin einen Ort mit schriftlicher Zusage ins Blatt „Abende“.",
+     "Ohne Zusage: Fläche über Giggster (Suche vom 13.12.) anfragen, Pop-up-Flächen Berlin, Preis und Stornoregel vorher lesen.",
+     "Zusage schriftlich: Datum, Uhrzeit, Kosten, Zugang, Strom, Spiegel.",
+     "Orte an Claude für die Mails vom 07.01. und den Event-Tipp am 30.12."
+    ],
+    "f": "für alle vier Termine ein Ort schriftlich fest ist oder eine Giggster-Anfrage läuft.",
+    "o": [
+     {"n": "Giggster · Pop-up Berlin", "u": "https://giggster.com/de/find/berlin--de/pop-up", "h": "Preise und Storno je Fläche lesen"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"}
+    ]
+   }
+  ],
+  "2026-12-20": [
+   {
+    "c": "A",
+    "t": "Wochenreview W14 + Cockpit + Zeile an Claude",
+    "m": 20,
+    "s": [
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nach src-/ref-Tags zählen. Views, Anmeldungen je 1.000 Views ins Blatt „Content“.",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (vor 14.01.: 0).",
+     "Kassencheck K − F − R: grün ≥ 300 € · gelb 0–300 €: keine Ausgaben außerhalb Plan 3 · rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter (G12).",
+     "G1/G2: Liste unter Alarm 260 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · unter Soll 620 → bestes Video in 2 Varianten, Kommentarzeit 15′.",
+     "G3: Anmeldungen je 1.000 Views < 1,0 → angehefteter Kommentar „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“, Link-Sticker in jede Story. G5: Video ≥ 2 × Median → 5 Varianten in 14 Tagen.",
+     "G7/G8: ≥ 3 „Sowjet/Wappen/Holodomor“-Kommentare → 2 Wochen kein Ernte- oder Serp-Bild · ≥ 3 Folklore-Kommentare → erst Totale im Streetwear-Outfit.",
+     "Zeile an Claude (Prompt unten), Offenes als „Offen aus W14: …“ dazu."
+    ],
+    "f": "das Cockpit die vier Zahlen der Woche hat, jedes Gate aus 7.1 geprüft ist und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W14, So 20.12. W14: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [Z35], Auszahlung [Werktage], Stufe 2 [entschieden], Patch [bestellt ja/nein]. Offen aus W14: [..]. Sag mir, was ich in W15 verschieben soll.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Segment „E-Mail-Abonnenten“"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Content“, „Kasse“, Zahlen-Cockpit"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "GATE 20.12.: Zusagen ≥ 15, Auszahlung, Stufe 2, Patch, Liste ≥ 620",
+    "m": 10,
+    "s": [
+     "Zusagen mit Größe ≥ 15, nur Spalte „Zusage“. 10–14: jeden Tag bis Mi 3 persönliche DMs. Unter 10: Ausgaben-Stopp-Liste aktivieren, Proto-Runde verlängern.",
+     "Auszahlung geklärt: Shopify → Einstellungen → Payments → Auszahlungsplan, Werktage notieren. Unklar: kein Start am 14.01. ohne Klärung (echter Test Di 29.12.).",
+     "Stufe 2 entschieden (Sa 19.12.)? Sonst heute.",
+     "Patch bestellt? Sonst Bestellung Mo 21.12. und die Fabrik über die neue Patch-Frist Fr 29.01. informieren.",
+     "Liste ≥ 620 (Alarm 260): Maßnahmen aus G1/G2 im Review."
+    ],
+    "f": "jedes der fünf Kriterien grün oder mit Gegenmaßnahme und Datum im Blatt „Gates“ steht.",
+    "o": [
+     {"n": "Shopify-Admin · Payments", "u": "https://admin.shopify.com", "h": "Einstellungen → Payments"},
+     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Content-Batch W15 und W16: V038–V043 drehen und schneiden",
+    "m": 90,
+    "s": [
+     "Ordner W15/final und W16/final anlegen. Kamera 9:16, Licht von vorn, je Shot 3 Takes.",
+     "Ort 1 Schreibtisch (Draufsicht): V038 Zeitachse von Hand (04.01. final sample · 14.01. pre-order · Feb production · 20.02. shoot · 22.04. drop), mit rotem Stift abhaken · V039 Belege und Liste auf Papier (Digitizing, Stickproben, Proto, Stoffe, Patches), echte Summe aus Blatt „Ausgaben“ einkreisen · V041 Kalender 2027, vier Daten markieren: 14.01. · 01.02. · 20.02. · 22.04.",
+     "Ort 2 leerer Raum mit Stuhl, Fensterlicht: V042 Proto auf dem Stuhl, Handy kreist langsam, Endframe „prototype“.",
+     "Ort 3 Detailfotos für Stories: V040 Detailfoto für den Countdown, V043 Proto-Detail für den Frage-Sticker.",
+     "Schneiden in CapCut: Hook EN in die ersten 2 s, Untertitel automatisch, keine Musik einbacken, Endkarte mit CTA der Phase. Liefersatz nur „bis spätestens 30.04.2027, geplant Anfang April“.",
+     "Exportieren nach W15/final/V038_final.mp4, V039_final.mp4 und W16/final/V041_final.mp4, V042_final.mp4, Fotos für V040 und V043 dazu."
+    ],
+    "f": "V038, V039, V041, V042 fertig geschnitten und die Story-Fotos für V040 und V043 in den Ordnern liegen.",
+    "v": {
+     "id": "V038–V043",
+     "slot": "BUILD · REAL · ASK · BUILD · REACH · ASK",
+     "dauer": "7–30 s je Video, Stories 2 Frames",
+     "plattform": "TikTok + Reels + Shorts, Stories auf Instagram",
+     "hook_en": "Day 71: everything left before the drop. · What this drop has cost me so far. · Tap remind me: pre-order opens 14.01. · 2027 plan: 100 jeans, one drop, 22 April. · Only one pair exists right now. This one. · Pre-order opens in 12 days. Ask me anything.",
+     "hook_de": "Tag 71: Alles, was bis zum Drop noch fehlt. · Was mich dieser Drop bis jetzt gekostet hat. · Tipp auf Erinnern. · Plan 2027. · Gerade gibt es nur ein Paar. · Frag mich alles.",
+     "shots": [
+      "V038 Zeitachse schreiben, abhaken, Finger auf „22.04.“",
+      "V039 Belege, Summe einkreisen, „budget left: [X]“",
+      "V040 Detailfoto + Countdown-Sticker",
+      "V041 Kalender 2027 durchblättern, vier Daten, du mit einem Satz",
+      "V042 Proto auf Stuhl, Kreisfahrt, „prototype“",
+      "V043 Proto-Detail + Frage-Sticker"
+     ],
+     "ort": "Wohnung · Schreibtisch, leerer Raum mit Stuhl, Fensterlicht",
+     "ton": "O-Ton + Untertitel; REACH mit Trend-Sound nur aus der Commercial Music Library",
+     "text": "Hook EN 0–2 s, Untertitel, Endkarte mit CTA",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Captions stehen am jeweiligen Posttag in W15 und W16.",
+     "check": "Nur echte Summen, Proto als Prototyp bezeichnet, keine Seitenansicht links, kein Streichpreis, kein roter Hintergrund."
+    },
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "keine Musik einbacken"}
+    ]
+   },
+   {
+    "c": "C",
+    "plus": true,
+    "t": "Grind+ 18:00 · Variante deines besten Videos",
+    "m": 10,
+    "s": [
+     "Bestes Video der Woche nach Views und Teil-Rate wählen.",
+     "Neuer Hook oder neues erstes Bild, gleicher Kern. Eine Variable ändern.",
+     "18:00 posten, CTA der Phase."
+    ],
+    "f": "die Variante um 18:00 online ist.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ]
+   }
+  ]
+ }
+}

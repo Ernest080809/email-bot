@@ -1,0 +1,808 @@
+{
+ "n": 7,
+ "phase": "P1",
+ "goal": "Eine Fabrik wählen, Konditionen mit Notausgang, Validierung bestehen",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "150 bestätigt (Alarm 50)"},
+  {"k": "Follower TikTok + IG neu seit 12.10.", "ziel": "~450 (Schätzung, ab 01.11. echte Quote)"},
+  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Zusagen „Die ersten 35“", "ziel": "10 (nur Spalte „Zusage“)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Validierung", "ziel": "grün ≥ 150, ≥ 10 Zusagen, 50/50 schriftlich"},
+  {"k": "Gespräche", "ziel": "10 von 10, Tally ≥ 50"}
+ ],
+ "days": {
+  "2026-10-26": [
+   {
+    "c": "D",
+    "t": "FABRIK ENTSCHEIDEN: Scorecard mit Steuer und Zahlung, Nr. 2 Reserve",
+    "m": 45,
+    "s": [
+     "Call-Notizen (21.–23.10.), Bewertungen, Antworten der Referenzen und den Vergleich vom 19.10. mit dem Prompt unten an Claude.",
+     "Pflicht: Panel-Stickerei im eigenen Haus, belegt mit Fotos einer früheren Produktion. Kein Vermittler ohne genannte Fabrik.",
+     "Scorecard: Preis bei 100 Stück inkl. Stickerei mit Ampel, Termine Proto 30.11. und PP 04.01., Einzug-Kompensation, Zahlung 50/50, Kommunikation, Steuer und Zoll (Steuer-Spalte vom 23.10.), Ramadan und Feiertage.",
+     "Ampel grün oder gelb: Fabrik wählen. Rot bei allen: Gegenrechnung vom So (V4b, kleiner Serp, 75 Stück) heute entscheiden.",
+     "Nr. 2 als Reserve notieren. Ihr wird nicht abgesagt: Sie ist der Weg der B-Zeitachse 2, falls die Stickproben am 17.11. durchfallen.",
+     "Bei Türkei: Konditionen bis Di 27.10., 12:00, Proforma bis Fr 30.10. Am 28.10. ist dort nachmittags frei, am 29.10. Nationalfeiertag (Allgemeinwissen, ungeprüft). EORI heute beantragen.",
+     "Entscheidung ins Blatt „Fabriken“: Nr. 1, Nr. 2, Datum, Grund in einem Satz."
+    ],
+    "f": "Fertig, wenn Nr. 1 und Nr. 2 im Blatt „Fabriken“ stehen und Nr. 1 Ampel grün oder gelb hat (oder die Gegenrechnung entschieden ist).",
+    "p": "Projekt Time Travel, Docket W7, Mo 26.10.: Ich wähle heute meine Jeansfabrik. Anbei: Vergleichstabelle vom 19.10., Notizen und Bewertungen aus den Calls 21.–23.10., Antworten der Referenzen: [ANHÄNGE]. Mein Steuerstand vom 23.10.: [STEUER]. Mach eine Scorecard für die Top 3: Panel-Stickerei im Haus nachgewiesen (Pflicht, sonst raus), Vermittler ohne genannte Fabrik (raus), Fabrikpreis je Paar inkl. Stickerei ohne Patch D bei 100 und 75 Stück mit Ampel (≤ 60 € grün, 61–63 € gelb, über 63 € rot), Termine Proto bis 30.11. und PP bis 04.01., Einzug-Kompensation, Zahlung (50/50?), Kommunikation, Steuer und Zoll nach meinem Status, Schwelle 1 und Schwelle 2 mit dieser Fabrik, Arbeitszeit im Ramadan, Feiertage bis April, A.TR. Sag mir ehrlich, welche du nehmen würdest, welche Nr. 2 sein soll und was ich morgen in der Verhandlung unbedingt schriftlich brauche.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"},
+     {"n": "Gmail", "u": "https://mail.google.com", "h": "Antworten der Referenzen"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Nur bei Türkei: EORI-Nummer heute beantragen",
+    "m": 30,
+    "s": [
+     "Portugal gewählt: entfällt. Notiz „EORI entfällt (PT)“ oben ins Blatt „Ausgaben“.",
+     "Türkei: zoll.de öffnen, Seite „EORI-Nummer beantragen“ suchen. Laut Recherche online, kostenlos, Dauer meist 1–2 Wochen (ungeprüft).",
+     "Der Antrag läuft über das Zoll-Portal, eventuell mit ELSTER-Zertifikat. Ablauf vor Ort prüfen.",
+     "Gewerbeschein bereithalten (Tätigkeit Herstellung lassen und Online-Handel, siehe 14.10.).",
+     "Antragsbestätigung als Notiz oben ins Blatt „Ausgaben“. Die Nummer brauchst du für Proto (~30.11.), PP und Lieferung."
+    ],
+    "f": "Fertig, wenn der Antrag gestellt ist oder „entfällt“ im Blatt „Ausgaben“ steht.",
+    "o": [
+     {"n": "Zoll · EORI-Nummer", "u": "https://www.zoll.de", "h": "Antragsweg und Dauer selbst prüfen (ungeprüft)"},
+     {"n": "Tracking-Tabelle · Blatt „Ausgaben“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Fotos an die Papierabend-Gäste, Bitte um Story mit eigenem Link",
+    "m": 15,
+    "s": [
+     "Ordner „W7 · Papierabend“: pro Gast die 2 besten Fotos, nur von Gästen mit Ja.",
+     "Nur Fotos von vorn oder hinten, keine Seitenansicht links, B und B2 nie in einem Bild. Die Story des Gasts ist öffentlich.",
+     "Einzeln per WhatsApp oder DM: „Danke für Samstag! Hier sind deine Fotos. Wenn du magst, teil eins in deiner Story und pack deinen eigenen Link aus der Willkommens-Mail dazu. Kein Muss.“",
+     "Wer noch nicht eingetragen ist: Link mit ?ref=papier mitschicken.",
+     "Antworten und neue Zusagen ins Blatt „Die ersten 35“."
+    ],
+    "f": "Fertig, wenn jeder Gast mit Ja seine Fotos und die Bitte bekommen hat.",
+    "o": [
+     {"n": "WhatsApp Web", "u": "https://web.whatsapp.com"},
+     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"},
+     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · BUILD V007 „8 Fabriken angeschrieben“ (DE-Hook-Test)",
+    "m": 20,
+    "s": [
+     "17:50 Check: Zahlen im Video stimmen mit dem Blatt „Fabriken“, kein Name lesbar. Die Fabrik ist heute gewählt, im Video steht trotzdem kein Name.",
+     "17:55 TikTok (Business-Konto): V007_A hochladen, Caption einfügen, Ton nur aus der Commercial Music Library leise unter den O-Ton. 18:00 posten.",
+     "Gleich danach V007_A als Reel auf Instagram (Caption plus DE-Zeile „Ich habe 8 Fabriken angeschrieben. Das sind die Antworten.“) und als Short auf YouTube (Titel = Hook EN).",
+     "DE-Test: V007_B als Instagram-Probe-Reel nur an Nicht-Follower (Funktion ungeprüft), sonst frühestens Mo 02.11. auf TikTok mit anderem ersten Bild. Variante A/B ins Blatt „Content“.",
+     "Reel in die Story mit Link-Sticker. 18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
+    ],
+    "f": "Fertig, wenn V007 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
+     {"n": "YouTube Studio", "u": "https://studio.youtube.com"}
+    ],
+    "v": {
+     "id": "V007",
+     "slot": "BUILD",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I emailed 8 factories. Here's who answered.",
+     "hook_de": "Ich habe 8 Fabriken angeschrieben. Das sind die Antworten. (Test-Hook B, deutsch)",
+     "shots": [
+      "Bildschirmaufnahme Postfach, Absender und Namen verpixelt",
+      "Strichliste auf Papier: written [8] · answered [X] · panel embroidery in-house [Y]",
+      "Du, ein Satz: „Denim AND embroidery on the cut panel, in-house.“",
+      "Endkarte: „3 calls done. Decision this week.“"
+     ],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), dann Schreibtisch, Draufsicht, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „I emailed 8 factories. Here's who answered.“ · Endkarte „3 calls done. Decision this week.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 15. The question that filters most factories out: can you embroider on the cut panel before sewing, in your own house? Big embroidery doesn't fit on a sewn leg. Answers so far: [X] of [8]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Nur echte Zahlen, Fabriknamen, Logos und E-Mail-Adressen unkenntlich, kein fertiges Teil, CTA der Phase."
+    }
+   }
+  ],
+  "2026-10-27": [
+   {
+    "c": "B",
+    "t": "Konditionen verhandeln, Proforma anfordern (Türkei: bis 12:00)",
+    "m": 40,
+    "s": [
+     "Prompt unten an Claude: Claude schreibt die Mail auf Englisch aus der Vorlage „Verhandlung und Proforma“ (Referenz → Vorlagen) mit allen 8 Punkten.",
+     "Die 8 Punkte: 50/50 · Rest „nach Freigabe des Endkontroll-Videos, spätestens 24.03.“ · Teil-Lieferung gegen Teilzahlung · Preis 75/100 schriftlich bis 01.02. · Euro · DAP bevorzugt (bei DDP steckt die Steuer schon in der Restzahlung am 19.03.) · keine Bestellpflicht bei durchgefallenen Mustern · Bankdaten-Regel.",
+     "Schriftlich dazu: Das Proto bleibt bei dir, Korrekturen gehen per Foto und Maß. Ein zweites Proto optional mit Preis. Bei Türkei: jede Sendung mit A.TR, Handelsrechnung und Packliste, auch Proto und PP.",
+     "Aus der Vorlage bleibt: Entwicklungskosten werden verrechnet, Digitizing aller 5 Elemente inklusive, Termine für Digitizing-Vorschau, gewaschene Stickproben, Proto bis 30.11., PP bis 04.01.",
+     "Proforma für die Entwicklung anfordern: Digitizing, gewaschene Stickproben, Proto W32 komplett bestickt und gewaschen, Expressversand. Bei Türkei bis Fr 30.10.",
+     "Bankdaten-Regel für dich: Gezahlt wird nur auf das Konto der ersten Proforma. Kommt per Mail ein neues Konto, zahlst du nicht und rufst die Fabrik an.",
+     "Mail lesen, Zahlen und Daten prüfen, bei Türkei spätestens 12:00 selbst senden. Kopie ins Blatt „Fabriken“."
+    ],
+    "f": "Fertig, wenn die Verhandlungsmail mit allen 8 Punkten und der Bitte um Proforma raus ist.",
+    "p": "Projekt Time Travel, Docket W7, Di 27.10.: Schreib mir die Verhandlungsmail an [FABRIK] auf Englisch, auf Basis meiner Vorlage „Verhandlung und Proforma“ (Docket → Referenz → Vorlagen), Betreff wie in der Vorlage. Nummeriert: 1) Payment 50 % deposit, 50 % balance. 2) Balance due after I approve the final inspection video, at the latest 24 March 2027. 3) Option: partial delivery against partial payment. 4) Prices for 75 and 100 pcs in writing, valid until 1 February 2027. 5) All prices in EUR. 6) Delivery DAP Berlin preferred [BEI PORTUGAL: delivered to Berlin]. 7) No obligation to order if stitch-outs, proto or PP fail the written criteria. 8) Bank details: I only pay to the account on the first proforma; any change by e-mail must be confirmed by phone before I pay. Dazu aus der Vorlage: development costs credited against the bulk order; digitizing of all 5 elements included; dates: digitizing preview by [DATUM], washed stitch-outs by [DATUM], proto shipped by 30 Nov 2026, PP shipped by 4 Jan 2027. Neu: the proto stays with me, corrections by photo and measurements; price for an optional second proto; [NUR TÜRKEI: every shipment, including proto and PP, comes with A.TR, commercial invoice and packing list]. Am Ende die Bitte um eine Proforma für die Entwicklung: digitizing, washed stitch-outs, proto W32 fully embroidered and washed, express shipping. Kurz, höflich, klar.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Absagen an die anderen, Nr. 2 warm halten",
+    "m": 15,
+    "s": [
+     "Vorlage „Absage“ (Referenz → Vorlagen) an jede angefragte Fabrik außer Nr. 1 und Nr. 2. Pro Fabrik eine eigene Mail.",
+     "Nr. 2 bekommt keine Absage, sondern: „Thank you for the call. For the first samples I'm starting with another factory, but I'd like to keep you as my second option for NVL-TT-01. May I come back to you by 17 November?“",
+     "Im Blatt „Fabriken“: Status „abgesagt“ mit Datum, bei Nr. 2 „Reserve bis 17.11.“."
+    ],
+    "f": "Fertig, wenn jede angefragte Fabrik eine Antwort hat.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Story 5: Serp-Papier, Schieberegler „Wie sehr würdest du das tragen?“",
+    "m": 5,
+    "s": [
+     "Foto: Serp-Papier am linken Bein gerade von vorn oder flach auf Denim. Keine Seitenansicht links (Bildregel bis Sa 07.11.), kein B2 im Bild, kein roter Hintergrund.",
+     "Instagram → Story → Foto → Emoji-Schieberegler mit der Frage unten.",
+     "Link-Sticker auf die Warteliste dazu.",
+     "Mi früh: Durchschnittswert als Screenshot ins Blatt „Content“."
+    ],
+    "f": "Fertig, wenn Story 5 mit Schieberegler online ist.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Schieberegler und Link-Sticker"}
+    ],
+    "v": {
+     "id": "Story 5",
+     "slot": "Story-Umfrage",
+     "dauer": "1 Bild, 24 h",
+     "plattform": "Instagram Story",
+     "hook_en": "How much would you wear this?",
+     "hook_de": "Wie sehr würdest du das tragen?",
+     "shots": [
+      "Foto: Serp-Papier, von vorn am linken Bein oder flach auf Denim, nur der Serp"
+     ],
+     "ort": "Wohnung · Flurspiegel von vorn oder Schreibtisch, Draufsicht, Licht von vorn",
+     "ton": "kein Ton (Foto)",
+     "text": "Emoji-Schieberegler mit der Frage „How much would you wear this?“",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "How much would you wear this?",
+     "check": "Keine Seitenansicht links, B und B2 nie zusammen, keine echte Sichel, kein roter Hintergrund."
+    }
+   },
+   {
+    "c": "V",
+    "t": "Gespräche 8 und 9 à 20 Min. (fehlende Segmente zuerst)",
+    "m": 40,
+    "s": [
+     "Wer: fehlende Segmente zuerst. Für Markenkriterium 3 brauchst du bis Do 5 Personen mit UA-, PL- oder BY-Hintergrund (Gespräche plus Tally). Nur Umfeld oder Empfehlung.",
+     "Fotos 1 und 2 ohne Erklärung („Was siehst du?“), dann jedes Foto einzeln („Woran erinnert dich das?“), 3 und 4 zuerst, dann Fragen 3–7 aus zielgruppe.md 5.1.",
+     "Frage 5 nur bei UA, PL, BY, Balt.: „Erinnert dich etwas an Sowjetsymbole, an ein Wappen oder an ein bestimmtes Ereignis?“ Antwort wörtlich notieren.",
+     "Preisfragen (Frage 8, vier Preise) und Frage 9 (149 € im Januar vorbestellen?) wörtlich, dann Fragen 10–13.",
+     "Codes G8 und G9 ins Blatt „Gespräche“, nie ein Name neben dem Segment. Zusagen mit Name und Größe ins Blatt „Die ersten 35“."
+    ],
+    "f": "Fertig, wenn G8 und G9 vollständig im Blatt „Gespräche“ stehen.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berliner Streetwear). Je ein Kommentar mit einem ganzen Satz zum Inhalt, kein „nice“ mit Emoji.",
+     "Keine Eigenwerbung, kein Link im Kommentar.",
+     "Alle DMs beantworten. Wer „Ja“ sagt oder eine Größe nennt: ins Blatt „Die ersten 35“. Zusage nur mit Name, Größe und „ich bestelle am 14.01.“, sonst „Vielleicht“."
+    ],
+    "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ · V121 „Warteliste-Stand“ (nur echte Zahl)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Shopify → Kunden → Segment „E-Mail-Abonnenten“: Zahl der bestätigten Anmeldungen ablesen. Nur diese echte Zahl zeigen.",
+     "Mac-Bildschirmaufnahme (Cmd + Shift + 5) nur vom Zähler, keine Namen, keine E-Mail-Adressen im Bild. Dann Ziel auf Papier und ein Satz in die Kamera.",
+     "CapCut 15–20 s, Hook-Text Sek. 0–2, ohne Musik exportieren. 18:00 TikTok und Instagram, Caption unten, Story mit Link-Sticker.",
+     "V119 (Serp-Papier an der Seite) nicht jetzt: frühestens Do 12.11. und nur, wenn du die Bildregel am Sa 07.11. lockerst."
+    ],
+    "f": "Fertig, wenn V121 mit echter Zahl auf TikTok und Instagram online ist.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com"},
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ],
+    "v": {
+     "id": "V121",
+     "slot": "Grind+ (REAL-Reserve)",
+     "dauer": "15–20 s",
+     "plattform": "TikTok + Reels",
+     "hook_en": "[X] people on my list. Goal: 3,000.",
+     "hook_de": "[X] Leute auf meiner Liste. Ziel: 3.000.",
+     "shots": [
+      "Shopify-Zähler der bestätigten Anmeldungen auf dem Bildschirm, ohne Namen und E-Mails",
+      "Ziel auf Papier: „3,000“",
+      "Du, ein Satz, warum die Liste zählt: „The list buys first.“"
+     ],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), dazu Hände am Schreibtisch, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „[X] people on my list. Goal: 3,000.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Right now [X] people are on my list. The goal is 3,000 by the drop. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Echte Zahl aus Shopify, keine Namen oder E-Mail-Adressen sichtbar, CTA der Phase statt der alten Zusage „kauft zuerst und zum Vorbestellpreis“."
+    }
+   }
+  ],
+  "2026-10-28": [
+   {
+    "c": "B",
+    "t": "Patch-Hersteller anfragen: 3 Anbieter mit feinen Mehrton-Patches",
+    "m": 45,
+    "s": [
+     "Vor der Anfrage klären: Größe D nach Freeze (86 × 76 mm oder kleiner nach V5), Lasche „N° __ / 100“ falls V1, die vier Kupfernieten aus Spec 3.8: gestickt oder echte Metallnieten? Echte Nieten macht kein Patch-Sticker.",
+     "Baum-Datei: deine eigene Vorlage oder Claudes eigene Fassung vom 20.10. Nie die fremde Vorlage.",
+     "Suchen: „Aufnäher sticken lassen ab 50 Stück“, „gestickte Patches Kleinauflage“, „custom embroidered patches low minimum Europe“, „embroidered patch manufacturer Portugal“. Chenille: „Chenille Aufnäher Kleinauflage“, „custom chenille patches low minimum EU“.",
+     "Nur Anbieter mit Nahaufnahmen fein gestickter Mehrton-Patches auf der eigenen Website, nicht nur Logos in zwei Farben. Kontakt nur von der eigenen Website.",
+     "Vorlage „Patch-Anfrage“ (Referenz → Vorlagen) mit dem Prompt unten anpassen und an 3 Anbieter senden. Anhänge: Elementblatt D und Medaillon-Entwurf.",
+     "Kann deine Fabrik D im Haus sticken (Call-Notizen)? Trotzdem 3 Angebote als Vergleich: Stichzahl × Preis je 1.000 Stiche plus Leinen und Kante gegen ~3 € Zukauf.",
+     "Ins Blatt „Patches“: Anbieter, Website, Kontaktweg, Datum. Budget: Muster 80 €, Serie ~330 € (Schätzung). Chenille-Muster 120 € nur, falls am 19.12. gewählt."
+    ],
+    "f": "Fertig, wenn 3 Patch-Anfragen raus sind und im Blatt „Patches“ stehen.",
+    "p": "Projekt Time Travel, Docket W7, Mi 28.10.: Passe meine Vorlage „Patch-Anfrage“ (Docket → Referenz → Vorlagen) an den Freeze an. Patch D Lebensbaum [GRÖSSE NACH FREEZE] auf vorgewaschenem Naturleinen, Kante umgeschlagen und gesteppt, Gold, Ocker, drei Brauntöne, Rot, Linien mindestens 0,8 mm, Einrollungen mindestens 2,5 mm; er wird angenäht und mit der ganzen Jeans enzym- und steingewaschen. [FALLS V1: Lasche mit „N° __ / 100“, die Nummer trage ich von Hand ein.] Die vier Kupfernieten in den Ecken sind [GESTICKT, ALSO TEIL DES PATCHES / ECHTE NIETEN, ALSO NICHT TEIL DER ANFRAGE]. Mengen: 3 Muster, dann 110 Stück. Dazu als zweites Angebot: Chenille-Patch ca. 200 × 150 mm für den Zipper-Rücken, Bordeaux, Beige, Schwarz, Gold, Filz oder Twill, umstochene Kante, aufnähbar, 1 Muster. Fragen: Preis bei 20/50/100/200, Musterpreis und -zeit, Produktionszeit, minimale Linienstärke, kann das Leinen vorgewaschen werden. Englisch, kurz. Gib mir eine Version, in die ich nur noch den Anbieternamen eintrage.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Patches“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · ORIGIN V008 „Die Goldfäden“ posten",
+    "m": 20,
+    "s": [
+     "17:50 Check: drei Ähren, 9 Fäden, nur B2 im Bild, kein Serp, kein roter Hintergrund.",
+     "17:55 TikTok (Business-Konto): V008_final hochladen, Caption einfügen, Ton nur aus der Commercial Music Library leise unter den O-Ton. 18:00 posten.",
+     "Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Neun Goldfäden verlassen die Tasche. Darum.“) und als Short auf YouTube.",
+     "Reel in die Story mit Link-Sticker.",
+     "18:00–18:15 jeden Kommentar beantworten. Fragt jemand „handgestickt?“: „The embroidery is machine-made on the cut panel. The gold threads are set by hand.“"
+    ],
+    "f": "Fertig, wenn V008 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel + Story mit Link-Sticker"},
+     {"n": "YouTube Studio", "u": "https://studio.youtube.com"}
+    ],
+    "v": {
+     "id": "V008",
+     "slot": "ORIGIN",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Nine gold threads leave the pocket. Here's why.",
+     "hook_de": "Neun Goldfäden verlassen die Tasche. Darum.",
+     "shots": [
+      "Spule Goldgarn in der Hand",
+      "Papiervorlage linke Gesäßtasche (B2) mit 9 aufgeklebten Fadenstücken",
+      "Lineal misst 19, 25, 30 mm",
+      "Hand schwingt die Papiertasche, die Fäden bewegen sich",
+      "O-Ton: „Hand-set after the wash. Every pair.“"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht (Gold und Stoffstruktur brauchen Licht von der Seite)",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „Nine gold threads leave the pocket. Here's why.“ · „18–30 mm · set by hand after the wash“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Under three wheat ears: nine gold threads, 18 to 30 mm, set by hand after the wash, because an industrial washer would eat them. It's the moment of the whole design. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "Nur B2-Papier, kein Serp im Bild, kein roter Hintergrund, immer drei Ähren, Papier statt fertiges Teil."
+    }
+   }
+  ],
+  "2026-10-29": [
+   {
+    "c": "B",
+    "t": "Berliner Sticker auswählen: 2 für Musterteile, Nr. 1 fürs Digitizing",
+    "m": 30,
+    "s": [
+     "Blatt „Sticker“: Antworten auf die Anfrage vom 14.10. vergleichen. Muss: Fleece 330–350 g/m² mit Topping UND Piqué, Fotos echter Arbeiten auf Hoodie oder Polo.",
+     "Dann: nimmt DST/EMB von außen an oder digitalisiert selbst · Preis bei 1/10/50 · Lieferzeit · Preis Musterteil. Bei Stückzahl 1 entscheiden die Einrichtungskosten.",
+     "Die 2 besten wählen. Nr. 1 macht das Digitizing (nächste Aufgabe). Beide sticken ein Musterteil, Budget 180 € für beide. Endgültig wählst du am Do 17.12.",
+     "Mail an beide (Deutsch): Claudes Band-Dateien vom 20.10. (SVG und Druckblatt 1:1) anhängen, Musterteil anfragen. Die Blanks vom 22.10. bringst du vorbei, sobald sie da sind.",
+     "Den übrigen kurz und freundlich absagen.",
+     "Im Blatt „Sticker“: Nr. 1, Nr. 2, Datum, Preis Musterteil."
+    ],
+    "f": "Fertig, wenn 2 Sticker im Blatt „Sticker“ markiert sind und die Dateien haben.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Sticker“", "u": "https://sheets.google.com"},
+     {"n": "Gmail", "u": "https://mail.google.com"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Digitizing Zipper-, Polo-Bänder und Medaillon beauftragen (max. 240 €)",
+    "m": 15,
+    "s": [
+     "Mail an Sticker Nr. 1 (Deutsch): Digitizing für die Zipper-Bänder (2 × 25 mm × ca. 25 cm, ~16.000 Stiche geschätzt), die Polo-Bänder (2 × 20 mm × ca. 12 cm, ~8.000 Stiche geschätzt) und das Medaillon (ca. 200 × 150 mm).",
+     "Stoffangaben dazu: Zipper Fleece 330–350 g/m² mit Topping und Cut-away, Polo Piqué mit Tear-away oder leichtem Cut-away.",
+     "Bedingungen: Festpreis vor Start, zusammen höchstens 240 € (Plan 3). Du bekommst DST und EMB plus PDF mit Stichzahl und Farbfolge und darfst die Dateien bei jedem Sticker nutzen.",
+     "Vor der Freigabe eine Vorschau als Bild oder Stick-out.",
+     "Auftrag ins Blatt „Kasse“ unter F (fällig) mit Betrag und Datum."
+    ],
+    "f": "Fertig, wenn die Mail mit allen Bedingungen raus ist und der Festpreis (höchstens 240 €) bestätigt oder angefragt im Blatt „Kasse“ steht.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Netz-Runde 2 (N2): einmal erinnern, Eingetragene um 3 Links bitten",
+    "m": 20,
+    "s": [
+     "Blatt „Netz“: alle, die auf N1 nicht reagiert haben und nicht eingetragen sind.",
+     "Jedem einzeln, mit Namen, nie als Massenmail: „Hey [NAME], nur kurz: Am Sonntag schau ich, ob genug Leute dabei sind, damit ich das Sample bezahle. Wenn du magst: [LINK]?ref=netz. Wenn nicht, alles gut!“",
+     "Nur einmal erinnern. Wer danach nicht reagiert, bekommt keine weitere Nachricht.",
+     "An alle, die eingetragen sind: „Danke, dass du dabei bist! Kennst du 3 Leute, denen das gefällt? Dein eigener Link steht in deiner Willkommens-Mail.“",
+     "Spalte „angeschrieben am“ ausfüllen, neue Zusagen ins Blatt „Die ersten 35“."
+    ],
+    "f": "Fertig, wenn alle ohne Eintrag N2 und alle Eingetragenen die Bitte um 3 Links bekommen haben.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Netz“", "u": "https://sheets.google.com"},
+     {"n": "WhatsApp Web", "u": "https://web.whatsapp.com"},
+     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Story 6: „Was wäre fair?“ 129 · 149 · 169 · 189 €, dazu Tally-Link",
+    "m": 5,
+    "s": [
+     "Foto: ganze Hose mit Papier, gerade von hinten. Der Serp an der linken Seitennaht darf nicht ins Bild ragen (B und B2 nie zusammen).",
+     "Instagram → Story → Foto → Umfrage-Sticker mit 4 Antworten (unten).",
+     "Zweites Story-Bild: Link-Sticker auf die anonyme Tally-Umfrage (Story 6 trägt den Tally-Link, Ziel 100 Antworten bis Sa 31.10.).",
+     "Fr früh: Ergebnis ins Blatt „Content“, es geht am Sa an Claude."
+    ],
+    "f": "Fertig, wenn Story 6 mit Umfrage und das zweite Bild mit Tally-Link online sind.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"},
+     {"n": "Tally-Umfrage", "u": "https://tally.so", "h": "Link deiner anonymen Umfrage vom 13.10."}
+    ],
+    "v": {
+     "id": "Story 6",
+     "slot": "Story-Umfrage",
+     "dauer": "2 Bilder, 24 h",
+     "plattform": "Instagram Story",
+     "hook_en": "What would be fair?",
+     "hook_de": "Was wäre fair?",
+     "shots": [
+      "Foto: ganze Hose mit Papier, gerade von hinten, ohne Serp im Bild",
+      "Zweites Bild: Text „3 minutes, anonymous“ mit Link-Sticker zur Tally-Umfrage"
+     ],
+     "ort": "Wohnung · Flurspiegel oder weiße Wand, Rückansicht, Licht von vorn",
+     "ton": "kein Ton (Foto)",
+     "text": "Umfrage-Sticker: €129 · €149 · €169 · €189",
+     "cta": "Link-Sticker zur Tally-Umfrage; Warteliste über den Link in der Bio",
+     "caption": "What would be fair?\n€129 · €149 · €169 · €189",
+     "check": "Rückansicht ohne Serp, keine Seitenansicht links, kein Streichpreis, nur Umfrage."
+    }
+   },
+   {
+    "c": "V",
+    "t": "Gespräch 10 à 20 Min., Gesprächsrunde abschließen",
+    "m": 20,
+    "s": [
+     "Wer: das letzte fehlende Segment. Fehlt eine Person mit BY-Hintergrund, nimmst du eine Baltin oder einen Balten (zielgruppe.md 5.1).",
+     "Gleicher Ablauf: Fotos ohne, dann mit Erklärung, Preisfragen (Frage 8) und Frage 9 wörtlich.",
+     "Code G10 ins Blatt „Gespräche“. Dann prüfen, ob jede Zeile G1–G10 alle Antworten hat; Lücken heute per Nachricht klären."
+    ],
+    "f": "Fertig, wenn G1–G10 vollständig im Blatt „Gespräche“ stehen.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Gespräche“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berliner Streetwear). Je ein Kommentar mit einem ganzen Satz zum Inhalt.",
+     "Keine Eigenwerbung, kein Link im Kommentar.",
+     "Alle DMs beantworten, auch Antworten auf N2. Jedes „Ja“ ins Blatt „Die ersten 35“, Zusage nur mit Name, Größe und „ich bestelle am 14.01.“."
+    ],
+    "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ · V120 „Die eine Frage an Fabriken“",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Lief V120 schon am 21.10. statt V005: heute stattdessen eine Variante deines besten Videos (neuer Hook, neues erstes Bild, gleicher Kern).",
+     "Drehen am Schreibtisch, 3 Shots: du am Tisch · Frage auf Papier „panel embroidery in-house?“ · echte Strichliste ja/nein aus dem Blatt „Fabriken“.",
+     "CapCut 15–20 s, Hook-Text Sek. 0–2, Untertitel, ohne Musik exportieren.",
+     "18:00 TikTok und Instagram, Caption unten, Story mit Link-Sticker."
+    ],
+    "f": "Fertig, wenn V120 oder die Variante auf TikTok und Instagram online ist.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ],
+    "v": {
+     "id": "V120",
+     "slot": "Grind+ (BUILD-Reserve)",
+     "dauer": "15–20 s",
+     "plattform": "TikTok + Reels",
+     "hook_en": "One question filters most denim factories out.",
+     "hook_de": "Eine Frage siebt die meisten Denim-Fabriken aus.",
+     "shots": [
+      "Du am Tisch",
+      "Frage auf Papier: „panel embroidery in-house?“",
+      "Strichliste ja/nein mit den echten Zahlen aus dem Blatt „Fabriken“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „One question filters most denim factories out.“ · „panel embroidery in-house?“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "If they can't embroider the flat panel in-house, I can't work with them. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Echte Strichliste, keine Fabriknamen, kein fertiges Teil."
+    }
+   }
+  ],
+  "2026-10-30": [
+   {
+    "c": "A",
+    "t": "EORI: nur Kontrolle, ob der Antrag läuft (Portugal: entfällt)",
+    "m": 5,
+    "s": [
+     "Türkei: Postfach und Zoll-Portal prüfen, ob der Antrag vom 26.10. eingegangen ist. Keine Bestätigung: Antrag im Portal nachsehen, sonst neu stellen.",
+     "Portugal: Notiz „entfällt“ im Blatt „Ausgaben“ prüfen.",
+     "Stand mit Datum ins Blatt „Ausgaben“."
+    ],
+    "f": "Fertig, wenn der Stand des EORI-Antrags mit Datum im Blatt „Ausgaben“ steht.",
+    "o": [
+     {"n": "Zoll · EORI-Nummer", "u": "https://www.zoll.de", "h": "Status im Zoll-Portal prüfen"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "Gate · Bei Türkei: Proforma heute da? Sonst anrufen",
+    "m": 5,
+    "s": [
+     "Proforma da und 50/50 steht drin: „50/50 schriftlich“ zählt für die Validierung am So.",
+     "Nicht da: heute anrufen (Nummer aus dem Call), Proforma bis Sa erbitten.",
+     "Ohne Proforma gilt „50/50 schriftlich“ am So als offen. Dann keine Zahlung, bevor sie da ist.",
+     "Portugal: gleiche Prüfung, ohne Feiertags-Frist.",
+     "Kontodaten der Proforma notieren: Nur auf dieses Konto wird gezahlt (Bankdaten-Regel)."
+    ],
+    "f": "Fertig, wenn im Blatt „Fabriken“ steht: Proforma ja/nein, 50/50 ja/nein, Konto notiert.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Shopify Payments aktivieren, Support fragen: Reserve und Auszahlung",
+    "m": 30,
+    "s": [
+     "Shopify-Admin → Einstellungen → Zahlungen → Shopify Payments aktivieren (Menünamen vor Ort prüfen).",
+     "Ausweis hochladen, Projektkonto und Gewerbedaten eintragen, prüfen lassen. Die Prüfung kann dauern.",
+     "Support schriftlich fragen (Chat oder Mail über das Shopify-Hilfecenter): „Ich plane ab 14.01.2027 Vorbestellungen mit Lieferung im April 2027. Haltet ihr bei Vorbestellungen eine Reserve zurück oder zahlt ihr erst nach dem Versand aus? Wann wird ausgezahlt, wie viele Werktage nach der Zahlung?“",
+     "Antwort als Screenshot mit Datum ins Blatt „Kasse“.",
+     "Hält Shopify Geld zurück: Risiko „Auszahlung verzögert“. Dann zählt nur ausgezahltes Geld; PayPal kommt am 25.11. dazu, die echte Auszahlungsdauer misst du am Di 29.12."
+    ],
+    "f": "Fertig, wenn Shopify Payments zur Prüfung eingereicht ist und die Support-Frage schriftlich gestellt ist (Screenshot im Blatt „Kasse“).",
+    "o": [
+     {"n": "Shopify-Admin · Einstellungen → Zahlungen", "u": "https://admin.shopify.com"},
+     {"n": "Shopify-Hilfecenter", "u": "https://help.shopify.com", "h": "Support-Kontakt dort, Weg vor Ort prüfen"},
+     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · REAL V009 „Was eine Jeans kostet“ (DE-Hook-Test)",
+    "m": 20,
+    "s": [
+     "17:45 Check: Zahlen im Video stammen aus dem echten Angebot der gewählten Fabrik, Schätzungen tragen „est.“, kein Fabrikname. Hat sich seit So etwas geändert: Zahlen-Texte in CapCut tauschen.",
+     "17:55 TikTok (Business-Konto): V009_A hochladen, Caption mit den echten Zahlen füllen, Ton nur aus der Commercial Music Library. 18:00 posten.",
+     "Gleich danach V009_A als Reel auf Instagram (Caption plus DE-Zeile „Was mich eine bestickte Jeans in der Herstellung kostet.“) und als Short auf YouTube.",
+     "DE-Test: V009_B als Instagram-Probe-Reel nur an Nicht-Follower (Funktion ungeprüft), sonst frühestens Fr 06.11. auf TikTok mit anderem ersten Bild. Variante A/B ins Blatt „Content“.",
+     "Reel in die Story mit Link-Sticker. 15 Min. Kommentare. Fragen nach dem Preis: „The pre-order price is for 35 pairs. Join the list, the list buys first.“"
+    ],
+    "f": "Fertig, wenn V009 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
+     {"n": "YouTube Studio", "u": "https://studio.youtube.com"},
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V009",
+     "slot": "REAL",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "What one embroidered jeans costs me to make.",
+     "hook_de": "Was mich eine bestickte Jeans in der Herstellung kostet. (Test-Hook B, deutsch)",
+     "shots": [
+      "Handschrift, Posten für Posten: base jeans €[X] · embroidery €[Y] · patch ~€[3] est. · gold threads ~€[2] est. · handling ~€[5] est.",
+      "Strich darunter: ~€[SUMME]",
+      "Du: „Estimate. The real number comes with the stitch count.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „What one embroidered jeans costs me to make.“ · „est.“ neben jeder Schätzung",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "My cost per pair from the real offer: about €[SUMME] to make. Base jeans €[X], embroidery €[Y], patch ~€[3], gold threads ~€[2], handling ~€[5] (the last three are estimates). The final number comes when the digitizer counts the stitches. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Nur echte Zahlen aus dem Angebot, Schätzungen markiert, keine Fabriknamen, kein Streichpreis, CTA der Phase."
+    }
+   }
+  ],
+  "2026-10-31": [
+   {
+    "c": "A",
+    "t": "Zahlen für die Validierung sammeln: Anmeldungen, Views, Quote",
+    "m": 30,
+    "s": [
+     "Shopify → Kunden → Segment „E-Mail-Abonnenten“: bestätigte Anmeldungen seit 12.10., je Tag und je Quellen-Tag (src-, ref-netz, ref-papier, Codes). Als CSV exportieren.",
+     "Je Post seit 12.10. (V001–V009 und Grind+): Views nach 48 h und 7 Tagen, Saves, Shares, neue Follower auf TikTok (Video → Analytics) und Instagram (Reel → Insights) ins Blatt „Content“.",
+     "Anmeldungen je 1.000 Views je Woche rechnen (W5, W6, W7).",
+     "Neue Follower TikTok + Instagram seit 12.10. ÷ Anmeldungen = deine echte Quote. Sie ersetzt ab So die Schätzung 3 je Anmeldung.",
+     "Blatt „Die ersten 35“: Zusagen zählen, nur Spalte „Zusage“."
+    ],
+    "f": "Fertig, wenn alle Zahlen bis heute im Blatt stehen und der CSV-Export gespeichert ist.",
+    "o": [
+     {"n": "Shopify-Admin · Kunden → Segmente", "u": "https://admin.shopify.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analytics, Menünamen vor Ort prüfen"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights"},
+     {"n": "Tracking-Tabelle · Blatt „Content“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Gespräche, Tally und Storys an Claude: Markenkriterien 1–3",
+    "m": 20,
+    "s": [
+     "Tally: Antworten zählen (Ziel 100, mindestens 50). Unter 50: Tally-Link heute noch einmal in die Story, dann exportieren.",
+     "Blatt „Gespräche“ (G1–G10, nur Codes), Tally-Export (anonym) und Screenshots der Story-Umfragen 1–6 mit dem Prompt unten an Claude.",
+     "Keine Namen und keine E-Mails in diesen Chat. Herkunft gibt es nur in der anonymen Tally-Frage und bei den Codes.",
+     "Claudes Ergebnis je Kriterium ins Blatt „Warteliste“, Zeile „Validierung 01.11.“."
+    ],
+    "f": "Fertig, wenn alle drei Markenkriterien mit Zahl und ja/nein im Blatt „Warteliste“ stehen.",
+    "p": "Projekt Time Travel, Docket W7, Sa 31.10.: Morgen ist die Validierung. Anbei: Blatt „Gespräche“ mit G1–G10 (nur Codes und Segmente), der anonyme Tally-Export ([N] Antworten) und die Ergebnisse der Story-Umfragen 1–6: [ANHÄNGE]. Werte die drei Markenkriterien aus: 1) Sagt mindestens die Hälfte der S1-Gespräche bei Frage 9 „Ja“ oder „Vielleicht“ zu 149 €? 2) Liegt der Median „zu teuer, egal was“ (Frage 8) bei mindestens 149 €? 3) Höchstens eine Nennung von „Sowjet“, „Wappen“, „Kolchose“ oder „Holodomor“ je 5 Personen mit UA-, PL- oder BY-Hintergrund (Fotos 3 und 4, Tally-Fragen 5 und 6)? Gib je Kriterium ja/nein mit Zahl. Dann die Entscheidungsregeln aus zielgruppe.md 5.6 als Vorschlag für Sa 07.11.: B2-Band (Farbe, weiße Kante nach Story 4), Wortliste nach außen, Content-Hooks. Trenne klar, was belegt ist und wo es zu wenige Antworten gibt.",
+    "o": [
+     {"n": "Tally", "u": "https://tally.so", "h": "Antworten exportieren"},
+     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Warteliste“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Website Schritt 1: Werkzeuge auf dem Mac (website.md 9)",
+    "m": 60,
+    "s": [
+     "Terminal öffnen: Cmd + Leertaste, „Terminal“ tippen, Enter.",
+     "Node.js: auf nodejs.org die LTS-Version als macOS-Installer laden und installieren (die Shopify CLI braucht 22.12.0 oder neuer). Prüfen: node -v.",
+     "Git: git --version eingeben. Fragt der Mac nach den „Command Line Tools“, auf Installieren klicken.",
+     "Shopify CLI: npm install -g @shopify/cli. Kommt „permission denied“: kein sudo, Claude fragen. Prüfen: shopify version zeigt 4.8.5 oder höher.",
+     "Claude Code: curl -fsSL https://claude.ai/install.sh | bash, dann ein neues Terminal-Fenster und claude --version. Braucht macOS 13 oder neuer und ein Pro-, Max-, Team- oder Enterprise-Konto.",
+     "Ordner: mkdir -p ~/Claude/Novalife/website && cd ~/Claude/Novalife/website, dann claude starten und den Prompt unten einfügen."
+    ],
+    "f": "Fertig, wenn Claude Code eine Tabelle mit fünf Werkzeugen zeigt, alle „ok“.",
+    "p": "Projekt Time Travel, Website Schritt 1 (Docket W7, Sa 31.10.). Ich bin neu auf dem Mac und kein Entwickler. Prüfe nur, installiere nichts und benutze nie sudo: node -v (muss 22.12.0 oder neuer sein), npm -v, git --version, shopify version, claude --version. Zeig mir eine Tabelle: Werkzeug | Version | ok / nicht ok. Wenn etwas fehlt oder zu alt ist, erklär mir in einfachen Schritten, was ich selbst tun muss.",
+    "o": [
+     {"n": "Node.js (LTS, macOS-Installer)", "u": "https://nodejs.org", "h": "Download-Seite vor Ort ansehen, nicht geprüft"},
+     {"n": "Claude Code · Einrichtung", "u": "https://code.claude.com/docs/en/setup"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berliner Streetwear). Je ein Kommentar mit einem ganzen Satz zum Inhalt.",
+     "Keine Eigenwerbung, kein Link im Kommentar.",
+     "Alle DMs beantworten. Jedes „Ja“ ins Blatt „Die ersten 35“, Zusage nur mit Name, Größe und „ich bestelle am 14.01.“. Morgen zählt nur diese Spalte."
+    ],
+    "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "N",
+    "t": "Info · B-Zeitachse aus strategie.md 7.4 gilt bei jedem Gate „schieben“"
+   }
+  ],
+  "2026-11-01": [
+   {
+    "c": "A",
+    "t": "VALIDIERUNG + Wochenreview W7: Liste, Zusagen, Views, Kasse, Cockpit",
+    "m": 40,
+    "s": [
+     "Shopify → Kunden → Segment „E-Mail-Abonnenten“: bestätigte Liste seit 12.10., neu seit 25.10., nach Quellen-Tag. Ins Blatt „Warteliste“.",
+     "Blatt „Die ersten 35“: Zusagen nur aus Spalte „Zusage“ zählen (Name, Größe, „ich bestelle am 14.01.“). „Vielleicht“ zählt nicht.",
+     "TikTok und Instagram: Views, Saves, Shares, neue Follower je Post ins Blatt „Content“, Anmeldungen je 1.000 Views. Ab heute gilt deine echte Follower-Quote statt der Schätzung.",
+     "Kassencheck: K Projektkonto, V (0), F (Entwicklung fällig Mo 02.11., Digitizing Sticker, Blanks), R (Steuer-Rücklage ab Fabrikwahl, 3 Paar ~440 €). Ampel K − F − R: grün ≥ 300 €, gelb 0–300 €, rot unter 0.",
+     "Sonntags-Gates 7.1: unter Alarm 50 → G1 · unter Soll 150 → G2 · unter 1,0 Anmeldungen je 1.000 Views → G3 · Seite unter 6,6 % zum zweiten Mal → G4 · Ausreißer → G5 · 3 schwache im Slot → G6 · ≥ 3 Sowjet/Wappen/Holodomor → G7 · ≥ 3 Folklore → G8 · über 70 % warm → G9 · Kasse gelb/rot → G12. Maßnahmen wie am 25.10.",
+     "Zahlen ins Cockpit eintragen (Docket-Abschnitt „Zahlen-Cockpit“): bestätigte Liste aus Shopify, Follower TikTok + Instagram gesamt, bezahlte Vorbestellungen (0).",
+     "Zeile an Claude mit dem Offenen aus W7 (Prompt unten)."
+    ],
+    "f": "Fertig, wenn Blätter und Cockpit aktuell sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W7, Validierung und Wochenreview So 01.11.: W7: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen (nur Spalte „Zusage“): [N]. 50/50 schriftlich: [ja/nein]. Markenkriterien vom Sa: [1 ja/nein, 2 ja/nein, 3 ja/nein]. Echte Follower-Quote: [F] je Anmeldung. Offen aus W7: [LISTE]. Prüf die Validierung (grün ≥ 150, gelb 50–149, rot unter 50, dazu ≥ 10 Zusagen, 50/50 schriftlich, Markenkriterien) und die Sonntags-Gates G1–G9 und G12 aus strategie.md 7.1. Sag mir die Ampel, was ich Mo 02.11. zahle oder nicht, und schieb das Offene in W8.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analytics"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights"},
+     {"n": "Tracking-Tabelle", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "Gate · VALIDIERUNG: grün ≥ 150 · gelb 50–149 · rot < 50",
+    "m": 5,
+    "s": [
+     "Liste (bestätigt seit 12.10.): grün ≥ 150 · gelb 50–149 · rot unter 50.",
+     "Für Grün zusätzlich: ≥ 10 Zusagen (nur Spalte „Zusage“), 50/50 schriftlich in der Proforma, Markenkriterien vom Sa (Hälfte S1 ja oder vielleicht, Median „zu teuer“ ≥ 149 €, höchstens 1 Sowjet-Nennung je 5 Personen mit UA-, PL- oder BY-Hintergrund).",
+     "Grün: Mo 02.11. Entwicklung bezahlen, nur auf das Konto der ersten Proforma.",
+     "Gelb (50–149 oder eine Zusatzbedingung fehlt): trotzdem zahlen, Content und Netz nachschärfen, Hooks mit Claude überarbeiten (Prompt unten). 50/50 nicht schriftlich: erst zahlen, wenn die Proforma mit 50/50 da ist.",
+     "Rot (unter 50): Entwicklung nicht bezahlen. B-Zeitachse 1 heute entscheiden: Öffnung Do 21.01., Schwelle 1 bis Mo 08.02., Anzahlung Do 11.02., Restzahlung Do 25.03. (Geld bis Mo 22.03.), Drop bleibt Do 22.04. mit nur ~9 Tagen Puffer bis 15.04.",
+     "Rot zusätzlich: 6 neue Posts nach neuem Muster und dein bestes Video in 5 Varianten (Prompt unten), in 7 Tagen neu entscheiden.",
+     "Markenkriterien verfehlt: Median „zu teuer“ unter 149 € heißt Preis halten, Zipper und Polo stärker zeigen, als gelb werten. Sagen ≥ 2 von 5 mit UA-, PL- oder BY-Hintergrund „Sowjet“ oder „Wappen“: B2-Band in Weiß oder Ocker, Entscheidung Sa 07.11.",
+     "Ampel mit Datum ins Blatt „Warteliste“. Heute ist der letzte Punkt, an dem Anhalten fast nichts kostet. Ab Mo fließt Geld."
+    ],
+    "f": "Fertig, wenn die Ampel feststeht und mit Datum im Blatt „Warteliste“ steht.",
+    "p": "Projekt Time Travel, Docket W7, So 01.11.: Die Validierung ist [GELB/ROT]. Hier sind meine Zahlen der ersten drei Content-Wochen je Post (Hook, Views nach 48 h, Saves, Shares, Anmeldungen am Tag): [TABELLE]. Analysiere, welche Hooks funktioniert haben und welche nicht (Typen Zahl, Fehler, Frage), und schlag mir 6 bessere Posts für die nächsten 2 Wochen vor, im Format meiner Video-Bibliothek: Hook EN und DE, Shots, Ort, Caption mit der CTA „Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.“ Regeln: vor dem Proto nur Papier, Datei, Zahl, Prozess; Subjekt ist das Muster. Bei Rot zusätzlich: welches Video ich in 5 Varianten nachdrehe.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Warteliste“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Grind+ · Vintage & Heritage Market im Ballhaus Berlin (nach den Zahlen)",
+    "m": 90,
+    "plus": true,
+    "s": [
+     "Erst Validierung und Gate, dann hin. Adresse und Öffnungszeit auf visitBerlin prüfen. Den Batch drehst du davor oder danach, Hauptsache heute.",
+     "Ziel: Kontakte, nicht verkaufen. Händler mit Denim, Stickerei oder Vintage-Workwear ansprechen.",
+     "Pro Kontakt: Name des Stands, Instagram, was sie verkaufen, Interesse an der Story. Ins Blatt „Netz“, Herkunft nie notieren.",
+     "Mitnehmen: 3 Papiertest-Fotos (B, B2, ganze Hose, jedes einzeln). Nur zeigen, wenn jemand fragt.",
+     "Fotos nur mit Erlaubnis. Nichts posten, was einen Stand ohne Ja zeigt."
+    ],
+    "f": "Fertig, wenn mindestens 5 Kontakte im Blatt „Netz“ stehen.",
+    "o": [
+     {"n": "Berlin Vintage & Heritage Market", "u": "https://www.visitberlin.de/en/event/berlin-vintage-and-heritage-market", "a": "Ballhaus Berlin (Adresse vor Ort prüfen) · So 01.11.2026", "h": "Termin laut visitBerlin, vor Ort prüfen"},
+     {"n": "Tracking-Tabelle · Blatt „Netz“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Batch W8 1/3 · V010 „Die Fabrik steht“ (Mac + Schreibtisch)",
+    "m": 25,
+    "s": [
+     "Ordner „W8“ anlegen. Ausgang der Validierung eintragen: grün oder gelb, dann die echte Listen-Zahl in die Caption.",
+     "Mac: Bildschirmaufnahme (Cmd + Shift + 5) vom Kalender mit den drei Call-Terminen 21.–23.10., Fabriknamen verpixelt. Kein Mitschnitt eines echten Calls.",
+     "Schreibtisch, Draufsicht, Licht von vorn: Bewertungsraster auf Papier, 5 Kriterien × 3 Fabriken mit Punkten, Land als Text, kein Name. Name und Bilder der Fabrik nur mit schriftlicher Erlaubnis.",
+     "Dein Satz: „Next: samples.“ Kamera 9:16, je Shot 3 Takes.",
+     "CapCut: Hook-Text Sek. 0–2, Untertitel, 25–35 s, ohne Musik exportieren: V010_final.mp4 in „W8“."
+    ],
+    "f": "Fertig, wenn V010_final.mp4 im Ordner „W8“ liegt und kein Fabrikname lesbar ist.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "ohne Musik exportieren, 1080 × 1920"},
+     {"n": "Google Kalender", "u": "https://calendar.google.com"}
+    ],
+    "v": {
+     "id": "V010",
+     "slot": "BUILD",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 22: I picked one factory out of eight.",
+     "hook_de": "Tag 22: Ich habe mich für eine von acht Fabriken entschieden.",
+     "shots": [
+      "Kalender mit den drei Call-Terminen 21.–23.10., Fabriknamen verpixelt (kein Call-Mitschnitt)",
+      "Bewertungsraster auf Papier: 5 Kriterien × 3 Fabriken, Punkte",
+      "Land als Text, kein Name",
+      "Du: „Next: samples.“"
+     ],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), dann Schreibtisch, Draufsicht, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „Day 22: I picked one factory out of eight.“ · Land als Text, kein Name",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Day 22. 8 requests, 3 calls, 1 factory. My criteria: denim and panel embroidery in-house, photos of past work, 50/50 payment, dates in writing. Name and photos once they say yes. [X] people are on the list already. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Fabrikname und -bilder nur mit schriftlicher Erlaubnis, kein Call-Mitschnitt, echte Zahlen, kein fertiges Teil."
+    }
+   },
+   {
+    "c": "C",
+    "t": "Batch W8 2/3 · V011 „Der Achtstern“ (nur mit Beleg, sonst V117)",
+    "m": 25,
+    "s": [
+     "Belegtabelle: Hat der Achtstern 3 von 4 Traditionen belegt? Nein: statt V011 die Reserve V117 „Antwort auf Kommentar“ drehen (beste Frage der Woche, du antwortest in einem Take, dazu ein Beweisbild).",
+     "Zeitraffer von oben: Du zeichnest den Stern Kästchen für Kästchen im Raster 27 × 27. Originalton von Stift und Papier.",
+     "Makro auf die Mitte (ungerade Zahl, echte Mitte). Dann das Papierstück auf der rechten Gesäßtasche, Text „right back pocket“.",
+     "Nach außen heißt er „eight-point star“, nie mit dem internen Namen. Keine Haken- oder Drehformen. Fensterlicht von der Seite, sonst Schreibtischlampe seitlich; je Shot 3 Takes.",
+     "CapCut: 15–25 s, Hook-Text Sek. 0–2, ohne Musik exportieren: V011_final.mp4 in „W8“."
+    ],
+    "f": "Fertig, wenn V011_final.mp4 (oder V117) im Ordner „W8“ liegt.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V011",
+     "slot": "ORIGIN",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This eight-point star stands for the sun.",
+     "hook_de": "Dieser Achtstern steht für die Sonne.",
+     "shots": [
+      "Zeitraffer: Hand zeichnet den Stern Kästchen für Kästchen (27 × 27)",
+      "Makro auf die Mitte (ungerade Zahl = echte Mitte)",
+      "Papierstück auf der rechten Gesäßtasche",
+      "Text: „right back pocket“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Originalton (Papier, Stift). Keine Musik oder sehr leise",
+     "text": "Sek. 0–2: „This eight-point star stands for the sun.“ · „27 × 27 · 36 mm“ · „right back pocket“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "In many textile traditions the eight-point star stands for the sun. Mine is 27 × 27 cross-stitches, 36 mm, only straight lines and diagonals. Odd numbers, so it has a true centre. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "Nur mit Beleg, nach außen „eight-point star“, keine Haken- oder Drehformen, Papier statt fertiges Teil."
+    }
+   },
+   {
+    "c": "C",
+    "t": "Batch W8 3/3 · V012 „Ein einziges Thema“ (Schreibtisch)",
+    "m": 25,
+    "s": [
+     "Requisiten: drei Papierstapel ohne erkennbare Motive der geparkten Themen, eine Kiste mit Aufschrift „Drop 2“.",
+     "Schreibtisch, Draufsicht, Licht von vorn: zwei Stapel wandern in die Kiste, einer bleibt liegen. Je Shot 3 Takes.",
+     "Dein Satz: „Three themes = triple content, triple research, same 100 pieces.“",
+     "Keine Bilder der geparkten Themen, keine Namen möglicher Partner. Die Gmail-Entwürfe bleiben unversendet.",
+     "CapCut: 20–30 s, Hook-Text Sek. 0–2, Untertitel, ohne Musik: V012_final.mp4 in „W8“. Danach Captions für V010–V012 aus der Bibliothek kopieren und Platzhalter füllen."
+    ],
+    "f": "Fertig, wenn V010, V011 (oder V117) und V012 im Ordner „W8“ liegen.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V012",
+     "slot": "REAL",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I killed two of my three themes. Here's why.",
+     "hook_de": "Ich habe zwei meiner drei Themen gestrichen. Darum.",
+     "shots": [
+      "Drei Papierstapel auf dem Tisch, zwei wandern in eine Kiste mit Aufschrift „Drop 2“",
+      "Du: „Three themes = triple content, triple research, same 100 pieces.“",
+      "Ein Stapel bleibt liegen"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „I killed two of my three themes. Here's why.“ · Kiste „Drop 2“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "In September I had three embroidery themes for one pair of jeans. Three themes on one drop are three drops on the same day. I kept one. The others are parked, not deleted. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Keine Bilder der geparkten Themen, keine Namen möglicher Partner, Gmail-Entwürfe bleiben unversendet, kein fertiges Teil."
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,854 @@
+{
+ "n": 6,
+ "phase": "P1",
+ "goal": "Angebote vergleichen, drei Calls, Papiertest-Abend als erster Wärme-Moment",
+ "kpi": [
+  {"k": "Warteliste", "ziel": "90 bestätigt (Alarm 30)"},
+  {"k": "Follower TikTok + IG neu seit 12.10.", "ziel": "~270 (Schätzung: 3 je Anmeldung)"},
+  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
+  {"k": "Zusagen „Die ersten 35“", "ziel": "5 (Name, Größe, „ich bestelle am 14.01.“)"},
+  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
+  {"k": "Angebote", "ziel": "≥ 3 mit Preis bei 75 und 100 Stück"},
+  {"k": "Gespräche", "ziel": "≥ 6 von 10"}
+ ],
+ "days": {
+  "2026-10-19": [
+   {
+    "c": "B",
+    "t": "Angebote in den Vergleich: Preis-Ampel und Schwellen je Angebot",
+    "m": 45,
+    "s": [
+     "Alle Antworten auf die RFQ vom 12.10. sammeln: Mails, PDFs, Preislisten. Gmail → Suche „NVL-TT-01“, alles in einen Ordner „Angebote W6“.",
+     "Prompt unten in einen neuen Chat im Projekt „novalife time travel“ kopieren, Anhänge dazu, deinen Steuerstand vom 13.10. eintragen, abschicken.",
+     "Claude rechnet je Angebot den Fabrikpreis je Paar inklusive Stickerei, ohne Patch D, in Euro, bei 100 und bei 75 Stück.",
+     "Ampel je Angebot: ≤ 60 € grün · 61–63 € gelb (Puffer schrumpft auf 1–2 Paar, Stufe 2 wird Pflicht) · über 63 € rot (Gegenrechnung: V4b, kleiner Serp, 75 Stück, andere Fabrik).",
+     "Schwellen je Angebot mit und ohne 1.150 € Einfuhrumsatzsteuer (nur Türkei), bei 100 und bei 75 Stück. Plan heute: 10 ausgezahlt bis Mo 01.02., 32 bis Di 16.03.",
+     "Sofort raus: keine Panel-Stickerei im eigenen Haus oder Vermittler ohne genannte Fabrik. Preis nicht in Euro: nachfragen, nicht schätzen.",
+     "Ergebnis ins Blatt „Fabriken“: Spalten Preis 100, Preis 75, Ampel, Schwelle 1, Schwelle 2. Top 3 farbig markieren."
+    ],
+    "f": "Fertig, wenn jedes Angebot im Blatt „Fabriken“ eine Ampel und zwei Schwellen hat und die Top 3 markiert sind.",
+    "p": "Projekt Time Travel, Docket W6, Mo 19.10.: Ich vergleiche die Antworten der Fabriken auf meine RFQ vom 12.10. (NVL-TT-01, 100 Jeans mit Stickerei auf dem Zuschnitt). Anbei alle Mails und PDFs: [ANHÄNGE]. Mein Steuerstand nach dem Termin vom 13.10.: [STEUERSTAND]. 1) Bau eine Vergleichstabelle, eine Zeile je Fabrik, Spalten: die 15 RFQ-Fragen plus Preis bei 75 und 100 Stück, Preis je 1.000 Stiche, Fadenschnitte und Farbwechsel, DDP und DAP Berlin, Währung, Betriebsferien, Patch D im Haus, REACH, Arbeitszeit im Ramadan, Feiertage bis April. 2) Markiere Ausschlüsse: keine Panel-Stickerei im eigenen Haus oder Vermittler ohne genannte Fabrik. 3) Rechne je Angebot den Fabrikpreis je Paar inklusive Stickerei, ohne Patch D, in Euro bei 100 und bei 75 Stück und gib die Ampel: ≤ 60 € grün, 61–63 € gelb, über 63 € rot. 4) Rechne je Angebot Schwelle 1 (Plan: 10 ausgezahlt bis Mo 01.02.) und Schwelle 2 (Plan: 32 bis Di 16.03.) bei 100 und 75 Stück, je ohne und mit 1.150 € Einfuhrumsatzsteuer (nur Türkei). Rechenweg aus meinem Cash-Plan: Schwelle 1 = (1.400 € + Mehrkosten) ÷ 146 €, Schwelle 2 = (4.650 € + Mehrkosten) ÷ 146 €; für 75 Stück die Fabrikrechnung mit 75 Paar neu ansetzen. Fehlt eine Angabe, schreib „fehlt“, nicht schätzen. 5) Gib mir die Top 3 mit Begründung und je Fabrik die Fragen, die ich in den Calls am 21.–23.10. klären muss.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com", "h": "Suche „NVL-TT-01“"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "MEK-Notizen an Claude: Belegtabelle v1.0 bestellen",
+    "m": 10,
+    "s": [
+     "Notizen, Fotos und Objektnummern vom MEK-Besuch (Sa 17.10.) in einen Ordner legen. Fotos nur, wenn das Fotografieren erlaubt war.",
+     "Belegtabelle v0.1 vom 13.10. (Raute) dazulegen.",
+     "Prompt unten in einen neuen Chat im Projekt kopieren, Anhänge dazu, abschicken.",
+     "Lücken, die Claude meldet, notierst du für Mi früh. Fehlt ein Beleg, läuft am Mi V120 statt V005."
+    ],
+    "f": "Fertig, wenn der Prompt mit allen MEK-Notizen, Fotos und Objektnummern abgeschickt ist.",
+    "p": "Projekt Time Travel, Docket W6, Mo 19.10.: Bau mir die Belegtabelle v1.0 zur Drei-von-vier-Regel (Spec 3.2: Ein Motiv kommt nur ins Design, wenn es in mindestens drei der vier Traditionen Belarus, Polen, Russland, Ukraine belegt ist). Anbei meine Notizen, Fotos und Objektnummern aus dem Museum Europäischer Kulturen vom 17.10. und die Tabelle v0.1 vom 13.10.: [ANHÄNGE]. Je Motiv (Raute, Achtstern, Zickzack, Lebensbaum) eine Zeile je Beleg mit: Quelle (Museum und Objektnummer, Buch mit Seite oder Link), Region, Tradition, Bedeutung laut Quelle, Abbildung (Dateiname meines Fotos). Markiere je Motiv „3 von 4 belegt: ja/nein“ und kennzeichne Sekundärquellen. Beim Lebensbaum gilt Ausnahme D: Das Motiv muss belegt sein, die Ausführung folgt einer eigenen Vorlage (Klärung am 20.10.). Schreib am Ende, welche Videos damit erlaubt sind: V005 (Regel), V011 (Achtstern), V014 (Lebensbaum), V015 (Zickzack), V108–V112. Erfinde keine Quellen; was fehlt, schreibst du als Lücke.",
+    "o": [
+     {"n": "Museum Europäischer Kulturen (MEK)", "u": "https://www.berlin.de/museum/3108962-2926344-museum-europaeischer-kulturen.html", "a": "Arnimallee 25, Dahlem", "h": "Quelle der Objektnummern; Fotos nur, wenn erlaubt"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Einladung zum Papiertest-Abend Sa 24.10. an die ersten „Ja“ (E1)",
+    "m": 10,
+    "s": [
+     "Ort festlegen: bei dir oder bei einem Freund. Platz für 10–12 Leute, ein Tisch, ein Spiegel. Kostet nichts.",
+     "Blatt „Netz“ öffnen: alle, die auf N1 (16.10.) mit „Ja“ geantwortet oder sich eingetragen haben. Ziel: 10–12 Gäste.",
+     "Jedem einzeln schreiben, per WhatsApp oder DM, nie als Gruppe: „Samstag, 24.10., 18 Uhr bei [ORT]: Bring deine Jeans mit. Wir kleben die Stickereien aus Papier drauf und schauen, wie das am Körper aussieht. Ich hab Pizza [oder: bring was zu trinken mit]. Dabei?“",
+     "Zusagen ins Blatt „Netz“, Spalte „Papierabend“. Stehen am Do 22.10. weniger als 10, lädst du am Do noch 3–4 nach."
+    ],
+    "f": "Fertig, wenn alle ersten „Ja“ einzeln eingeladen sind und die Einladungen im Blatt „Netz“ stehen.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Netz“", "u": "https://sheets.google.com"},
+     {"n": "WhatsApp Web", "u": "https://web.whatsapp.com"},
+     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · BUILD V004 „Der Bauplan“ posten (DE-Hook-Test)",
+    "m": 20,
+    "s": [
+     "Bis 17:50 Check im fertigen Clip vom Batch 18.10.: Im Bild nur Maßtabelle, Schnittzeichnung schwarz-weiß ohne Ornament und ein Element flach (Band A). Zeigt eine Stelle die farbige Flachzeichnung mit allen fünf Elementen, schneidest du sie in CapCut raus.",
+     "17:55 TikTok (Business-Konto): Video hochladen, Caption einfügen, Ton nur aus der Commercial Music Library leise unter den O-Ton. 18:00 posten.",
+     "Gleich danach dieselbe Datei als Reel auf Instagram (Caption plus DE-Zeile „Dieses Dokument entscheidet, ob es meine Jeans geben wird.“, höchstens 5 Hashtags) und als Short auf YouTube (Titel = Hook EN).",
+     "DE-Test: Version B mit deutschem Hook (in CapCut nur den Hook-Text tauschen) als Instagram-Probe-Reel nur an Nicht-Follower, Funktion ungeprüft. Fehlt sie: Version B frühestens Mo 26.10. auf TikTok mit anderem ersten Bild. Variante A/B ins Blatt „Content“.",
+     "Reel in die Story teilen, Link-Sticker auf die Warteliste.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Bei „Ist das russisch?“: „No. This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“"
+    ],
+    "f": "Fertig, wenn V004 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Musik nur aus der Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
+     {"n": "YouTube Studio", "u": "https://studio.youtube.com", "h": "Short, Titel = Hook EN"},
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V004",
+     "slot": "BUILD",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "This document decides if my jeans will exist.",
+     "hook_de": "Dieses Dokument entscheidet, ob es meine Jeans geben wird. (Test-Hook B, deutsch)",
+     "shots": [
+      "Bildschirmaufnahme: Tech-Pack-PDF, nur die Maßtabelle durchscrollen",
+      "Zoom auf eine Zeile: „W32 = 81 cm“",
+      "Schnittzeichnung schwarz-weiß ohne Ornament, 2 Sekunden stehen lassen",
+      "Ein einzelnes Element flach: Band A im Raster, kein zweites Element im Bild",
+      "Ausgedruckte Seite mit Kugelschreiber-Notizen, Hand blättert",
+      "Ordner „to factory“ auf dem Desktop"
+     ],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), dazu Hände am Schreibtisch, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „This document decides if my jeans will exist.“ · „Day 8“ · „W32 = 81 cm“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Day 8. A tech pack is the blueprint a factory works from: measurements, fabric, wash, every stitch position. Mine: five sizes, five embroideries. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #techpack #novalifetimetravel",
+     "check": "Nur Maßtabelle, Schnitt schwarz-weiß und ein Element flach, nie die farbige Flachzeichnung mit allen fünf Elementen, keine Fabriknamen, CTA der Phase."
+    }
+   }
+  ],
+  "2026-10-20": [
+   {
+    "c": "B",
+    "t": "Calls mit den Top 3 anfragen (Mi bis Fr, je 30 Min. per Video)",
+    "m": 20,
+    "s": [
+     "Vorlage „Call anfragen“ öffnen (Referenz → Vorlagen). Pro Fabrik eine eigene Mail, nie in CC.",
+     "Je Fabrik ein Tag: Nr. 1 Mi 21.10., Nr. 2 Do 22.10., Nr. 3 Fr 23.10. Drei Uhrzeiten anbieten, Berliner Zeit. Kanal: WhatsApp, Zoom oder Google Meet.",
+     "In derselben Mail anfordern: Fotos einer früheren Panel-Stickerei und 2 Referenzmarken mit Stickerei (für den Referenz-Check am Sa 24.10.).",
+     "Ist eine der Top 3 ein Vermittler: erst Name der Fabrik und Fotos der Panel-Stickerei dort, sonst kein Call.",
+     "Jede Zusage sofort als Termin in den Kalender, mit Call-Link."
+    ],
+    "f": "Fertig, wenn drei Anfragen raus sind und bis Mi 09:00 drei Termine (Mi, Do, Fr) im Kalender stehen.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Google Kalender", "u": "https://calendar.google.com"},
+     {"n": "Google Meet", "u": "https://meet.google.com"},
+     {"n": "Zoom", "u": "https://zoom.us"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Ursprung der Baum-Referenz für Patch D klären (vor V005)",
+    "m": 10,
+    "s": [
+     "Die Referenz öffnen, nach der der Lebensbaum D gezeichnet ist (Knotenfelder, Stamm aus zehn Strängen, Wurzeln im Kreis).",
+     "Woher stammt sie? Eigene Zeichnung, Foto eines Familienstücks oder Bild aus dem Netz (Pinterest, Instagram, Buch)? Herkunft mit Datum ins Blatt „Patches“.",
+     "Bild aus dem Netz: mit Google Lens rückwärts suchen und den Urheber notieren. Eine fremde Vorlage auf 110 Patches kann ein Urheberrechtsproblem sein (ungeprüft, keine Rechtsberatung).",
+     "Eigene Vorlage: V005 läuft morgen mit dem Satz „Eine Ausnahme gibt es: Der Baum am Bund folgt einer eigenen Vorlage.“",
+     "Fremde Vorlage oder unklar: Prompt unten an Claude. Claude zeichnet eine eigene Fassung vor der Patch-Anfrage am Mi 28.10. Morgen läuft dann V120 statt V005."
+    ],
+    "f": "Fertig, wenn die Herkunft der Referenz im Blatt „Patches“ steht und feststeht, ob morgen V005 oder V120 läuft.",
+    "p": "Projekt Time Travel, Docket W6, Di 20.10.: Die Vorlage für meinen Lebensbaum-Patch D stammt nicht von mir: [QUELLE, URHEBER]. Ich will auf 110 Patches kein fremdes Werk nachbilden. Zeichne eine eigene Fassung im Format [GRÖSSE NACH FREEZE, z. B. 86 × 76 mm], die meine Vorgaben aus Spec 3.8 erfüllt: Naturleinen, Stamm aus zehn verdrehten Strängen, Wurzeln im Kreis, Krone, Gold, Ocker, drei Brauntöne, Rot, Linien mindestens 0,8 mm, Einrollungen mindestens 2,5 mm. Aufbau und Details sollen klar von der Vorlage abweichen. Liefere SVG und ein Druckblatt 1:1 mit Maßlinie 100 mm und schreib mir in drei Sätzen, worin sich deine Fassung von der Vorlage unterscheidet. Ich brauche sie bis Di 27.10., die Patch-Anfrage geht am Mi 28.10. raus.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Patches“", "u": "https://sheets.google.com"},
+     {"n": "Google Lens", "h": "Rückwärtssuche in der Google-App oder im Chrome-Browser"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "Farbe für Zipper und Polo festlegen (Rat: Navy)",
+    "m": 10,
+    "s": [
+     "Rat: Navy. Gleiche Logik wie das Indigo der Jeans: Weiß und Rot brauchen einen dunklen Grund.",
+     "Alternative Schwarz nur, wenn Weiß im Band klar trägt. Rot auf Schwarz als Streifen steht auf der Liste der Bildregeln (Rot-Schwarz).",
+     "Entscheidung mit Datum ins Blatt „Sticker“, Zeile „Farbe Zipper/Polo“. Sie gilt für die Blanks am Do 22.10. und für Claudes Bänder."
+    ],
+    "f": "Fertig, wenn die Farbe im Blatt „Sticker“ steht.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Sticker“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Bänder und Medaillon für Zipper und Polo bei Claude bestellen",
+    "m": 5,
+    "s": [
+     "Teppich-Fotos vom 15.10. bereitlegen (nur Fotos mit Einwilligung der Familie).",
+     "Prompt unten in einen neuen Chat im Projekt kopieren, Farbe von heute eintragen, Fotos anhängen, abschicken.",
+     "Die Dateien brauchst du am Do 29.10. für die Berliner Sticker."
+    ],
+    "f": "Fertig, wenn der Prompt mit den Teppich-Fotos abgeschickt ist.",
+    "p": "Projekt Time Travel, Docket W6, Di 20.10.: Zeichne die Bänder für Zipper und Polo im selben 1,33-mm-Kreuzstichraster wie Band A, in Rot und Weiß auf [FARBE, z. B. Navy]: Zipper 2 × 25 mm × ca. 25 cm, gespiegelt an der Zip-Leiste; Polo 2 × 20 mm × ca. 12 cm an der Knopfleiste. Dazu das Teppich-Medaillon für den Zipper-Rücken, ca. 200 × 150 mm, aus meinen Teppich-Fotos: [ANHÄNGE]. Aufbau wie der Wandteppich: zentrales Medaillon, umlaufender Rahmen, Eckmotive, gebaut aus den Motiven der Drei-von-vier-Regel (Raute, Achtstern, Zickzack), keine Haken- oder Drehformen. Weiß in jedem Element. Keine Streifen in Rot-Schwarz, Blau-Gelb, Rot-Grün, Orange-Schwarz oder Weiß-Rot-Weiß. Liefere je Teil ein SVG und ein Druckblatt 1:1 mit Maßlinie 100 mm und schätze die Stichzahl je Teil.",
+    "o": [
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Story 3: B2-Papier „Woran erinnert dich das?“",
+    "m": 5,
+    "s": [
+     "Foto: linke Gesäßtasche mit B2-Papier, gerade von hinten, nur diese Tasche im Bild. Kein Serp, keine Seitenansicht links, kein roter Hintergrund.",
+     "Instagram → Story → Foto → Umfrage-Sticker mit 4 Antworten (Text unten).",
+     "Link-Sticker auf die Warteliste dazu (gleicher Link wie in der Instagram-Bio).",
+     "Mi früh: Screenshot der Ergebnisse, Zahlen ins Blatt „Content“. Sie gehen am Sa 31.10. in die Markenkriterien."
+    ],
+    "f": "Fertig, wenn Story 3 mit Umfrage-Sticker online ist.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+    ],
+    "v": {
+     "id": "Story 3",
+     "slot": "Story-Umfrage",
+     "dauer": "1 Bild, 24 h",
+     "plattform": "Instagram Story",
+     "hook_en": "What does this remind you of?",
+     "hook_de": "Woran erinnert dich das?",
+     "shots": [
+      "Foto: linke Gesäßtasche mit B2-Papier (drei Ähren, Band), gerade von hinten, nur diese Tasche"
+     ],
+     "ort": "Wohnung · Flurspiegel oder weiße Wand, Rückansicht, Licht von vorn",
+     "ton": "kein Ton (Foto)",
+     "text": "Umfrage-Sticker, 4 Antworten: Harvest · Childhood · Coat of arms · Nothing (DE: Ernte · Kindheit · Wappen · Nichts)",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "What does this remind you of?\nHarvest · Childhood · Coat of arms · Nothing",
+     "check": "Nur B2 im Bild, kein Serp, keine Seitenansicht links, kein roter Hintergrund, Papier statt fertiges Teil."
+    }
+   },
+   {
+    "c": "V",
+    "t": "Gespräche 3 und 4 à 20 Min. (Fotos erst ohne, dann mit Erklärung)",
+    "m": 40,
+    "s": [
+     "Wer: das Segment, das im Blatt „Gespräche“ noch fehlt (Mix: 3 RU oder russlanddeutsch, 2 PL, 2 UA, 1 BY oder Balt., 2 Denim ohne Ost-Bezug). Nur Umfeld oder Empfehlung, keine kalten DMs.",
+     "Fotos aus Papiertest 3 aufs Handy: 1 vorn gesamt, 2 hinten gesamt, 3 Serp (B), 4 linke Gesäßtasche (B2), 5 Band und Münztasche (A + E), 6 Achtstern (C), 7 Lebensbaum (D).",
+     "Frage 1 „Was siehst du?“ zu Foto 1 und 2 ohne Erklärung. Frage 2 „Woran erinnert dich das?“ zu jedem Foto, 3 und 4 zuerst. Dann Fragen 3–7 aus zielgruppe.md 5.1 (Frage 5 nur bei UA, PL, BY, Balt.).",
+     "Preisfragen (Frage 8): Ab welchem Preis zu billig? Gutes Angebot? Teuer, aber überlegenswert? Zu teuer, egal was? Dann Frage 9: „Würdest du sie im Januar zu 149 € vorbestellen, wenn sie im April kommt?“",
+     "Zum Schluss Fragen 10–13: Rangfolge, Jeans, Zipper oder Polo zuerst, wo entdecken, wen soll ich noch fragen.",
+     "Mitschreiben im Blatt „Gespräche“ nur mit Code G3 und G4: Datum, Segment, Antwort je Frage, Zitate. Nie ein Name neben dem Segment (Art. 9 DSGVO).",
+     "Sagt jemand „Ja, ich bestelle am 14.01.“: Name und Größe ins Blatt „Die ersten 35“, Spalte „Zusage“, ohne Herkunft. Sonst Spalte „Vielleicht“."
+    ],
+    "f": "Fertig, wenn G3 und G4 vollständig im Blatt „Gespräche“ stehen und jedes Ja im Blatt „Die ersten 35“.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berliner Streetwear). Je ein Kommentar mit einem ganzen Satz zum Inhalt, kein „nice“ mit Emoji.",
+     "Keine Eigenwerbung, kein Link im Kommentar.",
+     "Alle DMs beantworten. Wer „Ja“ sagt oder eine Größe nennt: ins Blatt „Die ersten 35“. Zusage nur mit Name, Größe und „ich bestelle am 14.01.“, sonst „Vielleicht“."
+    ],
+    "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ · Karussell V109 „Zickzack“ (nur mit Beleg)",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Erst prüfen: Hat der Zickzack in der Belegtabelle Quelle, Region und Abbildung in 3 von 4 Traditionen? Nein oder unklar: statt V109 eine Variante deines besten Videos (neuer Hook, neues erstes Bild, gleicher Kern).",
+     "Slides 9:16 in Canva oder CapCut: Slide 1 Hook auf Indigo, Slide 2 Zickzack gezeichnet im Raster, Slide 3 Zickzack am Papierband der rechten Vordertasche, Slide 4 Warteliste.",
+     "18:00 auf TikTok als Photo Mode (Musik aus der Commercial Music Library) und auf Instagram als Karussell, Caption unten.",
+     "In die Story mit Link-Sticker, dann 10 Min. Kommentare nach den Regeln vom Posttag."
+    ],
+    "f": "Fertig, wenn V109 oder die Variante auf TikTok und Instagram online ist.",
+    "o": [
+     {"n": "Canva", "u": "https://www.canva.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Photo Mode"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Karussell"}
+    ],
+    "v": {
+     "id": "V109",
+     "slot": "Grind+ (ORIGIN-Reserve)",
+     "dauer": "4 Slides",
+     "plattform": "TikTok Photo Mode + Instagram Karussell",
+     "hook_en": "Zigzag in cross-stitch means water. Save this.",
+     "hook_de": "Zickzack im Kreuzstich bedeutet Wasser. Speicher dir das.",
+     "shots": [
+      "Slide 1: Hook auf Indigo-Fläche",
+      "Slide 2: Zickzack gezeichnet im 1,33-mm-Raster",
+      "Slide 3: Zickzack am Papierband der rechten Vordertasche",
+      "Slide 4: Warteliste, „Link in bio“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "Slide 1: „Zigzag = water.“ · Slide 4: „Join the list. Link in bio.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Zigzag = water. It frames the cross-stitch band on my right front pocket. Save this. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "Nur mit Beleg aus der Belegtabelle, nur Papier und Zeichnung, kein fertiges Teil, kein Mockup, kein roter Hintergrund."
+    }
+   }
+  ],
+  "2026-10-21": [
+   {
+    "c": "D",
+    "t": "Gate · Belegtabelle v1.0 fertig? Entscheidet V005 oder V120",
+    "m": 10,
+    "s": [
+     "Claudes Belegtabelle v1.0 öffnen. Grün nur, wenn jedes Motiv, das V005 nennt (Raute, Achtstern, Zickzack), Quelle, Region und Abbildung in 3 von 4 Traditionen hat.",
+     "Zweite Bedingung von gestern: Trägt die Klärung der Baum-Referenz den Satz „Der Baum am Bund folgt einer eigenen Vorlage“?",
+     "Beides ja: heute 18:00 V005. Später laufen V011, V014, V015 und V108–V112 nur mit Beleg.",
+     "Sonst: heute 18:00 V120 „Die eine Frage an Fabriken“ (Briefing in der Post-Aufgabe). Die Belegtabelle machst du bis So 25.10. fertig.",
+     "Videos ohne Beleg wandern in die Reserve: im Blatt „Content“ Status „Reserve, Beleg fehlt“."
+    ],
+    "f": "Fertig, wenn feststeht, ob heute V005 oder V120 läuft, und das im Blatt „Content“ steht.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Content“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Call 1 mit Fabrik Nr. 1 (Leitfaden + Ramadan, Feiertage, A.TR)",
+    "m": 45,
+    "s": [
+     "10 Min. vorher: Call-Leitfaden ausdrucken (Referenz → Vorlagen). Angebot der Fabrik und Claudes offene Fragen vom Mo daneben.",
+     "Per Kamera zeigen lassen: Stickmaschinen (Köpfe, Nadeln), Wäscherei, Laser und eine Panel-Stickerei aus einer früheren Produktion.",
+     "Fragen: Einzug-Kompensation (wer sie nicht versteht, ist raus) · Preis bei 75 und 100 · 50/50 · Patch D im Haus auf Leinen? · Betriebsferien · Proto bis 30.11., PP bis 04.01.?",
+     "Neu: Arbeitszeit im Ramadan (nach lokaler Rechnung ca. 08.02.–09.03.2027, ungeprüft) und Fest 08.–11.03. · Feiertage bis April (Türkei 28.10. nachmittags und 29.10., Portugal 01.12. und 08.12., alles ungeprüft, von der Fabrik bestätigen lassen).",
+     "Nur Türkei: Kommt jede Sendung mit A.TR, Handelsrechnung und Packliste, auch Proto und PP?",
+     "Direkt danach je 1–5 bewerten: Stickerei-Kompetenz, Kommunikation, Preis, Termine, Bauchgefühl. Notizen mit dem Prompt unten ins Blatt „Fabriken“."
+    ],
+    "f": "Fertig, wenn Notizen und die fünf Bewertungen von Call 1 im Blatt „Fabriken“ stehen.",
+    "p": "Projekt Time Travel, Docket W6, Call 1 mit [FABRIK]: Hier sind meine Stichpunkte aus dem Call: [NOTIZEN]. Mach daraus eine Zeile für mein Blatt „Fabriken“: Panel-Stickerei im Haus (gezeigt ja/nein), Einzug-Kompensation (verstanden ja/nein, Antwort), Preis bei 75 und 100 in Euro, Zahlung, Patch D im Haus, Betriebsferien, Arbeitszeit im Ramadan, Feiertage bis April, A.TR, Termine Proto und PP, Ansprechpartner und Kanal, meine Bewertung 1–5 je Kriterium: [BEWERTUNG]. Darunter: was noch offen ist und was ich schriftlich nachfordern muss.",
+    "o": [
+     {"n": "Google Kalender", "u": "https://calendar.google.com", "h": "Call-Link im Termin"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Gespräch 5 à 20 Min. (Fragen zielgruppe.md 5.1)",
+    "m": 20,
+    "s": [
+     "Wer: das nächste Segment, das im Blatt „Gespräche“ fehlt.",
+     "Gleicher Ablauf wie gestern: Fotos 1 und 2 ohne Erklärung, dann jedes Foto einzeln, 3 und 4 zuerst.",
+     "Preisfragen (Frage 8, vier Preise) und Frage 9 (149 € im Januar vorbestellen?) wörtlich stellen.",
+     "Code G5 ins Blatt „Gespräche“, kein Name neben dem Segment. Zusagen mit Name und Größe ins Blatt „Die ersten 35“."
+    ],
+    "f": "Fertig, wenn G5 vollständig im Blatt „Gespräche“ steht.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Gespräche“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · ORIGIN V005 „Die Drei-von-vier-Regel“ (sonst V120)",
+    "m": 20,
+    "s": [
+     "Gate grün: V005 aus dem Batch vom 18.10. Prüfen, ob der Satz „One exception: the tree on the waistband follows my own template.“ im Video ist. Fehlt er: in CapCut als Textzeile am Schluss einfügen.",
+     "Caption nur mit den Motiven, die laut Belegtabelle 3 von 4 haben. Länder nur in der Caption, alphabetisch.",
+     "Gate rot: V120 in 15 Min. am Schreibtisch drehen: du am Tisch, Frage auf Papier „panel embroidery in-house?“, echte Strichliste ja/nein aus dem Blatt „Fabriken“. Hook: „One question filters most denim factories out.“ Caption: „If they can't embroider the flat panel in-house, I can't work with them.“ plus CTA und #buildinpublic #clothingbrand #denim #novalifetimetravel.",
+     "17:55 TikTok (Business-Konto) hochladen, Caption einfügen, Ton nur aus der Commercial Music Library leise unter den O-Ton. 18:00 posten.",
+     "Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Ein Motiv kommt nur rein, wenn drei Traditionen es teilen.“) und als Short auf YouTube. Reel in die Story mit Link-Sticker.",
+     "18:00–18:15 jeden Kommentar beantworten. Bei „Ist das russisch?“: „No. This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“ Ausblenden: Z, V, Georgsband, Kriegsverherrlichung."
+    ],
+    "f": "Fertig, wenn V005 oder V120 auf allen drei Plattformen online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel + Story mit Link-Sticker"},
+     {"n": "YouTube Studio", "u": "https://studio.youtube.com"},
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V005",
+     "slot": "ORIGIN",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "A motif only gets in if three traditions share it.",
+     "hook_de": "Ein Motiv kommt nur rein, wenn drei Traditionen es teilen.",
+     "shots": [
+      "Vier Stapel Notizkarten, beschriftet nur mit 1–4 (keine Flaggen, keine Landkarten)",
+      "Hand legt die Rauten-Karte auf drei Stapel, Haken",
+      "Eine Karte fliegt raus (Motiv nur in einer Tradition belegt), Kreuz",
+      "Schnitt auf das Papierband an der Hose",
+      "Schluss, O-Ton oder Text: „One exception: the tree on the waistband follows my own template.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „A motif only gets in if three traditions share it.“ · Karten nur „1“ bis „4“ · Schluss: „One exception: the tree.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "My rule: a motif goes on the jeans only if it appears with the same meaning in at least three of four textile traditions (Belarus, Poland, Russia, Ukraine). The diamond, the eight-point star and the zigzag passed. A lot didn't. One exception: the tree on the waistband follows my own template. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "Nur bei grünem Gate und geklärter Ausnahme D, Länder nur in der Caption und alphabetisch, keine Flaggen oder Landkarten, Subjekt ist das Muster."
+    }
+   }
+  ],
+  "2026-10-22": [
+   {
+    "c": "B",
+    "t": "Call 2 mit Fabrik Nr. 2 (gleicher Leitfaden, gleiche Reihenfolge)",
+    "m": 45,
+    "s": [
+     "Gleicher Call-Leitfaden wie gestern, gleiche Reihenfolge, damit du vergleichen kannst (Referenz → Vorlagen).",
+     "Per Kamera: Stickmaschinen, Wäscherei, Laser, eine frühere Panel-Stickerei.",
+     "Fragen: Einzug-Kompensation · Preis 75/100 · 50/50 · Patch D im Haus? · Betriebsferien · Proto 30.11., PP 04.01.? · Ramadan-Arbeitszeit (ca. 08.02.–09.03.2027, ungeprüft) · Feiertage bis April · nur Türkei: A.TR für jede Sendung, auch Proto und PP.",
+     "Direkt danach je 1–5 bewerten und mit dem Prompt von Call 1 ins Blatt „Fabriken“."
+    ],
+    "f": "Fertig, wenn Notizen und Bewertung von Call 2 im Blatt „Fabriken“ stehen.",
+    "o": [
+     {"n": "Google Kalender", "u": "https://calendar.google.com", "h": "Call-Link im Termin"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "B",
+    "t": "Blanks bestellen: 1 Zip-Hoodie, 1 Piqué-Polo in der Farbe vom Di",
+    "m": 20,
+    "s": [
+     "Zip-Hoodie Fleece 330–350 g/m² und Piqué-Polo, je 1 Stück in deiner Größe, Farbe vom Di (Rat: Navy).",
+     "Anbieter: AS Colour (Europa-Shop) oder Stanley/Stella über einen Händler, z. B. den Großhändler L-Shop-Team (Unna). Grammatur und Material auf der Produktseite prüfen.",
+     "Großhandel: Gewerbeschein Novalife bereithalten. Mindestbestellwert und Versandkosten bei Einzelstücken prüfen.",
+     "Richtwert laut Spec: Zipper ~28 €, Polo ~12 € (Schätzung). Deutlich teurer: anderen Anbieter nehmen.",
+     "Bestellen, Beleg ins Blatt „Ausgaben“, Lieferdatum ins Blatt „Sticker“. Beide Teile gehen als Musterteil zum Berliner Sticker."
+    ],
+    "f": "Fertig, wenn die Bestellung bestätigt ist und der Beleg im Blatt „Ausgaben“ liegt.",
+    "o": [
+     {"n": "AS Colour Europa", "u": "https://ascolour.eu", "h": "Domain aus der Recherche, Existenz ungeprüft: Link öffnen und prüfen"},
+     {"n": "Stanley/Stella", "u": "https://www.stanleystella.com", "h": "verkauft laut Recherche B2B, eventuell nur über Händler; ungeprüft"},
+     {"n": "L-Shop-Team (Unna)", "h": "Großhändler für mehrere Blanks-Marken; Gewerbenachweis und Mindestbestellwert prüfen"},
+     {"n": "Tracking-Tabelle · Blätter „Ausgaben“ und „Sticker“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "12 Sätze Druckvorlagen und QR-Zettel ?ref=papier drucken",
+    "m": 20,
+    "s": [
+     "Dateien aus dem Ordner time-travel/pdf: NVL_Druckvorlage_v17.pdf (beide Seiten), NVL_Druckvorlage_v15.pdf (Seite 1), NVL_Druckvorlage_1zu1.pdf (Seite 3). Je 12-mal.",
+     "Dazu für Story 4 einmal B2-W (rotes Band mit weißer Kante) aus dem Varianten-Blatt rev6/research/design_varianten/NVL_Papiertest3_Varianten.pdf.",
+     "Kein Drucker zu Hause: Copyshop, „100 %, nicht anpassen“ sagen. Druckkosten vor Ort prüfen.",
+     "Kontrolle: Maßlinie mit dem Lineal messen, sie muss 100 mm haben.",
+     "QR-Zettel: Prompt unten an Claude, PDF drucken, 12 Zettel schneiden. Der Link folgt dem Schema vom 10.10.: Kanal QR, Abend papier.",
+     "Für Sa einpacken: 12 Sätze, 12 QR-Zettel, Scheren, Malerkrepp. Beleg ins Blatt „Kasse“, Zeile „ungeplant“."
+    ],
+    "f": "Fertig, wenn 12 Sätze in 100 % gedruckt und gemessen sind und 12 QR-Zettel bereitliegen.",
+    "p": "Projekt Time Travel, Docket W6, Do 22.10.: Erzeuge mir einen QR-Code als PNG (mindestens 600 × 600 px) für diesen Link: https://[DEINE-DOMAIN]/?utm_source=qr&ref=papier. Lege ihn 12-mal auf ein A4-PDF, 3 × 4 Zettel mit Schnittlinien. Unter jeden Code der Satz: „Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ Prüf, dass der Code genau diesen Link enthält.",
+    "o": [
+     {"n": "Copyshop in deiner Nähe", "h": "„100 %, nicht anpassen“, Kosten vor Ort prüfen"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Story 4: B2 rot gegen B2 mit weißer Kante „Links oder rechts?“",
+    "m": 5,
+    "s": [
+     "Beide Papierversionen nebeneinander auf Denim legen: links B2 rot (v17), rechts B2-W mit weißer Kante (Varianten-Blatt). Gleiches Licht, von oben.",
+     "Instagram → Story → Foto → Umfrage-Sticker mit zwei Antworten (Text unten).",
+     "Link-Sticker auf die Warteliste dazu.",
+     "Fr früh: Ergebnis ins Blatt „Content“. Gewinnt die weiße Kante mit über 60 %, spricht das für die weiße Kante am B2-Band (Entscheidung Sa 07.11.)."
+    ],
+    "f": "Fertig, wenn Story 4 mit Umfrage online ist.",
+    "o": [
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+    ],
+    "v": {
+     "id": "Story 4",
+     "slot": "Story-Umfrage",
+     "dauer": "1 Bild, 24 h",
+     "plattform": "Instagram Story",
+     "hook_en": "Left or right?",
+     "hook_de": "Links oder rechts?",
+     "shots": [
+      "Foto von oben: B2 rot (links) und B2-W mit weißer Kante (rechts) als Papier auf Denim"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht",
+     "ton": "kein Ton (Foto)",
+     "text": "Umfrage-Sticker: Left · Right",
+     "cta": "Link-Sticker auf die Warteliste",
+     "caption": "Left or right?\nLeft · Right",
+     "check": "Nur B2-Papier, kein Serp im Bild, Denim statt rotem Hintergrund, drei Ähren je Version."
+    }
+   },
+   {
+    "c": "V",
+    "t": "Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt",
+    "m": 10,
+    "s": [
+     "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berliner Streetwear). Je ein Kommentar mit einem ganzen Satz zum Inhalt.",
+     "Keine Eigenwerbung, kein Link im Kommentar.",
+     "Alle DMs beantworten. Zusagen für den Papiertest-Abend ins Blatt „Netz“, jedes „Ja“ zur Jeans ins Blatt „Die ersten 35“."
+    ],
+    "f": "Fertig, wenn 5 Kommentare geschrieben und alle DMs beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com"},
+     {"n": "Instagram", "u": "https://www.instagram.com"},
+     {"n": "Tracking-Tabelle", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · Grind+ · V116 „Eine Stunde am Tag“",
+    "m": 10,
+    "plus": true,
+    "s": [
+     "Während deiner Kern-Stunde heute (Blanks, Druck) läuft das Handy als Zeitraffer von oben auf den Schreibtisch. Bildschirm unlesbar, keine Fabriknamen, kein Mockup im Bild.",
+     "Shots: Timer 60:00 startet, Zeitraffer, Zettel mit dem, was erledigt ist, Timer 00:00.",
+     "In CapCut auf 15–25 s schneiden, Hook-Text Sek. 0–2, ohne Musik exportieren.",
+     "18:00 TikTok mit Trend-Sound aus der Commercial Music Library (Creative Center → Trends → Songs, Region Deutschland, „für Business freigegeben“), Instagram mit Musik aus der App. Story mit Link-Sticker."
+    ],
+    "f": "Fertig, wenn V116 auf TikTok und Instagram online ist.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Sound aus der Commercial Music Library"},
+     {"n": "Instagram", "u": "https://www.instagram.com"}
+    ],
+    "v": {
+     "id": "V116",
+     "slot": "Grind+ (BUILD-Reserve)",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels",
+     "hook_en": "I build this brand in one hour a day.",
+     "hook_de": "Ich baue diese Marke in einer Stunde am Tag.",
+     "shots": [
+      "Timer 60:00 startet",
+      "Zeitraffer am Schreibtisch von oben, Bildschirm unlesbar",
+      "Was erledigt ist, auf Papier: Call 2, Blanks, Druck für Samstag",
+      "Timer 00:00"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "Trend-Sound aus der TikTok Commercial Music Library; Instagram: Musik aus der Business-Bibliothek der App",
+     "text": "Sek. 0–2: „I build this brand in one hour a day.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "One to two hours a day. That's what I have for this drop. Here's today's hour. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Nur echte Aufgaben, keine Fabriknamen, kein Mockup, Musik nur aus den Business-Bibliotheken."
+    }
+   }
+  ],
+  "2026-10-23": [
+   {
+    "c": "B",
+    "t": "Call 3 mit Fabrik Nr. 3 (gleicher Leitfaden)",
+    "m": 45,
+    "s": [
+     "Gleicher Call-Leitfaden, gleiche Reihenfolge (Referenz → Vorlagen).",
+     "Per Kamera: Stickmaschinen, Wäscherei, Laser, eine frühere Panel-Stickerei.",
+     "Fragen: Einzug-Kompensation · Preis 75/100 · 50/50 · Patch D im Haus? · Betriebsferien · Proto 30.11., PP 04.01.? · Ramadan-Arbeitszeit (ca. 08.02.–09.03.2027, ungeprüft) · Feiertage bis April · nur Türkei: A.TR für jede Sendung, auch Proto und PP.",
+     "Direkt danach je 1–5 bewerten und mit dem Prompt von Call 1 ins Blatt „Fabriken“. Jetzt stehen alle drei nebeneinander."
+    ],
+    "f": "Fertig, wenn Notizen und Bewertung von Call 3 im Blatt „Fabriken“ stehen.",
+    "o": [
+     {"n": "Google Kalender", "u": "https://calendar.google.com", "h": "Call-Link im Termin"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Steuer-Deadline: Ergebnis schriftlich an Claude, Schwellen neu",
+    "m": 10,
+    "s": [
+     "Schriftliche Antwort des Steuerberaters (oder der IHK-Gründungsberatung) zu den Fragen vom 13.10. heraussuchen: Kleinunternehmer ja/nein, wann fällt die Einfuhrumsatzsteuer an, DDP oder DAP, Helfer.",
+     "Prompt unten mit der Antwort an Claude.",
+     "Claudes neue Zahlen ins Blatt „Kasse“: Kapitalbedarf, Schwelle 1, Schwelle 2a, Schwelle 2b, Rücklage Steuer (R)."
+    ],
+    "f": "Fertig, wenn die neuen Schwellen im Blatt „Kasse“ stehen oder das Gate unten greift.",
+    "p": "Projekt Time Travel, Docket W6, Fr 23.10.: Hier ist die schriftliche Antwort meines Steuerberaters: [TEXT ODER PDF]. Rechne mit meinem Plan neu: Kapitalbedarf 9.380 €, Eigenbudget 4.500 €, netto je Vorbestellung ~146 €, Schwelle 1 = 10 ausgezahlt bis Mo 01.02., Schwelle 2a = 32 bis Di 16.03., Schwelle 2b = +8 bis Mi 24.03. nur bei Türkei mit DAP (1.150 € Einfuhrumsatzsteuer). Sag mir: 1) Fällt bei mir Einfuhrumsatzsteuer an, wann und in welcher Höhe (Schätzung kennzeichnen)? 2) Neuer Kapitalbedarf und neue Schwellen bei Türkei und bei Portugal. 3) Wird Stufe 2 Pflicht? 4) Was muss in die Spalte „Steuer“ der Fabrik-Scorecard am Mo 26.10.? Keine Rechtsberatung, nur Rechnung mit meinen Zahlen.",
+    "o": [
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "Gate · Steuer schriftlich klar?",
+    "m": 5,
+    "s": [
+     "Ja: Die neuen Schwellen gelten ab heute, die Steuer-Spalte geht in die Scorecard am Mo 26.10.",
+     "Nein: Bis auf Weiteres planst du mit 1.150 €. Stufe 2 wird Pflicht (Schwelle 2b: 40 ausgezahlt bis Mi 24.03.).",
+     "Nein: heute Nachfass-Mail an den Steuerberater mit Frist. Ohne Antwort: IHK-Gründungsberatung anfragen.",
+     "Ergebnis mit Datum ins Blatt „Kasse“, Zeile „Steuer“."
+    ],
+    "f": "Fertig, wenn im Blatt „Kasse“ steht, ob mit oder ohne 1.150 € geplant wird.",
+    "o": [
+     {"n": "IHK Berlin · Gründungsberatung", "u": "https://www.ihk.de/berlin", "h": "Angebot und Termin selbst prüfen (ungeprüft)"},
+     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · DETAIL V006 „Feiner Kreuzstich“ posten (DE-Hook-Test)",
+    "m": 20,
+    "s": [
+     "Bis 17:50 Check: Text „~33,000 stitches per pair (estimate)“ ist im Bild. Die Handstiche sind als Übung erkennbar; fehlt die kleine Zeile „hand practice · the jeans are machine-embroidered“, in CapCut ergänzen.",
+     "17:55 TikTok (Business-Konto) hochladen, Caption einfügen, Originalton, Musik höchstens sehr leise aus der Commercial Music Library. 18:00 posten.",
+     "Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Ein Stich ist 1,33 Millimeter. Es sind etwa 33.000.“) und als Short auf YouTube.",
+     "DE-Test: Version B mit deutschem Hook als Instagram-Probe-Reel nur an Nicht-Follower (Funktion ungeprüft), sonst frühestens Fr 30.10. auf TikTok mit anderem ersten Bild. Variante A/B ins Blatt „Content“.",
+     "Reel in die Story mit Link-Sticker. 18:00–18:15 jeden Kommentar beantworten, Kritik nie löschen, Z, V, Georgsband sofort ausblenden."
+    ],
+    "f": "Fertig, wenn V006 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
+    "o": [
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
+     {"n": "YouTube Studio", "u": "https://studio.youtube.com"},
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V006",
+     "slot": "DETAIL",
+     "dauer": "12–20 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "One stitch is 1.33 millimeters. There are about 33,000.",
+     "hook_de": "Ein Stich ist 1,33 Millimeter. Es sind etwa 33.000. (Test-Hook B, deutsch)",
+     "shots": [
+      "Makro: Lineal neben ausgedrucktem Raster von Band A (17 Stiche hoch)",
+      "Altes 4-mm-Raster und neues 1,33-mm-Raster nebeneinander",
+      "Du stickst fünf Kreuzstiche von Hand auf Stickstoff (Nadel-ASMR), als Übung",
+      "Text: „~33,000 stitches per pair (estimate)“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite, Schreibtischlampe seitlich für das Makro",
+     "ton": "Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise",
+     "text": "Sek. 0–2: „One stitch is 1.33 mm. There are about 33,000.“ · „~33,000 stitches per pair (estimate)“ · klein: „hand practice · the jeans are machine-embroidered“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "Version 1 used 4 mm squares and looked pixelated. Now one cross-stitch is 1.33 mm, a third of the size. About 33,000 stitches per pair, an estimate until the digitizer counts. The jeans are machine-embroidered on the cut panel; the stitches here are my hand practice. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
+     "check": "Stichzahl als Schätzung, Handstiche nur als Übung, nie „handgestickt“, kein fertiges Teil, CTA der Phase."
+    }
+   }
+  ],
+  "2026-10-24": [
+   {
+    "c": "B",
+    "t": "Referenzen der Top 3 prüfen: 6 Nachrichten",
+    "m": 30,
+    "s": [
+     "Je Fabrik die 2 Referenzmarken aus Mail oder Call nehmen.",
+     "Vorlage „Referenz-Check“ (Referenz → Vorlagen) als DM oder Mail, EN oder DE, je Marke einzeln.",
+     "Kontakt nur über die offizielle Website oder das dort verlinkte Instagram der Marke, keine Adressen aus Verzeichnissen.",
+     "Antworten ins Blatt „Fabriken“, Spalte „Notizen“. Mo früh nachsehen, sie gehen in die Scorecard."
+    ],
+    "f": "Fertig, wenn 6 Nachrichten raus sind und im Blatt „Fabriken“ vermerkt.",
+    "o": [
+     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"},
+     {"n": "Gmail", "u": "https://mail.google.com"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "18:00 · PAPIERTEST-ABEND: 10–12 Gäste, eigene Jeans, Gespräche 6–7",
+    "m": 90,
+    "s": [
+     "17:30 aufbauen: 12 Sätze Vorlagen, Scheren, Malerkrepp, 12 QR-Zettel ?ref=papier, Spiegel, Handy-Stativ. Belege (Pizza, Druck) ins Blatt „Kasse“, Zeile „ungeplant“.",
+     "18:00 Ankommen. Du erklärst die Stellen in 5 Minuten: vorn rechts Kreuzstich-Band und Münztasche, vorn links der Serp („Das Feld danach“), hinten links drei Ähren mit Goldfäden, hinten rechts der Achtstern, am Bund der Lebensbaum. Subjekt ist das Muster.",
+     "18:10 Jeder klebt die Vorlagen auf die eigene Jeans.",
+     "18:45 Fotos und Clips nur mit Ja. Nur von vorn oder hinten, keine Seitenansicht links, B und B2 nie in einem Bild. Material für den Batch am So.",
+     "19:00 Drei Fragen an alle: Welche Stelle zuerst? Wo würdest du sie tragen? Welche Größe trägst du? Antworten ohne Namen ins Blatt „Gespräche“, Größe mit Namen nur in „Die ersten 35“. Herkunft fragst du in der Runde nie.",
+     "19:15 Eintragen am Handy über den QR-Zettel. Dann: „Schick deinen Link an 3 Leute“ (der eigene Link steht in der Willkommens-Mail). Wer „Ich bestelle am 14.01.“ sagt: Name und Größe in Spalte „Zusage“.",
+     "Gespräche 6 und 7 (je 20 Min., Fragen zielgruppe.md 5.1) mit zwei Gästen, die früh fertig sind, ab 18:30 oder nach 19:30. Codes G6 und G7."
+    ],
+    "f": "Fertig, wenn mindestens 10 Gäste da waren, ihre Anmeldungen mit ref-papier in Shopify stehen und G6, G7 im Blatt „Gespräche“ sind.",
+    "o": [
+     {"n": "Ort: bei dir oder bei einem Freund", "a": "[ADRESSE] · Sa 24.10., 18:00–19:30, offen bis 20:30", "h": "kostet nichts"},
+     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Anmeldungen mit ref-papier prüfen"},
+     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "19:30 · Grind+ · Abend bis 20:30 offen lassen",
+    "m": 60,
+    "plus": true,
+    "s": [
+     "Nicht abbrechen, wenn es gut läuft: Leute bleiben, reden, probieren Höhen aus.",
+     "Offene Gespräche (G6, G7) hier zu Ende führen.",
+     "Vor Schluss fragen, ob sich alle eingetragen haben, und „Schick deinen Link an 3 Leute“ einmal wiederholen.",
+     "Fotos und Clips gleich in den Ordner „W7 · Papierabend“ (nur mit Ja)."
+    ],
+    "f": "Fertig, wenn der Abend vorbei ist und alle Clips im Ordner liegen.",
+    "o": [
+     {"n": "Ort: bei dir oder bei einem Freund", "a": "[ADRESSE] · bis 20:30"}
+    ]
+   }
+  ],
+  "2026-10-25": [
+   {
+    "c": "A",
+    "t": "Wochenreview W6: Liste, Views, Quote, Kasse, Cockpit, Zeile an Claude",
+    "m": 30,
+    "s": [
+     "Shopify → Kunden → Segment „E-Mail-Abonnenten“: bestätigte Liste heute, neu seit So 18.10., aufgeteilt nach Quellen-Tag (src-, ref-netz, ref-papier, Codes). Ins Blatt „Warteliste“.",
+     "TikTok (Video → Analytics) und Instagram (Reel → Insights): Views nach 48 h und 7 Tagen, Saves, Shares, neue Follower je Post ins Blatt „Content“. Anmeldungen je 1.000 Views = neue Anmeldungen ÷ Views der Woche × 1.000. Menünamen vor Ort prüfen.",
+     "Shopify-Analyse: Besuche der Startseite und Anmeldequote (Anmeldungen ÷ Besuche) ins Blatt „Warteliste“.",
+     "Kassencheck im Blatt „Kasse“: K Projektkonto, V Vorbestellungen (0), F fällig bis zum nächsten harten Gate, R Rücklagen (Steuer, 3 Paar ~440 €). Ampel K − F − R: grün ≥ 300 €, gelb 0–300 €, rot unter 0.",
+     "Zahlen ins Cockpit eintragen (Docket-Abschnitt „Zahlen-Cockpit“): bestätigte Liste aus Shopify, Follower TikTok + Instagram gesamt, bezahlte Vorbestellungen (0).",
+     "Offenes aus W6 sammeln und mit der Zeile an Claude schicken (Prompt unten)."
+    ],
+    "f": "Fertig, wenn die Blätter „Warteliste“, „Content“, „Kasse“ und das Cockpit aktuell sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W6, Wochenreview So 25.10.: W6: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Anmeldungen nach Quellen-Tag: [ref-netz …, ref-papier …, src- …]. Offen aus W6: [LISTE]. Prüf mit diesen Zahlen die Sonntags-Gates G1–G9 und G12 aus strategie.md 7.1, sag mir, welche greifen und was ich diese Woche konkret tue, und schieb das Offene sinnvoll in W7.",
+    "o": [
+     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente; Analysen"},
+     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analytics"},
+     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights"},
+     {"n": "Tracking-Tabelle", "u": "https://sheets.google.com"}
+    ]
+   },
+   {
+    "c": "D",
+    "t": "Gate W6 · Liste ≥ 90, ≥ 3 Angebote, Preis-Ampel, Sonntags-Gates",
+    "m": 10,
+    "s": [
+     "Liste unter Alarm 30: G1. Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story plus DM an alle mit 1–2 Freunden, einen Abend in den nächsten 14 Tagen festmachen, Claude die 3 schwächsten Videos zeigen. War der 18.10. auch unter Alarm: Notfallhebel aus markt.md 5.2.",
+     "Liste 30–89: G2. Bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15 Min., nichts streichen.",
+     "Anmeldungen je 1.000 Views unter 1,0: G3. Angehefteter Kommentar „The list buys first. 35 pairs at the pre-order price.“, Link-Sticker in jede Story, Seite im Instagram-Browser testen. Seiten-Quote unter 6,6 % zum zweiten Mal: G4, echtes Foto oben, Vorteil in einem Satz, nur E-Mail Pflicht, Ladezeit prüfen.",
+     "Video ≥ 2 × Median nach 48 h und Teil-Rate über Median: G5, 5 Varianten in 14 Tagen. Drei schwache Videos (unter 0,5 × Median) im selben Slot: G6, Slot 2 Wochen durch ein Reserve-Format ersetzen.",
+     "≥ 3 Kommentare mit „Sowjet“, „Wappen“, „Holodomor“: G7. Danken, zählen, nie löschen, 2 Wochen kein Ernte- oder Serp-Bild, graue Schneide und weiße B2-Kante vor dem 09.11. einfrieren.",
+     "≥ 3 Folklore-Kommentare („Oma“, „Kostüm“): G8, 2 Wochen erst die Totale aus 3 m im Streetwear-Outfit, dann das Makro. Über 70 % der neuen Anmeldungen aus ref-netz, ref-papier, ref-stick: G9, 3 neue Hooks, DE-Hook vorziehen, Karussell „Miss deine Jeans“.",
+     "Weniger als 3 Angebote mit Preis bei 75 und 100: fehlende Preise heute nachfordern, Frist Mo 12:00. Ampel der besten Fabrik rot: Prompt unten, Gegenrechnung bis Mo früh.",
+     "Belegtabelle (falls Mi rot) heute fertig? Sonst bleiben alle Videos mit Bedeutung in der Reserve. Kasse gelb: keine Ausgaben außerhalb von Plan 3. Rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter 7.3."
+    ],
+    "f": "Fertig, wenn jedes Gate mit Zahl und Maßnahme im Blatt „Warteliste“, Spalte „Gate W6“, steht.",
+    "p": "Projekt Time Travel, Docket W6, Gate So 25.10.: Die beste Fabrik liegt bei [PREIS] € je Paar inklusive Stickerei, ohne Patch D, bei 100 Stück, also Ampel rot (über 63 €). Mach mir die Gegenrechnung für Schwelle 1 und Schwelle 2, heute und mit jeder Option einzeln und kombiniert: V4b (Münztasche offen, −3,30 bis −3,60 €/Paar), kleiner Serp aus v1.6 ohne Rot, 75 statt 100 Stück, die zweitbeste Fabrik aus dem Vergleich ([FABRIK 2, PREIS]). Sag mir, welche Option die Schwellen am wenigsten verändert und was sie am Design kostet. Ich entscheide Mo 26.10.",
+    "o": [
+     {"n": "Tracking-Tabelle · Blatt „Warteliste“", "u": "https://sheets.google.com"},
+     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+    ]
+   },
+   {
+    "c": "V",
+    "t": "12:00 · Grind+ · Mauerpark-Flohmarkt: 15 Leute in Jeans fragen",
+    "m": 120,
+    "plus": true,
+    "s": [
+     "Nur wenn bis heute weniger als 6 Gespräche geführt sind oder die Liste unter 90 liegt. Nach dem langen Abend gestern nur, wenn du fit bist.",
+     "Mitnehmen: drei laminierte Papiertest-Fotos (B, B2, ganze Hose, jedes einzeln) und das Handy mit der Tally-Umfrage.",
+     "12–14 Uhr: 15 Menschen in Jeans fragen, ob sie zwei Minuten haben. Nur Fragen 1, 2, 8 und 9 aus zielgruppe.md 5.1.",
+     "Nichts verkaufen, nichts verteilen. Die Warteliste erwähnst du nur, wenn jemand fragt.",
+     "Antworten nur mit Code M1 bis M15 notieren, keine Namen.",
+     "Drei Händler nach Standpreis und Ablauf fragen (ein Stand frühestens ab dem Proto). Danach den Trödelmarkt Arkonaplatz in der Nähe ansehen."
+    ],
+    "f": "Fertig, wenn 15 Kurzgespräche mit Code und 3 Standpreise im Blatt „Gespräche“ stehen.",
+    "o": [
+     {"n": "Flohmarkt am Mauerpark", "u": "https://www.berlin.de/special/shopping/flohmaerkte/1998222-1724959-flohmarkt-am-mauerpark.html", "a": "Mauerpark, Prenzlauer Berg, an der Grenze zum Wedding (Eingang vor Ort prüfen) · sonntags, laut Sekundärquelle 10–18 Uhr", "h": "Öffnungszeit vor Ort prüfen; Stände laut berlin.de früh reservieren, Tel. (030) 2977 2486, Preis unbekannt"},
+     {"n": "Mauerpark, Öffnungszeiten (Sekundärquelle)", "u": "https://berlinecho.de/flohmarkt-mauerpark-oeffnungszeiten-berlin/"},
+     {"n": "Trödelmarkt Arkonaplatz", "a": "Arkonaplatz, Prenzlauer Berg · sonntags", "h": "kleiner Sonntagsmarkt laut Recherche, ungeprüft"},
+     {"n": "Tally-Umfrage", "u": "https://tally.so"}
+    ]
+   },
+   {
+    "c": "C",
+    "t": "Batch W7 1/3 · V008 „Die Goldfäden“ an der Fensterbank",
+    "m": 20,
+    "s": [
+     "Ordner „W7“ in Handy-Galerie oder Cloud anlegen. Requisiten: Spule goldenes Polyestergarn (Kurzwarenladen, ca. 3 €; fehlt sie, normales Stickgarn), B2-Papiervorlage, Lineal, Kleber.",
+     "9 Fadenstücke (19 bis 30 mm) unter die drei Ähren der B2-Papiertasche kleben.",
+     "Zuerst drehen, solange Tageslicht da ist: Fensterbank, Licht von der Seite, damit das Gold glänzt. Kamera 9:16, je Shot 3 Takes.",
+     "O-Ton am Schluss: „Hand-set after the wash. Every pair.“",
+     "CapCut: Hook als Text in Sek. 0–2, Untertitel automatisch, 20–30 s, ohne Musik exportieren (1080 × 1920) als V008_final.mp4 in „W7“."
+    ],
+    "f": "Fertig, wenn V008_final.mp4 im Ordner „W7“ liegt.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com", "h": "ohne Musik exportieren, 1080 × 1920"},
+     {"n": "Kurzwarenladen in deiner Nähe", "h": "Spule goldenes Polyestergarn, ca. 3 €"}
+    ],
+    "v": {
+     "id": "V008",
+     "slot": "ORIGIN",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Nine gold threads leave the pocket. Here's why.",
+     "hook_de": "Neun Goldfäden verlassen die Tasche. Darum.",
+     "shots": [
+      "Spule Goldgarn in der Hand",
+      "Papiervorlage linke Gesäßtasche (B2) mit 9 aufgeklebten Fadenstücken",
+      "Lineal misst 19, 25, 30 mm",
+      "Hand schwingt die Papiertasche, die Fäden bewegen sich",
+      "O-Ton: „Hand-set after the wash. Every pair.“"
+     ],
+     "ort": "Wohnung · Fensterbank, Tageslicht (Gold und Stoffstruktur brauchen Licht von der Seite)",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „Nine gold threads leave the pocket. Here's why.“ · „18–30 mm · set by hand after the wash“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Under three wheat ears: nine gold threads, 18 to 30 mm, set by hand after the wash, because an industrial washer would eat them. It's the moment of the whole design. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "check": "Nur B2-Papier, kein Serp im Bild, kein roter Hintergrund, immer drei Ähren, Papier statt fertiges Teil."
+    }
+   },
+   {
+    "c": "C",
+    "t": "Batch W7 2/3 · V007 „8 Fabriken angeschrieben“ (Mac + Schreibtisch)",
+    "m": 25,
+    "s": [
+     "Echte Zahlen aus dem Blatt „Fabriken“: angeschrieben (8 plus Nachzügler), geantwortet, Panel-Stickerei im Haus. Weicht „8“ ab, Hook und Caption anpassen.",
+     "Mac: Bildschirmaufnahme (Cmd + Shift + 5) vom Postfach. Absender, Namen, Logos und E-Mail-Adressen vorher verpixeln oder abdecken.",
+     "Schreibtisch, Draufsicht, Licht von vorn: Strichliste auf Papier „written · answered · panel embroidery in-house“ mit den echten Zahlen. Je Shot 3 Takes.",
+     "Dein Satz in die Kamera: „Denim AND embroidery on the cut panel, in-house.“ Endkarte: „3 calls done. Decision this week.“",
+     "Hook zweimal sprechen: Version A englisch, Version B deutsch („Ich habe 8 Fabriken angeschrieben. Das sind die Antworten.“) für den DE-Test.",
+     "CapCut: Hook-Text Sek. 0–2, Untertitel, 20–30 s, ohne Musik exportieren: V007_A.mp4 und V007_B.mp4 in „W7“."
+    ],
+    "f": "Fertig, wenn V007_A und V007_B im Ordner „W7“ liegen und kein Name lesbar ist.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"},
+     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+    ],
+    "v": {
+     "id": "V007",
+     "slot": "BUILD",
+     "dauer": "20–30 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "I emailed 8 factories. Here's who answered.",
+     "hook_de": "Ich habe 8 Fabriken angeschrieben. Das sind die Antworten. (Test-Hook B, deutsch)",
+     "shots": [
+      "Bildschirmaufnahme Postfach, Absender und Namen verpixelt",
+      "Strichliste auf Papier: written [8] · answered [X] · panel embroidery in-house [Y]",
+      "Du, ein Satz: „Denim AND embroidery on the cut panel, in-house.“",
+      "Endkarte: „3 calls done. Decision this week.“"
+     ],
+     "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), dann Schreibtisch, Draufsicht, Licht von vorn",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „I emailed 8 factories. Here's who answered.“ · Endkarte „3 calls done. Decision this week.“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "Day 15. The question that filters most factories out: can you embroider on the cut panel before sewing, in your own house? Big embroidery doesn't fit on a sewn leg. Answers so far: [X] of [8]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Nur echte Zahlen, Fabriknamen, Logos und E-Mail-Adressen unkenntlich, kein fertiges Teil."
+    }
+   },
+   {
+    "c": "C",
+    "t": "Batch W7 3/3 · V009 „Was eine Jeans kostet“ (Schreibtisch)",
+    "m": 20,
+    "s": [
+     "Zahlen aus dem besten Angebot (Vergleich vom 19.10.), keine Fabriknamen: Basis-Jeans je Paar, Stickerei je Paar (Stiche × Preis je 1.000). Patch, Goldfäden und Handling bleiben Schätzung und heißen im Bild „est.“",
+     "Vorher entscheiden: Zeigst du den Fabrikpreis öffentlich? Nein: nur die Summe je Paar.",
+     "Schreibtisch, Draufsicht, Licht von vorn: Posten für Posten von Hand schreiben, Strich darunter, Summe. Je Shot 3 Takes.",
+     "Dein Satz: „Estimate. The real number comes with the stitch count.“ Hook zweimal sprechen: A englisch, B deutsch („Was mich eine bestickte Jeans in der Herstellung kostet.“).",
+     "CapCut: Hook-Text Sek. 0–2, Untertitel, 25–35 s, ohne Musik: V009_A.mp4 und V009_B.mp4 in „W7“. Ändert sich am Mo die Fabrik, tauschst du bis Fr 17:45 nur die Zahlen."
+    ],
+    "f": "Fertig, wenn V009_A und V009_B im Ordner „W7“ liegen.",
+    "o": [
+     {"n": "CapCut", "u": "https://www.capcut.com"}
+    ],
+    "v": {
+     "id": "V009",
+     "slot": "REAL",
+     "dauer": "25–35 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "What one embroidered jeans costs me to make.",
+     "hook_de": "Was mich eine bestickte Jeans in der Herstellung kostet. (Test-Hook B, deutsch)",
+     "shots": [
+      "Handschrift, Posten für Posten: base jeans €[X] · embroidery €[Y] · patch ~€[3] est. · gold threads ~€[2] est. · handling ~€[5] est.",
+      "Strich darunter: ~€[SUMME]",
+      "Du: „Estimate. The real number comes with the stitch count.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "Sek. 0–2: „What one embroidered jeans costs me to make.“ · „est.“ neben jeder Schätzung",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
+     "caption": "My cost per pair from the real offer: about €[SUMME] to make. Base jeans €[X], embroidery €[Y], patch ~€[3], gold threads ~€[2], handling ~€[5] (the last three are estimates). The final number comes when the digitizer counts the stitches. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel",
+     "check": "Nur echte Zahlen aus dem Angebot, Schätzungen markiert, keine Fabriknamen, kein Streichpreis."
+    }
+   },
+   {
+    "c": "C",
+    "t": "Clips vom Papiertest-Abend sichten, Fotos je Gast ablegen",
+    "m": 10,
+    "s": [
+     "Alle Clips und Fotos vom Sa durchsehen. Nur Personen, die Ja gesagt haben.",
+     "Aussortieren: Seitenansicht links, B und B2 in einem Bild, roter Hintergrund, fremde Logos.",
+     "Die besten 5 Clips in „W7 · Papierabend“, Dateiname mit Inhalt (z. B. „vorn_gruppe_01“). Material für spätere Varianten.",
+     "Pro Gast die 2 besten Fotos in einen Unterordner mit Vornamen, für Mo 26.10."
+    ],
+    "f": "Fertig, wenn die Clips sortiert sind und für jeden Gast mit Ja ein Fotoordner bereitliegt."
+   }
+  ]
+ }
+}

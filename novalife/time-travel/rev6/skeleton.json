@@ -1,0 +1,2476 @@
+[
+ {
+  "n": 4,
+  "phase": "P0",
+  "start": "2026-10-05",
+  "goal": "Design einfrieren, Warteliste live, Tech Pack fertig, Startwerte gezählt",
+  "kpi": [
+   {
+    "k": "Freeze",
+    "ziel": "Fr 09.10., spätestens 12:00 Auswertung"
+   },
+   {
+    "k": "Startwerte",
+    "ziel": "Sa 10.10. gezählt"
+   },
+   {
+    "k": "Warteliste",
+    "ziel": "live und getestet bis Fr 09.10."
+   }
+  ],
+  "fix": [
+   "Do 08.10. Papiertest 3 + Schnelltest",
+   "Fr 09.10. 12:00 Auswertung, Design-Freeze",
+   "Sa 10.10. Profile, Startwerte",
+   "So 11.10. Tech Pack v1.0 frei, Fabrikliste"
+  ],
+  "tage": {
+   "2026-10-08": [
+    "85′ · Papiertest 3 mit v1.7 + Varianten-Blatt (rev6/research/design_varianten/NVL_Papiertest3_Varianten.pdf): Serp auf 40/45/50 cm, 3-m-Fotos ohne Zoom, Gürteltest, Sitztest Goldfäden, Münztasche der Eightyfive messen (design.md 4.2, Blöcke 1–8)",
+    "15′ · Wash Reference Sheet fürs Tech Pack: 8 Fotos der Eightyfive bei Tageslicht, ohne Blitz (Spec 2.9: Verschleißbild und Fit, nicht der Grundton), an Claude",
+    "15′ · Clips 1–12 für V001, V119, V093 filmen, Kameraposition mit Klebeband markieren (content.md 4.1)",
+    "10′ · Schnelltest Runde 1 an 10 Leute aus deinem Netz (3 RU/russlanddt., 2 PL, 2 UA, 1 BY/Balt., 2 ohne Ost-Bezug), nur Codes P1–P10 notieren",
+    "10′ · Steuerberater- oder IHK-Termin für Di 13.10. buchen, Gewerbeschein raussuchen (deckt er Herstellung und Online-Handel?)",
+    "Info · Startseite als Warteliste (Rev. 5.3) wandert auf Fr 09.10., der Papiertest hat Vorrang",
+    "Gate · bis 22:00: 7 Fotos, Variantenfotos, 8 Wash-Fotos und 4 Maße an Claude",
+    "Grind+ 10′ · Prüfen, ob Novalife schon im Verpackungsregister LUCID steht (Postfach nach „Verpackungsregister“ durchsuchen)"
+   ],
+   "2026-10-09": [
+    "20′ · 12:00 Schnelltest mit Claude auswerten (Regel design.md 4.4: ≥ 2 Sowjet-/Wappen-Nennungen → graue Schneide, ≥ 4 → Serp nicht in dieser Größe einfrieren)",
+    "35′ · DESIGN-FREEZE abnehmen: Serp-Höhe und Farbe, B2-Kante, E voll/offen, Patch Größe/Ort, Lasche N° (V1), keine Klappe, Nackenlabel gewebt mit Novalife-Adresse (GPSR), „goldene Nähte“, Namen nach außen, ggf. Farbvorbehalt B/B2 bis Sa 07.11.; Tech Pack v1.0 bestellen (Stichdeckel 33.000, Füllung als Standard, GPSR-Pflegeetikett, 2 mm Abstand A zur Kante, Verschleißkarte mit den Freihaltezonen aus Spec 3.9, die Claude bis So 11.10. zeichnet, Wash Reference Sheet, Münztaschen-Zuschnitt)",
+    "75′ · Startseite als Warteliste bauen und live schalten (Shopify, Text von Claude). Willkommens-Mail nach dem Double-Opt-in einrichten (Text von Claude, Shopify-Automation vor Ort prüfen; den „Bring 3“-Link setzt du am 15.10. dazu). Vor dem Livegang 15′ Checkliste: Rev.-5.3-Aufgaben vom 06. und 07.10. erledigt? · Passwort aus · Domain verbunden · Double-Opt-in mit einer zweiten Adresse getestet · Impressum und Datenschutz im Footer · Cookie-Banner von Shopify an (Ort im Admin vor Ort prüfen) · Startbild und Vorschaubild für geteilte Links nur ein Papiertest-Foto, nie das Canvas-Mockup",
+    "Gate · Freeze steht. Wenn nicht: Die Anfrage geht trotzdem Mo 12.10. mit v1.7 und „final placement by 16.10.“ raus"
+   ],
+   "2026-10-10": [
+    "35′ · Profile: TikTok-Business, Instagram-Profi-Konto, YouTube-Kanal; Impressum in Instagram und TikTok verlinken; Startwerte zählen (Follower IG/TT, Bleach-Käufer, E-Mails mit Einwilligung) ins Blatt „Warteliste“; Link-Schema festlegen: utm_source zeigt den Kanal (Bio, QR, Mail), ?ref= zeigt Person, Abend oder Creator (netz, papier, stick, mess1–3, c-[name], p-[medium], h-[kürzel], code). Bio-Links darum mit …/?utm_source=instagram&utm_medium=bio bzw. tiktok, nie ?ref=ig; Markenkern-Blatt und Wortliste freigeben",
+    "5′ · Netzwerkzugang für die Lieferanten-Recherche freischalten (lieferanten.md Abschnitt 0), Claude startet den Prompt aus lieferanten.md 5 und prüft danach die Netz-Prüfliste aus strategie.md 19 (PAngV § 11, § 312g BGB, Minijob und Mindestlohn 2027, REACH, Feiertage TR/PT/Berlin, Ramadan 2027)",
+    "45′ · Content-Batch W5 (gekürzt): V001 fertig schneiden, 5 CapCut-Vorlagen anlegen (content.md 4.2); V002 und V003 schneidest du am So. CTA ab sofort in jedem Post: „Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ (ersetzt die Standard-CTA in content.md; Wortlaut prüft die Hotline am 24.11.)",
+    "40′ · Prüfliste lieferanten.md 1.5 für die vier bekannten Fabriken (1.2): Impressum, Adresse in Maps, „our factory“ oder Vermittler, eigene Fotos von Stickmaschinen und Wäscherei, Kontakt nur von der eigenen Website; Ergebnis ins Blatt „Fabriken“ mit Quelle und „geprüft am“",
+    "Grind+ 10′ · Hook-Bank als Notiz am Handy anlegen"
+   ],
+   "2026-10-11": [
+    "30′ · Fabrikliste: Claudes 8 Kandidaten mit Punkteraster freigeben (je ≥ 3 TR und PT; K.-o.: eigene Fabrik, Denim als Kern, Kontakt auf eigener Website); die Anfrage geht Mo an alle, die das K.-o. bestehen",
+    "Ausnahme 60′ · Nur wenn Claude bis heute kein Netz hat: selbst 4 weitere Fabriken suchen (Suchbegriffe lieferanten.md 1.4, keine Verzeichnisse, keine Scraper) und nach 1.5 prüfen; ersetzt die 30′ Freigabe",
+    "60′ · Tech Pack v1.0 prüfen und freigeben; RFQ-Vorlage ergänzen: Preis bei 75 und 100, Preis je 1.000 Stiche, Fadenschnitte/Farbwechsel, DDP und DAP Berlin, Euro, Betriebsferien, Taschenfutter-Druck, Anti-Backstaining, Patch D im Haus?, REACH-Konformität schriftlich (Nickel in Knopf und Nieten, Azofarbstoffe), Arbeitszeit im Ramadan, Feiertage bis April; Verschleißkarte von Claude prüfen; Innenbein-Gradierung entscheiden (+1,0 wie Spec 1.1 oder +1,5)",
+    "30′ · V002 und V003 fertig schneiden (vom Sa)",
+    "15′ · Wochenreview W4: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude; Freeze-Ergebnis festhalten"
+   ]
+  },
+  "abhaengig": [
+   "Druckvorlagen v17, v15, 1zu1 und Varianten-Blatt liegen vor",
+   "Shopify-Shop mit Domain (Rev. 5.3, W4 Di 06.10.)",
+   "Impressum und Datenschutz (W4 Mi 07.10.)"
+  ],
+  "neu_ggue_rev5": [
+   "Varianten-Blatt und Zielgruppen-Schnelltest beim Papiertest",
+   "Freeze-Zettel mit Namen nach außen, Farbvorbehalt B/B2, V1 Nummer, V4a Stichdeckel, V5 Patch-Größe",
+   "Startwerte zählen",
+   "Steuerberater-Termin buchen",
+   "Netzwerkzugang für die Lieferanten-Recherche",
+   "Startseite rutscht von Do auf Fr",
+   "6.1: Wash-Fotos, Verschleißkarte, Innenbein; Checkliste vor dem Livegang und Willkommens-Mail; Prüfliste der 4 Fabriken als Kern; Link-Schema utm/ref"
+  ]
+ },
+ {
+  "n": 5,
+  "phase": "P1",
+  "start": "2026-10-12",
+  "goal": "Anfragen raus, erster Post, Steuer klären, warmes Netz zählen und anschreiben",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "40 bestätigt (Alarm 15)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~120 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 12.10. RFQ an 8 Fabriken, erster Post 18:00 (V001)",
+   "Di 13.10. Steuerberater",
+   "Mi 14.10. Berliner Sticker anfragen",
+   "Sa 17.10. MEK Dahlem",
+   "So 18.10. Gate W5 + Spiel-Entscheidung"
+  ],
+  "tage": {
+   "2026-10-12": [
+    "60′ · ANFRAGE (RFQ) an alle Fabriken senden, die das K.-o. bestehen (Ziel 8; Vorlage mit den Zusätzen vom 11.10. inkl. REACH- und Ramadan-Frage); Blatt „Fabriken“ mit Kontaktweg, Quelle, geprüft am",
+    "20′ · BUILD 18:00 · V001 „Papier, bevor es Garn wird“ (Day 1, Material vom Papiertest 08.10.)",
+    "30′ · 6 weitere Berliner Sticker suchen (Google Maps „Stickerei Berlin“ u. a.; nur mit eigener Website und Fotos auf Fleece/Piqué), Blatt „Sticker“"
+   ],
+   "2026-10-13": [
+    "45′ · Steuerberater: 8 Fragen aus tools.md 3.3 + Frage 9 (wann fällt die Einfuhr-/Erwerbsteuer an, DDP/DAP, Spediteur mit Zahlungsziel?) + Frage 10 („Wie beschäftige ich 2 Helfer an ~6 Tagen legal: Minijob oder kurzfristige Beschäftigung, Mindestlohn 2027, Unfallversicherung? Was kostet das?“) + Buchung von 5 Creator-Paaren",
+    "20′ · Blatt „Netz“: alle zählen, die dir vertrauen (Freunde, Familie, Bleach-Käufer, alle, die dir je zu Novalife schrieben); dazu Blatt „Die ersten 35“ mit zwei Spalten: „Zusage“ (Name, Größe, „ich bestelle am 14.01.“) und „Vielleicht“. Jedes Gate zählt nur „Zusage“",
+    "15′ · Blatt „Kasse“ anlegen (Vorlage von Claude): K, V, F, R, Ampel; dazu die Zeile „ungeplant“ mit Schätzung je Posten: Steuerberater, Rechtstexte über 80 €, Verpackungslizenz, Helferlohn, Abende (bis ~150 €), Einfuhrumsatzsteuer und Kurierpauschale auf Proto und PP, Fotograf und Models, Shopify Email über dem Freikontingent, Produkthaftpflicht. Daneben gegenrechnen: je 146 € steigt die Schwelle um 1 Vorbestellung",
+    "25′ · Tally-Umfrage anlegen (anonym, Frage nach der Familienherkunft freiwillig, keine E-Mail im selben Formular, Art. 9 DSGVO); am selben Tag den Absatz zu Tally in die Datenschutzerklärung (e-recht24). Regel ins Blatt: ethnische Herkunft nie neben Name oder E-Mail speichern",
+    "5′ · Story-Umfrage 1: Papier-Münztasche „Hing so ein Muster bei euch zu Hause?“",
+    "5′ · Belegtabelle v0.1 bei Claude bestellen (Raute zuerst, für V002)",
+    "Grind+ 10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt (heute optional, der Tag ist voll)",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V108 „Raute“ (nur mit Beleg)"
+   ],
+   "2026-10-14": [
+    "45′ · Berliner Sticker anfragen (3 beste): Fleece 330–350 g/m² mit Topping? Piqué? fremde DST/EMB? Preis bei 1/10/50, Lieferzeit",
+    "20′ · ORIGIN 18:00 · V002 „Jede Region stickt die Raute anders“ (ersetzt „Älter als jede Grenze“; nur mit Beleg aus der Belegtabelle, sonst Reserve V116)",
+    "5′ · Prompt R1 an Claude: Empfehlungs-Mechanik ohne App (community.md 4.2)",
+    "20′ · Nachzügler-Fabriken anschreiben (spätestens heute; nur wer das K.-o. besteht)",
+    "20′ · Nur falls der Gewerbeschein vom 08.10. nur Customizing abdeckt: Gewerbe online ummelden über service.berlin.de (Gebühr vor Ort prüfen). Brauchst du für EORI (26.10.), Shopify Payments (30.10.) und den Blanks-Großhandel"
+   ],
+   "2026-10-15": [
+    "45′ · Teppich-Fotos und Familienbilder; Einwilligung der Familie; klären, wo der Teppich hängt und ob du ihn für den Shoot am 20.02. leihen darfst; entscheiden, wie viel Familie in den Content kommt (Rat: über Gegenstände, nicht über Länder)",
+    "40′ · „Bring 3 Freunde“ einbauen: contact[tags], ?ref=, eigener Code code-[6 Zeichen], WhatsApp-Knopf, persönlicher Link auch in die Willkommens-Mail; 4 Tests im privaten Safari-Fenster; am selben Tag den Satz zu Quellen-Tags und Empfehlungs-Code in die Datenschutzerklärung (liefert Claude mit Prompt R1); scheitert es: Tally-Feld „Wer hat dich eingeladen?“",
+    "5′ · Story 2: Frage-Sticker „Schick mir ein Foto vom Teppich deiner Oma“ (fremde Fotos nur mit schriftlichem Ja)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V115 „Miss deine Lieblingsjeans“"
+   ],
+   "2026-10-16": [
+    "20′ · Fabriken nachfassen",
+    "20′ · REAL 18:00 · V003 „Die Zahlen“ (CTA neu: „Startet die Produktion nicht, geht jedes Geld zurück“)",
+    "25′ · Netz-Runde 1: 15 persönliche Nachrichten N1 mit ?ref=netz, einzeln, keine Massenmail an alte Bleach-Kunden",
+    "Grind+ 10′ · Gespräche 1–2 (zielgruppe.md 5.1) fürs Wochenende verabreden",
+    "20′ · Marke prüfen: DPMAregister und EUIPO eSearch nach „Novalife“ (Klasse 25 Bekleidung), Ergebnis mit Datum ins Blatt; ob du anmeldest, entscheidest du nach dem Drop (vom 13.10. hierher, der Tag war voll; vor den Labels am 04.11. reicht es)"
+   ],
+   "2026-10-17": [
+    "120′ · MEK, Arnimallee 25, Dahlem (laut berlin.de Sa–So 11–18 Uhr, 10 €, vor dem Besuch prüfen): Raute, Achtstern, Zickzack, Lebensbaum an echten Stücken für die Belegtabelle, Objektnummer notieren; filmen nur mit schriftlicher Erlaubnis",
+    "Info · ersetzt den Puffer aus Rev. 5.3",
+    "Grind+ 40′ · Gespräche 1–2 à 20′ (erst Fotos ohne Erklärung, dann mit)",
+    "Grind+ 20′ · LUCID registrieren, falls noch nicht geschehen (Pflicht vor dem ersten Paket)"
+   ],
+   "2026-10-18": [
+    "30′ · Wochenreview W5: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude; Spiel-Entscheidung (Rat: Pixel-Spiel streichen, Scroll-Story B bauen)",
+    "Gate · Liste ≥ 40 (Alarm 15) · Netz ≥ 30 Namen (sonst Netz aus Handy-Kontakten ergänzen) · ≥ 4 von 8 Fabriken haben geantwortet (sonst 2 Nachzügler) · Steuertermin steht (sonst IHK-Gründungsberatung oder anderer Steuerberater bis Fr 23.10.)",
+    "75′ · Content-Batch W6: V004, V005, V006",
+    "Grind+ 60′ · Nowkoelln Flowmarkt ansehen (Maybachufer; Termin 18.10. nur fortgeschrieben, vorher prüfen)"
+   ]
+  },
+  "abhaengig": [
+   "Freeze und Tech Pack v1.0 (W4)",
+   "Fabrikliste mit Punkteraster (So 11.10.)",
+   "Content-Batch W5 (Sa 10.10.)"
+  ],
+  "neu_ggue_rev5": [
+   "Blatt „Netz“ und „Kasse“",
+   "Ref-Mechanik „Bring 3“ mit Quellen-Tags",
+   "Tally-Umfrage + Story-Umfragen",
+   "Netz-Runde 1",
+   "MEK für die Belegtabelle statt Puffer",
+   "V002 mit neuem Hook",
+   "Steuer-Fragen 1–9 inkl. Fälligkeit",
+   "6.1: Steuer-Frage 10 (Helfer), Kasse „ungeplant“, „Die ersten 35“ mit Zusage/Vielleicht, Datenschutz am selben Tag, Gewerbe ummelden, Nachzügler-Fabriken, Markenrecherche"
+  ]
+ },
+ {
+  "n": 6,
+  "phase": "P1",
+  "start": "2026-10-19",
+  "goal": "Angebote vergleichen, drei Calls, Papiertest-Abend als erster Wärme-Moment",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "90 bestätigt (Alarm 30)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~270 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "5"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Angebote",
+    "ziel": "≥ 3 mit Preis bei 75 und 100 Stück"
+   },
+   {
+    "k": "Gespräche",
+    "ziel": "≥ 6 von 10"
+   }
+  ],
+  "fix": [
+   "Mi 21.10. Call 1",
+   "Do 22.10. Call 2",
+   "Fr 23.10. Call 3, Steuer-Deadline",
+   "Sa 24.10. Papiertest-Abend 18:00"
+  ],
+  "tage": {
+   "2026-10-19": [
+    "45′ · Angebote in den Vergleich mit Fabrikpreis-Ampel (≤ 60 € grün, 61–63 € gelb, > 63 € rot) und Schwellen je Angebot mit und ohne 1.150 € Steuer, bei 100 und 75 Stück (Prompt an Claude)",
+    "20′ · BUILD 18:00 · V004 „Der Bauplan (Tech Pack)“ (Test-Hook B auf Deutsch). Im Bild nur: Maßtabelle, Schnittzeichnung schwarz-weiß ohne Ornament, ein einzelnes Element flach. Nie die farbige Flachzeichnung mit allen fünf Elementen, die wäre ein Mockup des fertigen Teils",
+    "10′ · Einladung Papiertest-Abend Sa 24.10. (E1) an die ersten „Ja“ aus dem Netz",
+    "10′ · MEK-Notizen, Fotos und Objektnummern an Claude: Belegtabelle v1.0 (Quelle, Region, Abbildung je Motiv)"
+   ],
+   "2026-10-20": [
+    "20′ · Calls mit den Top 3 anfragen",
+    "10′ · Farbe für Zipper und Polo festlegen (Rat: Navy)",
+    "5′ · Bänder und Medaillon bei Claude bestellen",
+    "10′ · Ursprung der Baum-Referenz für Patch D klären: Wer hat die Vorlage gemacht? Stammt sie von einem fremden Künstler, zeichnet Claude eine eigene Fassung, bevor die Patch-Anfrage am 28.10. rausgeht",
+    "5′ · Story 3: B2-Papier „Woran erinnert dich das?“ Ernte · Kindheit · Wappen · Nichts",
+    "40′ · Gespräche 3–4 à 20′ (Fragen zielgruppe.md 5.1, Preisfragen, Blatt „Gespräche“)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V109 „Zickzack“ (nur mit Beleg, sonst Variante deines besten Videos)"
+   ],
+   "2026-10-21": [
+    "45′ · Call 1 (Leitfaden: Panel-Stickerei im Haus mit Fotos, Preis 75/100, 50/50, Patch D im Haus?, Betriebsferien, Arbeitszeit im Ramadan (nach lokaler Rechnung ca. 08.02.–09.03.2027, ungeprüft), Feiertage bis April, A.TR für jede Sendung aus der Türkei)",
+    "20′ · ORIGIN 18:00 · V005 „Die Drei-von-vier-Regel“ (nur wenn das Gate Belegtabelle heute grün ist). Die Ausnahme nennst du selbst: „Eine Ausnahme gibt es: Der Baum am Bund folgt einer eigenen Vorlage.“ Gibt die Klärung vom 20.10. das nicht her: Reserve V120",
+    "20′ · Gespräch 5",
+    "Gate · Belegtabelle v1.0 fertig (nach dem MEK; Quelle, Region, Abbildung je Motiv) → V005 heute, später V011, V014, V015 und V108–V112 nur mit Beleg · sonst V120 heute, Belegtabelle bis So 25.10., Videos ohne Beleg wandern in die Reserve"
+   ],
+   "2026-10-22": [
+    "45′ · Call 2 (Leitfaden wie Call 1, inkl. Ramadan, Feiertage, A.TR)",
+    "20′ · Blanks bestellen: 1 Zipper, 1 Polo (Navy)",
+    "20′ · 12 Sätze Druckvorlagen für den Papiertest-Abend drucken (v17 beide Seiten, v15 S. 1, 1zu1 S. 3), QR-Zettel ?ref=papier",
+    "5′ · Story 4: B2 rot gegen B2 mit weißer Kante (Druck von Claude)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V116 „Eine Stunde am Tag“"
+   ],
+   "2026-10-23": [
+    "45′ · Call 3 (Leitfaden wie Call 1, inkl. Ramadan, Feiertage, A.TR)",
+    "20′ · DETAIL 18:00 · V006 „Feiner Kreuzstich“ (Test-Hook B auf Deutsch)",
+    "10′ · Steuer-Deadline: Ergebnis schriftlich an Claude, Kapitalbedarf und Schwellen neu rechnen",
+    "Gate · Steuer schriftlich klar? Sonst gilt bis auf Weiteres: mit 1.150 € planen, Stufe 2 wird Pflicht"
+   ],
+   "2026-10-24": [
+    "30′ · Referenzen der Top 3 prüfen",
+    "90′ · PAPIERTEST-ABEND 18:00–19:30 bei dir oder einem Freund: 10–12 Gäste kleben die Vorlagen auf die eigene Jeans, 3 Fragen, Größe notieren, am Handy eintragen, „Schick deinen Link an 3 Leute“; Gespräche 6–7 hier führen",
+    "Grind+ 60′ · Abend bis 20:30 offen lassen"
+   ],
+   "2026-10-25": [
+    "30′ · Wochenreview W6: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Liste ≥ 90 (Alarm 30) · ≥ 3 Angebote mit Preis bei 75 und 100 · Ampel rot → Gegenrechnung an dich (Optionen V4b, kleiner Serp, 75 Stück)",
+    "75′ · Content-Batch W7: V007, V008, V009 + Clips vom Papiertest-Abend",
+    "Grind+ 120′ · Mauerpark-Flohmarkt 12–14 Uhr (So laut Sekundärquelle 10–18 Uhr, vor Ort prüfen): 15 Leute in Jeans, Fragen 1, 2, 8, 9 — nur wenn < 6 Gespräche geführt oder Liste unter Soll"
+   ]
+  },
+  "abhaengig": [
+   "Angebote aus der RFQ vom 12.10.",
+   "Steuergespräch 13.10.",
+   "Netz-Runde 1 (16.10.)"
+  ],
+  "neu_ggue_rev5": [
+   "Fabrikpreis-Ampel mit Schwellen je Angebot",
+   "Papiertest-Abend",
+   "Gespräche 3–7",
+   "DE-Hook-Test bei V004 und V006",
+   "6.1: Gate Belegtabelle Mi 21.10., Baum-Referenz klären, V004 ohne Mockup, Calls mit Ramadan/Feiertagen/A.TR"
+  ]
+ },
+ {
+  "n": 7,
+  "phase": "P1",
+  "start": "2026-10-26",
+  "goal": "Eine Fabrik wählen, Konditionen mit Notausgang, Validierung bestehen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "150 bestätigt (Alarm 50)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~450 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "10"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Validierung",
+    "ziel": "grün ≥ 150, ≥ 10 Zusagen, 50/50 schriftlich"
+   },
+   {
+    "k": "Gespräche",
+    "ziel": "10 von 10, Tally ≥ 50"
+   }
+  ],
+  "fix": [
+   "Mo 26.10. Fabrik entscheiden",
+   "Di 27.10. Konditionen verhandeln",
+   "Fr 30.10. Shopify Payments + Support-Frage",
+   "So 01.11. VALIDIERUNG"
+  ],
+  "tage": {
+   "2026-10-26": [
+    "45′ · FABRIK ENTSCHEIDEN (Scorecard mit Steuer- und Zahlungsspalte; kein Vermittler ohne genannte Fabrik); Nr. 2 als Reserve. Bei Türkei: Konditionen bis Di 27.10. mittags, Proforma bis Fr 30.10. (28.10. nachmittags frei, 29.10. Nationalfeiertag, Allgemeinwissen, ungeprüft)",
+    "20′ · BUILD 18:00 · V007 „8 Fabriken angeschrieben“ (Test-Hook B auf Deutsch)",
+    "30′ · Nur bei Türkei: EORI-Nummer sofort beantragen (statt Fr 30.10.)",
+    "15′ · Fotos an die Papierabend-Gäste (nur mit Ja), Bitte um Story mit eigenem Link"
+   ],
+   "2026-10-27": [
+    "40′ · Konditionen verhandeln (bei Türkei bis 12:00): 50/50, Rest „nach Freigabe des Endkontroll-Videos, spätestens 24.03.“, Teil-Lieferung gegen Teilzahlung, Preis 75/100 schriftlich bis 01.02., Euro, DAP bevorzugt (Steuer erst bei der Einfuhr; bei DDP steckt sie schon in der Restzahlung am 19.03.), keine Bestellpflicht bei durchgefallenen Mustern, Bankdaten-Regel. Schriftlich dazu: Das Proto bleibt bei dir, Korrekturen gehen per Foto und Maß; ein zweites Proto optional mit Preis; jede Sendung aus der Türkei kommt mit A.TR, Handelsrechnung und Packliste, auch Proto und PP. Proforma anfordern",
+    "15′ · Absagen an die anderen, Nr. 2 warm halten",
+    "5′ · Story 5: Schieberegler „Wie sehr würdest du das tragen?“ (Serp-Papier)",
+    "40′ · Gespräche 8–9",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V121 „Warteliste-Stand“ (nur echte Zahl; V119 erst nach der Bildregel-Entscheidung am 07.11.)"
+   ],
+   "2026-10-28": [
+    "45′ · Patch-Hersteller anfragen (nur mit Fotos feiner Mehrton-Patches; Größe nach Freeze, Lasche „N° __ / 100“ falls V1; Kupfernieten gestickt oder echt klären)",
+    "20′ · ORIGIN 18:00 · V008 „Die Goldfäden“"
+   ],
+   "2026-10-29": [
+    "30′ · Berliner Sticker auswählen",
+    "15′ · Digitizing für Zipper- und Polo-Bänder und das Medaillon beim gewählten Sticker beauftragen (Budget 240 €, Plan 3)",
+    "20′ · Netz-Runde 2 (N2) an alle ohne Eintrag; an alle mit Eintrag: „Schick deinen Link an 3 Leute“",
+    "5′ · Story 6: „Was wäre fair?“ 129 · 149 · 169 · 189 €",
+    "20′ · Gespräch 10",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V120 „Die eine Frage an Fabriken“"
+   ],
+   "2026-10-30": [
+    "5′ · EORI (Rev. 5.3): nur Kontrolle, ob der Antrag läuft; bei Portugal Notiz „entfällt“",
+    "30′ · Shopify Payments aktivieren, Ausweis und Konto prüfen lassen; Support schriftlich fragen: „Haltet ihr bei Vorbestellungen eine Reserve zurück? Wann wird ausgezahlt?“ Screenshot ins Blatt „Kasse“",
+    "20′ · REAL 18:00 · V009 „Was eine Jeans kostet“ (nur echte Zahlen aus dem Angebot; Test-Hook B auf Deutsch)",
+    "Gate · Bei Türkei: Proforma heute da? Sonst anrufen. Ohne Proforma gilt am So „50/50 schriftlich“ als offen"
+   ],
+   "2026-10-31": [
+    "30′ · Zahlen für die Validierung sammeln (Anmeldungen nach Tag, Views, Anmeldungen je 1.000 Views)",
+    "20′ · Gespräche, Tally (Ziel 100, mindestens 50) und Story-Ergebnisse an Claude: Markenkriterien 1–3",
+    "60′ · Website Schritt 1: Werkzeuge auf dem Mac (website.md 9)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Info · Die B-Zeitachse für „eine Woche schieben“ und „Fabrik 2“ steht in strategie.md 7.4 (Claude). Du nutzt sie an jedem Gate mit „schieben“"
+   ],
+   "2026-11-01": [
+    "40′ · VALIDIERUNG + Wochenreview W7: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · grün ≥ 150 · gelb 50–149 · rot < 50 (dann Entwicklung nicht bezahlen, B-Zeitachse 1 aus strategie.md 7.4 heute entscheiden, 6 neue Posts). Dazu: ≥ 10 Zusagen (nur Spalte „Zusage“: Name, Größe, „ich bestelle am 14.01.“; „Vielleicht“ zählt nicht), 50/50 schriftlich, Markenkriterien (Hälfte S1 ja/vielleicht, Median „zu teuer“ ≥ 149 €, ≤ 1 Sowjet-Nennung je 5 Personen mit UA/PL/BY-Hintergrund)",
+    "75′ · Content-Batch W8: V010, V011, V012",
+    "Grind+ 90′ · Berlin Vintage & Heritage Market (Ballhaus Berlin, So 01.11. laut visitBerlin, vor Ort prüfen): Kontakte sammeln, erst nach den Zahlen"
+   ]
+  },
+  "abhaengig": [
+   "Calls 21.–23.10.",
+   "Steuer schriftlich (23.10.)",
+   "Papiertest-Abend (24.10.)"
+  ],
+  "neu_ggue_rev5": [
+   "Verhandlung mit 8 Punkten (Backstop 24.03., Teil-Lieferung, Bankdaten-Regel)",
+   "EORI am Tag der Fabrikwahl",
+   "Shopify Payments vorgezogen vom 25.11.",
+   "Netz-Runde 2",
+   "Website Schritt 1",
+   "Validierung mit Zusagen und Markenkriterien",
+   "6.1: Proto bleibt bei dir, A.TR für jede Sendung, DAP bevorzugt, Digitizing Zipper/Polo, B-Zeitachse"
+  ]
+ },
+ {
+  "n": 8,
+  "phase": "P1",
+  "start": "2026-11-02",
+  "goal": "Entwicklung bezahlen, Dateien an die Fabrik, Farbe und Namen endgültig",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "210 bestätigt (Alarm 80)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~630 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "10"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Spec Rev. 14",
+    "ziel": "bis So 08.11. bei Claude"
+   }
+  ],
+  "fix": [
+   "Mo 02.11. Entwicklung bezahlen (nur bei grün/gelb)",
+   "Mi 04.11. Hochschul-Mails",
+   "Sa 07.11. Entscheidungen Farbe/Namen/Sprache"
+  ],
+  "tage": {
+   "2026-11-02": [
+    "30′ · Proforma prüfen und Entwicklung bezahlen, nur bei grün oder gelb; nur auf das Konto aus der ersten Proforma. Die Überweisung ist dein Test für das Ausland: Gebühr und Tage bis zur Gutschrift ins Blatt „Kasse“",
+    "20′ · BUILD 18:00 · V010 „Die Fabrik steht“ (Fabrikname nur mit Erlaubnis)",
+    "15′ · Werkstatt-Mail 1 an die Liste (Text von Claude): Was die Validierung ergeben hat, was als Nächstes kommt, ein Papierfoto"
+   ],
+   "2026-11-03": [
+    "45′ · Dateien an die Fabrik (Tech Pack, Druckvorlagen, Referenzfotos, Freeze-Zettel); dazu anfordern: Shade Card und 3 Lab Dips (Ziel, heller, dunkler) mit L*-Werten, die die Fabrik misst (Ziel L* 34–40, Toleranz ±2, Spec 2.2)",
+    "5′ · Story 7: „Was zuerst?“ Jeans · Zipper · Polo (Strichzeichnung, kein Mockup)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V110 „Achtstern“ (nur mit Beleg, sonst Variante deines besten Videos)"
+   ],
+   "2026-11-04": [
+    "15′ · Labels (inkl. Nackenlabel Zipper/Polo mit Novalife-Adresse), Hangtag-Karte „Bedeutung innen“ (nur Motive mit Beleg) und Patch-Datei mit Lasche bei Claude bestellen",
+    "20′ · ORIGIN 18:00 · V011 „Der Achtstern“ (außen „Achtstern“, nie „Alatyr“; Bedeutung nur mit Beleg aus der Belegtabelle, sonst Reserve)",
+    "30′ · Hochschul-Mails H1 an HTW Berlin, ESMOD, AMD, Kunsthochschule Weißensee (Kontaktstelle nur von der offiziellen Website)",
+    "45′ · Website Schritt 2: Theme-Kopie, Git, GitHub"
+   ],
+   "2026-11-05": [
+    "30′ · Labels freigeben und an die Fabrik",
+    "5′ · Story 8: „Wie würdest du dieses Band nennen?“",
+    "15′ · Ort für den Stick-Abend anfragen (Kunstraum Heartspace, Danziger Str. 172, vor Ort prüfen; sonst bei dir)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V113 „Mein Fehler: die realistische Szene“"
+   ],
+   "2026-11-06": [
+    "20′ · Patch-Angebote eintragen",
+    "20′ · REAL 18:00 · V012 „Ein einziges Thema“",
+    "20′ · Produkthaftpflicht: bei 1–2 Versicherern (Kontakt von der offiziellen Website) den Preis für 100 Teile unter eigener Marke anfragen; Preis ins Blatt „Kasse“, Zeile „ungeplant“",
+    "Grind+ 10′ · ARD/ZDF-Medienstudie 2025 selbst öffnen (PDF-Link in strategie.md 18, Z-Q23): Wochenreichweite von Instagram und TikTok bei 14- bis 29-Jährigen notieren, an Claude (für die Sprachentscheidung am Sa)"
+   ],
+   "2026-11-07": [
+    "25′ · ENTSCHEIDUNGEN vor dem Digitizing: Schneide rot oder grau, B2-Band, Namen nach außen, Sprache der Hooks (nach dem DE-Test W6–W7) → Spec Rev. 14. Dazu: Bildregel „keine Seitenansicht links“ halten (Rat) oder bewusst lockern (davon hängen V119 und CD-T06 ab). Die Sprache entscheidet auch das Liefergebiet: Hooks englisch → am 24.11. englische Rechtstexte mitbuchen, englische Produktseite am 18.12.; Hooks deutsch → bis zum Drop nur Versand nach Deutschland (spart OSS und Retouren-Aufwand)",
+    "30′ · Creator-Longlist Runde 1: 10 Namen von Hand am Handy (Orte Mauerpark, GATE194/Overkill, Burg & Schild, Civilist), nur folgen und ehrlich kommentieren",
+    "30′ · Website Schritt 3: CLAUDE.md mit deinen Regeln",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 120′ · Laden-Runde Mitte-Nord: Studio183 (Brunnenstr. 183), Civilist (Brunnenstr. 13), Firmament (Linienstr. 40), Soto (Torstr. 72); nur Papier zeigen, Konsignation und Abend-Möglichkeit fragen (Öffnung vorher prüfen)"
+   ],
+   "2026-11-08": [
+    "25′ · Wochenreview W8: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude; Aktivzeiten der Follower ablesen, Postzeit ±1 h anpassen",
+    "Gate · Liste ≥ 210 (Alarm 80) · Entwicklung nur bei grün/gelb bezahlt · Fabrik antwortet in ≤ 3 Werktagen (sonst Call und Fabrik 2 warm anschreiben)",
+    "75′ · Content-Batch W9: V013, V014, V015"
+   ]
+  },
+  "abhaengig": [
+   "Validierung grün oder gelb",
+   "Proforma mit Bankdaten",
+   "Freeze-Zettel und ggf. Farbvorbehalt"
+  ],
+  "neu_ggue_rev5": [
+   "Hangtag-Karte „Bedeutung innen“",
+   "Hochschulen",
+   "Creator-Longlist Runde 1",
+   "Website Schritte 2–3",
+   "Laden-Runde Mitte-Nord als Grind+",
+   "6.1: Werkstatt-Mail 1, Lab Dips, Produkthaftpflicht, Bildregel und Liefergebiet am 07.11."
+  ]
+ },
+ {
+  "n": 9,
+  "phase": "P2",
+  "start": "2026-11-09",
+  "goal": "Stickdatei prüfen und freigeben, Website Stufe 1 bauen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "270 bestätigt (Alarm 110)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~810 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "11"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Stiche",
+    "ziel": "≤ 33.000"
+   }
+  ],
+  "fix": [
+   "Mo 09.11. Digitizing-Vorschau",
+   "Di 10.11. Digitizing freigeben",
+   "Sa 14.11. Website Stufe 1, Presseliste"
+  ],
+  "tage": {
+   "2026-11-09": [
+    "45′ · Digitizing-Vorschau prüfen: echte Stichzahl, Fadenschnitte und Farbwechsel je Element",
+    "20′ · BUILD 18:00 · V013 „Muster als Maschinen-Code“"
+   ],
+   "2026-11-10": [
+    "20′ · Digitizing freigeben: ≤ 33.000 Stiche ohne Rückfrage, darüber Gegenrechnung mit Claude (Stückkosten → Kapital → Schwellen); Füllung ist Standard",
+    "20′ · Blanks zu den Berliner Stickern",
+    "60′ · Website Schritt 4: Zeit-Modul und Countdown",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V112 „Lebensbaum“ (nur mit Beleg, sonst Variante deines besten Videos)"
+   ],
+   "2026-11-11": [
+    "20′ · Stoffoptionen anfordern (12 oz und 13 oz)",
+    "20′ · ORIGIN 18:00 · V014 „Der Lebensbaum“ (nie „slawischer“ Lebensbaum)",
+    "60′ · Website Schritt 5: Wartelisten-Formular mit Größen- und Quellen-Tags. Prompt aus website.md ergänzen: Größen auch „kleiner als W30“ und „größer als W38“ (Tags gr-klein, gr-gross); Empfehlung aus der Dawn-Lösung vom 15.10. übernehmen: code-[6 Zeichen], Danke-Text mit persönlichem Link, WhatsApp-Knopf; Schema vom 10.10.: utm_source = Kanal, ?ref= = Person, Abend, Creator. Am selben Tag Absatz zur Größenangabe in die Datenschutzerklärung"
+   ],
+   "2026-11-12": [
+    "45′ · Größenseite und FAQ: „W32 — 81 cm“, Umrechnung Eightyfive/Carhartt/Dickies, „Miss deine Lieblingsjeans“ mit Video, sechs Einwand-Antworten",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V119 „Wie ich die Höhe gefunden habe“ (nur wenn du am 07.11. die Bildregel „keine Seitenansicht links“ gelockert hast, sonst Variante deines besten Videos)"
+   ],
+   "2026-11-13": [
+    "20′ · Muster des Label-Patches bestellen",
+    "20′ · DETAIL 18:00 · V015 „Zickzack“ (Bedeutung nur mit Beleg, sonst Reserve)",
+    "15′ · Einladung Stick-Abend Fr 27.11. (E2), 10 Plätze"
+   ],
+   "2026-11-14": [
+    "90′ · Website Schritt 6: Startseite Stufe 1 „Prozess“ (kein fertiges Teil, kein Mockup)",
+    "30′ · Presseliste Teil 1: 8 Medien, Kontakt nur aus Impressum oder offizieller Seite, je 3 Artikel lesen"
+   ],
+   "2026-11-15": [
+    "20′ · Wochenreview W9: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Liste ≥ 270 (Alarm 110) · Zusagen ≥ 11 · Stiche ≤ 33.000",
+    "30′ · Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)",
+    "20′ · Creator-Longlist Runde 2 (10 Namen)",
+    "25′ · Content-Batch W10 (Stickproben drehst du am Mo 16.11.)"
+   ]
+  },
+  "abhaengig": [
+   "Spec Rev. 14 mit Farbe B/B2",
+   "Dateien bei der Fabrik (03.11.)"
+  ],
+  "neu_ggue_rev5": [
+   "Stichdeckel 33.000 mit Gegenrechnung",
+   "Website Schritte 4–7",
+   "Größenseite mit „Miss deine Lieblingsjeans“",
+   "Presseliste Teil 1",
+   "Creator-Longlist Runde 2"
+  ]
+ },
+ {
+  "n": 10,
+  "phase": "P2",
+  "start": "2026-11-16",
+  "goal": "Stickproben und Stoff bewerten, Teppich-Post, Website live",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "330 bestätigt (Alarm 140)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~990 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "12"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Stickproben",
+    "ziel": "bestanden am 17.11."
+   }
+  ],
+  "fix": [
+   "Di 17.11. GATE Stickproben",
+   "Mi 18.11. V017 Teppich + Website live",
+   "Sa 21.11. Burg & Schild"
+  ],
+  "tage": {
+   "2026-11-16": [
+    "60′ · Stickproben bewerten: gewaschen, aus 3 m, Rot auf Indigo, Halme von B, Weiß nach der Wäsche (Ziel L* ≥ 80)",
+    "45′ · BUILD 18:00 · V016 „Die erste Stickprobe“ (am Tag drehen; Hinweis „Stick-Abend Fr 27.11., 10 Plätze“)"
+   ],
+   "2026-11-17": [
+    "30′ · Stickproben und Garnfarben freigeben",
+    "Gate · Trägt die Stickerei auf gewaschenem Denim nicht → kein Proto; Fabrik 2 aktivieren oder benannten Fehler beheben",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V114 „Mein Fehler: Deadline verpasst“"
+   ],
+   "2026-11-18": [
+    "45′ · Stoffmuster und 3 Lab Dips bei Tageslicht bewerten, einen freigeben. Der freigegebene Stofflappen ist ab jetzt der Waschstandard: Foto mit Graukarte, ein Stück behältst du, ein Gegenstück bleibt bei der Fabrik. L* misst die Fabrik, du vergleichst nur mit dem Lappen",
+    "20′ · ORIGIN 18:00 · V017 „Der Teppich“ (vorgezogen vom 25.11.; Subjekt ist der Teppich, nie „wir“)",
+    "20′ · Website Schritt 8: Stufe 1 live, altes Theme wird PLAN B; Test mit ?ref=test: Tag ref-test, eigener Code und persönlicher Link erscheinen",
+    "15′ · Orte schriftlich vorab anfragen: GATE194 über store@gate194.berlin (berlin.md B-10), Sing Blackbird und Studio183 über ihre offiziellen Kanäle. Inhalt: Di 12.01., Sa 16.01., Sa 23.01. und Sa 13.03. abends freihalten, das Proto ist ab 03.12. da"
+   ],
+   "2026-11-19": [
+    "45′ · Produktseite Jeans als Entwurf + Vertrauens-Checkliste (9 Punkte: echte Fotos, Größe, Lieferdatum, Geld-zurück-Regel, X von 35, Gesicht, Element-Karten, Pflichtangaben, FAQ)",
+    "30′ · Presseliste Teil 2",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V122 „Schick mir deinen Teppich“"
+   ],
+   "2026-11-20": [
+    "45′ · REAL 18:00 · V018 „Was die Wäsche mit der Stickprobe macht“"
+   ],
+   "2026-11-21": [
+    "60′ · Burg & Schild, Rosa-Luxemburg-Str. 3, Mitte: gewaschene Stickproben zeigen, Feedback zu 12 oz rigid, Waschung, Panel-Stickerei (keine Konsignation erwarten)",
+    "20′ · Material für den Stick-Abend kaufen: Denim-Reste, Garn rot/weiß, Nadeln, 10 Rahmen",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 60′ · Nudie Repair Shop (Münzstr. 21) und Das Neue Schwarz (Mulackstr. 32) auf dem Weg, Öffnung vorher prüfen"
+   ],
+   "2026-11-22": [
+    "20′ · Wochenreview W10: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Liste ≥ 330 (Alarm 140) · Proto-Versanddatum schriftlich ≤ 30.11. (sonst Call; bei Portugal: 01.12. und 08.12. sind dort Feiertage, Allgemeinwissen, ungeprüft)",
+    "75′ · Content-Batch W11: V019, V020, V021 — Sperrwoche: kein Ernte- und kein Serp-Bild"
+   ]
+  },
+  "abhaengig": [
+   "Digitizing frei (10.11.)",
+   "Website Schritte 1–7"
+  ],
+  "neu_ggue_rev5": [
+   "Teppich-Post vorgezogen (18.11.)",
+   "Vertrauens-Checkliste auf der Produktseite",
+   "Burg & Schild mit Stickproben statt Puffer",
+   "Presseliste Teil 2",
+   "6.1: Lab Dips als Waschstandard, Orte schriftlich vorab"
+  ]
+ },
+ {
+  "n": 11,
+  "phase": "P2",
+  "start": "2026-11-23",
+  "goal": "Proto entsteht, Shop rechtssicher, Stick-Abend, Sperrwoche einhalten",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "390 bestätigt (Alarm 170)"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~1.170 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "13"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Proto-Versand",
+    "ziel": "schriftlich ≤ 30.11."
+   }
+  ],
+  "fix": [
+   "Di 24.11. Rechtstexte, LUCID",
+   "Fr 27.11. Stick-Abend 18:30",
+   "Sa 28.11. kein Post (Holodomor-Gedenktag)",
+   "So 29.11. Reservierung entscheiden, Broadcast anlegen"
+  ],
+  "tage": {
+   "2026-11-23": [
+    "15′ · Status Proto abfragen",
+    "20′ · BUILD 18:00 · V019 „Drei Stoffe“",
+    "10′ · Stick-Abend: Teilnehmer bestätigen, QR ?ref=stick",
+    "Info · Sperrwoche 23.–29.11.: kein Ernte- und kein Serp-Post (Holodomor-Gedenktag Sa 28.11.)"
+   ],
+   "2026-11-24": [
+    "75′ · AGB, Widerruf, Versand, Zahlung über einen Rechtstexte-Service mit Abmahnschutz (Preis vorher prüfen, über 80 € in die Zeile „ungeplant“). Hotline fragen: Creator-Kennzeichnung · Geld-zurück-Regel · „Platz in der ersten Stunde sichern“ · CTA „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ · Preisangabe „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“ ohne Streichpreis (PAngV § 11, ungeprüft) · Widerruf bei Zipper und Polo, die erst nach Bestellung bestickt werden · Bin ich bei bestickten Blanks Hersteller? · Bei englischen Hooks (07.11.) englische Rechtstexte mitbuchen",
+    "10′ · Datenschutz-Endkontrolle (community.md 3.3): Tally (13.10.), Quellen-Tags und Code (15.10.), Größe (11.11.) stehen schon drin; Double-Opt-in läuft",
+    "20′ · LUCID spätestens heute registrieren (vor dem ersten Paket)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V117 „Antwort auf Kommentar“"
+   ],
+   "2026-11-25": [
+    "30′ · Zahlungsanbieter (umgewidmet): PayPal verbinden, Auszahlungsplan beider Anbieter notieren (Shopify Payments seit 30.10.)",
+    "20′ · ORIGIN 18:00 · V020 „Warum Panel-Stickerei“ (Tausch mit 18.11.; Sperrwoche: kein Ernte- oder Serp-Bild)"
+   ],
+   "2026-11-26": [
+    "35′ · Patch-Muster prüfen, 3× bei 60 °C waschen; Wäschemarker auf Leinen mitwaschen (Test für V1)",
+    "20′ · Prüfung des Protos vorbereiten",
+    "20′ · Creator-Longlist Runde 3 (30 Namen komplett)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V118 „Stickmaschine ASMR“ (nur mit Erlaubnis des Stickers)"
+   ],
+   "2026-11-27": [
+    "20′ · REAL 18:00 · V021 „Warum 169 €“ (vorplanen, um 18:30 beginnt der Stick-Abend)",
+    "90′ · STICK-ABEND 18:30–20:00 (Ort vom 05.11.): jeder stickt eine Raute 7 × 7 in Rot/Weiß auf Denim, du zeigst die gewaschenen Stickproben; nur Raute und Achtstern, kein Weizen, kein Serp",
+    "Grind+ 60′ · bis 21:00 offen lassen"
+   ],
+   "2026-11-28": [
+    "30′ · Versand im Shop einrichten: Deutschland; EU nur, wenn du am 07.11. bei englischen Hooks geblieben bist (dann OSS-Antwort vom 13.10. umsetzen)",
+    "Info · Kein Post: Holodomor-Gedenktag (4. Samstag im November)",
+    "Grind+ 120′ · Holy Shit Shopping im CANK, Karl-Marx-Straße, Neukölln (28.–29.11. laut berlin.de, vor Ort prüfen) als Besucher: 10 Designer nach Bewerbung und Standpreis fragen; danach Sing Blackbird (Sanderstr. 11)"
+   ],
+   "2026-11-29": [
+    "30′ · Wochenreview W11: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude; Reservierung entscheiden",
+    "Gate · Liste < 170 → Reservierung mit 10 € (Option A), nur wenn Rechtstexte-Hotline und Shopify ok; sonst die kostenlose Liste „Platz in der ersten Stunde sichern“ (Option B, Standard) · Shopify Payments verifiziert? (sonst Reservierung ohne Zahlung, Ticket beim Payments-Support) · Rechtstexte live? (sonst bis Fr 04.12.)",
+    "10′ · Instagram-Broadcast-Kanal „Time Travel · Werkstatt“ anlegen",
+    "75′ · Content-Batch W12: V022, V023, V024; V025 vorbereiten"
+   ]
+  },
+  "abhaengig": [
+   "Stickproben bestanden",
+   "Patch-Muster da (13.11.)"
+  ],
+  "neu_ggue_rev5": [
+   "Sperrwoche ohne Ernte- und Serp-Bild",
+   "Stick-Abend",
+   "Datenschutz-Checkliste",
+   "Reservierung A/B",
+   "Broadcast-Kanal",
+   "Holy Shit Shopping als Grind+"
+  ]
+ },
+ {
+  "n": 12,
+  "phase": "P2",
+  "start": "2026-11-30",
+  "goal": "Das erste echte Teil kommt, ab jetzt darf gezeigt werden",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "470 bestätigt (Alarm 200); Grind+-Ziel 530"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~1.410 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "15"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Proto-Post",
+    "ziel": "≥ 2 × Median Views, ≥ 80 neue Anmeldungen in der Woche"
+   }
+  ],
+  "fix": [
+   "Do 03.12. PROTO DA, V025 19:00",
+   "Sa 05.12. Fit-Test, Reservierung bauen",
+   "So 06.12. Korrekturliste"
+  ],
+  "tage": {
+   "2026-11-30": [
+    "10′ · Versand des Protos verfolgen",
+    "20′ · BUILD 18:00 · V022 „Sie ist unterwegs“",
+    "10′ · Broadcast starten: „Am Donnerstag kommt das erste echte Teil. Hier siehst du es zuerst.“",
+    "15′ · Absender-Domain in Shopify authentifizieren, vor der ersten großen Mail am 07.12. (Menü vor Ort prüfen)"
+   ],
+   "2026-12-01": [
+    "20′ · ORIGIN 18:00 · V023 „Warum ein Sample“"
+   ],
+   "2026-12-02": [
+    "20′ · REACH 19:00 · V024 „Donnerstag“ (Countdown-Sticker auf Do 19:00)",
+    "30′ · Creator-Shortlist 12: Engagement, Views, Brand-Safety (community.md 2.3)",
+    "15′ · Werkstatt-Mail „Das Proto ist da“ (Text von Claude) auf Do 03.12., 19:00 terminieren"
+   ],
+   "2026-12-03": [
+    "75′ · PROTO DA: auspacken, alle 10 Messpunkte, Fotos; bei Türkei Einfuhrumsatzsteuer und Paketdienst-Gebühr bezahlen (Betrag in die Zeile „ungeplant“; lag die A.TR bei?)",
+    "5′ · Broadcast: Proto 1 h vor dem Feed",
+    "20′ · BUILD 19:00 · V025 „Unboxing des Prototyps (NEU)“ (NEU: ab heute darf das echte Teil gezeigt werden)",
+    "15′ · Proto-Runde starten: 20 Termine bis So 13.12., persönlich oder per Video-Call à 15′ („Bestellst du am 14.01. um 18:00?“ + Größe ins Blatt „Die ersten 35“, Spalte „Zusage“ oder „Vielleicht“)",
+    "Info · 19:00 geht die Werkstatt-Mail „Das Proto ist da“ geplant raus"
+   ],
+   "2026-12-04": [
+    "45′ · Stickerei und Verarbeitung prüfen (Prüfplan)",
+    "45′ · DETAIL 18:00 · V026 „Echter Kreuzstich“",
+    "30′ · Proto-Runde: 2 Video-Calls à 15′"
+   ],
+   "2026-12-05": [
+    "60′ · Fit-Test mit zwei Körpergrößen: Größe und Bundmaß notieren, Fotos vorn und hinten, nie links seitlich",
+    "10′ · ASK 12:00 · V027 „Was zuerst?“",
+    "45′ · Reservierung bauen: Formular „Platz in der ersten Stunde sichern“ mit Größe, Tag „reserviert“. Text: „Am 14.01. um 17:55 bekommst du den Link von mir, deine Größe ist vorgemerkt.“ Keine Nummer versprechen, Nummern gehen nach Bestelldatum (Option A nur, wenn am 29.11. so entschieden)",
+    "Gate · Proto und Fit ok → PP am Mo 07.12. bestellen; sonst zweites Proto, Öffnung nach B-Zeitachse 1 (Do 21.01., strategie.md 7.4)"
+   ],
+   "2026-12-06": [
+    "45′ · Korrekturliste mit Claude",
+    "20′ · Wochenreview W12: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · ≥ 80 neue Anmeldungen und Proto-Post ≥ 2 × Median → sonst Proto-Video in 3 Varianten bis 13.12. · Liste ≥ 470 (Alarm 200)",
+    "55′ · Content-Batch W13 (Rest drehst du beim Mini-Shoot Di und bei den On-Body-Fotos Do)",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V125 „Aus drei Metern“"
+   ]
+  },
+  "abhaengig": [
+   "Proto unterwegs",
+   "Broadcast angelegt (29.11.)",
+   "Reservierungs-Entscheidung (29.11.)"
+  ],
+  "neu_ggue_rev5": [
+   "Unboxing V025",
+   "Proto-Runde mit 20 Terminen",
+   "Creator-Shortlist 12",
+   "Broadcast startet Mo 30.11.",
+   "6.1: Domain authentifizieren, Proto-Runde per Video-Call, „Platz in der ersten Stunde sichern“"
+  ]
+ },
+ {
+  "n": 13,
+  "phase": "P2",
+  "start": "2026-12-07",
+  "goal": "PP bestellen, Beweisfotos, Reservierung offen, Creator anschreiben",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "550 bestätigt (Alarm 230); Grind+-Ziel 620"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~1.650 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "18"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Reservierungen",
+    "ziel": "≥ 15"
+   },
+   {
+    "k": "Proto-Runde",
+    "ziel": "20 Termine"
+   }
+  ],
+  "fix": [
+   "Mo 07.12. PP bestellen, 19:00 Reservierung öffnen",
+   "Di 08.12. Mini-Shoot 1",
+   "Fr 11.12. Creator-DM, Website Stufe 2",
+   "Sa 12.12. A-Liste mit Proto"
+  ],
+  "tage": {
+   "2026-12-07": [
+    "45′ · Korrekturen per Foto und Maß senden (das Proto bleibt bei dir, vereinbart am 27.10.) und PP-Sample bestellen",
+    "10′ · 2 Patch-Muster D per Express an die Fabrik fürs PP, Trackingnummer ins Blatt „Fabriken“ (bei Türkei Zollweg vorher mit der Fabrik klären)",
+    "20′ · BUILD 18:00 · V028 „Was nicht gepasst hat“",
+    "15′ · 19:00 „Platz in der ersten Stunde sichern“ öffnen (bis Mi 13.01.): Werkstatt-Mail an die Liste, Story mit Link-Sticker, Broadcast",
+    "30′ · Proto-Runde: 2 Video-Calls à 15′"
+   ],
+   "2026-12-08": [
+    "60′ · Mini-Shoot 1 (Proto): Makro jedes Elements mit Lineal, Graukarte, Streiflicht; Fahrt 3 m → 30 cm (Beweise 1 und 4)",
+    "20′ · ORIGIN 18:00 · V029 „Das Band in echt“",
+    "30′ · Proto-Runde: 2 Video-Calls à 15′"
+   ],
+   "2026-12-09": [
+    "20′ · REACH 19:00 · V030 „Uhrwerk“ (ersetzt „Älter als jede Grenze“)",
+    "30′ · PRESSE: Pressemappe v1 (Prompt P0): Pressetext DE/EN, Factsheet, 6 Proto-Fotos, Seite /pages/presse",
+    "60′ · Proto-Runde: 2–3 Treffen (Kern, das Gate am 13.12. hängt daran)"
+   ],
+   "2026-12-10": [
+    "60′ · On-Body-Fotos: zwei Körper, Bildunterschrift mit Körpergröße, getragener Größe und Bundmaß",
+    "Gate · Proto noch nicht da? Vorbestellung bleibt 14.01., aber nur mit echten Fotos, nie Renderings; nach 17.12. entscheidest du am 19.12. über Öffnung 21.01.",
+    "Info · Community heute über die Proto-Runde",
+    "60′ · Proto-Runde: 2–3 Treffen (Kern, das Gate am 13.12. hängt daran)",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V124 „Auf links“"
+   ],
+   "2026-12-11": [
+    "20′ · DETAIL 18:00 · V031 „Die Goldfäden“",
+    "30′ · CREATOR: Erst-DM C2 an die Top 8 (Preview Di 12.01., 18:30; 1 Clip bis 15.01., 1 Story 17.–21.04., Kennzeichnung „Anzeige“)",
+    "60′ · Website Schritt 9: Stufe 2 „Das Muster“ mit Proto-Fotos",
+    "Info · Waschserie nicht mit dem Proto: Es ist bis 13.12. dein einziges Vorzeigeteil. Die Waschserie läuft mit dem PP ab Mo 04.01."
+   ],
+   "2026-12-12": [
+    "Info · Produktseite mit echten Bildern rückt auf So 13.12. (heute Läden und Proto-Runde)",
+    "10′ · ASK 12:00 · V032 „Vorbestellen?“ (jedes „Ja“ bekommt am Di 15.12. eine DM mit Größenfrage)",
+    "90′ · Mit dem Proto zur A-Liste, gebündelt mit 3 Treffen der Proto-Runde: GATE194 (Köpenicker Str. 194, Hinterhof, laut Website Mo–Sa 12–20 Uhr) und Sing Blackbird (Sanderstr. 11): Creator-Preview 12.01. und Mess-Abende 16.01., 23.01., 13.03. fest anfragen (Voranfrage lief am 18.11.)",
+    "Grind+ 5′ · „Bring 3“-Story"
+   ],
+   "2026-12-13": [
+    "20′ · Wochenreview W13: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Zusagen mit Größe ≥ 18 (nur Spalte „Zusage“) (sonst bis 20.12. jeden Tag 3 persönliche Termine) · Reservierungen ≥ 15 (sonst DM an jeden aus dem Netz) · Liste ≥ 550 (Alarm 230)",
+    "60′ · Content-Batch W14 (gekürzt): V033–V036 drehen; Lücken füllst du mit Reserve-Karussells (V108–V112, nur mit Beleg)",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Proto-Videos",
+    "30′ · Produktseite mit echten Bildern (vom Sa)",
+    "10′ · Hat bis heute kein Laden für die Abende zugesagt: Ersatzfläche über Giggster suchen (berlin.md B-46)"
+   ]
+  },
+  "abhaengig": [
+   "Proto und Fit ok (05.12.)",
+   "Reservierungs-Formular gebaut (05.12.)"
+  ],
+  "neu_ggue_rev5": [
+   "Reservierung „Platz in der ersten Stunde sichern“",
+   "Pressemappe v1",
+   "Creator-DM 5 Wochen früher als Rev. 5.3",
+   "Mess-Abend-Orte anfragen",
+   "Waschserie Proto",
+   "6.1: Proto-Runde als Kern, Patches fürs PP per Express, Waschserie erst mit dem PP"
+  ]
+ },
+ {
+  "n": 14,
+  "phase": "P2",
+  "start": "2026-12-14",
+  "goal": "Vorbestellung bauen, Presse-Welle 1, Orte und Kontingent festlegen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "620 bestätigt (Alarm 260); Grind+-Ziel 700"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~1.860 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "20"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Gate 20.12.",
+    "ziel": "Zusagen ≥ 15, Auszahlung geklärt, Stufe 2 entschieden"
+   }
+  ],
+  "fix": [
+   "Mo 14.12. Vorbestellung + Stufe 2 anlegen",
+   "Di 15.12. PRESSE-WELLE 1",
+   "Do 17.12. Berliner Muster, Patch D Serie",
+   "Sa 19.12. Kontingent, Zipper-Rücken, Orte fest",
+   "So 20.12. GATE"
+  ],
+  "tage": {
+   "2026-12-14": [
+    "60′ · Vorbestellung in Shopify anlegen: 35 Paar (Bestand je Größe verteilst du am 19.12.), Liefertext „Lieferung bis spätestens 30.04.2027, geplant Anfang April“ (dieser eine Satz gilt überall: Produktseite, Bestellbestätigung, Website, Pressemappe), Faser- und Herstellerangabe, Hinweis § 19 UStG, Preisangabe ohne Streichpreis („Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“), Satz „Deine Größe ist weg? Stufe 2 oder Liste.“, Status Entwurf",
+    "20′ · BUILD 18:00 · V033 „Die Vorbestellseite“",
+    "15′ · Stufe 2 fertig als Entwurf: eigenes Produkt (tt_produkt_stufe2), Nr. 036–060, 25 Paar zu 169 €, gleicher Liefertext. Regel: Stufe 2 geht live, sobald Nr. 035 verkauft ist, frühestens 14.01., spätestens So 21.03., 20:00",
+    "20′ · Vorlage „Bestellbestätigung“ in Shopify ergänzen: Textblock nur für Vorbestell-Produkte mit Liefertext, Nummernlogik („Nummern nach Bestelldatum, ab 001“) und Geld-zurück-Regel"
+   ],
+   "2026-12-15": [
+    "30′ · Vorbestellung rechtlich sauber + Geld-zurück-Regel („Startet die Produktion am 01.02. nicht, bekommst du dein Geld vollständig zurück“); Vorbestellgeld bleibt bis 01.02. unangetastet",
+    "20′ · ORIGIN 18:00 · V034 „Ehrliche Größen“",
+    "25′ · PRESSE-WELLE 1 „Vorbestellung ab 14.01.“ an Berliner Zeitung, Tagesspiegel, Denimhunters, TextilWirtschaft, FashionUnited, Gründerszene, deutsche-startups (Kontakte von offiziellen Seiten), Link ?ref=p-[medium]",
+    "20′ · Handheber-DMs (vom Mo): jedes „Ja“ aus der ASK-Story vom 12.12. bekommt eine DM mit Größenfrage → Blatt „Die ersten 35“, Spalte „Zusage“ oder „Vielleicht“"
+   ],
+   "2026-12-16": [
+    "45′ · E-Mails für den Vorbestell-Start schreiben (07.01., 13.01., 14.01. 18:00, 18.01.)",
+    "20′ · REACH 19:00 · V035 „100 Stück“ (nur echte Zahlen)"
+   ],
+   "2026-12-17": [
+    "45′ · Berliner Muster abholen und entscheiden (Stichbild, Topping, Rückseite)",
+    "30′ · Patch D in Serie bestellen: 110 Stück, direkt an die Fabrik bis 22.01. Vorher mit der Fabrik schriftlich klären: Lieferadresse, Incoterm, Zollweg (Türkei ist kein EU-Land, die Patches kommen mit der Ware zurück; Zoll darauf ungeprüft)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · V111 „drei Ähren“ (nur mit Beleg und wenn der Serp-Test bestanden ist)"
+   ],
+   "2026-12-18": [
+    "20′ · DETAIL 18:00 · V036 „Die Rückseite“",
+    "20′ · CREATOR nachfassen (C3); unter 5 Zusagen: Nr. 9–12 anschreiben",
+    "Grind+ 60′ · A-Liste Teil 2 mit Proto: Studio183 (Brunnenstr. 183), Konk (Kleine Hamburger Str. 15, vorher prüfen, ob offen)",
+    "30′ · Nur bei englischen Hooks (07.11.): englische Produktseite (Translate & Adapt laut tools.md, vor Ort prüfen; vom 12.12. hierher)"
+   ],
+   "2026-12-19": [
+    "20′ · Vorbestellung festlegen: 35 zu 149 € + Stufe 2 zu 169 € (statt „Kontingent 45“). Nummern: 001–035 Vorbestellung, 036–060 Stufe 2, 061–065 Creator, 066–067 Reserve, Rest Drop. Nummern laufen ohne Lücke nach Bestelldatum: Füllt sich Stufe 2 nicht, rücken Creator, Reserve und Drop nach. Bei 75 Stück: Stufe 2 nur 036–045. Gilt für Website-Raster, Hangtag-Plan und Packliste. Bestand je Größe: die 35 nach den gr-Tags auf W30–W38 verteilen, Summe 35",
+    "15′ · Zipper-Rücken: gestickt (Rat) oder Chenille",
+    "10′ · ASK 12:00 · V037 „Größe“",
+    "15′ · Orte fest: Creator-Preview 12.01., Mess-Abende 16.01., 23.01., 13.03.; ohne Zusage → Fläche über Giggster (Suche lief am 13.12.)"
+   ],
+   "2026-12-20": [
+    "30′ · Wochenreview W14: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Zusagen mit Größe ≥ 15, nur Spalte „Zusage“ (unter 10 → Ausgaben-Stopp-Liste) · Auszahlung geklärt (wie viele Werktage) · Stufe 2 entschieden · Patch bestellt (sonst Bestellung Mo 21.12., Fabrik über die neue Patch-Frist Fr 29.01. informieren) · Liste ≥ 620 (Alarm 260)",
+    "90′ · Content-Batch W15 und W16: V038–V043",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos"
+   ]
+  },
+  "abhaengig": [
+   "Produktseite mit echten Bildern (12.12.)",
+   "Rechtstexte (24.11.)",
+   "Mess-Abend-Anfragen (12.12.)"
+  ],
+  "neu_ggue_rev5": [
+   "Stufe 2 zu 169 € statt Kontingent 45",
+   "Geld-zurück-Regel",
+   "Handheber-DMs",
+   "Presse-Welle 1",
+   "6.1: Bestellbestätigung, Nummernlogik mit Stufe 2, Bestand je Größe, Patch-Zollweg"
+  ]
+ },
+ {
+  "n": 15,
+  "phase": "P3",
+  "start": "2026-12-21",
+  "goal": "Feiertage: wenig, aber sauber; Nummern-Raster bauen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "680 bestätigt (Alarm 280); Grind+-Ziel 770"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~2.040 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "20"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 21.12. Website Schritt 10",
+   "Do 24.12. und Fr 25.12. frei"
+  ],
+  "tage": {
+   "2026-12-21": [
+    "20′ · BUILD 18:00 · V038 „Was bis zum Drop fehlt“ (Rev. 5.3: „12 Wochen“)",
+    "90′ · Website Schritt 10: Nummern-Raster 001–100 als Kreuzstich. Prompt aus website.md ergänzen: Produkt tt_produkt_stufe2 und Zahl tt_start_stufe2 (25, bei 75 Stück 10). Das Raster füllt ab 001 ohne Lücke: alle Vorbestellungen (149 € und Stufe 2), dann 5 Creator, 2 Reserve, dann Drop; bei vollem Verkauf 001–035 · 036–060 · 061–065 · 066–067 · 068–100. Zeile „17 von 35 Vorbestellungen“, ab Stufe 2 „41 von 60“. tt_start_drop setzt du am 04.04."
+   ],
+   "2026-12-22": [
+    "30′ · Belege 2026 sortieren",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt"
+   ],
+   "2026-12-23": [
+    "20′ · REAL 18:00 · V039 „Was es bis jetzt gekostet hat“",
+    "5′ · Broadcast: „14.01., 19:00. Schöne Feiertage.“"
+   ],
+   "2026-12-24": [
+    "frei"
+   ],
+   "2026-12-25": [
+    "frei"
+   ],
+   "2026-12-26": [
+    "10′ · ASK 12:00 · V040 „Erinnerung 14.01.“ (Rev. 5.3: „2027“)"
+   ],
+   "2026-12-27": [
+    "30′ · Spiel-Stiltest (umgewidmet): die 12 besten Proto-Bilder für Produktseite und Mails auswählen",
+    "15′ · Wochenreview W15: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Grind+ 150′ · Spiel-Stiltest nur, wenn du das Pixel-Spiel als Option offen hältst"
+   ]
+  },
+  "abhaengig": [
+   "Gate 20.12. bestanden"
+  ],
+  "neu_ggue_rev5": [
+   "Nummern-Raster vom 19.12. hierher",
+   "Spiel-Stiltest umgewidmet zur Bildauswahl"
+  ]
+ },
+ {
+  "n": 16,
+  "phase": "P3",
+  "start": "2026-12-28",
+  "goal": "PP unterwegs, Auszahlung testen, Brücke klären, Event-Tipps raus",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "740 bestätigt (Alarm 300); Grind+-Ziel 840"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~2.220 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "22"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Korridor",
+    "ziel": "700 am 31.12."
+   }
+  ],
+  "fix": [
+   "Di 29.12. Testbestellung + Auszahlung",
+   "Do 31.12. Brücke, Monatsabschluss",
+   "Fr 01.01. frei",
+   "Sa 02.01. 09:00 Event-Tipp geht raus"
+  ],
+  "tage": {
+   "2026-12-28": [
+    "10′ · Versand des PP-Samples bestätigen (kein Tracking bis heute → Öffnung 21.01. als Plan B notieren)",
+    "20′ · BUILD 18:00 · V041 „Was 2027 passiert“"
+   ],
+   "2026-12-29": [
+    "30′ · Testbestellung mit echter Karte, Auszahlung bis aufs Bankkonto verfolgen, Werktage zählen, dann erstatten. Mit der echten Dauer rechnet Claude alle Geld-Fristen nach (3-Werktage-Regel: Mo 01.02., Di 16.03., Mi 24.03.)",
+    "15′ · Bank: Tageslimit im Online-Banking auf mindestens 3.100 € setzen; Gebühr und Dauer der Auslandsüberweisung vom 02.11. ins Blatt; prüfen, ob die Shopify-Auszahlungen auf ein Privat- oder Geschäftskonto gehen (Steuerberater vom 13.10.)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt"
+   ],
+   "2026-12-30": [
+    "20′ · REACH 19:00 · V042 „Die einzige ihrer Art“",
+    "20′ · PRESSE: Event-Tipp P3 (Mess-Abende 16.01. und 23.01.) an tip Berlin, Mit Vergnügen, iHeartBerlin, The Berliner; Versand geplant Sa 02.01., 09:00"
+   ],
+   "2026-12-31": [
+    "15′ · Monatsabschluss Dezember (Korridor: 700 auf der Liste)",
+    "30′ · Brücke klären: schriftliche Stand-by-Zusage über 1.500 € in der Familie, nur für Restzahlung, Steuer, Erstattungen",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt"
+   ],
+   "2027-01-01": [
+    "frei"
+   ],
+   "2027-01-02": [
+    "10′ · ASK 12:00 · V043 „Frag mich alles“",
+    "Info · 09:00 geht der Event-Tipp geplant raus"
+   ],
+   "2027-01-03": [
+    "20′ · Wochenreview W16: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Liste ≥ 740 (Alarm 300) · Testauszahlung angekommen (> 3 Werktage → für jede Zahlung eine Woche Vorlauf) · Brücke ja/nein",
+    "75′ · Content-Batch W17: V044–V048",
+    "Grind+ 10′ · WhatsApp-Kanal anlegen (optional, nur für Erinnerungen)"
+   ]
+  },
+  "abhaengig": [
+   "PP bestellt (07.12.)"
+  ],
+  "neu_ggue_rev5": [
+   "Auszahlung bis aufs Konto verfolgen",
+   "Brücke 1.500 €",
+   "Event-Tipp für die Mess-Abende"
+  ]
+ },
+ {
+  "n": 17,
+  "phase": "P3",
+  "start": "2027-01-04",
+  "goal": "PP freigeben, Vorbestellseite final, Zusagen auf 25",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "850 bestätigt (Alarm 380); Grind+-Ziel 960"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~2.550 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+    "ziel": "25"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "PP",
+    "ziel": "freigegeben am 05.01."
+   }
+  ],
+  "fix": [
+   "Mo 04.01. PP prüfen",
+   "Di 05.01. PP freigeben, Creator-Zusagen",
+   "Do 07.01. Vorbestellseite final, E-Mail 1"
+  ],
+  "tage": {
+   "2027-01-04": [
+    "90′ · PP-Sample prüfen: alle 10 Maße; Fäden 18–30 mm (anziehen, sitzen, Gürtel; Zeit pro Faden stoppen); Patch nach der Wäsche; zusätzlich abhaken: Knopf „NOVALIFE“, Nieten, Haupt-, Größen- und Pflegelabel inklusive Faser- und GPSR-Angabe; Grundton bei Tageslicht gegen den Stofflappen vom 18.11.",
+    "20′ · BUILD 18:00 · V044 „Das finale Sample“",
+    "5′ · Prompt Briefing-Karte für die Creator-Preview",
+    "Grind+ 10′ · Waschserie mit dem PP: bis Fr 08.01. täglich 1× auf links waschen, Foto nach jeder Wäsche (Fäden-Test aus Spec Teil 4, Material für V058)"
+   ],
+   "2027-01-05": [
+    "30′ · PP-Sample freigeben",
+    "Gate · PP nicht ok → Öffnung höchstens Do 21.01. (B-Zeitachse 1, strategie.md 7.4), Schwelle wandert mit",
+    "20′ · ORIGIN 18:00 · V045 „Warum vorbestellen“",
+    "15′ · CREATOR: Zusagen bestätigen, Briefing-Karte schicken (C4)",
+    "10′ · PRESSE: Welle 1 einmal nachfassen (P4)"
+   ],
+   "2027-01-06": [
+    "35′ · Bestellkonditionen festzurren: Backstop 24.03., Teil-Lieferung, Preis bei 75, Euro. Stoff für 100 Paar plus Verschnitt schriftlich reservieren lassen und die Lieferzeit des Stoffs nennen lassen",
+    "20′ · REACH 19:00 · V046 „Nächster Donnerstag“",
+    "30′ · Mini-Shoot 2 mit dem PP: Hand setzt Goldfäden, Hand schreibt N°, Makros für die Produktseite"
+   ],
+   "2027-01-07": [
+    "45′ · Vorbestellseite final (Checkliste 9 von 9), E-Mail 1 mit Mess-Abend-Terminen und eigenem Link, dasselbe im Broadcast",
+    "60′ · Website Schritt 11: Vorbestell-Zustände. Prompt aus website.md ändern: kein durchgestrichener Drop-Preis, stattdessen „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“ (Wortlaut nach der Hotline vom 24.11.); Lieferzeile „Lieferung bis spätestens 30.04.2027, geplant Anfang April“; mit tt_produkt_stufe2: Ist die Vorbestellung ausverkauft, zeigt der Knopf „Vorbestellen · 169 € · Lieferung Anfang April“",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-01-08": [
+    "20′ · Zipper-Rücken bis zum Shoot fertig machen",
+    "20′ · DETAIL 18:00 · V047 „Stücknummer“ (deine Hand schreibt „N° 001“ auf den Patch, falls V1 gewählt)"
+   ],
+   "2027-01-09": [
+    "10′ · ASK 12:00 · V048 „Erinnerung“",
+    "15′ · Mess-Abend-Zusagen zählen; Hochschul-Aushang (nur wenn erlaubt) mit ?ref=h-[kürzel]",
+    "30′ · Website Schritt 12: UTM-Links, Tags, Wochenzahlen",
+    "30′ · Fotograf für den Shoot 20.02. anfragen (Lette Verein oder Studierende, berlin.md 5; Kontakt nur über die offizielle Seite). Nutzungsrechte für Shop, Werbung und Presse schriftlich, Honorar in die Zeile „ungeplant“"
+   ],
+   "2027-01-10": [
+    "20′ · Wochenreview W17: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Zusagen ≥ 25 (nur Spalte „Zusage“) (unter 15 → persönliche Einladung aller „Vielleicht“ zum Mess-Abend 1) · Handheber gesamt Richtung 40 · Liste ≥ 850 (Alarm 380) · PP freigegeben",
+    "100′ · Content-Batch W18: V049–V054",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "PP angekommen",
+   "Event-Tipp verschickt"
+  ],
+  "neu_ggue_rev5": [
+   "Mini-Shoot 2 mit Hand und Nummer",
+   "Checkliste 9 von 9",
+   "Website Schritte 11–12",
+   "6.1: Stoff reservieren, PP-Prüfung mit Knopf/Nieten/Labels, Fotograf anfragen, Website ohne Streichpreis"
+  ]
+ },
+ {
+  "n": 18,
+  "phase": "P3",
+  "start": "2027-01-11",
+  "goal": "Vorbestellung öffnet Do 19:00, Creator-Preview, Mess-Abend 1",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "1.000 bestätigt (Alarm 450); Grind+-Ziel 1.130"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~3.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "10 kumuliert bezahlt (Alarm 6); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Di 12.01. CREATOR-PREVIEW 18:30",
+   "Mi 13.01. Reservierung schließen",
+   "Do 14.01. VORBESTELLUNG 18:00/19:00",
+   "Sa 16.01. MESS-ABEND 1"
+  ],
+  "tage": {
+   "2027-01-11": [
+    "40′ · Generalprobe Vorbestellung: Testprodukt, Checkout, Bestellbestätigung mit dem Vorbestell-Textblock; Erinnerung bei abgebrochenem Checkout testen und einschalten (Shopify-Funktion, vor Ort prüfen); Testprodukt auf „in 20 Minuten“ terminieren und notieren, ob es pünktlich live geht; Bestand zwischen zwei Größen umschichten (Summe bleibt gleich)",
+    "10′ · 30-Sekunden-Test: Ein Freund ohne Vorwissen findet Größe, Lieferdatum, Geld-zurück-Regel",
+    "15′ · Kaufgrund-Frage in die Bestellbestätigung („Was hat dich überzeugt?“)",
+    "5′ · Countdown-Sticker „Do 19:00“ in die Story",
+    "20′ · BUILD 18:00 · V049 „Donnerstag, 19 Uhr“"
+   ],
+   "2027-01-12": [
+    "20′ · ORIGIN 18:00 · V050 „Vom Wandteppich auf den Zipper“ (Teppich nur als Familienerinnerung)",
+    "90′ · CREATOR-PREVIEW 18:30–20:00 (Ort vom 19.12.): 5 Creator, Proto und PP, Lieblingsjeans messen, eigener Link ?ref=c-[name], „Anzeige“ ganz vorn"
+   ],
+   "2027-01-13": [
+    "10′ · E-Mail 2 „Morgen: 18:00 für die Liste, 19:00 für alle“",
+    "20′ · REACH 19:00 · V051 „Morgen“",
+    "30′ · Persönliche Nachricht an jede Zusage und jeden Reservierer: „Morgen um 17:55 schicke ich dir den Link, deine Größe ist vorgemerkt“",
+    "Gate · Reservierung schließen · Handheber ≥ 40, Liste über Alarm (380) → unter 20 Handheber: Mess-Abend 16.01. als Hauptereignis bewerben",
+    "Info · Regel ab morgen: Stufe 2 geht live, sobald Nr. 035 verkauft ist (Entwurf vom 14.12. aktivieren, Mail an alle ohne Kauf, Story). Spätestens So 21.03., 20:00"
+   ],
+   "2027-01-14": [
+    "105′ · VORBESTELLUNG: 17:50 Vorbestellung aktiv (oder Zeitsteuerung geprüft) · 17:55 DM an Reservierer und Zusagen · 17:58 Link im privaten Fenster testen · 18:00 E-Mail an die ganze Liste („Die Liste kauft zuerst“) · 18:55 Broadcast · 19:00 öffentlich · Live 19:00–19:30 (Größenfragen) · V052 BUILD 19:00 „Jetzt offen“ als Teil des Blocks · 22:00 Bestand je Größe prüfen und umschichten (Summe 35)"
+   ],
+   "2027-01-15": [
+    "15′ · Bestellungen ins Blatt „Pre-Order“",
+    "20′ · DETAIL 18:00 · V053 „Der Patch“",
+    "30′ · DM an alle Reservierer und Netz-Namen ohne Vorbestellung",
+    "10′ · Bestand je Größe umschichten, morgens und abends: Eine leere Größe bekommt Stück aus einer vollen, die Summe bleibt 35",
+    "30′ · Feld am Stadtrand für Shoot und „Das Feld wächst“ suchen, den Landwirt über den offiziellen Kontakt fragen (berlin.md 4.2 und 7)"
+   ],
+   "2027-01-16": [
+    "10′ · ASK 12:00 · V054 „Zwischenstand 48 h“ (nur echte Zahl „X von 35“)",
+    "5′ · Bestand je Größe umschichten (morgens und vor dem Mess-Abend)",
+    "110′ · MESS-ABEND 1 18:00–20:00 (Aufbau ab 17:40): Lieblingsjeans flach messen → Novalife-Größe, Sample W32 anprobieren, vorbestellen am eigenen Handy, QR ?ref=mess1, keine Kasse, kein Bargeld",
+    "Grind+ 60′ · bis 21:00 offen lassen"
+   ],
+   "2027-01-17": [
+    "20′ · Wochenreview W18: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "5′ · Bestand je Größe ein letztes Mal umschichten (morgens)",
+    "Gate · Vorbestellungen ≥ 8 (Soll 10, Alarm 6) → sonst Mo zweite DM-Welle, Creator-Clips reposten (mit Erlaubnis), Mess-Abend 2 doppelt bewerben · Liste ≥ 1.000 (Alarm 450) · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story · Umschichten endet heute 19:00 (72 h)",
+    "90′ · Content-Batch W19: V055–V059",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "PP freigegeben",
+   "Vorbestellseite final",
+   "Orte fest (19.12.)",
+   "Creator-Zusagen (05.01.)"
+  ],
+  "neu_ggue_rev5": [
+   "Preview statt Anfrage am 20.01.",
+   "Early Access 18:00 für die ganze Liste, 17:55 DM an Reservierer und Zusagen",
+   "Live 19:00–19:30",
+   "Mess-Abend 1",
+   "Kaufgrund-Frage",
+   "6.1: 18:00 Mail an die ganze Liste, 17:55 DM, Umschichten 72 h, Stufe-2-Regel, Feld suchen"
+  ]
+ },
+ {
+  "n": 19,
+  "phase": "P3",
+  "start": "2027-01-18",
+  "goal": "Vorbestellung am Laufen halten, Mess-Abend 2, eigene Kaufquote messen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "1.250 bestätigt (Alarm 520); Grind+-Ziel 1.410"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~3.750 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "13 kumuliert bezahlt (Alarm 8); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mi 20.01. Nano-Welle 2",
+   "Sa 23.01. MESS-ABEND 2",
+   "So 24.01. Kaufquote messen"
+  ],
+  "tage": {
+   "2027-01-18": [
+    "10′ · E-Mail 4 „Noch X Paar“ (echte Zahl)",
+    "20′ · BUILD 18:00 · V055 „Zwischenstand“",
+    "30′ · Zweite DM-Welle an Zusagen ohne Bestellung"
+   ],
+   "2027-01-19": [
+    "20′ · Tempo bewerten (Regel neu: unter 10 kein Werbegeld; ab 10 und Kasse grün höchstens 50 € Retargeting-Test auf das beste Video)",
+    "20′ · ORIGIN 18:00 · V056 „Das Feld nach der Ernte“ (nur wenn der Serp-Test bestanden ist, sonst Reserve V110 (Achtstern))"
+   ],
+   "2027-01-20": [
+    "30′ · CREATOR-Welle 2 (umgewidmet von „5 Creator anfragen“): 10 Nano-Creator aus deinen Kommentaren zum Mess-Abend 2 einladen, ohne Paar (C6)",
+    "20′ · REACH 19:00 · V057 „Eine Hand“"
+   ],
+   "2027-01-21": [
+    "30′ · Rückgabe festlegen: Umtausch nur, wenn die Größe da ist, sonst Erstattung; eine retournierte Nummer verkaufst du neu; Retourengrund als Pflichtfeld (zu klein, zu groß, anderes)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-01-22": [
+    "20′ · DETAIL 18:00 · V058 „Die Schnittkante“ (Schnittkante und Fäden nach 5 Wäschen, Material aus der PP-Waschserie)",
+    "10′ · Patch-Serie: Ankunft und Stückzahl (110) bei der Fabrik per Foto bestätigen lassen"
+   ],
+   "2027-01-23": [
+    "10′ · ASK 12:00 · V059 „Q&A“ (Q&A am Nachmittag, Antworten am Abend live)",
+    "110′ · MESS-ABEND 2 18:00–20:00, QR ?ref=mess2, Nano-Creator willkommen",
+    "Grind+ 60′ · bis 21:00 offen lassen"
+   ],
+   "2027-01-24": [
+    "20′ · Wochenreview W19: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude; eigene Kaufquote = Vorbestellungen ÷ Liste vom 13.01.",
+    "Gate · Kaufquote < 1,0 % → Listen-Ziel ab jetzt 3.400 (Grind+-Spalte wird Pflicht) · 1,0–1,5 % → Mess-Abend 13.03. als Hauptereignis · > 1,5 % → Kurs halten · Vorbestellungen ≥ 8 (Soll 13) · Mess-Abend 2b ja oder nein: ja, wenn am 13.01. weniger als 60 Reservierungen und Zusagen zusammen standen oder die Vorbestellungen unter Soll liegen; Termin Mi 27.01. (Do 28.01. nur, wenn die Testauszahlung am 29.12. höchstens 2 Werktage brauchte), Ort heute anfragen · Patches bei der Fabrik? (sonst Call und neue Rechnung für den Produktionsstart) · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "90′ · Content-Batch W20: V060–V064",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Öffnung 14.01.",
+   "Mess-Abend 1"
+  ],
+  "neu_ggue_rev5": [
+   "Kein Werbegeld unter 10 Vorbestellungen",
+   "Nano-Welle statt „5 Creator anfragen“",
+   "Kaufquoten-Gate entscheidet das Listen-Ziel"
+  ]
+ },
+ {
+  "n": 20,
+  "phase": "P3",
+  "start": "2027-01-25",
+  "goal": "Endspurt zur Schwelle: persönlich, nicht laut",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "1.500 bestätigt (Alarm 600); Grind+-Ziel 1.690"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~4.500 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "16 kumuliert bezahlt (Alarm 10); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Korridor",
+    "ziel": "1.500 am 31.01."
+   }
+  ],
+  "fix": [
+   "Mi 27.01. persönliche DMs",
+   "Do 28.01. Hochrechnung",
+   "Mi 27.01. Mess-Abend 2b nur bei Gate (24.01.)"
+  ],
+  "tage": {
+   "2027-01-25": [
+    "30′ · CREATOR-Clips einsammeln, Anmeldungen je Creator, Danke-DM (umgewidmet von „Creator-Anproben terminieren“)",
+    "20′ · BUILD 18:00 · V060 „Noch X Paar“ (nur echte Zahl)"
+   ],
+   "2027-01-26": [
+    "20′ · E-Mail an Abonnenten ohne Kauf",
+    "20′ · ORIGIN 18:00 · V061 „Warum 100“"
+   ],
+   "2027-01-27": [
+    "45′ · Persönliche DMs an alle Zusagen und Handheber ohne Kauf; alle mit 2 bestätigten Freunden: „einer fehlt noch“",
+    "20′ · REACH 19:00 · V062 „POV“",
+    "Grind+ 110′ · MESS-ABEND 2b 18:30–20:00, nur wenn am So 24.01. beschlossen (Ort vom 19.12., QR ?ref=mess2b). Geld muss bis Mo 01.02. ausgezahlt sein, darum nicht am Sa. Bei Mess-Abend heute die DMs schon am Di 26.01."
+   ],
+   "2027-01-28": [
+    "20′ · Hochrechnung Cash-Schwelle: Vorbestellungen ausgezahlt am 31.01. + 6 × Wochenrate W19–W20 (nur ausgezahltes Geld zählt)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“",
+    "Info · Ausweichtag für Mess-Abend 2b, nur wenn die Auszahlung höchstens 2 Werktage braucht"
+   ],
+   "2027-01-29": [
+    "20′ · DETAIL 18:00 · V063 „Der Stern“"
+   ],
+   "2027-01-30": [
+    "10′ · ASK 12:00 · V064 „Montag entscheidet“",
+    "Info · Mess-Abend 2b liegt jetzt auf Mi 27.01.: Wer heute bestellt, ist bis Mo 01.02. nicht ausgezahlt"
+   ],
+   "2027-01-31": [
+    "15′ · Monatsabschluss Januar (Korridor: 1.500 auf der Liste)",
+    "20′ · Wochenreview W20: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Vor-Check Schwelle: ≥ 10 Vorbestellungen ausgezahlt? Soll 16 · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "25′ · Content-Batch W21 (V065 drehst du am Mo)",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Creator-Clips online (13.–15.01.)"
+  ],
+  "neu_ggue_rev5": [
+   "Clips einsammeln statt Anproben terminieren",
+   "Mengenformel 100/75"
+  ]
+ },
+ {
+  "n": 21,
+  "phase": "P3",
+  "start": "2027-02-01",
+  "goal": "Schwelle prüfen, bestellen, anzahlen, Spiel entscheiden",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "1.700 bestätigt (Alarm 660); Grind+-Ziel 1.920"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~5.100 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "18 kumuliert bezahlt (Alarm 12); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 01.02. SCHWELLE",
+   "Mi 03.02. PO",
+   "Do 04.02. Anzahlung",
+   "Fr 05.02. Spiel-Entscheidung"
+  ],
+  "tage": {
+   "2027-02-01": [
+    "30′ · SCHWELLE: 100, 75 oder schieben",
+    "Gate · ≥ 10 ausgezahlt und Hochrechnung ≥ 32 ausgezahlt bis Di 16.03. → 100 Stück (bei Steuer zusätzlich ≥ 40 bis Mi 24.03., inkl. Stufe 2) · Schwelle erfüllt, Hochrechnung darunter → 75 Stück (Stufe-2-Bestand auf 10, Nr. 036–045) · < 10 → 2 Wochen schieben (B-Zeitachse 2, strategie.md 7.4) · 7–9 → Notfall-Option Zipper-Vorbestellung (du entscheidest)",
+    "20′ · BUILD 18:00 · V065 „100 oder 75“ (Ergebnis der Schwelle offen sagen)"
+   ],
+   "2027-02-02": [
+    "30′ · Größensplit für die Bestellung: Vorbestellungen nach Größe + Annahme für Stufe 2 (nach gr-Tags) + 5 Creator-Größen (vom 05.01.) + 2 Reserve (W32 und W34) + Drop nach den gr-Tags der Liste",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt"
+   ],
+   "2027-02-03": [
+    "40′ · BESTELLUNG (PO) senden: Rest spätestens 24.03., Teil-Lieferung, Bankdaten-Regel, Euro. Neu in der PO: Stoffzeile (reserviert seit 06.01.); Endkontroll-Nachweis vor der Restzahlung: je Größe 2 Paar mit allen 10 Maßen (Toleranz Spec 1.1), alle 5 Elemente an 10 Zufallspaaren, Zugtest der Fäden, Sitz des Patches, Saum. Ohne Nachweis keine Zahlung. Anlage: REACH-Erklärung (Nickel, Azofarbstoffe)",
+    "45′ · REACH 19:00 · V066 „Bestellt“",
+    "Info · Ab der Anzahlung gibt es keinen Ausstieg ohne Schaden für Vorbesteller"
+   ],
+   "2027-02-04": [
+    "15′ · Anzahlung überweisen (nur auf das Konto der ersten Proforma)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“",
+    "15′ · Werkstatt-Mail „Bestellt. X von 35“ (Text von Claude, nur echte Zahl)"
+   ],
+   "2027-02-05": [
+    "15′ · Produktionsplan schriftlich, mit den Antworten aus den Calls 21.–23.10.: Arbeitszeit im Ramadan (ca. 08.02.–09.03., ungeprüft), Fest, Betriebsferien, Feiertage bis April",
+    "20′ · Spiel: bauen oder streichen (Kriterium: ≥ 25 Vorbestellungen, kein Gate rot, Kasse grün; Rat: streichen)",
+    "45′ · REAL 18:00 · V067 „Überwiesen“"
+   ],
+   "2027-02-06": [
+    "30′ · Shoot planen „Die Hütte“: Wohnung mit Familienteppich, Trockenweizen, warmes Licht + 30 Min. draußen zur goldenen Stunde; 2–3 Models aus der Community",
+    "10′ · Top-3-Werber und Creator mit W32 für den Shoot fragen",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt"
+   ],
+   "2027-02-07": [
+    "20′ · Wochenreview W21: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · PO bestätigt, Anzahlung bezahlt (sonst Call, Produktionsstart neu rechnen) · Vorbestellungen ≥ 12 (Soll 18) → darunter Mess-Abend 3 jetzt einladen · Kasse grün (sonst Shoot mit Handy und Freunden, 150 € sparen) · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "50′ · Content-Batch W22",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "≥ 10 Vorbestellungen ausgezahlt",
+   "Preis bei 75 im Angebot"
+  ],
+  "neu_ggue_rev5": [
+   "Mengenformel statt Bauchgefühl",
+   "Stufe 2 ersetzt Kontingent 45",
+   "Klauseln in der PO",
+   "Spiel-Kriterium",
+   "6.1: Endkontroll-Nachweis und Stoffzeile in der PO, Größensplit mit Creator und Reserve"
+  ]
+ },
+ {
+  "n": 22,
+  "phase": "P4",
+  "start": "2027-02-08",
+  "goal": "Produktion läuft, Hangtags in Druck, Helfer suchen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "1.900 bestätigt (Alarm 720); Grind+-Ziel 2.150"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~5.700 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "20 kumuliert bezahlt (Alarm 14); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Fr 12.02. Hangtags in Druck",
+   "Sa 13.02. Pressetext v2, Helfer-Aushang"
+  ],
+  "tage": {
+   "2027-02-08": [
+    "15′ · Produktionsplan im Blick (Ramadan ca. 08.02.–09.03., ungeprüft: Arbeitszeiten laut Plan vom 05.02.)",
+    "45′ · BUILD 18:00 · V068 „In Produktion“"
+   ],
+   "2027-02-09": [
+    "20′ · ORIGIN 18:00 · V069 „Wie eine Jeans entsteht“",
+    "Info · „Werkzeuge für das Spiel“ (Rev. 5.3) entfällt, die Werkzeuge stehen seit 31.10.",
+    "Grind+ 60′ · Nur bei Spiel = bauen: A1 Graubox (website.md 9)"
+   ],
+   "2027-02-10": [
+    "20′ · REACH 19:00 · V070 „Stoff“",
+    "Info · „Theme-Kopie holen“ (Rev. 5.3) entfällt, erledigt am 04.11."
+   ],
+   "2027-02-11": [
+    "Info · „Prompt 1: Graubox“ nur bei Spiel = bauen",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 60′ · Nur bei Spiel = bauen: Graubox weiter",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-02-12": [
+    "45′ · Hangtags und Hangtag-Karte in Druck (Nummer von Hand)",
+    "45′ · DETAIL 18:00 · V071 „Der Hangtag“"
+   ],
+   "2027-02-13": [
+    "10′ · ASK 12:00 · V072 „Casting“",
+    "30′ · PRESSE: Pressetext v2 mit Drop-Daten (Claude). Helfer-Aushang an den Hochschulen nur mit der Antwort des Steuerberaters auf Frage 10: Stundenlohn, Anmeldung, Tage (Prüfung 31.03.–02.04., Packen 06.–07.04. und 22.–24.04., DMs am Drop-Abend 18–20 Uhr)"
+   ],
+   "2027-02-14": [
+    "20′ · Wochenreview W22: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Vorbestellungen ≥ 14 (Soll 20) · Produktionsplan schriftlich · Stoff da (reserviert seit 06.01.; sonst sofort Call) · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "100′ · Content-Batch W23",
+    "Grind+ 20′ · Nur bei Spiel = bauen: Spiel-Check Steuerung",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Anzahlung bezahlt",
+   "Spiel-Entscheidung"
+  ],
+  "neu_ggue_rev5": [
+   "Spiel-Aufgaben nur noch als Grind+ bei „bauen“",
+   "Helfer-Aushang Hochschulen"
+  ]
+ },
+ {
+  "n": 23,
+  "phase": "P4",
+  "start": "2027-02-15",
+  "goal": "Lookbook-Shoot „Die Hütte“",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.150 bestätigt (Alarm 790); Grind+-Ziel 2.430"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~6.450 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "4 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "22 kumuliert bezahlt (Alarm 16); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Di 16.02. Inline-Kontrolle 1",
+   "Sa 20.02. SHOOT"
+  ],
+  "tage": {
+   "2027-02-15": [
+    "20′ · BUILD 18:00 · V073 „Shoot am Samstag“",
+    "Grind+ 20′ · Nur bei Spiel = bauen: Palette und Flaggen-Check"
+   ],
+   "2027-02-16": [
+    "20′ · Inline-Kontrolle 1: bestickte Panels (Fotos von der Fabrik)",
+    "20′ · ORIGIN 18:00 · V074 „Der Zipper“"
+   ],
+   "2027-02-17": [
+    "40′ · Shotliste und Shoot-Konzept „Die Hütte“: sieben Beweise, 6 Pressefotos (3 hoch, 3 quer, eins mit dir), dazu Rohmaterial für alle 24 Countdown-Motive (CD-T24 bis CD-T01); keine echte Sichel, B und B2 nie zusammen, kein roter Hintergrund, keine Seitenansicht links",
+    "20′ · REACH 19:00 · V075 „Drei Teile“"
+   ],
+   "2027-02-18": [
+    "20′ · Trockenweizen und Requisiten besorgen (Preis vor Ort prüfen), Model-Einwilligungen vorbereiten",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 90′ · Nur bei Spiel = bauen: Pixel-Art Teil 1",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-02-19": [
+    "45′ · Shoot vorbereiten (Kamera: am besten bringt der Fotograf eigenes Gerät, sonst Calumet Rent in Moabit, Preis und Dauer prüfen)",
+    "20′ · DETAIL 18:00 · V076 „Der Polo“"
+   ],
+   "2027-02-20": [
+    "Ausnahme 180′ · SHOOT „Die Hütte“: drinnen in einer echten Wohnung mit Familienteppich und Trockenweizen, 30 Min. draußen zur goldenen Stunde; Set Jeans + Zipper + Polo; du in einem Bild"
+   ],
+   "2027-02-21": [
+    "60′ · Shoot sichten",
+    "5′ · Erstes Shoot-Bild zuerst im Broadcast",
+    "20′ · Wochenreview W23: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Vorbestellungen ≥ 16 (Soll 22) · Inline-Fotos 1 da (sonst Call, Liefertermin bestätigen lassen) · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "35′ · Content-Batch W24",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Shoot-Plan (06.02.)",
+   "Zipper-Rücken fertig (08.01.)",
+   "Berliner Muster (17.12.)"
+  ],
+  "neu_ggue_rev5": [
+   "Shoot drinnen mit Familienteppich + goldene Stunde draußen",
+   "Bildregeln gegen Wappen-Lesart",
+   "6 Pressefotos"
+  ]
+ },
+ {
+  "n": 24,
+  "phase": "P4",
+  "start": "2027-02-22",
+  "goal": "Kampagnenmaterial fertig, 24.02. ruhig, Pressemappe v2",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.400 bestätigt (Alarm 850); Grind+-Ziel 2.710"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~7.200 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "4 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "24 kumuliert bezahlt (Alarm 18); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Korridor",
+    "ziel": "2.400 am 28.02."
+   }
+  ],
+  "fix": [
+   "Mi 24.02. nichts Werbliches",
+   "Do 25.02. V078 „Das erste Bild“",
+   "Sa 27.02. Pressemappe v2"
+  ],
+  "tage": {
+   "2027-02-22": [
+    "20′ · BUILD 18:00 · V077 „Hinter den Kulissen“",
+    "Grind+ 90′ · Nur bei Spiel = bauen: Pixel-Art Teil 2 und Prompt 2",
+    "15′ · Werkstatt-Mail „Der Shoot“ (Text von Claude, ein Shoot-Bild)"
+   ],
+   "2027-02-23": [
+    "45′ · Shop-Bilder aufbereiten",
+    "30′ · Verpackung bestellen (110 Kartons, unbedruckt, Stempel)",
+    "30′ · Verpackungslizenz bei einem dualen System für Karton, Papier, Polybeutel abschließen, Menge in LUCID melden",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt"
+   ],
+   "2027-02-24": [
+    "30′ · Drop-E-Mails schreiben lassen (intern)",
+    "Info · Heute nichts Werbliches, kein Post (5. Jahrestag des russischen Großangriffs). V078 kommt am Do"
+   ],
+   "2027-02-25": [
+    "60′ · Kampagnenfilm schneiden",
+    "20′ · REACH 19:00 · V078 „Das erste Bild“ (vom 24.02. verschoben)",
+    "Grind+ 90′ · Nur bei Spiel = bauen: Pixel-Art Teil 3 und Prompt 3",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-02-26": [
+    "45′ · DETAIL 18:00 · V079 „Kampagnenfilm“"
+   ],
+   "2027-02-27": [
+    "10′ · ASK 12:00 · V080 „Hauptbild“",
+    "30′ · PRESSE: Pressemappe v2 mit Shoot-Fotos und Kampagnenfilm (/pages/presse)",
+    "60′ · Website Schritt 14: Shoot-Bilder in die Story"
+   ],
+   "2027-02-28": [
+    "15′ · Monatsabschluss Februar (Korridor: 2.400 auf der Liste)",
+    "25′ · Wochenreview W24: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude; Shopify-Email-Kontingent für April prüfen",
+    "Gate · Vorbestellungen ≥ 18 (Soll 24) → sonst Mail „Noch X von 35“, Brücke vorwarnen, Notfallhebel Zipper/Polo entscheiden · Liste ≥ 850 (Alarm) → sonst Pressemappe sofort an Welle-2-Medien · Shopify-Email-Kontingent reicht nicht für April → Preis ins Blatt „Kasse“, oder T−14 und T−7 nur an Abonnenten, die in den letzten 90 Tagen geöffnet oder geklickt haben · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "75′ · Content-Batch W25",
+    "Grind+ 15′ · Nur bei Spiel = bauen: Formular-Test im Spiel",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Shoot-Bilder gesichtet"
+  ],
+  "neu_ggue_rev5": [
+   "V078 vom 24.02. auf den 25.02.",
+   "Verpackungslizenz und LUCID-Meldung",
+   "Shopify-Email-Kontingent prüfen"
+  ]
+ },
+ {
+  "n": 25,
+  "phase": "P4",
+  "start": "2027-03-01",
+  "goal": "Fertige Jeans prüfen, Versand aufbauen, Presse-Welle 2",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.450 bestätigt (Alarm 880); Grind+-Ziel 2.770"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~7.350 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "26 kumuliert bezahlt (Alarm 21); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 01.03. Inline-Kontrolle 2",
+   "Do 04.03. PRESSE-WELLE 2",
+   "Fr 05.03. Packhilfe, Drop-Abend entscheiden"
+  ],
+  "tage": {
+   "2027-03-01": [
+    "30′ · Inline-Kontrolle 2: genäht und gewaschen",
+    "20′ · BUILD 18:00 · V081 „Das ist Time Travel“"
+   ],
+   "2027-03-02": [
+    "45′ · Versandweg wählen und einrichten (DHL Online-Frankierung oder Sendcloud, Preise prüfen)",
+    "20′ · ORIGIN 18:00 · V082 „Rot und Weiß“ (Rot-Weiß nur als Kreuzstich, nie als Streifen)",
+    "Grind+ 60′ · Nur bei Spiel = bauen: Prompt 4 Tür mit drei Zuständen"
+   ],
+   "2027-03-03": [
+    "40′ · Probepaket packen und Zeit stoppen",
+    "20′ · REACH 19:00 · V083 „Nummer vergeben“ (nur eine echt vergebene Nummer zeigen)"
+   ],
+   "2027-03-04": [
+    "15′ · Fabrik: Plan rund um das Ramadan-Fest (TR 08.–11.03.)",
+    "30′ · Textbausteine für Kundenfragen",
+    "30′ · PRESSE-WELLE 2 „Drop 22.04.“: tip Berlin, Denimhunters, TextilWirtschaft, FashionUnited, Highsnobiety, Hypebeast, 032c (Chancen niedrig, Bonus)",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“",
+    "5′ · Event-Tipp Mess-Abend 3 auf Fr 05.03., 09:00 terminieren (Mo 08.03. ist in Berlin Feiertag, Allgemeinwissen, ungeprüft)"
+   ],
+   "2027-03-05": [
+    "15′ · Freie Tage und Packhilfe planen; Drop-Abend Sa 24.04. ja oder nein. Ja nur, wenn Packen Tag 2 an die Helfer geht oder auf So 25.04. vormittags rückt",
+    "15′ · Countdown-Stand prüfen: Saison 2027 und Standpreis Holzmarkt und Nowkoelln Flowmarkt (nur wenn Stand < ~146 € = eine Vorbestellung)",
+    "20′ · DETAIL 18:00 · V084 „Fäden nicht abschneiden“",
+    "60′ · Website Schritt 15: Drop-Zustände (Schlüssel, Live, Ausverkauft). Prompt aus website.md ergänzen: ZWISCHENZEIT zeigt bis So 04.04., 20:00 zusätzlich den Knopf „Vorbestellen · 169 € · Lieferung Anfang April“ (tt_produkt_stufe2), danach nur „Hol dir den Schlüssel“",
+    "Info · 09:00 geht der Event-Tipp Mess-Abend 3 geplant raus"
+   ],
+   "2027-03-06": [
+    "10′ · ASK 12:00 · V085 „Paket“",
+    "10′ · Einladung Mess-Abend 3 (Sa 13.03.) an alle ohne Vorbestellung",
+    "90′ · Website Schritt 16: „Der Weg zur Hütte“"
+   ],
+   "2027-03-07": [
+    "20′ · Wochenreview W25: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Vorbestellungen ≥ 21 (Soll 26) · Inline-Fotos 2 da (sonst Call, Liefertermin schriftlich) · Steuer-Rücklage im Blatt „Kasse“ (fehlt sie → Kampagne 1 streichen) · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "80′ · Content-Batch W26",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Inline-Fotos 1",
+   "Pressemappe v2"
+  ],
+  "neu_ggue_rev5": [
+   "Presse-Welle 2",
+   "Countdown-Stand prüfen",
+   "Website Schritte 15–16"
+  ]
+ },
+ {
+  "n": 26,
+  "phase": "P4",
+  "start": "2027-03-08",
+  "goal": "Fest in der Türkei, Restzahlung vorbereiten, Mess-Abend 3 vor die Restzahlung",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.500 bestätigt (Alarm 910); Grind+-Ziel 2.820"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~7.500 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "29 kumuliert bezahlt (Alarm 25); für die Schwellen zählt nur ausgezahltes Geld"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 08.–Do 11.03. Ramadan-Fest TR",
+   "Sa 13.03. MESS-ABEND 3 (Event-Tipp lief Fr 05.03.)",
+   "So 14.03. GATE ≥ 25"
+  ],
+  "tage": {
+   "2027-03-08": [
+    "15′ · Fabrik-Status vor dem Fest",
+    "20′ · BUILD 18:00 · V086 „Fast fertig“",
+    "60′ · Website Schritt 17: Gerätetest (iPhone, Instagram- und TikTok-Browser, Android, kleines iPhone)",
+    "Info · Feiertag in Berlin (Frauentag, Allgemeinwissen, ungeprüft): Läden zu, Redaktionen dünn. Der Event-Tipp ging schon am Fr 05.03."
+   ],
+   "2027-03-09": [
+    "60′ · Werbung vorbereiten: Werbekonto und Zahlungsmittel einrichten; Meta-Pixel nur mit Cookie-Banner und ergänzter Datenschutzerklärung; keine E-Mail-Listen zu Meta",
+    "20′ · ORIGIN 18:00 · V087 „Für alle Neuen“"
+   ],
+   "2027-03-10": [
+    "20′ · Restzahlung vorbereiten (Steuer-Rücklage mitrechnen)",
+    "20′ · REACH 19:00 · V088 „So wird verpackt“"
+   ],
+   "2027-03-11": [
+    "20′ · Versandpapiere klären (bei TR: A.TR, Handelsrechnung, Packliste)",
+    "30′ · Warenannahme und Prüfung vorbereiten",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-03-12": [
+    "15′ · E-Mail „Vorbestellpreis endet“ planen (Versand Mo 15.03.)",
+    "20′ · DETAIL 18:00 · V089 „Gold im Licht“",
+    "15′ · PRESSE: Welle 2 einmal nachfassen",
+    "10′ · Nur bei Drop-Abend = ja (05.03.): Laden schriftlich bestätigen, den Abend in Presse-Welle 3 aufnehmen"
+   ],
+   "2027-03-13": [
+    "10′ · ASK 12:00 · V090 „Letzte Woche Vorbestellpreis“",
+    "110′ · MESS-ABEND 3 18:00–20:00 (vorgezogen vom 20.03., damit das Geld vor der Restzahlung auf dem Konto ist), QR ?ref=mess3",
+    "Grind+ 5′ · „Bring 3“-Story: „Letzte Woche Vorbestellpreis“",
+    "Grind+ 60′ · Nur bei Spiel = bauen: Playtest mit 5 Leuten"
+   ],
+   "2027-03-14": [
+    "30′ · Wochenreview W26: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Vorbestellungen ≥ 29 (Alarm 25) · ausgezahlt bis Di 16.03. absehbar ≥ 32 (gerechnet mit der Auszahlungsdauer vom 29.12.) → Restzahlung 19.03. · sonst Notfall-Leiter ab Stufe 3 (Mess-Abend extra, DMs), Backstop Mi 24.03. vorbereiten · Frist nie verlängern · Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story",
+    "80′ · Content-Batch W27",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Inline-Kontrolle 2"
+  ],
+  "neu_ggue_rev5": [
+   "Mess-Abend 3 auf den 13.03. vorgezogen (Geld vor der Restzahlung)",
+   "Website Schritt 17"
+  ]
+ },
+ {
+  "n": 27,
+  "phase": "P4",
+  "start": "2027-03-15",
+  "goal": "Restzahlung, Vorbestellpreis endet, Countdown vorproduzieren",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.560 bestätigt (Alarm 950); Grind+-Ziel 2.890"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~7.680 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "35 kumuliert bezahlt (Alarm: 32 ausgezahlt bis Di 16.03.); Stufe 2 läuft, sobald Nr. 035 verkauft ist"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Restzahlung",
+    "ziel": "Fr 19.03., spätestens 24.03."
+   }
+  ],
+  "fix": [
+   "Mo 15.03. Mail „Preis endet“",
+   "Fr 19.03. ENDKONTROLLE + RESTZAHLUNG",
+   "So 21.03. 20:00 Preis endet, Stufe 2 läuft"
+  ],
+  "tage": {
+   "2027-03-15": [
+    "15′ · Fabrik-Status nach dem Fest",
+    "20′ · BUILD 18:00 · V091 „Noch bis Sonntag“",
+    "5′ · CREATOR: freiwillige Story „Vorbestellpreis endet So 20:00“ anfragen",
+    "Info · Shopify-E-Mail „Vorbestellpreis endet“ geht raus, Countdown-Sticker auf So 20:00",
+    "Grind+ 60′ · Nur bei Spiel = bauen: Playtest-Probleme beheben"
+   ],
+   "2027-03-16": [
+    "75′ · Drop-Produkte fertig machen (Entwurf, „Inventar verfolgen“ an). Zipper- und Polo-Seite: Faserangabe des Blanks, Größentabelle des Blank-Herstellers, „Versand innerhalb von 3 Wochen“, Herstellerangabe mit Novalife-Adresse (das Nackenlabel trägt sie auch), Widerrufstext nach der Antwort der Hotline vom 24.11.",
+    "20′ · ORIGIN 18:00 · V092 „Gold nur, wo etwas wächst“"
+   ],
+   "2027-03-17": [
+    "30′ · Shop-Durchlauf mit echter Karte",
+    "20′ · Website Schritt 18: PLAN B anlegen und Umschalten üben (Ziel < 1 Minute)",
+    "20′ · REACH 19:00 · V093 „Papier zu Garn“"
+   ],
+   "2027-03-18": [
+    "60′ · Countdown-Assets Teil 1: CD-T24 bis CD-T13",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-03-19": [
+    "45′ · ENDKONTROLLE nach dem Nachweis aus der PO (je Größe 2 Paar mit 10 Maßen, 5 Elemente an 10 Zufallspaaren, Fäden, Patch, Saum) und RESTZAHLUNG",
+    "Gate · ≥ 32 ausgezahlt bis Di 16.03. und Endkontroll-Nachweis vollständig → zahlen · fehlt nur Geld → Backstop Mi 24.03. · Endkontrolle durchgefallen → nicht zahlen, Fotos an die Fabrik · Die Steuer (bei DAP ~25.–30.03.) prüfst du erst am Mi 24.03.",
+    "20′ · DETAIL 18:00 · V094 „45 × 45“ (korrigiert: 45 × 45 Stiche)"
+   ],
+   "2027-03-20": [
+    "60′ · Countdown-Assets Teil 2: CD-T12 bis CD-T01",
+    "10′ · ASK 12:00 · V095 „Letzter Tag“",
+    "15′ · Mail „Heute 20:00 endet der Vorbestellpreis“ auf So 21.03., 12:00 terminieren (Text von Claude; entfällt, wenn die 35 schon weg sind)"
+   ],
+   "2027-03-21": [
+    "Info · 12:00 geht die Mail „Heute 20:00 endet der Vorbestellpreis“ geplant raus",
+    "20′ · 20:00 Vorbestellpreis endet: 149 € schließen; ist Stufe 2 noch nicht live, geht sie jetzt live (bis So 04.04.); Bestand rechnen; 19:55 Broadcast",
+    "20′ · Wochenreview W27: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · 35 zu 149 € voll? Wenn nicht: Rest läuft über Stufe 2 zu 169 €, nie Preis verlängern · Stufe 2 läuft spätestens ab heute 20:00",
+    "60′ · Content-Batch W28",
+    "Grind+ 15′ · Nur bei Spiel = bauen: letzter Stand vor dem Launch",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "≥ 32 ausgezahlt (mit Steuer 40)",
+   "Endkontroll-Video der Fabrik"
+  ],
+  "neu_ggue_rev5": [
+   "Backstop 24.03.",
+   "Stufe 2 läuft bis 04.04.",
+   "PLAN B üben"
+  ]
+ },
+ {
+  "n": 28,
+  "phase": "P4",
+  "start": "2027-03-22",
+  "goal": "Ware unterwegs, Lager und Werbung stehen, Countdown startet Montag",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.620 bestätigt (Alarm 1.050); Grind+-Ziel 2.960"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~7.860 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "37 kumuliert bezahlt (Alarm 35); bei Steuer 40 ausgezahlt bis Mi 24.03.; ab Nr. 036 Stufe 2 zu 169 €"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mi 24.03. Backstop Restzahlung",
+   "Fr 26.03. Karfreitag, Werbung aufsetzen",
+   "So 28.03. Ostern, Sommerzeit",
+   "Mo 22.03. Mail Stufe 2 an alle ohne Kauf"
+  ],
+  "tage": {
+   "2027-03-22": [
+    "15′ · Sendung verfolgen",
+    "20′ · BUILD 18:00 · V096 „Alles bezahlt“",
+    "30′ · Website Schritt 19: stiller Launch Stufe 4 („Der Weg zur Hütte“, noch nicht beworben)",
+    "15′ · Mail an alle ohne Kauf (Text von Claude): „Stufe 2 bis So 04.04.: 169 €, Lieferung Anfang April“",
+    "Info · CTA vom 22.03. bis 04.04.: „Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.“ Ab 05.04. wieder „Die Liste kommt um 18:00 rein.“"
+   ],
+   "2027-03-23": [
+    "45′ · Lager und Packstation aufbauen",
+    "20′ · ORIGIN 18:00 · V097 „Warum Time Travel“ (Markenfilm Teppich → Papier → Garn → Hose)"
+   ],
+   "2027-03-24": [
+    "20′ · Vorbesteller informieren (Lieferung Anfang April, wie in der Bestellbestätigung)",
+    "45′ · REACH 19:00 · V098 „Packstation“",
+    "Gate · Tracking-Nummer da? Sonst tägliche Mail an die Fabrik, ab 31.03. Drop-Plan B · Backstop Restzahlung heute, falls am 19.03. nur Geld fehlte · Steuer-Geld (bei DAP): 40 ausgezahlt (35 + Stufe 2)? Sonst Brücke abrufen (Notfall-Leiter Stufe 7)"
+   ],
+   "2027-03-25": [
+    "30′ · Support festlegen (Antwortzeiten, Textbausteine)",
+    "30′ · Helfer: Vertrag unterschrieben und angemeldet (Weg aus der Antwort des Steuerberaters), Lohn ins Blatt „Kasse“; einer davon schreibt am Drop-Abend 18–20 Uhr mit dir die DMs",
+    "10′ · Community: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin), DMs beantworten, jedes „Ja“ ins Blatt",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ],
+   "2027-03-26": [
+    "60′ · Werbung einreichen: Kampagne 1 „Warteliste“ 29.03.–21.04., 150 € (Traffic, Retargeting + Lookalike) und Kampagne 2 „Drop“ Do 22.04., 19:00 bis So 25.04., 150 € (Käufe, nur Retargeting); beide nur bei Kassen-Ampel grün nach Restzahlung und Steuer",
+    "20′ · DETAIL 18:00 · V099 „Fünf Stickereien“ (Reihenfolge B · A · E · C · D · B2, damit B und B2 weit auseinander liegen)",
+    "Info · Karfreitag: kein Zoll, keine Zustellung bis Ostermontag"
+   ],
+   "2027-03-27": [
+    "10′ · ASK 12:00 · V100 „Größe“",
+    "20′ · Alle Termine bis zum Drop in den Kalender",
+    "Grind+ 300′ · Countdown-Stand Holzmarkt-Flohmarkt (Saison 2027 nur fortgeschrieben, Termin und Standpreis vorher prüfen); Anmeldungen per QR ?ref=stand"
+   ],
+   "2027-03-28": [
+    "15′ · Countdown-Start vorbereiten",
+    "20′ · Wochenreview W28: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Ware mit Tracking unterwegs (sonst tägliche Mail an die Fabrik, ab 31.03. Drop-Plan B) · Stufe 2 ≥ 2 (sonst Mail und Story „Stufe 2 bis 04.04.“) · Kasse deckt die Steuer (sonst Brücke abrufen)",
+    "20′ · PRESSE-WELLE 3 (Event Drop 22.04.; Drop-Abend nur, wenn am 12.03. bestätigt) schreiben, Versand geplant Mo 05.04.",
+    "Info · Ostersonntag; ab heute Sommerzeit (Countdown-Zeiten +02:00)",
+    "Grind+ 90′ · „Das Feld wächst“ Dreh 1: dasselbe Feld, dieselbe Stelle, Sonnenuntergang (Feld nur mit Erlaubnis des Landwirts; nie hellblauer Himmel über Weizen)",
+    "Grind+ 10′ · Karussell oder Variante 18:00 · Variante deines besten Videos der letzten 14 Tage (Varianten-Regel) oder V117 „Antwort auf Kommentar“"
+   ]
+  },
+  "abhaengig": [
+   "Restzahlung bezahlt",
+   "Countdown-Assets fertig (18./20.03.)"
+  ],
+  "neu_ggue_rev5": [
+   "Stiller Launch der Scroll-Story statt Spiel",
+   "Presse-Welle 3 vorbereiten",
+   "Feld-Dreh als Grind+"
+  ]
+ },
+ {
+  "n": 29,
+  "phase": "P5",
+  "start": "2027-03-29",
+  "goal": "Countdown läuft, Ware annehmen und jede Jeans prüfen, Stufe 2 schließen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.720 bestätigt (Alarm 1.170); Grind+-Ziel 3.070"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~8.160 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "7 Kern"
+   },
+   {
+    "k": "Vorbestellungen",
+    "ziel": "43 inkl. Stufe 2 bis So 04.04. (Alarm: 40 ausgezahlt bis Mi 24.03., nur wenn ~1.150 € Steuer fällig sind)"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 29.03. Countdown T−24, Ostermontag",
+   "Di 30.03. WARENANNAHME",
+   "Mi 31.03.–Fr 02.04. Prüfung",
+   "So 04.04. 20:00 Stufe 2 schließen"
+  ],
+  "tage": {
+   "2027-03-29": [
+    "10′ · COUNTDOWN 18:00 · CD-T24 „Ganzkörper vorn, langsamer Zoom auf die Tasche“ (vorproduziert 18./20.03.)",
+    "10′ · Werbung: Freigabe prüfen",
+    "10′ · Feld-Kapitel der Startseite öffentlich („Das Feld ist offen“ entfällt ohne Spiel)",
+    "Info · Ostermontag",
+    "Info · CTA bis So 04.04. mit Stufe 2 (siehe Mo 22.03.)"
+   ],
+   "2027-03-30": [
+    "20′ · COUNTDOWN 18:00 · CD-T23 „Band A im Makro, Schwenk entlang der Tasche“ (vorproduziert 18./20.03.); Live-Clip „Die Ware ist da“ ersetzt das Asset, zuerst im Broadcast",
+    "Ausnahme 45′ · WARENANNAHME: Kartons zählen, Fotos, Lieferschein"
+   ],
+   "2027-03-31": [
+    "10′ · COUNTDOWN 18:00 · CD-T22 „Münztasche E, Lineal daneben“ (vorproduziert 18./20.03.)",
+    "Ausnahme 100′ · Prüfung Teil 1: Sichtprüfung der ersten 50 (mit Helfer)"
+   ],
+   "2027-04-01": [
+    "10′ · COUNTDOWN 18:00 · CD-T21 „Linke Gesäßtasche: drei Ähren, rotes Band, Goldfäden“ (vorproduziert 18./20.03.)",
+    "Ausnahme 100′ · Prüfung Teil 2: Sichtprüfung der zweiten 50"
+   ],
+   "2027-04-02": [
+    "10′ · COUNTDOWN 18:00 · CD-T20 „Goldfäden in Bewegung“ (vorproduziert 18./20.03.)",
+    "Ausnahme 60′ · Prüfung Teil 3: Maße, 15 % Stichprobe, Schnittkante, Goldfäden, Patch-Sitz, Grundton bei Tageslicht gegen den Stofflappen vom 18.11.",
+    "Ausnahme 30′ · Fehler sortieren und reklamieren; Fehlerteile nicht verkaufen"
+   ],
+   "2027-04-03": [
+    "10′ · COUNTDOWN 18:00 · CD-T19 „Achtstern auf der rechten Gesäßtasche, Kamera kommt näher“ (vorproduziert 18./20.03.)",
+    "45′ · Bestand einsortieren und im Shop setzen"
+   ],
+   "2027-04-04": [
+    "10′ · COUNTDOWN 18:00 · CD-T18 „Lebensbaum-Patch, Zoom auf Knoten und Wurzeln“ (vorproduziert 18./20.03.)",
+    "15′ · 20:00 Stufe 2 schließen. Drop-Bestand rechnen: 93 − 35 − Stufe-2-Verkäufe (bei 75 Stück: 68 − 35 − Stufe 2), tt_start_drop im Theme setzen. Packliste: Vorbestellungen ab 001 ohne Lücke nach Bestelldatum, dann 5 Creator, 2 Reserve",
+    "15′ · Monatsabschluss März",
+    "20′ · Wochenreview W29: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Ware geprüft · Steuer bezahlt · Vorbestellungen ≥ 40, falls Steuer fällig (sonst Brücke) · Liste ≥ 2.720 (Alarm 1.170)",
+    "Grind+ 90′ · „Das Feld wächst“ Dreh 2"
+   ]
+  },
+  "abhaengig": [
+   "Ware angekommen",
+   "Helfer bestätigt"
+  ],
+  "neu_ggue_rev5": [
+   "Stufe 2 schließt",
+   "Feld-Kapitel öffentlich ohne Spiel"
+  ]
+ },
+ {
+  "n": 30,
+  "phase": "P5",
+  "start": "2027-04-05",
+  "goal": "Vorbestellungen raus, Presse-Welle 3, Creator-Pakete",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.820 bestätigt (Alarm 1.290); Grind+-Ziel 3.190"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~8.460 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "7 Kern"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Mo 05.04. PRESSE-WELLE 3",
+   "Di 06.–Mi 07.04. Vorbestellungen packen",
+   "Do 08.04. E-Mail T−14, Creator-Pakete"
+  ],
+  "tage": {
+   "2027-04-05": [
+    "10′ · COUNTDOWN 18:00 · CD-T17 „Gruppenbild Jeans, Zipper, Polo“ (vorproduziert 18./20.03.)",
+    "60′ · Produktfotos der Serienware an 3 Körpern (W30, W32/34, W36/38)",
+    "Info · PRESSE-WELLE 3 geht geplant raus"
+   ],
+   "2027-04-06": [
+    "10′ · COUNTDOWN 18:00 · CD-T16 „Zipper-Rücken mit dem Medaillon“ (vorproduziert 18./20.03.)",
+    "Ausnahme 90′ · Vorbestellungen packen Teil 1 (Nummern ab 001 nach Bestelldatum, 149 € und Stufe 2 zusammen, N° von Hand)"
+   ],
+   "2027-04-07": [
+    "10′ · COUNTDOWN 18:00 · CD-T15 „Polo, Bänder an der Knopfleiste“ (vorproduziert 18./20.03.)",
+    "Ausnahme 75′ · Vorbestellungen packen Teil 2 und abgeben"
+   ],
+   "2027-04-08": [
+    "10′ · COUNTDOWN 18:00 · CD-T14 „Hangtag mit Nummer 001 in der Hand“ (vorproduziert 18./20.03.)",
+    "10′ · E-Mail T−14 senden",
+    "45′ · CREATOR-Pakete verschicken (Link auf der Karte, Kennzeichnung erinnern)"
+   ],
+   "2027-04-09": [
+    "10′ · COUNTDOWN 18:00 · CD-T13 „So ist der Shoot entstanden.“ (BTS vom Shoot, schnell geschnitten; Text ohne „wir“) (vorproduziert 18./20.03.)",
+    "45′ · Website Schritt 20: Generalprobe mit Testprodukt (zeitgesteuerte Veröffentlichung testen)",
+    "10′ · Werbung: Zwischenstand"
+   ],
+   "2027-04-10": [
+    "10′ · COUNTDOWN 18:00 · CD-T12 „Rohe Schnittkante am Saum“ (vorproduziert 18./20.03.)",
+    "30′ · Fotos von Vorbestellern einsammeln (nur mit Erlaubnis)",
+    "10′ · Vorbesteller: „Du hast deine. Wer soll am 22.04. auch eine haben?“ mit Link"
+   ],
+   "2027-04-11": [
+    "10′ · COUNTDOWN 18:00 · CD-T11 „Zickzack am Band“ (vorproduziert 18./20.03.)",
+    "20′ · Wochenreview W30: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Vorbestellungen verschickt · Liste ≥ 2.820 (Alarm 1.290); Zuwachs < 100 pro Woche → Vorbesteller-Aktion und Creator-Story vorziehen",
+    "Grind+ 90′ · „Das Feld wächst“ Dreh 3"
+   ]
+  },
+  "abhaengig": [
+   "Ware geprüft und eingebucht"
+  ],
+  "neu_ggue_rev5": [
+   "Produktfotos an 3 Körpern",
+   "Vorbesteller-Aktion „Wer soll auch eine haben?“"
+  ]
+ },
+ {
+  "n": 31,
+  "phase": "P5",
+  "start": "2027-04-12",
+  "goal": "Letzte Woche vor dem Drop: alles terminieren, alles testen",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "2.920 bestätigt (Alarm 1.400); Grind+-Ziel 3.300"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~8.760 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "7 Kern"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   }
+  ],
+  "fix": [
+   "Do 15.04. spätester Ankunftstermin, E-Mail T−7",
+   "Sa 17.04. CODE-FREEZE"
+  ],
+  "tage": {
+   "2027-04-12": [
+    "10′ · COUNTDOWN 18:00 · CD-T10 „Teppich-Foto, harter Schnitt auf das Medaillon“ (vorproduziert 18./20.03.); Teppich nur als Familienerinnerung",
+    "30′ · Bestand ein letztes Mal zählen",
+    "20′ · Retouren bearbeiten: prüfen, innerhalb von 14 Tagen erstatten, wieder einbuchen, Nummer neu verkaufen, Grund eintragen",
+    "20′ · Zipper und Polo vorbereiten: Lagerbestand der Navy-Blanks in allen Größen, Kundenkonto beim Großhändler, Kapazität des Stickers für 26.04.–14.05. schriftlich, Preis bei 10 und 50 Stück"
+   ],
+   "2027-04-13": [
+    "10′ · COUNTDOWN 18:00 · CD-T09 „Innenseite der Stickerei, Hose auf links“ (vorproduziert 18./20.03.)",
+    "30′ · Veröffentlichung auf Do 22.04., 18:00 terminieren (sonst um 17:55 von Hand auf „Aktiv“)"
+   ],
+   "2027-04-14": [
+    "10′ · COUNTDOWN 18:00 · CD-T08 „Gehen, Rückansicht“ (vorproduziert 18./20.03.)",
+    "30′ · Packstation für den Drop fertig machen",
+    "45′ · Drop-Startseite vorbereiten (Hero-Bild ohne Serp, keine Ernte-Hooks am 22.04.)"
+   ],
+   "2027-04-15": [
+    "10′ · COUNTDOWN 18:00 · CD-T07 „Ganzkörper hinten, Text „Noch 1 Woche““ (vorproduziert 18./20.03.)",
+    "10′ · E-Mail T−7 senden",
+    "10′ · CREATOR erinnern: Post zwischen 17. und 21.04., Kennzeichnung",
+    "20′ · Website Schritt 21: Schlüssel-Link für die E-Mail T−1h",
+    "10′ · PRESSE: Welle 3 einmal nachfassen",
+    "Gate · Spätester Ankunftstermin: Ware war da? Sonst Drop 29.04. (B-Zeitachse 2) oder „Versand ab Ankunft“, offen angekündigt · Kommt die Ware erst nach So 25.04.: Mail an alle Vorbesteller mit neuem Datum und dem Angebot voller Erstattung"
+   ],
+   "2027-04-16": [
+    "10′ · COUNTDOWN 18:00 · V125 „Aus drei Metern“ statt CD-T06 (Bildregel: keine Seitenansicht links). CD-T06 „Seitennaht im Streiflicht“ nur, wenn du die Regel am 07.11. bewusst gelockert hast",
+    "30′ · Drop-Ablauf durchplanen",
+    "10′ · Liste der Top-Werber (3 bestätigte Freunde) aus den Tags ziehen: persönliche DM um 17:55 am Drop-Tag"
+   ],
+   "2027-04-17": [
+    "10′ · COUNTDOWN 18:00 · CD-T05 „Pflegeetikett „Fäden nicht abschneiden““ (vorproduziert 18./20.03.)",
+    "30′ · Letzte Testbestellung",
+    "5′ · CODE-FREEZE: Testmodus aus",
+    "30′ · Story-Q&A zum Drop"
+   ],
+   "2027-04-18": [
+    "10′ · COUNTDOWN 18:00 · CD-T04 „Hand in der Tasche, Detail“ (vorproduziert 18./20.03.)",
+    "20′ · Wochenreview W31: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · Liste ≥ 2.920 (Alarm 1.400) · Drop-Bestand im Shop korrekt",
+    "Grind+ 90′ · „Das Feld wächst“ Dreh 4 + Zeitraffer"
+   ]
+  },
+  "abhaengig": [
+   "Generalprobe (09.04.)"
+  ],
+  "neu_ggue_rev5": [
+   "DM an Top-Werber um 17:55 statt Link um 17:30"
+  ]
+ },
+ {
+  "n": 32,
+  "phase": "P5",
+  "start": "2027-04-19",
+  "goal": "Drop-Woche: Drop, Packen, Drop-Abend, Auswertung",
+  "kpi": [
+   {
+    "k": "Warteliste",
+    "ziel": "3.000 bestätigt (Alarm 1.515); Grind+-Ziel 3.390"
+   },
+   {
+    "k": "Follower TikTok + IG, neu seit 12.10.",
+    "ziel": "~9.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+   },
+   {
+    "k": "Posts",
+    "ziel": "10 Kern"
+   },
+   {
+    "k": "Kassen-Ampel K − F − R",
+    "ziel": "grün ≥ 300 €"
+   },
+   {
+    "k": "Drop",
+    "ziel": "37 Käufe brutto bis So 25.04. (Alarm < 29 netto); Do 21:00 ≥ 15, Fr 19:00 ≥ 26"
+   }
+  ],
+  "fix": [
+   "Mo 19.04. E-Mail T−3",
+   "Mi 21.04. E-Mail T−24h",
+   "Do 22.04. 18:00 Liste, 19:00 DROP",
+   "Sa 24.04. Drop-Abend (falls entschieden)",
+   "So 25.04. Auswertung, Blanks bestellen"
+  ],
+  "tage": {
+   "2027-04-19": [
+    "10′ · COUNTDOWN 18:00 · CD-T03 „Papiertest aus dem Oktober, harter Schnitt auf das fertige Teil“ (vorproduziert 18./20.03.)",
+    "10′ · E-Mail T−3 senden",
+    "15′ · Textbausteine griffbereit, dazu für Kommentare zum Datum: „Der Termin ist der Donnerstag nach der Lieferung, sonst nichts.“"
+   ],
+   "2027-04-20": [
+    "10′ · COUNTDOWN 18:00 · CD-T02 „Alle fünf Stickereien, je 1 Sekunde“ (Reihenfolge B · A · E · C · D · B2) (vorproduziert 18./20.03.)",
+    "20′ · Helfer briefen (Prüfen, Packen, DMs am Drop-Abend 18–20 Uhr)"
+   ],
+   "2027-04-21": [
+    "10′ · COUNTDOWN 18:00 · CD-T01 „Kampagnenfilm auf 10 Sekunden, Text „Morgen 19:00““ (vorproduziert 18./20.03.)",
+    "10′ · E-Mail T−24h senden, Broadcast",
+    "20′ · Letzter Check",
+    "15′ · Mail T−1h (Do 18:00, mit Schlüssel-Link) und LIVE-Mail (Do 19:00) in Shopify Email terminieren"
+   ],
+   "2027-04-22": [
+    "Ausnahme 180′ · DROP: 17:55 DM an Top-Werber · 18:00 Liste per Schlüssel-Link (Mail T−1h, terminiert), V101 ASK 18:00 „Die Liste kauft gerade“, Live 18:00–18:30; ein Helfer beantwortet 18–20 Uhr die DMs · 19:00 öffentlich, LIVE-Mail (terminiert), V102 REACH 19:00 „Live“ · V103 ASK 20:00 „Restbestand“ · V107 ASK 21:00 „Drop-Live vom Packtisch“",
+    "Info · „19:00 Theme ‚Drop 22.04.‘ veröffentlichen“ (Rev. 5.3) entfällt: Die Seite schaltet selbst um (website.md 3.3), PLAN B bleibt",
+    "Info · Symbol-Hygiene heute: kein Serp im Hero-Bild, keine Ernte-Hooks (22.04. ist Lenins Geburtstag, Allgemeinwissen, ungeprüft); Antwortbaustein vom 19.04.; G7 zählt auch heute",
+    "Gate · Do 21:00 ≥ 15 Käufe → sonst 21:15 DM an alle Zusagen und Handheber ohne Kauf, Fr 10:00 Mail an alle, die die LIVE-Mail nicht geöffnet haben",
+    "Grind+ 10′ · Nur bei Spiel = bauen: Spiel am Drop-Tag beobachten"
+   ],
+   "2027-04-23": [
+    "10′ · Nur wenn Do 21:00 unter 15: 10:00 Mail an alle, die die LIVE-Mail nicht geöffnet haben",
+    "Ausnahme 180′ · Packen Tag 1",
+    "20′ · BUILD 18:00 · V104 „24 Stunden“",
+    "Gate · Fr 19:00 ≥ 26 Käufe (Schätzung aus Crowdfunding-Daten: rund 90 % der Listenkäufer kommen in 48 h, für Mode nicht belegt) → sonst Story mit den Restgrößen"
+   ],
+   "2027-04-24": [
+    "Ausnahme 30′ · Packen Tag 2 machen die Helfer (10–15 Uhr), du prüfst Stichproben. Ohne Helfer rückt Packen Tag 2 auf So 25.04. vormittags. Geht beides nicht, entfällt der Drop-Abend",
+    "10′ · ASK 12:00 · V105 „Drop 2“",
+    "Ausnahme 180′ · DROP-ABEND 17–20 Uhr im Partnerladen, nur mit Packhilfe (Entscheidung 05.03., schriftlich bestätigt bis 12.03.): PP-Sample und B-Ware zum Anprobieren, gekauft wird im Shop am eigenen Handy, QR ?ref=dropabend"
+   ],
+   "2027-04-25": [
+    "Ausnahme 180′ · Nur wenn die Helfer am Sa nicht packen konnten: Packen Tag 2, vormittags",
+    "30′ · Blanks für Zipper und Polo bestellen (alle Bestellungen der ersten 72 h); danach jeden Sonntag eine Sammelbestellung",
+    "45′ · Auswertung nach 72 Stunden: Käufe nach Quellen-Tag und Kaufgrund, Retourengrund, Nachfrage „kleiner als W30“ und „größer als W38“ (für Drop 2 und die Frage „W28 in den Größenlauf?“), was trägt Drop 2?",
+    "20′ · REAL 18:00 · V106 „Was der Drop gebracht hat“",
+    "20′ · Wochenreview W32: Liste nach Quellen-Tag, Views, Anmeldungen je 1.000 Views, Kassencheck (K − F − R), Zeile an Claude",
+    "Gate · ≥ 29 netto im Drop? Sonst Retargeting 72 h weiter, Bundle Jeans + Polo, Zipper und Polo pushen, Rest zu 169 € im Shop, kein Rabatt auf nummerierte Teile, Konsignation erst jetzt",
+    "Grind+ 10′ · Nur bei Spiel = bauen: Feld behalten oder zurück",
+    "Info · Ab Mo 26.04.: täglich 10′ Retouren (prüfen, binnen 14 Tagen erstatten, wieder einbuchen, Nummer neu verkaufen, Grund eintragen). Danach entscheidest du: Marke „Novalife“ anmelden ja oder nein (Recherche 16.10.)"
+   ]
+  },
+  "abhaengig": [
+   "Code-Freeze",
+   "Veröffentlichung terminiert",
+   "Packhilfe"
+  ],
+  "neu_ggue_rev5": [
+   "Drop-Abend Sa 24.04.",
+   "Auswertung nach Quellen-Tag und Kaufgrund",
+   "6.1: LIVE-Mail, Kampagne 2, Sofort-Maßnahmen 21:15 und Fr 19:00, Helfer für DMs, Packen Tag 2 an Helfer, Symbol-Hygiene am 22.04."
+  ]
+ }
+]

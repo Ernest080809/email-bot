@@ -1,0 +1,17 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const ctx = await b.newContext({ deviceScaleFactor: 2 });
+await ctx.route(/fonts\.(googleapis|gstatic)\.com/, r => r.abort());
+const p = await ctx.newPage();
+await p.setViewportSize({ width: 1280, height: 1060 });
+await p.goto('file://' + process.cwd() + '/pv16_main.html'); await p.waitForTimeout(300);
+await p.screenshot({ path: 'v16_front.png' });
+await p.screenshot({ path: 'v16_front_zoom.png', clip: { x: 560, y: 440, width: 120, height: 110 } });
+await p.setViewportSize({ width: 1000, height: 1060 });
+await p.goto('file://' + process.cwd() + '/pv16_back.html'); await p.waitForTimeout(300);
+await p.screenshot({ path: 'v16_back.png' });
+await p.setViewportSize({ width: 1000, height: 840 });
+await p.goto('file://' + process.cwd() + '/pv16_gold.html'); await p.waitForTimeout(300);
+await p.screenshot({ path: 'v16_gold.png' });
+await b.close();
+console.log('ok');

@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const p = await b.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: 2 });
+await p.goto('file://' + process.cwd() + '/print16.html');
+await p.waitForTimeout(300);
+await p.screenshot({ path: 'p16_1.png', clip: { x: 0, y: 0, width: 794, height: 1122 } });
+const mm = 3.7795;
+await p.screenshot({ path: 'p16_side.png', clip: { x: 155*mm, y: 64*mm, width: 50*mm, height: 75*mm } });
+await p.pdf({ path: 'NVL_Druckvorlage_v16.pdf', preferCSSPageSize: true, printBackground: true });
+await b.close();
+console.log('ok');

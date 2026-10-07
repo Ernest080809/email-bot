@@ -1,0 +1,68 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Artboard-9ah3.dc.html": {
+      "h": 600,
+      "title": "Artboard 1",
+      "w": 800,
+      "x": 2440,
+      "y": 0
+    },
+    "Elemente.dc.html": {
+      "h": 840,
+      "title": "Elemente 1:1",
+      "w": 1188,
+      "x": 0,
+      "y": 1180
+    },
+    "Goldfaeden.dc.html": {
+      "h": 840,
+      "title": "Details · v1.7",
+      "w": 1000,
+      "x": 1268,
+      "y": 1180
+    },
+    "Main.dc.html": {
+      "h": 1060,
+      "title": "Vorderansicht",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "Rueckansicht.dc.html": {
+      "h": 1060,
+      "title": "Rückansicht",
+      "w": 1000,
+      "x": 1360,
+      "y": 0
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-09-26T08:35:00.428Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "titel": {
+      "kind": "title1",
+      "maxW": 2360,
+      "text": "NVL-TT-01 · Projekt Slavic · Design v1.7",
+      "w": 240,
+      "x": 0,
+      "y": -260
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Rueckansicht.dc.html",
+    "Artboard-9ah3.dc.html",
+    "Elemente.dc.html",
+    "Goldfaeden.dc.html"
+  ],
+  "pages": [],
+  "title": "Fit-Mockup NVL-TT-01"
+}

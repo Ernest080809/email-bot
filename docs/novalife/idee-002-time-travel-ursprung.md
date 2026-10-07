@@ -1,4 +1,6 @@
-# Novalife «Time Travel» — Drop-Docket (Teil 1: Slawische Ornamente)
+# Idee 002 · Ursprung von Novalife «Time Travel» (Stand August 2026)
+
+> **Achtung, überholt.** Das ist die alte Ideenkarte aus dem August. Der echte „Time Travel Drop Docket“ ist das angeheftete Artifact https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm (Rev. 5.3). Aktueller Stand und Übergabe: `novalife/time-travel/docs/uebergabe-time-travel.md`.
 
 > Zusammengeführt aus zwei Google-Docs (Stand 07.10.2026):
 > - Ideenkarte **002** „Novalife Time Travel — дроп со славянскими орнаментами“ (29.08.2026) — https://docs.google.com/document/d/1kG1SAnvhCJPDpP6kjLT5UXbddqCrCLDKyxVigziLEgE

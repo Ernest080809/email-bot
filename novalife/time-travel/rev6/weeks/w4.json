@@ -503,14 +503,14 @@
     "s": [
      "Handy im Zeitraffer auf den Schreibtisch, Timer 60:00 ins Bild, am Ende auf Papier schreiben, was erledigt ist, Timer 00:00. Das ist das Material für die Reserve V116 „Eine Stunde am Tag“, falls V002 am Mi keinen Beleg hat. Bildschirm nicht lesbar, keine Fabriknamen im Bild.",
      "Claudes Tech-Pack-PDF Seite für Seite: Stilnummer NVL-TT-01? Maße W30–W38 vollständig mit Toleranzen (Spec 1.1)? Elemente A, E, B2, C und Patch D mit Maß und Position ab Naht? Der Serp (B) ist am 11.10. gestrichen und darf nirgends mehr stehen. Garn Polyester? Reihenfolge sticken → nähen → waschen? Goldfäden nach der Wäsche von Hand?",
-     "Freeze-Zusätze drin? Füllung als Standard und Deckel 28.000 Stiche (ohne Serp; mit Stichen, Fadenschnitten und Farbwechseln je Element) · 4 Stickzonen statt 5 · 2 mm Denim zwischen Band A und Kante · Weiß nach der Wäsche L* ≥ 80 · Patch D als hintere Gürtelschlaufe: nur links und rechts genäht und genietet, oben und unten offen, Gürtel läuft dahinter, Verstärkung auf der Rückseite, Größe nach dem Papiertest von heute · Münztaschen-Zuschnitt nach deinen Maßen · Pflegeetikett mit Faserangabe auf Deutsch, Pflege und Novalife mit Postanschrift und E-Mail (GPSR) · Wash Reference Sheet mit Vermerk L* 34–40.",
+     "Freeze-Zusätze drin? Füllung als Standard und Deckel 28.000 Stiche (ohne Serp; mit Stichen, Fadenschnitten und Farbwechseln je Element) · 4 Stickzonen statt 5 · 2 mm Denim zwischen Band A und Kante · Weiß nach der Wäsche L* ≥ 80 · Patch D als hintere Gürtelschlaufe: nur links und rechts genäht und genietet, oben und unten offen, Gürtel läuft dahinter, Verstärkung auf der Rückseite, Größe B 76 × 67 mm mit 3–5 mm Spiel, damit der Gürtel nicht klemmt · Münztaschen-Zuschnitt nach deinen Maßen · Pflegeetikett mit Faserangabe auf Deutsch, Pflege und Novalife mit Postanschrift und E-Mail (GPSR) · Wash Reference Sheet mit Vermerk L* 34–40.",
      "Verschleißkarte von Claude prüfen (Spec 3.9): A Kantenabrieb an dieser Tasche 0 · E Kante ohne Abrieb · B2 und C Gesäßabrieb weich auslaufen, Taschenfläche frei. Die Zone am linken Bein (Serp) entfällt.",
      "Innenbein-Gradierung entscheiden: +1,0 wie Spec 1.1 oder +1,5. Claude hat dazu keinen Rat, es fehlen Daten. Ohne Grund für +1,5 bleibt es bei +1,0.",
      "Was unklar ist, als Frage an Claude, nicht als Änderung. Stimmt alles: „Tech Pack v1 freigegeben“ an Claude und das PDF in einen Ordner „to factory“ auf dem Desktop (den filmst du nächste Woche für V004).",
      "RFQ-Zusätze: Prompt unten senden. Claudes Zusatzfragen hängst du morgen an die Vorlage „RFQ Jeansfabrik“ (Docket → Referenz → Vorlagen)."
     ],
     "f": "das Tech Pack v1.0 freigegeben im Ordner „to factory“ liegt und Claudes Zusatzfragen für die RFQ bereitliegen.",
-    "p": "Projekt Time Travel, Docket W4, So 11.10. Das Tech Pack v1.0 ist freigegeben (Innenbein-Gradierung: [+1,0 / +1,5]).\nSchreib mir auf Englisch nummerierte Zusatzfragen ab Nr. 16, die ich an meine Vorlage „RFQ Jeansfabrik“ anhänge, kurz und klar:\nPreis bei 75 und bei 100 Stück · Preis je 1.000 Stiche · Kosten für Fadenschnitte und Farbwechsel · Preis DDP Berlin und DAP Berlin · Angebot in Euro · Betriebsferien bis April 2027 · Taschenfutter-Druck einfarbig, Preis bei 100 Stück · Anti-Backstaining im Waschprozess · Kann Patch D ([Größe aus dem Freeze]) im Haus gestickt werden? · schriftliche REACH-Konformität für Knopf und Nieten (Nickel) und für die Farbstoffe (Azofarbstoffe) · Arbeitszeiten im Ramadan 2027 · Feiertage bis April 2027.\nDazu: 1 Satz für den Fall, dass der Freeze nicht steht („final placement confirmed by 16.10.“), 1 Satz für den Farbvorbehalt B2 bis 07.11. ([gilt / gilt nicht]), und prüf die Vorlage nach dem Freeze vom 11.10.: Serp gestrichen (4 Stickzonen, ~28.000 Stiche, Farben Weiß, Rot, Gold, Dunkelgold), Patch D als hintere Gürtelschlaufe (nur links und rechts genäht und genietet, Gürtel läuft dahinter), Größe [86 × 76 / 76 × 67] nach dem Papiertest. Sag mir, welche Zeilen der Vorlage dann noch nicht stimmen. Nichts doppelt zu den Fragen 1–15 der Vorlage.",
+    "p": "Projekt Time Travel, Docket W4, So 11.10. Das Tech Pack v1.0 ist freigegeben (Innenbein-Gradierung: [+1,0 / +1,5]).\nSchreib mir auf Englisch nummerierte Zusatzfragen ab Nr. 16, die ich an meine Vorlage „RFQ Jeansfabrik“ anhänge, kurz und klar:\nPreis bei 75 und bei 100 Stück · Preis je 1.000 Stiche · Kosten für Fadenschnitte und Farbwechsel · Preis DDP Berlin und DAP Berlin · Angebot in Euro · Betriebsferien bis April 2027 · Taschenfutter-Druck einfarbig, Preis bei 100 Stück · Anti-Backstaining im Waschprozess · Kann Patch D ([Größe aus dem Freeze]) im Haus gestickt werden? · schriftliche REACH-Konformität für Knopf und Nieten (Nickel) und für die Farbstoffe (Azofarbstoffe) · Arbeitszeiten im Ramadan 2027 · Feiertage bis April 2027.\nDazu: 1 Satz für den Fall, dass der Freeze nicht steht („final placement confirmed by 16.10.“), 1 Satz für den Farbvorbehalt B2 bis 07.11. ([gilt / gilt nicht]), und prüf die Vorlage nach dem Freeze vom 11.10.: Serp gestrichen (4 Stickzonen, ~28.000 Stiche, Farben Weiß, Rot, Gold, Dunkelgold), Patch D als hintere Gürtelschlaufe (nur links und rechts genäht und genietet, Gürtel läuft dahinter), Größe B 76 × 67 mm (entschieden 11.10.), mit 3–5 mm Spiel, damit der Gürtel nicht klemmt. Sag mir, welche Zeilen der Vorlage dann noch nicht stimmen. Nichts doppelt zu den Fragen 1–15 der Vorlage.",
     "o": [
      {
       "n": "Claude · Projekt „novalife time travel“",
@@ -611,11 +611,11 @@
      "Zahlen ins Cockpit (Docket, Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt · Follower TikTok + Instagram gesamt (der Startwert vom Sa steht schon) · Zusagen „Die ersten 35“ (0, das Blatt kommt Di) · Jeans bestellt und bezahlt (0).",
      "Gates aus 7.1: Views und Anmeldungen je 1.000 Views gibt es erst ab dem ersten Post am Mo 12.10. G1 bis G9 prüfst du ab So 18.10. Heute nur G12.",
      "G12 Kassencheck: K = Projektkonto heute · F = was bis zum nächsten harten Gate fällig ist (bis zur Validierung am So 01.11. laut Plan kaum etwas, die Entwicklung zahlst du erst nach grüner Validierung) · R = Rücklagen (Blatt „Kasse“ ab Di 13.10.). K − F − R ≥ 300 € grün · 0–300 € gelb: keine Ausgaben außerhalb von Plan 3 · unter 0 rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter.",
-     "Freeze-Ergebnis festhalten: Serp gestrichen (11.10.), Patch D als Gürtelschlaufe (Größe A oder B aus dem Papiertest, mittig auf der Mittelnaht oder rechts daneben, NL ja/nein), B2-Kante, E, Farbvorbehalt B2 ja/nein, Innenbein. Eine Zeile ins Blatt „Fabriken“ unter Notizen.",
+     "Freeze-Ergebnis festhalten: Serp gestrichen (11.10.), Patch D als Gürtelschlaufe (Größe B 76 × 67 mm, mittig auf der Mittelnaht oder rechts daneben, NL ja/nein), B2-Kante, E, Farbvorbehalt B2 ja/nein, Innenbein. Eine Zeile ins Blatt „Fabriken“ unter Notizen.",
      "Offenes aus W4 sammeln und mit der Zeile unten an Claude."
     ],
     "f": "Cockpit und Blatt „Warteliste“ aktuell sind und die Zeile mit dem Freeze-Ergebnis bei Claude ist.",
-    "p": "Projekt Time Travel, Docket W4, Wochenreview So 11.10.\nW4: Liste [X] (+[Y]), Views 0 (erster Post Mo 12.10.), bestes Video –, schwächstes –, Anmeldungen je 1.000 Views –, kritische Kommentare 0, Kasse [grün/gelb/rot].\nFreeze: Serp gestrichen, Patch D als Gürtelschlaufe [A 86 × 76 / B 76 × 67, mittig / rechts, NL ja/nein], B2 [Kante ja/nein], E [voll/offen], Farbvorbehalt B2 [ja/nein], Innenbein [+1,0/+1,5].\nOffen aus Woche 4: [Liste]. Sag mir, was davon in W5 wohin kommt.",
+    "p": "Projekt Time Travel, Docket W4, Wochenreview So 11.10.\nW4: Liste [X] (+[Y]), Views 0 (erster Post Mo 12.10.), bestes Video –, schwächstes –, Anmeldungen je 1.000 Views –, kritische Kommentare 0, Kasse [grün/gelb/rot].\nFreeze: Serp gestrichen, Patch D als Gürtelschlaufe [B 76 × 67, mittig / rechts, NL ja/nein], B2 [Kante ja/nein], E [voll/offen], Farbvorbehalt B2 [ja/nein], Innenbein [+1,0/+1,5].\nOffen aus Woche 4: [Liste]. Sag mir, was davon in W5 wohin kommt.",
     "o": [
      {
       "n": "Shopify-Admin",
@@ -633,18 +633,18 @@
    },
    {
     "c": "B",
-    "t": "Papiertest: Patch D als Gürtelschlaufe (Blatt vom 11.10.)",
+    "t": "Papiertest: Patch D (B, 76 × 67 mm) als Gürtelschlaufe",
     "m": 20,
     "s": [
      "NVL_Papiertest_Patch_Schlaufe.pdf aus dem Chat mit Claude drucken, „Tatsächliche Größe“ bzw. 100 %, Kontrolllinie messen: genau 100 mm.",
-     "Patch A (86 × 76 mm, wie dein Foto) und B (76 × 67 mm) an der Patch-Kante ausschneiden und auf dünne Pappe kleben.",
-     "Gürtel aus der Hose ziehen. A mittig auf die hintere Mittelnaht halten, Oberkante bündig mit der Bundoberkante. Nur den linken und rechten Rand (je 8 mm, schraffiert auf Bauplan C) mit Malerkrepp festkleben, oben und unten offen.",
-     "Gürtel einfädeln: durch die Schlaufen und hinter A durch. Gürtelbreite messen.",
-     "Prüfen: Liegt A flach? Sieht man den ganzen Baum? Hinsetzen: knickt A oder drückt er in den Rücken? Dann alles mit B wiederholen.",
-     "Fotos hinten aus 1 m und 3 m, seitlich, sitzend, je A und B. Dazu Gürtelbreite, Bundhöhe, Abstand der zwei mittleren Schlaufen."
+     "Patch B (76 × 67 mm) an der Patch-Kante ausschneiden und auf dünne Pappe kleben. A (86 × 76 mm) nur zum Vergleich, entschieden ist B.",
+     "Gürtel aus der Hose ziehen. B mittig auf die hintere Mittelnaht halten, Oberkante bündig mit der Bundoberkante. Nur den linken und rechten Rand (je 8 mm, schraffiert auf Bauplan C) mit Malerkrepp festkleben, oben und unten offen.",
+     "Gürtel einfädeln: durch die Schlaufen und hinter B durch. Gürtelbreite messen. Den Patch nicht straff kleben: 3–5 mm Spiel lassen, sonst klemmt der Gürtel.",
+     "Prüfen: Liegt B flach? Sieht man den ganzen Baum aus 3 m? Hinsetzen: knickt B oder drückt er in den Rücken? Dann B rechts neben der Mittelnaht testen und vergleichen.",
+     "Fotos hinten aus 1 m und 3 m, seitlich, sitzend, mittig und rechts. Dazu Gürtelbreite, Bundhöhe, Abstand der zwei mittleren Schlaufen."
     ],
-    "f": "Fotos von A und B mit Gürtel und die drei Maße bei Claude sind und du A oder B gewählt hast.",
-    "p": "Projekt Time Travel, Docket W4, So 11.10. Papiertest Patch D als Gürtelschlaufe. Fotos: [anhängen]. Gürtelbreite [mm], Bundhöhe [mm], Abstand der mittleren Schlaufen [mm]. A oder B: [..], mittig auf der Mittelnaht oder rechts daneben: [..], NL auf dem Patch: [ja/nein]. Prüf, ob der Tunnel (ca. 70 mm innen) für meinen Gürtel reicht, ob der Patch beim Sitzen knickt, und schreib mir die Patch-Zeilen für Tech Pack und Patch-Anfrage neu (Größe, Konstruktion, Verstärkung, Nieten).",
+    "f": "Fotos von B mittig und rechts mit Gürtel und die drei Maße bei Claude sind und die Position feststeht.",
+    "p": "Projekt Time Travel, Docket W4, So 11.10. Papiertest Patch D als Gürtelschlaufe. Fotos: [anhängen]. Gürtelbreite [mm], Bundhöhe [mm], Abstand der mittleren Schlaufen [mm]. Größe B (76 × 67 mm), mittig auf der Mittelnaht oder rechts daneben: [..], NL auf dem Patch: [ja/nein]. Prüf, ob der Gürtel mit 3–5 mm Spiel gut durchläuft, ob der Patch beim Sitzen knickt, und schreib mir die Patch-Zeilen für Tech Pack und Patch-Anfrage neu (Größe, Konstruktion, Verstärkung, Nieten).",
     "o": [
      {
       "n": "NVL_Papiertest_Patch_Schlaufe.pdf",

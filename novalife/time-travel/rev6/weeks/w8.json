@@ -201,7 +201,7 @@
      "Morgen (Do) prüfst du Claudes Entwürfe und gibst sie frei."
     ],
     "f": "der Prompt abgeschickt ist und Claude die Entwürfe bis Do früh liefern kann.",
-    "p": "Projekt Time Travel, Docket W8, Mi 04.11. Entwirf für NVL-TT-01 druckfertig mit Maßen:\n1 gewebtes Hauptlabel (Bund innen hinten), 2 Größenlabel W30–W38, 3 EU-Pflegeetikett (100 % Baumwolle; 30 °C, auf links, nicht in den Trockner, Fäden nicht abschneiden; Herkunftsland [Land]; GPSR-Herstellerangabe mit Novalife-Adresse), 4 Hangtag mit Stücknummer 001–100, 5 Hangtag-Karte „Bedeutung innen“: je Motiv Name nach Wortliste (Kreuzstich-Band, Achtstern, Lebensbaum, „Das Feld danach“), Maß, Stichzahl und eine Zeile Bedeutung NUR für Motive mit Beleg in der Belegtabelle v1.0: [Motive mit Beleg], 6 Nackenlabel für Zipper und Polo mit Novalife-Adresse, 7 Patch-Datei mit Lasche für den Label-Patch am Bund (86 × 76 mm laut Spec, Lasche zum Annähen).\nRegeln: nie „authentisch“, Lebensbaum nie „slawisch“, „entworfen in Berlin“ statt „Made in Berlin“, Länder nur alphabetisch. Liefere PDF und SVG.",
+    "p": "Projekt Time Travel, Docket W8, Mi 04.11. Entwirf für NVL-TT-01 druckfertig mit Maßen:\n1 gewebtes Hauptlabel (Bund innen hinten), 2 Größenlabel W30–W38, 3 EU-Pflegeetikett (100 % Baumwolle; 30 °C, auf links, nicht in den Trockner, Fäden nicht abschneiden; Herkunftsland [Land]; GPSR-Herstellerangabe mit Novalife-Adresse), 4 Hangtag mit Stücknummer 001–100, 5 Hangtag-Karte „Bedeutung innen“: je Motiv Name nach Wortliste (Kreuzstich-Band, Achtstern, Lebensbaum, „Das Feld danach“), Maß, Stichzahl und eine Zeile Bedeutung NUR für Motive mit Beleg in der Belegtabelle v1.0: [Motive mit Beleg], 6 Nackenlabel für Zipper und Polo mit Novalife-Adresse, 7 Patch-Datei mit Lasche für den Label-Patch am Bund (76 × 67 mm, Größe B, als Gürtelschlaufe, Nahtzonen links und rechts).\nRegeln: nie „authentisch“, Lebensbaum nie „slawisch“, „entworfen in Berlin“ statt „Made in Berlin“, Länder nur alphabetisch. Liefere PDF und SVG.",
     "o": [{"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}]
    },
    {
@@ -633,7 +633,7 @@
     "m": 25,
     "s": [
      "Belegtabelle: Lebensbaum mit Beleg? Nein → keinen Bedeutungssatz, nur Maß und Aufbau (Wurzeln, Stamm, Krone).",
-     "Schreibtisch, Draufsicht, Fensterlicht von der Seite. 3 Takes je Shot: Skizze, Finger Wurzeln → Stamm → Krone, Papierausschnitt 86 × 76 mm am Bund, Text-Einblendung.",
+     "Schreibtisch, Draufsicht, Fensterlicht von der Seite. 3 Takes je Shot: Skizze, Finger Wurzeln → Stamm → Krone, Papierausschnitt 76 × 67 mm am Bund, Text-Einblendung.",
      "Nur Papier und eigene Skizze, die Patch-Muster kommen erst um den 13.11.",
      "Schnitt in CapCut: Hook-Text 0–2 s, Untertitel automatisch, ohne Musik exportieren. Export W09/final/V014_final.mp4."
     ],
@@ -645,12 +645,12 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "Roots, trunk, crown: the patch on my waistband.",
      "hook_de": "Wurzeln, Stamm, Krone: der Patch an meinem Bund.",
-     "shots": ["Deine Referenz-Skizze des Baums auf dem Tisch (eigene Zeichnung)", "Finger fährt Wurzeln → Stamm → Krone nach", "Papierausschnitt 86 × 76 mm am Bund (Papiertest)", "Text: „natural linen · gold · brown · red“"],
+     "shots": ["Deine Referenz-Skizze des Baums auf dem Tisch (eigene Zeichnung)", "Finger fährt Wurzeln → Stamm → Krone nach", "Papierausschnitt 76 × 67 mm am Bund (Papiertest)", "Text: „natural linen · gold · brown · red“"],
      "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
      "ton": "Originalton, in der App ruhiger Track aus der Business-Bibliothek",
-     "text": "0–2 s Hook EN, „86 × 76 mm“, „natural linen · gold · brown · red“",
+     "text": "0–2 s Hook EN, „76 × 67 mm“, „natural linen · gold · brown · red“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
-     "caption": "The tree of life sits on the back waistband: 86 × 76 mm on natural linen, a trunk of ten twisted strands, roots in a circle. Made as a patch by a specialist. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
+     "caption": "The tree of life sits on the back waistband: 76 × 67 mm on natural linen, a trunk of ten twisted strands, roots in a circle. Made as a patch by a specialist. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
      "check": "Lebensbaum nie „slawisch“, nur Papier und Skizze, Bedeutung nur mit Beleg, kein roter Hintergrund."
     },
     "o": [{"n": "CapCut", "u": "https://www.capcut.com"}]

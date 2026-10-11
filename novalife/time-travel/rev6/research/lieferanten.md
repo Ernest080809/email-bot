@@ -195,11 +195,11 @@ Fällt eine der vier bei der Prüfliste durch (K.-o.), rückt der nächste Kandi
 
 ## 3 · Zulieferer
 
-### 3.1 Label-Patch D (Lebensbaum, 86 × 76 mm)
+### 3.1 Label-Patch D (Lebensbaum, 76 × 67 mm)
 
 | Anforderung | Wert | Quelle |
 |---|---|---|
-| Größe, Form | 86 × 76 mm, oben leichter Bogen, unten mittige Lasche | Spec 3.8 |
+| Größe, Form | 76 × 67 mm (B, entschieden 11.10.), oben leichter Bogen, unten mittige Lasche. Wird als hintere Gürtelschlaufe nur seitlich befestigt, daher verstärkte Rückseite | Spec 3.8, Entscheidung 11.10. |
 | Grund | Naturleinen, **vorgewaschen**, Kante umgeschlagen und gesteppt | Spec 3.8, Docket W9 |
 | Stickerei | Gold, Ocker, drei Brauntöne, Rot. Linien mind. 0,8 mm, Einrollungen mind. 2,5 mm | Spec 3.8 |
 | Belastung | wird angenäht, dann Enzym-/Steinwäsche der ganzen Jeans | Spec 2.3 |

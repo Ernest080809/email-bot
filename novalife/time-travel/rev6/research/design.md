@@ -456,6 +456,8 @@ Screenshot oder Tabelle an Claude. Ich werte bis Freitagmittag aus und bereite d
 
 **Empfehlung: kleiner, in jedem Fall.** 86 mm breit lässt 3 mm Luft zu den Schlaufen, das hält keine Serie. Wohin genau, entscheidet der Gürteltest: V5a 76 × 67 mm am Bund oder V5b 66 × 58 mm auf der Passe. Details in V5.
 
+**Entschieden 11.10.:** Größe B, 76 × 67 mm. Der Patch ist selbst die hintere Gürtelschlaufe: nur links und rechts genäht und genietet, oben und unten offen, 3–5 mm Spiel, der Gürtel läuft dahinter. Offen bleiben Position (mittig oder rechts) und Nackenlabel.
+
 ### 5.3 Taschenklappe hinten
 
 **Empfehlung: keine Klappe.**

@@ -3,10 +3,22 @@
  "phase": "P1",
  "goal": "Anfragen raus, erster Post, Steuer klären, warmes Netz zählen und anschreiben",
  "kpi": [
-  {"k": "Warteliste", "ziel": "40 bestätigt (Alarm 15)"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~120 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+  {
+   "k": "Warteliste",
+   "ziel": "40 bestätigt (Alarm 15)"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~120 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  }
  ],
  "days": {
   "2026-10-12": [
@@ -15,7 +27,7 @@
     "t": "RFQ an alle Fabriken mit bestandenem K.-o. senden (Ziel 8)",
     "m": 60,
     "s": [
-     "Vorlage „RFQ Jeansfabrik“ (Docket → Referenz → Vorlagen) kopieren und nach Claudes Liste vom So an den Freeze anpassen: Patch-Größe statt 86 × 76 mm, Garnfarben, Serp.",
+     "Vorlage „RFQ Jeansfabrik“ (Docket → Referenz → Vorlagen) kopieren. Sie ist schon auf den Freeze vom 11.10. umgestellt: Serp gestrichen, 4 Stickzonen, ~28.000 Stiche, 4 Garnfarben, Patch D als hintere Gürtelschlaufe. Nur die Patch-Größe nach deinem Papiertest von gestern eintragen (86 × 76 oder 76 × 67 mm).",
      "Claudes Zusatzfragen ab Nr. 16 anhängen: Preis bei 75 und 100 · je 1.000 Stiche · Fadenschnitte und Farbwechsel · DDP und DAP Berlin · Euro · Betriebsferien · Taschenfutter-Druck · Anti-Backstaining · Patch D im Haus · REACH schriftlich (Nickel, Azofarbstoffe) · Arbeitszeit im Ramadan · Feiertage bis April.",
      "Steht der Freeze nicht vollständig: den Satz „final placement confirmed by 16.10.“ einfügen. Gilt der Farbvorbehalt B/B2 bis 07.11.: Claudes Satz dazu einfügen.",
      "Pro Fabrik eine eigene Mail, nie mehrere in CC. Erste Zeile mit dem Namen der Fabrik. Absender: deine Novalife-Adresse. Signatur: Name, Novalife, Berlin, Website.",
@@ -25,12 +37,35 @@
     ],
     "f": "jede Fabrik mit bestandenem K.-o. (Ziel 8) eine eigene Mail mit Tech Pack hat und das Datum im Blatt „Fabriken“ steht.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „RFQ Jeansfabrik“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"},
-     {"n": "Portugal Textile – Jeans Factory (PT)", "u": "https://portugaltextile.com", "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"},
-     {"n": "Istanbul Clothing Manufacturers (TR)", "u": "https://istanbulclothingmanufacturers.com", "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"},
-     {"n": "White Cotton (PT)", "u": "https://whitecotton.pt", "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"},
-     {"n": "Brosan Textile (TR)", "u": "https://brosantextile.com", "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „RFQ Jeansfabrik“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     },
+     {
+      "n": "Portugal Textile – Jeans Factory (PT)",
+      "u": "https://portugaltextile.com",
+      "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"
+     },
+     {
+      "n": "Istanbul Clothing Manufacturers (TR)",
+      "u": "https://istanbulclothingmanufacturers.com",
+      "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"
+     },
+     {
+      "n": "White Cotton (PT)",
+      "u": "https://whitecotton.pt",
+      "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"
+     },
+     {
+      "n": "Brosan Textile (TR)",
+      "u": "https://brosantextile.com",
+      "h": "nur wenn das K.-o. bestanden ist, Kontaktweg aus dem Blatt"
+     }
     ]
    },
    {
@@ -47,12 +82,35 @@
     ],
     "f": "im Blatt „Sticker“ 10 Betriebe (4 bekannte und 6 neue) mit Website und Kontaktweg stehen und die 3 besten markiert sind.",
     "o": [
-     {"n": "Google Maps", "u": "https://maps.google.com"},
-     {"n": "Berlin Stick", "u": "https://berlin-stick.de", "h": "nicht geprüft: ab 1 Stück? Fleece mit Topping? Piqué? DST/EMB?"},
-     {"n": "Stickerei & Druck Berlin", "u": "https://stickerei-druck-berlin.de", "h": "nicht geprüft"},
-     {"n": "Mach Deins Draus", "u": "https://machdeinsdraus.de", "h": "nicht geprüft"},
-     {"n": "Berlin Textil", "u": "https://berlintextil.de", "h": "nicht geprüft"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Sticker“"}
+     {
+      "n": "Google Maps",
+      "u": "https://maps.google.com"
+     },
+     {
+      "n": "Berlin Stick",
+      "u": "https://berlin-stick.de",
+      "h": "nicht geprüft: ab 1 Stück? Fleece mit Topping? Piqué? DST/EMB?"
+     },
+     {
+      "n": "Stickerei & Druck Berlin",
+      "u": "https://stickerei-druck-berlin.de",
+      "h": "nicht geprüft"
+     },
+     {
+      "n": "Mach Deins Draus",
+      "u": "https://machdeinsdraus.de",
+      "h": "nicht geprüft"
+     },
+     {
+      "n": "Berlin Textil",
+      "u": "https://berlintextil.de",
+      "h": "nicht geprüft"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Sticker“"
+     }
     ]
    },
    {
@@ -90,9 +148,21 @@
      "check": "Nur Papier, kein Mockup, keine Seitenansicht links, B und B2 nie im selben Bild, CTA der Phase, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     }
     ]
    }
   ],
@@ -109,7 +179,11 @@
     "f": "Claude den Auftrag hat und die Raute-Zeile mit Quelle oder dem Vermerk „ungeprüft“ heute im Chat steht.",
     "p": "Projekt Time Travel, Docket W5, Di 13.10. Bau mir mit Websuche die Belegtabelle v0.1 für meine Drei-von-vier-Regel: Ein Motiv kommt nur ins Design, wenn es in mindestens drei von vier Textiltraditionen (Belarus, Polen, Russland, Ukraine) mit derselben Bedeutung belegt ist.\nReihenfolge: Raute (Bedeutung „bestelltes Feld“), dann Achtstern, Zickzack, Lebensbaum.\nJe Motiv und Tradition: Quelle (Museum mit Objektnummer oder Fachpublikation), Region, Link zur Abbildung, Bedeutung wörtlich zitiert. Nur Quellen, die du geöffnet hast, alles andere als „ungeprüft“.\nSag mir je Motiv: Hält der Satz für mein Video? Raute: „The meaning stays: a sown field.“ und „one of the oldest motifs in folk cross-stitch“.\nZum Schluss eine Liste, was ich am Sa 17.10. im Museum Europäischer Kulturen nachsehen soll.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "Chat mit Websuche"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai",
+      "h": "Chat mit Websuche"
+     }
     ]
    },
    {
@@ -128,9 +202,19 @@
     "f": "du weißt, ob du Kleinunternehmer bleibst, was Türkei gegen Portugal steuerlich kostet und wann die Steuer fällig ist, und Claude die Antworten hat.",
     "p": "Projekt Time Travel, Docket W5, Di 13.10. Ergebnis vom Steuerberater:\n1 Kleinunternehmer 2027: [..] · 2 Einfuhrumsatzsteuer Türkei bei DDP und DAP: [..] · 3 Portugal, Erwerbsschwelle, USt-IdNr: [..] · 4 Reverse Charge, Voranmeldungen: [..] · 5 Umsatzmonat der Vorbestellungen: [..] · 6 OSS: [..] · 7 Hinweis § 19 UStG: [Wortlaut] · 8 Gewerbeschein: [deckt ab / ummelden] · 9 Fälligkeit, Spediteur mit Zahlungsziel: [..] · 10 Helfer: [Minijob oder kurzfristig, Kosten] · 11 Creator-Paare: [..] · Kosten des Gesprächs: [€]\nRechne mir die Steuer-Spalte für den Fabrikvergleich (Türkei gegen Portugal), sag mir, ob sich Schwelle 2b (40 ausgezahlt bis Mi 24.03.) ändert, und was bis zum Gate Fr 23.10. noch schriftlich fehlt.",
     "o": [
-     {"n": "Dein Steuerberater oder die IHK (Termin vom 08.10.)", "a": "[Adresse aus der Terminbestätigung]"},
-     {"n": "§ 19 UStG (Kleinunternehmer)", "u": "https://www.gesetze-im-internet.de/ustg_1980/__19.html", "h": "Gesetzestext zum Nachlesen, keine Steuerberatung"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Dein Steuerberater oder die IHK (Termin vom 08.10.)",
+      "a": "[Adresse aus der Terminbestätigung]"
+     },
+     {
+      "n": "§ 19 UStG (Kleinunternehmer)",
+      "u": "https://www.gesetze-im-internet.de/ustg_1980/__19.html",
+      "h": "Gesetzestext zum Nachlesen, keine Steuerberatung"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -147,7 +231,10 @@
     ],
     "f": "das Blatt „Netz“ alle Namen hat, die dir heute einfallen (Zahl oben notiert), und „Die ersten 35“ die Bereiche „Zusage“ und „Vielleicht“ hat.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -165,8 +252,14 @@
     "f": "das Blatt „Kasse“ die Ampel aus K, F und R ausrechnet und jeder Posten der Zeile „ungeplant“ eine Schätzung hat.",
     "p": "Projekt Time Travel, Docket W5, Di 13.10. Bau mir die Vorlage für das Blatt „Kasse“ in Google Sheets, als Tabelle mit Formeln zum Einfügen:\nSpalten Datum · K (Projektkonto) · V (Vorbestellungen bezahlt und ausgezahlt) · F (fällig bis zum nächsten harten Gate) · R (Rücklagen: Steuer ab Fabrikwahl, falls fällig, plus 3 Paar Erstattungsreserve ~440 €) · Ampel = K − F − R (grün ≥ 300 €, gelb 0–300 €, rot < 0).\nDarunter die Zeile „ungeplant“ mit einer Schätzung je Posten und dem Vermerk Quelle oder „Schätzung“: Steuerberater, Rechtstexte über 80 €, Verpackungslizenz, Helferlohn, Abende (bis ~150 €), Einfuhrumsatzsteuer und Kurierpauschale auf Proto und PP, Fotograf und Models, Shopify Email über dem Freikontingent, Produkthaftpflicht.\nDazu eine Zelle: Summe ÷ 146 € = zusätzliche Vorbestellungen für Schwelle 2a. Trag F bis zur Validierung am So 01.11. aus dem Cash-Plan ein.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -185,10 +278,24 @@
     "f": "die Umfrage anonym und ohne E-Mail-Feld online ist und der Tally-Absatz in der Datenschutzerklärung steht.",
     "p": "Projekt Time Travel, Docket W5, Di 13.10. Schreib mir die anonyme Tally-Umfrage: 12 Fragen, 3 Minuten, Deutsch mit einer englischen Zeile je Frage.\n1 Alter (Spannen) · 2 Wohnort: Berlin / anderes Deutschland / Ausland · 3 Preis der letzten Jeans (bis 50 · 50–99 · 100–149 · 150+) · 4 Wo kaufst du Jeans? (Mehrfachauswahl) · 5 Bild B2: Was fällt dir zuerst ein? (offen) · 6 Bild B (Nahaufnahme): Was fällt dir zuerst ein? (offen) · 7 Welches Wort passt am besten zu diesem Muster? Nur Wörter, die nach meiner Wortliste vom 09.10. nach außen erlaubt sind, plus „eigenes Wort“ · 8 Würdest du zu 149 € vorbestellen? (Ja · Vielleicht · Nein) · 9 Was würde dich überzeugen? (Fit-Video · Proto in echt sehen · Rückgaberecht · Stücknummer · Freunde tragen es) · 10 Jeans, Zipper oder Polo zuerst? · 11 freiwillig: Hat deine Familie Wurzeln in einem dieser Länder? (Belarus · Baltikum · Kasachstan · Polen · Russland · Ukraine · anderes · möchte ich nicht sagen), darüber der Einwilligungssatz · 12 Etwas, das ich wissen sollte? (offen)\nDazu einen Absatz für meine Datenschutzerklärung zu Tally: Anbieter, Zweck, anonyme Umfrage, freiwillige Angabe zur Herkunft mit Einwilligung (Art. 9 DSGVO). Keine Rechtsberatung, die Texte prüft die Hotline am 24.11.",
     "o": [
-     {"n": "Tally", "u": "https://tally.so", "h": "kostenloser Plan laut Sekundärquelle, dort prüfen"},
-     {"n": "e-recht24 · Datenschutz-Generator", "u": "https://www.e-recht24.de"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten → Datenschutz"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Tally",
+      "u": "https://tally.so",
+      "h": "kostenloser Plan laut Sekundärquelle, dort prüfen"
+     },
+     {
+      "n": "e-recht24 · Datenschutz-Generator",
+      "u": "https://www.e-recht24.de"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Seiten → Datenschutz"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -222,7 +329,11 @@
      "check": "Nur Papier, kein roter Hintergrund, keine Länder, Ergebnis morgen ins Blatt „Content“."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Umfrage- und Link-Sticker"
+     }
     ]
    },
    {
@@ -259,9 +370,20 @@
      "check": "Nur mit Beleg aus der Belegtabelle, vor dem Proto nur Papier, kein roter Hintergrund, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T5"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Photo Mode"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T5"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Photo Mode"
+     }
     ]
    },
    {
@@ -276,8 +398,14 @@
     ],
     "f": "5 Kommentare geschrieben, alle DMs beantwortet sind und jedes Ja im Blatt steht.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
@@ -294,7 +422,10 @@
     "f": "Claudes Bauanleitung mit 4 Tests, Texten und Datenschutz-Satz im Chat liegt.",
     "p": "Projekt Time Travel, Docket W5, Mi 14.10. Bau mir für meinen Shopify-Shop (Theme Dawn, Startseite = Warteliste) eine Empfehlungs-Mechanik ohne App:\nverstecktes Feld contact[tags] im Newsletter-Formular · ?ref= aus der URL lesen und speichern · beim Absenden die Tags „warteliste“, „ref-[x]“ und „code-[neuer 6-Zeichen-Code]“ setzen, wenn vorhanden auch „src-[utm_source]“ · nach dem Absenden den persönlichen Link mit Knopf „Per WhatsApp schicken“ und „Kopieren“ zeigen.\nKein externes Skript, keine Cookies außer localStorage für den ref-Wert. Erklär mir Schritt für Schritt, wo ich im Theme-Editor was einfüge (ich bin neu auf dem Mac), und gib mir 4 Tests: ohne ref, mit ?ref=test, doppelte Anmeldung, Handy.\nTexte auf Deutsch: Danke-Seite („Bestätige die Mail, sonst zählt es nicht“, persönlicher Link, „Wenn sich 3 Freunde eintragen und bestätigen, schreibe ich dir am 22.04. um 17:55 persönlich, 5 Minuten vor der Liste“) und WhatsApp-Text mit „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“\nPrüf, ob Shopify Email den persönlichen Link in die Willkommens-Mail setzen kann; wenn nicht, Hinweis „Mach einen Screenshot“ auf der Danke-Seite. Schreib mir den Satz für die Datenschutzerklärung zu Quellen-Tags und Empfehlungs-Code dazu.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -309,8 +440,15 @@
     ],
     "f": "jede Fabrik mit bestandenem K.-o. bis heute Abend eine RFQ hat.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „RFQ Jeansfabrik“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „RFQ Jeansfabrik“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     }
     ]
    },
    {
@@ -325,7 +463,11 @@
     ],
     "f": "der Antrag gestellt ist und die Bestätigung in 03_Recht-Steuer liegt, oder feststeht, dass der Schein reicht.",
     "o": [
-     {"n": "Service-Portal Berlin · Gewerbe", "u": "https://service.berlin.de", "h": "Online-Antrag und Gebühr vor Ort prüfen"}
+     {
+      "n": "Service-Portal Berlin · Gewerbe",
+      "u": "https://service.berlin.de",
+      "h": "Online-Antrag und Gebühr vor Ort prüfen"
+     }
     ]
    },
    {
@@ -341,12 +483,35 @@
     ],
     "f": "3 Anfragen raus sind und das Datum im Blatt „Sticker“ steht.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Anfrage Berliner Sticker“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Sticker“"},
-     {"n": "Berlin Stick", "u": "https://berlin-stick.de", "h": "nur falls unter den 3 besten, nicht geprüft"},
-     {"n": "Stickerei & Druck Berlin", "u": "https://stickerei-druck-berlin.de", "h": "nur falls unter den 3 besten, nicht geprüft"},
-     {"n": "Mach Deins Draus", "u": "https://machdeinsdraus.de", "h": "nur falls unter den 3 besten, nicht geprüft"},
-     {"n": "Berlin Textil", "u": "https://berlintextil.de", "h": "nur falls unter den 3 besten, nicht geprüft"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Anfrage Berliner Sticker“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Sticker“"
+     },
+     {
+      "n": "Berlin Stick",
+      "u": "https://berlin-stick.de",
+      "h": "nur falls unter den 3 besten, nicht geprüft"
+     },
+     {
+      "n": "Stickerei & Druck Berlin",
+      "u": "https://stickerei-druck-berlin.de",
+      "h": "nur falls unter den 3 besten, nicht geprüft"
+     },
+     {
+      "n": "Mach Deins Draus",
+      "u": "https://machdeinsdraus.de",
+      "h": "nur falls unter den 3 besten, nicht geprüft"
+     },
+     {
+      "n": "Berlin Textil",
+      "u": "https://berlintextil.de",
+      "h": "nur falls unter den 3 besten, nicht geprüft"
+     }
     ]
    },
    {
@@ -382,9 +547,21 @@
      "check": "Ersetzt „Älter als jede Grenze“, nur mit Beleg aus der Belegtabelle (sonst V116), Länder nur im Kommentar und alphabetisch, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     }
     ]
    }
   ],
@@ -405,7 +582,10 @@
     "f": "die Fotos bei Claude sind (oder du sicher weißt, dass es keine gibt), die Einwilligung schriftlich vorliegt und die Shoot-Frage gestellt ist.",
     "p": "Projekt Time Travel, Docket W5, Do 15.10. Anbei Fotos vom Wandteppich meiner Familie: [ganz, Medaillon, Rahmen, Ecken]. Einwilligung der Familie: [ja, schriftlich / nur intern]. Darf ich ihn für den Shoot am 20.02. leihen: [ja / nein / offen].\nBitte 1) beschreib mir Aufbau, Motive und Farben, 2) schlag mir vor, wie daraus das Medaillon für den Zipper-Rücken (ca. 200 × 150 mm) wird, nur mit Motiven, die nach der Drei-von-vier-Regel belegt sind, 3) sag mir, welcher Ausschnitt heute in Story 2 kann. Bildregeln: kein roter Hintergrund, keine Sowjet-Deko, der Teppich als Erinnerung und nicht als Retro-Stil.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -439,8 +619,16 @@
      "check": "Familie hat zugestimmt, fremde Fotos nur mit schriftlichem Ja, Ausschnitt ohne roten Vollgrund, keine Sowjet-Deko, Teppich als Erinnerung."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Frage- und Link-Sticker"},
-     {"n": "Tally", "u": "https://tally.so", "h": "Link deiner Umfrage vom Di"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Frage- und Link-Sticker"
+     },
+     {
+      "n": "Tally",
+      "u": "https://tally.so",
+      "h": "Link deiner Umfrage vom Di"
+     }
     ]
    },
    {
@@ -458,8 +646,16 @@
     ],
     "f": "alle 4 Tests bestanden sind (ref- und code-Tag stehen beim Testkunden, der persönliche Link erscheint) und der Datenschutz-Satz online ist.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Themes, Kunden, Seiten"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "Chat R1 von gestern"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Themes, Kunden, Seiten"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai",
+      "h": "Chat R1 von gestern"
+     }
     ]
    },
    {
@@ -473,9 +669,18 @@
     ],
     "f": "5 Kommentare geschrieben, alle DMs beantwortet sind und jedes Ja im Blatt steht.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -512,9 +717,19 @@
      "check": "Messregeln aus Spec 1.4, eigene Eightyfive ohne Papier und kein fertiges Teil, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T1 oder T5"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T1 oder T5"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
@@ -532,8 +747,15 @@
     ],
     "f": "jede Fabrik ohne Antwort eine zweite Nachricht hat und alle Antworten im Blatt stehen.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Nachfassen“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Nachfassen“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     }
     ]
    },
    {
@@ -549,9 +771,19 @@
     ],
     "f": "das Ergebnis beider Register mit Datum im Blatt „Tools“ steht und die Screenshots in 03_Recht-Steuer liegen.",
     "o": [
-     {"n": "DPMAregister · Deutsches Patent- und Markenamt", "h": "URL steht nicht im Plan: über die Suche „DPMAregister“ öffnen, nur die Seite des Amts nutzen"},
-     {"n": "EUIPO eSearch · Amt der EU für geistiges Eigentum", "h": "URL steht nicht im Plan: über die Suche „EUIPO eSearch“ öffnen, nur die Seite des Amts nutzen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Tools“"}
+     {
+      "n": "DPMAregister · Deutsches Patent- und Markenamt",
+      "h": "URL steht nicht im Plan: über die Suche „DPMAregister“ öffnen, nur die Seite des Amts nutzen"
+     },
+     {
+      "n": "EUIPO eSearch · Amt der EU für geistiges Eigentum",
+      "h": "URL steht nicht im Plan: über die Suche „EUIPO eSearch“ öffnen, nur die Seite des Amts nutzen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Tools“"
+     }
     ]
    },
    {
@@ -568,8 +800,16 @@
     ],
     "f": "15 persönliche Nachrichten raus sind und alle mit Datum im Blatt „Netz“ stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Netz“ und „Die ersten 35“"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Tag „ref-netz“ prüfen"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Netz“ und „Die ersten 35“"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Tag „ref-netz“ prüfen"
+     }
     ]
    },
    {
@@ -617,14 +857,29 @@
      "check": "Zahlen mit Rev. 6 abgeglichen (9.380 · 4.500 · 4.880), nur Papier und Zahl, Rückzahlungssatz wörtlich ohne zusätzliche Frist, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     }
     ]
    }
   ],
   "2026-10-17": [
-   {"c": "N", "t": "Der MEK-Besuch ersetzt den Puffer aus Rev. 5.3. Was diese Woche liegen blieb, holst du in den Grind+-Lücken nach."},
+   {
+    "c": "N",
+    "t": "Der MEK-Besuch ersetzt den Puffer aus Rev. 5.3. Was diese Woche liegen blieb, holst du in den Grind+-Lücken nach."
+   },
    {
     "c": "B",
     "t": "11:00 · MEK Dahlem: Belege für Raute, Achtstern, Zickzack, Lebensbaum",
@@ -642,9 +897,21 @@
     "f": "für jedes der vier Motive mindestens ein Fund mit Objektnummer und Region notiert ist und Claude die Notizen für die Belegtabelle v1.0 hat.",
     "p": "Projekt Time Travel, Docket W5, Sa 17.10., Besuch im Museum Europäischer Kulturen. Meine Funde: [je Fund: Motiv, Objektnummer, Titel, Region, Datierung, Beschriftung wörtlich, Foto ja/nein].\nErgänze damit die Belegtabelle v0.1 vom Di zu v1.0 (Quelle, Region, Abbildung je Motiv und Tradition). Sag mir je Motiv, ob die Drei-von-vier-Regel jetzt belegt ist, was noch fehlt und welche Videos ab Mi 21.10. eine Bedeutung nennen dürfen (V005, V011, V014, V015, V108–V112). Gate Mi 21.10.: Steht die Belegtabelle v1.0 nicht, kommt V120 statt V005.",
     "o": [
-     {"n": "Museum Europäischer Kulturen (MEK)", "u": "https://www.berlin.de/museum/3108962-2926344-museum-europaeischer-kulturen.html", "a": "Arnimallee 25, 14195 Berlin-Dahlem · Sa–So 11–18 Uhr, Mi–Fr 10–17 Uhr, Mo und Di zu · Eintritt 10 €, ermäßigt 5 € · Tel. 030 266 424 242", "h": "laut berlin.de, vor dem Besuch prüfen; filmen nur mit schriftlicher Erlaubnis"},
-     {"n": "Staatliche Museen zu Berlin · Antrag Film/Foto", "u": "https://www.smb.museum/presse/formulare/antrag-auf-presseberichterstattung/", "h": "Formular für aktuelle Berichterstattung, ob es für Marken-Content gilt, ist offen"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Museum Europäischer Kulturen (MEK)",
+      "u": "https://www.berlin.de/museum/3108962-2926344-museum-europaeischer-kulturen.html",
+      "a": "Arnimallee 25, 14195 Berlin-Dahlem · Sa–So 11–18 Uhr, Mi–Fr 10–17 Uhr, Mo und Di zu · Eintritt 10 €, ermäßigt 5 € · Tel. 030 266 424 242",
+      "h": "laut berlin.de, vor dem Besuch prüfen; filmen nur mit schriftlicher Erlaubnis"
+     },
+     {
+      "n": "Staatliche Museen zu Berlin · Antrag Film/Foto",
+      "u": "https://www.smb.museum/presse/formulare/antrag-auf-presseberichterstattung/",
+      "h": "Formular für aktuelle Berichterstattung, ob es für Marken-Content gilt, ist offen"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -663,7 +930,11 @@
     ],
     "f": "zwei Gespräche mit Code, Segment und Zitaten im Blatt „Gespräche“ stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gespräche“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gespräche“"
+     }
     ]
    },
    {
@@ -679,7 +950,11 @@
     ],
     "f": "die LUCID-Registriernummer im Blatt „Tools“ steht.",
     "o": [
-     {"n": "Zentrale Stelle Verpackungsregister · LUCID", "u": "https://www.verpackungsregister.org", "h": "Ablauf auf der Seite prüfen"}
+     {
+      "n": "Zentrale Stelle Verpackungsregister · LUCID",
+      "u": "https://www.verpackungsregister.org",
+      "h": "Ablauf auf der Seite prüfen"
+     }
     ]
    }
   ],
@@ -701,11 +976,29 @@
     "f": "Cockpit, Blatt „Content“ und „Kasse“ aktuell sind, jede ausgelöste Gegenmaßnahme einen Termin hat und die Zeile bei Claude ist.",
     "p": "Projekt Time Travel, Docket W5, Wochenreview So 18.10.\nW5: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel].\nDazu: Anmeldequote der Seite [%], Anteil warmer Tags (ref-netz, ref-papier, ref-stick) [%], Story 1: [Ergebnis], Tally-Antworten [Zahl], Netz [Zahl Namen], Zusagen [Zahl], Fabrik-Antworten [X von 8]. Ausgelöste Gates: [G…].\nOffen aus Woche 5: [Liste]. Sag mir, welche Gegenmaßnahmen in W6 an welchen Tag kommen.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden, Segment „E-Mail-Abonnenten“, Analysen"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Video → Analytics"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel → Insights"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden, Segment „E-Mail-Abonnenten“, Analysen"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Video → Analytics"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel → Insights"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -721,8 +1014,16 @@
     ],
     "f": "alle vier Bedingungen geprüft sind und für jede rote die Gegenmaßnahme mit Datum im Kalender steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Netz“, „Fabriken“, „Warteliste“"},
-     {"n": "IHK Berlin · Gründungsberatung", "u": "https://www.ihk.de/berlin", "h": "nur falls der Steuertermin fehlt, Link öffnen und prüfen"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Netz“, „Fabriken“, „Warteliste“"
+     },
+     {
+      "n": "IHK Berlin · Gründungsberatung",
+      "u": "https://www.ihk.de/berlin",
+      "h": "nur falls der Steuertermin fehlt, Link öffnen und prüfen"
+     }
     ]
    },
    {
@@ -738,7 +1039,10 @@
     ],
     "f": "die Spiel-Entscheidung schriftlich bei Claude ist.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -776,7 +1080,11 @@
      "check": "Nur Maßtabelle, Schnitt schwarz-weiß und ein Element flach (Regel bis 03.12.), keine Fabriknamen, DE-Test mit Hook B auf Deutsch, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T1"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T1"
+     }
     ]
    },
    {
@@ -813,7 +1121,11 @@
      "check": "Länder nur in der Caption und alphabetisch, posten nur bei grünem Gate Mi 21.10. und geklärter Baum-Referenz (sonst V120), Lebensbaum ohne Herkunftsadjektiv, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T1"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T1"
+     }
     ]
    },
    {
@@ -850,7 +1162,11 @@
      "check": "Stichzahl als Schätzung, Handstiche sind Übung und kein Produkt (maschinengestickt auf dem Zuschnitt), DE-Test mit Hook B auf Deutsch, nur Papier und Garn."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T3"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T3"
+     }
     ]
    },
    {
@@ -868,7 +1184,12 @@
     ],
     "f": "du weißt, ob der Markt stattfand und wie die Standanmeldung läuft, und 3 Notizen zu guten Ständen hast.",
     "o": [
-     {"n": "Nowkoelln Flowmarkt", "u": "https://www.berlin.de/en/shopping/markets/flea-markets/1762126-2983302-nowkoelln-flowmarkt.en.html", "a": "Maybachufer zwischen Nansenstraße und Liberdastraße, Neukölln · 10–17 Uhr · Eintritt frei", "h": "Termin 18.10. nur fortgeschrieben (Schätzung), vorher prüfen; Standpreis nicht gefunden"}
+     {
+      "n": "Nowkoelln Flowmarkt",
+      "u": "https://www.berlin.de/en/shopping/markets/flea-markets/1762126-2983302-nowkoelln-flowmarkt.en.html",
+      "a": "Maybachufer zwischen Nansenstraße und Liberdastraße, Neukölln · 10–17 Uhr · Eintritt frei",
+      "h": "Termin 18.10. nur fortgeschrieben (Schätzung), vorher prüfen; Standpreis nicht gefunden"
+     }
     ]
    }
   ]

@@ -3,13 +3,25 @@
  "phase": "P0",
  "goal": "Design einfrieren, Warteliste live, Tech Pack fertig, Startwerte gezählt",
  "kpi": [
-  {"k": "Freeze", "ziel": "Fr 09.10., spätestens 12:00 Auswertung"},
-  {"k": "Startwerte", "ziel": "Sa 10.10. gezählt"},
-  {"k": "Warteliste", "ziel": "live und getestet bis Fr 09.10."}
+  {
+   "k": "Freeze",
+   "ziel": "Fr 09.10., spätestens 12:00 Auswertung"
+  },
+  {
+   "k": "Startwerte",
+   "ziel": "Sa 10.10. gezählt"
+  },
+  {
+   "k": "Warteliste",
+   "ziel": "live und getestet bis Fr 09.10."
+  }
  ],
  "days": {
   "2026-10-08": [
-   {"c": "N", "t": "Die Startseite als Warteliste (Rev. 5.3) wandert auf Fr 09.10. Heute hat der Papiertest Vorrang. Langer Tag mit Absicht: Do bis So ist der kritische Pfad bis zum Freeze."},
+   {
+    "c": "N",
+    "t": "Die Startseite als Warteliste (Rev. 5.3) wandert auf Fr 09.10. Heute hat der Papiertest Vorrang. Langer Tag mit Absicht: Do bis So ist der kritische Pfad bis zum Freeze."
+   },
    {
     "c": "A",
     "t": "Steuerberater- oder IHK-Termin für Di 13.10. buchen, Gewerbeschein suchen",
@@ -24,9 +36,20 @@
     ],
     "f": "der Termin (Di 13.10., spätestens Fr 23.10.) im Kalender steht und du weißt, ob der Gewerbeschein Herstellung und Online-Handel abdeckt.",
     "o": [
-     {"n": "Steuerberaterkammer Berlin · Suchdienst", "h": "URL steht nicht im Plan: über die Suchmaschine „Steuerberaterkammer Berlin Suchdienst“ öffnen"},
-     {"n": "DATEV SmartExperts (Steuerberater-Suche)", "u": "https://www.smartexperts.de", "h": "laut tools.md, ungeprüft"},
-     {"n": "IHK Berlin · Gründungsberatung", "u": "https://www.ihk.de/berlin", "h": "Link öffnen und prüfen, Kosten und freie Termine erfragen"}
+     {
+      "n": "Steuerberaterkammer Berlin · Suchdienst",
+      "h": "URL steht nicht im Plan: über die Suchmaschine „Steuerberaterkammer Berlin Suchdienst“ öffnen"
+     },
+     {
+      "n": "DATEV SmartExperts (Steuerberater-Suche)",
+      "u": "https://www.smartexperts.de",
+      "h": "laut tools.md, ungeprüft"
+     },
+     {
+      "n": "IHK Berlin · Gründungsberatung",
+      "u": "https://www.ihk.de/berlin",
+      "h": "Link öffnen und prüfen, Kosten und freie Termine erfragen"
+     }
     ]
    },
    {
@@ -123,7 +146,10 @@
     "f": "Claude um 22:00 alle Fotos und die 4 Maße hat, oder der Nachholplan für Fr bis 10:00 im Kalender steht.",
     "p": "Projekt Time Travel, Docket W4, Do 08.10., Papiertest 3 mit Design v1.7.\nAnbei: die 7 Fotos (vorn 3 m, hinten 3 m, links seitlich 1 m, Serp nah, B2 nah, A und E nah, Patch mit Gürtel), die Variantenfotos (B-G, B-GS, B2-W, E-O, Lasche N, Patch auf der Passe) mit meinen Notizen „erkennbar: …“ und 8 Fotos meiner Eightyfive für das Wash Reference Sheet.\nMaße: Fingerspitze [X] cm unter Bundoberkante · gewählte Serp-Höhe [X] cm (W32) · Abstand der mittleren hinteren Schlaufen [X] mm · Münztasche Breite [X] mm, Höhe [X] mm. Gürtel verdeckt vom Baum: [keins / ein Drittel / die Hälfte]. Sitztest Goldfäden: [Notiz].\nBitte:\n1) Beurteile die Fotos. Regeln: Serp-Höhe ohne Verdecken und Reiben, bei Gleichstand 45 cm. Gürtel deckt weniger als ein Drittel der Krone → Patch 76 × 67 mm am Bund, sonst 66 × 58 mm auf der Passe. E-O nur, wenn es auf dem 3-m-Foto noch als bestickte Münztasche lesbar ist.\n2) Bau mir die Bilder 2–4 für Runde 2 des Schnelltests als beschriftete Collagen mit „1“ und „2“, je in Fassung A (Version 1 = v1.7) für P1, P3, P5, P7, P9 und Fassung B (Version 1 = neue Variante) für P2, P4, P6, P8, P10. Bild 2: Serp nah, v1.7 und B-G. Bild 3: linke Gesäßtasche, B2 v1.7 und B2-W. Bild 4: die Details nebeneinander in der Reihenfolge B · A · E · C · D · B2, Patch mit „N° 001/100“.\n3) Bereite den Freeze-Zettel für morgen 12:00 vor (Serp, B2, E, D mit Lasche, Taschenklappe, Nackenlabel, goldene Nähte, Tech-Pack-Zusätze).\n4) Leg das Wash Reference Sheet als eine PDF-Seite an, Vermerk: „Verschleißmuster wie Referenz, Grundton deutlich dunkler, L* 34–40.“",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -139,8 +165,15 @@
     ],
     "f": "du weißt: LUCID ja (Nummer im Blatt „Tools“) oder nein (Registrierung Sa 17.10.).",
     "o": [
-     {"n": "Zentrale Stelle Verpackungsregister · LUCID", "u": "https://www.verpackungsregister.org", "h": "Registrierung laut tools.md kostenlos, ungeprüft"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"}
+     {
+      "n": "Zentrale Stelle Verpackungsregister · LUCID",
+      "u": "https://www.verpackungsregister.org",
+      "h": "Registrierung laut tools.md kostenlos, ungeprüft"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     }
     ]
    }
   ],
@@ -160,8 +193,14 @@
     "f": "Claudes Auswertung da ist und für Serp, B2 und E je eine Empfehlung mit der Regel daneben steht.",
     "p": "Projekt Time Travel, Docket W4, Fr 09.10., 12:00, Auswertung des Zielgruppen-Schnelltests.\nTabelle (10 Personen, nur Codes P1–P10 mit Segment): [TABELLE EINFÜGEN]\nUkrainische oder polnische Stimme dabei: [ja/nein].\nWerte nach diesen Schwellen aus: S-Nennungen zum Serp v1.7 (F1 + F2) und zur grauen Version · F2-Wahl · S-Nennungen und Wahl zu B2 (F3) · häufigstes Detail (F4) · Innen-Druck (F4) · Median Tragen und Zahl der „ja“ (F5). Serp: 0 → Rot bleibt; 1 → mein Rat Grau; ≥ 2 oder 1 mit klarem Unbehagen aus UA/PL/Baltikum → B-G; ≥ 4 oder S-Nennungen auch zu Grau → Serp nicht in dieser Größe. B2: ≥ 2 S-Nennungen oder ≥ 6 für Weiß-Kante → B2-W.\nGib mir für jede Freeze-Frage eine Empfehlung mit der Regel daneben und füll den Freeze-Zettel mit meinen Ergebnissen von gestern: Serp-Höhe [X] cm, Gürtel [Ergebnis], E [voll / E-O], Stoppelfeld [v1.7 / B-GS]. Sprachregel: Subjekt ist das Muster.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -180,7 +219,10 @@
     "f": "du Claude „Freeze“ geschrieben und das Tech Pack v1.0 bestellt hast.",
     "p": "Projekt Time Travel, Docket W4, Fr 09.10., der Freeze ist abgenommen.\nBau mir das Tech Pack v1.0 für NVL-TT-01 als PDF auf Englisch aus produkt-spec_rev13.md und dem Freeze-Zettel von heute:\n1 Deckblatt (Version 1.0, Datum heute)\n2 Flachzeichnungen vorn und hinten mit Maßen (technisch, kein Rendering)\n3 Maßtabelle W30–W38 mit Toleranzen (Spec 1.1; Innenbein vorläufig +1,0 je Größe, ich entscheide am So)\n4 BOM\n5 Stoff und Waschung, mit Wash Reference Sheet aus meinen 8 Fotos, Vermerk „Verschleißmuster wie Referenz, Grundton deutlich dunkler, L* 34–40“\n6 Verschleißkarte mit den Freihaltezonen aus Spec 3.9: A Kantenabrieb an dieser Tasche 0 · E Kante ohne Abrieb · B2 und C Gesäßabrieb weich auslaufen, Taschenfläche frei · B 10 mm Abstand zur Naht, Abrieb dort nicht verstärken\n7 Stickspezifikation je Element A–E und B2 mit Platzierung ab Naht, 2 mm Denim zwischen Band A und Kante, Weiß nach der Wäsche L* ≥ 80, und wörtlich: „A, C, E: fine fill with cross-stitch texture is standard. True cross-stitch only if the washed stitch-out is clearly closer to the reference and costs at most €2 per pair more. Total cap 33,000 stitches; any excess needs my approval. Please state stitches, trims and colour changes per element.“\n8 Konstruktion: sticken → nähen → waschen, Münztaschen-Zuschnitt nach meinen Maßen [Breite] × [Höhe] mm, Schlaufen ≥ 8 mm vom Patch, Saum nach der Wäsche auf Länge, 9 Goldfäden nach der Wäsche von Hand\n9 Labels und Verpackung: Pflegeetikett mit Faserangabe auf Deutsch, Pflege und Herstellerangabe Novalife mit Postanschrift und E-Mail (GPSR); Patch D in der Freeze-Größe mit Lasche „N° ___ / 100“\n10 Prüfplan mit Anti-Backstaining-Frage und schriftlicher REACH-Bestätigung (Nickel in Knopf und Nieten, Azofarbstoffe)\nFarbvorbehalt B/B2 bis 07.11.: [ja/nein]. Sprachregel: Subjekt ist das Muster.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -212,9 +254,19 @@
     "f": "die Testadresse in Shopify als „abonniert“ steht, die Willkommens-Mail angekommen ist und die Startseite ohne Passwort mit einem Papiertest-Foto erreichbar ist.",
     "p": "Projekt Time Travel, Docket W4, Fr 09.10. Schreib mir zwei Texte auf Deutsch, jeweils mit einer englischen Kurzfassung darunter.\n1) Startseite (Shopify Dawn, Warteliste): Überschrift mit höchstens 6 Wörtern, zwei kurze Absätze, Button-Text, eine Zeile unter dem Formular.\n2) Willkommens-Mail nach dem Double-Opt-in: Betreff, 4–6 Sätze, Gruß von Ernest.\nFakten: Time Travel, 100 bestickte Jeans, jede mit Nummer, entworfen in Berlin. Drop Do 22.04.2027 um 19:00, Vorbestellung ab 14.01.2027. Ich zeige den Weg vom Papier an der Hose bis zur Fabrik. Vorteil wörtlich: „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“\nRegeln: Subjekt ist das Muster, nicht das Volk. Wortliste: Kreuzstich-Band, Achtstern, maschinengestickt auf dem Zuschnitt. Kein Streichpreis, kein „169 €“, keine Länder, kein Herkunftsadjektiv, nie „authentisch“. In der Mail noch kein Empfehlungslink.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"},
-     {"n": "e-recht24 · Impressum- und Datenschutz-Generator", "u": "https://www.e-recht24.de", "h": "nur falls Impressum oder Datenschutz vom 07.10. noch fehlen"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "e-recht24 · Impressum- und Datenschutz-Generator",
+      "u": "https://www.e-recht24.de",
+      "h": "nur falls Impressum oder Datenschutz vom 07.10. noch fehlen"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    }
   ],
@@ -232,7 +284,11 @@
     "f": "der Prompt in einem Chat mit Websuche läuft und Claude die ersten Fabriken mit Quelle geprüft hat.",
     "p": "Projekt Time Travel, Docket W4, Sa 10.10. Bitte recherchiere mit Websuche, nur auf offiziellen Websites. Keine B2B-Verzeichnisse, keine Lead- oder Scraper-Datenbanken, keine E-Mail-Adresse erfinden. Zu jeder Angabe die URL der Seite und das Zitat. Was du nicht auf einer offiziellen Seite findest, markierst du „ungeprüft“.\n\nTeil 1 · Prüfe diese vier Jeansfabriken nach meiner Prüfliste: Istanbul Clothing Manufacturers (istanbulclothingmanufacturers.com), Portugal Textile – Jeans Factory (portugaltextile.com), Brosan Textile (brosantextile.com), White Cotton (whitecotton.pt).\nPrüfliste: 1 Impressum oder „Legal“ (Firmenname, Adresse, Steuernummer: PT NIF, TR Vergi No) · 2 Adresse (sag mir, was ich in Google Maps prüfen soll: Betriebsgebäude oder Büro) · 3 „About“: eigene Fabrik („our factory“, Fläche, Mitarbeiter) oder Vermittler („our partner factories“, „we source“, „network of manufacturers“) · 4 Fotos von Stickmaschinen mit mehreren Köpfen, Industriewaschmaschinen, Laser · 5 Fotos von Stickerei auf Denim, am besten auf flachem Zuschnitt · 6 MOQ, Musterzeit, Zahlung wörtlich · 7 Kontaktweg genau so, wie er auf der Seite steht · 8 Instagram oder LinkedIn, von der Website verlinkt, Beitrag in den letzten 3 Monaten.\n\nTeil 2 · Schlag mir 4 weitere Kandidaten vor, so dass insgesamt je mindestens 3 aus der Türkei und aus Portugal dabei sind. Muss: Denim als Kernprodukt, Stickerei auf dem Zuschnitt im eigenen Haus, eigene Wäscherei, MOQ 50–150. Suchbegriffe: „denim manufacturer Portugal embroidery in-house low MOQ“ · „jeans factory Portugal laundry laser embroidery small quantities“ · „denim garment manufacturer Turkey embroidery laser washing small MOQ“ · „private label jeans manufacturer Istanbul embroidery“ · „kot pantolon fason üretim nakış“ · „nakışlı kot imalatı yıkama lazer“ · „fábrica de calças de ganga bordados“ · „confeção ganga pequenas quantidades lavandaria“.\nFür alle 8: K.-o. (eigene Fabrik belegt · Denim als Kern · Kontakt auf der eigenen Website) und Punkte, max. 15: Stickerei im Haus nur im Text 2, mit Maschinenfotos 3 · Panel-Stickerei erwähnt oder gezeigt 2 · Fotos von Stickerei auf Denim 2 · Wäscherei im Haus 2 · Laser im Haus 1 · MOQ öffentlich ≤ 150 → 1, ≤ 100 → 2 · arbeitet sichtbar mit kleinen Marken 1 · Impressum vollständig 1 · Website auf Englisch oder Deutsch mit Ansprechperson oder Formular 1.\nAusgabe als Tabelle: Name · Land · Website · Kontaktweg · Quelle · Eigene Fabrik (ja / Vermittler / unklar) · Punkte · MOQ ≤ 75 (ja/nein) · Risiken.\n\nTeil 3 · Prüfe diese Punkte gegen die Primärquelle, je Punkt: Ergebnis, Zitat, URL, Stand. Keine Rechtsberatung, nur was dort steht.\n1 Feiertage Türkei: 28.10. nachmittags, 29.10.; Ramadan 2027 und Ramadan-Fest (Diyanet bzw. amtlicher Kalender der Türkei)\n2 Feiertage Portugal 01.12. und 08.12. (amtlicher Kalender Portugal)\n3 Minijob oder kurzfristige Beschäftigung, Mindestlohn 2027, Unfallversicherung für Helfer (Minijob-Zentrale, Bundesregierung)\n4 PAngV § 11: Preisermäßigung, niedrigster Preis der letzten 30 Tage (gesetze-im-internet.de)\n5 § 312g BGB (Widerruf bei Waren nach Kundenspezifikation), § 312j BGB, Art. 246a EGBGB (Liefertermin) (gesetze-im-internet.de)\n6 UWG bei „Die Liste kauft zuerst“ und Creator-Kennzeichnung (nur der Gesetzestext; die Bewertung macht die Rechtstexte-Hotline am 24.11.)\n7 REACH: Nickelabgabe bei Metallteilen mit Hautkontakt, Azofarbstoffe (ECHA, REACH Anhang XVII)\n8 Feiertag Berlin 08.03. (berlin.de)\n9 Shopify: Bestand je Variante, Zeitsteuerung, abgebrochene Bestellungen, Domain-Authentifizierung, Willkommens-Automation, Email-Freikontingent (help.shopify.com)\n10 Zoll auf Patches und Muster in die Türkei, A.TR für Proto und PP (zoll.de)\n11 Lenins Geburtstag 22.04.1870 (Nachschlagewerk)\n12 ARD/ZDF-Medienstudie 2025, Instagram- und TikTok-Wert (PDF)",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "normaler Chat mit Websuche"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai",
+      "h": "normaler Chat mit Websuche"
+     }
     ]
    },
    {
@@ -251,11 +307,29 @@
     "f": "beide Bio-Links mit utm zur Warteliste führen, die Startwerte im Blatt „Warteliste“ und im Cockpit stehen und das Markenkern-Blatt freigegeben ist.",
     "p": "Projekt Time Travel, Docket W4, Sa 10.10. Schreib mir das Markenkern-Blatt als Notiz fürs Handy, eine Seite:\n1 der Satz unter dem Namen\n2 die Markenzeile „Aus drei Metern ein paar Punkte. Aus dreißig Zentimetern ein Uhrwerk.“\n3 vier Säulen mit Beweis: Handwerk, Erinnerung, Ehrlichkeit, Knappheit\n4 die Wortliste „geht / geht nicht“ nach meinem Freeze von gestern\n5 sechs kurze Antworten auf Einwände für Kommentare und DMs, Standard: „Das Muster gibt es in Belarus, Polen, Russland und der Ukraine. Es gehört keinem allein.“\n6 Bio für Instagram und TikTok auf Englisch und Deutsch, je höchstens 80 Zeichen, mit „Drop 22.04.2027“\nRegeln: Subjekt ist das Muster, kein „wir“ als Volk, nie „authentisch“, Stichzahl nur als Schätzung, keine Länder in der Bio.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "App am Handy, Business-Konto"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "App am Handy, Profi-Konto"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Kanal „Novalife“ für Shorts"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "App am Handy, Business-Konto"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "App am Handy, Profi-Konto"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Kanal „Novalife“ für Shorts"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -273,13 +347,39 @@
     ],
     "f": "alle vier Fabriken im Blatt „Fabriken“ Kontaktweg, Quelle, „geprüft am“, Eigene Fabrik und Punkte haben.",
     "o": [
-     {"n": "Portugal Textile – Jeans Factory (PT)", "u": "https://portugaltextile.com", "h": "ungeprüft: eigener Betrieb oder Portal? Stickerei im Haus?"},
-     {"n": "Istanbul Clothing Manufacturers (TR)", "u": "https://istanbulclothingmanufacturers.com", "h": "ungeprüft: eigene Fabrik oder Vermittler? Stickerei im Haus ungeklärt"},
-     {"n": "White Cotton (PT)", "u": "https://whitecotton.pt", "h": "ungeprüft: MOQ ab 50 laut Plan, Denim als Kern?"},
-     {"n": "Brosan Textile (TR)", "u": "https://brosantextile.com", "h": "ungeprüft, Preisvergleich Türkei"},
-     {"n": "Google Maps", "u": "https://maps.google.com", "h": "Street View oder Satellit für die Adresse"},
-     {"n": "Google Lens", "h": "in der Google-App: Foto rückwärts suchen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"}
+     {
+      "n": "Portugal Textile – Jeans Factory (PT)",
+      "u": "https://portugaltextile.com",
+      "h": "ungeprüft: eigener Betrieb oder Portal? Stickerei im Haus?"
+     },
+     {
+      "n": "Istanbul Clothing Manufacturers (TR)",
+      "u": "https://istanbulclothingmanufacturers.com",
+      "h": "ungeprüft: eigene Fabrik oder Vermittler? Stickerei im Haus ungeklärt"
+     },
+     {
+      "n": "White Cotton (PT)",
+      "u": "https://whitecotton.pt",
+      "h": "ungeprüft: MOQ ab 50 laut Plan, Denim als Kern?"
+     },
+     {
+      "n": "Brosan Textile (TR)",
+      "u": "https://brosantextile.com",
+      "h": "ungeprüft, Preisvergleich Türkei"
+     },
+     {
+      "n": "Google Maps",
+      "u": "https://maps.google.com",
+      "h": "Street View oder Satellit für die Adresse"
+     },
+     {
+      "n": "Google Lens",
+      "h": "in der Google-App: Foto rückwärts suchen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -319,8 +419,15 @@
      "check": "Nur Papier, kein Mockup, keine Seitenansicht links, B und B2 nie im selben Bild, kein roter Hintergrund, CTA der Phase, nie „authentisch“."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "App am Handy oder Mac"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "App am Handy oder Mac"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -352,8 +459,16 @@
     ],
     "f": "im Blatt „Fabriken“ bis zu 8 Fabriken mit bestandenem K.-o., Punkten und Kontaktweg stehen, je mindestens 3 aus TR und PT.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "Chat von gestern mit der Prüfung"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai",
+      "h": "Chat von gestern mit der Prüfung"
+     }
     ]
    },
    {
@@ -370,8 +485,15 @@
     ],
     "f": "die Liste 8 Fabriken hat oder die fehlenden als Nachzügler für Mi 14.10. im Blatt stehen.",
     "o": [
-     {"n": "Google Maps", "u": "https://maps.google.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+     {
+      "n": "Google Maps",
+      "u": "https://maps.google.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     }
     ]
    },
    {
@@ -380,18 +502,24 @@
     "m": 60,
     "s": [
      "Handy im Zeitraffer auf den Schreibtisch, Timer 60:00 ins Bild, am Ende auf Papier schreiben, was erledigt ist, Timer 00:00. Das ist das Material für die Reserve V116 „Eine Stunde am Tag“, falls V002 am Mi keinen Beleg hat. Bildschirm nicht lesbar, keine Fabriknamen im Bild.",
-     "Claudes Tech-Pack-PDF Seite für Seite: Stilnummer NVL-TT-01? Maße W30–W38 vollständig mit Toleranzen (Spec 1.1)? Alle Elemente A–E und B2 mit Maß und Position ab Naht, so wie im Freeze? Garn Polyester? Reihenfolge sticken → nähen → waschen? Goldfäden nach der Wäsche von Hand?",
-     "Freeze-Zusätze drin? Füllung als Standard und Deckel 33.000 Stiche (mit Stichen, Fadenschnitten und Farbwechseln je Element) · 2 mm Denim zwischen Band A und Kante · Weiß nach der Wäsche L* ≥ 80 · Schlaufen ≥ 8 mm vom Patch · Patch D in der Freeze-Größe mit Lasche „N° ___ / 100“ · Münztaschen-Zuschnitt nach deinen Maßen · Pflegeetikett mit Faserangabe auf Deutsch, Pflege und Novalife mit Postanschrift und E-Mail (GPSR) · Wash Reference Sheet mit Vermerk L* 34–40.",
-     "Verschleißkarte von Claude prüfen (Spec 3.9): A Kantenabrieb an dieser Tasche 0 · E Kante ohne Abrieb · B2 und C Gesäßabrieb weich auslaufen, Taschenfläche frei · B 10 mm Abstand zur Naht, Abrieb dort nicht verstärken. Weg A (trennen) ist die Vorgabe.",
+     "Claudes Tech-Pack-PDF Seite für Seite: Stilnummer NVL-TT-01? Maße W30–W38 vollständig mit Toleranzen (Spec 1.1)? Elemente A, E, B2, C und Patch D mit Maß und Position ab Naht? Der Serp (B) ist am 11.10. gestrichen und darf nirgends mehr stehen. Garn Polyester? Reihenfolge sticken → nähen → waschen? Goldfäden nach der Wäsche von Hand?",
+     "Freeze-Zusätze drin? Füllung als Standard und Deckel 28.000 Stiche (ohne Serp; mit Stichen, Fadenschnitten und Farbwechseln je Element) · 4 Stickzonen statt 5 · 2 mm Denim zwischen Band A und Kante · Weiß nach der Wäsche L* ≥ 80 · Patch D als hintere Gürtelschlaufe: nur links und rechts genäht und genietet, oben und unten offen, Gürtel läuft dahinter, Verstärkung auf der Rückseite, Größe nach dem Papiertest von heute · Münztaschen-Zuschnitt nach deinen Maßen · Pflegeetikett mit Faserangabe auf Deutsch, Pflege und Novalife mit Postanschrift und E-Mail (GPSR) · Wash Reference Sheet mit Vermerk L* 34–40.",
+     "Verschleißkarte von Claude prüfen (Spec 3.9): A Kantenabrieb an dieser Tasche 0 · E Kante ohne Abrieb · B2 und C Gesäßabrieb weich auslaufen, Taschenfläche frei. Die Zone am linken Bein (Serp) entfällt.",
      "Innenbein-Gradierung entscheiden: +1,0 wie Spec 1.1 oder +1,5. Claude hat dazu keinen Rat, es fehlen Daten. Ohne Grund für +1,5 bleibt es bei +1,0.",
      "Was unklar ist, als Frage an Claude, nicht als Änderung. Stimmt alles: „Tech Pack v1 freigegeben“ an Claude und das PDF in einen Ordner „to factory“ auf dem Desktop (den filmst du nächste Woche für V004).",
      "RFQ-Zusätze: Prompt unten senden. Claudes Zusatzfragen hängst du morgen an die Vorlage „RFQ Jeansfabrik“ (Docket → Referenz → Vorlagen)."
     ],
     "f": "das Tech Pack v1.0 freigegeben im Ordner „to factory“ liegt und Claudes Zusatzfragen für die RFQ bereitliegen.",
-    "p": "Projekt Time Travel, Docket W4, So 11.10. Das Tech Pack v1.0 ist freigegeben (Innenbein-Gradierung: [+1,0 / +1,5]).\nSchreib mir auf Englisch nummerierte Zusatzfragen ab Nr. 16, die ich an meine Vorlage „RFQ Jeansfabrik“ anhänge, kurz und klar:\nPreis bei 75 und bei 100 Stück · Preis je 1.000 Stiche · Kosten für Fadenschnitte und Farbwechsel · Preis DDP Berlin und DAP Berlin · Angebot in Euro · Betriebsferien bis April 2027 · Taschenfutter-Druck einfarbig, Preis bei 100 Stück · Anti-Backstaining im Waschprozess · Kann Patch D ([Größe aus dem Freeze]) im Haus gestickt werden? · schriftliche REACH-Konformität für Knopf und Nieten (Nickel) und für die Farbstoffe (Azofarbstoffe) · Arbeitszeiten im Ramadan 2027 · Feiertage bis April 2027.\nDazu: 1 Satz für den Fall, dass der Freeze nicht steht („final placement confirmed by 16.10.“), 1 Satz für den Farbvorbehalt B/B2 bis 07.11. ([gilt / gilt nicht]), und eine Liste, welche Zeilen der Vorlage ich nach dem Freeze ändern muss (Patch-Größe statt 86 × 76 mm, Garnfarben, Serp). Nichts doppelt zu den Fragen 1–15 der Vorlage.",
+    "p": "Projekt Time Travel, Docket W4, So 11.10. Das Tech Pack v1.0 ist freigegeben (Innenbein-Gradierung: [+1,0 / +1,5]).\nSchreib mir auf Englisch nummerierte Zusatzfragen ab Nr. 16, die ich an meine Vorlage „RFQ Jeansfabrik“ anhänge, kurz und klar:\nPreis bei 75 und bei 100 Stück · Preis je 1.000 Stiche · Kosten für Fadenschnitte und Farbwechsel · Preis DDP Berlin und DAP Berlin · Angebot in Euro · Betriebsferien bis April 2027 · Taschenfutter-Druck einfarbig, Preis bei 100 Stück · Anti-Backstaining im Waschprozess · Kann Patch D ([Größe aus dem Freeze]) im Haus gestickt werden? · schriftliche REACH-Konformität für Knopf und Nieten (Nickel) und für die Farbstoffe (Azofarbstoffe) · Arbeitszeiten im Ramadan 2027 · Feiertage bis April 2027.\nDazu: 1 Satz für den Fall, dass der Freeze nicht steht („final placement confirmed by 16.10.“), 1 Satz für den Farbvorbehalt B2 bis 07.11. ([gilt / gilt nicht]), und prüf die Vorlage nach dem Freeze vom 11.10.: Serp gestrichen (4 Stickzonen, ~28.000 Stiche, Farben Weiß, Rot, Gold, Dunkelgold), Patch D als hintere Gürtelschlaufe (nur links und rechts genäht und genietet, Gürtel läuft dahinter), Größe [86 × 76 / 76 × 67] nach dem Papiertest. Sag mir, welche Zeilen der Vorlage dann noch nicht stimmen. Nichts doppelt zu den Fragen 1–15 der Vorlage.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „RFQ Jeansfabrik“"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „RFQ Jeansfabrik“"
+     }
     ]
    },
    {
@@ -427,7 +555,11 @@
      "check": "Ersetzt den Hook „Älter als jede Grenze“, „sown field“ und „one of the oldest“ nur mit Beleg aus der Belegtabelle (sonst V116), nur Papier, keine Karte, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T1"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T1"
+     }
     ]
    },
    {
@@ -463,7 +595,11 @@
      "check": "Zahlen mit Rev. 6 abgeglichen (9.380 · 4.500 · 4.880), nur Papier und Zahl, Rückzahlungssatz wörtlich ohne zusätzliche Frist, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage T2"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Vorlage T2"
+     }
     ]
    },
    {
@@ -475,16 +611,50 @@
      "Zahlen ins Cockpit (Docket, Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt · Follower TikTok + Instagram gesamt (der Startwert vom Sa steht schon) · Zusagen „Die ersten 35“ (0, das Blatt kommt Di) · Jeans bestellt und bezahlt (0).",
      "Gates aus 7.1: Views und Anmeldungen je 1.000 Views gibt es erst ab dem ersten Post am Mo 12.10. G1 bis G9 prüfst du ab So 18.10. Heute nur G12.",
      "G12 Kassencheck: K = Projektkonto heute · F = was bis zum nächsten harten Gate fällig ist (bis zur Validierung am So 01.11. laut Plan kaum etwas, die Entwicklung zahlst du erst nach grüner Validierung) · R = Rücklagen (Blatt „Kasse“ ab Di 13.10.). K − F − R ≥ 300 € grün · 0–300 € gelb: keine Ausgaben außerhalb von Plan 3 · unter 0 rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter.",
-     "Freeze-Ergebnis festhalten: Serp (Farbe, Höhe), B2-Kante, E, Patch (Größe, Ort, Lasche), Farbvorbehalt ja/nein, Innenbein. Eine Zeile ins Blatt „Fabriken“ unter Notizen.",
+     "Freeze-Ergebnis festhalten: Serp gestrichen (11.10.), Patch D als Gürtelschlaufe (Größe A oder B aus dem Papiertest, mittig auf der Mittelnaht oder rechts daneben, NL ja/nein), B2-Kante, E, Farbvorbehalt B2 ja/nein, Innenbein. Eine Zeile ins Blatt „Fabriken“ unter Notizen.",
      "Offenes aus W4 sammeln und mit der Zeile unten an Claude."
     ],
     "f": "Cockpit und Blatt „Warteliste“ aktuell sind und die Zeile mit dem Freeze-Ergebnis bei Claude ist.",
-    "p": "Projekt Time Travel, Docket W4, Wochenreview So 11.10.\nW4: Liste [X] (+[Y]), Views 0 (erster Post Mo 12.10.), bestes Video –, schwächstes –, Anmeldungen je 1.000 Views –, kritische Kommentare 0, Kasse [grün/gelb/rot].\nFreeze: Serp [Farbe, Höhe], B2 [Kante ja/nein], E [voll/offen], Patch [Größe, Ort, Lasche], Farbvorbehalt B/B2 [ja/nein], Innenbein [+1,0/+1,5].\nOffen aus Woche 4: [Liste]. Sag mir, was davon in W5 wohin kommt.",
+    "p": "Projekt Time Travel, Docket W4, Wochenreview So 11.10.\nW4: Liste [X] (+[Y]), Views 0 (erster Post Mo 12.10.), bestes Video –, schwächstes –, Anmeldungen je 1.000 Views –, kritische Kommentare 0, Kasse [grün/gelb/rot].\nFreeze: Serp gestrichen, Patch D als Gürtelschlaufe [A 86 × 76 / B 76 × 67, mittig / rechts, NL ja/nein], B2 [Kante ja/nein], E [voll/offen], Farbvorbehalt B2 [ja/nein], Innenbein [+1,0/+1,5].\nOffen aus Woche 4: [Liste]. Sag mir, was davon in W5 wohin kommt.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
+   },
+   {
+    "c": "B",
+    "t": "Papiertest: Patch D als Gürtelschlaufe (Blatt vom 11.10.)",
+    "m": 20,
+    "s": [
+     "NVL_Papiertest_Patch_Schlaufe.pdf aus dem Chat mit Claude drucken, „Tatsächliche Größe“ bzw. 100 %, Kontrolllinie messen: genau 100 mm.",
+     "Patch A (86 × 76 mm, wie dein Foto) und B (76 × 67 mm) an der Patch-Kante ausschneiden und auf dünne Pappe kleben.",
+     "Gürtel aus der Hose ziehen. A mittig auf die hintere Mittelnaht halten, Oberkante bündig mit der Bundoberkante. Nur den linken und rechten Rand (je 8 mm, schraffiert auf Bauplan C) mit Malerkrepp festkleben, oben und unten offen.",
+     "Gürtel einfädeln: durch die Schlaufen und hinter A durch. Gürtelbreite messen.",
+     "Prüfen: Liegt A flach? Sieht man den ganzen Baum? Hinsetzen: knickt A oder drückt er in den Rücken? Dann alles mit B wiederholen.",
+     "Fotos hinten aus 1 m und 3 m, seitlich, sitzend, je A und B. Dazu Gürtelbreite, Bundhöhe, Abstand der zwei mittleren Schlaufen."
+    ],
+    "f": "Fotos von A und B mit Gürtel und die drei Maße bei Claude sind und du A oder B gewählt hast.",
+    "p": "Projekt Time Travel, Docket W4, So 11.10. Papiertest Patch D als Gürtelschlaufe. Fotos: [anhängen]. Gürtelbreite [mm], Bundhöhe [mm], Abstand der mittleren Schlaufen [mm]. A oder B: [..], mittig auf der Mittelnaht oder rechts daneben: [..], NL auf dem Patch: [ja/nein]. Prüf, ob der Tunnel (ca. 70 mm innen) für meinen Gürtel reicht, ob der Patch beim Sitzen knickt, und schreib mir die Patch-Zeilen für Tech Pack und Patch-Anfrage neu (Größe, Konstruktion, Verstärkung, Nieten).",
+    "o": [
+     {
+      "n": "NVL_Papiertest_Patch_Schlaufe.pdf",
+      "h": "von Claude am 11.10. im Chat geschickt"
+     }
+    ]
+   },
+   {
+    "c": "N",
+    "t": "Entscheidung 11.10.: Der Serp (B) ist gestrichen, Patch D wird die hintere Gürtelschlaufe. Wo der Tagesplan später noch den Serp nennt, entfällt dieser Teil. Claude schneidet die betroffenen Aufgaben neu."
    }
   ]
  }

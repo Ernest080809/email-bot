@@ -157,7 +157,7 @@ plan = [("Entwicklung", "Schnitt + Gradierung W30–W38", 300, "Nov 26"), ("Entw
         ("Produktion", "Anzahlung 50 % (100 × ~60 €)", 3000, "Feb 27"), ("Produktion", "Restzahlung 50 %", 3000, "Mär 27"),
         ("Launch", "Verpackung inkl. Hangtags", 240, "Feb 27"), ("Launch", "Versandmaterial", 80, "Mär 27"),
         ("Launch", "Werbung, 2 Kampagnen à 150 €", 300, "Mär–Apr 27"), ("Launch", "Puffer (Aseprite, Rechtstexte, Kleinkram)", 100, "—")]
-ungeplant = [("Ungeplant", "Einfuhrumsatzsteuer (nur Türkei + Kleinunternehmer, Schätzung)", 1150, "bei Einfuhr ~25.–30.03."),
+ungeplant = [("Ungeplant", "Einfuhrumsatzsteuer (nur Türkei + Kleinunternehmer, Schätzung)", 1150, "bei Einfuhr ~27.05.–01.06."),
              ("Ungeplant", "Steuerberater", None, ""), ("Ungeplant", "Rechtstexte-Service über 80 €", None, ""),
              ("Ungeplant", "Verpackungslizenz (LUCID / System)", None, ""), ("Ungeplant", "Helferlohn (Packen)", None, ""),
              ("Ungeplant", "Abende (Getränke, Raum)", None, ""), ("Ungeplant", "EUSt + Kurier auf Proto und PP", None, ""),
@@ -330,7 +330,7 @@ INDEX.append(("Patches", "Label-Patch D und Chenille: Anbieter, Muster, Waschtes
 
 # ---------- Creator / Presse / Orte / Berlin / Abende / Shoot ----------
 ws = sheet("Creator", "Creator · Longlist, Shortlist, Abmachung", "Kriterien: Berlin oder deutschsprachig, 5.000–80.000 Follower, eigene Jeans-Outfits, keine Politik. Geschenktes Paar = als Anzeige kennzeichnen.",
-           ["Handle", "Plattform", "Ort", "Follower ca.", "Stil in 3 Wörtern", "Größe (falls sichtbar)", "Brand-Safety ok", "Liste", "DM C2 am", "Antwort", "Zusage", "Ref-Code", "Clip bis 15.01.", "Story 17.–21.04.", "Anmeldungen", "Notiz"],
+           ["Handle", "Plattform", "Ort", "Follower ca.", "Stil in 3 Wörtern", "Größe (falls sichtbar)", "Brand-Safety ok", "Liste", "DM C2 am", "Antwort", "Zusage", "Ref-Code", "Clip bis 15.01.", "Story 19.–23.06.", "Anmeldungen", "Notiz"],
            [18, 10, 12, 11, 22, 12, 11, 11, 11, 20, 9, 14, 11, 11, 11, 30])
 dropdown(ws, "B", ["TikTok", "Instagram", "YouTube"])
 dropdown(ws, "G", ["ja", "nein"])
@@ -348,11 +348,11 @@ ws = sheet("Berlin", "Berlin · Feedback aus Läden und Märkten", "Wer, was ges
 ws = sheet("Abende", "Abende · Papiertest, Stick, Mess-Abende, Drop", "Ein Abend ist ein Erfolg, wenn Gäste auf die Liste kommen und Zusagen entstehen.",
            ["Abend", "Datum", "Ort", "Gast", "eingeladen", "zugesagt", "gekommen", "auf der Liste", "Größe gemessen", "Zusage", "bestellt", "Notiz"],
            [16, 11, 18, 20, 10, 9, 9, 10, 10, 9, 9, 30])
-dropdown(ws, "A", ["Papiertest 24.10.", "Stick 27.11.", "Creator-Preview 12.01.", "Mess 1 16.01.", "Mess 2 23.01.", "Mess 2b 27.01.", "Mess 3 13.03.", "Drop-Abend 24.04."])
+dropdown(ws, "A", ["Papiertest 24.10.", "Stick 27.11.", "Creator-Preview 12.01.", "Mess 1 16.01.", "Mess 2 30.01.", "Mess 2b 03.02.", "Mess 3 15.05.", "Drop-Abend 26.06."])
 for col in "EFGHJK":
     dropdown(ws, col, ["ja", "nein"])
 dropdown(ws, "I", ["W30", "W32", "W34", "W36", "W38", "kleiner", "größer"])
-ws = sheet("Shoot", "Shoot · Sa 20.02.", "Fotograf mit schriftlichen Nutzungsrechten (Shop, Werbung, Presse).",
+ws = sheet("Shoot", "Shoot · Sa 06.03.", "Fotograf mit schriftlichen Nutzungsrechten (Shop, Werbung, Presse).",
            ["Name", "Rolle", "Kontaktweg", "angefragt am", "Zusage", "Nutzungsrechte schriftlich", "Kosten €", "Notiz"], [20, 14, 26, 12, 9, 14, 10, 30])
 for t, w_ in (("Creator", "Creator von Longlist bis Story im April."), ("Presse", "Medien, Wellen, Antworten."), ("Orte", "Läden und Räume für die Abende."),
               ("Berlin", "Feedback aus Läden und von Märkten."), ("Abende", "Gäste je Abend bis zur Bestellung."), ("Shoot", "Team und Rechte für den Shoot.")):
@@ -421,9 +421,9 @@ dropdown(ws, "D", ["zu klein", "zu groß", "Länge", "Qualität", "gefällt nich
 dropdown(ws, "E", ["Umtausch", "Erstattung"])
 ws = sheet("Kaufgrund", "Kaufgrund · eine Frage nach dem Kauf", "Datum, Antwort im Wortlaut, Quellen-Tag.",
            ["Datum", "Antwort", "Quellen-Tag", "Notiz"], [11, 60, 18, 30])
-ws = sheet("Drop", "Drop · 22.–25.04.", "Prüfpunkte: Do 21:00 ≥ 15 · Fr 19:00 ≥ 26 · So ≥ 29 netto.",
+ws = sheet("Drop", "Drop · 24.–27.06.", "Prüfpunkte: Do 21:00 ≥ 15 · Fr 19:00 ≥ 26 · So ≥ 29 netto.",
            ["Zeitpunkt", "Soll", "Ist", "ok?", "Maßnahme"], [18, 8, 8, 8, 60],
-           [["Do 22.04. 21:00", 15], ["Fr 23.04. 19:00", 26], ["So 25.04. netto", 29]])
+           [["Do 24.06. 21:00", 15], ["Fr 25.06. 19:00", 26], ["So 27.06. netto", 29]])
 for r in range(4, 7):
     ws[f"D{r}"] = f'=IF(C{r}="","",IF(C{r}>=B{r},"ok","darunter"))'
     ws[f"C{r}"].fill = YELLOW

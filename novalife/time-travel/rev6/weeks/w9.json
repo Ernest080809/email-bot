@@ -3,12 +3,30 @@
  "phase": "P2",
  "goal": "Stickdatei prüfen und freigeben, Website Stufe 1 bauen",
  "kpi": [
-  {"k": "Warteliste", "ziel": "270 bestätigt (Alarm 110)"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~810 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)", "ziel": "11"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "Stiche", "ziel": "≤ 28.000"}
+  {
+   "k": "Warteliste",
+   "ziel": "270 bestätigt (Alarm 110)"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~810 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+   "ziel": "11"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  },
+  {
+   "k": "Stiche",
+   "ziel": "≤ 28.000"
+  }
  ],
  "days": {
   "2026-11-09": [
@@ -27,8 +45,15 @@
     "f": "Stichzahl, Fadenschnitte und Farbwechsel je Element im Blatt stehen und die Korrekturliste oder ein „Passt“ an die Fabrik raus ist.",
     "p": "Projekt Time Travel, Docket W9, Mo 09.11. Hier ist die Digitizing-Vorschau der Fabrik für die Stickzonen A, E, B2 und C mit Stichzahl, Fadenschnitten und Farbwechseln: [Screenshots, Zahlen]. Vergleiche mit dem Elementblatt und Spec Rev. 14: Maße, Motive, Stichart (Füllung als Standard), Dichte, Farben des B2-Bands. Stichdeckel 28.000 gesamt. Gib mir eine nummerierte Korrekturliste auf Englisch und sag mir, welche Elemente die meisten Fadenschnitte haben und wie man sie senkt, ohne das Motiv zu ändern.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“, Spalte „Digitizing“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“, Spalte „Digitizing“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -50,7 +75,12 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "My pattern just became machine code.",
      "hook_de": "Mein Muster ist gerade Maschinen-Code geworden.",
-     "shots": ["Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose)", "Echte Stichzahl groß einblenden", "Vergleich: estimate ~28,000 vs. real [ZAHL]", "Deine Reaktion, ein Satz"],
+     "shots": [
+      "Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose)",
+      "Echte Stichzahl groß einblenden",
+      "Vergleich: estimate ~28,000 vs. real [ZAHL]",
+      "Deine Reaktion, ein Satz"
+     ],
      "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), Gesicht und Hände vom So 08.11.",
      "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
      "text": "0–2 s Hook EN, „~28,000 vs. [ZAHL]“, Untertitel",
@@ -58,7 +88,24 @@
      "caption": "Day 29. A digitizer turns a drawing into a stitch file: every needle point, every colour change. My estimate was ~28,000 stitches. The real count: [ZAHL]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidery #novalifetimetravel",
      "check": "Nur Stichsimulation, kein Garment-Mockup, Datei nur mit Erlaubnis der Fabrik, echte Zahl, CTA der Phase."
     },
-    "o": [{"n": "CapCut", "u": "https://www.capcut.com"}, {"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "YouTube", "u": "https://www.youtube.com"}]
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
+    ]
    }
   ],
   "2026-11-10": [
@@ -69,15 +116,22 @@
     "s": [
      "Korrekturen von gestern drin? Summe der Stiche aus dem Blatt „Fabriken“.",
      "≤ 28.000: ohne Rückfrage freigeben. Mail: „Digitizing A, B2, C, E approved for stitch-out. Total [ZAHL] stitches. Please confirm the stitch-out date.“",
-     "> 28.000: noch nicht freigeben. Prompt unten an Claude: Stückkosten → Kapitalbedarf → Schwellen 01.02. und 19.03. neu. Dann entscheiden: Füllung statt echtem Kreuzstich (Standard), Münztasche offen (V4b) oder Mehrkosten tragen.",
+     "> 28.000: noch nicht freigeben. Prompt unten an Claude: Stückkosten → Kapitalbedarf → Schwellen 15.02. und 21.05. neu. Dann entscheiden: Füllung statt echtem Kreuzstich (Standard), Münztasche offen (V4b) oder Mehrkosten tragen.",
      "Füllung ist Standard. Echter Kreuzstich nur, wenn er unter dem Deckel bleibt.",
      "Stichzahl je Element und Endpreis-Wirkung ins Blatt „Fabriken“, Gate-Ergebnis ins Blatt „Gates“."
     ],
     "f": "die schriftliche Freigabe (oder die Entscheidung nach Gegenrechnung) an die Fabrik raus ist und die Stichzahl im Blatt steht.",
-    "p": "Projekt Time Travel, Docket W9, Di 10.11. Die Digitizing-Vorschau hat [ZAHL] Stiche, mein Deckel ist 28.000. Preis der Fabrik je 1.000 Stiche: [€]. Rechne mir: neue Stückkosten, Kapitalbedarf bis zur Restzahlung, Wirkung auf die Schwellen Mo 01.02. und Fr 19.03. Vergleiche drei Wege: Füllung statt echtem Kreuzstich, Münztasche offen (V4b, −3,30 bis −3,60 €/Paar), Mehrkosten tragen. Empfiehl einen und schreib mir die Mail an die Fabrik auf Englisch.",
+    "p": "Projekt Time Travel, Docket W9, Di 10.11. Die Digitizing-Vorschau hat [ZAHL] Stiche, mein Deckel ist 28.000. Preis der Fabrik je 1.000 Stiche: [€]. Rechne mir: neue Stückkosten, Kapitalbedarf bis zur Restzahlung, Wirkung auf die Schwellen Mo 15.02. und Fr 21.05. Vergleiche drei Wege: Füllung statt echtem Kreuzstich, Münztasche offen (V4b, −3,30 bis −3,60 €/Paar), Mehrkosten tragen. Empfiehl einen und schreib mir die Mail an die Fabrik auf Englisch.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Fabriken“, „Gates“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Fabriken“, „Gates“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -93,8 +147,15 @@
     ],
     "f": "die Blanks beim Sticker sind (oder der Liefertermin steht) und Preis und Abholtermin im Blatt „Sticker“ stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Sticker“: Adressen der zwei ausgewählten Betriebe"},
-     {"n": "Docket · Referenz → Vorlagen", "h": "„Berliner Sticker“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Sticker“: Adressen der zwei ausgewählten Betriebe"
+     },
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "„Berliner Sticker“"
+     }
     ]
    },
    {
@@ -111,8 +172,16 @@
     "f": "der Countdown am Handy bis Do 14.01., 19:00 läuft und der ?t=-Test auf „Vorbestellung offen“ springt.",
     "p": "Projekt Time Travel, Docket W9, Website Schritt 4. Baue das Zeit-Modul für die Drop-Seite. Halte dich an CLAUDE.md.\n1. config/settings_schema.json: neue Gruppe „Time Travel“ mit allen Einstellungen aus CLAUDE.md, Abschnitt „Theme-Einstellungen“ (Zeiten als text mit Offset, tt_testmodus als checkbox, Produkte als product, Kollektion als collection, Zahlen als number). Werte aus der Termin-Tabelle als Standard.\n2. assets/tt-clock.js ohne Bibliotheken: Serverzeit über fetch('/cart.js', {cache: 'no-store'}), Header „Date“ plus „Age“, Abstand zur Geräteuhr merken, alle 5 Minuten und bei visibilitychange neu, sonst Geräteuhr und intern markieren. ?t= nur bei tt_testmodus. Zustände WARTELISTE, VORBESTELLUNG, ZWISCHENZEIT, SCHLUESSEL (nur mit ?key= gleich tt_schluessel), LIVE, AUSVERKAUFT. Ereignis „tt:state“ bei jedem Wechsel, „tt:tick“ jede Sekunde. ?key= im sessionStorage (try/catch).\n3. snippets/tt-countdown.liquid: festes Zieldatum als Text in <time datetime>, JavaScript ersetzt es durch „Noch 12 T 04 Std 31 Min 09 Sek“; Screenreader nur minütlich (aria-live=\"polite\").\n4. Eine erste sections/tt-hero.liquid nur mit dem Countdown, oben in templates/index.json.\nBenutze nie Liquid 'now' für Zeitentscheidungen. Erklär mir danach, wie ich die Vorschau aufs Handy hole und welche ?t=-Links aus docs/TERMINE.md ich teste. Commit, wenn ich „läuft“ schreibe.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Themes → „TT Story“ (unveröffentlicht)"},
-     {"n": "GitHub", "u": "https://github.com", "h": "Repo „novalife-tt-theme“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Themes → „TT Story“ (unveröffentlicht)"
+     },
+     {
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
+     }
     ]
    },
    {
@@ -125,7 +194,16 @@
      "Jedes „Ja“ mit Größe und „ich bestelle am 14.01.“ ins Blatt „Die ersten 35“ (Zusage), sonst „Vielleicht“."
     ],
     "f": "5 Kommentare geschrieben, keine DM offen, Zusagen eingetragen.",
-    "o": [{"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "TikTok", "u": "https://www.tiktok.com"}]
+    "o": [
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     }
+    ]
    },
    {
     "c": "C",
@@ -145,7 +223,12 @@
      "plattform": "TikTok Photo Mode + Instagram Karussell",
      "hook_en": "Roots, trunk, crown. The tree on my waistband.",
      "hook_de": "Wurzeln, Stamm, Krone. Der Baum an meinem Bund.",
-     "shots": ["Slide 1 Hook", "Slide 2 Skizze", "Slide 3 Größe 76 × 67 mm", "Slide 4 „Link in bio“"],
+     "shots": [
+      "Slide 1 Hook",
+      "Slide 2 Skizze",
+      "Slide 3 Größe 76 × 67 mm",
+      "Slide 4 „Link in bio“"
+     ],
      "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
      "ton": "Ruhiger Track aus der Business-Bibliothek der App",
      "text": "Slide 1 Hook EN, Slide 4 CTA",
@@ -153,7 +236,16 @@
      "caption": "The tree of life takes the place of a leather label. 76 × 67 mm. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
      "check": "Nie „Slavic tree of life“, nur Skizze und Papier."
     },
-    "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}]
+    "o": [
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
+    ]
    }
   ],
   "2026-11-11": [
@@ -168,7 +260,13 @@
      "Ins Blatt „Fabriken“: angefragt am 11.11. Bewertung mit den Stickproben in W10."
     ],
     "f": "die Anfrage für 12 oz und 13 oz raus ist und im Blatt steht.",
-    "o": [{"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}]
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     }
+    ]
    },
    {
     "c": "C",
@@ -189,7 +287,12 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "Roots, trunk, crown: the patch on my waistband.",
      "hook_de": "Wurzeln, Stamm, Krone: der Patch an meinem Bund.",
-     "shots": ["Deine Referenz-Skizze des Baums auf dem Tisch", "Finger fährt Wurzeln → Stamm → Krone nach", "Papierausschnitt 76 × 67 mm am Bund", "Text: „natural linen · gold · brown · red“"],
+     "shots": [
+      "Deine Referenz-Skizze des Baums auf dem Tisch",
+      "Finger fährt Wurzeln → Stamm → Krone nach",
+      "Papierausschnitt 76 × 67 mm am Bund",
+      "Text: „natural linen · gold · brown · red“"
+     ],
      "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
      "ton": "Ruhiger Track aus der Business-Bibliothek, darunter Originalton",
      "text": "0–2 s Hook EN, „76 × 67 mm“, Untertitel",
@@ -197,7 +300,20 @@
      "caption": "The tree of life sits on the back waistband: 76 × 67 mm on natural linen, a trunk of ten twisted strands, roots in a circle. Made as a patch by a specialist. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
      "check": "Lebensbaum nie „slawisch“, nur Papier und Skizze, keine farbige Flachzeichnung mit allen Elementen, CTA der Phase."
     },
-    "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "YouTube", "u": "https://www.youtube.com"}]
+    "o": [
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
+    ]
    },
    {
     "c": "A",
@@ -214,8 +330,16 @@
     "f": "die Testadresse in Shopify abonniert ist mit Ort-, Quellen-, Größen- und code-Tags und der Absatz zur Größenangabe in der Datenschutzerklärung steht.",
     "p": "Projekt Time Travel, Docket W9, Website Schritt 5. Baue snippets/tt-warteliste-form.liquid und binde es in sections/tt-hero.liquid unter dem Countdown ein. Halte dich an CLAUDE.md.\n- {% form 'customer', return_to: 'back' %} wie in Dawns sections/newsletter.liquid: verstecktes Feld contact[tags], Eingabe contact[email] (type=\"email\", autocomplete=\"email\", required, sichtbares <label>).\n- Freiwillige Auswahl „Deine Größe“: kleiner als W30, W30, W32, W34, W36, W38, größer als W38, „weiß ich noch nicht“ (Tags gr-klein, gr-w30 … gr-w38, gr-gross).\n- Parameter „ort“ (tt-story, tt-huette, tt-feld, tt-drop2), Standard tt-story.\n- assets/tt-story.js setzt vor dem Absenden contact[tags] auf „tt-warteliste,<ort>,src-<quelle>,gr-<groesse>“, bei ?ref= zusätzlich „ref-<code>“. Quelle aus utm_source (instagram, tiktok, qr, email), sonst „direkt“. Schema vom 10.10.: utm_source = Kanal, ?ref= = Person, Abend, Creator. Nur Kleinbuchstaben, Ziffern, Bindestrich, max. 30 Zeichen je Tag.\n- Aus der Dawn-Lösung vom 15.10. übernehmen: eigener Code code-[6 Zeichen] je Anmeldung, Danke-Text mit persönlichem Link (?ref=code-…) und WhatsApp-Knopf zum Teilen.\n- Formular normal absenden, NICHT per fetch (hCaptcha möglich). form.posted_successfully?: „Fast geschafft. Bestätige deine Adresse in der E-Mail, die gerade kommt.“ Bei form.errors die Meldung von Shopify.\n- Einstellung datenschutz_text (richtext) unter dem Knopf. Knopf „Auf die Liste“, mindestens 44 px hoch.\nSag mir danach, wo ich in Shopify die Tags sehe. Ich teste erst mit EINEM Tag, dann mit allen. Speichert Shopify nur einen Tag: zusammengesetzter Tag „tt-<ort>-<quelle>-<groesse>“. Schreib mir zum Schluss einen kurzen Absatz für die Datenschutzerklärung zur freiwilligen Größenangabe (Zweck, Speicherort Shopify, Löschung), als Entwurf ohne Rechtsberatung. Commit nach meinem „passt“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden (Tags), Einstellungen → Richtlinien"},
-     {"n": "Dawn · newsletter.liquid", "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid", "h": "Vorbild für das Formular"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden (Tags), Einstellungen → Richtlinien"
+     },
+     {
+      "n": "Dawn · newsletter.liquid",
+      "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid",
+      "h": "Vorbild für das Formular"
+     }
     ]
    }
   ],
@@ -235,9 +359,19 @@
     "f": "die Seiten „Größen“ und „FAQ“ als Entwurf in Shopify stehen, mit Video und sechs Einwand-Antworten.",
     "p": "Projekt Time Travel, Docket W9, Do 12.11. Schreib mir die Größenseite für Shopify: Tabelle W30–W38 aus der Spec (Bund, Hüfte, Innenbein), Kopfzeile je Größe im Format „W32 — 81 cm“, Umrechnung „Eightyfive/Carhartt/Dickies → Novalife“ nur so weit, wie sie aus meinen Messungen belegt ist (sonst als Faustregel markieren), Anleitung „Miss deine Lieblingsjeans“ in 4 Schritten für ein kurzes Video. Dazu ein FAQ mit sechs Einwand-Antworten (zu teuer, Größe passt nicht, Stickerei hält die Wäsche?, warum so lange warten, was ist mit Rückgabe, warum dieses Muster) plus Lieferzeit, Pflege, Stücknummer. Regeln: Subjekt ist das Muster, nie „authentisch“, Wortliste, kein „149 statt 169 €“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten; Inhalt → Dateien"},
-     {"n": "Eightyfive bei Zalando (Preisanker, Größen)", "u": "https://www.zalando.de/damenbekleidung-jeans/eightyfive"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Seiten; Inhalt → Dateien"
+     },
+     {
+      "n": "Eightyfive bei Zalando (Preisanker, Größen)",
+      "u": "https://www.zalando.de/damenbekleidung-jeans/eightyfive"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -250,7 +384,16 @@
      "Jedes „Ja“ mit Größe und Datum ins Blatt „Die ersten 35“ (Zusage)."
     ],
     "f": "5 Kommentare geschrieben, keine DM offen, Zusagen eingetragen.",
-    "o": [{"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "TikTok", "u": "https://www.tiktok.com"}]
+    "o": [
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     }
+    ]
    },
    {
     "c": "C",
@@ -270,7 +413,11 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "50 or 62 mm? How I sized one embroidery.",
      "hook_de": "50 oder 62 mm? Wie ich eine Stickerei bemessen habe.",
-     "shots": ["Papier-Quadrat E 50 mm auf der Münztasche, Spiegel von vorn", "Papier-Quadrat E 62 mm auf derselben Münztasche, Spiegel von vorn", "Lineal am Quadrat: 37 × 37 gegen 45 × 45 Kreuzstiche"],
+     "shots": [
+      "Papier-Quadrat E 50 mm auf der Münztasche, Spiegel von vorn",
+      "Papier-Quadrat E 62 mm auf derselben Münztasche, Spiegel von vorn",
+      "Lineal am Quadrat: 37 × 37 gegen 45 × 45 Kreuzstiche"
+     ],
      "ort": "Wohnung · Flurspiegel, rechte Vordertasche nah, Licht von vorn",
      "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
      "text": "0–2 s Hook EN, „50 · 62 mm“",
@@ -278,7 +425,16 @@
      "caption": "Version 1.4 had a 50 mm square on the coin pocket. I printed both sizes and taped them on. Now it's 62 mm, 45 by 45 cross-stitches, and fills almost the whole pocket. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
      "check": "Nur Papier, kein fertiges Teil, kein roter Hintergrund, Subjekt ist das Muster."
     },
-    "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}]
+    "o": [
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
+    ]
    }
   ],
   "2026-11-13": [
@@ -294,7 +450,13 @@
      "Liefertermin und Betrag ins Blatt „Patches“ und „Ausgaben“."
     ],
     "f": "3 Muster bestellt sind und Liefertermin und Betrag in den Blättern stehen.",
-    "o": [{"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Patches“, „Ausgaben“"}]
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Patches“, „Ausgaben“"
+     }
+    ]
    },
    {
     "c": "V",
@@ -309,8 +471,17 @@
     "f": "die Einladung an alle passenden Kontakte raus ist und die Platzliste im Blatt steht.",
     "p": "Projekt Time Travel, Docket W9, Fr 13.11. Schreib mir die Einladung E2 zum Stick-Abend am Fr 27.11., [Uhrzeit], [Ort/Adresse], 10 Plätze. Ton: persönlich, Du-Form, höchstens 70 Wörter, WhatsApp-tauglich. Inhalt: Wir sticken gemeinsam am Kreuzstich-Raster von Time Travel, Material ist da, du siehst die ersten Stickproben. Bring 1–3 Leute mit, die sich vorher über diesen Link eintragen: [Link mit ?ref=stick]. Nie „authentisch“, Wortliste.",
     "o": [
-     {"n": "Kunstraum Heartspace", "u": "https://www.berlin.de/tickets/freizeit/embroidery-workshop-50fe0879-2b66-46b8-bf66-806c8c366965/", "a": "Danziger Str. 172, Berlin", "h": "nur wenn zugesagt, vor Ort prüfen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Netz“, Bereich „Abende“"}
+     {
+      "n": "Kunstraum Heartspace",
+      "u": "https://www.berlin.de/tickets/freizeit/embroidery-workshop-50fe0879-2b66-46b8-bf66-806c8c366965/",
+      "a": "Danziger Str. 172, Berlin",
+      "h": "nur wenn zugesagt, vor Ort prüfen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Netz“, Bereich „Abende“"
+     }
     ]
    },
    {
@@ -332,7 +503,11 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "This zigzag means water. It runs along my pocket.",
      "hook_de": "Dieser Zickzack bedeutet Wasser. Er läuft an meiner Tasche entlang.",
-     "shots": ["Makro Raster von Band A, Finger folgt dem Zickzack", "Papierband an der Kante der rechten Vordertasche", "Lineal: 23 mm"],
+     "shots": [
+      "Makro Raster von Band A, Finger folgt dem Zickzack",
+      "Papierband an der Kante der rechten Vordertasche",
+      "Lineal: 23 mm"
+     ],
      "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
      "ton": "Originalton. Keine Musik oder sehr leise",
      "text": "0–2 s Hook EN, „23 mm · 17 stitches“",
@@ -340,7 +515,20 @@
      "caption": "Zigzag = water. It frames the cross-stitch band on the right front pocket: 23 mm, 17 stitches high. White next to red, so it reads from three metres. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
      "check": "Bedeutung nur mit Beleg, nur Papier, kein roter Hintergrund."
     },
-    "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "YouTube", "u": "https://www.youtube.com"}]
+    "o": [
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
+    ]
    }
   ],
   "2026-11-14": [
@@ -357,10 +545,18 @@
      "„passt“ schreiben, Commit."
     ],
     "f": "die Vorschau Kopf, K1–K4 und K8 ohne Mockup zeigt und am Handy gut aussieht.",
-    "p": "Projekt Time Travel, Docket W9, Website Schritt 6. Baue die Startseite Stufe 1 der Scroll-Story. Halte dich an CLAUDE.md, besonders an die Sprachregeln und „kein Mockup bis 03.12.“.\n1. sections/tt-kapitel.liquid: Kapitel mit Überschrift, Anker-ID und Blöcken „bild“ (Alt-Text Pflicht), „text“, „motiv“ (band, muenztasche, achtstern; SVG plus Karte mit Maß und Stichzahl; Rückseite „Bedeutung“ nur mit eingetragenem Text; Karte als <button aria-expanded>).\n2. Aus tools/motive/ eigenständige SVGs in assets/: tt-motiv-band.svg (gerader Streifen, 17 Stiche hoch), tt-motiv-muenztasche.svg (45 × 45), tt-motiv-achtstern.svg (27 × 27); je höchstens 10 KB, flach, NICHT auf eine Jeans-Silhouette gelegt.\n3. sections/tt-hero.liquid: „Time Travel“, „100 Jeans. Jede mit Nummer. Do 22.04.2027, 19:00.“, Countdown, Formular, Listenstand aus tt_liste_zahl und tt_liste_datum (ausblenden bei 0).\n4. snippets/tt-shop-button.liquid: fester Link oben rechts, mind. 44 × 44 px, ohne JavaScript „Auf die Liste“ → #liste.\n5. templates/index.json: tt-hero, K1 „Was hier entsteht“, K2 „Das Raster“, K3 „Die Suche“, K4 „Der Teppich“, K8 „Ehrliche Größen“, am Ende noch einmal das Formular. Texte aus docs/TEXTE-STUFE1.md, jeden Satz gegen die Sprachregeln prüfen und Treffer markieren.\n6. assets/tt-story.css: Palette aus CLAUDE.md, mobil zuerst, ab 320 px ohne waagerechtes Scrollen, Schalter „Bewegung aus“ (localStorage in try/catch).\nKeine Bibliotheken. Zeig mir die neuen Dateien mit Größe in KB. Commit nach meinem „passt“.",
+    "p": "Projekt Time Travel, Docket W9, Website Schritt 6. Baue die Startseite Stufe 1 der Scroll-Story. Halte dich an CLAUDE.md, besonders an die Sprachregeln und „kein Mockup bis 03.12.“.\n1. sections/tt-kapitel.liquid: Kapitel mit Überschrift, Anker-ID und Blöcken „bild“ (Alt-Text Pflicht), „text“, „motiv“ (band, muenztasche, achtstern; SVG plus Karte mit Maß und Stichzahl; Rückseite „Bedeutung“ nur mit eingetragenem Text; Karte als <button aria-expanded>).\n2. Aus tools/motive/ eigenständige SVGs in assets/: tt-motiv-band.svg (gerader Streifen, 17 Stiche hoch), tt-motiv-muenztasche.svg (45 × 45), tt-motiv-achtstern.svg (27 × 27); je höchstens 10 KB, flach, NICHT auf eine Jeans-Silhouette gelegt.\n3. sections/tt-hero.liquid: „Time Travel“, „100 Jeans. Jede mit Nummer. Do 24.06.2027, 19:00.“, Countdown, Formular, Listenstand aus tt_liste_zahl und tt_liste_datum (ausblenden bei 0).\n4. snippets/tt-shop-button.liquid: fester Link oben rechts, mind. 44 × 44 px, ohne JavaScript „Auf die Liste“ → #liste.\n5. templates/index.json: tt-hero, K1 „Was hier entsteht“, K2 „Das Raster“, K3 „Die Suche“, K4 „Der Teppich“, K8 „Ehrliche Größen“, am Ende noch einmal das Formular. Texte aus docs/TEXTE-STUFE1.md, jeden Satz gegen die Sprachregeln prüfen und Treffer markieren.\n6. assets/tt-story.css: Palette aus CLAUDE.md, mobil zuerst, ab 320 px ohne waagerechtes Scrollen, Schalter „Bewegung aus“ (localStorage in try/catch).\nKeine Bibliotheken. Zeig mir die neuen Dateien mit Größe in KB. Commit nach meinem „passt“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Inhalt → Dateien"},
-     {"n": "GitHub", "u": "https://github.com", "h": "Repo „novalife-tt-theme“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Inhalt → Dateien"
+     },
+     {
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
+     }
     ]
    },
    {
@@ -377,8 +573,15 @@
     "f": "8 Medien mit Kontakt aus Impressum oder offizieller Seite und je 3 gelesenen Artikeln im Blatt „Presse“ stehen.",
     "p": "Projekt Time Travel, Docket W9, Sa 14.11. Gib mir die 17 Medien aus community.md 5.2 als Liste mit Ressort und Grund, warum sie zu Time Travel passen. Sortiere nach Chance auf Berichterstattung und markiere die ersten 8 für heute. Keine Kontaktadressen erfinden: Kontakte suche ich selbst im Impressum.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Presse“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    }
   ],
@@ -397,9 +600,19 @@
     "f": "Blätter und Cockpit aktuell sind und die Zeile an Claude raus ist.",
     "p": "Projekt Time Travel, Docket W9, So 15.11. W9: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [N], Follower gesamt [F], Stiche [ZAHL]. Offen aus W9: [..]. Sag mir, welche Gates greifen und was ich in W10 vor dem Stickproben-Gate am Di 17.11. vorziehen muss.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segmente"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -415,7 +628,13 @@
      "G12 Kasse gelb: keine Ausgaben außerhalb von Plan 3 · rot: Ausgaben-Stopp-Liste, Notfall-Leiter."
     ],
     "f": "jede Gate-Zeile mit grün/gelb/rot im Blatt „Gates“ steht und jede ausgelöste Maßnahme einen Termin in W10 hat.",
-    "o": [{"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}]
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“"
+     }
+    ]
    },
    {
     "c": "A",
@@ -430,8 +649,16 @@
     "f": "Theme Check ohne Fehler in tt-Dateien, die Seite im Instagram-Browser geprüft und tools/budget-check.mjs grün ist.",
     "p": "Projekt Time Travel, Docket W9, Website Schritt 7. Prüf die Startseite wie ein strenger Tester. Halte dich an CLAUDE.md.\n1. Lege tools/budget-check.mjs an (Node, ohne Pakete): summiert alle assets/tt-* roh und gzip und bricht ab, wenn eigene CSS > 15 KB, eigene JS > 25 KB oder tt-feld-*.svg zusammen > 25 KB roh. Führ es aus.\n2. Führ shopify theme check aus und erklär mir Fehler in tt-Dateien. Andere Theme-Dateien nicht anfassen.\n3. Prüfliste: Kontrast laut Palette, Tippziele ≥ 44 px, Tab-Reihenfolge und sichtbarer Fokus, Schalter „Bewegung aus“, prefers-reduced-motion, Seite ohne JavaScript (Datum, Formular, Links da?), Alt-Texte.\n4. Sag mir, wie ich in Chrome die Netzwerk-Drosselung einschalte, die Zeit bis zum ersten Bild messe und in „Content-Encoding“ sehe, ob tt-story.js komprimiert kommt.\nGib mir alle Probleme als Liste nach Schwere. Repariere die ersten fünf, dann stopp und zeig mir die Änderungen.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Link per DM an dich selbst, im In-App-Browser öffnen"},
-     {"n": "GitHub", "u": "https://github.com", "h": "Repo „novalife-tt-theme“"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Link per DM an dich selbst, im In-App-Browser öffnen"
+     },
+     {
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
+     }
     ]
    },
    {
@@ -446,9 +673,19 @@
     ],
     "f": "20 Namen im Blatt „Creator“ stehen und du allen folgst.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Creator“"
+     }
     ]
    },
    {
@@ -470,7 +707,12 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "This carpet hung on so many walls. Remember it?",
      "hook_de": "Dieser Teppich hing an so vielen Wänden. Erinnerst du dich?",
-     "shots": ["Familienfoto mit Teppich im Hintergrund (nur eigenes Foto, Gesichter nur mit Einverständnis)", "Wenn der echte Teppich erreichbar ist: langsamer Schwenk über Medaillon und Rahmen", "Hand zeichnet das Medaillon auf Rasterpapier ab", "Text: „It's going on the back of a zipper.“"],
+     "shots": [
+      "Familienfoto mit Teppich im Hintergrund (nur eigenes Foto, Gesichter nur mit Einverständnis)",
+      "Wenn der echte Teppich erreichbar ist: langsamer Schwenk über Medaillon und Rahmen",
+      "Hand zeichnet das Medaillon auf Rasterpapier ab",
+      "Text: „It's going on the back of a zipper.“"
+     ],
      "ort": "Familie · Wohnung mit Teppich, oder dein Fotoalbum + Schreibtisch",
      "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
      "text": "0–2 s Hook EN, „It's going on the back of a zipper.“, Untertitel",
@@ -478,7 +720,12 @@
      "caption": "Wall carpets hung in a lot of homes in the region: for warmth, against noise, and because they were precious. [Nur wenn wahr: Ours too.] Its medallion is becoming the back of the zipper. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #textiles #embroidery #novalifetimetravel",
      "check": "Subjekt ist der Teppich, kein „sowjetisch“, kein CCCP, keine Sowjet-Deko, Gesichter nur mit Einverständnis, kein fertiges Teil."
     },
-    "o": [{"n": "CapCut", "u": "https://www.capcut.com"}]
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
+    ]
    }
   ]
  }

@@ -3,13 +3,34 @@
  "phase": "P2",
  "goal": "PP bestellen, Beweisfotos, Reservierung offen, Creator anschreiben",
  "kpi": [
-  {"k": "Warteliste", "ziel": "550 bestätigt (Alarm 230), Grind+-Ziel 620"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.650 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Zusagen „Die ersten 35“", "ziel": "18 (Name, Größe, „ich bestelle am 14.01.“)"},
-  {"k": "Reservierungen „Platz in der ersten Stunde“", "ziel": "≥ 15"},
-  {"k": "Proto-Runde", "ziel": "20 Termine bis So 13.12."},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+  {
+   "k": "Warteliste",
+   "ziel": "550 bestätigt (Alarm 230), Grind+-Ziel 620"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~1.650 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“",
+   "ziel": "18 (Name, Größe, „ich bestelle am 14.01.“)"
+  },
+  {
+   "k": "Reservierungen „Platz in der ersten Stunde“",
+   "ziel": "≥ 15"
+  },
+  {
+   "k": "Proto-Runde",
+   "ziel": "20 Termine bis So 13.12."
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  }
  ],
  "days": {
   "2026-12-07": [
@@ -28,9 +49,19 @@
     "f": "Korrekturen und PP-Bestellung raus sind und im Blatt „Fabriken“ das geforderte Datum 04.01. steht.",
     "p": "Projekt Time Travel, Docket W13, Mo 07.12. Schreib mir die Mail an die Fabrik [Name] auf Englisch: Korrekturen zum Prototyp #1 (Liste im Anhang, Fotos nummeriert, das Proto bleibt bei mir) und verbindliche Bestellung des PP-Samples in W32 mit allen Korrekturen, bestickt, genäht, gewaschen, Goldfäden gesetzt, Labels dran. Ich brauche das PP spätestens am Mo 04.01.2027 in Berlin und bitte um schriftliche Bestätigung mit Versanddatum bis Mi 09.12. Dazu: 2 Patch-Muster D kommen per Express, einer fürs PP, einer als Waschtest durch euer Waschrezept, bitte Foto vom Ergebnis. Frag nach Feiertagen oder Betriebspause bis 04.01. Kurz, freundlich, klar. Oberschenkel-Entscheidung: [28/30] cm.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"},
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Call“, falls keine Bestätigung"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     },
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Call“, falls keine Bestätigung"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -45,7 +76,11 @@
     ],
     "f": "die Patches unterwegs sind und die Trackingnummer im Blatt „Fabriken“ steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Fabriken“, „Kasse“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Fabriken“, „Kasse“"
+     }
     ]
    },
    {
@@ -61,7 +96,11 @@
     ],
     "f": "2 Calls geführt und beide Ergebnisse im Blatt stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -97,9 +136,18 @@
      "check": "Echte Befunde, Spiegel nur von vorn, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    },
    {
@@ -117,9 +165,20 @@
     "f": "Seite, Mail, Story und Broadcast um 19:00 live sind und die Zahl um 21:00 notiert ist.",
     "p": "Projekt Time Travel, Docket W13, Mo 07.12. Schreib mir die Mail „Platz in der ersten Stunde sichern“ an meine Warteliste, Versand heute 19:00. Max. 110 Wörter, Du-Form, 3 Betreffzeilen. Inhalt: Das Proto ist da (Foto oben). Wer sich einträgt, bekommt am 14.01. um 17:55 den Link von mir, Größe vorgemerkt, offen bis Mi 13.01. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis. Kein Versprechen auf eine Nummer, kein Preisvergleich, nie „authentisch“, nach außen nur „Time Travel“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Marketing → Shopify Email · Onlineshop → Seiten · Kunden → Segmente"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Link-Sticker, Broadcast-Kanal"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Marketing → Shopify Email · Onlineshop → Seiten · Kunden → Segmente"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Link-Sticker, Broadcast-Kanal"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    }
   ],
@@ -158,8 +217,14 @@
      "check": "Ersetzt „Älter als jede Grenze“, Person frontal, keine Flaggen, keine Streifen in verbotenen Farben im Hintergrund."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "Hinterhof deines Hauses", "h": "Erlaubnis der Hausverwaltung, falls nötig"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "Hinterhof deines Hauses",
+      "h": "Erlaubnis der Hausverwaltung, falls nötig"
+     }
     ]
    },
    {
@@ -173,7 +238,11 @@
     ],
     "f": "2 Calls geführt und eingetragen sind.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -208,9 +277,18 @@
      "check": "Nach außen „cross-stitch band“, kein roter Hintergrund."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -228,11 +306,22 @@
      "Link ins Blatt „Presse“. Welle 1 geht am Di 15.12."
     ],
     "f": "/pages/presse online ist, mit Pressetext DE/EN, Factsheet und 6 Proto-Fotos.",
-    "p": "Projekt Time Travel, Docket W13, Mi 09.12. Schreib mir eine Pressemitteilung (max. 300 Wörter, deutsch, dann englisch) und ein Factsheet für Novalife Time Travel: 100 nummerierte Jeans mit vier gestickten Stellen und einem Lebensbaum-Patch als hinterer Gürtelschlaufe, Vorbestellung ab Do 14.01.2027, 19:00, für 149 € (35 Stück), Drop Do 22.04.2027, 19:00, 169 €. Aufhänger: ehrliche Größen (meine Eightyfive W30 misst 82 cm Bund) und die Vorbestellung, die die Fabrik bezahlt. Dazu 3 Betreffzeilen. Sprachregel: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, nach außen nur „Time Travel“, keine Länder als Herkunftsbehauptung.",
+    "p": "Projekt Time Travel, Docket W13, Mi 09.12. Schreib mir eine Pressemitteilung (max. 300 Wörter, deutsch, dann englisch) und ein Factsheet für Novalife Time Travel: 100 nummerierte Jeans mit vier gestickten Stellen und einem Lebensbaum-Patch als hinterer Gürtelschlaufe, Vorbestellung ab Do 14.01.2027, 19:00, für 149 € (35 Stück), Drop Do 24.06.2027, 19:00, 169 €. Aufhänger: ehrliche Größen (meine Eightyfive W30 misst 82 cm Bund) und die Vorbestellung, die die Fabrik bezahlt. Dazu 3 Betreffzeilen. Sprachregel: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, nach außen nur „Time Travel“, keine Länder als Herkunftsbehauptung.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Inhalte → Dateien · Onlineshop → Seiten"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Inhalte → Dateien · Onlineshop → Seiten"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Presse“"
+     }
     ]
    },
    {
@@ -248,7 +337,11 @@
     ],
     "f": "2–3 Treffen im Blatt „Die ersten 35“ mit Ergebnis stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -283,9 +376,18 @@
      "check": "Hook ersetzt „Älter als jede Grenze“, keine Flaggen."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -304,7 +406,10 @@
     ],
     "f": "mindestens 8 On-Body-Fotos mit Bildunterschrift und 3 Clips im Ordner „Shop“ liegen.",
     "o": [
-     {"n": "Ordner „Shop“", "h": "Handy-Galerie oder Cloud"}
+     {
+      "n": "Ordner „Shop“",
+      "h": "Handy-Galerie oder Cloud"
+     }
     ]
    },
    {
@@ -314,12 +419,16 @@
     "s": [
      "Proto ist da und fotografiert: grün, Vorbestellung bleibt Do 14.01.",
      "Proto noch nicht da: Vorbestellung bleibt 14.01., aber nur mit echten Fotos, nie Renderings. Fabrik täglich anschreiben.",
-     "Kommt es nach dem 17.12.: am Sa 19.12. entscheidest du über die Öffnung am Do 21.01. (B-Zeitachse 1).",
+     "Kommt es nach dem 17.12.: am Sa 19.12. entscheidest du über die Öffnung am Do 28.01. (B-Zeitachse 1).",
      "Ergebnis ins Blatt „Gates“."
     ],
     "f": "im Blatt „Gates“ grün oder der Entscheidungstermin 19.12. steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“"
+     }
     ]
    },
    {
@@ -338,7 +447,11 @@
     ],
     "f": "2–3 Treffen eingetragen sind und der Zähler stimmt.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -372,9 +485,18 @@
      "check": "Ab Proto erlaubt, kein roter Hintergrund."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
@@ -386,17 +508,30 @@
     "s": [
      "Entscheidung zuerst (17 · Fr 11.12.): Creator-Abmachung 1 Clip + 1 Story. Rat: ja. Ins Blatt „Gates“.",
      "Vorlage C2 (Docket → Referenz → Vorlagen, „Creator-DM“) öffnen und je Person anpassen: ein Satz zu einem ihrer Posts, Vorname.",
-     "Inhalt: Preview Di 12.01., 18:30 mit Proto und PP-Sample, 1 Paar in ihrer Größe im April, 1 Clip bis 15.01., 1 Story 17.–21.04., Kennzeichnung „Anzeige“. Keine Rabattcodes, kein Geld.",
+     "Inhalt: Preview Di 12.01., 18:30 mit Proto und PP-Sample, 1 Paar in ihrer Größe im April, 1 Clip bis 15.01., 1 Story 19.–23.06., Kennzeichnung „Anzeige“. Keine Rabattcodes, kein Geld.",
      "Ein Proto-Foto vom Mini-Shoot anhängen. Das Proto ist seit 03.12. da, du darfst es zeigen.",
      "Jede DM einzeln von deinem Konto, nie als Gruppe. Ins Blatt „Creator“: Erstkontakt 11.12., Link `ref-c-[name]` vorbereiten.",
      "Nachfassen kommt Fr 18.12. (C3), bei weniger als 5 Zusagen dann Nr. 9–12."
     ],
     "f": "8 DMs raus sind und im Blatt „Creator“ je Zeile das Datum steht.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "C2 · Erst-DM"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "C2 · Erst-DM"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Creator“"
+     }
     ]
    },
    {
@@ -414,8 +549,15 @@
     "f": "K2 „Das Muster“ echte Fotos hat, K5 „Die Ernte und die Fäden“ da ist und keine Bedeutung ohne Beleg steht.",
     "p": "Stufe 2: Ab heute zeigt die Startseite das echte Proto. Halte dich an CLAUDE.md.\n1. Kapitel K2 umbenennen in „Das Muster“. Für jedes Element ein Motiv-Block mit echtem Foto (in Shopify hochgeladen, Dateinamen: [Liste]): Kreuzstich-Band, Münztasche, Achtstern, Lebensbaum. Bedeutungstext nur dort, wo in docs/BELEGE.md „freigegeben: ja“ und eine Quelle steht. Lege docs/BELEGE.md als Tabelle an: Motiv | Bedeutungssatz | Quelle | Region | freigegeben ja/nein.\n2. Neues Kapitel K5 „Die Ernte und die Fäden“ nach K4, Text aus docs/TEXTE-STUFE2.md. Nur Fotos am getragenen Teil. Die Ähren nie als freigestellte Grafik.\n3. Prüfe alle Texte gegen die Sprachregeln in CLAUDE.md und markiere mir jeden Satz, der eine Regel berührt.\nZeig mir die Vorschau-Schritte. Commit nach meinem „passt“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Inhalte → Dateien · Onlineshop → Themes → Vorschau"},
-     {"n": "Claude Code (Theme-Ordner)", "h": "website.md Schritt 9"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Inhalte → Dateien · Onlineshop → Themes → Vorschau"
+     },
+     {
+      "n": "Claude Code (Theme-Ordner)",
+      "h": "website.md Schritt 9"
+     }
     ]
    },
    {
@@ -450,9 +592,18 @@
      "check": "Drei Ähren, nie „fünf“, nie hellblauer Himmel über gelbem Weizen."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    },
    {
@@ -495,7 +646,11 @@
      "check": "Kein Streichpreis, Antworten zählen und im Sonntags-Review notieren."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Umfrage- und Link-Sticker"
+     }
     ]
    },
    {
@@ -504,7 +659,7 @@
     "m": 90,
     "s": [
      "Mitnehmen: Proto in Stofftasche, 3 On-Body-Fotos auf dem Handy, Kalender mit den Daten. Gebündelt mit 3 Treffen der Proto-Runde in der Nähe (vorher verabreden).",
-     "GATE194, Köpenicker Str. 194, Hinterhof (laut Website Mo–Sa 12–20 Uhr, vor Ort prüfen). Sagen: „Wir hatten am 18.11. gesprochen. Das ist das Proto. Ich möchte fest anfragen: Creator-Preview Di 12.01., 18:30–20:00, und Mess-Abende Sa 16.01., Sa 23.01. und Sa 13.03.“",
+     "GATE194, Köpenicker Str. 194, Hinterhof (laut Website Mo–Sa 12–20 Uhr, vor Ort prüfen). Sagen: „Wir hatten am 18.11. gesprochen. Das ist das Proto. Ich möchte fest anfragen: Creator-Preview Di 12.01., 18:30–20:00, und Mess-Abende Sa 16.01., Sa 30.01. und Sa 15.05.“",
      "Sing Blackbird, Sanderstr. 11 (Öffnungszeiten vor Ort prüfen): gleiche Anfrage.",
      "Je Laden notieren: zugesagt / Termin offen / abgesagt, Ansprechperson, Bedingungen (Fläche, Getränke, Kosten). Nichts zusagen, was Geld kostet, ohne Kassen-Ampel zu prüfen.",
      "3 Proto-Runde-Treffen dazwischen: Frage „Bestellst du am 14.01. um 18:00? Welche Größe?“, eintragen.",
@@ -512,9 +667,22 @@
     ],
     "f": "beide Läden besucht sind, je Datum ein Status im Blatt „Orte“ steht und 3 Proto-Runde-Treffen eingetragen sind.",
     "o": [
-     {"n": "GATE194", "a": "Köpenicker Str. 194, Hinterhof, Berlin · laut Website Mo–Sa 12–20 Uhr", "h": "Öffnungszeit vor Ort prüfen"},
-     {"n": "Sing Blackbird", "u": "https://www.top10berlin.de/de/cat/shopping-271/vintage-mode-3141/sing-blackbird-vintage-5580", "a": "Sanderstr. 11, Berlin", "h": "Sekundärquelle, Öffnungszeit vor Ort prüfen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Orte“, „Die ersten 35“"}
+     {
+      "n": "GATE194",
+      "a": "Köpenicker Str. 194, Hinterhof, Berlin · laut Website Mo–Sa 12–20 Uhr",
+      "h": "Öffnungszeit vor Ort prüfen"
+     },
+     {
+      "n": "Sing Blackbird",
+      "u": "https://www.top10berlin.de/de/cat/shopping-271/vintage-mode-3141/sing-blackbird-vintage-5580",
+      "a": "Sanderstr. 11, Berlin",
+      "h": "Sekundärquelle, Öffnungszeit vor Ort prüfen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Orte“, „Die ersten 35“"
+     }
     ]
    },
    {
@@ -529,7 +697,10 @@
     ],
     "f": "die Story online ist.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
@@ -547,12 +718,24 @@
      "Zeile an Claude (Prompt unten)."
     ],
     "f": "Blätter und Zahlen-Cockpit aktuell sind und die Zeile an Claude gesendet ist.",
-    "p": "Projekt Time Travel, Docket W13, So 13.12. W13: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Reservierungen [R], Proto-Runde [n]/20, PP bestätigt [ja/nein, Versanddatum], Creator-Antworten [n]/8, Orte für 12.01./16.01./23.01./13.03. [Status]. Offen aus W13: [..]. Sag mir, welches Gate greift und was ich in W14 anders mache.",
+    "p": "Projekt Time Travel, Docket W13, So 13.12. W13: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Reservierungen [R], Proto-Runde [n]/20, PP bestätigt [ja/nein, Versanddatum], Creator-Antworten [n]/8, Orte für 12.01./16.01./30.01./15.05. [Status]. Offen aus W13: [..]. Sag mir, welches Gate greift und was ich in W14 anders mache.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente „E-Mail-Abonnenten“, „reserviert“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segmente „E-Mail-Abonnenten“, „reserviert“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -569,7 +752,11 @@
     ],
     "f": "jedes Gate im Blatt „Gates“ grün oder mit Gegenmaßnahme und Datum steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“"
+     }
     ]
    },
    {
@@ -585,7 +772,11 @@
     ],
     "f": "die Produktseite in der Vorschau fertig aussieht und im Status Entwurf ist.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte → Entwurf"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Produkte → Entwurf"
+     }
     ]
    },
    {
@@ -593,14 +784,18 @@
     "t": "Kein Laden für die Abende zugesagt? Ersatzfläche über Giggster suchen",
     "m": 10,
     "s": [
-     "Status im Blatt „Orte“ prüfen: Hat bis heute ein Laden für die Abende (12.01., 16.01., 23.01., 13.03.) zugesagt? Ja: Aufgabe erledigt.",
+     "Status im Blatt „Orte“ prüfen: Hat bis heute ein Laden für die Abende (12.01., 16.01., 30.01., 15.05.) zugesagt? Ja: Aufgabe erledigt.",
      "Nein: Giggster öffnen, Berlin → Pop-up, Filter Datum 16.01., Kapazität ~20 Personen.",
      "3 Optionen mit Preis pro Stunde und Lage ins Blatt „Orte“. Preise nur von der Seite übernehmen, nichts buchen ohne Kassen-Ampel.",
      "Anfrage für die beste Option über Giggster senden, Antwort bis Sa 19.12. (Orte fest)."
     ],
     "f": "entweder eine Zusage im Blatt steht oder 3 Giggster-Optionen eingetragen und eine angefragt ist.",
     "o": [
-     {"n": "Giggster · Pop-up Berlin", "u": "https://giggster.com/de/find/berlin--de/pop-up", "h": "berlin.md B-46, Preise auf der Seite prüfen"}
+     {
+      "n": "Giggster · Pop-up Berlin",
+      "u": "https://giggster.com/de/find/berlin--de/pop-up",
+      "h": "berlin.md B-46, Preise auf der Seite prüfen"
+     }
     ]
    },
    {
@@ -610,7 +805,7 @@
     "s": [
      "Gekürzter Batch: V033–V036 heute. Lücken in W14 füllst du mit Reserve-Karussells V108–V112, nur mit Beleg in der Belegtabelle.",
      "Mac: Bildschirmaufnahme (Cmd + Shift + 5) des Produkt-Entwurfs: Fotos, Vorbestellpreis 149 €, „35 Paar“, Größen-Buttons mit echtem Bundmaß in cm. Kein Streichpreis.",
-     "Liefertext nur zeigen, wenn du ihn am Mo 14.12. so entscheidest („Lieferung bis spätestens 30.04.2027, geplant Anfang April“), sonst den Shot weglassen.",
+     "Liefertext nur zeigen, wenn du ihn am Mo 14.12. so entscheidest („Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“), sonst den Shot weglassen.",
      "Dazu Hände am Schreibtisch und Handy-Vorschau der Seite. CapCut: Hook EN, Untertitel, 20–30 s. Export W14/final/V033."
     ],
     "f": "W14/final/V033 im Ordner liegt.",
@@ -635,8 +830,15 @@
      "check": "Kein Streichpreis „149 statt 169“, Liefertext nur nach Entscheidung, nie „authentisch“."
     },
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkt-Entwurf"},
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Produkt-Entwurf"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -671,7 +873,10 @@
      "check": "Echte Messwerte, keine fremde Marke schlechtmachen (Etikett ohne Logo in Nahaufnahme), Subjekt ist das Maß."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -708,7 +913,10 @@
      "check": "„Achtstern“ statt „Alatyr“, Reihenfolge A · E · C · D · B2, kein roter Hintergrund."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -743,7 +951,10 @@
      "check": "Patch D mit Gürtel dahinter gut sichtbar, drei Ähren, Lebensbaum nie „slawisch“, kein roter Hintergrund."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -776,8 +987,14 @@
      "check": "Eine Variable pro Test, Bildregeln wie im Original."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ]

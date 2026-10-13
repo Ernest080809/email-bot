@@ -3,11 +3,26 @@
  "phase": "P3",
  "goal": "Vorbestellung öffnet Do 19:00 (Liste 18:00), Creator-Preview am Di, Mess-Abend 1 am Sa",
  "kpi": [
-  {"k": "Warteliste", "ziel": "1.000 bestätigt (Alarm 450), Grind+-Ziel 1.130"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~3.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Vorbestellungen", "ziel": "10 kumuliert bezahlt (Alarm 6); für die Schwellen zählt nur ausgezahltes Geld"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+  {
+   "k": "Warteliste",
+   "ziel": "1.000 bestätigt (Alarm 450), Grind+-Ziel 1.130"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~3.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Vorbestellungen",
+   "ziel": "10 kumuliert bezahlt (Alarm 6); für die Schwellen zählt nur ausgezahltes Geld"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  }
  ],
  "days": {
   "2027-01-11": [
@@ -17,7 +32,7 @@
     "m": 40,
     "s": [
      "Shopify-Admin → Produkte → „Testprodukt TT“ anlegen (1 €, zwei Größen, je 2 Stück, nirgends verlinkt). Ein Freund kauft am Handy über den Produktlink. Du erstattest sofort: Bestellungen → Bestellung → Erstatten.",
-     "Prüfen: Preis aus Shopify, Liefersatz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“ auf der Seite, Größenseite verlinkt, Bestellbestätigung mit dem Vorbestell-Textblock (Liefersatz, Geld-zurück-Regel, Stücknummer nach Bestelldatum).",
+     "Prüfen: Preis aus Shopify, Liefersatz „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“ auf der Seite, Größenseite verlinkt, Bestellbestätigung mit dem Vorbestell-Textblock (Liefersatz, Geld-zurück-Regel, Stücknummer nach Bestelldatum).",
      "Erinnerung bei abgebrochenem Checkout: einen Checkout bis zur Zahlungsseite gehen und abbrechen. Kommt die Erinnerungsmail? Dann die Funktion für den 14.01. einschalten (Menüpunkt in Shopify vor Ort prüfen, z. B. Marketing → Automatisierungen).",
      "Zeitsteuerung: Testprodukt auf „heute in 20 Minuten“ veröffentlichen lassen (Future Publishing, in den Unterlagen nicht belegt). Uhrzeit notieren, ob es pünktlich live geht. Geht es nicht: am 14.01. um 17:50 von Hand aktiv schalten.",
      "Umschichten üben: Bestand von Größe A auf Größe B verschieben (Produkt → Varianten → Bestand), Summe bleibt gleich. Zeit stoppen.",
@@ -25,9 +40,20 @@
     ],
     "f": "Testkauf und Erstattung geklappt haben, die Erinnerungsmail getestet und eingeschaltet ist und du weißt, ob die Zeitsteuerung pünktlich war.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte, Bestellungen, Marketing; Menüpfade vor Ort prüfen"},
-     {"n": "Shopify Help Center · Pre-orders", "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders/setup"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Website“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Produkte, Bestellungen, Marketing; Menüpfade vor Ort prüfen"
+     },
+     {
+      "n": "Shopify Help Center · Pre-orders",
+      "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders/setup"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Website“"
+     }
     ]
    },
    {
@@ -42,7 +68,11 @@
     ],
     "f": "alle drei Antworten in 30 Sekunden gefunden werden oder die Seite heute entsprechend geändert ist.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Vorschau der Vorbestellseite"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Vorschau der Vorbestellseite"
+     }
     ]
    },
    {
@@ -57,8 +87,16 @@
     ],
     "f": "die Frage in der Test-Bestellbestätigung steht und das Blatt „Kaufgrund“ angelegt ist.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Benachrichtigungen"},
-     {"n": "Tally", "u": "https://tally.so", "h": "nur falls Formular statt Antwort-Mail; Preise auf tally.so prüfen"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Benachrichtigungen"
+     },
+     {
+      "n": "Tally",
+      "u": "https://tally.so",
+      "h": "nur falls Formular statt Antwort-Mail; Preise auf tally.so prüfen"
+     }
     ]
    },
    {
@@ -72,7 +110,10 @@
     ],
     "f": "die Story mit Countdown und Link-Sticker online und im Highlight ist.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    },
    {
@@ -106,9 +147,18 @@
      "check": "Ablauf passt zu den Mails (18:00 Liste, 19:00 alle), CTA bis 13.01., nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -145,9 +195,18 @@
      "check": "Subjekt ist der Teppich, kein „sowjetisch“, keine Länder, kein roter Hintergrund, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    },
    {
@@ -165,8 +224,15 @@
     ],
     "f": "5 Creator gemessen sind, jeder seinen ?ref=c-Link und die Abmachung hat und das Blatt „Creator“ vollständig ist.",
     "o": [
-     {"n": "Ort der Creator-Preview", "a": "[Adresse aus Blatt „Abende“, fest seit 19.12.]"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Abende“ und „Creator“"}
+     {
+      "n": "Ort der Creator-Preview",
+      "a": "[Adresse aus Blatt „Abende“, fest seit 19.12.]"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Abende“ und „Creator“"
+     }
     ]
    }
   ],
@@ -182,10 +248,17 @@
      "Gleich danach die E-Mail für morgen 18:00 („Die Liste kauft zuerst“) fertig machen und für Do 14.01., 18:00 planen."
     ],
     "f": "E-Mail 2 für heute 18:00 und die Mail „Die Liste kauft zuerst“ für Do 18:00 geplant sind.",
-    "p": "Projekt Time Travel, Docket W18, Mi 13.01. Schreib mir zwei kurze Mails an meine Warteliste (Deutsch, englische Kurzfassung darunter, je höchstens 90 Wörter). Mail 2 heute 18:00: „Morgen: 18:00 für die Liste, 19:00 für alle“. Mail 3 morgen 18:00: „Die Liste kauft zuerst“, Link offen ab jetzt, 35 Paar. Beide: Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €, Lieferung bis spätestens 30.04.2027, geplant Anfang April, Stücknummer nach Bestelldatum, Mess-Abend 1 Sa 16.01. [Ort]. Kein Streichpreis, nie „authentisch“. Je 2 Betreffzeilen.",
+    "p": "Projekt Time Travel, Docket W18, Mi 13.01. Schreib mir zwei kurze Mails an meine Warteliste (Deutsch, englische Kurzfassung darunter, je höchstens 90 Wörter). Mail 2 heute 18:00: „Morgen: 18:00 für die Liste, 19:00 für alle“. Mail 3 morgen 18:00: „Die Liste kauft zuerst“, Link offen ab jetzt, 35 Paar. Beide: Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €, Lieferung bis spätestens 30.06.2027, geplant Anfang Juni, Stücknummer nach Bestelldatum, Mess-Abend 1 Sa 16.01. [Ort]. Kein Streichpreis, nie „authentisch“. Je 2 Betreffzeilen.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Marketing → Shopify Email (Pfad vor Ort prüfen)"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Marketing → Shopify Email (Pfad vor Ort prüfen)"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -200,8 +273,16 @@
     ],
     "f": "jede Zusage und jeder Reservierer heute eine persönliche Nachricht hat und die 17:55-Liste fertig ist.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden mit Reservierung"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden mit Reservierung"
+     }
     ]
    },
    {
@@ -217,13 +298,18 @@
     ],
     "f": "die Reservierung geschlossen ist, die Handheber-Zahl im Cockpit steht und bei unter 20 die Bewerbung des Mess-Abends läuft.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"},
-     {"n": "Docket · Zahlen-Cockpit"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     }
     ]
    },
    {
     "c": "N",
-    "t": "Regel ab morgen: Stufe 2 geht live, sobald Nr. 035 verkauft ist (Entwurf vom 14.12. aktivieren, Mail an alle ohne Kauf, Story). Spätestens So 21.03., 20:00."
+    "t": "Regel ab morgen: Stufe 2 geht live, sobald Nr. 035 verkauft ist (Entwurf vom 14.12. aktivieren, Mail an alle ohne Kauf, Story). Spätestens So 23.05., 20:00."
    },
    {
     "c": "C",
@@ -256,9 +342,19 @@
      "check": "Loopt, kein Streichpreis, CTA bis 13.01., Musik nur aus der Business-Bibliothek."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -294,16 +390,35 @@
      "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite (Shop-Clip heute um 19:00)",
      "ton": "O-Ton mit Untertiteln, Musik nur leise aus der Business-Bibliothek",
      "text": "Hook EN, Endkarte „link in bio · [Y] of 35 left“",
-     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
-     "caption": "Open now: 35 pairs, numbered in order of pre-order. Delivery by 30.04.2027 at the latest, planned early April. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35.)",
+     "caption": "Open now: 35 pairs, numbered in order of pre-order. Delivery by 30.06.2027 at the latest, planned early June. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
      "check": "Kein „€149 instead of €169“, Liefersatz exakt, [Y] nur mit echter Zahl, nie „authentisch“."
     },
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte, Bestand, Shopify Email"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Post und Live"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story, Broadcast, Live"},
-     {"n": "YouTube", "u": "https://www.youtube.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Pre-Order“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Produkte, Bestand, Shopify Email"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Post und Live"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel, Story, Broadcast, Live"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Pre-Order“"
+     }
     ]
    }
   ],
@@ -320,8 +435,16 @@
     ],
     "f": "alle Bestellungen bis heute im Blatt stehen und „X von 35“ oben aktuell ist.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Bestellungen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Pre-Order“ und „Kaufgrund“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Bestellungen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Pre-Order“ und „Kaufgrund“"
+     }
     ]
    },
    {
@@ -335,7 +458,11 @@
     ],
     "f": "morgens und abends geprüft wurde, die Summe 35 ist und jede Änderung im Blatt steht.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte → Varianten → Bestand"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Produkte → Varianten → Bestand"
+     }
     ]
    },
    {
@@ -350,8 +477,16 @@
     ],
     "f": "jeder Reservierer und Netz-Name ohne Bestellung eine persönliche DM hat.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Netz“, „Die ersten 35“, „Pre-Order“"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "DMs"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Netz“, „Die ersten 35“, „Pre-Order“"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "DMs"
+     }
     ]
    },
    {
@@ -362,18 +497,36 @@
      "Google Maps, Satellitenansicht: Felder in S-Bahn-Nähe am Berliner Stadtrand. In Berlin gibt es Felder z. B. bei Lübars (ungeprüft). Zweite Option: Domäne Dahlem, Museumsbauernhof mit Feldern (ungeprüft, Fotoregeln prüfen).",
      "Drei Kandidaten notieren: Lage, S-Bahn-Station, Fußweg, Blickrichtung zum Sonnenuntergang (mit einer Sonnen-App prüfen).",
      "Landwirt bzw. Betrieb nur über den offiziellen Kontakt fragen (Website, Telefon im Impressum). Text mit dem Prompt unten.",
-     "Erlaubnis schriftlich: Drehen am Sa 20.02. und an den Countdown-Sonntagen, Feld nicht betreten, nur Fahrspuren, kein Team, Handy.",
+     "Erlaubnis schriftlich: Drehen am Sa 06.03. und an den Countdown-Sonntagen, Feld nicht betreten, nur Fahrspuren, kein Team, Handy.",
      "Ersatz: Tempelhofer Feld; kommerzielles Drehen braucht vermutlich eine Genehmigung des Betreibers (ungeprüft, prüfen).",
      "Ins Blatt „Shoot“: Feld, Kontakt, angefragt am 15.01. Ziel: Feld bis Ende Januar fix."
     ],
     "f": "drei Kandidaten im Blatt stehen und mindestens eine Anfrage über den offiziellen Kontakt raus ist.",
-    "p": "Projekt Time Travel, Docket W18, Fr 15.01. Schreib mir eine kurze, höfliche Anfrage (Deutsch, höchstens 100 Wörter) an einen Landwirt am Berliner Stadtrand: Ich bin Ernest, kleine Denim-Marke aus Berlin, und möchte am Rand seines Felds mit dem Handy Fotos und kurze Videos drehen, am Sa 20.02.2027 und an einigen Sonntagen im März/April. Ich betrete das Feld nicht, nutze nur die Fahrspuren, kein Team, keine Technik außer dem Handy. Ich frage um schriftliche Erlaubnis und biete [Gegenleistung, z. B. Bilder, Nennung]. Ohne Floskeln.",
+    "p": "Projekt Time Travel, Docket W18, Fr 15.01. Schreib mir eine kurze, höfliche Anfrage (Deutsch, höchstens 100 Wörter) an einen Landwirt am Berliner Stadtrand: Ich bin Ernest, kleine Denim-Marke aus Berlin, und möchte am Rand seines Felds mit dem Handy Fotos und kurze Videos drehen, am Sa 06.03.2027 und an einigen Sonntagen im Mai/Juni. Ich betrete das Feld nicht, nutze nur die Fahrspuren, kein Team, keine Technik außer dem Handy. Ich frage um schriftliche Erlaubnis und biete [Gegenleistung, z. B. Bilder, Nennung]. Ohne Floskeln.",
     "o": [
-     {"n": "Google Maps", "u": "https://maps.google.com", "h": "Satellitenansicht, Stadtrand mit S-Bahn"},
-     {"n": "Felder bei Lübars", "h": "ungeprüft (berlin.md 4.2)"},
-     {"n": "Domäne Dahlem", "a": "Dahlem, nahe MEK", "h": "ungeprüft, Fotoregeln prüfen"},
-     {"n": "Tempelhofer Feld", "a": "Tempelhof/Neukölln", "h": "nur Ersatz, Genehmigung des Betreibers prüfen"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Maps",
+      "u": "https://maps.google.com",
+      "h": "Satellitenansicht, Stadtrand mit S-Bahn"
+     },
+     {
+      "n": "Felder bei Lübars",
+      "h": "ungeprüft (berlin.md 4.2)"
+     },
+     {
+      "n": "Domäne Dahlem",
+      "a": "Dahlem, nahe MEK",
+      "h": "ungeprüft, Fotoregeln prüfen"
+     },
+     {
+      "n": "Tempelhofer Feld",
+      "a": "Tempelhof/Neukölln",
+      "h": "nur Ersatz, Genehmigung des Betreibers prüfen"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -402,14 +555,23 @@
      "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
      "ton": "Originalton (Stoff, Nadel), keine Musik oder sehr leise",
      "text": "Hook EN in den ersten 2 s, „3 × 60 °C“",
-     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
-     "caption": "I washed three patch samples three times at 60°C. [Ergebnis]. The winner sits on every waistband. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #treeoflife #novalifetimetravel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35.)",
+     "caption": "I washed three patch samples three times at 60°C. [Ergebnis]. The winner sits on every waistband. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #treeoflife #novalifetimetravel",
      "check": "Echte Ergebnisse, nie „Slavic tree of life“, kein Streichpreis, [Y] nur echt."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -425,7 +587,10 @@
     ],
     "f": "beide Prüfungen gemacht sind und die Summe 35 ist.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     }
     ]
    },
    {
@@ -458,7 +623,10 @@
      "check": "Nur echte Zahl, kein roter Hintergrund."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    },
    {
@@ -470,15 +638,26 @@
      "17:40 Aufbau am Ort aus dem Blatt „Abende“: Messtisch, Spiegel, QR sichtbar am Eingang und am Tisch.",
      "Ablauf je Gast: Lieblingsjeans flach messen (Bund, Hüfte, Oberschenkel, Innenbein) → Novalife-Größe sagen → Sample W32 anprobieren → vorbestellen am eigenen Handy über den QR.",
      "Keine Kasse, kein Bargeld. Wer nicht am Handy zahlen will, bekommt den Link per DM.",
-     "Fragen zu Rückgabe oder Lieferung nur mit dem Text der Vorbestellseite beantworten. Liefersatz: „Lieferung bis spätestens 30.04.2027, geplant Anfang April.“",
+     "Fragen zu Rückgabe oder Lieferung nur mit dem Text der Vorbestellseite beantworten. Liefersatz: „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni.“",
      "Gäste und Größen ohne Namen auf einen Zettel, danach ins Blatt „Abende“: Gäste, Messungen, Vorbestellungen mit ref=mess1.",
      "Fotos nur mit Erlaubnis der Gäste."
     ],
     "f": "der Abend gelaufen ist und Gäste, Messungen und Vorbestellungen mit ref=mess1 im Blatt „Abende“ stehen.",
     "o": [
-     {"n": "Ort Mess-Abend 1", "a": "[Adresse aus Blatt „Abende“, fest seit 19.12.]"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Bestellungen live mitverfolgen"}
+     {
+      "n": "Ort Mess-Abend 1",
+      "a": "[Adresse aus Blatt „Abende“, fest seit 19.12.]"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Abende“"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Bestellungen live mitverfolgen"
+     }
     ]
    },
    {
@@ -493,7 +672,11 @@
     ],
     "f": "der Abend bis 21:00 lief oder du um 20:00 bewusst geschlossen hast.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story"
+     }
     ]
    }
   ],
@@ -509,7 +692,10 @@
     ],
     "f": "die letzte Umschichtung im Blatt „Pre-Order“ steht.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     }
     ]
    },
    {
@@ -520,18 +706,31 @@
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Zahl, Zuwachs und Liste nach Quellen-Tag ins Zahlen-Cockpit.",
      "Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“) und bezahlte Jeans (Vorbestellungen, Blatt „Pre-Order“) ins Cockpit. Für die Schwellen zählt nur ausgezahltes Geld: Shopify → Finanzen → Auszahlungen.",
      "Content: je Post Views, Saves, Shares, neue Follower ins Blatt „Content“. Anmeldungen je 1.000 Views.",
-     "Tempo: Bestellungen pro Tag seit Do. Hochrechnung bis So 31.01.: reicht es für mindestens 10 ausgezahlt bis Mo 01.02.?",
+     "Tempo: Bestellungen pro Tag seit Do. Hochrechnung bis So 14.02.: reicht es für mindestens 10 ausgezahlt bis Mo 15.02.?",
      "Kassencheck K − F − R, Ampel ins Cockpit. Ausgaben der Woche mit Beleg ins Blatt „Ausgaben“.",
      "Kaufgrund-Antworten lesen: häufigster Grund in einem Satz.",
      "Zeile an Claude (Prompt unten)."
     ],
     "f": "Warteliste bestätigt, Follower gesamt, Zusagen und bezahlte Jeans im Cockpit stehen und Claude die Zeile hat.",
-    "p": "W18: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Vorbestellungen bezahlt [B], ausgezahlt [A], Mess-Abend 1 [Gäste/Bestellungen], häufigster Kaufgrund [..]. Hochrechnung bis 31.01.: [..]. Offen aus W18: [..].",
+    "p": "W18: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Vorbestellungen bezahlt [B], ausgezahlt [A], Mess-Abend 1 [Gäste/Bestellungen], häufigster Kaufgrund [..]. Hochrechnung bis 07.02.: [..]. Offen aus W18: [..].",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente, Finanzen → Auszahlungen"},
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Content“, „Pre-Order“, „Ausgaben“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segmente, Finanzen → Auszahlungen"
+     },
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Content“, „Pre-Order“, „Ausgaben“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -539,7 +738,7 @@
     "t": "Gate: Vorbestellungen ≥ 8 · Liste ≥ 1.000 · Stufe-2-Check",
     "m": 5,
     "s": [
-     "Vorbestellungen ≥ 8 (Soll 10, Alarm 6): weiter. Darunter: Mo zweite DM-Welle an alle Zusagen und „Vielleicht“ ohne Kauf mit ihrer Größe, Creator-Clips reposten (nur mit Erlaubnis), Mess-Abend 2 am Sa 23.01. doppelt bewerben.",
+     "Vorbestellungen ≥ 8 (Soll 10, Alarm 6): weiter. Darunter: Mo zweite DM-Welle an alle Zusagen und „Vielleicht“ ohne Kauf mit ihrer Größe, Creator-Clips reposten (nur mit Erlaubnis), Mess-Abend 2 am Sa 30.01. doppelt bewerben.",
      "G10 unter Alarm 6: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum Mess-Abend 2, „X von 35“ nur mit echter Zahl.",
      "G11: Produktseiten-Conversion unter 1,3 % bei ≥ 300 Sitzungen: häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis, Goldfäden-Video als zweites Bild.",
      "Liste ≥ 1.000: weiter. Unter Alarm 450 (G1): Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos zeigen. Unter Soll (G2): bestes Video in 2 Varianten.",
@@ -548,21 +747,27 @@
     ],
     "f": "jedes Gate im Cockpit grün oder mit Gegenmaßnahme und Datum steht.",
     "o": [
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Stufe-2-Produkt (Entwurf vom 14.12.)"}
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Stufe-2-Produkt (Entwurf vom 14.12.)"
+     }
     ]
    },
    {
     "c": "C",
-    "t": "Content-Batch W19: V055–V059 drehen und schneiden",
+    "t": "Content-Batch W20: V055–V059 drehen und schneiden",
     "m": 90,
     "s": [
-     "Ordner „W19/roh“ und „W19/final“ anlegen. Kamera 9:16, je Shot 3 Takes, Graukarte in den ersten Frame.",
+     "Ordner „W20/roh“ und „W19/final“ anlegen. Kamera 9:16, je Shot 3 Takes, Graukarte in den ersten Frame.",
      "Ort 1 · Schreibtisch, Draufsicht: V055 „Zwischenstand“ (Hangtags auf dem Tisch, einer pro Vorbestellung, nur Nummern; dein Danke-Satz; Rest-Zahl groß). Am Mo mit der echten Zahl nachschneiden.",
      "Ort 2 · Fensterbank: V056 und V057 nach Konzept im Docket (W19). V058 „Die Schnittkante“: Fotos der Waschserie plus Makro Saum, Finger fährt die Kante entlang.",
      "Ort 3 · Hinterhof oder Treppenhaus mit Fensterlicht: V058 Gehen, der Saum bewegt sich. Keine DDR-Monumentalkulisse, keine Flaggen.",
      "V059 Story-Vorlage: Frage-Sticker „Ask me anything about the pre-order.“",
-     "Schnitt in CapCut ohne Musik, Hook in die ersten 2 s, Untertitel. CTA ab 14.01.: „Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.“",
+     "Schnitt in CapCut ohne Musik, Hook in die ersten 2 s, Untertitel. CTA ab 14.01.: „Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.“",
      "Alles in „W19/final“."
     ],
     "f": "V055–V058 fertig (V055 mit Platzhalter-Zahl) und V059 als Vorlage in „W19/final“ liegen.",
@@ -575,7 +780,7 @@
      "hook_de": "V055 Tag 99: [X] von 35 Paar vorbestellt. · V058 Roher Saum, nach der Wäsche geschnitten. Schau. · V059 Frag mich alles zur Vorbestellung.",
      "shots": [
       "Ort 1 Schreibtisch: V055 Hangtags nur mit Nummern, Danke-Satz, Rest-Zahl",
-      "Ort 2 Fensterbank: V056, V057 nach Docket W19",
+      "Ort 2 Fensterbank: V056, V057 nach Docket W20",
       "Ort 2 Fensterbank: V058 Makro Saum, Finger an der Kante",
       "Ort 3 Hinterhof: V058 Gehen, Saum in Bewegung",
       "Story-Vorlage V059: Frage-Sticker"
@@ -583,13 +788,19 @@
      "ort": "Wohnung · Schreibtisch und Fensterbank; Berliner Hinterhof oder Treppenhaus mit Fensterlicht (Erlaubnis des Hauses)",
      "ton": "O-Ton mit Untertiteln; V058 ruhiger Track erst in der App, darunter Originalton",
      "text": "Hook EN in den ersten 2 s, Untertitel",
-     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.",
      "caption": "Captions stehen an den Posttagen W19.",
      "check": "Keine Kundennamen, nur echte Zahlen, kein Streichpreis, keine Sowjet- oder DDR-Kulisse."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "Berliner Hinterhof oder Treppenhaus", "h": "nur mit Erlaubnis des Hauses"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "Berliner Hinterhof oder Treppenhaus",
+      "h": "nur mit Erlaubnis des Hauses"
+     }
     ]
    },
    {
@@ -618,13 +829,19 @@
      "ort": "Wohnung · Schreibtisch, Fensterlicht von der Seite",
      "ton": "O-Ton mit Untertiteln",
      "text": "Kommentar-Sticker, Untertitel",
-     "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
-     "caption": "You asked, here's the answer. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.",
+     "caption": "You asked, here's the answer. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
      "check": "Rechtliche Fragen nur mit dem Text der Rechtsseite, Standardantwort bei Herkunftsfragen, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ]

@@ -28,7 +28,7 @@
     "m": 60,
     "s": [
      "Vorlage „RFQ Jeansfabrik“ (Docket → Referenz → Vorlagen) kopieren. Sie ist auf den Freeze vom 11.10. umgestellt: Serp gestrichen, 4 Stickzonen, ~28.000 Stiche, 4 Garnfarben, Patch D in Größe B (76 × 67 mm) als hintere Gürtelschlaufe mit 3–5 mm Spiel. Nur noch die Position eintragen (mittig oder rechts der Mittelnaht).",
-     "Claudes Zusatzfragen ab Nr. 16 anhängen: Preis bei 75 und 100 · je 1.000 Stiche · Fadenschnitte und Farbwechsel · DDP und DAP Berlin · Euro · Betriebsferien · Taschenfutter-Druck · Anti-Backstaining · Patch D im Haus · REACH schriftlich (Nickel, Azofarbstoffe) · Arbeitszeit im Ramadan · Feiertage bis April.",
+     "Claudes Zusatzfragen ab Nr. 16 anhängen: Preis bei 75 und 100 · je 1.000 Stiche · Fadenschnitte und Farbwechsel · DDP und DAP Berlin · Euro · Betriebsferien · Taschenfutter-Druck · Anti-Backstaining · Patch D im Haus · REACH schriftlich (Nickel, Azofarbstoffe) · Arbeitszeit im Ramadan · Feiertage bis Mitte Mai.",
      "Steht der Freeze nicht vollständig: den Satz „final placement confirmed by 16.10.“ einfügen. Gilt der Farbvorbehalt B/B2 bis 07.11.: Claudes Satz dazu einfügen.",
      "Pro Fabrik eine eigene Mail, nie mehrere in CC. Erste Zeile mit dem Namen der Fabrik. Absender: deine Novalife-Adresse. Signatur: Name, Novalife, Berlin, Website.",
      "Anhänge: Tech Pack v1.0 (PDF) und das Elementblatt 1:1. Hat eine Fabrik nur ein Kontaktformular: Text einfügen und anbieten, das Tech Pack per Mail zu schicken. Kontaktweg genau so, wie er im Blatt steht.",
@@ -138,13 +138,13 @@
       "Hände kleben das Papierband an die rechte Vordertasche der Eightyfive",
       "Flurspiegel von vorn, Hose mit allen Papierteilen",
       "Makro: Papierband an der Taschenkante, ein Finger fährt entlang",
-      "Endkarte: „100 jeans. One pattern. 22.04.2027“"
+      "Endkarte: „100 jeans. One pattern. 24.06.2027“"
      ],
      "ort": "Wohnung · Schreibtisch und Flurspiegel, Material vom Papiertest 3 am 08.10.",
      "ton": "Originalton (Papier, Schere, Krepp). In der App höchstens leise Musik aus der Commercial Music Library bzw. Business-Bibliothek",
-     "text": "0–2 s Hook EN (T1), Untertitel, Endkarte „100 jeans. One pattern. 22.04.2027“",
+     "text": "0–2 s Hook EN (T1), Untertitel, Endkarte „100 jeans. One pattern. 24.06.2027“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Day 1. Before a factory sews a single stitch, I test every embroidery as paper on my own jeans. 100 pairs, numbered. Drop 22.04.2027. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "caption": "Day 1. Before a factory sews a single stitch, I test every embroidery as paper on my own jeans. 100 pairs, numbered. Drop 24.06.2027. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
      "check": "Nur Papier, kein Mockup, keine Seitenansicht links, B und B2 nie im selben Bild, CTA der Phase, nie „authentisch“."
     },
     "o": [
@@ -200,7 +200,7 @@
      "Danach den Prompt unten an Claude, damit das Ergebnis in den Fabrikvergleich geht. Fehlt etwas Schriftliches: nachfordern bis Fr 23.10. (Gate)."
     ],
     "f": "du weißt, ob du Kleinunternehmer bleibst, was Türkei gegen Portugal steuerlich kostet und wann die Steuer fällig ist, und Claude die Antworten hat.",
-    "p": "Projekt Time Travel, Docket W5, Di 13.10. Ergebnis vom Steuerberater:\n1 Kleinunternehmer 2027: [..] · 2 Einfuhrumsatzsteuer Türkei bei DDP und DAP: [..] · 3 Portugal, Erwerbsschwelle, USt-IdNr: [..] · 4 Reverse Charge, Voranmeldungen: [..] · 5 Umsatzmonat der Vorbestellungen: [..] · 6 OSS: [..] · 7 Hinweis § 19 UStG: [Wortlaut] · 8 Gewerbeschein: [deckt ab / ummelden] · 9 Fälligkeit, Spediteur mit Zahlungsziel: [..] · 10 Helfer: [Minijob oder kurzfristig, Kosten] · 11 Creator-Paare: [..] · Kosten des Gesprächs: [€]\nRechne mir die Steuer-Spalte für den Fabrikvergleich (Türkei gegen Portugal), sag mir, ob sich Schwelle 2b (40 ausgezahlt bis Mi 24.03.) ändert, und was bis zum Gate Fr 23.10. noch schriftlich fehlt.",
+    "p": "Projekt Time Travel, Docket W5, Di 13.10. Ergebnis vom Steuerberater:\n1 Kleinunternehmer 2027: [..] · 2 Einfuhrumsatzsteuer Türkei bei DDP und DAP: [..] · 3 Portugal, Erwerbsschwelle, USt-IdNr: [..] · 4 Reverse Charge, Voranmeldungen: [..] · 5 Umsatzmonat der Vorbestellungen: [..] · 6 OSS: [..] · 7 Hinweis § 19 UStG: [Wortlaut] · 8 Gewerbeschein: [deckt ab / ummelden] · 9 Fälligkeit, Spediteur mit Zahlungsziel: [..] · 10 Helfer: [Minijob oder kurzfristig, Kosten] · 11 Creator-Paare: [..] · Kosten des Gesprächs: [€]\nRechne mir die Steuer-Spalte für den Fabrikvergleich (Türkei gegen Portugal), sag mir, ob sich Schwelle 2b (40 ausgezahlt bis Mi 26.05.) ändert, und was bis zum Gate Fr 23.10. noch schriftlich fehlt.",
     "o": [
      {
       "n": "Dein Steuerberater oder die IHK (Termin vom 08.10.)",
@@ -417,10 +417,10 @@
     "s": [
      "Prompt unten in einen neuen Chat im Projekt. Der Einbau ist morgen, Do 15.10. (40′).",
      "Prüfen, ob Claudes Antwort alles hat: Einbau-Schritte im Theme-Editor, 4 Tests, Danke-Text, WhatsApp-Text, Satz für die Datenschutzerklärung.",
-     "Belohnung nach Plan: 3 bestätigte Freunde → persönliche DM am 22.04. um 17:55 und ein fester Platz am Drop-Abend. Kein früherer Drop-Link, kein Rabatt."
+     "Belohnung nach Plan: 3 bestätigte Freunde → persönliche DM am 24.06. um 17:55 und ein fester Platz am Drop-Abend. Kein früherer Drop-Link, kein Rabatt."
     ],
     "f": "Claudes Bauanleitung mit 4 Tests, Texten und Datenschutz-Satz im Chat liegt.",
-    "p": "Projekt Time Travel, Docket W5, Mi 14.10. Bau mir für meinen Shopify-Shop (Theme Dawn, Startseite = Warteliste) eine Empfehlungs-Mechanik ohne App:\nverstecktes Feld contact[tags] im Newsletter-Formular · ?ref= aus der URL lesen und speichern · beim Absenden die Tags „warteliste“, „ref-[x]“ und „code-[neuer 6-Zeichen-Code]“ setzen, wenn vorhanden auch „src-[utm_source]“ · nach dem Absenden den persönlichen Link mit Knopf „Per WhatsApp schicken“ und „Kopieren“ zeigen.\nKein externes Skript, keine Cookies außer localStorage für den ref-Wert. Erklär mir Schritt für Schritt, wo ich im Theme-Editor was einfüge (ich bin neu auf dem Mac), und gib mir 4 Tests: ohne ref, mit ?ref=test, doppelte Anmeldung, Handy.\nTexte auf Deutsch: Danke-Seite („Bestätige die Mail, sonst zählt es nicht“, persönlicher Link, „Wenn sich 3 Freunde eintragen und bestätigen, schreibe ich dir am 22.04. um 17:55 persönlich, 5 Minuten vor der Liste“) und WhatsApp-Text mit „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“\nPrüf, ob Shopify Email den persönlichen Link in die Willkommens-Mail setzen kann; wenn nicht, Hinweis „Mach einen Screenshot“ auf der Danke-Seite. Schreib mir den Satz für die Datenschutzerklärung zu Quellen-Tags und Empfehlungs-Code dazu.",
+    "p": "Projekt Time Travel, Docket W5, Mi 14.10. Bau mir für meinen Shopify-Shop (Theme Dawn, Startseite = Warteliste) eine Empfehlungs-Mechanik ohne App:\nverstecktes Feld contact[tags] im Newsletter-Formular · ?ref= aus der URL lesen und speichern · beim Absenden die Tags „warteliste“, „ref-[x]“ und „code-[neuer 6-Zeichen-Code]“ setzen, wenn vorhanden auch „src-[utm_source]“ · nach dem Absenden den persönlichen Link mit Knopf „Per WhatsApp schicken“ und „Kopieren“ zeigen.\nKein externes Skript, keine Cookies außer localStorage für den ref-Wert. Erklär mir Schritt für Schritt, wo ich im Theme-Editor was einfüge (ich bin neu auf dem Mac), und gib mir 4 Tests: ohne ref, mit ?ref=test, doppelte Anmeldung, Handy.\nTexte auf Deutsch: Danke-Seite („Bestätige die Mail, sonst zählt es nicht“, persönlicher Link, „Wenn sich 3 Freunde eintragen und bestätigen, schreibe ich dir am 24.06. um 17:55 persönlich, 5 Minuten vor der Liste“) und WhatsApp-Text mit „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“\nPrüf, ob Shopify Email den persönlichen Link in die Willkommens-Mail setzen kann; wenn nicht, Hinweis „Mach einen Screenshot“ auf der Danke-Seite. Schreib mir den Satz für die Datenschutzerklärung zu Quellen-Tags und Empfehlungs-Code dazu.",
     "o": [
      {
       "n": "Claude · Projekt „novalife time travel“",
@@ -574,13 +574,13 @@
      "Familie fragen (Anruf oder Besuch): Gibt es den Wandteppich noch? Wo hängt er? Gibt es Fotos davon, alte Stickereien?",
      "Einwilligung holen: Darf ich Fotos davon zeigen (Posts, Website)? Schriftlich, eine WhatsApp-Nachricht reicht. Ohne Ja bleibt alles intern.",
      "Bei Tageslicht gerade von vorn fotografieren: ganz und in Ausschnitten (Medaillon in der Mitte, Rahmen, Ecken). Keine Sowjet-Deko mit im Bild.",
-     "Fragen, ob du den Teppich für den Shoot am Sa 20.02.2027 leihen darfst. Antwort als Notiz „Shoot“.",
+     "Fragen, ob du den Teppich für den Shoot am Sa 06.03.2027 leihen darfst. Antwort als Notiz „Shoot“.",
      "Fotos mit dem Prompt unten an Claude. Daraus entsteht das Medaillon für den Zipper-Rücken.",
      "Gibt es ihn nicht mehr: Fotos ähnlicher Teppiche aus deinem Umfeld, nur mit Ja. Sonst baut Claude das Medaillon aus den Motiven der Grammatik.",
      "Entscheiden, wie viel Familie in den Content kommt. Rat: über Gegenstände, nicht über Länder. Den Teppich nur als Erinnerung zeigen, nicht als Retro-Stil."
     ],
     "f": "die Fotos bei Claude sind (oder du sicher weißt, dass es keine gibt), die Einwilligung schriftlich vorliegt und die Shoot-Frage gestellt ist.",
-    "p": "Projekt Time Travel, Docket W5, Do 15.10. Anbei Fotos vom Wandteppich meiner Familie: [ganz, Medaillon, Rahmen, Ecken]. Einwilligung der Familie: [ja, schriftlich / nur intern]. Darf ich ihn für den Shoot am 20.02. leihen: [ja / nein / offen].\nBitte 1) beschreib mir Aufbau, Motive und Farben, 2) schlag mir vor, wie daraus das Medaillon für den Zipper-Rücken (ca. 200 × 150 mm) wird, nur mit Motiven, die nach der Drei-von-vier-Regel belegt sind, 3) sag mir, welcher Ausschnitt heute in Story 2 kann. Bildregeln: kein roter Hintergrund, keine Sowjet-Deko, der Teppich als Erinnerung und nicht als Retro-Stil.",
+    "p": "Projekt Time Travel, Docket W5, Do 15.10. Anbei Fotos vom Wandteppich meiner Familie: [ganz, Medaillon, Rahmen, Ecken]. Einwilligung der Familie: [ja, schriftlich / nur intern]. Darf ich ihn für den Shoot am 06.03. leihen: [ja / nein / offen].\nBitte 1) beschreib mir Aufbau, Motive und Farben, 2) schlag mir vor, wie daraus das Medaillon für den Zipper-Rücken (ca. 200 × 150 mm) wird, nur mit Motiven, die nach der Drei-von-vier-Regel belegt sind, 3) sag mir, welcher Ausschnitt heute in Story 2 kann. Bildregeln: kein roter Hintergrund, keine Sowjet-Deko, der Teppich als Erinnerung und nicht als Retro-Stil.",
     "o": [
      {
       "n": "Claude · Projekt „novalife time travel“",
@@ -642,7 +642,7 @@
      "Persönlichen Link in die Willkommens-Mail setzen, wenn Shopify Email das kann (laut Claude). Sonst steht auf der Danke-Seite „Mach einen Screenshot“.",
      "Verschoben am 13.10.: Den Datenschutz-Satz zu Quellen-Tags und Empfehlungs-Code trägst du am Fr 23.10. ein.",
      "Scheitert es, weil die Tags nicht ankommen: Theme-Sicherung zurück und stattdessen ein eigenes Tally-Formular mit dem Feld „Wer hat dich eingeladen?“ (nicht die anonyme Umfrage, keine Herkunftsfrage).",
-     "Ab Fr 23.10. (nach dem Datenschutz-Satz) gehört der „Bring 3“-Link zur Willkommens-Mail. Belohnung: 3 bestätigte Freunde → DM am 22.04. um 17:55 und ein fester Platz am Drop-Abend."
+     "Ab Fr 23.10. (nach dem Datenschutz-Satz) gehört der „Bring 3“-Link zur Willkommens-Mail. Belohnung: 3 bestätigte Freunde → DM am 24.06. um 17:55 und ein fester Platz am Drop-Abend."
     ],
     "f": "alle 4 Tests bestanden sind (ref- und code-Tag stehen beim Testkunden, der persönliche Link erscheint). Live geht es am Fr 23.10.",
     "o": [
@@ -945,8 +945,8 @@
     "s": [
      "Nur wenn die Prüfung vom 08.10. „nein“ ergab.",
      "Verpackungsregister LUCID → Registrierung, Firmenname genau so, wie du ihn später beim dualen System angibst. Die Registrierung ist laut tools.md kostenlos (ungeprüft).",
-     "Registriernummer ins Blatt „Tools“. Pflicht vor dem ersten Paket an Endkunden, also vor den Creator-Paaren und vor dem 06.04.",
-     "Die Lizenz (Systembeteiligung für Karton, Papier, Polybeutel) kommt erst am Di 23.02. mit der Verpackung."
+     "Registriernummer ins Blatt „Tools“. Pflicht vor dem ersten Paket an Endkunden, also vor den Creator-Paaren und vor dem 08.06.",
+     "Die Lizenz (Systembeteiligung für Karton, Papier, Polybeutel) kommt erst am Di 09.03. mit der Verpackung."
     ],
     "f": "die LUCID-Registriernummer im Blatt „Tools“ steht.",
     "o": [
@@ -1034,8 +1034,8 @@
      "Rat: Pixel-Spiel A streichen, die Scroll-Story „Der Weg zur Hütte“ (B) bauen.",
      "Warum: B kostet ~18 h (Schätzung), läuft ohne JavaScript und bleibt bei eigenen Dateien unter 95 KB. A kostet zusätzlich 20–40 h, die Spiel-Bibliothek allein wiegt 1,20 MB, und am Drop-Tag stünde das Spiel zwischen Besucher und Kasse. Einen belegten Verkaufseffekt hat es nicht.",
      "Deine Idee bleibt in B: Scrollen ist Laufen, Feld bei Sonnenuntergang → Jeans, Zipper, Polo → Hütte → Teppich.",
-     "Willst du A offen halten: gebaut wird nur, wenn am Fr 05.02. ≥ 25 Vorbestellungen, kein Gate rot und die Kasse grün ist.",
-     "Entscheidung an Claude: „Spiel: gestrichen“ oder „Spiel: offen bis 05.02.“. Der Website-Bau startet so oder so am Sa 31.10. mit Schritt 1."
+     "Willst du A offen halten: gebaut wird nur, wenn am Fr 19.02. ≥ 25 Vorbestellungen, kein Gate rot und die Kasse grün ist.",
+     "Entscheidung an Claude: „Spiel: gestrichen“ oder „Spiel: offen bis 19.02.“. Der Website-Bau startet so oder so am Sa 31.10. mit Schritt 1."
     ],
     "f": "die Spiel-Entscheidung schriftlich bei Claude ist.",
     "o": [
@@ -1179,7 +1179,7 @@
      "Hin: Maybachufer zwischen Nansenstraße und Liberdastraße, Neukölln. Laut berlin.de 10–17 Uhr, Eintritt frei.",
      "Ansehen, nicht verkaufen: Wer verkauft Denim oder Selbstgemachtes? Wie sehen gute Stände aus? Wie viele Leute in deiner Zielgruppe laufen dort in Jeans herum?",
      "Für die Saison 2027 fragen: Wie meldet man einen Stand an (laut Recherche nur online)? Was kostet er (nicht gefunden, erfragen)? Gibt es 2026 wieder einen Advents-Flowmarkt?",
-     "Ziel für später: ein Stand im Countdown am ersten Termin nach dem 29.03.2027. Vorher sammelst du dort nur Anmeldungen, Ware gibt es erst nach dem Drop.",
+     "Ziel für später: ein Stand im Countdown am ersten Termin nach dem 31.05.2027. Vorher sammelst du dort nur Anmeldungen, Ware gibt es erst nach dem Drop.",
      "Kein Dreh mit Personen ohne Einwilligung, keine Flaggen im Hintergrund. Notizen als Notiz „Berlin Märkte“."
     ],
     "f": "du weißt, ob der Markt stattfand und wie die Standanmeldung läuft, und 3 Notizen zu guten Ständen hast.",

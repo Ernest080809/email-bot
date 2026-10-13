@@ -217,7 +217,7 @@ def load_weeks():
         days = [[conv_old(t) for t in d] for d in w["days"]]
         weeks.append({"n": n, "phase": w["phase"], "goal": w["goal"], "start": w["start"], "days": days})
     # W4: Mo–Mi aus Rev. 5, Do–So neu
-    for n in range(4, 33):
+    for n in range(4, 42):
         f = R6 / "weeks" / f"w{n}.json"
         data = None
         if f.exists():
@@ -345,7 +345,7 @@ def main():
     out = read("template.html")
     repl = {
         "CSS": css, "REVDATE": "08.10.2026", "TASKCOUNT": str(tasks),
-        "SUBLINE": "Eine Kultur, eine Fabrik, 100 bestickte Jeans. Ziel: 10.000 € Umsatz am 25. April. Jeder Tag bis zum Drop steht hier: was du tust, wohin du gehst, welches Video du drehst, mit Links, Prompts und einem „Fertig, wenn“.",
+        "SUBLINE": "Eine Kultur, eine Fabrik, 100 bestickte Jeans. Ziel: 10.000 € Umsatz bis 27. Juni. Jeder Tag bis zum Drop steht hier: was du tust, wohin du gehst, welches Video du drehst, mit Links, Prompts und einem „Fertig, wenn“.",
         "PLANNOTE": f"{len(weeks)} Wochen, {tasks} Aufgaben. Die laufende Woche ist offen. „So geht’s“ zeigt Schritte, Orte, Links und Video-Briefing.",
         "WEEKS_JSON": jdump(weeks), "KPI_JSON": jdump(kpi), "APPJS": js, "REFS": "\n".join(refs),
     }

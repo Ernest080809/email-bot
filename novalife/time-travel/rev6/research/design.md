@@ -51,7 +51,7 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens gut ei
 **Gegenrechnung, wie ich sie überall benutze [R]:**
 - 0,55 € je 1.000 Stiche, 100 Paar, ~146 € netto je Vorbestellung (Plan 3.1).
 - **Δ Kapital = 100 × Δ €/Paar.** Je zur Hälfte bei der Anzahlung (Feb.) und der Restzahlung (März).
-- **Δ Schwelle 2 (19.03.) = 100 × Δ / 146.** **Δ Schwelle 1 (01.02.) = 50 × Δ / 146.**
+- **Δ Schwelle 2 (21.05.) = 100 × Δ / 146.** **Δ Schwelle 1 (15.02.) = 50 × Δ / 146.**
 - Ausgangspunkt: Schwelle 1 ≈ 1.400 € / 146 = 9,6 → **10**, Schwelle 2 ≈ 4.650 € / 146 = 31,8 → **32**. Die 1.400 € sind 1.010 € plus Shoot und Verpackung im Februar, die 4.650 € die Obergrenze aus Plan 3.1.
 - **Faustregel: ~2.650 Stiche = 1,46 €/Paar = 146 € = 1 Vorbestellung bei Schwelle 2.**
 
@@ -109,7 +109,7 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens gut ei
 **Meine Einschätzung:** Seit 11.10. erledigt: Der Serp ist gestrichen. Er war rechtlich sauber, aber mit rotem Rand ein mittleres bis hohes Verkaufsrisiko. Für B2 und C gilt weiter deine Vorgabe: „Das Teil muss ohne Erklärung tragbar sein“ (Spec 3.1).
 
 **Kleinere Punkte:**
-- **Ähren und Holodomor:** Das Stoppelfeld ist mit dem Serp gestrichen. Es bleiben die Ähren von B2, ein Risiko nur bei ukrainischem Publikum. Nie „fünf Ähren“, B2 hat drei. In der Woche 23.–29.11. kein Ernte-Post, am Gedenktag (Sa 28.11.) gar keiner (Vorschlag aus `zielgruppe.md` 3.7). Am Drop-Tag 22.04. keine Ernte-Hooks.
+- **Ähren und Holodomor:** Das Stoppelfeld ist mit dem Serp gestrichen. Es bleiben die Ähren von B2, ein Risiko nur bei ukrainischem Publikum. Nie „fünf Ähren“, B2 hat drei. In der Woche 25.–29.11. kein Ernte-Post, am Gedenktag (Sa 28.11.) gar keiner (Vorschlag aus `zielgruppe.md` 3.7). Am Drop-Tag 24.06. keine Ernte-Hooks.
 - **C „Alatyr“:** Der Name ist in der russischen Neuheiden-Szene verbreitet [Ü13]. Das Motiv selbst ist ein Textil-Achtstern und unproblematisch. Nach außen „Achtstern“ sagen, intern darf „Alatyr“ bleiben.
 - **A „Vyshyvanka“:** Das Wort steht für ein ukrainisches Nationalsymbol [Ü15]. Nach außen „Kreuzstich-Band“, sonst beanspruchst du doch eine Nationaltradition.
 - **D:** Knoten vom Triquetra-Typ und Baum im Kreis sind kein Symbolrisiko, das ist meine Einschätzung (ungeprüft). Das Risiko ist ein anderes: D liest sich wie der Lebensbaum-Anhänger aus dem Schmuckregal, also austauschbar, und stilistisch liegt er außerhalb der Kreuzstich-Grammatik. Das ist deine Entscheidung vom 27.09. und kein Änderungsvorschlag. V1 macht ihn eigen.
@@ -173,7 +173,7 @@ Dazu Patch ~3 €, Goldfäden ~2 €, Zonen-Handling ~4 € (4 Zonen). **Die Dek
 | +5.000 Stiche | +2,75 € | +275 € | 10,5 → **11** | 33,7 → **34** |
 | +10.000 Stiche | +5,50 € | +550 € | 11,5 → **12** | 35,6 → **36 = über dem Kontingent von 35** |
 
-**Das heißt:** Mit echtem Kreuzstich am oberen Ende trägt der Plan nur noch, wenn das Kontingent auf 45 geht. Das ist aber erst bei mehr als 25 Vorbestellungen bis 01.02. vorgesehen (Plan 3.1). → V4.
+**Das heißt:** Mit echtem Kreuzstich am oberen Ende trägt der Plan nur noch, wenn das Kontingent auf 45 geht. Das ist aber erst bei mehr als 25 Vorbestellungen bis 15.02. vorgesehen (Plan 3.1). → V4.
 
 **Rechnung [R] zur Münztasche:** In `fine.py` sind von 45 × 45 = 2.025 Zellen der Münztasche **686 weiß (34 %)**. Beim Band A sind es 27 %, beim Achtstern C 353 von 729 Zellen gestickt. Die ~10.500 Stiche von E ergeben ~5,2 Stiche je Zelle. Das ist die Grundlage für V4b.
 
@@ -466,7 +466,7 @@ Drei mögliche Lesarten, zwei davon hingen am Serp und sind seit 11.10. erledigt
 **Der Grundsatz:** Der Aufpreis von 60–90 € gegenüber einer guten Standardjeans [Ü16] muss im Bild sichtbar sein, nicht im Text. Gezeigt wird nur, was es gibt.
 - Bis 03.12. nichts Fertiges.
 - Für die Vorbestellung am 14.01. echte Fotos vom Proto oder PP-Sample, keine Renderings. Das PP-Sample wird am 04.01. freigegeben, die Produktfotos entstehen zwischen dem 05. und 10.01.
-- Das Lookbook (Shoot am 20.02.) ist für den Drop.
+- Das Lookbook (Shoot am 06.03.) ist für den Drop.
 
 ### 6.1 Sieben Beweise
 
@@ -498,7 +498,7 @@ Dazu ein Video von 15 s: gehen, die Fäden schwingen, Schnitt auf das Makro.
 ### 6.3 Regeln fürs Bild
 
 - **Nie hellblauer Himmel über gelbem Weizen.** Weizen nur bei Sonnenuntergang oder im Innenraum mit warmem Licht.
-- **Der Shoot am 20.02. findet ohne reifes Feld statt.** Im Februar steht kein goldener Weizen. Also Studio oder Berliner Hinterhof, Weizen höchstens als Trockenbund (Vorschlag). Für Studios siehe `berlin.md` (Tageslichtstudios ab ~38–45 €/Std. laut dortiger Recherche).
+- **Der Shoot am 06.03. findet ohne reifes Feld statt.** Im Februar steht kein goldener Weizen. Also Studio oder Berliner Hinterhof, Weizen höchstens als Trockenbund (Vorschlag). Für Studios siehe `berlin.md` (Tageslichtstudios ab ~38–45 €/Std. laut dortiger Recherche).
 - **Keine echte Sichel als Requisite**, auch nicht, seit der Serp gestrichen ist (11.10.). Sichel plus Weizen im selben Bild ist das Wappen-Vokabular als Stillleben.
 - **Kein roter Grund.** Kein rotes Studio-Backdrop hinter der Hose, kein Flatlay mit allen Motiven auf Rot.
 - **Keine Sowjet-Kulisse:** keine Sowjet-Interieurs, Uniformen, Orden, kein CCCP ([Ü8], `zielgruppe.md` 3.6). Den Familienteppich nur im Zusammenhang mit Familie und Zipper zeigen, als Erinnerung, nicht als Retro-Stil.

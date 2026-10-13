@@ -3,12 +3,30 @@
  "phase": "P2",
  "goal": "Das erste echte Teil kommt, ab jetzt darf gezeigt werden",
  "kpi": [
-  {"k": "Warteliste", "ziel": "470 bestätigt (Alarm 200), Grind+-Ziel 530"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.410 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Zusagen „Die ersten 35“", "ziel": "15 (Name, Größe, „ich bestelle am 14.01.“)"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "Proto-Post V025", "ziel": "≥ 2 × Median Views, ≥ 80 neue Anmeldungen in der Woche"}
+  {
+   "k": "Warteliste",
+   "ziel": "470 bestätigt (Alarm 200), Grind+-Ziel 530"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~1.410 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "6 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“",
+   "ziel": "15 (Name, Größe, „ich bestelle am 14.01.“)"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  },
+  {
+   "k": "Proto-Post V025",
+   "ziel": "≥ 2 × Median Views, ≥ 80 neue Anmeldungen in der Woche"
+  }
  ],
  "days": {
   "2026-11-30": [
@@ -25,7 +43,11 @@
     ],
     "f": "der Ankunftstag im Blatt „Fabriken“ und im Kalender steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     }
     ]
    },
    {
@@ -42,8 +64,15 @@
     ],
     "f": "Shopify die Domain als authentifiziert zeigt oder die DNS-Einträge angelegt sind und die Prüfung für Mi 02.12. im Kalender steht.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Benachrichtigungen → Absender-E-Mail (vor Ort prüfen)"},
-     {"n": "Anbieter deiner Domain", "h": "DNS-Verwaltung, Login aus deinen Unterlagen"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Benachrichtigungen → Absender-E-Mail (vor Ort prüfen)"
+     },
+     {
+      "n": "Anbieter deiner Domain",
+      "h": "DNS-Verwaltung, Login aus deinen Unterlagen"
+     }
     ]
    },
    {
@@ -59,7 +88,11 @@
     ],
     "f": "die erste Nachricht im Kanal steht und die Story auf den Kanal zeigt.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal „Time Travel · Werkstatt“"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Broadcast-Kanal „Time Travel · Werkstatt“"
+     }
     ]
    },
    {
@@ -96,9 +129,21 @@
      "check": "Kein Produktbild, kein Mockup (Proto erst Do), Fabrik nicht genannt, CTA der Phase, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     }
     ]
    }
   ],
@@ -135,9 +180,19 @@
      "check": "Nur Papier und Karten, kein Mockup, Subjekt ist der Prozess, CTA der Phase."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Story mit Link- und Countdown-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel, Story mit Link- und Countdown-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -157,9 +212,19 @@
     "f": "im Blatt „Creator“ 12 Namen mit Engagement %, Ø Views, Brand-Safety-Datum stehen und die Top 8 markiert sind.",
     "p": "Projekt Time Travel, Docket W12, Mi 02.12. Hier sind meine 12 Creator-Kandidaten mit Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Berlin ja/nein: [Tabelle einfügen]. Sortier sie nach Passung für 100 nummerierte Jeans mit Kreuzstich-Band aus Berlin, markier die Top 8 und sag mir je Name in einem Satz, was ich vor der DM am 11.12. noch ansehen soll. Keine Herkunftsangaben über Personen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Creator“"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     }
     ]
    },
    {
@@ -177,8 +242,15 @@
     "f": "die Mail in Shopify Email für Do 03.12., 19:00 terminiert ist und die Testmail gut aussieht.",
     "p": "Projekt Time Travel, Docket W12, Mi 02.12. Schreib mir die Werkstatt-Mail 2 „Das Proto ist da“ an meine Warteliste, Versand Do 03.12., 19:00, zeitgleich mit dem Unboxing-Video V025. Max. 120 Wörter, deutsch, Du-Form, 3 Betreffzeilen, 1 Vorschauzeile. Inhalt: Zwei Monate Papier, heute kam der Prototyp. Nicht perfekt, Fit-Test am Samstag, dann Korrekturen an die Fabrik. Am Mo 07.12., 19:00 öffnet „Platz in der ersten Stunde sichern“. CTA: „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ Keine Nummer versprechen. Regeln: nie „authentisch“, Subjekt ist das Muster, „Kreuzstich-Band“, „entworfen in Berlin“, keine Länder.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Marketing → Kampagnen → Shopify Email"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Marketing → Kampagnen → Shopify Email"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -215,9 +287,20 @@
      "check": "Nur Papier, Reihenfolge A · E · C · D · B2, Musik nicht eingebacken."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Countdown-Sticker auf Do 19:00"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Countdown-Sticker auf Do 19:00"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -236,8 +319,15 @@
     ],
     "f": "10 Messwerte und mindestens 12 Fotos im Blatt „Proto“ stehen, das Unboxing gefilmt ist und eine eventuelle Zollzahlung in „ungeplant“ steht.",
     "o": [
-     {"n": "Docket · Referenz → Prüfplan Sample", "h": "10 Messpunkte, Toleranzen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Proto“, „Kasse“, „Fabriken“"}
+     {
+      "n": "Docket · Referenz → Prüfplan Sample",
+      "h": "10 Messpunkte, Toleranzen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Proto“, „Kasse“, „Fabriken“"
+     }
     ]
    },
    {
@@ -253,8 +343,15 @@
     ],
     "f": "mindestens 10 Anfragen raus sind und die ersten Termine im Kalender stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Die ersten 35“ und „Netz“"},
-     {"n": "WhatsApp / Instagram-DM", "h": "persönlich, nie als Gruppe"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Die ersten 35“ und „Netz“"
+     },
+     {
+      "n": "WhatsApp / Instagram-DM",
+      "h": "persönlich, nie als Gruppe"
+     }
     ]
    },
    {
@@ -268,7 +365,11 @@
     ],
     "f": "die Nachricht um 18:00 im Kanal steht.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Broadcast-Kanal"
+     }
     ]
    },
    {
@@ -305,10 +406,22 @@
      "check": "Klar „prototype“, Fabrik nicht genannt, nie „authentisch“."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    },
    {
@@ -330,8 +443,14 @@
     ],
     "f": "alle Punkte des Prüfplans ein Ergebnis haben und jede Abweichung eine Foto-Nummer hat.",
     "o": [
-     {"n": "Docket · Referenz → Prüfplan Sample"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+     {
+      "n": "Docket · Referenz → Prüfplan Sample"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Proto“"
+     }
     ]
    },
    {
@@ -347,7 +466,11 @@
     ],
     "f": "2 Calls geführt und beide Ergebnisse im Blatt „Die ersten 35“ stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -382,10 +505,22 @@
      "check": "Nach außen „cross-stitch band“ (Wortliste 9.3), kein roter Hintergrund."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -404,7 +539,11 @@
     ],
     "f": "Fotos und Notizen beider Personen im Blatt „Proto“ stehen und eine Meinung zum Oberschenkel notiert ist.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Proto“"
+     }
     ]
    },
    {
@@ -438,7 +577,11 @@
      "check": "Umfrage bis 4 Antworten, kein roter Hintergrund."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Umfrage- und Link-Sticker"
+     }
     ]
    },
    {
@@ -456,9 +599,19 @@
     "f": "die verborgene Seite funktioniert, der Testkunde den Tag „reserviert“ und seine Größe trägt und das Segment existiert.",
     "p": "Projekt Time Travel, Docket W12, Sa 05.12. Bau mir in meinem Theme eine Seiten-Vorlage „page.reservierung“ mit einem Kundenformular wie in Dawn sections/newsletter.liquid ({% form 'customer' %}): Felder E-Mail (Pflicht), Vorname, Größe als Auswahl aus meiner Größentabelle [Größen einfügen]. Beim Absenden: contact[tags] = „reserviert, gr-[größe]“. Erfolgstext: „Am 14.01. um 17:55 bekommst du den Link von mir, deine Größe ist vorgemerkt.“ Kein Wort von Nummern. Halte dich an CLAUDE.md und zeig mir, wie ich es in der Vorschau teste. Commit nach meinem „passt“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten · Kunden → Segmente"},
-     {"n": "Dawn · newsletter.liquid (Vorbild)", "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid"},
-     {"n": "Claude Code", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Seiten · Kunden → Segmente"
+     },
+     {
+      "n": "Dawn · newsletter.liquid (Vorbild)",
+      "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid"
+     },
+     {
+      "n": "Claude Code",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -468,12 +621,16 @@
     "s": [
      "Prüfen: Messwerte im Rahmen der Toleranz oder klar korrigierbar? Stickerei ohne kritischen Befund? Fit bei beiden Personen tragbar?",
      "Alles ok: PP-Sample am Mo 07.12. bestellen, Korrekturen per Foto und Maß.",
-     "Nicht ok (Fit falsch, Stickerei kritisch): zweites Proto bestellen, Öffnung der Vorbestellung nach B-Zeitachse 1 auf Do 21.01. (strategie.md 7.4). Claude schreiben: „Gate 05.12. rot, Grund: …, rechne B-Zeitachse 1.“",
+     "Nicht ok (Fit falsch, Stickerei kritisch): zweites Proto bestellen, Öffnung der Vorbestellung nach B-Zeitachse 1 auf Do 28.01. (strategie.md 7.4). Claude schreiben: „Gate 05.12. rot, Grund: …, rechne B-Zeitachse 1.“",
      "Ergebnis ins Blatt „Gates“ mit Datum."
     ],
     "f": "im Blatt „Gates“ grün oder rot mit Grund steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“"
+     }
     ]
    }
   ],
@@ -492,8 +649,15 @@
     "f": "die Korrekturliste auf Englisch als PDF vorliegt und die Oberschenkel-Entscheidung notiert ist.",
     "p": "Projekt Time Travel, Docket W12, So 06.12. Hier sind Messwerte, Befunde und Fit-Notizen vom Proto #1: [Tabelle], Fotos: [Anhänge]. Das Proto bleibt bei mir, die Fabrik bekommt die Korrekturen nur per Foto und Maß. Schreib mir die Korrekturliste für die Fabrik auf Englisch: Messpunkt, Ist, Soll, Änderung in cm, Foto-Nummer; dann die Stickerei-Korrekturen je Element A–E; dann Verarbeitung. Gib mir eine Empfehlung: Oberschenkel 28 oder 30 cm Halbmaß, mit Begründung aus den Fit-Notizen. Markier, was das PP-Sample zwingend zeigen muss (W32, alle Korrekturen, bestickt, genäht, gewaschen, Goldfäden gesetzt, Labels dran).",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Proto“"
+     }
     ]
    },
    {
@@ -510,10 +674,22 @@
     "f": "Blätter und Zahlen-Cockpit aktuell sind und die Zeile an Claude gesendet ist.",
     "p": "Projekt Time Travel, Docket W12, So 06.12. W12: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Proto-Runde [n] Termine vereinbart, Gate Proto/Fit [grün/rot], V025 nach 48 h [Views] bei Median [M]. Offen aus W12: [..]. Sag mir, welches Gate greift und was ich in W13 anders mache.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segment „E-Mail-Abonnenten“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segment „E-Mail-Abonnenten“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -530,7 +706,11 @@
     ],
     "f": "jedes Gate im Blatt „Gates“ grün oder mit Gegenmaßnahme und Datum steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“"
+     }
     ]
    },
    {
@@ -566,7 +746,10 @@
      "check": "Echte Befunde, ehrlich, nicht dramatisch."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -600,7 +783,10 @@
      "check": "Nach außen „cross-stitch band“, kein roter Hintergrund."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -635,7 +821,10 @@
      "check": "Drei Ähren, nie „fünf“, nie hellblauer Himmel über gelbem Weizen."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -669,8 +858,14 @@
      "check": "Ab Proto erlaubt, keine Flaggen im Bild."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ]

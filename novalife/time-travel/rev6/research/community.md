@@ -2,7 +2,7 @@
 
 Stand: Mi 07.10.2026, abends. Für Ernest. Teil der Docket-Neuplanung (Rev. 6).
 **Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
-Ziel: Warteliste 3.000 bis Do 22.04.2027, 35 Vorbestellungen (149 €) bis So 21.03., 29 Drop-Käufe (169 €) am 22.04. Ohne großes Werbebudget.
+Ziel: Warteliste 3.000 bis Do 24.06.2027, 35 Vorbestellungen (149 €) bis So 23.05., 29 Drop-Käufe (169 €) am 24.06. Ohne großes Werbebudget.
 Passt zu `markt.md` (Funnel, Wochen-Soll), `zielgruppe.md` (Segmente, heikle Wörter) und `berlin.md` (Läden, Orte, Termine). Diese Datei ergänzt sie und wiederholt sie nicht.
 
 **Quellenmarker:** `[M-Q40]` = Quelle aus `markt.md`, `[Z-Q23]` = aus `zielgruppe.md`, `[B-7]` = aus `berlin.md`. Diese Quellen wurden heute in dieser Sitzung von den Schwester-Recherchen per Websuche gesehen. Ich habe sie übernommen, aber nicht selbst geöffnet. `[ungeprüft]` = Fachwissen, heute nicht mit Quelle geprüft. `[Schätzung]` = meine Rechnung oder Annahme. `[vor Ort prüfen]` = Adresse, Zeit oder Preis selbst nachsehen. Mehr dazu in Abschnitt 0.
@@ -16,14 +16,14 @@ Passt zu `markt.md` (Funnel, Wochen-Soll), `zielgruppe.md` (Segmente, heikle Wö
 **Fünf Hebel, in dieser Reihenfolge:**
 
 1. **Dein warmes Netz, sofort (W5–W7).** Bleach-Kunden, Freunde, Familie, jeder einzeln, mit eigenem Link. Ohne diesen Schritt ist die Validierung am So 01.11. (≥ 150) Glückssache.
-2. **„Bring 3 Freunde“, ab Do 15.10.** Mit eigenen Links und Shopify-Tags, 0 € und ohne Fremd-App. Claude baut das Code-Stück, du baust es in 40 Minuten ein. Die Belohnung ist früherer Zugang, kein Rabatt: Wer 3 bestätigte Freunde bringt, bekommt am 22.04. den Link um 17:30. Jede Anmeldung bekommt einen Herkunfts-Tag. So weißt du jeden Sonntag, welcher Hebel trägt.
-3. **Vier Abende in Berlin.** Papiertest-Abend Sa 24.10., Stick-Abend Fr 27.11., Mess- und Anprobe-Abende Sa 16.01., Sa 23.01. und Sa 20.03. **Achtung:** Bis zur Lieferung gibt es nur eine Probegröße (W32). Darum sind das Mess-Abende: Lieblingsjeans messen, Größe sagen, Sample zeigen, am eigenen Handy vorbestellen.
-4. **5 Creator mit Paar, 10 ohne.** Longlist ab Sa 07.11. per Hand (Orte, Hashtags, Kommentare), keine Tools. Erst-DM am Fr 11.12., nach dem Proto. **Creator-Preview am Di 12.01.**, damit die Clips zur Öffnung am 14.01. online sind. Das ist eine Woche früher als im alten Docket. Dort standen die Anfragen erst am 20.01. und hätten die erste Welle verpasst. Jedes geschenkte Paar wird als Werbung gekennzeichnet („Anzeige“ am Anfang). Die genaue Rechtslage konnte ich heute nicht mit Quelle prüfen (Abschnitt 2.6).
-5. **Presse in drei Wellen.** Welle 1 am Di 15.12. mit Proto-Fotos („Vorbestellung ab 14.01.“): Denim-Blogs, Gründer-Medien, Lokalpresse. Welle 2 am Do 04.03. mit den Shoot-Fotos („Drop 22.04.“). Welle 3 am Mo 05.04.: Veranstaltungstipps für den Drop. Die stärksten Winkel sind **„Ehrliche Größen“**, **„Die Vorbestellung baut die Fabrik“** und **„Der Faden, der die Hose verlässt“**. Der Teppich ist der schönste Winkel, aber auch der heikelste (Sprachregel).
+2. **„Bring 3 Freunde“, ab Do 15.10.** Mit eigenen Links und Shopify-Tags, 0 € und ohne Fremd-App. Claude baut das Code-Stück, du baust es in 40 Minuten ein. Die Belohnung ist früherer Zugang, kein Rabatt: Wer 3 bestätigte Freunde bringt, bekommt am 24.06. den Link um 17:30. Jede Anmeldung bekommt einen Herkunfts-Tag. So weißt du jeden Sonntag, welcher Hebel trägt.
+3. **Vier Abende in Berlin.** Papiertest-Abend Sa 24.10., Stick-Abend Fr 27.11., Mess- und Anprobe-Abende Sa 16.01., Sa 30.01. und Sa 22.05. **Achtung:** Bis zur Lieferung gibt es nur eine Probegröße (W32). Darum sind das Mess-Abende: Lieblingsjeans messen, Größe sagen, Sample zeigen, am eigenen Handy vorbestellen.
+4. **5 Creator mit Paar, 10 ohne.** Longlist ab Sa 07.11. per Hand (Orte, Hashtags, Kommentare), keine Tools. Erst-DM am Fr 11.12., nach dem Proto. **Creator-Preview am Di 12.01.**, damit die Clips zur Öffnung am 14.01. online sind. Das ist eine Woche früher als im alten Docket. Dort standen die Anfragen erst am 27.01. und hätten die erste Welle verpasst. Jedes geschenkte Paar wird als Werbung gekennzeichnet („Anzeige“ am Anfang). Die genaue Rechtslage konnte ich heute nicht mit Quelle prüfen (Abschnitt 2.6).
+5. **Presse in drei Wellen.** Welle 1 am Di 15.12. mit Proto-Fotos („Vorbestellung ab 14.01.“): Denim-Blogs, Gründer-Medien, Lokalpresse. Welle 2 am Do 18.03. mit den Shoot-Fotos („Drop 24.06.“). Welle 3 am Mo 07.06.: Veranstaltungstipps für den Drop. Die stärksten Winkel sind **„Ehrliche Größen“**, **„Die Vorbestellung baut die Fabrik“** und **„Der Faden, der die Hose verlässt“**. Der Teppich ist der schönste Winkel, aber auch der heikelste (Sprachregel).
 
 **Community-Kanäle:** Die E-Mail-Liste ist die Warteliste, nur sie zählt. Dazu ein **Instagram-Broadcast-Kanal ab Mo 30.11.** („Hier siehst du das Sample zuerst“) und optional ein **WhatsApp-Kanal ab So 03.01.**, nur für Erinnerungen. **Kein Discord** (zu viel Moderation für 1–2 Stunden am Tag). **Kein Telegram**: Über Telegram wurde in russischsprachigen Gruppen für den Krieg mobilisiert [Z-Q31]. Für eine Marke ohne Politik ist das das falsche Signal. **Keine WhatsApp-Gruppe**, dort sieht jeder die Nummern der anderen [ungeprüft].
 
-**Wochenplan W5–W32 in Abschnitt 7.** Er hält sich an das Wochen-Soll aus `markt.md` (700 bis 31.12., 1.500 bis 31.01., 2.400 bis 28.02., 3.000 bis 22.04.). Die meisten Aufgaben dauern 10–30 Minuten, nur die Abende sind länger. Jeden Sonntag zählst du die Anmeldungen nach Herkunft. Liegst du unter „Alarm“, greifen die Notfallhebel.
+**Wochenplan W5–W32 in Abschnitt 7.** Er hält sich an das Wochen-Soll aus `markt.md` (700 bis 31.12., 1.500 bis 07.02., 2.400 bis 14.03., 3.000 bis 24.06.). Die meisten Aufgaben dauern 10–30 Minuten, nur die Abende sind länger. Jeden Sonntag zählst du die Anmeldungen nach Herkunft. Liegst du unter „Alarm“, greifen die Notfallhebel.
 
 **Quellenlage:** Mein Websuche-Budget war schon aufgebraucht, alle 11 Seiten, die ich direkt öffnen wollte, waren gesperrt. Zahlen und URLs stammen aus den Schwesterdateien oder sind markiert. **Vor der ersten Creator-DM und vor jeder bezahlten App** prüfst du die markierten Stellen selbst (Abschnitt 9).
 
@@ -42,14 +42,14 @@ Passt zu `markt.md` (Funnel, Wochen-Soll), `zielgruppe.md` (Segmente, heikle Wö
 
 ### 1.1 Was die Community-Hebel beitragen müssen
 
-`markt.md` 3.6 rechnet mit Posts, Ausreißer-Videos, Werbung, Creatorn und Empfehlungen und kommt auf **~2.000–2.800** bis zum 22.04. [Schätzung dort]. Die Lücke zu 3.000 und die Wärme für 35 Vorbestellungen schließen diese Hebel:
+`markt.md` 3.6 rechnet mit Posts, Ausreißer-Videos, Werbung, Creatorn und Empfehlungen und kommt auf **~2.000–2.800** bis zum 24.06. [Schätzung dort]. Die Lücke zu 3.000 und die Wärme für 35 Vorbestellungen schließen diese Hebel:
 
 | Hebel | Zeitraum | Anmeldungen | Grundlage |
 |---|---|---|---|
 | Warmes Netz, persönlich | 12.10.–01.11., Rest laufend | 80–150 | [Schätzung] Ernest zählt die Kontakte am Di 13.10. (offener Punkt in `zielgruppe.md`) |
 | Papiertest-Abend + Stick-Abend | 24.10., 27.11. | 30–60 | [Schätzung] 10–12 Gäste je Abend, jeder bringt 1–3 Leute auf die Liste |
-| Mess-Abende (3) | 16.01., 23.01., 20.03. | 60–120 | [Schätzung] 20–40 Gäste je Abend. `markt.md` rechnet mit ~40 je Abend |
-| Creator (5 mit Paar, 10 ohne) | 12.01.–21.04. | ~150 | Rechnung aus `markt.md` 3.6: 10 Posts × ~3.000 Views × 5 / 1.000 [Schätzung dort] |
+| Mess-Abende (3) | 16.01., 30.01., 22.05. | 60–120 | [Schätzung] 20–40 Gäste je Abend. `markt.md` rechnet mit ~40 je Abend |
+| Creator (5 mit Paar, 10 ohne) | 12.01.–23.06. | ~150 | Rechnung aus `markt.md` 3.6: 10 Posts × ~3.000 Views × 5 / 1.000 [Schätzung dort] |
 | „Bring 3 Freunde“ | ab 15.10. | +15–25 % auf alles | Typischer Viral-Faktor 0,15–0,25 [M-Q51, Güte C]. Harry's: 77 % von ~100.000 Anmeldungen über Empfehlungen [M-Q50] (Ausnahmefall, kein Maßstab) |
 | Hochschulen | Nov–Apr | 20–50 | [Schätzung] |
 | Presse | Dez–Apr | 0–300 | **Nicht planbar, nicht im Soll eingerechnet.** Bonus [Schätzung] |
@@ -126,15 +126,15 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 | Di 05.01. | W17 | Zusagen bestätigen, Briefing-Karte schicken (C4) | 15 |
 | **Di 12.01., 18:30–20:00** | W18 | **Creator-Preview** mit Proto und PP-Sample (PP freigegeben am 05.01.). Alle 5 zusammen, nicht fünf Einzeltermine. Jeder bekommt seinen Link `ref-c-[name]` | 90 |
 | Mi 13.01.–Fr 15.01. | W18 | Clips gehen online, zur Öffnung der Vorbestellung am Do 14.01., 19:00 | — |
-| Mi 20.01. | W19 | **Welle 2:** 10 Nano-Creator (1.000–5.000, aus Runde 5) zum Mess-Abend 2 einladen, **ohne Paar** (C6) | 30 |
-| Mo 25.01. | W20 | Clips reposten (nur mit Erlaubnis), Anmeldungen je Creator ins Blatt, Danke-DM | 30 |
-| Mo 15.03. | W27 | Freiwillige Bitte an die 5: eine Story „Vorbestellpreis endet So 20:00“ | 5 |
-| Do 08.04. | W30 | Pakete raus (steht im Docket). Auf die Karte kommt ihr Link | 45 |
-| Do 15.04. | W31 | Erinnern: Post zwischen Sa 17.04. und Mi 21.04., Kennzeichnung (steht im Docket) | 10 |
+| Mi 27.01. | W19 | **Welle 2:** 10 Nano-Creator (1.000–5.000, aus Runde 5) zum Mess-Abend 2 einladen, **ohne Paar** (C6) | 30 |
+| Mo 01.02. | W20 | Clips reposten (nur mit Erlaubnis), Anmeldungen je Creator ins Blatt, Danke-DM | 30 |
+| Mo 17.05. | W27 | Freiwillige Bitte an die 5: eine Story „Vorbestellpreis endet So 20:00“ | 5 |
+| Do 10.06. | W30 | Pakete raus (steht im Docket). Auf die Karte kommt ihr Link | 45 |
+| Do 17.06. | W31 | Erinnern: Post zwischen Sa 19.06. und Mi 23.06., Kennzeichnung (steht im Docket) | 10 |
 
-**Abweichung vom alten Docket, du entscheidest:** Rev. 5 hat die Anfrage am Mi 20.01. und die Anproben ab Mo 25.01. Dann kommen die Clips Ende Januar, nach der ersten Welle der Vorbestellung. Vorbestellungen verlaufen U-förmig: Start und Ende tragen, die Mitte ist schwach [M-Q31]. Mit der Preview am 12.01. treffen die Clips den Start. Die zwei alten Aufgaben werden an derselben Stelle umgewidmet (Abschnitt 8).
+**Abweichung vom alten Docket, du entscheidest:** Rev. 5 hat die Anfrage am Mi 27.01. und die Anproben ab Mo 01.02. Dann kommen die Clips Ende Januar, nach der ersten Welle der Vorbestellung. Vorbestellungen verlaufen U-förmig: Start und Ende tragen, die Mitte ist schwach [M-Q31]. Mit der Preview am 12.01. treffen die Clips den Start. Die zwei alten Aufgaben werden an derselben Stelle umgewidmet (Abschnitt 8).
 
-**Warum nur eine Größe:** Bis zur Lieferung (~30.03.) gibt es nur das Proto und das PP-Sample in W32. Wer W32 trägt, probiert an. Alle anderen filmen die Details (Münztasche, goldene Fäden, Patch als Gürtelschlaufe) und messen ihre Lieblingsjeans an der Mess-Station (6.3). Ihr eigenes Paar kommt im April in ihrer Größe.
+**Warum nur eine Größe:** Bis zur Lieferung (~01.06.) gibt es nur das Proto und das PP-Sample in W32. Wer W32 trägt, probiert an. Alle anderen filmen die Details (Münztasche, goldene Fäden, Patch als Gürtelschlaufe) und messen ihre Lieblingsjeans an der Mess-Station (6.3). Ihr eigenes Paar kommt im April in ihrer Größe.
 
 ### 2.5 Was sie bekommen und was es kostet
 
@@ -143,11 +143,11 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 | 1 Paar NVL-TT-01 in ihrer Größe, im April. Die Nummer kommt direkt nach den Vorbestellungen (Plan, 01.10.) | ~60 € Stückkosten (Schätzung), 5 Paare = ~300 €. Die 5 Paare sind im Plan schon abgezogen (93 verkäuflich) |
 | Creator-Preview am 12.01. und Einladung zum Drop-Abend | Getränke [Schätzung 20–40 €, nicht im Budget] |
 | Eigener Link mit Zähler. Du sagst ihnen ihre Zahl | 0 € |
-| **Option, du entscheidest:** Wer bis 21.04. die meisten bestätigten Anmeldungen bringt, bekommt zusätzlich einen Zipper | ~45 €. Gegenrechnung: Der Zipper wird nach dem Drop gefertigt und bindet vorher kein Kapital, Schwellen unverändert |
+| **Option, du entscheidest:** Wer bis 23.06. die meisten bestätigten Anmeldungen bringt, bekommt zusätzlich einen Zipper | ~45 €. Gegenrechnung: Der Zipper wird nach dem Drop gefertigt und bindet vorher kein Kapital, Schwellen unverändert |
 
 **Keine Rabattcodes, kein Geld.** Ein Code würde den Vorbestellpreis von 149 € unterlaufen, Geld macht es zum Vertrag mit Rechnung [Schätzung].
 
-**Gegenleistung (Vorschlag, du entscheidest):** Im alten Docket steht „kein Muss“. Für ein sicheres Ziel schlage ich eine leichte Abmachung vor: **1 Clip vom Preview bis Fr 15.01. und 1 Story im Drop-Fenster 17.–21.04.** Text und Schnitt machen sie selbst. Laut `markt.md` posten nach einem Geschenk 40–70 % [M-Q53, Güte C]. Mit Abmachung sollen es 5 von 5 sein.
+**Gegenleistung (Vorschlag, du entscheidest):** Im alten Docket steht „kein Muss“. Für ein sicheres Ziel schlage ich eine leichte Abmachung vor: **1 Clip vom Preview bis Fr 15.01. und 1 Story im Drop-Fenster 19.–23.06.** Text und Schnitt machen sie selbst. Laut `markt.md` posten nach einem Geschenk 40–70 % [M-Q53, Güte C]. Mit Abmachung sollen es 5 von 5 sein.
 
 **Schriftlich festhalten** (eine DM reicht): was sie bekommen, was abgemacht ist, das Zeitfenster, die Kennzeichnung, und ob du ihren Clip **reposten** darfst. **In Werbung** (bezahlte Anzeigen) nutzt du ihn nur mit eigener, ausdrücklicher Zustimmung [ungeprüft, Urheber- und Persönlichkeitsrecht]. Fotos von ihnen nur mit Einwilligung (`berlin.md`, Abschnitt 5).
 
@@ -184,7 +184,7 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 > Hey [NAME], Ernest hier, Novalife aus Berlin. Dein [VIDEO/FIT ZU …] ist mir hängen geblieben, weil [KONKRETER GRUND IN EINEM SATZ].
 >
-> Ich mache gerade 100 Jeans mit fünf gestickten Stellen, nummeriert, Drop am 22.04. Das erste Sample ist seit letzter Woche da.
+> Ich mache gerade 100 Jeans mit fünf gestickten Stellen, nummeriert, Drop am 24.06. Das erste Sample ist seit letzter Woche da.
 >
 > Hast du Lust, am **Dienstag, 12.01., um 18:30** in Berlin vorbeizukommen? 90 Minuten, fünf Leute, ich zeig dir den ganzen Bauplan vom Papier bis zur Stickerei.
 >
@@ -200,22 +200,22 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 > Super, dass du dabei bist! Dienstag, 12.01., 18:30–20:00, [ADRESSE].
 > Bring deine Lieblingsjeans mit. Wir messen sie, dann weißt du deine Novalife-Größe (wir labeln nach dem echten Maß).
-> Abgemacht ist: 1 Clip bis Freitag, 15.01., und 1 Story zwischen 17. und 21.04. Text frei. Das Paar kommt Anfang April.
+> Abgemacht ist: 1 Clip bis Freitag, 15.01., und 1 Story zwischen 17. und 23.06. Text frei. Das Paar kommt Anfang April.
 > Bitte „Anzeige“ ganz an den Anfang und das Label „Bezahlte Partnerschaft“ mit @novalife.
 > Dein Link für die Bio oder die Story: [LINK]?ref=c-[name]. Ich sag dir jede Woche, wie viele sich darüber eingetragen haben.
 > Darf ich deinen Clip in meiner Story teilen? Und eine Bitte: keine Länder, keine Flaggen, keine Politik. Es geht um die Muster und die Hose.
 
 **C5 · Absage, freundlich**
 
-> Danke dir fürs Antworten! Ich halt dich auf dem Laufenden. Am 22.04. um 19:00 geht's los.
+> Danke dir fürs Antworten! Ich halt dich auf dem Laufenden. Am 24.06. um 19:00 geht's los.
 
-**C6 · Welle 2, Nano ohne Paar (Mi 20.01.)**
+**C6 · Welle 2, Nano ohne Paar (Mi 27.01.)**
 
-> Hey [NAME], ich seh dich oft bei mir in den Kommentaren, danke dafür! Am **Samstag, 23.01.**, mache ich einen Mess-Abend in Berlin: Lieblingsjeans mitbringen, wir messen sie und du siehst das Sample in echt. 18–21 Uhr, [ORT]. Hast du Lust? Wenn du was postest, freu ich mich. Pflicht ist es nicht.
+> Hey [NAME], ich seh dich oft bei mir in den Kommentaren, danke dafür! Am **Samstag, 30.01.**, mache ich einen Mess-Abend in Berlin: Lieblingsjeans mitbringen, wir messen sie und du siehst das Sample in echt. 18–21 Uhr, [ORT]. Hast du Lust? Wenn du was postest, freu ich mich. Pflicht ist es nicht.
 
 **Prompt für Claude (Mo 04.01., 5 Minuten): Briefing-Karte**
 
-> Schreib mir eine Karte für die Creator-Preview am 12.01. (A6, deutsch, Du-Form): was Time Travel ist (2 Sätze), die 4 Stickstellen und den Lebensbaum-Patch (die hintere Gürtelschlaufe) in je einem Satz, Termine (Vorbestellung 14.01., 19:00, 149 €; Drop 22.04., 19:00, 169 €), Kennzeichnung („Anzeige“ am Anfang + Label), was nicht geht (keine Länder, Flaggen, Politik; nie „authentisch“; Lebensbaum nie „slawisch“). Sprachregel: Subjekt ist das Muster.
+> Schreib mir eine Karte für die Creator-Preview am 12.01. (A6, deutsch, Du-Form): was Time Travel ist (2 Sätze), die 4 Stickstellen und den Lebensbaum-Patch (die hintere Gürtelschlaufe) in je einem Satz, Termine (Vorbestellung 14.01., 19:00, 149 €; Drop 24.06., 19:00, 169 €), Kennzeichnung („Anzeige“ am Anfang + Label), was nicht geht (keine Länder, Flaggen, Politik; nie „authentisch“; Lebensbaum nie „slawisch“). Sprachregel: Subjekt ist das Muster.
 
 ---
 
@@ -237,10 +237,10 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 1. **Jeder Kanal zeigt auf die E-Mail-Liste.** Im Broadcast und auf WhatsApp steht nie „Folge dem Kanal“ als Ziel, sondern immer „Trag dich ein, nur die Liste kauft zuerst“ mit dem Link `?ref=bc` oder `?ref=wa`.
 2. **Instagram-Broadcast „Time Travel · Werkstatt“, Start Mo 30.11.** Das Versprechen: „Am Donnerstag kommt das erste echte Teil. Hier siehst du es zuerst.“ Danach 2–3 Nachrichten pro Woche, je 5 Minuten:
-   - **Erste Sicht:** ein Foto oder Clip 1 Stunde vor dem Feed (03.12. Proto, 05.01. PP-Sample, 21.02. erstes Shoot-Bild, 30.03. die Ware).
+   - **Erste Sicht:** ein Foto oder Clip 1 Stunde vor dem Feed (03.12. Proto, 05.01. PP-Sample, 07.03. erstes Shoot-Bild, 01.06. die Ware).
    - **Umfrage:** „Welche Stelle zuerst im Detail?“, „Welche Größe trägst du?“. Instagram-Umfragen haben bis zu vier Antworten [Z-Q62].
    - **Sprachnachricht, 30 Sekunden:** Was heute passiert ist. Das ist der persönlichste Kanal, den du hast.
-3. **WhatsApp-Kanal, nur wenn du willst.** Etwa 10 Nachrichten bis zum Drop: 07.01., 13.01., 14.01. 18:55, 15.03., 21.03. 19:55, 08.04., 21.04., 22.04. 17:55 und 18:55.
+3. **WhatsApp-Kanal, nur wenn du willst.** Etwa 10 Nachrichten bis zum Drop: 07.01., 13.01., 14.01. 18:55, 17.05., 23.05. 19:55, 10.06., 23.06., 24.06. 17:55 und 18:55.
 4. **Enge Freunde ab 14.01.:** Alle, die eine Story-Umfrage mit „Ja“ beantwortet haben, und alle Vorbesteller. Dort zuerst die Zwischenstände („Noch X von 35“).
 
 ### 3.3 Datenschutz · Checkliste (Di 24.11., zusammen mit den Rechtstexten)
@@ -263,11 +263,11 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 | Stufe | Belohnung | Kosten | Haken |
 |---|---|---|---|
-| 3 bestätigte Freunde | **Drop-Link am 22.04. um 17:30**, eine halbe Stunde vor der Liste | 0 € | **Abweichung vom Plan, du entscheidest:** Die Veröffentlichung müsste auf 17:30 statt 18:00 geplant werden. Wer den Link weitergibt, kann ab 17:30 kaufen. Bei wenigen Leuten ist das Risiko klein [Schätzung]. **Ohne Abweichung:** persönliche DM um 17:55 plus fester Platz am Drop-Abend |
+| 3 bestätigte Freunde | **Drop-Link am 24.06. um 17:30**, eine halbe Stunde vor der Liste | 0 € | **Abweichung vom Plan, du entscheidest:** Die Veröffentlichung müsste auf 17:30 statt 18:00 geplant werden. Wer den Link weitergibt, kann ab 17:30 kaufen. Bei wenigen Leuten ist das Risiko klein [Schätzung]. **Ohne Abweichung:** persönliche DM um 17:55 plus fester Platz am Drop-Abend |
 | 5 bestätigte Freunde | Einladung zum nächsten Mess-Abend mit +1, Sample als Erste anprobieren | 0 € | — |
-| Top 3 bis So 07.02. | Einladung zum Shoot am Sa 20.02., als Modell, wenn W32 passt, sonst hinter der Kamera | 0 € | Plan sucht ohnehin „2–3 aus der Community“ (Docket W21) |
+| Top 3 bis So 21.02. | Einladung zum Shoot am Sa 06.03., als Modell, wenn W32 passt, sonst hinter der Kamera | 0 € | Plan sucht ohnehin „2–3 aus der Community“ (Docket W23) |
 
-**Wann du es pushst:** Willkommens-Mail (immer) · Story am Sa 12.12. (ASK-Tag) · E-Mail 1 am Do 07.01. · Mi 27.01. persönlich an alle mit 2 Freunden („einer fehlt noch“) · Sa 13.03. · Sa 10.04. an die Vorbesteller („Du hast deine. Wer soll am 22.04. auch eine haben?“).
+**Wann du es pushst:** Willkommens-Mail (immer) · Story am Sa 12.12. (ASK-Tag) · E-Mail 1 am Do 07.01. · Mi 03.02. persönlich an alle mit 2 Freunden („einer fehlt noch“) · Sa 15.05. · Sa 12.06. an die Vorbesteller („Du hast deine. Wer soll am 24.06. auch eine haben?“).
 
 ### 4.2 Route A · Shopify-eigen, 0 € (Empfehlung)
 
@@ -318,7 +318,7 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 > Du bist drin. Bestätige noch kurz die Mail in deinem Postfach, sonst zählt es nicht.
 > Dein Link: [LINK]
-> Schick ihn an 3 Leute, die das auch sehen sollten. Wenn sich 3 eintragen, bekommst du am 22.04. den Link vor allen anderen.
+> Schick ihn an 3 Leute, die das auch sehen sollten. Wenn sich 3 eintragen, bekommst du am 24.06. den Link vor allen anderen.
 
 **WhatsApp-Text (vorausgefüllt):**
 
@@ -335,7 +335,7 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 | # | Winkel | Kernsatz | Beleg, den du hast | Passt zu |
 |---|---|---|---|---|
 | 1 | **Ehrliche Größen** | „Meine Eightyfive heißt W30 und misst 82 cm. Bei mir steht auf dem Label, was der Bund misst.“ | Eigene Messung 14.09. (Spec 1.5) | Lokalpresse, Gründer-Medien, Denim-Blogs |
-| 2 | **Die Vorbestellung baut die Fabrik** | „35 Vorbestellungen entscheiden, ob 100 Jeans produziert werden.“ | Plan 3.1 (Schwelle 10 bis 01.02., 32 bis 19.03.). Du legst fest, wie offen du die Zahlen zeigst | Gründerszene, deutsche-startups, FashionUnited, TextilWirtschaft |
+| 2 | **Die Vorbestellung baut die Fabrik** | „35 Vorbestellungen entscheiden, ob 100 Jeans produziert werden.“ | Plan 3.1 (Schwelle 10 bis 15.02., 32 bis 21.05.). Du legst fest, wie offen du die Zahlen zeigst | Gründerszene, deutsche-startups, FashionUnited, TextilWirtschaft |
 | 3 | **Der Faden, der die Hose verlässt** | „Neun goldene Fäden, von Hand gesetzt, nach der Wäsche.“ | Spec 3.7, Fotos ab PP-Sample | Denim-Blogs, Highsnobiety |
 | 4 | **Vom Bleichen zur eigenen Hose** | „Drei Jahre fremde Jeans gebleicht. Jetzt die erste eigene, 1–2 Stunden am Tag.“ | Plan, Entscheidungs-Log 12.09. | Lokalpresse, Bezirks-Newsletter |
 | 5 | **Papier vor Garn** | „Jede Stickerei war erst ein Papier mit Malerkrepp an meiner Hose.“ | Papiertests 01.10. und 08.10. | Design-, Handwerk- und Hochschul-Kanäle |
@@ -378,26 +378,26 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 | Sa 14.11. · Do 19.11. | Vorbereitung | — | Liste 5.2 mit Kontaktweg, Rubrik, 3 gelesenen Artikeln. Je 30 Min. |
 | Mi 09.12. | Pressemappe v1 | — | Pressetext, Factsheet, Fotos vom Mini-Shoot 08.12. (Prompt P0) |
 | **Di 15.12.** | **Welle 1: „Vorbestellung ab 14.01.“** | 5, 6, 7, 8, 9, 10, 11 | Winkel 1, 2, 4. Link `?ref=p-[medium]` |
-| Mi 30.12. → Sa 02.01. | **Event 1** | 1, 2, 3, 4 | Mess-Abende 16.01. und 23.01. Am 30.12. schreiben, als geplanter Versand am Sa 02.01., 09:00 |
+| Mi 30.12. → Sa 02.01. | **Event 1** | 1, 2, 3, 4 | Mess-Abende 16.01. und 30.01. Am 30.12. schreiben, als geplanter Versand am Sa 02.01., 09:00 |
 | Di 05.01. | Nachfassen Welle 1 | wer nicht geantwortet hat | einmal, kurz (P4) |
-| Sa 27.02. | Pressemappe v2 | — | mit Shoot-Fotos (20.02.) und Kampagnenfilm (25.02.) |
-| **Do 04.03.** | **Welle 2: „Drop 22.04.“** | 1, 7, 8, 9, 12, 13, 14, 15, 16, (17) | Winkel 3, 6, 1. **Nicht am Mi 24.02.** (Jahrestag, nichts Werbliches, `zielgruppe.md` 3.7) |
-| Mo 08.03. | Event Mess-Abend 3 | 1, 2, 3, 4 | Sa 20.03. |
-| Fr 12.03. | Nachfassen Welle 2 | | einmal |
-| So 28.03. → Mo 05.04. | **Welle 3: Event Drop** | 1, 2, 3, 4, 5, 6 | Drop 22.04. und Drop-Abend. Am 28.03. schreiben, Versand geplant |
-| Do 15.04. | Nachfassen Welle 3 | | einmal |
+| Sa 13.03. | Pressemappe v2 | — | mit Shoot-Fotos (06.03.) und Kampagnenfilm (11.03.) |
+| **Do 18.03.** | **Welle 2: „Drop 24.06.“** | 1, 7, 8, 9, 12, 13, 14, 15, 16, (17) | Winkel 3, 6, 1. **Nicht am Mi 24.02.** (Jahrestag, nichts Werbliches, `zielgruppe.md` 3.7) |
+| Mo 10.05. | Event Mess-Abend 3 | 1, 2, 3, 4 | Sa 22.05. |
+| Fr 14.05. | Nachfassen Welle 2 | | einmal |
+| So 30.05. → Mo 07.06. | **Welle 3: Event Drop** | 1, 2, 3, 4, 5, 6 | Drop 24.06. und Drop-Abend. Am 30.05. schreiben, Versand geplant |
+| Do 17.06. | Nachfassen Welle 3 | | einmal |
 
 ### 5.4 Pressemappe (eine versteckte Seite `/pages/presse` plus PDF)
 
 - Pressetext, 1 Seite, deutsch und englisch
-- Factsheet: 100 Stück, nummeriert 001–100 · vier Stickstellen · 169 €, Vorbestellung 149 € ab 14.01., 19:00 · Drop 22.04., 19:00 · Fabrik in [LAND] · ehrliche Größen W30–W38 · Zipper 139 €, Polo 79 €
-- 6 Fotos, 3 hoch und 3 quer, ohne Text (ab Shoot 20.02., davor Proto-Fotos vom 08.12.). **Bis 03.12. nur Prozessfotos.**
+- Factsheet: 100 Stück, nummeriert 001–100 · vier Stickstellen · 169 €, Vorbestellung 149 € ab 14.01., 19:00 · Drop 24.06., 19:00 · Fabrik in [LAND] · ehrliche Größen W30–W38 · Zipper 139 €, Polo 79 €
+- 6 Fotos, 3 hoch und 3 quer, ohne Text (ab Shoot 06.03., davor Proto-Fotos vom 08.12.). **Bis 03.12. nur Prozessfotos.**
 - 1 Foto von dir. Kurzbio in 3 Sätzen
 - Kontakt: deine Mail und Telefonnummer, du entscheidest, ob die Nummer drauf soll
 
 **Prompt P0 für Claude (Mi 09.12.):**
 
-> Schreib mir eine Pressemitteilung (max. 300 Wörter, deutsch, dann englisch) und ein Factsheet für Novalife Time Travel: 100 nummerierte Jeans mit fünf gestickten Stellen, Vorbestellung ab Do 14.01.2027, 19:00, für 149 € (35 Stück), Drop Do 22.04.2027, 19:00, 169 €. Aufhänger: ehrliche Größen (meine Eightyfive W30 misst 82 cm Bund) und die Vorbestellung, die die Fabrik bezahlt. Dazu 3 Betreffzeilen. Sprachregel: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, nach außen nur „Time Travel“, keine Länder als Herkunftsbehauptung.
+> Schreib mir eine Pressemitteilung (max. 300 Wörter, deutsch, dann englisch) und ein Factsheet für Novalife Time Travel: 100 nummerierte Jeans mit fünf gestickten Stellen, Vorbestellung ab Do 14.01.2027, 19:00, für 149 € (35 Stück), Drop Do 24.06.2027, 19:00, 169 €. Aufhänger: ehrliche Größen (meine Eightyfive W30 misst 82 cm Bund) und die Vorbestellung, die die Fabrik bezahlt. Dazu 3 Betreffzeilen. Sprachregel: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, nach außen nur „Time Travel“, keine Länder als Herkunftsbehauptung.
 
 ### 5.5 Vorlagen
 
@@ -435,7 +435,7 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 >
 > Hallo [Redaktion],
 >
-> am Samstag, 16.01., 18–21 Uhr, mache ich in [ORT, ADRESSE] einen Mess-Abend: Lieblingsjeans mitbringen, wir messen den echten Bund, und man sieht das Sample meiner ersten Jeans (100 Stück, bestickt). Eintritt frei, keine Anmeldung nötig. Zweiter Termin: Sa, 23.01.
+> am Samstag, 16.01., 18–21 Uhr, mache ich in [ORT, ADRESSE] einen Mess-Abend: Lieblingsjeans mitbringen, wir messen den echten Bund, und man sieht das Sample meiner ersten Jeans (100 Stück, bestickt). Eintritt frei, keine Anmeldung nötig. Zweiter Termin: Sa, 30.01.
 > Ein Bild hängt an. Ernest Veskimäe, Novalife
 
 **P4 · Nachfassen (einmal, nie öfter)**
@@ -467,12 +467,12 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 | Wer | 10–12 Leute: Gäste vom Papierabend plus je ein Freund, Antworten von den Hochschulen, Nano-Creator aus deiner Longlist |
 | Wo | bei dir, oder du fragst einen Ort, der Stick-Workshops macht, z. B. den Kunstraum Heartspace, Danziger Straße 172, Prenzlauer Berg [Z-Q59] [vor Ort prüfen, ob er Räume vermietet oder mitmacht]. Anfrage am Do 05.11. |
 | Material | Denim-Reste, Stickgarn Rot und Weiß, Nadeln, 10 Stickrahmen. Einkauf am Sa 21.11. [Preise vor Ort prüfen]. Optional ein Unkostenbeitrag |
-| **Was nicht vorkommt** | **Kein Weizen, keine Ähren.** Sa 28.11. ist Holodomor-Gedenktag [Z-Q51]. `zielgruppe.md` rät in der Woche 23.–29.11. von jedem Ernte-Post ab. Nur Raute und Achtstern |
+| **Was nicht vorkommt** | **Kein Weizen, keine Ähren.** Sa 28.11. ist Holodomor-Gedenktag [Z-Q51]. `zielgruppe.md` rät in der Woche 25.–29.11. von jedem Ernte-Post ab. Nur Raute und Achtstern |
 | Ergebnis | 10–12 Anmeldungen plus Links [Schätzung], Hände-und-Nadel-Content, erste Nano-Kontakte |
 
-### 6.3 Mess- und Anprobe-Abende · Sa 16.01., Sa 23.01., Sa 20.03., je 18:00–21:00
+### 6.3 Mess- und Anprobe-Abende · Sa 16.01., Sa 30.01., Sa 22.05., je 18:00–21:00
 
-**Korrektur zu `markt.md` und `berlin.md`:** Dort steht „alle Größen“. Bis zur Lieferung (~30.03.) gibt es aber nur Proto und PP-Sample in W32. Also wird aus dem Anprobe-Abend ein **Mess-Abend**. Er löst genau das Problem, an dem Vorbestellungen online scheitern: die Größe. Laut `markt.md` gehen 67 % der Retouren auf die Größe zurück [M-Q44].
+**Korrektur zu `markt.md` und `berlin.md`:** Dort steht „alle Größen“. Bis zur Lieferung (~01.06.) gibt es aber nur Proto und PP-Sample in W32. Also wird aus dem Anprobe-Abend ein **Mess-Abend**. Er löst genau das Problem, an dem Vorbestellungen online scheitern: die Größe. Laut `markt.md` gehen 67 % der Retouren auf die Größe zurück [M-Q44].
 
 | Station | Was |
 |---|---|
@@ -482,20 +482,20 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 | 4 · Vorbestellen | Am eigenen Handy im Shop. **Keine Kasse, kein Bargeld**, so bleiben Bestand und Kontingent sauber |
 
 - **Ort:** einer der Läden aus `berlin.md` (Studio183, GATE194, Konk, Sing Blackbird), angefragt im Dezember mit dem Proto [B, Abschnitt 1]. Ohne Zusage bis Mitte Dezember: Fläche über Giggster [B-46].
-- **Erwartung:** Bei Pop-ups in der Mode werden 25–40 % Conversion genannt [M-Q54, Güte C]. Bei 20 Gästen wären das 5–8 Vorbestellungen pro Abend [Schätzung]. Zwei Abende im Januar können damit die Schwelle von 10 bis 01.02. allein tragen.
-- **Mess-Abend 3 (20.03.)** ist der letzte Samstag zum Vorbestellpreis (endet So 21.03., 20:00). Am Vormittag machst du die Countdown-Assets Teil 2 (Docket). Ein langer Tag, plan ihn so.
+- **Erwartung:** Bei Pop-ups in der Mode werden 25–40 % Conversion genannt [M-Q54, Güte C]. Bei 20 Gästen wären das 5–8 Vorbestellungen pro Abend [Schätzung]. Zwei Abende im Januar können damit die Schwelle von 10 bis 15.02. allein tragen.
+- **Mess-Abend 3 (22.05.)** ist der letzte Samstag zum Vorbestellpreis (endet So 23.05., 20:00). Am Vormittag machst du die Countdown-Assets Teil 2 (Docket). Ein langer Tag, plan ihn so.
 
 ### 6.4 Drop-Tag und Drop-Abend
 
-**Ehrliche Einschätzung:** Am Do 22.04. bist du von 18:00 bis 21:00 online gebunden: Live, Support, Fehler beheben (Docket: DROP 180 Min.). Ein Pop-up am selben Abend teilt dich in zwei Hälften [Schätzung].
+**Ehrliche Einschätzung:** Am Do 24.06. bist du von 18:00 bis 21:00 online gebunden: Live, Support, Fehler beheben (Docket: DROP 180 Min.). Ein Pop-up am selben Abend teilt dich in zwei Hälften [Schätzung].
 
 | Option | Was | Für | Gegen |
 |---|---|---|---|
-| **A (Rat)** | Kein Pop-up am 22.04. **Drop-Abend Sa 24.04.**, 17–20 Uhr in einem Partnerladen, mit allen Größen | Ware ist da, alle Größen. Puffer für ~10 Käufe (`markt.md`) | Sa 24.04. ist Packtag 2 (180 Min.). Geht nur mit Packhilfe, Planung am Fr 05.03. (Docket) |
-| B | „Drop-Ecke“ am 22.04., 18–21 Uhr, in einem Partnerladen. **Ein Helfer betreut sie**, du bleibst online | Live-Gefühl, Content | du bist nicht da, Risiko bei Fragen |
+| **A (Rat)** | Kein Pop-up am 24.06. **Drop-Abend Sa 26.06.**, 17–20 Uhr in einem Partnerladen, mit allen Größen | Ware ist da, alle Größen. Puffer für ~10 Käufe (`markt.md`) | Sa 26.06. ist Packtag 2 (180 Min.). Geht nur mit Packhilfe, Planung am Fr 19.03. (Docket) |
+| B | „Drop-Ecke“ am 24.06., 18–21 Uhr, in einem Partnerladen. **Ein Helfer betreut sie**, du bleibst online | Live-Gefühl, Content | du bist nicht da, Risiko bei Fragen |
 | C | Nur online | volle Konzentration | kein Offline-Moment |
 
-**Bei A und B gilt:** Gekauft wird im Shop am eigenen Handy. Zum Anprobieren dienen das PP-Sample und B-Ware aus der Prüfung (Docket Sa 03.04.), nie verkäufliche Ware. QR `?ref=dropabend`. Event-Tipp in Welle 3. Du entscheidest bis zur Helferplanung am Fr 05.03.
+**Bei A und B gilt:** Gekauft wird im Shop am eigenen Handy. Zum Anprobieren dienen das PP-Sample und B-Ware aus der Prüfung (Docket Sa 05.06.), nie verkäufliche Ware. QR `?ref=dropabend`. Event-Tipp in Welle 3. Du entscheidest bis zur Helferplanung am Fr 19.03.
 
 ### 6.5 Hochschulen
 
@@ -504,9 +504,9 @@ Belegt ist nur, dass es diese Modehochschulen in Berlin gibt: **HTW Berlin (Mode
 | Datum | Was | Min. |
 |---|---|---|
 | Mi 04.11. | Auf der offiziellen Website jeder Hochschule den Studiengang und die Kontaktstelle suchen (Studiengangskoordination, Career Service oder Stellenbörse). Mail H1 an alle vier | 30 |
-| Jan | Wenn erlaubt: Aushang oder Stellenbörse „Mess-Abend 16.01. und 23.01.“ mit `?ref=h-[kürzel]` | 10 |
-| Sa 13.02. | Aushang „Helfer gesucht, bezahlt“: Prüfung 31.03.–02.04., Packen 06.–07.04. und 22.–24.04. [Lohnhöhe 2027 prüfen, Mindestlohn] | 10 |
-| Do 25.03. | Helfer bestätigen | 15 |
+| Jan | Wenn erlaubt: Aushang oder Stellenbörse „Mess-Abend 16.01. und 30.01.“ mit `?ref=h-[kürzel]` | 10 |
+| Sa 27.02. | Aushang „Helfer gesucht, bezahlt“: Prüfung 02.06.–04.06., Packen 08.–09.06. und 24.–26.06. [Lohnhöhe 2027 prüfen, Mindestlohn] | 10 |
+| Do 27.05. | Helfer bestätigen | 15 |
 
 **H1 · Mail an Studiengang oder Career Service**
 
@@ -556,9 +556,9 @@ Belegt ist nur, dass es diese Modehochschulen in Berlin gibt: **HTW Berlin (Mode
 
 ---
 
-## 7 · Wartelisten-Wachstumsplan · W5 (12.10.2026) bis W32 (22.04.2027)
+## 7 · Wartelisten-Wachstumsplan · W5 (12.10.2026) bis W32 (24.06.2027)
 
-**Soll und Alarm** stammen aus `markt.md` 3.7 (Liste kumuliert, Stand Sonntag). **Korridor laut Plan:** 700 (31.12.) · 1.500 (31.01.) · 2.400 (28.02.) · 3.000 (22.04.). Die Aktionen kommen **zusätzlich** zu den Posts und Mails im Docket. Minuten = deine Zeit.
+**Soll und Alarm** stammen aus `markt.md` 3.7 (Liste kumuliert, Stand Sonntag). **Korridor laut Plan:** 700 (31.12.) · 1.500 (07.02.) · 2.400 (14.03.) · 3.000 (24.06.). Die Aktionen kommen **zusätzlich** zu den Posts und Mails im Docket. Minuten = deine Zeit.
 
 **Jede Woche fest:**
 - Täglich nach dem Posten 10 Minuten Kommentare und DMs. Jedes „Ja“, jede Größenangabe ins Blatt (Docket: 15 Min. antworten).
@@ -577,23 +577,23 @@ Belegt ist nur, dass es diese Modehochschulen in Berlin gibt: **HTW Berlin (Mode
 | 13 | 07.–13.12. | 550 / 230 | Mi 09.12. · 30 · Pressemappe v1 (Prompt P0) · **Fr 11.12. · 30 · Creator-DM C2 an die Top 8** · Sa 12.12. · 5 · „Bring 3“-Story am ASK-Tag |
 | 14 | 14.–20.12. | 620 / 260 | **Di 15.12. · 25 · Presse-Welle 1** · Fr 18.12. · 20 · Creator nachfassen (C3) · Sa 19.12. · 15 · Ort für die Preview und die Mess-Abende fest |
 | 15 | 21.–27.12. | 680 / 280 | Mi 23.12. · 5 · Broadcast „14.01., 19:00. Schöne Feiertage.“ Sonst nichts |
-| 16 | 28.12.–03.01. | **740** / 300 · Korridor 700 am 31.12. | Mi 30.12. · 20 · Event-Tipp P3 für 16.01. und 23.01., Versand geplant am Sa 02.01., 09:00 · Do 31.12. · Korridor-Check im Monatsabschluss · So 03.01. · 10 · WhatsApp-Kanal anlegen (optional) |
+| 16 | 28.12.–03.01. | **740** / 300 · Korridor 700 am 31.12. | Mi 30.12. · 20 · Event-Tipp P3 für 16.01. und 30.01., Versand geplant am Sa 02.01., 09:00 · Do 31.12. · Korridor-Check im Monatsabschluss · So 03.01. · 10 · WhatsApp-Kanal anlegen (optional) |
 | 17 | 04.–10.01. | 850 / 380 | Mo 04.01. · 5 · Prompt Briefing-Karte · Di 05.01. · 15 · Welle 1 nachfassen (P4), Creator-Zusagen bestätigen (C4) · Do 07.01. · 5 · E-Mail 1 mit eigenem Link und Mess-Abend-Termin, dasselbe in Broadcast und WhatsApp · Sa 09.01. · 15 · Mess-Abend-Zusagen zählen, Hochschul-Aushang |
 | 18 | 11.–17.01. | 1.000 / 450 | **Di 12.01. · 90 · Creator-Preview** · Mi 13.01. · 5 · Broadcast/WhatsApp „Morgen 19:00“ · Do 14.01. · 2 · 18:55 „In 5 Minuten“ · **Sa 16.01. · 180 · Mess-Abend 1** · ab Do 14.01. Liste „Enge Freunde“ |
-| 19 | 18.–24.01. | 1.250 / 520 | **Mi 20.01. · 30 · Nano-Welle 2 (C6), ersetzt „5 Creator anfragen“** · **Sa 23.01. · 180 · Mess-Abend 2** (Story-Q&A auf den Nachmittag) |
-| 20 | 25.–31.01. | **1.500** / 600 · Korridor 31.01. | **Mo 25.01. · 30 · Creator-Clips einsammeln, Zahlen je Creator, Danke (ersetzt „Anproben terminieren“)** · Mi 27.01. · +10 · in den persönlichen DMs (Docket) alle mit 2 bestätigten Freunden: „einer fehlt noch“ |
-| 21 | 01.–07.02. | 1.700 / 660 | Sa 06.02. · 10 · bei „Shoot planen“ Top-3-Werber und Creator mit W32 fragen · So 07.02. · Stichtag Top 3 |
-| 22 | 08.–14.02. | 1.900 / 720 | Sa 13.02. · 30 · Pressetext v2 mit Drop-Daten (Claude), Hochschul-Aushang für Helfer |
-| 23 | 15.–21.02. | 2.150 / 790 | Mi 17.02. · 5 · 6 Pressefotos auf die Shotlist (3 hoch, 3 quer, ohne Text, eins mit dir) · So 21.02. · 5 · erstes Shoot-Bild zuerst im Broadcast |
-| 24 | 22.–28.02. | **2.400** / 850 · Korridor 28.02. | **Mi 24.02. · nichts senden, nichts Werbliches** · Sa 27.02. · 30 · Pressemappe v2, Seite `/pages/presse` |
-| 25 | 01.–07.03. | 2.450 / 880 | **Do 04.03. · 30 · Presse-Welle 2** · Sa 06.03. · 10 · Einladung Mess-Abend 3 an alle ohne Vorbestellung, Event-Tipp P3 geplant für Mo 08.03. |
-| 26 | 08.–14.03. | 2.500 / 910 | Fr 12.03. · 15 · Welle 2 nachfassen · Sa 13.03. · 5 · „Bring 3“-Story: „Letzte Woche Vorbestellpreis“ |
-| 27 | 15.–21.03. | 2.560 / 950 | Mo 15.03. · 5 · Creator-Story „Preis endet So 20:00“ (freiwillig) · **Sa 20.03. · 180 · Mess-Abend 3** · So 21.03. · 2 · 19:55 Broadcast/WhatsApp |
-| 28 | 22.–28.03. | 2.620 / 1.050 | Do 25.03. · 15 · Helfer bestätigen · So 28.03. · 20 · Welle 3 (Event Drop + Drop-Abend) schreiben, Versand geplant für Mo 05.04. |
-| 29 | 29.03.–04.04. | 2.720 / 1.170 | Prüfwoche. Nur der Countdown-Clip täglich auch in den Broadcast (2 Min.) · Di 30.03. · 5 · „Die Ware ist da“ zuerst im Broadcast |
-| 30 | 05.–11.04. | 2.820 / 1.290 | Mo 05.04. · Welle 3 geht raus · Do 08.04. · Creator-Pakete mit Link auf der Karte (Docket) · Sa 10.04. · +10 · Vorbesteller: „Wer soll am 22.04. auch eine haben?“ mit Link |
-| 31 | 12.–18.04. | 2.920 / 1.400 | Do 15.04. · +10 · Welle 3 nachfassen, Creator erinnern (Docket) · Fr 16.04. · 10 · Liste „17:30“ aus den Tags ziehen (wenn du Stufe 3 so entschieden hast) |
-| 32 | 19.–25.04. | **3.000** / 1.515 | Mi 21.04. · 5 · T−24h in Broadcast und WhatsApp · **Do 22.04.** · 17:30 Link an die Top-Werber · 17:55 und 18:55 Broadcast/WhatsApp · Sa 24.04. · Drop-Abend (Option A, 6.4) · So 25.04. · +15 · Auswertung: Anmeldungen und Käufe nach Herkunft. Was trägt Drop 2? |
+| 19 | 25.–31.01. | 1.250 / 520 | **Mi 27.01. · 30 · Nano-Welle 2 (C6), ersetzt „5 Creator anfragen“** · **Sa 30.01. · 180 · Mess-Abend 2** (Story-Q&A auf den Nachmittag) |
+| 20 | 01.–07.02. | **1.500** / 600 · Korridor 07.02. | **Mo 01.02. · 30 · Creator-Clips einsammeln, Zahlen je Creator, Danke (ersetzt „Anproben terminieren“)** · Mi 03.02. · +10 · in den persönlichen DMs (Docket) alle mit 2 bestätigten Freunden: „einer fehlt noch“ |
+| 21 | 15.–21.02. | 1.700 / 660 | Sa 20.02. · 10 · bei „Shoot planen“ Top-3-Werber und Creator mit W32 fragen · So 21.02. · Stichtag Top 3 |
+| 22 | 22.–28.02. | 1.900 / 720 | Sa 27.02. · 30 · Pressetext v2 mit Drop-Daten (Claude), Hochschul-Aushang für Helfer |
+| 23 | 01.–07.03. | 2.150 / 790 | Mi 03.03. · 5 · 6 Pressefotos auf die Shotlist (3 hoch, 3 quer, ohne Text, eins mit dir) · So 07.03. · 5 · erstes Shoot-Bild zuerst im Broadcast |
+| 24 | 08.–14.03. | **2.400** / 850 · Korridor 14.03. | **Mi 24.02. · nichts senden, nichts Werbliches** · Sa 13.03. · 30 · Pressemappe v2, Seite `/pages/presse` |
+| 25 | 15.–21.03. | 2.450 / 880 | **Do 18.03. · 30 · Presse-Welle 2** · Sa 20.03. · 10 · Einladung Mess-Abend 3 an alle ohne Vorbestellung, Event-Tipp P3 geplant für Mo 10.05. |
+| 26 | 10.–16.05. | 2.500 / 910 | Fr 14.05. · 15 · Welle 2 nachfassen · Sa 15.05. · 5 · „Bring 3“-Story: „Letzte Woche Vorbestellpreis“ |
+| 27 | 17.–23.05. | 2.560 / 950 | Mo 17.05. · 5 · Creator-Story „Preis endet So 20:00“ (freiwillig) · **Sa 22.05. · 180 · Mess-Abend 3** · So 23.05. · 2 · 19:55 Broadcast/WhatsApp |
+| 28 | 24.–30.05. | 2.620 / 1.050 | Do 27.05. · 15 · Helfer bestätigen · So 30.05. · 20 · Welle 3 (Event Drop + Drop-Abend) schreiben, Versand geplant für Mo 07.06. |
+| 29 | 31.05.–06.06. | 2.720 / 1.170 | Prüfwoche. Nur der Countdown-Clip täglich auch in den Broadcast (2 Min.) · Di 01.06. · 5 · „Die Ware ist da“ zuerst im Broadcast |
+| 30 | 07.–13.06. | 2.820 / 1.290 | Mo 07.06. · Welle 3 geht raus · Do 10.06. · Creator-Pakete mit Link auf der Karte (Docket) · Sa 12.06. · +10 · Vorbesteller: „Wer soll am 24.06. auch eine haben?“ mit Link |
+| 31 | 14.–20.06. | 2.920 / 1.400 | Do 17.06. · +10 · Welle 3 nachfassen, Creator erinnern (Docket) · Fr 18.06. · 10 · Liste „17:30“ aus den Tags ziehen (wenn du Stufe 3 so entschieden hast) |
+| 32 | 21.–27.06. | **3.000** / 1.515 | Mi 23.06. · 5 · T−24h in Broadcast und WhatsApp · **Do 24.06.** · 17:30 Link an die Top-Werber · 17:55 und 18:55 Broadcast/WhatsApp · Sa 26.06. · Drop-Abend (Option A, 6.4) · So 27.06. · +15 · Auswertung: Anmeldungen und Käufe nach Herkunft. Was trägt Drop 2? |
 
 **Woher die Wochen-Sprünge kommen** [Schätzung]: W6–W7 Netz und Papierabend (Validierung) · W12–W14 Proto, Broadcast, Welle 1 · W17–W20 Mails, Creator, zwei Mess-Abende, Referral (größter Sprung, 850 → 1.500) · W22–W24 Shoot, Kampagnenfilm, Welle 2 · W29–W32 Countdown, Werbung, Welle 3, Creator-Posts. Die flache Phase W25–W28 (+50 bis +60 pro Woche) ist im Soll so vorgesehen. Wenn du dort über Soll liegst, ist das Puffer für den April.
 
@@ -601,15 +601,15 @@ Belegt ist nur, dass es diese Modehochschulen in Berlin gibt: **HTW Berlin (Mode
 
 ## 8 · Hinweise für den Docket-Bau (Rev. 6)
 
-- **Umwidmen an derselben Stelle, nicht verschieben** (Übergabe, Technik): W19 Mi 20.01. „5 Creator anfragen“ → „Nano-Welle 2 (C6)“. W20 Mo 25.01. „Creator-Anproben terminieren“ → „Creator-Clips einsammeln, Zahlen je Creator“. Die neue Erst-DM (Fr 11.12.), das Nachfassen (Fr 18.12.), die Zusage (Di 05.01.) und die Preview (Di 12.01.) **anhängen**.
-- **Vorlage „Creator-DM“** in der Referenz (Woche 19) durch C2 ersetzen und C3–C6 dazu. Neue Vorlagen: N1, N2, E1, E2, H1, P1–P4, Danke-Seite, WhatsApp-Text.
+- **Umwidmen an derselben Stelle, nicht verschieben** (Übergabe, Technik): W19 Mi 27.01. „5 Creator anfragen“ → „Nano-Welle 2 (C6)“. W20 Mo 01.02. „Creator-Anproben terminieren“ → „Creator-Clips einsammeln, Zahlen je Creator“. Die neue Erst-DM (Fr 11.12.), das Nachfassen (Fr 18.12.), die Zusage (Di 05.01.) und die Preview (Di 12.01.) **anhängen**.
+- **Vorlage „Creator-DM“** in der Referenz (Woche 20) durch C2 ersetzen und C3–C6 dazu. Neue Vorlagen: N1, N2, E1, E2, H1, P1–P4, Danke-Seite, WhatsApp-Text.
 - **Neue Prompts:** R1 (Ref-Mechanik), P0 (Pressemappe), Briefing-Karte.
 - **Überschneidungen mit `berlin.md`**, bitte beim Zusammenführen auflösen:
   - Sa 17.10. Laden-Runde Kreuzberg: Ich habe die Ref-Mechanik auf Do 15.10. gelegt, kein Konflikt.
   - Sa 07.11. Laden-Runde Mitte-Nord und Creator-Runde 1: Die Runde geht am Handy auch an einem anderen Tag.
   - Sa 21.11. Laden-Runde Mitte-Süd: Material für den Stick-Abend unterwegs kaufen.
   - Sa 28.11. Holy Shit Shopping: hingehen ist ok, nur nichts posten.
-- **Lange Tage:** Sa 24.10., Fr 27.11., Di 12.01., Sa 16.01., Sa 23.01., Sa 20.03. (dazu Countdown-Assets) und Sa 24.04. (Packen plus Drop-Abend). Am Tag danach jeweils nur Pflichtaufgaben.
+- **Lange Tage:** Sa 24.10., Fr 27.11., Di 12.01., Sa 16.01., Sa 30.01., Sa 22.05. (dazu Countdown-Assets) und Sa 26.06. (Packen plus Drop-Abend). Am Tag danach jeweils nur Pflichtaufgaben.
 - **Sprachregel in den alten Posts:** `zielgruppe.md` 3.7 schlägt neue Hooks für Mi 14.10. und Mi 09.12. („Älter als jede Grenze“) vor und rät, ORIGIN „Der Teppich“ vom Mi 25.11. zu verschieben. Das betrifft auch den Stick-Abend am 27.11.: dort nur Raute und Achtstern.
 
 ---

@@ -145,9 +145,9 @@ def zeitachse():
 
 
 R5_NOTE = {
-    "vorlagen": "Die Vorlage „RFQ Jeansfabrik“ ist auf den Freeze vom 11.10. umgestellt (Serp gestrichen, 4 Stickzonen, ~28.000 Stiche, Patch D als Gürtelschlaufe). In Rev. 6 gilt zusätzlich: nach außen „Kreuzstich-Band“ statt „Vyshyvanka“, „Achtstern“ statt „Alatyr“, „Time Travel“ statt „Projekt Slavic“. Lieferzeile überall: „Lieferung bis spätestens 30.04.2027, geplant Anfang April“. CTA je Phase aus den Content-Regeln. Neue Vorlagen für Netz, Abende, Creator und Presse stehen im Abschnitt „Warteliste, Netz, Creator, Presse“.",
+    "vorlagen": "Die Vorlage „RFQ Jeansfabrik“ ist auf den Freeze vom 11.10. umgestellt (Serp gestrichen, 4 Stickzonen, ~28.000 Stiche, Patch D als Gürtelschlaufe). In Rev. 6 gilt zusätzlich: nach außen „Kreuzstich-Band“ statt „Vyshyvanka“, „Achtstern“ statt „Alatyr“, „Time Travel“ statt „Projekt Slavic“. Lieferzeile überall: „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“. CTA je Phase aus den Content-Regeln. Neue Vorlagen für Netz, Abende, Creator und Presse stehen im Abschnitt „Warteliste, Netz, Creator, Presse“.",
     "pruefplan": "Stand Rev. 5.3. In Rev. 6 kommen dazu: Weiß nach der Wäsche L* ≥ 80, Patch D 76 × 67 mm als Gürtelschlaufe mit Zugtest, Goldfäden-Test am PP (anziehen, sitzen, fünf Wäschen auf links).",
-    "kalk": "Stand Rev. 5.3. In Rev. 6 gilt: Stufe 2 (Nr. 036–060 zu 169 €) statt Kontingent 45. Bei Türkei und Kleinunternehmer ~1.150 € Einfuhrumsatzsteuer: Schwelle 2b = 40 ausgezahlte Vorbestellungen bis Mi 24.03. Details im Abschnitt „Strategie“.",
+    "kalk": "Stand Rev. 5.3. In Rev. 6 gilt: Stufe 2 (Nr. 036–060 zu 169 €) statt Kontingent 45. Bei Türkei und Kleinunternehmer ~1.150 € Einfuhrumsatzsteuer: Schwelle 2b = 40 ausgezahlte Vorbestellungen bis Mi 26.05. Details im Abschnitt „Strategie“.",
     "techpack": "Stand Rev. 5.3. Zusätze aus Rev. 6 (falls beim Freeze angenommen): 2 mm Denim zwischen Band A und Kante · Weiß nach der Wäsche L* ≥ 80 · Anti-Backstaining-Frage · Schlaufen ≥ 8 mm vom Patch · GPSR-Herstellerangabe aufs Pflegeetikett · Verschleißkarte mit Freihaltezonen · Wash Reference Sheet · Stichdeckel 33.000, Füllung als Standard · REACH-Bestätigung für Knopf, Nieten und Farbstoffe.",
 }
 
@@ -222,7 +222,7 @@ def main():
 
     # Urteil (oben im Docket): handgeschriebener Kopf + Entscheidungen aus Strategie 17
     dec = re.sub(r"^## 17 · .*\n", "", S["17"])
-    urteil = read(BUILD / "entscheidung_1110.html") + read(BUILD / "urteil_head.html") + "<h3 style=\"font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;font-size:20px;margin:28px 0 10px\">Deine Entscheidungen mit Datum</h3>" + md2html(dec, key="ur")
+    urteil = read(BUILD / "entscheidung_1310.html") + read(BUILD / "entscheidung_1110.html") + read(BUILD / "urteil_head.html") + "<h3 style=\"font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;font-size:20px;margin:28px 0 10px\">Deine Entscheidungen mit Datum</h3>" + md2html(dec, key="ur")
     (BUILD / "urteil.html").write_text(urteil, encoding="utf-8")
 
     sizes = {n: len(f) for n, f in refs}

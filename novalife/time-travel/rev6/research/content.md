@@ -2,7 +2,7 @@
 
 Stand: Mi 07.10.2026, abends. Für Ernest. Teil der Docket-Neuplanung (Rev. 6).
 **Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
-Drop Do 22.04.2027, 19:00 (Warteliste ab 18:00). Ziel 10.000 € = 64 Jeans (35 Vorbestellungen à 149 € + 29 im Drop à 169 €).
+Drop Do 24.06.2027, 19:00 (Warteliste ab 18:00). Ziel 10.000 € = 64 Jeans (35 Vorbestellungen à 149 € + 29 im Drop à 169 €).
 Grundlage: Plan Rev. 5.3, Spec Rev. 13, Docket Rev. 5.3, dazu `markt.md` und `zielgruppe.md` aus diesem Ordner.
 Quellen als [Q-Nummer], Liste in Abschnitt 7. Maschinenlesbare Kopie der Bibliothek: `content_library.json` im selben Ordner.
 
@@ -18,7 +18,7 @@ Quellen als [Q-Nummer], Liste in Abschnitt 7. Maschinenlesbare Kopie der Bibliot
 1. **Morgen, Do 08.10., beim Papiertest 3 alles filmen.** V001, V119 und später V093 und CD-T03 leben von diesem Material. Shotliste in 4.1: 12 Clips, 15 Minuten extra.
 2. **Reichweite kommt aus Ausreißern.** Kleine Business-Konten (1.000–5.000 Follower) holen auf TikTok im Schnitt 317 Views pro Post. Reels erreichen etwa 10 % der Follower [Q4][Q5]. Für 3.000 Anmeldungen brauchst du grob 1,2 Mio. Views (Schätzung, markt.md 3.5). Deshalb hat jedes Konzept einen Test-Hook. Jedes Video mit mehr als dem Doppelten deines Medians drehst du in fünf Varianten nach.
 3. **Drei Achsen tragen den Verkauf:** Teppich und Familie (stärkster Auslöser deiner Kernzielgruppe), Handwerk im Makro (Goldfäden, Kreuzstich, Ton der Nadel), ehrliche Zahlen (Budget, Kosten, „X von 35“).
-4. **Acht Änderungen am Rev.-5.3-Plan, alle aus zielgruppe.md abgeleitet, du entscheidest:** zweimal „Älter als jede Grenze“ ersetzt. Teppich-Post vom 25.11. auf den 18.11. vorgezogen. Vom 23. bis 29.11. kein Ernte-Post, am 28.11. gar keiner. „Das erste Bild“ vom 24.02. auf den 25.02. verschoben. „37 mal 37“ auf 45 × 45 korrigiert. Unboxing am 03.12. neu. Nach außen „cross-stitch band“ und „eight-point star“ statt Vyshyvanka und Alatyr.
+4. **Acht Änderungen am Rev.-5.3-Plan, alle aus zielgruppe.md abgeleitet, du entscheidest:** zweimal „Älter als jede Grenze“ ersetzt. Teppich-Post vom 25.11. auf den 18.11. vorgezogen. Vom 23. bis 29.11. kein Ernte-Post, am 28.11. gar keiner. „Das erste Bild“ vom 24.02. auf den 11.03. verschoben. „37 mal 37“ auf 45 × 45 korrigiert. Unboxing am 03.12. neu. Nach außen „cross-stitch band“ und „eight-point star“ statt Vyshyvanka und Alatyr.
 5. **Der Ablauf passt in deine Zeit:** Sonntag 75–100 Minuten Dreh, Posttag 20 Minuten, sonst 10 Minuten Community. Ein Schnitt in CapCut, nativ auf TikTok, Reels und Shorts hochgeladen. Musik erst in der jeweiligen App, aus deren Business-Bibliothek.
 
 **Wie belastbar das ist.** Ich konnte in dieser Runde keine Seite selbst öffnen: Das Suchbudget war aufgebraucht, der Seitenabruf gesperrt. Alle Zahlen mit [Q] stammen aus Quellen, die die Markt- und die Zielgruppen-Recherche heute in dieser Sitzung per Websuche gesehen haben. Plattform-Mechanik (Algorithmus-Signale, Längen, Hashtag-Limit, Musikbibliotheken) steht als **UNGEPRÜFT** da, jeweils mit dem Ort, an dem du es in zwei Minuten selbst prüfst. Für die besten Uhrzeiten gibt es keine geprüfte Zahl. Deshalb liest du ab Woche 8 deine eigenen Insights.
@@ -130,8 +130,8 @@ Keine geprüfte Zahl in dieser Runde. Du bleibst bei den Plan-Zeiten: **18:00** 
 ### 1.10 Story-Werkzeuge (belegt)
 
 - **Umfrage-Sticker** mit bis zu vier Antworten, dazu Emoji-Schieberegler, Quiz, Frage-Sticker [Q9]. Für alle ASK-Storys.
-- **Countdown-Sticker:** Wer „Erinnern“ tippt, bekommt zum Ende eine Nachricht [Q8]. Einsatz: 14.01. 19:00, 21.03. 20:00, 22.04. 19:00.
-- **Live:** Live-Shopping erreicht bei großen Händlern bis zu ~30 % Conversion [Q10]. Auf dich ist das nicht übertragbar. Ein Live zur Öffnung (14.01.) und zum Drop (22.04.) beantwortet aber Größenfragen in Echtzeit.
+- **Countdown-Sticker:** Wer „Erinnern“ tippt, bekommt zum Ende eine Nachricht [Q8]. Einsatz: 14.01. 19:00, 23.05. 20:00, 24.06. 19:00.
+- **Live:** Live-Shopping erreicht bei großen Händlern bis zu ~30 % Conversion [Q10]. Auf dich ist das nicht übertragbar. Ein Live zur Öffnung (14.01.) und zum Drop (24.06.) beantwortet aber Größenfragen in Echtzeit.
 
 ## 2 · Formate, die für Gründer-Modemarken funktionieren
 
@@ -178,9 +178,9 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 | Zeitraum | CTA (EN) | CTA (DE) |
 |---|---|---|
 | bis 13.01. | Link in bio: join the list. The list buys first, at the pre-order price. | Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis. |
-| 14.01.–21.03. | Pre-order in bio: €149 instead of €169. [Y] of 35 left. | Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35. |
-| 22.03.–21.04. | Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. | Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio. |
-| ab 22.04. 19:00 | Live now. Link in bio. | Jetzt live. Link in Bio. |
+| 14.01.–23.05. | Pre-order in bio: €149 instead of €169. [Y] of 35 left. | Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35. |
+| 24.05.–23.06. | Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. | Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio. |
+| ab 24.06. 19:00 | Live now. Link in bio. | Jetzt live. Link in Bio. |
 
 **Sprache, Abweichung benannt, du entscheidest:** Novalife-Content ist englisch. Die Zielgruppen-Recherche empfiehlt für deine Kernzielgruppe (Ost-Wurzeln, in Deutschland aufgewachsen) Deutsch. Vorschlag: Hook im Bild auf Englisch, in der Caption eine zweite Zeile auf Deutsch. In Woche 7 testest du bei zwei Videos den deutschen Hook als Test-Hook B (5.5).
 
@@ -192,10 +192,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Before I spend €6,000, I tape paper to my jeans.“
 - **Hook DE:** „Bevor ich 6.000 € ausgebe, klebe ich Papier auf meine Jeans.“
 - **Test-Hook B:** „Day 1 of building a 100-pair jeans drop.“
-- **Shots:** 1) Zeitraffer von oben: Druckvorlage ausschneiden (Schere, Lineal, Malerkrepp) · 2) Hände kleben das Papierband an die rechte Vordertasche der Eightyfive · 3) Flurspiegel von vorn: einmal drehen, Hose mit allen Papierteilen · 4) Makro: Papierband an der Taschenkante, ein Finger fährt entlang · 5) Endkarte: „100 jeans. One pattern. 22.04.2027“
+- **Shots:** 1) Zeitraffer von oben: Druckvorlage ausschneiden (Schere, Lineal, Malerkrepp) · 2) Hände kleben das Papierband an die rechte Vordertasche der Eightyfive · 3) Flurspiegel von vorn: einmal drehen, Hose mit allen Papierteilen · 4) Makro: Papierband an der Taschenkante, ein Finger fährt entlang · 5) Endkarte: „100 jeans. One pattern. 24.06.2027“
 - **Drehort:** Wohnung · Schreibtisch + Flurspiegel. Material kommt vom Papiertest 3 am Do 08.10. (dort filmen, Shotliste in Abschnitt 4.1)
 - **Ton:** Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise
-- **Caption EN:** Day 1. Before a factory sews a single stitch, I test every embroidery as paper on my own jeans. 100 pairs, numbered. Drop 22.04.2027. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 1. Before a factory sews a single stitch, I test every embroidery as paper on my own jeans. 100 pairs, numbered. Drop 24.06.2027. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
@@ -405,7 +405,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
 - **Caption EN:** Wall carpets hung in a lot of homes in the region: for warmth, against noise, and because they were precious. [Nur wenn wahr: Ours too.] Its medallion is becoming the back of the zipper. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Subjekt ist der Teppich · Kein „sowjetisch“, kein CCCP, keine Sowjet-Deko im Bild (zielgruppe.md 3.6) · Vom Mi 25.11. vorgezogen: in der Woche 23.–29.11. kein Ernte-Post (Holodomor-Gedenktag Sa 28.11., [Q26]) · Familien-Aussagen nur, wenn sie stimmen
+- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Subjekt ist der Teppich · Kein „sowjetisch“, kein CCCP, keine Sowjet-Deko im Bild (zielgruppe.md 3.6) · Vom Mi 25.11. vorgezogen: in der Woche 25.–29.11. kein Ernte-Post (Holodomor-Gedenktag Sa 28.11., [Q26]) · Familien-Aussagen nur, wenn sie stimmen
 
 #### V018 · Fr 20.11.2026 18:00 · REAL · Was die Wäsche mit der Stickprobe macht
 - **Phase:** P1 Prozess (vor Proto: nur Papier, Datei, Zahl, Prozess) · **Format:** Video 9:16 · **Dauer:** 20–30 s · **Docket-Woche:** W10
@@ -431,7 +431,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise
 - **Caption EN:** Day 43. 100% cotton, rigid, no stretch. Three swatches, three wash tones. The dark one wins, because white thread needs contrast to read from three metres. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Woche 23.–29.11.: kein Ernte-Motiv im Bild (zielgruppe.md 3.7)
+- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Woche 25.–29.11.: kein Ernte-Motiv im Bild (zielgruppe.md 3.7)
 
 #### V020 · Mi 25.11.2026 18:00 · ORIGIN · Warum Panel-Stickerei
 - **Phase:** P1 Prozess (vor Proto: nur Papier, Datei, Zahl, Prozess) · **Format:** Video 9:16 · **Dauer:** 20–30 s · **Docket-Woche:** W11
@@ -536,7 +536,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story, keine Caption)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Umfrage-Sticker bis 4 Antworten (zielgruppe.md Q62)
 
 #### V028 · Mo 07.12.2026 18:00 · BUILD · Was nicht gepasst hat
@@ -601,7 +601,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Antworten zählen und im Sonntags-Review notieren
 
 #### V033 · Mo 14.12.2026 18:00 · BUILD · Die Vorbestellseite
@@ -610,10 +610,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Day 64: building the page where you'll pre-order.“
 - **Hook DE:** „Tag 64: Ich baue die Seite, auf der du vorbestellst.“
 - **Test-Hook B:** „Pre-orders open 14.01. Here's how it works.“
-- **Shots:** 1) Bildschirmaufnahme Shopify-Editor, Produktseite im Entwurf · 2) Größen-Buttons „W32 — 81 cm“ · 3) Lieferfenster 22.–30.04.2027 · 4) Handy-Vorschau der Seite
+- **Shots:** 1) Bildschirmaufnahme Shopify-Editor, Produktseite im Entwurf · 2) Größen-Buttons „W32 — 81 cm“ · 3) Lieferfenster 24.–30.06.2027 · 4) Handy-Vorschau der Seite
 - **Drehort:** Mac · Bildschirmaufnahme (Cmd + Shift + 5), dazu Gesicht/Hände am Schreibtisch
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 64. Pre-order opens 14.01., 19:00: 35 pairs at €149, delivery window 22.–30.04.2027. Every size button shows the real waist in cm. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 64. Pre-order opens 14.01., 19:00: 35 pairs at €149, delivery window 24.–30.06.2027. Every size button shows the real waist in cm. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Lieferfenster aus Plan Abschnitt 7
 
@@ -641,7 +641,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
 - **Caption EN:** 100 pairs, each numbered on the hangtag. Pre-orders get the lowest numbers, in order. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Keine Aussage zu „kein Restock“, solange nicht entschieden · Stückzahl 100 gilt bis zur Schwellen-Entscheidung am 01.02. (100 oder 75)
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Keine Aussage zu „kein Restock“, solange nicht entschieden · Stückzahl 100 gilt bis zur Schwellen-Entscheidung am 15.02. (100 oder 75)
 
 #### V036 · Fr 18.12.2026 18:00 · DETAIL · Die Rückseite
 - **Phase:** P2 Ab Proto · **Format:** Video 9:16 · **Dauer:** 10–15 s · **Docket-Woche:** W14
@@ -666,7 +666,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Ergebnis fließt in die Größenverteilung (Spec 1.3)
 
 #### V038 · Mo 21.12.2026 18:00 · BUILD · Was bis zum Drop fehlt
@@ -675,10 +675,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Day 71: everything left before the drop.“
 - **Hook DE:** „Tag 71: Alles, was bis zum Drop noch fehlt.“
 - **Test-Hook B:** „17 weeks. Here's the whole plan on one page.“
-- **Shots:** 1) Zeitachse von Hand auf Papier schreiben (Draufsicht, Zeitraffer) · 2) Termine: 04.01. final sample · 14.01. pre-order · Feb production · 20.02. shoot · 22.04. drop · 3) Du hakst mit rotem Stift ab, was erledigt ist · 4) Finger auf „22.04.“
+- **Shots:** 1) Zeitachse von Hand auf Papier schreiben (Draufsicht, Zeitraffer) · 2) Termine: 04.01. final sample · 14.01. pre-order · Feb production · 06.03. shoot · 24.06. drop · 3) Du hakst mit rotem Stift ab, was erledigt ist · 4) Finger auf „24.06.“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 71. Next: final sample approval 04.01., pre-order 14.01., production from February, drop 22.04., 19:00. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 71. Next: final sample approval 04.01., pre-order 14.01., production from February, drop 24.06., 19:00. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Termine aus Plan Abschnitt 5
 
@@ -705,19 +705,19 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Countdown-Sticker schickt Erinnerung (markt.md Q49)
 
 #### V041 · Mo 28.12.2026 18:00 · BUILD · Was 2027 passiert
 - **Phase:** P2 Ab Proto · **Format:** Video 9:16 · **Dauer:** 15–20 s · **Docket-Woche:** W16
 - **Docket:** Rev 5.3 W16 Mo · BUILD „Was 2027 passiert“
 - **Hook EN (Slide 1 / erster Satz):** „2027 plan: 100 jeans, one drop, 22 April.“
-- **Hook DE:** „Plan 2027: 100 Jeans, ein Drop, 22. April.“
+- **Hook DE:** „Plan 2027: 100 Jeans, ein Drop, 24. Juni.“
 - **Test-Hook B:** „Day 78: four dates that decide my year.“
-- **Shots:** 1) Kalender 2027 durchblättern · 2) Vier Daten markieren: 14.01. · 01.02. · 20.02. · 22.04. · 3) Du, ein Satz
+- **Shots:** 1) Kalender 2027 durchblättern · 2) Vier Daten markieren: 14.01. · 15.02. · 06.03. · 24.06. · 3) Du, ein Satz
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 78. Four dates: 14.01. pre-order, February production, 20.02. shoot, 22.04. drop at 19:00. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 78. Four dates: 14.01. pre-order, February production, 06.03. shoot, 24.06. drop at 19:00. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
@@ -730,7 +730,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Shots:** 1) Proto auf einem Stuhl mitten im Raum · 2) Handy kreist langsam drumherum · 3) Endframe: „prototype“
 - **Drehort:** Wohnung · leerer Raum, Stuhl, Fensterlicht
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
-- **Caption EN:** Prototype. Until 22.04. it stays the only one. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel
+- **Caption EN:** Prototype. Until 24.06. it stays the only one. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Ehrlich als Prototyp bezeichnet
 
@@ -744,7 +744,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Gute Fragen werden V-Reserve-Videos (Antwort-Format V117)
 
 #### V044 · Mo 04.01.2027 18:00 · BUILD · Das finale Sample
@@ -769,7 +769,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Shots:** 1) Du am Tisch, ruhig · 2) Papier: budget €4,500 · factory wants 50% upfront · 3) „35 pre-orders = 100 pairs happen“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** A factory wants half upfront. My budget covers development, not 100 pairs. 35 pre-orders at €149 close the gap. You get €20 off, a low number, and delivery 22.–30.04. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
+- **Caption EN:** A factory wants half upfront. My budget covers development, not 100 pairs. 35 pre-orders at €149 close the gap. You get €20 off, a low number, and delivery 24.–30.06. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Lieferfenster und Widerruf stehen auf der Vorbestellseite (Plan 7)
 
@@ -809,7 +809,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
 #### V049 · Mo 11.01.2027 18:00 · BUILD · Donnerstag, 19 Uhr
@@ -851,7 +851,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-### 3.3 · P3 Vorbestellung · Do 14.01.–So 07.02.2027 · 4–5 Posts pro Woche
+### 3.3 · P3 Vorbestellung · Do 14.01.–So 21.02.2027 · 4–5 Posts pro Woche
 
 #### V052 · Do 14.01.2027 19:00 · BUILD · Jetzt offen
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 + Live 30 min · **Dauer:** 10–15 s · **Docket-Woche:** W18
@@ -862,7 +862,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Shots:** 1) Handy zeigt den Shop live · 2) Du, ein Satz · 3) Fünf Sekunden Detail-Montage · 4) „link in bio“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Open now: 35 pairs at €149 instead of €169. Delivery 22.–30.04. Numbered in order. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Open now: 35 pairs at €149 instead of €169. Delivery 24.–30.06. Numbered in order. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Ab 19:05 Live auf Instagram oder TikTok, 30 Minuten, Größenfragen (markt.md Hebel 7)
 
@@ -889,10 +889,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur echte Zahl
 
-#### V055 · Mo 18.01.2027 18:00 · BUILD · Zwischenstand
+#### V055 · Mo 25.01.2027 18:00 · BUILD · Zwischenstand
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 15–20 s · **Docket-Woche:** W19
 - **Docket:** Rev 5.3 W19 Mo · BUILD „Zwischenstand“
 - **Hook EN (Slide 1 / erster Satz):** „Day 99: [X] of 35 pairs pre-ordered.“
@@ -905,7 +905,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Keine Kundennamen · Echte Zahl
 
-#### V056 · Di 19.01.2027 18:00 · ORIGIN · Links die Ernte
+#### V056 · Di 26.01.2027 18:00 · ORIGIN · Links die Ernte
 
 **Im Docket gilt:** Der Post zeigt B2 (drei Ähren, rotes Band, Goldfäden), Hook „Why the harvest sits on my back pocket.“ Der Entwurf unten mit Patch D ist Reserve für einen freien Slot.
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 12–20 s · **Docket-Woche:** W19
@@ -920,7 +920,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „Slavic tree of life“ · Gezeigt wird nur, was existiert (PP-Sample)
 
-#### V057 · Mi 20.01.2027 19:00 · REACH · Eine Hand
+#### V057 · Mi 27.01.2027 19:00 · REACH · Eine Hand
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 7–10 s · **Docket-Woche:** W19
 - **Docket:** Rev 5.3 W19 Mi · REACH „Eine Hand“
 - **Hook EN (Slide 1 / erster Satz):** „Every gold thread is set by hand.“
@@ -933,7 +933,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Als Demonstration kennzeichnen, wenn du es selbst machst
 
-#### V058 · Fr 22.01.2027 18:00 · DETAIL · Die Schnittkante
+#### V058 · Fr 29.01.2027 18:00 · DETAIL · Die Schnittkante
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W19
 - **Docket:** Rev 5.3 W19 Fr · DETAIL „Die Schnittkante“
 - **Hook EN (Slide 1 / erster Satz):** „Raw hem, cut after the wash. Look.“
@@ -946,7 +946,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V059 · Sa 23.01.2027 12:00 · ASK · Q&A
+#### V059 · Sa 30.01.2027 12:00 · ASK · Q&A
 - **Phase:** P3 Vorbestellung · **Format:** Story (Frage-Sticker) · **Dauer:** 1 + Antworten · **Docket-Woche:** W19
 - **Docket:** Rev 5.3 W19 Sa · Story-Q&A
 - **Hook EN (Slide 1 / erster Satz):** „Ask me anything about the pre-order.“
@@ -956,23 +956,23 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Rechtliche Fragen (Widerruf) nur mit dem Text der Rechtsseite beantworten
 
-#### V060 · Mo 25.01.2027 18:00 · BUILD · Noch X Paar
+#### V060 · Mo 01.02.2027 18:00 · BUILD · Noch X Paar
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 10–15 s · **Docket-Woche:** W20
 - **Docket:** Rev 5.3 W20 Mo · BUILD „Noch X Paar“
 - **Hook EN (Slide 1 / erster Satz):** „Day 106: [Y] pairs left at €149.“
 - **Hook DE:** „Tag 106: Noch [Y] Paar zu 149 €.“
 - **Test-Hook B:** „[Y] pairs left. Then it's €169.“
-- **Shots:** 1) Hangtag-Stapel auf dem Tisch · 2) Zeitraffer: Hand nimmt für jede Vorbestellung einen Hangtag weg · 3) Echte Restzahl groß · 4) Endframe: „€149 until 21.03.“
+- **Shots:** 1) Hangtag-Stapel auf dem Tisch · 2) Zeitraffer: Hand nimmt für jede Vorbestellung einen Hangtag weg · 3) Echte Restzahl groß · 4) Endframe: „€149 until 23.05.“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
 - **Caption EN:** Day 106. [Y] of 35 left at the pre-order price. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Zahl
 
-#### V061 · Di 26.01.2027 18:00 · ORIGIN · Warum 100
+#### V061 · Di 02.02.2027 18:00 · ORIGIN · Warum 100
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W20
 - **Docket:** Rev 5.3 W20 Di · ORIGIN „Warum 100“
 - **Hook EN (Slide 1 / erster Satz):** „Why 100 pairs, and not 1,000.“
@@ -985,7 +985,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · MOQ 100 laut Plan
 
-#### V062 · Mi 27.01.2027 19:00 · REACH · POV
+#### V062 · Mi 03.02.2027 19:00 · REACH · POV
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 6–9 s · **Docket-Woche:** W20
 - **Docket:** Rev 5.3 W20 Mi · REACH „POV“
 - **Hook EN (Slide 1 / erster Satz):** „POV: your jeans come with their own number.“
@@ -998,7 +998,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V063 · Fr 29.01.2027 18:00 · DETAIL · Der Stern
+#### V063 · Fr 05.02.2027 18:00 · DETAIL · Der Stern
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W20
 - **Docket:** Rev 5.3 W20 Fr · DETAIL „Der Stern“
 - **Hook EN (Slide 1 / erster Satz):** „27 by 27 stitches. One star. Zero curves.“
@@ -1011,7 +1011,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nach außen „eight-point star“
 
-#### V064 · Sa 30.01.2027 12:00 · ASK · Montag entscheidet
+#### V064 · Sa 06.02.2027 12:00 · ASK · Montag entscheidet
 - **Phase:** P3 Vorbestellung · **Format:** Story · **Dauer:** 2 Frames · **Docket-Woche:** W20
 - **Docket:** Rev 5.3 W20 Sa · Zwischenstand-Story
 - **Hook EN (Slide 1 / erster Satz):** „Monday decides if 100 pairs get made.“
@@ -1021,10 +1021,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur, wenn die Schwelle (10) noch offen ist. Sonst: „[X] of 35“
 
-#### V065 · Mo 01.02.2027 18:00 · BUILD · 100 oder 75
+#### V065 · Mo 15.02.2027 18:00 · BUILD · 100 oder 75
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W21
 - **Docket:** Rev 5.3 W21 Mo · BUILD „100 oder 75“
 - **Hook EN (Slide 1 / erster Satz):** „Day 113: 100 pairs or 75? Today I decide.“
@@ -1037,7 +1037,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echtes Ergebnis
 
-#### V066 · Mi 03.02.2027 19:00 · REACH · Bestellt
+#### V066 · Mi 17.02.2027 19:00 · REACH · Bestellt
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 6–10 s · **Docket-Woche:** W21
 - **Docket:** Rev 5.3 W21 Mi · REACH „Bestellt“
 - **Hook EN (Slide 1 / erster Satz):** „I just ordered [100] jeans from the factory.“
@@ -1050,7 +1050,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur wenn wahr
 
-#### V067 · Fr 05.02.2027 18:00 · REAL · Überwiesen
+#### V067 · Fr 19.02.2027 18:00 · REAL · Überwiesen
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W21
 - **Docket:** Rev 5.3 W21 Fr · REAL „Überwiesen“
 - **Hook EN (Slide 1 / erster Satz):** „I just paid the factory [€3,000]. Here's why.“
@@ -1063,9 +1063,9 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echter Betrag (50/50 oder 60/40)
 
-### 3.4 · P4 Produktion und Kampagne · Mo 08.02.–So 28.03.2027 · 4 Posts pro Woche + Story
+### 3.4 · P4 Produktion und Kampagne · Mo 22.02.–So 30.05.2027 · 4 Posts pro Woche + Story
 
-#### V068 · Mo 08.02.2027 18:00 · BUILD · In Produktion
+#### V068 · Mo 22.02.2027 18:00 · BUILD · In Produktion
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–20 s · **Docket-Woche:** W22
 - **Docket:** Rev 5.3 W22 Mo · BUILD „In Produktion“
 - **Hook EN (Slide 1 / erster Satz):** „Day 120: my jeans are in production.“
@@ -1078,7 +1078,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Fabrik-Bilder nur mit schriftlicher Erlaubnis
 
-#### V069 · Di 09.02.2027 18:00 · ORIGIN · Wie eine Jeans entsteht
+#### V069 · Di 23.02.2027 18:00 · ORIGIN · Wie eine Jeans entsteht
 - **Phase:** P4 Produktion und Kampagne · **Format:** Karussell 8 Slides + Video · **Dauer:** 8 Slides / 20–30 s · **Docket-Woche:** W22
 - **Docket:** Rev 5.3 W22 Di · ORIGIN „Wie eine Jeans entsteht“
 - **Hook EN (Slide 1 / erster Satz):** „How 100 embroidered jeans get made, in 8 steps.“
@@ -1091,7 +1091,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Prozesskette aus Spec 2.3
 
-#### V070 · Mi 10.02.2027 19:00 · REACH · Stoff
+#### V070 · Mi 24.02.2027 19:00 · REACH · Stoff
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–9 s · **Docket-Woche:** W22
 - **Docket:** Rev 5.3 W22 Mi · REACH „Stoff“
 - **Hook EN (Slide 1 / erster Satz):** „This roll becomes [100] pairs.“
@@ -1104,7 +1104,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Fabrik-Bild nur mit Erlaubnis
 
-#### V071 · Fr 12.02.2027 18:00 · DETAIL · Der Hangtag
+#### V071 · Fr 26.02.2027 18:00 · DETAIL · Der Hangtag
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W22
 - **Docket:** Rev 5.3 W22 Fr · DETAIL „Der Hangtag“
 - **Hook EN (Slide 1 / erster Satz):** „001 to 100. Each number exists once.“
@@ -1117,20 +1117,20 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Material aus Spec 2.8
 
-#### V072 · Sa 13.02.2027 12:00 · ASK · Casting
+#### V072 · Sa 27.02.2027 12:00 · ASK · Casting
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story · **Dauer:** 2 Frames · **Docket-Woche:** W22
 - **Docket:** Rev 5.3 W22 Sa · Story „Casting“
-- **Hook EN (Slide 1 / erster Satz):** „Shoot on 20.02. in Berlin. Want in?“
-- **Hook DE:** „Shoot am 20.02. in Berlin. Bist du dabei?“
+- **Hook EN (Slide 1 / erster Satz):** „Shoot on 06.03. in Berlin. Want in?“
+- **Hook DE:** „Shoot am 06.03. in Berlin. Bist du dabei?“
 - **Test-Hook B:** „Looking for two people for my first shoot.“
 - **Shots:** 1) Frame 1: Moodboard · 2) Frame 2: Frage-Sticker „your size + why“
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Bildrechte schriftlich vor dem Shoot klären
 
-#### V073 · Mo 15.02.2027 18:00 · BUILD · Shoot am Samstag
+#### V073 · Mo 01.03.2027 18:00 · BUILD · Shoot am Samstag
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W23
 - **Docket:** Rev 5.3 W23 Mo · BUILD „Shoot am Samstag“
 - **Hook EN (Slide 1 / erster Satz):** „Day 127: planning a shoot on €150.“
@@ -1143,7 +1143,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Moodboard: Sonnenuntergang statt Blau über Gelb · Keine Sowjet-Kulisse
 
-#### V074 · Di 16.02.2027 18:00 · ORIGIN · Der Zipper
+#### V074 · Di 02.03.2027 18:00 · ORIGIN · Der Zipper
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W23
 - **Docket:** Rev 5.3 W23 Di · ORIGIN „Der Zipper“
 - **Hook EN (Slide 1 / erster Satz):** „Why the zipper wears two bands at the front.“
@@ -1156,20 +1156,20 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · „Vyshyvanka“ nach außen vermeiden
 
-#### V075 · Mi 17.02.2027 19:00 · REACH · Drei Teile
+#### V075 · Mi 03.03.2027 19:00 · REACH · Drei Teile
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–9 s · **Docket-Woche:** W23
 - **Docket:** Rev 5.3 W23 Mi · REACH „Drei Teile“
-- **Hook EN (Slide 1 / erster Satz):** „Jeans, zipper, polo. One drop. 22.04.“
-- **Hook DE:** „Jeans, Zipper, Polo. Ein Drop. 22.04.“
-- **Test-Hook B:** „Three pieces. One pattern. 22.04., 19:00.“
-- **Shots:** 1) Jeans auf Bügel, 1 s · 2) Zipper-Rücken, 1 s · 3) Polo-Knopfleiste, 1 s · 4) Endframe: „22.04.“
+- **Hook EN (Slide 1 / erster Satz):** „Jeans, zipper, polo. One drop. 24.06.“
+- **Hook DE:** „Jeans, Zipper, Polo. Ein Drop. 24.06.“
+- **Test-Hook B:** „Three pieces. One pattern. 24.06., 19:00.“
+- **Shots:** 1) Jeans auf Bügel, 1 s · 2) Zipper-Rücken, 1 s · 3) Polo-Knopfleiste, 1 s · 4) Endframe: „24.06.“
 - **Drehort:** Archiv-Clips aus früheren Drehs (Ordner content/archiv)
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
-- **Caption EN:** 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel
+- **Caption EN:** 24.06., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V076 · Fr 19.02.2027 18:00 · DETAIL · Der Polo
+#### V076 · Fr 05.03.2027 18:00 · DETAIL · Der Polo
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W23
 - **Docket:** Rev 5.3 W23 Fr · DETAIL „Der Polo“
 - **Hook EN (Slide 1 / erster Satz):** „Two bands at the placket. €79.“
@@ -1182,46 +1182,46 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V077 · Mo 22.02.2027 18:00 · BUILD · Hinter den Kulissen
+#### V077 · Mo 08.03.2027 18:00 · BUILD · Hinter den Kulissen
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W24
 - **Docket:** Rev 5.3 W24 Mo · BUILD „Hinter den Kulissen“
 - **Hook EN (Slide 1 / erster Satz):** „Day 134: behind the scenes of my first shoot.“
 - **Hook DE:** „Tag 134: Hinter den Kulissen meines ersten Shoots.“
 - **Test-Hook B:** „What €150 and one sunset get you.“
-- **Shots:** 1) BTS-Clips vom 20.02., schnell geschnitten · 2) Ein Fail (umgefallenes Stativ o. ä., wenn passiert) · 3) Ein fertiges Bild als Endframe
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) BTS-Clips vom 06.03., schnell geschnitten · 2) Ein Fail (umgefallenes Stativ o. ä., wenn passiert) · 3) Ein fertiges Bild als Endframe
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
 - **Caption EN:** Day 134. One Saturday, one location, one sunset. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Bildrechte der Models geklärt
 
-#### V078 · Do 25.02.2027 19:00 · REACH · Das erste Bild
+#### V078 · Do 11.03.2027 19:00 · REACH · Das erste Bild
 - **Phase:** P4 Produktion und Kampagne · **Format:** Foto/Video · **Dauer:** 6–9 s · **Docket-Woche:** W24
 - **Docket:** Rev 5.3 W24 Mi · REACH „Das erste Bild“ (auf Do verschoben)
 - **Hook EN (Slide 1 / erster Satz):** „The first real photo of Time Travel.“
 - **Hook DE:** „Das erste echte Foto von Time Travel.“
 - **Test-Hook B:** „Four months of work. One photo.“
 - **Shots:** 1) Hauptbild aus dem Shoot · 2) Langsamer Zoom
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
-- **Caption EN:** Time Travel. 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel
+- **Caption EN:** Time Travel. 24.06., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Von Mi 24.02. auf Do 25.02. verschoben: 24.02.2027 ist der 5. Jahrestag des russischen Großangriffs, an dem Tag nichts Werbliches (zielgruppe.md 3.7)
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Von Mi 24.02. auf Do 11.03. verschoben: 24.02.2027 ist der 5. Jahrestag des russischen Großangriffs, an dem Tag nichts Werbliches (zielgruppe.md 3.7)
 
-#### V079 · Fr 26.02.2027 18:00 · DETAIL · Kampagnenfilm
+#### V079 · Fr 12.03.2027 18:00 · DETAIL · Kampagnenfilm
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 30 s · **Docket-Woche:** W24
 - **Docket:** Rev 5.3 W24 Fr · DETAIL „Kampagnenfilm“
 - **Hook EN (Slide 1 / erster Satz):** „Thirty seconds. Four embroideries. One field at sunset.“
 - **Hook DE:** „Dreißig Sekunden. Vier Stickereien. Ein Feld im Sonnenuntergang.“
 - **Test-Hook B:** „The Time Travel film.“
-- **Shots:** 1) Kampagnenfilm, 30 s, aus dem Shoot · 2) Vier Stickereien und Patch D in getrennten Einstellungen · 3) Sonnenuntergang als letzte Einstellung · 4) Endframe: „22.04. · 19:00“
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Kampagnenfilm, 30 s, aus dem Shoot · 2) Vier Stickereien und Patch D in getrennten Einstellungen · 3) Sonnenuntergang als letzte Einstellung · 4) Endframe: „24.06. · 19:00“
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** Track aus der Business-Bibliothek, für beide Plattformen getrennt gesetzt
-- **Caption EN:** Time Travel. 100 pairs. 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #novalifetimetravel
+- **Caption EN:** Time Travel. 100 pairs. 24.06., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Sonnenuntergang, nie Blau über Gelb
 
-#### V080 · Sa 27.02.2027 12:00 · ASK · Hauptbild
+#### V080 · Sa 13.03.2027 12:00 · ASK · Hauptbild
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story · **Dauer:** 1–2 Frames · **Docket-Woche:** W24
 - **Docket:** Rev 5.3 W24 Sa · ASK „Hauptbild“
 - **Hook EN (Slide 1 / erster Satz):** „Which photo should be the main image?“
@@ -1231,23 +1231,23 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V081 · Mo 01.03.2027 18:00 · BUILD · Das ist Time Travel
+#### V081 · Mo 15.03.2027 18:00 · BUILD · Das ist Time Travel
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–20 s · **Docket-Woche:** W25
 - **Docket:** Rev 5.3 W25 Mo · BUILD „Das ist Time Travel“
 - **Hook EN (Slide 1 / erster Satz):** „Day 141: this is Time Travel. All of it.“
 - **Hook DE:** „Tag 141: Das ist Time Travel. Alles.“
 - **Test-Hook B:** „From paper in October to this.“
-- **Shots:** 1) Papiertest-Clip vom Oktober · 2) Stickprobe November · 3) Proto-Unboxing Dezember · 4) Shoot-Bild Februar · 5) Endframe: „22.04.“
+- **Shots:** 1) Papiertest-Clip vom Oktober · 2) Stickprobe November · 3) Proto-Unboxing Dezember · 4) Shoot-Bild Februar · 5) Endframe: „24.06.“
 - **Drehort:** Archiv-Clips aus früheren Drehs (Ordner content/archiv)
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
 - **Caption EN:** Day 141. Paper in October, thread in November, a prototype in December, production now. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V082 · Di 02.03.2027 18:00 · ORIGIN · Rot und Weiß
+#### V082 · Di 16.03.2027 18:00 · ORIGIN · Rot und Weiß
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–25 s · **Docket-Woche:** W25
 - **Docket:** Rev 5.3 W25 Di · ORIGIN „Rot und Weiß“
 - **Hook EN (Slide 1 / erster Satz):** „Why white sits next to red on my denim.“
@@ -1260,7 +1260,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Farbregel aus Spec 3.4 · Keine Streifen in Weiß-Rot-Weiß (zielgruppe.md 3.6)
 
-#### V083 · Mi 03.03.2027 19:00 · REACH · Nummer vergeben
+#### V083 · Mi 17.03.2027 19:00 · REACH · Nummer vergeben
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–9 s · **Docket-Woche:** W25
 - **Docket:** Rev 5.3 W25 Mi · REACH „Nummer 047“ (Nummer an echte Zahl gekoppelt)
 - **Hook EN (Slide 1 / erster Satz):** „Pair [0XX] already has an owner.“
@@ -1273,7 +1273,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Nummer (Rev. 5.3 nannte 047, das liegt über 35 Vorbestellungen)
 
-#### V084 · Fr 05.03.2027 18:00 · DETAIL · Fäden nicht abschneiden
+#### V084 · Fr 19.03.2027 18:00 · DETAIL · Fäden nicht abschneiden
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W25
 - **Docket:** Rev 5.3 W25 Fr · DETAIL „Fäden nicht abschneiden“
 - **Hook EN (Slide 1 / erster Satz):** „The care label says: don't cut the threads.“
@@ -1286,7 +1286,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Text aus Spec 3.7
 
-#### V085 · Sa 06.03.2027 12:00 · ASK · Paket
+#### V085 · Sa 20.03.2027 12:00 · ASK · Paket
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story · **Dauer:** 1 Frame · **Docket-Woche:** W25
 - **Docket:** Rev 5.3 W25 Sa · ASK „Paket“
 - **Hook EN (Slide 1 / erster Satz):** „Which packaging should your pair arrive in?“
@@ -1296,10 +1296,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Wohnung
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V086 · Mo 08.03.2027 18:00 · BUILD · Fast fertig
+#### V086 · Mo 10.05.2027 18:00 · BUILD · Fast fertig
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 15–20 s · **Docket-Woche:** W26
 - **Docket:** Rev 5.3 W26 Mo · BUILD „Fast fertig“
 - **Hook EN (Slide 1 / erster Satz):** „Day 148: first photos from the production line.“
@@ -1312,20 +1312,20 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Fabrik-Bilder nur mit Erlaubnis · Ramadan-Fest in der Türkei 08.–11.03.: keine Druck-Botschaft an die Fabrik
 
-#### V087 · Di 09.03.2027 18:00 · ORIGIN · Für alle Neuen
+#### V087 · Di 11.05.2027 18:00 · ORIGIN · Für alle Neuen
 - **Phase:** P4 Produktion und Kampagne · **Format:** Karussell 7 Slides (anheften) · **Dauer:** 7 Slides · **Docket-Woche:** W26
 - **Docket:** Rev 5.3 W26 Di · ORIGIN „Für alle Neuen“
-- **Hook EN (Slide 1 / erster Satz):** „New here? 100 jeans, 4 embroideries, 22.04.“
-- **Hook DE:** „Neu hier? 100 Jeans, 4 Stickereien, 22.04.“
+- **Hook EN (Slide 1 / erster Satz):** „New here? 100 jeans, 4 embroideries, 24.06.“
+- **Hook DE:** „Neu hier? 100 Jeans, 4 Stickereien, 24.06.“
 - **Test-Hook B:** „Start here: what Time Travel is.“
 - **Shots:** 1) Slide 1 Hook · 2) Slide 2 Das Teil + vier Stickereien · 3) Slide 3 Goldfäden · 4) Slide 4 Ehrliche Größen · 5) Slide 5 Preis und Termine · 6) Slide 6 Warteliste und Vorbestellung
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
-- **Caption EN:** Start here. 100 numbered jeans, four embroideries, nine gold threads set by hand. Pre-order €149 until 21.03., 20:00. Drop 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel
+- **Caption EN:** Start here. 100 numbered jeans, four embroideries, nine gold threads set by hand. Pre-order €149 until 23.05., 20:00. Drop 24.06., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Im Profil anheften
 
-#### V088 · Mi 10.03.2027 19:00 · REACH · So wird verpackt
+#### V088 · Mi 12.05.2027 19:00 · REACH · So wird verpackt
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W26
 - **Docket:** Rev 5.3 W26 Mi · REACH „So wird verpackt“
 - **Hook EN (Slide 1 / erster Satz):** „How your pair will arrive.“
@@ -1338,7 +1338,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V089 · Fr 12.03.2027 18:00 · DETAIL · Gold im Licht
+#### V089 · Fr 14.05.2027 18:00 · DETAIL · Gold im Licht
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–10 s · **Docket-Woche:** W26
 - **Docket:** Rev 5.3 W26 Fr · DETAIL „Gold im Licht“
 - **Hook EN (Slide 1 / erster Satz):** „Gold thread at golden hour.“
@@ -1351,33 +1351,33 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Himmel orange/violett, nie Blau über Gelb
 
-#### V090 · Sa 13.03.2027 12:00 · ASK · Letzte Woche Vorbestellpreis
+#### V090 · Sa 15.05.2027 12:00 · ASK · Letzte Woche Vorbestellpreis
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story (Countdown-Sticker) · **Dauer:** 2 Frames · **Docket-Woche:** W26
 - **Docket:** Rev 5.3 W26 Sa · ASK „Letzte Woche Vorbestellpreis“
-- **Hook EN (Slide 1 / erster Satz):** „€149 ends Sunday 21.03., 20:00.“
-- **Hook DE:** „149 € enden am Sonntag 21.03., 20:00.“
+- **Hook EN (Slide 1 / erster Satz):** „€149 ends Sunday 23.05., 20:00.“
+- **Hook DE:** „149 € enden am Sonntag 23.05., 20:00.“
 - **Test-Hook B:** „One week left at €149.“
-- **Shots:** 1) Frame 1: Countdown-Sticker auf 21.03. 20:00 · 2) Frame 2: Link-Sticker
+- **Shots:** 1) Frame 1: Countdown-Sticker auf 23.05. 20:00 · 2) Frame 2: Link-Sticker
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V091 · Mo 15.03.2027 18:00 · BUILD · Noch bis Sonntag
+#### V091 · Mo 17.05.2027 18:00 · BUILD · Noch bis Sonntag
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 10–15 s · **Docket-Woche:** W27
 - **Docket:** Rev 5.3 W27 Mo · BUILD „Noch bis Sonntag“
 - **Hook EN (Slide 1 / erster Satz):** „Day 155: six days left at €149.“
 - **Hook DE:** „Tag 155: Noch sechs Tage zu 149 €.“
 - **Test-Hook B:** „Sunday 20:00 the price goes up.“
-- **Shots:** 1) Kalender, Sonntag 21.03. rot umkringelt · 2) Echte Restzahl auf Papier · 3) Du, ein Satz: „Sunday 20:00, then it's €169.“
+- **Shots:** 1) Kalender, Sonntag 23.05. rot umkringelt · 2) Echte Restzahl auf Papier · 3) Du, ein Satz: „Sunday 20:00, then it's €169.“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 155. Pre-order price ends Sunday 21.03., 20:00. [Y] of 35 left. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 155. Pre-order price ends Sunday 23.05., 20:00. [Y] of 35 left. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Zahl
 
-#### V092 · Di 16.03.2027 18:00 · ORIGIN · Gold nur, wo etwas wächst
+#### V092 · Di 18.05.2027 18:00 · ORIGIN · Gold nur, wo etwas wächst
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 12–18 s · **Docket-Woche:** W27
 - **Docket:** Rev 5.3 W27 Di · ORIGIN „Gold nur, wo etwas wächst“
 - **Hook EN (Slide 1 / erster Satz):** „Gold only goes where something grows.“
@@ -1390,7 +1390,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Farbregel 3 aus Spec 3.4
 
-#### V093 · Mi 17.03.2027 19:00 · REACH · Papier zu Garn
+#### V093 · Mi 19.05.2027 19:00 · REACH · Papier zu Garn
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–9 s · **Docket-Woche:** W27
 - **Docket:** Rev 5.3 W27 Mi · REACH „Papier zu Garn“
 - **Hook EN (Slide 1 / erster Satz):** „October: paper. March: thread. Same pocket.“
@@ -1403,7 +1403,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V094 · Fr 19.03.2027 18:00 · DETAIL · 45 × 45
+#### V094 · Fr 21.05.2027 18:00 · DETAIL · 45 × 45
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W27
 - **Docket:** Rev 5.3 W27 Fr · DETAIL „37 mal 37“ (korrigiert)
 - **Hook EN (Slide 1 / erster Satz):** „The smallest pocket: 45 by 45 stitches.“
@@ -1416,46 +1416,46 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Rev. 5.3 nannte „37 mal 37“, das passt zu keinem Element (C = 27 × 27, E = 45 × 45). Korrigiert
 
-#### V095 · Sa 20.03.2027 12:00 · ASK · Letzter Tag
+#### V095 · Sa 22.05.2027 12:00 · ASK · Letzter Tag
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story (Countdown-Sticker) · **Dauer:** 2 Frames · **Docket-Woche:** W27
 - **Docket:** Rev 5.3 W27 Sa · ASK „Countdown“
 - **Hook EN (Slide 1 / erster Satz):** „Tomorrow 20:00 the €149 price is gone.“
 - **Hook DE:** „Morgen um 20 Uhr ist der Preis von 149 € weg.“
 - **Test-Hook B:** „Last 24 hours at €149.“
-- **Shots:** 1) Frame 1: Countdown-Sticker 21.03. 20:00 · 2) Frame 2: Countdown-Sticker Drop 22.04. 19:00
+- **Shots:** 1) Frame 1: Countdown-Sticker 23.05. 20:00 · 2) Frame 2: Countdown-Sticker Drop 24.06. 19:00
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V096 · Mo 22.03.2027 18:00 · BUILD · Alles bezahlt
+#### V096 · Mo 24.05.2027 18:00 · BUILD · Alles bezahlt
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 10–15 s · **Docket-Woche:** W28
 - **Docket:** Rev 5.3 W28 Mo · BUILD „Alles bezahlt“
 - **Hook EN (Slide 1 / erster Satz):** „Day 162: factory fully paid. The jeans are coming.“
 - **Hook DE:** „Tag 162: Fabrik komplett bezahlt. Die Jeans kommen.“
 - **Test-Hook B:** „Paid. Shipped. Here's what's next.“
-- **Shots:** 1) Banking-App, Empfänger verpixelt · 2) Kalender: Ware ca. 30.03. · 3) Du, ein Satz
+- **Shots:** 1) Banking-App, Empfänger verpixelt · 2) Kalender: Ware ca. 01.06. · 3) Du, ein Satz
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 162. Fully paid. Arrival around 30.03., then I check every single pair. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #buildinpublic #clothingbrand #denim #novalifetimetravel
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
+- **Caption EN:** Day 162. Fully paid. Arrival around 01.06., then I check every single pair. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur wenn wahr
 
-#### V097 · Di 23.03.2027 18:00 · ORIGIN · Warum Time Travel
+#### V097 · Di 25.05.2027 18:00 · ORIGIN · Warum Time Travel
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 20–30 s · **Docket-Woche:** W28
 - **Docket:** Rev 5.3 W28 Di · ORIGIN „Warum Time Travel“
 - **Hook EN (Slide 1 / erster Satz):** „Why I called this drop Time Travel.“
 - **Hook DE:** „Warum dieser Drop Time Travel heißt.“
 - **Test-Hook B:** „Old patterns. New denim. Here's the name.“
-- **Shots:** 1) Du in die Kamera · 2) Teppich-Foto · 3) Fertiges Teil, Makro · 4) Endframe: „22.04.“
+- **Shots:** 1) Du in die Kamera · 2) Teppich-Foto · 3) Fertiges Teil, Makro · 4) Endframe: „24.06.“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** [Deine Begründung in zwei Sätzen, Subjekt ist das Muster.] Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #crossstitch #folkembroidery #embroidery #novalifetimetravel
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
+- **Caption EN:** [Deine Begründung in zwei Sätzen, Subjekt ist das Muster.] Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #crossstitch #folkembroidery #embroidery #novalifetimetravel
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Begründung muss von dir kommen, nicht erfunden · Kein „älter als jede Grenze“
 
-#### V098 · Mi 24.03.2027 19:00 · REACH · Packstation
+#### V098 · Mi 26.05.2027 19:00 · REACH · Packstation
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–10 s · **Docket-Woche:** W28
 - **Docket:** Rev 5.3 W28 Mi · REACH „Packstation“
 - **Hook EN (Slide 1 / erster Satz):** „My living room is now a packing station.“
@@ -1464,24 +1464,24 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Shots:** 1) Zeitraffer: Wohnzimmer wird zur Packstraße · 2) Kartons, Hangtags, Klebeband · 3) Erster gepackter Karton
 - **Drehort:** Wohnung · Wohnzimmer
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
-- **Caption EN:** Getting ready for 35 pre-orders. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #berlinfashion #denim #novalifetimetravel
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
+- **Caption EN:** Getting ready for 35 pre-orders. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #berlinfashion #denim #novalifetimetravel
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V099 · Fr 26.03.2027 18:00 · DETAIL · Vier Stickereien
+#### V099 · Fr 28.05.2027 18:00 · DETAIL · Vier Stickereien
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–8 s · **Docket-Woche:** W28
 - **Docket:** Rev 5.3 W28 Fr · DETAIL „Fünf Stickereien“ (jetzt vier, Serp gestrichen 11.10.)
 - **Hook EN (Slide 1 / erster Satz):** „Four embroideries. One second each.“
 - **Hook DE:** „Vier Stickereien. Je eine Sekunde.“
 - **Test-Hook B:** „Count the embroideries on these jeans.“
 - **Shots:** 1) Band A · 2) Münztasche E · 3) Ähren B2 mit Goldfäden · 4) Achtstern C · 5) Patch D als Gürtelschlaufe
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
-- **Caption EN:** Band, coin pocket, harvest, star, tree. Plus nine threads. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #crossstitch #denim #novalifetimetravel
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
+- **Caption EN:** Band, coin pocket, harvest, star, tree. Plus nine threads. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #crossstitch #denim #novalifetimetravel
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V100 · Sa 27.03.2027 12:00 · ASK · Größe
+#### V100 · Sa 29.05.2027 12:00 · ASK · Größe
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story (Frage-Sticker) · **Dauer:** 2 Frames · **Docket-Woche:** W28
 - **Docket:** Rev 5.3 W28 Sa · ASK „Größe“
 - **Hook EN (Slide 1 / erster Satz):** „Not sure about your size? Ask me.“
@@ -1491,287 +1491,287 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-### 3.5 · P5 Countdown T−24 bis T−1 · Mo 29.03.–Mi 21.04.2027 · täglich 18:00
+### 3.5 · P5 Countdown T−24 bis T−1 · Mo 31.05.–Mi 23.06.2027 · täglich 18:00
 
-**Vorlage (aus Docket Rev. 5.3, bleibt):** CapCut, 9:16, dunkler Indigo-Grund, oben groß „T−n“, unten „22.04. · 19:00“, in der Mitte ein Clip von 4–6 Sekunden. 18:00 auf TikTok, als Reel und als Story mit Countdown-Sticker [Q8]. Alle 24 werden am Do 18.03. (T−24 bis T−13) und Sa 20.03. (T−12 bis T−1) vorproduziert. An echten Tagen ersetzt ein Live-Clip das Asset (Zeile „Echter Tag“). E-Mails laut Plan: T−14 (08.04.), T−7 (15.04.), T−3 (19.04.), T−24h (21.04.).
+**Vorlage (aus Docket Rev. 5.3, bleibt):** CapCut, 9:16, dunkler Indigo-Grund, oben groß „T−n“, unten „24.06. · 19:00“, in der Mitte ein Clip von 4–6 Sekunden. 18:00 auf TikTok, als Reel und als Story mit Countdown-Sticker [Q8]. Alle 24 werden am Do 20.05. (T−24 bis T−13) und Sa 22.05. (T−12 bis T−1) vorproduziert. An echten Tagen ersetzt ein Live-Clip das Asset (Zeile „Echter Tag“). E-Mails laut Plan: T−14 (10.06.), T−7 (17.06.), T−3 (21.06.), T−24h (23.06.).
 
-#### CD-T24 · Mo 29.03.2027 18:00 · COUNTDOWN · Ganzkörper vorn, langsamer Zoom auf die Tasche
+#### CD-T24 · Mo 31.05.2027 18:00 · COUNTDOWN · Ganzkörper vorn, langsamer Zoom auf die Tasche
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
-- **Hook EN (oben im Bild):** „24 days. 100 numbered jeans. 22.04., 19:00.“
-- **Hook DE:** „24 Tage. 100 nummerierte Jeans. 22.04., 19 Uhr.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−24“ auf Indigo (0,5 s) · 2) Ganzkörper vorn aus dem Shoot · 3) Langsamer Zoom auf die rechte Vordertasche · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Hook EN (oben im Bild):** „24 days. 100 numbered jeans. 24.06., 19:00.“
+- **Hook DE:** „24 Tage. 100 nummerierte Jeans. 24.06., 19 Uhr.“
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−24“ auf Indigo (0,5 s) · 2) Ganzkörper vorn aus dem Shoot · 3) Langsamer Zoom auf die rechte Vordertasche · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The countdown starts. 100 numbered pairs. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The countdown starts. 100 numbered pairs. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T23 · Di 30.03.2027 18:00 · COUNTDOWN · Band A im Makro, Schwenk entlang der Tasche
+#### CD-T23 · Di 01.06.2027 18:00 · COUNTDOWN · Band A im Makro, Schwenk entlang der Tasche
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
 - **Hook EN (oben im Bild):** „23 days. The cross-stitch band, up close.“
 - **Hook DE:** „23 Tage. Das Kreuzstich-Band, ganz nah.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−23“ auf Indigo (0,5 s) · 2) Makro-Schwenk entlang Band A · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−23“ auf Indigo (0,5 s) · 2) Makro-Schwenk entlang Band A · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** 23 mm, 17 stitches high. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** 23 mm, 17 stitches high. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
-- **Echter Tag:** Ware ca. 30.03.: Kommt die Lieferung, ersetzt ein Live-Clip „They're here.“ das Asset
+- **Echter Tag:** Ware ca. 01.06.: Kommt die Lieferung, ersetzt ein Live-Clip „They're here.“ das Asset
 
-#### CD-T22 · Mi 31.03.2027 18:00 · COUNTDOWN · Münztasche E, Lineal daneben
+#### CD-T22 · Mi 02.06.2027 18:00 · COUNTDOWN · Münztasche E, Lineal daneben
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
 - **Hook EN (oben im Bild):** „22 days. The smallest pocket, fully stitched.“
 - **Hook DE:** „22 Tage. Die kleinste Tasche, voll bestickt.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−22“ auf Indigo (0,5 s) · 2) Makro Münztasche · 3) Lineal 60 mm · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−22“ auf Indigo (0,5 s) · 2) Makro Münztasche · 3) Lineal 60 mm · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** 60 × 60 mm, 45 × 45 stitches. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** 60 × 60 mm, 45 × 45 stitches. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
-- **Echter Tag:** Prüfung 31.03.–02.04.: Clip „Checking 100 pairs, one by one.“ ersetzt das Asset
+- **Echter Tag:** Prüfung 02.06.–04.06.: Clip „Checking 100 pairs, one by one.“ ersetzt das Asset
 
-#### CD-T21 · Do 01.04.2027 18:00 · COUNTDOWN · Linke Gesäßtasche: drei Ähren, rotes Band, Goldfäden
+#### CD-T21 · Do 03.06.2027 18:00 · COUNTDOWN · Linke Gesäßtasche: drei Ähren, rotes Band, Goldfäden
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
 - **Hook EN (oben im Bild):** „21 days. Three ears, nine threads.“
 - **Hook DE:** „21 Tage. Drei Ähren, neun Fäden.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−21“ auf Indigo (0,5 s) · 2) Makro linke Gesäßtasche · 3) Fäden hängen still · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−21“ auf Indigo (0,5 s) · 2) Makro linke Gesäßtasche · 3) Fäden hängen still · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The harvest sits on the left. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The harvest sits on the left. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nie „fünf“
 
-#### CD-T20 · Fr 02.04.2027 18:00 · COUNTDOWN · Goldfäden in Bewegung
+#### CD-T20 · Fr 04.06.2027 18:00 · COUNTDOWN · Goldfäden in Bewegung
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
 - **Hook EN (oben im Bild):** „20 days. The only part that moves.“
 - **Hook DE:** „20 Tage. Das Einzige, was sich bewegt.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−20“ auf Indigo (0,5 s) · 2) Fön kleinste Stufe oder Gehen, Fäden schwingen, Gegenlicht · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−20“ auf Indigo (0,5 s) · 2) Fön kleinste Stufe oder Gehen, Fäden schwingen, Gegenlicht · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Set by hand after the wash. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Set by hand after the wash. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T19 · Sa 03.04.2027 18:00 · COUNTDOWN · Achtstern auf der rechten Gesäßtasche, Kamera kommt näher
+#### CD-T19 · Sa 05.06.2027 18:00 · COUNTDOWN · Achtstern auf der rechten Gesäßtasche, Kamera kommt näher
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
 - **Hook EN (oben im Bild):** „19 days. One star, 27 by 27 stitches.“
 - **Hook DE:** „19 Tage. Ein Stern, 27 mal 27 Stiche.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−19“ auf Indigo (0,5 s) · 2) Kamera fährt langsam an die rechte Gesäßtasche · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−19“ auf Indigo (0,5 s) · 2) Kamera fährt langsam an die rechte Gesäßtasche · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The eight-point star stands for the sun. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The eight-point star stands for the sun. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nicht „Alatyr“
 
-#### CD-T18 · So 04.04.2027 18:00 · COUNTDOWN · Lebensbaum-Patch, Zoom auf Knoten und Wurzeln
+#### CD-T18 · So 06.06.2027 18:00 · COUNTDOWN · Lebensbaum-Patch, Zoom auf Knoten und Wurzeln
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
 - **Hook EN (oben im Bild):** „18 days. A tree where the label usually is.“
 - **Hook DE:** „18 Tage. Ein Baum, wo sonst das Label sitzt.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−18“ auf Indigo (0,5 s) · 2) Zoom auf Knoten und Wurzeln des Patches · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−18“ auf Indigo (0,5 s) · 2) Zoom auf Knoten und Wurzeln des Patches · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Tree of life, natural linen, 76 × 67 mm, the back belt loop. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Tree of life, natural linen, 76 × 67 mm, the back belt loop. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nie „Slavic tree of life“
 
-#### CD-T17 · Mo 05.04.2027 18:00 · COUNTDOWN · Gruppenbild Jeans, Zipper, Polo
+#### CD-T17 · Mo 07.06.2027 18:00 · COUNTDOWN · Gruppenbild Jeans, Zipper, Polo
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „17 days. Three pieces, one drop.“
 - **Hook DE:** „17 Tage. Drei Teile, ein Drop.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−17“ auf Indigo (0,5 s) · 2) Gruppenbild aus dem Shoot · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−17“ auf Indigo (0,5 s) · 2) Gruppenbild aus dem Shoot · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Jeans €169, zipper €139, polo €79. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Jeans €169, zipper €139, polo €79. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T16 · Di 06.04.2027 18:00 · COUNTDOWN · Zipper-Rücken mit dem Medaillon
+#### CD-T16 · Di 08.06.2027 18:00 · COUNTDOWN · Zipper-Rücken mit dem Medaillon
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „16 days. A wall carpet, on your back.“
 - **Hook DE:** „16 Tage. Ein Wandteppich, auf deinem Rücken.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−16“ auf Indigo (0,5 s) · 2) Zipper-Rücken, langsamer Schwenk · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−16“ auf Indigo (0,5 s) · 2) Zipper-Rücken, langsamer Schwenk · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The medallion of a wall carpet. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The medallion of a wall carpet. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
-- **Echter Tag:** Vorbestellungen gehen raus (06.–07.04.): Clip „Pre-orders shipping today.“ ersetzt das Asset
+- **Echter Tag:** Vorbestellungen gehen raus (08.–09.06.): Clip „Pre-orders shipping today.“ ersetzt das Asset
 
-#### CD-T15 · Mi 07.04.2027 18:00 · COUNTDOWN · Polo, Bänder an der Knopfleiste
+#### CD-T15 · Mi 09.06.2027 18:00 · COUNTDOWN · Polo, Bänder an der Knopfleiste
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „15 days. Two bands at the placket.“
 - **Hook DE:** „15 Tage. Zwei Bänder an der Knopfleiste.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−15“ auf Indigo (0,5 s) · 2) Makro Knopfleiste · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−15“ auf Indigo (0,5 s) · 2) Makro Knopfleiste · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Polo €79, made to order. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Polo €79, made to order. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 - **Echter Tag:** Letzte Vorbestellungen raus: Clip vom Packtisch ersetzt das Asset
 
-#### CD-T14 · Do 08.04.2027 18:00 · COUNTDOWN · Hangtag mit Nummer 001 in der Hand
+#### CD-T14 · Do 10.06.2027 18:00 · COUNTDOWN · Hangtag mit Nummer 001 in der Hand
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „Two weeks. Number 001 has already shipped.“
 - **Hook DE:** „Zwei Wochen. Nummer 001 ist schon unterwegs.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−14“ auf Indigo (0,5 s) · 2) Hangtag 001 in der Hand · 3) Text „2 weeks“ · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−14“ auf Indigo (0,5 s) · 2) Hangtag 001 in der Hand · 3) Text „2 weeks“ · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Two weeks. The list gets in at 18:00. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
-- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nur wenn wahr: Vorbestellungen gehen laut Plan am 06.–07.04. raus
+- **Caption EN:** Two weeks. The list gets in at 18:00. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
+- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nur wenn wahr: Vorbestellungen gehen laut Plan am 08.–09.06. raus
 
-#### CD-T13 · Fr 09.04.2027 18:00 · COUNTDOWN · Behind the Scenes vom Shoot, schnell geschnitten
+#### CD-T13 · Fr 11.06.2027 18:00 · COUNTDOWN · Behind the Scenes vom Shoot, schnell geschnitten
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „13 days. How we shot this.“
 - **Hook DE:** „13 Tage. So haben wir das gedreht.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−13“ auf Indigo (0,5 s) · 2) BTS-Schnitte, 0,5 s je Clip · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−13“ auf Indigo (0,5 s) · 2) BTS-Schnitte, 0,5 s je Clip · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** One Saturday, one sunset. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** One Saturday, one sunset. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T12 · Sa 10.04.2027 18:00 · COUNTDOWN · Rohe Schnittkante am Saum
+#### CD-T12 · Sa 12.06.2027 18:00 · COUNTDOWN · Rohe Schnittkante am Saum
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „12 days. Raw hem, cut after the wash.“
 - **Hook DE:** „12 Tage. Roher Saum, nach der Wäsche geschnitten.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−12“ auf Indigo (0,5 s) · 2) Finger fährt die Saumkante entlang · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−12“ auf Indigo (0,5 s) · 2) Finger fährt die Saumkante entlang · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** No turn-up. No stitch. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** No turn-up. No stitch. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 - **Echter Tag:** Wenn Vorbesteller Fotos mit Erlaubnis geschickt haben: ein Foto ersetzt das Asset
 
-#### CD-T11 · So 11.04.2027 18:00 · COUNTDOWN · Zickzack am Band
+#### CD-T11 · So 13.06.2027 18:00 · COUNTDOWN · Zickzack am Band
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W30
 - **Hook EN (oben im Bild):** „11 days. Zigzag means water.“
 - **Hook DE:** „11 Tage. Zickzack bedeutet Wasser.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−11“ auf Indigo (0,5 s) · 2) Makro Zickzack · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−11“ auf Indigo (0,5 s) · 2) Makro Zickzack · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The line that frames the band. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The line that frames the band. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T10 · Mo 12.04.2027 18:00 · COUNTDOWN · Teppich-Foto, harter Schnitt auf das Medaillon
+#### CD-T10 · Mo 14.06.2027 18:00 · COUNTDOWN · Teppich-Foto, harter Schnitt auf das Medaillon
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
 - **Hook EN (oben im Bild):** „10 days. From the wall to the zipper.“
 - **Hook DE:** „10 Tage. Von der Wand auf den Zipper.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−10“ auf Indigo (0,5 s) · 2) Teppich-Foto 1 s · 3) Harter Schnitt auf das Medaillon · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.) + Familienfoto
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−10“ auf Indigo (0,5 s) · 2) Teppich-Foto 1 s · 3) Harter Schnitt auf das Medaillon · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.) + Familienfoto
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The carpet, remembered. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The carpet, remembered. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Keine Sowjet-Deko im Bild
 
-#### CD-T09 · Di 13.04.2027 18:00 · COUNTDOWN · Innenseite der Stickerei, Hose auf links
+#### CD-T09 · Di 15.06.2027 18:00 · COUNTDOWN · Innenseite der Stickerei, Hose auf links
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
 - **Hook EN (oben im Bild):** „9 days. Turn it inside out.“
 - **Hook DE:** „9 Tage. Dreh sie auf links.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−9“ auf Indigo (0,5 s) · 2) Hose auf links, Makro Rückseite · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−9“ auf Indigo (0,5 s) · 2) Hose auf links, Makro Rückseite · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Clean on both sides. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Clean on both sides. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T08 · Mi 14.04.2027 18:00 · COUNTDOWN · Gehen, Rückansicht
+#### CD-T08 · Mi 16.06.2027 18:00 · COUNTDOWN · Gehen, Rückansicht
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
 - **Hook EN (oben im Bild):** „8 days. Watch the back.“
 - **Hook DE:** „8 Tage. Schau auf die Rückseite.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−8“ auf Indigo (0,5 s) · 2) Gehen, Rückansicht, Fäden schwingen · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−8“ auf Indigo (0,5 s) · 2) Gehen, Rückansicht, Fäden schwingen · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Left: harvest. Right: pattern. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Left: harvest. Right: pattern. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T07 · Do 15.04.2027 18:00 · COUNTDOWN · Ganzkörper hinten, Text „Noch 1 Woche“
+#### CD-T07 · Do 17.06.2027 18:00 · COUNTDOWN · Ganzkörper hinten, Text „Noch 1 Woche“
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
-- **Hook EN (oben im Bild):** „One week. 22.04., 19:00.“
-- **Hook DE:** „Noch eine Woche. 22.04., 19 Uhr.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−7“ auf Indigo (0,5 s) · 2) Ganzkörper hinten · 3) Text „1 week“ · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Hook EN (oben im Bild):** „One week. 24.06., 19:00.“
+- **Hook DE:** „Noch eine Woche. 24.06., 19 Uhr.“
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−7“ auf Indigo (0,5 s) · 2) Ganzkörper hinten · 3) Text „1 week“ · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** One week. The list gets in at 18:00. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** One week. The list gets in at 18:00. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T06 · Fr 16.04.2027 18:00 · COUNTDOWN · Patch D im Streiflicht: der Gürtel läuft hinter dem Baum
+#### CD-T06 · Fr 18.06.2027 18:00 · COUNTDOWN · Patch D im Streiflicht: der Gürtel läuft hinter dem Baum
 
-**Im Docket gilt:** Am Fr 16.04. läuft V125 „Aus drei Metern“ als CD-T06. Der Entwurf unten ist Reserve.
+**Im Docket gilt:** Am Fr 18.06. läuft V125 „Aus drei Metern“ als CD-T06. Der Entwurf unten ist Reserve.
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
 - **Hook EN (oben im Bild):** „6 days. The tree holds the belt.“
 - **Hook DE:** „6 Tage. Der Baum hält den Gürtel.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−6“ auf Indigo (0,5 s) · 2) Streiflicht über Patch D am Bund, Hand zieht den Gürtel hinter dem Baum durch · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−6“ auf Indigo (0,5 s) · 2) Streiflicht über Patch D am Bund, Hand zieht den Gürtel hinter dem Baum durch · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Tree of life as the back belt loop, the belt runs behind it. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Tree of life as the back belt loop, the belt runs behind it. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nie „Slavic tree of life“
 
-#### CD-T05 · Sa 17.04.2027 18:00 · COUNTDOWN · Pflegeetikett „Fäden nicht abschneiden“
+#### CD-T05 · Sa 19.06.2027 18:00 · COUNTDOWN · Pflegeetikett „Fäden nicht abschneiden“
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
 - **Hook EN (oben im Bild):** „5 days. Rule one: don't cut the threads.“
 - **Hook DE:** „5 Tage. Regel eins: Fäden nicht abschneiden.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−5“ auf Indigo (0,5 s) · 2) Makro Pflegeetikett · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−5“ auf Indigo (0,5 s) · 2) Makro Pflegeetikett · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Wash inside out. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Wash inside out. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T04 · So 18.04.2027 18:00 · COUNTDOWN · Hand in der Tasche, Detail
+#### CD-T04 · So 20.06.2027 18:00 · COUNTDOWN · Hand in der Tasche, Detail
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
 - **Hook EN (oben im Bild):** „4 days. Hands in pockets.“
 - **Hook DE:** „4 Tage. Hände in die Taschen.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−4“ auf Indigo (0,5 s) · 2) Hand gleitet in die rechte Vordertasche, Band im Fokus · 3) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−4“ auf Indigo (0,5 s) · 2) Hand gleitet in die rechte Vordertasche, Band im Fokus · 3) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** The band sits on the pocket edge. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** The band sits on the pocket edge. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T03 · Mo 19.04.2027 18:00 · COUNTDOWN · Papiertest aus dem Oktober, harter Schnitt auf das fertige Teil
+#### CD-T03 · Mo 21.06.2027 18:00 · COUNTDOWN · Papiertest aus dem Oktober, harter Schnitt auf das fertige Teil
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W32
 - **Hook EN (oben im Bild):** „3 days. This was paper in October.“
 - **Hook DE:** „3 Tage. Das war im Oktober Papier.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−3“ auf Indigo (0,5 s) · 2) Papiertest-Clip 1,5 s · 3) Harter Schnitt auf das fertige Teil, gleiche Einstellung · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Archiv-Clips aus früheren Drehs (Ordner content/archiv) + Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−3“ auf Indigo (0,5 s) · 2) Papiertest-Clip 1,5 s · 3) Harter Schnitt auf das fertige Teil, gleiche Einstellung · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Archiv-Clips aus früheren Drehs (Ordner content/archiv) + Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** October → April. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** October → April. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T02 · Di 20.04.2027 18:00 · COUNTDOWN · Alle vier Stickereien und der Patch, je 1 Sekunde
+#### CD-T02 · Di 22.06.2027 18:00 · COUNTDOWN · Alle vier Stickereien und der Patch, je 1 Sekunde
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W32
 - **Hook EN (oben im Bild):** „2 days. Four embroideries, one second each.“
 - **Hook DE:** „2 Tage. Vier Stickereien, je eine Sekunde.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−2“ auf Indigo (0,5 s) · 2) A · 3) E · 4) B2 · 5) C · 6) D als Gürtelschlaufe · 7) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−2“ auf Indigo (0,5 s) · 2) A · 3) E · 4) B2 · 5) C · 6) D als Gürtelschlaufe · 7) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Band, pocket, harvest, star, tree. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Band, pocket, harvest, star, tree. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T01 · Mi 21.04.2027 18:00 · COUNTDOWN · Kampagnenfilm auf 10 Sekunden, Text „Morgen 19:00“
+#### CD-T01 · Mi 23.06.2027 18:00 · COUNTDOWN · Kampagnenfilm auf 10 Sekunden, Text „Morgen 19:00“
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W32
 - **Hook EN (oben im Bild):** „Tomorrow, 19:00. The list gets in at 18:00.“
 - **Hook DE:** „Morgen, 19 Uhr. Die Liste kommt um 18 Uhr rein.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−1“ auf Indigo (0,5 s) · 2) Kampagnenfilm, 10 s · 3) Endframe „tomorrow 19:00“ · 4) Endframe: „22.04. · 19:00“ (1 s)
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−1“ auf Indigo (0,5 s) · 2) Kampagnenfilm, 10 s · 3) Endframe „tomorrow 19:00“ · 4) Endframe: „24.06. · 19:00“ (1 s)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Tomorrow. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
-- **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
+- **Caption EN:** Tomorrow. Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **CTA:** Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 24.06. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-### 3.6 · P6 Drop · Do 22.–So 25.04.2027
+### 3.6 · P6 Drop · Do 24.–So 27.06.2027
 
-#### V101 · Do 22.04.2027 18:00 · ASK · Die Liste kauft gerade
+#### V101 · Do 24.06.2027 18:00 · ASK · Die Liste kauft gerade
 - **Phase:** P6 Drop · **Format:** Story + Live 30 min · **Dauer:** Live 30 min + 2 Frames · **Docket-Woche:** W32
 - **Docket:** Rev 5.3 W32 Do · DROP 18:00
 - **Hook EN (Slide 1 / erster Satz):** „The list is shopping right now.“
@@ -1784,20 +1784,20 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Live now. Link in bio. (DE: Jetzt live. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Ablauf „Drop-Tag Minute für Minute“ aus der Docket-Referenz
 
-#### V102 · Do 22.04.2027 19:00 · REACH · Live
+#### V102 · Do 24.06.2027 19:00 · REACH · Live
 - **Phase:** P6 Drop · **Format:** Video 9:16 · **Dauer:** 15 s · **Docket-Woche:** W32
 - **Docket:** Rev 5.3 W32 Do · DROP 19:00
 - **Hook EN (Slide 1 / erster Satz):** „Time Travel is live now.“
 - **Hook DE:** „Time Travel ist jetzt live.“
 - **Test-Hook B:** „19:00. Go.“
 - **Shots:** 1) Kampagnenfilm, 15 s · 2) Handy zeigt den Shop live · 3) Endframe: „live now“
-- **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
+- **Drehort:** Material vom Shoot Sa 06.03.2027 + Makros zu Hause (gedreht am Do 20.05. und Sa 22.05.)
 - **Ton:** wie Kampagnenfilm
 - **Caption EN:** Live now. Jeans €169, zipper €139, polo €79. Live now. Link in bio. #embroidereddenim #berlinfashion #denim #novalifetimetravel
 - **CTA:** Live now. Link in bio. (DE: Jetzt live. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Link in beiden Bios auf die Kollektion · Werbekampagne 2 startet
 
-#### V103 · Do 22.04.2027 20:00 · ASK · Restbestand
+#### V103 · Do 24.06.2027 20:00 · ASK · Restbestand
 - **Phase:** P6 Drop · **Format:** Story · **Dauer:** 1 Frame, um 19:15, 20:00, 22:00 aktualisieren · **Docket-Woche:** W32
 - **Docket:** Rev 5.3 W32 Do · 19:15 / 20:00 / 22:00 Stories
 - **Hook EN (Slide 1 / erster Satz):** „[X] pairs left. Here are the sizes.“
@@ -1810,7 +1810,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Live now. Link in bio. (DE: Jetzt live. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Zahlen
 
-#### V104 · Fr 23.04.2027 18:00 · BUILD · 24 Stunden
+#### V104 · Fr 25.06.2027 18:00 · BUILD · 24 Stunden
 - **Phase:** P6 Drop · **Format:** Video 9:16 · **Dauer:** 10–15 s · **Docket-Woche:** W32
 - **Docket:** Rev 5.3 W32 Fr · Zwischenstand-Story
 - **Hook EN (Slide 1 / erster Satz):** „24 hours: [X] of 100 found an owner.“
@@ -1823,7 +1823,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Live now. Link in bio. (DE: Jetzt live. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Zahl
 
-#### V105 · Sa 24.04.2027 12:00 · ASK · Drop 2
+#### V105 · Sa 26.06.2027 12:00 · ASK · Drop 2
 - **Phase:** P6 Drop · **Format:** Story · **Dauer:** 1 Frame · **Docket-Woche:** W32
 - **Docket:** Rev 5.3 W32 Sa · ASK „Drop 2“
 - **Hook EN (Slide 1 / erster Satz):** „What should the next drop be?“
@@ -1833,10 +1833,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Keine Namen möglicher Kollaborationspartner
 
-#### V106 · So 25.04.2027 18:00 · REAL · Was der Drop gebracht hat
+#### V106 · So 27.06.2027 18:00 · REAL · Was der Drop gebracht hat
 - **Phase:** P6 Drop · **Format:** Video 9:16 · **Dauer:** 20–30 s · **Docket-Woche:** W32
 - **Docket:** Rev 5.3 W32 So · Auswertung (NEU als Post)
 - **Hook EN (Slide 1 / erster Satz):** „Day 196: the real numbers of my first drop.“
@@ -1849,7 +1849,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Live now. Link in bio. (DE: Jetzt live. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur echte Zahlen
 
-#### V107 · Do 22.04.2027 21:00 · ASK · Drop-Live vom Packtisch
+#### V107 · Do 24.06.2027 21:00 · ASK · Drop-Live vom Packtisch
 - **Phase:** P6 Drop · **Format:** Live 30 min (optional) · **Dauer:** 30 min · **Docket-Woche:** W32
 - **Docket:** NEU · Drop-Abend
 - **Hook EN (Slide 1 / erster Satz):** „Live from my packing table. Ask about sizes.“
@@ -1916,7 +1916,7 @@ Reserve heißt: kein fester Termin. Du nimmst sie (a) als Extra-Post, wenn du me
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
 - **Caption EN:** Three ears on a red band, nine gold threads below. The harvest sits on the left. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „fünf Ähren“ · Nicht in der Woche 23.–29.11.2026 · Kein roter Grund im Bild
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „fünf Ähren“ · Nicht in der Woche 25.–29.11.2026 · Kein roter Grund im Bild
 
 #### V112 · frei (Reserve) · ORIGIN · Ornament in 15 Sekunden: Lebensbaum
 - **Phase:** ab P1 · **Format:** Karussell / Photo Mode 4 Slides · **Dauer:** 4 Slides
@@ -2058,7 +2058,7 @@ Reserve heißt: kein fester Termin. Du nimmst sie (a) als Extra-Post, wenn du me
 - **Drehort:** Story-Vorlage
 - **Ton:** kein Ton (Story-Sticker)
 - **Caption EN:** (Story)
-- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 22.04. auf die Kollektion)
+- **CTA:** Link-Sticker auf die Warteliste (ab 14.01. auf die Vorbestellung, ab 24.06. auf die Kollektion)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Einsendungen nur mit schriftlicher Erlaubnis zeigen · Keine Sowjet-Deko in der Auswahl
 
 #### V123 · frei (Reserve) · REACH · Straßenfrage
@@ -2183,7 +2183,7 @@ Clip 12 ist der wichtigste für später: Mit derselben Position drehst du im Mä
 |---|---|---|---|---|---|
 | P1 (3 Posts) | 75 min | 3 × 20 min | 4 × 10 min | 15 min | ~3,2 h |
 | P2–P4 (4–5 Posts + Story) | 100 min | 5 × 20 min | 2 × 10 min | 15 min | ~4 h |
-| Countdown (täglich, vorproduziert) | 0 (Assets am 18. und 20.03.) | 7 × 20 min | — | 15 min | ~2,6 h |
+| Countdown (täglich, vorproduziert) | 0 (Assets am 18. und 22.05.) | 7 × 20 min | — | 15 min | ~2,6 h |
 
 Bei 1–2 Stunden pro Tag (7–14 h pro Woche) bleiben in P1 noch 4–10 Stunden für Fabrik, Tech Pack und Shop.
 
@@ -2255,10 +2255,10 @@ Google Sheet oder Numbers, Blatt „Content“. Eine Zeile pro Video und Plattfo
 | W12 | 06.12. (Proto) | 470 | 200 | 32.000 |
 | W16 | 03.01.2027 | 740 | 300 | 24.000 |
 | W18 | 17.01. (Vorbestellung) | 1.000 | 450 | 60.000 |
-| W20 | 31.01. (Schwelle ≥ 10) | 1.500 | 600 | 100.000 |
-| W24 | 28.02. | 2.400 | 850 | 100.000 |
-| W27 | 21.03. (35 Vorbestellungen) | 2.560 | 950 | 24.000 |
-| W32 | 25.04. | 3.000 | 1.515 | 32.000 |
+| W20 | 07.02. (Schwelle ≥ 10) | 1.500 | 600 | 100.000 |
+| W24 | 14.03. | 2.400 | 850 | 100.000 |
+| W27 | 23.05. (35 Vorbestellungen) | 2.560 | 950 | 24.000 |
+| W32 | 27.06. | 3.000 | 1.515 | 32.000 |
 
 Unter „Alarm“: Notfallhebel aus markt.md Abschnitt 5. Die Validierung am So 01.11. bleibt die Plan-Regel: grün ≥ 150, gelb 50–149, rot < 50.
 
@@ -2289,7 +2289,7 @@ Eine Zeile reicht: „W[n]: Liste [X] (+[Y]), Views [Z], bestes Video V0xx ([Vie
 1. **Plattform-Fakten 2026 nachprüfen.** In dieser Runde nicht möglich (Suchbudget aufgebraucht, Seitenabruf gesperrt). Mit einer neuen Sitzung prüfen: TikTok-Empfehlungssignale, Mosseris Signale 2025/2026, Instagram-Hashtag-Limit, Reels- und Shorts-Länge, Trial Reels, Commercial Music Library, beste Uhrzeiten DE (Studien von Buffer, Sprout Social, Later o. ä.), Frequenz-Studien. Bis dahin gilt: Plan-Zeiten und eigener Selbsttest ab So 08.11.
 2. **Beispiel-Accounts für die Formate fehlen.** Deine 30-Minuten-Aufgabe: In der TikTok-Suche „day 1 of starting a clothing brand“, „building a clothing brand“, „embroidery asmr“, „denim brand behind the scenes“ eingeben. Zehn Videos mit sichtbar vielen Views speichern, Links an Claude. Daraus werden echte Beispiele mit Hook-Analyse.
 3. **Startwerte fehlen:** Follower heute auf TikTok und Instagram, Größe der Bleach-Kundenliste, E-Mail-Adressen mit Einwilligung. Ohne sie sind die Wochenziele bis 01.11. grob (so auch markt.md).
-4. **Deine Entscheidungen zu den Änderungen am Plan:** Hooks „Älter als jede Grenze“ ersetzen (V002, V030) · Teppich auf 18.11. · Sperrwoche 23.–29.11. · 24.02. → 25.02. · Wörter nach außen („cross-stitch band“, „eight-point star“) · Sprache der Hooks (EN mit DE-Zeile).
+4. **Deine Entscheidungen zu den Änderungen am Plan:** Hooks „Älter als jede Grenze“ ersetzen (V002, V030) · Teppich auf 18.11. · Sperrwoche 23.–29.11. · 24.02. → 11.03. · Wörter nach außen („cross-stitch band“, „eight-point star“) · Sprache der Hooks (EN mit DE-Zeile).
 5. **Familien-Fakten:** V017, V050 und V122 setzen voraus, dass deine Familie einen Wandteppich hatte und Fotos davon existieren. Nur posten, was stimmt (Docket: Familie befragen, Do 15.10.).
 6. **Belegtabelle zur Drei-von-vier-Regel** (Spec Teil 5) muss stehen, bevor V005 läuft.
 7. **Serp-Test:** seit 11.10. erledigt, der Serp ist gestrichen. V056 zeigt im Docket B2, CD-T06 ist V125. Die Patch-D-Entwürfe hier sind Reserve, V119 ist auf den Gürteltest umgebaut.

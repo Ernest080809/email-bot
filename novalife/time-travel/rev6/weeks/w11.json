@@ -3,12 +3,30 @@
  "phase": "P2",
  "goal": "Proto entsteht, Shop rechtssicher, Stick-Abend, Sperrwoche ohne Ernte-Bild einhalten",
  "kpi": [
-  {"k": "Warteliste", "ziel": "390 bestätigt (Alarm 170)"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.170 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante), Sa 28.11. kein Post"},
-  {"k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)", "ziel": "13"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "Proto-Versand", "ziel": "schriftlich ≤ 30.11."}
+  {
+   "k": "Warteliste",
+   "ziel": "390 bestätigt (Alarm 170)"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~1.170 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "3 Kern + 2 Grind+ (Karussell/Variante), Sa 28.11. kein Post"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)",
+   "ziel": "13"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  },
+  {
+   "k": "Proto-Versand",
+   "ziel": "schriftlich ≤ 30.11."
+  }
  ],
  "days": {
   "2026-11-23": [
@@ -28,7 +46,11 @@
     ],
     "f": "die Mail raus ist und ein schriftliches Versanddatum oder ein Call-Termin im Blatt „Gates“ steht.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Gates“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“"
+     }
     ]
    },
    {
@@ -64,9 +86,21 @@
      "check": "Sperrwoche: kein Ernte-Bild, nur Stoff, kein fertiges Teil, CTA der Phase, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     }
     ]
    },
    {
@@ -81,8 +115,16 @@
     ],
     "f": "10 Teilnehmer bestätigt sind (oder Nachrücker angeschrieben) und der getestete QR mit ref-stick ausgedruckt bereitliegt.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden: Tag ref-stick prüfen"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Abende“"
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden: Tag ref-stick prüfen"
+     }
     ]
    }
   ],
@@ -95,16 +137,27 @@
      "Rechtstexte-Service mit Abmahnschutz wählen (z. B. IT-Recht Kanzlei oder Händlerbund, Websites selbst öffnen und prüfen). Preis vorher vergleichen. Über 80 € in die Zeile „ungeplant“ im Blatt „Kasse“.",
      "Texte erzeugen: AGB, Widerrufsbelehrung mit Muster-Widerrufsformular, Versand- und Zahlungsinformationen. In Shopify → Einstellungen → Richtlinien einsetzen und im Footer verlinken. Bei englischen Hooks (Entscheidung 07.11.) die englischen Rechtstexte mitbuchen.",
      "Hotline anrufen, Fragen vorher aufschreiben: 1 Creator-Kennzeichnung bei geschenkten Paaren · 2 Geld-zurück-Regel · 3 „Platz in der ersten Stunde sichern“ (kostenlos und mit 10 €) · 4 CTA „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“",
-     "Weiter: 5 Preisangabe „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“ ohne Streichpreis (PAngV § 11, ungeprüft) · 6 Widerruf bei Zipper und Polo, die erst nach Bestellung bestickt werden · 7 Bin ich bei bestickten Blanks Hersteller? · 8 der Preissatz in V021 („Pre-order price €149 from 14.01. until 21.03.“).",
+     "Weiter: 5 Preisangabe „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“ ohne Streichpreis (PAngV § 11, ungeprüft) · 6 Widerruf bei Zipper und Polo, die erst nach Bestellung bestickt werden · 7 Bin ich bei bestickten Blanks Hersteller? · 8 der Preissatz in V021 („Pre-order price €149 from 14.01. until 23.05.“).",
      "Antworten wörtlich mitschreiben, ins Blatt „Recht“. Es gilt, was die Hotline sagt, nicht Claude. Keine Rechtsberatung durch Claude.",
      "Danach den Prompt unten an Claude, damit CTA, Captions und Shop-Texte angepasst werden."
     ],
     "f": "AGB, Widerruf, Versand- und Zahlungsinfos im Shop verlinkt sind und alle 8 Hotline-Antworten im Blatt „Recht“ stehen.",
     "p": "Projekt Time Travel, Docket W11, Di 24.11. Antworten der Rechtstexte-Hotline: 1 Creator-Kennzeichnung: [..] · 2 Geld-zurück-Regel: [..] · 3 „Platz in der ersten Stunde sichern“ A/B: [..] · 4 CTA „Die Liste kauft zuerst“: [..] · 5 Preisangabe ohne Streichpreis: [..] · 6 Widerruf Zipper/Polo: [..] · 7 Hersteller bei bestickten Blanks: [..] · 8 Preissatz V021: [..] · Kosten Service: [€].\nSag mir: Welche CTA-Zeilen in 9.3 ändern sich, ob V021 am Fr so raus darf, was das für die Reservierung am So 29.11. heißt und was im Shop noch fehlt.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Richtlinien"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Recht“ und „Kasse“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Richtlinien"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Recht“ und „Kasse“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -119,8 +172,15 @@
     ],
     "f": "alle Punkte der Checkliste abgehakt sind und der Zettel für den Stick-Abend ausgedruckt ist.",
     "o": [
-     {"n": "Tally", "u": "https://tally.so", "h": "Formular vom 13.10."},
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com"}
+     {
+      "n": "Tally",
+      "u": "https://tally.so",
+      "h": "Formular vom 13.10."
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     }
     ]
    },
    {
@@ -130,14 +190,22 @@
     "s": [
      "Verpackungsregister öffnen und als Hersteller registrieren, bevor das erste Paket rausgeht (das Proto-Paket kommt zu dir, aber ab Januar verschickst du).",
      "Bereitlegen: Name, Anschrift, Gewerbeanmeldung, Steuernummer, Marke „Novalife“, Mail.",
-     "Registrierungsnummer notieren und ins Blatt „Recht“. Die Systembeteiligung (Verpackungslizenz) kommt später am Di 23.02.",
+     "Registrierungsnummer notieren und ins Blatt „Recht“. Die Systembeteiligung (Verpackungslizenz) kommt später am Di 09.03.",
      "Unklar, welche Verpackungsarten du angeben musst: Prompt an Claude in einem Chat mit Websuche, Ergebnis selbst auf der Seite des Registers prüfen."
     ],
     "f": "die LUCID-Registrierungsnummer im Blatt „Recht“ steht.",
     "p": "Projekt Time Travel, Docket W11, Di 24.11. Ich registriere mich heute bei LUCID (Verpackungsregister). Ich verschicke ab Januar Jeans in Versandkartons mit Seidenpapier, rund 100 Pakete. Erklär mir mit Websuche in 6 Punkten, welche Angaben die Registrierung verlangt und was danach bis zum ersten Versand noch fehlt (Systembeteiligung). Markiere, was du nicht auf der offiziellen Seite gefunden hast, als ungeprüft.",
     "o": [
-     {"n": "Verpackungsregister (LUCID)", "u": "https://www.verpackungsregister.org", "h": "Registrierung vor dem ersten Paket"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai", "h": "Chat mit Websuche"}
+     {
+      "n": "Verpackungsregister (LUCID)",
+      "u": "https://www.verpackungsregister.org",
+      "h": "Registrierung vor dem ersten Paket"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai",
+      "h": "Chat mit Websuche"
+     }
     ]
    },
    {
@@ -151,8 +219,14 @@
     ],
     "f": "5 Kommentare gesetzt, DMs beantwortet und jedes Ja im Blatt steht.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    },
    {
@@ -187,9 +261,18 @@
      "check": "Sperrwoche: kein Ernte-Bild, kein fertiges Teil, Standardantwort bei Herkunftsfragen, CTA der Phase."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -202,14 +285,25 @@
      "Shopify Payments ist seit 30.10. aktiv. Heute: Shopify → Einstellungen → Zahlungen → PayPal aktivieren und mit deinem PayPal-Geschäftskonto verbinden (Ausweis und Bankdaten bereithalten).",
      "Auszahlungsplan Shopify Payments ablesen: Einstellungen → Zahlungen → Shopify Payments → Auszahlungen. Rhythmus und Dauer bis zum Bankkonto notieren.",
      "PayPal: im PayPal-Konto nachsehen, wann und wie Geld aufs Bankkonto geht (automatisch oder manuell). Nichts annehmen, was du nicht im Konto siehst.",
-     "Beides ins Blatt „Kasse“, Zeile „Auszahlung“. Die Gates am 20.12. und 14.03. hängen an der Auszahlungsdauer.",
+     "Beides ins Blatt „Kasse“, Zeile „Auszahlung“. Die Gates am 20.12. und 16.05. hängen an der Auszahlungsdauer.",
      "Status von Shopify Payments prüfen: „verifiziert“? Wenn nicht, heute das Ticket beim Payments-Support aufmachen (Gate So 29.11.)."
     ],
     "f": "PayPal verbunden ist und beide Auszahlungspläne sowie der Status „verifiziert“ im Blatt „Kasse“ stehen.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Zahlungen"},
-     {"n": "PayPal-Geschäftskonto", "h": "in der PayPal-App oder im Browser selbst öffnen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Kasse“"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Zahlungen"
+     },
+     {
+      "n": "PayPal-Geschäftskonto",
+      "h": "in der PayPal-App oder im Browser selbst öffnen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Kasse“"
+     }
     ]
    },
    {
@@ -244,9 +338,18 @@
      "check": "Sperrwoche: kein Ernte-Bild, nur Papier, CTA der Phase."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -265,8 +368,15 @@
     "f": "du weißt, ob Patch und Nummer drei Wäschen bei 60 °C halten, oder der Anbieter eine Korrekturliste hat.",
     "p": "Projekt Time Travel, Docket W11, Do 26.11. Hier sind Fotos meines Patch-Musters und der Wäschemarker-Nummer auf Leinen, vorher und nach 1, 2 und 3 Wäschen bei 60 °C: [Fotos]. Maß gemessen: [mm], Soll laut Elementblatt: [mm].\nBewerte: Schrumpf, Wellen, Kante, Farbe, Lesbarkeit der Nummer. Hält V1 (Nummer mit Wäschemarker) oder brauche ich eine andere Lösung? Schreib mir bei Mängeln eine kurze Korrekturliste an den Patch-Anbieter auf Deutsch.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Patches“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Patches“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -281,8 +391,14 @@
     ],
     "f": "der Prüfplan ausgedruckt bereitliegt und zwei W32-Termine für Sa 05.12. bestätigt sind.",
     "o": [
-     {"n": "Docket · Referenz → Prüfplan Sample"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"}
+     {
+      "n": "Docket · Referenz → Prüfplan Sample"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Abende“"
+     }
     ]
    },
    {
@@ -297,9 +413,19 @@
     ],
     "f": "im Blatt „Creator“ 30 Namen mit Kanal-URL und Grund stehen.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Creator“"
+     }
     ]
    },
    {
@@ -313,8 +439,14 @@
     ],
     "f": "5 Kommentare gesetzt, DMs beantwortet, Erinnerung raus.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    },
    {
@@ -349,9 +481,18 @@
      "check": "Nur mit Erlaubnis des Stickers, Sperrwoche ohne Ähren, kein fertiges Teil, Zahl nur bestätigt."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -377,19 +518,30 @@
      "shots": [
       "Papier: „€169 → ~€60 to make (estimate)“",
       "Darunter: payment fees, shipping, returns, next drop",
-      "Text: „pre-order price €149 · 14.01.–21.03.“"
+      "Text: „pre-order price €149 · 14.01.–23.05.“"
      ],
      "ort": "Wohnung · Schreibtisch, Draufsicht (gedreht am So 22.11.)",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
      "text": "0–2 s Hook EN, Untertitel, „estimate“ sichtbar",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 21.03. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
+     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 23.05. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
      "check": "Kein Streichpreis, keine fremden Marken, Schätzung gekennzeichnet, Preissatz von der Hotline geprüft, Sperrwoche ohne Ernte-Bild."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Post planen"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel planen"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Post planen"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel planen"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    },
    {
@@ -407,8 +559,16 @@
     ],
     "f": "der Abend stattgefunden hat und Gäste, Anmeldungen mit ref-stick und Zusagen im Blatt „Abende“ stehen.",
     "o": [
-     {"n": "Ort vom 05.11.: bei dir oder Kunstraum Heartspace", "a": "Danziger Str. 172", "h": "Bestätigung vom 05.11. prüfen, Zugang ab 17:45"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Abende“ und „Die ersten 35“"}
+     {
+      "n": "Ort vom 05.11.: bei dir oder Kunstraum Heartspace",
+      "a": "Danziger Str. 172",
+      "h": "Bestätigung vom 05.11. prüfen, Zugang ab 17:45"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Abende“ und „Die ersten 35“"
+     }
     ]
    },
    {
@@ -423,7 +583,11 @@
     ],
     "f": "um 21:00 aufgeräumt ist und alle Zusagen im Blatt stehen.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    }
   ],
@@ -445,7 +609,11 @@
     ],
     "f": "die Versandzone(n) mit Preis gespeichert sind und die Wahl DE oder DE + EU zur Entscheidung vom 07.11. passt.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Versand und Zustellung"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Versand und Zustellung"
+     }
     ]
    },
    {
@@ -457,13 +625,27 @@
      "Vorher prüfen: Holy Shit Shopping im CANK, Karl-Marx-Straße, Neukölln, 28.–29.11. laut berlin.de. Datum, Öffnung und Eintritt auf der offiziellen Seite nachsehen.",
      "Als Besucher hingehen, nicht verkaufen. 10 Designer ansprechen: „Wie bewirbt man sich hier, und was kostet ein Stand?“ Antworten ins Blatt „Berlin“.",
      "Keine Fotos für Posts heute, kein Post (Gedenktag). Notizen reichen.",
-     "Danach Sing Blackbird, Sanderstr. 11: nach der Mail vom 18.11. fragen, Termine 12.01., 16.01., 23.01., 13.03. Öffnung vorher prüfen."
+     "Danach Sing Blackbird, Sanderstr. 11: nach der Mail vom 18.11. fragen, Termine 12.01., 16.01., 30.01., 15.05. Öffnung vorher prüfen."
     ],
     "f": "10 Antworten zu Bewerbung und Standpreis im Blatt „Berlin“ stehen und Sing Blackbird nachgefasst ist.",
     "o": [
-     {"n": "Holy Shit Shopping (berlin.de)", "u": "https://www.berlin.de/weihnachtsmarkt/2208886-3496862-holy-shit-shopping.html", "a": "CANK, Karl-Marx-Straße, Neukölln · 28.–29.11.", "h": "vor Ort prüfen"},
-     {"n": "Holy Shit Shopping", "u": "https://www.holyshitshopping.de/", "h": "Bewerbung und Termine prüfen"},
-     {"n": "Sing Blackbird", "u": "https://www.top10berlin.de/de/cat/shopping-271/vintage-mode-3141/sing-blackbird-vintage-5580", "a": "Sanderstr. 11, Neukölln", "h": "Öffnung vorher prüfen"}
+     {
+      "n": "Holy Shit Shopping (berlin.de)",
+      "u": "https://www.berlin.de/weihnachtsmarkt/2208886-3496862-holy-shit-shopping.html",
+      "a": "CANK, Karl-Marx-Straße, Neukölln · 28.–29.11.",
+      "h": "vor Ort prüfen"
+     },
+     {
+      "n": "Holy Shit Shopping",
+      "u": "https://www.holyshitshopping.de/",
+      "h": "Bewerbung und Termine prüfen"
+     },
+     {
+      "n": "Sing Blackbird",
+      "u": "https://www.top10berlin.de/de/cat/shopping-271/vintage-mode-3141/sing-blackbird-vintage-5580",
+      "a": "Sanderstr. 11, Neukölln",
+      "h": "Öffnung vorher prüfen"
+     }
     ]
    }
   ],
@@ -483,10 +665,22 @@
     "f": "die Cockpit-Zahlen eingetragen, alle Gates geprüft, die Reservierung A oder B entschieden ist und Claude die Zeile hat.",
     "p": "Projekt Time Travel, Docket W11, So 29.11. W11: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Stick-Abend [Gäste]/10, Anmeldungen ref-stick [n]. Proto-Versand: [Datum]. Reservierung: Option [A/B]. Rechtstexte live: [ja/nein]. Payments verifiziert: [ja/nein]. Offen aus W11: [..]. Sag mir, welches Gate greift und was ich in W12 anders mache. Schreib mir außerdem die Reservierungsseite „Platz in der ersten Stunde sichern“ als Text für Option [A/B].",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segment „E-Mail-Abonnenten“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com"},
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segment „E-Mail-Abonnenten“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -501,7 +695,11 @@
     ],
     "f": "im Blatt „Gates“ für den 29.11. Option A oder B, Payments-Status und Rechtstexte-Status stehen.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Einstellungen → Zahlungen, Richtlinien"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Zahlungen, Richtlinien"
+     }
     ]
    },
    {
@@ -515,7 +713,11 @@
     ],
     "f": "der Kanal angelegt ist und die erste Nachricht als Entwurf für Mo 30.11. bereitliegt.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal in der App anlegen"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Broadcast-Kanal in der App anlegen"
+     }
     ]
    },
    {
@@ -550,7 +752,10 @@
      "check": "Kein Produktbild vor dem 03.12., Trackingnummer verpixelt, CTA der Phase."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -583,7 +788,10 @@
      "check": "Kein Mockup, kein Rendering, nur Papier, CTA der Phase."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -620,7 +828,10 @@
      "check": "Reihenfolge A · E · C · D · B2, nur Papier, Post erst nach der Sperrwoche am 02.12."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    },
    {
@@ -656,7 +867,10 @@
      "check": "Erst ab Do 03.12. erlaubt, klar als „prototype“ gekennzeichnet, Fabrik nur mit Erlaubnis."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ]
    }
   ]

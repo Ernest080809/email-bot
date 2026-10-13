@@ -76,7 +76,7 @@ Prüfen: python3 rev6/build/check_week.py N  → muss „0 Fehler“ melden.
 
 RULES_HEAD = """# Regeln für die Wochen-Autoren · Docket Rev. 6
 
-Du schreibst Tage des „Time Travel Drop Docket“ für Ernest Veskimäe (Novalife, Denim, Berlin). Drop Do 22.04.2027, 19:00.
+Du schreibst Tage des „Time Travel Drop Docket“ für Ernest Veskimäe (Novalife, Denim, Berlin). Drop Do 24.06.2027, 19:00.
 Ziel 10.000 € Umsatz (64 Jeans netto, 72 brutto). Heute ist Mi 07.10.2026. Ernest liest jeden Tag oben „Heute“ und arbeitet die Aufgaben ab.
 Er will es so detailliert, dass er nie nachdenken muss: was er tut, wohin er geht, welches Video er dreht, mit Links.
 

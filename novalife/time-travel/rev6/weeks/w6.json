@@ -3,13 +3,34 @@
  "phase": "P1",
  "goal": "Angebote vergleichen, drei Calls, Papiertest-Abend als erster Wärme-Moment",
  "kpi": [
-  {"k": "Warteliste", "ziel": "90 bestätigt (Alarm 30)"},
-  {"k": "Follower TikTok + IG neu seit 12.10.", "ziel": "~270 (Schätzung: 3 je Anmeldung)"},
-  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Zusagen „Die ersten 35“", "ziel": "5 (Name, Größe, „ich bestelle am 14.01.“)"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "Angebote", "ziel": "≥ 3 mit Preis bei 75 und 100 Stück"},
-  {"k": "Gespräche", "ziel": "≥ 6 von 10"}
+  {
+   "k": "Warteliste",
+   "ziel": "90 bestätigt (Alarm 30)"
+  },
+  {
+   "k": "Follower TikTok + IG neu seit 12.10.",
+   "ziel": "~270 (Schätzung: 3 je Anmeldung)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“",
+   "ziel": "5 (Name, Größe, „ich bestelle am 14.01.“)"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  },
+  {
+   "k": "Angebote",
+   "ziel": "≥ 3 mit Preis bei 75 und 100 Stück"
+  },
+  {
+   "k": "Gespräche",
+   "ziel": "≥ 6 von 10"
+  }
  ],
  "days": {
   "2026-10-19": [
@@ -22,16 +43,26 @@
      "Prompt unten in einen neuen Chat im Projekt „novalife time travel“ kopieren, Anhänge dazu, deinen Steuerstand vom 13.10. eintragen, abschicken.",
      "Claude rechnet je Angebot den Fabrikpreis je Paar inklusive Stickerei, ohne Patch D, in Euro, bei 100 und bei 75 Stück.",
      "Ampel je Angebot: ≤ 60 € grün · 61–63 € gelb (Puffer schrumpft auf 1–2 Paar, Stufe 2 wird Pflicht) · über 63 € rot (Gegenrechnung: V4b, 75 Stück, andere Fabrik).",
-     "Schwellen je Angebot mit und ohne 1.150 € Einfuhrumsatzsteuer (nur Türkei), bei 100 und bei 75 Stück. Plan heute: 10 ausgezahlt bis Mo 01.02., 32 bis Di 16.03.",
+     "Schwellen je Angebot mit und ohne 1.150 € Einfuhrumsatzsteuer (nur Türkei), bei 100 und bei 75 Stück. Plan heute: 10 ausgezahlt bis Mo 15.02., 32 bis Di 18.05.",
      "Sofort raus: keine Panel-Stickerei im eigenen Haus oder Vermittler ohne genannte Fabrik. Preis nicht in Euro: nachfragen, nicht schätzen.",
      "Ergebnis ins Blatt „Fabriken“: Spalten Preis 100, Preis 75, Ampel, Schwelle 1, Schwelle 2. Top 3 farbig markieren."
     ],
     "f": "Fertig, wenn jedes Angebot im Blatt „Fabriken“ eine Ampel und zwei Schwellen hat und die Top 3 markiert sind.",
-    "p": "Projekt Time Travel, Docket W6, Mo 19.10.: Ich vergleiche die Antworten der Fabriken auf meine RFQ vom 12.10. (NVL-TT-01, 100 Jeans mit Stickerei auf dem Zuschnitt). Anbei alle Mails und PDFs: [ANHÄNGE]. Mein Steuerstand nach dem Termin vom 13.10.: [STEUERSTAND]. 1) Bau eine Vergleichstabelle, eine Zeile je Fabrik, Spalten: die 15 RFQ-Fragen plus Preis bei 75 und 100 Stück, Preis je 1.000 Stiche, Fadenschnitte und Farbwechsel, DDP und DAP Berlin, Währung, Betriebsferien, Patch D im Haus, REACH, Arbeitszeit im Ramadan, Feiertage bis April. 2) Markiere Ausschlüsse: keine Panel-Stickerei im eigenen Haus oder Vermittler ohne genannte Fabrik. 3) Rechne je Angebot den Fabrikpreis je Paar inklusive Stickerei, ohne Patch D, in Euro bei 100 und bei 75 Stück und gib die Ampel: ≤ 60 € grün, 61–63 € gelb, über 63 € rot. 4) Rechne je Angebot Schwelle 1 (Plan: 10 ausgezahlt bis Mo 01.02.) und Schwelle 2 (Plan: 32 bis Di 16.03.) bei 100 und 75 Stück, je ohne und mit 1.150 € Einfuhrumsatzsteuer (nur Türkei). Rechenweg aus meinem Cash-Plan: Schwelle 1 = (1.400 € + Mehrkosten) ÷ 146 €, Schwelle 2 = (4.650 € + Mehrkosten) ÷ 146 €; für 75 Stück die Fabrikrechnung mit 75 Paar neu ansetzen. Fehlt eine Angabe, schreib „fehlt“, nicht schätzen. 5) Gib mir die Top 3 mit Begründung und je Fabrik die Fragen, die ich in den Calls am 21.–23.10. klären muss.",
+    "p": "Projekt Time Travel, Docket W6, Mo 19.10.: Ich vergleiche die Antworten der Fabriken auf meine RFQ vom 12.10. (NVL-TT-01, 100 Jeans mit Stickerei auf dem Zuschnitt). Anbei alle Mails und PDFs: [ANHÄNGE]. Mein Steuerstand nach dem Termin vom 13.10.: [STEUERSTAND]. 1) Bau eine Vergleichstabelle, eine Zeile je Fabrik, Spalten: die 15 RFQ-Fragen plus Preis bei 75 und 100 Stück, Preis je 1.000 Stiche, Fadenschnitte und Farbwechsel, DDP und DAP Berlin, Währung, Betriebsferien, Patch D im Haus, REACH, Arbeitszeit im Ramadan, Feiertage bis Mitte Mai. 2) Markiere Ausschlüsse: keine Panel-Stickerei im eigenen Haus oder Vermittler ohne genannte Fabrik. 3) Rechne je Angebot den Fabrikpreis je Paar inklusive Stickerei, ohne Patch D, in Euro bei 100 und bei 75 Stück und gib die Ampel: ≤ 60 € grün, 61–63 € gelb, über 63 € rot. 4) Rechne je Angebot Schwelle 1 (Plan: 10 ausgezahlt bis Mo 15.02.) und Schwelle 2 (Plan: 32 bis Di 18.05.) bei 100 und 75 Stück, je ohne und mit 1.150 € Einfuhrumsatzsteuer (nur Türkei). Rechenweg aus meinem Cash-Plan: Schwelle 1 = (1.400 € + Mehrkosten) ÷ 146 €, Schwelle 2 = (4.650 € + Mehrkosten) ÷ 146 €; für 75 Stück die Fabrikrechnung mit 75 Paar neu ansetzen. Fehlt eine Angabe, schreib „fehlt“, nicht schätzen. 5) Gib mir die Top 3 mit Begründung und je Fabrik die Fragen, die ich in den Calls am 21.–23.10. klären muss.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com", "h": "Suche „NVL-TT-01“"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com",
+      "h": "Suche „NVL-TT-01“"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -47,8 +78,16 @@
     "f": "Fertig, wenn der Prompt mit allen MEK-Notizen, Fotos und Objektnummern abgeschickt ist.",
     "p": "Projekt Time Travel, Docket W6, Mo 19.10.: Bau mir die Belegtabelle v1.0 zur Drei-von-vier-Regel (Spec 3.2: Ein Motiv kommt nur ins Design, wenn es in mindestens drei der vier Traditionen Belarus, Polen, Russland, Ukraine belegt ist). Anbei meine Notizen, Fotos und Objektnummern aus dem Museum Europäischer Kulturen vom 17.10. und die Tabelle v0.1 vom 13.10.: [ANHÄNGE]. Je Motiv (Raute, Achtstern, Zickzack, Lebensbaum) eine Zeile je Beleg mit: Quelle (Museum und Objektnummer, Buch mit Seite oder Link), Region, Tradition, Bedeutung laut Quelle, Abbildung (Dateiname meines Fotos). Markiere je Motiv „3 von 4 belegt: ja/nein“ und kennzeichne Sekundärquellen. Beim Lebensbaum gilt Ausnahme D: Das Motiv muss belegt sein, die Ausführung folgt einer eigenen Vorlage (Klärung am 20.10.). Schreib am Ende, welche Videos damit erlaubt sind: V005 (Regel), V011 (Achtstern), V014 (Lebensbaum), V015 (Zickzack), V108–V112. Erfinde keine Quellen; was fehlt, schreibst du als Lücke.",
     "o": [
-     {"n": "Museum Europäischer Kulturen (MEK)", "u": "https://www.berlin.de/museum/3108962-2926344-museum-europaeischer-kulturen.html", "a": "Arnimallee 25, Dahlem", "h": "Quelle der Objektnummern; Fotos nur, wenn erlaubt"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Museum Europäischer Kulturen (MEK)",
+      "u": "https://www.berlin.de/museum/3108962-2926344-museum-europaeischer-kulturen.html",
+      "a": "Arnimallee 25, Dahlem",
+      "h": "Quelle der Objektnummern; Fotos nur, wenn erlaubt"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -63,9 +102,18 @@
     ],
     "f": "Fertig, wenn alle ersten „Ja“ einzeln eingeladen sind und die Einladungen im Blatt „Netz“ stehen.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Netz“", "u": "https://sheets.google.com"},
-     {"n": "WhatsApp Web", "u": "https://web.whatsapp.com"},
-     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Netz“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "WhatsApp Web",
+      "u": "https://web.whatsapp.com"
+     },
+     {
+      "n": "Instagram (DMs)",
+      "u": "https://www.instagram.com"
+     }
     ]
    },
    {
@@ -82,10 +130,25 @@
     ],
     "f": "Fertig, wenn V004 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Musik nur aus der Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
-     {"n": "YouTube Studio", "u": "https://studio.youtube.com", "h": "Short, Titel = Hook EN"},
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Musik nur aus der Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel, Probe-Reel, Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube Studio",
+      "u": "https://studio.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V004",
@@ -125,10 +188,22 @@
     ],
     "f": "Fertig, wenn drei Anfragen raus sind und bis Mi 09:00 drei Termine (Mi, Do, Fr) im Kalender stehen.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Google Kalender", "u": "https://calendar.google.com"},
-     {"n": "Google Meet", "u": "https://meet.google.com"},
-     {"n": "Zoom", "u": "https://zoom.us"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com"
+     },
+     {
+      "n": "Google Meet",
+      "u": "https://meet.google.com"
+     },
+     {
+      "n": "Zoom",
+      "u": "https://zoom.us"
+     }
     ]
    },
    {
@@ -145,8 +220,14 @@
     "f": "Fertig, wenn die Herkunft der Referenz im Blatt „Patches“ steht und feststeht, ob morgen V005 oder V120 läuft.",
     "p": "Projekt Time Travel, Docket W6, Di 20.10.: Die Vorlage für meinen Lebensbaum-Patch D stammt nicht von mir: [QUELLE, URHEBER]. Ich will auf 110 Patches kein fremdes Werk nachbilden. Zeichne eine eigene Fassung im Format 76 × 67 mm (Größe B, Freeze 11.10.), die meine Vorgaben aus Spec 3.8 erfüllt: Naturleinen, Stamm aus zehn verdrehten Strängen, Wurzeln im Kreis, Krone, Gold, Ocker, drei Brauntöne, Rot, Linien mindestens 0,8 mm, Einrollungen mindestens 2,5 mm. Aufbau und Details sollen klar von der Vorlage abweichen. Liefere SVG und ein Druckblatt 1:1 mit Maßlinie 100 mm und schreib mir in drei Sätzen, worin sich deine Fassung von der Vorlage unterscheidet. Ich brauche sie bis Di 27.10., die Patch-Anfrage geht am Mi 28.10. raus.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Patches“", "u": "https://sheets.google.com"},
-     {"n": "Google Lens", "h": "Rückwärtssuche in der Google-App oder im Chrome-Browser"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Patches“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Google Lens",
+      "h": "Rückwärtssuche in der Google-App oder im Chrome-Browser"
+     }
     ]
    },
    {
@@ -160,7 +241,10 @@
     ],
     "f": "Fertig, wenn die Farbe im Blatt „Sticker“ steht.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Sticker“", "u": "https://sheets.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Sticker“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -175,7 +259,10 @@
     "f": "Fertig, wenn der Prompt mit den Teppich-Fotos abgeschickt ist.",
     "p": "Projekt Time Travel, Docket W6, Di 20.10.: Zeichne die Bänder für Zipper und Polo im selben 1,33-mm-Kreuzstichraster wie Band A, in Rot und Weiß auf [FARBE, z. B. Navy]: Zipper 2 × 25 mm × ca. 25 cm, gespiegelt an der Zip-Leiste; Polo 2 × 20 mm × ca. 12 cm an der Knopfleiste. Dazu das Teppich-Medaillon für den Zipper-Rücken, ca. 200 × 150 mm, aus meinen Teppich-Fotos: [ANHÄNGE]. Aufbau wie der Wandteppich: zentrales Medaillon, umlaufender Rahmen, Eckmotive, gebaut aus den Motiven der Drei-von-vier-Regel (Raute, Achtstern, Zickzack), keine Haken- oder Drehformen. Weiß in jedem Element. Keine Streifen in Rot-Schwarz, Blau-Gelb, Rot-Grün, Orange-Schwarz oder Weiß-Rot-Weiß. Liefere je Teil ein SVG und ein Druckblatt 1:1 mit Maßlinie 100 mm und schätze die Stichzahl je Teil.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -190,7 +277,11 @@
     ],
     "f": "Fertig, wenn Story 3 mit Umfrage-Sticker online ist.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Umfrage- und Link-Sticker"
+     }
     ],
     "v": {
      "id": "Story 3",
@@ -225,7 +316,10 @@
     ],
     "f": "Fertig, wenn G3 und G4 vollständig im Blatt „Gespräche“ stehen und jedes Ja im Blatt „Die ersten 35“.",
     "o": [
-     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -239,9 +333,18 @@
     ],
     "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -257,9 +360,20 @@
     ],
     "f": "Fertig, wenn V109 oder die Variante auf TikTok und Instagram online ist.",
     "o": [
-     {"n": "Canva", "u": "https://www.canva.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Photo Mode"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Karussell"}
+     {
+      "n": "Canva",
+      "u": "https://www.canva.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Photo Mode"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Karussell"
+     }
     ],
     "v": {
      "id": "V109",
@@ -297,7 +411,10 @@
     ],
     "f": "Fertig, wenn feststeht, ob heute V005 oder V120 läuft, und das im Blatt „Content“ steht.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Content“", "u": "https://sheets.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Content“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -308,15 +425,22 @@
      "10 Min. vorher: Call-Leitfaden ausdrucken (Referenz → Vorlagen). Angebot der Fabrik und Claudes offene Fragen vom Mo daneben.",
      "Per Kamera zeigen lassen: Stickmaschinen (Köpfe, Nadeln), Wäscherei, Laser und eine Panel-Stickerei aus einer früheren Produktion.",
      "Fragen: Einzug-Kompensation (wer sie nicht versteht, ist raus) · Preis bei 75 und 100 · 50/50 · Patch D im Haus auf Leinen? · Betriebsferien · Proto bis 30.11., PP bis 04.01.?",
-     "Neu: Arbeitszeit im Ramadan (nach lokaler Rechnung ca. 08.02.–09.03.2027, ungeprüft) und Fest 08.–11.03. · Feiertage bis April (Türkei 28.10. nachmittags und 29.10., Portugal 01.12. und 08.12., alles ungeprüft, von der Fabrik bestätigen lassen).",
+     "Neu: Arbeitszeit im Ramadan (nach lokaler Rechnung ca. 08.02.–09.03.2027, ungeprüft) und Fest 10.–13.05. · Feiertage bis Mitte Mai (Türkei 28.10. nachmittags und 29.10., Portugal 01.12. und 08.12., alles ungeprüft, von der Fabrik bestätigen lassen).",
      "Nur Türkei: Kommt jede Sendung mit A.TR, Handelsrechnung und Packliste, auch Proto und PP?",
      "Direkt danach je 1–5 bewerten: Stickerei-Kompetenz, Kommunikation, Preis, Termine, Bauchgefühl. Notizen mit dem Prompt unten ins Blatt „Fabriken“."
     ],
     "f": "Fertig, wenn Notizen und die fünf Bewertungen von Call 1 im Blatt „Fabriken“ stehen.",
-    "p": "Projekt Time Travel, Docket W6, Call 1 mit [FABRIK]: Hier sind meine Stichpunkte aus dem Call: [NOTIZEN]. Mach daraus eine Zeile für mein Blatt „Fabriken“: Panel-Stickerei im Haus (gezeigt ja/nein), Einzug-Kompensation (verstanden ja/nein, Antwort), Preis bei 75 und 100 in Euro, Zahlung, Patch D im Haus, Betriebsferien, Arbeitszeit im Ramadan, Feiertage bis April, A.TR, Termine Proto und PP, Ansprechpartner und Kanal, meine Bewertung 1–5 je Kriterium: [BEWERTUNG]. Darunter: was noch offen ist und was ich schriftlich nachfordern muss.",
+    "p": "Projekt Time Travel, Docket W6, Call 1 mit [FABRIK]: Hier sind meine Stichpunkte aus dem Call: [NOTIZEN]. Mach daraus eine Zeile für mein Blatt „Fabriken“: Panel-Stickerei im Haus (gezeigt ja/nein), Einzug-Kompensation (verstanden ja/nein, Antwort), Preis bei 75 und 100 in Euro, Zahlung, Patch D im Haus, Betriebsferien, Arbeitszeit im Ramadan, Feiertage bis Mitte Mai, A.TR, Termine Proto und PP, Ansprechpartner und Kanal, meine Bewertung 1–5 je Kriterium: [BEWERTUNG]. Darunter: was noch offen ist und was ich schriftlich nachfordern muss.",
     "o": [
-     {"n": "Google Kalender", "u": "https://calendar.google.com", "h": "Call-Link im Termin"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com",
+      "h": "Call-Link im Termin"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -331,7 +455,10 @@
     ],
     "f": "Fertig, wenn G5 vollständig im Blatt „Gespräche“ steht.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Gespräche“", "u": "https://sheets.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Gespräche“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -348,10 +475,24 @@
     ],
     "f": "Fertig, wenn V005 oder V120 auf allen drei Plattformen online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel + Story mit Link-Sticker"},
-     {"n": "YouTube Studio", "u": "https://studio.youtube.com"},
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel + Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube Studio",
+      "u": "https://studio.youtube.com"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V005",
@@ -384,13 +525,20 @@
     "s": [
      "Gleicher Call-Leitfaden wie gestern, gleiche Reihenfolge, damit du vergleichen kannst (Referenz → Vorlagen).",
      "Per Kamera: Stickmaschinen, Wäscherei, Laser, eine frühere Panel-Stickerei.",
-     "Fragen: Einzug-Kompensation · Preis 75/100 · 50/50 · Patch D im Haus? · Betriebsferien · Proto 30.11., PP 04.01.? · Ramadan-Arbeitszeit (ca. 08.02.–09.03.2027, ungeprüft) · Feiertage bis April · nur Türkei: A.TR für jede Sendung, auch Proto und PP.",
+     "Fragen: Einzug-Kompensation · Preis 75/100 · 50/50 · Patch D im Haus? · Betriebsferien · Proto 30.11., PP 04.01.? · Ramadan-Arbeitszeit (ca. 08.02.–09.03.2027, ungeprüft) · Feiertage bis Mitte Mai · nur Türkei: A.TR für jede Sendung, auch Proto und PP.",
      "Direkt danach je 1–5 bewerten und mit dem Prompt von Call 1 ins Blatt „Fabriken“."
     ],
     "f": "Fertig, wenn Notizen und Bewertung von Call 2 im Blatt „Fabriken“ stehen.",
     "o": [
-     {"n": "Google Kalender", "u": "https://calendar.google.com", "h": "Call-Link im Termin"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com",
+      "h": "Call-Link im Termin"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -406,10 +554,24 @@
     ],
     "f": "Fertig, wenn die Bestellung bestätigt ist und der Beleg im Blatt „Ausgaben“ liegt.",
     "o": [
-     {"n": "AS Colour Europa", "u": "https://ascolour.eu", "h": "Domain aus der Recherche, Existenz ungeprüft: Link öffnen und prüfen"},
-     {"n": "Stanley/Stella", "u": "https://www.stanleystella.com", "h": "verkauft laut Recherche B2B, eventuell nur über Händler; ungeprüft"},
-     {"n": "L-Shop-Team (Unna)", "h": "Großhändler für mehrere Blanks-Marken; Gewerbenachweis und Mindestbestellwert prüfen"},
-     {"n": "Tracking-Tabelle · Blätter „Ausgaben“ und „Sticker“", "u": "https://sheets.google.com"}
+     {
+      "n": "AS Colour Europa",
+      "u": "https://ascolour.eu",
+      "h": "Domain aus der Recherche, Existenz ungeprüft: Link öffnen und prüfen"
+     },
+     {
+      "n": "Stanley/Stella",
+      "u": "https://www.stanleystella.com",
+      "h": "verkauft laut Recherche B2B, eventuell nur über Händler; ungeprüft"
+     },
+     {
+      "n": "L-Shop-Team (Unna)",
+      "h": "Großhändler für mehrere Blanks-Marken; Gewerbenachweis und Mindestbestellwert prüfen"
+     },
+     {
+      "n": "Tracking-Tabelle · Blätter „Ausgaben“ und „Sticker“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -427,8 +589,14 @@
     "f": "Fertig, wenn 12 Sätze in 100 % gedruckt und gemessen sind und 12 QR-Zettel bereitliegen.",
     "p": "Projekt Time Travel, Docket W6, Do 22.10.: Erzeuge mir einen QR-Code als PNG (mindestens 600 × 600 px) für diesen Link: https://[DEINE-DOMAIN]/?utm_source=qr&ref=papier. Lege ihn 12-mal auf ein A4-PDF, 3 × 4 Zettel mit Schnittlinien. Unter jeden Code der Satz: „Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ Prüf, dass der Code genau diesen Link enthält.",
     "o": [
-     {"n": "Copyshop in deiner Nähe", "h": "„100 %, nicht anpassen“, Kosten vor Ort prüfen"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Copyshop in deiner Nähe",
+      "h": "„100 %, nicht anpassen“, Kosten vor Ort prüfen"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -443,7 +611,11 @@
     ],
     "f": "Fertig, wenn Story 4 mit Umfrage online ist.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Umfrage- und Link-Sticker"
+     }
     ],
     "v": {
      "id": "Story 4",
@@ -474,9 +646,18 @@
     ],
     "f": "Fertig, wenn 5 Kommentare geschrieben und alle DMs beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Tracking-Tabelle", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Tracking-Tabelle",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -492,9 +673,19 @@
     ],
     "f": "Fertig, wenn V116 auf TikTok und Instagram online ist.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Sound aus der Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Sound aus der Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ],
     "v": {
      "id": "V116",
@@ -526,13 +717,20 @@
     "s": [
      "Gleicher Call-Leitfaden, gleiche Reihenfolge (Referenz → Vorlagen).",
      "Per Kamera: Stickmaschinen, Wäscherei, Laser, eine frühere Panel-Stickerei.",
-     "Fragen: Einzug-Kompensation · Preis 75/100 · 50/50 · Patch D im Haus? · Betriebsferien · Proto 30.11., PP 04.01.? · Ramadan-Arbeitszeit (ca. 08.02.–09.03.2027, ungeprüft) · Feiertage bis April · nur Türkei: A.TR für jede Sendung, auch Proto und PP.",
+     "Fragen: Einzug-Kompensation · Preis 75/100 · 50/50 · Patch D im Haus? · Betriebsferien · Proto 30.11., PP 04.01.? · Ramadan-Arbeitszeit (ca. 08.02.–09.03.2027, ungeprüft) · Feiertage bis Mitte Mai · nur Türkei: A.TR für jede Sendung, auch Proto und PP.",
      "Direkt danach je 1–5 bewerten und mit dem Prompt von Call 1 ins Blatt „Fabriken“. Jetzt stehen alle drei nebeneinander."
     ],
     "f": "Fertig, wenn Notizen und Bewertung von Call 3 im Blatt „Fabriken“ stehen.",
     "o": [
-     {"n": "Google Kalender", "u": "https://calendar.google.com", "h": "Call-Link im Termin"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com",
+      "h": "Call-Link im Termin"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -545,10 +743,16 @@
      "Claudes neue Zahlen ins Blatt „Kasse“: Kapitalbedarf, Schwelle 1, Schwelle 2a, Schwelle 2b, Rücklage Steuer (R)."
     ],
     "f": "Fertig, wenn die neuen Schwellen im Blatt „Kasse“ stehen oder das Gate unten greift.",
-    "p": "Projekt Time Travel, Docket W6, Fr 23.10.: Hier ist die schriftliche Antwort meines Steuerberaters: [TEXT ODER PDF]. Rechne mit meinem Plan neu: Kapitalbedarf 9.380 €, Eigenbudget 4.500 €, netto je Vorbestellung ~146 €, Schwelle 1 = 10 ausgezahlt bis Mo 01.02., Schwelle 2a = 32 bis Di 16.03., Schwelle 2b = +8 bis Mi 24.03. nur bei Türkei mit DAP (1.150 € Einfuhrumsatzsteuer). Sag mir: 1) Fällt bei mir Einfuhrumsatzsteuer an, wann und in welcher Höhe (Schätzung kennzeichnen)? 2) Neuer Kapitalbedarf und neue Schwellen bei Türkei und bei Portugal. 3) Wird Stufe 2 Pflicht? 4) Was muss in die Spalte „Steuer“ der Fabrik-Scorecard am Mo 26.10.? Keine Rechtsberatung, nur Rechnung mit meinen Zahlen.",
+    "p": "Projekt Time Travel, Docket W6, Fr 23.10.: Hier ist die schriftliche Antwort meines Steuerberaters: [TEXT ODER PDF]. Rechne mit meinem Plan neu: Kapitalbedarf 9.380 €, Eigenbudget 4.500 €, netto je Vorbestellung ~146 €, Schwelle 1 = 10 ausgezahlt bis Mo 15.02., Schwelle 2a = 32 bis Di 18.05., Schwelle 2b = +8 bis Mi 26.05. nur bei Türkei mit DAP (1.150 € Einfuhrumsatzsteuer). Sag mir: 1) Fällt bei mir Einfuhrumsatzsteuer an, wann und in welcher Höhe (Schätzung kennzeichnen)? 2) Neuer Kapitalbedarf und neue Schwellen bei Türkei und bei Portugal. 3) Wird Stufe 2 Pflicht? 4) Was muss in die Spalte „Steuer“ der Fabrik-Scorecard am Mo 26.10.? Keine Rechtsberatung, nur Rechnung mit meinen Zahlen.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Kasse“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -557,14 +761,21 @@
     "m": 5,
     "s": [
      "Ja: Die neuen Schwellen gelten ab heute, die Steuer-Spalte geht in die Scorecard am Mo 26.10.",
-     "Nein: Bis auf Weiteres planst du mit 1.150 €. Stufe 2 wird Pflicht (Schwelle 2b: 40 ausgezahlt bis Mi 24.03.).",
+     "Nein: Bis auf Weiteres planst du mit 1.150 €. Stufe 2 wird Pflicht (Schwelle 2b: 40 ausgezahlt bis Mi 26.05.).",
      "Nein: heute Nachfass-Mail an den Steuerberater mit Frist. Ohne Antwort: IHK-Gründungsberatung anfragen.",
      "Ergebnis mit Datum ins Blatt „Kasse“, Zeile „Steuer“."
     ],
     "f": "Fertig, wenn im Blatt „Kasse“ steht, ob mit oder ohne 1.150 € geplant wird.",
     "o": [
-     {"n": "IHK Berlin · Gründungsberatung", "u": "https://www.ihk.de/berlin", "h": "Angebot und Termin selbst prüfen (ungeprüft)"},
-     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+     {
+      "n": "IHK Berlin · Gründungsberatung",
+      "u": "https://www.ihk.de/berlin",
+      "h": "Angebot und Termin selbst prüfen (ungeprüft)"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Kasse“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -580,10 +791,24 @@
     ],
     "f": "Fertig, wenn V006 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
-     {"n": "YouTube Studio", "u": "https://studio.youtube.com"},
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel, Probe-Reel, Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube Studio",
+      "u": "https://studio.youtube.com"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V006",
@@ -620,9 +845,18 @@
     ],
     "f": "Fertig, wenn 6 Nachrichten raus sind und im Blatt „Fabriken“ vermerkt.",
     "o": [
-     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"},
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "Instagram (DMs)",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -640,9 +874,20 @@
     ],
     "f": "Fertig, wenn mindestens 10 Gäste da waren, ihre Anmeldungen mit ref-papier in Shopify stehen und G6, G7 im Blatt „Gespräche“ sind.",
     "o": [
-     {"n": "Ort: bei dir oder bei einem Freund", "a": "[ADRESSE] · Sa 24.10., 18:00–19:30, offen bis 20:30", "h": "kostet nichts"},
-     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Anmeldungen mit ref-papier prüfen"},
-     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "Ort: bei dir oder bei einem Freund",
+      "a": "[ADRESSE] · Sa 24.10., 18:00–19:30, offen bis 20:30",
+      "h": "kostet nichts"
+     },
+     {
+      "n": "Shopify-Admin · Kunden",
+      "u": "https://admin.shopify.com",
+      "h": "Anmeldungen mit ref-papier prüfen"
+     },
+     {
+      "n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -658,7 +903,10 @@
     ],
     "f": "Fertig, wenn der Abend vorbei ist und alle Clips im Ordner liegen.",
     "o": [
-     {"n": "Ort: bei dir oder bei einem Freund", "a": "[ADRESSE] · bis 20:30"}
+     {
+      "n": "Ort: bei dir oder bei einem Freund",
+      "a": "[ADRESSE] · bis 20:30"
+     }
     ]
    }
   ],
@@ -678,10 +926,25 @@
     "f": "Fertig, wenn die Blätter „Warteliste“, „Content“, „Kasse“ und das Cockpit aktuell sind und die Zeile an Claude raus ist.",
     "p": "Projekt Time Travel, Docket W6, Wochenreview So 25.10.: W6: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Anmeldungen nach Quellen-Tag: [ref-netz …, ref-papier …, src- …]. Offen aus W6: [LISTE]. Prüf mit diesen Zahlen die Sonntags-Gates G1–G9 und G12 aus strategie.md 7.1, sag mir, welche greifen und was ich diese Woche konkret tue, und schieb das Offene sinnvoll in W7.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente; Analysen"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analytics"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights"},
-     {"n": "Tracking-Tabelle", "u": "https://sheets.google.com"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segmente; Analysen"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Analytics"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Insights"
+     },
+     {
+      "n": "Tracking-Tabelle",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -701,8 +964,14 @@
     "f": "Fertig, wenn jedes Gate mit Zahl und Maßnahme im Blatt „Warteliste“, Spalte „Gate W6“, steht.",
     "p": "Projekt Time Travel, Docket W6, Gate So 25.10.: Die beste Fabrik liegt bei [PREIS] € je Paar inklusive Stickerei, ohne Patch D, bei 100 Stück, also Ampel rot (über 63 €). Mach mir die Gegenrechnung für Schwelle 1 und Schwelle 2, heute und mit jeder Option einzeln und kombiniert: V4b (Münztasche offen, −3,30 bis −3,60 €/Paar), 75 statt 100 Stück, die zweitbeste Fabrik aus dem Vergleich ([FABRIK 2, PREIS]). Sag mir, welche Option die Schwellen am wenigsten verändert und was sie am Design kostet. Ich entscheide Mo 26.10.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Warteliste“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Warteliste“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -720,10 +989,25 @@
     ],
     "f": "Fertig, wenn 15 Kurzgespräche mit Code und 3 Standpreise im Blatt „Gespräche“ stehen.",
     "o": [
-     {"n": "Flohmarkt am Mauerpark", "u": "https://www.berlin.de/special/shopping/flohmaerkte/1998222-1724959-flohmarkt-am-mauerpark.html", "a": "Mauerpark, Prenzlauer Berg, an der Grenze zum Wedding (Eingang vor Ort prüfen) · sonntags, laut Sekundärquelle 10–18 Uhr", "h": "Öffnungszeit vor Ort prüfen; Stände laut berlin.de früh reservieren, Tel. (030) 2977 2486, Preis unbekannt"},
-     {"n": "Mauerpark, Öffnungszeiten (Sekundärquelle)", "u": "https://berlinecho.de/flohmarkt-mauerpark-oeffnungszeiten-berlin/"},
-     {"n": "Trödelmarkt Arkonaplatz", "a": "Arkonaplatz, Prenzlauer Berg · sonntags", "h": "kleiner Sonntagsmarkt laut Recherche, ungeprüft"},
-     {"n": "Tally-Umfrage", "u": "https://tally.so"}
+     {
+      "n": "Flohmarkt am Mauerpark",
+      "u": "https://www.berlin.de/special/shopping/flohmaerkte/1998222-1724959-flohmarkt-am-mauerpark.html",
+      "a": "Mauerpark, Prenzlauer Berg, an der Grenze zum Wedding (Eingang vor Ort prüfen) · sonntags, laut Sekundärquelle 10–18 Uhr",
+      "h": "Öffnungszeit vor Ort prüfen; Stände laut berlin.de früh reservieren, Tel. (030) 2977 2486, Preis unbekannt"
+     },
+     {
+      "n": "Mauerpark, Öffnungszeiten (Sekundärquelle)",
+      "u": "https://berlinecho.de/flohmarkt-mauerpark-oeffnungszeiten-berlin/"
+     },
+     {
+      "n": "Trödelmarkt Arkonaplatz",
+      "a": "Arkonaplatz, Prenzlauer Berg · sonntags",
+      "h": "kleiner Sonntagsmarkt laut Recherche, ungeprüft"
+     },
+     {
+      "n": "Tally-Umfrage",
+      "u": "https://tally.so"
+     }
     ]
    },
    {
@@ -739,8 +1023,15 @@
     ],
     "f": "Fertig, wenn V008_final.mp4 im Ordner „W7“ liegt.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "ohne Musik exportieren, 1080 × 1920"},
-     {"n": "Kurzwarenladen in deiner Nähe", "h": "Spule goldenes Polyestergarn, ca. 3 €"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "ohne Musik exportieren, 1080 × 1920"
+     },
+     {
+      "n": "Kurzwarenladen in deiner Nähe",
+      "h": "Spule goldenes Polyestergarn, ca. 3 €"
+     }
     ],
     "v": {
      "id": "V008",
@@ -778,8 +1069,14 @@
     ],
     "f": "Fertig, wenn V007_A und V007_B im Ordner „W7“ liegen und kein Name lesbar ist.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ],
     "v": {
      "id": "V007",
@@ -815,7 +1112,10 @@
     ],
     "f": "Fertig, wenn V009_A und V009_B im Ordner „W7“ liegen.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V009",

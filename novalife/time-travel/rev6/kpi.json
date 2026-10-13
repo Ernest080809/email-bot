@@ -127,7 +127,7 @@
   "pre_a": null,
   "gate": "Sa 05.12.: Proto und Fit",
   "mass": [
-   "Sa 05.12. nicht erfüllt → zweites Proto, Öffnung nach B-Zeitachse 1 (Do 21.01.)",
+   "Sa 05.12. nicht erfüllt → zweites Proto, Öffnung nach B-Zeitachse 1 (Do 28.01.)",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2"
   ]
@@ -160,7 +160,7 @@
   "zu_a": 15,
   "gate": "So 20.12.: Zusagen ≥ 15, Auszahlung geklärt, Stufe 2 entschieden, Patch bestellt",
   "mass": [
-   "So 20.12. nicht erfüllt → < 10 Zusagen: Ausgaben-Stopp, Proto-Runde verlängern · Auszahlung unklar: kein Start · Patch offen: Bestellung Mo 21.12., Fabrik über neue Patch-Frist Fr 29.01. informieren",
+   "So 20.12. nicht erfüllt → < 10 Zusagen: Ausgaben-Stopp, Proto-Runde verlängern · Auszahlung unklar: kein Start · Patch offen: Bestellung Mo 21.12., Fabrik über neue Patch-Frist Fr 05.02. informieren",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2"
   ]
@@ -206,7 +206,7 @@
   "pre_a": null,
   "gate": "Di 05.01.: PP freigegeben · So 10.01.: Zusagen ≥ 25",
   "mass": [
-   "Di 05.01. nicht erfüllt → Öffnung höchstens Do 21.01. (B-Zeitachse 1)",
+   "Di 05.01. nicht erfüllt → Öffnung höchstens Do 28.01. (B-Zeitachse 1)",
    "So 10.01. nicht erfüllt → alle „Vielleicht“ persönlich zum Mess-Abend 1",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2"
@@ -232,23 +232,35 @@
  {
   "d": "2027-01-24",
   "w": 19,
+  "wl": 1000,
+  "wl_a": 450,
+  "fo": 3000,
+  "zu": null,
+  "pre": 10,
+  "pre_a": 6,
+  "gate": "Aufholwoche: keine neuen Gates",
+  "mass": []
+ },
+ {
+  "d": "2027-01-31",
+  "w": 20,
   "wl": 1250,
   "wl_a": 520,
   "fo": 3750,
   "zu": null,
   "pre": 13,
   "pre_a": 8,
-  "gate": "So 24.01.: eigene Kaufquote (Vorbestellungen ÷ Liste 13.01.) · Mess-Abend 2b · Patches bei der Fabrik",
+  "gate": "So 31.01.: eigene Kaufquote (Vorbestellungen ÷ Liste 13.01.) · Mess-Abend 2b · Patches bei der Fabrik",
   "mass": [
-   "So 24.01. nicht erfüllt → 1,0–1,5 %: Mess-Abend 13.03. als Hauptereignis · < 1,0 %: Grind+-Ziel 3.390 wird Pflicht · Mess-Abend 2b am Mi 27.01. (Do 28.01. nur bei Auszahlung ≤ 2 Werktage), wenn am 13.01. < 60 Reservierungen + Zusagen oder Vorbestellungen unter Soll · Patches fehlen: Call und neue Rechnung für den Produktionsstart",
+   "So 31.01. nicht erfüllt → 1,0–1,5 %: Mess-Abend 15.05. als Hauptereignis · < 1,0 %: Grind+-Ziel 3.390 wird Pflicht · Mess-Abend 2b am Mi 03.02. (Do 04.02. nur bei Auszahlung ≤ 2 Werktage), wenn am 13.01. < 60 Reservierungen + Zusagen oder Vorbestellungen unter Soll · Patches fehlen: Call und neue Rechnung für den Produktionsstart",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
   ]
  },
  {
-  "d": "2027-01-31",
-  "w": 20,
+  "d": "2027-02-07",
+  "w": 21,
   "wl": 1500,
   "wl_a": 600,
   "fo": 4500,
@@ -263,53 +275,31 @@
   ]
  },
  {
-  "d": "2027-02-07",
-  "w": 21,
+  "d": "2027-02-14",
+  "w": 22,
+  "wl": 1500,
+  "wl_a": 600,
+  "fo": 4500,
+  "zu": null,
+  "pre": 16,
+  "pre_a": 10,
+  "gate": "Aufholwoche: keine neuen Gates",
+  "mass": []
+ },
+ {
+  "d": "2027-02-21",
+  "w": 23,
   "wl": 1700,
   "wl_a": 660,
   "fo": 5100,
   "zu": null,
   "pre": 18,
   "pre_a": 12,
-  "gate": "Mo 01.02.: Schwelle 1 + Mengenformel (ausgezahlt am 31.01. + 6 × Wochenrate W19–W20) · Fr 05.02.: Spiel · So 07.02.: PO bestätigt, Anzahlung bezahlt",
+  "gate": "Mo 15.02.: Schwelle 1 + Mengenformel (ausgezahlt am 07.02. + 6 × Wochenrate W19–W20) · Fr 19.02.: Spiel · So 21.02.: PO bestätigt, Anzahlung bezahlt",
   "mass": [
-   "Mo 01.02. nicht erfüllt → Schwelle erfüllt, Hochrechnung darunter → 75 Stück, Stufe 2 nur Nr. 036–045 · < 10 → 2 Wochen schieben (B-Zeitachse 2) · 7–9 → Notfall-Option Zipper-Vorbestellung",
-   "Fr 05.02. nicht erfüllt → streichen",
-   "So 07.02. nicht erfüllt → Call, Produktionsstart neu rechnen",
-   "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
-   "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
-   "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
-  ]
- },
- {
-  "d": "2027-02-14",
-  "w": 22,
-  "wl": 1900,
-  "wl_a": 720,
-  "fo": 5700,
-  "zu": null,
-  "pre": 20,
-  "pre_a": 14,
-  "gate": "So 14.02.: Stoff da (reserviert seit 06.01.)",
-  "mass": [
-   "So 14.02. nicht erfüllt → sofort Call",
-   "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
-   "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
-   "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
-  ]
- },
- {
-  "d": "2027-02-21",
-  "w": 23,
-  "wl": 2150,
-  "wl_a": 790,
-  "fo": 6450,
-  "zu": null,
-  "pre": 22,
-  "pre_a": 16,
-  "gate": "So 21.02.: Inline-Fotos 1",
-  "mass": [
-   "So 21.02. nicht erfüllt → Call, Liefertermin bestätigen lassen",
+   "Mo 15.02. nicht erfüllt → Schwelle erfüllt, Hochrechnung darunter → 75 Stück, Stufe 2 nur Nr. 036–045 · < 10 → 2 Wochen schieben (B-Zeitachse 2) · 7–9 → Notfall-Option Zipper-Vorbestellung",
+   "Fr 19.02. nicht erfüllt → streichen",
+   "So 21.02. nicht erfüllt → Call, Produktionsstart neu rechnen",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
@@ -318,15 +308,15 @@
  {
   "d": "2027-02-28",
   "w": 24,
-  "wl": 2400,
-  "wl_a": 850,
-  "fo": 7200,
+  "wl": 1900,
+  "wl_a": 720,
+  "fo": 5700,
   "zu": null,
-  "pre": 24,
-  "pre_a": 18,
-  "gate": "So 28.02.: ≥ 18 Vorbestellungen, Liste ≥ 850, Shopify-Email-Kontingent",
+  "pre": 20,
+  "pre_a": 14,
+  "gate": "So 28.02.: Stoff da (reserviert seit 06.01.)",
   "mass": [
-   "So 28.02. nicht erfüllt → Mail „Noch X von 35“, Brücke vorwarnen, Notfall-Option Zipper/Polo entscheiden · Kontingent zu klein: Preis ins Blatt „Kasse“ oder T−14 und T−7 nur an Abonnenten, die in 90 Tagen geöffnet oder geklickt haben",
+   "So 28.02. nicht erfüllt → sofort Call",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
@@ -335,15 +325,15 @@
  {
   "d": "2027-03-07",
   "w": 25,
-  "wl": 2450,
-  "wl_a": 880,
-  "fo": 7350,
+  "wl": 2150,
+  "wl_a": 790,
+  "fo": 6450,
   "zu": null,
-  "pre": 26,
-  "pre_a": 21,
-  "gate": "So 07.03.: Inline-Fotos 2, Steuer-Rücklage",
+  "pre": 22,
+  "pre_a": 16,
+  "gate": "So 07.03.: Inline-Fotos 1",
   "mass": [
-   "So 07.03. nicht erfüllt → Call, Liefertermin schriftlich · ohne Rücklage Kampagne 1 streichen",
+   "So 07.03. nicht erfüllt → Call, Liefertermin bestätigen lassen",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
@@ -352,15 +342,15 @@
  {
   "d": "2027-03-14",
   "w": 26,
-  "wl": 2500,
-  "wl_a": 910,
-  "fo": 7500,
+  "wl": 2400,
+  "wl_a": 850,
+  "fo": 7200,
   "zu": null,
-  "pre": 29,
-  "pre_a": 25,
-  "gate": "So 14.03.: ≥ 29 (Alarm 25) · absehbar 32 ausgezahlt bis Di 16.03. (mit der Auszahlungsdauer vom 29.12.)",
+  "pre": 24,
+  "pre_a": 18,
+  "gate": "So 14.03.: ≥ 18 Vorbestellungen, Liste ≥ 850, Shopify-Email-Kontingent",
   "mass": [
-   "So 14.03. nicht erfüllt → Notfall-Leiter ab Stufe 3, Backstop Mi 24.03. vorbereiten",
+   "So 14.03. nicht erfüllt → Mail „Noch X von 35“, Brücke vorwarnen, Notfall-Option Zipper/Polo entscheiden · Kontingent zu klein: Preis ins Blatt „Kasse“ oder T−14 und T−7 nur an Abonnenten, die in 90 Tagen geöffnet oder geklickt haben",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
@@ -369,16 +359,15 @@
  {
   "d": "2027-03-21",
   "w": 27,
-  "wl": 2560,
-  "wl_a": 950,
-  "fo": 7680,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
   "zu": null,
-  "pre": 35,
-  "pre_a": 32,
-  "gate": "Fr 19.03.: ≥ 32 ausgezahlt bis Di 16.03. und Endkontroll-Nachweis aus der PO vollständig · So 21.03., 20:00: 35 zu 149 € voll",
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "So 21.03.: Inline-Fotos 2, Steuer-Rücklage",
   "mass": [
-   "Fr 19.03. nicht erfüllt → nur Geld fehlt: Backstop Mi 24.03. · Endkontrolle durchgefallen: nicht zahlen, Fotos an die Fabrik",
-   "So 21.03., 20:00 nicht erfüllt → 149 € endet trotzdem; Stufe 2 läuft spätestens ab jetzt bis So 04.04. Preis nie verlängern",
+   "So 21.03. nicht erfüllt → Call, Liefertermin schriftlich · ohne Rücklage Kampagne 1 streichen",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
@@ -387,41 +376,160 @@
  {
   "d": "2027-03-28",
   "w": 28,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-04-04",
+  "w": 29,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-04-11",
+  "w": 30,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-04-18",
+  "w": 31,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-04-25",
+  "w": 32,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-05-02",
+  "w": 33,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-05-09",
+  "w": 34,
+  "wl": 2450,
+  "wl_a": 880,
+  "fo": 7350,
+  "zu": null,
+  "pre": 26,
+  "pre_a": 21,
+  "gate": "Abi-Pause: keine Gates, Zahlen nur eintragen, wenn du magst",
+  "mass": []
+ },
+ {
+  "d": "2027-05-16",
+  "w": 35,
+  "wl": 2500,
+  "wl_a": 910,
+  "fo": 7500,
+  "zu": null,
+  "pre": 29,
+  "pre_a": 25,
+  "gate": "So 16.05.: ≥ 29 (Alarm 25) · absehbar 32 ausgezahlt bis Di 18.05. (mit der Auszahlungsdauer vom 29.12.)",
+  "mass": [
+   "So 16.05. nicht erfüllt → Notfall-Leiter ab Stufe 3, Backstop Mi 26.05. vorbereiten",
+   "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
+   "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
+   "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
+  ]
+ },
+ {
+  "d": "2027-05-23",
+  "w": 36,
+  "wl": 2560,
+  "wl_a": 950,
+  "fo": 7680,
+  "zu": null,
+  "pre": 35,
+  "pre_a": 32,
+  "gate": "Fr 21.05.: ≥ 32 ausgezahlt bis Di 18.05. und Endkontroll-Nachweis aus der PO vollständig · So 23.05., 20:00: 35 zu 149 € voll",
+  "mass": [
+   "Fr 21.05. nicht erfüllt → nur Geld fehlt: Backstop Mi 26.05. · Endkontrolle durchgefallen: nicht zahlen, Fotos an die Fabrik",
+   "So 23.05., 20:00 nicht erfüllt → 149 € endet trotzdem; Stufe 2 läuft spätestens ab jetzt bis So 06.06. Preis nie verlängern",
+   "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
+   "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
+   "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
+  ]
+ },
+ {
+  "d": "2027-05-30",
+  "w": 37,
   "wl": 2620,
   "wl_a": 1050,
   "fo": 7860,
   "zu": null,
   "pre": 37,
   "pre_a": 35,
-  "gate": "Mi 24.03.: Tracking da · bei Steuer (DAP): 40 ausgezahlt (35 + Stufe 2) · So 28.03.: Ware mit Tracking, Stufe 2 ≥ 2, Kasse deckt die Steuer",
+  "gate": "Mi 26.05.: Tracking da · bei Steuer (DAP): 40 ausgezahlt (35 + Stufe 2) · So 30.05.: Ware mit Tracking, Stufe 2 ≥ 2, Kasse deckt die Steuer",
   "mass": [
-   "Mi 24.03. nicht erfüllt → tägliche Mail an die Fabrik, ab 31.03. Drop-Plan B · Steuer-Geld fehlt: Brücke abrufen (Stufe 7)",
-   "So 28.03. nicht erfüllt → Stufe 2 < 2: Mail und Story „Stufe 2 bis 04.04.“ · Steuer nicht gedeckt: Brücke abrufen",
+   "Mi 26.05. nicht erfüllt → tägliche Mail an die Fabrik, ab 02.06. Drop-Plan B · Steuer-Geld fehlt: Brücke abrufen (Stufe 7)",
+   "So 30.05. nicht erfüllt → Stufe 2 < 2: Mail und Story „Stufe 2 bis 06.06.“ · Steuer nicht gedeckt: Brücke abrufen",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
   ]
  },
  {
-  "d": "2027-04-04",
-  "w": 29,
+  "d": "2027-06-06",
+  "w": 38,
   "wl": 2720,
   "wl_a": 1170,
   "fo": 8160,
   "zu": null,
   "pre": 43,
   "pre_a": null,
-  "gate": "So 04.04.: Ware geprüft, Steuer bezahlt",
+  "gate": "So 06.06.: Ware geprüft, Steuer bezahlt",
   "mass": [
-   "So 04.04. nicht erfüllt → Brücke",
+   "So 06.06. nicht erfüllt → Brücke",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
   ]
  },
  {
-  "d": "2027-04-11",
-  "w": 30,
+  "d": "2027-06-13",
+  "w": 39,
   "wl": 2820,
   "wl_a": 1290,
   "fo": 8460,
@@ -436,34 +544,34 @@
   ]
  },
  {
-  "d": "2027-04-18",
-  "w": 31,
+  "d": "2027-06-20",
+  "w": 40,
   "wl": 2920,
   "wl_a": 1400,
   "fo": 8760,
   "zu": null,
   "pre": null,
   "pre_a": null,
-  "gate": "Do 15.04.: Ware da (spätester Termin)",
+  "gate": "Do 17.06.: Ware da (spätester Termin)",
   "mass": [
-   "Do 15.04. nicht erfüllt → Drop 29.04. (B-Zeitachse 2) oder „Versand ab Ankunft“, offen angekündigt [P 6] · Ware erst nach So 25.04.: Mail an alle Vorbesteller mit neuem Datum und dem Angebot voller Erstattung",
+   "Do 17.06. nicht erfüllt → Drop 01.07. (B-Zeitachse 2) oder „Versand ab Ankunft“, offen angekündigt [P 6] · Ware erst nach So 27.06.: Mail an alle Vorbesteller mit neuem Datum und dem Angebot voller Erstattung",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"
   ]
  },
  {
-  "d": "2027-04-25",
-  "w": 32,
+  "d": "2027-06-27",
+  "w": 41,
   "wl": 3000,
   "wl_a": 1515,
   "fo": 9000,
   "zu": null,
   "pre": 72,
   "pre_a": 64,
-  "gate": "Do 22.–So 25.04.: Do 21:00 ≥ 15 · Fr 19:00 ≥ 26 (Schätzung aus Crowdfunding: rund 90 % der Listenkäufer kaufen in 48 h [M-Q27], für Mode nicht belegt) · So ≥ 29 netto",
+  "gate": "Do 22.–So 27.06.: Do 21:00 ≥ 15 · Fr 19:00 ≥ 26 (Schätzung aus Crowdfunding: rund 90 % der Listenkäufer kaufen in 48 h [M-Q27], für Mode nicht belegt) · So ≥ 29 netto",
   "mass": [
-   "Do 22.–So 25.04. nicht erfüllt → Do < 15 um 21:15: DM an alle Zusagen und Handheber ohne Kauf, Fr 10:00 Mail an die Nicht-Öffner · Fr < 26 um 19:00: Story mit den Restgrößen · So < 29: Retargeting 72 h, Bundle Jeans + Polo, Zipper/Polo pushen, Rest zu 169 € im Shop, Konsignation erst danach",
+   "Do 22.–So 27.06. nicht erfüllt → Do < 15 um 21:15: DM an alle Zusagen und Handheber ohne Kauf, Fr 10:00 Mail an die Nicht-Öffner · Fr < 26 um 19:00: Story mit den Restgrößen · So < 29: Retargeting 72 h, Bundle Jeans + Polo, Zipper/Polo pushen, Rest zu 169 € im Shop, Konsignation erst danach",
    "Warteliste unter Soll: bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15′, nichts streichen",
    "Warteliste unter Alarm: (a) Netz-Runde an alle Offenen bis Mi · (b) „Bring 3“-Story + DM an alle mit 1–2 Freunden · (c) einen Abend in den nächsten 14 Tagen festmachen · (d) Claude die 3 schwächsten Videos zeigen. Zwei Sonntage in Folge: Notfallhebel aus markt.md 5.2",
    "Vorbestellungen unter Alarm: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl"

@@ -11,7 +11,7 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 1. **Der Preis ist nicht dein Problem, die Reichweite ist es.** Bestickte oder bedruckte Kunst-Denim kostet bei Designer-Labels 270–1.122 $ (Gerrit Jacob, Denim Tears, Evisu, Bode, Who Decides War, Kapital). Der Gen-Z-Massenmarkt liegt bei 80–189 £ (Jaded London). 169 € mit vier Stickzonen ist günstig. Unbekannt ist die Marke, nicht der Preis.
 
-2. **Die Warteliste allein ist nicht sicher.** Kostenlose Listen kaufen typischerweise zu 2–5 %, kalte Abonnenten zu 1–3 %. Listen mit kleiner Anzahlung kaufen zu 15–40 %. Mit dem Plan-Korridor (3.000 Adressen bis 22.04.) kommst du im vorsichtigen Fall auf ~68 Bestellungen brutto, nach 10–15 % Retoure auf ~58–61 netto. Das ist Break-even, nicht Ziel. Die Schwelle am 01.02. (10 Vorbestellungen) läge bei ~9. Im mittleren Fall reichen schon ~1.500 Adressen.
+2. **Die Warteliste allein ist nicht sicher.** Kostenlose Listen kaufen typischerweise zu 2–5 %, kalte Abonnenten zu 1–3 %. Listen mit kleiner Anzahlung kaufen zu 15–40 %. Mit dem Plan-Korridor (3.000 Adressen bis 24.06.) kommst du im vorsichtigen Fall auf ~68 Bestellungen brutto, nach 10–15 % Retoure auf ~58–61 netto. Das ist Break-even, nicht Ziel. Die Schwelle am 15.02. (10 Vorbestellungen) läge bei ~9. Im mittleren Fall reichen schon ~1.500 Adressen.
 
 3. **Reichweiten-Lücke.** 3.000 Anmeldungen brauchen bei 2,5 Anmeldungen je 1.000 Views (Schätzung) rund 1,2 Mio. Views. Kleine Business-Konten holen auf TikTok im Schnitt 317–855 Views pro Post (Socialinsider 2026). Die ~242 geplanten Posts (TikTok + Instagram) bringen bei Durchschnitt grob 0,2 Mio. Den Rest müssen Ausreißer-Videos, Anprobe-Abende, Creator und Empfehlungen bringen.
 
@@ -23,7 +23,7 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 7. **Ziel richtig zählen.** Für 64 Paar netto brauchst du bei 10–20 % Retoure 71–80 Bestellungen. Plane brutto **72** (35 + 37).
 
-8. **Wenn es nicht reicht:** Kontingent 75 statt 100, Vorbestellung nach dem 21.03. zum Normalpreis offen lassen (Preisfrist nicht verlängern), Bundles mit Polo, Konsignation in Berlin (Beispiel: 30 % Provision plus Standmiete). Kein Rabatt auf nummerierte Teile. Großhandel lohnt nicht: Bei 2,1–2,5-fachem Aufschlag des Händlers bekommst du 68–80 € für ein ~60-€-Teil.
+8. **Wenn es nicht reicht:** Kontingent 75 statt 100, Vorbestellung nach dem 23.05. zum Normalpreis offen lassen (Preisfrist nicht verlängern), Bundles mit Polo, Konsignation in Berlin (Beispiel: 30 % Provision plus Standmiete). Kein Rabatt auf nummerierte Teile. Großhandel lohnt nicht: Bei 2,1–2,5-fachem Aufschlag des Händlers bekommst du 68–80 € für ein ~60-€-Teil.
 
 9. **Wochenziele** stehen in 3.7: Warteliste je Sonntag (Soll und Alarmgrenze), Reservierungen (100 bis 13.01.), Vorbestellungen, Posts, Views, Follower.
 
@@ -116,7 +116,7 @@ Preise wie gelistet, in Originalwährung. Ich rechne nicht um, weil ich keinen g
 | Teilzahlung / Anzahlung in Shopify | Möglich: volle, teilweise oder keine Zahlung beim Bestellen. Braucht eine Pre-Order-App und Shopify Payments oder PayPal Express | [Q55] | A |
 | Shop-Conversion Mode, Median / Top 20 % | 1,3 % / 2,2 % der Sitzungen (73 Mode-Shops auf Shopify) | [Q35] | B |
 
-**Lesart:** Plane die Vorbestellung auf zwei Wellen: Öffnung 14.01. und „Preis endet“ 15.–21.03. Dazwischen hältst du nur die Zahl sichtbar („X von 35“).
+**Lesart:** Plane die Vorbestellung auf zwei Wellen: Öffnung 14.01. und „Preis endet“ 17.–23.05. Dazwischen hältst du nur die Zahl sichtbar („X von 35“).
 
 ### 2.3 E-Mail
 
@@ -185,17 +185,17 @@ Preise wie gelistet, in Originalwährung. Ich rechne nicht um, weil ich keinen g
 | 15 % | 75 |
 | 20 % | 80 |
 
-**Plan-Ziel brutto: 72 = 35 Vorbestellungen + 37 im Drop (22.–25.04.).** Retournierte Paare kannst du nachverkaufen, es gibt 93 verkäufliche. Die 10.000 € stehen dann aber später als Ende April.
+**Plan-Ziel brutto: 72 = 35 Vorbestellungen + 37 im Drop (24.–27.06.).** Retournierte Paare kannst du nachverkaufen, es gibt 93 verkäufliche. Die 10.000 € stehen dann aber später als Ende April.
 
-**Achtung, zwei verschiedene Ziele:** 10.000 € Umsatz kannst du auch mit Zipper und Polo erreichen. Die Finanzierung hängt aber nur an Jeans: mindestens 10 Vorbestellungen bis 31.01., 32 bis 19.03., Break-even 60 Paar. Zähle beide getrennt.
+**Achtung, zwei verschiedene Ziele:** 10.000 € Umsatz kannst du auch mit Zipper und Polo erreichen. Die Finanzierung hängt aber nur an Jeans: mindestens 10 Vorbestellungen bis 07.02., 32 bis 21.05., Break-even 60 Paar. Zähle beide getrennt.
 
 ### 3.2 Annahmen pro Szenario
 
 | Annahme | vorsichtig | mittel | gut | Woher |
 |---|---|---|---|---|
 | a1: Liste am 13.01. → Vorbestellung in der Öffnungswelle | 1,0 % | 2,0 % | 3,5 % | Kalte Abonnenten 1–3 %, Gratis-Listen 2–5 % [Q23]; Launch-Tag realistisch 3–10 % [Q29] |
-| c_pre: Liste am 21.03. → Vorbestellung bis 21.03. gesamt | 1,5 % | 3,0 % | 5,0 % | wie oben, plus U-Form mit zweiter Welle [Q31] |
-| c_drop: Liste am 22.04. (ohne Vorbesteller) → Kauf 22.–25.04. | 1,0 % | 2,0 % | 3,5 % | wie oben; Zeitverfall nach 6 Monaten Warten [Q25] |
+| c_pre: Liste am 23.05. → Vorbestellung bis 23.05. gesamt | 1,5 % | 3,0 % | 5,0 % | wie oben, plus U-Form mit zweiter Welle [Q31] |
+| c_drop: Liste am 24.06. (ohne Vorbesteller) → Kauf 24.–27.06. | 1,0 % | 2,0 % | 3,5 % | wie oben; Zeitverfall nach 6 Monaten Warten [Q25] |
 | s: Käufer ohne Listeneintrag (Social, Freunde, Retargeting) | 10 % | 20 % | 25 % | **Schätzung** |
 | Anmeldungen je 1.000 Views (alle Kanäle) | 1,0 | 2,5 | 5,0 | **Schätzung.** Herleitung: ~3 % der Zuschauer besuchen das Profil, ~30 % davon klicken den Link, 15–25 % davon tragen sich ein. Landingpage-Median 6,6 % [Q36] |
 
@@ -205,22 +205,22 @@ Diese Werte sind die Stellschrauben. **Ab So 01.11. ersetzt du sie durch deine e
 
 | Wann | Wofür | vorsichtig | mittel | gut |
 |---|---|---|---|---|
-| Mi 13.01. | 10 Vorbestellungen bis 31.01. | **900** | 400 | 215 |
-| So 21.03. | 35 Vorbestellungen | **2.100** | 935 | 525 |
-| Do 22.04. | 29 Drop-Käufe netto (+35 Vorbesteller auf der Liste) | **2.645** | 1.195 | 655 |
-| Do 22.04. | **37 Drop-Käufe brutto** (Retourenpuffer) | **3.365** | 1.515 | 830 |
+| Mi 13.01. | 10 Vorbestellungen bis 07.02. | **900** | 400 | 215 |
+| So 23.05. | 35 Vorbestellungen | **2.100** | 935 | 525 |
+| Do 24.06. | 29 Drop-Käufe netto (+35 Vorbesteller auf der Liste) | **2.645** | 1.195 | 655 |
+| Do 24.06. | **37 Drop-Käufe brutto** (Retourenpuffer) | **3.365** | 1.515 | 830 |
 
 Formel: Liste = Stück × (1 − s) ÷ Quote. Beispiel vorsichtig, Drop brutto: 37 × 0,9 ÷ 0,01 + 35 = 3.365.
 
 ### 3.4 Vorwärts: Was liefert der Plan-Korridor?
 
-Plan-Korridor aus Rev. 5: 700 (31.12.) → 1.500 (31.01.) → 2.400 (28.02.) → 3.000 (22.04.). Ich lege dafür ~850 am 13.01. und ~2.560 am 21.03. an (Tabelle 3.7).
+Plan-Korridor aus Rev. 5: 700 (31.12.) → 1.500 (07.02.) → 2.400 (14.03.) → 3.000 (24.06.). Ich lege dafür ~850 am 13.01. und ~2.560 am 23.05. an (Tabelle 3.7).
 
 | | vorsichtig | mittel | gut |
 |---|---|---|---|
-| Vorbestellungen bis 31.01. | **~9** (Schwelle 10 knapp verfehlt) | ~21 | ~40 → Kontingent 45 |
-| Vorbestellungen bis 21.03. | 35 (Potenzial ~43) | 35 (ausverkauft früh) | 35 (ausverkauft früh) |
-| Drop 22.–25.04. | ~33 | ~74 | ~138 |
+| Vorbestellungen bis 07.02. | **~9** (Schwelle 10 knapp verfehlt) | ~21 | ~40 → Kontingent 45 |
+| Vorbestellungen bis 23.05. | 35 (Potenzial ~43) | 35 (ausverkauft früh) | 35 (ausverkauft früh) |
+| Drop 24.–27.06. | ~33 | ~74 | ~138 |
 | **Summe brutto** | **~68** | ~109 → 93 ausverkauft | ausverkauft |
 | Netto nach 10–15 % Retoure | ~58–61 | — | — |
 
@@ -232,7 +232,7 @@ Plan-Korridor aus Rev. 5: 700 (31.12.) → 1.500 (31.01.) → 2.400 (28.02.) →
 |---|---|---|
 | Views für 3.000 Anmeldungen bei 2,5 / 1.000 | 1,2 Mio. | Rechnung |
 | … bei 1,0 / 1.000 (vorsichtig) | 3,0 Mio. | Rechnung |
-| Geplante Posts 12.10.–22.04. (Plan Abschnitt 10) | 121 Posts × 2 Plattformen = 242 | Plan, Rechnung |
+| Geplante Posts 12.10.–24.06. (Plan Abschnitt 10) | 121 Posts × 2 Plattformen = 242 | Plan, Rechnung |
 | Ø Views pro Post, kleiner Account | 317–855 (TikTok), 2.500 ab 10.000 Followern | [Q37] |
 | Views aus eigenen Posts bei Ø 800 | ~0,2 Mio. | **Schätzung** |
 | Nötige Views pro Post, falls die Hälfte aller Anmeldungen aus eigenen Posts kommen soll | 1.200–6.200, je nach Woche (neue Anmeldungen ÷ 2,5 × 1.000 × 50 % ÷ Posts ÷ 2 Plattformen) | Rechnung |
@@ -241,7 +241,7 @@ Plan-Korridor aus Rev. 5: 700 (31.12.) → 1.500 (31.01.) → 2.400 (28.02.) →
 
 ### 3.6 Woher die 3.000 kommen können (Kanal-Mix, Schätzung)
 
-| Kanal | Rechnung | Anmeldungen bis 22.04. |
+| Kanal | Rechnung | Anmeldungen bis 24.06. |
 |---|---|---|
 | Eigene Posts | 242 × Ø 800 Views × 2,5 / 1.000 | ~480 |
 | 3–5 Ausreißer-Videos | je ~100.000 Views × 2,5 / 1.000 | ~750–1.250 |
@@ -252,7 +252,7 @@ Plan-Korridor aus Rev. 5: 700 (31.12.) → 1.500 (31.01.) → 2.400 (28.02.) →
 | Meta-Werbung (300 €) | 4–12 € pro Anmeldung | ~25–75 |
 | **Summe** | | **~2.000–2.800** |
 
-**Folge:** Mit durchschnittlicher Leistung landest du eher bei 2.000–2.800 als bei 3.000. Deshalb gehört in den Plan ein zweites Ziel neben der Listengröße: **100 Reservierungen bis 13.01.** Bei 20–40 % Kaufquote [Q27] sind das 20–40 Vorbestellungen aus einer Gruppe, die du kennst. Damit hängt die Schwelle am 01.02. nicht mehr am Zufall.
+**Folge:** Mit durchschnittlicher Leistung landest du eher bei 2.000–2.800 als bei 3.000. Deshalb gehört in den Plan ein zweites Ziel neben der Listengröße: **100 Reservierungen bis 13.01.** Bei 20–40 % Kaufquote [Q27] sind das 20–40 Vorbestellungen aus einer Gruppe, die du kennst. Damit hängt die Schwelle am 15.02. nicht mehr am Zufall.
 
 ### 3.7 Wochenziele
 
@@ -274,22 +274,22 @@ Sonntag = Ende der Docket-Woche (Woche n beginnt Mo 14.09.2026 + 7·(n−1)). Po
 | 16 | 03.01.2027 | Feiertage, 31.12. Soll 700 | 3 | 740 | 60 | 300 | 24.000 | 2.220 | 70 | — |
 | 17 | 10.01.2027 | PP-Freigabe, Mails 07.01. und 13.01. | 5 | 850 | 110 | 380 | 44.000 | 2.550 | 90 (100 bis Mi 13.01.) | — |
 | 18 | 17.01.2027 | **Do 14.01. 19:00 Vorbestellung öffnet** | 5 | 1.000 | 150 | 450 | 60.000 | 3.000 | — | 8 (mit Reservierung: 20) |
-| 19 | 24.01.2027 | Vorbestellung am Laufen halten | 5 | 1.250 | 250 | 520 | 100.000 | 3.750 | — | 10 |
-| 20 | 31.01.2027 | **Schwelle: ≥ 10** | 5 | 1.500 | 250 | 600 | 100.000 | 4.500 | — | 12 |
-| 21 | 07.02.2027 | Bestellung, Anzahlung, Fr 05.02. Spiel | 5 | 1.700 | 200 | 660 | 80.000 | 5.100 | — | 15 |
-| 22 | 14.02.2027 | Produktion startet | 4 | 1.900 | 200 | 720 | 80.000 | 5.700 | — | 18 |
-| 23 | 21.02.2027 | Sa 20.02. Shoot | 4 | 2.150 | 250 | 790 | 100.000 | 6.450 | — | 21 |
-| 24 | 28.02.2027 | Soll 2.400 | 4 | 2.400 | 250 | 850 | 100.000 | 7.200 | — | 24 |
-| 25 | 07.03.2027 | Inline-Prüfung | 4 | 2.450 | 50 | 880 | 20.000 | 7.350 | — | 26 |
-| 26 | 14.03.2027 | Ramadan-Fest TR 08.–11.03. | 4 | 2.500 | 50 | 910 | 20.000 | 7.500 | — | 29 |
-| 27 | 21.03.2027 | Mo 15.03. Mail „Preis endet“ · **Fr 19.03. ≥ 32** · So 21.03. 20:00 Ende | 4 | 2.560 | 60 | 950 | 24.000 | 7.680 | — | **35** |
-| 28 | 28.03.2027 | Ware unterwegs | 4 | 2.620 | 60 | 1.050 | 24.000 | 7.860 | — | — |
-| 29 | 04.04.2027 | Mo 29.03. Countdown T−24, Werbung startet | 7 | 2.720 | 100 | 1.170 | 40.000 | 8.160 | — | — |
-| 30 | 11.04.2027 | Vorbestellungen raus 06.–07.04. | 7 | 2.820 | 100 | 1.290 | 40.000 | 8.460 | — | — |
-| 31 | 18.04.2027 | Do 15.04. spätester Ankunftstermin | 7 | 2.920 | 100 | 1.400 | 40.000 | 8.760 | — | — |
-| 32 | 25.04.2027 | **Do 22.04. Drop** · So 25.04. Auswertung | 5 | 3.000 | 80 | 1.515 | 32.000 | 9.000 | — | Drop: **37 brutto** |
+| 19 | 31.01.2027 | Vorbestellung am Laufen halten | 5 | 1.250 | 250 | 520 | 100.000 | 3.750 | — | 10 |
+| 20 | 07.02.2027 | **Schwelle: ≥ 10** | 5 | 1.500 | 250 | 600 | 100.000 | 4.500 | — | 12 |
+| 21 | 21.02.2027 | Bestellung, Anzahlung, Fr 19.02. Spiel | 5 | 1.700 | 200 | 660 | 80.000 | 5.100 | — | 15 |
+| 22 | 28.02.2027 | Produktion startet | 4 | 1.900 | 200 | 720 | 80.000 | 5.700 | — | 18 |
+| 23 | 07.03.2027 | Sa 06.03. Shoot | 4 | 2.150 | 250 | 790 | 100.000 | 6.450 | — | 21 |
+| 24 | 14.03.2027 | Soll 2.400 | 4 | 2.400 | 250 | 850 | 100.000 | 7.200 | — | 24 |
+| 25 | 21.03.2027 | Inline-Prüfung | 4 | 2.450 | 50 | 880 | 20.000 | 7.350 | — | 26 |
+| 26 | 16.05.2027 | Ramadan-Fest TR 10.–13.05. | 4 | 2.500 | 50 | 910 | 20.000 | 7.500 | — | 29 |
+| 27 | 23.05.2027 | Mo 17.05. Mail „Preis endet“ · **Fr 21.05. ≥ 32** · So 23.05. 20:00 Ende | 4 | 2.560 | 60 | 950 | 24.000 | 7.680 | — | **35** |
+| 28 | 30.05.2027 | Ware unterwegs | 4 | 2.620 | 60 | 1.050 | 24.000 | 7.860 | — | — |
+| 29 | 06.06.2027 | Mo 31.05. Countdown T−24, Werbung startet | 7 | 2.720 | 100 | 1.170 | 40.000 | 8.160 | — | — |
+| 30 | 13.06.2027 | Vorbestellungen raus 08.–09.06. | 7 | 2.820 | 100 | 1.290 | 40.000 | 8.460 | — | — |
+| 31 | 20.06.2027 | Do 17.06. spätester Ankunftstermin | 7 | 2.920 | 100 | 1.400 | 40.000 | 8.760 | — | — |
+| 32 | 27.06.2027 | **Do 24.06. Drop** · So 27.06. Auswertung | 5 | 3.000 | 80 | 1.515 | 32.000 | 9.000 | — | Drop: **37 brutto** |
 
-**Für den sicheren Weg ohne Reservierung** brauchst du am 22.04. ~3.400 statt 3.000 (3.3). Wenn du dich dafür entscheidest, rechne die Spalte „Liste Soll“ ab Woche 17 mal 1,13.
+**Für den sicheren Weg ohne Reservierung** brauchst du am 24.06. ~3.400 statt 3.000 (3.3). Wenn du dich dafür entscheidest, rechne die Spalte „Liste Soll“ ab Woche 17 mal 1,13.
 
 **Engagement-Messlatte pro Post (Benchmark):** TikTok ≥ 4,4 % Engagement nach Views [Q37]. Liegt ein Hook drei Posts in Folge darunter, wechselst du ihn.
 
@@ -302,15 +302,15 @@ Wirkung: was der Hebel an Käufen bewegt. Aufwand: deine Stunden, nicht Geld. Be
 | # | Hebel | Wirkung | Aufwand | Beleg | Wann | Empfehlung |
 |---|---|---|---|---|---|---|
 | 1 | **Nummern-Reservierung** mit kleiner Anzahlung (z. B. 10 €, wird angerechnet, jederzeit erstattbar). Optional: Wunschnummer 001–100 | sehr hoch | mittel (App, Texte, Rechtscheck) | 30× Kaufwahrscheinlichkeit [Q26]; 20–40 % Kaufquote [Q27]; Anzahlungs-Listen 15–30 % [Q23]; Shopify kann Teilzahlung [Q55] | Mo 07.12. bis Mi 13.01., also nach dem Proto. Passt zu deiner Reihenfolge | **Machen.** Abweichung vom Plan, du entscheidest. Vorher klären: Widerruf, Erstattung, wie die Nummer zum Packplan vom 01.10. passt |
-| 2 | **Anprobe-Abende in Berlin** (PP-Sample, Proto, alle Größen) | sehr hoch | hoch (Raum, Abende) | 67 % der Retouren wegen Größe [Q44]; Pop-ups im Modebereich 25–40 % Conversion [Q54, C]; Corteiz: 2.000–3.000 Leute bei einem Pop-up [Q17] | 2 Abende im Januar (Vorbestellung), 1 im März („Preis endet“), 1 am Drop-Wochenende | **Machen.** Liste vor Ort per QR-Code. Drop-Abend Sa 24.04. als Puffer für 10 Käufe |
+| 2 | **Anprobe-Abende in Berlin** (PP-Sample, Proto, alle Größen) | sehr hoch | hoch (Raum, Abende) | 67 % der Retouren wegen Größe [Q44]; Pop-ups im Modebereich 25–40 % Conversion [Q54, C]; Corteiz: 2.000–3.000 Leute bei einem Pop-up [Q17] | 2 Abende im Januar (Vorbestellung), 1 im März („Preis endet“), 1 am Drop-Wochenende | **Machen.** Liste vor Ort per QR-Code. Drop-Abend Sa 26.06. als Puffer für 10 Käufe |
 | 3 | **Echte Knappheit mit Zahl** („Nr. 001–100“, „noch X von 35“) | hoch | gering | Begrenzte Menge wirkt stärker als begrenzte Zeit, verstärkt bei symbolischen Marken [Q48] | ab 14.01. jede Woche | **Machen.** Nur echte Zahlen (Plan-Regel) |
-| 4 | **Early Access 18:00 + Countdown** (Mail, Instagram-Countdown-Sticker mit Erinnerung) | hoch | gering | U-Form: Start und Ende tragen [Q31]; Countdown-Sticker schickt Erinnerung zum Ende [Q49]; 90 % der Listenkäufer in 48 h [Q27] | 14.01., 15.–21.03., 29.03.–22.04. | **Machen**, steht schon im Plan |
+| 4 | **Early Access 18:00 + Countdown** (Mail, Instagram-Countdown-Sticker mit Erinnerung) | hoch | gering | U-Form: Start und Ende tragen [Q31]; Countdown-Sticker schickt Erinnerung zum Ende [Q49]; 90 % der Listenkäufer in 48 h [Q27] | 14.01., 17.–23.05., 31.05.–24.06. | **Machen**, steht schon im Plan |
 | 5 | **Nano-Creator-Seeding** (1.000–10.000 Follower, Berlin, Denim/Vintage) | mittel–hoch | mittel | Nano: höchstes Engagement 1,78 % [Q40]; 40–70 % posten nach Geschenk [Q53, C] | Anproben im Januar, Paare im April | **Machen**, 5 Paare wie geplant. Kennzeichnung als Werbung |
 | 6 | **Empfehlung aus der Warteliste** („Bring 3 Leute, du bekommst den Link um 17:30 statt 18:00“) | mittel | mittel | Harry's: ~100.000 Mails in einer Woche, 77 % über Empfehlungen [Q50]; typischer Viral-Faktor 0,15–0,25 [Q51, C] | ab 01.11. | **Testen.** Belohnung ohne Rabatt: früherer Zugang. Tool vorher prüfen (Kosten, Datenschutz) |
-| 7 | **Live** auf Instagram/TikTok zur Öffnung und zum Drop | mittel | mittel | Live Commerce bis ~30 % Conversion, Douglas bis 40 % (große Händler) [Q52] | 14.01. 19:00, 22.04. 18:00 | **Machen**, 30 Minuten, Fragen zu Größen live beantworten |
+| 7 | **Live** auf Instagram/TikTok zur Öffnung und zum Drop | mittel | mittel | Live Commerce bis ~30 % Conversion, Douglas bis 40 % (große Händler) [Q52] | 14.01. 19:00, 24.06. 18:00 | **Machen**, 30 Minuten, Fragen zu Größen live beantworten |
 | 8 | **Bundle Jeans + Polo** (oder + Zipper) | mittel für Umsatz, null für Paarzahl | gering | — (keine Quelle) | Drop | **Machen**, aber zählt nicht für die Schwellen |
 | 9 | **SMS/WhatsApp-Erinnerung** | mittel | mittel (Opt-in, Tool) | SMS Bekleidung 11–13 % Klicks, 1–2 % Conversion [Q34] | T−1h | **Optional.** Alternative ohne Tool: Countdown-Sticker und DM an alle „Ja“-Antworten (steht im Docket) |
-| 10 | **Meta-Werbung** | gering für die Liste, mittel als Retargeting | gering | 4–12 € pro Anmeldung (Schätzung aus [Q36][Q42][Q43]) | 29.03.–25.04. | **Wie geplant**, nur Retargeting |
+| 10 | **Meta-Werbung** | gering für die Liste, mittel als Retargeting | gering | 4–12 € pro Anmeldung (Schätzung aus [Q36][Q42][Q43]) | 31.05.–27.06. | **Wie geplant**, nur Retargeting |
 | 11 | **Pixel-Spiel als Startseite** | unbelegt | sehr hoch | keine Quelle für Verkaufseffekt; Plan-Risiko 10 | — | **Streichen.** Die Stunden gehen in Hebel 1 und 2 |
 
 ---
@@ -335,12 +335,12 @@ Für dich konkret: Bleibt die Vorbestellung unter 10, fehlt die Anzahlung (Plan 
 | So 01.11.: Liste < 50 (rot) | Plan-Regel: eine Woche schieben, 6 neue Posts. Zusätzlich: drei neue Hooks, bestes Video in fünf Varianten | Zeit | Plan 6 |
 | Ein Sonntag unter **Alarm** (3.7) | Ein Anprobe- oder Atelier-Abend in den nächsten 14 Tagen. Empfehlungsaktion starten | ein Abend | Hebel 2, 6 |
 | Mi 13.01.: < 60 Reservierungen | Öffnung trotzdem 14.01., aber zweite Welle planen: Anprobe-Abend Ende Januar | ein Abend | [Q31] |
-| So 31.01.: < 10 Vorbestellungen | Plan-Regel: knapp → 75 Stück, weit darunter → 2 Wochen schieben. Bei 75: Anzahlung sinkt auf ~2.250 € (Schätzung: 75 × ~60 € × 50 %). White Cotton (MOQ ab 50) als Plan B | Stückkosten können bei 75 steigen, Angebot einholen | Plan 6, 7 |
-| So 31.01.: > 25 | Plan-Regel: Kontingent 45 | mehr Cash vorab | Plan 3.1 |
-| So 14.03.: < 28 | Mail „Preis endet“ am 15.03. mit echter Restzahl, Live am Sa 20.03., letzter Anprobe-Abend. **Nicht** den Vorbestellpreis verlängern, sonst glaubt dir beim Drop niemand die Frist | — | [Q31][Q48] |
-| Fr 19.03.: < 32 | Plan-Regel: Restzahlung gegen Versandnachweis oder Teilzahlung verhandeln | Verhandlung | Plan 3.1 |
-| So 21.03.: Kontingent 35 nicht voll | Vorbestellung zum **Normalpreis 169 €** bis 21.04. offen lassen, Lieferung ab 22.04. Die freien Paare zählen dann zum Drop | — | Rechnung |
-| So 25.04.: < 64 verkauft | (1) Retargeting 72 h weiterlaufen lassen. (2) Bundle Jeans + Polo. (3) Rest dauerhaft im Shop zu 169 €, keine Rabatte auf nummerierte Teile. (4) Konsignation in 1–2 Berliner Concept Stores. (5) Retouren mit Grund erfassen | siehe unten | Plan, [Q56][Q57] |
+| So 07.02.: < 10 Vorbestellungen | Plan-Regel: knapp → 75 Stück, weit darunter → 2 Wochen schieben. Bei 75: Anzahlung sinkt auf ~2.250 € (Schätzung: 75 × ~60 € × 50 %). White Cotton (MOQ ab 50) als Plan B | Stückkosten können bei 75 steigen, Angebot einholen | Plan 6, 7 |
+| So 07.02.: > 25 | Plan-Regel: Kontingent 45 | mehr Cash vorab | Plan 3.1 |
+| So 16.05.: < 28 | Mail „Preis endet“ am 17.05. mit echter Restzahl, Live am Sa 22.05., letzter Anprobe-Abend. **Nicht** den Vorbestellpreis verlängern, sonst glaubt dir beim Drop niemand die Frist | — | [Q31][Q48] |
+| Fr 21.05.: < 32 | Plan-Regel: Restzahlung gegen Versandnachweis oder Teilzahlung verhandeln | Verhandlung | Plan 3.1 |
+| So 23.05.: Kontingent 35 nicht voll | Vorbestellung zum **Normalpreis 169 €** bis 23.06. offen lassen, Lieferung ab 24.06. Die freien Paare zählen dann zum Drop | — | Rechnung |
+| So 27.06.: < 64 verkauft | (1) Retargeting 72 h weiterlaufen lassen. (2) Bundle Jeans + Polo. (3) Rest dauerhaft im Shop zu 169 €, keine Rabatte auf nummerierte Teile. (4) Konsignation in 1–2 Berliner Concept Stores. (5) Retouren mit Grund erfassen | siehe unten | Plan, [Q56][Q57] |
 
 **Rechnung Konsignation vs. Großhandel (Schätzung aus Quellen):**
 
@@ -366,7 +366,7 @@ Für dich konkret: Bleibt die Vorbestellung unter 10, fehlt die Anzahlung (Plan 
 5. **Berliner Orte** für Anprobe-Abende und Konsignation: Konditionen von heute direkt bei den Läden erfragen. Die 30 % von Studio183 sind von 2016.
 6. **Retourenquote:** kein belastbarer Wert für Jeans in Deutschland gefunden. Nach dem Drop deine eigene Zahl erfassen (Blatt „Retouren“).
 7. **Quellen nur als Suchtreffer gesehen.** Vor einer Entscheidung mit Geld (Werbebudget, Reservierungs-App) die wichtigsten Seiten selbst öffnen: [Q23], [Q26], [Q27], [Q32], [Q37].
-8. **Meta-Kosten pro Anmeldung** sind gerechnet, nicht gemessen. Erster echter Wert kommt mit Kampagne 1 ab 29.03. Wenn du früher testen willst: 30 € im November, Ergebnis notieren.
+8. **Meta-Kosten pro Anmeldung** sind gerechnet, nicht gemessen. Erster echter Wert kommt mit Kampagne 1 ab 31.05. Wenn du früher testen willst: 30 € im November, Ergebnis notieren.
 
 ---
 

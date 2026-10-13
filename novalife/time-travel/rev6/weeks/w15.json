@@ -3,11 +3,26 @@
  "phase": "P3",
  "goal": "Feiertage: wenig, aber sauber. Nummern-Raster bauen, Belege sortieren, Proto-Bilder auswählen",
  "kpi": [
-  {"k": "Warteliste", "ziel": "680 bestätigt (Alarm 280) · Grind+-Ziel 770"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~2.040 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "3 Kern"},
-  {"k": "Zusagen „Die ersten 35“", "ziel": "20 (Name, Größe, „ich bestelle am 14.01.“)"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"}
+  {
+   "k": "Warteliste",
+   "ziel": "680 bestätigt (Alarm 280) · Grind+-Ziel 770"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~2.040 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "3 Kern"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“",
+   "ziel": "20 (Name, Größe, „ich bestelle am 14.01.“)"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  }
  ],
  "days": {
   "2026-12-21": [
@@ -18,17 +33,27 @@
     "s": [
      "Vorher in Shopify: Testprodukt „TT Test“ mit Bestand 35, „Inventar verfolgen“ an, kurz auf Aktiv, in keiner Kollektion, nirgends verlinkt (ob Entwürfe in Liquid lesbar sind, ist ungeprüft).",
      "Terminal im Theme-Ordner, Claude Code starten, Prompt aus website.md Schritt 10 einfügen und mit dem Zusatz unten ergänzen.",
-     "Theme-Einstellungen: tt_produkt_stufe2 (Produkt aus dem 14.12.) und tt_start_stufe2 = 25 (bei 75 Stück 10). tt_start_drop setzt du erst am 04.04.",
+     "Theme-Einstellungen: tt_produkt_stufe2 (Produkt aus dem 14.12.) und tt_start_stufe2 = 25 (bei 75 Stück 10). tt_start_drop setzt du erst am 06.06.",
      "Test: mit „TT Test“ als tt_produkt_vorbestellung. Bestand um 2 senken, Zeit stoppen, bis das Raster springt. Dauer notieren (Cache-Frage aus website.md).",
      "Zeile prüfen: „17 von 35 Vorbestellungen“, ab Stufe 2 „41 von 60“. Reihenfolge der Felder: 001–035 · 036–060 · 061–065 · 066–067 · 068–100.",
      "„TT Test“ zurück auf Entwurf. Commit erst nach deinem „passt“."
     ],
     "f": "das Raster mit „TT Test“ die richtige Zahl zeigt, nach −2 springt, die Sprungdauer notiert ist und „TT Test“ wieder Entwurf ist.",
-    "p": "Projekt Time Travel, Docket W15, Mo 21.12. Zusatz zum Prompt aus website.md Schritt 10 (Nummern-Raster): Lies zusätzlich tt_produkt_stufe2 (product) und tt_start_stufe2 (number, 25, bei 75 Stück 10); lege beide in config/settings_schema.json an, falls sie fehlen. vorbestellt_gesamt = (tt_start_vorbestellung minus Summe Bestand tt_produkt_vorbestellung) plus (tt_start_stufe2 minus Summe Bestand tt_produkt_stufe2). Das Raster füllt ab 001 ohne Lücke: alle Vorbestellungen (149 € und Stufe 2), dann 5 Creator, 2 Reserve (Gold), dann Drop. Bei vollem Verkauf: 001–035 · 036–060 · 061–065 · 066–067 · 068–100. Zeile in Worten: bis Nr. 035 „[n] von 35 Vorbestellungen“, ab Stufe 2 „[n] von 60“. Kein Preis als Text, keine Daten zu einzelnen Nummern. tt_start_drop bleibt leer bis 04.04.; ist es leer, keine Drop-Felder rechnen.",
+    "p": "Projekt Time Travel, Docket W15, Mo 21.12. Zusatz zum Prompt aus website.md Schritt 10 (Nummern-Raster): Lies zusätzlich tt_produkt_stufe2 (product) und tt_start_stufe2 (number, 25, bei 75 Stück 10); lege beide in config/settings_schema.json an, falls sie fehlen. vorbestellt_gesamt = (tt_start_vorbestellung minus Summe Bestand tt_produkt_vorbestellung) plus (tt_start_stufe2 minus Summe Bestand tt_produkt_stufe2). Das Raster füllt ab 001 ohne Lücke: alle Vorbestellungen (149 € und Stufe 2), dann 5 Creator, 2 Reserve (Gold), dann Drop. Bei vollem Verkauf: 001–035 · 036–060 · 061–065 · 066–067 · 068–100. Zeile in Worten: bis Nr. 035 „[n] von 35 Vorbestellungen“, ab Stufe 2 „[n] von 60“. Kein Preis als Text, keine Daten zu einzelnen Nummern. tt_start_drop bleibt leer bis 06.06.; ist es leer, keine Drop-Felder rechnen.",
     "o": [
-     {"n": "Shopify-Admin · Online Store → Themes", "u": "https://admin.shopify.com", "h": "Theme-Einstellungen, Testprodukt „TT Test“"},
-     {"n": "website.md · Schritt 10", "h": "rev6/research/website.md, Prompt für Claude Code"},
-     {"n": "Claude Code (Terminal im Theme-Ordner)", "h": "CLAUDE.md mit deinen Regeln liegt im Repo"}
+     {
+      "n": "Shopify-Admin · Online Store → Themes",
+      "u": "https://admin.shopify.com",
+      "h": "Theme-Einstellungen, Testprodukt „TT Test“"
+     },
+     {
+      "n": "website.md · Schritt 10",
+      "h": "rev6/research/website.md, Prompt für Claude Code"
+     },
+     {
+      "n": "Claude Code (Terminal im Theme-Ordner)",
+      "h": "CLAUDE.md mit deinen Regeln liegt im Repo"
+     }
     ]
    },
    {
@@ -51,21 +76,30 @@
      "hook_de": "Tag 71: Alles, was bis zum Drop noch fehlt.",
      "shots": [
       "Zeitachse von Hand auf Papier schreiben (Draufsicht, Zeitraffer)",
-      "Termine: 04.01. final sample · 14.01. pre-order · Feb production · 20.02. shoot · 22.04. drop",
+      "Termine: 04.01. final sample · 14.01. pre-order · Feb production · 06.03. shoot · 24.06. drop",
       "Mit rotem Stift abhaken, was erledigt ist (Papiertest, Fabrik, Stickproben, Proto)",
-      "Finger auf „22.04.“"
+      "Finger auf „24.06.“"
      ],
      "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Licht von vorn",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
-     "text": "Hook EN 0–2 s, Untertitel, Endkarte „Drop 22.04. · 19:00“",
+     "text": "Hook EN 0–2 s, Untertitel, Endkarte „Drop 24.06. · 19:00“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Day 71. Next: final sample approval 04.01., pre-order 14.01., production from February, drop 22.04., 19:00. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "caption": "Day 71. Next: final sample approval 04.01., pre-order 14.01., production from February, drop 24.06., 19:00. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
      "check": "Rev.-5.3-Titel „12 Wochen“ ersetzt, Termine nur aus dem Plan, roter Stift ja, roter Hintergrund nein, CTA der Phase, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -83,9 +117,20 @@
     ],
     "f": "alle Belege 2026 benannt im Ordner liegen und die Monatssummen plus Gesamtsumme im Blatt stehen.",
     "o": [
-     {"n": "Google Drive · Ordner „Belege 2026“", "u": "https://drive.google.com"},
-     {"n": "Shopify-Admin · Rechnungen", "u": "https://admin.shopify.com", "h": "Einstellungen → Rechnungen"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Ausgaben“"}
+     {
+      "n": "Google Drive · Ordner „Belege 2026“",
+      "u": "https://drive.google.com"
+     },
+     {
+      "n": "Shopify-Admin · Rechnungen",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Rechnungen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Ausgaben“"
+     }
     ]
    },
    {
@@ -98,8 +143,14 @@
     ],
     "f": "5 Kommentare stehen und alle DMs beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
@@ -136,9 +187,18 @@
      "check": "Nur echte Summen aus dem Blatt, keine Schätzung als Fakt, kein Streichpreis, CTA der Phase."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    },
    {
@@ -152,15 +212,24 @@
     ],
     "f": "die Nachricht im Broadcast-Kanal steht.",
     "o": [
-     {"n": "Instagram · Broadcast-Kanal", "u": "https://www.instagram.com"}
+     {
+      "n": "Instagram · Broadcast-Kanal",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
   "2026-12-24": [
-   {"c": "N", "t": "Frei. Kein Post, keine Aufgabe. DMs nur, wenn du willst."}
+   {
+    "c": "N",
+    "t": "Frei. Kein Post, keine Aufgabe. DMs nur, wenn du willst."
+   }
   ],
   "2026-12-25": [
-   {"c": "N", "t": "Frei. Kein Post, keine Aufgabe."}
+   {
+    "c": "N",
+    "t": "Frei. Kein Post, keine Aufgabe."
+   }
   ],
   "2026-12-26": [
    {
@@ -180,7 +249,10 @@
      "plattform": "Instagram Story",
      "hook_en": "Tap remind me: pre-order opens 14.01.",
      "hook_de": "Tipp auf Erinnern: Vorbestellung öffnet am 14.01.",
-     "shots": ["Frame 1: Detailfoto vom Proto", "Frame 2: Countdown-Sticker „Pre-order · 14.01. 19:00“"],
+     "shots": [
+      "Frame 1: Detailfoto vom Proto",
+      "Frame 2: Countdown-Sticker „Pre-order · 14.01. 19:00“"
+     ],
      "ort": "Wohnung",
      "ton": "kein Ton (Story-Sticker)",
      "text": "Countdown-Sticker, Link-Sticker",
@@ -189,7 +261,10 @@
      "check": "Rev.-5.3-Umfrage „2027“ ersetzt, kein roter Hintergrund."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
@@ -207,7 +282,10 @@
     ],
     "f": "12 benannte Bilder im Ordner „Proto-Auswahl“ liegen und die Reihenfolge für die Produktseite feststeht.",
     "o": [
-     {"n": "Google Drive · „Proto-Auswahl“", "u": "https://drive.google.com"}
+     {
+      "n": "Google Drive · „Proto-Auswahl“",
+      "u": "https://drive.google.com"
+     }
     ]
    },
    {
@@ -225,9 +303,20 @@
     "f": "die vier Cockpit-Zahlen stehen, die Gates aus 7.1 geprüft sind und die Zeile an Claude raus ist.",
     "p": "Projekt Time Travel, Docket W15, So 27.12. W15: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [Z35]. Raster-Sprungdauer [Sek.]. Offen aus W15: [..].",
     "o": [
-     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com", "h": "Segment „E-Mail-Abonnenten“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Zahlen-Cockpit, „Content“, „Kasse“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin · Kunden",
+      "u": "https://admin.shopify.com",
+      "h": "Segment „E-Mail-Abonnenten“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Zahlen-Cockpit, „Content“, „Kasse“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -245,7 +334,11 @@
     ],
     "f": "du weißt: Pixel oder Silhouette, und Claude hat das Ergebnis.",
     "o": [
-     {"n": "Aseprite (GitHub)", "u": "https://github.com/aseprite/aseprite", "h": "Vertrieb unter EULA, Preis nicht im README"}
+     {
+      "n": "Aseprite (GitHub)",
+      "u": "https://github.com/aseprite/aseprite",
+      "h": "Vertrieb unter EULA, Preis nicht im README"
+     }
     ]
    }
   ]

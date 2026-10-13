@@ -66,7 +66,7 @@ def main():
              "pre": num(r[6]) if num(r[6]) is not None else None, "pre_a": alarm(r[6])}
         if "Gate ≥" in r[7]:
             e["zu_a"] = int(re.search(r"Gate ≥ (\d+)", r[7]).group(1))
-        if n == 32:
+        if n == 41:
             e["pre"], e["pre_a"] = 72, 64
         gates, mass = [], []
         for g in gates72:

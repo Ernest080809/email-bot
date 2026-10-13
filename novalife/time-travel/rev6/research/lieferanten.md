@@ -20,7 +20,7 @@ Stand: Mi 07.10.2026, abends. Für: Ernest. Gehört zu Plan Rev. 5.3, Spec Rev. 
 
 **Mein Rat, damit der 12.10. hält:** Schalte den Netzwerkzugang frei (Abschnitt 0) und starte diese Aufgabe am Sa 10.10. neu, als einzige Recherche in der Runde. Geht das nicht, prüfst du am Sa 10.10. die vier Fabriken selbst mit der Prüfliste (40 Min.) und suchst vier weitere mit den Suchbegriffen (60 Min.). Die Anfrage am 12.10. geht an alle, die die Prüfliste bestehen, auch wenn es weniger als 8 sind. Nachzügler bekommen sie bis Mi 14.10. Die Calls am 21.–23.10. bleiben.
 
-**Ein Vorschlag, du entscheidest:** Frag die Fabriken, ob sie Patch D selbst als Einzelteil auf Leinen sticken. Dann fallen ein Lieferant und die Frist 22.01. weg. Vorher Gegenrechnung: Stiche des Patches × Preis pro 1.000 Stiche gegen ~3 € Zukauf (Spec 3.8, Schätzung).
+**Ein Vorschlag, du entscheidest:** Frag die Fabriken, ob sie Patch D selbst als Einzelteil auf Leinen sticken. Dann fallen ein Lieferant und die Frist 29.01. weg. Vorher Gegenrechnung: Stiche des Patches × Preis pro 1.000 Stiche gegen ~3 € Zukauf (Spec 3.8, Schätzung).
 
 ---
 
@@ -55,7 +55,7 @@ stanleystella.com
 | 1 | **Denim und Panel-Stickerei im eigenen Haus**, nachgewiesen mit Fotos einer früheren Produktion | Große Stickerei passt nicht in den Rahmen eines geschlossenen Hosenbeins. Wird extern gestickt, wandern die Zuschnitte zwischen zwei Betrieben | Plan 2, Plan 7 |
 | 2 | Einzug-Kompensation im Schnitt | Rigider 12-oz-Denim zieht sich unter ~33.000 Stichen zusammen | Plan 2, Spec 3.11 |
 | 3 | Eigene Wäscherei, Laser | Fünf Freihaltezonen sind von Hand nicht wiederholbar | Spec 2.3, 2.4 |
-| 4 | MOQ ≤ 100 pro Style und Colorway, ideal auch 75 | Schwelle 01.02.: knapp → 75 Stück | Plan 2, Plan 6 |
+| 4 | MOQ ≤ 100 pro Style und Colorway, ideal auch 75 | Schwelle 15.02.: knapp → 75 Stück | Plan 2, Plan 6 |
 | 5 | Proto bis 30.11., PP bis 04.01. | Proto am 03.12. in deiner Hand | Plan 5, Vorlage RFQ |
 | 6 | Saum nach der Wäsche auf Länge, 9 Goldfäden von Hand nach der Wäsche | Spec 2.6, 3.7, RFQ-Fragen 13 und 14 | Spec |
 | 7 | 50/50, DDP Berlin | Cash-Plan 3.1 | Plan 3.1, Vorlage Verhandlung |
@@ -139,7 +139,7 @@ Google, dann Google Maps für das Gebäude. **Kontakt nur von der eigenen Websit
 | Website auf Englisch oder Deutsch, klare Ansprechperson oder Formular | 0 / 1 |
 | **Summe** | **max. 15** |
 
-**Regel:** Nach Punkten sortieren, die besten 8 anfragen, davon **je mindestens 3 aus TR und aus PT**, bis der Steuerstatus am Di 13.10. klar ist. Bei Gleichstand PT vor TR (keine Einfuhrumsatzsteuer, Plan 3.1). MOQ ≤ 75 in den Notizen markieren, das ist dein Plan B für die Schwelle 01.02.
+**Regel:** Nach Punkten sortieren, die besten 8 anfragen, davon **je mindestens 3 aus TR und aus PT**, bis der Steuerstatus am Di 13.10. klar ist. Bei Gleichstand PT vor TR (keine Einfuhrumsatzsteuer, Plan 3.1). MOQ ≤ 75 in den Notizen markieren, das ist dein Plan B für die Schwelle 15.02.
 
 ### 1.7 Vorläufiges Ranking für den 12.10.
 
@@ -204,7 +204,7 @@ Fällt eine der vier bei der Prüfliste durch (K.-o.), rückt der nächste Kandi
 | Stickerei | Gold, Ocker, drei Brauntöne, Rot. Linien mind. 0,8 mm, Einrollungen mind. 2,5 mm | Spec 3.8 |
 | Belastung | wird angenäht, dann Enzym-/Steinwäsche der ganzen Jeans | Spec 2.3 |
 | Menge | 3 Muster, dann 110 Stück (100 + 10 Reserve) | Plan 7 |
-| Termine | Anfrage Mi 28.10. · Muster Fr 13.11. · Waschtest 3× 60 °C Do 26.11. · Bestellung Do 17.12. · **direkt an die Fabrik bis Fr 22.01.** | Plan 7 |
+| Termine | Anfrage Mi 28.10. · Muster Fr 13.11. · Waschtest 3× 60 °C Do 26.11. · Bestellung Do 17.12. · **direkt an die Fabrik bis Fr 29.01.** | Plan 7 |
 | Budget | Muster 80 € · Serie ~330 € (Schätzung ~2,50–3,50 € je Stück) | Plan 3, Spec 3.8 |
 
 **Kandidaten geprüft: 0.**
@@ -215,7 +215,7 @@ Fällt eine der vier bei der Prüfliste durch (K.-o.), rückt der nächste Kandi
 
 **Klären vor der Anfrage am 28.10.:** Spec 3.8 nennt „vier Kupfernieten in den Ecken“. Sind das gestickte Nieten oder echte Metallnieten? Echte Nieten macht kein Patch-Sticker, das wäre ein zweiter Arbeitsschritt.
 
-**Vorschlag, du entscheidest:** Die Jeansfabrik hat Stickmaschinen im Haus. Frag in den Calls am 21.–23.10., ob sie D als Einzelpatch auf Leinen stickt. Vorteil: kein zweiter Lieferant, keine Frist 22.01., Waschverhalten aus einer Hand. Gegenrechnung: Stichzahl des Patches (vom Digitizer) × Preis pro 1.000 Stiche + Leinen + Kante gegen ~3 € Zukauf.
+**Vorschlag, du entscheidest:** Die Jeansfabrik hat Stickmaschinen im Haus. Frag in den Calls am 21.–23.10., ob sie D als Einzelpatch auf Leinen stickt. Vorteil: kein zweiter Lieferant, keine Frist 29.01., Waschverhalten aus einer Hand. Gegenrechnung: Stichzahl des Patches (vom Digitizer) × Preis pro 1.000 Stiche + Leinen + Kante gegen ~3 € Zukauf.
 
 ### 3.2 Chenille-Patch (Zipper-Rücken, nur falls am 19.12. gewählt)
 
@@ -277,7 +277,7 @@ Fällt eine der vier bei der Prüfliste durch (K.-o.), rückt der nächste Kandi
 | Polo | Piqué-Polo, ~12 € (Schätzung) | Spec 3C.3 |
 | Farbe | Navy (Docket-Empfehlung, Woche 6) | Docket W6 |
 | Muster | je 1 Stück in deiner Größe, Woche 6, danach zum Berliner Sticker | Docket W6 |
-| Serie | erst nach bezahlter Bestellung, So 25.04. für die ersten 72 Stunden | Plan 3.2 |
+| Serie | erst nach bezahlter Bestellung, So 27.06. für die ersten 72 Stunden | Plan 3.2 |
 
 | Marke | Was ich weiß (Vorwissen, **nicht geprüft**) | Was du prüfst |
 |---|---|---|

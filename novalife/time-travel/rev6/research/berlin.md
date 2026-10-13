@@ -30,8 +30,8 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 5. **Shoot und Technik.** Tageslichtstudios gibt es über Giggster ab etwa 38–45 €/Stunde, gebucht werden mindestens 2–3 Stunden. Dein Shoot-Budget ist aber nur 150 €. Kameras: Calumet hat einen Verleih mit Abholung in Berlin-Moabit (Mietdauer und Preise prüfen). Grover vermietet nur monatlich, die Sony A7 III ab 104,90 €/Monat.
 
-6. **Weizen.** Am 20.02. gibt es kein goldenes Feld, im April ist es grün ([ungeprüft], Fachwissen). Mein Vorschlag:
-   - **Shoot am 20.02. als „Die Hütte“ drinnen:** Teppich an der Wand, Trockenweizen, warmes Licht. Dazu 30 Minuten draußen im Winterfeld zur goldenen Stunde.
+6. **Weizen.** Am 06.03. gibt es kein goldenes Feld, im April ist es grün ([ungeprüft], Fachwissen). Mein Vorschlag:
+   - **Shoot am 06.03. als „Die Hütte“ drinnen:** Teppich an der Wand, Trockenweizen, warmes Licht. Dazu 30 Minuten draußen im Winterfeld zur goldenen Stunde.
    - **Countdown als „Das Feld wächst“:** jeden Sonntag dasselbe grüne Feld bei Sonnenuntergang.
 
 7. **Museum Europäischer Kulturen (MEK), Arnimallee 25.** Laut berlin.de Mi–Fr 10–17 Uhr, Sa–So 11–18 Uhr, Mo und Di geschlossen, Eintritt 10 €. Vor dem Besuch prüfen. Gut für deine Belegtabelle zur Drei-von-vier-Regel. Drehen nur mit Genehmigung.
@@ -51,12 +51,12 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 ### Was du in den Laden mitbringst
 
-- **Bis 03.12.:** Ausdruck der Druckvorlage v1.7, Fotos vom Papiertest, ab 17.11. die Stickproben. Dazu ein A5-Zettel mit dem Text „100 Stück, nummeriert 001–100, 169 €, Drop Do 22.04.2027, 19:00“ und dem QR-Code zur Warteliste.
+- **Bis 03.12.:** Ausdruck der Druckvorlage v1.7, Fotos vom Papiertest, ab 17.11. die Stickproben. Dazu ein A5-Zettel mit dem Text „100 Stück, nummeriert 001–100, 169 €, Drop Do 24.06.2027, 19:00“ und dem QR-Code zur Warteliste.
 - **Ab 03.12.:** das Proto in W32, Maßband und die Tabelle „Ehrliche Größen“ aus der Spec 1.2.
 
 ### Ansprache im Laden (Vorschlag, frei sprechen)
 
-> „Hi, ich bin Ernest von Novalife, Denim aus Berlin. Ich baue gerade eine Jeans mit vier Stickereien aus der Kreuzstich-Tradition. 100 Stück, nummeriert, Drop am 22. April. Heute habe ich nur Papier und Proben dabei, das erste Sample kommt Anfang Dezember. Darf ich es euch dann zeigen? Und zwei Fragen: Nehmt ihr Berliner Labels in Kommission? Und macht ihr Abende im Laden?“
+> „Hi, ich bin Ernest von Novalife, Denim aus Berlin. Ich baue gerade eine Jeans mit vier Stickereien aus der Kreuzstich-Tradition. 100 Stück, nummeriert, Drop am 24. Juni. Heute habe ich nur Papier und Proben dabei, das erste Sample kommt Anfang Dezember. Darf ich es euch dann zeigen? Und zwei Fragen: Nehmt ihr Berliner Labels in Kommission? Und macht ihr Abende im Laden?“
 
 ### Was du fragst und notierst (Blatt „Läden“)
 
@@ -79,7 +79,7 @@ Fünf Punkte:
 
 | Name | Adresse | Website | Warum | Wann hingehen | Quelle |
 |---|---|---|---|---|---|
-| **Studio183** (A) | Brunnenstr. 183, 10119 Mitte · zweiter Standort im Bikini Berlin, 1. OG, Budapester Str. 46 [belegt] | bikiniberlin.de/en/shopping/studio183/ | Concept Gallery für junge Designer. **Kleiderstangen werden langfristig vermietet**, dazu befristete Präsentationen, Modenschauen, Meet & Greets, Workshops. Genau das Modell für dich. Konditionen 2016: 30 % Provision plus Standmiete (`markt.md` Q56, heute prüfen). **Ansprache:** Konditionen für eine Stange 01.02.–30.04. erfragen und nach einem Event-Abend fragen | Oktober: Konditionen holen. Dezember mit dem Proto. Stange ab Februar, frühestens ab dem PP-Sample | [23][24] |
+| **Studio183** (A) | Brunnenstr. 183, 10119 Mitte · zweiter Standort im Bikini Berlin, 1. OG, Budapester Str. 46 [belegt] | bikiniberlin.de/en/shopping/studio183/ | Concept Gallery für junge Designer. **Kleiderstangen werden langfristig vermietet**, dazu befristete Präsentationen, Modenschauen, Meet & Greets, Workshops. Genau das Modell für dich. Konditionen 2016: 30 % Provision plus Standmiete (`markt.md` Q56, heute prüfen). **Ansprache:** Konditionen für eine Stange 15.02.–30.06. erfragen und nach einem Event-Abend fragen | Oktober: Konditionen holen. Dezember mit dem Proto. Stange ab Februar, frühestens ab dem PP-Sample | [23][24] |
 | **Konk** (A) | Kleine Hamburger Str. 15, Mitte [belegt, alt] | nicht geprüft | Laden für unabhängige Berliner Labels. Der Raum wird oft für Events genutzt. Ein Fachartikel meldet eine Neuausrichtung, Datum unklar. **Ansprache:** fragen, ob noch Berliner Labels aufgenommen werden und ob es Abende gibt | Laden-Runde Mitte-Süd. Vorher prüfen, ob noch offen | [11][12] |
 | **Burg & Schild** (B) | Rosa-Luxemburg-Str. 3, 10178 Mitte [belegt] | nicht geprüft | Denim- und Workwear-Laden für Kenner: Iron Heart, 3sixteen, Tellason, Red Wing. Die Kundschaft liebt Stoff, Gewicht und Verarbeitung. **Ansprache:** Feedback zu 12 oz rigid, Waschung L\* 34–40 und Panel-Stickerei holen. Keine Konsignation erwarten | Mit Stickproben ab 17.11. Mit dem Proto im Dezember | [1][2] |
 | **DC4** (B) | Torstraße, Mitte. Hausnummer nicht gefunden [prüfen] | nicht geprüft | Japanischer Premium-Denim seit 2004, **Kettenstich-Service und Reparatur**. Möglicher Partner für Säume oder Reparaturen nach dem Drop. 2017 gab es dort ein Samurai-Jeans-Event, sie machen also Events [alt] | Laden-Runde Mitte-Nord | [27][28] |
@@ -147,8 +147,8 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 | Name | Adresse | Website | Warum · Stand · Kosten | Wann hingehen | Quelle |
 |---|---|---|---|---|---|
 | **Flohmarkt am Mauerpark** | Mauerpark, Prenzlauer Berg, an der Grenze zum Wedding. Eingang und Adresse [prüfen] | Info auf berlin.de. Betreiber-Website nicht geprüft | Laut berlin.de **jeden Sonntag**, viele Touristen und junge Berliner. **Stand:** ~400 Plätze à 3 × 2,5 m, je ein Drittel für Privatleute und für „kreative Stände“. Früh reservieren, Tel. (030) 2977 2486. **Preis nicht gefunden [prüfen]** | So 25.10. zum Ansehen: mit 3 Händlern sprechen und nach Preis und Ablauf fragen. Stand frühestens ab 03.12. mit Proto, sinnvoll im März/April | [34] |
-| **Nowkoelln Flowmarkt** | Maybachufer zwischen Nansenstraße und Liberdastraße, Neukölln [belegt] | Info auf berlin.de | Eintritt frei, 10–17 Uhr. **Jeden zweiten Sonntag von Ende März bis Anfang Dezember.** Belegte Termine 2026: 26.07., 09.08., 23.08., 06.09. Fortgeschrieben ergibt das **18.10., 01.11., 15.11., 29.11.** [Schätzung, prüfen]. **Stand:** nur online anmelden. **Preis nicht gefunden [prüfen]**. 2025 gab es einen **Advents-Flowmarkt**, für 2026 prüfen | Ansehen am 18.10. oder 15.11. **Stand in der Saison 2027 am ersten Termin nach dem 29.03. (Countdown)**. Ware zum Mitnehmen gibt es erst nach dem Drop, vorher sammelst du dort Anmeldungen | [35][36] |
-| **Holzmarkt Flohmarkt** | Holzmarkt, Friedrichshain. Adresse [prüfen] | Info auf berlin.de | 2026 am letzten Samstag im Monat von 28.03. bis 26.09., 12–18 Uhr. Vintage-Kleidung, private Händler. **Die Saison 2026 ist vorbei.** Saison 2027 prüfen. Folgt sie dem Muster, wäre der erste Termin Sa 27.03.2027 [Schätzung] | März 2027 als Countdown-Auftritt | [37] |
+| **Nowkoelln Flowmarkt** | Maybachufer zwischen Nansenstraße und Liberdastraße, Neukölln [belegt] | Info auf berlin.de | Eintritt frei, 10–17 Uhr. **Jeden zweiten Sonntag von Ende März bis Anfang Dezember.** Belegte Termine 2026: 26.07., 09.08., 23.08., 06.09. Fortgeschrieben ergibt das **18.10., 01.11., 15.11., 29.11.** [Schätzung, prüfen]. **Stand:** nur online anmelden. **Preis nicht gefunden [prüfen]**. 2025 gab es einen **Advents-Flowmarkt**, für 2026 prüfen | Ansehen am 18.10. oder 15.11. **Stand in der Saison 2027 am ersten Termin nach dem 31.05. (Countdown)**. Ware zum Mitnehmen gibt es erst nach dem Drop, vorher sammelst du dort Anmeldungen | [35][36] |
+| **Holzmarkt Flohmarkt** | Holzmarkt, Friedrichshain. Adresse [prüfen] | Info auf berlin.de | 2026 am letzten Samstag im Monat von 30.05. bis 26.09., 12–18 Uhr. Vintage-Kleidung, private Händler. **Die Saison 2026 ist vorbei.** Saison 2027 prüfen. Folgt sie dem Muster, wäre der erste Termin Sa 29.05.2027 [Schätzung] | März 2027 als Countdown-Auftritt | [37] |
 | **Flohmarkt Boxhagener Platz** | Boxhagener Platz, Friedrichshain | Info auf berlin.de | Wochentag und Zeiten [prüfen]. Kiez mit jungen Designern [33] | zusammen mit der Laden-Runde Friedrichshain | [41][33] |
 | **Trödelmarkt Arkonaplatz** | Arkonaplatz, Prenzlauer Berg | nicht geprüft | Kleiner Sonntagsmarkt, laut Fodor's für viele Einheimische der beste der Stadt. Vor allem Möbel, Bücher, Platten | Mit dem Mauerpark kombinieren | [42] |
 
@@ -164,7 +164,7 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 
 | Name | Adresse | Website | Warum | Wann hingehen | Quelle |
 |---|---|---|---|---|---|
-| **Berlin Fashion Week, Februar 2027** | [prüfen] | Die offizielle Website des Fashion Council Germany war für mich gesperrt | **Termin in dieser Sitzung nicht gefunden.** Bisher war sie Ende Januar oder Anfang Februar [ungeprüft]. Prüfen, ob sie mit der Schwelle am 01.02. oder dem Shoot am 20.02. kollidiert. Für dich zählen die offenen Side-Events, nicht die Shows | Termin klären bis Ende Oktober | — |
+| **Berlin Fashion Week, Februar 2027** | [prüfen] | Die offizielle Website des Fashion Council Germany war für mich gesperrt | **Termin in dieser Sitzung nicht gefunden.** Bisher war sie Ende Januar oder Anfang Februar [ungeprüft]. Prüfen, ob sie mit der Schwelle am 15.02. oder dem Shoot am 06.03. kollidiert. Für dich zählen die offenen Side-Events, nicht die Shows | Termin klären bis Ende Oktober | — |
 | **Sneaker- und Streetwear-Events** | — | — | **Nicht gefunden.** Frag bei Overkill und GATE194 nach Release-Abenden im Laden | Laden-Runde Kreuzberg | — |
 | **Kultur mit osteuropäischem Bezug, unpolitisch** | — | — | **Nicht belegt.** Kandidaten aus Vorwissen [ungeprüft]: FilmFestival Cottbus (Brandenburg, Festival des osteuropäischen Films, meist Anfang November), Programme der Kulturinstitute (Polnisches Institut, Tschechisches Zentrum), Veranstaltungen im MEK. Nur Textil, Handwerk, Film oder Musik. **Meide alles, was an einen Staat oder einen Konflikt gebunden ist** | nach Prüfung | — |
 | **MEK Europäische Kulturtage** | Arnimallee 25 | smb.museum | 2026 mit Schwerpunkt Tirol (Flyer gesehen), also kein slawischer Bezug. Das Programm 2027 prüfen | — | [60] |
@@ -179,7 +179,7 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 |---|---|---|---|---|---|
 | **Studio183 (Stange)** | Brunnenstr. 183 · Bikini Berlin 1. OG | bikiniberlin.de/en/shopping/studio183/ | Die kleinste Form von Pop-up: eine Stange mit deinem Namen. Events möglich | Februar bis April | [23] |
 | **Pop-up-Boxen im Bikini Berlin** | Budapester Straße, Bikini Berlin | vermietung.bikiniberlin.de | 20 bis knapp 35 m², kombiniert bis 80 m², **Mietdauer 3–12 Monate**. Für Drop 1 zu lang und vermutlich zu teuer [Schätzung]. Für Drop 2 vormerken | — | [44] |
-| **Giggster (Pop-up)** | Fläche je Inserat | giggster.com/de/find/berlin--de/pop-up | Plattform, Räume stunden- oder tageweise buchbar, Preise je Inserat | Für den Abend am Sa 24.04. oder die Anprobe-Abende, falls kein Laden mitmacht. 6 Wochen vorher buchen [Schätzung] | [46] |
+| **Giggster (Pop-up)** | Fläche je Inserat | giggster.com/de/find/berlin--de/pop-up | Plattform, Räume stunden- oder tageweise buchbar, Preise je Inserat | Für den Abend am Sa 26.06. oder die Anprobe-Abende, falls kein Laden mitmacht. 6 Wochen vorher buchen [Schätzung] | [46] |
 | **eventlocations.com (Pop-up/Showroom)** | je Inserat | eventlocations.com/de/pop-up-store-show-room | Verzeichnis von Pop-up- und Showroom-Flächen | wie Giggster | [47] |
 | **Go-PopUp** | Berlin | Website nicht geprüft | Berliner Plattform für Pop-up-Flächen, laut Artikel über 300 direkt buchbare Flächen. **2017 mit PopPlaces fusioniert, heutiger Stand [prüfen]** | — | [45] |
 | **Ratgeber Berliner Sparkasse** | — | berliner-sparkasse.de (Ratgeber „Pop-up-Store in Berlin eröffnen“) | Grundlagen zu Vertrag, Kosten und Ablauf | Vor der ersten Buchung lesen | [48] |
@@ -191,7 +191,7 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 | Name | Adresse | Website | Warum · Preis | Wann | Quelle |
 |---|---|---|---|---|---|
 | **Wandelbares Tageslichtstudio** | über die Plattform | giggster.com/de/listing/wandelbares-fotostudio-mit-tageslicht | **40 €/Std., mindestens 3 Std.**, weiße Wände, Tageslicht, ~100 m², bis 5 Personen | Mini-Shoot oder Lookbook | [49][51] |
-| **Tageslichtstudio Neukölln** | Neukölln, über die Plattform | giggster.com/de/listing/daylight-photostudio-in-neukolln-berlin | **ab 38–45 €/Std., mindestens 2 Std.**, bis 30 Personen | Lookbook am 20.02. | [49][50] |
+| **Tageslichtstudio Neukölln** | Neukölln, über die Plattform | giggster.com/de/listing/daylight-photostudio-in-neukolln-berlin | **ab 38–45 €/Std., mindestens 2 Std.**, bis 30 Personen | Lookbook am 06.03. | [49][50] |
 | **Tageslichtstudio Treptow** | Treptow, über die Plattform | giggster.com/de/listing/bright-daylight-photo-studio-in-berlin-treptow | 135 m², **mindestens 4 Std.**, Preis im Inserat | nur wenn viele Looks | [52] |
 | **Kreativraum Kreuzberg** | Kreuzberg | über giggster.com/de/find/berlin--de/photo-shoot | 45 €/Std., hohe Decken, große Fenster | Alternative | [49] |
 | **Nordischer Altbau** | über die Plattform | über giggster.com/de/find/berlin--de/photo-shoot | 100 €/Std. | zu teuer | [49] |
@@ -203,11 +203,11 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 
 | Name | Adresse | Website | Warum · Preis | Wann | Quelle |
 |---|---|---|---|---|---|
-| **Calumet Rent (Filiale Berlin)** | Bertha-Benz-Str. 5, 10557 Berlin-Moabit, Tel. 030 2575710 [belegt, Verzeichnis-Eintrag, prüfen] | calumet.de/service/rent | Profi-Kameras, Objektive, Zubehör online mieten, in der Filiale abholen oder per Express schicken lassen. Preise und Kaution [prüfen] | Fr 19.02. abholen, Mo 22.02. zurück (Wochenendmiete prüfen) | [54][55] |
-| **Grover** | online | grover.com | **Ab 1 Monat.** Sony Alpha A7 III ab 104,90 €/Monat, APS-C-Modelle ab 44,90 €/Monat. Lohnt nur, wenn du einen Monat lang jeden Tag drehst (Countdown 29.03.–21.04.) | Countdown-Monat, nur wenn das Handy nicht reicht | [56] |
+| **Calumet Rent (Filiale Berlin)** | Bertha-Benz-Str. 5, 10557 Berlin-Moabit, Tel. 030 2575710 [belegt, Verzeichnis-Eintrag, prüfen] | calumet.de/service/rent | Profi-Kameras, Objektive, Zubehör online mieten, in der Filiale abholen oder per Express schicken lassen. Preise und Kaution [prüfen] | Fr 05.03. abholen, Mo 08.03. zurück (Wochenendmiete prüfen) | [54][55] |
+| **Grover** | online | grover.com | **Ab 1 Monat.** Sony Alpha A7 III ab 104,90 €/Monat, APS-C-Modelle ab 44,90 €/Monat. Lohnt nur, wenn du einen Monat lang jeden Tag drehst (Countdown 31.05.–23.06.) | Countdown-Monat, nur wenn das Handy nicht reicht | [56] |
 | **MBF Filmtechnik GmbH** | Adresse [prüfen] | Eintrag auf crew-united.com | Profi-Verleih für Film, Licht und Ton. Für dich vermutlich zu groß [Schätzung] | — | [57] |
 
-**Rat:** Dein Content läuft übers Handy. Leih nur fürs Lookbook am 20.02. Am besten bringt der Fotograf oder die Fotografin eigenes Gerät mit, dann fällt die Miete weg.
+**Rat:** Dein Content läuft übers Handy. Leih nur fürs Lookbook am 06.03. Am besten bringt der Fotograf oder die Fotografin eigenes Gerät mit, dann fällt die Miete weg.
 
 ---
 
@@ -219,8 +219,8 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 
 | Termin | Was es draußen gibt | Was das für dich heißt |
 |---|---|---|
-| **Sa 20.02. Shoot** | Kein goldenes Feld. Grüne Saat oder umgepflügte Erde, eventuell abgeerntete Felder vom Vorjahr [Schätzung]. Sonnenuntergang in Berlin gegen ~17:35 Uhr [Schätzung, in einer Sonnen-App prüfen] | **Vorschlag „Die Hütte“:** drinnen, Teppich an der Wand (dein Familien-Teppich als echtes Requisit), **Trockenweizen** in der Vase oder als Bund, warmes Licht. Das ist die Endszene deines Spiels und braucht kein Feld. **Dazu 30 Minuten draußen** zur goldenen Stunde ~16:45–17:35 [Schätzung] auf einem winterlichen Feld. Gold kommt aus dem Licht, nicht aus dem Weizen |
-| **29.03.–21.04. Countdown** | Grünes, wachsendes Feld. Seit So 28.03.2027 gilt Sommerzeit, Sonnenuntergang Ende März ~19:35 Uhr, am 22.04. ~20:15 Uhr [Schätzung, prüfen] | **Vorschlag „Das Feld wächst“:** an vier Sonntagen (28.03., 04.04., 11.04., 18.04.) dasselbe Feld von derselben Stelle zur selben Uhrzeit filmen, 10 Minuten. Am Ende ein Zeitraffer: „Das Feld wächst noch. Auf der Jeans sind die Ähren schon reif.“ Ein Ausflug pro Woche statt täglich, passt zu „sonntags drehen“ |
+| **Sa 06.03. Shoot** | Kein goldenes Feld. Grüne Saat oder umgepflügte Erde, eventuell abgeerntete Felder vom Vorjahr [Schätzung]. Sonnenuntergang in Berlin gegen ~17:35 Uhr [Schätzung, in einer Sonnen-App prüfen] | **Vorschlag „Die Hütte“:** drinnen, Teppich an der Wand (dein Familien-Teppich als echtes Requisit), **Trockenweizen** in der Vase oder als Bund, warmes Licht. Das ist die Endszene deines Spiels und braucht kein Feld. **Dazu 30 Minuten draußen** zur goldenen Stunde ~16:45–17:35 [Schätzung] auf einem winterlichen Feld. Gold kommt aus dem Licht, nicht aus dem Weizen |
+| **31.05.–23.06. Countdown** | Grünes, wachsendes Feld. Seit So 30.05.2027 gilt Sommerzeit, Sonnenuntergang Ende März ~19:35 Uhr, am 24.06. ~20:15 Uhr [Schätzung, prüfen] | **Vorschlag „Das Feld wächst“:** an vier Sonntagen (30.05., 06.06., 13.06., 20.06.) dasselbe Feld von derselben Stelle zur selben Uhrzeit filmen, 10 Minuten. Am Ende ein Zeitraffer: „Das Feld wächst noch. Auf der Jeans sind die Ähren schon reif.“ Ein Ausflug pro Woche statt täglich, passt zu „sonntags drehen“ |
 | **Regel Himmel** | — | Auch bei grünem Weizen gilt die Plan-Regel 8.2: **jedes Weizen-Bild bei Sonnenuntergang, nie hellblauer Himmel über gelbem Weizen.** Trockenweizen drinnen ist unkritisch |
 | **Was du nicht tust** | — | Kein goldenes Stock- oder KI-Feld als „unser Feld“ ausgeben. Gezeigt wird, was es gibt |
 
@@ -235,9 +235,9 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 | **Hinterhöfe von GATE194 und Voo** | Köpenicker Str. 194 · Oranienstr. 24 | siehe 1.2 | Beide Läden liegen in Hinterhöfen [belegt]. Berliner Hof-Kulisse mit der Erlaubnis des Ladens. Die Frage nach dem Drehen gehört in die Laden-Runde | ab 03.12. für BUILD- und REAL-Posts | [3][10] |
 | **Oberbaumbrücke** | zwischen Kreuzberg und Friedrichshain | — | Backstein, Bögen, die U1 fährt drüber. Bekannte Kulisse, also schnell erkennbar als „Berlin“ | Morgens, wenn es leer ist [ungeprüft] | [ungeprüft] |
 | **Modersohnbrücke** | Friedrichshain | — | Bekannter Ort für den Sonnenuntergang über den Gleisen [ungeprüft] | Countdown-Abende | [ungeprüft] |
-| **Tempelhofer Feld** | Tempelhof/Neukölln | — | Weite, Horizont, Sonnenuntergang, im Winter fahles Gras. **Kommerzielles Drehen braucht vermutlich eine Genehmigung des Betreibers [ungeprüft, prüfen]** | 20.02. als Feld-Ersatz, Countdown | [ungeprüft] |
+| **Tempelhofer Feld** | Tempelhof/Neukölln | — | Weite, Horizont, Sonnenuntergang, im Winter fahles Gras. **Kommerzielles Drehen braucht vermutlich eine Genehmigung des Betreibers [ungeprüft, prüfen]** | 06.03. als Feld-Ersatz, Countdown | [ungeprüft] |
 | **Park am Gleisdreieck** | Kreuzberg/Schöneberg | — | Alte Gleise und Gräser, gute Industriekulisse | — | [ungeprüft] |
-| **Felder in Brandenburg** | je Feld | — | Echte Ackerkulisse. **Nur mit Erlaubnis des Landwirts**, Feld nicht betreten und nur die Fahrspuren nutzen. Ein Feld in S-Bahn-Nähe am Stadtrand suchen. In Berlin gibt es Felder z. B. bei Lübars [ungeprüft] | Feld bis Ende Januar finden und Landwirt fragen. Drehen am 20.02. und an den Countdown-Sonntagen | [ungeprüft] |
+| **Felder in Brandenburg** | je Feld | — | Echte Ackerkulisse. **Nur mit Erlaubnis des Landwirts**, Feld nicht betreten und nur die Fahrspuren nutzen. Ein Feld in S-Bahn-Nähe am Stadtrand suchen. In Berlin gibt es Felder z. B. bei Lübars [ungeprüft] | Feld bis Ende Januar finden und Landwirt fragen. Drehen am 06.03. und an den Countdown-Sonntagen | [ungeprüft] |
 | **Domäne Dahlem** | Dahlem, nahe MEK | — | Museumsbauernhof mit Feldern [ungeprüft]. Feld und Museum an einem Tag möglich. Fotoregeln [prüfen] | zusammen mit dem MEK-Besuch | [ungeprüft] |
 
 ### 4.3 Museum Europäischer Kulturen (MEK)
@@ -263,10 +263,10 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 | Name | Adresse | Website | Warum | Wann | Quelle |
 |---|---|---|---|---|---|
 | **UdK Berlin, Modedesign** | [prüfen] | offizielle Seite suchen | Studierende für Styling, Modelle, Feedback zum Schnitt. Nur über den offiziellen Weg (Studiengang, Aushang mit Erlaubnis) | Oktober/November ansprechen, Shoot im Februar | [ungeprüft] |
-| **HTW Berlin, Bekleidungstechnik** | [prüfen] | offizielle Seite suchen | Technik-Studierende: Hilfe beim Prüfplan, Messen beim Wareneingang (31.03.–02.04.), Packhilfe am Drop | Januar ansprechen, Einsatz März/April | [ungeprüft] |
+| **HTW Berlin, Bekleidungstechnik** | [prüfen] | offizielle Seite suchen | Technik-Studierende: Hilfe beim Prüfplan, Messen beim Wareneingang (02.06.–04.06.), Packhilfe am Drop | Januar ansprechen, Einsatz März/April | [ungeprüft] |
 | **AMD Akademie Mode & Design, Berlin** | [prüfen] | offizielle Seite suchen | Mode-Management und Design: Hilfe bei Events und Social Media | November ansprechen | [ungeprüft] |
 | **ESMOD Berlin** | [prüfen] | offizielle Seite suchen | Design-Studierende, Models aus dem Umfeld | November ansprechen | [ungeprüft] |
-| **Lette Verein Berlin** | [prüfen] | offizielle Seite suchen | Ausbildung in Mode **und Fotografie**. Erste Anlaufstelle für Fotografen, die fürs Portfolio arbeiten | Dezember ansprechen, Shoot 20.02. | [ungeprüft] |
+| **Lette Verein Berlin** | [prüfen] | offizielle Seite suchen | Ausbildung in Mode **und Fotografie**. Erste Anlaufstelle für Fotografen, die fürs Portfolio arbeiten | Dezember ansprechen, Shoot 06.03. | [ungeprüft] |
 | **Model-Plattformen** (z. B. Model-Kartei) | online | [prüfen] | Fotografen und Models in Berlin, oft gegen Bilder statt Geld. Seriosität jedes Profils prüfen | Januar | [ungeprüft] |
 | **Coworking** | — | — | **Nicht recherchiert.** Für Drop 1 nicht nötig. Für Anprobe-Abende sind Läden besser | — | — |
 
@@ -317,13 +317,13 @@ Models bekommen eine schriftliche Einwilligung für die Nutzung der Bilder. Crea
 | Sa 28.11. | W11 | Neukölln | **Holy Shit Shopping** (CANK) + Sing Blackbird + Weserstraße | 3 Std. |
 | Sa 05.12.–Sa 19.12. | W12–14 | A-Liste | **Mit dem Proto zurück:** Studio183, GATE194, Konk, Sing Blackbird, Burg & Schild. Anprobe-Abende im Januar festmachen | je 1 Std. |
 | bis Fr 15.01. | W18 | Brandenburg | Feld für Shoot und Countdown finden, Landwirt fragen | 2 Std. |
-| Sa 16.01. und Sa 23.01. | W18–19 | Laden mit Zusage | **Anprobe-Abende 1 und 2** (Vorbestellung seit 14.01.). Alle Größen, QR-Liste | je 3 Std. |
+| Sa 16.01. und Sa 30.01. | W18–19 | Laden mit Zusage | **Anprobe-Abende 1 und 2** (Vorbestellung seit 14.01.). Alle Größen, QR-Liste | je 3 Std. |
 | Ende Jan./Anfang Feb. | W20–21 | [prüfen] | Fashion Week: offene Side-Events, nur wenn der Termin passt | — |
-| Fr 19.02.–So 21.02. | W23 | Studio oder Altbau + Feld | Kamera abholen, **Shoot 20.02. „Die Hütte“ + goldene Stunde draußen**, Sichtung | laut Docket |
-| Sa 20.03. | W27 | Laden mit Zusage | **Anprobe-Abend 3** („Vorbestellpreis endet“ So 21.03., 20:00) | 3 Std. |
-| So 28.03., 04.04., 11.04., 18.04. | W28–31 | Feld | **„Das Feld wächst“**, 10 Minuten am selben Platz | je 1,5 Std. inkl. Fahrt |
-| Sa 27.03. oder erster Flowmarkt-Sonntag | W28 | Holzmarkt oder Maybachufer | Stand für den Countdown (Termine 2027 prüfen) | 5–6 Std. |
-| **Sa 24.04.** | W32 | Laden mit Zusage | **Drop-Abend:** Anprobe, Kauf vor Ort, Puffer für 10 Käufe (`markt.md`) | 4 Std. |
+| Fr 05.03.–So 07.03. | W23 | Studio oder Altbau + Feld | Kamera abholen, **Shoot 06.03. „Die Hütte“ + goldene Stunde draußen**, Sichtung | laut Docket |
+| Sa 22.05. | W27 | Laden mit Zusage | **Anprobe-Abend 3** („Vorbestellpreis endet“ So 23.05., 20:00) | 3 Std. |
+| So 30.05., 06.06., 13.06., 20.06. | W28–31 | Feld | **„Das Feld wächst“**, 10 Minuten am selben Platz | je 1,5 Std. inkl. Fahrt |
+| Sa 29.05. oder erster Flowmarkt-Sonntag | W28 | Holzmarkt oder Maybachufer | Stand für den Countdown (Termine 2027 prüfen) | 5–6 Std. |
+| **Sa 26.06.** | W32 | Laden mit Zusage | **Drop-Abend:** Anprobe, Kauf vor Ort, Puffer für 10 Käufe (`markt.md`) | 4 Std. |
 
 ---
 

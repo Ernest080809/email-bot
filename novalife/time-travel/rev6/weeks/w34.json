@@ -1,0 +1,42 @@
+{
+ "n": 34,
+ "phase": "P4",
+ "goal": "Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.",
+ "kpi": [],
+ "days": {
+  "2027-05-03": [
+   {
+    "c": "N",
+    "t": "Abi-Pause, Woche 7 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!"
+   }
+  ],
+  "2027-05-04": [],
+  "2027-05-05": [],
+  "2027-05-06": [],
+  "2027-05-07": [],
+  "2027-05-08": [],
+  "2027-05-09": [
+   {
+    "c": "A",
+    "t": "10 Minuten: Mails von Kunden und Fabrik",
+    "m": 10,
+    "s": [
+     "Shopify-Mails und das Fabrik-Postfach öffnen. Nur antworten, was nicht warten kann.",
+     "Alles andere: „Ich melde mich ab dem 10.05.“"
+    ],
+    "f": "keine dringende Mail offen ist."
+   },
+   {
+    "c": "A",
+    "t": "Neustart vorbereiten: Docket W35 lesen, Fabrik nach dem Liefertermin fragen",
+    "m": 20,
+    "s": [
+     "Die Aufgaben von W35 und W36 lesen, nichts abarbeiten.",
+     "Fabrik per Mail: Ist die Ware fertig? Ist sie bis Fr 14.05. fertig, und klappt der Versand nach der Restzahlung am Fr 21.05.?",
+     "Cockpit: Zahlen vom Ende der Pause eintragen."
+    ],
+    "f": "du weißt, wann die Ware kommt."
+   }
+  ]
+ }
+}

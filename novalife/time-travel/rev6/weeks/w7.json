@@ -3,13 +3,34 @@
  "phase": "P1",
  "goal": "Eine Fabrik wählen, Konditionen mit Notausgang, Validierung bestehen",
  "kpi": [
-  {"k": "Warteliste", "ziel": "150 bestätigt (Alarm 50)"},
-  {"k": "Follower TikTok + IG neu seit 12.10.", "ziel": "~450 (Schätzung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Zusagen „Die ersten 35“", "ziel": "10 (nur Spalte „Zusage“)"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "Validierung", "ziel": "grün ≥ 150, ≥ 10 Zusagen, 50/50 schriftlich"},
-  {"k": "Gespräche", "ziel": "10 von 10, Tally ≥ 50"}
+  {
+   "k": "Warteliste",
+   "ziel": "150 bestätigt (Alarm 50)"
+  },
+  {
+   "k": "Follower TikTok + IG neu seit 12.10.",
+   "ziel": "~450 (Schätzung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“",
+   "ziel": "10 (nur Spalte „Zusage“)"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  },
+  {
+   "k": "Validierung",
+   "ziel": "grün ≥ 150, ≥ 10 Zusagen, 50/50 schriftlich"
+  },
+  {
+   "k": "Gespräche",
+   "ziel": "10 von 10, Tally ≥ 50"
+  }
  ],
  "days": {
   "2026-10-26": [
@@ -27,11 +48,21 @@
      "Entscheidung ins Blatt „Fabriken“: Nr. 1, Nr. 2, Datum, Grund in einem Satz."
     ],
     "f": "Fertig, wenn Nr. 1 und Nr. 2 im Blatt „Fabriken“ stehen und Nr. 1 Ampel grün oder gelb hat (oder die Gegenrechnung entschieden ist).",
-    "p": "Projekt Time Travel, Docket W7, Mo 26.10.: Ich wähle heute meine Jeansfabrik. Anbei: Vergleichstabelle vom 19.10., Notizen und Bewertungen aus den Calls 21.–23.10., Antworten der Referenzen: [ANHÄNGE]. Mein Steuerstand vom 23.10.: [STEUER]. Mach eine Scorecard für die Top 3: Panel-Stickerei im Haus nachgewiesen (Pflicht, sonst raus), Vermittler ohne genannte Fabrik (raus), Fabrikpreis je Paar inkl. Stickerei ohne Patch D bei 100 und 75 Stück mit Ampel (≤ 60 € grün, 61–63 € gelb, über 63 € rot), Termine Proto bis 30.11. und PP bis 04.01., Einzug-Kompensation, Zahlung (50/50?), Kommunikation, Steuer und Zoll nach meinem Status, Schwelle 1 und Schwelle 2 mit dieser Fabrik, Arbeitszeit im Ramadan, Feiertage bis April, A.TR. Sag mir ehrlich, welche du nehmen würdest, welche Nr. 2 sein soll und was ich morgen in der Verhandlung unbedingt schriftlich brauche.",
+    "p": "Projekt Time Travel, Docket W7, Mo 26.10.: Ich wähle heute meine Jeansfabrik. Anbei: Vergleichstabelle vom 19.10., Notizen und Bewertungen aus den Calls 21.–23.10., Antworten der Referenzen: [ANHÄNGE]. Mein Steuerstand vom 23.10.: [STEUER]. Mach eine Scorecard für die Top 3: Panel-Stickerei im Haus nachgewiesen (Pflicht, sonst raus), Vermittler ohne genannte Fabrik (raus), Fabrikpreis je Paar inkl. Stickerei ohne Patch D bei 100 und 75 Stück mit Ampel (≤ 60 € grün, 61–63 € gelb, über 63 € rot), Termine Proto bis 30.11. und PP bis 04.01., Einzug-Kompensation, Zahlung (50/50?), Kommunikation, Steuer und Zoll nach meinem Status, Schwelle 1 und Schwelle 2 mit dieser Fabrik, Arbeitszeit im Ramadan, Feiertage bis Mitte Mai, A.TR. Sag mir ehrlich, welche du nehmen würdest, welche Nr. 2 sein soll und was ich morgen in der Verhandlung unbedingt schriftlich brauche.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"},
-     {"n": "Gmail", "u": "https://mail.google.com", "h": "Antworten der Referenzen"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com",
+      "h": "Antworten der Referenzen"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -47,8 +78,15 @@
     ],
     "f": "Fertig, wenn der Antrag gestellt ist oder „entfällt“ im Blatt „Ausgaben“ steht.",
     "o": [
-     {"n": "Zoll · EORI-Nummer", "u": "https://www.zoll.de", "h": "Antragsweg und Dauer selbst prüfen (ungeprüft)"},
-     {"n": "Tracking-Tabelle · Blatt „Ausgaben“", "u": "https://sheets.google.com"}
+     {
+      "n": "Zoll · EORI-Nummer",
+      "u": "https://www.zoll.de",
+      "h": "Antragsweg und Dauer selbst prüfen (ungeprüft)"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Ausgaben“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -64,9 +102,18 @@
     ],
     "f": "Fertig, wenn jeder Gast mit Ja seine Fotos und die Bitte bekommen hat.",
     "o": [
-     {"n": "WhatsApp Web", "u": "https://web.whatsapp.com"},
-     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"},
-     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "WhatsApp Web",
+      "u": "https://web.whatsapp.com"
+     },
+     {
+      "n": "Instagram (DMs)",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -82,9 +129,20 @@
     ],
     "f": "Fertig, wenn V007 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
-     {"n": "YouTube Studio", "u": "https://studio.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel, Probe-Reel, Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube Studio",
+      "u": "https://studio.youtube.com"
+     }
     ],
     "v": {
      "id": "V007",
@@ -115,7 +173,7 @@
     "m": 40,
     "s": [
      "Prompt unten an Claude: Claude schreibt die Mail auf Englisch aus der Vorlage „Verhandlung und Proforma“ (Referenz → Vorlagen) mit allen 8 Punkten.",
-     "Die 8 Punkte: 50/50 · Rest „nach Freigabe des Endkontroll-Videos, spätestens 24.03.“ · Teil-Lieferung gegen Teilzahlung · Preis 75/100 schriftlich bis 01.02. · Euro · DAP bevorzugt (bei DDP steckt die Steuer schon in der Restzahlung am 19.03.) · keine Bestellpflicht bei durchgefallenen Mustern · Bankdaten-Regel.",
+     "Die 8 Punkte: 50/50 · Rest „nach Freigabe des Endkontroll-Videos, spätestens 26.05.“ · Teil-Lieferung gegen Teilzahlung · Preis 75/100 schriftlich bis 15.02. · Euro · DAP bevorzugt (bei DDP steckt die Steuer schon in der Restzahlung am 21.05.) · keine Bestellpflicht bei durchgefallenen Mustern · Bankdaten-Regel.",
      "Schriftlich dazu: Das Proto bleibt bei dir, Korrekturen gehen per Foto und Maß. Ein zweites Proto optional mit Preis. Bei Türkei: jede Sendung mit A.TR, Handelsrechnung und Packliste, auch Proto und PP.",
      "Aus der Vorlage bleibt: Entwicklungskosten werden verrechnet, Digitizing aller 5 Elemente inklusive, Termine für Digitizing-Vorschau, gewaschene Stickproben, Proto bis 30.11., PP bis 04.01.",
      "Proforma für die Entwicklung anfordern: Digitizing, gewaschene Stickproben, Proto W32 komplett bestickt und gewaschen, Expressversand. Bei Türkei bis Fr 30.10.",
@@ -125,9 +183,18 @@
     "f": "Fertig, wenn die Verhandlungsmail mit allen 8 Punkten und der Bitte um Proforma raus ist.",
     "p": "Projekt Time Travel, Docket W7, Di 27.10.: Schreib mir die Verhandlungsmail an [FABRIK] auf Englisch, auf Basis meiner Vorlage „Verhandlung und Proforma“ (Docket → Referenz → Vorlagen), Betreff wie in der Vorlage. Nummeriert: 1) Payment 50 % deposit, 50 % balance. 2) Balance due after I approve the final inspection video, at the latest 24 March 2027. 3) Option: partial delivery against partial payment. 4) Prices for 75 and 100 pcs in writing, valid until 1 February 2027. 5) All prices in EUR. 6) Delivery DAP Berlin preferred [BEI PORTUGAL: delivered to Berlin]. 7) No obligation to order if stitch-outs, proto or PP fail the written criteria. 8) Bank details: I only pay to the account on the first proforma; any change by e-mail must be confirmed by phone before I pay. Dazu aus der Vorlage: development costs credited against the bulk order; digitizing of all 5 elements included; dates: digitizing preview by [DATUM], washed stitch-outs by [DATUM], proto shipped by 30 Nov 2026, PP shipped by 4 Jan 2027. Neu: the proto stays with me, corrections by photo and measurements; price for an optional second proto; [NUR TÜRKEI: every shipment, including proto and PP, comes with A.TR, commercial invoice and packing list]. Am Ende die Bitte um eine Proforma für die Entwicklung: digitizing, washed stitch-outs, proto W32 fully embroidered and washed, express shipping. Kurz, höflich, klar.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -141,8 +208,14 @@
     ],
     "f": "Fertig, wenn jede angefragte Fabrik eine Antwort hat.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -157,7 +230,11 @@
     ],
     "f": "Fertig, wenn Story 5 mit Schieberegler online ist.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Schieberegler und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Schieberegler und Link-Sticker"
+     }
     ],
     "v": {
      "id": "Story 5",
@@ -190,7 +267,10 @@
     ],
     "f": "Fertig, wenn G8 und G9 vollständig im Blatt „Gespräche“ stehen.",
     "o": [
-     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blätter „Gespräche“ und „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -204,9 +284,18 @@
     ],
     "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -222,10 +311,22 @@
     ],
     "f": "Fertig, wenn V121 mit echter Zahl auf TikTok und Instagram online ist.",
     "o": [
-     {"n": "Shopify-Admin · Kunden", "u": "https://admin.shopify.com"},
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "Shopify-Admin · Kunden",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ],
     "v": {
      "id": "V121",
@@ -265,9 +366,18 @@
     "f": "Fertig, wenn 3 Patch-Anfragen raus sind und im Blatt „Patches“ stehen.",
     "p": "Projekt Time Travel, Docket W7, Mi 28.10.: Passe meine Vorlage „Patch-Anfrage“ (Docket → Referenz → Vorlagen) an den Freeze an. Patch D Lebensbaum [GRÖSSE NACH FREEZE] auf vorgewaschenem Naturleinen, Kante umgeschlagen und gesteppt, Gold, Ocker, drei Brauntöne, Rot, Linien mindestens 0,8 mm, Einrollungen mindestens 2,5 mm; er wird angenäht und mit der ganzen Jeans enzym- und steingewaschen. [FALLS V1: Lasche mit „N° __ / 100“, die Nummer trage ich von Hand ein.] Die vier Kupfernieten in den Ecken sind [GESTICKT, ALSO TEIL DES PATCHES / ECHTE NIETEN, ALSO NICHT TEIL DER ANFRAGE]. Mengen: 3 Muster, dann 110 Stück. Dazu als zweites Angebot: Chenille-Patch ca. 200 × 150 mm für den Zipper-Rücken, Bordeaux, Beige, Schwarz, Gold, Filz oder Twill, umstochene Kante, aufnähbar, 1 Muster. Fragen: Preis bei 20/50/100/200, Musterpreis und -zeit, Produktionszeit, minimale Linienstärke, kann das Leinen vorgewaschen werden. Englisch, kurz. Gib mir eine Version, in die ich nur noch den Anbieternamen eintrage.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Patches“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Patches“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -283,9 +393,20 @@
     ],
     "f": "Fertig, wenn V008 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel + Story mit Link-Sticker"},
-     {"n": "YouTube Studio", "u": "https://studio.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel + Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube Studio",
+      "u": "https://studio.youtube.com"
+     }
     ],
     "v": {
      "id": "V008",
@@ -325,8 +446,14 @@
     ],
     "f": "Fertig, wenn 2 Sticker im Blatt „Sticker“ markiert sind und die Dateien haben.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Sticker“", "u": "https://sheets.google.com"},
-     {"n": "Gmail", "u": "https://mail.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Sticker“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     }
     ]
    },
    {
@@ -342,8 +469,14 @@
     ],
     "f": "Fertig, wenn die Mail mit allen Bedingungen raus ist und der Festpreis (höchstens 240 €) bestätigt oder angefragt im Blatt „Kasse“ steht.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Kasse“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -359,9 +492,18 @@
     ],
     "f": "Fertig, wenn alle ohne Eintrag N2 und alle Eingetragenen die Bitte um 3 Links bekommen haben.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Netz“", "u": "https://sheets.google.com"},
-     {"n": "WhatsApp Web", "u": "https://web.whatsapp.com"},
-     {"n": "Instagram (DMs)", "u": "https://www.instagram.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Netz“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "WhatsApp Web",
+      "u": "https://web.whatsapp.com"
+     },
+     {
+      "n": "Instagram (DMs)",
+      "u": "https://www.instagram.com"
+     }
     ]
    },
    {
@@ -376,8 +518,16 @@
     ],
     "f": "Fertig, wenn Story 6 mit Umfrage und das zweite Bild mit Tally-Link online sind.",
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"},
-     {"n": "Tally-Umfrage", "u": "https://tally.so", "h": "Link deiner anonymen Umfrage vom 13.10."}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Umfrage- und Link-Sticker"
+     },
+     {
+      "n": "Tally-Umfrage",
+      "u": "https://tally.so",
+      "h": "Link deiner anonymen Umfrage vom 13.10."
+     }
     ],
     "v": {
      "id": "Story 6",
@@ -409,7 +559,10 @@
     ],
     "f": "Fertig, wenn G1–G10 vollständig im Blatt „Gespräche“ stehen.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Gespräche“", "u": "https://sheets.google.com"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Gespräche“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -423,9 +576,18 @@
     ],
     "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -441,9 +603,18 @@
     ],
     "f": "Fertig, wenn V120 oder die Variante auf TikTok und Instagram online ist.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ],
     "v": {
      "id": "V120",
@@ -478,7 +649,11 @@
     ],
     "f": "Fertig, wenn der Stand des EORI-Antrags mit Datum im Blatt „Ausgaben“ steht.",
     "o": [
-     {"n": "Zoll · EORI-Nummer", "u": "https://www.zoll.de", "h": "Status im Zoll-Portal prüfen"}
+     {
+      "n": "Zoll · EORI-Nummer",
+      "u": "https://www.zoll.de",
+      "h": "Status im Zoll-Portal prüfen"
+     }
     ]
    },
    {
@@ -494,8 +669,14 @@
     ],
     "f": "Fertig, wenn im Blatt „Fabriken“ steht: Proforma ja/nein, 50/50 ja/nein, Konto notiert.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Tracking-Tabelle · Blatt „Fabriken“", "u": "https://sheets.google.com"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Fabriken“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -511,9 +692,19 @@
     ],
     "f": "Fertig, wenn Shopify Payments zur Prüfung eingereicht ist und die Support-Frage schriftlich gestellt ist (Screenshot im Blatt „Kasse“).",
     "o": [
-     {"n": "Shopify-Admin · Einstellungen → Zahlungen", "u": "https://admin.shopify.com"},
-     {"n": "Shopify-Hilfecenter", "u": "https://help.shopify.com", "h": "Support-Kontakt dort, Weg vor Ort prüfen"},
-     {"n": "Tracking-Tabelle · Blatt „Kasse“", "u": "https://sheets.google.com"}
+     {
+      "n": "Shopify-Admin · Einstellungen → Zahlungen",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Shopify-Hilfecenter",
+      "u": "https://help.shopify.com",
+      "h": "Support-Kontakt dort, Weg vor Ort prüfen"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Kasse“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -529,10 +720,24 @@
     ],
     "f": "Fertig, wenn V009 auf TikTok, Instagram und YouTube online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel, Probe-Reel, Story mit Link-Sticker"},
-     {"n": "YouTube Studio", "u": "https://studio.youtube.com"},
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel, Probe-Reel, Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube Studio",
+      "u": "https://studio.youtube.com"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V009",
@@ -569,10 +774,24 @@
     ],
     "f": "Fertig, wenn alle Zahlen bis heute im Blatt stehen und der CSV-Export gespeichert ist.",
     "o": [
-     {"n": "Shopify-Admin · Kunden → Segmente", "u": "https://admin.shopify.com"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analytics, Menünamen vor Ort prüfen"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights"},
-     {"n": "Tracking-Tabelle · Blatt „Content“", "u": "https://sheets.google.com"}
+     {
+      "n": "Shopify-Admin · Kunden → Segmente",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Analytics, Menünamen vor Ort prüfen"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Insights"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Content“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -588,9 +807,19 @@
     "f": "Fertig, wenn alle drei Markenkriterien mit Zahl und ja/nein im Blatt „Warteliste“ stehen.",
     "p": "Projekt Time Travel, Docket W7, Sa 31.10.: Morgen ist die Validierung. Anbei: Blatt „Gespräche“ mit G1–G10 (nur Codes und Segmente), der anonyme Tally-Export ([N] Antworten) und die Ergebnisse der Story-Umfragen 1–6: [ANHÄNGE]. Werte die drei Markenkriterien aus: 1) Sagt mindestens die Hälfte der S1-Gespräche bei Frage 9 „Ja“ oder „Vielleicht“ zu 149 €? 2) Liegt der Median „zu teuer, egal was“ (Frage 8) bei mindestens 149 €? 3) Höchstens eine Nennung von „Sowjet“, „Wappen“, „Kolchose“ oder „Holodomor“ je 5 Personen mit UA-, PL- oder BY-Hintergrund (Fotos 3 und 4, Tally-Fragen 5 und 6)? Gib je Kriterium ja/nein mit Zahl. Dann die Entscheidungsregeln aus zielgruppe.md 5.6 als Vorschlag für Sa 07.11.: B2-Band (Farbe, weiße Kante nach Story 4), Wortliste nach außen, Content-Hooks. Trenne klar, was belegt ist und wo es zu wenige Antworten gibt.",
     "o": [
-     {"n": "Tally", "u": "https://tally.so", "h": "Antworten exportieren"},
-     {"n": "Tracking-Tabelle · Blätter „Gespräche“ und „Warteliste“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Tally",
+      "u": "https://tally.so",
+      "h": "Antworten exportieren"
+     },
+     {
+      "n": "Tracking-Tabelle · Blätter „Gespräche“ und „Warteliste“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -608,8 +837,15 @@
     "f": "Fertig, wenn Claude Code eine Tabelle mit fünf Werkzeugen zeigt, alle „ok“.",
     "p": "Projekt Time Travel, Website Schritt 1 (Docket W7, Sa 31.10.). Ich bin neu auf dem Mac und kein Entwickler. Prüfe nur, installiere nichts und benutze nie sudo: node -v (muss 22.12.0 oder neuer sein), npm -v, git --version, shopify version, claude --version. Zeig mir eine Tabelle: Werkzeug | Version | ok / nicht ok. Wenn etwas fehlt oder zu alt ist, erklär mir in einfachen Schritten, was ich selbst tun muss.",
     "o": [
-     {"n": "Node.js (LTS, macOS-Installer)", "u": "https://nodejs.org", "h": "Download-Seite vor Ort ansehen, nicht geprüft"},
-     {"n": "Claude Code · Einrichtung", "u": "https://code.claude.com/docs/en/setup"}
+     {
+      "n": "Node.js (LTS, macOS-Installer)",
+      "u": "https://nodejs.org",
+      "h": "Download-Seite vor Ort ansehen, nicht geprüft"
+     },
+     {
+      "n": "Claude Code · Einrichtung",
+      "u": "https://code.claude.com/docs/en/setup"
+     }
     ]
    },
    {
@@ -623,9 +859,18 @@
     ],
     "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Tracking-Tabelle · Blatt „Die ersten 35“", "u": "https://sheets.google.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Die ersten 35“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -650,10 +895,25 @@
     "f": "Fertig, wenn Blätter und Cockpit aktuell sind und die Zeile an Claude raus ist.",
     "p": "Projekt Time Travel, Docket W7, Validierung und Wochenreview So 01.11.: W7: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen (nur Spalte „Zusage“): [N]. 50/50 schriftlich: [ja/nein]. Markenkriterien vom Sa: [1 ja/nein, 2 ja/nein, 3 ja/nein]. Echte Follower-Quote: [F] je Anmeldung. Offen aus W7: [LISTE]. Prüf die Validierung (grün ≥ 150, gelb 50–149, rot unter 50, dazu ≥ 10 Zusagen, 50/50 schriftlich, Markenkriterien) und die Sonntags-Gates G1–G9 und G12 aus strategie.md 7.1. Sag mir die Ampel, was ich Mo 02.11. zahle oder nicht, und schieb das Offene in W8.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente"},
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Analytics"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Insights"},
-     {"n": "Tracking-Tabelle", "u": "https://sheets.google.com"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segmente"
+     },
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Analytics"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Insights"
+     },
+     {
+      "n": "Tracking-Tabelle",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -665,7 +925,7 @@
      "Für Grün zusätzlich: ≥ 10 Zusagen (nur Spalte „Zusage“), 50/50 schriftlich in der Proforma, Markenkriterien vom Sa (Hälfte S1 ja oder vielleicht, Median „zu teuer“ ≥ 149 €, höchstens 1 Sowjet-Nennung je 5 Personen mit UA-, PL- oder BY-Hintergrund).",
      "Grün: Mo 02.11. Entwicklung bezahlen, nur auf das Konto der ersten Proforma.",
      "Gelb (50–149 oder eine Zusatzbedingung fehlt): trotzdem zahlen, Content und Netz nachschärfen, Hooks mit Claude überarbeiten (Prompt unten). 50/50 nicht schriftlich: erst zahlen, wenn die Proforma mit 50/50 da ist.",
-     "Rot (unter 50): Entwicklung nicht bezahlen. B-Zeitachse 1 heute entscheiden: Öffnung Do 21.01., Schwelle 1 bis Mo 08.02., Anzahlung Do 11.02., Restzahlung Do 25.03. (Geld bis Mo 22.03.), Drop bleibt Do 22.04. mit nur ~9 Tagen Puffer bis 15.04.",
+     "Rot (unter 50): Entwicklung nicht bezahlen. B-Zeitachse 1 heute entscheiden: Öffnung Do 28.01., Schwelle 1 bis Mo 22.02., Anzahlung Do 25.02., Restzahlung Do 27.05. (Geld bis Mo 24.05.), Drop bleibt Do 24.06. mit nur ~9 Tagen Puffer bis 17.06.",
      "Rot zusätzlich: 6 neue Posts nach neuem Muster und dein bestes Video in 5 Varianten (Prompt unten), in 7 Tagen neu entscheiden.",
      "Markenkriterien verfehlt: Median „zu teuer“ unter 149 € heißt Preis halten, Zipper und Polo stärker zeigen, als gelb werten. Sagen ≥ 2 von 5 mit UA-, PL- oder BY-Hintergrund „Sowjet“ oder „Wappen“: B2-Band in Weiß oder Ocker, Entscheidung Sa 07.11.",
      "Ampel mit Datum ins Blatt „Warteliste“. Heute ist der letzte Punkt, an dem Anhalten fast nichts kostet. Ab Mo fließt Geld."
@@ -673,8 +933,14 @@
     "f": "Fertig, wenn die Ampel feststeht und mit Datum im Blatt „Warteliste“ steht.",
     "p": "Projekt Time Travel, Docket W7, So 01.11.: Die Validierung ist [GELB/ROT]. Hier sind meine Zahlen der ersten drei Content-Wochen je Post (Hook, Views nach 48 h, Saves, Shares, Anmeldungen am Tag): [TABELLE]. Analysiere, welche Hooks funktioniert haben und welche nicht (Typen Zahl, Fehler, Frage), und schlag mir 6 bessere Posts für die nächsten 2 Wochen vor, im Format meiner Video-Bibliothek: Hook EN und DE, Shots, Ort, Caption mit der CTA „Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.“ Regeln: vor dem Proto nur Papier, Datei, Zahl, Prozess; Subjekt ist das Muster. Bei Rot zusätzlich: welches Video ich in 5 Varianten nachdrehe.",
     "o": [
-     {"n": "Tracking-Tabelle · Blatt „Warteliste“", "u": "https://sheets.google.com"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Tracking-Tabelle · Blatt „Warteliste“",
+      "u": "https://sheets.google.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -691,8 +957,16 @@
     ],
     "f": "Fertig, wenn mindestens 5 Kontakte im Blatt „Netz“ stehen.",
     "o": [
-     {"n": "Berlin Vintage & Heritage Market", "u": "https://www.visitberlin.de/en/event/berlin-vintage-and-heritage-market", "a": "Ballhaus Berlin (Adresse vor Ort prüfen) · So 01.11.2026", "h": "Termin laut visitBerlin, vor Ort prüfen"},
-     {"n": "Tracking-Tabelle · Blatt „Netz“", "u": "https://sheets.google.com"}
+     {
+      "n": "Berlin Vintage & Heritage Market",
+      "u": "https://www.visitberlin.de/en/event/berlin-vintage-and-heritage-market",
+      "a": "Ballhaus Berlin (Adresse vor Ort prüfen) · So 01.11.2026",
+      "h": "Termin laut visitBerlin, vor Ort prüfen"
+     },
+     {
+      "n": "Tracking-Tabelle · Blatt „Netz“",
+      "u": "https://sheets.google.com"
+     }
     ]
    },
    {
@@ -708,8 +982,15 @@
     ],
     "f": "Fertig, wenn V010_final.mp4 im Ordner „W8“ liegt und kein Fabrikname lesbar ist.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "ohne Musik exportieren, 1080 × 1920"},
-     {"n": "Google Kalender", "u": "https://calendar.google.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "ohne Musik exportieren, 1080 × 1920"
+     },
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com"
+     }
     ],
     "v": {
      "id": "V010",
@@ -745,7 +1026,10 @@
     ],
     "f": "Fertig, wenn V011_final.mp4 (oder V117) im Ordner „W8“ liegt.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V011",
@@ -781,7 +1065,10 @@
     ],
     "f": "Fertig, wenn V010, V011 (oder V117) und V012 im Ordner „W8“ liegen.",
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
     ],
     "v": {
      "id": "V012",

@@ -3,12 +3,30 @@
  "phase": "P3",
  "goal": "PP prüfen und freigeben, Vorbestellseite final, Zusagen auf 25",
  "kpi": [
-  {"k": "Warteliste", "ziel": "850 bestätigt (Alarm 380), Grind+-Ziel 960"},
-  {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~2.550 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
-  {"k": "Posts", "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"},
-  {"k": "Zusagen „Die ersten 35“", "ziel": "25 (nur Spalte „Zusage“: Name, Größe, „ich bestelle am 14.01.“)"},
-  {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "PP", "ziel": "freigegeben am Di 05.01."}
+  {
+   "k": "Warteliste",
+   "ziel": "850 bestätigt (Alarm 380), Grind+-Ziel 960"
+  },
+  {
+   "k": "Follower TikTok + IG, neu seit 12.10.",
+   "ziel": "~2.550 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"
+  },
+  {
+   "k": "Posts",
+   "ziel": "5 Kern + 2 Grind+ (Karussell/Variante)"
+  },
+  {
+   "k": "Zusagen „Die ersten 35“",
+   "ziel": "25 (nur Spalte „Zusage“: Name, Größe, „ich bestelle am 14.01.“)"
+  },
+  {
+   "k": "Kassen-Ampel K − F − R",
+   "ziel": "grün ≥ 300 €"
+  },
+  {
+   "k": "PP",
+   "ziel": "freigegeben am Di 05.01."
+  }
  ],
  "days": {
   "2027-01-04": [
@@ -28,8 +46,15 @@
     ],
     "f": "jeder Punkt des Prüfplans im Blatt „Proto“, Spalte „PP“ ein Ergebnis hat, die Zeit pro Faden steht und das Urteil für morgen notiert ist.",
     "o": [
-     {"n": "Docket · Referenz → Prüfplan", "h": "Prüfplan ausdrucken"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“, Spalte „PP“"}
+     {
+      "n": "Docket · Referenz → Prüfplan",
+      "h": "Prüfplan ausdrucken"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Proto“, Spalte „PP“"
+     }
     ]
    },
    {
@@ -66,10 +91,26 @@
      "check": "Echtes Ergebnis, CTA bis 13.01., nie „authentisch“, Subjekt ist das Muster."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Reel und Story mit Link-Sticker"},
-     {"n": "YouTube", "u": "https://www.youtube.com", "h": "Short, Titel = Hook EN"},
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Schluss nachschneiden, ohne Musik exportieren"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Schluss nachschneiden, ohne Musik exportieren"
+     }
     ]
    },
    {
@@ -79,13 +120,20 @@
     "s": [
      "Prompt unten in einen neuen Chat im Projekt senden. Zahlen und Ort vorher aus dem Blatt „Abende“ (fest seit 19.12.) und dem Blatt „Creator“ eintragen.",
      "Die Karte geht morgen mit der Bestätigung an jeden Creator (Aufgabe Di 05.01.).",
-     "Karte gegenlesen: Steht „Anzeige“ ganz vorn? Ist der Lieferzeitpunkt genau der Satz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“? Kein „authentisch“, keine Länderzuschreibung?"
+     "Karte gegenlesen: Steht „Anzeige“ ganz vorn? Ist der Lieferzeitpunkt genau der Satz „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“? Kein „authentisch“, keine Länderzuschreibung?"
     ],
     "f": "die Briefing-Karte als PDF oder Bild im Ordner „Creator“ liegt und du sie gegengelesen hast.",
-    "p": "Projekt Time Travel, Docket W17, Mo 04.01. Schreib mir eine Briefing-Karte (eine Seite, EN und DE) für die 5 Creator, die am Di 12.01. um 18:30 zur Creator-Preview kommen. Ort: [Ort aus Blatt „Abende“].\nInhalt: Was sie sehen (Proto und PP-Sample), was passiert (Lieblingsjeans flach messen → Novalife-Größe), Abmachung 1 Clip + 1 Story, Kennzeichnung „Anzeige“ ganz vorn in Clip und Story, eigener Link [DEINE-DOMAIN]/?utm_source=creator&ref=c-[name], Termine (Vorbestellung Do 14.01., 18:00 für die Liste, 19:00 für alle; Mess-Abend 1 Sa 16.01.), Liefersatz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“.\nSprachregeln: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, Wortliste: Achtstern, Kreuzstich-Band, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“. Keine Politik. Kein „149 € statt 169 €“, nur „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“.\nDazu eine kurze DM, mit der ich die Karte schicke.",
+    "p": "Projekt Time Travel, Docket W17, Mo 04.01. Schreib mir eine Briefing-Karte (eine Seite, EN und DE) für die 5 Creator, die am Di 12.01. um 18:30 zur Creator-Preview kommen. Ort: [Ort aus Blatt „Abende“].\nInhalt: Was sie sehen (Proto und PP-Sample), was passiert (Lieblingsjeans flach messen → Novalife-Größe), Abmachung 1 Clip + 1 Story, Kennzeichnung „Anzeige“ ganz vorn in Clip und Story, eigener Link [DEINE-DOMAIN]/?utm_source=creator&ref=c-[name], Termine (Vorbestellung Do 14.01., 18:00 für die Liste, 19:00 für alle; Mess-Abend 1 Sa 16.01.), Liefersatz „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“.\nSprachregeln: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, Wortliste: Achtstern, Kreuzstich-Band, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“. Keine Politik. Kein „149 € statt 169 €“, nur „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“.\nDazu eine kurze DM, mit der ich die Karte schicke.",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Abende“ und „Creator“"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Abende“ und „Creator“"
+     }
     ]
    },
    {
@@ -101,7 +149,11 @@
     ],
     "f": "Wäsche 1 gelaufen ist, die Fotos im Ordner liegen und die Fadenlängen notiert sind.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“, Zeile Waschserie"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Proto“, Zeile Waschserie"
+     }
     ]
    }
   ],
@@ -119,25 +171,35 @@
     ],
     "f": "die Freigabe (oder die Ablehnung mit Liste) schriftlich bei der Fabrik ist und das Datum im Blatt „Proto“ steht.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlagen „Verhandlung“ und „Call“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Proto“"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlagen „Verhandlung“ und „Call“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Proto“"
+     }
     ]
    },
    {
     "c": "D",
-    "t": "Gate: PP nicht ok → Öffnung höchstens Do 21.01. (B-Zeitachse 1)",
+    "t": "Gate: PP nicht ok → Öffnung höchstens Do 28.01. (B-Zeitachse 1)",
     "m": 5,
     "s": [
      "PP freigegeben: weiter, Öffnung Do 14.01. wie geplant.",
-     "PP nicht ok: Öffnung rückt höchstens auf Do 21.01. (B-Zeitachse 1, strategie.md 7.4). Die Schwelle 1 am Mo 01.02. wandert mit.",
+     "PP nicht ok: Öffnung rückt höchstens auf Do 28.01. (B-Zeitachse 1, strategie.md 7.4). Die Schwelle 1 am Mo 15.02. wandert mit.",
      "Sofort: Fabrik um ein korrigiertes PP mit Versanddatum bitten, Vorbestell-Termin in Website, E-Mail 1 und Videos V046 bis V052 auf den neuen Donnerstag ändern.",
      "Creator, Zusagen und Netz persönlich informieren: neuer Termin, gleicher Preis. Kein öffentliches Drama, ein Satz: „The final sample needs one more round. Pre-order opens [Datum], 19:00.“",
      "Claude den Prompt unten schicken, damit Termine und Mails neu geschnitten werden."
     ],
     "f": "die Entscheidung „14.01. bleibt“ oder „neuer Termin [Datum]“ im Blatt „Proto“ steht und bei Verschiebung alle Betroffenen informiert sind.",
-    "p": "Projekt Time Travel, Docket W17, Di 05.01. Das PP-Sample ist nicht freigegeben. Gründe: [Liste]. Neues PP kommt laut Fabrik am [Datum]. Schneide mir die Wochen W17 bis W19 nach B-Zeitachse 1 neu (Öffnung höchstens Do 21.01.): welche Mails, Videos und Termine verschieben sich, was sage ich Creatorn und Zusagen, wie verschiebt sich Schwelle 1 vom Mo 01.02.?",
+    "p": "Projekt Time Travel, Docket W17, Di 05.01. Das PP-Sample ist nicht freigegeben. Gründe: [Liste]. Neues PP kommt laut Fabrik am [Datum]. Schneide mir die Wochen W17 bis W19 nach B-Zeitachse 1 neu (Öffnung höchstens Do 28.01.): welche Mails, Videos und Termine verschieben sich, was sage ich Creatorn und Zusagen, wie verschiebt sich Schwelle 1 vom Mo 15.02.?",
     "o": [
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -153,9 +215,20 @@
     ],
     "f": "jeder Creator die Karte hat und im Blatt „Creator“ für Di 12.01. die Bestätigungen stehen.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Creator-DM“"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "DMs"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Creator“"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Creator-DM“"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "DMs"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Creator“"
+     }
     ]
    },
    {
@@ -164,14 +237,21 @@
     "m": 10,
     "s": [
      "Blatt „Presse“ öffnen: alle Medien aus Welle 1 ohne Antwort.",
-     "Je Medium eine kurze Antwort in denselben Mailverlauf: ein Satz Erinnerung, die Termine (Vorbestellung Do 14.01., 19:00; Mess-Abende Sa 16.01. und Sa 23.01.) und der Link mit ?ref=p-[medium].",
+     "Je Medium eine kurze Antwort in denselben Mailverlauf: ein Satz Erinnerung, die Termine (Vorbestellung Do 14.01., 19:00; Mess-Abende Sa 16.01. und Sa 30.01.) und der Link mit ?ref=p-[medium].",
      "Nur einmal nachfassen. Danach keine weitere Mail an dieses Medium in dieser Welle.",
      "Im Blatt „Presse“: nachgefasst am 05.01."
     ],
     "f": "jedes Medium aus Welle 1 ohne Antwort genau eine Nachfass-Mail hat und das Datum im Blatt steht.",
     "o": [
-     {"n": "Gmail", "u": "https://mail.google.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Presse“"}
+     {
+      "n": "Gmail",
+      "u": "https://mail.google.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Presse“"
+     }
     ]
    },
    {
@@ -203,14 +283,27 @@
      "ton": "O-Ton (deine Stimme) mit Untertiteln. Musik nur leise aus der Business-Bibliothek der App",
      "text": "0–2 s Hook EN, Untertitel, Endkarte „Pre-order 14.01. · 19:00“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "A factory wants half upfront. My budget covers development, not 100 pairs. 35 pre-orders close the gap. Pre-order price €149 until 21.03., from 22.04. €169. Delivery by 30.04.2027 at the latest, planned early April. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "caption": "A factory wants half upfront. My budget covers development, not 100 pairs. 35 pre-orders close the gap. Pre-order price €149 until 23.05., from 24.06. €169. Delivery by 30.06.2027 at the latest, planned early June. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
      "check": "Kein Streichpreis, kein „€20 off“, Liefersatz wie auf der Vorbestellseite, CTA bis 13.01., nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"},
-     {"n": "CapCut", "u": "https://www.capcut.com", "h": "Textschnipsel prüfen"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Textschnipsel prüfen"
+     }
     ]
    }
   ],
@@ -221,18 +314,28 @@
     "m": 35,
     "s": [
      "Mail an die Fabrik mit der Vorlage „Verhandlung“ (Docket → Referenz → Vorlagen), Text mit dem Prompt unten. Auf Englisch, eine Mail, nummerierte Punkte.",
-     "Schriftlich bestätigen lassen: 1) Backstop für die Restzahlung Mi 24.03. 2) Teil-Lieferung gegen Teilzahlung möglich? 3) Preis pro Paar bei 100 und bei 75 Stück 4) Alle Preise in Euro 5) Zahlung 50/50 6) Liefertermin ab Anzahlung.",
+     "Schriftlich bestätigen lassen: 1) Backstop für die Restzahlung Mi 26.05. 2) Teil-Lieferung gegen Teilzahlung möglich? 3) Preis pro Paar bei 100 und bei 75 Stück 4) Alle Preise in Euro 5) Zahlung 50/50 6) Liefertermin ab Anzahlung.",
      "Stoff: „Please reserve the fabric for 100 pairs plus cutting waste in writing now and tell me the fabric lead time.“ Reservierung mit Datum und Stoffnummer schriftlich.",
-     "Feiertage: Bei Türkei das Ramadan-Fest nennen (laut Rev. 5.3 offiziell 08.03. ab mittags bis 11.03.2027, von der Fabrik bestätigen lassen) und fragen: „When exactly are you closed?“ Bei Portugal nach Betriebsferien bis April fragen.",
+     "Feiertage: Bei Türkei das Ramadan-Fest nennen (laut Rev. 5.3 offiziell 10.05. ab mittags bis 13.05.2027, von der Fabrik bestätigen lassen) und fragen: „When exactly are you closed?“ Bei Portugal nach Betriebsferien bis Juni fragen.",
      "Lieferbedingung wie am 27.10. entschieden (DAP oder DDP) noch einmal bestätigen lassen.",
      "Antworten ins Blatt „Fabriken“, Zeile deiner Fabrik. Fehlt bis Fr eine Antwort: anrufen."
     ],
     "f": "die Mail mit allen Punkten raus ist und die Stoffreservierung angefragt ist; Antworten trägst du ein, sobald sie kommen.",
-    "p": "Projekt Time Travel, Docket W17, Mi 06.01. Schreib mir eine kurze englische Mail an [Fabrik, Ansprechpartner] auf Basis meiner Vorlage „Verhandlung“. Ich brauche schriftlich: Backstop Restzahlung Mi 24.03.2027, Teil-Lieferung gegen Teilzahlung, Preis pro Paar bei 100 und bei 75 Stück, alle Preise in Euro, Zahlung 50/50, Liefertermin ab Anzahlung, Lieferbedingung [DAP/DDP], Schließtage bis April (bei Türkei Ramadan-Fest März 2027). Und: Stoff für 100 Paar plus Verschnitt jetzt schriftlich reservieren, mit Stoffnummer, Reservierungsdatum und Lieferzeit des Stoffs. Höflich, klar, nummeriert, höchstens 150 Wörter.",
+    "p": "Projekt Time Travel, Docket W17, Mi 06.01. Schreib mir eine kurze englische Mail an [Fabrik, Ansprechpartner] auf Basis meiner Vorlage „Verhandlung“. Ich brauche schriftlich: Backstop Restzahlung Mi 26.05.2027, Teil-Lieferung gegen Teilzahlung, Preis pro Paar bei 100 und bei 75 Stück, alle Preise in Euro, Zahlung 50/50, Liefertermin ab Anzahlung, Lieferbedingung [DAP/DDP], Schließtage bis Mitte Mai (bei der Türkei: Zuckerfest Anfang März und Opferfest Mitte Mai 2027, Termine ungefähr). Und: Stoff für 100 Paar plus Verschnitt jetzt schriftlich reservieren, mit Stoffnummer, Reservierungsdatum und Lieferzeit des Stoffs. Höflich, klar, nummeriert, höchstens 150 Wörter.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Verhandlung“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Verhandlung“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Fabriken“"
+     }
     ]
    },
    {
@@ -248,7 +351,10 @@
     ],
     "f": "Clips von Goldfäden und N° sowie 6 farbtreue Makros im Ordner „Produktseite“ liegen.",
     "o": [
-     {"n": "Wohnung · Fensterbank", "h": "Tageslicht, Graukarte"}
+     {
+      "n": "Wohnung · Fensterbank",
+      "h": "Tageslicht, Graukarte"
+     }
     ]
    },
    {
@@ -260,7 +366,7 @@
      "18:55 in TikTok hochladen, Trend-Sound nur aus der Commercial Music Library (Creative Center, Region DE, für Business freigegeben). Caption unten.",
      "19:00 posten, gleich danach als Reel auf Instagram (Musik aus der Business-Bibliothek der App) und als Short auf YouTube.",
      "Reel in die Story mit Link-Sticker auf die Warteliste.",
-     "19:00–19:15 Kommentare beantworten. Wer nach dem Preis fragt: „Pre-order price €149 until 21.03. The list gets in first, Thursday 18:00.“"
+     "19:00–19:15 Kommentare beantworten. Wer nach dem Preis fragt: „Pre-order price €149 until 23.05. The list gets in first, Thursday 18:00.“"
     ],
     "f": "V046 auf allen drei Plattformen online ist und die Kommentare der ersten 15 Minuten beantwortet sind.",
     "v": {
@@ -284,9 +390,19 @@
      "check": "Loopt, CTA bis 13.01., Musik nur aus der Business-Bibliothek."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -297,19 +413,33 @@
     "m": 45,
     "s": [
      "Shopify-Admin → Produkte → Vorbestell-Produkt (Status „Entwurf“): die 6 Makros von gestern und ein PP-Foto am Körper hochladen.",
-     "Checkliste vor dem Livegang im Docket abhaken, alle 9 Punkte grün. Mindestens: Preis 149 € aus Shopify, Liefersatz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“, Größenseite verlinkt, Geld-zurück-Regel sichtbar, Rechtstexte verlinkt, Bestand 35 über alle Größen, Stufe-2-Produkt als Entwurf vom 14.12., Bestellbestätigung mit Vorbestell-Textblock, Seite am Handy gelesen.",
-     "Shopify-Admin → Marketing → Shopify Email (Pfad vor Ort prüfen): E-Mail 1 „Vorbestellung 1“ an alle Abonnenten. Inhalt: Vorbestellung Do 14.01., 18:00 für die Liste, 19:00 für alle; Mess-Abende Sa 16.01. und Sa 23.01. mit Ort aus dem Blatt „Abende“; eigener Link mit utm_source=email. Text mit dem Prompt unten.",
+     "Checkliste vor dem Livegang im Docket abhaken, alle 9 Punkte grün. Mindestens: Preis 149 € aus Shopify, Liefersatz „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“, Größenseite verlinkt, Geld-zurück-Regel sichtbar, Rechtstexte verlinkt, Bestand 35 über alle Größen, Stufe-2-Produkt als Entwurf vom 14.12., Bestellbestätigung mit Vorbestell-Textblock, Seite am Handy gelesen.",
+     "Shopify-Admin → Marketing → Shopify Email (Pfad vor Ort prüfen): E-Mail 1 „Vorbestellung 1“ an alle Abonnenten. Inhalt: Vorbestellung Do 14.01., 18:00 für die Liste, 19:00 für alle; Mess-Abende Sa 16.01. und Sa 30.01. mit Ort aus dem Blatt „Abende“; eigener Link mit utm_source=email. Text mit dem Prompt unten.",
      "Testmail an dich senden, am Handy lesen, Links klicken. Dann senden oder auf heute 19:00 planen.",
      "Denselben Text gekürzt in den Instagram-Broadcast-Kanal posten.",
      "Ins Zahlen-Cockpit: E-Mail 1 raus am 07.01."
     ],
     "f": "die Vorbestellseite als Entwurf alle 9 Punkte erfüllt, E-Mail 1 gesendet oder geplant ist und der Broadcast steht.",
-    "p": "Projekt Time Travel, Docket W17, Do 07.01. Schreib mir E-Mail 1 „Vorbestellung 1“ an meine Warteliste (Deutsch, mit kurzer englischer Fassung darunter), höchstens 120 Wörter. Inhalt: Vorbestellung öffnet Do 14.01. um 18:00 für die Liste, um 19:00 für alle. 35 Paar zum Vorbestellpreis 149 € bis 21.03., ab 22.04. 169 €. Lieferung bis spätestens 30.04.2027, geplant Anfang April. Mess-Abende Sa 16.01. und Sa 23.01., [Ort, Uhrzeit], Lieblingsjeans mitbringen. Link: [DEINE-DOMAIN]/?utm_source=email&utm_medium=newsletter&utm_campaign=tt-0107. Kein Streichpreis, nie „authentisch“, Subjekt ist das Muster. Gib mir 3 Betreffzeilen und eine Kurzfassung für meinen Instagram-Broadcast.",
+    "p": "Projekt Time Travel, Docket W17, Do 07.01. Schreib mir E-Mail 1 „Vorbestellung 1“ an meine Warteliste (Deutsch, mit kurzer englischer Fassung darunter), höchstens 120 Wörter. Inhalt: Vorbestellung öffnet Do 14.01. um 18:00 für die Liste, um 19:00 für alle. 35 Paar zum Vorbestellpreis 149 € bis 23.05., ab 24.06. 169 €. Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. Mess-Abende Sa 16.01. und Sa 30.01., [Ort, Uhrzeit], Lieblingsjeans mitbringen. Link: [DEINE-DOMAIN]/?utm_source=email&utm_medium=newsletter&utm_campaign=tt-0107. Kein Streichpreis, nie „authentisch“, Subjekt ist das Muster. Gib mir 3 Betreffzeilen und eine Kurzfassung für meinen Instagram-Broadcast.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte und Marketing → Shopify Email"},
-     {"n": "Shopify Help Center · Pre-orders", "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Broadcast-Kanal"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Produkte und Marketing → Shopify Email"
+     },
+     {
+      "n": "Shopify Help Center · Pre-orders",
+      "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Broadcast-Kanal"
+     }
     ]
    },
    {
@@ -318,16 +448,23 @@
     "m": 60,
     "s": [
      "Terminal am Mac im Theme-Ordner öffnen, Claude Code starten. Prompt aus website.md Schritt 11 nehmen, aber in der geänderten Fassung unten.",
-     "Wichtig gegenüber website.md: kein durchgestrichener Drop-Preis. Stattdessen „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“ (Wortlaut nach der Rechtstexte-Hotline vom 24.11.). Lieferzeile „Lieferung bis spätestens 30.04.2027, geplant Anfang April“.",
-     "Stufe 2: Mit tt_produkt_stufe2 zeigt der Knopf bei ausverkaufter Vorbestellung „Vorbestellen · 169 € · Lieferung Anfang April“.",
+     "Wichtig gegenüber website.md: kein durchgestrichener Drop-Preis. Stattdessen „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“ (Wortlaut nach der Rechtstexte-Hotline vom 24.11.). Lieferzeile „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“.",
+     "Stufe 2: Mit tt_produkt_stufe2 zeigt der Knopf bei ausverkaufter Vorbestellung „Vorbestellen · 169 € · Lieferung Anfang Juni“.",
      "Testen mit ?t=2027-01-14T18:59:30+01:00 und ?t=2027-01-14T19:00:30+01:00: Wechselt die Seite pünktlich? Knopf, Countdown bis Preisende, Raster sichtbar?",
      "Erst nach deinem „passt“ committen. Die Links der Tests ins Blatt „Website“."
     ],
     "f": "die Seite mit ?t= pünktlich in den Zustand „Vorbestellung“ wechselt, kein Streichpreis zu sehen ist und der Stufe-2-Knopf mit ausverkauftem Testbestand erscheint.",
-    "p": "Baue die Zustände für die Vorbestellung. Halte dich an CLAUDE.md.\n- tt-hero hört auf „tt:state“. WARTELISTE: wie bisher. VORBESTELLUNG: Überschrift „Vorbestellung offen“, Knopf „Vorbestellen · {{ Preis von tt_produkt_vorbestellung | money }}“, darunter die Zeile „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“ (Zahlen aus Shopify, kein durchgestrichener Preis), Link zur Produktseite der Vorbestellung, Countdown bis tt_zeit_preisende, Zeile „Lieferung bis spätestens 30.04.2027, geplant Anfang April“. Formular darunter mit „Noch nicht? Auf die Liste“.\n- Ist tt_produkt_vorbestellung ausverkauft und tt_produkt_stufe2 verfügbar: Knopf „Vorbestellen · 169 € · Lieferung Anfang April“ zur Produktseite von tt_produkt_stufe2.\n- Liquid rendert als Grundzustand den WARTELISTE-Text mit festem Datum. JavaScript schaltet um. Ohne JavaScript steht zusätzlich ein normaler Link „Zur Vorbestellung“, aber nur, wenn product.available für die Vorbestellung wahr ist.\n- tt-shop-button: VORBESTELLUNG → „Vorbestellen“ → Produktseite.\n- Preise nie als Text eintippen, immer aus Shopify.\nTeste alle Grenzen aus docs/TERMINE.md mit ?t= und zeig mir die Links. Commit nach meinem „passt“.",
+    "p": "Baue die Zustände für die Vorbestellung. Halte dich an CLAUDE.md.\n- tt-hero hört auf „tt:state“. WARTELISTE: wie bisher. VORBESTELLUNG: Überschrift „Vorbestellung offen“, Knopf „Vorbestellen · {{ Preis von tt_produkt_vorbestellung | money }}“, darunter die Zeile „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“ (Zahlen aus Shopify, kein durchgestrichener Preis), Link zur Produktseite der Vorbestellung, Countdown bis tt_zeit_preisende, Zeile „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“. Formular darunter mit „Noch nicht? Auf die Liste“.\n- Ist tt_produkt_vorbestellung ausverkauft und tt_produkt_stufe2 verfügbar: Knopf „Vorbestellen · 169 € · Lieferung Anfang Juni“ zur Produktseite von tt_produkt_stufe2.\n- Liquid rendert als Grundzustand den WARTELISTE-Text mit festem Datum. JavaScript schaltet um. Ohne JavaScript steht zusätzlich ein normaler Link „Zur Vorbestellung“, aber nur, wenn product.available für die Vorbestellung wahr ist.\n- tt-shop-button: VORBESTELLUNG → „Vorbestellen“ → Produktseite.\n- Preise nie als Text eintippen, immer aus Shopify.\nTeste alle Grenzen aus docs/TERMINE.md mit ?t= und zeig mir die Links. Commit nach meinem „passt“.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Online Store → Themes, Theme „TT Story“"},
-     {"n": "website.md · Schritt 11", "h": "Projektdatei, Original-Prompt"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Online Store → Themes, Theme „TT Story“"
+     },
+     {
+      "n": "website.md · Schritt 11",
+      "h": "Projektdatei, Original-Prompt"
+     }
     ]
    },
    {
@@ -341,9 +478,19 @@
     ],
     "f": "5 Kommentare geschrieben, alle DMs beantwortet und jedes „Ja“ im Blatt steht.",
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -377,27 +524,43 @@
      "check": "Bei „Ist das russisch?“ nur die Standardantwort, nie diskutieren, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ],
   "2027-01-08": [
    {
     "c": "B",
-    "t": "Zipper-Rücken bis zum Shoot 20.02. fertig machen",
+    "t": "Zipper-Rücken bis zum Shoot 06.03. fertig machen",
     "m": 20,
     "s": [
      "Gestickt (Entscheidung W14): Zipper-Muster und Medaillon-Datei von Claude zum Berliner Sticker aus dem Blatt „Sticker“ bringen. Vorher Termin per Mail oder Telefon, Vorlage „Berliner Sticker“ im Docket.",
      "Chenille: Ist der Muster-Patch da? Vom Sticker oder einer Schneiderei annähen lassen, nicht aufbügeln, dahinter ein Stabilisatorstreifen.",
-     "Abholung spätestens Fr 12.02. vereinbaren, schriftlich mit Preis. Termin in den Kalender.",
+     "Abholung spätestens Fr 26.02. vereinbaren, schriftlich mit Preis. Termin in den Kalender.",
      "Preis ins Blatt „Kasse“. Liegt er über Plan: Kassen-Ampel prüfen, bei gelb nur das Nötigste."
     ],
-    "f": "der Zipper beim Sticker oder Schneider ist und der Abholtermin bis Fr 12.02. im Kalender steht.",
+    "f": "der Zipper beim Sticker oder Schneider ist und der Abholtermin bis Fr 26.02. im Kalender steht.",
     "o": [
-     {"n": "Docket · Referenz → Vorlagen", "h": "Vorlage „Berliner Sticker“"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Sticker“ und „Kasse“"},
-     {"n": "Google Kalender", "u": "https://calendar.google.com"}
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Berliner Sticker“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Sticker“ und „Kasse“"
+     },
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com"
+     }
     ]
    },
    {
@@ -431,9 +594,18 @@
      "check": "Stücknummern nach Bestelldatum (Entscheidung vom 01.10.), CTA bis 13.01., nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"},
-     {"n": "YouTube", "u": "https://www.youtube.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com"
+     }
     ]
    }
   ],
@@ -468,7 +640,11 @@
      "check": "Echtes Foto, kein roter Hintergrund, nie „authentisch“."
     },
     "o": [
-     {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Countdown-, Umfrage- und Link-Sticker"}
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Countdown-, Umfrage- und Link-Sticker"
+     }
     ]
    },
    {
@@ -476,14 +652,18 @@
     "t": "Mess-Abend-Zusagen zählen, Hochschul-Aushang mit ?ref=h-[kürzel]",
     "m": 15,
     "s": [
-     "Blatt „Abende“: Zusagen für Mess-Abend 1 (Sa 16.01.) und 2 (Sa 23.01.) zählen, aus DMs, Mails und Story-Antworten.",
+     "Blatt „Abende“: Zusagen für Mess-Abend 1 (Sa 16.01.) und 2 (Sa 30.01.) zählen, aus DMs, Mails und Story-Antworten.",
      "Hochschul-Aushang nur, wo es erlaubt ist (vorher beim Studiengang oder Hausdienst über die offizielle Seite fragen). Kein Aushang ohne Erlaubnis.",
      "Aushang mit QR auf [DEINE-DOMAIN]/?utm_source=qr&utm_medium=print&utm_campaign=tt&ref=h-[kürzel], je Hochschule ein eigenes Kürzel.",
      "Im Blatt „Abende“: Hochschule, Kürzel, erlaubt ja/nein, ausgehängt am."
     ],
     "f": "die Zahl der Zusagen je Mess-Abend im Blatt steht und jeder Aushang ein eigenes h-Kürzel hat.",
     "o": [
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Abende“"}
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Abende“"
+     }
     ]
    },
    {
@@ -499,29 +679,50 @@
     "f": "die UTM-Links in beiden Bios und den Mail-Vorlagen stehen, das Blatt „Website“ existiert und die Antwort zu Custom Events mit Link vorliegt.",
     "p": "Analytics für die Drop-Seite, schlank. Halte dich an CLAUDE.md.\n1. Erzeuge die vier UTM-Links (Instagram-Bio, TikTok-Bio, QR-Druck, E-Mail) für DEINE-DOMAIN als Liste zum Kopieren und einen QR-Code als SVG in docs/ für den Druck-Link. Kein ?ref= in den Bio-Links; ?ref= nur für Personen, Abende und Creator (netz, papier, stick, mess1–mess3, mess2b, c-[name], p-[medium], h-[kürzel], code).\n2. Schreib mir eine 5-Minuten-Anleitung für den Sonntag: In Shopify Kunden nach Tag filtern (src-…, ref-…, gr-w32 …) und in diese Spalten eintragen: Woche | Sitzungen Startseite | Anmeldungen je Quelle | je ref | je Größe | Vorbestellungen | Anmeldequote.\n3. Prüfe in der aktuellen Shopify-Dokumentation (shopify.dev), wie ein Theme eigene Ereignisse sendet (Custom Events über die publish-Methode) und wie das mit der Einwilligung im Cookie-Banner zusammenhängt. Sag mir mit Link, was gilt. Baue es NUR ein, wenn es ohne zusätzliche App und nur nach Einwilligung läuft: tt_kapitel, tt_motiv_offen, tt_formular, tt_shop_klick.",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segmente, Analytics"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "neues Blatt „Website“"},
-     {"n": "website.md · Schritt 12", "h": "Projektdatei, Original-Prompt"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segmente, Analytics"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "neues Blatt „Website“"
+     },
+     {
+      "n": "website.md · Schritt 12",
+      "h": "Projektdatei, Original-Prompt"
+     }
     ]
    },
    {
     "c": "C",
-    "t": "Fotograf für den Shoot 20.02. anfragen (Lette Verein, Studierende)",
+    "t": "Fotograf für den Shoot 06.03. anfragen (Lette Verein, Studierende)",
     "m": 30,
     "s": [
      "Lette Verein Berlin: offizielle Seite selbst suchen und öffnen (Adresse und Kontakt laut berlin.md 5 ungeprüft). Kontakt nur über die offizielle Seite: Fotografie-Ausbildung, Sekretariat oder Aushang.",
      "Zweiter Weg: Studierende der Fotografie anderer Schulen nur über den offiziellen Weg. Model-Plattformen nur mit geprüftem Profil.",
-     "Anfrage mit dem Prompt unten. Termin Sa 20.02., Ort und Dauer nennen, Bildmenge, Honorar oder Bilder fürs Portfolio.",
+     "Anfrage mit dem Prompt unten. Termin Sa 06.03., Ort und Dauer nennen, Bildmenge, Honorar oder Bilder fürs Portfolio.",
      "Nutzungsrechte schriftlich: Shop, Werbung (auch bezahlte Anzeigen) und Presse, zeitlich unbegrenzt, Nennung des Namens. Ohne schriftliche Rechte kein Shoot.",
      "Honorar ins Blatt „Kasse“, Zeile „ungeplant“. Bei gelber Ampel nur gegen Bilder oder kleines Honorar.",
      "Im Blatt „Shoot“: Name, Kontaktweg, angefragt am 09.01."
     ],
     "f": "mindestens zwei Anfragen über offizielle Wege raus sind und im Blatt stehen.",
-    "p": "Projekt Time Travel, Docket W17, Sa 09.01. Schreib mir eine kurze Anfrage (Deutsch, höflich, höchstens 130 Wörter) an [Lette Verein / Name Fotograf:in] für einen Produkt- und Kampagnen-Shoot am Sa 20.02.2027 in Berlin für meine Denim-Marke Novalife (100 nummerierte Jeans mit Kreuzstich-Stickerei, entworfen in Berlin). Ort: [Ort], Dauer: [Stunden], ca. [Anzahl] Bilder. Honorar: [Betrag oder Bilder fürs Portfolio]. Nutzungsrechte für Shop, Werbung und Presse müssen schriftlich vereinbart werden, Namensnennung selbstverständlich. Bitte um Portfolio-Link und Rückmeldung bis [Datum]. Nie „authentisch“.",
+    "p": "Projekt Time Travel, Docket W17, Sa 09.01. Schreib mir eine kurze Anfrage (Deutsch, höflich, höchstens 130 Wörter) an [Lette Verein / Name Fotograf:in] für einen Produkt- und Kampagnen-Shoot am Sa 06.03.2027 in Berlin für meine Denim-Marke Novalife (100 nummerierte Jeans mit Kreuzstich-Stickerei, entworfen in Berlin). Ort: [Ort], Dauer: [Stunden], ca. [Anzahl] Bilder. Honorar: [Betrag oder Bilder fürs Portfolio]. Nutzungsrechte für Shop, Werbung und Presse müssen schriftlich vereinbart werden, Namensnennung selbstverständlich. Bitte um Portfolio-Link und Rückmeldung bis [Datum]. Nie „authentisch“.",
     "o": [
-     {"n": "Lette Verein Berlin", "h": "offizielle Seite selbst suchen, Adresse und Kontakt ungeprüft (berlin.md 5)"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Shoot“ und „Kasse“"}
+     {
+      "n": "Lette Verein Berlin",
+      "h": "offizielle Seite selbst suchen, Adresse und Kontakt ungeprüft (berlin.md 5)"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Shoot“ und „Kasse“"
+     }
     ]
    }
   ],
@@ -541,10 +742,23 @@
     "f": "Warteliste bestätigt, Follower gesamt, Zusagen und bezahlte Jeans im Cockpit stehen, die Ampel gesetzt ist und Claude die Zeile hat.",
     "p": "W17: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Zusagen [Z35], Handheber [H], PP [freigegeben am / offen]. Offen aus W17: [..].",
     "o": [
-     {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Kunden → Segment „E-Mail-Abonnenten“"},
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Content“, „Ausgaben“, „Die ersten 35“"},
-     {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Kunden → Segment „E-Mail-Abonnenten“"
+     },
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Content“, „Ausgaben“, „Die ersten 35“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
     ]
    },
    {
@@ -562,8 +776,14 @@
     ],
     "f": "jedes Gate im Cockpit grün oder mit Gegenmaßnahme und Datum steht.",
     "o": [
-     {"n": "Docket · Zahlen-Cockpit"},
-     {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Die ersten 35“"}
+     {
+      "n": "Docket · Zahlen-Cockpit"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     }
     ]
    },
    {
@@ -576,7 +796,7 @@
      "Ort 2 · Fensterbank, Tageslicht: V053 (drei Patch-Muster nebeneinander, Vorher/Nachher Waschtest 3 × 60 °C, Gewinner am Bund im Makro). V051 aus Archiv-Clips plus Hangtag 001 in der Hand.",
      "V054 als Story-Vorlage: Frame 1 Indigo-Fläche mit Platzhalter „[X] of 35“, Frame 2 Link-Sticker. Die echte Zahl kommt am Sa 16.01.",
      "Schnitt in CapCut: Hook als Text in die ersten 2 Sekunden, Untertitel automatisch, ohne Musik exportieren (Musik erst in der App).",
-     "Captions prüfen: bis 13.01. CTA „join the list“, ab 14.01. „Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.“ Nie „€149 instead of €169“, nie „22.–30.04.“.",
+     "Captions prüfen: bis 13.01. CTA „join the list“, ab 14.01. „Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.“ Nie „€149 instead of €169“, nie „24.–30.06.“.",
      "Alles in „W18/final“, Dateinamen V049_final.mp4 usw."
     ],
     "f": "V049, V050, V051, V053 fertig und V052, V054 als Vorlage in „W18/final“ liegen.",
@@ -598,13 +818,18 @@
      "ort": "Wohnung · Schreibtisch (Draufsicht) und Fensterbank (Tageslicht von der Seite)",
      "ton": "O-Ton mit Untertiteln; V051 Trend-Sound erst in der App aus der Commercial Music Library; V053 Originalton",
      "text": "Hook EN in den ersten 2 s, Untertitel, Endkarten mit Datum",
-     "cta": "bis 13.01.: Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. · ab 14.01.: Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
+     "cta": "bis 13.01.: Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. · ab 14.01.: Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.",
      "caption": "Captions stehen in den Posttagen W18 (Mo 11.01. bis Sa 16.01.).",
      "check": "Teppich nur als Familienerinnerung, kein „sowjetisch“; Lebensbaum nie „slawisch“; kein Streichpreis; nur echte Zahlen."
     },
     "o": [
-     {"n": "CapCut", "u": "https://www.capcut.com"},
-     {"n": "Wohnung · Schreibtisch und Fensterbank"}
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     },
+     {
+      "n": "Wohnung · Schreibtisch und Fensterbank"
+     }
     ]
    },
    {
@@ -638,8 +863,14 @@
      "check": "Standardantwort bei Herkunftsfragen, nie diskutieren, nie „authentisch“."
     },
     "o": [
-     {"n": "TikTok", "u": "https://www.tiktok.com"},
-     {"n": "Instagram", "u": "https://www.instagram.com"}
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com"
+     }
     ]
    }
   ]

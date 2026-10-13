@@ -9,15 +9,15 @@ Quellen stehen als [W-Nummer] im Text und vollständig in Abschnitt 13. **Schät
 
 ## Kurzfassung
 
-**Empfehlung: Bau Variante B, die Scroll-Story „Der Weg zur Hütte“, als feste Startseite. Das Pixel-Spiel (A) baust du nur, wenn am Fr 05.02. vier Bedingungen stimmen (Abschnitt 11). Bei 1–2 Stunden am Tag: A streichen.**
+**Empfehlung: Bau Variante B, die Scroll-Story „Der Weg zur Hütte“, als feste Startseite. Das Pixel-Spiel (A) baust du nur, wenn am Fr 19.02. vier Bedingungen stimmen (Abschnitt 11). Bei 1–2 Stunden am Tag: A streichen.**
 
-**Warum:** B kostet rund 18 Stunden in 24 Schritten (Schätzung), davon ~10,5 Stunden vor dem 05.02. Diese Stunden brauchst du sowieso: Countdown, Wartelisten-Formular mit Quellen- und Größen-Tags, Nummern-Raster 001–100, Vorbestell-Zustände. A kommt mit 20–40 Stunden obendrauf (Schätzung, Docket Rev. 5: ~40 h). A lädt Phaser 3.90.0 mit 1,20 MB roh und 315 KB gzip (eigene Messung [W3]) und stellt sich zwischen Besucher und Kauf. Dass ein Spiel mehr verkauft, ist nirgends belegt. Du misst es selbst.
+**Warum:** B kostet rund 18 Stunden in 24 Schritten (Schätzung), davon ~10,5 Stunden vor dem 19.02. Diese Stunden brauchst du sowieso: Countdown, Wartelisten-Formular mit Quellen- und Größen-Tags, Nummern-Raster 001–100, Vorbestell-Zustände. A kommt mit 20–40 Stunden obendrauf (Schätzung, Docket Rev. 5: ~40 h). A lädt Phaser 3.90.0 mit 1,20 MB roh und 315 KB gzip (eigene Messung [W3]) und stellt sich zwischen Besucher und Kauf. Dass ein Spiel mehr verkauft, ist nirgends belegt. Du misst es selbst.
 
 **Deine Idee bleibt drin.** In B ist Scrollen gleich Laufen: Feld bei Sonnenuntergang → Jeans, Zipper, Polo → Hütte → Teppich. Die Bilder sind SVG-Silhouetten, die Claude Code erzeugt. Du musst nichts zeichnen.
 
 **Architektur (A und B):** Kopie deines Live-Themes mit eigenen Sections. Ein Zeit-Modul `tt-clock.js` kennt sechs Zustände, von „Warteliste“ bis „Ausverkauft“. Die Uhrzeit kommt vom Server (Date-Header [W16]), nicht vom Handy. Liquid-„now“ ist gecacht [W8] und taugt nicht. Das echte Schloss bleibt Shopify. Um 19:00 musst du kein Theme umschalten. Das alte Theme bleibt als PLAN B liegen, Umschalten mit einem Befehl [W7].
 
-**Vor dem 05.02. (Schritte 1–12, ab Sa 31.10.):** Werkzeuge auf dem Mac, Theme-Kopie mit Git, CLAUDE.md mit deinen Regeln, Countdown, Formular, Prozess-Story (live Mi 18.11.), echte Proto-Fotos (Fr 11.12.), Nummern-Raster (Sa 19.12.), Vorbestell-Zustände (Di 05.01.), UTM-Links und Tags (Sa 09.01.).
+**Vor dem 19.02. (Schritte 1–12, ab Sa 31.10.):** Werkzeuge auf dem Mac, Theme-Kopie mit Git, CLAUDE.md mit deinen Regeln, Countdown, Formular, Prozess-Story (live Mi 18.11.), echte Proto-Fotos (Fr 11.12.), Nummern-Raster (Sa 19.12.), Vorbestell-Zustände (Di 05.01.), UTM-Links und Tags (Sa 09.01.).
 
 **Neu gegenüber Rev. 5:** Die Shopify CLI ist jetzt Version 4.8.5 und braucht Node.js ab 22.12 [W7]. Phaser 4 ist seit 10.04.2026 stabil (aktuell 4.2.1), aber größer [W1][W3]. Beim Spiel bleibt es bei 3.90.0.
 
@@ -46,7 +46,7 @@ Quellen stehen als [W-Nummer] im Text und vollständig in Abschnitt 13. **Schät
 |---|---|---|
 | Was der Besucher tut | tippt, Figur läuft durchs Feld, Stationen öffnen Karten, Tür der Hütte | scrollt, das Feld zieht vorbei, Kapitel mit Fotos, Ornament-Bedeutungen, Nummern 001–100, Countdown, Formular |
 | Technik | Phaser 3.90.0 in einer eigenen Section, Aseprite-Grafiken | Liquid-Sections, ~25 KB eigenes JavaScript, SVG-Silhouetten, Fotos vom Shopify-CDN |
-| Dein Aufwand | 8 Zusatzschritte, ~11 h reine Bauzeit, realistisch **20–40 h** mit Fehlersuche und Zeichnen (Schätzung) | 24 Schritte, **~18 h** (Schätzung), ~10,5 h davon vor dem 05.02. |
+| Dein Aufwand | 8 Zusatzschritte, ~11 h reine Bauzeit, realistisch **20–40 h** mit Fehlersuche und Zeichnen (Schätzung) | 24 Schritte, **~18 h** (Schätzung), ~10,5 h davon vor dem 19.02. |
 | Was du selbst können musst | Pixel-Art in 12 Dateien (Stiltest 27.12. zeigt, ob das trägt) | Fotos machen, Texte freigeben |
 | Gewicht | Phaser allein 1.196.122 Byte roh, 314.863 Byte gzip [W3] + Grafiken ≤ 150 KB (Schätzung) | eigene Dateien ≤ 95 KB roh (CSS 15, JS 25, Feld-SVGs 25, Motiv-SVGs 30, Budget 3.10) + Fotos |
 | Wirkung (Schätzung, nicht belegt) | hoher Wiedererkennungswert, teilbar als Bildschirmaufnahme, eigener Post „Das Feld ist offen“ | erklärt das Produkt: Ornament, Nummer, Preis, Größe. Weniger Wow, mehr Kaufgründe |
@@ -92,7 +92,7 @@ Shopify-Admin (das echte Schloss)
 
 **Entscheidungen dahinter:**
 1. **Kein zweiter Server, keine zweite Domain.** Alles liegt im Theme. Der Theme-Code ist mit Git versioniert.
-2. **Ein Theme für alle Phasen.** Die Seite wechselt ihre Zustände selbst (3.3). **Abweichung vom Plan Rev. 5:** Dort sollte um 19:00 das Theme „Drop 22.04.“ veröffentlicht werden. Mit Zustands-Logik fällt dieser Handgriff am Drop-Abend weg. Das Umschalten bleibt nur für PLAN B. **Du entscheidest.**
+2. **Ein Theme für alle Phasen.** Die Seite wechselt ihre Zustände selbst (3.3). **Abweichung vom Plan Rev. 5:** Dort sollte um 19:00 das Theme „Drop 24.06.“ veröffentlicht werden. Mit Zustands-Logik fällt dieser Handgriff am Drop-Abend weg. Das Umschalten bleibt nur für PLAN B. **Du entscheidest.**
 3. **Liquid rendert alles Wichtige als Text vor.** JavaScript verschönert nur. Die Liquid-Referenz warnt: Ein Zeitstempel aus `'now'` „spiegelt die Zeit, zu der das Liquid zuletzt gerendert wurde … abhängig vom Caching“ [W8]. Deshalb steht im HTML nur das feste Datum, der Countdown läuft per JavaScript.
 4. **Formulare werden normal abgeschickt, nicht per fetch.** Shopify schützt Storefront-Formulare mit hCaptcha und einer Abfrage „let us know you're not a robot“ [W9]. Ein normales Absenden übersteht diese Abfrage. Wie fetch darauf reagiert, ist ungeprüft.
 5. **Live-Theme, Veröffentlichen und Push macht nur Ernest.** Claude Code arbeitet an der Kopie (Regel in CLAUDE.md, Anhang A).
@@ -132,15 +132,15 @@ Shopify-Admin (das echte Schloss)
 
 ### 3.3 Zeit und Zustände
 
-Alle Zeiten Europe/Berlin. Die Sommerzeit beginnt 2027 am So 28.03. (EU-Regel „letzter Sonntag im März, 1:00 UTC“ [W22], nachgerechnet). Deshalb wechselt der Offset von +01:00 auf +02:00.
+Alle Zeiten Europe/Berlin. Die Sommerzeit beginnt 2027 am So 30.05. (EU-Regel „letzter Sonntag im März, 1:00 UTC“ [W22], nachgerechnet). Deshalb wechselt der Offset von +01:00 auf +02:00.
 
 | Zustand | Von | Bis | Was die Startseite zeigt | „Direkt zum Shop“ führt zu |
 |---|---|---|---|---|
 | **WARTELISTE** | jetzt | Do 14.01.2027, 19:00 (`2027-01-14T19:00:00+01:00`) | Countdown „Vorbestellung öffnet in …“, Formular, Prozess-Story | Formular (Anker `#liste`), Text „Auf die Liste“ |
-| **VORBESTELLUNG** | 14.01., 19:00 | So 21.03.2027, 20:00 (`2027-03-21T20:00:00+01:00`) | „Vorbestellung offen · 149 € statt 169 €“, Nummern-Raster, Countdown „Vorbestellpreis endet in …“ | Produktseite Vorbestellung |
-| **ZWISCHENZEIT** | 21.03., 20:00 | Do 22.04.2027, 18:00 (`2027-04-22T18:00:00+02:00`) | Countdown „Drop in …“, ab 29.03. das Feld-Kapitel öffentlich, Formular „Hol dir den Schlüssel“ | Formular, Text „Drop 22.04. · 19:00“ |
-| **SCHLÜSSEL** | 22.04., 18:00 | 22.04., 19:00 (`2027-04-22T19:00:00+02:00`) | mit `?key=…` aus der E-Mail T−1h: „Die Tür ist offen“. Ohne Schlüssel: Countdown 60 Minuten | mit Schlüssel: Kollektion. Ohne: Formular |
-| **LIVE** | 22.04., 19:00 | bis ausverkauft | Tür offen, drei Produkte, Nummern-Raster füllt sich | Kollektion „Time Travel“ |
+| **VORBESTELLUNG** | 14.01., 19:00 | So 23.05.2027, 20:00 (`2027-03-21T20:00:00+01:00`) | „Vorbestellung offen · 149 € statt 169 €“, Nummern-Raster, Countdown „Vorbestellpreis endet in …“ | Produktseite Vorbestellung |
+| **ZWISCHENZEIT** | 23.05., 20:00 | Do 24.06.2027, 18:00 (`2027-04-22T18:00:00+02:00`) | Countdown „Drop in …“, ab 31.05. das Feld-Kapitel öffentlich, Formular „Hol dir den Schlüssel“ | Formular, Text „Drop 24.06. · 19:00“ |
+| **SCHLÜSSEL** | 24.06., 18:00 | 24.06., 19:00 (`2027-04-22T19:00:00+02:00`) | mit `?key=…` aus der E-Mail T−1h: „Die Tür ist offen“. Ohne Schlüssel: Countdown 60 Minuten | mit Schlüssel: Kollektion. Ohne: Formular |
+| **LIVE** | 24.06., 19:00 | bis ausverkauft | Tür offen, drei Produkte, Nummern-Raster füllt sich | Kollektion „Time Travel“ |
 | **AUSVERKAUFT** | Lager der Drop-Jeans = 0 | — | „Alle 100 vergeben“, Zipper und Polo weiter bestellbar, Formular „Liste für Drop 2“ | Kollektion (Zipper, Polo) |
 
 **Wie die Uhrzeit entsteht (tt-clock.js):**
@@ -148,12 +148,12 @@ Alle Zeiten Europe/Berlin. Die Sommerzeit beginnt 2027 am So 28.03. (EU-Regel �
 2. Falls ein Header `Age` dabei ist, die Sekunden dazurechnen. `Age` gibt an, wie lange ein Objekt in einem Proxy-Cache lag [W17].
 3. Abstand zur Handy-Uhr merken. Alle 5 Minuten und beim Zurückkehren in den Tab neu holen.
 4. Klappt das nicht: Handy-Uhr nehmen und das intern markieren. Die Anzeige bleibt trotzdem ungefähr richtig. Gekauft werden kann sowieso erst, wenn Shopify die Produkte freigibt.
-5. **Testmodus:** `?t=2027-04-22T18:59:30+02:00` überschreibt die Uhr, aber nur, wenn in den Theme-Einstellungen „Testmodus“ angehakt ist. Am 17.04. wird der Haken entfernt (Schritt 22).
+5. **Testmodus:** `?t=2027-04-22T18:59:30+02:00` überschreibt die Uhr, aber nur, wenn in den Theme-Einstellungen „Testmodus“ angehakt ist. Am 19.06. wird der Haken entfernt (Schritt 22).
 
 ### 3.4 Das echte Schloss
 
 - **Die Website zeigt Zustände nur an. Verkauft wird nur, was in Shopify im Onlineshop sichtbar ist.**
-- Plan 5.1 sagt: Produkte per Future Publishing auf den 22.04., 18:00 terminieren. **Vor Ort prüfen:** Die Shopify-Hilfe dazu war in dieser Sitzung gesperrt. Der Test steht in Schritt 20 (Generalprobe): Testprodukt zu 1 € auf „in 30 Minuten“ terminieren und beobachten.
+- Plan 5.1 sagt: Produkte per Future Publishing auf den 24.06., 18:00 terminieren. **Vor Ort prüfen:** Die Shopify-Hilfe dazu war in dieser Sitzung gesperrt. Der Test steht in Schritt 20 (Generalprobe): Testprodukt zu 1 € auf „in 30 Minuten“ terminieren und beobachten.
 - **Falls es die Terminierung so nicht gibt:** Produkte bleiben bis 18:00 im Status „Entwurf“. Um 18:00 stellst du sie von Hand auf „Aktiv“. Das dauert unter einer Minute pro Produkt. Am Drop-Tag steht das dann um 17:55 in deinem Ablauf.
 - **Der Schlüssel ist Erzählung, kein Schutz.** Er steht in den Theme-Einstellungen und damit im Seitenquelltext. Wer zwischen 18:00 und 19:00 die Produkt-URL kennt, kommt auch ohne Schlüssel rein. Bei 100 Paar reicht das (so schon im Plan 5.1).
 
@@ -186,10 +186,10 @@ Alle Zeiten Europe/Berlin. Die Sommerzeit beginnt 2027 am So 28.03. (EU-Regel �
 
 **Woher die Zahl kommt (nur echte Zahlen):**
 - `variant.inventory_quantity` liefert in Liquid den Lagerbestand einer Variante [W8]. Achtung: Wird das Inventar nicht verfolgt, liefert das Feld „die Zahl der verkauften Stücke“ [W8]. Deshalb muss bei beiden Jeans-Produkten „Inventar verfolgen“ an sein.
-- Vorbestellt = Startmenge Vorbestellung (35, bei > 25 bis 01.02. dann 45) minus Summe der Bestände aller Größen.
+- Vorbestellt = Startmenge Vorbestellung (35, bei > 25 bis 15.02. dann 45) minus Summe der Bestände aller Größen.
 - Im Drop verkauft = Startmenge Drop (58, bei Kontingent 45 dann 48) minus Summe der Bestände.
 - 5 Creator-Paare und 2 Reserve sind fest vergeben (Plan 3.2: 93 verkäuflich).
-- Reihenfolge wie beim Packen (Entscheidung 01.10.): Vorbestellungen ab 001 nach Bestelldatum, dann Creator, dann Drop. Auf der Seite: Felder 001 bis Zahl der Vorbestellungen in Rot-Weiß. Ab 21.03. folgen 7 Felder „Creator und Reserve“ in Gold. Ab 22.04. füllt der Drop den Rest.
+- Reihenfolge wie beim Packen (Entscheidung 01.10.): Vorbestellungen ab 001 nach Bestelldatum, dann Creator, dann Drop. Auf der Seite: Felder 001 bis Zahl der Vorbestellungen in Rot-Weiß. Ab 23.05. folgen 7 Felder „Creator und Reserve“ in Gold. Ab 24.06. füllt der Drop den Rest.
 - **Keine Daten zu einzelnen Nummern** (wer, wann). Die gibt es nicht öffentlich, und erfinden geht nicht.
 
 **Live-Aktualisierung:** Die Section wird alle 60 Sekunden neu geholt, solange sie sichtbar ist (`/?section_id=tt-nummern`). Dawn lädt Teile der Seite genau so nach (`?section_id=` in `cart.js` und `facets.js`) [W11]. Ob Shopify die Section dabei aus einem Cache liefert, ist **ungeprüft**. Deshalb steht unter dem Raster „Stand: 19:04“. Test in Schritt 10: Bestand im Admin ändern, Zeit stoppen, bis das Raster springt.
@@ -213,7 +213,7 @@ Alle Zeiten Europe/Berlin. Die Sommerzeit beginnt 2027 am So 28.03. (EU-Regel �
 | Neue Abonnenten mit Tag `tt-story` / `tt-feld` / `tt-huette` | Kunden, Filter nach Tag | **Anmeldequote der Startseite** = Anmeldungen ÷ Sitzungen |
 | Anmeldungen je `src-…` | Kunden, Filter nach Tag | Welcher Kanal bringt Adressen, nicht nur Likes |
 | Größenverteilung `gr-…` | Kunden, Filter nach Tag | Kontingent am 19.12. und Größen der 100 |
-| Vorbestellungen | Bestellungen | Schwellen 10 (01.02.) und 32 (19.03.) |
+| Vorbestellungen | Bestellungen | Schwellen 10 (15.02.) und 32 (21.05.) |
 
 **UTM-Links (einmal anlegen, Schritt 12):**
 - Instagram-Bio: `https://DEINE-DOMAIN/?utm_source=instagram&utm_medium=bio&utm_campaign=tt`
@@ -270,13 +270,13 @@ Eine Datums-Einstellung gibt es in Shopify nicht. Die Typen sind u. a. `text`, `
 | `tt_zeit_schluessel` | text | `2027-04-22T18:00:00+02:00` |
 | `tt_zeit_drop` | text | `2027-04-22T19:00:00+02:00` |
 | `tt_zeit_feld_oeffentlich` | text | `2027-03-29T18:00:00+02:00` |
-| `tt_schluessel` | text | z. B. `weizen-0422` (neu setzen am 15.04.) |
-| `tt_testmodus` | checkbox | an bis Sa 17.04., dann aus |
+| `tt_schluessel` | text | z. B. `weizen-0422` (neu setzen am 17.06.) |
+| `tt_testmodus` | checkbox | an bis Sa 19.06., dann aus |
 | `tt_produkt_vorbestellung` | product | Vorbestellung NVL-TT-01 |
 | `tt_produkt_drop` | product | NVL-TT-01 |
 | `tt_produkt_zipper`, `tt_produkt_polo` | product | NVL-TT-02, NVL-TT-03 |
 | `tt_kollektion` | collection | „Time Travel“ |
-| `tt_start_vorbestellung` | number | 35 (45, falls am 01.02. erhöht) |
+| `tt_start_vorbestellung` | number | 35 (45, falls am 15.02. erhöht) |
 | `tt_start_drop` | number | 58 (48 bei Kontingent 45) |
 | `tt_reserviert` | number | 7 (5 Creator + 2 Reserve) |
 | `tt_liste_zahl`, `tt_liste_datum` | number, text | jeden Sonntag von Hand |
@@ -294,8 +294,8 @@ Die Seite wächst mit dem Projekt. **Gezeigt wird nur, was es gibt** (Plan 0 und
 | **1 · Prozess** | Mi 18.11.2026 | Kopf mit Countdown bis 14.01. und Formular · Papiertest · Kreuzstich-Raster als Zeichnung · Fabriksuche in echten Zahlen · Teppich | **kein fertiges Teil, kein Mockup**. Motive nur flach, nie auf eine Jeans-Silhouette gelegt |
 | **2 · Das Muster** | Fr 11.12.2026 | Detailfotos vom Proto (03.12.) und Mini-Shoot (08. und 10.12.) zu jedem Element, Bedeutungen | Bedeutungstexte nur mit Beleg (4.2) |
 | **3 · Die Nummern** | Do 14.01.2027, 19:00 | Vorbestellung offen, Nummern-Raster, Countdown bis Preisende | nur echte Zahlen |
-| **4 · Der Weg zur Hütte** | Mo 22.03. still, Mo 29.03. öffentlich | Feld-Kapitel als Scroll-Szene, Shoot-Fotos (20.02.), Countdown bis 22.04. | Himmel nie hellblau über Weizen |
-| **5 · Die Tür** | Do 22.04.2027 | Schlüssel 18:00, live 19:00, später „ausverkauft“ | Shop-Link immer oben |
+| **4 · Der Weg zur Hütte** | Mo 24.05. still, Mo 31.05. öffentlich | Feld-Kapitel als Scroll-Szene, Shoot-Fotos (06.03.), Countdown bis 24.06. | Himmel nie hellblau über Weizen |
+| **5 · Die Tür** | Do 24.06.2027 | Schlüssel 18:00, live 19:00, später „ausverkauft“ | Shop-Link immer oben |
 
 ### 4.2 Kapitel und Textentwürfe
 
@@ -303,7 +303,7 @@ Texte sind Entwürfe nach Sprachregel 8.2. Du gibst jeden Satz frei.
 
 **K0 · Kopf** (immer oben)
 > **Time Travel**
-> 100 Jeans. Jede mit Nummer. Do 22.04.2027, 19:00.
+> 100 Jeans. Jede mit Nummer. Do 24.06.2027, 19:00.
 > [Countdown]
 > [E-Mail] [Größe, freiwillig] **Auf die Liste**
 > Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.
@@ -349,9 +349,9 @@ Motiv-Karten (Antippen dreht die Karte, `<button aria-expanded>`):
 **K6 · Die Nummern** (ab Stufe 3)
 > 100 Stück. Nicht mehr. Deine Nummer steht auf dem Hangtag.
 > [Raster 001–100] *Stand: 19:04*
-> Vorbestellung: 149 € statt 169 €, nur bis So 21.03., 20:00. Lieferung 22.–30.04.2027.
+> Vorbestellung: 149 € statt 169 €, nur bis So 23.05., 20:00. Lieferung 24.–30.06.2027.
 
-Lieferfenster aus Plan 7 („Vorbestellung mit festem Lieferfenster 22.–30.04.2027“).
+Lieferfenster aus Plan 7 („Vorbestellung mit festem Lieferfenster 24.–30.06.2027“).
 
 **K7 · Der Weg zur Hütte** (Stufe 4, Abschnitt 4.3)
 
@@ -366,7 +366,7 @@ Aus Spec 1.2 („Wir labeln nach dem echten Maß“, W32 = 81,2 cm).
 ### 4.3 K7 · „Der Weg zur Hütte“ als Scroll-Szene
 
 - **Aufbau:** Ein Bereich, der beim Scrollen am Bildschirm „klebt“ (`position: sticky`), etwa 4 Bildschirmhöhen lang. Darin 5 SVG-Ebenen: Himmel, Hügel, Hütte, Weizen hinten, Weizen vorn. Beim Scrollen bewegen sie sich unterschiedlich schnell seitwärts. So entsteht der Eindruck, man läuft nach rechts.
-- **Stationen:** Bei 20 %, 45 % und 70 % des Weges erscheint jeweils eine Karte: Jeans an der Vogelscheuche, Zipper über dem Zaun (Medaillon sichtbar), Polo auf der Leine. Jede Karte: Foto vom Shoot, ein Satz, Preis aus Shopify, Link zum Produkt (ab LIVE) oder „22.04. · 19:00“.
+- **Stationen:** Bei 20 %, 45 % und 70 % des Weges erscheint jeweils eine Karte: Jeans an der Vogelscheuche, Zipper über dem Zaun (Medaillon sichtbar), Polo auf der Leine. Jede Karte: Foto vom Shoot, ein Satz, Preis aus Shopify, Link zum Produkt (ab LIVE) oder „24.06. · 19:00“.
 - **Am Ende (100 %):** die Hütte. Tür je Zustand zu oder offen. Drinnen: Foto des Teppichs, darunter die drei Teile.
 - **Technik:** `IntersectionObserver` für die Stationen. Er läuft in Chrome ab 51, Safari ab 12.1, Firefox ab 55 [W20]. Die Seitwärtsbewegung über `requestAnimationFrame`. **Nicht** über CSS `animation-timeline`: Das läuft erst in Chrome ab 115 und Safari ab 26, in Firefox nur in der Vorschau [W19].
 - **GSAP ist nicht nötig.** GSAP ist seit der Übernahme durch Webflow „100 % kostenlos“, auch kommerziell [W6], und ScrollTrigger kostet 18 KB gzip [W6]. Für 5 Ebenen reicht eigenes JavaScript. Nur wenn das Gleiten auf deinem Handy ruckelt, darf Claude Code GSAP nehmen.
@@ -400,7 +400,7 @@ Aus Spec 1.2 („Wir labeln nach dem echten Maß“, W32 = 81,2 cm).
 | Fotos Papiertest | 3 Stück, Hochformat | in Shopify-Dateien | du (Papiertest 3 am 08.10.) |
 | Foto Familienteppich | 1–2 | in Shopify-Dateien | du (Familie fragen, Docket 15.10.) |
 | Proto-Details | 5 (A, E, B2, C, D) | ab 11.12. | du (Mini-Shoot 08.12., On-Body 10.12.) |
-| Shoot-Fotos | 6–8 (3 Produkte, Hütte/Teppich-Motiv falls vorhanden) | ab 27.02. | Shoot 20.02. |
+| Shoot-Fotos | 6–8 (3 Produkte, Hütte/Teppich-Motiv falls vorhanden) | ab 13.03. | Shoot 06.03. |
 
 Fotos lädst du in Shopify hoch (Inhalt → Dateien oder als Produktbild). Die Section holt sie über `image_url` mit Breite. Ohne Breite oder Höhe gibt der Filter einen Fehler [W8]. `image_tag` erzeugt `srcset` und kann ein Bild vorladen (`preload`) [W8].
 
@@ -410,7 +410,7 @@ Fotos lädst du in Shopify hoch (Inhalt → Dateien oder als Produktbild). Die S
 
 ---
 
-## 5 · Variante A · Pixel-Spiel „Das Feld“ (nur bei „bauen“ am 05.02.)
+## 5 · Variante A · Pixel-Spiel „Das Feld“ (nur bei „bauen“ am 19.02.)
 
 ### 5.1 Szenenablauf
 
@@ -418,7 +418,7 @@ Fotos lädst du in Shopify hoch (Inhalt → Dateien oder als Produktbild). Die S
 |---|---|---|
 | **0 · Standbild** (HTML, kein Phaser) | Bild des Feldes (≤ 40 KB), zwei Knöpfe: „Ins Feld“ und „Direkt zum Shop“. Darunter „Ohne Spiel ansehen“ (springt zur Story B) | immer |
 | **1 · Laden** | erst nach Tippen auf „Ins Feld“: Phaser + Grafiken laden, Ladebalken in Weizenfarbe | — |
-| **2 · Feld** | Seitenansicht, Weg 4 Bildschirmbreiten lang (720 px intern). Stationen bei x ≈ 150 (Vogelscheuche mit Jeans), 330 (Zaun mit Zipper), 510 (Leine mit Polo), Hütte bei 660. Tippen auf eine Station: Figur läuft hin, HTML-Karte öffnet sich über dem Spiel | ab 22.03. still, ab 29.03. öffentlich |
+| **2 · Feld** | Seitenansicht, Weg 4 Bildschirmbreiten lang (720 px intern). Stationen bei x ≈ 150 (Vogelscheuche mit Jeans), 330 (Zaun mit Zipper), 510 (Leine mit Polo), Hütte bei 660. Tippen auf eine Station: Figur läuft hin, HTML-Karte öffnet sich über dem Spiel | ab 24.05. still, ab 31.05. öffentlich |
 | **3 · Hütte** | Tür zu: Countdown über der Tür, Formular „Hol dir den Schlüssel“ (HTML, `tt-warteliste-form` mit Tag `tt-feld`) | WARTELISTE bis ZWISCHENZEIT |
 | | Tür offen mit Schlüssel | SCHLÜSSEL (18:00–19:00, `?key=`) |
 | | Tür offen für alle, **Start direkt vor der Tür** | LIVE |
@@ -503,7 +503,7 @@ Geschwindigkeit 60 px/s intern, der ganze Weg in rund 12 Sekunden (Schätzung, b
 
 - **Performance:** Budget 3.10. Phaser erst nach Tippen. Grafiken als PNG mit Palette. Ziel: Feld flüssig auf deinem Handy und einem älteren iPhone (Gerätetest, Schritt 17).
 - **Barrierefreiheit:** Canvas `aria-hidden="true"`. Unter dem Spiel die Liste „Ohne Spiel ansehen“ mit allen Stationen als Links. Bewegung-aus-Schalter stoppt Weizen und Glanz. Bei `prefers-reduced-motion` startet das Spiel nicht von selbst, nur das Standbild mit Links.
-- **Analytics:** `tt_feld_start`, `tt_feld_station` (Name), `tt_tuer` (Zustand), `tt_shop_klick` (Ort: Button, Station, Innen). Dazu der Tag `tt-feld` an jeder Anmeldung aus der Hütte. Damit siehst du am So 04.04. (Docket W29), ob das Feld Adressen bringt oder nur Likes.
+- **Analytics:** `tt_feld_start`, `tt_feld_station` (Name), `tt_tuer` (Zustand), `tt_shop_klick` (Ort: Button, Station, Innen). Dazu der Tag `tt-feld` an jeder Anmeldung aus der Hütte. Damit siehst du am So 06.06. (Docket W38), ob das Feld Adressen bringt oder nur Likes.
 - **Anbindung:** dieselbe Uhr (`tt-clock.js`), dasselbe Formular-Snippet, derselbe Shop-Button wie B. Das Spiel liest nur den Zustand und zeigt die Tür passend.
 
 ---
@@ -544,7 +544,7 @@ Geschwindigkeit 60 px/s intern, der ganze Weg in rund 12 Sekunden (Schätzung, b
 | T16 | Flaggen-Check | `tools/flaggen-check.mjs` | 0 Treffer |
 | A-T1 | Spiel lädt erst nach Tippen | Netzwerk-Tab | vor dem Tippen keine Phaser-Datei geladen |
 | A-T2 | Spiel im Querformat | Handy drehen | Hinweis „Handy drehen“ oder sauber skaliert, nie verzerrt |
-| A-T3 | Playtest | 5 Leute, ohne Erklärung (Sa 13.03.) | 4 von 5 finden Tür und Shop ohne Hilfe |
+| A-T3 | Playtest | 5 Leute, ohne Erklärung (Sa 15.05.) | 4 von 5 finden Tür und Shop ohne Hilfe |
 
 ---
 
@@ -552,8 +552,8 @@ Geschwindigkeit 60 px/s intern, der ganze Weg in rund 12 Sekunden (Schätzung, b
 
 1. **Ebene 1: ohne JavaScript.** Jede Section rendert in Liquid Datum, Text, Formular und Links. Fällt das Skript aus, bleibt eine schlichte, funktionierende Seite.
 2. **Ebene 2: ohne Spiel.** Hakt A, schaltest du in den Section-Einstellungen von A die Checkbox „Spiel zeigen“ aus. Dann steht die Story B wieder oben. Dauer: 30 Sekunden im Theme-Editor.
-3. **Ebene 3: PLAN B.** Das Theme, das vor Stufe 1 live war (Dawn-Warteliste vom 08.10.), heißt ab Schritt 8 „PLAN B“. Hakt alles: `shopify theme publish --theme "PLAN B" --force` [W7] oder im Admin auf „Veröffentlichen“. Geübt am Mi 17.03. (Schritt 18). Ziel unter einer Minute.
-4. **Am Drop-Tag wird nicht debuggt.** Ab Sa 17.04. ist Code-Freeze. Hängt am 22.04. etwas, PLAN B veröffentlichen und weitermachen.
+3. **Ebene 3: PLAN B.** Das Theme, das vor Stufe 1 live war (Dawn-Warteliste vom 08.10.), heißt ab Schritt 8 „PLAN B“. Hakt alles: `shopify theme publish --theme "PLAN B" --force` [W7] oder im Admin auf „Veröffentlichen“. Geübt am Mi 19.05. (Schritt 18). Ziel unter einer Minute.
+4. **Am Drop-Tag wird nicht debuggt.** Ab Sa 19.06. ist Code-Freeze. Hängt am 24.06. etwas, PLAN B veröffentlichen und weitermachen.
 5. **Unabhängig von allem:** Gekauft wird über Shopify-Produktseiten und Checkout. Die laufen auch, wenn deine Startseite hängt. Der Link zur Kollektion steht in der E-Mail T−1h und LIVE.
 
 ---
@@ -562,7 +562,7 @@ Geschwindigkeit 60 px/s intern, der ganze Weg in rund 12 Sekunden (Schätzung, b
 
 **So arbeitest du mit Claude Code:** Ein Prompt pro Schritt. Der nächste kommt erst, wenn der letzte am Handy funktioniert und committet ist. Claude Code pusht nur nach deinem „ja“. Veröffentlichen machst du selbst.
 
-**Schritte 1–24 gelten immer (Variante B).** **A1–A8 gelten nur bei „bauen“ am 05.02.** und ersetzen dann Schritt 16.
+**Schritte 1–24 gelten immer (Variante B).** **A1–A8 gelten nur bei „bauen“ am 19.02.** und ersetzen dann Schritt 16.
 
 Die Daten liegen auf Tagen, an denen im Docket Rev. 5.3 wenig steht. Die Zahl „Docket“ nennt, wie viele Minuten dort an dem Tag schon geplant sind.
 
@@ -580,28 +580,28 @@ Die Daten liegen auf Tagen, an denen im Docket Rev. 5.3 wenig steht. Die Zahl �
 | 10 | Sa 19.12. | Nummern-Raster | 90 | 40 |
 | 11 | Di 05.01.2027 | Vorbestell-Zustände | 60 | 45 |
 | 12 | Sa 09.01. | Analytics | 30 | 10 |
-| 13 | Fr 05.02. | Entscheidung A | 20 | 80 (inkl. dieser Aufgabe) |
-| 14 | Sa 27.02. | Shoot-Bilder | 60 | 10 |
-| 15 | Do 04.03. | Drop-Zustände | 60 | 45 |
-| 16 | Sa 06.03. | Der Weg zur Hütte (entfällt bei A) | 90 | 10 |
-| 17 | Mo 08.03. | Gerätetest | 60 | 30 |
-| 18 | Mi 17.03. | PLAN B üben | 20 | 45 |
-| 19 | Mo 22.03. | Stiller Launch Stufe 4 | 30 | 30 |
-| 20 | Fr 09.04. | Generalprobe | 45 | 20 |
-| 21 | Do 15.04. | Schlüssel-Link | 20 | 30 |
-| 22 | Sa 17.04. | Code-Freeze | 5 | 70 |
-| 23 | Do 22.04. | Drop-Tag | ~30 | Drop |
-| 24 | So 25.04. | Auswertung | 20 | 95 |
-| A1 | Di 09.02. | Graubox | 60 | 15 |
-| A2 | Mo 15.02. | Palette, Flaggen-Check | 30 | 15 |
-| A3 | Di 16.02. | Steuerung am Daumen | 20 | 35 |
-| A4 | Do 18.02., Mo 22.02., Mi 24.02. | Pixel-Art | 3 × 90 | 0 / 15 / 45 |
-| A5 | Fr 26.02. | Grafik einbauen | 60 | 45 |
-| A6 | Mo 01.03. | Stationen, Karten, Formular | 90 | 45 |
-| A7 | Mi 03.03. | Tür, Innenraum, Ladezeit | 60 | 55 |
-| A8 | Sa 13.03. | Playtest | 60 | 10 |
+| 13 | Fr 19.02. | Entscheidung A | 20 | 80 (inkl. dieser Aufgabe) |
+| 14 | Sa 13.03. | Shoot-Bilder | 60 | 10 |
+| 15 | Do 18.03. | Drop-Zustände | 60 | 45 |
+| 16 | Sa 20.03. | Der Weg zur Hütte (entfällt bei A) | 90 | 10 |
+| 17 | Mo 10.05. | Gerätetest | 60 | 30 |
+| 18 | Mi 19.05. | PLAN B üben | 20 | 45 |
+| 19 | Mo 24.05. | Stiller Launch Stufe 4 | 30 | 30 |
+| 20 | Fr 11.06. | Generalprobe | 45 | 20 |
+| 21 | Do 17.06. | Schlüssel-Link | 20 | 30 |
+| 22 | Sa 19.06. | Code-Freeze | 5 | 70 |
+| 23 | Do 24.06. | Drop-Tag | ~30 | Drop |
+| 24 | So 27.06. | Auswertung | 20 | 95 |
+| A1 | Di 23.02. | Graubox | 60 | 15 |
+| A2 | Mo 01.03. | Palette, Flaggen-Check | 30 | 15 |
+| A3 | Di 02.03. | Steuerung am Daumen | 20 | 35 |
+| A4 | Do 04.03., Mo 08.03., Mi 24.02. | Pixel-Art | 3 × 90 | 0 / 15 / 45 |
+| A5 | Fr 12.03. | Grafik einbauen | 60 | 45 |
+| A6 | Mo 15.03. | Stationen, Karten, Formular | 90 | 45 |
+| A7 | Mi 17.03. | Tür, Innenraum, Ladezeit | 60 | 55 |
+| A8 | Sa 15.05. | Playtest | 60 | 10 |
 
-**Summe B:** 1.095 Minuten ≈ 18 Stunden, davon Schritte 1–12 = 635 Minuten ≈ 10,5 Stunden vor dem 05.02. **A zusätzlich:** 650 Minuten geplant, minus Schritt 16 (90) = +9,5 Stunden reine Bauzeit. Realistisch mit Fehlersuche 20–40 Stunden (Schätzung).
+**Summe B:** 1.095 Minuten ≈ 18 Stunden, davon Schritte 1–12 = 635 Minuten ≈ 10,5 Stunden vor dem 19.02. **A zusätzlich:** 650 Minuten geplant, minus Schritt 16 (90) = +9,5 Stunden reine Bauzeit. Realistisch mit Fehlersuche 20–40 Stunden (Schätzung).
 
 ---
 
@@ -738,7 +738,7 @@ Baue die Startseite Stufe 1 der Scroll-Story. Halte dich an CLAUDE.md, besonders
 
 1. sections/tt-kapitel.liquid: ein Kapitel mit Einstellungen (Überschrift, Anker-ID) und Blöcken: „bild“ (image_picker, Alt-Text Pflicht), „text“ (richtext), „motiv“ (Auswahl band, muenztasche, achtstern; zeigt das SVG und eine Karte mit Maß und Stichzahl; eine Rückseite „Bedeutung“ nur, wenn ein Text eingetragen ist; Karte ist ein <button aria-expanded>). Bilder über image_url mit width und image_tag mit widths und sizes.
 2. Baue aus tools/motive/ (fine.py und die drei .svgfrag-Dateien) eigenständige, kleine SVGs in assets/: tt-motiv-band.svg (das Band als GERADER Streifen, ein bis zwei Rapporte, 17 Stiche hoch, nicht der Taschenkurve folgend), tt-motiv-muenztasche.svg (45 × 45), tt-motiv-achtstern.svg (27 × 27). Eigene viewBox, gleiche Kästchen zu einem Pfad zusammenfassen, je höchstens 10 KB. Flach, NICHT auf eine Jeans-Silhouette gelegt. Zeig mir die Bytes.
-3. sections/tt-hero.liquid fertig machen: „Time Travel“, Zeile „100 Jeans. Jede mit Nummer. Do 22.04.2027, 19:00.“, Countdown, Formular, Listenstand aus tt_liste_zahl und tt_liste_datum („1.240 auf der Liste · Stand So 10.01.“, ausblenden bei 0).
+3. sections/tt-hero.liquid fertig machen: „Time Travel“, Zeile „100 Jeans. Jede mit Nummer. Do 24.06.2027, 19:00.“, Countdown, Formular, Listenstand aus tt_liste_zahl und tt_liste_datum („1.240 auf der Liste · Stand So 10.01.“, ausblenden bei 0).
 4. snippets/tt-shop-button.liquid: fester Link oben rechts, mindestens 44 × 44 px, Text und Ziel je Zustand laut CLAUDE.md; ohne JavaScript „Auf die Liste“ → #liste.
 5. templates/index.json: tt-hero, dann K1 „Was hier entsteht“, K2 „Das Raster“, K3 „Die Suche“, K4 „Der Teppich“, K8 „Ehrliche Größen“, am Ende noch einmal das Formular. Texte aus docs/TEXTE-STUFE1.md. Prüfe jeden Satz gegen die Sprachregeln und markiere mir Treffer.
 6. assets/tt-story.css: Palette aus CLAUDE.md (Hintergrund T13, Text T12/T16), mobil zuerst, ab 320 px Breite ohne waagerechtes Scrollen, Schalter „Bewegung aus“ unten links (merkt sich die Wahl im localStorage, in try/catch).
@@ -826,14 +826,14 @@ Erst mit „TT Test“ als tt_produkt_vorbestellung testen. Sag mir, wie ich den
 ### Schritt 11 · Vorbestell-Zustände und Shop-Links
 **Wann:** Di 05.01.2027 · **Dauer:** 60 min
 
-**Was du tust zusätzlich:** Bei der Generalprobe der Vorbestellung am Mo 11.01. (Docket) testest du **auch Future Publishing**: das Vorbestell-Produkt auf „heute in 20 Minuten“ terminieren und beobachten. So weißt du schon im Januar, ob das Schloss für den 14.01. und den 22.04. so funktioniert, und nicht erst im April.
+**Was du tust zusätzlich:** Bei der Generalprobe der Vorbestellung am Mo 11.01. (Docket) testest du **auch Future Publishing**: das Vorbestell-Produkt auf „heute in 20 Minuten“ terminieren und beobachten. So weißt du schon im Januar, ob das Schloss für den 14.01. und den 24.06. so funktioniert, und nicht erst im Juni.
 
 **Fertig, wenn:** Mit `?t=2027-01-14T18:59:30+01:00` wechselt die Seite pünktlich: Knopf „Vorbestellen · 149 €“ zur Vorbestellung, Countdown „Vorbestellpreis endet in …“, Raster sichtbar.
 
 **Prompt für Claude Code:**
 ```
 Baue die Zustände für die Vorbestellung. Halte dich an CLAUDE.md.
-- tt-hero hört auf „tt:state“. WARTELISTE: wie bisher. VORBESTELLUNG: Überschrift „Vorbestellung offen“, Knopf „Vorbestellen · {{ Preis von tt_produkt_vorbestellung | money }}“, daneben durchgestrichen der Preis von tt_produkt_drop, Link zur Produktseite der Vorbestellung, Countdown bis tt_zeit_preisende, Zeile „Lieferung 22.–30.04.2027“. Formular darunter mit „Noch nicht? Auf die Liste“.
+- tt-hero hört auf „tt:state“. WARTELISTE: wie bisher. VORBESTELLUNG: Überschrift „Vorbestellung offen“, Knopf „Vorbestellen · {{ Preis von tt_produkt_vorbestellung | money }}“, daneben durchgestrichen der Preis von tt_produkt_drop, Link zur Produktseite der Vorbestellung, Countdown bis tt_zeit_preisende, Zeile „Lieferung 24.–30.06.2027“. Formular darunter mit „Noch nicht? Auf die Liste“.
 - Liquid rendert als Grundzustand den WARTELISTE-Text mit festem Datum. JavaScript schaltet um. Ohne JavaScript steht zusätzlich ein normaler Link „Zur Vorbestellung“, aber nur, wenn product.available für die Vorbestellung wahr ist.
 - tt-shop-button: VORBESTELLUNG → „Vorbestellen“ → Produktseite.
 - Preise nie als Text eintippen, immer aus Shopify.
@@ -858,7 +858,7 @@ Analytics für die Drop-Seite, schlank. Halte dich an CLAUDE.md.
 ---
 
 ### Schritt 13 · Entscheidung: Spiel bauen oder streichen
-**Wann:** Fr 05.02. · **Dauer:** 20 min (das ist die Docket-Aufgabe „Spiel: bauen oder streichen“)
+**Wann:** Fr 19.02. · **Dauer:** 20 min (das ist die Docket-Aufgabe „Spiel: bauen oder streichen“)
 
 **Was du tust:** Abschnitt 11 durchgehen, Zahlen eintragen, Prompt an Claude in der Docket-Sitzung (nicht an Claude Code).
 
@@ -866,15 +866,15 @@ Analytics für die Drop-Seite, schlank. Halte dich an CLAUDE.md.
 
 **Prompt (an Claude, Docket-Sitzung):**
 ```
-Spiel-Entscheidung 05.02. Meine Zahlen: Vorbestellungen bis heute: __. Warteliste am 31.01.: __ (Korridor 1.500). Anmeldequote Startseite letzte 4 Wochen: __ %. Stiltest 27.12.: Pixel / Silhouette / nicht gemacht. Freie Abende pro Woche bis 21.03.: __.
+Spiel-Entscheidung 19.02. Meine Zahlen: Vorbestellungen bis heute: __. Warteliste am 07.02.: __ (Korridor 1.500). Anmeldequote Startseite letzte 4 Wochen: __ %. Stiltest 27.12.: Pixel / Silhouette / nicht gemacht. Freie Abende pro Woche bis 23.05.: __.
 Prüf die vier Bedingungen aus website.md Abschnitt 11 und sag mir klar: bauen oder streichen. Wenn bauen: welche Docket-Tage von Februar bis März dafür frei werden müssen.
 ```
 
 ---
 
 ### Schritt 14 · Shoot-Bilder in die Story
-**Wann:** Sa 27.02. · **Dauer:** 60 min
-**Voraussetzung:** Shoot Sa 20.02., Shop-Bilder aufbereitet Di 23.02. (Docket).
+**Wann:** Sa 13.03. · **Dauer:** 60 min
+**Voraussetzung:** Shoot Sa 06.03., Shop-Bilder aufbereitet Di 09.03. (Docket).
 
 **Fertig, wenn:** Kopf, K5 und drei Stations-Blöcke haben Shoot-Fotos. Das erste große Bild ist in 750 px Breite höchstens 120 KB groß. Budget grün.
 
@@ -882,7 +882,7 @@ Prüf die vier Bedingungen aus website.md Abschnitt 11 und sag mir klar: bauen o
 ```
 Tausche in der Story die Proto-Fotos gegen die Shoot-Fotos (Dateinamen: …). Halte dich an CLAUDE.md.
 - Kopf: ein Hochformat-Bild als erstes großes Bild, image_tag mit preload, widths 375/750/1100. In 750 px Breite höchstens 120 KB. Zeig mir die echten Bytes.
-- Lege in tt-kapitel einen Blocktyp „station“ an (Produkt-Auswahl, Foto, ein Satz). Preis aus dem Produkt, Link zum Produkt erst ab Zustand LIVE, vorher „22.04. · 19:00“. Drei Stationen: Jeans, Zipper, Polo.
+- Lege in tt-kapitel einen Blocktyp „station“ an (Produkt-Auswahl, Foto, ein Satz). Preis aus dem Produkt, Link zum Produkt erst ab Zustand LIVE, vorher „24.06. · 19:00“. Drei Stationen: Jeans, Zipper, Polo.
 - Führ tools/budget-check.mjs aus und miss die Seite einmal gedrosselt.
 Commit nach meinem „passt“.
 ```
@@ -890,25 +890,25 @@ Commit nach meinem „passt“.
 ---
 
 ### Schritt 15 · Drop-Zustände: Schlüssel, Live, Ausverkauft
-**Wann:** Do 04.03. · **Dauer:** 60 min
+**Wann:** Do 18.03. · **Dauer:** 60 min
 
 **Fertig, wenn:** Mit `?t=2027-04-22T18:00:30+02:00&key=…` ist die Tür offen, ohne Schlüssel läuft ein 60-Minuten-Countdown. Mit `?t=2027-04-22T19:00:30+02:00` ist die Seite LIVE. Mit „TT Test“ auf 0 zeigt sie AUSVERKAUFT.
 
 **Prompt für Claude Code:**
 ```
 Baue die Drop-Zustände. Halte dich an CLAUDE.md und docs/TERMINE.md.
-- ZWISCHENZEIT: Countdown „Drop in …“ bis tt_zeit_drop. Das Formular heißt „Hol dir den Schlüssel“ (ort=tt-huette), darunter: „Am 22.04. um 18:00 kommt dein Schlüssel per E-Mail. Damit bist du eine Stunde früher drin.“
+- ZWISCHENZEIT: Countdown „Drop in …“ bis tt_zeit_drop. Das Formular heißt „Hol dir den Schlüssel“ (ort=tt-huette), darunter: „Am 24.06. um 18:00 kommt dein Schlüssel per E-Mail. Damit bist du eine Stunde früher drin.“
 - SCHLUESSEL (18:00–19:00 und gültiger ?key=): Kopf „Die Tür ist offen“, Knopf zur Kollektion tt_kollektion. Ohne Schlüssel: Countdown bis 19:00 und Formular.
 - LIVE: Kopf zeigt die drei Produkte mit Preis und Link, darunter das Nummern-Raster, Shop-Button „Zum Shop“.
 - AUSVERKAUFT (data-tt-ausverkauft): „Alle 100 vergeben.“ Zipper und Polo weiter mit „auf Bestellung, Versand innerhalb von 3 Wochen“, Formular „Liste für den nächsten Drop“ (ort=tt-drop2).
-- Ohne JavaScript: fester Text „Drop Do 22.04.2027, 19:00“ und ein Link zur Kollektion.
+- Ohne JavaScript: fester Text „Drop Do 24.06.2027, 19:00“ und ein Link zur Kollektion.
 Teste jeden Zustand mit ?t= und zeig mir eine Tabelle: Zustand | Test-Link | was ich sehen muss. Commit nach meinem „passt“.
 ```
 
 ---
 
 ### Schritt 16 · „Der Weg zur Hütte“ (entfällt bei „bauen“)
-**Wann:** Sa 06.03. · **Dauer:** 90 min
+**Wann:** Sa 20.03. · **Dauer:** 90 min
 
 **Fertig, wenn:** Am Handy zieht das Feld beim Scrollen vorbei, die drei Stationen erscheinen, am Ende steht die Hütte mit dem Teppich. Mit „Bewegung aus“ sind es vier feste Bilder. Flaggen-Check meldet 0 Treffer.
 
@@ -920,14 +920,14 @@ Baue sections/tt-feld-scroll.liquid: „Der Weg zur Hütte“. Halte dich an CLA
 3. Bei 20 %, 45 % und 70 % erscheint je eine Stations-Karte (die Blöcke „station“ aus Schritt 14), gesteuert mit IntersectionObserver. Bei 100 % die Hütte: Tür je Zustand aus tt-clock.js zu oder offen; darunter Foto des Teppichs und die drei Teile.
 4. Bei „Bewegung aus“ oder prefers-reduced-motion: keine Bewegung, vier feste Bilder untereinander.
 5. Lege tools/flaggen-check.mjs an (Node, ohne Pakete; liest bei SVG die Farben aus fill, stroke und stop-color): Alarm bei Farbton 180–250°, Sättigung über 25 % und Helligkeit über 45 %. Führ ihn aus.
-6. Die Section bleibt bis tt_zeit_feld_oeffentlich (29.03., 18:00) ausgeblendet, außer im Testmodus mit ?t=.
+6. Die Section bleibt bis tt_zeit_feld_oeffentlich (31.05., 18:00) ausgeblendet, außer im Testmodus mit ?t=.
 Danach budget-check. Commit nach meinem „passt“.
 ```
 
 ---
 
 ### Schritt 17 · Gerätetest und strenger Prüf-Prompt
-**Wann:** Mo 08.03. · **Dauer:** 60 min
+**Wann:** Mo 10.05. · **Dauer:** 60 min
 
 **Was du tust vorher:** Abschnitt 7 dieser Datei nach `tt-theme/docs/TESTPLAN.md` kopieren. Ein zweites Handy leihen (Android oder kleines iPhone).
 
@@ -942,7 +942,7 @@ Probleme als Liste nach Schwere. Repariere die ersten fünf, dann stopp und zeig
 ---
 
 ### Schritt 18 · PLAN B anlegen und Umschalten üben
-**Wann:** Mi 17.03. · **Dauer:** 20 min (gleiche Docket-Aufgabe)
+**Wann:** Mi 19.05. · **Dauer:** 20 min (gleiche Docket-Aufgabe)
 
 **Was du tust:** Am besten spät abends. Stoppuhr an. `shopify theme publish --theme "PLAN B" --force` [W7], Seite am Handy neu laden, Zeit notieren. Dann `shopify theme publish --theme "TT Story" --force`, wieder Zeit notieren.
 
@@ -956,9 +956,9 @@ Ich übe gleich PLAN B. Prüfe nur mit shopify theme list, ob es ein Theme „PL
 ---
 
 ### Schritt 19 · Stiller Launch Stufe 4
-**Wann:** Mo 22.03. · **Dauer:** 30 min · öffentlich ab Mo 29.03., 18:00 mit T−24
+**Wann:** Mo 24.05. · **Dauer:** 30 min · öffentlich ab Mo 31.05., 18:00 mit T−24
 
-**Was du tust:** Push nach Prüfung. Das Feld-Kapitel (oder bei A das Spiel) erscheint für alle automatisch am 29.03. um 18:00. Bis dahin 48 Stunden echte Besucher auf allem anderen. Selbst aus Instagram öffnen.
+**Was du tust:** Push nach Prüfung. Das Feld-Kapitel (oder bei A das Spiel) erscheint für alle automatisch am 31.05. um 18:00. Bis dahin 48 Stunden echte Besucher auf allem anderen. Selbst aus Instagram öffnen.
 
 **Fertig, wenn:** Stufe 4 ist auf „TT Story“ live, das Feld erscheint mit `?t=2027-03-29T18:00:30+02:00`, in 48 Stunden keine Fehler.
 
@@ -970,7 +970,7 @@ Stiller Launch Stufe 4. Prüfe: git status sauber, budget-check grün, flaggen-c
 ---
 
 ### Schritt 20 · Generalprobe mit Testprodukt
-**Wann:** Fr 09.04. · **Dauer:** 45 min
+**Wann:** Fr 11.06. · **Dauer:** 45 min
 
 **Was du tust:**
 1. `shopify theme duplicate --theme "TT Story" --name "TT Probe"` [W7].
@@ -989,9 +989,9 @@ Generalprobe heute auf der Theme-Kopie „TT Probe“. Ändere NICHTS an „TT S
 ---
 
 ### Schritt 21 · Schlüssel-Link in die E-Mail T−1h
-**Wann:** Do 15.04. · **Dauer:** 20 min (gleiche Docket-Aufgabe)
+**Wann:** Do 17.06. · **Dauer:** 20 min (gleiche Docket-Aufgabe)
 
-**Was du tust:** Neuen Schlüssel in den Theme-Einstellungen von „TT Story“ setzen, z. B. `weizen-0422`. Den Link aus dem Prompt in den Entwurf der E-Mail T−1h. In einem privaten Fenster mit `&t=2027-04-22T18:00:30+02:00` testen (Testmodus ist bis 17.04. an).
+**Was du tust:** Neuen Schlüssel in den Theme-Einstellungen von „TT Story“ setzen, z. B. `weizen-0422`. Den Link aus dem Prompt in den Entwurf der E-Mail T−1h. In einem privaten Fenster mit `&t=2027-04-22T18:00:30+02:00` testen (Testmodus ist bis 19.06. an).
 
 **Fertig, wenn:** Der Schlüssel-Link steht in der E-Mail und öffnet im Testmodus die Tür.
 
@@ -1003,21 +1003,21 @@ Hol mit shopify theme pull --theme "TT Story" --only config/settings_data.json d
 ---
 
 ### Schritt 22 · Code-Freeze
-**Wann:** Sa 17.04. · **Dauer:** 5 min (gleiche Docket-Aufgabe)
+**Wann:** Sa 19.06. · **Dauer:** 5 min (gleiche Docket-Aufgabe)
 
 **Was du tust:** In den Theme-Einstellungen von „TT Story“ den Testmodus AUS. Ab jetzt keine Änderung am Code, auch keine Kleinigkeit. Nur noch der Listenstand am Sonntag.
 
-**Fertig, wenn:** Testmodus aus, ein `?t=`-Link wirkt nicht mehr, letzter Commit „Freeze 17.04.“.
+**Fertig, wenn:** Testmodus aus, ein `?t=`-Link wirkt nicht mehr, letzter Commit „Freeze 19.06.“.
 
 **Prompt für Claude Code:**
 ```
-Code-Freeze. Mach einen letzten Commit „Freeze 17.04.“ und einen Git-Tag „drop-2027-04-22“. Hol mit shopify theme pull --theme "TT Story" --only config/settings_data.json die Einstellungen und bestätige mir, dass tt_testmodus aus ist. Sag mir einen ?t=-Link, mit dem ich prüfe, dass er nicht mehr wirkt. Danach änderst du an diesem Repo nichts mehr bis zum 25.04.
+Code-Freeze. Mach einen letzten Commit „Freeze 19.06.“ und einen Git-Tag „drop-2027-04-22“. Hol mit shopify theme pull --theme "TT Story" --only config/settings_data.json die Einstellungen und bestätige mir, dass tt_testmodus aus ist. Sag mir einen ?t=-Link, mit dem ich prüfe, dass er nicht mehr wirkt. Danach änderst du an diesem Repo nichts mehr bis zum 27.06.
 ```
 
 ---
 
 ### Schritt 23 · Drop-Tag (Website-Teil)
-**Wann:** Do 22.04. · **Dauer:** ~30 min, verteilt
+**Wann:** Do 24.06. · **Dauer:** ~30 min, verteilt
 
 | Uhrzeit | Was |
 |---|---|
@@ -1039,7 +1039,7 @@ Heute ist Drop-Tag. Du änderst nichts. Gib mir nur meinen Website-Ablauf von 17
 ---
 
 ### Schritt 24 · Auswertung und Modus nach dem Drop
-**Wann:** So 25.04. · **Dauer:** 20 min (zusammen mit Docket „Auswertung nach 72 Stunden“)
+**Wann:** So 27.06. · **Dauer:** 20 min (zusammen mit Docket „Auswertung nach 72 Stunden“)
 
 **Fertig, wenn:** Die Zahlen stehen im Blatt „Website“. Entschieden ist, was die Startseite die nächsten 4 Wochen zeigt (Vorschlag: „Zipper und Polo auf Bestellung“ + Liste für Drop 2).
 
@@ -1051,7 +1051,7 @@ Auswertung Website nach 72 Stunden. Meine Zahlen: Sitzungen Startseite __, Anmel
 ---
 
 ### A1 · Graubox (nur bei „bauen“)
-**Wann:** Di 09.02. · **Dauer:** 60 min (ersetzt die drei Docket-Aufgaben 09.–11.02., die Werkzeuge hast du seit Schritt 1)
+**Wann:** Di 23.02. · **Dauer:** 60 min (ersetzt die drei Docket-Aufgaben 23.–25.02., die Werkzeuge hast du seit Schritt 1)
 
 **Fertig, wenn:** Am Handy läuft ein graues Rechteck flüssig durchs Feld, Tippen = hinlaufen. Phaser lädt erst nach „Ins Feld“ (im Netzwerk-Tab geprüft).
 
@@ -1070,7 +1070,7 @@ Keine weiteren Features. Erklär mir danach, wie ich es am Handy teste und wo ic
 ---
 
 ### A2 · Palette und Flaggen-Check für PNG
-**Wann:** Mo 15.02. · **Dauer:** 30 min
+**Wann:** Mo 01.03. · **Dauer:** 30 min
 
 **Fertig, wenn:** Die Palette ist in Aseprite oder LibreSprite geladen, der Flaggen-Check prüft auch PNG.
 
@@ -1083,7 +1083,7 @@ Keine weiteren Features. Erklär mir danach, wie ich es am Handy teste und wo ic
 ---
 
 ### A3 · Steuerung am Daumen
-**Wann:** Di 16.02. · **Dauer:** 20 min
+**Wann:** Di 02.03. · **Dauer:** 20 min
 
 **Fertig, wenn:** Laufen mit dem Daumen fühlt sich gut an. Vorher wird keine Grafik eingebaut.
 
@@ -1095,7 +1095,7 @@ Ich teste gleich die Steuerung am Handy. Gib mir 6 Dinge, auf die ich achten sol
 ---
 
 ### A4 · Pixel-Art zeichnen (3 Abende)
-**Wann:** Do 18.02., Mo 22.02., Mi 24.02. · **Dauer:** je 90 min. *(Docket hatte den dritten Abend am 25.02.; da steht schon „Kampagnenfilm schneiden“, deshalb Mi 24.02.)*
+**Wann:** Do 04.03., Mo 08.03., Mi 24.02. · **Dauer:** je 90 min. *(Docket hatte den dritten Abend am 11.03.; da steht schon „Kampagnenfilm schneiden“, deshalb Mi 24.02.)*
 
 **Was du tust:** Die 12 Dateien aus 5.2 mit der Palette T01–T17. Export wie in 5.2.
 - Abend 1: Figur, Himmel, Hügel, Weizen hinten
@@ -1112,7 +1112,7 @@ In assets/ liegen neue Aseprite-Exporte (PNG + JSON). Prüfe jede Datei gegen do
 ---
 
 ### A5 · Grafik einbauen
-**Wann:** Fr 26.02. · **Dauer:** 60 min
+**Wann:** Fr 12.03. · **Dauer:** 60 min
 
 **Fertig, wenn:** Das Feld sieht aus wie gezeichnet, die Pixel sind scharf, der Weizen wiegt versetzt. Spiel gesamt ≤ 1,5 MB roh.
 
@@ -1129,7 +1129,7 @@ Danach budget-check (Spiel gesamt höchstens 1,5 MB roh). Commit nach meinem „
 ---
 
 ### A6 · Stationen, Karten, Formular an der Tür
-**Wann:** Mo 01.03. · **Dauer:** 90 min
+**Wann:** Mo 15.03. · **Dauer:** 90 min
 
 **Fertig, wenn:** Drei Stationen öffnen HTML-Karten mit Preis aus Shopify. An der Tür steht das Formular. Eine Test-Anmeldung kommt mit Tag `tt-feld` an.
 
@@ -1137,7 +1137,7 @@ Danach budget-check (Spiel gesamt höchstens 1,5 MB roh). Commit nach meinem „
 ```
 Füge Stationen und Hütte hinzu. Neue Dateien in assets/: tt-vogelscheuche, tt-zaun, tt-leine, tt-glanz.
 - Reihenfolge am Weg: Jeans an der Vogelscheuche (x≈150), Zipper am Zaun (x≈330), Polo auf der Leine (x≈510), Hütte (x≈660). Über jeder Station funkelt tt-glanz (aus bei „Bewegung aus“).
-- Tippen auf eine Station: Figur läuft hin, dann öffnet sich eine Karte als HTML über dem Spiel, nicht im Canvas: Name, ein Satz, Preis aus dem Produkt in den Theme-Einstellungen, Zeile je Zustand („22.04. · 19:00“ oder Link zum Produkt ab LIVE). Schließen mit ×, Esc oder Tippen daneben. Fokus springt in die Karte und danach zurück.
+- Tippen auf eine Station: Figur läuft hin, dann öffnet sich eine Karte als HTML über dem Spiel, nicht im Canvas: Name, ein Satz, Preis aus dem Produkt in den Theme-Einstellungen, Zeile je Zustand („24.06. · 19:00“ oder Link zum Produkt ab LIVE). Schließen mit ×, Esc oder Tippen daneben. Fokus springt in die Karte und danach zurück.
 - An der Hüttentür: snippets/tt-warteliste-form.liquid mit ort=tt-feld, Titel „Hol dir den Schlüssel“.
 - Unter dem Spiel die Liste „Ohne Spiel ansehen“ mit denselben drei Karten als normales HTML.
 Zeig mir danach, wo ich in Shopify die Anmeldungen mit Tag tt-feld sehe. Commit nach meinem „passt“.
@@ -1146,7 +1146,7 @@ Zeig mir danach, wo ich in Shopify die Anmeldungen mit Tag tt-feld sehe. Commit 
 ---
 
 ### A7 · Tür mit Zuständen, Innenraum, Ladezeit
-**Wann:** Mi 03.03. · **Dauer:** 60 min (Docket hat dort schon „Button ‚Direkt zum Shop‘ prüfen“)
+**Wann:** Mi 17.03. · **Dauer:** 60 min (Docket hat dort schon „Button ‚Direkt zum Shop‘ prüfen“)
 
 **Fertig, wenn:** Die Tür folgt `tt-clock.js` (zu, Schlüssel, offen), ab LIVE startet man vor der Tür, der Innenraum verlinkt die Produkte, vor dem Tippen lädt kein Byte Phaser.
 
@@ -1164,7 +1164,7 @@ Teste alle Zustände mit ?t= und ?key=. Commit nach meinem „passt“.
 ---
 
 ### A8 · Playtest mit 5 Leuten
-**Wann:** Sa 13.03. · **Dauer:** 60 min (gleiche Docket-Aufgabe)
+**Wann:** Sa 15.05. · **Dauer:** 60 min (gleiche Docket-Aufgabe)
 
 **Was du tust:** 5 Leute, Handy in die Hand, nur ein Satz: „Kauf dir die Jeans.“ Vorschau im Testmodus mit `?t=2027-04-22T19:00:30+02:00`. Nicht helfen. Notieren: Wer findet den Shop, wie lange, wo hängt jemand.
 
@@ -1177,7 +1177,7 @@ Hier sind meine Notizen vom Playtest mit 5 Leuten: … Ordne die Probleme nach �
 
 ---
 
-## 10 · Was vor dem 05.02. schon sinnvoll ist, egal ob mit Spiel
+## 10 · Was vor dem 19.02. schon sinnvoll ist, egal ob mit Spiel
 
 | Was | Ab | Warum jetzt |
 |---|---|---|
@@ -1189,22 +1189,22 @@ Hier sind meine Notizen vom Playtest mit 5 Leuten: … Ordne die Probleme nach �
 | **Prozess-Story Stufe 1** | 18.11. | Zeigt, dass hier wirklich gebaut wird, ohne Produkt zu zeigen (Regel 01.10.) |
 | **PLAN B** | 18.11. | Ab dem ersten Live-Gang gibt es einen Rückweg |
 | **Echte Proto-Fotos, Stufe 2** | 11.12. | Der erste Moment, in dem die Seite das Produkt zeigen darf |
-| **Nummern-Raster** | 19.12. gebaut, sichtbar ab 14.01. | „X von 35“ ist der Kern des Contents vom 04.01. bis 07.02. (Plan 10) |
+| **Nummern-Raster** | 19.12. gebaut, sichtbar ab 14.01. | „X von 35“ ist der Kern des Contents vom 04.01. bis 21.02. (Plan 10) |
 | **Vorbestell-Zustände** | 05.01. | Startseite schaltet am 14.01. um 19:00 von selbst um |
 | **Future Publishing testen** | Mo 11.01. | Klärt das Schloss drei Monate vor dem Drop |
-| **Analytics-Grundlage** | 09.01. | Ohne Zahlen ist die Spiel-Entscheidung am 05.02. Bauchgefühl |
+| **Analytics-Grundlage** | 09.01. | Ohne Zahlen ist die Spiel-Entscheidung am 19.02. Bauchgefühl |
 | Spiel-Stiltest (Docket So 27.12., 150 min) | 27.12. | **Nur machen, wenn du A ernsthaft willst.** Sonst die 150 Minuten in Content stecken |
 
-**Nicht vor dem 05.02.:** Phaser, Pixel-Art, Feld-Scroll-Szene. Die gehören zu Stufe 4 im März.
+**Nicht vor dem 19.02.:** Phaser, Pixel-Art, Feld-Scroll-Szene. Die gehören zu Stufe 4 im März.
 
 ---
 
-## 11 · Entscheidung am Fr 05.02.
+## 11 · Entscheidung am Fr 19.02.
 
 **Bauen nur, wenn alle vier stimmen:**
-1. **Mindestens 10 Vorbestellungen** (Schwelle 01.02., Plan 6).
-2. **Drei zusätzliche Abende pro Woche** à 60–90 Minuten bis 21.03. frei (Plan 5.1).
-3. **Die Warteliste liegt im Korridor:** mindestens 1.500 am 31.01. (Plan 6). Liegt sie darunter, gehört jede freie Stunde den Videos, nicht dem Spiel.
+1. **Mindestens 10 Vorbestellungen** (Schwelle 15.02., Plan 6).
+2. **Drei zusätzliche Abende pro Woche** à 60–90 Minuten bis 23.05. frei (Plan 5.1).
+3. **Die Warteliste liegt im Korridor:** mindestens 1.500 am 07.02. (Plan 6). Liegt sie darunter, gehört jede freie Stunde den Videos, nicht dem Spiel.
 4. **Der Stiltest vom 27.12. hat getragen:** Du hast eine Figur und eine Weizen-Kachel gezeichnet und würdest das zehnmal in dieser Qualität schaffen.
 
 **Fehlt eine:** streichen. Die Story B hat dann das Feld als Scroll-Szene (Schritt 16). Die 27 Spiel-Aufgaben im Docket werden zu Notizen.
@@ -1215,7 +1215,7 @@ Hier sind meine Notizen vom Playtest mit 5 Leuten: … Ordne die Probleme nach �
 
 ## 12 · Offene Punkte
 
-1. **Future Publishing:** in dieser Sitzung nicht belegt. Test am Mo 11.01. (Schritt 11) und Fr 09.04. (Schritt 20). Ersatz: Handbetrieb um 18:00.
+1. **Future Publishing:** in dieser Sitzung nicht belegt. Test am Mo 11.01. (Schritt 11) und Fr 11.06. (Schritt 20). Ersatz: Handbetrieb um 18:00.
 2. **Mehrere Tags in `contact[tags]`** und neue Tags für bestehende Adressen: Test am Mi 11.11. (Schritt 5). Ersatz: zusammengesetzter Tag.
 3. **Double-Opt-in:** Pfad im Admin vor Ort (Docket Di 06.10.).
 4. **Theme-Obergrenze** der Bibliothek: nicht belegt. Es gibt die Meldung „Maximum number of themes reached“ [W7].
@@ -1259,7 +1259,7 @@ Geprüft am 07.10.2026 in dieser Sitzung. 26 Quellen.
 - **[W19]** MDN Browser-Kompatibilitätsdaten, `animation-timeline`: Chrome 115, Safari 26, Firefox nur Vorschau. https://github.com/mdn/browser-compat-data/blob/main/css/properties/animation-timeline.json
 - **[W20]** MDN Browser-Kompatibilitätsdaten, `IntersectionObserver`: Chrome 51, Safari 12.1, Firefox 55. https://github.com/mdn/browser-compat-data/blob/main/api/IntersectionObserver.json
 - **[W21]** WCAG 2.2, Erfolgskriterien 1.4.3 Kontrast (4,5:1, groß 3:1), 2.1.1 Tastatur, 2.2.2 Pausieren/Stoppen/Ausblenden (> 5 s), 2.3.3 Animation durch Interaktion (AAA), 2.5.8 Zielgröße (24 × 24 CSS-Pixel). https://github.com/w3c/wcag/tree/main/guidelines/sc
-- **[W22]** IANA-Zeitzonendatenbank, Datei `europe`: `Rule EU 1981 max - Mar lastSun 1:00u 1:00 S`, `Europe/Berlin` folgt `EU`. Daraus berechnet: Sommerzeit ab So 28.03.2027. https://github.com/eggert/tz/blob/main/europe
+- **[W22]** IANA-Zeitzonendatenbank, Datei `europe`: `Rule EU 1981 max - Mar lastSun 1:00u 1:00 S`, `Europe/Berlin` folgt `EU`. Daraus berechnet: Sommerzeit ab So 30.05.2027. https://github.com/eggert/tz/blob/main/europe
 - **[W23]** Claude Code, Advanced setup: macOS 13.0+, `curl -fsSL https://claude.ai/install.sh | bash`, `brew install --cask claude-code`, Pro/Max/Team/Enterprise/Console-Konto nötig. https://code.claude.com/docs/en/setup
 - **[W24]** Claude Code, Memory: Projekt-`CLAUDE.md` wird in jeder Sitzung geladen, Prüfung mit `/context`. https://code.claude.com/docs/en/memory
 - **[W25]** Aseprite, README: Vertrieb unter EULA, Preis nicht im README. https://github.com/aseprite/aseprite
@@ -1278,7 +1278,7 @@ In `~/Claude/Novalife/website/tt-theme/CLAUDE.md` kopieren (Schritt 3). DEIN-SHO
 
 ## Was das ist
 Kopie des Shopify-Themes von Novalife, in Shopify „TT Story“ (Shop: DEIN-SHOP.myshopify.com, Domain: DEINE-DOMAIN).
-Hier entsteht die Startseite für den Drop „Time Travel“: 100 nummerierte, bestickte Jeans, Drop Do 22.04.2027, 19:00 Berlin.
+Hier entsteht die Startseite für den Drop „Time Travel“: 100 nummerierte, bestickte Jeans, Drop Do 24.06.2027, 19:00 Berlin.
 Ich (Ernest) bin neu auf dem Mac und kein Entwickler. Erklär kurz, auf Deutsch, in einfachen Sätzen.
 
 ## Harte Regeln
@@ -1308,17 +1308,17 @@ Ich (Ernest) bin neu auf dem Mac und kein Entwickler. Erklär kurz, auf Deutsch,
 - Bedeutungen von Motiven nur mit Beleg aus docs/BELEGE.md.
 - Prüfe jeden neuen Text gegen diese Liste und markiere mir Treffer.
 
-## Termine (Europe/Berlin, Sommerzeit ab So 28.03.2027)
+## Termine (Europe/Berlin, Sommerzeit ab So 30.05.2027)
 | Zustand | ab | ISO |
 |---|---|---|
 | WARTELISTE | jetzt | — |
 | VORBESTELLUNG | Do 14.01.2027 19:00 | 2027-01-14T19:00:00+01:00 |
-| ZWISCHENZEIT (Preisende) | So 21.03.2027 20:00 | 2027-03-21T20:00:00+01:00 |
-| Feld öffentlich | Mo 29.03.2027 18:00 | 2027-03-29T18:00:00+02:00 |
-| SCHLUESSEL (nur mit ?key=) | Do 22.04.2027 18:00 | 2027-04-22T18:00:00+02:00 |
-| LIVE | Do 22.04.2027 19:00 | 2027-04-22T19:00:00+02:00 |
+| ZWISCHENZEIT (Preisende) | So 23.05.2027 20:00 | 2027-03-21T20:00:00+01:00 |
+| Feld öffentlich | Mo 31.05.2027 18:00 | 2027-03-29T18:00:00+02:00 |
+| SCHLUESSEL (nur mit ?key=) | Do 24.06.2027 18:00 | 2027-04-22T18:00:00+02:00 |
+| LIVE | Do 24.06.2027 19:00 | 2027-04-22T19:00:00+02:00 |
 | AUSVERKAUFT | Drop-Jeans Bestand 0 | — |
-Code-Freeze: Sa 17.04.2027. Danach keine Änderung bis 25.04.
+Code-Freeze: Sa 19.06.2027. Danach keine Änderung bis 27.06.
 
 ## Theme-Einstellungen (Gruppe „Time Travel“)
 tt_zeit_vorbestellung, tt_zeit_preisende, tt_zeit_feld_oeffentlich, tt_zeit_schluessel, tt_zeit_drop (text, ISO mit Offset) ·

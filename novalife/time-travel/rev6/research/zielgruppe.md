@@ -11,7 +11,7 @@ Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 
 **Wer kauft die ersten 35 Vorbestellungen?** Zwei Gruppen, nicht fünf.
 
-1. **Dein warmes Netz plus die Novalife-Bestandskunden.** Freunde, Familie, Leute, die schon ein Bleach-Teil von dir gekauft haben. Eine Vorbestellung zu 149 € für eine Hose, die erst im April kommt, kauft man von jemandem, dem man vertraut. Für die Schwelle von 10 bis 01.02. ist das die einzige verlässliche Quelle. Die Größe dieser Gruppe kennst nur du: Follower, Ex-Kunden, E-Mail-Adressen. Das ist offener Punkt Nr. 1.
+1. **Dein warmes Netz plus die Novalife-Bestandskunden.** Freunde, Familie, Leute, die schon ein Bleach-Teil von dir gekauft haben. Eine Vorbestellung zu 149 € für eine Hose, die erst im April kommt, kauft man von jemandem, dem man vertraut. Für die Schwelle von 10 bis 15.02. ist das die einzige verlässliche Quelle. Die Größe dieser Gruppe kennst nur du: Follower, Ex-Kunden, E-Mail-Adressen. Das ist offener Punkt Nr. 1.
 2. **Die „zweite Generation mit Ost-Wurzeln“, 18–35, streetwear-affin.** Kinder von Russlanddeutschen, polnischen, ukrainischen, belarussischen Familien, in Deutschland aufgewachsen. Der Pool ist groß: In Deutschland leben 1,5 Mio in Polen Geborene, 1,3 Mio in der Ukraine Geborene, 1,0 Mio in Russland Geborene [Q1] und 1,66 Mio (Spät-)Aussiedler aus der früheren Sowjetunion [Q2]. In Berlin werden 150.000–300.000 Russischsprachige geschätzt [Q10]. Ihr Auslöser ist der Teppich bei Oma an der Wand. Ihr Kanal: TikTok und Instagram auf Deutsch.
 
 **Wer nicht zuerst kauft:** Kalte Denim-Käufer ohne Bezug (Preis 169 € liegt 50–110 % über Eightyfive, Carhartt WIP, Levi's [Q26]; Deutsche geben im Schnitt nur 547 € im Jahr für Mode aus [Q18]). Ukrainische Geflüchtete (Erwerbsquote ~50 % [Q29], eigene starke Ukraine-Marken [Q28], höchstes Ablehnungsrisiko). Touristen (für Vorbestellungen irrelevant).
@@ -20,7 +20,7 @@ Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 
 **Fünf Punkte, bei denen das aktuelle Design oder der Plan anecken kann. Du entscheidest:**
 1. **Sichel + Ähren + rotes Band:** seit 11.10. erledigt, der Serp ist gestrichen. Es bleiben Ähren auf rotem Band (B2) und der Achtstern (C). Das belarussische Staatswappen zeigt Ähren mit Band und einen roten Stern [Q34], das ist ein Rest-Risiko.
-2. **Ähren und Holodomor:** Das Stoppelfeld ist mit dem Serp gestrichen. Die Ähren von B2 können Ukrainer weiter an den Holodomor erinnern („Gesetz der fünf Ähren“ 1932) [Q51]. Gedenktag ist Sa 28.11.2026, in der Woche 23.–29.11. keine Ernte-Bilder. Dein Teppich-Post liegt am Mi 25.11.
+2. **Ähren und Holodomor:** Das Stoppelfeld ist mit dem Serp gestrichen. Die Ähren von B2 können Ukrainer weiter an den Holodomor erinnern („Gesetz der fünf Ähren“ 1932) [Q51]. Gedenktag ist Sa 28.11.2026, in der Woche 25.–29.11. keine Ernte-Bilder. Dein Teppich-Post liegt am Mi 25.11.
 3. **„Dieses Muster ist älter als jede Grenze“** (Post am Mi 14.10. und Mi 09.12.) kann wie Putins These von den „künstlichen“ Grenzen klingen [Q42].
 4. **„Vyshyvanka“** gilt als ukrainisches Nationalsymbol [Q32]. **„Alatyr“** ist ein verbreitetes Symbol der russischen Neuheiden-Szene (Rodnovery) [Q39]. Nach außen besser „Kreuzstich-Band“ und „Achtstern“.
 5. **„Projekt Slavic“, „Eine Kultur“** klingen für Ukrainer und Polen nach Panslawismus und „ein Volk“ [Q42][Q43]. Nach außen nur „Time Travel“.
@@ -177,7 +177,7 @@ Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 
 **Kaufkraft:** Hotelgäste gaben 2016 im Schnitt 205,80 € pro Tag aus, Tagesgäste 32,90 € [Q17] (alte Zahl).
 
-**Bewertung:** Für die Vorbestellung (14.01.–21.03.2027) und den Online-Drop am Do 22.04., 19:00 spielen Touristen keine Rolle. Relevant erst für einen späteren Laden oder Pop-up. **Keine Zeit hier investieren.**
+**Bewertung:** Für die Vorbestellung (14.01.–23.05.2027) und den Online-Drop am Do 24.06., 19:00 spielen Touristen keine Rolle. Relevant erst für einen späteren Laden oder Pop-up. **Keine Zeit hier investieren.**
 
 ---
 
@@ -311,10 +311,10 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 | Termin | Warum | Was im Docket steht | Vorschlag (du entscheidest) |
 |---|---|---|---|
 | Mi 14.10.2026 | — | ORIGIN „Älter als jede Grenze“ (Hook: „Dieses Muster ist älter als jede Grenze.“) | Hook ändern, z. B. „Jede Region stickt diese Raute anders. Die Bedeutung bleibt.“ |
-| Mi 25.11.2026 | 3 Tage vor dem Holodomor-Gedenktag | ORIGIN „Der Teppich“ | Eine Woche früher oder später. In der Woche 23.–29.11. kein Ernte-Post |
+| Mi 25.11.2026 | 3 Tage vor dem Holodomor-Gedenktag | ORIGIN „Der Teppich“ | Eine Woche früher oder später. In der Woche 25.–29.11. kein Ernte-Post |
 | **Sa 28.11.2026** | Holodomor-Gedenktag, 4. Samstag im November [Q51] | kein Post | so lassen, nichts posten |
 | Mi 09.12.2026 | — | REACH „Älter als jede Grenze“ | Hook wie oben ändern |
-| **Mi 24.02.2027** | 5. Jahrestag des russischen Großangriffs (24.02.2022 [Q32]) | REACH 19:00 „Das erste Bild“ | Auf Do 25.02. schieben. Am 24.02. nichts Werbliches |
+| **Mi 24.02.2027** | 5. Jahrestag des russischen Großangriffs (24.02.2022 [Q32]) | REACH 19:00 „Das erste Bild“ | Auf Do 11.03. schieben. Am 24.02. nichts Werbliches |
 
 Nach dem Drop, für später: 8./9. Mai (Gedenken mit Flaggenverboten in Berlin [Q38]), Vyshyvanka-Tag im Mai [Q32].
 
@@ -333,13 +333,13 @@ Nach dem Drop, für später: 8./9. Mai (Gedenken mit Flaggenverboten in Berlin [
 
 **Warum:** Eine Vorbestellung ist ein Vertrauenskauf. 149 € für eine Hose, die frühestens Anfang April kommt, für die es nur Proto-Fotos gibt. Das kauft man von jemandem, den man kennt, oder von einer Marke, bei der man schon gekauft hat. Deine Bleach-Kunden haben bewiesen, dass sie für ein Einzelstück von dir zahlen.
 
-**Rolle im Plan:** Die Schwelle am Mo 01.02. (mindestens 10) hängt an diesem Segment. **Schätzung:** Aus einer Liste von 50 Namen (Freunde, Familie, Ex-Kunden, die dich kennen) kaufen 10 bis 15. Das ist eine Annahme, keine belegte Quote. Prüfen kannst du sie schon im November mit der Frage „Würdest du vorbestellen?“.
+**Rolle im Plan:** Die Schwelle am Mo 15.02. (mindestens 10) hängt an diesem Segment. **Schätzung:** Aus einer Liste von 50 Namen (Freunde, Familie, Ex-Kunden, die dich kennen) kaufen 10 bis 15. Das ist eine Annahme, keine belegte Quote. Prüfen kannst du sie schon im November mit der Frage „Würdest du vorbestellen?“.
 
 ### Segment 2: Ost-Wurzeln, zweite Generation (S1)
 
 **Warum:** Sie haben den stärksten emotionalen Auslöser (der Teppich, das Muster von zu Hause), die richtige Ästhetik (Streetwear, Zipper, Baggy) und sind über TikTok und Instagram ohne Werbegeld erreichbar [Q23]. Der Pool ist groß [Q1][Q2][Q10]. Ihr Einwand ist politisch. Genau deshalb sind die Regeln in Kapitel 3 kein Beiwerk, sondern Verkaufsvoraussetzung.
 
-**Rolle im Plan:** Sie füllen die Lücke von 10 auf 32 (Restzahlung Fr 19.03.) über die Warteliste. **Schätzung:** Mit 1.500 Anmeldungen bis 31.01. (dein Zielkorridor) braucht es eine Quote von 1,5–1,7 % für 22–25 Vorbestellungen. Eine belegte Branchenquote für Warteliste zu Vorbestellung habe ich nicht gefunden. Du misst sie selbst ab dem 14.01.
+**Rolle im Plan:** Sie füllen die Lücke von 10 auf 32 (Restzahlung Fr 21.05.) über die Warteliste. **Schätzung:** Mit 1.500 Anmeldungen bis 07.02. (dein Zielkorridor) braucht es eine Quote von 1,5–1,7 % für 22–25 Vorbestellungen. Eine belegte Branchenquote für Warteliste zu Vorbestellung habe ich nicht gefunden. Du misst sie selbst ab dem 14.01.
 
 ### Warum nicht die anderen zuerst
 

@@ -116,7 +116,7 @@ Stand: Mi 07.10.2026, abends. Für Ernest. Grundlage: Plan Rev. 5.3, Docket Rev.
 
 | Zweck | Tool | URL | Preis/Stand | Wann im Plan | Hinweis |
 |---|---|---|---|---|---|
-| Gewerbe | Gewerbeanmeldung bzw. -ummeldung Berlin | service.berlin.de (Seite am 07.10. gesperrt) | **offen** (Gebühr) | **Neu: Do 08.10.** Gewerbeschein raussuchen, 10 Min. | Novalife läuft seit 2023, also wahrscheinlich angemeldet. Prüfen: Deckt die Tätigkeit „Herstellung lassen und Online-Handel mit Bekleidung“ ab oder nur Customizing? Sonst ummelden. Brauchst du für EORI, Steuerberater, Shopify Payments (W) |
+| Gewerbe | Gewerbeanmeldung bzw. -ummeldung Berlin | service.berlin.de (Seite am 07.10. gesperrt) | **offen** (Gebühr) | **Stand Di 13.10.: Es gibt noch kein Gewerbe.** IHK-Gründungsberatung ab So 01.11. per Mail angefragt. Danach online anmelden, 20 Min. | Tätigkeit so angeben, dass „Entwurf, Herstellenlassen und Online-Handel mit Bekleidung“ abgedeckt sind (Wortlaut im IHK-Termin klären). Anmelden vor Shopify Payments, EORI und der ersten Vorbestellung. Danach schickt das Finanzamt den Fragebogen zur steuerlichen Erfassung (ELSTER), dort entscheidest du die Kleinunternehmerregelung. Unter 18 geht die Anmeldung nur mit Zustimmung der Eltern und Genehmigung des Familiengerichts (§ 112 BGB), das dauert Wochen (W) |
 | Kleinunternehmer | UStG § 19 | gesetze-im-internet.de/ustg_1980/__19.html (am 07.10. gesperrt) | **Plan/Aufgabe:** Vorjahr höchstens 25.000 €, laufendes Jahr höchstens 100.000 € | **W5 Di 13.10.** | **W:** Grenzen gelten seit 01.01.2025. Wer im laufenden Jahr über 100.000 € kommt, verliert die Regelung sofort. Ein Verzicht bindet 5 Jahre. **Rechnung (Schätzung, kein Steuerrat):** Ziel 10.116 € brutto enthält bei Regelbesteuerung 1.615 € Umsatzsteuer (19/119), bei Ausverkauf 2.398 €. Dagegen steht ~1.140 € Einfuhrumsatzsteuer, die du als Kleinunternehmer nicht zurückbekommst. Kleinunternehmer bleibt wahrscheinlich günstiger |
 | Einfuhrumsatzsteuer Türkei | Zoll | zoll.de (am 07.10. gesperrt) | **Plan:** 19 % auf ~6.000 € Ware ≈ 1.150 € (lokal gerechnet: 1.140 €) | W5 Di 13.10., W26 Do 11.03. | **W:** Berechnet auf Warenwert plus Fracht bis zur Grenze, also eher etwas mehr. Bei DDP zahlt sie die Fabrik oder der Spediteur und rechnet sie in den Preis. **Auch auf Proto (~30.11.) und PP (~28.12.) per Kurier fällig**, plus Gebühr des Paketdienstes (Plan W12) |
 | Portugal | UStG § 1a (Erwerbsschwelle) | gesetze-im-internet.de/ustg_1980/__1a.html | **W:** Erwerbsschwelle 12.500 € | **W5 Di 13.10.** | **W, wichtig:** Kein Steuervorteil gratis. Unter der Schwelle berechnet die Fabrik portugiesische Mehrwertsteuer (W: 23 %, auf 6.000 € = 1.380 €). Mit USt-IdNr zahlst du 19 % deutsche Erwerbsteuer ohne Vorsteuerabzug (1.140 €). Plan 3.1 „Portugal: keine Einfuhrumsatzsteuer“ ist richtig, aber unvollständig |
@@ -135,7 +135,7 @@ Stand: Mi 07.10.2026, abends. Für Ernest. Grundlage: Plan Rev. 5.3, Docket Rev.
 5. Vorbestellungen ab 14.01.2027, Lieferung April: In welchem Monat ist das Umsatz?
 6. EU-Käufer: Ab wann brauche ich OSS?
 7. Wortlaut des Hinweises auf § 19 UStG im Shop und auf Rechnungen.
-8. Deckt mein Gewerbeschein Produktion und Online-Handel?
+8. Welche Tätigkeit melde ich an, damit Produktion lassen und Online-Handel abgedeckt sind?
 
 ---
 

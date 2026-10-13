@@ -23,7 +23,7 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 2. Eine **Wärme-Kette** aus warmem Netz, Papiertest-Abend, Stick-Abend, Proto-Runde, Creator-Preview und drei Mess-Abenden macht aus Adressen Käufer.
 3. Eine **Zusagen-Liste „Die ersten 35“** (nur echte Zusagen zählen, „Vielleicht“ steht in einer eigenen Spalte) und eine kostenlose Liste **„Platz in der ersten Stunde sichern“** tragen die Schwelle von 10 Vorbestellungen am 01.02., ohne Zufall.
 4. **Kassendisziplin:** zuerst Steuer, Fabrikpreis und Auszahlung klären, Geld nur in Stufen freigeben, **Stufe 2 zu 169 €** statt „Kontingent 45 zu 149 €“ (live, sobald Nr. 035 verkauft ist), Mengenformel 100/75 am 01.02., zwei getrennte Geldtermine: Restzahlung (32 bis Di 16.03.) und Einfuhrsteuer (40 bis Mi 24.03.).
-5. **Symbol- und Sprachhygiene:** Wortliste nach außen, Serp-Test vor dem Digitizing, Sperrtermine 23.–29.11. und 24.02., Teilsperre am 22.04.
+5. **Symbol- und Sprachhygiene:** Wortliste nach außen, Sperrtermine 23.–29.11. und 24.02., Teilsperre am 22.04. Seit 11.10. ist der Serp gestrichen, damit ist das größte Symbolrisiko weg.
 
 **Diese Woche (Docket W4, kritischer Pfad, 125–135 Min. Kern pro Tag):**
 - **Do 08.10.:** Papiertest 3 mit Varianten-Blatt, Clips filmen, 8 Wash-Fotos der Eightyfive bei Tageslicht, Schnelltest an 10 Leute, Steuertermin buchen.
@@ -41,7 +41,7 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 |---|---|---|---|
 | **Wachstum** | Greift den größten Engpass an (Liste) und hat als einziger einen vollständigen Kalender neuer Aktionen: Netz, „Bring 3“, Abende, Creator-Vorlauf, Presse, Gates mit Gegenmaßnahmen. Kanal-Mix mit Zahlen | Ignoriert die Steuer. Listen-Soll 3.390 liegt über dem eigenen Kanal-Mix (1.660–3.140). Reservierung mit Anzahlung braucht App und Rechtsprüfung. Laden-Runden vor dem Proto | **Rückgrat**, weil der Tagesplan von Aktionen lebt und dieser Entwurf sie liefert |
 | **Cash** | Rechnet die Steuer ein (Schwelle 2 steigt auf 40 > Kontingent 35). Auszahlung prüfen, Kostendeckel, Verhandlung mit Notausgang, Stufe 2 zu 169 €, Mengenformel, Notfall-Leiter, Ausstiegskosten | Wenig dazu, woher die Käufer kommen. Zusagen-Liste ist stark, aber allein zu schmal | **Leitplanken:** alle Geld-Gates und die Notfall-Leiter kommen von hier |
-| **Marke** | Kaufquote als billigerer Hebel als Listengröße (Rechnung 2.3), Wortliste, Serp-Test mit Regeln, Nummer am Patch, Vertrauens-Checkliste, Beweisfotos, Marken-KPIs | Verlässt sich bei Reichweite auf die anderen. Grauer Serp als Standard geht strenger gegen deinen Wunsch als nötig | **Conversion-Schicht:** Sprache, Vertrauen, Beweise, Design-Vorschläge |
+| **Marke** | Kaufquote als billigerer Hebel als Listengröße (Rechnung 2.3), Wortliste, Serp-Test mit Regeln (seit 11.10. erledigt: Serp gestrichen), Nummer am Patch, Vertrauens-Checkliste, Beweisfotos, Marken-KPIs | Verlässt sich bei Reichweite auf die anderen. Grauer Serp als Standard geht strenger gegen deinen Wunsch als nötig | **Conversion-Schicht:** Sprache, Vertrauen, Beweise, Design-Vorschläge |
 
 **Warum Wachstum das Rückgrat ist:** Für 64 Jeans braucht es zuerst Menschen. Cash und Marke machen aus diesen Menschen sicherer Geld, aber sie bringen keine. Ein Tagesplan muss sagen, was du heute tust. Wachstum sagt das am genauesten.
 
@@ -59,7 +59,7 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 | Zipper/Polo vor dem Drop | — | Notfall bei Rot am 28.02. | Notfall bei 7–9 am 01.02. | **Eine Notfall-Option mit zwei Auslösern:** 7–9 Vorbestellungen am 01.02. **oder** Kassen-Ampel rot am 28.02. Du entscheidest | Bricht deine Entscheidung „alles gleichzeitig am 22.04.“ vom 24.09. Darum nur als Notfall |
 | Shopify Payments | Mi 25.11. (Plan) | **Fr 30.10.** | — | **Fr 30.10.** | Ob Shopify oder PayPal bei Vorbestellungen Geld zurückhalten, ist ungeprüft [T 1]. Das muss vor dem 20.12. klar sein |
 | Werbetest im Januar | — | streichen | — | **Unter 10 Vorbestellungen kein Werbegeld**, ab 10 und grüner Kasse höchstens 50 € Retargeting | Kalte Werbung füllt die Liste nicht: ~4–12 € je Anmeldung (Schätzung aus [M-Q36][M-Q42][M-Q43]) |
-| Serp-Farbe | — | — | Grau als Standard, außer der Test ist eindeutig | **Regel aus `design.md` 4.4:** 0 Sowjet-Nennungen → Rot bleibt; 1 → du entscheidest (Rat: Grau); ≥ 2 → Grau; ≥ 4 → Serp nicht in dieser Größe. Ohne ukrainische oder polnische Stimme: Farbvorbehalt bis Sa 07.11. | Hält deinen Wunsch vom 07.10., misst statt glaubt |
+| Serp-Farbe (gestrichen 11.10.) | — | — | entfällt, der Serp ist raus | **Regel aus `design.md` 4.4:** 0 Sowjet-Nennungen → Rot bleibt; 1 → du entscheidest (Rat: Grau); ≥ 2 → Grau; ≥ 4 → Serp nicht in dieser Größe. Ohne ukrainische oder polnische Stimme: Farbvorbehalt bis Sa 07.11. | Hält deinen Wunsch vom 07.10., misst statt glaubt |
 | Drop-Link für Top-Werber | 17:30 oder DM 17:55 | — | — | **DM um 17:55** | Hält Early Access 18:00 sauber |
 
 ---
@@ -87,7 +87,7 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 | Im vorsichtigen Fall? | Nur bis Break-even: ~9 Vorbestellungen bis 31.01., ~58–61 Jeans netto | [M 3.4] |
 | Kommen 3.000 Adressen von allein? | Eher nicht. Mit durchschnittlichen Posts landest du bei ~2.000–2.800, ohne Ausreißer bei ~700–1.600 | [M 3.6], Wachstum 2.4, Rechnung 5.3 (Schätzungen) |
 | Trägt die Kasse mit Steuer? | **Nicht ohne Änderung.** ~1.150 € Einfuhrumsatzsteuer bei Türkei und Kleinunternehmer stehen nicht im Budget [P 3.1, Risiko 2]. Mit Steuer brauchst du 40 statt 32 Vorbestellungen [R: (4.650 € + 1.150 €) ÷ 146 €]. **Bis zur Restzahlung sind 40 nicht erreichbar**, weil es nur 35 Paar zu 149 € gibt. Darum zwei getrennte Termine: 32 ausgezahlt bis Di 16.03. für die Restzahlung, die Steuer erst bei der Einfuhr (~25.–30.03., nur bei DAP) mit 8 mehr bis Mi 24.03. Bei DDP steckt die Steuer schon in der Restzahlung, darum verhandelst du am 27.10. DAP | Portugal ist laut `tools.md` steuerlich wahrscheinlich ähnlich (ungeprüft, Steuerberater am 13.10.) |
-| Wie sicher sind die Kosten? | Gar nicht. 63 € Stückkosten und ~60 € Fabrikpreis sind Schätzungen, die echte Stichzahl kommt am Mo 09.11. | [P 3], [S 3.11] |
+| Wie sicher sind die Kosten? | Gar nicht. ~60 € Stückkosten (seit 11.10. ohne Serp, vorher 63 €) und ~57 € Fabrikpreis sind Schätzungen, die echte Stichzahl kommt am Mo 09.11. | [P 3], [S 3.11] |
 | Ist das Umsatzziel ohne 64 Jeans erreichbar? | Ja, über Zipper und Polo. Aber die Finanzierung hängt nur an Jeans | Rechnung in 5.5 |
 
 ### 3.2 Warum es keine 100 % gibt
@@ -280,7 +280,7 @@ Im Fall A bei 3.000 Adressen: 68 Jeans brutto, nach 10–15 % Retoure ~9.170–9
 | G4 | Anmeldequote der Seite **< 6,6 %** zwei Sonntage in Folge [M-Q36] | echtes Foto oben, Vorteil in einem Satz, nur E-Mail Pflicht, Ladezeit prüfen |
 | G5 | Video **≥ 2 × Median** nach 48 h und Teil-Rate über Median | **5 Varianten in 14 Tagen** (neuer Hook, neues erstes Bild, gleicher Kern) [K 5.3] |
 | G6 | 3 schwache Videos (< 0,5 × Median) im selben Slot | Slot 2 Wochen durch ein Reserve-Format ersetzen [K 5.3] |
-| G7 | **≥ 3 Kommentare** pro Woche mit „Sowjet“, „Wappen“, „Holodomor“ | danken, zählen, nie löschen · 2 Wochen kein Ernte- oder Serp-Bild · vor 09.11.: graue Schneide und weiße B2-Kante einfrieren (0 bis +0,22 €/Paar, Schwellen bleiben [D 3.7]) |
+| G7 | **≥ 3 Kommentare** pro Woche mit „Sowjet“, „Wappen“, „Holodomor“ | danken, zählen, nie löschen · 2 Wochen kein Ernte-Bild · vor 09.11.: weiße B2-Kante einfrieren (0 bis +0,22 €/Paar, Schwellen bleiben [D 3.7]) |
 | G8 | ≥ 3 Folklore-Kommentare („Oma“, „Kostüm“) | 2 Wochen: erst die Totale aus 3 m im Streetwear-Outfit, dann das Makro |
 | G9 | > 70 % der neuen Anmeldungen aus warmen Tags (`ref-netz`, `ref-papier`, `ref-stick`) | Content trägt nicht: 3 neue Hooks, DE-Hook vorziehen, Karussell „Miss deine Jeans“ |
 | G10 | ab 14.01.: Vorbestellungen **unter Alarm** | persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl |
@@ -296,12 +296,12 @@ Im Fall A bei 3.000 Adressen: 68 Jeans brutto, nach 10–15 % Retoure ~9.170–9
 | So 18.10. | Netz ≥ 30 Namen, ≥ 4 Fabrik-Antworten, Steuertermin | weiter | Netz aus Handy-Kontakten ergänzen; 2 Nachzügler-Fabriken; IHK-Gründungsberatung oder anderer Steuerberater bis Fr 23.10. |
 | **Mi 21.10.** | **Belegtabelle v1.0** (nach dem MEK; Quelle, Region, Abbildung je Motiv) | V005 heute; V011, V014, V015, V108–V112 nur mit Beleg | V120 statt V005; Tabelle bis So 25.10.; Videos ohne Beleg in die Reserve |
 | **Fr 23.10.** | Steuer schriftlich | Kapitalbedarf neu | mit 1.150 € planen, Stufe 2 wird Pflicht |
-| Mo 26.10. | Fabrik mit Panel-Stickerei im Haus, Ampel grün/gelb | Konditionen 27.10. (bei Türkei bis 12:00) | Ampel rot: Gegenrechnung, Optionen V4b, kleiner Serp, 75 Stück |
+| Mo 26.10. | Fabrik mit Panel-Stickerei im Haus, Ampel grün/gelb | Konditionen 27.10. (bei Türkei bis 12:00) | Ampel rot: Gegenrechnung, Optionen V4b, 75 Stück |
 | Fr 30.10. | Bei Türkei: Proforma da | Validierung zählt „50/50 schriftlich“ | anrufen; ohne Proforma gilt „50/50 schriftlich“ am 01.11. als offen |
 | **So 01.11.** | **Validierung** ≥ 150, ≥ 10 Zusagen (nur Spalte „Zusage“), 50/50 schriftlich, Markenkriterien | Entwicklung zahlen | gelb 50–149: zahlen, Content und Netz nachschärfen · rot < 50: nicht zahlen, **B-Zeitachse 1 (7.4)**, 6 neue Posts, bestes Video in 5 Varianten |
-| Sa 07.11. | Farbe B/B2, Namen, Sprache final, Bildregel „keine Seitenansicht links“, Liefergebiet | Spec Rev. 14 | Ohne Daten gilt der Rat: graue Schneide, weiße Kante, Wortliste, EN-Hook mit DE-Zeile, Bildregel bleibt |
+| Sa 07.11. | Farbe B2-Kante, Namen, Sprache final, Liefergebiet | Spec Rev. 14 | Ohne Daten gilt der Rat: weiße Kante, Wortliste, EN-Hook mit DE-Zeile |
 | So 08.11. | Fabrik antwortet in ≤ 3 Werktagen | weiter | Call, Fabrik 2 warm anschreiben |
-| Di 10.11. | Stiche ≤ 33.000 | freigeben | Gegenrechnung, Füllung statt echtem Kreuzstich |
+| Di 10.11. | Stiche ≤ 28.000 (seit 11.10. ohne Serp, vorher 33.000) | freigeben | Gegenrechnung, Füllung statt echtem Kreuzstich |
 | **Di 17.11.** | Stickproben bestanden | Proto | kein Proto; benannten Fehler beheben (**B-Zeitachse 1**) oder Fabrik 2 (**B-Zeitachse 2**) |
 | So 22.11. | Proto-Versand schriftlich ≤ 30.11. | weiter | Call; bei Portugal Feiertage 01.12. und 08.12. einrechnen (ungeprüft) |
 | So 29.11. | Liste ≥ 170 · Payments verifiziert · Rechtstexte live | „Platz in der ersten Stunde sichern“ (Option B) | Liste < 170: Option A mit 10 €, nur mit Recht und Shopify · Payments offen: Reservierung ohne Zahlung, Ticket beim Payments-Support · Rechtstexte offen: bis Fr 04.12. |
@@ -407,21 +407,21 @@ Quelle: [K 1.4, 3]. Uhrzeiten sind Plan-Zeiten, keine geprüften Bestzeiten. Am 
 | Zeitraum | Kern-Posts | Was | Zusatz |
 |---|---|---|---|
 | 12.10.–29.11. (P1/P2) | **3/Woche** | Papier, Bauplan, Zahlen, Fabriksuche, Stickproben, Teppich. **Kein fertiges Teil, kein Mockup** | 8 Story-Umfragen Di/Do bis 05.11. · 2 Grind+-Karussells |
-| 23.–29.11. | 3, **ohne Ernte- und Serp-Bild**, Sa 28.11. gar keiner | Holodomor-Gedenktag am 4. Samstag im November [Z-Q51] | |
+| 23.–29.11. | 3, **ohne Ernte-Bild**, Sa 28.11. gar keiner | Holodomor-Gedenktag am 4. Samstag im November [Z-Q51] | |
 | 30.11.–20.12. | **5–6/Woche** | ab 03.12. Proto: Unboxing V025, Makros, Fit, „Uhrwerk“ | Broadcast ab Mo 30.11. |
 | 21.12.–03.01. | 3/Woche | Feiertage | |
 | 04.01.–07.02. | 5–6/Woche | Vorbestellung, echte Zahlen „X von 35“, Creator-Clips | Live 14.01. |
 | 08.02.–28.03. | 4–5/Woche + Story | Produktion, Shoot, Kampagnenfilm, Set | **Mi 24.02. nichts Werbliches** (5. Jahrestag des Großangriffs [Z-Q32]), V078 am Do 25.02. |
 | 29.03.–21.04. | **täglich 18:00** | Countdown CD-T24 bis CD-T01, vorproduziert am 18. und 20.03. aus dem Shoot-Rohmaterial (die 24 Motive stehen ab 17.02. auf der Shotliste). CD-T06 wird V125, CD-T13 heißt „So ist der Shoot entstanden.“ | an echten Tagen ersetzt ein Live-Clip das Asset |
-| 22.–25.04. | 7 Drop-Posts | V101–V107. **Teilsperre am 22.04.:** kein Serp im Hero-Bild, keine Ernte-Hooks (Lenins Geburtstag, 22.04.1870, Allgemeinwissen, ungeprüft). Antwortbaustein: „Der Termin ist der Donnerstag nach der Lieferung, sonst nichts.“ Der Termin bleibt | Live 18:00–18:30 |
+| 22.–25.04. | 7 Drop-Posts | V101–V107. **Teilsperre am 22.04.:** keine Ernte-Hooks (Lenins Geburtstag, 22.04.1870, Allgemeinwissen, ungeprüft). Antwortbaustein: „Der Termin ist der Donnerstag nach der Lieferung, sonst nichts.“ Der Termin bleibt | Live 18:00–18:30 |
 
 ### 9.3 Regeln
 
 1. **Gezeigt wird nur, was es gibt.** Bis 03.12. kein fertiges Teil und kein Mockup, das wie eins aussieht.
 2. **Sprachregel:** Subjekt ist das Muster. Nie „authentisch“. Lebensbaum nie „slawisch“.
-3. **Wortliste nach außen** (Vorschlag aus `zielgruppe.md` 3.5, du entscheidest am Fr 09.10.): „Time Travel“ statt „Projekt Slavic“ · „Kreuzstich-Band“ statt „Vyshyvanka“ · „Achtstern“ statt „Alatyr“ · „Das Feld danach“ für den Serp · „maschinengestickt auf dem Zuschnitt, Fäden von Hand“ statt „handgestickt“ · „entworfen in Berlin“ statt „Made in Berlin“ · Länder nur alphabetisch und nur wenn nötig. Warum: „Vyshyvanka“ ist ukrainisches Nationalsymbol [Z-Q32], „Alatyr“ ist in der Neuheiden-Szene verbreitet [Z-Q39], „slawisch“ und „ein Volk“ sind politisch besetzt [Z-Q42][Z-Q43].
+3. **Wortliste nach außen** (Vorschlag aus `zielgruppe.md` 3.5, du entscheidest am Fr 09.10.): „Time Travel“ statt „Projekt Slavic“ · „Kreuzstich-Band“ statt „Vyshyvanka“ · „Achtstern“ statt „Alatyr“ · „maschinengestickt auf dem Zuschnitt, Fäden von Hand“ statt „handgestickt“ · „entworfen in Berlin“ statt „Made in Berlin“ · Länder nur alphabetisch und nur wenn nötig. Warum: „Vyshyvanka“ ist ukrainisches Nationalsymbol [Z-Q32], „Alatyr“ ist in der Neuheiden-Szene verbreitet [Z-Q39], „slawisch“ und „ein Volk“ sind politisch besetzt [Z-Q42][Z-Q43].
 4. **Hooks:** „Älter als jede Grenze“ ersetzt (V002, V030). Nie „fünf Ähren“, B2 hat drei.
-5. **Bildregeln:** nie hellblauer Himmel über gelbem Weizen · keine echte Sichel als Requisite · B und B2 nie im selben Bild, keine Seitenansicht links · kein roter Hintergrund · keine Sowjet-Kulisse, keine Streifen in Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß [Z 3.6] · Farbtreue mit Graukarte [D 6.3]. **Folgen (6.1):** „Keine Seitenansicht links“ gilt ohne Ausnahme, bis du sie am Sa 07.11. nach dem Serp-Test bewusst lockerst. Bis dahin: V119 (Serp-Papier an der Seite) frühestens Do 12.11. und nur bei gelockerter Regel; CD-T06 wird V125. In Sequenzen (V099, CD-T02) gilt die Reihenfolge **B · A · E · C · D · B2**, damit Serp und Ähren auf Rot nicht direkt nacheinander kommen (sonst Wappen-Vokabular). Bis 03.12. zeigt kein Bild die farbige Flachzeichnung mit allen fünf Elementen (V004: nur Maßtabelle, Schnittzeichnung schwarz-weiß, ein Element flach).
+5. **Bildregeln:** nie hellblauer Himmel über gelbem Weizen · keine echte Sichel als Requisite · kein roter Hintergrund · keine Sowjet-Kulisse, keine Streifen in Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß [Z 3.6] · Farbtreue mit Graukarte [D 6.3]. **Seit 11.10. (Serp gestrichen):** Die Regeln „B und B2 nie im selben Bild“ und „keine Seitenansicht links“ entfallen, das linke Bein ist leer. In Sequenzen (V099, CD-T02) gilt die Reihenfolge **A · E · C · D · B2**. Bis 03.12. zeigt kein Bild die farbige Flachzeichnung mit allen fünf Elementen (V004: nur Maßtabelle, Schnittzeichnung schwarz-weiß, ein Element flach).
 6. **Varianten-Regel:** ≥ 2 × Median Views nach 48 h und Teil-Rate über Median → 5 Varianten in 14 Tagen [K 5.3].
 7. **Hook-Test:** eine Variable pro Test; drei Typen im Wechsel. **DE-Test:** V004, V006, V007, V009 bekommen Test-Hook B auf Deutsch. Entscheidung Sa 07.11. nach Anmeldungen je 1.000 Views.
 8. **Musik** nur aus der Business-Bibliothek der jeweiligen App, eigener Ton zuerst, nie in CapCut einbacken [K 1.9] (Plattformregeln ungeprüft).
@@ -542,25 +542,27 @@ Presse ist Bonus und steht nicht im Soll [C 1.1]. Nachfassen einmal, nie öfter.
 
 ## 12 · Design-Empfehlungen für den Freeze (du entscheidest)
 
-**Urteil aus `design.md`:** v1.7 kann verkaufen. A und E tragen vorn den Preis, hinten Patch, B2 mit Goldfäden und C. Fast das ganze Risiko steckt im Serp mit roter Schneide: Aus 3 m verschwindet das Stoppelfeld, übrig bleibt eine weiße Sichel mit roter Kante, hinten Ähren auf rotem Band [D 2.1, 2.2]. Rechtlich ist der Serp allein laut übernommener Übersicht kein verbotenes Zeichen [M-Q5]. Ein Verkaufsrisiko im Kernsegment ist er trotzdem.
+**Entschieden 11.10.:** Der Serp ist gestrichen, Patch D (76 × 67 mm) wird die hintere Gürtelschlaufe. Vorschläge zum Serp unten (V2, Serp-Höhe, Fallback) sind damit erledigt. Stückkosten ~60 €, Stich-Deckel 28.000, Schwellen bleiben 10/32 bis zur echten Stichzahl.
+
+**Urteil aus `design.md` (vor dem 11.10.):** v1.7 kann verkaufen. A und E tragen vorn den Preis, hinten Patch, B2 mit Goldfäden und C. Fast das ganze Risiko steckt im Serp mit roter Schneide: Aus 3 m verschwindet das Stoppelfeld, übrig bleibt eine weiße Sichel mit roter Kante, hinten Ähren auf rotem Band [D 2.1, 2.2]. Rechtlich ist der Serp allein laut übernommener Übersicht kein verbotenes Zeichen [M-Q5]. Ein Verkaufsrisiko im Kernsegment ist er trotzdem.
 
 | # | Vorschlag | Δ €/Paar | Schwellen | Mein Rat |
 |---|---|---|---|---|
-| V2 | Serp-Schneide stahlgrau (B-G), optional kräftigeres Stoppelfeld (B-GS) | 0 (B-GS −0,28 bis −0,55) | 10/32 | **Test entscheidet** nach der Regel aus 1.2. Abweichung von deinem Wunsch vom 07.10. nur bei ≥ 2 Sowjet-Nennungen |
+| V2 | Serp-Schneide stahlgrau | — | — | **entfällt**, Serp gestrichen 11.10. |
 | V3 | B2-Band mit weißer Kante (1 Stich) | +0,08 bis +0,22 | 10/32 | **ja.** Deine eigene Regel 2 sagt: Rot ohne Weiß verschwindet aus 2 m [S 3.4] |
 | V1 | „N° ___ / 100“ von Hand auf der Patch-Lasche | +0,20 bis +0,30 | 10/32 | **ja.** Macht Knappheit sichtbar: „Wer zuerst bestellt, bekommt die kleinste Nummer“ |
-| V4a | Füllung als Standard, Deckel 33.000 Stiche | 0 | schützt 10/32 vor 11–12/34–36 | **ja, Pflicht im Tech Pack** |
+| V4a | Füllung als Standard, Deckel 28.000 Stiche (vorher 33.000 mit Serp) | 0 | schützt 10/32 vor 11–12/34–36 | **ja, Pflicht im Tech Pack** |
 | V4b | Münztasche offen | −3,30 bis −3,60 | 9/30 | **nein.** E ist dein stärkstes Detail und bestes Thumbnail [D 1.2] |
 | V5 | Patch D nach Gürteltest kleiner: 76 × 67 mm am Bund oder 66 × 58 mm auf der Passe | −0,50 bis −0,20 | 10/32 | **ja.** 3 mm Luft zu den Schlaufen hält keine Serie [D 2.3] |
 | V6 | Bedeutung innen als Hangtag-Karte (Taschenfutter-Druck nur ≤ 0,50 €) | 0 bis +0,50 | 10/32 | **ja als Karte** |
 | — | Taschenklappe | +1–2 (ungeprüft) | bis +1,4 | **keine Klappe** |
 | — | Nackenlabel Zipper/Polo gewebt, vereinfachter Baum, **mit Novalife-Adresse** (Herstellerangabe nach GPSR, falls du bei bestickten Blanks als Hersteller giltst; Frage an die Hotline am 24.11.) | Marge ~+1 € (Schätzung) | — | **ja** |
 | — | Lebensbaum D: Ursprung der Referenz | 0 | — | **klären bis Di 20.10.** Stammt die Vorlage von einem fremden Künstler, kann die Nachbildung auf 110 Patches ein Urheberrechtsproblem sein (ungeprüft). Dann zeichnet Claude vor der Patch-Anfrage am 28.10. eine eigene Fassung |
-| — | „Goldene Nähte“ = Steppnaht im selben Gold wie das Stickgarn | 0 | — | **ja, falls du das meinst.** Keine Ziernaht um den Serp (Wappen-Effekt) |
-| — | Serp-Höhe | — | — | Mitte **45 cm** bei W32, +0,5 cm je Größe, endgültig nach Block 3 |
+| — | „Goldene Nähte“ = Steppnaht im selben Gold wie das Stickgarn | 0 | — | **ja, falls du das meinst.** |
+| — | Serp-Höhe | — | — | **entfällt**, Serp gestrichen 11.10. |
 | — | Tech-Pack-Zusätze | 0 | — | 2 mm Denim zwischen Band A und Kante · Weiß nach der Wäsche L* ≥ 80 · Anti-Backstaining-Frage · Schlaufen ≥ 8 mm vom Patch · GPSR-Herstellerangabe aufs Pflegeetikett [T 3.1] · **neu 6.1 aus Spec Teil 5:** Verschleißkarte mit den Freihaltezonen (Spec 3.9, Claude bis So 11.10.) · Wash Reference Sheet aus 8 Fotos der Eightyfive (Do 08.10.) · Innenbein-Gradierung +1,0 oder +1,5 (du am So 11.10.) · Shade Card und 3 Lab Dips (Ziel, heller, dunkler) mit L*-Werten der Fabrik, angefordert Di 03.11., freigegeben Mi 18.11. bei Tageslicht. **L* ohne eigenes Messgerät:** Die Fabrik misst, du vergleichst bei Tageslicht mit dem freigegebenen Stofflappen. Der Lappen ist der Waschstandard bis zum Wareneingang · REACH-Bestätigung für Knopf, Nieten (Nickel) und Farbstoffe (Azo) schriftlich, ungeprüft welche Werte gelten |
 
-**Paket V1 + V3 + V4a + V5 + V6 (+ V2 nach Test):** −0,77 bis +0,54 €/Paar, **Schwellen bleiben 10/32** [D 3.7]. Fallback, falls der Serp durchfällt: kleiner Serp aus v1.6 ohne Rot (10/31) oder streichen (9/30) [D 3.7]. **Keine neue Stickerei ohne Gegenrechnung.**
+**Paket V1 + V3 + V4a + V5 + V6 (+ V2 nach Test):** −0,77 bis +0,54 €/Paar, **Schwellen bleiben 10/32** [D 3.7]. Am 11.10. hast du den Serp gestrichen (rechnerisch 9/30, der Plan bleibt bei 10/32) [D 3.7]. **Keine neue Stickerei ohne Gegenrechnung.**
 
 ---
 
@@ -585,7 +587,7 @@ Presse ist Bonus und steht nicht im Soll [C 1.1]. Nachfassen einmal, nie öfter.
 - **Schritt 5 (Mi 11.11.):** Größen auch „kleiner als W30“ und „größer als W38“ (`gr-klein`, `gr-gross`). Die Empfehlungs-Lösung vom 15.10. wird übernommen: `code-[6 Zeichen]`, Danke-Text mit persönlichem Link, WhatsApp-Knopf. Test am Mi 18.11. mit `?ref=test`.
 - **Schritt 11 und Generalprobe Mo 11.01.:** Zeitsteuerung mit einem Testprodukt „in 20 Minuten“ prüfen. Am 14.01. um 17:50 Vorbestellung aktiv oder Zeitsteuerung geprüft, 17:58 Link im privaten Fenster testen.
 - **Drop-Tag:** Der Rev.-5.3-Schritt „19:00 Theme ‚Drop 22.04.‘ veröffentlichen“ entfällt (website.md 2), im Docket steht dazu eine Notiz.
-**Design der Seite:** Palette aus Teppich und Sonnenuntergang, das einzige Blau ist der Denim auf den Fotos; echte Fotos vor Grafik; Sichel und Ähren nie als freigestellte Grafik, Icon oder Favicon [W 6].
+**Design der Seite:** Palette aus Teppich und Sonnenuntergang, das einzige Blau ist der Denim auf den Fotos; echte Fotos vor Grafik; Ähren nie als freigestellte Grafik, Icon oder Favicon [W 6].
 **Termine:** Schritt 1 Sa 31.10. · Formular Mi 11.11. · Stufe 1 live Mi 18.11. · Stufe 2 Fr 11.12. · Raster Mo 21.12. · Vorbestell-Zustände Do 07.01. · Shoot-Bilder Sa 27.02. · „Der Weg zur Hütte“ Sa 06.03. · PLAN B üben Mi 17.03. · stiller Launch Mo 22.03. · Generalprobe Fr 09.04. · Code-Freeze Sa 17.04. Claude Code arbeitet an der Theme-Kopie, veröffentlichen und pushen machst nur du.
 **Ungeprüft, mit Testschritt:** zeitgesteuertes Veröffentlichen, mehrere Tags in einem Feld, Shopify-Email-Freikontingent, In-App-Browser [W 1].
 
@@ -625,7 +627,7 @@ Presse ist Bonus und steht nicht im Soll [C 1.1]. Nachfassen einmal, nie öfter.
 | Fr 30.10. | EORI | Kontrolle; **Shopify Payments + Support-Frage Auszahlung** | Cash Hebel 2 |
 | So 01.11. | Validierung | + Zusagen, 50/50 schriftlich, Markenkriterien | |
 | Sa 07.11. | Puffer | **Entscheidungen Farbe, Namen, Sprache**, Creator-Longlist, Website Schritt 3 | Marke Hebel 2 |
-| Di 10.11. | Digitizing freigeben | mit Deckel 33.000 und Gegenrechnung | [D V4a] |
+| Di 10.11. | Digitizing freigeben | mit Deckel 28.000 und Gegenrechnung | [D V4a] |
 | Mi 18.11. ↔ Mi 25.11. | Panel-Stickerei ↔ Teppich | **Teppich am 18.11.**, Panel am 25.11. | Holodomor-Gedenktag Sa 28.11. [Z-Q51] |
 | Sa 21.11. | Puffer | **Burg & Schild** mit Stickproben | [B-1] |
 | Mi 25.11. | Zahlungsanbieter | umgewidmet: PayPal + Auszahlungsplan | Payments seit 30.10. |
@@ -729,9 +731,9 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 |---|---|---|---|
 | 1 | **Kein Ausreißer**, Liste bleibt bei 700–1.600 | G1/G2 ab W6 | Varianten-Regel, Hook-Tests, Wärme-Kette, Gate 24.01. |
 | 2 | **Steuer nicht im Budget** (~1.150 €, 40 statt 32 Vorbestellungen) | Steuerberater 13.10. | mit 1.150 € planen, DAP verhandeln (27.10.), Steuer getrennt von der Restzahlung: 40 ausgezahlt bis Mi 24.03. über Stufe 2, sonst Brücke |
-| 3 | **Fabrikpreis oder Stiche zu hoch** | Angebote 19.10., Vorschau 09.11. | Ampel, Stichdeckel, 75 Stück, Fallback-Serp |
+| 3 | **Fabrikpreis oder Stiche zu hoch** | Angebote 19.10., Vorschau 09.11. | Ampel, Stichdeckel, 75 Stück (Serp schon gestrichen) |
 | 4 | **Auszahlung verzögert** | Support-Antwort 30.10., Test 29.12. | nur ausgezahltes Geld zählt, PayPal parallel |
-| 5 | **Symbol-Shitstorm** (Sichel + Ähren + Rot, Stoppelfeld) [Z-Q34][Z-Q35][Z-Q51] | Schnelltest 09.10., G7 | Serp-Test, Wortliste, Bildregeln, Sperrtermine, nie diskutieren, nie Kritik löschen |
+| 5 | **Symbol-Shitstorm** (Ähren + Rot; die Sichel ist seit 11.10. gestrichen) [Z-Q34][Z-Q35][Z-Q51] | G7 | Wortliste, Bildregeln, Sperrtermine, nie diskutieren, nie Kritik löschen |
 | 6 | **Vertrauenslücke Vorbestellung** | G10, G11, Handheber < 20 am 13.01. | Checkliste 9/9, Geld-zurück, Mess-Abende, Gesicht |
 | 7 | **Liste altert** (6 Monate Warten) [M-Q25] | Klickrate der Drop-Mails | alle 2–4 Wochen ein Ereignis, Broadcast, „Day X“ |
 | 8 | **Fabrik fällt aus** nach der Anzahlung | Antwortzeiten, Inline-Fotos 16.02./01.03. | Gates bis PP, Reserve-Fabrik warm, Bankdaten-Regel, Brücke |
@@ -743,7 +745,7 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 | 14 | **Mess-Abend ohne Ort** | Voranfrage 18.11., Zusage bis Sa 19.12. | vier Läden parallel, Giggster-Suche am 13.12., Notfall bei dir |
 | 15 | **Größe ausverkauft, andere frei** (Shopify führt Bestand je Größe; ein Gesamtdeckel von 35 geht ohne App nicht, Fachwissen, ungeprüft) | Vorbestellungen je Größe in den ersten 72 h | 35 nach gr-Tags verteilen, zweimal täglich umschichten, Satz „Deine Größe ist weg? Stufe 2 oder Liste.“ |
 | 16 | **Proto weg oder verändert** vor der Proto-Runde | — | Proto bleibt bei dir (27.10.), Waschserie erst mit dem PP |
-| 17 | **Lesart am Drop-Tag** (22.04. ist Lenins Geburtstag, Allgemeinwissen, ungeprüft) | G7 | Teilsperre: kein Serp im Hero, keine Ernte-Hooks, Antwortbaustein; Termin bleibt |
+| 17 | **Lesart am Drop-Tag** (22.04. ist Lenins Geburtstag, Allgemeinwissen, ungeprüft) | G7 | Teilsperre: keine Ernte-Hooks, Antwortbaustein; Termin bleibt. Ohne Sichel ist das Risiko klein |
 | 18 | **Retouren in der Drop-Woche** (Widerruf der Vorbesteller läuft bis ~21.04.) | Retourengrund | Ablauf vom 21.01., Bearbeitung ab 12.04., täglich ab 26.04. |
 
 ---
@@ -752,11 +754,14 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 
 | Bis | Frage | Mein Rat |
 |---|---|---|
-| **Fr 09.10.** | Serp-Farbe nach Testregel, B2-Kante, V1 Nummer, V5 Patch, V6 Karte, Taschenklappe, Nackenlabel (mit Novalife-Adresse), „goldene Nähte“, Namen nach außen | wie Abschnitt 12 |
+| **Fr 09.10.** | Serp-Farbe nach Testregel (entfällt, siehe 11.10.), B2-Kante, V1 Nummer, V5 Patch, V6 Karte, Taschenklappe, Nackenlabel (mit Novalife-Adresse), „goldene Nähte“, Namen nach außen | wie Abschnitt 12 |
+| **So 11.10.** | **Entschieden:** Serp gestrichen · Patch D wird die hintere Gürtelschlaufe (nur seitlich genäht und genietet) · Größe B, 76 × 67 mm, 3–5 mm Spiel | erledigt |
 | So 11.10. | Innenbein-Gradierung +1,0 oder +1,5 | kein eigener Rat, mir fehlen Daten. Die Spec steht auf +1,0; ohne Grund für +1,5 bleibt es dabei |
 | Do 15.10. | Wie viel Familie in den Content; Teppich für den Shoot leihen | über Gegenstände, nicht über Länder |
 | So 18.10. | Pixel-Spiel | streichen, Scroll-Story B |
+| Di 20.10. | Patch D: mittig auf der hinteren Mittelnaht oder rechts daneben; „NL“ auf dem Patch | mittig, wenn die Fabrik Nieten über der Mittelnaht bestätigt; NL wie auf dem Foto |
 | Di 20.10. | Baum-Referenz: eigene oder fremde Vorlage? | fremd → Claude zeichnet eine eigene Fassung vor dem 28.10. |
+| ab So 01.11. | IHK-Gründungsberatung (angefragt am 13.10.), danach Gewerbe anmelden | anmelden vor der ersten Vorbestellung und bevor Rechnungen auf deinen Namen laufen; online geht es in 20 Minuten |
 | Di 27.10. | DAP oder DDP | DAP, damit die Steuer nicht schon in der Restzahlung steckt |
 | Sa 07.11. | Sprache der Hooks und damit das Liefergebiet; Bildregel „keine Seitenansicht links“ | Test entscheidet; deutsch → nur Versand nach DE bis zum Drop; Bildregel halten |
 | So 29.11. | „Platz in der ersten Stunde sichern“ A (10 €) oder B (kostenlos) | B, A nur bei Liste < 170 und grünem Recht |

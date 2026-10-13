@@ -106,7 +106,7 @@
      "text": "Je Slide ein Satz, Prozesskette aus Spec 2.3",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Embroider the flat panel, sew, patch, wash, abrade, cut the hem, set the gold threads by hand. Save this. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #embroidery #denim #buildinpublic #novalifetimetravel",
-     "check": "„maschinengestickt auf dem Zuschnitt, Fäden von Hand“, nie „handgestickt“, kein #slavicembroidery, Fabrikbilder nur mit Erlaubnis, B und B2 nie im selben Slide."
+     "check": "„maschinengestickt auf dem Zuschnitt, Fäden von Hand“, nie „handgestickt“, kein #slavicembroidery, Fabrikbilder nur mit Erlaubnis."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -357,7 +357,7 @@
      "Im Blatt „Netz“ einen Bereich „Helfer“ anlegen: Hochschule, angefragt am, Antwort."
     ],
     "f": "der Pressetext v2 auf /pages/presse steht und der Aushang an mindestens 3 Hochschulen angefragt ist (oder die Mail an den Steuerberater zu Frage 10 raus ist).",
-    "p": "Projekt Time Travel, Docket W22, Sa 13.02. Zwei Texte. 1) Pressetext v2 für Novalife Time Travel, deutsch und englisch, je höchstens 300 Wörter, plus Factsheet: 100 nummerierte Jeans mit fünf gestickten Stellen, Vorbestellung seit 14.01., Vorbestellpreis 149 € bis 21.03. (35 Paar), Drop Do 22.04.2027, 19:00, 169 €, Zipper 139 €, Polo 79 €, Produktion läuft seit 08.02., Shoot am 20.02., Lieferung „bis spätestens 30.04.2027, geplant Anfang April“. Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, keine Politik. 2) Aushang „Helfer gesucht, bezahlt“ für Hochschulen, eine A4-Seite: Warenprüfung 31.03.–02.04., Packen 06.–07.04. und 22.–24.04., DMs am Drop-Abend 18–20 Uhr, Stundenlohn [laut Steuerberater], Beschäftigungsart [laut Steuerberater], Kontakt [Mail]. Freundlich, kein Druck.",
+    "p": "Projekt Time Travel, Docket W22, Sa 13.02. Zwei Texte. 1) Pressetext v2 für Novalife Time Travel, deutsch und englisch, je höchstens 300 Wörter, plus Factsheet: 100 nummerierte Jeans mit vier gestickten Stellen und einem Lebensbaum-Patch als hinterer Gürtelschlaufe, Vorbestellung seit 14.01., Vorbestellpreis 149 € bis 21.03. (35 Paar), Drop Do 22.04.2027, 19:00, 169 €, Zipper 139 €, Polo 79 €, Produktion läuft seit 08.02., Shoot am 20.02., Lieferung „bis spätestens 30.04.2027, geplant Anfang April“. Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, keine Politik. 2) Aushang „Helfer gesucht, bezahlt“ für Hochschulen, eine A4-Seite: Warenprüfung 31.03.–02.04., Packen 06.–07.04. und 22.–24.04., DMs am Drop-Abend 18–20 Uhr, Stundenlohn [laut Steuerberater], Beschäftigungsart [laut Steuerberater], Kontakt [Mail]. Freundlich, kein Druck.",
     "o": [
      {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Onlineshop → Seiten → /pages/presse"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
@@ -377,7 +377,7 @@
      "Views: TikTok und Instagram, je Post der Woche Views, Saves, Shares, neue Follower ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
      "Kassencheck K − F − R im Blatt „Kasse“: Kontostand minus fällige Zahlungen minus Rücklage. Ampel grün ≥ 300 €, gelb 0–300 €, rot < 0.",
      "Zahlen ins Cockpit (Docket → Zahlen-Cockpit): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Blatt „Die ersten 35“, Spalte „Zusage“), bezahlte Jeans (Shopify → Bestellungen, bezahlt).",
-     "Gates aus 7.1 durchgehen: G1 Liste unter 720 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · G2 unter 1.900 → bestes Video in 2 Varianten · G3 unter 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G5 Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte- oder Serp-Bild · G10 Vorbestellungen unter 14 → persönliche DM an jede Zusage ohne Kauf mit ihrer Größe · G11 Conversion < 1,3 % bei ≥ 300 Sitzungen → häufigste DM-Frage als erstes FAQ · G12 Kasse gelb/rot.",
+     "Gates aus 7.1 durchgehen: G1 Liste unter 720 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · G2 unter 1.900 → bestes Video in 2 Varianten · G3 unter 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G5 Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte-Bild · G10 Vorbestellungen unter 14 → persönliche DM an jede Zusage ohne Kauf mit ihrer Größe · G11 Conversion < 1,3 % bei ≥ 300 Sitzungen → häufigste DM-Frage als erstes FAQ · G12 Kasse gelb/rot.",
      "Offenes an Claude mit der Zeile unten."
     ],
     "f": "alle vier Cockpit-Zahlen eingetragen sind, jedes Gate aus 7.1 geprüft ist und die Zeile an Claude raus ist.",
@@ -415,7 +415,7 @@
      "Ort 3 Fensterbank (V076 DETAIL „Der Polo“): Polo flach, Makro der zwei Bänder an der Knopfleiste, getragen Halbtotale.",
      "V075 REACH „Drei Teile“ aus dem Archiv (content/archiv): Jeans auf Bügel 1 s, Zipper-Rücken 1 s, Polo-Knopfleiste 1 s, Endframe „22.04.“.",
      "In CapCut schneiden: Hook als Text in den ersten 2 Sekunden, Untertitel automatisch, keine Musik einbacken. Export als W23/final/V073_final.mp4 bis V076_final.mp4.",
-     "Bild-Check je Video: B und B2 nie im selben Bild, keine Seitenansicht links, kein roter Hintergrund, keine Streifen in verbotenen Farbpaaren."
+     "Bild-Check je Video: kein roter Hintergrund, keine Streifen in verbotenen Farbpaaren."
     ],
     "f": "4 fertige Videos (V073–V076) im Ordner „W23/final“ liegen. Am Posttag wird nichts mehr gedreht.",
     "v": {
@@ -435,7 +435,7 @@
      "text": "0–2 s Hook EN · Untertitel",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Day 127. €150, one Saturday, one location at sunset. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel",
-     "check": "Moodboard: Sonnenuntergang statt Blau über Gelb, keine Sowjet-Kulisse, keine echte Sichel."
+     "check": "Moodboard: Sonnenuntergang statt Blau über Gelb, keine Sowjet-Kulisse, kein Erntewerkzeug als Requisite."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}

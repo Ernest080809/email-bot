@@ -186,7 +186,7 @@
      "text": "Countdown-Sticker, Link-Sticker",
      "cta": "Link-Sticker auf die Warteliste",
      "caption": "(Story) Tap remind me: pre-order opens 14.01., 19:00. The list gets in at 18:00.",
-     "check": "Rev.-5.3-Umfrage „2027“ ersetzt, kein roter Hintergrund, keine Seitenansicht links."
+     "check": "Rev.-5.3-Umfrage „2027“ ersetzt, kein roter Hintergrund."
     },
     "o": [
      {"n": "Instagram", "u": "https://www.instagram.com"}
@@ -200,7 +200,7 @@
     "m": 30,
     "s": [
      "Alle Proto-Fotos und Video-Standbilder seit 03.12. in einen Ordner „Proto-Auswahl“.",
-     "Auswahl nach: Farbtreue mit Graukarte, scharf, Licht von vorn, keine Seitenansicht links, B und B2 nie im selben Bild, kein roter Hintergrund.",
+     "Auswahl nach: Farbtreue mit Graukarte, scharf, Licht von vorn, kein roter Hintergrund.",
      "12 wählen: 1 Totale vorn, 1 Totale hinten, 5 Makros (Kreuzstich-Band, Achtstern, Ähren, Lebensbaum, Patch), 2 getragen, 1 Maßband am Bund, 2 Reserve.",
      "Dateien umbenennen: TT_01_front.jpg … TT_12. Erste 6 für die Produktseite, Rest für die Mails vom 07.01. und 14.01.",
      "Kein Bild mit hellblauem Himmel über gelbem Weizen, keine Streifen in Verbotsfarben."
@@ -219,7 +219,7 @@
      "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans (0).",
      "Kassencheck K − F − R: grün ≥ 300 €, gelb 0–300 € → keine Ausgaben außerhalb Plan 3, rot → Ausgaben-Stopp-Liste (G12).",
      "G1/G2: Liste unter Alarm 280 → Netz-Runde bis Mi, „Bring 3“-Story, Abend festmachen · unter Soll 680 → bestes Video in 2 Varianten, Kommentarzeit 15′.",
-     "G3: < 1,0 Anmeldungen je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G5: Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7: ≥ 3 „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte- oder Serp-Bild.",
+     "G3: < 1,0 Anmeldungen je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G5: Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7: ≥ 3 „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte-Bild.",
      "Zeile an Claude (Prompt unten)."
     ],
     "f": "die vier Cockpit-Zahlen stehen, die Gates aus 7.1 geprüft sind und die Zeile an Claude raus ist.",

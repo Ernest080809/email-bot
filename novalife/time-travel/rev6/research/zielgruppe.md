@@ -1,6 +1,7 @@
 # Zielgruppenanalyse · Time Travel (NVL-TT-01, Zipper, Polo)
 
 Stand: Mi 07.10.2026, abends. Für Ernest. Teil der Docket-Neuplanung (Rev. 6).
+**Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
 Produkte: Jeans NVL-TT-01 (169 €, Vorbestellung 149 €, 100 nummerierte Stück), Zipper NVL-TT-02 (139 €), Polo NVL-TT-03 (79 €).
 Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 
@@ -18,8 +19,8 @@ Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 **Die heikle Frage, kurz:** Was verbindet, ist privat und häuslich: Teppich, Kreuzstich, Oma, Ernte. Was trennt, ist alles Staatliche und Sowjetische. 91 % der Ukrainer sehen Russland negativ [Q46], 72 % der Polen lehnen Russen ab [Q48]. Belarussen leben unter zwei Flaggen [Q33].
 
 **Fünf Punkte, bei denen das aktuelle Design oder der Plan anecken kann. Du entscheidest:**
-1. **Sichel + Ähren + rotes Band** sind zusammen das Vokabular des Sowjetwappens und des heutigen belarussischen Staatswappens [Q34][Q35]. Stern, Hammer und roter Grund sind schon verboten. Die Kombination B + B2 bleibt ein Rest-Risiko.
-2. **Stoppelfeld und abgeschnittene Ähren** erinnern Ukrainer an den Holodomor („Gesetz der fünf Ähren“ 1932) [Q51]. Gedenktag ist Sa 28.11.2026. Dein Teppich-Post liegt am Mi 25.11.
+1. **Sichel + Ähren + rotes Band:** seit 11.10. erledigt, der Serp ist gestrichen. Es bleiben Ähren auf rotem Band (B2) und der Achtstern (C). Das belarussische Staatswappen zeigt Ähren mit Band und einen roten Stern [Q34], das ist ein Rest-Risiko.
+2. **Ähren und Holodomor:** Das Stoppelfeld ist mit dem Serp gestrichen. Die Ähren von B2 können Ukrainer weiter an den Holodomor erinnern („Gesetz der fünf Ähren“ 1932) [Q51]. Gedenktag ist Sa 28.11.2026, in der Woche 23.–29.11. keine Ernte-Bilder. Dein Teppich-Post liegt am Mi 25.11.
 3. **„Dieses Muster ist älter als jede Grenze“** (Post am Mi 14.10. und Mi 09.12.) kann wie Putins These von den „künstlichen“ Grenzen klingen [Q42].
 4. **„Vyshyvanka“** gilt als ukrainisches Nationalsymbol [Q32]. **„Alatyr“** ist ein verbreitetes Symbol der russischen Neuheiden-Szene (Rodnovery) [Q39]. Nach außen besser „Kreuzstich-Band“ und „Achtstern“.
 5. **„Projekt Slavic“, „Eine Kultur“** klingen für Ukrainer und Polen nach Panslawismus und „ein Volk“ [Q42][Q43]. Nach außen nur „Time Travel“.
@@ -54,7 +55,7 @@ Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 - Durchschnittliche Kaufkraft pro Kopf in Deutschland 2025: 29.566 € [Q19]. Berlin liegt darunter, eine Zahl habe ich nicht gesehen.
 - Modeausgaben pro Kopf 2025: 547 € im Jahr, Europa-Schnitt 772 € [Q18]. **149 € sind damit rund 27 %, 169 € rund 31 % eines durchschnittlichen Modejahres** (Schätzung, eigene Rechnung).
 - 18- bis 25-Jährige geben laut einem Bericht 80–150 € im Monat für Mode aus [Q21]. Bis zu 68 % der Gen Z teilen ihre Modeausgaben mit Eltern oder Partner [Q20].
-- Preisanker: Eightyfive Straight mit UVP 79,95–89,95 € [Q26], Carhartt WIP Landon Denim 110 € [Q26], Levi's 501 auf levi.com/DE 109,95 € [Q26]. **Deine 169 € müssen also 60–90 € Aufpreis erklären.** Die Erklärung: nummeriert 1/100, ~33.000 Stiche, Goldfäden von Hand, ehrliche Größe.
+- Preisanker: Eightyfive Straight mit UVP 79,95–89,95 € [Q26], Carhartt WIP Landon Denim 110 € [Q26], Levi's 501 auf levi.com/DE 109,95 € [Q26]. **Deine 169 € müssen also 60–90 € Aufpreis erklären.** Die Erklärung: nummeriert 1/100, ~28.000 Stiche, Goldfäden von Hand, ehrliche Größe.
 - Eine ältere Umfrage unter Frauen (2019): im Schnitt 53 € für eine Jeans, Obergrenze 78 € [Q64]. Für die breite Masse ist 169 € Luxus.
 
 ### S1 · Ost-Wurzeln, zweite Generation (dein Kernsegment)
@@ -128,7 +129,7 @@ Quellen stehen als [Q-Nummer] im Text und vollständig am Ende.
 
 **Offline in Berlin:** Overkill, Köpenicker Straße 195A, Kreuzberg; Voo Store, Oranienstraße 24 [Q56] (vor Ort prüfen). Dort schauen, was getragen und bezahlt wird. Modehochschulen für Gesprächspartner und spätere Creator: HTW Berlin (Modedesign), ESMOD Berlin, AMD Akademie Mode & Design (Charlottenburg), Kunsthochschule Weißensee [Q61]. Kontakt nur über die offiziellen Websites.
 
-**Botschaft, die zieht:** „33.000 Stiche. 100 Stück. Ehrliche Größe: W32 ist 81 cm.“ Herkunft als zweiter Satz, nicht als erster.
+**Botschaft, die zieht:** „28.000 Stiche. 100 Stück. Ehrliche Größe: W32 ist 81 cm.“ Herkunft als zweiter Satz, nicht als erster.
 
 ### S4 · Handwerk und Stickerei
 
@@ -196,7 +197,7 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 ### P2 · [Name], 31, Denim-Nerd ohne Ost-Bezug
 
 - **Alltag:** Arbeitet in Berlin im Tech- oder Kreativbereich. Kauft wenige, teure Teile. Kennt Gewicht, Waschung, Leibhöhe. Hat eine Carhartt WIP und eine Levi's 501.
-- **Kauftrigger:** Fit-Daten und Handwerk. Ehrliche Größe, rigid 12 oz, 33.000 Stiche. Die Sicherheit, dass er sie zurückschicken kann.
+- **Kauftrigger:** Fit-Daten und Handwerk. Ehrliche Größe, rigid 12 oz, 28.000 Stiche. Die Sicherheit, dass er sie zurückschicken kann.
 - **Einwand:** „Zu viel Ornament.“ „Unbekannte Marke, keine Reviews.“
 - **Hook (bis 03.12.):** „Wir labeln nach dem echten Maß. W32 ist 81 cm.“
 - **Hook (ab Proto):** „Aus drei Metern ein paar Punkte. Aus dreißig Zentimetern ein Uhrwerk.“
@@ -214,7 +215,7 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 
 - **Alltag:** Aus Charkiw, spricht heute bewusst Ukrainisch statt Russisch. Arbeitet, macht Deutschkurs. Trägt zu Feiertagen eine Vyshyvanka einer ukrainischen Marke.
 - **Kauftrigger:** Würde nur kaufen, wenn sie sicher ist, dass die Marke nichts verwischt. Das Muster muss als Muster gezeigt werden, nicht als „gemeinsames Volk“.
-- **Einwand:** „Das Wort ‚slawisch‘ hat Putin gekapert.“ „Sichel, Ähren, Rot: sieht aus wie Sowjetunion.“ „Stoppelfeld mit abgeschnittenen Ähren: Holodomor.“
+- **Einwand:** „Das Wort ‚slawisch‘ hat Putin gekapert.“ „Ähren auf rotem Band und ein Stern: sieht aus wie ein Wappen.“ „Ähren: Holodomor.“
 - **Hook:** Keiner. Du bewirbst sie nicht. Du fragst sie um Rat.
 - **Kanal:** Persönliches Gespräch. Wenn sie ja sagt, ist das mehr wert als 100 Likes.
 
@@ -253,9 +254,9 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 
 | Bild, Wort oder Symbol | Wer reagiert | Wie | Risiko | Beleg |
 |---|---|---|---|---|
-| **Sichel allein** (B) | Ukrainer, Polen, Balten | Sowjet-Assoziation. In der Ukraine sind kommunistische Symbole wie Hammer und Sichel seit 2015 verboten, in Litauen seit 2008 bei Versammlungen. Polen ahndet die Propagierung totalitärer Systeme (Art. 256) | mittel. Allein und als Erntewerkzeug vertretbar | [Q37] |
-| **Sichel + Ähren + rotes Band** (B + B2 an einer Hose) | Ukrainer, Polen, belarussische Opposition | Das Sowjetwappen: Hammer und Sichel, Ähren im roten Band, Stern. Das belarussische Staatswappen: Ähren mit rot-grünem Band, roter Stern | **mittel bis hoch** in Kombination. Stern, Hammer, roter Grund sind schon verboten | [Q34][Q35] |
-| **Stoppelfeld, abgeschnittene Ähren** (B) | Ukrainer | Holodomor. Das „Gesetz über die fünf Ähren“ (07.08.1932) bestrafte sogar das Auflesen liegengebliebener Ähren auf dem abgeernteten Feld. Ähren und Kerzen sind Symbole der Holodomor-Denkmäler. Der Bundestag hat den Holodomor am 30.11.2022 als Völkermord eingestuft | mittel | [Q51] |
+| **Sichel allein** (B, gestrichen 11.10.) | — | Seit 11.10. erledigt, der Serp ist gestrichen. Die Verbote in UA, LT und PL zielen auf Hammer und Sichel und auf Sowjetsymbole | entfällt | [Q37] |
+| **Sichel + Ähren + rotes Band** (B + B2, gestrichen 11.10.) | Ukrainer, Polen, belarussische Opposition | Seit 11.10. erledigt. Es bleiben Ähren auf rotem Band (B2) und der Achtstern (C). Das belarussische Staatswappen zeigt Ähren mit rot-grünem Band und einen roten Stern | Rest-Risiko, im Test prüfen | [Q34][Q35] |
+| **Ähren** (B2; das Stoppelfeld ist seit 11.10. gestrichen) | Ukrainer | Holodomor. Das „Gesetz über die fünf Ähren“ (07.08.1932) bestrafte sogar das Auflesen liegengebliebener Ähren auf dem abgeernteten Feld. Ähren und Kerzen sind Symbole der Holodomor-Denkmäler. Der Bundestag hat den Holodomor am 30.11.2022 als Völkermord eingestuft | mittel | [Q51] |
 | **Weizen unter hellblauem Himmel** | alle | Die ukrainische Flagge wird gern als blauer Himmel über gelbem Weizen gelesen | hoch, schon verboten | [Q50] |
 | **Rot-weiß als Ornament** (A, C, E) | Polen, Belarussen | Normale Textilfarben. Unproblematisch als Kreuzstich | gering | [Q33] |
 | **Weiß-rot-weiß als Streifen** | Belarussen | Flagge der Opposition, in Belarus verfolgt | mittel (politisch) | [Q33][Q36] |
@@ -271,14 +272,14 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 
 ### 3.5 Was das für das Design heißt (Abweichungen benannt, du entscheidest)
 
-**A · B und B2 zusammen.** Du hast die harten Grenzen schon gezogen: kein Stern, kein Hammer, kein roter Grund, nie allein als Logo. Was bleibt: An einer Hose stehen Sichel, Ähren und ein rotes Band. Sie sitzen an zwei Stellen (vorn links, hinten links) und sind nie zusammen im Bild, außer auf einem Flatlay.
-- **Option 1, so lassen:** B und B2 nie zusammen in einem Bild, kein Flatlay mit beiden auf rotem oder hellem Grund.
+**A · B und B2 zusammen.** **Seit 11.10. erledigt: Der Serp ist gestrichen.** An der Hose stehen keine Sichel mehr, es bleiben Ähren auf rotem Band (B2) und der Achtstern (C). Die Frage nach dem B2-Band bleibt offen.
+- **Option 1, so lassen:** B2 rot lassen, kein Flatlay mit allen Motiven auf rotem Grund.
 - **Option 2, B2-Band in eine andere Farbe:** z. B. Weiß oder Ocker statt Rot. Das löst nebenbei Farbregel 2 (Rot ohne Weiß auf Indigo, Spec 3.4). **Gegenrechnung:** Eine reine Farbänderung ändert die Stichzahl nicht. Stückkosten, Kapital und Schwellen bleiben gleich (Spec 2.8: „Der einzige Kostentreiber ist die Stichzahl“). Eine weiße Kante von einem Stich rund um das Band wären geschätzt 100–500 Stiche mehr. Bei 0,55 € je 1.000 Stiche (Spec 3.11) sind das 0,06–0,28 € je Paar, 6–28 € auf 100 Paar. Kapital und Schwellen ändern sich praktisch nicht (Schätzung, echte Zahl mit der Digitizing-Vorschau am 09.11.).
 - **Option 3, erst testen:** Entscheidung nach den Gesprächen, spätestens vor dem Digitizing am Mo 09.11. Mein Rat: Option 3. Beim Freeze am Fr 09.10. als **„Farbvorbehalt B2-Band bis 08.11.“** notieren. Das kostet nichts und hält den Freeze.
 
-**B · Stoppelfeld.** Die geschnittenen Halme erzählen „das Feld danach“. Für eine Ukrainerin kann das „Holodomor“ heißen. Im Test fragen, nicht vorher ändern.
+**B · Stoppelfeld.** Seit 11.10. erledigt: Das Stoppelfeld ist mit dem Serp gestrichen. Die Ernte erzählt jetzt B2 allein. Ob die Ähren für Ukrainerinnen nach Holodomor klingen, fragst du in den Gesprächen weiter ab.
 
-**C · Namen nach außen.** Intern bleiben A „Vyshyvanka-Band“ und C „Alatyr“. Nach außen schlage ich vor: A = „Kreuzstich-Band“, C = „Achtstern“, B = „Serp“ oder „Sichel“, D = „Lebensbaum“ (wie schon geregelt). „Serp“ ist in allen vier Sprachen fast gleich (sierp, серп), das ist sogar ein schönes Detail.
+**C · Namen nach außen.** Intern bleiben A „Vyshyvanka-Band“ und C „Alatyr“. Nach außen schlage ich vor: A = „Kreuzstich-Band“, C = „Achtstern“, D = „Lebensbaum“ (wie schon geregelt).
 
 **D · Projektname.** „Projekt Slavic“ intern lassen. Nach außen nur „Time Travel“. Wenn „slawisch“ fällt, dann nur im Plural und mit dem Muster als Subjekt: „Muster aus den slawischen Textiltraditionen“.
 
@@ -300,7 +301,7 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 - Keine Farbpaare als Streifen: Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß.
 - Kein Z, kein V als Gestaltungselement.
 - Keine Landkarte der Region.
-- Sichel nie neben Stern, Hammer, rotem Grund. Nie Sichel und Ähren zusammen auf Rot.
+- Keine Sichel im Bild, auch nicht als Requisite (der Serp ist seit 11.10. gestrichen). Kein roter Grund hinter Ähren und Stern.
 - Nie „fünf Ähren“. B2 hat drei, dabei bleiben.
 - Keine Neuheiden-Symbole, keine Runen, kein Kolovrat, keine Schwarze Sonne.
 - Keine Kooperation und kein Auftritt bei politischen Diaspora-Organisationen, egal welcher Seite.
@@ -310,7 +311,7 @@ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 
 | Termin | Warum | Was im Docket steht | Vorschlag (du entscheidest) |
 |---|---|---|---|
 | Mi 14.10.2026 | — | ORIGIN „Älter als jede Grenze“ (Hook: „Dieses Muster ist älter als jede Grenze.“) | Hook ändern, z. B. „Jede Region stickt diese Raute anders. Die Bedeutung bleibt.“ |
-| Mi 25.11.2026 | 3 Tage vor dem Holodomor-Gedenktag | ORIGIN „Der Teppich“ | Eine Woche früher oder später. In der Woche 23.–29.11. kein Ernte- oder Sichel-Post |
+| Mi 25.11.2026 | 3 Tage vor dem Holodomor-Gedenktag | ORIGIN „Der Teppich“ | Eine Woche früher oder später. In der Woche 23.–29.11. kein Ernte-Post |
 | **Sa 28.11.2026** | Holodomor-Gedenktag, 4. Samstag im November [Q51] | kein Post | so lassen, nichts posten |
 | Mi 09.12.2026 | — | REACH „Älter als jede Grenze“ | Hook wie oben ändern |
 | **Mi 24.02.2027** | 5. Jahrestag des russischen Großangriffs (24.02.2022 [Q32]) | REACH 19:00 „Das erste Bild“ | Auf Do 25.02. schieben. Am 24.02. nichts Werbliches |
@@ -378,7 +379,7 @@ Nach dem Drop, für später: 8./9. Mai (Gedenken mit Flaggenverboten in Berlin [
 
 **Ablauf:** Erst die Fotos **ohne** Erklärung zeigen, dann mit Erklärung. Sonst bekommst du nur höfliche Antworten.
 
-**Die Fotos (aus Papiertest 3):** 1 vorn gesamt, 2 hinten gesamt, 3 Serp an der Seite (B), 4 linke Gesäßtasche mit Ähren und Band (B2), 5 Band und Münztasche (A + E), 6 Achtstern (C), 7 Lebensbaum-Patch (D).
+**Die Fotos (aus Papiertest 3):** 1 vorn gesamt, 2 hinten gesamt, 3 Achtstern (C), 4 linke Gesäßtasche mit Ähren und Band (B2), 5 Band und Münztasche (A + E), 6 Patch D als Gürtelschlaufe mit Gürtel, 7 Lebensbaum-Patch nah (D).
 
 **Die Fragen:**
 1. „Was siehst du?“ (Foto 1 und 2, ohne Erklärung)
@@ -386,7 +387,7 @@ Nach dem Drop, für später: 8./9. Mai (Gedenken mit Flaggenverboten in Berlin [
 3. „Gibt es etwas, das du so nicht tragen würdest? Warum?“
 4. „Zu welchem Land oder welcher Zeit würdest du das zuordnen?“
 5. Nur für UA/PL/BY/Balten: „Erinnert dich etwas an Sowjetsymbole, an ein Wappen oder an ein bestimmtes Ereignis?“
-6. „Ich nenne dir Wörter. Sag mir, was du fühlst: slawisch · Vyshyvanka · Alatyr · Serp · Teppich bei Oma · Ernte.“ (ein Wort pro Antwort: gut / neutral / schlecht)
+6. „Ich nenne dir Wörter. Sag mir, was du fühlst: slawisch · Vyshyvanka · Alatyr · Lebensbaum · Teppich bei Oma · Ernte.“ (ein Wort pro Antwort: gut / neutral / schlecht)
 7. „Hatte deine Familie so einen Teppich an der Wand? Hast du ein Foto?“
 8. **Preis (4 Fragen):** „Ab welchem Preis wäre diese Jeans so billig, dass du an der Qualität zweifelst?“ · „… ein gutes Angebot?“ · „… teuer, aber du würdest noch überlegen?“ · „… zu teuer, egal was?“
 9. „Würdest du sie im Januar zu 149 € vorbestellen, wenn sie im April kommt? Ja, vielleicht, nein. Was müsste passieren, damit du Ja sagst?“
@@ -407,7 +408,7 @@ Instagram bietet Umfrage-Sticker mit bis zu vier Antworten, einen Emoji-Schieber
 | 2 | Do 15.10. | Teppich-Foto deiner Familie | Frage-Sticker | „Schick mir ein Foto vom Teppich deiner Oma.“ |
 | 3 | Di 20.10. | Gesäßtasche B2 | Umfrage, 4 Antworten | „Woran erinnert dich das?“ · Ernte · Kindheit · Wappen · Nichts |
 | 4 | Do 22.10. | B2 rot vs. B2 mit weißer Kante (zwei Papierversionen, die zweite druckt dir Claude) | Umfrage | „Links oder rechts?“ |
-| 5 | Di 27.10. | Serp an der Seite (B) | Schieberegler | „Wie sehr würdest du das tragen?“ |
+| 5 | Di 27.10. | Patch D als Gürtelschlaufe, Gürtel dahinter (Papier) | Schieberegler | „Wie sehr würdest du das tragen?“ |
 | 6 | Do 29.10. | ganze Hose hinten, Papier | Umfrage, 4 Antworten | „Was wäre fair?“ · 129 € · 149 € · 169 € · 189 € |
 | 7 | Di 03.11. | drei Produkte als Strichzeichnung, kein Mockup (Jeans, Zipper, Polo) | Umfrage, 3 Antworten | „Was zuerst?“ · Jeans · Zipper · Polo |
 | 8 | Do 05.11. | Band A in Nahaufnahme | Frage-Sticker | „Wie würdest du dieses Band nennen?“ |
@@ -423,7 +424,7 @@ Link in Bio und in Story 2 und 6. **Ziel: 100 Antworten bis Sa 31.10.** (Schätz
 3. Wie viel hast du für deine letzte Jeans bezahlt? (bis 50 · 50–99 · 100–149 · 150+)
 4. Wo kaufst du Jeans? (Mehrfachauswahl)
 5. Bild B2: Was fällt dir zuerst ein? (offen)
-6. Bild B: Was fällt dir zuerst ein? (offen)
+6. Bild C (Achtstern): Was fällt dir zuerst ein? (offen)
 7. Welches Wort passt für dich am besten zu diesem Muster? (Kreuzstich-Band · Vyshyvanka · Folklore · Ornament)
 8. Würdest du zu 149 € vorbestellen? (Ja · Vielleicht · Nein)
 9. Was würde dich überzeugen? (Fit-Video · Proto in echt sehen · Rückgaberecht · Stücknummer · Freunde tragen es)
@@ -436,7 +437,7 @@ Am Ende ein Link zur Warteliste, nicht im selben Formular.
 ### 5.4 Ein Sonntag auf dem Mauerpark-Flohmarkt
 
 - **So 25.10.**, 12–14 Uhr, vor dem Content-Batch (Öffnungszeit laut Sekundärquelle So 10–18 Uhr [Q58], vor Ort prüfen). Nicht der 01.11., das ist Validierungstag.
-- Mitnehmen: drei laminierte Papiertest-Fotos (B, B2, ganze Hose) und dein Handy mit der Tally-Umfrage.
+- Mitnehmen: drei laminierte Papiertest-Fotos (B2, Patch D als Gürtelschlaufe, ganze Hose) und dein Handy mit der Tally-Umfrage.
 - 15 Menschen in Jeans fragen, ob sie zwei Minuten haben. Nur Fragen 1, 2, 8 und 9 aus 5.1.
 - Nichts verkaufen, nichts verteilen. Hinweis zur Warteliste nur, wenn jemand fragt.
 

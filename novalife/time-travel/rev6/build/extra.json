@@ -1,0 +1,2136 @@
+{
+ "2026-10-08": {
+  "prepend": [
+   {
+    "c": "A",
+    "t": "Neue Projektdateien in dein Claude-Projekt laden",
+    "m": 5,
+    "s": [
+     "Im Chat mit Claude die Datei „TimeTravel_Rev6_Projektdateien.zip“ öffnen und entpacken (Doppelklick im Finder).",
+     "claude.ai → Projekte → „novalife time travel“ → Projektwissen → „+“ → Dateien hochladen.",
+     "Alle 10 Dateien aus dem Ordner auswählen: strategie.md, zielgruppe.md, design.md, content.md, berlin.md, community.md, tools.md, lieferanten.md, website.md, markt.md.",
+     "Warum: Die Prompts im Docket verweisen auf diese Dateien. Ohne sie weiß Claude im Projekt nichts von Rev. 6.",
+     "Die alten Dateien (Plan, Spec, Übergabe) bleiben im Projekt. Wo sie der Strategie widersprechen, gilt strategie.md."
+    ],
+    "f": "Im Projektwissen stehen die 10 neuen Dateien neben Plan, Spec und Übergabe.",
+    "o": [
+     {
+      "n": "Claude · Projekte",
+      "u": "https://claude.ai/projects",
+      "h": "Projekt „novalife time travel“ öffnen"
+     }
+    ],
+    "raw": true
+   }
+  ]
+ },
+ "2026-10-21": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #01 „G-Klasse“ (Rückwärts)",
+    "m": 90,
+    "s": [
+     "Die Idee: Dein Vater fährt mit der G-Klasse auf dich zu, du machst im letzten Moment einen ruhigen Seitschritt und eine halbe Drehung. Gedreht ist alles vorwärts: Das Auto fährt nur rückwärts von dir weg.",
+     "Was du trägst: Bleach-Teil von Novalife, keine Time-Travel-Hose.",
+     "Vorbereitung: Bis So 18.10. mit deinem Vater Tag und Ort festmachen. Geht Mi nicht, nimm Sa 24.10. vormittags.",
+     "Vorbereitung: Kreide, Stativ, ein Freund als Aufpasser, Kennzeichen später unscharf machen.",
+     "Kreide-X für deine Endposition, Startpunkt 2 m seitlich, Startlinie fürs Auto 2 m vor dem X.",
+     "Auto steht an der Startlinie, Rückwärtsgang drin, Fuß auf der Bremse. Du stehst seitlich, nie vor dem Auto.",
+     "Dein Vater rollt im Schritttempo rückwärts. Erst wenn das Auto 3 m weg ist, machst du deine Bewegung rückwärts: halbe Drehung zurück, Seitschritt rückwärts aufs X.",
+     "Stehen bleiben und zum Auto schauen, bis es etwa 25 m weg ist.",
+     "3 Proben ohne Kamera, dann 3–5 Takes.",
+     "Sicherheit: Das Auto fährt nur rückwärts. Niemand steht vor einem Auto mit eingelegtem Gang. Schritttempo, das Tempo kommt im Schnitt."
+    ],
+    "f": "die Rohclips gesichert sind und der Check stimmt: Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · keine Passanten · Hinweis „Reverse“ im Bild · keine Time-Travel-Hose · keine Automarke in Caption oder Hashtags.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R01",
+     "slot": "Post Sa 24.10. 12:00",
+     "dauer": "10–12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "My dad drove straight at me.",
+     "hook_de": "Mein Vater fuhr direkt auf mich zu.",
+     "shots": [
+      "Totale seitlich, 8–10 m vom Kreide-X, Hüfthöhe, Tele 2x, 4K/60 (Hauptclip)",
+      "Über die Schulter von hinten, flach (Freund filmt)",
+      "Detail: Füße auf dem X, dann der Seitschritt",
+      "Rücken nach der Drehung: Bleach-Teil von Novalife",
+      "Endkarte TIME TRAVEL · 22.04."
+     ],
+     "ort": "privates, abgesperrtes Gelände mit Erlaubnis des Eigentümers, 30 m gerade Strecke, keine öffentliche Straße",
+     "ton": "Motor, Bass-Schlag auf dem Seitschritt, Rückspul-Geräusch zur Signatur",
+     "text": "Bei 0:01 „Reverse. Nobody was in danger.“ klein unten · 3 Frames „22.04. 19:00“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #01. The car only drove backwards, nobody was in danger. Time Travel · 22.04.2027 · waitlist in bio",
+     "check": "Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · keine Passanten · Hinweis „Reverse“ im Bild · keine Time-Travel-Hose · keine Automarke in Caption oder Hashtags"
+    }
+   }
+  ]
+ },
+ "2026-10-22": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Schnitt · REWIND #01 „G-Klasse“",
+    "m": 45,
+    "s": [
+     "Besten Take wählen, in CapCut: Clip → Rückwärts.",
+     "Geschwindigkeit 1,5–2x, damit das Auto schnell wirkt. Prüfen: Wirkt nichts rückwärts (Passanten, Rauch, Haare)?",
+     "Hinweis „Reverse. Nobody was in danger.“ klein unten, Kennzeichen unscharf (Mosaik-Effekt mit Tracking).",
+     "Ton: Motor, Bass-Schlag auf dem Seitschritt. Signatur und 3 Frames Codewort ans Ende.",
+     "Einmal stumm und einmal mit 0,5x ansehen. Was dann auffällt, fällt auch Zuschauern auf.",
+     "Die Rohaufnahme behalten: Sie ist das Making-of."
+    ],
+    "f": "die Endfassung im Ordner liegt und der Check stimmt.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-10-23": {
+  "append": [
+   {
+    "c": "A",
+    "t": "Datenschutzerklärung ergänzen: Tally und „Bring 3“ (verschoben vom 13. und 15.10.)",
+    "m": 20,
+    "s": [
+     "e-recht24-Generator öffnen, Tally als Dienst ergänzen. Fehlt Tally dort, nimmst du Claudes Absatz vom 13.10.",
+     "Claudes Satz zu Quellen-Tags und Empfehlungs-Code (Chat R1 vom 14.10.) dazu.",
+     "Shopify → Onlineshop → Seiten → Datenschutz: beide Absätze einfügen, speichern.",
+     "Erst jetzt freischalten: Tally-Link als zweiten Link in die Instagram-Bio, „Bring 3“-Link in die Willkommens-Mail."
+    ],
+    "f": "beide Absätze online sind, der Tally-Link in der Bio steht und „Bring 3“ in der Willkommens-Mail ist.",
+    "o": [
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Seiten → Datenschutz"
+     },
+     {
+      "n": "e-recht24 Datenschutz-Generator",
+      "u": "https://www.e-recht24.de",
+      "h": "Generator für die Datenschutzerklärung"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-10-24": {
+  "append": [
+   {
+    "c": "C",
+    "t": "12:00 · REWIND #01 „G-Klasse“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Kommentare mit „wie habt ihr das gemacht?“ sammeln, sie sind der Aufhänger fürs Making-of.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R01",
+     "slot": "Sa 24.10. 12:00",
+     "dauer": "10–12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "My dad drove straight at me.",
+     "hook_de": "Mein Vater fuhr direkt auf mich zu.",
+     "shots": [
+      "Totale seitlich, 8–10 m vom Kreide-X, Hüfthöhe, Tele 2x, 4K/60 (Hauptclip)",
+      "Über die Schulter von hinten, flach (Freund filmt)",
+      "Detail: Füße auf dem X, dann der Seitschritt",
+      "Rücken nach der Drehung: Bleach-Teil von Novalife",
+      "Endkarte TIME TRAVEL · 22.04."
+     ],
+     "ort": "privates, abgesperrtes Gelände mit Erlaubnis des Eigentümers, 30 m gerade Strecke, keine öffentliche Straße",
+     "ton": "Motor, Bass-Schlag auf dem Seitschritt, Rückspul-Geräusch zur Signatur",
+     "text": "Bei 0:01 „Reverse. Nobody was in danger.“ klein unten · 3 Frames „22.04. 19:00“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #01. The car only drove backwards, nobody was in danger. Time Travel · 22.04.2027 · waitlist in bio",
+     "check": "Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · keine Passanten · Hinweis „Reverse“ im Bild · keine Time-Travel-Hose · keine Automarke in Caption oder Hashtags"
+    }
+   },
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #02 „Ich klatsche, die Zeit bleibt stehen“ (Zeit anhalten)",
+    "m": 15,
+    "s": [
+     "Die Idee: Am Papiertest-Abend klatschst du, alle Gäste frieren mitten in der Bewegung ein. Du gehst durch den Raum und rückst einem Gast den Papier-Patch auf der Jeans zurecht. Du klatschst, alle bewegen sich wieder.",
+     "Was du trägst: eigene Jeans mit Papier, keine fertige Hose.",
+     "Vorbereitung: Beim Ankommen fragen: Wer will ins Video? Wer nein sagt, bleibt außerhalb des Bildes.",
+     "Kurz erklären: Beim ersten Klatschen erstarren, beim zweiten weitermachen. Höchstens 4 s am Stück erstarren.",
+     "Ein Take, wenn nötig ein zweiter. Danach geht der Abend normal weiter.",
+     "Sicherheit: Niemand balanciert Getränke beim Erstarren über Kopf.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Alle im Bild haben ja gesagt · nur Papier auf eigenen Jeans.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R02",
+     "slot": "Post Do 29.10. 19:00",
+     "dauer": "12–15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "I clapped. Time stopped.",
+     "hook_de": "Ich klatsche. Die Zeit bleibt stehen.",
+     "shots": [
+      "Stativ in der Raumecke, Weitwinkel, ein Take von 15 s",
+      "Detail: deine Hand am Papier-Patch",
+      "Endkarte"
+     ],
+     "ort": "Papiertest-Abend, alle Gäste mit Papier auf ihren eigenen Jeans",
+     "ton": "Klatschen, dann Stille, beim zweiten Klatschen wieder Musik",
+     "text": "3 Frames „22.04. 19:00“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #02. Paper test night, Berlin. Time Travel · 22.04.2027",
+     "check": "Alle im Bild haben ja gesagt · nur Papier auf eigenen Jeans"
+    }
+   }
+  ]
+ },
+ "2026-10-26": {
+  "append": [
+   {
+    "c": "C",
+    "t": "18:00 · Making-of REWIND #01 posten: Rohaufnahme neben Endfassung",
+    "m": 20,
+    "s": [
+     "Geteiltes Bild: oben die Rohaufnahme, unten die Endfassung, gleich lang.",
+     "Text: „How we did it. Nobody was in danger.“",
+     "Auf die besten Fragen aus den Kommentaren antworten, eine davon als Video-Antwort."
+    ],
+    "f": "das Making-of läuft und auf das Original verweist.",
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R01M",
+     "slot": "Mo 26.10. 18:00",
+     "dauer": "15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "How we did it. Nobody was in danger.",
+     "hook_de": "So haben wir's gemacht. Niemand war in Gefahr.",
+     "shots": [
+      "Rohaufnahme oben",
+      "Endfassung unten",
+      "Endkarte"
+     ],
+     "ort": "Schnitt, kein neuer Dreh",
+     "ton": "Originalton der Rohaufnahme, leiser Beat",
+     "text": "„RAW“ oben, „FINAL“ unten",
+     "cta": "Original-Video verlinken",
+     "caption": "Behind Rewind #01. The car only drove backwards.",
+     "check": "Rohaufnahme zeigt klar, dass niemand in Gefahr war"
+    }
+   }
+  ]
+ },
+ "2026-10-29": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #02 „Ich klatsche, die Zeit bleibt stehen“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Kommentare mit „wie habt ihr das gemacht?“ sammeln, sie sind der Aufhänger fürs Making-of.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R02",
+     "slot": "Do 29.10. 19:00",
+     "dauer": "12–15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "I clapped. Time stopped.",
+     "hook_de": "Ich klatsche. Die Zeit bleibt stehen.",
+     "shots": [
+      "Stativ in der Raumecke, Weitwinkel, ein Take von 15 s",
+      "Detail: deine Hand am Papier-Patch",
+      "Endkarte"
+     ],
+     "ort": "Papiertest-Abend, alle Gäste mit Papier auf ihren eigenen Jeans",
+     "ton": "Klatschen, dann Stille, beim zweiten Klatschen wieder Musik",
+     "text": "3 Frames „22.04. 19:00“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #02. Paper test night, Berlin. Time Travel · 22.04.2027",
+     "check": "Alle im Bild haben ja gesagt · nur Papier auf eigenen Jeans"
+    }
+   }
+  ]
+ },
+ "2026-10-30": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #03 „Rückwärts durch Berlin“ (Rückwärts)",
+    "m": 60,
+    "s": [
+     "Die Idee: Du läufst rückwärts durch eine volle Straße. Rückwärts abgespielt läuft ganz Berlin zurück, nur du gehst nach vorn. Die Idee hat Coldplay im Video zu „The Scientist“ benutzt.",
+     "Was du trägst: Bleach-Teil von Novalife.",
+     "Vorbereitung: Zu Hause 10 Minuten rückwärts gehen üben, bis es locker aussieht. Der Freund filmt und passt auf, dass du niemanden anrempelst.",
+     "Du gehst 20 m rückwärts, der Freund geht mit dem Handy vor dir her.",
+     "Arme und Schritte so, dass sie rückwärts abgespielt wie normales Gehen aussehen.",
+     "Kein Gedränge an Treppen, keine Gesichter in Nahaufnahme.",
+     "Sicherheit: Nur auf ebenem Weg, nie an Treppen oder Bordsteinen rückwärts gehen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Keine Gesichter groß im Bild ohne Erlaubnis · Musik aus der kommerziellen Bibliothek · nur Bleach-Teil.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R03",
+     "slot": "Post Di 03.11. 19:00",
+     "dauer": "12–15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Everyone's going back. I'm going forward.",
+     "hook_de": "Alle gehen zurück. Ich gehe nach vorn.",
+     "shots": [
+      "Frontal, Handy auf Brusthöhe, der Freund geht vor dir her, 20 m (3 Takes)",
+      "Halbtotale von der Seite, 5 s",
+      "Ende: du bleibst stehen, drehst dich, Bleach-Teil im Bild",
+      "Endkarte"
+     ],
+     "ort": "Warschauer Brücke oder Alexanderplatz, Nachmittag, viele Menschen",
+     "ton": "ruhiger Beat aus der kommerziellen Musikbibliothek, Rückspul-Geräusch zur Signatur",
+     "text": "3 Frames „22.04. 19:00“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #03. The whole city went back. I didn't. Time Travel · 22.04.2027",
+     "check": "Keine Gesichter groß im Bild ohne Erlaubnis · Musik aus der kommerziellen Bibliothek · nur Bleach-Teil"
+    }
+   }
+  ]
+ },
+ "2026-11-03": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #03 „Rückwärts durch Berlin“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Kommentare mit „wie habt ihr das gemacht?“ sammeln, sie sind der Aufhänger fürs Making-of.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R03",
+     "slot": "Di 03.11. 19:00",
+     "dauer": "12–15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Everyone's going back. I'm going forward.",
+     "hook_de": "Alle gehen zurück. Ich gehe nach vorn.",
+     "shots": [
+      "Frontal, Handy auf Brusthöhe, der Freund geht vor dir her, 20 m (3 Takes)",
+      "Halbtotale von der Seite, 5 s",
+      "Ende: du bleibst stehen, drehst dich, Bleach-Teil im Bild",
+      "Endkarte"
+     ],
+     "ort": "Warschauer Brücke oder Alexanderplatz, Nachmittag, viele Menschen",
+     "ton": "ruhiger Beat aus der kommerziellen Musikbibliothek, Rückspul-Geräusch zur Signatur",
+     "text": "3 Frames „22.04. 19:00“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #03. The whole city went back. I didn't. Time Travel · 22.04.2027",
+     "check": "Keine Gesichter groß im Bild ohne Erlaubnis · Musik aus der kommerziellen Bibliothek · nur Bleach-Teil"
+    }
+   }
+  ]
+ },
+ "2026-11-11": {
+  "append": [
+   {
+    "c": "A",
+    "t": "Feld „Codewort aus dem Video“ ins Wartelisten-Formular",
+    "m": 10,
+    "s": [
+     "Im selben Formular wie die Größen- und Quellen-Tags ein freiwilliges Feld „Codewort aus dem Video“ ergänzen. Claude schreibt dir den Code-Schnipsel.",
+     "Gespeichert wird es als Tag „rw-[Codewort]“, z. B. „rw-rw04“.",
+     "Test mit einer Testadresse, Tag beim Kunden prüfen.",
+     "Ab REWIND #04 (Di 17.11.) zählt jedes Codewort im Cockpit für sein Video."
+    ],
+    "f": "der Test-Kunde den Tag „rw-test“ hat.",
+    "p": "Projekt Time Travel, Docket W9, Mi 11.11. Ich habe heute das Wartelisten-Formular mit Größen- und Quellen-Tags gebaut. Schreib mir den kleinsten Code-Schnipsel für ein freiwilliges Feld „Codewort aus dem Video“, das als Kunden-Tag „rw-[Wort in Kleinbuchstaben]“ gespeichert wird. Mit Testschritten.",
+    "o": [
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Themes → Code bearbeiten"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-11-12": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #04 „Das Muster lässt sich nicht zerreißen“ (Rückwärts)",
+    "m": 60,
+    "s": [
+     "Die Idee: Du zerreißt den Papier-Achtstern (C) und wirfst die Fetzen hoch. Rückwärts abgespielt fliegen sie in deine Hand und setzen sich zum Stern zusammen. Du drückst ihn auf die rechte Gesäßtasche deiner eigenen Jeans.",
+     "Was du trägst: eigene Jeans, nur ein Element auf Papier.",
+     "Vorbereitung: Achtstern 2× auf Papier drucken und ausschneiden (einer als Reserve).",
+     "Stern auf die Tasche halten, abnehmen, zerreißen, hochwerfen.",
+     "Rückwärts abgespielt beginnt das Video mit den Fetzen in der Luft.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Nur ein Element (C) · nach außen „Achtstern“, nicht „Alatyr“ · Codewort RW04 für 3 Frames.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R04",
+     "slot": "Post Di 17.11. 19:00",
+     "dauer": "8–10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Some patterns refuse to disappear.",
+     "hook_de": "Manche Muster lassen sich nicht zerreißen.",
+     "shots": [
+      "Halbtotale frontal, 60 fps",
+      "Detail: Fetzen in der Luft",
+      "Detail: Stern auf der Gesäßtasche",
+      "Endkarte"
+     ],
+     "ort": "drinnen, kein Luftzug, dunkle Wand",
+     "ton": "Papier-Reißen, rückwärts abgespielt, Bass-Schlag beim fertigen Stern",
+     "text": "3 Frames „RW04“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #04. Find the code. Time Travel · 22.04.2027",
+     "check": "Nur ein Element (C) · nach außen „Achtstern“, nicht „Alatyr“ · Codewort RW04 für 3 Frames"
+    }
+   }
+  ]
+ },
+ "2026-11-17": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #04 „Das Muster lässt sich nicht zerreißen“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R04",
+     "slot": "Di 17.11. 19:00",
+     "dauer": "8–10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Some patterns refuse to disappear.",
+     "hook_de": "Manche Muster lassen sich nicht zerreißen.",
+     "shots": [
+      "Halbtotale frontal, 60 fps",
+      "Detail: Fetzen in der Luft",
+      "Detail: Stern auf der Gesäßtasche",
+      "Endkarte"
+     ],
+     "ort": "drinnen, kein Luftzug, dunkle Wand",
+     "ton": "Papier-Reißen, rückwärts abgespielt, Bass-Schlag beim fertigen Stern",
+     "text": "3 Frames „RW04“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #04. Find the code. Time Travel · 22.04.2027",
+     "check": "Nur ein Element (C) · nach außen „Achtstern“, nicht „Alatyr“ · Codewort RW04 für 3 Frames"
+    }
+   }
+  ]
+ },
+ "2026-11-20": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #05 „Jeans von 1970 bis 2027“ (Outfit-Sprung)",
+    "m": 90,
+    "s": [
+     "Die Idee: Auf jeden Beat ein Sprung, bei jeder Landung trägst du ein anderes Jahrzehnt: Schlaghose, Stonewash, Baggy, Low-Rise, dann dein Bleach-Teil. Der letzte Sprung endet schwarz: „2027: ?“",
+     "Was du trägst: geliehene Teile aus der Familie oder vom Second-Hand-Laden, zum Schluss Bleach-Teil.",
+     "Vorbereitung: Bis Mi 18.11. vier alte Jeans-Looks leihen oder für wenig Geld kaufen.",
+     "Stativ fest, Belichtung sperren, Fußmarke.",
+     "Pro Outfit 2 Sprünge filmen. Im Schnitt immer am höchsten Punkt schneiden.",
+     "Sicherheit: Weicher Boden, keine Glätte.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Kein Ernte-Bild (Sperrwoche) · letzter Sprung zeigt keine Time-Travel-Hose · Codewort RW05.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R05",
+     "slot": "Post Do 26.11. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Denim, 1970 to 2027. Watch the last jump.",
+     "hook_de": "Jeans von 1970 bis 2027. Achte auf den letzten Sprung.",
+     "shots": [
+      "Totale vom Stativ, Füße bis Kopf, 5 Sprünge",
+      "Letzter Sprung: Schwarzbild mit „2027: ?“",
+      "Endkarte"
+     ],
+     "ort": "Hof oder Zimmer vor heller Wand, Fußmarke aus Klebeband",
+     "ton": "Beat mit 5 klaren Schlägen aus der kommerziellen Musikbibliothek",
+     "text": "Jahreszahl unten links bei jeder Landung · 3 Frames „RW05“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #05. 1970 · 1985 · 1995 · 2004 · 2026 · 2027? Time Travel · 22.04.2027",
+     "check": "Kein Ernte-Bild (Sperrwoche) · letzter Sprung zeigt keine Time-Travel-Hose · Codewort RW05"
+    }
+   }
+  ]
+ },
+ "2026-11-26": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #05 „Jeans von 1970 bis 2027“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R05",
+     "slot": "Do 26.11. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Denim, 1970 to 2027. Watch the last jump.",
+     "hook_de": "Jeans von 1970 bis 2027. Achte auf den letzten Sprung.",
+     "shots": [
+      "Totale vom Stativ, Füße bis Kopf, 5 Sprünge",
+      "Letzter Sprung: Schwarzbild mit „2027: ?“",
+      "Endkarte"
+     ],
+     "ort": "Hof oder Zimmer vor heller Wand, Fußmarke aus Klebeband",
+     "ton": "Beat mit 5 klaren Schlägen aus der kommerziellen Musikbibliothek",
+     "text": "Jahreszahl unten links bei jeder Landung · 3 Frames „RW05“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #05. 1970 · 1985 · 1995 · 2004 · 2026 · 2027? Time Travel · 22.04.2027",
+     "check": "Kein Ernte-Bild (Sperrwoche) · letzter Sprung zeigt keine Time-Travel-Hose · Codewort RW05"
+    }
+   }
+  ]
+ },
+ "2026-11-28": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #06 „Der Fahrstuhl in die Zukunft“ (One-Take mit versteckten Schnitten)",
+    "m": 90,
+    "s": [
+     "Die Idee: Die Fahrstuhltür schließt sich, beim Öffnen trägst du jedes Mal ein anderes Jahrzehnt. Beim letzten Mal geht die Tür auf und es ist dunkel: „In 2 Tagen kommt das erste Paar.“",
+     "Was du trägst: die Looks aus REWIND #05, zuletzt Schwarzbild.",
+     "Vorbereitung: Erlaubnis für den Fahrstuhl holen, Zeit wählen, in der wenig los ist.",
+     "Pro Jahrzehnt: Tür zu, umziehen, Tür auf.",
+     "Den Fahrstuhl nie länger als nötig blockieren.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Erlaubnis da · keine Nachbarn im Bild · Codewort RW06.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R06",
+     "slot": "Post Di 01.12. 19:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "This elevator only goes forward.",
+     "hook_de": "Dieser Fahrstuhl fährt nur in die Zukunft.",
+     "shots": [
+      "Stativ frontal vor der Tür, immer gleiche Position",
+      "Schnitt jeweils auf der geschlossenen Tür",
+      "Letzte Öffnung: dunkel, Text",
+      "Endkarte"
+     ],
+     "ort": "Fahrstuhl in einem Wohnhaus, mit Erlaubnis der Hausverwaltung oder der Nachbarn",
+     "ton": "Fahrstuhl-Ding, bei jedem Öffnen ein anderer Klang",
+     "text": "„03.12.“ in der letzten Öffnung · 3 Frames „RW06“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #06. In 2 days the first pair arrives. Time Travel · 22.04.2027",
+     "check": "Erlaubnis da · keine Nachbarn im Bild · Codewort RW06"
+    }
+   }
+  ]
+ },
+ "2026-12-01": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #06 „Der Fahrstuhl in die Zukunft“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R06",
+     "slot": "Di 01.12. 19:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "This elevator only goes forward.",
+     "hook_de": "Dieser Fahrstuhl fährt nur in die Zukunft.",
+     "shots": [
+      "Stativ frontal vor der Tür, immer gleiche Position",
+      "Schnitt jeweils auf der geschlossenen Tür",
+      "Letzte Öffnung: dunkel, Text",
+      "Endkarte"
+     ],
+     "ort": "Fahrstuhl in einem Wohnhaus, mit Erlaubnis der Hausverwaltung oder der Nachbarn",
+     "ton": "Fahrstuhl-Ding, bei jedem Öffnen ein anderer Klang",
+     "text": "„03.12.“ in der letzten Öffnung · 3 Frames „RW06“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #06. In 2 days the first pair arrives. Time Travel · 22.04.2027",
+     "check": "Erlaubnis da · keine Nachbarn im Bild · Codewort RW06"
+    }
+   }
+  ]
+ },
+ "2026-12-19": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #07 „Die Hose zieht sich selbst an“ (Rückwärts)",
+    "m": 60,
+    "s": [
+     "Die Idee: Die Jeans liegt auf dem Boden, du springst, sie fliegt an dich heran und sitzt. Gedreht: Du stehst in der offenen Jeans, springst hoch, ein Freund zieht sie nach unten weg.",
+     "Was du trägst: Proto.",
+     "Vorbereitung: Proto aufknöpfen, Gürtel liegt bereit.",
+     "Du springst, der Freund zieht die Jeans gleichzeitig nach unten weg.",
+     "5–8 Takes, der sauberste zählt. Im Schnitt rückwärts abspielen.",
+     "Sicherheit: Weiche Matte, nicht auf glattem Boden springen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Patch D mit Gürtel am Ende im Bild · Codewort RW07.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R07",
+     "slot": "Post Di 22.12. 19:00",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Getting dressed, Time Travel style.",
+     "hook_de": "Anziehen auf Time-Travel-Art.",
+     "shots": [
+      "Totale vom Stativ, Füße bis Bauch, 60 fps",
+      "Am Ende: Drehung, Patch D mit Gürtel",
+      "Endkarte"
+     ],
+     "ort": "Zimmer mit weichem Teppich oder einer Matte",
+     "ton": "Wusch-Geräusch, Bass-Schlag bei der Landung",
+     "text": "3 Frames „RW07“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #07. Proto, day 16. Time Travel · 22.04.2027",
+     "check": "Patch D mit Gürtel am Ende im Bild · Codewort RW07"
+    }
+   }
+  ]
+ },
+ "2026-12-22": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #07 „Die Hose zieht sich selbst an“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R07",
+     "slot": "Di 22.12. 19:00",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Getting dressed, Time Travel style.",
+     "hook_de": "Anziehen auf Time-Travel-Art.",
+     "shots": [
+      "Totale vom Stativ, Füße bis Bauch, 60 fps",
+      "Am Ende: Drehung, Patch D mit Gürtel",
+      "Endkarte"
+     ],
+     "ort": "Zimmer mit weichem Teppich oder einer Matte",
+     "ton": "Wusch-Geräusch, Bass-Schlag bei der Landung",
+     "text": "3 Frames „RW07“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #07. Proto, day 16. Time Travel · 22.04.2027",
+     "check": "Patch D mit Gürtel am Ende im Bild · Codewort RW07"
+    }
+   }
+  ]
+ },
+ "2026-12-26": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #08 „8 Handys, 1 Sekunde“ (Bullet Time)",
+    "m": 120,
+    "s": [
+     "Die Idee: 8 Handys im Halbkreis filmen gleichzeitig. Du springst, im höchsten Punkt friert das Bild ein und dreht sich um dich: vorn Band A und Münztasche E, hinten Patch D mit dem Gürtel und B2 mit den Goldfäden.",
+     "Was du trägst: Proto.",
+     "Vorbereitung: 8 Handys leihen (Familie über die Feiertage), Stühle und Bücherstapel als Stative, eine Schnur für die Höhe.",
+     "Alle starten die Aufnahme, einer klatscht, du springst 3-mal.",
+     "Im Schnitt alle Clips am Klatschen ausrichten, dann pro Handy 2–3 Frames vom höchsten Punkt nehmen.",
+     "Sicherheit: Weicher Boden beim Springen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Front und Rücken im Freeze · alle Handys auf gleicher Höhe · Codewort RW08.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R08",
+     "slot": "Post Di 29.12. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "8 phones. 1 second. Frozen.",
+     "hook_de": "8 Handys, 1 Sekunde, eingefroren.",
+     "shots": [
+      "8 Handys im Halbkreis auf gleicher Höhe (Schnur spannen), alle 4K/60",
+      "Klatschen zum Synchronisieren, dann der Sprung",
+      "Ein normaler Clip von vorn als Start",
+      "Endkarte"
+     ],
+     "ort": "Wohnzimmer oder Hof, Familie oder Freunde mit 8 Handys",
+     "ton": "Klatschen, Stille im Freeze, Bass-Schlag beim Weiterlaufen",
+     "text": "3 Frames „RW08“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #08. 8 phones, my family, one second. Time Travel · 22.04.2027",
+     "check": "Front und Rücken im Freeze · alle Handys auf gleicher Höhe · Codewort RW08"
+    }
+   }
+  ]
+ },
+ "2026-12-27": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #09 „Hält der Lebensbaum 20 kg?“ (Speed Ramp)",
+    "m": 45,
+    "s": [
+     "Die Idee: Der Gürtel läuft durch Patch D. Du hängst 20 kg daran, die Jeans hängt an einem stabilen Haken. Zeitlupe auf Nähte und Nieten. Das ist zugleich der Zugtest, den du für die Fabrik ohnehin machen musst.",
+     "Was du trägst: Proto.",
+     "Vorbereitung: 20 kg: Hantel oder Wasserflaschen in einer Tasche, Gurt zum Einhängen in den Gürtel.",
+     "Gewicht langsam anhängen, 30 s halten, abnehmen.",
+     "Hält es nicht: Das Video zeigt es trotzdem ehrlich, mit dem Satz „Das ändern wir jetzt“. Fotos der Nähte an Claude für die Fabrik.",
+     "Sicherheit: Das Gewicht hängt nie über deinen Füßen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Ergebnis ehrlich zeigen · Nahfotos der Nähte gespeichert · Codewort RW09.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R09",
+     "slot": "Post Sa 02.01. 12:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Can a tree of life hold 20 kg?",
+     "hook_de": "Hält ein Lebensbaum 20 kg?",
+     "shots": [
+      "Totale: Jeans am Haken, Gewicht kommt dazu",
+      "Makro: Nieten und Seitennähte des Patches, 120 fps",
+      "Ergebnis: 30 s halten",
+      "Endkarte"
+     ],
+     "ort": "Tür oder Klimmzugstange, darunter eine Decke",
+     "ton": "Spannung, dann Stille, Bass-Schlag beim Ergebnis",
+     "text": "Zähler 0 → 20 kg · 3 Frames „RW09“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #09. Our belt loop is a tree of life. We tested it. Time Travel · 22.04.2027",
+     "check": "Ergebnis ehrlich zeigen · Nahfotos der Nähte gespeichert · Codewort RW09"
+    }
+   }
+  ]
+ },
+ "2026-12-29": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #08 „8 Handys, 1 Sekunde“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R08",
+     "slot": "Di 29.12. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "8 phones. 1 second. Frozen.",
+     "hook_de": "8 Handys, 1 Sekunde, eingefroren.",
+     "shots": [
+      "8 Handys im Halbkreis auf gleicher Höhe (Schnur spannen), alle 4K/60",
+      "Klatschen zum Synchronisieren, dann der Sprung",
+      "Ein normaler Clip von vorn als Start",
+      "Endkarte"
+     ],
+     "ort": "Wohnzimmer oder Hof, Familie oder Freunde mit 8 Handys",
+     "ton": "Klatschen, Stille im Freeze, Bass-Schlag beim Weiterlaufen",
+     "text": "3 Frames „RW08“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #08. 8 phones, my family, one second. Time Travel · 22.04.2027",
+     "check": "Front und Rücken im Freeze · alle Handys auf gleicher Höhe · Codewort RW08"
+    }
+   }
+  ]
+ },
+ "2026-12-30": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #10 „Ich treffe mein Ich aus 2027“ (Klon)",
+    "m": 90,
+    "s": [
+     "Die Idee: Links sitzt du heute zwischen Papier und Skizzen, rechts stehst du im April 2027 in der fertigen Jeans. Ihr redet zwei Sätze, dein späteres Ich dreht sich um und zeigt Patch D.",
+     "Was du trägst: links Hoodie, rechts Proto.",
+     "Vorbereitung: Zwei Sätze schreiben, z. B. 2026: „Wird das was?“ – 2027: „Dreh dich um.“",
+     "Beide Takes direkt hintereinander, damit das Licht gleich bleibt.",
+     "Nicht über die Bildmitte greifen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Licht in beiden Takes gleich · Maske sauber · Codewort RW10.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R10",
+     "slot": "Post So 03.01. 19:00",
+     "dauer": "15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "I met myself from April 2027.",
+     "hook_de": "Ich habe mich selbst aus dem April 2027 getroffen.",
+     "shots": [
+      "Take 1: du 2026 links im Bild",
+      "Take 2: du 2027 rechts im Bild, gleiche Kamera",
+      "Im Schnitt: Maske in der Mitte",
+      "Endkarte"
+     ],
+     "ort": "dein Zimmer, Stativ fest, Belichtung gesperrt",
+     "ton": "nur die zwei Sätze, leiser Beat darunter",
+     "text": "„2026“ und „2027“ über den beiden · 3 Frames „RW10“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #10. Me in 2026 vs me in 2027. Time Travel · 22.04.2027",
+     "check": "Licht in beiden Takes gleich · Maske sauber · Codewort RW10"
+    }
+   }
+  ]
+ },
+ "2026-12-31": {
+  "append": [
+   {
+    "c": "C",
+    "t": "18:00 · Making-of REWIND #08 posten: Rohaufnahme neben Endfassung",
+    "m": 20,
+    "s": [
+     "Geteiltes Bild: oben die Rohaufnahme, unten die Endfassung, gleich lang.",
+     "Text: „How we did it. Nobody was in danger.“",
+     "Auf die besten Fragen aus den Kommentaren antworten, eine davon als Video-Antwort."
+    ],
+    "f": "das Making-of läuft und auf das Original verweist.",
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R08M",
+     "slot": "Do 31.12. 18:00",
+     "dauer": "15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "How we did it. Nobody was in danger.",
+     "hook_de": "So haben wir's gemacht. Niemand war in Gefahr.",
+     "shots": [
+      "Rohaufnahme oben",
+      "Endfassung unten",
+      "Endkarte"
+     ],
+     "ort": "Schnitt, kein neuer Dreh",
+     "ton": "Originalton der Rohaufnahme, leiser Beat",
+     "text": "„RAW“ oben, „FINAL“ unten",
+     "cta": "Original-Video verlinken",
+     "caption": "Behind Rewind #08.",
+     "check": "Rohaufnahme zeigt klar, dass niemand in Gefahr war"
+    }
+   }
+  ]
+ },
+ "2027-01-02": {
+  "append": [
+   {
+    "c": "C",
+    "t": "12:00 · REWIND #09 „Hält der Lebensbaum 20 kg?“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R09",
+     "slot": "Sa 02.01. 12:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Can a tree of life hold 20 kg?",
+     "hook_de": "Hält ein Lebensbaum 20 kg?",
+     "shots": [
+      "Totale: Jeans am Haken, Gewicht kommt dazu",
+      "Makro: Nieten und Seitennähte des Patches, 120 fps",
+      "Ergebnis: 30 s halten",
+      "Endkarte"
+     ],
+     "ort": "Tür oder Klimmzugstange, darunter eine Decke",
+     "ton": "Spannung, dann Stille, Bass-Schlag beim Ergebnis",
+     "text": "Zähler 0 → 20 kg · 3 Frames „RW09“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #09. Our belt loop is a tree of life. We tested it. Time Travel · 22.04.2027",
+     "check": "Ergebnis ehrlich zeigen · Nahfotos der Nähte gespeichert · Codewort RW09"
+    }
+   }
+  ]
+ },
+ "2027-01-03": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #10 „Ich treffe mein Ich aus 2027“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R10",
+     "slot": "So 03.01. 19:00",
+     "dauer": "15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "I met myself from April 2027.",
+     "hook_de": "Ich habe mich selbst aus dem April 2027 getroffen.",
+     "shots": [
+      "Take 1: du 2026 links im Bild",
+      "Take 2: du 2027 rechts im Bild, gleiche Kamera",
+      "Im Schnitt: Maske in der Mitte",
+      "Endkarte"
+     ],
+     "ort": "dein Zimmer, Stativ fest, Belichtung gesperrt",
+     "ton": "nur die zwei Sätze, leiser Beat darunter",
+     "text": "„2026“ und „2027“ über den beiden · 3 Frames „RW10“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #10. Me in 2026 vs me in 2027. Time Travel · 22.04.2027",
+     "check": "Licht in beiden Takes gleich · Maske sauber · Codewort RW10"
+    }
+   }
+  ]
+ },
+ "2027-01-08": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #11 „G-Klasse II“ (Rückwärts)",
+    "m": 120,
+    "s": [
+     "Die Idee: Die Fortsetzung von #01, jetzt mit dem PP-Muster. Gleicher Ablauf, gleicher Seitschritt. Nach der Drehung siehst du Patch D mit dem Gürtel dahinter. Dann die Endkarte zur Vorbestellung.",
+     "Was du trägst: PP-Muster.",
+     "Vorbereitung: Mit deinem Vater den Termin bis So 03.01. festmachen. Ort wie bei #01.",
+     "Genau wie bei #01: Das Auto fährt nur rückwärts, du stehst nie davor.",
+     "Diesmal 5 Takes, der beste mit sauberem Blick auf den Patch.",
+     "Sicherheit: Wie bei #01, ohne Ausnahme."
+    ],
+    "f": "die Rohclips gesichert sind und der Check stimmt: Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · Preis und Stückzahl stimmen mit dem Shop · Codewort RW11.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R11",
+     "slot": "Post Do 14.01. 19:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Last time I had no jeans. Now I do.",
+     "hook_de": "Letztes Mal hatte ich keine Hose dabei. Jetzt schon.",
+     "shots": [
+      "Totale wie bei #01, gleiche Position",
+      "Über die Schulter von hinten",
+      "Rücken: Patch D, Gürtel dahinter, Zeitlupe",
+      "Endkarte Vorbestellung"
+     ],
+     "ort": "derselbe Ort wie bei REWIND #01",
+     "ton": "wie bei #01, damit man es wiedererkennt",
+     "text": "„Reverse. Nobody was in danger.“ · 3 Frames „RW11“ · Endkarte „Pre-order now · 35 pairs · €149“",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #11. Pre-orders are open: 35 pairs at €149. Link in bio. Time Travel · 22.04.2027",
+     "check": "Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · Preis und Stückzahl stimmen mit dem Shop · Codewort RW11"
+    }
+   }
+  ]
+ },
+ "2027-01-09": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Schnitt · REWIND #11 „G-Klasse II“",
+    "m": 45,
+    "s": [
+     "Besten Take wählen, in CapCut: Clip → Rückwärts.",
+     "Geschwindigkeit 1,5–2x, damit das Auto schnell wirkt. Prüfen: Wirkt nichts rückwärts (Passanten, Rauch, Haare)?",
+     "Hinweis „Reverse. Nobody was in danger.“ klein unten, Kennzeichen unscharf (Mosaik-Effekt mit Tracking).",
+     "Ton: Motor, Bass-Schlag auf dem Seitschritt. Signatur und 3 Frames Codewort ans Ende.",
+     "Einmal stumm und einmal mit 0,5x ansehen. Was dann auffällt, fällt auch Zuschauern auf.",
+     "Die Rohaufnahme behalten: Sie ist das Making-of."
+    ],
+    "f": "die Endfassung im Ordner liegt und der Check stimmt.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ]
+   }
+  ]
+ },
+ "2027-01-14": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #11 „G-Klasse II“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R11",
+     "slot": "Do 14.01. 19:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Last time I had no jeans. Now I do.",
+     "hook_de": "Letztes Mal hatte ich keine Hose dabei. Jetzt schon.",
+     "shots": [
+      "Totale wie bei #01, gleiche Position",
+      "Über die Schulter von hinten",
+      "Rücken: Patch D, Gürtel dahinter, Zeitlupe",
+      "Endkarte Vorbestellung"
+     ],
+     "ort": "derselbe Ort wie bei REWIND #01",
+     "ton": "wie bei #01, damit man es wiedererkennt",
+     "text": "„Reverse. Nobody was in danger.“ · 3 Frames „RW11“ · Endkarte „Pre-order now · 35 pairs · €149“",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #11. Pre-orders are open: 35 pairs at €149. Link in bio. Time Travel · 22.04.2027",
+     "check": "Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · Preis und Stückzahl stimmen mit dem Shop · Codewort RW11"
+    }
+   }
+  ]
+ },
+ "2027-01-21": {
+  "append": [
+   {
+    "c": "C",
+    "t": "18:00 · Making-of REWIND #11 posten: Rohaufnahme neben Endfassung",
+    "m": 20,
+    "s": [
+     "Geteiltes Bild: oben die Rohaufnahme, unten die Endfassung, gleich lang.",
+     "Text: „How we did it. Nobody was in danger.“",
+     "Auf die besten Fragen aus den Kommentaren antworten, eine davon als Video-Antwort."
+    ],
+    "f": "das Making-of läuft und auf das Original verweist.",
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R11M",
+     "slot": "Do 21.01. 18:00",
+     "dauer": "15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "How we did it. Nobody was in danger.",
+     "hook_de": "So haben wir's gemacht. Niemand war in Gefahr.",
+     "shots": [
+      "Rohaufnahme oben",
+      "Endfassung unten",
+      "Endkarte"
+     ],
+     "ort": "Schnitt, kein neuer Dreh",
+     "ton": "Originalton der Rohaufnahme, leiser Beat",
+     "text": "„RAW“ oben, „FINAL“ unten",
+     "cta": "Original-Video verlinken",
+     "caption": "Behind Rewind #11. The car only drove backwards.",
+     "check": "Rohaufnahme zeigt klar, dass niemand in Gefahr war"
+    }
+   }
+  ]
+ },
+ "2027-01-28": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #12 „Der Baum wächst aus der Hose“ (Match Cut)",
+    "m": 90,
+    "s": [
+     "Die Idee: Die Kamera fährt in den Lebensbaum auf Patch D. Eine Überblendung auf einen echten kahlen Winterbaum im Tiergarten, gleiche Form an gleicher Stelle. Die Kamera kippt nach unten: Du lehnst am Baum, Rücken zur Kamera, Gürtel hinter dem Patch.",
+     "Was du trägst: PP-Muster.",
+     "Vorbereitung: Vorher einen Baum suchen, der der Patch-Krone ähnelt. Raster in der Kamera einschalten.",
+     "Erst den Baum filmen, dann den Patch zu Hause in derselben Bildposition.",
+     "Überblendung 4 Frames.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Nie „slawischer Lebensbaum“ · Formen deckungsgleich · Codewort RW12.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R12",
+     "slot": "Post Di 02.02. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "This tree grew out of my jeans.",
+     "hook_de": "Dieser Baum ist aus meiner Hose gewachsen.",
+     "shots": [
+      "Makro: Fahrt in den Patch",
+      "Gleiche Bildposition: der echte Baum",
+      "Neigung nach unten: du am Baum",
+      "Endkarte"
+     ],
+     "ort": "Tiergarten, ein freistehender Baum mit ähnlicher Krone",
+     "ton": "Wind, ein tiefer Ton bei der Überblendung",
+     "text": "3 Frames „RW12“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #12. Tree of life, Tiergarten. Time Travel · 22.04.2027",
+     "check": "Nie „slawischer Lebensbaum“ · Formen deckungsgleich · Codewort RW12"
+    }
+   }
+  ]
+ },
+ "2027-02-02": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #12 „Der Baum wächst aus der Hose“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R12",
+     "slot": "Di 02.02. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "This tree grew out of my jeans.",
+     "hook_de": "Dieser Baum ist aus meiner Hose gewachsen.",
+     "shots": [
+      "Makro: Fahrt in den Patch",
+      "Gleiche Bildposition: der echte Baum",
+      "Neigung nach unten: du am Baum",
+      "Endkarte"
+     ],
+     "ort": "Tiergarten, ein freistehender Baum mit ähnlicher Krone",
+     "ton": "Wind, ein tiefer Ton bei der Überblendung",
+     "text": "3 Frames „RW12“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #12. Tree of life, Tiergarten. Time Travel · 22.04.2027",
+     "check": "Nie „slawischer Lebensbaum“ · Formen deckungsgleich · Codewort RW12"
+    }
+   }
+  ]
+ },
+ "2027-02-04": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #13 „Rückgängig“ (Rückwärts + Zeitlupe)",
+    "m": 60,
+    "s": [
+     "Die Idee: Ein Freund kippt dir ein Glas Wasser auf die Jeans. Rückwärts abgespielt fliegt das Wasser zurück ins Glas, die Jeans ist trocken.",
+     "Was du trägst: Proto, nicht das PP-Muster.",
+     "Vorbereitung: Nur klares Wasser. Vorher an einer Innennaht testen, ob Ränder bleiben.",
+     "2–3 Takes, dazwischen trocknen lassen oder Ersatzjeans für die Proben nehmen.",
+     "Sicherheit: Rutschfester Boden.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Nur Wasser · Proto statt PP-Muster · Codewort RW13.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R13",
+     "slot": "Post Di 09.02. 19:00",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Time Travel denim has an undo button.",
+     "hook_de": "Time-Travel-Jeans haben einen Rückgängig-Knopf.",
+     "shots": [
+      "Halbtotale, 120 fps",
+      "Detail: Tropfen auf Band A",
+      "Endkarte"
+     ],
+     "ort": "draußen oder im Bad",
+     "ton": "Platschen, rückwärts abgespielt",
+     "text": "„Ctrl+Z“ klein oben · 3 Frames „RW13“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #13. Undo. Time Travel · 22.04.2027",
+     "check": "Nur Wasser · Proto statt PP-Muster · Codewort RW13"
+    }
+   }
+  ]
+ },
+ "2027-02-09": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #13 „Rückgängig“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R13",
+     "slot": "Di 09.02. 19:00",
+     "dauer": "6–8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Time Travel denim has an undo button.",
+     "hook_de": "Time-Travel-Jeans haben einen Rückgängig-Knopf.",
+     "shots": [
+      "Halbtotale, 120 fps",
+      "Detail: Tropfen auf Band A",
+      "Endkarte"
+     ],
+     "ort": "draußen oder im Bad",
+     "ton": "Platschen, rückwärts abgespielt",
+     "text": "„Ctrl+Z“ klein oben · 3 Frames „RW13“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #13. Undo. Time Travel · 22.04.2027",
+     "check": "Nur Wasser · Proto statt PP-Muster · Codewort RW13"
+    }
+   }
+  ]
+ },
+ "2027-02-11": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #14 „Ein Goldfaden setzt sich selbst“ (Stop-Motion)",
+    "m": 90,
+    "s": [
+     "Die Idee: Makro auf der linken Gesäßtasche: Ein Goldfaden kriecht Bild für Bild durch den Stoff und knotet sich selbst, wie von Geisterhand.",
+     "Was du trägst: PP-Muster.",
+     "Vorbereitung: Handy-Halterung oder Bücherstapel, Fernauslöser oder Timer.",
+     "Pro Foto den Faden 2–3 mm weiterziehen, Hände raus, Foto.",
+     "In CapCut 0,1 s pro Foto.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Licht bleibt gleich · nicht „handgestickt“ schreiben · Codewort RW14.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R14",
+     "slot": "Post Di 16.02. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Nine gold threads. Set by hand. Watch one.",
+     "hook_de": "Neun Goldfäden, von Hand gesetzt. Schau einem zu.",
+     "shots": [
+      "Makro von oben, Handy fest montiert, 60–80 Fotos",
+      "Am Ende: B2 komplett mit allen Fäden",
+      "Endkarte"
+     ],
+     "ort": "Schreibtisch, Lampe statt Fenster",
+     "ton": "leises Ticken bei jedem Bild",
+     "text": "3 Frames „RW14“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #14. Embroidered by machine, threads set by hand. Time Travel · 22.04.2027",
+     "check": "Licht bleibt gleich · nicht „handgestickt“ schreiben · Codewort RW14"
+    }
+   }
+  ]
+ },
+ "2027-02-16": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #14 „Ein Goldfaden setzt sich selbst“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R14",
+     "slot": "Di 16.02. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Nine gold threads. Set by hand. Watch one.",
+     "hook_de": "Neun Goldfäden, von Hand gesetzt. Schau einem zu.",
+     "shots": [
+      "Makro von oben, Handy fest montiert, 60–80 Fotos",
+      "Am Ende: B2 komplett mit allen Fäden",
+      "Endkarte"
+     ],
+     "ort": "Schreibtisch, Lampe statt Fenster",
+     "ton": "leises Ticken bei jedem Bild",
+     "text": "3 Frames „RW14“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #14. Embroidered by machine, threads set by hand. Time Travel · 22.04.2027",
+     "check": "Licht bleibt gleich · nicht „handgestickt“ schreiben · Codewort RW14"
+    }
+   }
+  ]
+ },
+ "2027-02-18": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #15 „Gleicher Ort, 100 Jahre später“ (Match Cut)",
+    "m": 90,
+    "s": [
+     "Die Idee: Ein altes Foto einer Berliner Straße aus den 1920ern füllt das Bild. Du trittst genau an der Stelle aus dem Schwarzweiß in die Farbe von heute und gehst auf die Kamera zu.",
+     "Was du trägst: PP-Muster.",
+     "Vorbereitung: Bis Mo 15.02. ein Foto suchen, das gemeinfrei ist oder eine freie Lizenz mit Namensnennung hat. Die Lizenz notieren.",
+     "Standort und Höhe der alten Kamera nachstellen, dann eine Überblendung von 6 Frames.",
+     "Sicherheit: Nicht auf der Fahrbahn stehen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Lizenz des Fotos geprüft und genannt · Codewort RW15.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R15",
+     "slot": "Post Mi 24.02. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Same spot. 100 years later.",
+     "hook_de": "Gleicher Ort, 100 Jahre später.",
+     "shots": [
+      "Altes Foto, langsamer Zoom",
+      "Gleicher Blickwinkel heute, du trittst ins Bild",
+      "Totale: du gehst auf die Kamera zu",
+      "Endkarte"
+     ],
+     "ort": "ein Berliner Ort, von dem es ein frei nutzbares altes Foto gibt",
+     "ton": "Grammophon-Knistern, dann der Beat",
+     "text": "Jahr im alten Bild · Bildnachweis in der Caption · 3 Frames „RW15“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #15. Same street, 100 years apart. Photo: [Bildnachweis]. Time Travel · 22.04.2027",
+     "check": "Lizenz des Fotos geprüft und genannt · Codewort RW15"
+    }
+   }
+  ]
+ },
+ "2027-02-24": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #15 „Gleicher Ort, 100 Jahre später“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R15",
+     "slot": "Mi 24.02. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Same spot. 100 years later.",
+     "hook_de": "Gleicher Ort, 100 Jahre später.",
+     "shots": [
+      "Altes Foto, langsamer Zoom",
+      "Gleicher Blickwinkel heute, du trittst ins Bild",
+      "Totale: du gehst auf die Kamera zu",
+      "Endkarte"
+     ],
+     "ort": "ein Berliner Ort, von dem es ein frei nutzbares altes Foto gibt",
+     "ton": "Grammophon-Knistern, dann der Beat",
+     "text": "Jahr im alten Bild · Bildnachweis in der Caption · 3 Frames „RW15“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #15. Same street, 100 years apart. Photo: [Bildnachweis]. Time Travel · 22.04.2027",
+     "check": "Lizenz des Fotos geprüft und genannt · Codewort RW15"
+    }
+   }
+  ]
+ },
+ "2027-03-10": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #16 „Riesen-Jeans am Fernsehturm“ (KI-Video)",
+    "m": 100,
+    "s": [
+     "Die Idee: Wie die Riesen-Taschen von Jacquemus: Eine riesige Time-Travel-Jeans hängt an der Kugel des Fernsehturms wie an einer Wäscheleine. Du machst ein echtes Handyfoto, ein KI-Videotool macht daraus das Video. Es wird klar als KI gekennzeichnet.",
+     "Was du trägst: kein Dreh am Körper, nur zwei Fotos.",
+     "Vorbereitung: Vorher den Preis des KI-Tools prüfen und Claude fragen, welches Tool gerade passt. Budget-Obergrenze: 30 €.",
+     "Bild-zu-Video mit beiden Fotos, 4–6 Versuche.",
+     "Die beste Fassung in CapCut mit Endkarte.",
+     "Sicherheit: KI-Kennzeichnung in der App einschalten. Keine echten Personen erzeugen.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: KI-Kennzeichnung an · Kosten unter 30 € · Codewort RW16.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R16",
+     "slot": "Post Do 11.03. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Berlin, this morning.",
+     "hook_de": "Berlin, heute Morgen.",
+     "shots": [
+      "Echtes Foto des Fernsehturms als Grundlage",
+      "Produktfoto der Jeans als zweites Bild",
+      "Ergebnis 8 s, dann Endkarte"
+     ],
+     "ort": "echtes Foto vom Fernsehturm, z. B. von der Karl-Liebknecht-Straße",
+     "ton": "Stadtgeräusche, Wind",
+     "text": "„Made with AI“ · 3 Frames „RW16“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #16. Made with AI, our jeans are real. Time Travel · 22.04.2027",
+     "check": "KI-Kennzeichnung an · Kosten unter 30 € · Codewort RW16"
+    }
+   }
+  ]
+ },
+ "2027-03-11": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #16 „Riesen-Jeans am Fernsehturm“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R16",
+     "slot": "Do 11.03. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Berlin, this morning.",
+     "hook_de": "Berlin, heute Morgen.",
+     "shots": [
+      "Echtes Foto des Fernsehturms als Grundlage",
+      "Produktfoto der Jeans als zweites Bild",
+      "Ergebnis 8 s, dann Endkarte"
+     ],
+     "ort": "echtes Foto vom Fernsehturm, z. B. von der Karl-Liebknecht-Straße",
+     "ton": "Stadtgeräusche, Wind",
+     "text": "„Made with AI“ · 3 Frames „RW16“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #16. Made with AI, our jeans are real. Time Travel · 22.04.2027",
+     "check": "KI-Kennzeichnung an · Kosten unter 30 € · Codewort RW16"
+    }
+   }
+  ]
+ },
+ "2027-03-25": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #18 „Der Zeitsog“ (Dolly-Zoom)",
+    "m": 60,
+    "s": [
+     "Die Idee: Du stehst am Ende eines Fußgängertunnels. Die Kamera geht rückwärts und zoomt gleichzeitig hinein: Der Tunnel kippt nach hinten wie ein Sog, du bleibst gleich groß. Schnitt auf den Rücken mit Patch D.",
+     "Was du trägst: PP-Muster.",
+     "Vorbereitung: Zu Hause den Dolly-Zoom üben, bis dein Gesicht gleich groß bleibt.",
+     "Zeit wählen, in der wenig Leute durchgehen. 5 Versuche.",
+     "Sicherheit: Der Freund passt auf, dass du beim Rückwärtsgehen frei bist.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Keine Passanten nah im Bild · Codewort RW18.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R18",
+     "slot": "Post Sa 03.04. 12:00",
+     "dauer": "6 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "When time pulls you forward.",
+     "hook_de": "Wenn die Zeit dich nach vorn zieht.",
+     "shots": [
+      "Dolly-Zoom 4 s",
+      "Rücken mit Patch D",
+      "Endkarte"
+     ],
+     "ort": "Fußgängertunnel, kurzer Dreh aus der Hand ohne Aufbau",
+     "ton": "tiefes Wummern, das ansteigt",
+     "text": "3 Frames „RW18“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #18. 19 days. Time Travel · 22.04.2027",
+     "check": "Keine Passanten nah im Bild · Codewort RW18"
+    }
+   }
+  ]
+ },
+ "2027-03-27": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #17 „Berlin steht still“ (Zeit anhalten)",
+    "m": 120,
+    "s": [
+     "Die Idee: Die große Fassung von #02, im Mauerpark mit 10 Freunden: Einer erstarrt mitten im Sprung, einer beim Werfen, einer beim Lachen. Nur du gehst durch das Bild, Rücken zur Kamera, Patch D mit Gürtel.",
+     "Was du trägst: PP-Muster.",
+     "Vorbereitung: Freunde aus der Liste „Die ersten 35“ und den Abenden fragen.",
+     "Eine Probe, dann 3 Takes. Wer springt, wird im Schnitt als Standbild eingefroren.",
+     "Sicherheit: Fremde nur klein im Hintergrund.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Nur Freunde mit Einverständnis im Vordergrund · Codewort RW17.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R17",
+     "slot": "Post Di 30.03. 19:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Berlin froze for 10 seconds.",
+     "hook_de": "Berlin stand 10 Sekunden still.",
+     "shots": [
+      "Stativ, Weitwinkel, ein Take mit Bewegung und einer mit Erstarren",
+      "Freeze per Maske für die Sprünge",
+      "Endkarte"
+     ],
+     "ort": "Mauerpark oder ein Platz, wo nur deine Freunde im Vordergrund sind",
+     "ton": "Klatschen, Stille, Klatschen, Musik",
+     "text": "3 Frames „RW17“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #17. Thanks to everyone who froze. Time Travel · 22.04.2027",
+     "check": "Nur Freunde mit Einverständnis im Vordergrund · Codewort RW17"
+    }
+   }
+  ]
+ },
+ "2027-03-30": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #17 „Berlin steht still“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R17",
+     "slot": "Di 30.03. 19:00",
+     "dauer": "12 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Berlin froze for 10 seconds.",
+     "hook_de": "Berlin stand 10 Sekunden still.",
+     "shots": [
+      "Stativ, Weitwinkel, ein Take mit Bewegung und einer mit Erstarren",
+      "Freeze per Maske für die Sprünge",
+      "Endkarte"
+     ],
+     "ort": "Mauerpark oder ein Platz, wo nur deine Freunde im Vordergrund sind",
+     "ton": "Klatschen, Stille, Klatschen, Musik",
+     "text": "3 Frames „RW17“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #17. Thanks to everyone who froze. Time Travel · 22.04.2027",
+     "check": "Nur Freunde mit Einverständnis im Vordergrund · Codewort RW17"
+    }
+   }
+  ]
+ },
+ "2027-04-03": {
+  "append": [
+   {
+    "c": "C",
+    "t": "12:00 · REWIND #18 „Der Zeitsog“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R18",
+     "slot": "Sa 03.04. 12:00",
+     "dauer": "6 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "When time pulls you forward.",
+     "hook_de": "Wenn die Zeit dich nach vorn zieht.",
+     "shots": [
+      "Dolly-Zoom 4 s",
+      "Rücken mit Patch D",
+      "Endkarte"
+     ],
+     "ort": "Fußgängertunnel, kurzer Dreh aus der Hand ohne Aufbau",
+     "ton": "tiefes Wummern, das ansteigt",
+     "text": "3 Frames „RW18“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #18. 19 days. Time Travel · 22.04.2027",
+     "check": "Keine Passanten nah im Bild · Codewort RW18"
+    }
+   }
+  ]
+ },
+ "2027-04-10": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #19 „Paar 001, eingefroren“ (Bullet Time)",
+    "m": 100,
+    "s": [
+     "Die Idee: Bullet Time 2.0 mit der Serienware: Du springst, das Bild friert ein und dreht sich bis zur Rückseite, wo Patch D mit Nummer 001 sitzt.",
+     "Was du trägst: Paar 001 der Serie.",
+     "Vorbereitung: Gleiche Aufstellung wie bei #08. Freunde für 8 Handys fragen.",
+     "3 Sprünge, im Schnitt wie bei #08.",
+     "Sicherheit: Weicher Boden.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Nummer gut lesbar · Paar danach sauber zurück in den Bestand · Codewort RW19.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R19",
+     "slot": "Post Di 13.04. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Pair 001. Frozen in time.",
+     "hook_de": "Paar 001, eingefroren.",
+     "shots": [
+      "8 Handys im Halbkreis, Klatschen, Sprung",
+      "Freeze mit Drehung bis zur Rückseite",
+      "Makro: Nummer 001",
+      "Endkarte"
+     ],
+     "ort": "wie bei #08, wieder 8 Handys",
+     "ton": "wie bei #08, damit man es wiedererkennt",
+     "text": "„9 days“ · 3 Frames „RW19“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #19. Pair 001 of 100. Time Travel · 22.04.2027 · 19:00",
+     "check": "Nummer gut lesbar · Paar danach sauber zurück in den Bestand · Codewort RW19"
+    }
+   }
+  ]
+ },
+ "2027-04-13": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #19 „Paar 001, eingefroren“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R19",
+     "slot": "Di 13.04. 19:00",
+     "dauer": "8 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Pair 001. Frozen in time.",
+     "hook_de": "Paar 001, eingefroren.",
+     "shots": [
+      "8 Handys im Halbkreis, Klatschen, Sprung",
+      "Freeze mit Drehung bis zur Rückseite",
+      "Makro: Nummer 001",
+      "Endkarte"
+     ],
+     "ort": "wie bei #08, wieder 8 Handys",
+     "ton": "wie bei #08, damit man es wiedererkennt",
+     "text": "„9 days“ · 3 Frames „RW19“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #19. Pair 001 of 100. Time Travel · 22.04.2027 · 19:00",
+     "check": "Nummer gut lesbar · Paar danach sauber zurück in den Bestand · Codewort RW19"
+    }
+   }
+  ]
+ },
+ "2027-04-23": {
+  "append": [
+   {
+    "c": "C",
+    "t": "Dreh · REWIND #20 „Diesmal fuhr er vorwärts“ (Rückblende auf #01)",
+    "m": 30,
+    "s": [
+     "Die Idee: Das Finale: Dein Vater fährt mit der G-Klasse ganz normal vorwärts zur Post, der Kofferraum geht auf, darin stehen die Pakete der ersten Bestellungen. Am Anfang 1 s aus REWIND #01 als Rückblende.",
+     "Was du trägst: Time-Travel-Jeans.",
+     "Vorbereitung: Beim Versand am Fr 23.04. das Handy bereithalten.",
+     "Normales Fahren nach Straßenverkehrsordnung. Kurzer Dreh beim Ausladen.",
+     "Sicherheit: Normal parken, keine Kundendaten im Bild.",
+     "Gleich danach schneiden: Signatur ans Ende (Rückspul-Geräusch, Hand gegen den Uhrzeigersinn, Endkarte TIME TRAVEL · 22.04.) und die 3 Frames mit dem Codewort."
+    ],
+    "f": "die Rohclips gesichert sind und der Schnitt fertig ist und der Check stimmt: Keine Adressen lesbar · Kennzeichen unscharf · Codewort RW20.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R20",
+     "slot": "Post Sa 24.04. 12:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "This time my dad drove forward.",
+     "hook_de": "Diesmal fuhr mein Vater vorwärts.",
+     "shots": [
+      "1 s Rückblende aus #01",
+      "Auto hält, Kofferraum geht auf",
+      "Pakete, keine Adressen lesbar",
+      "Endkarte „Thank you“"
+     ],
+     "ort": "vor der Post oder dem Partnerladen, normal geparkt",
+     "ton": "der Motor aus #01, dann ruhiger Beat",
+     "text": "3 Frames „RW20“ · Endkarte „Thank you · Drop 2 soon“",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #20. The first orders are on their way. Thank you. Time Travel",
+     "check": "Keine Adressen lesbar · Kennzeichen unscharf · Codewort RW20"
+    }
+   }
+  ]
+ },
+ "2027-04-24": {
+  "append": [
+   {
+    "c": "C",
+    "t": "12:00 · REWIND #20 „Diesmal fuhr er vorwärts“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R20",
+     "slot": "Sa 24.04. 12:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "This time my dad drove forward.",
+     "hook_de": "Diesmal fuhr mein Vater vorwärts.",
+     "shots": [
+      "1 s Rückblende aus #01",
+      "Auto hält, Kofferraum geht auf",
+      "Pakete, keine Adressen lesbar",
+      "Endkarte „Thank you“"
+     ],
+     "ort": "vor der Post oder dem Partnerladen, normal geparkt",
+     "ton": "der Motor aus #01, dann ruhiger Beat",
+     "text": "3 Frames „RW20“ · Endkarte „Thank you · Drop 2 soon“",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #20. The first orders are on their way. Thank you. Time Travel",
+     "check": "Keine Adressen lesbar · Kennzeichen unscharf · Codewort RW20"
+    }
+   }
+  ]
+ }
+}

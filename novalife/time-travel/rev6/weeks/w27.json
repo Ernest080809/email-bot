@@ -25,7 +25,7 @@
     "Gleichzeitig kurze WhatsApp oder Anruf, falls die Fabrik über WhatsApp schneller antwortet. Was am Telefon gesagt wird, schreibst du danach als Mail zur Bestätigung zurück.",
      "Antwort ins Blatt „Fabriken“, Zeile deiner Fabrik: Status am 15.03., Endkontrolle am, Versand am.",
      "Verschiebt sich die Endkontrolle oder der Versand um mehr als 3 Tage: sofort den Prompt unten an Claude. Die Restzahlung am Fr hängt am Endkontroll-Nachweis.",
-     "Erinnere die Fabrik an das Endkontroll-Paket aus der PO: Video der gepackten Kartons, je Größe 2 Paar mit 10 Maßen, 5 Elemente an 10 Zufallspaaren, Fäden, Patch, Saum, Packliste je Größe."
+     "Erinnere die Fabrik an das Endkontroll-Paket aus der PO: Video der gepackten Kartons, je Größe 2 Paar mit 10 Maßen, 4 Stickereien an 10 Zufallspaaren, Fäden, Patch, Saum, Packliste je Größe."
     ],
     "f": "Endkontrolle und Versanddatum stehen schriftlich in einer Mail der Fabrik und im Blatt „Fabriken“.",
     "p": "Projekt Time Travel, Docket W27, Mo 15.03. Die Fabrik meldet nach dem Fest: Endkontrolle neu am [Datum], Versand neu am [Datum], Grund: [..]. Restzahlung war für Fr 19.03. geplant, Backstop Mi 24.03., spätester Wareneingang für den Drop Do 15.04. Rechne mir: Reicht das noch für den Drop am 22.04.? Was schreibe ich der Fabrik (englischer Text, freundlich, mit festem Datum)? Was ändert sich an Restzahlung, Warenannahme und Countdown?",
@@ -161,7 +161,7 @@
      "text": "0–2 s Hook EN, Untertitel, je Makro ein Wort: „wheat“ · „tree of life“ · „no gold“",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
      "caption": "Gold belongs to the wheat and the tree of life. Nowhere else on the jeans. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidereddenim #denim #novalifetimetravel",
-     "check": "B und B2 nie im selben Bild (Ähren allein), keine Seitenansicht links, kein roter Hintergrund, Lebensbaum nie „slawisch“, CTA der Phase."
+     "check": "Kein roter Hintergrund, Lebensbaum nie „slawisch“, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -234,7 +234,7 @@
      "text": "„OCT“ über dem Papier, „MAR“ über dem Garn",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
      "caption": "Paper → thread. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #buildinpublic #novalifetimetravel",
-     "check": "Keine Seitenansicht links, B und B2 nicht im selben Bild, Musik nur aus der Business-Bibliothek, CTA der Phase."
+     "check": "Musik nur aus der Business-Bibliothek, CTA der Phase."
     },
     "o": [
      {"n": "TikTok · Creative Center", "u": "https://www.tiktok.com", "h": "Commercial Music Library, Region DE"},
@@ -251,10 +251,10 @@
     "s": [
      "CapCut: Vorlage einmal bauen. 9:16, dunkler Indigo-Grund, oben groß „T−24“, unten „22.04. · 19:00“, Mitte ein Clip von 4–6 s. Danach tauschst du nur Zahl und Clip. Keine Musik einbacken.",
      "Fehlende Makros heute zu Hause drehen: Fensterbank, Licht von vorn, Graukarte im ersten Frame, je Shot 3 Takes, 9:16.",
-     "CD-T24 Mo 29.03.: Ganzkörper vorn aus dem Shoot, langsamer Zoom auf die rechte Vordertasche · CD-T23 Di 30.03.: Kreuzstich-Band A im Makro, Schwenk entlang der Tasche · CD-T22 Mi 31.03.: Münztasche E im Makro, Lineal daneben · CD-T21 Do 01.04.: Gesäßtasche, drei Ähren B2, Goldfäden (ohne Serp im Bild).",
+     "CD-T24 Mo 29.03.: Ganzkörper vorn aus dem Shoot, langsamer Zoom auf die rechte Vordertasche · CD-T23 Di 30.03.: Kreuzstich-Band A im Makro, Schwenk entlang der Tasche · CD-T22 Mi 31.03.: Münztasche E im Makro, Lineal daneben · CD-T21 Do 01.04.: Gesäßtasche, drei Ähren B2, Goldfäden.",
      "CD-T20 Fr 02.04.: Goldfäden in Bewegung (Hand oder Fön auf kleinster Stufe) · CD-T19 Sa 03.04.: Achtstern C auf der rechten Gesäßtasche, Kamera kommt langsam näher · CD-T18 So 04.04.: Lebensbaum-Patch D, Zoom auf Knoten und Wurzeln.",
      "CD-T17 Mo 05.04.: Gruppenbild aus dem Shoot, Jeans, Zipper, Polo · CD-T16 Di 06.04.: Zipper-Rücken mit dem Medaillon · CD-T15 Mi 07.04.: Polo, Bänder an der Knopfleiste · CD-T14 Do 08.04.: Hangtag mit Nummer 001 in der Hand, Text „2 weeks“ · CD-T13 Fr 09.04.: „So ist der Shoot entstanden.“ BTS vom Shoot, 0,5 s je Clip.",
-     "Jedes Asset gegen die Bildregeln prüfen: B und B2 nie im selben Frame, keine Seitenansicht links, kein roter Hintergrund, kein hellblauer Himmel über gelbem Weizen.",
+     "Jedes Asset gegen die Bildregeln prüfen: kein roter Hintergrund, kein hellblauer Himmel über gelbem Weizen.",
      "Export in den Ordner „Countdown“, Dateinamen „CD-T24“ bis „CD-T13“. Hook EN pro Datei in die Notizen-App (Muster „24 days. 100 numbered jeans. 22.04., 19:00.“)."
     ],
     "f": "12 Dateien CD-T24 bis CD-T13 im Ordner „Countdown“ liegen und jede den Bildregel-Check bestanden hat.",
@@ -277,7 +277,7 @@
      "text": "oben „T−[n]“, unten „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (ab 05.04.; 29.03.–04.04.: Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio.)",
      "caption": "The countdown starts. 100 numbered pairs. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #denim #embroidereddenim #berlinfashion #novalifetimetravel",
-     "check": "Achtstern statt „Alatyr“, B und B2 nie im selben Bild, keine Seitenansicht links, CTA je nach Datum (vor/ab 05.04.)."
+     "check": "Achtstern statt „Alatyr“, CTA je nach Datum (vor/ab 05.04.)."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com", "h": "Vorlage 9:16, keine Musik einbacken"}
@@ -340,7 +340,7 @@
     "t": "10:00 · ENDKONTROLLE nach dem Nachweis aus der PO prüfen",
     "m": 45,
     "s": [
-     "Endkontroll-Paket der Fabrik öffnen und mit der PO abgleichen: Video aller gepackten Kartons · je Größe 2 Paar mit 10 Maßen · 5 Elemente (A, B, B2, C, D, E) an 10 Zufallspaaren · Goldfäden gesetzt · Patch gerade · Saum geschnitten · Packliste mit Stück je Größe.",
+     "Endkontroll-Paket der Fabrik öffnen und mit der PO abgleichen: Video aller gepackten Kartons · je Größe 2 Paar mit 10 Maßen · 5 Elemente (A, B2, C, D, E) an 10 Zufallspaaren · Goldfäden gesetzt · Patch gerade · Saum geschnitten · Packliste mit Stück je Größe.",
      "Die 10 Maße je Größe gegen die Spec-Tabelle (Toleranz aus dem Tech Pack) ins Blatt „Endkontrolle“ eintragen. Rot markieren, was außerhalb liegt.",
      "Mengen je Größe auf der Packliste gegen die PO prüfen.",
      "Fehlt ein Teil des Nachweises: per Mail und WhatsApp genau dieses Teil nachfordern, bis 15:00. Ohne vollständigen Nachweis keine Zahlung.",
@@ -416,13 +416,13 @@
     "s": [
      "Dieselbe CapCut-Vorlage wie am Do. Fehlende Makros heute an der Fensterbank, Licht von vorn, Graukarte, je Shot 3 Takes.",
      "CD-T12 Sa 10.04.: rohe Saumkante, Finger fährt entlang („12 days. Raw hem, cut after the wash.“) · CD-T11 So 11.04.: Zickzack am Band · CD-T10 Mo 12.04.: Teppich-Foto, harter Schnitt auf das Medaillon · CD-T09 Di 13.04.: Innenseite der Stickerei, Hose auf links.",
-     "CD-T08 Mi 14.04.: Gehen, Rückansicht aus dem Shoot · CD-T07 Do 15.04.: Ganzkörper hinten, Text „1 week“ · CD-T06 Fr 16.04.: V125 „Aus drei Metern“ („Can you spot the embroidery from here?“), Totale aus 3 m, dann Makro. Nicht die alte Seitennaht-Einstellung.",
+     "CD-T08 Mi 14.04.: Gehen, Rückansicht aus dem Shoot · CD-T07 Do 15.04.: Ganzkörper hinten, Text „1 week“ · CD-T06 Fr 16.04.: V125 „Aus drei Metern“ („Can you spot the embroidery from here?“), Totale aus 3 m, dann Makro.",
      "CD-T05 Sa 17.04.: Pflegeetikett „Fäden nicht abschneiden“ · CD-T04 So 18.04.: Hand in der Tasche, Detail aus dem Shoot · CD-T03 Mo 19.04.: Papiertest vom Oktober, harter Schnitt auf das fertige Teil.",
-     "CD-T02 Di 20.04.: alle Stickereien je 1 s in der Reihenfolge B · A · E · C · D · B2 · CD-T01 Mi 21.04.: Kampagnenfilm auf 10 s, Endframe „tomorrow 19:00“, Hook „Tomorrow, 19:00. The list gets in at 18:00.“",
+     "CD-T02 Di 20.04.: vier Stickereien und Patch je 1 s in der Reihenfolge A · E · C · D · B2, dazu die Goldfäden; D als Gürtelschlaufe von hinten, der Gürtel läuft dahinter · CD-T01 Mi 21.04.: Kampagnenfilm auf 10 s, Endframe „tomorrow 19:00“, Hook „Tomorrow, 19:00. The list gets in at 18:00.“",
      "Bildregel-Check je Datei, Export in „Countdown“. Danach Ordner zählen: 24 Dateien.",
      "Notiz an CD-T12: Schicken Vorbesteller bis dahin Fotos mit Erlaubnis, ersetzt ein echtes Foto das Asset."
     ],
-    "f": "24 Dateien CD-T24 bis CD-T01 im Ordner „Countdown“ liegen, CD-T06 ist V125, CD-T02 in der Reihenfolge B · A · E · C · D · B2.",
+    "f": "24 Dateien CD-T24 bis CD-T01 im Ordner „Countdown“ liegen, CD-T06 ist V125, CD-T02 in der Reihenfolge A · E · C · D · B2 · Goldfäden.",
     "v": {
      "id": "CD-T12 bis CD-T01",
      "slot": "Countdown",
@@ -433,7 +433,7 @@
      "shots": [
       "CD-T12: Finger fährt die Saumkante entlang",
       "CD-T06: V125, Totale aus 3 m, dann Makro",
-      "CD-T02: B · A · E · C · D · B2, je 1 s, jedes Element allein im Bild",
+      "CD-T02: A · E · C · D · B2 · Goldfäden, je 1 s, jedes Element allein im Bild, D als Gürtelschlaufe von hinten",
       "CD-T01: Kampagnenfilm 10 s, Endframe „tomorrow 19:00“"
      ],
      "ort": "Material vom Shoot Sa 20.02.2027 + Makros zu Hause (heute gedreht)",
@@ -441,7 +441,7 @@
      "text": "oben „T−[n]“, unten „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "12 days. No turn-up. No stitch. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #denim #embroidereddenim #berlinfashion #novalifetimetravel",
-     "check": "Keine Seitenansicht links (CD-T06 = V125), Reihenfolge B · A · E · C · D · B2 in CD-T02, nie B und B2 im selben Frame, CTA ab 05.04."
+     "check": "CD-T06 = V125, Reihenfolge A · E · C · D · B2 · Goldfäden in CD-T02, CTA ab 05.04."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}
@@ -511,7 +511,7 @@
      "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt (Shopify → Kunden → Segment „E-Mail-Abonnenten“), Follower TikTok + Instagram gesamt, Zusagen (Blatt „Die ersten 35“, nur Spalte „Zusage“), bezahlte Jeans (Shopify → Bestellungen, Vorbestellung bezahlt).",
      "Liste nach Quellen-Tag (src-, ref-), Views und Anmeldungen je 1.000 Views ins Blatt „Content“.",
      "G1/G2: Liste unter 950 (Alarm) → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · unter 2.560 → bestes Video in 2 Varianten nachdrehen, Kommentarzeit 15 Min. · G3: Anmeldungen je 1.000 Views < 1,0 → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story.",
-     "G5/G6/G7: Video ≥ 2 × Median → 5 Varianten in 14 Tagen · 3 schwache Videos im selben Slot → Slot 2 Wochen ersetzen · ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild.",
+     "G5/G6/G7: Video ≥ 2 × Median → 5 Varianten in 14 Tagen · 3 schwache Videos im selben Slot → Slot 2 Wochen ersetzen · ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, 2 Wochen kein Ernte-Bild.",
      "G10/G11: Vorbestellungen unter Alarm → DM an jede Zusage ohne Kauf mit ihrer Größe · Produktseiten-Conversion < 1,3 % bei ≥ 300 Sitzungen → häufigste DM-Frage als erstes FAQ.",
      "G12 Kassencheck K − F − R ins Blatt „Kasse“: grün ≥ 300 € · gelb 0–300 € → keine Ausgaben außerhalb von Plan 3 · rot → Ausgaben-Stopp-Liste, Notfall-Leiter. G13: Nr. 035 verkauft? → Stufe 2 läuft bereits.",
      "Offenes an Claude: „Offen aus W27: …“. Dann die Zeile unten senden."
@@ -533,7 +533,7 @@
      "Ordner „W28/final“ anlegen. Drehreihenfolge nach Orten: Schreibtisch (V096, V097), dann Schnitt V099 aus dem Shoot-Material. V098 drehst du am Di beim Aufbau der Packstation.",
      "V096 „Alles bezahlt“ (nur wenn die Restzahlung am 19.03. raus ist): Banking-App mit Überweisung, Empfänger und Kontodaten verpixelt · Kalender mit Ankunftstag aus der Fabrik-Mail · du, ein Satz „Fully paid. Now I wait for 100 pairs.“ Sonst: V117 als Ersatz für Mo.",
      "V097 „Warum Time Travel“: du in die Kamera, deine Begründung in zwei Sätzen (Subjekt ist das Muster) · Teppich-Foto · Makro Band A am fertigen Teil · Endframe „22.04.“. Kein „älter als jede Grenze“.",
-     "V099 „Fünf Stickereien“: aus Shoot-Material und Makros, je 1 s, Reihenfolge B · A · E · C · D · B2, jedes Element allein im Bild.",
+     "V099 „Vier Stickereien, ein Patch“: aus Shoot-Material und Makros, je 1 s, Reihenfolge A · E · C · D · B2 · Goldfäden, jedes Element allein im Bild, D als Gürtelschlaufe von hinten (der Gürtel läuft dahinter).",
      "Kamera 9:16, Licht von vorn, je Shot 3 Takes. Schnitt in CapCut: Hook EN als Text in den ersten 2 s, Untertitel automatisch, keine Musik einbacken.",
      "Export nach „W28/final“ als V096_final.mp4, V097_final.mp4, V099_final.mp4. Am Posttag wird nichts mehr gedreht."
     ],
@@ -548,14 +548,14 @@
      "shots": [
       "V096: Banking-App verpixelt · Kalender Ankunftstag · du, ein Satz",
       "V097: du in die Kamera · Teppich-Foto · Makro Band A · Endframe „22.04.“",
-      "V099: B · A · E · C · D · B2, je 1 s"
+      "V099: A · E · C · D · B2 · Goldfäden, je 1 s"
      ],
      "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht · Material vom Shoot Sa 20.02.",
      "ton": "O-Ton + Untertitel (V096, V097) · Sound am Posttag aus der Business-Bibliothek (V099)",
      "text": "Hook EN in den ersten 2 s, Untertitel",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
      "caption": "Day 162. Fully paid. Arrival around [date from tracking], then I check every single pair. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #buildinpublic #clothingbrand #denim #novalifetimetravel",
-     "check": "V096 nur wenn wahr, Kontodaten verpixelt, V099 B und B2 nie im selben Frame, CTA ab 22.03."
+     "check": "V096 nur wenn wahr, Kontodaten verpixelt, V099 jedes Element allein im Frame, CTA ab 22.03."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}

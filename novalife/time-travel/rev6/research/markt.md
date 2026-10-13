@@ -1,6 +1,7 @@
 # Markt, Wettbewerb, Drop-Benchmarks · Time Travel
 
 Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
+**Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
 
 **Wie du die Zahlen liest.** Jede Zahl hat eine Quelle `[Q..]`, die Liste steht am Ende. Güte: **A** = Primärquelle oder Studie, **B** = großer Datensatz eines Anbieters oder Fachpresse, **C** = Agentur- oder Blog-Angabe, Methode unklar. **Wichtig:** Der Seitenabruf (WebFetch) war in dieser Sitzung für alle Domains gesperrt. Alle Werte stammen aus Suchtreffern mit URL. Die Seiten selbst konnte ich nicht öffnen. Was ich gerechnet oder angenommen habe, steht ausdrücklich als **Schätzung** da.
 
@@ -8,7 +9,7 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 ## Kurzfassung
 
-1. **Der Preis ist nicht dein Problem, die Reichweite ist es.** Bestickte oder bedruckte Kunst-Denim kostet bei Designer-Labels 270–1.122 $ (Gerrit Jacob, Denim Tears, Evisu, Bode, Who Decides War, Kapital). Der Gen-Z-Massenmarkt liegt bei 80–189 £ (Jaded London). 169 € mit fünf Stickzonen ist günstig. Unbekannt ist die Marke, nicht der Preis.
+1. **Der Preis ist nicht dein Problem, die Reichweite ist es.** Bestickte oder bedruckte Kunst-Denim kostet bei Designer-Labels 270–1.122 $ (Gerrit Jacob, Denim Tears, Evisu, Bode, Who Decides War, Kapital). Der Gen-Z-Massenmarkt liegt bei 80–189 £ (Jaded London). 169 € mit vier Stickzonen ist günstig. Unbekannt ist die Marke, nicht der Preis.
 
 2. **Die Warteliste allein ist nicht sicher.** Kostenlose Listen kaufen typischerweise zu 2–5 %, kalte Abonnenten zu 1–3 %. Listen mit kleiner Anzahlung kaufen zu 15–40 %. Mit dem Plan-Korridor (3.000 Adressen bis 22.04.) kommst du im vorsichtigen Fall auf ~68 Bestellungen brutto, nach 10–15 % Retoure auf ~58–61 netto. Das ist Break-even, nicht Ziel. Die Schwelle am 01.02. (10 Vorbestellungen) läge bei ~9. Im mittleren Fall reichen schon ~1.500 Adressen.
 
@@ -16,13 +17,13 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 4. **Die fünf stärksten Hebel:** (1) **Nummern-Reservierung** mit kleiner, angerechneter Anzahlung ab dem Proto im Dezember. Laut LaunchBoom kaufen Leute mit 1-$-Anzahlung 30-mal wahrscheinlicher als reine E-Mail-Kontakte. (2) **Anprobe-Abende in Berlin**, weil 67 % der Online-Retouren an der Größe liegen (Bitkom). (3) **Echte Knappheit mit Zahl** („Nr. 001–100“, „X von 35“): Begrenzte Menge wirkt stärker als begrenzte Zeit (Aggarwal u. a. 2011). (4) **Early Access 18:00 plus Countdown**, weil Käufe am Anfang und am Ende einer Frist kommen (Kuppuswamy/Bayus). (5) **Nano-Creator-Seeding.** Das Pixel-Spiel hat keinen belegten Verkaufseffekt: streichen.
 
-5. **Sprache als Marktrisiko.** „Vyshyvanka“ ist ein ukrainisches Nationalsymbol und war 2020 in Belarus ein Protestsymbol. Nach außen widerspricht das Wort deiner Regel „keine Nationaltradition“. Vorschlag: „Kreuzstich-Band“. Du entscheidest. Hammer und Sichel sind in Polen, Litauen, Lettland und Ungarn verboten, der Serp allein nicht. Teste das Serp-Bild trotzdem mit 10 Leuten aus der Diaspora.
+5. **Sprache als Marktrisiko.** „Vyshyvanka“ ist ein ukrainisches Nationalsymbol und war 2020 in Belarus ein Protestsymbol. Nach außen widerspricht das Wort deiner Regel „keine Nationaltradition“. Vorschlag: „Kreuzstich-Band“. Du entscheidest. Zum Serp: seit 11.10. erledigt, er ist gestrichen. Hammer und Sichel sind in Polen, Litauen, Lettland und Ungarn verboten, der Serp allein war es nicht.
 
 6. **Markt.** In Deutschland leben ~6,1 Mio. Menschen mit Einwanderungsgeschichte aus Polen, Russland, Kasachstan und der Ukraine (Destatis 2024). Bei 14- bis 29-Jährigen nutzen 82 % Instagram und 52 % TikTok mindestens wöchentlich (ARD/ZDF 2025). Instagram ist dein Verkaufskanal, TikTok dein Reichweitenkanal. Heuritech führt „Slavic Chic“ (Stickerei, Rot/Weiß) als Trend.
 
 7. **Ziel richtig zählen.** Für 64 Paar netto brauchst du bei 10–20 % Retoure 71–80 Bestellungen. Plane brutto **72** (35 + 37).
 
-8. **Wenn es nicht reicht:** Kontingent 75 statt 100, Vorbestellung nach dem 21.03. zum Normalpreis offen lassen (Preisfrist nicht verlängern), Bundles mit Polo, Konsignation in Berlin (Beispiel: 30 % Provision plus Standmiete). Kein Rabatt auf nummerierte Teile. Großhandel lohnt nicht: Bei 2,1–2,5-fachem Aufschlag des Händlers bekommst du 68–80 € für ein 63-€-Teil.
+8. **Wenn es nicht reicht:** Kontingent 75 statt 100, Vorbestellung nach dem 21.03. zum Normalpreis offen lassen (Preisfrist nicht verlängern), Bundles mit Polo, Konsignation in Berlin (Beispiel: 30 % Provision plus Standmiete). Kein Rabatt auf nummerierte Teile. Großhandel lohnt nicht: Bei 2,1–2,5-fachem Aufschlag des Händlers bekommst du 68–80 € für ein ~60-€-Teil.
 
 9. **Wochenziele** stehen in 3.7: Warteliste je Sonntag (Soll und Alarmgrenze), Reservierungen (100 bis 13.01.), Vorbestellungen, Posts, Views, Follower.
 
@@ -37,9 +38,9 @@ Preise wie gelistet, in Originalwährung. Ich rechne nicht um, weil ich keinen g
 | # | Marke | Herkunft | Preis (Quelle) | Was sie gut machen | Was du lernst |
 |---|---|---|---|---|---|
 | 1 | **Kapital** | Okayama, JP | Kountry Motocross Pants 14 oz: 1.122 $ (BDGA) · Cactus Coverall mit Stickerei, 12 oz: 1.110,81 $ (Epitome) [Q6] | Handwerk als Kult. Patchwork, Boro, Stickerei. Jedes Teil wirkt wie ein Einzelstück. Gekauft wird von Sammlern, nicht im Hype | Nahaufnahmen verkaufen Handarbeit. Dein Satz „Aus drei Metern ein paar Punkte, aus dreißig Zentimetern ein Uhrwerk“ ist genau das. Pro Stickzone ein Makro-Video |
-| 2 | **Bode** | New York | Embroidered Denim Knolly Brook Trouser: 650 $ (BDGA) · bestickte Hosen 780–950 $ (Solefeed) [Q7] | Jedes Teil erzählt die Herkunft eines alten Textils. Produkttexte lesen sich wie Museumsschilder | Auf der Produktseite pro Element A–E eine kurze Karte: Motiv, Bedeutung, wo belegt. Das Material hast du schon (Spec 3.2, Belegtabelle) |
+| 2 | **Bode** | New York | Embroidered Denim Knolly Brook Trouser: 650 $ (BDGA) · bestickte Hosen 780–950 $ (Solefeed) [Q7] | Jedes Teil erzählt die Herkunft eines alten Textils. Produkttexte lesen sich wie Museumsschilder | Auf der Produktseite pro Element (A, E, B2, C, D) eine kurze Karte: Motiv, Bedeutung, wo belegt. Das Material hast du schon (Spec 3.2, Belegtabelle) |
 | 3 | **Who Decides War** | New York | Scripture Jeans 695 $, Path Jeans 700 $ UVP (Clothbase, Sale-Preise darunter) [Q8] | Eine Bildsprache über alle Teile (Kirchenfenster-Patchwork). Prominente tragen es | Ein Code, der aus der Ferne erkennbar ist. Bei dir: rotes Band mit Goldfäden hinten links. Im Content immer wieder dieselbe Rückansicht |
-| 4 | **Evisu** | Osaka / London | Seagull Daicock Print Jeans 349 $ UVP · Evisu × Icecream 380 $ (us.evisu.com) [Q9] | Ein Gesäßtaschen-Zeichen ist die Marke. Seit Jahrzehnten dasselbe Zeichen | Die Rückseite ist dein Logo (B2 und C). Der Serp bleibt nie allein Logo, das ist Regel |
+| 4 | **Evisu** | Osaka / London | Seagull Daicock Print Jeans 349 $ UVP · Evisu × Icecream 380 $ (us.evisu.com) [Q9] | Ein Gesäßtaschen-Zeichen ist die Marke. Seit Jahrzehnten dasselbe Zeichen | Die Rückseite ist dein Logo (B2, C und Patch D als Gürtelschlaufe) |
 | 5 | **Story mfg.** | UK | Hand Embroidered Lush Carpenter Shorts 415 € · Amba Jacket 1.009 € (END.) [Q10] | Langsame Mode, Handstich, Naturfarben. Erzählt den Menschen hinter dem Stich | Zeig die Hände. Die Goldfäden werden von Hand gesetzt. Das ist dein stärkstes Video |
 | 6 | **Denim Tears × Levi's** | New York | Cotton Wreath Jean 295 $ UVP, Wiederverkauf 450–900 $ (StockX) [Q11] | Jeans als Träger von Kulturgeschichte. Ein Symbol, essayartige Texte, starke Partnermarke | Ein Symbol, eine Geschichte. Unterschied: Denim Tears ist bewusst politisch, du nicht. Deine Geschichte bleibt beim Muster, beim Teppich und bei der Familie |
 | 7 | **Ksenia Schnaider** | Kyjiw | Herren-Jeans 275–540 $ (FashionUnited 2019) · Asymmetric Jeans 377 $ (UPI) [Q12] | Ein Design-Dreh, den man in einer Sekunde versteht (ein Bein eng, eins weit). Ging viral. Upcycling | Ein Bild, das ohne Text funktioniert. Kandidat: die Goldfäden, die beim Gehen schwingen. In den ersten drei Wochen drei Hooks testen |
@@ -83,7 +84,7 @@ Preise wie gelistet, in Originalwährung. Ich rechne nicht um, weil ich keinen g
 | Punkt | Befund | Quelle | Vorschlag (du entscheidest) |
 |---|---|---|---|
 | Wort „Vyshyvanka“ | Ukrainisches Wort für das bestickte Hemd. Neben der Flagge eines der wichtigsten Nationalsymbole der Ukraine, eigener Feiertag (dritter Donnerstag im Mai). In Belarus 2020 Symbol des Protests | [Q4] B | Element A nach außen „Kreuzstich-Band“ oder „Taschenband“ nennen. Intern darf es bleiben. Sonst beanspruchst du doch eine Nationaltradition |
-| Serp | Hammer und Sichel sind in Ungarn, Lettland, Litauen und Polen verboten, in der Ukraine in bestimmten Kombinationen. Der Serp allein fällt nicht darunter | [Q5] B | Deine Regeln (kein Stern, kein roter Grund, kein Hammer, nie allein als Logo) decken das ab. Trotzdem: Serp-Foto vom Papiertest 10 Leuten aus PL/UA/BY/RU-Familien zeigen, Reaktion notieren, bevor er auf Plakate geht |
+| Serp (gestrichen 11.10.) | Seit 11.10. erledigt. Hammer und Sichel sind in Ungarn, Lettland, Litauen und Polen verboten, in der Ukraine in bestimmten Kombinationen. Der Serp allein fiel nicht darunter | [Q5] B | entfällt |
 | Gelber Weizen, blauer Himmel | Ukrainische Flagge | Plan 8.2 | Regel bleibt: Sonnenuntergang statt Blau |
 
 ---
@@ -348,7 +349,7 @@ Für dich konkret: Bleibt die Vorbestellung unter 10, fehlt die Anzahlung (Plan 
 | Eigener Shop | 169 € minus 2,1 % + 0,30 € Gebühr ≈ 165 € | Plan 3.1 |
 | Konsignation, Beispiel Studio183 Berlin (Stand 2016, heute prüfen): 30 % Provision plus Standmiete | 169 € × 0,7 ≈ 118 € minus Standmiete | [Q56] |
 | Konsignation, typische Spanne 50/50 bis 60/40 | 85–101 € | [Q57] C |
-| Großhandel, Händler rechnet 2,1–2,5 × auf | 68–80 €, bei 63 € Stückkosten fast nichts übrig | [Q58] C |
+| Großhandel, Händler rechnet 2,1–2,5 × auf | 68–80 €, bei ~60 € Stückkosten fast nichts übrig | [Q58] C |
 
 **Folge:** Großhandel nicht. Konsignation nur für Restbestand nach dem Drop, nie vorher. Sie würde deine Knappheit untergraben.
 
@@ -361,7 +362,7 @@ Für dich konkret: Bleibt die Vorbestellung unter 10, fehlt die Anzahlung (Plan 
 1. **Startwerte fehlen.** Follower heute (Instagram, TikTok), Größe der Bleach-Kundenliste, E-Mail-Adressen, die schon in Shopify stehen. Ohne diese Zahlen sind die Wochenziele bis 01.11. grob.
 2. **Reservierung ja oder nein** (Hebel 1). Dazu rechtlich klären: Anzahlung, Widerruf, Erstattung, AGB-Text. Und ob Wunschnummern zum Packplan vom 01.10. passen.
 3. **Wort „Vyshyvanka“ nach außen** ersetzen? (1.4). Betrifft Produktseite, Captions, Tech Pack nur intern.
-4. **Serp-Test** mit 10 Leuten aus der Diaspora vor dem ersten Plakat.
+4. **Serp-Test:** seit 11.10. erledigt, der Serp ist gestrichen.
 5. **Berliner Orte** für Anprobe-Abende und Konsignation: Konditionen von heute direkt bei den Läden erfragen. Die 30 % von Studio183 sind von 2016.
 6. **Retourenquote:** kein belastbarer Wert für Jeans in Deutschland gefunden. Nach dem Drop deine eigene Zahl erfassen (Blatt „Retouren“).
 7. **Quellen nur als Suchtreffer gesehen.** Vor einer Entscheidung mit Geld (Werbebudget, Reservierungs-App) die wichtigsten Seiten selbst öffnen: [Q23], [Q26], [Q27], [Q32], [Q37].

@@ -21,7 +21,7 @@
      "Call-Notizen (21.–23.10.), Bewertungen, Antworten der Referenzen und den Vergleich vom 19.10. mit dem Prompt unten an Claude.",
      "Pflicht: Panel-Stickerei im eigenen Haus, belegt mit Fotos einer früheren Produktion. Kein Vermittler ohne genannte Fabrik.",
      "Scorecard: Preis bei 100 Stück inkl. Stickerei mit Ampel, Termine Proto 30.11. und PP 04.01., Einzug-Kompensation, Zahlung 50/50, Kommunikation, Steuer und Zoll (Steuer-Spalte vom 23.10.), Ramadan und Feiertage.",
-     "Ampel grün oder gelb: Fabrik wählen. Rot bei allen: Gegenrechnung vom So (V4b, kleiner Serp, 75 Stück) heute entscheiden.",
+     "Ampel grün oder gelb: Fabrik wählen. Rot bei allen: Gegenrechnung vom So (V4b, 75 Stück) heute entscheiden.",
      "Nr. 2 als Reserve notieren. Ihr wird nicht abgesagt: Sie ist der Weg der B-Zeitachse 2, falls die Stickproben am 17.11. durchfallen.",
      "Bei Türkei: Konditionen bis Di 27.10., 12:00, Proforma bis Fr 30.10. Am 28.10. ist dort nachmittags frei, am 29.10. Nationalfeiertag (Allgemeinwissen, ungeprüft). EORI heute beantragen.",
      "Entscheidung ins Blatt „Fabriken“: Nr. 1, Nr. 2, Datum, Grund in einem Satz."
@@ -57,7 +57,7 @@
     "m": 15,
     "s": [
      "Ordner „W7 · Papierabend“: pro Gast die 2 besten Fotos, nur von Gästen mit Ja.",
-     "Nur Fotos von vorn oder hinten, keine Seitenansicht links, B und B2 nie in einem Bild. Die Story des Gasts ist öffentlich.",
+     "Nur Fotos aus der Auswahl vom So (kein roter Hintergrund, keine fremden Logos). Die Story des Gasts ist öffentlich.",
      "Einzeln per WhatsApp oder DM: „Danke für Samstag! Hier sind deine Fotos. Wenn du magst, teil eins in deiner Story und pack deinen eigenen Link aus der Willkommens-Mail dazu. Kein Muss.“",
      "Wer noch nicht eingetragen ist: Link mit ?ref=papier mitschicken.",
      "Antworten und neue Zusagen ins Blatt „Die ersten 35“."
@@ -147,10 +147,10 @@
    },
    {
     "c": "C",
-    "t": "Story 5: Serp-Papier, Schieberegler „Wie sehr würdest du das tragen?“",
+    "t": "Story 5: Patch-Papier als Gürtelschlaufe, Schieberegler „Wie sehr würdest du das tragen?“",
     "m": 5,
     "s": [
-     "Foto: Serp-Papier am linken Bein gerade von vorn oder flach auf Denim. Keine Seitenansicht links (Bildregel bis Sa 07.11.), kein B2 im Bild, kein roter Hintergrund.",
+     "Foto: Patch D aus Papier auf Pappe (76 × 67 mm, vom Papiertest 11.10.) als hintere Gürtelschlaufe, nur links und rechts mit Malerkrepp fixiert, der Gürtel läuft dahinter durch. Gerade von hinten, nur Bund und Patch im Bild, kein roter Hintergrund.",
      "Instagram → Story → Foto → Emoji-Schieberegler mit der Frage unten.",
      "Link-Sticker auf die Warteliste dazu.",
      "Mi früh: Durchschnittswert als Screenshot ins Blatt „Content“."
@@ -167,14 +167,14 @@
      "hook_en": "How much would you wear this?",
      "hook_de": "Wie sehr würdest du das tragen?",
      "shots": [
-      "Foto: Serp-Papier, von vorn am linken Bein oder flach auf Denim, nur der Serp"
+      "Foto: Patch-Papier D als Gürtelschlaufe hinten am Bund, Gürtel dahinter, gerade von hinten, nur Bund und Patch"
      ],
-     "ort": "Wohnung · Flurspiegel von vorn oder Schreibtisch, Draufsicht, Licht von vorn",
+     "ort": "Wohnung · Flurspiegel, Rückansicht, Licht von vorn",
      "ton": "kein Ton (Foto)",
      "text": "Emoji-Schieberegler mit der Frage „How much would you wear this?“",
      "cta": "Link-Sticker auf die Warteliste",
-     "caption": "How much would you wear this?",
-     "check": "Keine Seitenansicht links, B und B2 nie zusammen, keine echte Sichel, kein roter Hintergrund."
+     "caption": "How much would you wear this?\nThe belt runs behind the tree.",
+     "check": "Nur Patch D im Bild, Gürtel sichtbar dahinter, Papier statt fertiges Teil, kein roter Hintergrund, Lebensbaum nie „slawisch“."
     }
    },
    {
@@ -218,7 +218,7 @@
      "Shopify → Kunden → Segment „E-Mail-Abonnenten“: Zahl der bestätigten Anmeldungen ablesen. Nur diese echte Zahl zeigen.",
      "Mac-Bildschirmaufnahme (Cmd + Shift + 5) nur vom Zähler, keine Namen, keine E-Mail-Adressen im Bild. Dann Ziel auf Papier und ein Satz in die Kamera.",
      "CapCut 15–20 s, Hook-Text Sek. 0–2, ohne Musik exportieren. 18:00 TikTok und Instagram, Caption unten, Story mit Link-Sticker.",
-     "V119 (Serp-Papier an der Seite) nicht jetzt: frühestens Do 12.11. und nur, wenn du die Bildregel am Sa 07.11. lockerst."
+     "V119 (Münztasche 50 oder 62 mm) nicht jetzt: das Video läuft am Do 12.11."
     ],
     "f": "Fertig, wenn V121 mit echter Zahl auf TikTok und Instagram online ist.",
     "o": [
@@ -275,7 +275,7 @@
     "t": "18:00 · ORIGIN V008 „Die Goldfäden“ posten",
     "m": 20,
     "s": [
-     "17:50 Check: drei Ähren, 9 Fäden, nur B2 im Bild, kein Serp, kein roter Hintergrund.",
+     "17:50 Check: drei Ähren, 9 Fäden, nur B2 im Bild, kein roter Hintergrund.",
      "17:55 TikTok (Business-Konto): V008_final hochladen, Caption einfügen, Ton nur aus der Commercial Music Library leise unter den O-Ton. 18:00 posten.",
      "Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Neun Goldfäden verlassen die Tasche. Darum.“) und als Short auf YouTube.",
      "Reel in die Story mit Link-Sticker.",
@@ -306,7 +306,7 @@
      "text": "Sek. 0–2: „Nine gold threads leave the pocket. Here's why.“ · „18–30 mm · set by hand after the wash“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Under three wheat ears: nine gold threads, 18 to 30 mm, set by hand after the wash, because an industrial washer would eat them. It's the moment of the whole design. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
-     "check": "Nur B2-Papier, kein Serp im Bild, kein roter Hintergrund, immer drei Ähren, Papier statt fertiges Teil."
+     "check": "Nur B2-Papier, kein roter Hintergrund, immer drei Ähren, Papier statt fertiges Teil."
     }
    }
   ],
@@ -369,7 +369,7 @@
     "t": "Story 6: „Was wäre fair?“ 129 · 149 · 169 · 189 €, dazu Tally-Link",
     "m": 5,
     "s": [
-     "Foto: ganze Hose mit Papier, gerade von hinten. Der Serp an der linken Seitennaht darf nicht ins Bild ragen (B und B2 nie zusammen).",
+     "Foto: ganze Hose mit Papier, gerade von hinten.",
      "Instagram → Story → Foto → Umfrage-Sticker mit 4 Antworten (unten).",
      "Zweites Story-Bild: Link-Sticker auf die anonyme Tally-Umfrage (Story 6 trägt den Tally-Link, Ziel 100 Antworten bis Sa 31.10.).",
      "Fr früh: Ergebnis ins Blatt „Content“, es geht am Sa an Claude."
@@ -387,7 +387,7 @@
      "hook_en": "What would be fair?",
      "hook_de": "Was wäre fair?",
      "shots": [
-      "Foto: ganze Hose mit Papier, gerade von hinten, ohne Serp im Bild",
+      "Foto: ganze Hose mit Papier, gerade von hinten",
       "Zweites Bild: Text „3 minutes, anonymous“ mit Link-Sticker zur Tally-Umfrage"
      ],
      "ort": "Wohnung · Flurspiegel oder weiße Wand, Rückansicht, Licht von vorn",
@@ -395,7 +395,7 @@
      "text": "Umfrage-Sticker: €129 · €149 · €169 · €189",
      "cta": "Link-Sticker zur Tally-Umfrage; Warteliste über den Link in der Bio",
      "caption": "What would be fair?\n€129 · €149 · €169 · €189",
-     "check": "Rückansicht ohne Serp, keine Seitenansicht links, kein Streichpreis, nur Umfrage."
+     "check": "Rückansicht, kein Streichpreis, nur Umfrage."
     }
    },
    {
@@ -686,7 +686,7 @@
      "Erst Validierung und Gate, dann hin. Adresse und Öffnungszeit auf visitBerlin prüfen. Den Batch drehst du davor oder danach, Hauptsache heute.",
      "Ziel: Kontakte, nicht verkaufen. Händler mit Denim, Stickerei oder Vintage-Workwear ansprechen.",
      "Pro Kontakt: Name des Stands, Instagram, was sie verkaufen, Interesse an der Story. Ins Blatt „Netz“, Herkunft nie notieren.",
-     "Mitnehmen: 3 Papiertest-Fotos (B, B2, ganze Hose, jedes einzeln). Nur zeigen, wenn jemand fragt.",
+     "Mitnehmen: 3 Papiertest-Fotos (B2, Patch D als Gürtelschlaufe, ganze Hose von hinten). Nur zeigen, wenn jemand fragt.",
      "Fotos nur mit Erlaubnis. Nichts posten, was einen Stand ohne Ja zeigt."
     ],
     "f": "Fertig, wenn mindestens 5 Kontakte im Blatt „Netz“ stehen.",

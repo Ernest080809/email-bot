@@ -1,7 +1,7 @@
 {
  "n": 11,
  "phase": "P2",
- "goal": "Proto entsteht, Shop rechtssicher, Stick-Abend, Sperrwoche ohne Ernte- und Serp-Bild einhalten",
+ "goal": "Proto entsteht, Shop rechtssicher, Stick-Abend, Sperrwoche ohne Ernte-Bild einhalten",
  "kpi": [
   {"k": "Warteliste", "ziel": "390 bestätigt (Alarm 170)"},
   {"k": "Follower TikTok + IG, neu seit 12.10.", "ziel": "~1.170 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)"},
@@ -14,7 +14,7 @@
   "2026-11-23": [
    {
     "c": "N",
-    "t": "Sperrwoche 23.–29.11.: kein Ernte- und kein Serp-Post und kein solches Bild in Stories (Holodomor-Gedenktag Sa 28.11.). Sa 28.11. gar kein Post."
+    "t": "Sperrwoche 23.–29.11.: kein Ernte-Post und kein Ernte-Bild in Stories (Holodomor-Gedenktag Sa 28.11.). Sa 28.11. gar kein Post."
    },
    {
     "c": "B",
@@ -36,7 +36,7 @@
     "t": "18:00 · V019 „Drei Stoffe“ posten (BUILD Day 43)",
     "m": 20,
     "s": [
-     "Datei W11/final/V019 öffnen und noch einmal prüfen: kein Serp, keine Ähren, kein fertiges Teil.",
+     "Datei W11/final/V019 öffnen und noch einmal prüfen: keine Ähren, kein fertiges Teil.",
      "17:55 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library oder keine, Caption unten einfügen. 18:00 posten.",
      "Gleich danach als Reel auf Instagram (DE-Hook als erste Zeile) und als Short auf YouTube (Titel = Hook EN). Reel in die Story mit Link-Sticker.",
      "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Kommentare mit „Sowjet“, „Wappen“ oder „Holodomor“: danken, im Blatt „Content“ zählen (G7)."
@@ -61,7 +61,7 @@
      "text": "0–2 s Hook EN, Untertitel, „100% cotton · rigid · no stretch“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Day 43. 100% cotton, rigid, no stretch. Three swatches, three wash tones. The dark one wins, because white thread needs contrast to read from three metres. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #rawdenim #novalifetimetravel",
-     "check": "Sperrwoche: kein Ernte- und kein Serp-Bild, nur Stoff, kein fertiges Teil, CTA der Phase, nie „authentisch“."
+     "check": "Sperrwoche: kein Ernte-Bild, nur Stoff, kein fertiges Teil, CTA der Phase, nie „authentisch“."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
@@ -147,7 +147,7 @@
     "s": [
      "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berlin). Je ein Kommentar mit Inhalt.",
      "Alle DMs beantworten. Jedes „Ja“ sofort ins Blatt „Abende“ oder „Die ersten 35“ (nur ausdrückliche Zusage mit Größe).",
-     "Sperrwoche: keine eigenen Kommentare mit Ernte- oder Serp-Bezug."
+     "Sperrwoche: keine eigenen Kommentare mit Ernte-Bezug."
     ],
     "f": "5 Kommentare gesetzt, DMs beantwortet und jedes Ja im Blatt steht.",
     "o": [
@@ -161,7 +161,7 @@
     "m": 10,
     "plus": true,
     "s": [
-     "Einen echten Kommentar der letzten Woche wählen, der nichts mit Ernte oder Serp zu tun hat (z. B. zu Stoff, Wäsche, Preis oder Größe).",
+     "Einen echten Kommentar der letzten Woche wählen, der nichts mit der Ernte zu tun hat (z. B. zu Stoff, Wäsche, Preis oder Größe).",
      "TikTok: „Mit Video antworten“, Instagram: Kommentar-Sticker. In einem Take antworten, dann ein Beweisbild (Papier, Maßband, Stoff).",
      "Bei „Ist das russisch?“: nur die Standardantwort, nie diskutieren: „This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“",
      "17:55 hochladen, 18:00 posten, Reel und Short, Reel in die Story mit Link-Sticker."
@@ -184,7 +184,7 @@
      "text": "Kommentar-Sticker oben, Untertitel",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "You asked, here's the answer. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
-     "check": "Sperrwoche: kein Ernte- und kein Serp-Bild, kein fertiges Teil, Standardantwort bei Herkunftsfragen, CTA der Phase."
+     "check": "Sperrwoche: kein Ernte-Bild, kein fertiges Teil, Standardantwort bei Herkunftsfragen, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -217,7 +217,7 @@
     "t": "18:00 · V020 „Warum Panel-Stickerei“ posten (ORIGIN)",
     "m": 20,
     "s": [
-     "Datei W11/final/V020 prüfen: nur Band A oder Achtstern auf dem Papier, kein Serp, keine Ähren (Tausch mit dem 18.11., Sperrwoche).",
+     "Datei W11/final/V020 prüfen: nur Band A oder Achtstern auf dem Papier, keine Ähren (Tausch mit dem 18.11., Sperrwoche).",
      "17:55 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library, Caption einfügen. 18:00 posten.",
      "Gleich danach Reel auf Instagram und Short auf YouTube. Reel in die Story mit Link-Sticker.",
      "18:00–18:15 Kommentare beantworten (Regeln 9.3 Punkt 9). Fachfragen zur Stickerei anheften."
@@ -241,7 +241,7 @@
      "text": "0–2 s Hook EN, Untertitel, „embroider flat → sew → wash“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Large embroidery doesn't fit in the hoop on a sewn leg. It goes on the flat cut panel first, then the jeans get sewn and washed. That's why most factories said no. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidery #embroidereddenim #denim #buildinpublic #novalifetimetravel",
-     "check": "Sperrwoche: kein Ernte- oder Serp-Bild, nur Papier, keine Seitenansicht links, CTA der Phase."
+     "check": "Sperrwoche: kein Ernte-Bild, nur Papier, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -324,7 +324,7 @@
     "plus": true,
     "s": [
      "Nur posten, wenn du Material vom Berliner Sticker hast und er schriftlich erlaubt hat, es zu zeigen. Ohne Erlaubnis: heute stattdessen eine Variante deines besten Videos.",
-     "Sperrwoche: nur Raute oder Achtstern im Bild, kein Serp, keine Ähren. Vor dem 03.12. nur Stoffstück, kein fertiger Zipper oder Polo.",
+     "Sperrwoche: nur Raute oder Achtstern im Bild, keine Ähren. Vor dem 03.12. nur Stoffstück, kein fertiger Zipper oder Polo.",
      "Die Zahl „1.000“ nur, wenn der Sticker sie für den Clip bestätigt. Sonst Hook B nehmen.",
      "17:55 hochladen, 18:00 posten, Reel und Short, Story mit Link-Sticker."
     ],
@@ -346,7 +346,7 @@
      "text": "0–2 s Hook EN, sonst kein Text",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Sound on. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
-     "check": "Nur mit Erlaubnis des Stickers, Sperrwoche ohne Serp und Ähren, kein fertiges Teil, Zahl nur bestätigt."
+     "check": "Nur mit Erlaubnis des Stickers, Sperrwoche ohne Ähren, kein fertiges Teil, Zahl nur bestätigt."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -375,7 +375,7 @@
      "hook_en": "Why my jeans cost €169, line by line.",
      "hook_de": "Warum meine Jeans 169 € kostet, Zeile für Zeile.",
      "shots": [
-      "Papier: „€169 → ~€63 to make (estimate)“",
+      "Papier: „€169 → ~€60 to make (estimate)“",
       "Darunter: payment fees, shipping, returns, next drop",
       "Text: „pre-order price €149 · 14.01.–21.03.“"
      ],
@@ -383,8 +383,8 @@
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
      "text": "0–2 s Hook EN, Untertitel, „estimate“ sichtbar",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "€169. About €63 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 21.03. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
-     "check": "Kein Streichpreis, keine fremden Marken, Schätzung gekennzeichnet, Preissatz von der Hotline geprüft, Sperrwoche ohne Ernte- und Serp-Bild."
+     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 21.03. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
+     "check": "Kein Streichpreis, keine fremden Marken, Schätzung gekennzeichnet, Preissatz von der Hotline geprüft, Sperrwoche ohne Ernte-Bild."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Post planen"},
@@ -399,7 +399,7 @@
     "s": [
      "17:45 aufbauen am Ort vom 05.11. (bei dir oder Kunstraum Heartspace, Danziger Str. 172, wie angefragt). 10 Plätze: je Denim-Stück, Rahmen, Nadel, Garn Rot und Weiß, Vorlage „Raute 7 × 7“. QR mit ref-stick auf den Tisch, Foto-Zettel an den Eingang.",
      "18:30 Begrüßung in zwei Sätzen: „Heute stickt jeder eine Raute. Die Raute steht für ein bestelltes Feld und ist eines der ältesten Motive im Kreuzstich.“ (nur sagen, wenn die Belegtabelle es trägt).",
-     "18:40–19:30 sticken. Du gehst herum und hilfst. Nur Raute und Achtstern auf dem Tisch: kein Weizen, kein Serp, auch nicht auf den Stickproben.",
+     "18:40–19:30 sticken. Du gehst herum und hilfst. Nur Raute und Achtstern auf dem Tisch: kein Weizen, auch nicht auf den Stickproben.",
      "19:30 die gewaschenen Stickproben zeigen (nur Band A, Achtstern, Patch). Erzählen: am 03.12. kommt das Proto.",
      "19:45 QR zeigen: „Wer auf die Liste will, scannt hier und bestätigt die Mail.“ Wer sagt, dass er am 14.01. bestellt: Größe fragen und ins Blatt „Die ersten 35“, Spalte „Zusage“. Alles andere „Vielleicht“.",
      "Fotos nur von Leuten, die Ja sagen. Am Sa 28.11. postest du nichts davon (Gedenktag), frühestens ab So.",
@@ -476,7 +476,7 @@
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Zahl, Zuwachs und Verteilung nach Quellen-Tag (ref-stick neu) ins Blatt „Warteliste“. Monatsende November notieren.",
      "Content: V019, V117, V020, V118, V021 mit Views, Saves, Shares, neuen Followern ins Blatt „Content“. Anmeldungen je 1.000 Views. Kommentare „Sowjet/Wappen/Holodomor“ zählen.",
      "Kassencheck K − F − R (Rechtstexte, Stick-Material) ins Blatt „Kasse“. Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0).",
-     "Gates 7.1: G1 unter Alarm 170 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos · G2 unter 390 → bestes Video in 2 Varianten · G3 < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil · G5 Varianten-Regel · G6 schwacher Slot tauschen · G7 ≥ 3 kritische Kommentare → 2 Wochen kein Ernte- oder Serp-Bild · G8 Folklore → Totale aus 3 m · G9 > 70 % warme Tags → 3 neue Hooks · G12 Kasse gelb/rot → Ausgaben-Stopp.",
+     "Gates 7.1: G1 unter Alarm 170 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos · G2 unter 390 → bestes Video in 2 Varianten · G3 < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil · G5 Varianten-Regel · G6 schwacher Slot tauschen · G7 ≥ 3 kritische Kommentare → 2 Wochen kein Ernte-Bild · G8 Folklore → Totale aus 3 m · G9 > 70 % warme Tags → 3 neue Hooks · G12 Kasse gelb/rot → Ausgaben-Stopp.",
      "Reservierung entscheiden (siehe Gate): Option B kostenlos ist Standard. Entscheidung ins Blatt „Gates“.",
      "Zeile an Claude (Prompt unten)."
     ],
@@ -559,7 +559,7 @@
     "m": 20,
     "s": [
      "Schreibtisch, du in die Kamera, dann drei Karten von Hand: „1 design ✓ · 2 sample … · 3 show“.",
-     "Schnitt auf einen Papiertest-Clip vom Oktober aus content/archiv: nur Band A oder Achtstern, keine Seitenansicht links.",
+     "Schnitt auf einen Papiertest-Clip vom Oktober aus content/archiv: nur Band A oder Achtstern.",
      "CapCut: Hook EN in die ersten 2 s, Untertitel, 15–25 s. Export W12/final/V023."
     ],
     "f": "V023 geschnitten in W12/final liegt.",
@@ -591,12 +591,12 @@
     "t": "Content-Batch W12 (3/4): V024 „Donnerstag“ aus Archiv-Clips schneiden",
     "m": 20,
     "s": [
-     "Archiv-Clips aus content/archiv. Reihenfolge nach Bildregel 9.3: B · A · E · C · D · B2 (Serp-Papier, Band A, Münztasche E, Achtstern C, Patch D, Ähren-Papier B2), je 0,5 s.",
-     "B und B2 in eigenen Einstellungen, nie im selben Bild. Keine Seitenansicht links. Nur Papier.",
+     "Archiv-Clips aus content/archiv. Reihenfolge nach Bildregel 9.3: A · E · C · D · B2 (Band A, Münztasche E, Achtstern C, Patch D, Ähren-Papier B2 mit den Goldfäden), je 0,5 s.",
+     "Je Element eine eigene Einstellung. Nur Papier.",
      "Letzter Frame „Thu.“. Musik nicht in CapCut einbacken: Trend-Sound legst du am Mi 02.12. in TikTok aus der Commercial Music Library darunter.",
      "Post erst am Mi 02.12., 19:00, also nach der Sperrwoche. Export W12/final/V024."
     ],
-    "f": "V024 (6–10 s) in der Reihenfolge B · A · E · C · D · B2 in W12/final liegt.",
+    "f": "V024 (6–10 s) in der Reihenfolge A · E · C · D · B2 in W12/final liegt.",
     "v": {
      "id": "V024",
      "slot": "REACH",
@@ -605,12 +605,11 @@
      "hook_en": "Tomorrow paper becomes thread.",
      "hook_de": "Morgen wird aus Papier Garn.",
      "shots": [
-      "Serp-Papier B am Bein, eigene Einstellung, 0,5 s",
       "Papierband A an der Tasche, 0,5 s",
       "Münztasche E aus Papier, 0,5 s",
       "Achtstern C, 0,5 s",
       "Patch D, 0,5 s",
-      "Ähren-Papier B2 an der Gesäßtasche, eigene Einstellung, 0,5 s",
+      "Ähren-Papier B2 mit den Goldfäden an der Gesäßtasche, 0,5 s",
       "Letzter Frame: „Thu.“"
      ],
      "ort": "Archiv-Clips aus früheren Drehs (Ordner content/archiv)",
@@ -618,7 +617,7 @@
      "text": "Hook EN 0–1 s, letzter Frame „Thu.“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Thursday. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
-     "check": "Reihenfolge B · A · E · C · D · B2, B und B2 nie im selben Bild, keine Seitenansicht links, nur Papier, Post erst nach der Sperrwoche am 02.12."
+     "check": "Reihenfolge A · E · C · D · B2, nur Papier, Post erst nach der Sperrwoche am 02.12."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}
@@ -654,7 +653,7 @@
      "text": "0–2 s Hook EN, „prototype“ sichtbar, Endkarte „fit test Saturday“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Prototype #1. Not perfect yet. Fit test on Saturday, then a list of fixes for the factory. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
-     "check": "Erst ab Do 03.12. erlaubt, klar als „prototype“ gekennzeichnet, B und B2 nie im selben Bild, keine Seitenansicht links, Fabrik nur mit Erlaubnis."
+     "check": "Erst ab Do 03.12. erlaubt, klar als „prototype“ gekennzeichnet, Fabrik nur mit Erlaubnis."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}

@@ -20,7 +20,7 @@
     "s": [
      "Vorher (bis So per DM geklärt): drei Menschen aus dem Netz oder die Helfer, je einer in W30, W32/34 und W36/38. Jeder sagt schriftlich Ja zur Nutzung der Fotos im Shop. Größe und Körpergröße notieren.",
      "Mitnehmen bzw. bereitlegen: je eine geprüfte Jeans (grüner Punkt, aus der Reserve, nicht aus Vorbestellungen), Graukarte, schlichte Oberteile ohne Streifen in verbotenen Farben, weiße Wand, Tageslicht vom Fenster.",
-     "Je Körper: vorn, hinten gerade von hinten, Ganzkörper aus 3 m. Keine Seitenansicht links. Rückansicht so eng schneiden, dass der Serp an der linken Seitennaht nicht mit B2 im selben Bild steht.",
+     "Je Körper: vorn, hinten gerade von hinten, Ganzkörper aus 3 m.",
      "Dazu einmal liegend und 4 Makros an einer Serienjeans: Kreuzstich-Band A, Münztasche E, B2 mit den Goldfäden, Patch D. Graukarte im ersten Bild jeder Serie für die Farbtreue.",
      "Shopify-Admin → Produkte → Drop-Produkt → Medien: Shoot-Bilder bleiben vorn, Detailbilder aus der Serie ersetzen die Sample-Fotos. Den Hinweis „Abgebildet ist das Sample“ löschen.",
      "Unter die Bilder je Körper eine Zeile in die Größentabelle: „Model: 1,xx m, trägt W32“. Nur echte Angaben."
@@ -36,7 +36,7 @@
     "t": "18:00 · CD-T17 posten: Gruppenbild Jeans, Zipper, Polo",
     "m": 10,
     "s": [
-     "Vor dem Hochladen: Gruppenbild auf die Bildregeln prüfen: B und B2 nicht im selben Bild, keine Seitenansicht links, kein roter Hintergrund.",
+     "Vor dem Hochladen: Gruppenbild auf die Bildregeln prüfen: kein roter Hintergrund.",
      "17:55 Asset „CD-T17“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto, Musik nur aus der Commercial Music Library). 18:00 posten, danach Reel und Short.",
      "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker zur Startseite. Angehefteten Kommentar auf den neuen CTA umstellen.",
      "15 Min. Kommentare und DMs beantworten (Regeln 9.3 Punkt 9). Frage nach Zipper oder Polo vorbestellen: „Only at the drop, 22.04., 19:00.“"
@@ -55,7 +55,7 @@
      "text": "„T−17“, „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−17. Three pieces, one drop. Jeans €169, zipper €139, polo €79. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
-     "check": "B und B2 nie im selben Bild, keine Seitenansicht links, keine Streifen in verbotenen Farben, kein Streichpreis."
+     "check": "Keine Streifen in verbotenen Farben, kein Streichpreis."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
@@ -108,7 +108,7 @@
      "text": "„T−16“ bzw. „Pre-orders shipping today.“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−16. The medallion of a wall carpet, on the back of the zipper. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidery #denim #berlinfashion #countdown",
-     "check": "Keine Adressen oder Namen im Bild, kein Serp neben Ähren, CTA der Phase."
+     "check": "Keine Adressen oder Namen im Bild, CTA der Phase."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com", "h": "T−16-Vorlage für den echten Clip"},
@@ -298,7 +298,7 @@
      "text": "„T−13 · How this shoot was made.“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−13. One Saturday, one sunset. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #behindthescenes #denim #berlinfashion #countdown",
-     "check": "Text ohne „wir“, keine Seitenansicht links, B und B2 nicht im selben Clip, kein hellblauer Himmel über Weizen."
+     "check": "Text ohne „wir“, kein hellblauer Himmel über Weizen."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com", "h": "nur falls Text getauscht werden muss"},
@@ -454,7 +454,7 @@
     "s": [
      "Dasselbe Feld, dieselbe Stelle wie Dreh 1 und 2. Nur mit Erlaubnis des Landwirts. Stativ an die markierte Stelle, gleicher Ausschnitt.",
      "Kamera 9:16, je Shot 3 Takes: Totale, Makro der Halme, Hand streicht über die Halme.",
-     "Sonnenuntergang, Himmel warm. Nie hellblauer Himmel über Weizen, keine Sichel, kein fertiges Teil neben Ähren.",
+     "Sonnenuntergang, Himmel warm. Nie hellblauer Himmel über Weizen, keine Requisite, kein fertiges Teil neben Ähren.",
      "Zu Hause in CapCut: die drei Drehs hintereinander (gleicher Ausschnitt, Datum im Bild), 15–20 s, Export nach „Feld/final“. Gepostet wird es als Grind+-Variante oder im Countdown, wenn ein Tag kein Asset hat."
     ],
     "f": "Dreh 3 in „Feld/roh/Dreh3“ liegt und der Zusammenschnitt der drei Drehs in „Feld/final“.",
@@ -471,7 +471,7 @@
      "text": "Datum je Dreh, Endkarte „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "Same field, three weeks apart. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #field #denim #berlinfashion",
-     "check": "Nie hellblauer Himmel über Weizen, keine Sichel, kein Ernte-Bild in einer Woche mit G7."
+     "check": "Nie hellblauer Himmel über Weizen, keine Requisite, kein Ernte-Bild in einer Woche mit G7."
     },
     "o": [
      {"n": "Feld von Dreh 1", "h": "Standort aus Dreh 1, nur mit Erlaubnis des Landwirts"},

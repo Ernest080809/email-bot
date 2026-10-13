@@ -164,7 +164,7 @@
      "text": "„T−9“ groß, „Clean on both sides.“, darunter „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−9. Clean on both sides. Machine-embroidered on the cut panel, threads finished by hand. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #countdown #berlinfashion",
-     "check": "Wortliste („maschinengestickt auf dem Zuschnitt, Fäden von Hand“), kein roter Hintergrund, keine Seitenansicht links, CTA der Phase."
+     "check": "Wortliste („maschinengestickt auf dem Zuschnitt, Fäden von Hand“), kein roter Hintergrund, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
@@ -193,19 +193,19 @@
    },
    {
     "c": "A",
-    "t": "10:00 · Drop-Startseite vorbereiten: Hero ohne Serp, keine Ernte-Hooks",
+    "t": "10:00 · Drop-Startseite vorbereiten: Hero prüfen, keine Ernte-Hooks",
     "m": 45,
     "s": [
      "Die Seite „TT Story“ schaltet am 22.04. selbst auf die Drop-Stufe um (website.md 3.3). Heute prüfst du nur, was sie dann zeigt.",
-     "Vorschau der Drop-Stufe öffnen (mit dem ?t-Parameter wie bei Stufe 4 geübt). Hero-Bild ansehen: kein Serp im Bild, keine Ähren-Tasche groß, kein roter Hintergrund, B und B2 nicht im selben Bild. Am 22.04. gilt die Teilsperre.",
-     "Alle Texte der Drop-Stufe lesen: keine Ernte-Hooks („harvest“, „field after the harvest“), kein Streichpreis, Preise 169 / 139 / 79 €. Liefertext überall gleich, wie am 14.12. festgelegt.",
+     "Vorschau der Drop-Stufe öffnen (mit dem ?t-Parameter wie bei Stufe 4 geübt). Hero-Bild ansehen: keine Ähren-Tasche groß, kein roter Hintergrund. Am 22.04. gilt die Teilsperre.",
+     "Alle Texte der Drop-Stufe lesen: keine Ernte-Hooks („harvest“, „Ernte“), kein Streichpreis, Preise 169 / 139 / 79 €. Liefertext überall gleich, wie am 14.12. festgelegt.",
      "Ist der Hero falsch: Bild tauschen gegen eine Frontaufnahme oder das Band-Makro aus dem Shoot. Mit dem Prompt unten Claude Code die Einstellung ändern lassen, Push erst nach deinem „ja“.",
-     "PLAN B (Shopify → Onlineshop → Themes) genauso prüfen: gleiches Hero-Bild ohne Serp, Kollektion „Time Travel“ verlinkt, Link zur Größenseite.",
+     "PLAN B (Shopify → Onlineshop → Themes) genauso prüfen: gleiches Hero-Bild, Kollektion „Time Travel“ verlinkt, Link zur Größenseite.",
      "Am Handy aus Instagram heraus testen (Link-Sticker in einer privaten Test-Story oder DM an dich selbst): lädt die Vorschau, wirkt das Hero-Bild?",
      "Ins Blatt „Website“: Hero geprüft 14.04., Datei, PLAN B gleich."
     ],
-    "f": "Drop-Stufe von „TT Story“ und PLAN B ein Hero-Bild ohne Serp und keine Ernte-Texte zeigen und beides im Blatt „Website“ steht.",
-    "p": "Projekt Time Travel, Docket W31, Mi 14.04. Prüfe im Theme „TT Story“ mit shopify theme pull --only config/settings_data.json, welches Bild und welche Texte die Drop-Stufe ab 22.04., 18:00 zeigt. Am 22.04. gilt: kein Serp im Hero-Bild, keine Ernte-Hooks, kein roter Hintergrund, B und B2 nicht im selben Bild. Zeig mir jede Stelle, die dagegen verstößt, und schlag den Tausch gegen [Dateiname Frontaufnahme] vor. Ändere nichts und pushe erst nach meinem „ja“.",
+    "f": "Drop-Stufe von „TT Story“ und PLAN B dasselbe geprüfte Hero-Bild und keine Ernte-Texte zeigen und beides im Blatt „Website“ steht.",
+    "p": "Projekt Time Travel, Docket W31, Mi 14.04. Prüfe im Theme „TT Story“ mit shopify theme pull --only config/settings_data.json, welches Bild und welche Texte die Drop-Stufe ab 22.04., 18:00 zeigt. Am 22.04. gilt: keine Ernte-Hooks, keine Ähren-Tasche groß im Hero-Bild, kein roter Hintergrund. Zeig mir jede Stelle, die dagegen verstößt, und schlag den Tausch gegen [Dateiname Frontaufnahme] vor. Ändere nichts und pushe erst nach meinem „ja“.",
     "o": [
      {"n": "Shopify-Admin · Onlineshop → Themes", "u": "https://admin.shopify.com", "h": "„TT Story“ und „PLAN B“"},
      {"n": "Claude Code · Ordner der Website", "h": "Theme-Einstellungen nur nach deinem „ja“ pushen"},
@@ -218,7 +218,7 @@
     "m": 10,
     "s": [
      "17:55 Asset „CD-T08“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, oder O-Ton.",
-     "Vorher prüfen: Serp nicht im Bild, keine Seitenansicht links. Die Caption aus der Bibliothek („Left: harvest.“) nicht verwenden, unten steht die neue.",
+     "Die Caption aus der Bibliothek („Left: harvest.“) nicht verwenden, unten steht die neue.",
      "18:00 posten. Gleich danach als Reel auf Instagram und als Short auf YouTube (Titel = Hook EN).",
      "Reel in die Instagram-Story: Countdown-Sticker „Drop“ auf 22.04., 19:00 und Link-Sticker zur Startseite.",
      "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
@@ -237,7 +237,7 @@
      "text": "„T−8“ groß, darunter „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−8. Watch the back. The threads move when you walk. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
-     "check": "Serp nicht im Bild, keine Seitenansicht links, keine Flaggen- oder Streifenfarben im Hintergrund, CTA der Phase."
+     "check": "Keine Flaggen- oder Streifenfarben im Hintergrund, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
@@ -358,7 +358,7 @@
      "text": "„Noch 1 Woche / 1 week“, darunter „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−7. One week. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
-     "check": "Rückansicht ohne Serp-Seite links, keine Streifen in Flaggenfarben, CTA der Phase."
+     "check": "Rückansicht mit Patch D als Gürtelschlaufe, keine Streifen in Flaggenfarben, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto"},
@@ -407,16 +407,16 @@
    },
    {
     "c": "C",
-    "t": "18:00 · V125 „Aus drei Metern“ statt CD-T06 posten",
+    "t": "18:00 · V125 „Aus drei Metern“ als CD-T06 posten",
     "m": 10,
     "s": [
-     "Heute läuft V125 statt CD-T06 „Seitennaht im Streiflicht“ (Bildregel: keine Seitenansicht links). CD-T06 nur, wenn du die Regel am Sa 07.11. bewusst gelockert hast, Blatt „Gates“ prüfen.",
+     "Heute läuft V125 als CD-T06 (Endframe „T−6 · 22.04. · 19:00“).",
      "17:55 Asset „V125“ aus „Countdown/final“ (vorproduziert 18./20.03.) in TikTok hochladen (Business-Konto). Musik aus der Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“).",
      "18:00 posten. Gleich danach als Reel auf Instagram (Musik aus der Business-Bibliothek der App) und als Short auf YouTube.",
      "Reel in die Instagram-Story: Countdown-Sticker auf 22.04., 19:00, Link-Sticker zur Startseite.",
      "18:00–18:10 Kommentare und DMs beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen."
     ],
-    "f": "V125 auf TikTok, als Reel, als Short und als Story online ist und CD-T06 nicht gepostet wurde (außer bei gelockerter Regel).",
+    "f": "V125 auf TikTok, als Reel, als Short und als Story online ist.",
     "v": {
      "id": "V125",
      "slot": "REACH",
@@ -430,7 +430,7 @@
      "text": "„T−6“, darunter „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−6. Wearable from far. A clock up close. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #berlinfashion #denim #novalifetimetravel #countdown",
-     "check": "Front, keine Seitenansicht links, keine Flaggen, kein „wir“, CTA der Phase statt der alten Bibliotheks-CTA."
+     "check": "Front, keine Flaggen, kein „wir“, CTA der Phase statt der alten Bibliotheks-CTA."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
@@ -545,7 +545,7 @@
     "s": [
      "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“ = bestätigte Warteliste. Zahl und Zuwachs zur Vorwoche, Anteile src- und ref- ins Blatt „Warteliste“.",
      "Content: je Post (CD-T10 bis CD-T04, V125) Views, Teilungen, Saves und neue Follower TikTok + Instagram ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
-     "Gates 7.1: G1 Liste unter 1.400 → Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos zeigen · G2 unter 2.920 → bestes Video als Variante, Kommentar-Zeit 15′ · G3 unter 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G7 ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, nie löschen, 2 Wochen kein Ernte- oder Serp-Bild (betrifft den Drop: Hero bleibt ohne Serp).",
+     "Gates 7.1: G1 Liste unter 1.400 → Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos zeigen · G2 unter 2.920 → bestes Video als Variante, Kommentar-Zeit 15′ · G3 unter 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G7 ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, nie löschen, 2 Wochen kein Ernte-Bild (betrifft den Drop: Hero ohne Ähren-Tasche).",
      "Kassencheck K − F − R im Blatt „Kasse“: grün ≥ 300 €, gelb 0–300 € (G12: keine Ausgaben außerhalb von Plan 3), rot < 0 (Ausgaben-Stopp-Liste, Notfall-Leiter 7.3).",
      "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans (Vorbestellungen).",
      "Alles abhaken. Offenes an Claude mit der Zeile unten."
@@ -599,7 +599,7 @@
      "text": "„T−4“, „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)",
      "caption": "T−4. The band sits on the pocket edge. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
-     "check": "Rechte Tasche, keine Seitenansicht links, B und B2 nicht im selben Bild, CTA der Phase."
+     "check": "Rechte Tasche, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -615,7 +615,7 @@
     "s": [
      "Vor Sonnenuntergang zum Feld am Stadtrand: dasselbe Feld, dieselbe Stelle, gleiche Einstellung wie Dreh 3 am 11.04. (Standort und Stativ-Markierung aus dem Blatt „Content“). Nur mit Erlaubnis des Landwirts. Handy 9:16, Licht von vorn, je Einstellung 3 Takes.",
      "Einstellung 1: dieselbe Totale wie bei Dreh 1–3, 10 s ruhig. Einstellung 2: Hand im Bild als Größenvergleich. Einstellung 3: Makro auf einzelne Halme.",
-     "Bildregeln: kein hellblauer Himmel über gelbem Feld im Bild (Himmel abschneiden oder bewölkt), keine Sichel als Requisite, keine Fahnen.",
+     "Bildregeln: kein hellblauer Himmel über gelbem Feld im Bild (Himmel abschneiden oder bewölkt), keine Requisite, keine Fahnen.",
      "Zu Hause in CapCut: Zeitraffer aus Dreh 1–4 in gleicher Einstellung hintereinander, je 1 s, harter Schnitt. Keine Musik einbacken.",
      "Datei „Feld_Zeitraffer_D4.mp4“ in den Ordner „Content/Reserve“. Posten erst nach dem 22.04. (Teilsperre: keine Ernte-Hooks am Drop-Tag)."
     ],
@@ -633,7 +633,7 @@
      "text": "„Dreh 1 · 2 · 3 · 4“ klein unten",
      "cta": "nach dem Drop: Live now. Link in bio.",
      "caption": "One spot, four visits. The field keeps growing. Live now. Link in bio. #novalifetimetravel #buildinpublic #denim #berlin",
-     "check": "Kein Post vor dem 23.04., kein blauer Himmel über gelbem Feld, keine Sichel, keine Fahne."
+     "check": "Kein Post vor dem 23.04., kein blauer Himmel über gelbem Feld, keine Requisite, keine Fahne."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com", "h": "Zeitraffer, keine Musik einbacken"},

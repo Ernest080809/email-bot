@@ -1,35 +1,36 @@
 # Design-Review v1.7 · Time Travel (NVL-TT-01)
 
 Stand: Mi 07.10.2026, abends. Für Ernest, vor Papiertest 3 (Do 08.10.) und Freeze (Fr 09.10.).
-Grundlage: Spec Rev. 13 Teil 3, Plan Rev. 5.3, Übergabe vom 07.10., die Bilder `design/v17/` (sheet, elemente, side, detail), `pdf/Serp_v17.png`, `design/v16/sheet.png`, `design/v15/sheet.png` und die Canvas-Dateien `fitcanvas/project/Main.dc.html` und `Rueckansicht.dc.html` (für dieses Review neu gerendert).
+**Nachgeführt auf den Stand nach So 11.10.:** Element B, der Serp, ist gestrichen, das linke Vorderbein bleibt leer. Es bleiben 5 sichtbare Elemente (A, E, B2, C, D), davon 4 Stickzonen (A, E, B2, C). Patch D ist 76 × 67 mm und selbst die hintere Gürtelschlaufe (5.2). Zahlen (Schätzung): ~28.000 Stiche, ~60 € Stückkosten, Schwellen im Plan weiter 10 und 32 bis zur echten Stichzahl am 09.11.
+Grundlage: Spec Rev. 13 Teil 3, Plan Rev. 5.3, Übergabe vom 07.10., die Bilder `design/v17/` (sheet, elemente, side, detail), `pdf/Serp_v17.png` (Element seit 11.10. gestrichen), `design/v16/sheet.png`, `design/v15/sheet.png` und die Canvas-Dateien `fitcanvas/project/Main.dc.html` und `Rueckansicht.dc.html` (für dieses Review neu gerendert).
 Neu dazu: **`rev6/research/design_varianten/NVL_Papiertest3_Varianten.pdf`**, ein A4-Blatt 1:1 mit fünf Testvarianten für morgen (Erzeuger-Skript `varianten_pt3.py` im selben Ordner). Das Blatt ist nur zum Testen und ändert nichts am Design.
 
 ---
 
 ## Kurzfassung
 
-**Urteil:** v1.7 kann verkaufen. Vorn tragen Band A und Münztasche E den Preis, hinten Patch D, Ähren mit Goldfäden B2 und Achtstern C. Fast das ganze Risiko steckt im Serp B mit roter Schneide.
+**Urteil:** v1.7 kann verkaufen. Vorn tragen Band A und Münztasche E den Preis, hinten Patch D als Gürtelschlaufe, Ähren mit Goldfäden B2 und Achtstern C. Das größte Symbolrisiko ist seit 11.10. erledigt: Der Serp ist gestrichen.
 
-**Stark:** „Rechts das Muster, links die Ernte“ erzählst du in einem Satz. A und E sind aus 3 m deine Signatur. Die Goldfäden sind dein bestes Video. Sichel und Ähren stehen in keinem normalen Foto zusammen.
+**Stark:** „Rechts das Muster, links die Ernte“ erzählst du in einem Satz, die Ernte erzählt jetzt B2 allein. A und E sind aus 3 m deine Signatur. Die Goldfäden sind dein bestes Video. Patch D ist die hintere Gürtelschlaufe, der Gürtel läuft dahinter und verdeckt ihn nicht.
 
 **Ehrliche Risiken:**
-1. **Symbol.** Aus 3 m verschwindet das Stoppelfeld (Halme 1,1–1,3 mm). Übrig bleibt eine weiße Sichel mit roter Kante, hinten Ähren auf rotem Band: das Vokabular des Sowjetwappens. Für ukrainische, polnische und baltische Käufer ist das ein Verkaufsrisiko. Rechtlich laut übernommener Quelle keins, die Verbote zielen auf Hammer und Sichel. Nach deiner Regel 3.1 („ohne Erklärung tragbar“) fällt der Serp durch, sobald er erklärt werden muss.
-2. **Kosten.** A und E sind 71 % der Stickkosten. Echter Kreuzstich (+5.000–10.000 Stiche) hebt Schwelle 2 auf 34–36, also über dein Kontingent von 35.
-3. **Patch D.** Ein Gürtel verdeckt die obere Hälfte. 3 mm Luft zu den Schlaufen hält keine Serie.
+1. **Symbol.** Seit 11.10. erledigt: Der Serp ist gestrichen. Es bleibt ein Rest-Risiko bei den Ähren auf rotem Band (B2) und beim Stern (C), dafür gelten V3 und die Sperrwoche 23.–29.11.
+2. **Kosten.** A und E sind 84 % der Stickkosten. Echter Kreuzstich (+5.000–10.000 Stiche) hebt Schwelle 2 auf 34–36, also über dein Kontingent von 35.
+3. **Patch D.** Seit 11.10. entschieden (5.2): 76 × 67 mm, selbst die hintere Gürtelschlaufe. Damit verdeckt kein Gürtel mehr die Krone.
 4. **B2.** Rot ohne Weiß verschwindet nach deiner Regel 2 schon aus 2 m.
 
 **Sechs Vorschläge, du entscheidest:**
 V1 Nummer von Hand auf dem Patch, „N° ___/100“ (+0,20–0,30 €) ·
-V2 Serp-Schneide stahlgrau, Stoppelfeld kräftiger (0 bis −0,55 €) ·
+V2 entfällt (Serp gestrichen 11.10.) ·
 V3 B2-Band mit weißer Kante (+0,08–0,22 €) ·
-V4 Kostenbremse: A, C, E als Füllung, Deckel 33.000 Stiche. Option offene Münztasche (−3,30 bis −3,60 €, Schwellen 10/32 → 9/30) ·
-V5 Patch D nach Gürteltest kleiner ·
+V4 Kostenbremse: A, C, E als Füllung, Deckel 28.000 Stiche. Option offene Münztasche (−3,30 bis −3,60 €, Schwellen 10/32 → 9/30) ·
+V5 Patch D: entschieden 11.10., 76 × 67 mm als hintere Gürtelschlaufe ·
 V6 Bedeutung innen: Taschenfutter-Druck oder Hangtag-Karte.
-Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine halbe Vorbestellung.
+Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens gut eine halbe Vorbestellung.
 
-**Morgen:** Varianten-Blatt mitdrucken, Serp auf 40/45/50 cm, Gürteltest, 3-m-Fotos. Schnelltest mit 10 Leuten aus deinem Netz, 5 Fragen, Antworten bis Fr 12:00. Nennen 2 von 10 spontan „Sowjet“ oder „Wappen“, wird die Schneide grau. Nennen es 4, wird der Serp in dieser Größe nicht eingefroren.
+**Papiertest 3 (Do 08.10.):** Varianten-Blatt mitdrucken, Gürteltest, 3-m-Fotos. Schnelltest mit 10 Leuten aus deinem Netz, 5 Fragen, Antworten bis Fr 12:00.
 
-**Offene Entscheidungen:** Serp-Mitte 45 cm (W32), +0,5 cm je Größe · Patch kleiner, Ort nach Gürteltest · keine Taschenklappe · Nackenlabel gewebt · „goldene Nähte“: wohl die Steppnaht, Ton ans Stickgold angleichen, keine Ziernaht um den Serp.
+**Offene Entscheidungen:** Patch D: Größe und Funktion entschieden (76 × 67 mm, Gürtelschlaufe), offen sind Position (mittig oder rechts) und Nackenlabel · keine Taschenklappe · Nackenlabel gewebt · „goldene Nähte“: wohl die Steppnaht, Ton ans Stickgold angleichen.
 
 **Quellen:** Selbst prüfen konnte ich heute nichts (Suchbudget aufgebraucht, Seitenabruf gesperrt). Fakten zu Symbolen, Verboten und Preisen sind aus `zielgruppe.md`/`markt.md` übernommen und markiert, der Rest ist Rechnung oder Schätzung.
 
@@ -63,11 +64,11 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine h
 | Stärke | Warum es verkauft |
 |---|---|
 | **„Rechts das Muster, links die Ernte“** | Eine Regel, die jeder nach einem Satz versteht. Daraus werden ein Post pro Element, eine Karte pro Element auf der Produktseite und eine Antwort auf „Was ist das?“ |
-| **Diagonale vorn** | A und E sitzen oben rechts an der Hüfte, der Serp unten links am Oberschenkel (gerendert aus `Main.dc.html`). Das Auge läuft quer über die Hose. Die Vorderseite wirkt dadurch nicht einseitig |
+| **Diagonale vorn** (gestrichen 11.10.) | Hing am Serp unten links. Seit 11.10. sitzen vorn nur A und E oben rechts an der Hüfte, das linke Vorderbein bleibt leer |
 | **Ruhiges Dreieck hinten** | Patch D oben in der Mitte, B2 und C auf gleicher Höhe links und rechts (`Rueckansicht.dc.html`). Das wirkt klassisch wie bei einer Markenjeans und bleibt alltagstauglich |
 | **„Aus drei Metern ein paar Punkte, aus dreißig Zentimetern ein Uhrwerk“** | Das ist dein Preisargument. Aus der Ferne ist die Hose tragbar, aus der Nähe sieht man, wofür die 169 € sind. Kapital und Story mfg. verkaufen Handarbeit genau so, über Nahaufnahmen [Ü14] |
-| **Sichel und Ähren getrennt** | B sitzt vorn links, B2 hinten links. In keiner normalen Ansicht (vorn, hinten, seitlich) stehen beide im Bild. Das senkt das Symbolrisiko schon heute |
-| **Viel leerer Denim** | Fünf kleine Zonen auf großer Fläche. Die Hose liest sich nicht als Kostüm, das ist Spec 3.1 eingelöst |
+| **Sichel und Ähren getrennt** (gestrichen 11.10.) | Erledigt, weil der Serp gestrichen ist. B2 steht hinten links allein |
+| **Viel leerer Denim** | Vier kleine Stickzonen und ein Patch auf großer Fläche. Die Hose liest sich nicht als Kostüm, das ist Spec 3.1 eingelöst |
 
 ### 1.2 Element für Element
 
@@ -75,10 +76,10 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine h
 |---|---|---|
 | **A** Taschenband | Das Ornament sitzt an der Öffnung, wie beim bestickten Hemd am Halsschlitz (Spec 3C). Rot-Weiß hat den höchsten Kontrast am Teil. Die Motive sind 7 × 7 Stiche = 9,3 mm groß und bleiben aus 3 m als Punkte lesbar | Das ist dein Wiedererkennungszeichen von vorn. Die erste Nahaufnahme ist immer A |
 | **E** Münztasche | Kleine Fläche, große Wirkung, ein „Schmuckstück“. Sie entspricht genau deinem Referenzfoto. Im Makro und zum Anfassen ist sie stark | Bester Detail-Shot für Thumbnails, weil sie quadratisch, symmetrisch und rot-weiß ist |
-| **B** Serp | Die Szene „das Feld danach“ ist poetisch und hat eine Richtung. Die Seitennaht ist ein Entdecker-Platz. Das Wort ist in den vier Sprachen fast gleich (serp, sierp, серп, laut `zielgruppe.md` 3.5, dort ohne Quelle, ungeprüft) | Nur stark, wenn der Kontext (das Feld) mitkommt. Siehe 2.1 und V2 |
-| **B2** Ähren + Goldfäden | Die Goldfäden sind **der Moment**: Bewegung, Handarbeit, ein Faden, der die Hose verlässt (Spec 2.1). Kein Wettbewerber in `markt.md` hat das | Dein bestes Video: gehen, die Fäden schwingen. Dazu die Hände, die sie setzen |
+| **B** Serp (gestrichen 11.10.) | Seit 11.10. nicht mehr am Teil | — |
+| **B2** Ähren + Goldfäden | Die Goldfäden sind **der Moment**: Bewegung, Handarbeit, ein Faden, der die Hose verlässt (Spec 2.1). Kein Wettbewerber in `markt.md` hat das. Seit 11.10. erzählt B2 die Ernte allein | Dein bestes Video: gehen, die Fäden schwingen. Dazu die Hände, die sie setzen |
 | **C** Achtstern | Kompakt, symmetrisch, weiß auf Indigo. Der Stern hält B2 auf der anderen Tasche das Gleichgewicht | Gesäßtaschen-Code wie bei Evisu: ein Zeichen, das man von hinten wiedererkennt [Ü14] |
-| **D** Lebensbaum-Patch | Naturleinen ist die hellste Fläche am Rücken und damit aus 3 m dein Logo. Er ersetzt das Lederpatch der klassischen Jeans | Markenzeichen am Bund. Mit V1 kommt die Stücknummer dazu |
+| **D** Lebensbaum-Patch | Naturleinen ist die hellste Fläche am Rücken und damit aus 3 m dein Logo. Er ersetzt das Lederpatch der klassischen Jeans. Seit 11.10. ist er selbst die hintere Gürtelschlaufe (76 × 67 mm, 4 Kupfernieten), der Gürtel läuft dahinter | Markenzeichen am Bund und Bauteil zugleich. Mit V1 kommt die Stücknummer dazu |
 
 ---
 
@@ -86,10 +87,11 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine h
 
 ### 2.1 Symbolik
 
-**Der Kern des Problems.** Der Serp ist kein verbotenes Zeichen. Aber v1.7 hat drei Dinge, die zusammen wirken:
-1. **Rot an der Klinge.** Rot macht aus dem Werkzeug ein Zeichen. In v1.6 hatte der Serp kein Rot, mit v1.7 kam es auf deinen Wunsch zurück [I, Spec-Changelog Rev. 12/13].
-2. **Der Kontext verschwindet zuerst.** Die Halme sind 1,1–1,3 mm breit und 4–9 mm hoch (Spec 3.6). Aus 3 m werden sie zu einem goldenen Fleck. Die weiße Klinge, bis ~4,3 mm breit [R, aus `wheat3.sickle()` × Maßstab 1,1], bleibt als Form stehen (siehe 2.2). Was das Motiv entschärft, ist also genau das, was man aus der Ferne nicht mehr sieht.
-3. **Das Vokabular ist an einer Hose komplett.** Sichel (B), Ähren über rotem Band (B2), roter Stern (C, zwar acht- statt fünfzackig). Das Staatswappen der Sowjetunion zeigt Hammer und Sichel, Ähren mit roten Bändern und einen Stern [Ü5]. Das belarussische Staatswappen zeigt Ähren mit Band und einen roten Stern [Ü6]. Stern neben dem Serp, Hammer und roter Grund sind bei dir schon verboten (Spec 3.10). Was bleibt, ist ein Rest-Risiko.
+**Seit 11.10. erledigt: Der Serp ist gestrichen.** Damit fehlt an der Hose das Werkzeug, das zusammen mit Ähren, rotem Band und Stern das Wappen-Vokabular komplett machte. Es bleibt ein Rest-Risiko bei B2 und C.
+
+**Der Kern des Problems (Stand 07.10., erledigt).** Am Serp machte das Rot an der Klinge aus dem Werkzeug ein Zeichen, und das Stoppelfeld, das ihn entschärfen sollte, verschwand aus 3 m zuerst. Mit Ähren über rotem Band (B2) und rotem Stern (C) war das Vokabular des Sowjetwappens [Ü5] an einer Hose komplett.
+
+**Was bleibt:** Ähren über rotem Band (B2) und ein roter Stern (C, acht- statt fünfzackig). Das belarussische Staatswappen zeigt Ähren mit Band und einen roten Stern [Ü6]. Hammer und roter Grund sind bei dir schon verboten (Spec 3.10). V3 (weiße Kante an B2) setzt hier an.
 
 **Wer reagiert wie** (übernommen, Such-Auszüge):
 
@@ -102,21 +104,12 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine h
 | Alle | Gelber Weizen unter hellblauem Himmel liest sich als ukrainische Flagge | [Ü12] |
 | Berlin | Die Polizei hat sowjetische Fahnen an den Ehrenmalen am 8./9. Mai 2025 verboten, das Verwaltungsgericht hat das bestätigt | [Ü11] |
 
-**Verbote** (übernommen, Detailstand je Land nicht geprüft, keine Rechtsberatung):
+**Verbote** (übernommen, Detailstand je Land nicht geprüft, keine Rechtsberatung): Seit 11.10. erledigt, weil der Serp gestrichen ist. Die Übersicht betraf Hammer und Sichel und sowjetische Symbole in der Ukraine, Litauen, Polen, Lettland und Ungarn [Ü1]–[Ü4]. In Deutschland sind nach § 86a StGB Kennzeichen verbotener Organisationen strafbar (ungeprüft).
 
-| Land | Was | Quelle |
-|---|---|---|
-| Ukraine | Kommunistische Symbole wie Hammer und Sichel seit den Dekommunisierungsgesetzen 2015 verboten | [Ü1] |
-| Litauen | 2008: Verbot sowjetischer und nationalsozialistischer Symbole bei Versammlungen | [Ü2] |
-| Polen | Art. 256 StGB-PL ahndet die Propagierung totalitärer Systeme | [Ü3][Ü4] |
-| Lettland, Ungarn | Hammer und Sichel laut Wikipedia-Übersicht verboten | [Ü3] |
-| Alle genannten | **Die Sichel allein fällt nach dieser Übersicht nicht darunter** | [Ü3] |
-| Deutschland | Hammer und Sichel sind als solche nicht verboten. Strafbar nach § 86a StGB sind Kennzeichen verbotener Organisationen | ungeprüft |
-
-**Meine Einschätzung:** Rechtlich bist du mit „Serp ohne Hammer, ohne Stern daneben, ohne roten Grund“ sauber. Das Verkaufsrisiko ist **mittel**, mit roter Schneide **mittel bis hoch** bei Käufern mit ukrainischem, polnischem oder baltischem Hintergrund. Gemessen an deiner eigenen Gestaltungsvorgabe ist es ein Problem: „Das Teil muss ohne Erklärung tragbar sein“ (Spec 3.1). Wer den Serp im Bus erklären muss, trägt die Hose nicht sicher. **Das wird morgen gemessen, nicht geglaubt** (Abschnitt 4).
+**Meine Einschätzung:** Seit 11.10. erledigt: Der Serp ist gestrichen. Er war rechtlich sauber, aber mit rotem Rand ein mittleres bis hohes Verkaufsrisiko. Für B2 und C gilt weiter deine Vorgabe: „Das Teil muss ohne Erklärung tragbar sein“ (Spec 3.1).
 
 **Kleinere Punkte:**
-- **Stoppelfeld und Holodomor:** geringes bis mittleres Risiko, nur bei ukrainischem Publikum. Nicht vorher ändern, morgen abfragen. Nie „fünf Ähren“, B2 hat drei. In der Woche 23.–29.11. kein Ernte- oder Sichel-Post, am Gedenktag (Sa 28.11.) gar keiner (Vorschlag aus `zielgruppe.md` 3.7).
+- **Ähren und Holodomor:** Das Stoppelfeld ist mit dem Serp gestrichen. Es bleiben die Ähren von B2, ein Risiko nur bei ukrainischem Publikum. Nie „fünf Ähren“, B2 hat drei. In der Woche 23.–29.11. kein Ernte-Post, am Gedenktag (Sa 28.11.) gar keiner (Vorschlag aus `zielgruppe.md` 3.7). Am Drop-Tag 22.04. keine Ernte-Hooks.
 - **C „Alatyr“:** Der Name ist in der russischen Neuheiden-Szene verbreitet [Ü13]. Das Motiv selbst ist ein Textil-Achtstern und unproblematisch. Nach außen „Achtstern“ sagen, intern darf „Alatyr“ bleiben.
 - **A „Vyshyvanka“:** Das Wort steht für ein ukrainisches Nationalsymbol [Ü15]. Nach außen „Kreuzstich-Band“, sonst beanspruchst du doch eine Nationaltradition.
 - **D:** Knoten vom Triquetra-Typ und Baum im Kreis sind kein Symbolrisiko, das ist meine Einschätzung (ungeprüft). Das Risiko ist ein anderes: D liest sich wie der Lebensbaum-Anhänger aus dem Schmuckregal, also austauschbar, und stilistisch liegt er außerhalb der Kreuzstich-Grammatik. Das ist deine Entscheidung vom 27.09. und kein Änderungsvorschlag. V1 macht ihn eigen.
@@ -129,28 +122,24 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine h
 |---|---|---|---|---|
 | **A** | 23 mm Band, Motiv 9,3 mm | Weiß L\* 85–88: sehr hoch | rot-weißes Band mit hellen Punkten | stark |
 | **E** | 60 mm Quadrat, Motiv ~9–12 mm | sehr hoch | rot-weißes Quadrat, Gittermuster | stark |
-| **B** Klinge | ~50 mm Bogen, Klinge bis ~4,3 mm | Weiß: sehr hoch | **weiße Sichelform** | lesbar |
-| **B** rote Schneide | ~1–1,5 mm (aus der Zeichnung) | Rot auf Weiß | ein rötlicher Rand | knapp |
-| **B** Stoppelfeld | Halme 1,1–1,3 mm, 4–9 mm hoch | Gold mittel | goldener Fleck ohne Form | **geht verloren** |
+| **B** Serp (gestrichen 11.10.) | — | — | Klinge blieb lesbar, das Stoppelfeld ging aus 3 m verloren | entfällt |
 | **B2** Ähren | Büschel ~20 × 15 mm | Gold mittel | goldener Punkt | lesbar |
 | **B2** Band | 3 mm, Rot L\* 38–42 | **fast null** (Spec 3.4, Regel 2) | dunkle Linie oder nichts | **geht verloren** |
 | **B2** Fäden | 1 mm, 18–30 mm, bewegen sich | Gold mittel | Bewegung fällt auf | lesbar, wenn sie schwingen |
 | **C** | 36 mm, 27 × 27 Stiche | Weiß: hoch | weißer Stern | stark |
-| **D** | 86 × 76 mm Leinen, Linien ab 0,8 mm | Leinen hell gegen Indigo: hoch | heller Patch, goldener Kreis | stark, aber mit Gürtel halb weg (2.4) |
+| **D** | 76 × 67 mm Leinen (seit 11.10.), Linien ab 0,8 mm | Leinen hell gegen Indigo: hoch | heller Patch, goldener Kreis | stark, als Gürtelschlaufe liegt der Gürtel dahinter (2.4, 5.2) |
 
-**Folge:** Vorn und hinten erfüllt v1.7 das Prinzip „ein paar Punkte“. Die zwei Schwachstellen sind genau die zwei Symbolstellen: der Kontext von B und das Band von B2. V2 und V3 setzen dort an.
+**Folge:** Vorn und hinten erfüllt v1.7 das Prinzip „ein paar Punkte“. Seit 11.10. bleibt eine Schwachstelle: das Band von B2. V3 setzt dort an.
 
 ### 2.3 Komplexität für die Stickerei
 
-1. **B ist das schwierigste Element am Teil.** Bis zu zehn Garne, ~48 Halme mit je Kontur (0,3 mm), Innenlinie und heller Schnittkante, und das bei 1,1–1,3 mm Breite [R, gezählt in `v17.py`: 3+4+5+6 Büschel à 2–3 Halme].
-   - **Erfahrungswert (ungeprüft):** Satinsäulen unter ~1 mm werden instabil. Eine Kontur um eine 1,2-mm-Säule trifft auf rigidem 12-oz-Denim nicht sauber, weil Zug und Schub den Stoff um Bruchteile eines Millimeters verschieben.
-   - Viele kleine, getrennte Büschel bedeuten viele Fadenschnitte. **Die Spec sagt, nur die Stichzahl treibe die Kosten (2.8). Das stimmt für den Preis pro 1.000 Stiche, aber nicht für die Maschinenzeit.** Schnitte und Farbwechsel kosten Zeit. Manche Betriebe rechnen sie mit ein (ungeprüft).
-   - Der Digitizer wird B ohnehin vereinfachen. Besser, du legst die Vereinfachung selbst fest (V2, Variante B-GS), dann weißt du, was rauskommt.
+1. **B, der Serp: seit 11.10. erledigt, er ist gestrichen.** Mit bis zu zehn Garnen und ~48 Halmen von 1,1–1,3 mm war er das schwierigste Element am Teil, damit fällt auch das größte Stickrisiko weg.
+   - Allgemein bleibt: **Die Spec sagt, nur die Stichzahl treibe die Kosten (2.8). Das stimmt für den Preis pro 1.000 Stiche, aber nicht für die Maschinenzeit.** Schnitte und Farbwechsel kosten Zeit. Manche Betriebe rechnen sie mit ein (ungeprüft).
 2. **A auf der Taschenkante.** 13.000 Stiche mit Cut-away-Vlies machen die Kante der Tasche steif. Der Eingriff kann vom Körper abstehen (Schätzung). Am Stitch-out (W13) prüfen: Hand rein und raus, sitzen, steht die Tasche ab?
    **Tech-Pack-Hinweis, du entscheidest:** „Innenkante auf der Taschenöffnung“ verlangt, dass eine vorher gestickte Fläche nach dem Wenden und Absteppen millimetergenau an der Kante liegt. **Mein Vorschlag: 2 mm Denim zwischen Band und Kante vorgeben.** Dann verschwindet die Nähtoleranz, und die Steppnaht läuft im Rand. Kostet 0 Stiche.
 3. **E ist eine steife Platte.** 10.500 Stiche auf 62 mm, die Ecke liegt doppelt unter dem Vorderteil (Spec 3.6). Am Stitch-out die Dicke an der Ecke messen.
 4. **Weiß nach der Wäsche.** Die Prozesskette ist: sticken, dann waschen (Spec 2.3). Indigo kann sich in der Wäsche auf weißem Garn absetzen, dann wird Weiß bläulich (ungeprüft, Erfahrungswert). Dein Kontrast hängt aber an L\* 85–88 (Spec 2.2). **Neue Prüfung am Stitch-out:** L\* von Weiß nach der Wäsche messen, Ziel ≥ 80 (Schätzung). Dazu eine RFQ-Frage am 12.10.: „Do you use an anti-backstaining agent in the wash?“
-5. **Patch D über Bund und Passe.** Er wird durch Bund und Passennaht genäht, dort liegen viele Lagen. 3 mm Luft zu den Schlaufen sind enger, als Schlaufen in Serie gesetzt werden (Schätzung: ±3–5 mm). Ergebnis: Bei einem Teil der 100 Paare liegt eine Schlaufe auf dem Patch.
+5. **Patch D über Bund und Passe.** Seit 11.10. entschieden (5.2): 76 × 67 mm, der Patch ist selbst die hintere Gürtelschlaufe, nur links und rechts genäht und genietet, oben und unten offen, 3–5 mm Spiel. Das alte Problem, dass in Serie eine Schlaufe auf dem Patch landet, entfällt damit. Offen bleibt die Position (mittig oder rechts).
 
 ### 2.4 Abrieb und Tragen
 
@@ -158,29 +147,29 @@ Ohne die Münztaschen-Option bewegt das Paket die Schwellen um höchstens eine h
 |---|---|---|---|
 | **A** | Hände, Handy, Schlüssel, die Kante ist ein Bruch | hoch (Spec 3.9) | Kantenabrieb 0 ist schon gesetzt. Fusseln an der Kante nach Monaten einplanen und als Alterung erzählen (Weg B) |
 | **E** | Kante der Münztasche | mittel | Kante ohne Abrieb, ist schon gesetzt |
-| **B** | Hand beim Gehen, Umhänge- und Bauchtaschen an der Hüfte, Armlehnen, Nahtwulst | mittel, je höher, desto mehr | Höhe morgen mit Hand- und Taschentest finden (Abschnitt 4, Block 3) |
+| **B** (gestrichen 11.10.) | entfällt | — | — |
 | **B2** | Sitzen. Die Fäden enden ~64–77 mm unter der Taschenoberkante (45 mm Bandmitte + 1,5 mm + 18–30 mm), also mitten auf der Tasche | mittel. „Dort sitzt man nicht drauf“ (Spec 3.7) gilt für das Band, für die Fadenenden eher nicht | Morgen Sitztest mit echtem Garn (Block 6) |
 | **C** | Sitzen, Handy in der Gesäßtasche drückt von innen | gering bis mittel | nichts, am PP-Sample prüfen |
-| **D** | **Gürtel.** 40 mm von 76 mm liegen auf dem Bund, ein Gürtel (meist 30–40 mm, Schätzung) deckt die obere Hälfte mit der Baumkrone. Er reibt an der Patchkante, Leinen franst | **hoch für die Sichtbarkeit**, mittel für den Abrieb | V5, Gürteltest morgen |
+| **D** | **Gürtel.** Seit 11.10. ist D selbst die hintere Gürtelschlaufe (5.2), der Gürtel läuft dahinter und deckt die Krone nicht mehr. Er reibt jetzt an der Rückseite und an den genieteten Kanten, Leinen kann fransen (Schätzung) | Sichtbarkeit gelöst, mittel für den Abrieb | am Proto und PP-Sample mit Gürtel tragen und Kanten prüfen |
 
 ### 2.5 Kosten
 
 | Element | Stiche (Spec 3.6) | €/Paar bei 0,55 €/1.000 [R] | Anteil an den Stickkosten |
 |---|---|---|---|
-| A | 13.000 | 7,15 € | 39 % |
-| E | 10.500 | 5,78 € | 32 % |
-| B | 5.000 | 2,75 € (+ ~1 € eigene Zone = 3,75 €, Spec 3.11) | 15 % |
-| B2 | 2.500 | 1,38 € | 8 % |
-| C | 2.000 | 1,10 € | 6 % |
-| **Summe** | **33.000** | **18,15 €** | 100 % |
+| A | 13.000 | 7,15 € | 46 % |
+| E | 10.500 | 5,78 € | 38 % |
+| B (gestrichen 11.10.) | 0 (vorher 5.000) | 0 € (vorher 3,75 € mit eigener Zone) | — |
+| B2 | 2.500 | 1,38 € | 9 % |
+| C | 2.000 | 1,10 € | 7 % |
+| **Summe** | **~28.000** | **15,41 €** | 100 % |
 
-Dazu Patch ~3 €, Goldfäden ~2 €, Zonen-Handling ~5 €. **Die Dekoration kostet ~28 € von 63 € Stückkosten (~45 %)** [R aus Spec 3.11].
+Dazu Patch ~3 €, Goldfäden ~2 €, Zonen-Handling ~4 € (4 Zonen). **Die Dekoration kostet ~24 € von ~60 € Stückkosten (~40 %)** [R aus Spec 3.11, Schätzung].
 
-**Das größte Kostenrisiko ist nicht der Serp, sondern der echte Kreuzstich bei A und E** (Spec 3.11: +5.000–10.000 Stiche):
+**Das größte Kostenrisiko ist der echte Kreuzstich bei A und E** (Spec 3.11: +5.000–10.000 Stiche):
 
 | Fall | €/Paar | Kapital | Schwelle 1 | Schwelle 2 |
 |---|---|---|---|---|
-| Heute (Füllung, 33.000) | — | 9.380 € | 10 | 32 |
+| Heute (Füllung, ~28.000) | — | ~9.080 € (Schätzung) | 10 | 32 |
 | +5.000 Stiche | +2,75 € | +275 € | 10,5 → **11** | 33,7 → **34** |
 | +10.000 Stiche | +5,50 € | +550 € | 11,5 → **12** | 35,6 → **36 = über dem Kontingent von 35** |
 
@@ -195,7 +184,7 @@ Kurzfassung aus `zielgruppe.md`. Dort stehen die Segmente mit Quellen, ich wiede
 | Segment | Was am Design zieht | Was abschreckt | Was das fürs Design heißt |
 |---|---|---|---|
 | **Warmes Netz und Novalife-Bestand** (Bleach-Kunden) | Du. Novalife hieß bisher: jedes Teil ein Unikat | nichts Spezielles | **V1** bringt das Unikat-Gefühl in eine Serie von 100 |
-| **Ost-Wurzeln, zweite Generation, 18–35** (Kernsegment) | Wiedererkennen: Kreuzstich und Raute wie bei Oma, also **A und E**. Der Teppich gehört zum Zipper | „Ist das russisch? Ist das politisch?“ bei ukrainischen oder polnischen Eltern. „Das trägt meine Oma“ | A und E sind das Geld-Element. Der Serp ist für dieses Segment am stärksten umstritten |
+| **Ost-Wurzeln, zweite Generation, 18–35** (Kernsegment) | Wiedererkennen: Kreuzstich und Raute wie bei Oma, also **A und E**. Der Teppich gehört zum Zipper | „Ist das russisch? Ist das politisch?“ bei ukrainischen oder polnischen Eltern. „Das trägt meine Oma“ | A und E sind das Geld-Element |
 | **Denim- und Streetwear-Käufer ohne Ost-Bezug** | Handwerk im Makro, Goldfäden, Nummer, ehrliche Größe | Preis gegen Eightyfive (79,95–89,95 €), Carhartt WIP (110 €), Levi's 501 (109,95 €) [Ü16] | Die 60–90 € Aufpreis müssen in den Nahaufnahmen sichtbar sein (Abschnitt 6) |
 | **Seit 2022 Angekommene aus der Ukraine** | wenig, geringe Kaufkraft | Sowjet-Assoziation, „slawisch“, Holodomor | **Prüfstein, nicht Zielgruppe.** Wenn sie das Design ohne Erklärung tragen würden, ist es sicher |
 
@@ -218,24 +207,11 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 - **Risiko:** Hält der Marker auf Leinen nicht, kommt die Nummer auf das Innenlabel am Bund. Dann ist sie nicht mehr von außen sichtbar.
 - **Test morgen:** Lasche „N“ vom Varianten-Blatt ausschneiden und unten mittig an den Papier-Patch kleben. „001“ von Hand reinschreiben. Fotos aus 1 m und 3 m, einmal mit und einmal ohne Gürtel.
 
-### V2 · Serp: Schneide stahlgrau statt rot, Stoppelfeld kräftiger (Symbol, Lesbarkeit, Produktion)
+### V2 · Serp: Schneide stahlgrau statt rot, Stoppelfeld kräftiger (gestrichen 11.10.)
 
-- **Was:**
-  - **B-G:** Die Schneide wird Stahlgrau statt Rot, sonst bleibt alles wie v1.7. Eine geschliffene Schneide glänzt in Wirklichkeit hell.
-  - **B-GS:** zusätzlich nur noch 3 statt 4 Reihen Halme. ~30 statt ~48 Halme, 1,6–1,8 mm breit statt 1,1–1,3 mm, ohne Kontur, in zwei Goldtönen plus heller Schnittkante.
-  - Beide liegen 1:1 auf dem Varianten-Blatt.
-- **Warum:**
-  - Rot ist der Hebel, der das Werkzeug zum Zeichen macht (2.1).
-  - Das kräftigere Feld bleibt aus 3 m als Feld lesbar (2.2). Damit kommt der Kontext mit, der den Serp entschärft.
-  - B-GS ist so gezeichnet, wie ein Digitizer es sauber sticken kann (2.3).
-  - Dazu eine klare Farbregel für die ganze Hose: **Rot gehört dem Muster (A, C, E), Gold, Braun und Stahl gehören der Ernte.** Das passt zu „Rechts das Muster, links die Ernte“. Die einzige Ausnahme bleibt das Band von B2 (V3).
-- **Abweichung von deinem Wunsch:** Du hast die rote Schneide am 07.10. ausdrücklich gewollt. Ich schlage nicht vor, sie zu streichen, sondern sie morgen gegen Grau testen zu lassen (Schwellen in 4.4).
-- **Gegenrechnung [R]:**
-  - B-G: reine Farbänderung, 0 Stiche, 0 €.
-  - B-GS: weniger, aber breitere Halme, geschätzt −500 bis −1.000 Stiche. Das sind −0,28 bis −0,55 €/Paar, −28 bis −55 € Kapital, **Schwellen bleiben 10/32.**
-  - Garne an B: 10 → 7–8, weil Rot, Ocker und die Halm-Kontur wegfallen. Geschätzt ein Drittel weniger Fadenschnitte.
-- **Aufwand:** Die Varianten existieren schon. Spec 3.4 und 3.6 anpassen kostet ~20 Min. (Claude).
-- **Test morgen:** Serp v1.7 und B-G an der gleichen Stelle, dazu B-GS. Fotos aus 3 m und 1 m. Im Schnelltest Frage 2 (v1.7 gegen B-G). Ob das Feld in B-GS aus 3 m besser lesbar ist, beurteilst du selbst am Foto.
+**Seit 11.10. erledigt: Der Serp ist gestrichen.** Damit entfallen die Varianten B-G und B-GS, der Test dazu und die Entscheidung über die Farbe der Schneide.
+
+Der Vorschlag war: Schneide stahlgrau statt rot (B-G, 0 €) und ein vereinfachtes, kräftigeres Feld (B-GS, −0,28 bis −0,55 €/Paar), damit der Kontext aus 3 m lesbar bleibt. Für die Ernte gilt jetzt nur noch B2.
 
 ### V3 · B2: rotes Band mit weißer Kante (Regel 2, Abstand zum Wappen)
 
@@ -251,7 +227,7 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 ### V4 · Kostenbremse an A und E (Kosten sparen)
 
 - **Was:**
-  - **(a) Pflicht, Tech Pack:** „A, C, E: feine Füllung mit Kreuzstich-Musterung ist Standard. Echter Kreuzstich nur, wenn der gewaschene Stitch-out deutlich näher an Ernests Referenzfotos ist **und** die Mehrkosten höchstens 2 €/Paar betragen. Gesamtdeckel 33.000 Stiche, jede Überschreitung braucht Ernests Freigabe.“ Dazu im Digitizing-Auftrag: „Bitte Stiche **und** Fadenschnitte und Farbwechsel pro Element angeben.“
+  - **(a) Pflicht, Tech Pack:** „A, C, E: feine Füllung mit Kreuzstich-Musterung ist Standard. Echter Kreuzstich nur, wenn der gewaschene Stitch-out deutlich näher an Ernests Referenzfotos ist **und** die Mehrkosten höchstens 2 €/Paar betragen. Gesamtdeckel 28.000 Stiche, jede Überschreitung braucht Ernests Freigabe.“ Dazu im Digitizing-Auftrag: „Bitte Stiche **und** Fadenschnitte und Farbwechsel pro Element angeben.“
   - **(b) Option:** Münztasche offen (E-O). Gestickt wird nur das weiße Gitter, der rote Grund bleibt Denim. Variante E-O auf dem Varianten-Blatt.
 - **Warum:**
   - (a) verhindert den teuersten Fall in 2.5, dass Schwelle 2 über dein Kontingent steigt.
@@ -264,6 +240,8 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 - **Test morgen:** E (v15 Seite 1) und E-O nacheinander auf die Münztasche kleben, Fotos aus 3 m und 1 m. **Regel:** Liest sich E-O auf dem 3-m-Foto noch als „bestickte Münztasche“ und gefällt sie dir mindestens gleich gut, nimm E-O. Sonst bleibt E voll, und (a) gilt trotzdem.
 
 ### V5 · Patch D: Gürteltest, dann kleiner (Tragen, Produktion)
+
+**Entschieden 11.10. (5.2):** 76 × 67 mm, und der Patch ist selbst die hintere Gürtelschlaufe. Variante (b) auf der Passe entfällt. Der Vorschlag vom 07.10. steht unten zum Nachlesen.
 
 - **Was:** Morgen mit Gürtel testen. Danach eine von zwei Varianten:
   - **(a) Kein Gürtel deckt die Krone:** D bleibt am Bund, aber **76 × 67 mm**. Das gibt mindestens 8 mm Luft zu den Schlaufen: 92 mm Lücke − 2 × 8 mm = 76 mm [R aus Spec 3.8: 86 mm + 2 × 3 mm].
@@ -278,7 +256,7 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 
 ### V6 · Die Bedeutung innen: Taschenfutter-Druck oder Hangtag-Karte (Verkaufsstory)
 
-- **Was:** Innen im rechten Taschenfutter (die Tasche mit A) steht einfarbig der Bauplan. Kleine Zeichnung der Hose mit A bis E und je einem Satz:
+- **Was:** Innen im rechten Taschenfutter (die Tasche mit A) steht einfarbig der Bauplan. Kleine Zeichnung der Hose mit A, E, B2, C und D und je einem Satz:
   - „Die Raute: ein bestelltes Feld.“
   - „Der Achtstern: die Sonne.“
   - „Die Ähren hängen über einem roten Band, darunter neun Fäden, von Hand gesetzt.“
@@ -302,33 +280,33 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 | Vorschlag | Δ €/Paar | Δ Kapital | Schwelle 1 / 2 |
 |---|---|---|---|
 | V1 Nummer | +0,20 bis +0,30 | +20 bis +30 € | 10 / 32 |
-| V2 B-GS | −0,55 bis −0,28 (B-G allein: 0) | −55 bis −28 € | 10 / 32 |
+| V2 B-GS (gestrichen 11.10.) | entfällt | — | — |
 | V3 weiße Kante | +0,08 bis +0,22 | +8 bis +22 € | 10 / 32 |
 | V4a Kostenbremse | 0 (verhindert +2,75 bis +5,50) | 0 | 10 / 32 statt 11–12 / 34–36 |
-| V5 Patch kleiner | −0,50 bis −0,20 | −55 bis −20 € | 10 / 32 |
+| V5 Patch 76 × 67 mm (entschieden 11.10.) | −0,50 bis −0,20 | −55 bis −20 € | 10 / 32 |
 | V6 als Hangtag-Karte | 0 bis +0,50 | 0 bis +50 € | 10 / 32 |
-| **Paket ohne V4b** | **−0,77 bis +0,54** | **−77 bis +54 €** | **10 / 32** (Δ höchstens ±0,5 Vorbestellungen) |
-| **Paket mit V4b (Münztasche offen)** | **−4,37 bis −2,76** | **−437 bis −276 €** | **9 / 29–30** |
+| **Paket ohne V4b** | **−0,22 bis +0,82** | **−22 bis +82 €** | **10 / 32** (Δ höchstens +0,6 Vorbestellungen) |
+| **Paket mit V4b (Münztasche offen)** | **−3,82 bis −2,48** | **−382 bis −248 €** | **9 / 30–31** |
 
-**Ein Serp, der durchfällt (Fallback, falls der Schnelltest es verlangt):**
-- **Zurück auf den kleinen Serp aus v1.6** (22 × 35 mm, ohne Rot): −1,50 €/Paar, −150 € Kapital, Schwellen **10 / 31**. Das entspricht Plan Rev. 5.2.
-- **Serp ganz streichen:** −3,75 €/Paar, −375 € Kapital, Schwellen **9 / 30**. Die Ernte erzählt dann allein B2 hinten.
+**Fallback Serp: seit 11.10. erledigt, der Serp ist gestrichen.** Die Ernte erzählt jetzt B2 allein. Schätzung: ~60 € statt ~63 € Stückkosten und rund 300 € weniger Kapital. Die Schwellen bleiben im Plan bei **10 und 32**, bis die echte Stichzahl (09.11.) da ist.
 
 ---
 
 ## 4 · Protokoll Papiertest 3 · Do 08.10.
 
-**Ziel:** Bis Fr 12:00 sind vier Dinge entschieden: Serp-Höhe, Patch-Größe, Rot oder Grau, Weiß-Kante ja oder nein. Dazu eine Antwort auf die Frage, ob v1.7 ohne Erklärung tragbar ist. Der Freeze am Fr 09.10. bleibt.
+**Seit 11.10. erledigt: Der Serp ist gestrichen.** Block 3, die Serp-Fotos und die Serp-Regel im Schnelltest entfallen, die Nummern der Blöcke, Fotos und Fragen bleiben. Das Protokoll taugt so als Vorlage für spätere Tests mit A, E, B2, C und D.
 
-**Zeit:** Pflicht ~85 Min., mit den Extras ~115 Min. Wenn die Zeit knapp ist, fallen Block 6 und die Content-Clips weg, nichts anderes.
+**Ziel:** Bis Fr 12:00 sind Patch-Größe und Weiß-Kante (ja oder nein) entschieden. Dazu eine Antwort auf die Frage, ob v1.7 ohne Erklärung tragbar ist. Der Freeze am Fr 09.10. bleibt.
+
+**Zeit:** Pflicht ~70 Min., mit den Extras ~100 Min. Wenn die Zeit knapp ist, fallen Block 6 und die Content-Clips weg, nichts anderes.
 
 ### 4.1 Material
 
 - Drucke, alle mit „Tatsächliche Größe“ / 100 %, die Kontrolllinie muss 100 mm messen:
-  - `NVL_Druckvorlage_v17.pdf` (2 Seiten: B2 und B)
+  - `NVL_Druckvorlage_v17.pdf` Seite 1 (B2)
   - `NVL_Druckvorlage_v15.pdf` Seite 1 (A und E)
   - `NVL_Druckvorlage_1zu1.pdf` Seite 3 (C und D)
-  - **neu: `rev6/research/design_varianten/NVL_Papiertest3_Varianten.pdf`** (1 Seite: B-G, B-GS, B2-W, E-O, Lasche N)
+  - **neu: `rev6/research/design_varianten/NVL_Papiertest3_Varianten.pdf`** (1 Seite: B2-W, E-O, Lasche N)
 - Eightyfive, Malerkrepp, Schere, Lineal, Maßband, gelbes Garn (9 Stücke 18–30 mm), Filzstift, **ein Gürtel**, ein Stuhl, Handy auf Stativ oder Bücherstapel.
 - Kein Drucker zu Hause: Copyshop, „100 %, nicht anpassen“ sagen. Ob dein Copyshop morgen offen hat, prüf bitte selbst.
 
@@ -337,9 +315,9 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 | Block | Min. | Was | Fertig, wenn |
 |---|---|---|---|
 | 1 | 15 | Drucken, Kontrolllinie mit Lineal messen | alle 4 PDFs messen 100 mm |
-| 2 | 20 | v1.7 komplett aufkleben: A, E (v15 S. 1), B auf 45 cm (v17 S. 2, goldene Kante auf die Seitennaht), B2 mit 9 echten Garnstücken (v17 S. 1), C, D (1zu1 S. 3) | Hose sieht aus wie die Flachzeichnung |
-| 3 | 15 | **Serp-Höhe.** Locker vor den Spiegel stellen, Spitze des linken Mittelfingers mit Krepp markieren, Maß ab Bundoberkante notieren. B nacheinander auf 40, 45 und 50 cm (Mitte). Jedes Mal: (1) verdeckt die Hand ihn im Stehen? (2) 10 Schritte gehen: streift die Hand? (3) Umhängetasche oder Bauchtasche umlegen: reibt sie? (4) Hinsetzen: ist er von der Seite zu sehen? Foto aus 3 m von vorn und aus 1 m seitlich | eine Höhe gewählt, Fingerspitzen-Maß notiert |
-| 4 | 15 | **3-m-Test.** Handy auf 1,6 m Höhe, 3 m Abstand, **kein Zoom**. Fotos von vorn, hinten und links seitlich. Dann tauschen, gleiche Stelle und gleiches Licht: B → B-G → B-GS, B2 → B2-W, E → E-O. Jedes Foto am Handy groß anschauen: Was erkennst du? | 3 Grundfotos plus 5 Variantenfotos, je eine Notiz „erkennbar: …“ |
+| 2 | 20 | v1.7 komplett aufkleben: A, E (v15 S. 1), B2 mit 9 echten Garnstücken (v17 S. 1), C, D (1zu1 S. 3) | Hose sieht aus wie die Flachzeichnung |
+| 3 | — | **Serp-Höhe** (gestrichen 11.10.) | entfällt |
+| 4 | 15 | **3-m-Test.** Handy auf 1,6 m Höhe, 3 m Abstand, **kein Zoom**. Fotos von vorn, hinten und links seitlich. Dann tauschen, gleiche Stelle und gleiches Licht: B2 → B2-W, E → E-O. Jedes Foto am Handy groß anschauen: Was erkennst du? | 3 Grundfotos plus 2 Variantenfotos, je eine Notiz „erkennbar: …“ |
 | 5 | 5 | **Gürteltest.** Gürtel durch die Schlaufen, Foto von hinten aus 1 m. Wie viel vom Baum ist verdeckt (keins, ein Drittel, die Hälfte)? Abstand der zwei mittleren hinteren Schlaufen messen. Lasche N mit „001“ unten an den Patch, Foto. Papier-Patch auf die Passe halten (V5b), Foto | Anteil verdeckt und Schlaufenabstand in mm notiert |
 | 6 | 5 | **Sitztest Goldfäden.** 1 Min. auf den Stuhl, aufstehen. Wo liegen die Garnenden? Hängt eins fest? | Notiz |
 | 7 | 5 | **Münztasche der Eightyfive messen:** Breite oben, Höhe bis zur Taschenöffnung | zwei Maße in mm |
@@ -351,13 +329,13 @@ Jeder Vorschlag ändert nur Farbe, Größe oder Position eines bestehenden Eleme
 
 1. Vorn gesamt, 3 m, v1.7
 2. Hinten gesamt, 3 m, v1.7
-3. Links seitlich, 1 m, Serp auf der gewählten Höhe
-4. Serp v1.7 nah, 30 cm
+3. Patch D nah, 30 cm, mit Lasche N und „001“
+4. Linke Gesäßtasche nach 10 Schritten, 1 m: Wo hängen die Goldfäden von B2?
 5. Linke Gesäßtasche (B2 mit Garn) nah, 30 cm
 6. Band A und Münztasche E nah, 30 cm
 7. Patch D mit Gürtel, 1 m
 
-Dazu die Variantenfotos aus Block 4 und 5 und eine Zeile mit den Maßen (Fingerspitze, Serp-Höhe, Schlaufenabstand, Münztasche).
+Dazu die Variantenfotos aus Block 4 und 5 und eine Zeile mit den Maßen (Schlaufenabstand, Münztasche).
 
 ### 4.4 Zielgruppen-Schnelltest
 
@@ -382,9 +360,9 @@ Schaffst du die ukrainische Quote bis morgen nicht, schreib es in die Auswertung
 
 **Die Bilder (aus Block 4):**
 - **Bild 1:** vorn und hinten gesamt, v1.7, nebeneinander, ohne Text
-- **Bild 2:** Serp nah, v1.7 und B-G nebeneinander, beschriftet „1“ und „2“
+- **Bild 2:** Patch D nah, ohne und mit Lasche „N° 001/100“ nebeneinander, beschriftet „1“ und „2“
 - **Bild 3:** linke Gesäßtasche nah, B2 v1.7 und B2-W, „1“ und „2“
-- **Bild 4:** die Details nebeneinander: Band und Münztasche · Serp · Ähren mit Goldfäden · Achtstern · Patch mit „N° 001/100“
+- **Bild 4:** die Details nebeneinander: Band und Münztasche · Ähren mit Goldfäden · Achtstern · Patch mit „N° 001/100“
 
 **Nachricht, Runde 1 (zum Kopieren):**
 > Hey [Name], kurze Bitte, 3 Minuten. Ich baue gerade eine Jeans und brauche ehrliche Meinungen, keine netten. Das ist Papier auf einer Hose, noch kein echtes Teil. Frage 1: Was siehst du auf dem Bild? Schreib mir einfach die ersten drei Wörter, die dir einfallen.
@@ -397,7 +375,7 @@ Schaffst du die ukrainische Quote bis morgen nicht, schreib es in die Auswertung
 > 5) Würdest du die Hose tragen, 1 = nie, 5 = sofort? Und: 149 € vorbestellen, Lieferung im April: ja, vielleicht oder nein?
 > Bis morgen 12 Uhr wäre mega.
 
-**Auswertung (Tabelle mit 10 Zeilen, Freitag 12:00, ca. 20 Min.).** Spalten: Code · Segment · F1 drei Wörter · F1-Kategorie · F2 Assoziation · F2-Kategorie · F2 Wahl (Rot oder Grau) · F3 Assoziation · F3-Kategorie · F3 Wahl (Rot oder Weiß-Kante) · F4 Detail · F4 Innen-Druck ja/nein · F5 Tragen 1–5 · F5 Vorbestellung.
+**Auswertung (Tabelle mit 10 Zeilen, Freitag 12:00, ca. 20 Min.).** Spalten: Code · Segment · F1 drei Wörter · F1-Kategorie · F2 Assoziation · F2-Kategorie · F2 Wahl (ohne oder mit Nummer) · F3 Assoziation · F3-Kategorie · F3 Wahl (Rot oder Weiß-Kante) · F4 Detail · F4 Innen-Druck ja/nein · F5 Tragen 1–5 · F5 Vorbestellung.
 
 Jede Assoziation bekommt eine von drei Kategorien:
 - **E = Ernte, Handwerk, Folk, Oma, Sommer, Land**
@@ -410,47 +388,41 @@ Screenshot oder Tabelle an Claude. Ich werte bis Freitagmittag aus und bereite d
 
 | Messung | Ergebnis | Entscheidung |
 |---|---|---|
-| S-Nennungen zum Serp v1.7 (F1 + F2) | **0** | Rot bleibt, deine Entscheidung vom 07.10. trägt. B-GS trotzdem prüfen (Produktion) |
-| | **1** | Du entscheidest. Mein Rat: B-G |
-| | **≥ 2**, oder 1 davon von einer ukrainischen, polnischen oder baltischen Person mit klarem Unbehagen | **B-G wird eingefroren** (graue Schneide) |
-| | **≥ 4**, oder S-Nennungen auch zur grauen Version | **Serp wird in dieser Größe nicht eingefroren.** Fallback: kleiner Serp v1.6 ohne Rot (Schwellen 10/31) oder streichen (9/30). Entscheidung Fr beim Freeze. Alles andere wird normal eingefroren |
-| F2 Wahl | ≥ 7 von 10 für Grau | B-G, auch wenn es 0–1 S-Nennungen gab |
+| S-Nennungen zum Serp (gestrichen 11.10.) | — | entfällt |
+| F2 Wahl | ≥ 5 von 10 für die Version mit Nummer | Vorschlag von Claude (13.10.): V1 in die Patch-Anfrage am 28.10., du entscheidest |
 | S-Nennungen zu B2 (F3) | ≥ 2 | B2-W |
 | F3 Wahl | ≥ 6 von 10 für Weiß-Kante, oder dein 3-m-Foto zeigt das rote Band nicht | B2-W |
 | F4 | Häufigstes Detail | wird Hero-Shot in Content und Lookbook (Reihenfolge der Produktbilder, Abschnitt 6) |
-| F4 | Serp 0-mal genannt **und** ≥ 2 S-Nennungen | Signal, dass B das schwächste Element ist: Fallback ernsthaft prüfen |
 | F4 Innen-Druck | ≥ 5 von 10 „Plus“ | V6 in die RFQ |
 | F5 Tragen | Median ≥ 4 | v1.7 (mit den gewählten Varianten) besteht |
-| | ≥ 4 Personen bei ≤ 2 | Gründe lesen. **Freeze bleibt**, geändert werden nur Varianten an B und B2, keine neuen Elemente |
+| | ≥ 4 Personen bei ≤ 2 | Gründe lesen. **Freeze bleibt**, geändert werden nur Varianten an B2, keine neuen Elemente |
 | F5 Vorbestellung | Zahl der „ja“ | geht in die Validierung am So 01.11., ist keine Designfrage. Grober Richtwert fürs warme Netz: unter 3 von 10 „ja“ ist ein frühes Warnsignal für Schwelle 1 (Schätzung) |
 
-**Eigene Entscheidungen aus Block 3–5 (ohne Schnelltest):**
-- **Serp-Höhe:** die Höhe, bei der die Hand ihn im Stehen nicht verdeckt und die Tasche nicht reibt. Bei Gleichstand 45 cm.
-- **Patch:** Gürtel deckt weniger als ein Drittel der Krone → V5a (76 × 67 mm am Bund). Sonst V5b (66 × 58 mm auf der Passe).
+**Eigene Entscheidungen aus Block 4–5 (ohne Schnelltest):**
+- **Patch:** entschieden 11.10. (5.2): 76 × 67 mm, selbst die hintere Gürtelschlaufe. V5b auf der Passe entfällt.
 - **E-O:** Regel aus V4b.
 
 ### 4.5 Freeze-Zettel Fr 09.10. (Claude füllt ihn nach deinen Antworten)
 
-1. Serp: Farbe der Schneide (Rot oder Grau) · Stoppelfeld v1.7 oder B-GS · Höhe in cm (W32) und Gradierung
+1. Serp: gestrichen 11.10., das linke Vorderbein bleibt leer
 2. B2: Band rot oder mit weißer Kante
 3. E: voll oder offen
-4. D: Größe und Ort (Bund oder Passe), Lasche N ja/nein
+4. D: entschieden 11.10., 76 × 67 mm, selbst die hintere Gürtelschlaufe (5.2). Offen: Position (mittig oder rechts), Lasche N ja/nein
 5. Taschenklappe: keine
 6. Nackenlabel: gewebt, vereinfachter Baum
 7. „Goldene Nähte“: was du gemeint hast (5.5)
-8. Tech-Pack-Zusätze: Füllung als Standard und 33.000-Stiche-Deckel (V4a), 2 mm Abstand von A zur Kante, Weiß-L\* nach der Wäsche, Anti-Backstaining-Frage, Schlaufen ≥ 8 mm vom Patch
+8. Tech-Pack-Zusätze: Füllung als Standard und 28.000-Stiche-Deckel (V4a), 2 mm Abstand von A zur Kante, Weiß-L\* nach der Wäsche, Anti-Backstaining-Frage, Patch als Gürtelschlaufe (links und rechts genäht und genietet, oben und unten offen, 3–5 mm Spiel)
 9. Danach: Spec Rev. 14, Plan-Zahlen, Docket, Tech Pack v1.0 (bis So 11.10.)
 
 ---
 
 ## 5 · Die offenen Entscheidungen
 
-### 5.1 Höhe des Serp (40–50 cm unter dem Bund)
+### 5.1 Höhe des Serp (gestrichen 11.10.)
 
-**Empfehlung: Mitte 45 cm bei W32, endgültig nach Block 3.** Gradierung **+0,5 cm je Größe**, also W30 44,5 · W32 45 · W34 45,5 · W36 46 · W38 46,5 cm ab Bundoberkante. Das folgt der vorderen Leibhöhe (+0,5 je Größe, Spec 1.1).
-- **Höher (40 cm):** Er sitzt näher an der hängenden Hand und an Umhängetaschen, also mehr Abrieb und öfter verdeckt.
-- **Tiefer (50 cm):** Die Unterkante kommt auf ~52,5 cm. Das Knie liegt bei W32 ~61 cm unter dem Bund (28 cm Leibhöhe + 33 cm, Spec 1.1), also rückt er in die Zone, die beim Sitzen knittert [R].
-- 45 cm liegt bei W32 ~17 cm unter dem Schritt, mitten auf dem Oberschenkel.
+**Seit 11.10. erledigt: Der Serp ist gestrichen.** Eine Höhe und eine Gradierung braucht es nicht mehr, das linke Vorderbein bleibt leer.
+
+Empfohlen war Mitte 45 cm unter dem Bund bei W32, +0,5 cm je Größe. Höher hätte die Hand mehr gerieben, tiefer wäre die Zone erreicht, die beim Sitzen knittert.
 
 ### 5.2 Patch D: 86 × 76 mm lassen oder kleiner
 
@@ -479,13 +451,13 @@ Screenshot oder Tabelle an Claude. Ich werte bis Freitagmittag aus und bereite d
 
 ### 5.5 „Die goldenen Nähte“
 
-Drei mögliche Lesarten. **Bitte morgen kurz sagen, welche du meinst.**
+Drei mögliche Lesarten, zwei davon hingen am Serp und sind seit 11.10. erledigt. **Bitte kurz sagen, ob du Lesart 1 meinst.**
 
 | Lesart | Was es wäre | Empfehlung |
 |---|---|---|
-| **1 · Die Steppnähte** (wahrscheinlich) | Die Jeans hat schon goldgelbe Steppnähte, Tex 60 (Spec 2.8, im Canvas eingezeichnet) | **Behalten, aber den Ton festlegen:** derselbe Goldton wie das Stickgarn „Gold“ von B und B2, im Tech Pack als Garnnummer. Dann hat die Hose **ein** Gold und nicht drei. 0 € |
-| 2 · Die goldenen Halme am Serp | wie bisher gelesen (Übergabe 4) | Siehe V2: zwei Goldtöne plus helle Schnittkante statt vier |
-| 3 · Eine goldene Ziernaht um den Serp | neue Linie um B | **Abraten.** Ein Rahmen macht aus der Szene ein Abzeichen (Wappen-Effekt), und es wäre ein neues Element gegen Verbot 5 (Spec 3.10). Kosten +300–500 Stiche, +0,17–0,28 €/Paar (Schätzung) |
+| **1 · Die Steppnähte** (wahrscheinlich) | Die Jeans hat schon goldgelbe Steppnähte, Tex 60 (Spec 2.8, im Canvas eingezeichnet) | **Behalten, aber den Ton festlegen:** derselbe Goldton wie das Stickgarn „Gold“ von B2, im Tech Pack als Garnnummer. Dann hat die Hose **ein** Gold und nicht drei. 0 € |
+| 2 · Die goldenen Halme am Serp (gestrichen 11.10.) | — | entfällt |
+| 3 · Eine goldene Ziernaht um den Serp (gestrichen 11.10.) | — | entfällt |
 
 ---
 
@@ -510,11 +482,11 @@ Drei mögliche Lesarten. **Bitte morgen kurz sagen, welche du meinst.**
 
 ### 6.2 Reihenfolge auf der Produktseite (Vorschlag, die Hero-Bilder legt Frage 4 des Schnelltests fest)
 
-1. Vorn getragen, ganz (die Diagonale A/E → B)
+1. Vorn getragen, ganz (A und E oben rechts)
 2. Hinten getragen, ganz (Patch, B2, C)
 3. Makro A + E
 4. Makro B2 mit Goldfäden (als Video-Loop, wenn Shopify-Theme es kann)
-5. Seite mit Serp. Nur, wenn B den Schnelltest besteht. Sonst weiter hinten
+5. Patch D als Gürtelschlaufe, mit Gürtel getragen, 1 m
 6. Makro C
 7. Makro D mit Nummer
 8. Innen: Taschenfutter umgestülpt oder Hangtag-Karte (V6)
@@ -527,8 +499,8 @@ Dazu ein Video von 15 s: gehen, die Fäden schwingen, Schnitt auf das Makro.
 
 - **Nie hellblauer Himmel über gelbem Weizen.** Weizen nur bei Sonnenuntergang oder im Innenraum mit warmem Licht.
 - **Der Shoot am 20.02. findet ohne reifes Feld statt.** Im Februar steht kein goldener Weizen. Also Studio oder Berliner Hinterhof, Weizen höchstens als Trockenbund (Vorschlag). Für Studios siehe `berlin.md` (Tageslichtstudios ab ~38–45 €/Std. laut dortiger Recherche).
-- **Keine echte Sichel als Requisite.** Sichel plus Weizen im selben Bild ist das Wappen-Vokabular als Stillleben.
-- **B und B2 nie zusammen auf rotem Grund.** Kein rotes Studio-Backdrop hinter der Hose, kein Flatlay mit allen Motiven auf Rot.
+- **Keine echte Sichel als Requisite**, auch nicht, seit der Serp gestrichen ist (11.10.). Sichel plus Weizen im selben Bild ist das Wappen-Vokabular als Stillleben.
+- **Kein roter Grund.** Kein rotes Studio-Backdrop hinter der Hose, kein Flatlay mit allen Motiven auf Rot.
 - **Keine Sowjet-Kulisse:** keine Sowjet-Interieurs, Uniformen, Orden, kein CCCP ([Ü8], `zielgruppe.md` 3.6). Den Familienteppich nur im Zusammenhang mit Familie und Zipper zeigen, als Erinnerung, nicht als Retro-Stil.
 - **Farbtreue:** Tageslicht oder Dauerlicht mit Graukarte. Das Indigo muss so dunkel aussehen, wie es ist (L\* 34–40), sonst stimmt der Kontrast der Stickerei auf dem Foto nicht und es gibt Retouren wegen „anders als abgebildet“.
 - **Sprachregel in jeder Bildunterschrift:** Subjekt ist das Muster.
@@ -537,10 +509,10 @@ Dazu ein Video von 15 s: gehen, die Fäden schwingen, Schnitt auf das Makro.
 
 ## 7 · Offene Punkte
 
-1. **Quellen neu prüfen, sobald Netzwerk freigeschaltet ist.** Die Symbol- und Rechtsfakten in 2.1 (Ü1–Ü12) sind Such-Auszüge anderer Agenten. Vor einem öffentlichen Statement zum Serp Volltexte lesen. Wie du freischaltest, steht in `lieferanten.md` Abschnitt 0.
+1. **Quellen neu prüfen, sobald Netzwerk freigeschaltet ist.** Die Symbol- und Rechtsfakten in 2.1 (Ü1–Ü12) sind Such-Auszüge anderer Agenten. Vor einem öffentlichen Statement zur Symbolik Volltexte lesen. Wie du freischaltest, steht in `lieferanten.md` Abschnitt 0.
 2. **„Die goldenen Nähte“:** welche Lesart (5.5)?
-3. **Die Rot-Entscheidung am Serp liegt bei dir.** Mein Rat hängt am Schnelltest.
-4. **Ukrainische Stimmen im Schnelltest:** Fehlen sie morgen, fehlt der wichtigste Prüfstein. Dann die Symbolfrage in den 10 Gesprächen bis 08.11. (`zielgruppe.md` 5.1) nachholen und einen **Farbvorbehalt für B und B2 bis zum Digitizing am Mo 09.11.** in den Freeze schreiben. Farbe kostet keine Stiche, der Vorbehalt hält den Freeze.
+3. **Die Rot-Entscheidung am Serp:** seit 11.10. erledigt, der Serp ist gestrichen.
+4. **Ukrainische Stimmen im Schnelltest:** Fehlen sie morgen, fehlt der wichtigste Prüfstein. Dann die Symbolfrage in den 10 Gesprächen bis 08.11. (`zielgruppe.md` 5.1) nachholen und einen **Farbvorbehalt für B2 bis zum Digitizing am Mo 09.11.** in den Freeze schreiben. Farbe kostet keine Stiche, der Vorbehalt hält den Freeze.
 5. **Ungeprüfte Schätzungen**, alle mit Fabrik oder Lieferant zu klären:
    - Patch-Preis kleiner Formate (V5)
    - Taschenfutter-Druck (V6)
@@ -548,7 +520,7 @@ Dazu ein Video von 15 s: gehen, die Fäden schwingen, Schnitt auf das Makro.
    - Haltbarkeit des Markers auf Leinen (V1)
    - Fadenschnitte im Stickpreis (2.3)
    - Indigo auf weißem Garn (2.3)
-6. **Patch-Lasche (V1) und Patch-Verkleinerung (V5) zusammen denken:** Bei 66 mm Breite wird die Lasche eng. Claude legt beides in einer Datei an, wenn du V1 und V5 wählst.
+6. **Patch-Lasche (V1) und Patch-Verkleinerung (V5) zusammen denken:** Seit 11.10. ist D 76 × 67 mm und Gürtelschlaufe (5.2), die enge 66-mm-Variante entfällt. Claude legt Lasche und Patch in einer Datei an, wenn du V1 wählst.
 7. **Docket:** Papiertest-Ablauf (4.2), Schnelltest (4.4), RFQ-Zusätze (V4a, V6, Anti-Backstaining, Schlaufentoleranz) und die Patch-Anfrage (V1) gehören als Aufgaben in Docket Rev. 6, W4 Do 08.10. bis W5 Mo 12.10.
 
 ---
@@ -559,7 +531,7 @@ Dazu ein Video von 15 s: gehen, die Fäden schwingen, Schnitt auf das Makro.
 
 - **[Ü1]** Ukrainian decommunization laws (Verbot kommunistischer Symbole 2015). https://en.wikipedia.org/wiki/Ukrainian_decommunization_laws (aus `zielgruppe.md` [Q37])
 - **[Ü2]** Library of Congress, Global Legal Monitor, „Lithuania: Ban on Nazi and Soviet Symbols“ (2008). https://www.loc.gov/item/global-legal-monitor/2008-07-02/lithuania-ban-on-nazi-and-soviet-symbols/ (`zielgruppe.md` [Q37])
-- **[Ü3]** Bans on communist symbols (Polen Art. 256; Hammer und Sichel in Ungarn, Lettland, Litauen, Polen; Sichel allein nicht erfasst). https://en.wikipedia.org/wiki/Bans_on_communist_symbols (`zielgruppe.md` [Q37], `markt.md` [Q5])
+- **[Ü3]** Bans on communist symbols (Polen Art. 256; Hammer und Sichel in Ungarn, Lettland, Litauen, Polen; Sichel allein nicht erfasst; betraf den seit 11.10. gestrichenen Serp). https://en.wikipedia.org/wiki/Bans_on_communist_symbols (`zielgruppe.md` [Q37], `markt.md` [Q5])
 - **[Ü4]** Verfassungsblog, „Governing the Memory of the Present“. https://verfassungsblog.de/governing-the-memory-of-the-present/ (`zielgruppe.md` [Q37])
 - **[Ü5]** State Emblem of the Soviet Union. https://en.wikipedia.org/wiki/State_Emblem_of_the_Soviet_Union (`zielgruppe.md` [Q35])
 - **[Ü6]** National emblem of Belarus. https://en.wikipedia.org/wiki/National_emblem_of_Belarus (`zielgruppe.md` [Q34])

@@ -125,7 +125,7 @@
      "shots": [
       "Du in die Kamera am Schreibtisch",
       "Drei Karten von Hand: „1 design ✓ · 2 sample … · 3 show“",
-      "Schnitt auf einen Papiertest-Clip vom Oktober (nur Band A oder Achtstern, keine Seitenansicht links)"
+      "Schnitt auf einen Papiertest-Clip vom Oktober (nur Band A oder Achtstern)"
      ],
      "ort": "Wohnung · Schreibtisch, Fensterlicht von der Seite",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
@@ -186,7 +186,7 @@
     "t": "19:00 · V024 posten: REACH „Donnerstag“ + Countdown-Sticker",
     "m": 20,
     "s": [
-     "Video liegt fertig in W12/final/V024 (aus Archiv-Clips, Reihenfolge B · A · E · C · D · B2).",
+     "Video liegt fertig in W12/final/V024 (aus Archiv-Clips, Reihenfolge A · E · C · D · B2).",
      "18:55 in TikTok hochladen, Trend-Sound aus der Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Nie in CapCut einbacken.",
      "19:00 posten. Gleich danach als Reel auf Instagram (Musik aus der Business-Bibliothek der App) und als Short auf YouTube.",
      "Reel in die Story, Countdown-Sticker „Proto · Do 19:00“ auf Do 03.12., 19:00, dazu Link-Sticker auf die Warteliste.",
@@ -201,11 +201,10 @@
      "hook_en": "Tomorrow paper becomes thread.",
      "hook_de": "Morgen wird aus Papier Garn.",
      "shots": [
-      "Serp-Papier B am Bein, eigene Einstellung, 0,5 s",
       "Papierband A an der Tasche, 0,5 s",
       "Münztasche E aus Papier, 0,5 s",
       "Achtstern C, 0,5 s, dann Patch D, 0,5 s",
-      "Ähren-Papier B2 an der Gesäßtasche, eigene Einstellung, 0,5 s",
+      "Ähren-Papier B2 mit den Goldfäden an der Gesäßtasche, 0,5 s",
       "Letzter Frame: „Thu.“"
      ],
      "ort": "Archiv-Clips aus früheren Drehs (Ordner content/archiv)",
@@ -213,7 +212,7 @@
      "text": "Hook EN 0–1 s, letzter Frame „Thu.“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Thursday. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #crossstitch #novalifetimetravel",
-     "check": "Nur Papier, B und B2 in eigenen Einstellungen, Reihenfolge B · A · E · C · D · B2, keine Seitenansicht links, Musik nicht eingebacken."
+     "check": "Nur Papier, Reihenfolge A · E · C · D · B2, Musik nicht eingebacken."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
@@ -231,7 +230,7 @@
      "Erst filmen, dann denken: Handy auf dem Stativ an der Fensterbank (vorbereitet am So), Aufnahme läuft, bevor das Paket aufgeht. Auspacken ungeschnitten, deine echte Reaktion. Das ist V025.",
      "Bei Türkei: Einfuhrumsatzsteuer und Paketdienst-Gebühr bezahlen, Beleg fotografieren, Betrag ins Blatt „Kasse“ Zeile „ungeplant“. Lag die A.TR bei? Ja/nein ins Blatt „Fabriken“ (ohne A.TR beim nächsten Versand Zoll teurer, mit der Fabrik klären).",
      "Alle 10 Messpunkte (Docket → Referenz → Prüfplan Sample): flach hinlegen, glattstreichen, nicht ziehen, jeden Punkt zweimal. Ist-Wert gegen W32-Soll und Toleranz ins neue Blatt „Proto“.",
-     "Fotos mit Graukarte im ersten Bild: vorn, hinten, jedes Element A–E nah, Innenseite, Rückseite der Stickerei. Nie links seitlich. Dateinamen „proto1-01.jpg“ fortlaufend.",
+     "Fotos mit Graukarte im ersten Bild: vorn, hinten, jedes Element A–E nah, Innenseite, Rückseite der Stickerei. Dateinamen „proto1-01.jpg“ fortlaufend.",
      "Makros für V026 morgen gleich mit: Band A, Münztasche E, langsam, Streiflicht vom Fenster.",
      "Proto bleibt bei dir (vereinbart am 27.10.). Es ist bis 13.12. dein einziges Vorzeigeteil: nicht waschen, nicht tragen außer beim Fit-Test."
     ],
@@ -264,7 +263,7 @@
     "m": 5,
     "s": [
      "Instagram → Broadcast-Kanal „Time Travel · Werkstatt“.",
-     "Ein Foto der Rückseite (ohne Serp im Bild) plus Text: „Da ist es. Ihr seht es eine Stunde vor allen anderen. Um 19:00 das Auspacken.“",
+     "Ein Foto der Rückseite plus Text: „Da ist es. Ihr seht es eine Stunde vor allen anderen. Um 19:00 das Auspacken.“",
      "Keine Fabrik nennen, „prototype“ klar sagen."
     ],
     "f": "die Nachricht um 18:00 im Kanal steht.",
@@ -303,7 +302,7 @@
      "text": "0–2 s Hook EN, „prototype #1“ im Bild, Endkarte „fit test Saturday“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Prototype #1. Not perfect yet. Fit test on Saturday, then a list of fixes for the factory. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
-     "check": "Klar „prototype“, Fabrik nicht genannt, Serp und Ähren nie im selben Bild, keine Seitenansicht links, nie „authentisch“."
+     "check": "Klar „prototype“, Fabrik nicht genannt, nie „authentisch“."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"},
@@ -326,7 +325,7 @@
      "Docket → Referenz → Prüfplan Sample, Teil „Stickerei“: je Element A–E Lage, Maß, Farben gegen Graukarte, Stichdichte, Fadenschnitte, Rückseite (Vlies sauber geschnitten, keine losen Fäden), Wellen im Denim.",
      "Teil „Verarbeitung“ Punkt für Punkt: Nähte, Riegel, Knöpfe und Nieten, Label, Goldfäden B2 (gesetzt? Länge?), Patch D.",
      "Jede Abweichung mit Foto-Nummer ins Blatt „Proto“, Spalte „Befund“.",
-     "Farben B und B2 gegen die Entscheidung vom Sa 07.11. prüfen (Spec Rev. 14).",
+     "Farben von B2 gegen die Entscheidung vom Sa 07.11. prüfen (Spec Rev. 14).",
      "Am Ende jede Zeile mit Ergebnis ok / Korrektur / kritisch markieren. Kritische Punkte gehen am So in die Korrekturliste."
     ],
     "f": "alle Punkte des Prüfplans ein Ergebnis haben und jede Abweichung eine Foto-Nummer hat.",
@@ -341,7 +340,7 @@
     "m": 30,
     "s": [
      "Vor dem Call: Proto auf Bügel an die weiße Tür, Ringlicht oder Fenster. Handy mit WhatsApp-Video oder Instagram-Video.",
-     "Zeigen: erst Totale, dann Band A, Münztasche E, Rückseite. Serp nur von vorn, nie links seitlich.",
+     "Zeigen: erst Totale, dann Band A, Münztasche E, Rückseite.",
      "Die Frage: „Bestellst du am 14.01. um 18:00? Welche Größe?“ Kennt die Person ihre Größe nicht: Bundmaß ihrer Lieblingsjeans flach gemessen × 2.",
      "Sofort danach ins Blatt „Die ersten 35“: Zusage (nur klares Ja mit Größe) oder Vielleicht (was fehlt).",
      "Den Satz der Person, der am meisten überzeugt, als Zitat notieren (für Captions, nur mit Erlaubnis)."
@@ -371,7 +370,7 @@
      "hook_en": "Real cross-stitch on denim. Look closer.",
      "hook_de": "Echter Kreuzstich auf Denim. Schau genauer hin.",
      "shots": [
-      "Totale aus 3 m: Hose auf Bügel an der Tür (Vorderseite, Serp nur von vorn)",
+      "Totale aus 3 m: Hose auf Bügel an der Tür (Vorderseite mit Band A und Münztasche E)",
       "Langsam auf 30 cm heranfahren",
       "Makro Band A, dann Münztasche E"
      ],
@@ -380,7 +379,7 @@
      "text": "0–2 s Hook EN, Untertitel, im Makro „1.33 mm per stitch“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Red and white cross-stitch along the pocket edge and on the coin pocket. 1.33 mm per stitch. Prototype #1. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #berlinfashion #novalifetimetravel",
-     "check": "Nach außen „cross-stitch band“ (Wortliste 9.3), kein roter Hintergrund, keine Seitenansicht links."
+     "check": "Nach außen „cross-stitch band“ (Wortliste 9.3), kein roter Hintergrund."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"},
@@ -398,10 +397,10 @@
     "s": [
      "Zwei Personen mit verschiedener Körpergröße (eine davon gern du). Proto nacheinander anziehen, Tageslicht.",
      "Je Person notieren: Körpergröße, eigene Jeansgröße, Bundmaß gemessen, getragene Größe des Protos.",
-     "Fotos je Person: vorn, hinten, sitzend von vorn. Nie links seitlich. Graukarte im ersten Bild.",
+     "Fotos je Person: vorn, hinten, sitzend von vorn. Graukarte im ersten Bild.",
      "Fragen: Wo drückt es? Bund, Schritt, Oberschenkel, Knie, Länge? Notizen ins Blatt „Proto“.",
      "Oberschenkel: 30 cm statt 28 cm Halbmaß war Absicht für die Stickfläche. Beide sagen: zu weit, passt, zu eng? Hier entscheidet sich, ob er bleibt.",
-     "3 kurze Clips à 5 s (gehen, drehen von vorn nach hinten über rechts, Hand in die Tasche) für Varianten und V030."
+     "3 kurze Clips à 5 s (gehen, drehen von vorn nach hinten, Hand in die Tasche) für Varianten und V030."
     ],
     "f": "Fotos und Notizen beider Personen im Blatt „Proto“ stehen und eine Meinung zum Oberschenkel notiert ist.",
     "o": [
@@ -413,7 +412,7 @@
     "t": "12:00 · V027 Story: ASK „Was zuerst?“",
     "m": 10,
     "s": [
-     "Instagram-Story Frame 1: Foto der Rückseite (ohne Serp), Text „Which detail should I film first?“",
+     "Instagram-Story Frame 1: Foto der Rückseite, Text „Which detail should I film first?“",
      "Frame 2: Umfrage-Sticker mit 4 Antworten: band · coin pocket · gold threads · star. Link-Sticker auf die Warteliste.",
      "Dieselbe Frage als TikTok-Story oder Foto-Post mit Umfrage, wenn verfügbar.",
      "Abends Frame 3: Ergebnis plus „filming it Sunday“. Ergebnis ins Blatt „Content“. Das Siegermotiv drehst du morgen im Batch zuerst."
@@ -436,7 +435,7 @@
      "text": "Frage als Sticker, Link-Sticker",
      "cta": "Link-Sticker auf die Warteliste",
      "caption": "(Story) Which detail should I film first? Link sticker: join the list.",
-     "check": "Umfrage bis 4 Antworten, Serp nicht im Rückseitenfoto, kein roter Hintergrund."
+     "check": "Umfrage bis 4 Antworten, kein roter Hintergrund."
     },
     "o": [
      {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage- und Link-Sticker"}
@@ -526,7 +525,7 @@
      "Liste ≥ 470? Unter 200 (Alarm, G1): Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story, einen Abend in 14 Tagen festmachen, Claude die 3 schwächsten Videos zeigen. Zwischen 200 und 470 (G2): bestes Video in 2 Varianten.",
      "G3 Anmeldungen je 1.000 Views < 1,0: angehefteter Kommentar „The list buys first. 35 pairs at the pre-order price.“, Link-Sticker in jede Story, Seite im Instagram-Browser testen.",
      "G5 Video ≥ 2 × Median und Teil-Rate über Median: 5 Varianten in 14 Tagen. G6 drei schwache Videos im selben Slot: Slot 2 Wochen tauschen.",
-     "G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“: danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild. G8 Folklore: erst Totale aus 3 m. G9 > 70 % warme Tags: 3 neue Hooks.",
+     "G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“: danken, zählen, 2 Wochen kein Ernte-Bild. G8 Folklore: erst Totale aus 3 m. G9 > 70 % warme Tags: 3 neue Hooks.",
      "G12 Kasse gelb (0–300 €): nur Ausgaben aus Plan 3 · rot: Ausgaben-Stopp-Liste, Notfall-Leiter. Ergebnis ins Blatt „Gates“."
     ],
     "f": "jedes Gate im Blatt „Gates“ grün oder mit Gegenmaßnahme und Datum steht.",
@@ -540,7 +539,7 @@
     "m": 20,
     "s": [
      "Ordner „W13“ anlegen. Rest der Woche drehst du beim Mini-Shoot Di (V030, V124) und bei den On-Body-Fotos Do.",
-     "Flurspiegel, Licht von vorn, 9:16, je Shot 3 Takes. Proto tragen, nur von vorn.",
+     "Flurspiegel, Licht von vorn, 9:16, je Shot 3 Takes. Proto tragen.",
      "Shots: Ganzkörper im Spiegel, Maßband am Oberschenkel, Makro auf die größte Problemstelle aus der Korrekturliste, Korrekturliste auf Papier „to factory“.",
      "Je Abweichung ein Satz in die Kamera, ehrlich, nicht dramatisch.",
      "CapCut: Hook EN in die ersten 2 s, Untertitel, 25–35 s. Export W13/final/V028."
@@ -564,7 +563,7 @@
      "text": "0–2 s Hook EN, je Befund eine Zeile (z. B. „thigh −2 cm“)",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Day 57. Fit test done. What changes before the final sample: [Liste]. Better you see this now than get it in April. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
-     "check": "Echte Befunde, Spiegel nur von vorn, Serp und Ähren-Tasche nie im selben Bild."
+     "check": "Echte Befunde, ehrlich, nicht dramatisch."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}
@@ -598,7 +597,7 @@
      "text": "Hook EN, „Oct“ / „Dec“ als Ecke im Bild",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "October: paper and tape. December: 23 mm of red and white cross-stitch on the pocket edge. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #denim #novalifetimetravel",
-     "check": "Nach außen „cross-stitch band“, kein roter Hintergrund, keine Seitenansicht links."
+     "check": "Nach außen „cross-stitch band“, kein roter Hintergrund."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}
@@ -611,7 +610,7 @@
     "s": [
      "Fensterbank, Gegenlicht, damit das Gold glänzt. 9:16, je Shot 3 Takes.",
      "Makro linke Gesäßtasche, Fäden hängen. Dann Fön auf kleinster Stufe oder Hand: Fäden schwingen.",
-     "Rückansicht beim Gehen (nur hinten, kein Serp).",
+     "Rückansicht beim Gehen: Fäden schwingen, darüber Patch D als Gürtelschlaufe.",
      "Hat das Proto noch keine Fäden: stattdessen Münztasche E im Makro, Hook dann „The smallest pocket got the most stitches.“",
      "CapCut: Hook EN, Untertitel, 8–12 s. Export W13/final/V031. Siegermotiv der Umfrage vom Sa zuerst drehen, falls es ein anderes ist."
     ],
@@ -626,14 +625,14 @@
      "shots": [
       "Makro linke Gesäßtasche, Fäden hängen",
       "Fön auf kleinster Stufe oder Hand: Fäden schwingen",
-      "Gehen, Rückansicht (nur hinten, kein Serp)"
+      "Gehen, Rückansicht: Fäden schwingen, darüber Patch D als Gürtelschlaufe"
      ],
      "ort": "Wohnung · Fensterbank, Gegenlicht",
      "ton": "Originalton (Stoff), keine Musik oder sehr leise",
      "text": "0–2 s Hook EN, Untertitel",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Gold polyester, triple-twisted, 18 to 30 mm, knotted inside the pocket. The care label says: don't cut them. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #berlinfashion #novalifetimetravel",
-     "check": "Drei Ähren, nie „fünf“, kein Serp im Bild, nie hellblauer Himmel über gelbem Weizen."
+     "check": "Drei Ähren, nie „fünf“, nie hellblauer Himmel über gelbem Weizen."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}
@@ -667,7 +666,7 @@
      "text": "Hook EN 0–2 s",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
      "caption": "Wearable from far. A clock up close. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
-     "check": "Ab Proto erlaubt, keine Seitenansicht links, keine Flaggen im Bild."
+     "check": "Ab Proto erlaubt, keine Flaggen im Bild."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},

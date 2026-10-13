@@ -20,7 +20,7 @@
      "Morgens bei Tageslicht an der Fensterbank. Mitnehmen: Maßband, Prüfplan (Docket → Referenz → Prüfplan) ausgedruckt, Stofflappen vom 18.11., Stoppuhr am Handy, Gürtel, Graukarte. Auspacken filmen (Material für V044 und die Produktseite).",
      "Alle 10 Maße flach messen und ins Blatt „Proto“, Spalte „PP“ schreiben, jeweils mit Soll und Toleranz aus dem Tech Pack. Jede Korrektur aus der Proto-Runde einzeln abhaken: drin oder nicht.",
      "Goldfäden 18–30 mm: Jeden Faden messen. Dann anziehen, 2 Minuten sitzen, Gürtel durch die Schlaufen ziehen. Stoppe pro Faden die Zeit, bis er wieder richtig liegt. Kein Faden darf sich lösen oder im Gürtel hängen bleiben.",
-     "Alle fünf Stick-Elemente im Makro prüfen: Platzierung nach Tech Pack, keine losen Sprünge, Rückseite sauber. B und B2 getrennt fotografieren, nie im selben Bild.",
+     "Alle vier Stick-Elemente (A, E, B2, C) im Makro prüfen: Platzierung nach Tech Pack, keine losen Sprünge, Rückseite sauber.",
      "Patch nach der Wäsche: Liegt er flach, sind Kanten und Garn intakt, hat er abgefärbt? Foto neben dem Foto vom Proto.",
      "Abhaken: Knopf mit „NOVALIFE“, alle Nieten fest und ohne Kratzer, Hauptlabel, Größenlabel, Pflegelabel mit Faserangabe und GPSR-Angabe (Hersteller- bzw. Verantwortlichen-Adresse). Fehlt eine Angabe: Foto und in die Liste „Korrekturen PP“.",
      "Grundton bei Tageslicht gegen den Stofflappen vom 18.11. halten, Graukarte im Bild, ein Foto. Abweichung sichtbar: notieren und morgen vor der Freigabe ansprechen.",
@@ -54,16 +54,16 @@
      "hook_de": "Tag 85: Das finale Sample. Freigeben oder nicht?",
      "shots": [
       "PP-Sample auspacken, Hände und Karton von oben",
-      "Prüfplan auf Papier abhaken: Maße, fünf Elemente, Fäden, Patch",
-      "Vergleich Proto und PP nebeneinander: was korrigiert wurde (B und B2 nie im selben Bild)",
+      "Prüfplan auf Papier abhaken: Maße, vier Stickereien, Fäden, Patch",
+      "Vergleich Proto und PP nebeneinander: was korrigiert wurde",
       "Du in die Kamera, ein Satz: deine Entscheidung"
      ],
      "ort": "Wohnung · Fensterbank, Tageslicht von der Seite (Gold und Stoffstruktur brauchen Seitenlicht)",
      "ton": "O-Ton (deine Stimme) mit Untertiteln. Musik nur leise aus der Business-Bibliothek der App",
      "text": "0–2 s Hook EN, Untertitel, Endkarte „Pre-order 14.01. · 19:00“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Day 85. The pre-production sample is exactly how the 100 will be. I check measurements, all five embroideries, the threads, the patch. Result: [Ergebnis]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
-     "check": "Echtes Ergebnis, keine Seitenansicht links, B und B2 nie im selben Bild, CTA bis 13.01., nie „authentisch“, Subjekt ist das Muster."
+     "caption": "Day 85. The pre-production sample is exactly how the 100 will be. I check measurements, all four embroideries, the threads, the patch. Result: [Ergebnis]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Echtes Ergebnis, CTA bis 13.01., nie „authentisch“, Subjekt ist das Muster."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
@@ -82,7 +82,7 @@
      "Karte gegenlesen: Steht „Anzeige“ ganz vorn? Ist der Lieferzeitpunkt genau der Satz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“? Kein „authentisch“, keine Länderzuschreibung?"
     ],
     "f": "die Briefing-Karte als PDF oder Bild im Ordner „Creator“ liegt und du sie gegengelesen hast.",
-    "p": "Projekt Time Travel, Docket W17, Mo 04.01. Schreib mir eine Briefing-Karte (eine Seite, EN und DE) für die 5 Creator, die am Di 12.01. um 18:30 zur Creator-Preview kommen. Ort: [Ort aus Blatt „Abende“].\nInhalt: Was sie sehen (Proto und PP-Sample), was passiert (Lieblingsjeans flach messen → Novalife-Größe), Abmachung 1 Clip + 1 Story, Kennzeichnung „Anzeige“ ganz vorn in Clip und Story, eigener Link [DEINE-DOMAIN]/?utm_source=creator&ref=c-[name], Termine (Vorbestellung Do 14.01., 18:00 für die Liste, 19:00 für alle; Mess-Abend 1 Sa 16.01.), Liefersatz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“.\nSprachregeln: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, Wortliste: Achtstern, Kreuzstich-Band, „Das Feld danach“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“. Keine Politik. Kein „149 € statt 169 €“, nur „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“.\nDazu eine kurze DM, mit der ich die Karte schicke.",
+    "p": "Projekt Time Travel, Docket W17, Mo 04.01. Schreib mir eine Briefing-Karte (eine Seite, EN und DE) für die 5 Creator, die am Di 12.01. um 18:30 zur Creator-Preview kommen. Ort: [Ort aus Blatt „Abende“].\nInhalt: Was sie sehen (Proto und PP-Sample), was passiert (Lieblingsjeans flach messen → Novalife-Größe), Abmachung 1 Clip + 1 Story, Kennzeichnung „Anzeige“ ganz vorn in Clip und Story, eigener Link [DEINE-DOMAIN]/?utm_source=creator&ref=c-[name], Termine (Vorbestellung Do 14.01., 18:00 für die Liste, 19:00 für alle; Mess-Abend 1 Sa 16.01.), Liefersatz „Lieferung bis spätestens 30.04.2027, geplant Anfang April“.\nSprachregeln: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, Wortliste: Achtstern, Kreuzstich-Band, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“. Keine Politik. Kein „149 € statt 169 €“, nur „Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €“.\nDazu eine kurze DM, mit der ich die Karte schicke.",
     "o": [
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
      {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Abende“ und „Creator“"}
@@ -243,7 +243,7 @@
      "Fensterbank am Vormittag, Tageslicht von der Seite, Graukarte in den ersten Frame. Handy 9:16 für Clips, dazu 4:5 Fotos für die Produktseite.",
      "Shot 1: Deine Hand setzt die Goldfäden (3 Takes, langsam).",
      "Shot 2: Deine Hand schreibt „N° 001“ auf den Patch (nur wenn V1 Nummer gewählt ist, sonst auf den Hangtag). 3 Takes. Das ist Ersatzmaterial für V047 am Fr.",
-     "Makros: Kreuzstich-Band, Achtstern, Patch, Knopf „NOVALIFE“, Saum, Nieten. B und B2 nie im selben Bild, keine Seitenansicht links, kein roter Hintergrund.",
+     "Makros: Kreuzstich-Band, Achtstern, Patch (einmal mit Gürtel dahinter), Knopf „NOVALIFE“, Saum, Nieten. Kein roter Hintergrund.",
      "Fotos mit Graukarte farblich abgleichen, die 6 besten in den Ordner „Produktseite“. Morgen kommen sie auf die Vorbestellseite."
     ],
     "f": "Clips von Goldfäden und N° sowie 6 farbtreue Makros im Ordner „Produktseite“ liegen.",
@@ -281,7 +281,7 @@
      "text": "Hook EN in den ersten 2 s, Endframe „14.01. · 19:00“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "14.01., 19:00. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #crossstitch #novalifetimetravel",
-     "check": "Loopt, keine Seitenansicht links, B und B2 nicht im selben Bild, CTA bis 13.01., Musik nur aus der Business-Bibliothek."
+     "check": "Loopt, CTA bis 13.01., Musik nur aus der Business-Bibliothek."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Commercial Music Library"},
@@ -556,7 +556,7 @@
      "Handheber gesamt (Zusagen plus Reservierungen) Richtung 40: Zahl notieren, Mi 13.01. wird sie Gate.",
      "Liste ≥ 850: weiter. Unter Alarm 380 (G1): Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story plus DM, Claude die 3 schwächsten Videos zeigen. Zwischen 380 und 850 (G2): bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit 15′.",
      "G3: Anmeldungen je 1.000 Views unter 1,0: angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story, Seite im Instagram-Browser testen.",
-     "G5: Video ≥ 2 × Median nach 48 h mit Teil-Rate über Median: 5 Varianten in 14 Tagen einplanen. G7: ≥ 3 Kommentare mit „Sowjet“, „Wappen“, „Holodomor“: danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild.",
+     "G5: Video ≥ 2 × Median nach 48 h mit Teil-Rate über Median: 5 Varianten in 14 Tagen einplanen. G7: ≥ 3 Kommentare mit „Sowjet“, „Wappen“, „Holodomor“: danken, zählen, 2 Wochen kein Ernte-Bild.",
      "G12: Kasse gelb: keine Ausgaben außerhalb Plan 3; rot: Ausgaben-Stopp-Liste, Notfall-Leiter.",
      "PP freigegeben? Wenn nicht: Öffnung nach B-Zeitachse 1 (Gate vom Di)."
     ],
@@ -600,7 +600,7 @@
      "text": "Hook EN in den ersten 2 s, Untertitel, Endkarten mit Datum",
      "cta": "bis 13.01.: Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. · ab 14.01.: Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Captions stehen in den Posttagen W18 (Mo 11.01. bis Sa 16.01.).",
-     "check": "Teppich nur als Familienerinnerung, kein „sowjetisch“; Lebensbaum nie „slawisch“; B und B2 nie im selben Bild; keine Seitenansicht links; kein Streichpreis; nur echte Zahlen."
+     "check": "Teppich nur als Familienerinnerung, kein „sowjetisch“; Lebensbaum nie „slawisch“; kein Streichpreis; nur echte Zahlen."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"},

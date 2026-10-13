@@ -41,7 +41,7 @@
      "text": "0–2 s Hook EN · Untertitel",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 21.03. · ab 22.04. 169 €. Noch [Y] von 35.)",
      "caption": "Day 134. One Saturday, one apartment, one sunset. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #behindthescenes #novalifetimetravel",
-     "check": "Bildrechte der Models geklärt, B und B2 nie im selben Frame, keine Seitenansicht links, kein Streichpreis."
+     "check": "Bildrechte der Models geklärt, kein Streichpreis."
     },
     "o": [
      {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Produkte → Time Travel Jeans · NVL-TT-01"},
@@ -92,10 +92,10 @@
     "m": 45,
     "s": [
      "Aus dem Ordner „Shop“: 2000 px lange Seite, Formate 1:1 und 4:5, Dateinamen „tt-jeans-01-vorn.jpg“ usw.",
-     "Reihenfolge nach design.md 6.2: vorn getragen ganz, hinten getragen ganz, Makro A + E, Makro B2 mit Goldfäden, Seite mit Serp nur wenn B den Schnelltest bestanden hat, Makro C, Makro D mit Nummer, innen, Flat mit Maßen, drei Körper nebeneinander.",
+     "Reihenfolge nach design.md 6.2: vorn getragen ganz, hinten getragen ganz, Makro A + E, Makro B2 mit Goldfäden, Rücken mit Gürtel hinter der Patch-Schlaufe D, Makro C, Makro D mit Nummer, innen, Flat mit Maßen, drei Körper nebeneinander.",
      "Shopify → Produkte → „Time Travel Jeans · NVL-TT-01“ → Medien hochladen. Je Bild ein Alt-Text (Prompt unten).",
      "Zipper- und Polo-Bilder in den Ordner „Shop“, die Produkte legst du in W27 an.",
-     "Bildregel-Check: keine Seitenansicht links, B und B2 nie zusammen, kein roter Hintergrund."
+     "Bildregel-Check: kein roter Hintergrund."
     ],
     "f": "die Jeans-Bilder mit Alt-Texten im Produkt sind und Zipper und Polo im Ordner „Shop“ liegen.",
     "p": "Projekt Time Travel, Docket W24, Di 23.02. Schreib mir Alt-Texte (deutsch, je max. 120 Zeichen) für diese Produktbilder der Time Travel Jeans: [Liste: Dateiname + was zu sehen ist]. Beschreibe, was man sieht, Größe der Person nur wenn ich sie angebe, Wortliste: „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, nie „authentisch“.",
@@ -172,10 +172,10 @@
      "Prompt unten an Claude.",
      "Shopify → Marketing → Kampagnen → Shopify Email: 7 Entwürfe anlegen, nichts terminieren. Namen „Drop T−14“, „Drop T−7“, „Drop T−3“, „Drop T−24h“, „Drop T−1h Schlüssel“, „Drop LIVE“, „Drop Fr Nicht-Öffner“.",
      "Jeder Button mit utm_source=mail. T−1h bekommt den Schlüssel-Link (Website Schritt 15, ?key=), bis dahin Platzhalter.",
-     "Bilder: kein Serp im Hero-Bild am 22.04., keine Ernte-Hooks (Teilsperre 22.04.)."
+     "Bilder: Hero am 22.04. ist die Totale oder der Patch mit Gürtel. Keine Ernte-Hooks (Teilsperre 22.04.)."
     ],
     "f": "7 Entwürfe liegen in Shopify Email, keiner terminiert.",
-    "p": "Projekt Time Travel, Docket W24, Mi 24.02. (intern, heute geht nichts raus). Schreib mir 7 E-Mails zum Drop am Do 22.04.2027 um 19:00: T−14 (Do 08.04.), T−7 (Do 15.04.), T−3 (Mo 19.04.), T−24h (Mi 21.04.), T−1h mit Schlüssel-Link (Do 22.04., 18:00), LIVE (Do 22.04., 19:00), Fr 23.04., 10:00 an alle, die LIVE nicht geöffnet haben. Je Betreff, Vorschautext, 60–120 Wörter, ein Button. Fakten: 100 nummerierte Jeans 169 €, Zipper 139 €, Polo 79 €. CTA bis 21.04.: „Drop 22.04., 19:00. Die Liste kommt um 18:00 rein.“ Ab 19:00: „Jetzt live.“ Teilsperre 22.04.: keine Ernte-Hooks, kein Serp im Hero-Bild; falls jemand nach dem Datum fragt: „Der Termin ist der Donnerstag nach der Lieferung, sonst nichts.“ Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, kein Streichpreis, keine erfundene Knappheit.",
+    "p": "Projekt Time Travel, Docket W24, Mi 24.02. (intern, heute geht nichts raus). Schreib mir 7 E-Mails zum Drop am Do 22.04.2027 um 19:00: T−14 (Do 08.04.), T−7 (Do 15.04.), T−3 (Mo 19.04.), T−24h (Mi 21.04.), T−1h mit Schlüssel-Link (Do 22.04., 18:00), LIVE (Do 22.04., 19:00), Fr 23.04., 10:00 an alle, die LIVE nicht geöffnet haben. Je Betreff, Vorschautext, 60–120 Wörter, ein Button. Fakten: 100 nummerierte Jeans 169 €, Zipper 139 €, Polo 79 €. CTA bis 21.04.: „Drop 22.04., 19:00. Die Liste kommt um 18:00 rein.“ Ab 19:00: „Jetzt live.“ Teilsperre 22.04.: keine Ernte-Hooks, Hero-Bild ist die Totale oder der Lebensbaum-Patch als Gürtelschlaufe; falls jemand nach dem Datum fragt: „Der Termin ist der Donnerstag nach der Lieferung, sonst nichts.“ Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, kein Streichpreis, keine erfundene Knappheit.",
     "o": [
      {"n": "Shopify-Admin", "u": "https://admin.shopify.com", "h": "Marketing → Kampagnen → Shopify Email"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
@@ -189,8 +189,8 @@
     "m": 60,
     "s": [
      "In CapCut neues Projekt 9:16 und eine Fassung 4:5 für die Pressemappe. Material: Shoot/roh, Shoot/BTS.",
-     "Aufbau 30 s: Totale aus 3 m · fünf Stickereien in getrennten Einstellungen (Reihenfolge B · A · E · C · D · B2) · Set mit Zipper und Polo · Sonnenuntergang als letzte Einstellung.",
-     "Serp und Ähren-Tasche nie im selben Frame, keine Seitenansicht links, nie hellblauer Himmel über gelbem Weizen.",
+     "Aufbau 30 s: Totale aus 3 m · vier Stickereien und die Patch-Schlaufe in getrennten Einstellungen (Reihenfolge A · E · C · D · B2) · Set mit Zipper und Polo · Sonnenuntergang als letzte Einstellung.",
+     "Bei D den Gürtel zeigen, der hinter dem Patch durchläuft. Nie hellblauer Himmel über gelbem Weizen.",
      "Kaum Text. Letzter Frame: „Time Travel · 22.04. · 19:00“.",
      "Ohne Musik exportieren (W24/final/V079_final.mp4 und V079_4x5.mp4). Der Track kommt in jeder App getrennt aus der Business-Bibliothek."
     ],
@@ -204,7 +204,7 @@
     "t": "19:00 · V078 posten: REACH „Das erste Bild“ (vom 24.02. verschoben)",
     "m": 20,
     "s": [
-     "Datei W24/final/V078_final.mp4 öffnen. Prüfen: Hauptbild ohne Seitenansicht links, B und B2 nicht zusammen. Gilt G7 (≥ 3 kritische Kommentare): kein Ernte- oder Serp-Bild.",
+     "Datei W24/final/V078_final.mp4 öffnen. Prüfen: Hauptbild ohne roten Hintergrund. Gilt G7 (≥ 3 kritische Kommentare): kein Ernte-Bild.",
      "18:55 in TikTok hochladen, ruhiger Track aus der Commercial Music Library, Caption einfügen.",
      "19:00 posten, danach Reel (DE-Zeile „Das erste echte Foto von Time Travel.“) und Short. Zusätzlich das Foto als Feed-Post auf Instagram. Story mit Link-Sticker.",
      "19:00–19:15 Kommentare beantworten (Regeln 9.3 Punkt 9)."
@@ -226,7 +226,7 @@
      "text": "Hook EN in den ersten 2 Sekunden, Endframe „22.04. · 19:00“",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Time Travel. 22.04., 19:00. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #lookbook #novalifetimetravel",
-     "check": "Nicht am 24.02. gepostet, keine Seitenansicht links, B und B2 nie zusammen, kein roter Hintergrund, nie Blau über Gelb."
+     "check": "Nicht am 24.02. gepostet, kein roter Hintergrund, nie Blau über Gelb."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -275,7 +275,7 @@
     "s": [
      "Film W24/final/V079_final.mp4 einmal am Handy ansehen. Untertitel und Endframe prüfen.",
      "17:30 in TikTok hochladen, Track aus der Commercial Music Library wählen. In Instagram getrennt einen Track aus der Business-Bibliothek setzen. Nie Musik einbacken.",
-     "Caption einfügen. Titelbild: Totale, kein Serp.",
+     "Caption einfügen. Titelbild: Totale.",
      "18:00 posten, danach Reel und Short. Story mit Link-Sticker. Den Film oben im Instagram-Profil anheften.",
      "18:00–18:15 Kommentare beantworten. Kommentare mit „Oma“ oder „Kostüm“ zählen (G8)."
     ],
@@ -285,11 +285,11 @@
      "slot": "DETAIL",
      "dauer": "30 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Thirty seconds. Five embroideries. One field at sunset.",
-     "hook_de": "Dreißig Sekunden. Fünf Stickereien. Ein Feld im Sonnenuntergang.",
+     "hook_en": "Thirty seconds. Four embroideries, one patch. One field at sunset.",
+     "hook_de": "Dreißig Sekunden. Vier Stickereien, ein Patch. Ein Feld im Sonnenuntergang.",
      "shots": [
       "Kampagnenfilm, 30 s, aus dem Shoot",
-      "Fünf Stickereien in getrennten Einstellungen",
+      "Vier Stickereien und die Patch-Schlaufe in getrennten Einstellungen",
       "Sonnenuntergang als letzte Einstellung",
       "Endframe: „22.04. · 19:00“"
      ],
@@ -298,7 +298,7 @@
      "text": "Hook EN in den ersten 2 Sekunden, kaum Text, Endframe „Time Travel · 22.04. · 19:00“",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Time Travel. 100 pairs. 22.04., 19:00. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #campaign #novalifetimetravel",
-     "check": "Sonnenuntergang, nie Blau über Gelb; Serp und Ähren-Tasche nie im selben Frame; Reihenfolge B · A · E · C · D · B2; keine Seitenansicht links."
+     "check": "Sonnenuntergang, nie Blau über Gelb; Reihenfolge A · E · C · D · B2."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -334,7 +334,7 @@
      "text": "„A or B? You decide the shop photo.“",
      "cta": "Link-Sticker auf die Vorbestellung",
      "caption": "(Story) Which photo should be the main image? A or B.",
-     "check": "Keines der Bilder mit Seitenansicht links oder B und B2 zusammen, kein roter Hintergrund."
+     "check": "Kein roter Hintergrund auf beiden Bildern."
     },
     "o": [
      {"n": "Instagram", "u": "https://www.instagram.com", "h": "Story mit Umfrage"}
@@ -432,12 +432,12 @@
     "m": 75,
     "s": [
      "Ordner „W25/roh“ und „W25/final“. Kamera 9:16, Licht von vorn oder vom Fenster, je Shot 3 Takes. Drehreihenfolge nach Orten.",
-     "Schreibtisch, BUILD „Das ist Time Travel“ (Mo 01.03.): die 6 stärksten Shoot-Bilder je 0,8 s auf den Beat, Reihenfolge der Elemente B · A · E · C · D · B2. Letzter Frame „100 Jeans · 22.04. · 19:00“.",
+     "Schreibtisch, BUILD „Das ist Time Travel“ (Mo 01.03.): die 6 stärksten Shoot-Bilder je 0,8 s auf den Beat, Reihenfolge der Elemente A · E · C · D · B2. Letzter Frame „100 Jeans · 22.04. · 19:00“.",
      "Schreibtisch, ORIGIN „Rot und Weiß“: nur mit Beleg aus der Belegtabelle. Referenzbild mit rotem Kreuzstich auf weißem Leinen, Quelle klein einblenden, dann Band A im Makro. Ein Satz: Auf Leinen war der Grund hell, auf der Jeans ist er dunkel, deshalb trägt hier Weiß das Muster. Kein roter Hintergrund.",
      "Fensterbank, REACH „Nummer 047“: Hangtag-Makro mit einer Nummer, harter Schnitt auf einen Shoot-Clip. Trend-Sound kommt erst in der App.",
      "Fensterbank, DETAIL „Fäden nicht abschneiden“: Makro auf das Pflegeetikett am PP-Sample, dann Schwenk auf die Goldfäden.",
      "CapCut: Hook als Text in die ersten 2 Sekunden, Untertitel automatisch, keine Musik einbacken. Alle vier in „W25/final“ exportieren.",
-     "Bild-Check: keine Seitenansicht links, B und B2 nie zusammen, Serp und Ähren-Tasche nie im selben Frame."
+     "Bild-Check: kein roter Hintergrund, nie hellblauer Himmel über gelbem Weizen."
     ],
     "f": "4 fertige Videos im Ordner „W25/final“ liegen.",
     "v": {
@@ -448,7 +448,7 @@
      "hook_en": "This is Time Travel.",
      "hook_de": "Das ist Time Travel.",
      "shots": [
-      "6 stärkste Shoot-Bilder, je 0,8 s auf den Beat, Reihenfolge B · A · E · C · D · B2",
+      "6 stärkste Shoot-Bilder, je 0,8 s auf den Beat, Reihenfolge A · E · C · D · B2",
       "Endframe „100 Jeans · 22.04. · 19:00“"
      ],
      "ort": "Wohnung · Schreibtisch, Bildmaterial vom Shoot 20.02.",
@@ -456,7 +456,7 @@
      "text": "Hook EN, Endframe „100 jeans · 22.04. · 19:00“",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Day 141. This is Time Travel. 100 numbered pairs, 22.04., 19:00. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #buildinpublic #embroidereddenim #denim #novalifetimetravel",
-     "check": "Sequenz B · A · E · C · D · B2, Serp und Ähren auf Rot nie direkt nacheinander, keine Seitenansicht links."
+     "check": "Sequenz A · E · C · D · B2."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com"}

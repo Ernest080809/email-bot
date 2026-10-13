@@ -1,9 +1,13 @@
 # Content-System und Video-Bibliothek · Time Travel
 
 Stand: Mi 07.10.2026, abends. Für Ernest. Teil der Docket-Neuplanung (Rev. 6).
+**Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
 Drop Do 22.04.2027, 19:00 (Warteliste ab 18:00). Ziel 10.000 € = 64 Jeans (35 Vorbestellungen à 149 € + 29 im Drop à 169 €).
 Grundlage: Plan Rev. 5.3, Spec Rev. 13, Docket Rev. 5.3, dazu `markt.md` und `zielgruppe.md` aus diesem Ordner.
 Quellen als [Q-Nummer], Liste in Abschnitt 7. Maschinenlesbare Kopie der Bibliothek: `content_library.json` im selben Ordner.
+
+
+**Neu seit 13.10.: Stunt-Serie REWIND.** 20 Videos, etwa eins pro Woche, jedes spielt mit der Zeit (rückwärts, angehalten, gesprungen) und endet auf der Hose. Sie kommen zu den Slots unten dazu und sollen die 3–5 Ausreißer bringen. Konzepte, Tricks und Sicherheit stehen in der [Video-Bibel](https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775), die Dreh- und Post-Aufgaben im Docket.
 
 ## Kurzfassung
 
@@ -14,7 +18,7 @@ Quellen als [Q-Nummer], Liste in Abschnitt 7. Maschinenlesbare Kopie der Bibliot
 1. **Morgen, Do 08.10., beim Papiertest 3 alles filmen.** V001, V119 und später V093 und CD-T03 leben von diesem Material. Shotliste in 4.1: 12 Clips, 15 Minuten extra.
 2. **Reichweite kommt aus Ausreißern.** Kleine Business-Konten (1.000–5.000 Follower) holen auf TikTok im Schnitt 317 Views pro Post. Reels erreichen etwa 10 % der Follower [Q4][Q5]. Für 3.000 Anmeldungen brauchst du grob 1,2 Mio. Views (Schätzung, markt.md 3.5). Deshalb hat jedes Konzept einen Test-Hook. Jedes Video mit mehr als dem Doppelten deines Medians drehst du in fünf Varianten nach.
 3. **Drei Achsen tragen den Verkauf:** Teppich und Familie (stärkster Auslöser deiner Kernzielgruppe), Handwerk im Makro (Goldfäden, Kreuzstich, Ton der Nadel), ehrliche Zahlen (Budget, Kosten, „X von 35“).
-4. **Acht Änderungen am Rev.-5.3-Plan, alle aus zielgruppe.md abgeleitet, du entscheidest:** zweimal „Älter als jede Grenze“ ersetzt. Teppich-Post vom 25.11. auf den 18.11. vorgezogen. Vom 23. bis 29.11. kein Ernte- oder Sichel-Post, am 28.11. gar keiner. „Das erste Bild“ vom 24.02. auf den 25.02. verschoben. „37 mal 37“ auf 45 × 45 korrigiert. Unboxing am 03.12. neu. Nach außen „cross-stitch band“ und „eight-point star“ statt Vyshyvanka und Alatyr.
+4. **Acht Änderungen am Rev.-5.3-Plan, alle aus zielgruppe.md abgeleitet, du entscheidest:** zweimal „Älter als jede Grenze“ ersetzt. Teppich-Post vom 25.11. auf den 18.11. vorgezogen. Vom 23. bis 29.11. kein Ernte-Post, am 28.11. gar keiner. „Das erste Bild“ vom 24.02. auf den 25.02. verschoben. „37 mal 37“ auf 45 × 45 korrigiert. Unboxing am 03.12. neu. Nach außen „cross-stitch band“ und „eight-point star“ statt Vyshyvanka und Alatyr.
 5. **Der Ablauf passt in deine Zeit:** Sonntag 75–100 Minuten Dreh, Posttag 20 Minuten, sonst 10 Minuten Community. Ein Schnitt in CapCut, nativ auf TikTok, Reels und Shorts hochgeladen. Musik erst in der jeweiligen App, aus deren Business-Bibliothek.
 
 **Wie belastbar das ist.** Ich konnte in dieser Runde keine Seite selbst öffnen: Das Suchbudget war aufgebraucht, der Seitenabruf gesperrt. Alle Zahlen mit [Q] stammen aus Quellen, die die Markt- und die Zielgruppen-Recherche heute in dieser Sitzung per Websuche gesehen haben. Plattform-Mechanik (Algorithmus-Signale, Längen, Hashtag-Limit, Musikbibliotheken) steht als **UNGEPRÜFT** da, jeweils mit dem Ort, an dem du es in zwei Minuten selbst prüfst. Für die besten Uhrzeiten gibt es keine geprüfte Zahl. Deshalb liest du ab Woche 8 deine eigenen Insights.
@@ -193,7 +197,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise
 - **Caption EN:** Day 1. Before a factory sews a single stitch, I test every embroidery as paper on my own jeans. 100 pairs, numbered. Drop 22.04.2027. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Spiegel nur von vorn oder hinten, nie seitlich mit Serp (B) und Ähren-Tasche (B2) im selben Bild
+- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
 #### V002 · Mi 14.10.2026 18:00 · ORIGIN · Jede Region stickt die Raute anders
 - **Phase:** P1 Prozess (vor Proto: nur Papier, Datei, Zahl, Prozess) · **Format:** Video 9:16 (alternativ Karussell) · **Dauer:** 25–40 s · **Docket-Woche:** W5
@@ -230,7 +234,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Shots:** 1) Bildschirmaufnahme: Tech-Pack-PDF durchscrollen (Maßtabelle, technische Flachzeichnung) · 2) Zoom auf eine Zeile: „W32 = 81 cm“ · 3) Ausgedruckte Seite mit Kugelschreiber-Notizen, Hand blättert · 4) Ordner „to factory“ auf dem Desktop
 - **Drehort:** Mac · Bildschirmaufnahme (Cmd + Shift + 5), dazu Gesicht/Hände am Schreibtisch
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 8. A tech pack is the blueprint a factory works from: measurements, fabric, wash, every stitch position. Mine: five sizes, five embroideries. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 8. A tech pack is the blueprint a factory works from: measurements, fabric, wash, every stitch position. Mine: five sizes, four embroideries. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur technische Flachzeichnung, kein fotorealistisches Rendering · Keine Fabriknamen
 
@@ -250,13 +254,13 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 #### V006 · Fr 23.10.2026 18:00 · DETAIL · Feiner Kreuzstich
 - **Phase:** P1 Prozess (vor Proto: nur Papier, Datei, Zahl, Prozess) · **Format:** Video 9:16 · **Dauer:** 12–20 s · **Docket-Woche:** W6
 - **Docket:** Rev 5.3 W6 Fr · DETAIL „Feiner Kreuzstich“
-- **Hook EN (Slide 1 / erster Satz):** „One stitch is 1.33 millimeters. There are about 33,000.“
-- **Hook DE:** „Ein Stich ist 1,33 Millimeter. Es sind etwa 33.000.“
+- **Hook EN (Slide 1 / erster Satz):** „One stitch is 1.33 millimeters. There are about 28,000.“
+- **Hook DE:** „Ein Stich ist 1,33 Millimeter. Es sind etwa 28.000.“
 - **Test-Hook B:** „Why my embroidery isn't pixelated anymore.“
-- **Shots:** 1) Makro: Lineal neben ausgedrucktem Raster von Band A (17 Stiche hoch) · 2) Altes 4-mm-Raster und neues 1,33-mm-Raster nebeneinander · 3) Du stickst fünf Kreuzstiche von Hand auf Stickstoff (Nadel-ASMR) · 4) Text: „~33,000 stitches per pair (estimate)“
+- **Shots:** 1) Makro: Lineal neben ausgedrucktem Raster von Band A (17 Stiche hoch) · 2) Altes 4-mm-Raster und neues 1,33-mm-Raster nebeneinander · 3) Du stickst fünf Kreuzstiche von Hand auf Stickstoff (Nadel-ASMR) · 4) Text: „~28,000 stitches per pair (estimate)“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite. Schreibtischlampe seitlich für Makro
 - **Ton:** Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise
-- **Caption EN:** Version 1 used 4 mm squares and looked pixelated. Now one cross-stitch is 1.33 mm, a third of the size. About 33,000 stitches per pair, an estimate until the digitizer counts. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel
+- **Caption EN:** Version 1 used 4 mm squares and looked pixelated. Now one cross-stitch is 1.33 mm, a third of the size. About 28,000 stitches per pair, an estimate until the digitizer counts. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Stichzahl als Schätzung gekennzeichnet · Handgestickte Übung ist Prozess, kein Produkt
 
@@ -292,10 +296,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „What one embroidered jeans costs me to make.“
 - **Hook DE:** „Was mich eine bestickte Jeans in der Herstellung kostet.“
 - **Test-Hook B:** „€169 sounds expensive. Here's the math.“
-- **Shots:** 1) Handschrift, Posten für Posten: base jeans ~€35 · embroidery ~€18 · patch ~€3 · gold threads ~€2 · handling ~€5 · 2) Strich darunter: ~€63 · 3) Du: „Estimate. The real number comes with the stitch count.“
+- **Shots:** 1) Handschrift, Posten für Posten: base jeans ~€35 · embroidery ~€15 · patch ~€3 · gold threads ~€2 · handling ~€4 · 2) Strich darunter: ~€60 · 3) Du: „Estimate. The real number comes with the stitch count.“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** My estimate per pair: about €63 to make. Base jeans ~€35, embroidery ~€18, patch ~€3, gold threads ~€2, handling ~€5. The real number comes when the digitizer counts the stitches. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel
+- **Caption EN:** My estimate per pair: about €60 to make. Base jeans ~€35, embroidery ~€15, patch ~€3, gold threads ~€2, handling ~€4. The real number comes when the digitizer counts the stitches. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Zahlen aus Spec 3.11, als Schätzung markiert · Fabrikpreis öffentlich: deine Entscheidung
 
@@ -344,10 +348,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „My pattern just became machine code.“
 - **Hook DE:** „Mein Muster ist gerade Maschinen-Code geworden.“
 - **Test-Hook B:** „Day 29: the real stitch count is in.“
-- **Shots:** 1) Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose) · 2) Echte Stichzahl groß einblenden · 3) Vergleich: estimate ~33,000 vs. real [ZAHL] · 4) Deine Reaktion, ein Satz
+- **Shots:** 1) Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose) · 2) Echte Stichzahl groß einblenden · 3) Vergleich: estimate ~28,000 vs. real [ZAHL] · 4) Deine Reaktion, ein Satz
 - **Drehort:** Mac · Bildschirmaufnahme (Cmd + Shift + 5), dazu Gesicht/Hände am Schreibtisch
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 29. A digitizer turns a drawing into a stitch file: every needle point, every colour change. My estimate was ~33,000 stitches. The real count: [ZAHL]. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 29. A digitizer turns a drawing into a stitch file: every needle point, every colour change. My estimate was ~28,000 stitches. The real count: [ZAHL]. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur Stichsimulation, kein Garment-Mockup · Datei nur mit Erlaubnis des Digitizers zeigen · Echte Zahl
 
@@ -357,10 +361,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Roots, trunk, crown: the patch on my waistband.“
 - **Hook DE:** „Wurzeln, Stamm, Krone: der Patch an meinem Bund.“
 - **Test-Hook B:** „Ten twisted strands make this tree's trunk.“
-- **Shots:** 1) Deine Referenz-Skizze des Baums auf dem Tisch (eigene Zeichnung) · 2) Finger fährt Wurzeln → Stamm → Krone nach · 3) Papierausschnitt 86 × 76 mm am Bund (Papiertest) · 4) Text: „natural linen · gold · brown · red“
+- **Shots:** 1) Deine Referenz-Skizze des Baums auf dem Tisch (eigene Zeichnung) · 2) Finger fährt Wurzeln → Stamm → Krone nach · 3) Papierausschnitt 76 × 67 mm am Bund (Papiertest) · 4) Text: „natural linen · gold · brown · red“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
-- **Caption EN:** The tree of life sits on the back waistband: 86 × 76 mm on natural linen, a trunk of ten twisted strands, roots in a circle. Made as a patch by a specialist. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
+- **Caption EN:** The tree of life sits on the back waistband as the belt loop: 76 × 67 mm on natural linen, a trunk of ten twisted strands, roots in a circle. Made as a patch by a specialist. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „Slavic tree of life“ (Spec 3.2) · Patch-Muster kommen erst um den 13.11.: bis dahin nur Papier und Skizze
 
@@ -401,7 +405,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
 - **Caption EN:** Wall carpets hung in a lot of homes in the region: for warmth, against noise, and because they were precious. [Nur wenn wahr: Ours too.] Its medallion is becoming the back of the zipper. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Subjekt ist der Teppich · Kein „sowjetisch“, kein CCCP, keine Sowjet-Deko im Bild (zielgruppe.md 3.6) · Vom Mi 25.11. vorgezogen: in der Woche 23.–29.11. kein Ernte- oder Sichel-Post (Holodomor-Gedenktag Sa 28.11., [Q26]) · Familien-Aussagen nur, wenn sie stimmen
+- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Subjekt ist der Teppich · Kein „sowjetisch“, kein CCCP, keine Sowjet-Deko im Bild (zielgruppe.md 3.6) · Vom Mi 25.11. vorgezogen: in der Woche 23.–29.11. kein Ernte-Post (Holodomor-Gedenktag Sa 28.11., [Q26]) · Familien-Aussagen nur, wenn sie stimmen
 
 #### V018 · Fr 20.11.2026 18:00 · REAL · Was die Wäsche mit der Stickprobe macht
 - **Phase:** P1 Prozess (vor Proto: nur Papier, Datei, Zahl, Prozess) · **Format:** Video 9:16 · **Dauer:** 20–30 s · **Docket-Woche:** W10
@@ -427,7 +431,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise
 - **Caption EN:** Day 43. 100% cotton, rigid, no stretch. Three swatches, three wash tones. The dark one wins, because white thread needs contrast to read from three metres. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Woche 23.–29.11.: kein Ernte- oder Sichel-Motiv im Bild (zielgruppe.md 3.7)
+- **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Woche 23.–29.11.: kein Ernte-Motiv im Bild (zielgruppe.md 3.7)
 
 #### V020 · Mi 25.11.2026 18:00 · ORIGIN · Warum Panel-Stickerei
 - **Phase:** P1 Prozess (vor Proto: nur Papier, Datei, Zahl, Prozess) · **Format:** Video 9:16 · **Dauer:** 20–30 s · **Docket-Woche:** W11
@@ -448,10 +452,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Why my jeans cost €169, line by line.“
 - **Hook DE:** „Warum meine Jeans 169 € kostet, Zeile für Zeile.“
 - **Test-Hook B:** „€169 for jeans? Let me show you the math.“
-- **Shots:** 1) Papier: €169 → ~€63 to make (estimate) · 2) Darunter: payment fees, shipping, returns, next drop · 3) Text: „pre-order: €149“
+- **Shots:** 1) Papier: €169 → ~€60 to make (estimate) · 2) Darunter: payment fees, shipping, returns, next drop · 3) Text: „pre-order: €149“
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** €169. About €63 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. People on the list can pre-order at €149 from 14.01. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel
+- **Caption EN:** €169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. People on the list can pre-order at €149 from 14.01. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Vor Proto: nur Papier, Datei, Zahl, Prozess. Kein fertiges Teil, kein Mockup ✓ · Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Keine fremden Marken im Preisvergleich · Sa 28.11. (Holodomor-Gedenktag, [Q26]): kein Post
 
@@ -487,7 +491,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Tomorrow paper becomes thread.“
 - **Hook DE:** „Morgen wird aus Papier Garn.“
 - **Test-Hook B:** „Two months of paper. Tomorrow: the real thing.“
-- **Shots:** 1) Papierband A an der Tasche, 0,5 s · 2) Münztasche E aus Papier, 0,5 s · 3) Serp-Papier B am Bein (eigene Einstellung), 0,5 s · 4) Ähren-Papier B2 an der Gesäßtasche (eigene Einstellung), 0,5 s · 5) Achtstern C und Patch D, je 0,5 s · 6) Letzter Frame: „Thu.“
+- **Shots:** 1) Papierband A an der Tasche, 0,5 s · 2) Münztasche E aus Papier, 0,5 s · 3) Patch D aus Papier als Gürtelschlaufe, Gürtel dahinter, 0,5 s · 4) Ähren-Papier B2 mit Goldfäden an der Gesäßtasche, 0,5 s · 5) Achtstern C, 0,5 s · 6) Letzter Frame: „Thu.“
 - **Drehort:** Archiv-Clips aus früheren Drehs (Ordner content/archiv)
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
 - **Caption EN:** Thursday. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #berlinfashion #denim #novalifetimetravel
@@ -546,7 +550,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
 - **Caption EN:** Day 57. Fit test done. What changes before the final sample: [Liste]. Better you see this now than get it in April. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Befunde · Spiegel nur von vorn: Serp und Ähren-Tasche nicht im selben Bild
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echte Befunde
 
 #### V029 · Di 08.12.2026 18:00 · ORIGIN · Das Band in echt
 - **Phase:** P2 Ab Proto · **Format:** Video 9:16 · **Dauer:** 8–12 s · **Docket-Woche:** W13
@@ -580,7 +584,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Nine threads. Set by hand. After the wash.“
 - **Hook DE:** „Neun Fäden. Von Hand gesetzt. Nach der Wäsche.“
 - **Test-Hook B:** „The only part of my jeans that moves.“
-- **Shots:** 1) Makro linke Gesäßtasche, Fäden hängen · 2) Fön auf kleinster Stufe oder Hand: Fäden schwingen · 3) Gehen, Rückansicht (nur hinten, kein Serp)
+- **Shots:** 1) Makro linke Gesäßtasche, Fäden hängen · 2) Fön auf kleinster Stufe oder Hand: Fäden schwingen · 3) Gehen, Rückansicht, die Fäden schwingen
 - **Drehort:** Wohnung · Fensterbank, Tageslicht (Gold und Stoffstruktur brauchen Licht von der Seite). Gegenlicht, damit das Gold glänzt
 - **Ton:** Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise
 - **Caption EN:** Gold polyester, triple-twisted, 18 to 30 mm, knotted inside the pocket. The care label says: don't cut them. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel
@@ -645,12 +649,12 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Left pocket: harvest. Right pocket: pattern.“
 - **Hook DE:** „Linke Tasche: Ernte. Rechte Tasche: Muster.“
 - **Test-Hook B:** „The back of my jeans tells one story.“
-- **Shots:** 1) Rückansicht Totale, getragen, gehen · 2) Makro links: drei Ähren, Band, Fäden · 3) Makro rechts: Achtstern · 4) Patch am Bund
+- **Shots:** 1) Rückansicht Totale, getragen, gehen · 2) Makro links: drei Ähren, Band, Fäden · 3) Makro rechts: Achtstern · 4) Patch D als Gürtelschlaufe, der Gürtel läuft dahinter
 - **Drehort:** Berlin · Hinterhof oder Treppenhaus mit Fensterlicht (keine Sowjet-/DDR-Monumentalkulisse, keine Flaggen im Bild)
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
-- **Caption EN:** Right side: the pattern. Left side: the harvest. Three wheat ears with nine gold threads on the left, the eight-point star on the right, the tree of life on the waistband. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel
+- **Caption EN:** Right side: the pattern. Left side: the harvest. Three wheat ears with nine gold threads on the left, the eight-point star on the right, the tree of life as the belt loop on the waistband. Link in bio: join the list. The list buys first, at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Serp (vorn links) nicht im Bild (B und B2 getrennt halten, zielgruppe.md 3.5)
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
 #### V037 · Sa 19.12.2026 12:00 · ASK · Größe
 - **Phase:** P2 Ab Proto · **Format:** Story (2 Frames) · **Dauer:** 2 Story-Frames · **Docket-Woche:** W14
@@ -749,10 +753,10 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Hook EN (Slide 1 / erster Satz):** „Day 85: the final sample. Approve or not?“
 - **Hook DE:** „Tag 85: Das finale Sample. Freigeben oder nicht?“
 - **Test-Hook B:** „This pair decides how all 100 look.“
-- **Shots:** 1) PP-Sample auspacken · 2) Prüfplan auf Papier abhaken: Maße, fünf Elemente, Fäden, Patch · 3) Vergleich Proto vs. PP: was korrigiert wurde · 4) Deine Entscheidung
+- **Shots:** 1) PP-Sample auspacken · 2) Prüfplan auf Papier abhaken: Maße, vier Stickereien, Fäden, Patch · 3) Vergleich Proto vs. PP: was korrigiert wurde · 4) Deine Entscheidung
 - **Drehort:** Wohnung · Fensterbank, Tageslicht (Gold und Stoffstruktur brauchen Licht von der Seite)
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** Day 85. The pre-production sample is exactly how the 100 will be. I check measurements, all five embroideries, the threads, the patch. Result: [Ergebnis]. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** Day 85. The pre-production sample is exactly how the 100 will be. I check measurements, all four embroideries, the threads, the patch. Result: [Ergebnis]. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Echtes Ergebnis
 
@@ -901,18 +905,20 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Keine Kundennamen · Echte Zahl
 
-#### V056 · Di 19.01.2027 18:00 · ORIGIN · Das Feld nach der Ernte
+#### V056 · Di 19.01.2027 18:00 · ORIGIN · Links die Ernte
+
+**Im Docket gilt:** Der Post zeigt B2 (drei Ähren, rotes Band, Goldfäden), Hook „Why the harvest sits on my back pocket.“ Der Entwurf unten mit Patch D ist Reserve für einen freien Slot.
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 12–20 s · **Docket-Woche:** W19
-- **Docket:** Rev 5.3 W19 Di · ORIGIN „Geschnittener Weizen“
-- **Hook EN (Slide 1 / erster Satz):** „Why the stubble on my jeans is already cut.“
-- **Hook DE:** „Warum die Halme auf meiner Jeans schon geschnitten sind.“
-- **Test-Hook B:** „The field after the harvest, on my left leg.“
-- **Shots:** 1) Makro: Serp an der Seitennaht im Streiflicht · 2) Finger zeigt auf die Halme · 3) Text: „after the harvest“
+- **Docket:** Rev 5.3 W19 Di · ORIGIN „Geschnittener Weizen“ (umgebaut auf Patch D, Serp gestrichen 11.10.)
+- **Hook EN (Slide 1 / erster Satz):** „Why the tree of life on my jeans holds the belt.“
+- **Hook DE:** „Warum der Lebensbaum auf meiner Jeans den Gürtel hält.“
+- **Test-Hook B:** „The patch on my jeans is a belt loop.“
+- **Shots:** 1) Makro: Lebensbaum-Patch am Bund im Streiflicht, die vier Kupfernieten · 2) Hand zieht den Gürtel hinter dem Patch durch · 3) Text: „tree of life · belt loop“
 - **Drehort:** Wohnung · weiße Wand oder Tür, Hose auf Bügel, Streiflicht vom Fenster
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** On the left leg, a harvest blade stands over cut stubble: the field after the harvest. On the back pocket: the ears that came from it. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel
+- **Caption EN:** Where classic jeans carry a leather label, the tree of life sits on natural linen, 76 × 67 mm. It is sewn and riveted only at the sides, so it is the back belt loop: the belt runs behind the tree. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Serp nie neben Stern, Hammer oder rotem Grund · Ähren-Tasche nicht im selben Bild (Sichel + Ähren + rotes Band erinnern an Staatswappen, [Q28]) · Nur posten, wenn der Diaspora-Test bis 08.11. kein Warnsignal zum Serp ergab (zielgruppe.md 3.4)
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „Slavic tree of life“ · Gezeigt wird nur, was existiert (PP-Sample)
 
 #### V057 · Mi 20.01.2027 19:00 · REACH · Eine Hand
 - **Phase:** P3 Vorbestellung · **Format:** Video 9:16 · **Dauer:** 7–10 s · **Docket-Woche:** W19
@@ -1205,15 +1211,15 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 #### V079 · Fr 26.02.2027 18:00 · DETAIL · Kampagnenfilm
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 30 s · **Docket-Woche:** W24
 - **Docket:** Rev 5.3 W24 Fr · DETAIL „Kampagnenfilm“
-- **Hook EN (Slide 1 / erster Satz):** „Thirty seconds. Five embroideries. One field at sunset.“
-- **Hook DE:** „Dreißig Sekunden. Fünf Stickereien. Ein Feld im Sonnenuntergang.“
+- **Hook EN (Slide 1 / erster Satz):** „Thirty seconds. Four embroideries. One field at sunset.“
+- **Hook DE:** „Dreißig Sekunden. Vier Stickereien. Ein Feld im Sonnenuntergang.“
 - **Test-Hook B:** „The Time Travel film.“
-- **Shots:** 1) Kampagnenfilm, 30 s, aus dem Shoot · 2) Fünf Stickereien in getrennten Einstellungen · 3) Sonnenuntergang als letzte Einstellung · 4) Endframe: „22.04. · 19:00“
+- **Shots:** 1) Kampagnenfilm, 30 s, aus dem Shoot · 2) Vier Stickereien und Patch D in getrennten Einstellungen · 3) Sonnenuntergang als letzte Einstellung · 4) Endframe: „22.04. · 19:00“
 - **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
 - **Ton:** Track aus der Business-Bibliothek, für beide Plattformen getrennt gesetzt
 - **Caption EN:** Time Travel. 100 pairs. 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Sonnenuntergang, nie Blau über Gelb · Serp und Ähren-Tasche nie im selben Frame
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Sonnenuntergang, nie Blau über Gelb
 
 #### V080 · Sa 27.02.2027 12:00 · ASK · Hauptbild
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story · **Dauer:** 1–2 Frames · **Docket-Woche:** W24
@@ -1309,13 +1315,13 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 #### V087 · Di 09.03.2027 18:00 · ORIGIN · Für alle Neuen
 - **Phase:** P4 Produktion und Kampagne · **Format:** Karussell 7 Slides (anheften) · **Dauer:** 7 Slides · **Docket-Woche:** W26
 - **Docket:** Rev 5.3 W26 Di · ORIGIN „Für alle Neuen“
-- **Hook EN (Slide 1 / erster Satz):** „New here? 100 jeans, 5 embroideries, 22.04.“
-- **Hook DE:** „Neu hier? 100 Jeans, 5 Stickereien, 22.04.“
+- **Hook EN (Slide 1 / erster Satz):** „New here? 100 jeans, 4 embroideries, 22.04.“
+- **Hook DE:** „Neu hier? 100 Jeans, 4 Stickereien, 22.04.“
 - **Test-Hook B:** „Start here: what Time Travel is.“
-- **Shots:** 1) Slide 1 Hook · 2) Slide 2 Das Teil + fünf Stickereien · 3) Slide 3 Goldfäden · 4) Slide 4 Ehrliche Größen · 5) Slide 5 Preis und Termine · 6) Slide 6 Warteliste und Vorbestellung
+- **Shots:** 1) Slide 1 Hook · 2) Slide 2 Das Teil + vier Stickereien · 3) Slide 3 Goldfäden · 4) Slide 4 Ehrliche Größen · 5) Slide 5 Preis und Termine · 6) Slide 6 Warteliste und Vorbestellung
 - **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
-- **Caption EN:** Start here. 100 numbered jeans, five embroideries, nine gold threads set by hand. Pre-order €149 until 21.03., 20:00. Drop 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel
+- **Caption EN:** Start here. 100 numbered jeans, four embroideries, nine gold threads set by hand. Pre-order €149 until 21.03., 20:00. Drop 22.04., 19:00. Pre-order in bio: €149 instead of €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Pre-order in bio: €149 instead of €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio: 149 € statt 169 €. Noch [Y] von 35.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Im Profil anheften
 
@@ -1462,18 +1468,18 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
-#### V099 · Fr 26.03.2027 18:00 · DETAIL · Fünf Stickereien
+#### V099 · Fr 26.03.2027 18:00 · DETAIL · Vier Stickereien
 - **Phase:** P4 Produktion und Kampagne · **Format:** Video 9:16 · **Dauer:** 6–8 s · **Docket-Woche:** W28
-- **Docket:** Rev 5.3 W28 Fr · DETAIL „Fünf Stickereien“
-- **Hook EN (Slide 1 / erster Satz):** „Five embroideries. One second each.“
-- **Hook DE:** „Fünf Stickereien. Je eine Sekunde.“
+- **Docket:** Rev 5.3 W28 Fr · DETAIL „Fünf Stickereien“ (jetzt vier, Serp gestrichen 11.10.)
+- **Hook EN (Slide 1 / erster Satz):** „Four embroideries. One second each.“
+- **Hook DE:** „Vier Stickereien. Je eine Sekunde.“
 - **Test-Hook B:** „Count the embroideries on these jeans.“
-- **Shots:** 1) Band A · 2) Münztasche E · 3) Serp B · 4) Ähren B2 · 5) Achtstern C · 6) Patch D
+- **Shots:** 1) Band A · 2) Münztasche E · 3) Ähren B2 mit Goldfäden · 4) Achtstern C · 5) Patch D als Gürtelschlaufe
 - **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
 - **Ton:** Trend-Sound aus der TikTok Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Instagram: Musik aus der Business-Bibliothek der App
 - **Caption EN:** Band, coin pocket, harvest, star, tree. Plus nine threads. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #embroidereddenim #crossstitch #denim #novalifetimetravel
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. (DE: Drop 22.04., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · B und B2 in getrennten Einstellungen, nie im selben Frame
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓
 
 #### V100 · Sa 27.03.2027 12:00 · ASK · Größe
 - **Phase:** P4 Produktion und Kampagne · **Format:** Story (Frage-Sticker) · **Dauer:** 2 Frames · **Docket-Woche:** W28
@@ -1536,7 +1542,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
 - **Caption EN:** The harvest sits on the left. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
-- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Kein Serp im Bild · Nie „fünf“
+- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nie „fünf“
 
 #### CD-T20 · Fr 02.04.2027 18:00 · COUNTDOWN · Goldfäden in Bewegung
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W29
@@ -1567,7 +1573,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−18“ auf Indigo (0,5 s) · 2) Zoom auf Knoten und Wurzeln des Patches · 3) Endframe: „22.04. · 19:00“ (1 s)
 - **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Tree of life, natural linen, 86 × 76 mm. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **Caption EN:** Tree of life, natural linen, 76 × 67 mm, the back belt loop. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nie „Slavic tree of life“
 
@@ -1682,7 +1688,7 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
 - **Caption EN:** Left: harvest. Right: pattern. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
-- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Serp nicht im Bild
+- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
 #### CD-T07 · Do 15.04.2027 18:00 · COUNTDOWN · Ganzkörper hinten, Text „Noch 1 Woche“
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
@@ -1695,16 +1701,18 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T06 · Fr 16.04.2027 18:00 · COUNTDOWN · Seitennaht im Streiflicht: der Serp über den Stoppeln
+#### CD-T06 · Fr 16.04.2027 18:00 · COUNTDOWN · Patch D im Streiflicht: der Gürtel läuft hinter dem Baum
+
+**Im Docket gilt:** Am Fr 16.04. läuft V125 „Aus drei Metern“ als CD-T06. Der Entwurf unten ist Reserve.
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
-- **Hook EN (oben im Bild):** „6 days. The field after the harvest.“
-- **Hook DE:** „6 Tage. Das Feld nach der Ernte.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−6“ auf Indigo (0,5 s) · 2) Streiflicht über die Seitennaht links · 3) Endframe: „22.04. · 19:00“ (1 s)
+- **Hook EN (oben im Bild):** „6 days. The tree holds the belt.“
+- **Hook DE:** „6 Tage. Der Baum hält den Gürtel.“
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−6“ auf Indigo (0,5 s) · 2) Streiflicht über Patch D am Bund, Hand zieht den Gürtel hinter dem Baum durch · 3) Endframe: „22.04. · 19:00“ (1 s)
 - **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
-- **Caption EN:** Harvest blade over cut stubble. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
+- **Caption EN:** Tree of life as the back belt loop, the belt runs behind it. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
-- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Kein Stern, Hammer, roter Grund · Ähren-Tasche nicht im Bild
+- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · Nie „Slavic tree of life“
 
 #### CD-T05 · Sa 17.04.2027 18:00 · COUNTDOWN · Pflegeetikett „Fäden nicht abschneiden“
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W31
@@ -1739,16 +1747,16 @@ Nach Slot: BUILD 30 · ORIGIN 25 · REAL 11 · DETAIL 19 · REACH 20 · ASK 20.
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
 - **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
-#### CD-T02 · Di 20.04.2027 18:00 · COUNTDOWN · Alle fünf Stickereien, je 1 Sekunde
+#### CD-T02 · Di 20.04.2027 18:00 · COUNTDOWN · Alle vier Stickereien und der Patch, je 1 Sekunde
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W32
-- **Hook EN (oben im Bild):** „2 days. Five embroideries, one second each.“
-- **Hook DE:** „2 Tage. Fünf Stickereien, je eine Sekunde.“
-- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−2“ auf Indigo (0,5 s) · 2) A · 3) E · 4) B · 5) B2 · 6) C · 7) D · 8) Endframe: „22.04. · 19:00“ (1 s)
+- **Hook EN (oben im Bild):** „2 days. Four embroideries, one second each.“
+- **Hook DE:** „2 Tage. Vier Stickereien, je eine Sekunde.“
+- **Shots:** 1) Einstieg: Vorlage T4, oben groß „T−2“ auf Indigo (0,5 s) · 2) A · 3) E · 4) B2 · 5) C · 6) D als Gürtelschlaufe · 7) Endframe: „22.04. · 19:00“ (1 s)
 - **Drehort:** Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am Do 18.03. und Sa 20.03.)
 - **Ton:** ein fester Countdown-Sound für alle 24 (Business-Bibliothek der App), damit die Serie wiedererkannt wird
 - **Caption EN:** Band, pocket, harvest, star, tree. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #embroidereddenim #denim
 - **CTA:** Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. · Story mit Countdown-Sticker auf 22.04. 19:00
-- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓ · B und B2 in getrennten Einstellungen
+- **Regel-Check:** Sprachregel ✓ · Gezeigt wird nur, was existiert ✓
 
 #### CD-T01 · Mi 21.04.2027 18:00 · COUNTDOWN · Kampagnenfilm auf 10 Sekunden, Text „Morgen 19:00“
 - **Phase:** P5 Countdown · **Format:** Video 9:16, Countdown-Vorlage · **Dauer:** 6–10 s · **Docket-Woche:** W32
@@ -1908,7 +1916,7 @@ Reserve heißt: kein fester Termin. Du nimmst sie (a) als Extra-Post, wenn du me
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
 - **Caption EN:** Three ears on a red band, nine gold threads below. The harvest sits on the left. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „fünf Ähren“ · Nicht in der Woche 23.–29.11.2026 · Nie Ähren und Serp zusammen auf Rot
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nie „fünf Ähren“ · Nicht in der Woche 23.–29.11.2026 · Kein roter Grund im Bild
 
 #### V112 · frei (Reserve) · ORIGIN · Ornament in 15 Sekunden: Lebensbaum
 - **Phase:** ab P1 · **Format:** Karussell / Photo Mode 4 Slides · **Dauer:** 4 Slides
@@ -1916,7 +1924,7 @@ Reserve heißt: kein fester Termin. Du nimmst sie (a) als Extra-Post, wenn du me
 - **Hook EN (Slide 1 / erster Satz):** „Roots, trunk, crown. The tree on my waistband.“
 - **Hook DE:** „Wurzeln, Stamm, Krone. Der Baum an meinem Bund.“
 - **Test-Hook B:** „Why a tree sits where the label usually is.“
-- **Shots:** 1) Slide 1 Hook · 2) Slide 2 Skizze · 3) Slide 3 Größe 86 × 76 mm · 4) Slide 4 Warteliste
+- **Shots:** 1) Slide 1 Hook · 2) Slide 2 Skizze · 3) Slide 3 Größe 76 × 67 mm, als Gürtelschlaufe · 4) Slide 4 Warteliste
 - **Drehort:** Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite
 - **Ton:** Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton
 - **Caption EN:** The tree of life takes the place of a leather label. Link in bio: join the list. The list buys first, at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel
@@ -1934,7 +1942,7 @@ Reserve heißt: kein fester Termin. Du nimmst sie (a) als Extra-Post, wenn du me
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
 - **Caption EN:** Version 1.5 had a realistic harvest scene. Beautiful on screen, too many colours and stitches for embroidery. I went back to three ears. Simpler, and it saves money. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #smallbusiness #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur Papier-Ausdruck einer Flachzeichnung, kein Garment-Mockup · Keine Sichel neben Ähren auf rotem Grund im Bild
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Nur Papier-Ausdruck einer Flachzeichnung, kein Garment-Mockup · Keine Sichel im Bild (Serp seit 11.10. gestrichen), kein roter Grund
 
 #### V114 · frei (Reserve) · REAL · Mein Fehler: Deadline verpasst
 - **Phase:** ab P1 · **Format:** Video 9:16 · **Dauer:** 20–30 s
@@ -2001,18 +2009,18 @@ Reserve heißt: kein fester Termin. Du nimmst sie (a) als Extra-Post, wenn du me
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
 - **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Vor dem 03.12.: nur Stoffstück, kein fertiger Zipper oder Polo im Bild · Zahl 1.000 nur, wenn der Sticker sie für den Clip bestätigt
 
-#### V119 · frei (Reserve) · BUILD · Wie ich die Höhe gefunden habe
+#### V119 · frei (Reserve) · BUILD · Wie der Patch zur Gürtelschlaufe wurde
 - **Phase:** ab P1 · **Format:** Video 9:16 · **Dauer:** 15–25 s
 - **Docket:** Reserve
-- **Hook EN (Slide 1 / erster Satz):** „40 or 50 cm? How I placed one embroidery.“
-- **Hook DE:** „40 oder 50 cm? Wie ich eine Stickerei platziert habe.“
-- **Test-Hook B:** „10 centimetres changed the whole design.“
-- **Shots:** 1) Papiertest-Clip: Papier bei 40, 45, 50 cm · 2) Spiegel von vorn · 3) Entscheidung mit Lineal
+- **Hook EN (Slide 1 / erster Satz):** „Belt or logo? I made the logo the belt loop.“
+- **Hook DE:** „Gürtel oder Logo? Ich habe das Logo zur Gürtelschlaufe gemacht.“
+- **Test-Hook B:** „One belt test changed the back of my jeans.“
+- **Shots:** 1) Papiertest-Clip: Gürtel durch die Schlaufen, Papier-Patch dahinter · 2) Spiegel von hinten · 3) Entscheidung mit Lineal: 76 × 67 mm
 - **Drehort:** Wohnung · Flurspiegel, Ganzkörper, Licht von vorn
 - **Ton:** O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App
-- **Caption EN:** I taped the same paper at three heights and walked. [Ergebnis] won. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
+- **Caption EN:** In the paper test, my belt covered [Anteil] of the tree of life. So the patch became 76 × 67 mm and the back belt loop: sewn and riveted at the sides, the belt runs behind it. Link in bio: join the list. The list buys first, at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel
 - **CTA:** Link in bio: join the list. The list buys first, at the pre-order price. (DE: Link in Bio: Trag dich ein. Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis.)
-- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Material vom Papiertest 3 (08.10.) · Nur Papier
+- **Regel-Check:** Sprachregel: Subjekt ist das Muster, kein „wir“, kein „authentisch“ ✓ · Material vom Papiertest 3 (08.10.) · Nur Papier · Nie „Slavic tree of life“
 
 #### V120 · frei (Reserve) · BUILD · Die eine Frage an Fabriken
 - **Phase:** ab P1 · **Format:** Video 9:16 · **Dauer:** 15–20 s
@@ -2103,8 +2111,8 @@ Handy hochkant, 4K oder 1080p, Linse putzen, Fensterlicht von der Seite. Jeder C
 | 1 | Drucker gibt `NVL_Druckvorlage_v17.pdf` aus (Ton) | V001 |
 | 2 | Ausschneiden, Draufsicht, als Zeitraffer | V001, V113 |
 | 3 | Malerkrepp abreißen (Ton) | V001 |
-| 4 | Aufkleben, jedes Element einzeln: A, E, B, B2, C, D | V001, V024, CD-T03 |
-| 5 | Lineal am Bein: Serp-Papier bei 40, 45, 50 cm | V119 |
+| 4 | Aufkleben, jedes Element einzeln: A, E, B2, C, D | V001, V024, CD-T03 |
+| 5 | Gürteltest: Gürtel durch die Schlaufen, Papier-Patch D dahinter | V119 |
 | 6 | Flurspiegel von vorn | V001 |
 | 7 | Flurspiegel von hinten | V036-Vorher, V093 |
 | 8 | Gehen im Flur, Rückansicht | V093, CD-T03 |
@@ -2262,7 +2270,7 @@ Unter „Alarm“: Notfallhebel aus markt.md Abschnitt 5. Die Validierung am So 
 | Hook-Rate gut, Ø Wiedergabezeit unter der Hälfte | Mitte zu lang | Ein Drittel rausschneiden. Die Zahl oder das Detail nach vorn |
 | Wird zu Ende geschaut, aber kaum geteilt oder gespeichert | kein Grund zum Weitergeben | Nutzwert ergänzen („Save this“, Anleitung) oder Sends-Frage („Send this to someone who …“) |
 | Gutes Engagement, keine Anmeldungen | CTA | Angeheftete Kommentar-Antwort mit Link-Hinweis. Vorteil schärfer sagen: „first access at 18:00, €20 less“ |
-| Viele Views, viele kritische Kommentare | Inhalt trifft einen Nerv | Ruhig antworten (4.6), zählen, nicht löschen. Bei Ernte-, Sichel- oder Sowjet-Assoziationen: zielgruppe.md 3.5 |
+| Viele Views, viele kritische Kommentare | Inhalt trifft einen Nerv | Ruhig antworten (4.6), zählen, nicht löschen. Bei Ernte- oder Sowjet-Assoziationen: zielgruppe.md 3.5 |
 
 ### 5.5 Hook-Test-Protokoll
 
@@ -2284,7 +2292,7 @@ Eine Zeile reicht: „W[n]: Liste [X] (+[Y]), Views [Z], bestes Video V0xx ([Vie
 4. **Deine Entscheidungen zu den Änderungen am Plan:** Hooks „Älter als jede Grenze“ ersetzen (V002, V030) · Teppich auf 18.11. · Sperrwoche 23.–29.11. · 24.02. → 25.02. · Wörter nach außen („cross-stitch band“, „eight-point star“) · Sprache der Hooks (EN mit DE-Zeile).
 5. **Familien-Fakten:** V017, V050 und V122 setzen voraus, dass deine Familie einen Wandteppich hatte und Fotos davon existieren. Nur posten, was stimmt (Docket: Familie befragen, Do 15.10.).
 6. **Belegtabelle zur Drei-von-vier-Regel** (Spec Teil 5) muss stehen, bevor V005 läuft.
-7. **Serp-Test:** V056 und CD-T06 nur nach dem Diaspora-Test bis 08.11. (zielgruppe.md, Test in 4 Wochen).
+7. **Serp-Test:** seit 11.10. erledigt, der Serp ist gestrichen. V056 zeigt im Docket B2, CD-T06 ist V125. Die Patch-D-Entwürfe hier sind Reserve, V119 ist auf den Gürteltest umgebaut.
 8. **Erlaubnisse schriftlich einholen:** Fabrik (Bilder, Name), Digitizer (Bildschirm), Berliner Sticker (Maschine), Shoot-Models (Bildrechte).
 9. **Zahlen in V003, V009, V021 mit Rev. 6 abgleichen**, bevor sie gepostet werden. Nach der Digitizing-Vorschau am 09.11. neu rechnen.
 10. **CapCut und Musik:** Ob CapCut-Musik und -Vorlagen für Werbung freigegeben sind, ist nicht geprüft. Deshalb Musik nur in der jeweiligen App.

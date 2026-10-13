@@ -338,7 +338,7 @@
      "Erst Kasse: Kassen-Ampel nach Restzahlung und Steuer grün (≥ 300 €)? Nein → heute nichts einreichen, Kampagne 1 entfällt (Ausgaben-Stopp-Liste), Kampagne 2 prüfst du am So 18.04. neu.",
      "Meta Werbeanzeigenmanager → Erstellen → Ziel „Traffic“: Kampagne 1 „Warteliste“, Ziel-URL Startseite mit utm_source=meta&utm_campaign=tt-warteliste. Zielgruppen: Retargeting (Instagram-Interaktionen, Shop-Besucher) plus Lookalike 1 % Deutschland aus den Instagram-Interaktionen. Laufzeit Mo 29.03. bis Mi 21.04., Budget 150 € gesamt (Laufzeitbudget).",
      "Kampagne 2 „Drop“: Ziel „Umsatz/Käufe“, nur Retargeting (Shop-Besucher 30 Tage, Instagram-Interaktionen). Laufzeit Do 22.04., 19:00 bis So 25.04., Budget 150 € gesamt. Ziel-URL Kollektion „Time Travel“.",
-     "Anzeigen: Kampagnenfilm, dein bestes organisches Video (meiste Views im Blatt „Content“), Karussell mit 5 Makros in der Reihenfolge B · A · E · C · D · B2 (B und B2 nie auf derselben Karte).",
+     "Anzeigen: Kampagnenfilm, dein bestes organisches Video (meiste Views im Blatt „Content“), Karussell mit 5 Makros in der Reihenfolge A · E · C · D · B2.",
      "Anzeigentext: CTA der Phase. Kampagne 1 ab 05.04. auf „The list gets in at 18:00“ umstellen (Kalender-Erinnerung). Kampagne 2: „Live now. Link in bio.“ ist erst ab 22.04., 19:00 wahr.",
      "Beide einreichen. Prüfung durch Meta kann bis zu 24 Stunden dauern. Ins Blatt „Kasse“: 300 € geplant."
     ],
@@ -351,12 +351,12 @@
    },
    {
     "c": "C",
-    "t": "18:00 · V099 posten: DETAIL „Fünf Stickereien“",
+    "t": "18:00 · V099 posten: DETAIL „Vier Stickereien, ein Patch“",
     "m": 20,
     "s": [
-     "Vor dem Hochladen die Reihenfolge prüfen: B · A · E · C · D · B2. B (Serp) und B2 (Ähren) liegen weit auseinander, nie im selben Frame.",
+     "Vor dem Hochladen die Reihenfolge prüfen: A · E · C · D · B2 · Goldfäden. Jedes Element allein im Frame, D als Gürtelschlaufe von hinten (der Gürtel läuft dahinter).",
      "17:55 W28/final/V099_final.mp4 in TikTok, Trend-Sound nur aus der Commercial Music Library. Caption einfügen.",
-     "18:00 posten, gleich danach als Reel (DE-Zeile: „Fünf Stickereien. Je eine Sekunde.“) und als Short.",
+     "18:00 posten, gleich danach als Reel (DE-Zeile: „Vier Stickereien, ein Patch. Je eine Sekunde.“) und als Short.",
      "Reel in die Story, Link-Sticker auf Stufe 2. 15 Min. Kommentare."
     ],
     "f": "V099 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
@@ -365,22 +365,22 @@
      "slot": "DETAIL",
      "dauer": "6–8 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Five embroideries. One second each.",
-     "hook_de": "Fünf Stickereien. Je eine Sekunde.",
+     "hook_en": "Four embroideries, one patch. One second each.",
+     "hook_de": "Vier Stickereien, ein Patch. Je eine Sekunde.",
      "shots": [
-      "B: Das Feld danach (Serp)",
       "A: Kreuzstich-Band",
       "E: Münztasche",
       "C: Achtstern",
-      "D: Lebensbaum-Patch",
-      "B2: Ähren"
+      "D: Lebensbaum-Patch als Gürtelschlaufe von hinten, der Gürtel läuft dahinter",
+      "B2: Ähren",
+      "Goldfäden in Bewegung"
      ],
      "ort": "Material vom Shoot Sa 20.02.2027 + Makros zu Hause (gedreht am 18. und 20.03.)",
      "ton": "Trend-Sound aus der Commercial Music Library, Instagram: Business-Bibliothek der App",
-     "text": "je Element ein Wort: „field after“ · „band“ · „coin pocket“ · „eight-point star“ · „tree“ · „harvest“",
+     "text": "je Element ein Wort: „band“ · „coin pocket“ · „eight-point star“ · „tree“ · „harvest“ · „gold“",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
-     "caption": "The field after, band, coin pocket, star, tree, harvest. Plus the gold threads. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #embroidereddenim #crossstitch #denim #novalifetimetravel",
-     "check": "Reihenfolge B · A · E · C · D · B2, B und B2 nie im selben Frame, keine Seitenansicht links, kein roter Hintergrund, „Achtstern“ statt „Alatyr“."
+     "caption": "Band, coin pocket, star, tree, harvest. Plus the gold threads. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #embroidereddenim #crossstitch #denim #novalifetimetravel",
+     "check": "Reihenfolge A · E · C · D · B2 · Goldfäden, jedes Element allein im Frame, kein roter Hintergrund, „Achtstern“ statt „Alatyr“."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -449,7 +449,7 @@
      "Vorher prüfen (bis Mi): Findet der Markt am Sa 27.03.2027 statt? Die Saison 2027 ist nur fortgeschrieben (2026: letzter Samstag im Monat, 28.03.–26.09., 12–18 Uhr, Schätzung). Standpreis und Anmeldung auf berlin.de oder beim Holzmarkt erfragen. Liegt der Preis über deinem Plan: absagen.",
      "QR-Code auf die Startseite mit utm_source=qr&ref=stand, auf A4 laminiert, dazu ein Satz: „Drop 22.04., 19:00. Die Liste kommt um 18:00 rein.“",
      "Mitnehmen: PP-Sample (am Körper oder auf Bügel), Maßband, Größentabelle, Countdown-Schild „26 Tage“, Tisch oder Decke, Klebeband, Powerbank, Handy mit Story-Vorlage.",
-     "Was sagen: „Das ist eine Jeans mit fünf Stickereien, 100 Stück, nummeriert. Drop am 22. April. Wenn du auf die Liste willst: QR scannen.“ Keine Bestellungen in bar, nur über den Shop.",
+     "Was sagen: „Das ist eine Jeans mit vier Stickereien und einem Leinen-Patch, 100 Stück, nummeriert. Drop am 22. April. Wenn du auf die Liste willst: QR scannen.“ Keine Bestellungen in bar, nur über den Shop.",
      "Bis 04.04. Vorbestellung zu 169 € zeigen (Stufe 2), nichts verkaufen, was es nicht gibt.",
      "Abends: Anmeldungen mit ref-stand in Shopify zählen, ins Blatt „Content“ (Quelle Stand)."
     ],
@@ -473,7 +473,7 @@
      "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt (Shopify → Kunden → Segment „E-Mail-Abonnenten“), Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (149 € und Stufe 2).",
      "Liste nach Quellen-Tag (src-, ref-, ref-stand, tt-huette), Views, Anmeldungen je 1.000 Views ins Blatt „Content“.",
      "G1/G2: Liste unter 1.050 → Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos zeigen · unter 2.620 → bestes Video in 2 Varianten nachdrehen · G3: < 1,0 Anmeldungen je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story.",
-     "G5/G6/G7/G8: ≥ 2 × Median → 5 Varianten in 14 Tagen (in den Countdown einbauen) · 3 schwache im selben Slot → Slot ersetzen · ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild (CD-T21 und CD-T02 tauschen) · ≥ 3 Folklore-Kommentare → erst Totale aus 3 m, dann Makro.",
+     "G5/G6/G7/G8: ≥ 2 × Median → 5 Varianten in 14 Tagen (in den Countdown einbauen) · 3 schwache im selben Slot → Slot ersetzen · ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, 2 Wochen kein Ernte-Bild (CD-T21 und CD-T02 tauschen) · ≥ 3 Folklore-Kommentare → erst Totale aus 3 m, dann Makro.",
      "G10/G11: Vorbestellungen unter 35 → DM an jede Zusage ohne Kauf mit Größe und Stufe-2-Link · Conversion < 1,3 % bei ≥ 300 Sitzungen → häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis.",
      "G12 Kassencheck K − F − R ins Blatt „Kasse“: grün ≥ 300 € · gelb → keine Ausgaben außerhalb von Plan 3, Kampagne 1 pausieren · rot → Ausgaben-Stopp-Liste, Notfall-Leiter.",
      "Offenes an Claude, dann die Zeile unten."
@@ -508,10 +508,10 @@
     "t": "Countdown-Start vorbereiten: 24 Dateien, 24 Captions, CD-T24 Mo 18:00",
     "m": 15,
     "s": [
-     "Ordner „Countdown“: CD-T24 bis CD-T01 alle da und richtig benannt? CD-T06 ist V125, CD-T02 in der Reihenfolge B · A · E · C · D · B2.",
+     "Ordner „Countdown“: CD-T24 bis CD-T01 alle da und richtig benannt? CD-T06 ist V125, CD-T02 in der Reihenfolge A · E · C · D · B2 · Goldfäden.",
      "Die Caption für jeden Tag in die Notizen-App: Hook EN plus CTA. Bis So 04.04.: „Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio.“ Ab 05.04.: „Drop 22.04., 19:00. The list gets in at 18:00. Link in bio.“",
      "Mo 29.03. ist Ostermontag: CD-T24 trotzdem um 18:00, ab jetzt Sommerzeit. Das Feld-Kapitel geht zeitgleich automatisch live.",
-     "Bei G7-Treffer heute: Ernte- und Serp-Assets (CD-T21, CD-T02) für 2 Wochen gegen Reserve tauschen."
+     "Bei G7-Treffer heute: Ernte-Assets (CD-T21, CD-T02) für 2 Wochen gegen Reserve tauschen."
     ],
     "f": "24 Videos und 24 Captions bereitliegen und CD-T24 für Mo 18:00 im Kalender steht.",
     "o": [
@@ -530,7 +530,7 @@
      "Anhänge vorbereiten: 3 Shoot-Fotos (Ganzkörper, Makro Band A, Gruppenbild), Fakten-Blatt als PDF. Links mit ?ref=p-[medium]."
     ],
     "f": "für jedes Medium ein Entwurf mit Anhängen und ref-Link gespeichert ist und der Versand am 05.04. im Kalender steht.",
-    "p": "Projekt Time Travel, Docket W28, So 28.03. Schreib mir die Presse-Mail Welle 3 für den Drop am Do 22.04., 19:00 (online, [Drop-Abend am .. in .., nur wenn bestätigt]). Fakten: 100 nummerierte Jeans, fünf Stickereien, entworfen in Berlin, maschinengestickt auf dem Zuschnitt, Fäden von Hand, 169 €, Liste kommt um 18:00 rein. Betreff max. 50 Zeichen, Text 120 Wörter, DE und EN, eine persönliche Zeile [Platzhalter] am Anfang. Wortliste: Time Travel, Kreuzstich-Band, Achtstern. Nie „authentisch“, keine Politik, Länder nur alphabetisch und nur wenn nötig.",
+    "p": "Projekt Time Travel, Docket W28, So 28.03. Schreib mir die Presse-Mail Welle 3 für den Drop am Do 22.04., 19:00 (online, [Drop-Abend am .. in .., nur wenn bestätigt]). Fakten: 100 nummerierte Jeans, vier Stickereien und ein Lebensbaum-Patch aus Leinen, entworfen in Berlin, maschinengestickt auf dem Zuschnitt, Fäden von Hand, 169 €, Liste kommt um 18:00 rein. Betreff max. 50 Zeichen, Text 120 Wörter, DE und EN, eine persönliche Zeile [Platzhalter] am Anfang. Wortliste: Time Travel, Kreuzstich-Band, Achtstern. Nie „authentisch“, keine Politik, Länder nur alphabetisch und nur wenn nötig.",
     "o": [
      {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Presse-Liste"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
@@ -545,7 +545,7 @@
      "Nur mit Erlaubnis des Landwirts. Vorher fragen (Hofladen, Nachbarn), wem das Feld gehört. Ohne Erlaubnis vom Feldweg aus drehen, nie ins Feld.",
      "Sonnenuntergang nachschlagen (Sommerzeit ab heute), 45 Min. vorher da sein.",
      "Stelle markieren: Pin in Google Maps und ein Foto der Kameraposition, damit Dreh 2 und 3 exakt gleich werden. Stativhöhe notieren.",
-     "Shots: Totale des Feldes (Bildregel: nie hellblauer Himmel über gelbem Weizen, kein Gegenlicht in Blau-Gelb), du mit der Jeans am Feldrand von vorn oder hinten (keine Seitenansicht links), Makro Hand über den Halmen. Je Shot 3 Takes, 9:16. Keine Sichel, keine Requisite.",
+     "Shots: Totale des Feldes (Bildregel: nie hellblauer Himmel über gelbem Weizen, kein Gegenlicht in Blau-Gelb), du mit der Jeans am Feldrand von vorn oder hinten, Makro Hand über den Halmen. Je Shot 3 Takes, 9:16. Keine Requisite.",
      "Material in „content/archiv/feld1“ ablegen. Wird Reserve für den Countdown (ersetzt an echten Tagen ein Asset)."
     ],
     "f": "Totale, Ganzkörper und Makro in je 3 Takes im Ordner „feld1“ liegen und die Kameraposition markiert ist.",
@@ -566,7 +566,7 @@
      "text": "„28.03.“ als Datum unten",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio.",
      "caption": "Same field. Same spot. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #denim #berlinfashion #embroidereddenim #novalifetimetravel",
-     "check": "Nie hellblauer Himmel über gelbem Weizen, keine Sichel, keine Seitenansicht links, keine Streifen in verbotenen Farbpaaren, Erlaubnis da."
+     "check": "Nie hellblauer Himmel über gelbem Weizen, keine Requisite, keine Streifen in verbotenen Farbpaaren, Erlaubnis da."
     },
     "o": [
      {"n": "Google Maps", "u": "https://maps.google.com", "h": "Pin auf die Kameraposition"}

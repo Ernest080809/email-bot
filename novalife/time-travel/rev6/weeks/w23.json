@@ -81,7 +81,7 @@
      "Kommen bis 18:00 keine Fotos: morgen 09:00 anrufen (Gate So 21.02.)."
     ],
     "f": "die Fotos gegen den Prüfplan geprüft sind und deine Rückmeldung an die Fabrik raus ist.",
-    "p": "Projekt Time Travel, Docket W23, Di 16.02. Inline-Kontrolle 1. Schreib mir eine kurze Mail auf Englisch an [Fabrik]: Bitte heute Fotos von jedem Stickelement (A, B, B2, C, D, E) auf 5 zufällig gewählten Panels, vor dem Nähen, flach, mit Lineal im Bild, eins von der Rückseite. Danach prüfe ich mit dir die Fotos gegen meinen Prüfplan: [Fotos einfügen]. Sag mir je Element: Position, Größe, Farbe, Wellen in Ordnung oder nicht, und formuliere die Fehlermeldung an die Fabrik.",
+    "p": "Projekt Time Travel, Docket W23, Di 16.02. Inline-Kontrolle 1. Schreib mir eine kurze Mail auf Englisch an [Fabrik]: Bitte heute Fotos von jedem Stickelement (A, E, B2, C) auf 5 zufällig gewählten Panels, vor dem Nähen, flach, mit Lineal im Bild, eins von der Rückseite. Danach prüfe ich mit dir die Fotos gegen meinen Prüfplan: [Fotos einfügen]. Sag mir je Element: Position, Größe, Farbe, Wellen in Ordnung oder nicht, und formuliere die Fehlermeldung an die Fabrik.",
     "o": [
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
      {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“"}
@@ -131,14 +131,14 @@
     "m": 40,
     "s": [
      "Prompt unten an Claude. Grundlage: Shoot-Plan vom 06.02., die sieben Beweise (Handwerk, Die Hand, Passform, 3 m → 30 cm, echte Knappheit, ehrliches Altern, das Set) und die 24 Countdown-Motive CD-T24 bis CD-T01.",
-     "Pro Person: Ganzkörper vorn, hinten, seitlich nur von rechts, gehend, Detail Tasche, Detail Rücken. Dazu 3 Gruppenbilder mit Jeans, Zipper und Polo, und ein Bild mit dir.",
+     "Pro Person: Ganzkörper vorn, hinten, seitlich, gehend, Detail Tasche, Detail Rücken. Dazu 3 Gruppenbilder mit Jeans, Zipper und Polo, und ein Bild mit dir.",
      "6 Pressefotos markieren: 3 hoch, 3 quer, ohne Text, eins mit dir.",
-     "Bildregeln in die Kopfzeile jeder Seite: keine echte Sichel · B und B2 nie zusammen im Bild · kein roter Hintergrund · keine Seitenansicht links · nie hellblauer Himmel über gelbem Weizen · keine Sowjet-Kulisse · Graukarte am Anfang jeder Lichtsituation.",
+     "Bildregeln in die Kopfzeile jeder Seite: kein Erntewerkzeug als Requisite · kein roter Hintergrund · nie hellblauer Himmel über gelbem Weizen · keine Sowjet-Kulisse · Graukarte am Anfang jeder Lichtsituation.",
      "Zeitplan: drinnen zuerst (Teppich, Trockenweizen, warmes Licht), 30 Min. draußen zur goldenen Stunde (Sonnenuntergang ca. 17:35, Schätzung, in einer Sonnen-App prüfen). Behind the Scenes filmt jemand mit dem Handy die ganze Zeit.",
      "Shotliste ausdrucken, zwei Exemplare (du und Fotograf)."
     ],
     "f": "die Shotliste mit allen 24 Countdown-Motiven, 6 Pressefotos und den Bildregeln ausgedruckt vor dir liegt.",
-    "p": "Projekt Time Travel, Docket W23, Mi 17.02. Schreib mir Shotliste und Ablauf für den Shoot „Die Hütte“ am Sa 20.02.: drinnen in einer echten Wohnung mit Familienteppich an der Wand und Trockenweizen, warmes Licht, dann 30 Minuten draußen zur goldenen Stunde. Set: Jeans (PP), Zipper, Polo. Personen: [Namen, Größen]. Fotograf: [Name]. Enthalten sein müssen: die sieben Beweise (Handwerk, Die Hand, Passform mit drei Körpern, 3 m → 30 cm, echte Knappheit „N° 007 / 100“, ehrliches Altern, das Set), 6 Pressefotos (3 hoch, 3 quer, eins mit mir) und Rohmaterial für alle 24 Countdown-Motive CD-T24 bis CD-T01 [Liste einfügen]. Regeln: keine echte Sichel, B und B2 nie im selben Bild, kein roter Hintergrund, keine Seitenansicht links, nie hellblauer Himmel über gelbem Weizen, keine Sowjet-Kulisse. Gib mir eine Tabelle: Nr., Motiv, Ort (drinnen/draußen), Person, Format (hoch/quer/9:16-Video), wofür (Shop, Presse, CD-T, BTS), Häkchen-Spalte. Dazu einen Zeitplan in 15-Minuten-Blöcken.",
+    "p": "Projekt Time Travel, Docket W23, Mi 17.02. Schreib mir Shotliste und Ablauf für den Shoot „Die Hütte“ am Sa 20.02.: drinnen in einer echten Wohnung mit Familienteppich an der Wand und Trockenweizen, warmes Licht, dann 30 Minuten draußen zur goldenen Stunde. Set: Jeans (PP), Zipper, Polo. Personen: [Namen, Größen]. Fotograf: [Name]. Enthalten sein müssen: die sieben Beweise (Handwerk, Die Hand, Passform mit drei Körpern, 3 m → 30 cm, echte Knappheit „N° 007 / 100“, ehrliches Altern, das Set), 6 Pressefotos (3 hoch, 3 quer, eins mit mir) und Rohmaterial für alle 24 Countdown-Motive CD-T24 bis CD-T01 [Liste einfügen]. Regeln: kein Erntewerkzeug als Requisite, kein roter Hintergrund, nie hellblauer Himmel über gelbem Weizen, keine Sowjet-Kulisse. Gib mir eine Tabelle: Nr., Motiv, Ort (drinnen/draußen), Person, Format (hoch/quer/9:16-Video), wofür (Shop, Presse, CD-T, BTS), Häkchen-Spalte. Dazu einen Zeitplan in 15-Minuten-Blöcken.",
     "o": [
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"},
      {"n": "Docket · Countdown CD-T24 bis CD-T01", "h": "Motivliste"}
@@ -149,7 +149,7 @@
     "t": "19:00 · V075 posten: REACH „Drei Teile“",
     "m": 20,
     "s": [
-     "Datei W23/final/V075_final.mp4 öffnen. Prüfen: B und B2 in keinem Frame zusammen.",
+     "Datei W23/final/V075_final.mp4 öffnen. Prüfen: Endframe „22.04. · 19:00“ stimmt, kein roter Hintergrund.",
      "18:55 in TikTok hochladen, Trend-Sound nur aus der Commercial Music Library (Creative Center, Region DE, „für Business freigegeben“). Caption einfügen.",
      "19:00 posten, danach Reel (Musik aus der Business-Bibliothek) und Short. Reel in die Story mit Link-Sticker.",
      "19:00–19:15 Kommentare beantworten (Regeln 9.3 Punkt 9)."
@@ -173,7 +173,7 @@
      "text": "Hook EN, Endframe „22.04. · 19:00“",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "22.04., 19:00. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
-     "check": "B und B2 nie im selben Frame, keine Seitenansicht links, kein roter Hintergrund."
+     "check": "Kein roter Hintergrund, Endframe „22.04. · 19:00“."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -187,7 +187,7 @@
     "t": "11:00 · Trockenweizen und Requisiten besorgen, Model-Einwilligungen",
     "m": 20,
     "s": [
-     "Trockenweizen (Bund oder für die Vase) im Blumenladen oder Bastelbedarf in deiner Nähe kaufen. Preis vor Ort prüfen, Beleg ins Blatt „Ausgaben“. Keine echte Sichel, keine Sense als Requisite.",
+     "Trockenweizen (Bund oder für die Vase) im Blumenladen oder Bastelbedarf in deiner Nähe kaufen. Preis vor Ort prüfen, Beleg ins Blatt „Ausgaben“. Kein Erntewerkzeug als Requisite, auch keine Sense.",
      "Familienteppich für Samstag abholen oder Termin mit der Familie bestätigen (Entscheidung vom 15.10.).",
      "Einwilligungen: Prompt unten an Claude, je Person ausdrucken (Name, Nutzung in Social, Shop, Presse, Dauer, Widerruf). Am Samstag vor dem ersten Bild unterschreiben lassen.",
      "Personen und Fotograf per DM bestätigen: Adresse, Uhrzeit, mitbringen (eigene Schuhe, neutrale Oberteile ohne Streifen in Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß)."
@@ -329,11 +329,11 @@
     "m": 180,
     "s": [
      "Vor dem ersten Bild: Einwilligungen unterschreiben lassen, Graukarte in jede Lichtsituation, BTS-Handy an eine Person geben (läuft die ganze Zeit, 9:16).",
-     "Drinnen in der echten Wohnung: Familienteppich an der Wand, Trockenweizen in der Vase oder als Bund, warmes Licht. Shotliste von oben nach unten abarbeiten und abhaken: je Person vorn, hinten, seitlich nur von rechts, gehend, Detail Tasche, Detail Rücken.",
+     "Drinnen in der echten Wohnung: Familienteppich an der Wand, Trockenweizen in der Vase oder als Bund, warmes Licht. Shotliste von oben nach unten abarbeiten und abhaken: je Person vorn, hinten, seitlich, gehend, Detail Tasche, Detail Rücken.",
      "Set Jeans + Zipper + Polo in den 3 Gruppenbildern. Du in einem Bild (Pressefoto mit dir).",
      "Countdown-Rohmaterial CD-T24 bis CD-T01 nach Liste: z. B. CD-T24 Ganzkörper vorn mit langsamem Zoom auf die rechte Vordertasche, CD-T01 Kampagnenfilm-Material. Makros später zu Hause am 18. und 20.03.",
      "45 Min. vor Sonnenuntergang raus: 30 Min. goldene Stunde draußen im Winterfeld, Gegenlicht, Gehen, 3 m → 30 cm-Fahrt bis zur Münztasche.",
-     "Bildregeln laufend prüfen: B und B2 nie zusammen, keine Seitenansicht links, kein roter Hintergrund, keine echte Sichel, nie hellblauer Himmel über gelbem Weizen.",
+     "Bildregeln laufend prüfen: kein roter Hintergrund, kein Erntewerkzeug als Requisite, nie hellblauer Himmel über gelbem Weizen.",
      "Story live vom Set nur mit BTS, kein fertiges Hauptbild (das erste Bild kommt zuerst im Broadcast am So).",
      "Am Ende: Karten doppelt sichern (Laptop + Cloud), bevor jemand geht."
     ],
@@ -347,7 +347,7 @@
      "hook_de": "Tag 134: Hinter den Kulissen meines ersten Shoots.",
      "shots": [
       "BTS durchgehend: Aufbau, Teppich an die Wand, Trockenweizen, Anweisungen, ein Fail wenn er passiert",
-      "Je Person Ganzkörper vorn, hinten, seitlich von rechts, gehend",
+      "Je Person Ganzkörper vorn, hinten, seitlich, gehend",
       "Detail Tasche, Detail Rücken, Makro jedes Elements mit Lineal",
       "3 Gruppenbilder Jeans + Zipper + Polo",
       "Pressefoto mit dir",
@@ -359,7 +359,7 @@
      "text": "kein Text im Rohmaterial",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "(Rohmaterial, Captions an den Posttagen)",
-     "check": "B und B2 nie zusammen, keine Seitenansicht links, kein roter Hintergrund, keine echte Sichel, nie Blau über Gelb, keine Sowjet-Kulisse, Einwilligungen vor dem ersten Bild."
+     "check": "Kein roter Hintergrund, kein Erntewerkzeug als Requisite, nie Blau über Gelb, keine Sowjet-Kulisse, Einwilligungen vor dem ersten Bild."
     },
     "o": [
      {"n": "Shotliste „Die Hütte“ (ausgedruckt am 17.02.)"},
@@ -375,7 +375,7 @@
     "s": [
      "Alle Dateien in Ordner sortieren: „Shoot/roh“, „Shoot/BTS“, „Shoot/CD-T“ (je Motiv ein Unterordner CD-T24 bis CD-T01).",
      "Pro Person die 6 besten Bilder, dazu die 3 besten Gruppenbilder und die 6 Pressefotos (3 hoch, 3 quer, eins mit dir).",
-     "Bildregel-Check bei jedem gewählten Bild: B und B2 nie zusammen, keine Seitenansicht links, kein roter Hintergrund.",
+     "Bildregel-Check bei jedem gewählten Bild: kein roter Hintergrund, nie hellblauer Himmel über gelbem Weizen.",
      "Farbtreue mit der Graukarte korrigieren. Retusche nur dezent, die Stickerei nie glätten.",
      "Auswahl in den Ordner „Shop“, BTS-Clips in „W24/roh“. Das stärkste Bild als „Hauptbild-Kandidat“ markieren, zwei Alternativen für V080."
     ],
@@ -406,7 +406,7 @@
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte, dann nach Quellen-Tag (src-, ref-).",
      "Views und Anmeldungen je 1.000 Views je Post ins Blatt „Content“. Kassencheck K − F − R im Blatt „Kasse“ (Shoot-Ausgaben eintragen).",
      "Cockpit (Docket → Zahlen-Cockpit): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans (Shopify → Bestellungen).",
-     "Gates 7.1: G1 Liste unter 790 → Netz-Runde, „Bring 3“, Abend in 14 Tagen · G2 unter 2.150 → bestes Video in 2 Varianten · G3 < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil · G5 → 5 Varianten · G7 ≥ 3 „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte- oder Serp-Bild (betrifft die Bildwahl für V078/V079) · G10 unter 16 Vorbestellungen → persönliche DM an jede Zusage · G12 Kasse.",
+     "Gates 7.1: G1 Liste unter 790 → Netz-Runde, „Bring 3“, Abend in 14 Tagen · G2 unter 2.150 → bestes Video in 2 Varianten · G3 < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil · G5 → 5 Varianten · G7 ≥ 3 „Sowjet/Wappen/Holodomor“ → 2 Wochen kein Ernte-Bild (betrifft die Bildwahl für V078/V079) · G10 unter 16 Vorbestellungen → persönliche DM an jede Zusage · G12 Kasse.",
      "Monatsabschluss kommt am 28.02.: Korridor 2.400 im Blick.",
      "Zeile an Claude (Prompt unten)."
     ],
@@ -441,7 +441,7 @@
      "V077 BUILD „Hinter den Kulissen“: BTS-Clips vom Samstag schnell geschnitten, ein Fail falls passiert, Endframe ein fertiges Bild. 15–25 s. Export W24/final/V077_final.mp4.",
      "V078 REACH „Das erste Bild“: Hauptbild-Kandidat, langsamer Zoom, 6–9 s. Export W24/final/V078_final.mp4.",
      "In CapCut: Hook als Text in die ersten 2 Sekunden, Untertitel automatisch, keine Musik einbacken.",
-     "Bild-Check: Serp und Ähren-Tasche nie im selben Frame, B und B2 nie zusammen, keine Seitenansicht links."
+     "Bild-Check: kein roter Hintergrund, nie hellblauer Himmel über gelbem Weizen."
     ],
     "f": "V077 und V078 fertig im Ordner „W24/final“ liegen.",
     "o": [

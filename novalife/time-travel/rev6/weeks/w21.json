@@ -133,13 +133,13 @@
     "s": [
      "PO mit dem Prompt unten bei Claude holen. Größensplit von gestern, Stückpreis aus dem Angebot (bei 75 der Preis bei 75).",
      "Klauseln prüfen: Restzahlung spätestens 24.03. · Teil-Lieferung gegen Teilzahlung möglich · Bankdaten-Regel (Zahlung nur auf das Konto der ersten Proforma, Änderungen nur nach Telefonbestätigung) · Euro.",
-     "Neu: Stoffzeile (Stoff reserviert seit 06.01.) · Endkontroll-Nachweis vor der Restzahlung: je Größe 2 Paar mit allen 10 Maßen (Toleranz Spec 1.1), alle 5 Elemente an 10 Zufallspaaren, Zugtest der Fäden, Sitz des Patches, Saum. Ohne Nachweis keine Zahlung.",
+     "Neu: Stoffzeile (Stoff reserviert seit 06.01.) · Endkontroll-Nachweis vor der Restzahlung: je Größe 2 Paar mit allen 10 Maßen (Toleranz Spec 1.1), alle 4 Stickzonen an 10 Zufallspaaren, Zugtest der Fäden, Sitz des Patches, Saum. Ohne Nachweis keine Zahlung.",
      "Anlage: REACH-Erklärung (Nickel, Azofarbstoffe) zur Unterschrift. Dazu Tech Pack und PP-Freigabe vom 05.01.",
      "Mail an die Fabrik (Gmail, Thread der Proforma) mit Bitte um schriftliche Bestätigung: Mengen, Preis, Liefertermin, Produktionsstart. In derselben Mail: Sind die 110 Patches gezählt?",
      "PO als PDF in Google Drive „Fabrik“ ablegen, Datum ins Blatt „Fabrik“."
     ],
     "f": "die PO mit allen Klauseln, Endkontroll-Nachweis, Stoffzeile und REACH-Anlage an die Fabrik raus ist und im Blatt „Fabrik“ steht.",
-    "p": "Projekt Time Travel, Docket W21, Mi 03.02. Schreib mir die Purchase Order auf Englisch: Style NVL-TT-01, Mengen je Größe [..], Stückpreis [..] €, Zahlung [50/50], Währung Euro, Incoterm [DAP/DDP laut Entscheidung 27.10.] Berlin. Grundlage Tech Pack v[..] und PP-Freigabe vom 05.01.2027. Stoffzeile: [Stoff], reserviert seit 06.01. Labels eingenäht (Haupt-, Größen-, Pflegeetikett), 110 Label-Patches liegen bei euch, Hangtags bringe ich selbst an. Liefertermin: Tracking bis spätestens Mi 24.03., Ware spätestens Do 15.04. in Berlin. Restzahlung spätestens 24.03., nur nach Endkontroll-Nachweis: je Größe 2 Paar mit allen 10 Maßen (Toleranz Spec 1.1), alle 5 Elemente an 10 Zufallspaaren, Zugtest der Fäden, Sitz des Patches, Saum, mit Fotos. Ohne Nachweis keine Zahlung. Teil-Lieferung gegen Teilzahlung möglich. Zahlung nur auf das Konto der ersten Proforma; Änderungen der Bankdaten gelten nur nach telefonischer Bestätigung. Anlage: REACH-Erklärung (Nickel, Azofarbstoffe) zur Unterschrift. Bitte um schriftliche Bestätigung von Menge, Preis, Liefertermin und Produktionsstart.",
+    "p": "Projekt Time Travel, Docket W21, Mi 03.02. Schreib mir die Purchase Order auf Englisch: Style NVL-TT-01, Mengen je Größe [..], Stückpreis [..] €, Zahlung [50/50], Währung Euro, Incoterm [DAP/DDP laut Entscheidung 27.10.] Berlin. Grundlage Tech Pack v[..] und PP-Freigabe vom 05.01.2027. Stoffzeile: [Stoff], reserviert seit 06.01. Labels eingenäht (Haupt-, Größen-, Pflegeetikett), 110 Label-Patches liegen bei euch, Hangtags bringe ich selbst an. Liefertermin: Tracking bis spätestens Mi 24.03., Ware spätestens Do 15.04. in Berlin. Restzahlung spätestens 24.03., nur nach Endkontroll-Nachweis: je Größe 2 Paar mit allen 10 Maßen (Toleranz Spec 1.1), alle 4 Stickzonen an 10 Zufallspaaren, Zugtest der Fäden, Sitz des Patches, Saum, mit Fotos. Ohne Nachweis keine Zahlung. Teil-Lieferung gegen Teilzahlung möglich. Zahlung nur auf das Konto der ersten Proforma; Änderungen der Bankdaten gelten nur nach telefonischer Bestätigung. Anlage: REACH-Erklärung (Nickel, Azofarbstoffe) zur Unterschrift. Bitte um schriftliche Bestätigung von Menge, Preis, Liefertermin und Produktionsstart.",
     "o": [
      {"n": "Gmail", "u": "https://mail.google.com", "h": "Thread der Proforma"},
      {"n": "Google Drive · Ordner „Fabrik“", "u": "https://drive.google.com"},
@@ -357,14 +357,14 @@
     "m": 30,
     "s": [
      "Konzept: Wohnung mit Familienteppich, Trockenweizen, warmes Licht, plus 30 Min. draußen zur goldenen Stunde. Sonnenuntergang am 20.02. in der Wetter-App nachsehen, die goldene Stunde ist die Stunde davor.",
-     "Bildregeln in die Shotliste: nie hellblauer Himmel über gelbem Weizen (draußen den Weizen nicht vor freien Himmel), keine echte Sichel, kein roter Hintergrund (Teppich als Boden, nicht als Wand), B und B2 nie im selben Bild, keine Sowjet-Kulisse, Graukarte für Farbtreue.",
+     "Bildregeln in die Shotliste: nie hellblauer Himmel über gelbem Weizen (draußen den Weizen nicht vor freien Himmel), kein Erntewerkzeug als Requisite, kein roter Hintergrund (Teppich als Boden, nicht als Wand), keine Sowjet-Kulisse, Graukarte für Farbtreue.",
      "Trockenweizen besorgen: Trockenblumen-Laden oder Bastelbedarf, Preis vor Ort prüfen. Ins Budget 150 €.",
      "Models: 2–3 aus der Community (Mess-Abende, Creator), Größe passend zu den Shoot-Paaren. Fotograf: Freund mit Kamera oder du mit Stativ.",
      "Familie im Bild nur über Gegenstände, nicht über Länder (Entscheidung 15.10.).",
      "Plan ins Blatt „Shoot“: Ort, Zeiten, Leute, Requisiten, Budget."
     ],
     "f": "Ort, Zeitplan, Requisitenliste mit Bildregeln und die Model-Anfragen im Blatt „Shoot“ stehen.",
-    "p": "Projekt Time Travel, Docket W21, Sa 06.02. Schreib mir eine Shotliste für den Shoot „Die Hütte“ am Sa 20.02.: Wohnung mit Familienteppich, Trockenweizen, warmes Licht, plus 30 Min. draußen zur goldenen Stunde, 2–3 Models. 15 Motive, je Motiv: Bild, Element im Fokus, Licht, wer. Bildregeln: nie hellblauer Himmel über gelbem Weizen, keine echte Sichel, kein roter Hintergrund, B und B2 nie im selben Bild, keine Sowjet-Kulisse, keine Streifen in Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß, Graukarte. Die 24 Countdown-Motive kommen ab 17.02. auf die Shotliste, plane Platz dafür.",
+    "p": "Projekt Time Travel, Docket W21, Sa 06.02. Schreib mir eine Shotliste für den Shoot „Die Hütte“ am Sa 20.02.: Wohnung mit Familienteppich, Trockenweizen, warmes Licht, plus 30 Min. draußen zur goldenen Stunde, 2–3 Models. 15 Motive, je Motiv: Bild, Element im Fokus, Licht, wer. Bildregeln: nie hellblauer Himmel über gelbem Weizen, kein Erntewerkzeug als Requisite, kein roter Hintergrund, keine Sowjet-Kulisse, keine Streifen in Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß, Graukarte. Die 24 Countdown-Motive kommen ab 17.02. auf die Shotliste, plane Platz dafür.",
     "o": [
      {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Shoot“"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
@@ -469,7 +469,7 @@
      "text": "0–2 s Hook EN, je Zeichnung ein Wort",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
      "caption": "Cut, embroider, sew, wash. Machine-embroidered on the cut panel, threads set by hand. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #howitsmade #embroidereddenim #denim #novalifetimetravel",
-     "check": "Wortliste, keine Seitenansicht links, CTA der Phase; finale ID und Caption aus Docket W22."
+     "check": "Wortliste, CTA der Phase; finale ID und Caption aus Docket W22."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com", "h": "keine Musik einbacken"}

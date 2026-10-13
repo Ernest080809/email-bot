@@ -1,6 +1,7 @@
 # Website und Spiel · Time Travel
 
 Stand: Mi 07.10.2026, abends. Für Ernest. Teil der Docket-Neuplanung (Rev. 6).
+**Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
 Grundlage: Plan Rev. 5.3 Abschnitt 5.1, Spiel-Bauplan im Docket Rev. 5.3, Spec Rev. 13, `zielgruppe.md`, `community.md`, `tools.md` (alle in diesem Ordner bzw. `docs/`).
 Quellen stehen als [W-Nummer] im Text und vollständig in Abschnitt 13. **Schätzung** = meine Rechnung oder Annahme. **Vor Ort prüfen** = in dieser Sitzung nicht belegbar, Prüfschritt steht dabei.
 
@@ -22,7 +23,7 @@ Quellen stehen als [W-Nummer] im Text und vollständig in Abschnitt 13. **Schät
 
 **Nicht geprüft (Seiten in dieser Sitzung gesperrt):** Future Publishing, Theme-Obergrenze, Freikontingent von Shopify Email, Pfad zum Double-Opt-in, Verhalten der In-App-Browser. Jeder Punkt hat einen Testschritt im Bauplan.
 
-**Design-Vorschläge, du entscheidest:** Palette aus Sonnenuntergang und Teppich, 17 Farben, nur ein Blau (Denim, dunkel). Alle Textpaare liegen bei mindestens 5,8:1 Kontrast. Das Nummern-Raster als 10 × 10 Kreuzstich. Nach außen „Time Travel“, „Kreuzstich-Band“, „Achtstern“. Sichel und Ähren nie freigestellt als Emblem.
+**Design-Vorschläge, du entscheidest:** Palette aus Sonnenuntergang und Teppich, 17 Farben, nur ein Blau (Denim, dunkel). Alle Textpaare liegen bei mindestens 5,8:1 Kontrast. Das Nummern-Raster als 10 × 10 Kreuzstich. Nach außen „Time Travel“, „Kreuzstich-Band“, „Achtstern“. Ähren nie freigestellt als Emblem.
 
 ---
 
@@ -341,9 +342,9 @@ Motiv-Karten (Antippen dreht die Karte, `<button aria-expanded>`):
 
 **K5 · Die Ernte und die Fäden** (ab Stufe 2)
 > Hinten links drei Ähren auf einem roten Band. Darunter neun Goldfäden, von Hand gesetzt, nach der Wäsche. Sie verlassen die Hose.
-> [Proto-Foto am Körper, Gesäßtasche links, dann Seite mit dem Serp]
+> [Proto-Foto am Körper, Gesäßtasche links, dann die Goldfäden in Bewegung]
 
-*Hinweis:* `zielgruppe.md` Punkt 1 und 2: Sichel + Ähren + rotes Band zusammen sind Wappen-Vokabular, Stoppelfeld kann an den Holodomor erinnern (Gedenktag Sa 28.11.2026). Deshalb hier: nur Fotos am getragenen Teil, nie Sichel und Ähren freigestellt nebeneinander als Grafik, kein Text über „abgeschnittene“ Halme. Kapitel K5 kommt erst ab 11.12., also nach dem Gedenktag. **Du entscheidest**, ob der Serp auf der Startseite überhaupt eigens gezeigt wird.
+*Hinweis:* `zielgruppe.md` Punkt 1 und 2: Der Serp ist seit 11.10. gestrichen, die Ernte erzählt B2 allein. Ähren auf rotem Band können trotzdem an ein Wappen erinnern, Ähren an den Holodomor (Gedenktag Sa 28.11.2026). Deshalb hier: nur Fotos am getragenen Teil, Ähren nie freigestellt als Grafik. Kapitel K5 kommt erst ab 11.12., also nach dem Gedenktag.
 
 **K6 · Die Nummern** (ab Stufe 3)
 > 100 Stück. Nicht mehr. Deine Nummer steht auf dem Hangtag.
@@ -398,7 +399,7 @@ Aus Spec 1.2 („Wir labeln nach dem echten Maß“, W32 = 81,2 cm).
 | `assets/tt-motiv-*.svg` | Kreuzstich-Band (gerader Rapport), Münztasche, Achtstern, flach | ≤ 10 KB je nach Optimierung (Schätzung) | Claude Code aus `design/fine.py` (erzeugt A, C, E) bzw. `design/front_band.svgfrag` (35 KB, folgt der Taschenkurve), `front_coin.svgfrag` (21 KB), `front_alatyr.svgfrag` (1 KB), alle im ZIP der Arbeitsdateien |
 | Fotos Papiertest | 3 Stück, Hochformat | in Shopify-Dateien | du (Papiertest 3 am 08.10.) |
 | Foto Familienteppich | 1–2 | in Shopify-Dateien | du (Familie fragen, Docket 15.10.) |
-| Proto-Details | 6 (A, E, B, B2, C, D) | ab 11.12. | du (Mini-Shoot 08.12., On-Body 10.12.) |
+| Proto-Details | 5 (A, E, B2, C, D) | ab 11.12. | du (Mini-Shoot 08.12., On-Body 10.12.) |
 | Shoot-Fotos | 6–8 (3 Produkte, Hütte/Teppich-Motiv falls vorhanden) | ab 27.02. | Shoot 20.02. |
 
 Fotos lädst du in Shopify hoch (Inhalt → Dateien oder als Produktbild). Die Section holt sie über `image_url` mit Breite. Ohne Breite oder Höhe gibt der Filter einen Fehler [W8]. `image_tag` erzeugt `srcset` und kann ein Bild vorladen (`preload`) [W8].
@@ -514,7 +515,7 @@ Geschwindigkeit 60 px/s intern, der ganze Weg in rund 12 Sekunden (Schätzung, b
 3. **Nummern-Raster als Kreuzstich.** 10 × 10 Kästchen, vergeben = rot-weißer Kreuzstich, Creator/Reserve = Gold. Es ist dieselbe Grammatik wie auf der Hose (Spec 3.5). Das Raster ist ein Motiv für Posts: „Nr. 001–017 vergeben“ als Bildschirmfoto.
 4. **Nach außen „Time Travel“, nicht „Projekt Slavic“ und nicht „Eine Kultur“.** Vorschlag aus `zielgruppe.md` Punkt 5.
 5. **Neutrale Namen für die Elemente:** „Kreuzstich-Band“ statt „Vyshyvanka-Band“, „Achtstern“ statt „Alatyr“. Vorschlag aus `zielgruppe.md` Punkt 4. Intern bleiben die Namen wie in der Spec. **Das ist eine Abweichung von deinen bisherigen Namen.**
-6. **Sichel und Ähren nie als freigestellte Grafik nebeneinander**, nie als Icon, Favicon oder Logo (Regel Serp + Risiko 1 aus `zielgruppe.md`). Auf der Website nur als Foto am getragenen Teil.
+6. **Ähren nie als freigestellte Grafik**, nie als Icon, Favicon oder Logo (Risiko 1 aus `zielgruppe.md`). Auf der Website nur als Foto am getragenen Teil.
 7. **Schrift:** eine Schrift für Überschriften über die Theme-Einstellung `font_picker` [W8], Fließtext in der Systemschrift. Keine Pixel-Schrift für Fließtext, nur für die Zahl im Countdown, wenn überhaupt.
 8. **Echte Fotos vor Grafik.** In Stufe 1 tragen die Papiertest-Fotos die Seite. Sie zeigen, dass hier jemand wirklich baut. Das passt zu „Gezeigt wird nur, was es gibt“.
 9. **Ruhige Bewegung.** Nur Parallax und wiegender Weizen. Kein Wackeln, keine Pop-ups. Ein einziges Formular, zweimal auf der Seite (oben und am Ende).
@@ -795,7 +796,7 @@ Ich will Stufe 1 live schalten. Prüfe vorher: git status sauber, tools/budget-c
 ```
 Stufe 2: Ab heute zeigt die Startseite das echte Proto. Halte dich an CLAUDE.md.
 1. Kapitel K2 umbenennen in „Das Muster“. Für jedes Element ein Motiv-Block mit echtem Foto (in Shopify hochgeladen, Dateinamen: …): Kreuzstich-Band, Münztasche, Achtstern, Lebensbaum. Bedeutungstext nur dort, wo in docs/BELEGE.md „freigegeben: ja“ und eine Quelle steht. Lege docs/BELEGE.md als Tabelle an: Motiv | Bedeutungssatz | Quelle | Region | freigegeben ja/nein.
-2. Neues Kapitel K5 „Die Ernte und die Fäden“ nach K4, Text aus docs/TEXTE-STUFE2.md. Nur Fotos am getragenen Teil. Sichel und Ähren nie freigestellt nebeneinander.
+2. Neues Kapitel K5 „Die Ernte und die Fäden“ nach K4, Text aus docs/TEXTE-STUFE2.md. Nur Fotos am getragenen Teil. Ähren nie freigestellt als Grafik.
 3. Prüfe alle Texte gegen die Sprachregeln in CLAUDE.md und markiere mir jeden Satz, der eine Regel berührt.
 Zeig mir die Vorschau-Schritte. Commit nach meinem „passt“.
 ```
@@ -1226,7 +1227,7 @@ Hier sind meine Notizen vom Playtest mit 5 Leuten: … Ordne die Probleme nach �
 10. **Custom Events und Einwilligung:** Claude Code prüft an der Shopify-Doku (Schritt 12).
 11. **Shopify-Email-Kontingent im April** (6 Mails × 3.000): siehe `tools.md`, nicht belegt.
 12. **Belegtabelle für Ornament-Bedeutungen** (Spec Teil 5) fehlt noch. Ohne sie keine Bedeutungstexte auf der Seite.
-13. **Deine Entscheidungen:** neutrale Namen nach außen (Kreuzstich-Band, Achtstern, „Time Travel“) · Serp auf der Startseite ja oder nein · ein Theme mit Zuständen statt Theme-Wechsel um 19:00 · Teppich-Foto der Familie.
+13. **Deine Entscheidungen:** neutrale Namen nach außen (Kreuzstich-Band, Achtstern, „Time Travel“) · ein Theme mit Zuständen statt Theme-Wechsel um 19:00 · Teppich-Foto der Familie.
 14. **Welches Theme ist live** (Dawn oder Horizon)? Schritt 2.
 15. **Aseprite-Preis** (~20 € laut Plan) und Lizenz vor dem Kauf ansehen [W25]. LibreSprite ist die kostenlose Alternative [W26].
 16. **BFSG-Ausnahme** für Kleinstunternehmen: beim Rechtstexte-Anbieter bestätigen.
@@ -1301,7 +1302,7 @@ Ich (Ernest) bin neu auf dem Mac und kein Entwickler. Erklär kurz, auf Deutsch,
 - Keine Politik in der Marke. Subjekt ist das Muster, nicht das Volk.
 - Nie „authentisch“. Den Lebensbaum nie „slawisch“ nennen. Nach außen „Time Travel“, nicht „Projekt Slavic“, nicht „eine Kultur“.
 - Keine Landkarten, keine Flaggen, keine Flaggenfarben. NIE hellblauer Himmel über gelbem Weizen.
-- Serp/Sichel: nie freigestellt als Icon, Logo oder Grafik, nie mit Stern, Hammer oder rotem Grund, nie neben Ähren als Emblem.
+- Ähren: nie freigestellt als Icon, Logo oder Grafik, nie mit Stern oder auf rotem Grund als Emblem. Keine Sichel, auch nicht als Deko (der Serp ist seit 11.10. gestrichen).
 - Keine Hakenkreuz-, Kolovrat-, Schwarze-Sonne-, Valknut-Symbolik, auch nicht als Deko-Muster.
 - Bis das Proto da ist (Do 03.12.2026): kein fertiges Teil und kein Mockup einer Jeans. Motive nur flach.
 - Bedeutungen von Motiven nur mit Beleg aus docs/BELEGE.md.

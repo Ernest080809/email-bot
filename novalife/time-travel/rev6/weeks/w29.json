@@ -21,7 +21,7 @@
      "Meta Business Suite → Werbeanzeigenmanager → Kampagnen. Ist Kampagne 1 „Aktiv“? Steht eine Anzeige auf „Abgelehnt“ oder „In Prüfung“?",
      "Abgelehnt: Grund öffnen, Text oder Bild korrigieren (häufig: Text im Bild, Vorher/Nachher, Preisangabe). Neu einreichen.",
      "Anzeigentext gegen den CTA der Phase halten: bis So 04.04. „Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April.“ Kein „149 € statt 169 €“, kein Streichpreis.",
-     "Bildregeln auch in Anzeigen: keine Seitenansicht links, B und B2 nie im selben Bild, kein hellblauer Himmel über gelbem Weizen.",
+     "Bildregeln auch in Anzeigen: kein hellblauer Himmel über gelbem Weizen.",
      "Ausgabenlimit gegen Plan 3 im Blatt „Kasse“ prüfen. Kampagne 1 läuft nur, wenn am So 07.03. die Steuer-Rücklage stand (sonst gestrichen).",
      "Status und Datum ins Blatt „Kasse“, Zeile „Werbung“."
     ],
@@ -38,8 +38,8 @@
     "s": [
      "Shopify-Admin → Onlineshop → Themes → Live-Theme → Anpassen → Startseite. Den Abschnitt „Feld“ (Scroll-Story) einblenden.",
      "Ohne Spiel: kein „Das Feld ist offen“, kein Spiel-Link, kein Launch-Clip. Das Kapitel ist ein Teil der Startseite, kein eigenes Ereignis.",
-     "Texte prüfen: Wortliste (Achtstern, Kreuzstich-Band, „Das Feld danach“ für den Serp), nie „authentisch“, Subjekt ist das Muster.",
-     "Bilder prüfen: kein Serp-Bild direkt neben Ähren auf Rot, keine Seitenansicht links, B und B2 nie im selben Bild.",
+     "Texte prüfen: Wortliste (Achtstern, Kreuzstich-Band), nie „authentisch“, Subjekt ist das Muster.",
+     "Bilder prüfen: kein roter Hintergrund, nie hellblauer Himmel über gelbem Weizen.",
      "Auf dem Handy im Instagram-Browser und in Safari öffnen: lädt das Kapitel, steht das Anmeldeformular darunter?"
     ],
     "f": "das Feld-Kapitel auf der Live-Startseite sichtbar ist, auf dem Handy lädt und keinen Spiel-Hinweis enthält.",
@@ -72,7 +72,7 @@
      "text": "„T−24“ groß, darunter „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
      "caption": "T−24. The countdown starts. 100 numbered pairs. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
-     "check": "Frontansicht, keine Seitenansicht links, B und B2 nicht im selben Bild, kein Streichpreis, CTA der Phase."
+     "check": "Frontansicht, kein Streichpreis, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},
@@ -125,7 +125,7 @@
      "text": "„T−23 · They're here.“, darunter „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
      "caption": "T−23. They're here. 100 numbered pairs just arrived, every pair gets checked this week. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #buildinpublic #berlinfashion",
-     "check": "Nur echte Kartons, keine Seitenansicht links, B und B2 nicht im selben Bild, CTA der Phase."
+     "check": "Nur echte Kartons, CTA der Phase."
     },
     "o": [
      {"n": "CapCut", "u": "https://www.capcut.com", "h": "T−23-Vorlage, keine Musik einbacken"},
@@ -142,11 +142,11 @@
     "m": 100,
     "s": [
      "Mitnehmen an den Tisch: Prüfplan Teil „Wareneingang“ ausgedruckt (Docket → Referenz → Prüfplan Sample), grüne und rote Klebepunkte, Handy für Fotos, Maßband, Tageslicht vom Fenster. Helfer kurz einweisen (10 Min.), Arbeitszeit für die Abrechnung notieren.",
-     "Je Jeans etwa 2 Minuten, ihr arbeitet zu zweit: einer prüft, einer schreibt. Vorn: Kreuzstich-Band A, Münztasche E. Hinten links: B2 mit drei Ähren, rotem Band und 9 Goldfäden (sitzen sie fest?). Hinten rechts: Achtstern C. Patch D gerade. Linkes Bein: Serp B an der Seitennaht.",
+     "Je Jeans etwa 2 Minuten, ihr arbeitet zu zweit: einer prüft, einer schreibt. Vorn: Kreuzstich-Band A, Münztasche E. Hinten links: B2 mit drei Ähren, rotem Band und 9 Goldfäden (sitzen sie fest?). Hinten rechts: Achtstern C. Patch D gerade.",
      "Dazu: Nähte, Knopf, Reißverschluss, Saum, Flecken, Größenlabel.",
      "In Ordnung: grüner Punkt auf das Größenlabel. Fehler: roter Punkt, Foto, Zeile im Blatt „QC“ (Karton, Größe, Fehler, Fehlerklasse aus dem Prüfplan, Foto-Nummer).",
      "Noch keine Hangtags. Die Nummern vergibst du beim Packen am 06.–07.04.",
-     "Optional für den Countdown: 5 Sekunden filmen, wie ihr prüft (Clip „Checking 100 pairs, one by one.“), keine Seitenansicht links."
+     "Optional für den Countdown: 5 Sekunden filmen, wie ihr prüft (Clip „Checking 100 pairs, one by one.“)."
     ],
     "f": "die ersten 50 Jeans einen grünen oder roten Punkt haben und jeder rote im Blatt „QC“ mit Foto steht.",
     "o": [
@@ -178,7 +178,7 @@
      "text": "„T−22“, „60 × 60 mm“",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
      "caption": "T−22. 60 × 60 mm, 45 × 45 stitches. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #crossstitch #berlinfashion",
-     "check": "Nur Makro, kein Serp und keine Ähren im Bild, CTA der Phase."
+     "check": "Nur Makro, keine Ähren im Bild, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -194,7 +194,7 @@
     "m": 100,
     "s": [
      "Gleicher Aufbau wie gestern: Prüfplan „Wareneingang“, Klebepunkte, Tageslicht, Helfer schreibt mit.",
-     "Gleiche Punkte für jede Jeans: A, E, B2 mit drei Ähren und 9 Goldfäden, Achtstern C, Patch D, Serp B, Nähte, Knopf, Reißverschluss, Saum, Flecken, Größenlabel.",
+     "Gleiche Punkte für jede Jeans: A, E, B2 mit drei Ähren und 9 Goldfäden, Achtstern C, Patch D, Nähte, Knopf, Reißverschluss, Saum, Flecken, Größenlabel.",
      "Rote Punkte mit Foto und Fehlerklasse ins Blatt „QC“.",
      "Am Ende im Blatt „QC“: Zahl grün, Zahl rot, je Größe.",
      "Helferzeit beider Tage ins Blatt „Kasse“."
@@ -210,12 +210,12 @@
     "t": "18:00 · CD-T21 posten: linke Gesäßtasche, drei Ähren, Goldfäden",
     "m": 10,
     "s": [
-     "Vor dem Hochladen prüfen: Ist im Asset irgendwo der Serp zu sehen? Dann nicht posten, sondern CD-T21 enger schneiden. Kein Aprilscherz, kein Witz zum Datum.",
+     "Vor dem Hochladen prüfen: kein roter Hintergrund im Asset. Kein Aprilscherz, kein Witz zum Datum.",
      "17:55 TikTok hochladen, 18:00 posten, danach Reel und Short.",
      "Story mit Countdown-Sticker (22.04., 19:00) und Link-Sticker.",
      "15 Min. Kommentare. „Sowjet“, „Wappen“, „Holodomor“: danken, im Blatt „Content“ zählen (G7), nie löschen."
     ],
-    "f": "CD-T21 ohne Serp im Bild auf TikTok, als Reel, Short und Story online ist.",
+    "f": "CD-T21 auf TikTok, als Reel, Short und Story online ist.",
     "v": {
      "id": "CD-T21",
      "slot": "COUNTDOWN",
@@ -229,7 +229,7 @@
      "text": "„T−21“, „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
      "caption": "T−21. The harvest sits on the left. Three ears, nine gold threads. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #berlinfashion #countdown",
-     "check": "Kein Serp im Bild, B und B2 nie zusammen, nie „fünf Ähren“, kein roter Hintergrund."
+     "check": "Nie „fünf Ähren“, kein roter Hintergrund."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -300,7 +300,7 @@
      "text": "„T−20“, „22.04. · 19:00“",
      "cta": "Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. (DE: Drop 22.04., 19:00. Bis So 04.04. noch vorbestellen: 169 €, Lieferung Anfang April. Link in Bio.)",
      "caption": "T−20. Set by hand after the wash. Drop 22.04., 19:00. Pre-order until Sun 04.04.: €169, ships early April. Link in bio. #novalifetimetravel #embroidereddenim #denim #goldthread #berlinfashion",
-     "check": "Kein Serp im Bild, kein hellblauer Himmel im Gegenlicht, CTA der Phase."
+     "check": "Kein hellblauer Himmel im Gegenlicht, CTA der Phase."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com"},
@@ -387,7 +387,7 @@
      "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans.",
      "Kassencheck K − F − R nach Restzahlung, Fracht und Steuer: grün ≥ 300 € · gelb 0–300 € → keine Ausgaben außerhalb Plan 3 · rot → Ausgaben-Stopp-Liste, Notfall-Leiter (G12).",
      "G1: Liste unter Alarm 1.170 → Netz-Runde bis Mi, „Bring 3“-Story · G2: unter Soll 2.720 → bestes Video in 2 Varianten · G3: < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story · G4: Anmeldequote < 6,6 % zwei Sonntage → echtes Foto oben, nur E-Mail Pflicht.",
-     "G5–G9: Varianten bei ≥ 2 × Median, schwacher Slot ersetzen, „Sowjet/Wappen/Holodomor“ (≥ 3 → 2 Wochen kein Ernte- oder Serp-Bild, CD-Assets tauschen) und Folklore-Kommentare zählen, > 70 % warm → 3 neue Hooks.",
+     "G5–G9: Varianten bei ≥ 2 × Median, schwacher Slot ersetzen, „Sowjet/Wappen/Holodomor“ (≥ 3 → 2 Wochen kein Ernte-Bild, CD-Assets tauschen) und Folklore-Kommentare zählen, > 70 % warm → 3 neue Hooks.",
      "G10/G11: Vorbestellungen unter Alarm → DM an jede Zusage ohne Kauf · Conversion < 1,3 % bei ≥ 300 Sitzungen → FAQ und Größenblock.",
      "Offenes aus W29 und die Zeile an Claude (Prompt unten)."
     ],
@@ -474,7 +474,7 @@
     "s": [
      "Dasselbe Feld, dieselbe Stelle wie Dreh 1 am 28.03. Nur mit Erlaubnis des Landwirts. Stativ an die markierte Stelle, gleiche Höhe, gleicher Bildausschnitt.",
      "Kamera 9:16, je Shot 3 Takes: Totale des Feldes (gleicher Ausschnitt wie Dreh 1), Makro der Halme, Hand streicht über die Halme.",
-     "Sonnenuntergang, Himmel warm. Nie hellblauer Himmel über Weizen. Keine Sichel, kein rotes Tuch, kein fertiges Teil neben Ähren und Serp.",
+     "Sonnenuntergang, Himmel warm. Nie hellblauer Himmel über Weizen. Keine Requisite, kein rotes Tuch, kein fertiges Teil neben Ähren.",
      "Material in „Feld/roh/Dreh2“ ablegen, Datum in den Dateinamen. Geschnitten wird nach Dreh 3."
     ],
     "f": "Totale, Makro und Handshot vom gleichen Standort in „Feld/roh/Dreh2“ liegen.",
@@ -491,7 +491,7 @@
      "text": "später: Datum je Dreh",
      "cta": "Drop 22.04., 19:00. The list gets in at 18:00. Link in bio.",
      "caption": "Same field, one week later. Drop 22.04., 19:00. The list gets in at 18:00. Link in bio. #novalifetimetravel #denim #field #berlinfashion",
-     "check": "Nie hellblauer Himmel über Weizen, keine Sichel, kein Ernte-Bild in einer Woche mit G7."
+     "check": "Nie hellblauer Himmel über Weizen, keine Requisite, kein Ernte-Bild in einer Woche mit G7."
     },
     "o": [
      {"n": "Feld von Dreh 1", "h": "Standort aus Dreh 1, nur mit Erlaubnis des Landwirts"}

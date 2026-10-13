@@ -21,7 +21,7 @@
      "Alle Antworten auf die RFQ vom 12.10. sammeln: Mails, PDFs, Preislisten. Gmail → Suche „NVL-TT-01“, alles in einen Ordner „Angebote W6“.",
      "Prompt unten in einen neuen Chat im Projekt „novalife time travel“ kopieren, Anhänge dazu, deinen Steuerstand vom 13.10. eintragen, abschicken.",
      "Claude rechnet je Angebot den Fabrikpreis je Paar inklusive Stickerei, ohne Patch D, in Euro, bei 100 und bei 75 Stück.",
-     "Ampel je Angebot: ≤ 60 € grün · 61–63 € gelb (Puffer schrumpft auf 1–2 Paar, Stufe 2 wird Pflicht) · über 63 € rot (Gegenrechnung: V4b, kleiner Serp, 75 Stück, andere Fabrik).",
+     "Ampel je Angebot: ≤ 60 € grün · 61–63 € gelb (Puffer schrumpft auf 1–2 Paar, Stufe 2 wird Pflicht) · über 63 € rot (Gegenrechnung: V4b, 75 Stück, andere Fabrik).",
      "Schwellen je Angebot mit und ohne 1.150 € Einfuhrumsatzsteuer (nur Türkei), bei 100 und bei 75 Stück. Plan heute: 10 ausgezahlt bis Mo 01.02., 32 bis Di 16.03.",
      "Sofort raus: keine Panel-Stickerei im eigenen Haus oder Vermittler ohne genannte Fabrik. Preis nicht in Euro: nachfragen, nicht schätzen.",
      "Ergebnis ins Blatt „Fabriken“: Spalten Preis 100, Preis 75, Ampel, Schwelle 1, Schwelle 2. Top 3 farbig markieren."
@@ -183,7 +183,7 @@
     "t": "Story 3: B2-Papier „Woran erinnert dich das?“",
     "m": 5,
     "s": [
-     "Foto: linke Gesäßtasche mit B2-Papier, gerade von hinten, nur diese Tasche im Bild. Kein Serp, keine Seitenansicht links, kein roter Hintergrund.",
+     "Foto: linke Gesäßtasche mit B2-Papier, gerade von hinten, nur diese Tasche im Bild. Kein roter Hintergrund.",
      "Instagram → Story → Foto → Umfrage-Sticker mit 4 Antworten (Text unten).",
      "Link-Sticker auf die Warteliste dazu (gleicher Link wie in der Instagram-Bio).",
      "Mi früh: Screenshot der Ergebnisse, Zahlen ins Blatt „Content“. Sie gehen am Sa 31.10. in die Markenkriterien."
@@ -207,7 +207,7 @@
      "text": "Umfrage-Sticker, 4 Antworten: Harvest · Childhood · Coat of arms · Nothing (DE: Ernte · Kindheit · Wappen · Nichts)",
      "cta": "Link-Sticker auf die Warteliste",
      "caption": "What does this remind you of?\nHarvest · Childhood · Coat of arms · Nothing",
-     "check": "Nur B2 im Bild, kein Serp, keine Seitenansicht links, kein roter Hintergrund, Papier statt fertiges Teil."
+     "check": "Nur B2 im Bild, kein roter Hintergrund, Papier statt fertiges Teil."
     }
    },
    {
@@ -216,8 +216,8 @@
     "m": 40,
     "s": [
      "Wer: das Segment, das im Blatt „Gespräche“ noch fehlt (Mix: 3 RU oder russlanddeutsch, 2 PL, 2 UA, 1 BY oder Balt., 2 Denim ohne Ost-Bezug). Nur Umfeld oder Empfehlung, keine kalten DMs.",
-     "Fotos aus Papiertest 3 aufs Handy: 1 vorn gesamt, 2 hinten gesamt, 3 Serp (B), 4 linke Gesäßtasche (B2), 5 Band und Münztasche (A + E), 6 Achtstern (C), 7 Lebensbaum (D).",
-     "Frage 1 „Was siehst du?“ zu Foto 1 und 2 ohne Erklärung. Frage 2 „Woran erinnert dich das?“ zu jedem Foto, 3 und 4 zuerst. Dann Fragen 3–7 aus zielgruppe.md 5.1 (Frage 5 nur bei UA, PL, BY, Balt.).",
+     "Fotos aus den Papiertests aufs Handy (dieselben wie bei G1 und G2): 1 vorn gesamt (linkes Bein leer), 2 hinten gesamt, 3 linke Gesäßtasche (B2), 4 Band und Münztasche (A + E), 5 Achtstern (C), 6 Lebensbaum als Gürtelschlaufe (D).",
+     "Frage 1 „Was siehst du?“ zu Foto 1 und 2 ohne Erklärung. Frage 2 „Woran erinnert dich das?“ zu jedem Foto, 3 zuerst. Dann Fragen 3–7 aus zielgruppe.md 5.1 (Frage 5 nur bei UA, PL, BY, Balt.).",
      "Preisfragen (Frage 8): Ab welchem Preis zu billig? Gutes Angebot? Teuer, aber überlegenswert? Zu teuer, egal was? Dann Frage 9: „Würdest du sie im Januar zu 149 € vorbestellen, wenn sie im April kommt?“",
      "Zum Schluss Fragen 10–13: Rangfolge, Jeans, Zipper oder Polo zuerst, wo entdecken, wen soll ich noch fragen.",
      "Mitschreiben im Blatt „Gespräche“ nur mit Code G3 und G4: Datum, Segment, Antwort je Frage, Zitate. Nie ein Name neben dem Segment (Art. 9 DSGVO).",
@@ -417,7 +417,7 @@
     "t": "12 Sätze Druckvorlagen und QR-Zettel ?ref=papier drucken",
     "m": 20,
     "s": [
-     "Dateien aus dem Ordner time-travel/pdf: NVL_Druckvorlage_v17.pdf (beide Seiten), NVL_Druckvorlage_v15.pdf (Seite 1), NVL_Druckvorlage_1zu1.pdf (Seite 3). Je 12-mal.",
+     "Dateien aus dem Ordner time-travel/pdf: NVL_Druckvorlage_v17.pdf (nur Seite 1, Seite 2 entfällt seit 11.10.), NVL_Druckvorlage_v15.pdf (Seite 1), NVL_Druckvorlage_1zu1.pdf (Seite 3, nur für Alatyr C), NVL_Papiertest_Patch_Schlaufe.pdf (Patch D in Größe B, 76 × 67 mm, als Gürtelschlaufe). Je 12-mal.",
      "Dazu für Story 4 einmal B2-W (rotes Band mit weißer Kante) aus dem Varianten-Blatt rev6/research/design_varianten/NVL_Papiertest3_Varianten.pdf.",
      "Kein Drucker zu Hause: Copyshop, „100 %, nicht anpassen“ sagen. Druckkosten vor Ort prüfen.",
      "Kontrolle: Maßlinie mit dem Lineal messen, sie muss 100 mm haben.",
@@ -460,7 +460,7 @@
      "text": "Umfrage-Sticker: Left · Right",
      "cta": "Link-Sticker auf die Warteliste",
      "caption": "Left or right?\nLeft · Right",
-     "check": "Nur B2-Papier, kein Serp im Bild, Denim statt rotem Hintergrund, drei Ähren je Version."
+     "check": "Nur B2-Papier, Denim statt rotem Hintergrund, drei Ähren je Version."
     }
    },
    {
@@ -572,9 +572,9 @@
     "t": "18:00 · DETAIL V006 „Feiner Kreuzstich“ posten (DE-Hook-Test)",
     "m": 20,
     "s": [
-     "Bis 17:50 Check: Text „~33,000 stitches per pair (estimate)“ ist im Bild. Die Handstiche sind als Übung erkennbar; fehlt die kleine Zeile „hand practice · the jeans are machine-embroidered“, in CapCut ergänzen.",
+     "Bis 17:50 Check: Text „~28,000 stitches per pair (estimate)“ ist im Bild. Die Handstiche sind als Übung erkennbar; fehlt die kleine Zeile „hand practice · the jeans are machine-embroidered“, in CapCut ergänzen.",
      "17:55 TikTok (Business-Konto) hochladen, Caption einfügen, Originalton, Musik höchstens sehr leise aus der Commercial Music Library. 18:00 posten.",
-     "Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Ein Stich ist 1,33 Millimeter. Es sind etwa 33.000.“) und als Short auf YouTube.",
+     "Gleich danach als Reel auf Instagram (Caption plus DE-Zeile „Ein Stich ist 1,33 Millimeter. Es sind etwa 28.000.“) und als Short auf YouTube.",
      "DE-Test: Version B mit deutschem Hook als Instagram-Probe-Reel nur an Nicht-Follower (Funktion ungeprüft), sonst frühestens Fr 30.10. auf TikTok mit anderem ersten Bild. Variante A/B ins Blatt „Content“.",
      "Reel in die Story mit Link-Sticker. 18:00–18:15 jeden Kommentar beantworten, Kritik nie löschen, Z, V, Georgsband sofort ausblenden."
     ],
@@ -590,19 +590,19 @@
      "slot": "DETAIL",
      "dauer": "12–20 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "One stitch is 1.33 millimeters. There are about 33,000.",
-     "hook_de": "Ein Stich ist 1,33 Millimeter. Es sind etwa 33.000. (Test-Hook B, deutsch)",
+     "hook_en": "One stitch is 1.33 millimeters. There are about 28,000.",
+     "hook_de": "Ein Stich ist 1,33 Millimeter. Es sind etwa 28.000. (Test-Hook B, deutsch)",
      "shots": [
       "Makro: Lineal neben ausgedrucktem Raster von Band A (17 Stiche hoch)",
       "Altes 4-mm-Raster und neues 1,33-mm-Raster nebeneinander",
       "Du stickst fünf Kreuzstiche von Hand auf Stickstoff (Nadel-ASMR), als Übung",
-      "Text: „~33,000 stitches per pair (estimate)“"
+      "Text: „~28,000 stitches per pair (estimate)“"
      ],
      "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite, Schreibtischlampe seitlich für das Makro",
      "ton": "Originalton (Papier, Schere, Nadel, Stoff). Keine Musik oder sehr leise",
-     "text": "Sek. 0–2: „One stitch is 1.33 mm. There are about 33,000.“ · „~33,000 stitches per pair (estimate)“ · klein: „hand practice · the jeans are machine-embroidered“",
+     "text": "Sek. 0–2: „One stitch is 1.33 mm. There are about 28,000.“ · „~28,000 stitches per pair (estimate)“ · klein: „hand practice · the jeans are machine-embroidered“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Version 1 used 4 mm squares and looked pixelated. Now one cross-stitch is 1.33 mm, a third of the size. About 33,000 stitches per pair, an estimate until the digitizer counts. The jeans are machine-embroidered on the cut panel; the stitches here are my hand practice. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
+     "caption": "Version 1 used 4 mm squares and looked pixelated. Now one cross-stitch is 1.33 mm, a third of the size. About 28,000 stitches per pair, an estimate until the digitizer counts. The jeans are machine-embroidered on the cut panel; the stitches here are my hand practice. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
      "check": "Stichzahl als Schätzung, Handstiche nur als Übung, nie „handgestickt“, kein fertiges Teil, CTA der Phase."
     }
    }
@@ -631,9 +631,9 @@
     "m": 90,
     "s": [
      "17:30 aufbauen: 12 Sätze Vorlagen, Scheren, Malerkrepp, 12 QR-Zettel ?ref=papier, Spiegel, Handy-Stativ. Belege (Pizza, Druck) ins Blatt „Kasse“, Zeile „ungeplant“.",
-     "18:00 Ankommen. Du erklärst die Stellen in 5 Minuten: vorn rechts Kreuzstich-Band und Münztasche, vorn links der Serp („Das Feld danach“), hinten links drei Ähren mit Goldfäden, hinten rechts der Achtstern, am Bund der Lebensbaum. Subjekt ist das Muster.",
+     "18:00 Ankommen. Du erklärst die Stellen in 5 Minuten: vorn rechts Kreuzstich-Band und Münztasche, hinten links drei Ähren mit Goldfäden, hinten rechts der Achtstern, hinten am Bund der Lebensbaum als Gürtelschlaufe, der Gürtel läuft dahinter. Subjekt ist das Muster.",
      "18:10 Jeder klebt die Vorlagen auf die eigene Jeans.",
-     "18:45 Fotos und Clips nur mit Ja. Nur von vorn oder hinten, keine Seitenansicht links, B und B2 nie in einem Bild. Material für den Batch am So.",
+     "18:45 Fotos und Clips nur mit Ja. Material für den Batch am So.",
      "19:00 Drei Fragen an alle: Welche Stelle zuerst? Wo würdest du sie tragen? Welche Größe trägst du? Antworten ohne Namen ins Blatt „Gespräche“, Größe mit Namen nur in „Die ersten 35“. Herkunft fragst du in der Runde nie.",
      "19:15 Eintragen am Handy über den QR-Zettel. Dann: „Schick deinen Link an 3 Leute“ (der eigene Link steht in der Willkommens-Mail). Wer „Ich bestelle am 14.01.“ sagt: Name und Größe in Spalte „Zusage“.",
      "Gespräche 6 und 7 (je 20 Min., Fragen zielgruppe.md 5.1) mit zwei Gästen, die früh fertig sind, ab 18:30 oder nach 19:30. Codes G6 und G7."
@@ -693,13 +693,13 @@
      "Liste 30–89: G2. Bestes Video der Woche in 2 Varianten nachdrehen, Kommentar-Zeit auf 15 Min., nichts streichen.",
      "Anmeldungen je 1.000 Views unter 1,0: G3. Angehefteter Kommentar „The list buys first. 35 pairs at the pre-order price.“, Link-Sticker in jede Story, Seite im Instagram-Browser testen. Seiten-Quote unter 6,6 % zum zweiten Mal: G4, echtes Foto oben, Vorteil in einem Satz, nur E-Mail Pflicht, Ladezeit prüfen.",
      "Video ≥ 2 × Median nach 48 h und Teil-Rate über Median: G5, 5 Varianten in 14 Tagen. Drei schwache Videos (unter 0,5 × Median) im selben Slot: G6, Slot 2 Wochen durch ein Reserve-Format ersetzen.",
-     "≥ 3 Kommentare mit „Sowjet“, „Wappen“, „Holodomor“: G7. Danken, zählen, nie löschen, 2 Wochen kein Ernte- oder Serp-Bild, graue Schneide und weiße B2-Kante vor dem 09.11. einfrieren.",
+     "≥ 3 Kommentare mit „Sowjet“, „Wappen“, „Holodomor“: G7. Danken, zählen, nie löschen, 2 Wochen kein Ernte-Bild, weiße B2-Kante vor dem 09.11. einfrieren.",
      "≥ 3 Folklore-Kommentare („Oma“, „Kostüm“): G8, 2 Wochen erst die Totale aus 3 m im Streetwear-Outfit, dann das Makro. Über 70 % der neuen Anmeldungen aus ref-netz, ref-papier, ref-stick: G9, 3 neue Hooks, DE-Hook vorziehen, Karussell „Miss deine Jeans“.",
      "Weniger als 3 Angebote mit Preis bei 75 und 100: fehlende Preise heute nachfordern, Frist Mo 12:00. Ampel der besten Fabrik rot: Prompt unten, Gegenrechnung bis Mo früh.",
      "Belegtabelle (falls Mi rot) heute fertig? Sonst bleiben alle Videos mit Bedeutung in der Reserve. Kasse gelb: keine Ausgaben außerhalb von Plan 3. Rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter 7.3."
     ],
     "f": "Fertig, wenn jedes Gate mit Zahl und Maßnahme im Blatt „Warteliste“, Spalte „Gate W6“, steht.",
-    "p": "Projekt Time Travel, Docket W6, Gate So 25.10.: Die beste Fabrik liegt bei [PREIS] € je Paar inklusive Stickerei, ohne Patch D, bei 100 Stück, also Ampel rot (über 63 €). Mach mir die Gegenrechnung für Schwelle 1 und Schwelle 2, heute und mit jeder Option einzeln und kombiniert: V4b (Münztasche offen, −3,30 bis −3,60 €/Paar), kleiner Serp aus v1.6 ohne Rot, 75 statt 100 Stück, die zweitbeste Fabrik aus dem Vergleich ([FABRIK 2, PREIS]). Sag mir, welche Option die Schwellen am wenigsten verändert und was sie am Design kostet. Ich entscheide Mo 26.10.",
+    "p": "Projekt Time Travel, Docket W6, Gate So 25.10.: Die beste Fabrik liegt bei [PREIS] € je Paar inklusive Stickerei, ohne Patch D, bei 100 Stück, also Ampel rot (über 63 €). Mach mir die Gegenrechnung für Schwelle 1 und Schwelle 2, heute und mit jeder Option einzeln und kombiniert: V4b (Münztasche offen, −3,30 bis −3,60 €/Paar), 75 statt 100 Stück, die zweitbeste Fabrik aus dem Vergleich ([FABRIK 2, PREIS]). Sag mir, welche Option die Schwellen am wenigsten verändert und was sie am Design kostet. Ich entscheide Mo 26.10.",
     "o": [
      {"n": "Tracking-Tabelle · Blatt „Warteliste“", "u": "https://sheets.google.com"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
@@ -712,7 +712,7 @@
     "plus": true,
     "s": [
      "Nur wenn bis heute weniger als 6 Gespräche geführt sind oder die Liste unter 90 liegt. Nach dem langen Abend gestern nur, wenn du fit bist.",
-     "Mitnehmen: drei laminierte Papiertest-Fotos (B, B2, ganze Hose, jedes einzeln) und das Handy mit der Tally-Umfrage.",
+     "Mitnehmen: drei laminierte Papiertest-Fotos (B2, Patch D als Gürtelschlaufe, ganze Hose von hinten) und das Handy mit der Tally-Umfrage.",
      "12–14 Uhr: 15 Menschen in Jeans fragen, ob sie zwei Minuten haben. Nur Fragen 1, 2, 8 und 9 aus zielgruppe.md 5.1.",
      "Nichts verkaufen, nichts verteilen. Die Warteliste erwähnst du nur, wenn jemand fragt.",
      "Antworten nur mit Code M1 bis M15 notieren, keine Namen.",
@@ -761,7 +761,7 @@
      "text": "Sek. 0–2: „Nine gold threads leave the pocket. Here's why.“ · „18–30 mm · set by hand after the wash“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
      "caption": "Under three wheat ears: nine gold threads, 18 to 30 mm, set by hand after the wash, because an industrial washer would eat them. It's the moment of the whole design. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #novalifetimetravel",
-     "check": "Nur B2-Papier, kein Serp im Bild, kein roter Hintergrund, immer drei Ähren, Papier statt fertiges Teil."
+     "check": "Nur B2-Papier, kein roter Hintergrund, immer drei Ähren, Papier statt fertiges Teil."
     }
    },
    {
@@ -843,7 +843,7 @@
     "m": 10,
     "s": [
      "Alle Clips und Fotos vom Sa durchsehen. Nur Personen, die Ja gesagt haben.",
-     "Aussortieren: Seitenansicht links, B und B2 in einem Bild, roter Hintergrund, fremde Logos.",
+     "Aussortieren: roter Hintergrund, fremde Logos.",
      "Die besten 5 Clips in „W7 · Papierabend“, Dateiname mit Inhalt (z. B. „vorn_gruppe_01“). Material für spätere Varianten.",
      "Pro Gast die 2 besten Fotos in einen Unterordner mit Vornamen, für Mo 26.10."
     ],

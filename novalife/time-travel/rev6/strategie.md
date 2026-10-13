@@ -388,6 +388,8 @@ Sortiert nach Wirkung pro Stunde deiner Zeit. Wirkung ist meine Einschätzung au
 
 ## 9 · Content-System
 
+**Neu seit 13.10.: Stunt-Serie REWIND.** 20 Videos, etwa eins pro Woche, jedes spielt mit der Zeit (rückwärts, angehalten, gesprungen) und endet auf der Hose. Sie kommen zu den Slots unten dazu und sollen die 3–5 Ausreißer bringen. Konzepte, Tricks und Sicherheit stehen in der [Video-Bibel](https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775), die Dreh- und Post-Aufgaben im Docket.
+
 ### 9.1 Slots
 
 | Slot | Inhalt | Zeit | Länge (Arbeitsregel) |

@@ -1,6 +1,7 @@
 # Berlin vor Ort · Time Travel
 
 Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
+**Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
 
 **So liest du die Marker.**
 - **[belegt]**: In einem Suchtreffer dieser Sitzung gesehen, Quelle in der letzten Spalte (Nummern → Quellenliste am Ende).
@@ -55,7 +56,7 @@ Recherche für Docket Rev. 6 · Stand Mi 07.10.2026 · Claude für Ernest
 
 ### Ansprache im Laden (Vorschlag, frei sprechen)
 
-> „Hi, ich bin Ernest von Novalife, Denim aus Berlin. Ich baue gerade eine Jeans mit fünf Stickereien aus der Kreuzstich-Tradition. 100 Stück, nummeriert, Drop am 22. April. Heute habe ich nur Papier und Proben dabei, das erste Sample kommt Anfang Dezember. Darf ich es euch dann zeigen? Und zwei Fragen: Nehmt ihr Berliner Labels in Kommission? Und macht ihr Abende im Laden?“
+> „Hi, ich bin Ernest von Novalife, Denim aus Berlin. Ich baue gerade eine Jeans mit vier Stickereien aus der Kreuzstich-Tradition. 100 Stück, nummeriert, Drop am 22. April. Heute habe ich nur Papier und Proben dabei, das erste Sample kommt Anfang Dezember. Darf ich es euch dann zeigen? Und zwei Fragen: Nehmt ihr Berliner Labels in Kommission? Und macht ihr Abende im Laden?“
 
 ### Was du fragst und notierst (Blatt „Läden“)
 
@@ -218,8 +219,8 @@ Prenzlauer Berg ist hier dünn belegt. Laut den Quellen gibt es auf Kastanienall
 
 | Termin | Was es draußen gibt | Was das für dich heißt |
 |---|---|---|
-| **Sa 20.02. Shoot** | Kein goldenes Feld. Grüne Saat oder umgepflügte Erde, eventuell Stoppelfelder vom Vorjahr [Schätzung]. Sonnenuntergang in Berlin gegen ~17:35 Uhr [Schätzung, in einer Sonnen-App prüfen] | **Vorschlag „Die Hütte“:** drinnen, Teppich an der Wand (dein Familien-Teppich als echtes Requisit), **Trockenweizen** in der Vase oder als Bund, warmes Licht. Das ist die Endszene deines Spiels und braucht kein Feld. **Dazu 30 Minuten draußen** zur goldenen Stunde ~16:45–17:35 [Schätzung] auf einem abgeernteten oder winterlichen Feld. Das passt zum Serp: **„das Feld danach“, die Halme sind schon geschnitten.** Gold kommt aus dem Licht, nicht aus dem Weizen |
-| **29.03.–21.04. Countdown** | Grünes, wachsendes Feld. Seit So 28.03.2027 gilt Sommerzeit, Sonnenuntergang Ende März ~19:35 Uhr, am 22.04. ~20:15 Uhr [Schätzung, prüfen] | **Vorschlag „Das Feld wächst“:** an vier Sonntagen (28.03., 04.04., 11.04., 18.04.) dasselbe Feld von derselben Stelle zur selben Uhrzeit filmen, 10 Minuten. Am Ende ein Zeitraffer: „Das Feld wächst noch. Die Ernte auf der Jeans ist schon geschnitten.“ Ein Ausflug pro Woche statt täglich, passt zu „sonntags drehen“ |
+| **Sa 20.02. Shoot** | Kein goldenes Feld. Grüne Saat oder umgepflügte Erde, eventuell abgeerntete Felder vom Vorjahr [Schätzung]. Sonnenuntergang in Berlin gegen ~17:35 Uhr [Schätzung, in einer Sonnen-App prüfen] | **Vorschlag „Die Hütte“:** drinnen, Teppich an der Wand (dein Familien-Teppich als echtes Requisit), **Trockenweizen** in der Vase oder als Bund, warmes Licht. Das ist die Endszene deines Spiels und braucht kein Feld. **Dazu 30 Minuten draußen** zur goldenen Stunde ~16:45–17:35 [Schätzung] auf einem winterlichen Feld. Gold kommt aus dem Licht, nicht aus dem Weizen |
+| **29.03.–21.04. Countdown** | Grünes, wachsendes Feld. Seit So 28.03.2027 gilt Sommerzeit, Sonnenuntergang Ende März ~19:35 Uhr, am 22.04. ~20:15 Uhr [Schätzung, prüfen] | **Vorschlag „Das Feld wächst“:** an vier Sonntagen (28.03., 04.04., 11.04., 18.04.) dasselbe Feld von derselben Stelle zur selben Uhrzeit filmen, 10 Minuten. Am Ende ein Zeitraffer: „Das Feld wächst noch. Auf der Jeans sind die Ähren schon reif.“ Ein Ausflug pro Woche statt täglich, passt zu „sonntags drehen“ |
 | **Regel Himmel** | — | Auch bei grünem Weizen gilt die Plan-Regel 8.2: **jedes Weizen-Bild bei Sonnenuntergang, nie hellblauer Himmel über gelbem Weizen.** Trockenweizen drinnen ist unkritisch |
 | **Was du nicht tust** | — | Kein goldenes Stock- oder KI-Feld als „unser Feld“ ausgeben. Gezeigt wird, was es gibt |
 

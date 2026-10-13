@@ -1,6 +1,7 @@
 # Creator, Community, Presse, Warteliste · Time Travel
 
 Stand: Mi 07.10.2026, abends. Für Ernest. Teil der Docket-Neuplanung (Rev. 6).
+**Nachgeführt auf den Stand nach So 11.10.:** Der Serp (B) ist gestrichen. Es bleiben A, E, B2, C und Patch D (76 × 67 mm, jetzt die hintere Gürtelschlaufe), gestickt werden 4 Zonen. Schätzung: ~28.000 Stiche, ~60 € Stückkosten.
 Ziel: Warteliste 3.000 bis Do 22.04.2027, 35 Vorbestellungen (149 €) bis So 21.03., 29 Drop-Käufe (169 €) am 22.04. Ohne großes Werbebudget.
 Passt zu `markt.md` (Funnel, Wochen-Soll), `zielgruppe.md` (Segmente, heikle Wörter) und `berlin.md` (Läden, Orte, Termine). Diese Datei ergänzt sie und wiederholt sie nicht.
 
@@ -85,7 +86,7 @@ Ohne Messung weißt du am 01.11. nicht, was funktioniert. Darum hängt an jedem 
 | **Plus** | trägt etwa W31–W33 (das Sample ist W32) · Vintage, Upcycling, Handarbeit oder Stickerei im Content · Ost-Wurzeln sichtbar (Familie, Sprache, Omas Teppich), aber ohne Politik · wohnt in Berlin (Preview und Mess-Abende) |
 | **Ausschluss** | politische Inhalte in den letzten 12 Monaten, egal welche Seite · Flaggen als Statement in Bio oder Profilbild · Militär- und Kriegsästhetik · Z- oder V-Symbole · Kolovrat, Schwarze Sonne, Valknut (wie Spec 3.10) · mehr als 3 Kooperationen pro Woche · Giveaway-Accounts · Zeichen gekaufter Follower (plötzliche Sprünge, Kommentare nur Emojis) |
 
-**Warum 5k–30k als Kern:** Kleinere Accounts haben das höchste Engagement. Bei Instagram-Nano-Creatorn (1.000–10.000) liegt es bei 1,78 %, dem höchsten Wert aller Gruppen [M-Q40]. Zwischen 30.000 und 80.000 kostet jedes Paar dieselben ~63 €, aber die Absage-Quote steigt, und der Account erwartet eher Geld als ein Paar [Schätzung].
+**Warum 5k–30k als Kern:** Kleinere Accounts haben das höchste Engagement. Bei Instagram-Nano-Creatorn (1.000–10.000) liegt es bei 1,78 %, dem höchsten Wert aller Gruppen [M-Q40]. Zwischen 30.000 und 80.000 kostet jedes Paar dieselben ~60 €, aber die Absage-Quote steigt, und der Account erwartet eher Geld als ein Paar [Schätzung].
 
 ### 2.2 Wie du sie findest, ohne Scraping
 
@@ -133,13 +134,13 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 **Abweichung vom alten Docket, du entscheidest:** Rev. 5 hat die Anfrage am Mi 20.01. und die Anproben ab Mo 25.01. Dann kommen die Clips Ende Januar, nach der ersten Welle der Vorbestellung. Vorbestellungen verlaufen U-förmig: Start und Ende tragen, die Mitte ist schwach [M-Q31]. Mit der Preview am 12.01. treffen die Clips den Start. Die zwei alten Aufgaben werden an derselben Stelle umgewidmet (Abschnitt 8).
 
-**Warum nur eine Größe:** Bis zur Lieferung (~30.03.) gibt es nur das Proto und das PP-Sample in W32. Wer W32 trägt, probiert an. Alle anderen filmen die Details (Münztasche, goldene Fäden, Serp, Patch) und messen ihre Lieblingsjeans an der Mess-Station (6.3). Ihr eigenes Paar kommt im April in ihrer Größe.
+**Warum nur eine Größe:** Bis zur Lieferung (~30.03.) gibt es nur das Proto und das PP-Sample in W32. Wer W32 trägt, probiert an. Alle anderen filmen die Details (Münztasche, goldene Fäden, Patch als Gürtelschlaufe) und messen ihre Lieblingsjeans an der Mess-Station (6.3). Ihr eigenes Paar kommt im April in ihrer Größe.
 
 ### 2.5 Was sie bekommen und was es kostet
 
 | Was | Kosten für dich |
 |---|---|
-| 1 Paar NVL-TT-01 in ihrer Größe, im April. Die Nummer kommt direkt nach den Vorbestellungen (Plan, 01.10.) | ~63 € Stückkosten, 5 Paare = ~315 €. Die 5 Paare sind im Plan schon abgezogen (93 verkäuflich) |
+| 1 Paar NVL-TT-01 in ihrer Größe, im April. Die Nummer kommt direkt nach den Vorbestellungen (Plan, 01.10.) | ~60 € Stückkosten (Schätzung), 5 Paare = ~300 €. Die 5 Paare sind im Plan schon abgezogen (93 verkäuflich) |
 | Creator-Preview am 12.01. und Einladung zum Drop-Abend | Getränke [Schätzung 20–40 €, nicht im Budget] |
 | Eigener Link mit Zähler. Du sagst ihnen ihre Zahl | 0 € |
 | **Option, du entscheidest:** Wer bis 21.04. die meisten bestätigten Anmeldungen bringt, bekommt zusätzlich einen Zipper | ~45 €. Gegenrechnung: Der Zipper wird nach dem Drop gefertigt und bindet vorher kein Kapital, Schwellen unverändert |
@@ -150,7 +151,7 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 **Schriftlich festhalten** (eine DM reicht): was sie bekommen, was abgemacht ist, das Zeitfenster, die Kennzeichnung, und ob du ihren Clip **reposten** darfst. **In Werbung** (bezahlte Anzeigen) nutzt du ihn nur mit eigener, ausdrücklicher Zustimmung [ungeprüft, Urheber- und Persönlichkeitsrecht]. Fotos von ihnen nur mit Einwilligung (`berlin.md`, Abschnitt 5).
 
-**Steuer:** Am Di 13.10. hast du den Steuer-Termin. Nimm die Frage mit: „Wie buche ich 5 Jeans, die ich gegen einen Post verschenke (Kosten ~63 €, Preis 169 €)?“ Für die Creator ist das Paar vermutlich eine Einnahme, das ist ihre Sache, du sagst es ihnen aber fair [ungeprüft].
+**Steuer:** Am Di 13.10. hast du den Steuer-Termin. Nimm die Frage mit: „Wie buche ich 5 Jeans, die ich gegen einen Post verschenke (Kosten ~60 €, Preis 169 €)?“ Für die Creator ist das Paar vermutlich eine Einnahme, das ist ihre Sache, du sagst es ihnen aber fair [ungeprüft].
 
 ### 2.6 Kennzeichnung als Werbung · Rechtslage in Deutschland
 
@@ -214,7 +215,7 @@ Ins Blatt kommt: Handle, Plattform, Follower, Engagement %, Ø Views, Themen, Be
 
 **Prompt für Claude (Mo 04.01., 5 Minuten): Briefing-Karte**
 
-> Schreib mir eine Karte für die Creator-Preview am 12.01. (A6, deutsch, Du-Form): was Time Travel ist (2 Sätze), die 5 Stickstellen in je einem Satz, Termine (Vorbestellung 14.01., 19:00, 149 €; Drop 22.04., 19:00, 169 €), Kennzeichnung („Anzeige“ am Anfang + Label), was nicht geht (keine Länder, Flaggen, Politik; nie „authentisch“; Lebensbaum nie „slawisch“). Sprachregel: Subjekt ist das Muster.
+> Schreib mir eine Karte für die Creator-Preview am 12.01. (A6, deutsch, Du-Form): was Time Travel ist (2 Sätze), die 4 Stickstellen und den Lebensbaum-Patch (die hintere Gürtelschlaufe) in je einem Satz, Termine (Vorbestellung 14.01., 19:00, 149 €; Drop 22.04., 19:00, 169 €), Kennzeichnung („Anzeige“ am Anfang + Label), was nicht geht (keine Länder, Flaggen, Politik; nie „authentisch“; Lebensbaum nie „slawisch“). Sprachregel: Subjekt ist das Muster.
 
 ---
 
@@ -389,7 +390,7 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 ### 5.4 Pressemappe (eine versteckte Seite `/pages/presse` plus PDF)
 
 - Pressetext, 1 Seite, deutsch und englisch
-- Factsheet: 100 Stück, nummeriert 001–100 · fünf Stickstellen · 169 €, Vorbestellung 149 € ab 14.01., 19:00 · Drop 22.04., 19:00 · Fabrik in [LAND] · ehrliche Größen W30–W38 · Zipper 139 €, Polo 79 €
+- Factsheet: 100 Stück, nummeriert 001–100 · vier Stickstellen · 169 €, Vorbestellung 149 € ab 14.01., 19:00 · Drop 22.04., 19:00 · Fabrik in [LAND] · ehrliche Größen W30–W38 · Zipper 139 €, Polo 79 €
 - 6 Fotos, 3 hoch und 3 quer, ohne Text (ab Shoot 20.02., davor Proto-Fotos vom 08.12.). **Bis 03.12. nur Prozessfotos.**
 - 1 Foto von dir. Kurzbio in 3 Sätzen
 - Kontakt: deine Mail und Telefonnummer, du entscheidest, ob die Nummer drauf soll
@@ -421,7 +422,7 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 >
 > Hi [NAME],
 >
-> I'm Ernest, founder of Novalife in Berlin. My first own jean: 12 oz rigid denim, five embroidered zones placed on the cut panels before sewing, and nine gold threads set by hand after the wash. The label states the measured waist, nothing else.
+> I'm Ernest, founder of Novalife in Berlin. My first own jean: 12 oz rigid denim, four embroidered zones placed on the cut panels before sewing, and nine gold threads set by hand after the wash. The label states the measured waist, nothing else.
 >
 > 100 pieces, numbered. Pre-order opens Jan 14 and decides whether the run gets made.
 > Photos and specs: [LINK]. Happy to send detail shots or answer questions.
@@ -466,7 +467,7 @@ Redaktionen nehmen keine Produkte, sondern Geschichten mit einer überprüfbaren
 | Wer | 10–12 Leute: Gäste vom Papierabend plus je ein Freund, Antworten von den Hochschulen, Nano-Creator aus deiner Longlist |
 | Wo | bei dir, oder du fragst einen Ort, der Stick-Workshops macht, z. B. den Kunstraum Heartspace, Danziger Straße 172, Prenzlauer Berg [Z-Q59] [vor Ort prüfen, ob er Räume vermietet oder mitmacht]. Anfrage am Do 05.11. |
 | Material | Denim-Reste, Stickgarn Rot und Weiß, Nadeln, 10 Stickrahmen. Einkauf am Sa 21.11. [Preise vor Ort prüfen]. Optional ein Unkostenbeitrag |
-| **Was nicht vorkommt** | **Kein Weizen, keine Ähren, kein Serp, kein Stoppelfeld.** Sa 28.11. ist Holodomor-Gedenktag [Z-Q51]. `zielgruppe.md` rät in der Woche 23.–29.11. von jedem Ernte- und Sichel-Post ab. Nur Raute und Achtstern |
+| **Was nicht vorkommt** | **Kein Weizen, keine Ähren.** Sa 28.11. ist Holodomor-Gedenktag [Z-Q51]. `zielgruppe.md` rät in der Woche 23.–29.11. von jedem Ernte-Post ab. Nur Raute und Achtstern |
 | Ergebnis | 10–12 Anmeldungen plus Links [Schätzung], Hände-und-Nadel-Content, erste Nano-Kontakte |
 
 ### 6.3 Mess- und Anprobe-Abende · Sa 16.01., Sa 23.01., Sa 20.03., je 18:00–21:00
@@ -513,7 +514,7 @@ Belegt ist nur, dass es diese Modehochschulen in Berlin gibt: **HTW Berlin (Mode
 >
 > Hallo [Team / Name von der Website],
 >
-> ich bin Ernest Veskimäe, Gründer von Novalife in Berlin. Ich bringe gerade meine erste eigene Jeans in die Produktion: 100 Stück, fünf Stickzonen auf dem Zuschnitt, Tech Pack, Fabrikauswahl, Vorbestellung.
+> ich bin Ernest Veskimäe, Gründer von Novalife in Berlin. Ich bringe gerade meine erste eigene Jeans in die Produktion: 100 Stück, vier Stickzonen auf dem Zuschnitt, Tech Pack, Fabrikauswahl, Vorbestellung.
 >
 > Drei Angebote, falls es für Ihre Studierenden interessant ist:
 > 1. Ein 20-Minuten-Einblick in ein Seminar: vom Papiertest zum Tech Pack, mit echten Unterlagen.

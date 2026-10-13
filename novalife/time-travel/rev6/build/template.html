@@ -1,0 +1,125 @@
+<title>Time Travel Drop Docket</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+{{CSS}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="brandrow">
+    <span class="eyebrow">Novalife · Berlin · seit 2023</span>
+    <span class="eyebrow">Drop Docket · Rev. 6 · {{REVDATE}}</span>
+  </div>
+  <h1 class="display">Time<br>Trav<span class="fade">el</span></h1>
+  <div class="subline"><p>{{SUBLINE}}</p></div>
+
+  <div class="cd">
+    <div>
+      <div class="cd-days"><span class="num mono" id="cdDays">—</span><span class="lbl">Tage bis Drop</span></div>
+      <div class="cd-clock" id="cdClock">--:--:--</div>
+    </div>
+    <div class="cd-meta">
+      <div class="cd-target">Drop <b>Donnerstag, 22. April 2027 · 19:00</b> · Warteliste ab 18:00<br><span id="weekOf">Woche —</span></div>
+      <div>
+        <div class="megarow"><span>Fortschritt gesamt</span><b><span id="megaPct">0</span>% · <span id="megaCount">0/0</span></b></div>
+        <div class="mega"><i id="megaBar"></i></div>
+        <div class="savenote" id="saveNote" style="margin-top:7px">Fortschritt wird gespeichert …</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="jump" aria-label="Sprungleiste">
+  <a href="#today">Heute</a><a href="#next">Nächste 7 Tage</a><a href="#plan">Alle 32 Wochen</a><a href="#cockpit">Cockpit</a><a href="#urteil">Urteil</a><a href="#zielgruppe">Zielgruppe</a><a href="#design">Design</a><a href="#referenz">Referenz</a>
+</nav>
+
+<div id="today">
+  <div class="tdhead">
+    <span class="big" id="tdTitle">Heute</span>
+    <span class="dt" id="tdDate">—</span>
+    <span class="wno" id="tdWeek">—</span>
+  </div>
+  <div class="tdgoal" id="tdGoal">—</div>
+  <div class="tdmeta" id="tdMeta"></div>
+  <ul id="todayList"></ul>
+</div>
+
+<div id="next">
+  <div class="nxhead"><span class="big">Die nächsten 7 Tage</span><a class="nxall" href="#plan">Ganzer Plan bis zum Drop: {{TASKCOUNT}} Aufgaben in 32 Wochen ↓</a></div>
+  <div id="nextDays"></div>
+</div>
+
+<div class="legend">
+  <span><span class="tg B">BUILD</span>Produkt, Fabrik, Sample</span>
+  <span><span class="tg C">CONTENT</span>Videos, Posts, E-Mails</span>
+  <span><span class="tg V">VERKAUF</span>Warteliste, Creator, Berlin, Presse</span>
+  <span><span class="tg D">ENTSCHEIDUNG</span>hier legst du etwas fest</span>
+  <span><span class="tg A">ADMIN</span>Shop, Recht, Steuer, Versand</span>
+  <span><span class="tg S">SPIEL</span>nur wenn du es baust · <a href="#website" style="color:inherit">Bauplan</a></span>
+  <span><span class="chip plus">Grind+</span>optional, wenn du mehr Zeit hast</span>
+  <span><span class="chip cl">mit Claude</span>Prompt zum Kopieren</span>
+</div>
+
+<div class="phbar" id="phbar"></div>
+
+<section id="plan">
+  <div class="sechead"><span class="n">01</span><h2>Der ganze Plan · alle 32 Wochen</h2><span class="note">{{PLANNOTE}}</span></div>
+  <div class="planbar">
+    <input type="search" id="planq" placeholder="Suchen: Fabrik, Mauerpark, V014, Shopify …" aria-label="Aufgaben durchsuchen">
+    <button type="button" class="pbtn" id="openAll">Alle Wochen aufklappen</button>
+    <label for="planplus"><input type="checkbox" id="planplus" checked> Grind+-Aufgaben zeigen</label>
+    <span class="hits" id="planhits"></span>
+  </div>
+  <div id="weeks"></div>
+</section>
+
+<section id="cockpit">
+  <div class="sechead"><span class="n">02</span><h2>Zahlen-Cockpit</h2><span class="note">Jeden Sonntag drei Zahlen eintragen. Das Cockpit sagt dir, ob du im Plan bist und was du sonst tust.</span></div>
+  <p class="intro">Die Ziele sind die Wochenwerte aus der Strategie, in Klammern der Alarmwert. Trag am Sonntagabend die echten Zahlen ein: bestätigte Warteliste (Shopify → Kunden, „E-Mail-Marketing: abonniert“), Follower TikTok und Instagram zusammen als Gesamtzahl (die Seite zieht den Startwert ab), Zusagen aus dem Blatt „Die ersten 35“ (nur Spalte „Zusage“), bezahlte Jeans-Bestellungen. <b>Grün</b>: alles im Soll. <b>Gelb</b>: unter Soll, aber über Alarm, dann greifen die Gegenmaßnahmen. <b>Rot</b>: unter Alarm.</p>
+  <div class="cphead" id="cphead"></div>
+  <div class="planbar" id="cpstart"></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Sonntag</th><th class="num">Warteliste Soll</th><th>Ist</th><th class="num">Follower neu Soll</th><th>Ist gesamt</th><th class="num">Zusagen Soll</th><th>Ist</th><th class="num">Jeans bezahlt Soll</th><th>Ist</th><th>Status</th></tr></thead>
+    <tbody id="cprows"></tbody>
+  </table></div>
+  <div class="gate" id="cpgate"></div>
+</section>
+
+<section id="urteil">
+  <div class="sechead"><span class="n">03</span><h2>Das Urteil</h2><span class="note">Einmal lesen. Dann jeden Tag oben „Heute“ abarbeiten.</span></div>
+<div class="kpis" style="margin-bottom:22px">
+{{KPI_TILES}}
+</div>
+{{URTEIL}}
+</section>
+
+<section id="zielgruppe">
+  <div class="sechead"><span class="n">04</span><h2>Die Zielgruppe</h2><span class="note">Wer die ersten 35 Paare kauft und was sie hören muss.</span></div>
+{{ZIELGRUPPE}}
+</section>
+
+<section id="design">
+  <div class="sechead"><span class="n">05</span><h2>Das Design · v1.7 und Vorschläge</h2><span class="note">Papiertest 3 am Do 08.10., Freeze am Fr 09.10. Du entscheidest.</span></div>
+{{DESIGN}}
+</section>
+
+<section id="referenz">
+  <div class="sechead"><span class="n">06</span><h2>Referenz</h2><span class="note">Nachschlagen, nicht durchlesen. Die Aufgaben verweisen hierher.</span></div>
+{{REFS}}
+</section>
+
+<footer>
+{{FOOTER}}
+</footer>
+</div>
+
+<script>
+var WEEKS = {{WEEKS_JSON}};
+var KPI = {{KPI_JSON}};
+</script>
+<script>
+{{APPJS}}
+</script>

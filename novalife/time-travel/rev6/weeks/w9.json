@@ -8,7 +8,7 @@
   {"k": "Posts", "ziel": "3 Kern + 2 Grind+ (Karussell/Variante)"},
   {"k": "Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 14.01.“)", "ziel": "11"},
   {"k": "Kassen-Ampel K − F − R", "ziel": "grün ≥ 300 €"},
-  {"k": "Stiche", "ziel": "≤ 33.000"}
+  {"k": "Stiche", "ziel": "≤ 28.000"}
  ],
  "days": {
   "2026-11-09": [
@@ -19,13 +19,13 @@
     "s": [
      "Mail der Fabrik öffnen: Vorschau je Element (Bild oder PDF) mit echter Stichzahl, Zahl der Fadenschnitte und Farbwechsel. Fehlt eine Angabe: nachfordern, denn Fadenschnitte und Farbwechsel kosten Maschinenzeit.",
      "Die drei Werte je Element ins Blatt „Fabriken“, Spalte „Digitizing“. Summe der Stiche oben.",
-     "Prompt unten mit Screenshots an Claude: Maße und Motive gegen das Elementblatt und Spec Rev. 14, Stichart (echter Kreuzstich oder feine Füllung bei A, C und E; Füllung ist Standard), Farben B/B2 wie am 07.11. entschieden.",
-     "Liegt die Summe über 33.000: heute nichts freigeben, morgen die Gegenrechnung.",
+     "Prompt unten mit Screenshots an Claude: Maße und Motive gegen das Elementblatt und Spec Rev. 14, Stichart (echter Kreuzstich oder feine Füllung bei A, C und E; Füllung ist Standard), Farben des B2-Bands wie am 07.11. entschieden.",
+     "Liegt die Summe über 28.000: heute nichts freigeben, morgen die Gegenrechnung.",
      "Abweichungen als nummerierte Liste mit Screenshot an die Fabrik. Alles gut: „Preview looks good, approval follows tomorrow.“",
      "Darfst du die Vorschau zeigen (Antwort vom 03.11.)? Ja: jetzt Bildschirmaufnahme für V013 (Cmd + Shift + 5, 3 Takes, langsamer Zoom). Kommt die Vorschau nicht bis heute: freundlich nachfragen und den Termin aus der Bestätigung zitieren."
     ],
     "f": "Stichzahl, Fadenschnitte und Farbwechsel je Element im Blatt stehen und die Korrekturliste oder ein „Passt“ an die Fabrik raus ist.",
-    "p": "Projekt Time Travel, Docket W9, Mo 09.11. Hier ist die Digitizing-Vorschau der Fabrik für die Elemente A–E mit Stichzahl, Fadenschnitten und Farbwechseln: [Screenshots, Zahlen]. Vergleiche mit dem Elementblatt und Spec Rev. 14: Maße, Motive, Stichart (Füllung als Standard), Dichte, Farben B/B2. Stichdeckel 33.000 gesamt. Gib mir eine nummerierte Korrekturliste auf Englisch und sag mir, welche Elemente die meisten Fadenschnitte haben und wie man sie senkt, ohne das Motiv zu ändern.",
+    "p": "Projekt Time Travel, Docket W9, Mo 09.11. Hier ist die Digitizing-Vorschau der Fabrik für die Stickzonen A, E, B2 und C mit Stichzahl, Fadenschnitten und Farbwechseln: [Screenshots, Zahlen]. Vergleiche mit dem Elementblatt und Spec Rev. 14: Maße, Motive, Stichart (Füllung als Standard), Dichte, Farben des B2-Bands. Stichdeckel 28.000 gesamt. Gib mir eine nummerierte Korrekturliste auf Englisch und sag mir, welche Elemente die meisten Fadenschnitte haben und wie man sie senkt, ohne das Motiv zu ändern.",
     "o": [
      {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Fabriken“, Spalte „Digitizing“"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
@@ -50,12 +50,12 @@
      "plattform": "TikTok + Reels + Shorts",
      "hook_en": "My pattern just became machine code.",
      "hook_de": "Mein Muster ist gerade Maschinen-Code geworden.",
-     "shots": ["Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose)", "Echte Stichzahl groß einblenden", "Vergleich: estimate ~33,000 vs. real [ZAHL]", "Deine Reaktion, ein Satz"],
+     "shots": ["Bildschirmaufnahme der Digitizing-Vorschau (Stichsimulation auf weißem Grund, keine Hose)", "Echte Stichzahl groß einblenden", "Vergleich: estimate ~28,000 vs. real [ZAHL]", "Deine Reaktion, ein Satz"],
      "ort": "Mac · Bildschirmaufnahme (Cmd + Shift + 5), Gesicht und Hände vom So 08.11.",
      "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
-     "text": "0–2 s Hook EN, „~33,000 vs. [ZAHL]“, Untertitel",
+     "text": "0–2 s Hook EN, „~28,000 vs. [ZAHL]“, Untertitel",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Day 29. A digitizer turns a drawing into a stitch file: every needle point, every colour change. My estimate was ~33,000 stitches. The real count: [ZAHL]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidery #novalifetimetravel",
+     "caption": "Day 29. A digitizer turns a drawing into a stitch file: every needle point, every colour change. My estimate was ~28,000 stitches. The real count: [ZAHL]. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidery #novalifetimetravel",
      "check": "Nur Stichsimulation, kein Garment-Mockup, Datei nur mit Erlaubnis der Fabrik, echte Zahl, CTA der Phase."
     },
     "o": [{"n": "CapCut", "u": "https://www.capcut.com"}, {"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "YouTube", "u": "https://www.youtube.com"}]
@@ -64,17 +64,17 @@
   "2026-11-10": [
    {
     "c": "D",
-    "t": "09:00 · Gate: Digitizing freigeben (≤ 33.000 Stiche)",
+    "t": "09:00 · Gate: Digitizing freigeben (≤ 28.000 Stiche)",
     "m": 20,
     "s": [
      "Korrekturen von gestern drin? Summe der Stiche aus dem Blatt „Fabriken“.",
-     "≤ 33.000: ohne Rückfrage freigeben. Mail: „Digitizing A–E approved for stitch-out. Total [ZAHL] stitches. Please confirm the stitch-out date.“",
-     "> 33.000: noch nicht freigeben. Prompt unten an Claude: Stückkosten → Kapitalbedarf → Schwellen 01.02. und 19.03. neu. Dann entscheiden: Füllung statt echtem Kreuzstich (Standard), kleinerer Serp oder Mehrkosten tragen.",
+     "≤ 28.000: ohne Rückfrage freigeben. Mail: „Digitizing A, B2, C, E approved for stitch-out. Total [ZAHL] stitches. Please confirm the stitch-out date.“",
+     "> 28.000: noch nicht freigeben. Prompt unten an Claude: Stückkosten → Kapitalbedarf → Schwellen 01.02. und 19.03. neu. Dann entscheiden: Füllung statt echtem Kreuzstich (Standard), Münztasche offen (V4b) oder Mehrkosten tragen.",
      "Füllung ist Standard. Echter Kreuzstich nur, wenn er unter dem Deckel bleibt.",
      "Stichzahl je Element und Endpreis-Wirkung ins Blatt „Fabriken“, Gate-Ergebnis ins Blatt „Gates“."
     ],
     "f": "die schriftliche Freigabe (oder die Entscheidung nach Gegenrechnung) an die Fabrik raus ist und die Stichzahl im Blatt steht.",
-    "p": "Projekt Time Travel, Docket W9, Di 10.11. Die Digitizing-Vorschau hat [ZAHL] Stiche, mein Deckel ist 33.000. Preis der Fabrik je 1.000 Stiche: [€]. Rechne mir: neue Stückkosten, Kapitalbedarf bis zur Restzahlung, Wirkung auf die Schwellen Mo 01.02. und Fr 19.03. Vergleiche drei Wege: Füllung statt echtem Kreuzstich, kleinerer Serp, Mehrkosten tragen. Empfiehl einen und schreib mir die Mail an die Fabrik auf Englisch.",
+    "p": "Projekt Time Travel, Docket W9, Di 10.11. Die Digitizing-Vorschau hat [ZAHL] Stiche, mein Deckel ist 28.000. Preis der Fabrik je 1.000 Stiche: [€]. Rechne mir: neue Stückkosten, Kapitalbedarf bis zur Restzahlung, Wirkung auf die Schwellen Mo 01.02. und Fr 19.03. Vergleiche drei Wege: Füllung statt echtem Kreuzstich, Münztasche offen (V4b, −3,30 bis −3,60 €/Paar), Mehrkosten tragen. Empfiehl einen und schreib mir die Mail an die Fabrik auf Englisch.",
     "o": [
      {"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blätter „Fabriken“, „Gates“"},
      {"n": "Claude · Projekt „novalife time travel“", "u": "https://claude.ai"}
@@ -254,29 +254,29 @@
    },
    {
     "c": "C",
-    "t": "18:00 · Grind+ · V119 „Wie ich die Höhe gefunden habe“ (nur bei gelockerter Regel)",
-    "m": 10,
+    "t": "18:00 · Grind+ · V119 „Wie ich die Größe der Münztasche gefunden habe“",
+    "m": 20,
     "plus": true,
     "s": [
-     "Hast du am 07.11. die Bildregel „keine Seitenansicht links“ gelockert? Nein → statt V119 eine Variante deines besten Videos (neuer Hook, neues erstes Bild).",
-     "Ja → Material vom Papiertest 3 (08.10.) schneiden: Papier bei 40, 45, 50 cm, Spiegel von vorn, Entscheidung mit Lineal. Ergebnis in die Caption.",
+     "Material: E 50 mm aus NVL_Druckvorlage_1zu1.pdf (Seite 1) und E 62 mm aus NVL_Druckvorlage_v15.pdf (Seite 1), in 100 % drucken, ausschneiden, nacheinander mit Malerkrepp auf deine Münztasche. Dazu das Foto „A und E nah“ vom Papiertest 3.",
+     "Drehen: Spiegel von vorn, je Größe ein Clip, dann Lineal am Quadrat (37 × 37 gegen 45 × 45 Kreuzstiche). CapCut 15–25 s, Hook-Text Sek. 0–2.",
      "18:00 TikTok, danach Reel und Short, Story mit Link-Sticker, 5 Min. Kommentare."
     ],
-    "f": "V119 (bei gelockerter Regel) oder die Variante online ist.",
+    "f": "V119 auf TikTok, Instagram und YouTube online ist.",
     "v": {
      "id": "V119",
      "slot": "Grind+",
      "dauer": "15–25 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "40 or 50 cm? How I placed one embroidery.",
-     "hook_de": "40 oder 50 cm? Wie ich eine Stickerei platziert habe.",
-     "shots": ["Papiertest-Clip: Papier bei 40, 45, 50 cm", "Spiegel von vorn", "Entscheidung mit Lineal"],
-     "ort": "Wohnung · Flurspiegel, Ganzkörper, Licht von vorn (Material vom 08.10.)",
+     "hook_en": "50 or 62 mm? How I sized one embroidery.",
+     "hook_de": "50 oder 62 mm? Wie ich eine Stickerei bemessen habe.",
+     "shots": ["Papier-Quadrat E 50 mm auf der Münztasche, Spiegel von vorn", "Papier-Quadrat E 62 mm auf derselben Münztasche, Spiegel von vorn", "Lineal am Quadrat: 37 × 37 gegen 45 × 45 Kreuzstiche"],
+     "ort": "Wohnung · Flurspiegel, rechte Vordertasche nah, Licht von vorn",
      "ton": "O-Ton (deine Stimme) + Untertitel, Musik nur leise aus der Business-Bibliothek",
-     "text": "0–2 s Hook EN, „40 · 45 · 50 cm“",
+     "text": "0–2 s Hook EN, „50 · 62 mm“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price.",
-     "caption": "I taped the same paper at three heights and walked. [Ergebnis] won. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
-     "check": "Nur bei gelockerter Bildregel, nur Papier, B und B2 nie im selben Bild."
+     "caption": "Version 1.4 had a 50 mm square on the coin pocket. I printed both sizes and taped them on. Now it's 62 mm, 45 by 45 cross-stitches, and fills almost the whole pocket. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Nur Papier, kein fertiges Teil, kein roter Hintergrund, Subjekt ist das Muster."
     },
     "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}]
    }
@@ -338,7 +338,7 @@
      "text": "0–2 s Hook EN, „23 mm · 17 stitches“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
      "caption": "Zigzag = water. It frames the cross-stitch band on the right front pocket: 23 mm, 17 stitches high. White next to red, so it reads from three metres. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #crossstitch #denim #novalifetimetravel",
-     "check": "Bedeutung nur mit Beleg, nur Papier, kein roter Hintergrund, keine Seitenansicht links."
+     "check": "Bedeutung nur mit Beleg, nur Papier, kein roter Hintergrund."
     },
     "o": [{"n": "TikTok", "u": "https://www.tiktok.com"}, {"n": "Instagram", "u": "https://www.instagram.com"}, {"n": "YouTube", "u": "https://www.youtube.com"}]
    }
@@ -404,14 +404,14 @@
    },
    {
     "c": "D",
-    "t": "10:20 · Gate: Liste ≥ 270 · Zusagen ≥ 11 · Stiche ≤ 33.000",
+    "t": "10:20 · Gate: Liste ≥ 270 · Zusagen ≥ 11 · Stiche ≤ 28.000",
     "m": 10,
     "s": [
      "Liste ≥ 270 bestätigt: weiter. 110–269 (G2): bestes Video in 2 Varianten nachdrehen, Kommentar-Zeit 15′, nichts streichen. < 110 (G1): Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story + DM, einen Abend in 14 Tagen festmachen (Stick-Abend 27.11. zählt), Claude die 3 schwächsten Videos zeigen.",
      "Zusagen ≥ 11 (nur Spalte „Zusage“): weiter. Darunter: jedem „Vielleicht“ persönlich schreiben, mit Größe und Einladung zum Stick-Abend.",
-     "Stiche ≤ 33.000 freigegeben: weiter. Darüber: Gegenrechnung vom 10.11. umgesetzt? Sonst Füllung statt echtem Kreuzstich bis Mo.",
+     "Stiche ≤ 28.000 freigegeben: weiter. Darüber: Gegenrechnung vom 10.11. umgesetzt? Sonst Füllung statt echtem Kreuzstich bis Mo.",
      "G3: Anmeldungen je 1.000 Views < 1,0 → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story. G4: Seite < 6,6 % zwei Sonntage → echtes Foto oben, nur E-Mail Pflicht.",
-     "G5/G6: Video ≥ 2 × Median → 5 Varianten in 14 Tagen; 3 schwache im selben Slot → Reserve-Format. G7: ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, 2 Wochen kein Ernte- oder Serp-Bild (die Sperre 23.–29.11. gilt ohnehin). G9: > 70 % warme Tags → 3 neue Hooks, Karussell „Miss deine Jeans“ (Clip vom 12.11.).",
+     "G5/G6: Video ≥ 2 × Median → 5 Varianten in 14 Tagen; 3 schwache im selben Slot → Reserve-Format. G7: ≥ 3 Kommentare „Sowjet“, „Wappen“, „Holodomor“ → danken, zählen, 2 Wochen kein Ernte-Bild (die Sperre 23.–29.11. gilt ohnehin). G9: > 70 % warme Tags → 3 neue Hooks, Karussell „Miss deine Jeans“ (Clip vom 12.11.).",
      "G12 Kasse gelb: keine Ausgaben außerhalb von Plan 3 · rot: Ausgaben-Stopp-Liste, Notfall-Leiter."
     ],
     "f": "jede Gate-Zeile mit grün/gelb/rot im Blatt „Gates“ steht und jede ausgelöste Maßnahme einen Termin in W10 hat.",

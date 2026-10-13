@@ -109,11 +109,11 @@
    },
    {
     "c": "C",
-    "t": "18:00 · V056 posten: ORIGIN „Das Feld nach der Ernte“ (sonst V110)",
+    "t": "18:00 · V056 posten: ORIGIN „Links die Ernte“ (sonst V110)",
     "m": 20,
     "s": [
-     "Bedingung prüfen: Serp-Test bestanden UND Bildregel „keine Seitenansicht links“ am Sa 07.11. bewusst gelockert UND Gate G7 der letzten 2 Wochen nicht ausgelöst. Fehlt eins: Reserve V110 (Achtstern-Karussell, 4 Slides) posten, Datei W19/final/V110.",
-     "Die Ähren-Tasche (B2) darf nicht im selben Bild sein. Kein roter Hintergrund, kein Stern neben dem Serp.",
+     "Bedingung prüfen: Gate G7 in den letzten 2 Wochen nicht ausgelöst. Ist es ausgelöst, gilt „kein Ernte-Bild“: Reserve V110 (Achtstern-Karussell, 4 Slides) posten, Datei W19/final/V110.",
+     "Drei Ähren, nie „fünf“. Die Goldfäden einmal in Bewegung zeigen. Kein roter Hintergrund, kein Erntewerkzeug als Requisite.",
      "17:55 hochladen (TikTok Business-Konto, Musik nur Commercial Music Library), Caption unten. Bei V110 die Caption aus dem Kasten „Reserve“ im Schritt darunter.",
      "Reserve-Caption V110: „The eight-point star stands for the sun. Mine: 27 × 27 stitches. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidery #novalifetimetravel“",
      "18:00 posten, gleich danach Reel auf Instagram und Short auf YouTube, Reel in die Story mit Link-Sticker.",
@@ -125,19 +125,19 @@
      "slot": "ORIGIN",
      "dauer": "12–20 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Why the stubble on my jeans is already cut.",
-     "hook_de": "Warum die Halme auf meiner Jeans schon geschnitten sind.",
+     "hook_en": "Why the harvest sits on my back pocket.",
+     "hook_de": "Warum die Ernte auf meiner Gesäßtasche sitzt.",
      "shots": [
-      "Makro: Serp an der Seitennaht im Streiflicht, Hose auf Bügel",
-      "Finger zeigt auf die geschnittenen Halme",
-      "Text im Bild: „the field after“"
+      "Makro linke Gesäßtasche im Streiflicht: drei Ähren auf dem roten Band, Hose auf Bügel",
+      "Finger fährt die Ähren entlang, dann schwingen die Goldfäden",
+      "Text im Bild: „left: the harvest“"
      ],
      "ort": "Wohnung · weiße Wand oder Tür, Hose auf Bügel, Streiflicht vom Fenster",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
-     "text": "0–2 s Hook EN, Untertitel, „the field after“",
+     "text": "0–2 s Hook EN, Untertitel, „left: the harvest“",
      "cta": "Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left.",
-     "caption": "On the side seam: the field after, with the stubble already cut. The pattern tells the year from sowing to harvest. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidereddenim #denim #novalifetimetravel",
-     "check": "Nur bei bestandenem Serp-Test und gelockerter Seitenansicht-Regel; B2 nicht im Bild, kein Rot, keine echte Sichel, „Das Feld danach“ statt Werkzeugname."
+     "caption": "Left back pocket: three wheat ears on a red band, nine gold threads below, set by hand after the wash. Right side the pattern, left side the harvest. Pre-order in bio. Pre-order price €149 until 21.03. · from 22.04. €169. [Y] of 35 left. #crossstitch #folkembroidery #embroidereddenim #denim #novalifetimetravel",
+     "check": "Nur ohne G7 in den letzten 2 Wochen; drei Ähren, nie „fünf“; kein roter Hintergrund; kein Erntewerkzeug im Bild; Bedeutung nur mit Beleg."
     },
     "o": [
      {"n": "TikTok", "u": "https://www.tiktok.com", "h": "Business-Konto, Commercial Music Library"},

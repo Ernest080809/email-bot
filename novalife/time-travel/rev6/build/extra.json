@@ -1482,50 +1482,6 @@
    }
   ]
  },
- "2027-02-24": {
-  "append": [
-   {
-    "c": "C",
-    "t": "19:00 · REWIND #15 „Gleicher Ort, 100 Jahre später“ posten",
-    "m": 15,
-    "s": [
-     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
-     "Ersten Kommentar anpinnen: Link zur Warteliste.",
-     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
-     "In den ersten 30 Minuten auf Kommentare antworten.",
-     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
-    ],
-    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
-    "o": [
-     {
-      "n": "Video-Bibel",
-      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
-      "h": "Konzept, Trick, Sicherheit"
-     }
-    ],
-    "v": {
-     "id": "R15",
-     "slot": "Mi 24.02. 19:00",
-     "dauer": "10 s",
-     "plattform": "TikTok + Instagram Reels",
-     "hook_en": "Same spot. 100 years later.",
-     "hook_de": "Gleicher Ort, 100 Jahre später.",
-     "shots": [
-      "Altes Foto, langsamer Zoom",
-      "Gleicher Blickwinkel heute, du trittst ins Bild",
-      "Totale: du gehst auf die Kamera zu",
-      "Endkarte"
-     ],
-     "ort": "ein Berliner Ort, von dem es ein frei nutzbares altes Foto gibt",
-     "ton": "Grammophon-Knistern, dann der Beat",
-     "text": "Jahr im alten Bild · Bildnachweis in der Caption · 3 Frames „RW15“ · Endkarte",
-     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
-     "caption": "Rewind #15. Same street, 100 years apart. Photo: [Bildnachweis]. Time Travel · 24.06.2027",
-     "check": "Lizenz des Fotos geprüft und genannt · Codewort RW15"
-    }
-   }
-  ]
- },
  "2027-02-25": {
   "append": [
    {
@@ -1647,7 +1603,51 @@
     ],
     "v": {
      "id": "R15",
-     "slot": "Post Mi 24.02. 19:00",
+     "slot": "Post Mi 10.03. 19:00",
+     "dauer": "10 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "Same spot. 100 years later.",
+     "hook_de": "Gleicher Ort, 100 Jahre später.",
+     "shots": [
+      "Altes Foto, langsamer Zoom",
+      "Gleicher Blickwinkel heute, du trittst ins Bild",
+      "Totale: du gehst auf die Kamera zu",
+      "Endkarte"
+     ],
+     "ort": "ein Berliner Ort, von dem es ein frei nutzbares altes Foto gibt",
+     "ton": "Grammophon-Knistern, dann der Beat",
+     "text": "Jahr im alten Bild · Bildnachweis in der Caption · 3 Frames „RW15“ · Endkarte",
+     "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
+     "caption": "Rewind #15. Same street, 100 years apart. Photo: [Bildnachweis]. Time Travel · 24.06.2027",
+     "check": "Lizenz des Fotos geprüft und genannt · Codewort RW15"
+    }
+   }
+  ]
+ },
+ "2027-03-10": {
+  "append": [
+   {
+    "c": "C",
+    "t": "19:00 · REWIND #15 „Gleicher Ort, 100 Jahre später“ posten",
+    "m": 15,
+    "s": [
+     "Auf TikTok und als Reel posten, Caption aus dem Briefing.",
+     "Ersten Kommentar anpinnen: Link zur Warteliste.",
+     "Wer das Codewort zuerst in die Kommentare schreibt, wird angepinnt.",
+     "In den ersten 30 Minuten auf Kommentare antworten.",
+     "Nach 48 Stunden Views, Anmeldungen und Codewort-Anmeldungen ins Blatt „Content“."
+    ],
+    "f": "das Video auf beiden Plattformen läuft und der Link-Kommentar angepinnt ist.",
+    "o": [
+     {
+      "n": "Video-Bibel",
+      "u": "https://claude.ai/code/artifact/dc9851e3-9c08-43fc-b95f-f7047cc86775",
+      "h": "Konzept, Trick, Sicherheit"
+     }
+    ],
+    "v": {
+     "id": "R15",
+     "slot": "Mi 10.03. 19:00",
      "dauer": "10 s",
      "plattform": "TikTok + Instagram Reels",
      "hook_en": "Same spot. 100 years later.",

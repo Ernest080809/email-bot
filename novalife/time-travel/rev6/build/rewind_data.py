@@ -216,7 +216,7 @@ V = [
       caption="Rewind #14. Embroidered by machine, threads set by hand. Time Travel · 24.06.2027",
       check="Licht bleibt gleich · nicht „handgestickt“ schreiben · Codewort RW14"),
  dict(id="R15", name="Gleicher Ort, 100 Jahre später", phase=3, top=False,
-      shoot=("2027-03-04", 90), post=("2027-02-24", "19:00"),
+      shoot=("2027-03-04", 90), post=("2027-03-10", "19:00"),
       trick="Match Cut", dauer="10 s",
       idee="Ein altes Foto einer Berliner Straße aus den 1920ern füllt das Bild. Du trittst genau an der Stelle aus dem Schwarzweiß in die Farbe von heute und gehst auf die Kamera zu.",
       ort="ein Berliner Ort, von dem es ein frei nutzbares altes Foto gibt",

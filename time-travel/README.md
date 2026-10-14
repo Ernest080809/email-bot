@@ -1,28 +1,46 @@
 # Time Travel — сайт с дверью
 
-Один файл `index.html`: пиксельное пшеничное поле, избушка, закрытая дверь, отсчёт до дропа
-(22.04.2027, 19:00 по Берлину) и предрегистрация. Без внешних запросов: шрифты встроены (по DSGVO
-Google Fonts нельзя подключать напрямую), картинок нет, всё рисуется кодом.
+3D-сцена от первого лица (Three.js): идёшь по дорожке через пшеничное поле на закате к избе.
+Дверь закрыта на замок. Попробуешь открыть — появляется отсчёт до дропа (22.04.2027, 19:00 Берлин)
+и предрегистрация. В 19:00 дверь открывается сама, кнопка ENTER ведёт в коллекцию.
 
-## Посмотреть локально
-Открой `index.html` в браузере. Полезные параметры:
-- `?open` — показать, как выглядит открытая дверь (после дропа)
-- `?reset` — сбросить «ты уже зарегистрирован» в этом браузере
+Всё нарисовано кодом: картинок и 3D-файлов нет. Шрифты встроены в файл (DSGVO: без запросов
+к Google). Внешний запрос только один: Three.js с cdn.jsdelivr.net.
 
-## Запуск на Shopify (рекомендуется — регистрации сразу попадают в клиентов)
-1. Shopify Admin → Online Store → Themes → `…` → **Edit code**.
-2. Templates → **Add a new template** → тип `page`, формат `liquid`, имя `time-travel`.
-3. Вставь первой строкой `{% layout none %}`, под ней — всё содержимое `index.html`. Сохрани.
-4. Online Store → Pages → **Add page** «Time Travel», справа выбери шаблон `page.time-travel`.
-5. Проверь страницу `novalife.store/pages/time-travel`: введи свой email → в Customers появится клиент
+## Файлы
+- `src/page.html` — исходник (разметка, стили, сцена)
+- `src/fonts/` — Bodoni Moda, Manrope, IBM Plex Mono (SIL Open Font License)
+- `build.py` — собирает `index.html` (шрифты внутри, один файл)
+- `index.html` — готовая страница, её и вставляешь в Shopify
+
+После правок в `src/page.html`: `python3 time-travel/build.py`.
+
+## Посмотреть
+Открой `index.html` в браузере (нужен интернет для Three.js). Полезные метки в адресе:
+- `#door` — сразу у двери
+- `#open` — как выглядит открытая дверь после дропа
+- `#waitlist` — сразу открыть регистрацию
+- `#reset` — забыть, что ты уже зарегистрирован в этом браузере
+
+Управление: держать кнопку / зажать экран, колесо мыши или свайп вверх, клавиши W / ↑.
+Мышью (или пальцем) можно осматриваться.
+
+## Запуск на Shopify (регистрации сразу попадают в клиентов)
+1. Online Store → Themes → `…` → **Edit code** → Templates → **Add a new template**:
+   тип `page`, формат `liquid`, имя `time-travel`.
+2. Первая строка `{% layout none %}`, под ней всё содержимое `index.html`. Сохрани.
+3. Online Store → Pages → **Add page** «Time Travel», шаблон `page.time-travel`.
+4. Проверь `novalife.store/pages/time-travel`: зарегистрируйся сам → в Customers появится клиент
    с тегом `time-travel-waitlist` и согласием на рассылку.
-6. **Settings → Customer privacy / Marketing → Double opt-in включить** (в Германии обязательно).
-7. Проверь, что есть Privacy Policy и Impressum (Settings → Policies → Legal notice) — ссылки ведут туда.
+5. **Включи Double opt-in** (Settings → Customer privacy / Marketing) — в Германии обязательно.
+6. Проверь Privacy Policy и Impressum (Settings → Policies) — ссылки в окне регистрации ведут туда.
 
-В день дропа: в Shopify Email отправляешь сегмент `customer_tags CONTAINS 'time-travel-waitlist'`
-письмо в 18:00 со ссылкой на коллекцию. В 19:00 дверь на сайте открывается сама и кнопка ведёт на
-`CONFIG.dropUrl` (по умолчанию `/collections/time-travel`).
+22.04 в 18:00 — письмо через Shopify Email сегменту `customer_tags CONTAINS 'time-travel-waitlist'`.
 
 ## Настройки
-Всё в блоке `CONFIG` в начале `<script>`: даты, режим сохранения, ссылки.
-Вне Shopify можно поставить `endpoint` (например Formspree) — тогда email уходит туда POST-запросом.
+Блок `CONFIG` в начале скрипта: даты, режим сохранения email (`shopify` / `endpoint` / `demo`),
+ссылка на коллекцию, ссылки на Privacy и Impressum.
+
+## Производительность
+На слабых устройствах автоматически меньше пшеницы, без сглаживания и с меньшим разрешением.
+Если телефон всё равно не тянет — уменьши `clumps` в блоке `Q` (Quality tier).

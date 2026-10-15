@@ -214,7 +214,7 @@ def main():
     (BUILD / "zielgruppe.html").write_text(zg_main, encoding="utf-8")
 
     # Design (oben im Docket)
-    d_main = read(BUILD / "entscheidung_1110.html") + md2html(S["12"], key="ds1")
+    d_main = read(BUILD / "entscheidung_1510.html") + read(BUILD / "entscheidung_1110.html") + md2html(S["12"], key="ds1")
     d_main += "<h3>Papiertest 3 · Do 08.10. · Protokoll</h3>" + md2html(DS["4"], shift=1, key="dp")
     d_more = md2html(jn(DS["1"], DS["2"], DS["3"], DS["5"], DS["6"]), key="dm")
     d_main += block("design-voll", "Das ganze Design-Review · Stärken, Risiken, sechs Vorschläge, Lookbook", d_more, pill="")

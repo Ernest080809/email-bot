@@ -232,12 +232,12 @@
    },
    {
     "c": "D",
-    "t": "Farbe für Zipper und Polo festlegen (Rat: Navy)",
+    "t": "Farbe für Zipper und Polo festlegen (Skizze 15.10.: Weiß, Rat: Naturweiß)",
     "m": 10,
     "s": [
-     "Rat: Navy. Gleiche Logik wie das Indigo der Jeans: Weiß und Rot brauchen einen dunklen Grund.",
-     "Alternative Schwarz nur, wenn Weiß im Band klar trägt. Rot auf Schwarz als Streifen steht auf der Liste der Bildregeln (Rot-Schwarz).",
-     "Entscheidung mit Datum ins Blatt „Sticker“, Zeile „Farbe Zipper/Polo“. Sie gilt für die Blanks am Do 22.10. und für Claudes Bänder."
+     "Deine Skizzen vom 15.10. zeigen Weiß. Mein Rat: Naturweiß (Ecru). Es passt zum Leinen von Patch D, wirkt hochwertiger und zeigt Flecken weniger als reines Weiß.",
+     "Folge für die Muster: Weißes Garn verschwindet auf hellem Grund. Die Bänder und der Teppich laufen in Rot, Gold und Dunkelbraun, keine Streifen in Rot-Schwarz.",
+     "Entscheidung mit Datum ins Blatt „Sticker“, Zeile „Farbe Zipper/Polo“. Sie gilt für die Blanks am Do 22.10. und für Claudes Entwürfe."
     ],
     "f": "Fertig, wenn die Farbe im Blatt „Sticker“ steht.",
     "o": [
@@ -249,15 +249,15 @@
    },
    {
     "c": "B",
-    "t": "Bänder und Medaillon für Zipper und Polo bei Claude bestellen",
+    "t": "Teppich, Bänder und Achtstern für Zipper und Polo bei Claude bestellen (Skizzen 15.10.)",
     "m": 5,
     "s": [
-     "Teppich-Fotos vom 15.10. bereitlegen (nur Fotos mit Einwilligung der Familie).",
-     "Prompt unten in einen neuen Chat im Projekt kopieren, Farbe von heute eintragen, Fotos anhängen, abschicken.",
+     "Teppich-Fotos vom 15.10. und deine drei Skizzen bereitlegen (Teppich-Fotos nur mit Einwilligung der Familie).",
+     "Prompt unten in einen neuen Chat im Projekt kopieren, Farbe von heute eintragen, Fotos und Skizzen anhängen, abschicken.",
      "Die Dateien brauchst du am Do 29.10. für die Berliner Sticker."
     ],
-    "f": "Fertig, wenn der Prompt mit den Teppich-Fotos abgeschickt ist.",
-    "p": "Projekt Time Travel, Docket W6, Di 20.10.: Zeichne die Bänder für Zipper und Polo im selben 1,33-mm-Kreuzstichraster wie Band A, in Rot und Weiß auf [FARBE, z. B. Navy]: Zipper 2 × 25 mm × ca. 25 cm, gespiegelt an der Zip-Leiste; Polo 2 × 20 mm × ca. 12 cm an der Knopfleiste. Dazu das Teppich-Medaillon für den Zipper-Rücken, ca. 200 × 150 mm, aus meinen Teppich-Fotos: [ANHÄNGE]. Aufbau wie der Wandteppich: zentrales Medaillon, umlaufender Rahmen, Eckmotive, gebaut aus den Motiven der Drei-von-vier-Regel (Raute, Achtstern, Zickzack), keine Haken- oder Drehformen. Weiß in jedem Element. Keine Streifen in Rot-Schwarz, Blau-Gelb, Rot-Grün, Orange-Schwarz oder Weiß-Rot-Weiß. Liefere je Teil ein SVG und ein Druckblatt 1:1 mit Maßlinie 100 mm und schätze die Stichzahl je Teil.",
+    "f": "Fertig, wenn der Prompt mit Teppich-Fotos und Skizzen abgeschickt ist.",
+    "p": "Projekt Time Travel, Docket W6, Di 20.10.: Zeichne nach meinen Skizzen vom 15.10. (angehängt) alle Teile für Zipper und Polo, Grund [FARBE, Rat: Naturweiß], Garn in Rot, Gold und Dunkelbraun, im selben 1,33-mm-Kreuzstichraster wie Band A.\nZIPPER: 1) Teppich-Panel vorn auf der Brust aus meinen Teppich-Fotos [ANHÄNGE], ca. 240 × 150 mm gesamt, gebaut als zwei gespiegelte Hälften mit je 10 mm Abstand zur Zip-Leiste, die geschlossen wie ein Teppich wirken: zentrales Medaillon, Rahmen, Eckmotive aus Raute, Achtstern und Zickzack, keine Haken- oder Drehformen, keine 1:1-Kopie des Teppichs. 2) Musterband hinten am Halsansatz unter der Kapuze, ca. 30 mm × 35 cm, nur sichtbar, wenn die Kapuze oben ist. 3) Achtstern hinten unten links, ca. 40 mm. 4) Achtstern als Anhänger für den Zipper, ca. 25 mm, als Vorlage für einen Metall- oder Gummianhänger.\nPOLO: 5) Musterband für die Kragen-Unterseite, ca. 15 mm × 40 cm, sichtbar, wenn der Kragen hochsteht. 6) Bündchen-Bänder für beide Ärmel, je ca. 15 mm × 35 cm. 7) Kleines Brustmotiv links, ca. 40 mm (siehe Skizze, [WAS ES IST]). 8) Ähren hinten unter dem Kragen, ca. 40 mm, wie B2 auf der Jeans.\nDazu: Achtstern als eigene Grundform für Knopf, Zipper und Rücken, nach außen „Achtstern“. Keine Streifen in Rot-Schwarz, Blau-Gelb, Rot-Grün, Orange-Schwarz oder Weiß-Rot-Weiß. Liefere je Teil ein SVG und ein Druckblatt 1:1 mit Maßlinie 100 mm, schätze die Stichzahl je Teil und sag mir für 5 und 6, ob Stick oder ein eigenes Webband besser ist.",
     "o": [
      {
       "n": "Claude · Projekt „novalife time travel“",
@@ -546,7 +546,7 @@
     "t": "Blanks bestellen: 1 Zip-Hoodie, 1 Piqué-Polo in der Farbe vom Di",
     "m": 20,
     "s": [
-     "Zip-Hoodie Fleece 330–350 g/m² und Piqué-Polo, je 1 Stück in deiner Größe, Farbe vom Di (Rat: Navy).",
+     "Zip-Hoodie Fleece 330–350 g/m² und Piqué-Polo, je 1 Stück in deiner Größe, Farbe vom Di (Skizze: Weiß, Rat: Naturweiß).",
      "Anbieter: AS Colour (Europa-Shop) oder Stanley/Stella über einen Händler, z. B. den Großhändler L-Shop-Team (Unna). Grammatur und Material auf der Produktseite prüfen.",
      "Großhandel: Gewerbeschein Novalife bereithalten. Mindestbestellwert und Versandkosten bei Einzelstücken prüfen.",
      "Richtwert laut Spec: Zipper ~28 €, Polo ~12 € (Schätzung). Deutlich teurer: anderen Anbieter nehmen.",

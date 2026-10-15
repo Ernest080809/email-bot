@@ -85,6 +85,21 @@ def mo_task(v):
 
 
 OTHER = [
+    ("2026-10-19", {"c": "B", "t": "Knopf mit Achtstern: Preis und Mindestmenge bei den Fabriken erfragen (Skizze 15.10.)", "m": 10,
+                    "s": ["In die Rückfragen zu den Angeboten von heute diesen Satz aufnehmen (Englisch):",
+                          "„Can you supply a custom jeans shank button with our own embossed eight-pointed star (artwork follows), same metal finish as the rivets? Please quote MOQ, price per piece and the one-time die cost.“",
+                          "Antworten in den Vergleich: Mindestmenge, Stückpreis, Werkzeugkosten. Bis 100 Stück und unter 1 € pro Paar plus Werkzeug: ja."],
+                    "f": "die Frage an alle Fabriken mit Angebot raus ist.",
+                    "o": [{"n": "Gmail", "u": "https://mail.google.com"}]}),
+    ("2026-10-20", {"c": "D", "t": "Fragen zu deinen Skizzen vom 15.10. entscheiden", "m": 15,
+                    "s": ["Jeans: Was sind die Punkte vorn am linken Bein? Sind es Stoppeln vom alten Serp, sind sie am 11.10. mitgestrichen.",
+                          "Jeans: Patch D rechts neben der Mittelnaht, wie auf der Skizze? Und „NL“ auf dem Patch: ja oder nein?",
+                          "Zipper-Anhänger: Achtstern-Anhänger zum Einhaken am normalen Zipper (Rat), eigener Metall-Zipper erst ab Drop 2.",
+                          "Zipper im Juni: am Drop mitverkaufen oder als Herbst-Drop im September? Rat: zeigen und vorbestellen lassen, die Hauptsaison ist der Herbst.",
+                          "Polo: Was ist das kleine Brustmotiv? Kragen und Bündchen gestickt oder als eigenes Webband (Rat: zuerst am Muster sticken, Webband nur bei Mindestmenge bis 100 m)?",
+                          "Alles in einer Zeile an Claude, dann Blatt „Entscheidungen“."],
+                    "f": "alle fünf Fragen beantwortet im Blatt „Entscheidungen“ stehen.",
+                    "o": [{"n": "Google Sheets · „Time Travel Tracking“", "u": "https://sheets.google.com", "h": "Blatt „Entscheidungen“"}]}),
     ("2026-10-23", {"c": "A", "t": "Datenschutzerklärung ergänzen: Tally und „Bring 3“ (verschoben vom 13. und 15.10.)", "m": 20,
                     "s": ["e-recht24-Generator öffnen, Tally als Dienst ergänzen. Fehlt Tally dort, nimmst du Claudes Absatz vom 13.10.",
                           "Claudes Satz zu Quellen-Tags und Empfehlungs-Code (Chat R1 vom 14.10.) dazu.",

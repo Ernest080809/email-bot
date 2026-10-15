@@ -112,3 +112,9 @@ details.nxday[open] > summary{background:var(--sunk)}
 /* Entscheidungs-Kasten mit Liste */
 .callout ul{margin:4px 0 10px; padding-left:18px}
 .callout li{margin:3px 0; font-size:14px}
+
+/* Skizzen im Entscheidungs-Kasten */
+.sketches{display:flex; flex-wrap:wrap; gap:10px; margin:8px 0 12px}
+.sketches figure{flex:1 1 150px; margin:0; min-width:0}
+.sketches img{display:block; width:100%; height:auto; border:1px solid var(--line)}
+.sketches figcaption{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink3); margin-top:4px}

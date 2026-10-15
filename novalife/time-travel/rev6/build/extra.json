@@ -52,14 +52,14 @@
     "t": "Fragen zu deinen Skizzen vom 15.10. entscheiden",
     "m": 15,
     "s": [
-     "Jeans: Was sind die Punkte vorn am linken Bein? Sind es Stoppeln vom alten Serp, sind sie am 11.10. mitgestrichen.",
      "Jeans: Patch D rechts neben der Mittelnaht, wie auf der Skizze? Und „NL“ auf dem Patch: ja oder nein?",
      "Zipper-Anhänger: Achtstern-Anhänger zum Einhaken am normalen Zipper (Rat), eigener Metall-Zipper erst ab Drop 2.",
      "Zipper im Juni: am Drop mitverkaufen oder als Herbst-Drop im September? Rat: zeigen und vorbestellen lassen, die Hauptsaison ist der Herbst.",
-     "Polo: Was ist das kleine Brustmotiv? Kragen und Bündchen gestickt oder als eigenes Webband (Rat: zuerst am Muster sticken, Webband nur bei Mindestmenge bis 100 m)?",
-     "Alles in einer Zeile an Claude, dann Blatt „Entscheidungen“."
+     "Polo: Kragen und Bündchen gestickt oder als eigenes Webband? Rat: zuerst am Muster sticken, Webband nur bei Mindestmenge bis 100 m.",
+     "Polo-Brust-Logo: Claude liefert auf den Prompt von heute drei Varianten. Eine wählst du bis Mi 28.10., vor dem Digitizing.",
+     "Alles in einer Zeile an Claude, dann ins Blatt „Entscheidungen“."
     ],
-    "f": "alle fünf Fragen beantwortet im Blatt „Entscheidungen“ stehen.",
+    "f": "die vier Fragen beantwortet im Blatt „Entscheidungen“ stehen.",
     "o": [
      {
       "n": "Google Sheets · „Time Travel Tracking“",

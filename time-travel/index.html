@@ -77,6 +77,13 @@ button{cursor:pointer;background:none;border:0;padding:0}
 /* The one control */
 .walk{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 28px);transform:translateX(-50%);z-index:6;
   display:flex;flex-direction:column;align-items:center;gap:12px}
+.walk-row{display:flex;align-items:center;gap:10px}
+.back-btn{width:54px;height:54px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(21,17,13,.38);border:1px solid rgba(243,236,224,.38);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);touch-action:none;user-select:none;-webkit-user-select:none;transition:opacity .4s,background .3s,transform .2s var(--ease)}
+.back-btn svg{width:20px;height:12px;stroke:var(--bone);fill:none;stroke-width:1.3}
+.back-btn:hover{border-color:var(--bone)}
+.back-btn.down{transform:scale(.94);background:rgba(21,17,13,.6)}
+.back-btn[disabled]{opacity:0;pointer-events:none}
 .walk-btn{position:relative;display:flex;align-items:center;gap:14px;height:54px;padding:0 26px 0 22px;border-radius:999px;
   background:rgba(21,17,13,.38);border:1px solid rgba(243,236,224,.38);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);
   font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;touch-action:none;user-select:none;-webkit-user-select:none;
@@ -203,9 +210,12 @@ form{display:grid;gap:18px}
 </div>
 
 <div class="walk">
+  <div class="walk-row">
+  <button class="back-btn" id="backBtn" aria-label="Walk back"><svg viewBox="0 0 20 12" aria-hidden="true"><path d="M19 6H2M6 1L1 6l5 5"/></svg></button>
   <button class="walk-btn" id="walkBtn"><span class="dot" aria-hidden="true"></span><span id="walkLabel">Hold to walk</span><span class="dist" id="walkDist"></span></button>
+  </div>
   <div class="walk-bar" aria-hidden="true"><i id="walkBar"></i></div>
-  <div class="keys" id="walkKeys">Hold<span class="kb"> · scroll · W / ↑</span></div>
+  <div class="keys" id="walkKeys">Hold<span class="kb"> · scroll · W / S</span></div>
 </div>
 
 <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
@@ -780,6 +790,7 @@ function buildMaterials() {
   M.interior = new THREE.MeshBasicMaterial({ map: T.interior, color: new THREE.Color(2.6, 2.1, 1.6), fog: false });
   M.lemekh = new THREE.MeshStandardMaterial({ map: T.lemekh, bumpMap: T.lemekhBump, bumpScale: 2.5, roughness: 0.88 });
   M.moss = new THREE.MeshStandardMaterial({ color: "#4f4a30", roughness: 1 });
+  M.fence = new THREE.MeshStandardMaterial({ map: T.boards, color: "#d6cdbf", roughness: 0.9 });
   M.tin = new THREE.MeshStandardMaterial({ color: "#5f5c56", roughness: 0.5, metalness: 0.6 });
   M.steel = new THREE.MeshStandardMaterial({ color: "#a9aaa6", roughness: 0.36, metalness: 0.9 });
   M.straw = new THREE.MeshStandardMaterial({ map: T.straw, bumpMap: T.strawBump, bumpScale: 2, roughness: 0.9 });
@@ -887,11 +898,11 @@ const STOP = DOOR_W.clone().addScaledVector(FRONT_N, 4.6);
 const PORCH = DOOR_W.clone().addScaledVector(FRONT_N, 1.45);
 
 const pathCurve = new THREE.CatmullRomCurve3([
-  new THREE.Vector3(-0.3, 0, 10),
-  new THREE.Vector3(0.2, 0, 1),
-  new THREE.Vector3(-0.5, 0, -9),
-  new THREE.Vector3(0.3, 0, -18),
-  new THREE.Vector3(1.9, 0, -26),
+  new THREE.Vector3(-0.4, 0, -6.2),
+  new THREE.Vector3(0.6, 0, -11.5),
+  new THREE.Vector3(3.6, 0, -17.2),
+  houseToWorld(0, 0, 16.5),
+  houseToWorld(0, 0, 12.5),
   STOP.clone().addScaledVector(FRONT_N, 1.6),
   STOP.clone(),
   PORCH.clone(),
@@ -907,7 +918,7 @@ function distToPath(x, z) {
 }
 function inYard(x, z) {
   const l = new THREE.Vector3(x - HOUSE_POS.x, 0, z - HOUSE_POS.z).applyAxisAngle(new THREE.Vector3(0, 1, 0), -HOUSE_ROT);
-  return Math.pow(l.x / (HW + 6.1), 2) + Math.pow((l.z - 0.6) / (HD + 5.3), 2) < 1 ? l : null;
+  return Math.pow(Math.abs(l.x) / (HW + 8), 4) + Math.pow(Math.abs(l.z - 0.6) / (HD + 7.6), 4) < 1 ? l : null;
 }
 
 function buildGround() {
@@ -923,8 +934,11 @@ function buildGround() {
   // flip because rotateX(-90) of a shape in xy puts y → -z
   canopy.scale.z = -1; scene.add(canopy);
   // yard
-  const yg = new THREE.CircleGeometry(1, 48); yg.rotateX(-Math.PI / 2);
-  const yard = new THREE.Mesh(yg, M.yard); yard.scale.set(HW + 6, 1, HD + 5.2); yard.receiveShadow = true;
+  const ys = new THREE.Shape(), A2 = HW + 8, B2 = HD + 7.6;
+  for (let i = 0; i < 96; i++) { const th = (i / 96) * Math.PI * 2, c = Math.cos(th), sn = Math.sin(th), x = Math.sign(c) * Math.sqrt(Math.abs(c)) * A2, y = Math.sign(sn) * Math.sqrt(Math.abs(sn)) * B2; i ? ys.lineTo(x, y) : ys.moveTo(x, y); }
+  const yg = new THREE.ShapeGeometry(ys); yg.rotateX(-Math.PI / 2);
+  { const yuv = yg.attributes.uv; for (let i = 0; i < yuv.count; i++) yuv.setXY(i, yuv.getX(i) / (2 * A2) + 0.5, yuv.getY(i) / (2 * B2) + 0.5); }
+  const yard = new THREE.Mesh(yg, M.yard); yard.receiveShadow = true;
   const yardHolder = new THREE.Group(); yardHolder.position.copy(HOUSE_POS); yardHolder.position.y = 0.012; yardHolder.rotation.y = HOUSE_ROT;
   yard.position.z = 0.6; yardHolder.add(yard); scene.add(yardHolder);
   // path ribbon
@@ -1353,6 +1367,28 @@ function buildHouse() {
       run(-x1, z0 + 0.05, -x1, zf); run(x1, z0 + 0.05, x1, zf); run(-x1, zf, -xo, zf); run(xo, zf, x1, zf);
       for (const [x, z] of [[-x1, zf], [x1, zf], [-xo, zf], [xo, zf]]) { posts.push(new THREE.BoxGeometry(0.12, railH + 0.12, 0.12).translate(x, top + (railH + 0.12) / 2, z)); posts.push(fin.clone().translate(x, top + railH + 0.12, z)); }
       house.add(mesh(mergeGeometries(bals), M.paint), mesh(mergeGeometries(rails), M.step), mesh(mergeGeometries(posts), M.paint));
+    // embroidered towel (rushnyk) over the porch rail: linen, red geometric bands, fringe
+    {
+      const c = makeCanvas(128, 320), gx = c.getContext("2d");
+      gx.fillStyle = "#eee7d8"; gx.fillRect(0, 0, 128, 320);
+      gx.fillStyle = "rgba(120,100,70,.08)"; for (let y = 0; y < 320; y += 3) gx.fillRect(0, y, 128, 1); for (let x = 0; x < 128; x += 3) gx.fillRect(x, 0, 1, 320);
+      gx.fillStyle = "#a3241c";
+      const band = (y0) => { gx.fillRect(8, y0, 112, 3); gx.fillRect(8, y0 + 34, 112, 3); for (let k = 0; k < 4; k++) { const cx = 22 + k * 28, cy = y0 + 18.5; gx.beginPath(); gx.moveTo(cx, cy - 13); gx.lineTo(cx + 11, cy); gx.lineTo(cx, cy + 13); gx.lineTo(cx - 11, cy); gx.closePath(); gx.fill(); gx.fillStyle = "#eee7d8"; gx.fillRect(cx - 3, cy - 3, 6, 6); gx.fillStyle = "#a3241c"; } };
+      band(190); band(244);
+      gx.lineWidth = 3; gx.strokeStyle = "#a3241c"; gx.beginPath(); for (let x = 8; x <= 120; x += 8) gx.lineTo(x, x % 16 ? 234 : 241); gx.stroke();
+      gx.clearRect(0, 294, 128, 26);
+      gx.fillStyle = "#d9cfbd"; for (let x = 6; x < 124; x += 4) gx.fillRect(x, 294, 1.5, 22 + (x % 3));
+      const mat = new THREE.MeshStandardMaterial({ map: tex(c, { wrap: false }), side: THREE.DoubleSide, roughness: 0.9, alphaTest: 0.5, transparent: false });
+      const front = new THREE.PlaneGeometry(0.34, 0.66, 1, 6); front.translate(0, -0.33, 0);
+      const pos = front.attributes.position; for (let i = 0; i < pos.count; i++) { const y = pos.getY(i); pos.setZ(i, Math.sin(-y * 4.5) * 0.012); }
+      front.computeVertexNormals();
+      const back = front.clone().rotateY(Math.PI).scale(1, 0.55, 1);
+      const towel = new THREE.Group(); towel.position.set(-0.875, top + railH + 0.035, zf); house.add(towel);
+      const fm = mesh(front, mat); fm.position.z = 0.048; fm.rotation.x = 0.04; towel.add(fm);
+      const bm = mesh(back, mat); bm.position.z = -0.048; towel.add(bm);
+      const fold = mesh(new THREE.CylinderGeometry(0.048, 0.048, 0.34, 10, 1, true, 0, Math.PI).rotateZ(Math.PI / 2), mat); towel.add(fold);
+    }
+
       // bench under the left window
       const bench = [new THREE.BoxGeometry(1.3, 0.05, 0.32).translate(-2.15, 0.46, HD + R + 0.3)];
       for (const dx of [-0.5, 0.5]) bench.push(new THREE.BoxGeometry(0.06, 0.44, 0.28).translate(-2.15 + dx, 0.22, HD + R + 0.3));
@@ -1469,6 +1505,16 @@ function buildBirch() {
   for (let i = 0; i < pos.count; i++) { const y = pos.getY(i) + 5; pos.setX(i, pos.getX(i) + Math.sin(y * 0.32) * 0.22); pos.setZ(i, pos.getZ(i) + Math.sin(y * 0.21 + 1) * 0.12); }
   trunk.computeVertexNormals(); trunk.translate(0, 5, 0);
   g.add(mesh(trunk, M.birch));
+  // starling box nailed to the birch
+  {
+    const y = 4.3, cx = Math.sin(y * 0.32) * 0.22, cz = Math.sin(y * 0.21 + 1) * 0.12, yaw = -0.3;
+    const b = new THREE.Group(); b.position.set(cx + Math.sin(yaw) * 0.2, y, cz + Math.cos(yaw) * 0.2); b.rotation.y = yaw; g.add(b);
+    b.add(mesh(new THREE.BoxGeometry(0.2, 0.32, 0.2), M.step));
+    for (const sgn of [-1, 1]) { const r = mesh(new THREE.BoxGeometry(0.17, 0.02, 0.28), M.lemekh); r.rotation.z = -sgn * 0.6; r.position.set(sgn * 0.065, 0.2, 0); b.add(r); }
+    const hole = mesh(new THREE.CircleGeometry(0.035, 14), M.inner, { cast: false }); hole.position.set(0, 0.05, 0.101); b.add(hole);
+    const perch = mesh(new THREE.CylinderGeometry(0.008, 0.008, 0.08, 5).rotateX(Math.PI / 2), M.bark); perch.position.set(0, -0.02, 0.14); b.add(perch);
+  }
+
   const cards = [];
   for (let i = 0; i < 16; i++) {
     const y0 = rr(3.2, 8.8), a = rnd() * Math.PI * 2, len = rr(1.3, 2.6) * (1 - (y0 - 3) / 10);
@@ -1595,6 +1641,82 @@ function buildFlowers() {
   }
   stems.count = i; stems.frustumCulled = false; scene.add(stems);
   heads.forEach((H) => { H.im.count = H.n; H.im.frustumCulled = false; scene.add(H.im); });
+}
+
+/* ---------- yard gate with a little shingle roof, open leaves, picket fence to both sides ---------- */
+const GATE_LOCAL_Z = 10.5;   // distance in front of the izba (house space) where the path enters the yard
+function buildGate() {
+  // where the path crosses the yard line
+  let u = 0;
+  for (let i = 0; i <= 400; i++) {
+    const p = pathSamples[i], l = new THREE.Vector3(p.x - HOUSE_POS.x, 0, p.z - HOUSE_POS.z).applyAxisAngle(new THREE.Vector3(0, 1, 0), -HOUSE_ROT);
+    if (l.z <= GATE_LOCAL_Z) { u = i / 400; break; }
+  }
+  const p = pathCurve.getPointAt(u);
+  const g = new THREE.Group(); g.position.copy(p); g.rotation.y = HOUSE_ROT; scene.add(g);
+  // local frame: x along the fence, -z toward the izba
+  const wood = [], paint = [];
+  for (const sgn of [-1, 1]) {
+    wood.push(new THREE.BoxGeometry(0.2, 2.5, 0.2).translate(sgn * 0.88, 1.25, 0));
+    paint.push(lathe([[0, 0], [0.13, 0], [0.13, 0.04], [0.1, 0.1], [0.06, 0.2], [0.02, 0.26], [0.03, 0.3], [0, 0.36]], 4).rotateY(Math.PI / 4).translate(sgn * 0.88, 2.5, 0));
+  }
+  wood.push(new THREE.BoxGeometry(2.1, 0.14, 0.16).translate(0, 2.32, 0));
+  g.add(mesh(mergeGeometries(wood), M.log), mesh(mergeGeometries(paint), M.paint));
+  // little gable roof with shingle boards and carved valances
+  const A = 0.62, half = 0.62, rise = half * Math.tan(A), base = 2.42, rlen = half / Math.cos(A) + 0.06;
+  for (const sgn of [-1, 1]) {
+    const r = mesh(new THREE.BoxGeometry(2.5, 0.05, rlen), M.lemekh); r.rotation.x = sgn * A; r.position.set(0, base + rise / 2, (sgn * half) / 2); g.add(r);
+    const v = mesh(scallopBoard(2.3, 0.16, { teeth: 0.23, depth: 0.06 }), M.paint); v.position.set(-1.15, base + 0.02, sgn * (half - 0.02)); if (sgn < 0) { v.rotation.y = Math.PI; v.position.x = 1.15; } g.add(v);
+  }
+  // the two gate leaves stand open toward the izba
+  const leafGeo = () => {
+    const parts = [new THREE.BoxGeometry(0.76, 1.45, 0.035).translate(0.4, 0.88, 0)];
+    for (const y of [0.4, 1.36]) parts.push(new THREE.BoxGeometry(0.74, 0.08, 0.03).translate(0.4, y, 0.032));
+    parts.push(new THREE.BoxGeometry(1.08, 0.07, 0.03).rotateZ(Math.atan2(0.96, 0.66)).translate(0.4, 0.88, 0.034));
+    return mergeGeometries(parts);
+  };
+  for (const sgn of [-1, 1]) {
+    const leaf = mesh(leafGeo(), M.step); leaf.position.set(sgn * 0.78, 0, 0);
+    if (sgn > 0) leaf.scale.x = -1;
+    leaf.rotation.y = -sgn * 1.28;
+    g.add(leaf);
+  }
+  // picket fence: pointed pickets on two rails, posts every 2.4 m
+  const pk = new THREE.Shape(); pk.moveTo(-0.037, 0); pk.lineTo(0.037, 0); pk.lineTo(0.037, 1.06); pk.lineTo(0, 1.14); pk.lineTo(-0.037, 1.06); pk.closePath();
+  const picket = new THREE.ExtrudeGeometry(pk, { depth: 0.022, bevelEnabled: false });
+  const fence = [];
+  for (const sgn of [-1, 1]) {
+    const len = sgn > 0 ? 8.2 : 9.5;
+    for (let x = 1.05; x < len; x += 0.14) fence.push(picket.clone().scale(1, rr(0.94, 1.04), 1).rotateZ(rr(-0.025, 0.025)).translate(sgn * x, 0.02, 0.012));
+    for (const y of [0.3, 0.86]) fence.push(new THREE.BoxGeometry(len - 1.0, 0.07, 0.04).translate(sgn * (1.0 + (len - 1.0) / 2), y, -0.03));
+    for (let x = 1.0 + 2.4; x < len; x += 2.4) fence.push(new THREE.BoxGeometry(0.1, 1.25, 0.1).translate(sgn * x, 0.62, -0.08));
+  }
+  g.add(mesh(mergeGeometries(fence), M.fence));
+}
+
+/* ---------- a hay cart waiting at the edge of the harvested strip ---------- */
+function buildCart() {
+  const g = new THREE.Group(); g.position.set(19.5, 0, -36.5); g.rotation.y = 0.75; scene.add(g);
+  const wood = [], iron = [];
+  wood.push(new THREE.BoxGeometry(2.3, 0.06, 1.0).translate(0, 0.78, 0));
+  for (const sgn of [-1, 1]) {
+    for (const y of [0.9, 1.32]) wood.push(new THREE.BoxGeometry(2.5, 0.05, 0.05).translate(0, y, sgn * (0.5 + (y - 0.8) * 0.3)));
+    for (let k = 0; k < 10; k++) wood.push(new THREE.BoxGeometry(0.04, 0.55, 0.04).rotateX(sgn * 0.28).translate(-1.1 + k * 0.245, 1.08, sgn * 0.58));
+  }
+  const wheel = (x, r, z) => {
+    iron.push(new THREE.TorusGeometry(r, 0.022, 6, 28).translate(x, r, z));
+    wood.push(new THREE.TorusGeometry(r - 0.035, 0.03, 6, 28).translate(x, r, z));
+    wood.push(new THREE.CylinderGeometry(0.075, 0.075, 0.2, 10).rotateX(Math.PI / 2).translate(x, r, z));
+    for (let k = 0; k < 10; k++) wood.push(new THREE.CylinderGeometry(0.016, 0.02, r - 0.06, 5).translate(0, (r - 0.06) / 2, 0).rotateZ((k / 10) * Math.PI * 2).translate(x, r, z));
+  };
+  for (const z of [-0.66, 0.66]) { wheel(-0.72, 0.5, z); wheel(0.8, 0.42, z); }
+  wood.push(new THREE.CylinderGeometry(0.05, 0.05, 1.5, 8).rotateX(Math.PI / 2).translate(-0.72, 0.5, 0));
+  wood.push(new THREE.CylinderGeometry(0.05, 0.05, 1.5, 8).rotateX(Math.PI / 2).translate(0.8, 0.42, 0));
+  for (const z of [-0.36, 0.36]) wood.push(new THREE.CylinderGeometry(0.035, 0.04, 2.7, 7).rotateZ(Math.PI / 2 - 0.15).translate(2.1, 0.25, z));
+  g.add(mesh(mergeGeometries(wood), M.step), mesh(mergeGeometries(iron), M.iron));
+  const load = new THREE.IcosahedronGeometry(1, 3);
+  { const sp = load.attributes.position; for (let i = 0; i < sp.count; i++) { const v = new THREE.Vector3().fromBufferAttribute(sp, i); const k = 1 + (vnoise(v.x * 3 + 7, v.y * 3 + v.z * 2, 997, 997) - 0.5) * 0.25; sp.setXYZ(i, v.x * 1.15 * k, Math.max(-0.2, v.y) * 0.42 * k, v.z * 0.5 * k); } load.computeVertexNormals(); }
+  const hay = mesh(load, M.hay); hay.position.set(-0.1, 1.02, 0); g.add(hay);
 }
 
 function buildClouds() {
@@ -1894,21 +2016,23 @@ const S = {
   arrived: false, drawer: false, shake: 0, opened: false, doorAngle: 0, intro: true, captionT: 0, busy: false,
 };
 const WALK = 2.7;
-const walkBtn = $("walkBtn");
+const walkBtn = $("walkBtn"), backBtn = $("backBtn");
 
+const uiCache = {};
+const setUI = (id, prop, v) => { const k = id + prop; if (uiCache[k] !== v) { uiCache[k] = v; $(id)[prop] = v; } };
 function renderControl() {
   const remaining = Math.max(0, STOP_DIST - S.dist);
   $("walkBar").style.transform = `scaleX(${(S.dist / STOP_DIST).toFixed(4)})`;
+  walkBtn.classList.toggle("door", S.arrived);
   if (S.arrived) {
-    walkBtn.classList.add("door");
-    $("walkLabel").textContent = isOpen() ? "Enter" : "Open the door";
-    $("walkKeys").innerHTML = isOpen() ? "The door is open" : 'Tap<span class="kb"> · E · Enter</span>';
+    setUI("walkLabel", "textContent", isOpen() ? "Enter" : "Open the door");
+    setUI("walkKeys", "innerHTML", isOpen() ? 'The door is open<span class="kb"> · S to step back</span>' : 'Tap<span class="kb"> · E · S to step back</span>');
   } else {
-    walkBtn.classList.remove("door");
-    $("walkLabel").textContent = "Hold to walk";
-    $("walkDist").textContent = Math.ceil(remaining) + " m";
-    $("walkKeys").innerHTML = 'Hold<span class="kb"> · scroll · W / ↑</span>';
+    setUI("walkLabel", "textContent", "Hold to walk");
+    setUI("walkDist", "textContent", Math.ceil(remaining) + " m");
+    setUI("walkKeys", "innerHTML", 'Hold<span class="kb"> · scroll · W / S</span>');
   }
+  if (backBtn.disabled !== S.dist < 0.05) backBtn.disabled = S.dist < 0.05;
 }
 
 function doorAction() {
@@ -1984,6 +2108,12 @@ walkBtn.addEventListener("pointerdown", (e) => { pressAtDoor = S.arrived; if (!S
 ["pointerup", "pointercancel", "lostpointercapture"].forEach((ev) => walkBtn.addEventListener(ev, endHold));
 walkBtn.addEventListener("click", (e) => { if (S.arrived && (pressAtDoor || e.detail === 0)) doorAction(); pressAtDoor = false; });
 walkBtn.addEventListener("contextmenu", (e) => e.preventDefault());
+const startBack = () => { if (S.drawer) return; S.holdingBack = true; backBtn.classList.add("down"); };
+const endBack = () => { S.holdingBack = false; backBtn.classList.remove("down"); };
+backBtn.addEventListener("pointerdown", (e) => { backBtn.setPointerCapture(e.pointerId); startBack(); });
+["pointerup", "pointercancel", "lostpointercapture"].forEach((ev) => backBtn.addEventListener(ev, endBack));
+backBtn.addEventListener("click", (e) => { if (e.detail === 0) S.scrollVel = -WALK; });
+backBtn.addEventListener("contextmenu", (e) => e.preventDefault());
 
 const ray = new THREE.Raycaster(), ndc = new THREE.Vector2();
 let downAt = null;
@@ -2007,17 +2137,18 @@ function hitsDoor(e) {
   ray.setFromCamera(ndc, camera);
   return ray.intersectObjects(doorRig.hit, false).length > 0;
 }
-addEventListener("wheel", (e) => { if (S.drawer || S.arrived) return; S.scrollVel = clamp(S.scrollVel + clamp(e.deltaY, -120, 120) * 0.012, -WALK, WALK * 1.3); }, { passive: true });
+addEventListener("wheel", (e) => { if (S.drawer || (S.arrived && e.deltaY > 0)) return; S.scrollVel = clamp(S.scrollVel + clamp(e.deltaY, -120, 120) * 0.012, -WALK, WALK * 1.3); }, { passive: true });
 let touchY = null;
 canvas.addEventListener("touchstart", (e) => { touchY = e.touches[0].clientY; }, { passive: true });
-canvas.addEventListener("touchmove", (e) => { if (touchY === null || S.arrived) return; const y = e.touches[0].clientY; S.scrollVel = clamp(S.scrollVel + (touchY - y) * 0.03, -WALK, WALK * 1.3); touchY = y; }, { passive: true });
+canvas.addEventListener("touchmove", (e) => { if (touchY === null || S.drawer) return; const y = e.touches[0].clientY; if (S.arrived && touchY - y > 0) { touchY = y; return; } S.scrollVel = clamp(S.scrollVel + (touchY - y) * 0.03, -WALK, WALK * 1.3); touchY = y; }, { passive: true });
 addEventListener("keydown", (e) => {
   if (S.drawer) { if (e.key === "Escape") closeDrawer(); return; }
   if (["ArrowUp", "w", "W"].includes(e.key)) { e.preventDefault(); startHold(); }
+  if (["ArrowDown", "s", "S"].includes(e.key)) { e.preventDefault(); startBack(); }
   if (S.arrived && ["e", "E", "Enter", " "].includes(e.key) && e.target !== walkBtn) { e.preventDefault(); doorAction(); }
 });
-addEventListener("keyup", (e) => { if (["ArrowUp", "w", "W"].includes(e.key)) endHold(); });
-addEventListener("blur", endHold);
+addEventListener("keyup", (e) => { if (["ArrowUp", "w", "W"].includes(e.key)) endHold(); if (["ArrowDown", "s", "S"].includes(e.key)) endBack(); });
+addEventListener("blur", () => { endHold(); endBack(); });
 
 /* ==========================================================================
    Frame loop
@@ -2038,13 +2169,14 @@ function update(dt, t) {
   // walking
   const remaining = STOP_DIST - S.dist;
   S.scrollVel *= Math.pow(0.08, dt); if (Math.abs(S.scrollVel) < 0.02) S.scrollVel = 0;
-  const target = S.drawer ? 0 : S.holding ? WALK : S.scrollVel;
+  const target = S.drawer ? 0 : S.holdingBack ? -WALK * 0.8 : S.holding ? WALK : S.scrollVel;
   S.vel += (target - S.vel) * Math.min(1, dt * (Math.abs(target) > Math.abs(S.vel) ? 1.8 : 3.2));
   if (S.dist <= 0 && S.vel < 0) S.vel = 0;
   const brake = smooth(0, 3.2, remaining) * 0.9 + 0.1;
   S.dist = clamp(S.dist + S.vel * (S.vel > 0 ? brake : 1) * dt, 0, STOP_DIST);
   if (STOP_DIST - S.dist < 0.03 && !S.arrived) { S.dist = STOP_DIST; S.arrived = true; S.vel = 0; S.scrollVel = 0; endHold(); canvas.classList.add("at-door"); renderControl(); }
-  if (S.intro && S.dist > 1.2) { S.intro = false; $("intro").classList.add("gone"); }
+  if (S.arrived && STOP_DIST - S.dist > 0.25) { S.arrived = false; canvas.classList.remove("at-door", "hover-door"); $("caption").classList.remove("on"); }
+  if (S.intro !== S.dist < 1.2) { S.intro = S.dist < 1.2; $("intro").classList.toggle("gone", !S.intro); }
   // camera on the path with a gentle gait
   const speed = Math.abs(S.vel);
   S.bob += dt * speed * 2.35;
@@ -2058,14 +2190,14 @@ function update(dt, t) {
   camera.position.addScaledVector(side, Math.sin(S.bob) * 0.025 * gait);
   tmpL.copy(camera.position).addScaledVector(tg, 12).add(new THREE.Vector3(0, -0.55, 0));
   const f = smooth(16, 1.5, remaining);
-  tmpL.lerp(doorLook, f);
+  tmpL.lerp(doorLook, 0.35 + 0.65 * f);
   camera.lookAt(tmpL);
   // free look with the pointer (smaller near the door)
   S.lookX += (S.tLookX - S.lookX) * Math.min(1, dt * 3); S.lookY += (S.tLookY - S.lookY) * Math.min(1, dt * 3);
   const range = mix(0.2, 0.08, f);
   camera.rotateY(-S.lookX * range); camera.rotateX(-S.lookY * range * 0.45);
   camera.rotateZ(Math.sin(S.bob * 0.5) * 0.004 * gait);
-  if (!S.arrived) renderControl();
+  renderControl();
   // door
   if (S.shake > 0) S.shake = Math.max(0, S.shake - dt);
   const k = S.shake / 1.4;
@@ -2117,7 +2249,7 @@ async function boot() {
   $("loaderText").textContent = "Raising the izba"; await nextFrame();
   buildEnvironment(); buildGround(); houseRef = buildHouse(); progress();
   $("loaderText").textContent = "Growing the wheat"; await nextFrame();
-  buildWheat(); buildWell(houseRef); buildHarvest(); buildFlowers(); progress();
+  buildWheat(); buildWell(houseRef); buildHarvest(); buildFlowers(); buildGate(); buildCart(); progress();
   $("loaderText").textContent = "Planting the treeline"; await nextFrame();
   buildTrees(); buildBirch(); buildClouds(); buildSmoke(houseRef); progress();
   houseRef.updateMatrixWorld(true);

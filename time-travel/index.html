@@ -1781,9 +1781,9 @@ let sdt = 1 / 60;
 function loop() {
   const raw = clock.getDelta(), t = clock.elapsedTime;
   sdt += (Math.min(0.05, raw) - sdt) * 0.2;   // smoothed step: no jumps when a frame comes late
+  adapt(raw);            // may resize — do it before drawing so no blank frame is shown
   update(sdt, t);
   composer.render(sdt);
-  adapt(raw);
   requestAnimationFrame(loop);
 }
 

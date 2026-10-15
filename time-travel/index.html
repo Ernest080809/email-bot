@@ -288,7 +288,7 @@ import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
 import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
 import { ShaderPass } from "three/addons/postprocessing/ShaderPass.js";
-import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
+import { mergeGeometries, mergeVertices } from "three/addons/utils/BufferGeometryUtils.js";
 
 /* ==========================================================================
    CONFIG — the only block you normally touch
@@ -733,7 +733,7 @@ function geoFrom({ pos, nor, uv, col, h, idx }) {
 function buildWheatClump(blades = 7) {
   const S = { pos: [], nor: [], col: [], h: [], idx: [] };
   const up = new THREE.Vector3(0, 1, 0);
-  const cBase = new THREE.Color("#86652a"), cMid = new THREE.Color("#d6a447"), cEar = new THREE.Color("#f2cb73"), cTip = new THREE.Color("#fde6a6");
+  const cBase = new THREE.Color("#8d6b2c"), cMid = new THREE.Color("#d9a84a"), cEar = new THREE.Color("#f7d27c"), cTip = new THREE.Color("#ffebb0");
   for (let b = 0; b < blades; b++) {
     const ang = rnd() * Math.PI * 2, rad = Math.sqrt(rnd()) * 0.2;
     const bx = Math.cos(ang) * rad, bz = Math.sin(ang) * rad, H = rr(0.82, 1.06);
@@ -743,9 +743,9 @@ function buildWheatClump(blades = 7) {
     const N = 6, base = S.pos.length / 3;
     for (let i = 0; i <= N; i++) {
       const t = i / N;
-      const w = t < 0.55 ? mix(0.016, 0.011, t / 0.55) : t < 0.84 ? mix(0.011, 0.034, Math.sin(((t - 0.55) / 0.29) * Math.PI / 2)) : mix(0.034, 0.002, (t - 0.84) / 0.16);
+      const w = t < 0.58 ? mix(0.009, 0.007, t / 0.58) : t < 0.84 ? mix(0.007, 0.032, Math.sin(((t - 0.58) / 0.26) * Math.PI / 2)) : mix(0.032, 0.002, (t - 0.84) / 0.16);
       const x = bx + lx * t * t, y = t * H, z = bz + lz * t * t;
-      const col = t < 0.55 ? cBase.clone().lerp(cMid, t / 0.55) : t < 0.95 ? cMid.clone().lerp(cEar, (t - 0.55) / 0.4) : cTip;
+      const col = t < 0.58 ? cBase.clone().lerp(cMid, t / 0.58) : t < 0.95 ? cMid.clone().lerp(cEar, (t - 0.58) / 0.37) : cTip;
       for (const s of [-1, 1]) { S.pos.push(x + side.x * w * s, y, z + side.z * w * s); S.nor.push(n.x, n.y, n.z); S.col.push(col.r, col.g, col.b); S.h.push(y / 1.06); }
       if (i > 0) { const a = base + (i - 1) * 2; S.idx.push(a, a + 1, a + 2, a + 1, a + 3, a + 2); }
     }
@@ -1204,14 +1204,17 @@ function buildHouse() {
 
 /* ---------- trees: soft rounded crowns, shaded by height and by the sun side ---------- */
 const SUN_FLAT = new THREE.Vector3(sunDir.x, 0, sunDir.z).normalize();
-function puff(list, cx, cy, cz, r, color, seedOff) {
-  const g = new THREE.IcosahedronGeometry(r, 2), pos = g.attributes.position;
+function puff(list, cx, cy, cz, r, color, seedOff, detail = 2) {
+  let g = new THREE.IcosahedronGeometry(r, detail);
+  g.deleteAttribute("uv"); g.deleteAttribute("normal");
+  g = mergeVertices(g);                      // shared vertices → smooth, soft shading
+  const pos = g.attributes.position;
   for (let k = 0; k < pos.count; k++) {
     const v = new THREE.Vector3().fromBufferAttribute(pos, k);
     v.multiplyScalar(0.9 + vnoise(v.x * 1.6 / r + seedOff, (v.y + v.z) * 1.6 / r, 999, 999) * 0.2);
     pos.setXYZ(k, v.x, v.y, v.z);
   }
-  g.computeVertexNormals(); g.deleteAttribute("uv");
+  g.computeVertexNormals();
   const cols = new Float32Array(pos.count * 3);
   for (let k = 0; k < pos.count; k++) {
     const y = pos.getY(k) / r, sx = pos.getX(k) / r, sz = pos.getZ(k) / r;
@@ -1225,13 +1228,14 @@ function buildTrees() {
   const tints = ["#4f6b36", "#5a7139", "#66773b", "#7c8240"].map((h) => new THREE.Color(h));
   const trees = [];
   for (let i = 0; i < 70; i++) { const x = rr(-170, 170); trees.push({ x, z: rr(-112, -150) - Math.abs(x) * 0.05, h: rr(9, 15) }); }
-  for (let i = 0; i < 6; i++) { const w = houseToWorld(rr(-15, 13), 0, rr(-10, -17)); trees.push({ x: w.x, z: w.z, h: rr(10, 14) }); }
+  for (let i = 0; i < 6; i++) { const w = houseToWorld(rr(-15, 13), 0, rr(-10, -17)); trees.push({ x: w.x, z: w.z, h: rr(10, 14), near: true }); }
   const crowns = [], trunks = [];
   for (const t of trees) {
     const R0 = t.h * 0.3, cy = t.h * 0.66, tint = tints[(rnd() * tints.length) | 0];
     trunks.push(new THREE.CylinderGeometry(t.h * 0.012, t.h * 0.024, cy, 6).translate(t.x, cy / 2, t.z));
-    puff(crowns, t.x, cy, t.z, R0, tint, rnd() * 50);
-    for (let k = 0; k < 4; k++) { const a = rnd() * Math.PI * 2; puff(crowns, t.x + Math.cos(a) * R0 * 0.6, cy + rr(-0.35, 0.45) * R0, t.z + Math.sin(a) * R0 * 0.6, R0 * rr(0.55, 0.75), tint, rnd() * 50); }
+    const det = t.near ? 3 : 2;
+    puff(crowns, t.x, cy, t.z, R0, tint, rnd() * 50, det);
+    for (let k = 0; k < 4; k++) { const a = rnd() * Math.PI * 2; puff(crowns, t.x + Math.cos(a) * R0 * 0.6, cy + rr(-0.35, 0.45) * R0, t.z + Math.sin(a) * R0 * 0.6, R0 * rr(0.55, 0.75), tint, rnd() * 50, det); }
   }
   scene.add(mesh(mergeGeometries(trunks), M.bark), mesh(mergeGeometries(crowns), M.foliage));
 }
@@ -1245,15 +1249,15 @@ function buildBirch() {
   for (let i = 0; i < pos.count; i++) { const y = pos.getY(i) + 5; pos.setX(i, pos.getX(i) + Math.sin(y * 0.32) * 0.22); pos.setZ(i, pos.getZ(i) + Math.sin(y * 0.21 + 1) * 0.12); }
   trunk.computeVertexNormals(); trunk.translate(0, 5, 0);
   g.add(mesh(trunk, M.birch));
-  const crowns = [], gold = [new THREE.Color("#d9b445"), new THREE.Color("#c9a83e"), new THREE.Color("#b9a443")];
+  const crowns = [], gold = [new THREE.Color("#c9a843"), new THREE.Color("#b8a040"), new THREE.Color("#a99c45")];
   for (let i = 0; i < 9; i++) {
     const y0 = rr(4.0, 8.4), a = (i / 9) * Math.PI * 2 + rr(-0.3, 0.3), len = rr(1.2, 2.2) * (1 - (y0 - 3.5) / 10);
     const start = new THREE.Vector3(Math.sin(y0 * 0.32) * 0.22, y0, Math.sin(y0 * 0.21 + 1) * 0.12);
     const end = start.clone().add(new THREE.Vector3(Math.cos(a) * len, len * rr(0.25, 0.5), Math.sin(a) * len));
     g.add(mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3([start, start.clone().lerp(end, 0.5).add(new THREE.Vector3(0, 0.15, 0)), end]), 5, 0.045 * (1 - y0 / 12), 5, false), M.birch));
-    puff(crowns, end.x, end.y + 0.1, end.z, rr(0.85, 1.15), gold[i % 3], rnd() * 50);
+    for (let k = 0; k < 3; k++) puff(crowns, end.x + rr(-0.45, 0.45), end.y + rr(-0.2, 0.45), end.z + rr(-0.45, 0.45), rr(0.5, 0.72), gold[(i + k) % 3], rnd() * 50, 3);
   }
-  puff(crowns, 0.1, 9.0, 0.1, 1.5, gold[0], 7); puff(crowns, 0.5, 7.6, -0.4, 1.2, gold[1], 9);
+  for (let k = 0; k < 5; k++) puff(crowns, rr(-0.6, 0.7), rr(8.2, 9.6), rr(-0.6, 0.6), rr(0.65, 0.95), gold[k % 3], rnd() * 50, 3);
   g.add(mesh(mergeGeometries(crowns), M.foliage));
 }
 

@@ -1,13 +1,14 @@
 """Builds time-travel/index.html from src/page.html.
 
 Fonts from src/fonts are inlined as base64 so the page makes no request to
-Google (GDPR) and stays one self-contained file you can paste into Shopify.
+Google (GDPR). Also writes shopify/ (template + assets) for the Shopify theme.
 
     python3 time-travel/build.py                # writes time-travel/index.html
     python3 time-travel/build.py --fragment X   # also writes the body-less fragment to X
 """
 import base64
 import pathlib
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).parent
@@ -31,9 +32,39 @@ def font_css() -> str:
     return "\n".join(rules)
 
 
+def build_shopify(fragment: str) -> None:
+    """Shopify caps Liquid templates at 256 KB, so ship a small template plus two theme assets.
+
+    shopify/templates/page.time-travel.liquid  markup only, links the assets via asset_url
+    shopify/assets/time-travel.css             fonts (inlined) + styles
+    shopify/assets/time-travel.js              the scene (ES module, three.js via import map)
+    """
+    head, body = fragment.split("<!--BODY-->", 1)
+    styles = re.findall(r"<style>(.*?)</style>", head, re.S)
+    meta = re.sub(r"<style>.*?</style>", "", head, flags=re.S).strip()
+    module = re.search(r'<script type="module">(.*?)</script>', body, re.S)
+    markup = body[: module.start()].rstrip()
+    out = ROOT / "shopify"
+    (out / "assets").mkdir(parents=True, exist_ok=True)
+    (out / "templates").mkdir(parents=True, exist_ok=True)
+    (out / "assets" / "time-travel.css").write_text("\n".join(x.strip() for x in styles) + "\n")
+    (out / "assets" / "time-travel.js").write_text(module.group(1).strip() + "\n")
+    template = (
+        "{% layout none %}\n<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
+        '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
+        f"{meta}\n{{{{ 'time-travel.css' | asset_url | stylesheet_tag }}}}\n</head>\n<body>{markup}\n"
+        "<script type=\"module\" src=\"{{ 'time-travel.js' | asset_url }}\"></script>\n</body>\n</html>\n"
+    )
+    (out / "templates" / "page.time-travel.liquid").write_text(template)
+    size = len(template.encode()) / 1024
+    assert size < 256, "Liquid template over Shopify's 256 KB limit"
+    print("wrote", out, f"(template {size:.0f} KB)")
+
+
 def main() -> None:
     src = (ROOT / "src" / "page.html").read_text()
     fragment = src.replace("/*FONTS*/", font_css())
+    build_shopify(fragment)
     head, body = fragment.split("<!--BODY-->", 1)
     doc = (
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'

@@ -20,8 +20,9 @@
 ## Файлы
 - `src/page.html` — исходник (разметка, стили, сцена)
 - `src/fonts/` — Bodoni Moda, Manrope, IBM Plex Mono (SIL Open Font License)
-- `build.py` — собирает `index.html` (шрифты внутри, один файл)
-- `index.html` — готовая страница, её и вставляешь в Shopify
+- `build.py` — собирает `index.html` (один файл для просмотра) и папку `shopify/`
+- `index.html` — готовая страница целиком (для просмотра и любого обычного хостинга)
+- `shopify/` — то же для Shopify: маленький шаблон + два ассета (у Shopify лимит 256 KB на шаблон)
 
 После правок в `src/page.html`: `python3 time-travel/build.py`.
 
@@ -36,15 +37,22 @@
 назад — кнопка «←», колесо вверх, свайп вниз, S / ↓ (в том числе от самой двери).
 Мышью (или пальцем) можно осматриваться.
 
-## Запуск на Shopify (регистрации сразу попадают в клиентов)
-1. Online Store → Themes → `…` → **Edit code** → Templates → **Add a new template**:
-   тип `page`, формат `liquid`, имя `time-travel`.
-2. Первая строка `{% layout none %}`, под ней всё содержимое `index.html`. Сохрани.
-3. Online Store → Pages → **Add page** «Time Travel», шаблон `page.time-travel`.
-4. Проверь `novalife.store/pages/time-travel`: зарегистрируйся сам → в Customers появится клиент
-   с тегом `time-travel-waitlist` и согласием на рассылку.
-5. **Включи Double opt-in** (Settings → Customer privacy / Marketing) — в Германии обязательно.
-6. Проверь Privacy Policy и Impressum (Settings → Policies) — ссылки в окне регистрации ведут туда.
+## Запуск на Shopify (своя домена не нужна — страница живёт на novalife.store)
+Shopify ограничивает Liquid-шаблон 256 KB, поэтому страница разбита на три файла в `shopify/`.
+1. Online Store → Themes → `…` → **Edit code**.
+2. **Assets → Add a new asset → Upload file**: загрузи `shopify/assets/time-travel.css`
+   и `shopify/assets/time-travel.js`.
+3. **Templates → Add a new template**: тип `page`, формат `liquid`, имя `time-travel`.
+   Удали заготовку и вставь всё содержимое `shopify/templates/page.time-travel.liquid`. Сохрани.
+4. Online Store → **Pages → Add page** «Time Travel», справа шаблон `page.time-travel`, Visible. Сохрани.
+5. Открой `novalife.store/pages/time-travel`: пройди к двери, зарегистрируйся сам →
+   в Customers появится клиент с тегом `time-travel-waitlist` и согласием на рассылку.
+6. **Включи Double opt-in** (Settings → Customer privacy / Marketing) — в Германии обязательно.
+7. Проверь Privacy Policy и Impressum (Settings → Policies) — ссылки в окне регистрации ведут туда.
+8. Короткая ссылка для TikTok/Instagram: Online Store → Navigation → **URL Redirects**:
+   `/timetravel` → `/pages/time-travel`.
+
+После правок: `python3 time-travel/build.py` и заново загрузить изменённые файлы из `shopify/`.
 
 22.04 в 18:00 — письмо через Shopify Email сегменту `customer_tags CONTAINS 'time-travel-waitlist'`.
 

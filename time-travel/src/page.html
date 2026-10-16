@@ -51,10 +51,8 @@ button{cursor:pointer;background:none;border:0;padding:0}
 @keyframes eq{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
 
 /* Arrival: a warm flash, then one line */
-.flash{position:fixed;inset:0;z-index:15;background:#fff4e2;pointer-events:none;transition:opacity 2.4s cubic-bezier(.3,.6,.2,1)}
-.flash.gone{opacity:0}
-.spawn{position:fixed;left:50%;top:40%;transform:translate(-50%,-50%);z-index:5;width:min(92vw,720px);text-align:center;pointer-events:none;opacity:0;transition:opacity 1.6s var(--ease)}
-.spawn.on{opacity:1}
+.flash{position:fixed;inset:0;z-index:15;background:#fff4e2;pointer-events:none}
+.spawn{position:fixed;left:50%;top:30%;transform:translate(-50%,-50%);z-index:5;width:min(92vw,720px);text-align:center;pointer-events:none;opacity:0}
 .spawn .eyebrow{display:block;margin-bottom:16px;color:var(--bone)}
 .spawn p{margin:0;font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(36px,5.8vw,72px);line-height:1;text-shadow:0 2px 40px rgba(40,20,0,.45)}
 .spawn small{display:block;margin-top:16px;font-size:15px;color:var(--bone);text-shadow:0 1px 20px rgba(40,20,0,.55)}
@@ -1596,7 +1594,7 @@ document.addEventListener("visibilitychange", () => { if (!audio.ctx) return; if
 const S = {
   dist: 0, vel: 0, scrollVel: 0, holding: false, bob: 0, lastStep: 0,
   lookX: 0, lookY: 0, tLookX: 0, tLookY: 0,
-  arrived: false, drawer: false, shake: 0, opened: false, doorAngle: 0, spawnAt: -1, spawnText: false, fovKick: false, busy: false,
+  arrived: false, drawer: false, shake: 0, opened: false, doorAngle: 0, spawnAt: -1, spawnDone: false, fovKick: false, busy: false,
 };
 const WALK = 3.2;
 const walkBtn = $("walkBtn"), backBtn = $("backBtn");
@@ -1755,7 +1753,13 @@ function update(dt, t) {
   S.dist = clamp(S.dist + S.vel * (S.vel > 0 ? brake : 1) * dt, 0, STOP_DIST);
   if (STOP_DIST - S.dist < 0.03 && !S.arrived) { S.dist = STOP_DIST; S.arrived = true; S.vel = 0; S.scrollVel = 0; endHold(); canvas.classList.add("at-door"); renderControl(); }
   if (S.arrived && STOP_DIST - S.dist > 0.25) { S.arrived = false; canvas.classList.remove("at-door", "hover-door"); $("caption").classList.remove("on"); }
-  if (S.spawnText && (S.dist > 0.8 || t - S.spawnAt > 5.2)) { S.spawnText = false; $("spawn").classList.remove("on"); }
+  // arrival: the flash clears, one line fades in and out (driven here so it stays in sync with the landing)
+  if (S.spawnAt >= 0 && !S.spawnDone) {
+    const st = t - S.spawnAt, fl = 1 - smooth(0, 2.2, st);
+    const op = smooth(0.8, 2.1, st) * (1 - smooth(4.4, 5.6, st)) * (1 - smooth(0.3, 1.4, S.dist));
+    $("flash").style.opacity = fl.toFixed(3); $("spawn").style.opacity = op.toFixed(3);
+    if (st > 5.7 || (S.dist > 1.4 && fl <= 0)) { S.spawnDone = true; $("flash").hidden = true; $("spawn").style.opacity = "0"; }
+  }
   // camera on the path with a gentle gait
   const speed = Math.abs(S.vel);
   S.bob += dt * speed * 2.35;
@@ -1864,8 +1868,7 @@ async function boot() {
   clock.start(); loop();
   // arrival: you drop in through a warm flash, one line, then the field is yours
   S.spawnAt = flag("door") || params.get("customer_posted") === "true" ? -1 : 0.05;
-  requestAnimationFrame(() => $("flash").classList.add("gone"));
-  if (S.spawnAt >= 0) setTimeout(() => { S.spawnText = true; $("spawn").classList.add("on"); }, 900);
+  if (S.spawnAt < 0) $("flash").hidden = true;
   if (params.get("customer_posted") === "true" || flag("waitlist")) setTimeout(openDrawer, 900);
   window.__tt = { S, audio, song, openDrawer, setDist: (d) => { S.dist = clamp(d, 0, STOP_DIST); S.arrived = false; }, STOP_DIST, doorAction, renderer };
 }

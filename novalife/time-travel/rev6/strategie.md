@@ -761,6 +761,7 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 | Bis | Frage | Mein Rat |
 |---|---|---|
 | **Fr 09.10.** | Serp-Farbe nach Testregel (entfällt, siehe 11.10.), B2-Kante, V1 Nummer, V5 Patch, V6 Karte, Taschenklappe, Nackenlabel (mit Novalife-Adresse), „goldene Nähte“, Namen nach außen | wie Abschnitt 12 |
+| **Fr 16.10.** | **Entschieden:** Polo-Brust-Logo als Kreuzstich-Baum (einfarbig Rot, ohne Buchstaben) · Patch D nach deinem Baum-Bild, mit „NL“, höchstens 4 Garnfarben · Zipper und Polo nach den Skizzen vom 15.10. | erledigt, Herkunft des Baum-Bildes offen |
 | **Di 13.10.** | **Entschieden:** Drop verschoben auf Do 24.06.2027 (Abitur). Bis Weihnachten wie geplant, Aufholwochen W19 und W22, Abi-Pause 22.03.–09.05. | erledigt |
 | **So 11.10.** | **Entschieden:** Serp gestrichen · Patch D wird die hintere Gürtelschlaufe (nur seitlich genäht und genietet) · Größe B, 76 × 67 mm, 3–5 mm Spiel | erledigt |
 | So 11.10. | Innenbein-Gradierung +1,0 oder +1,5 | kein eigener Rat, mir fehlen Daten. Die Spec steht auf +1,0; ohne Grund für +1,5 bleibt es dabei |

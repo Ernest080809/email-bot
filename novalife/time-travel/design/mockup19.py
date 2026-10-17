@@ -121,7 +121,7 @@ INNER = edge(0); OUTER = edge(-ROWS * u)
 A_MM = round(LTOT / S)
 
 # Münztasche E, 62 x 62 mm, oben an der Bundnaht; der untere Teil steckt hinter dem Vorderteil
-EX, EY = 2 * 170, 2 * 176
+EX, EY = 2 * 179, 2 * 176                  # rechte Kante an der Taschennieten-Ecke
 CS = N15.COIN_MM * S
 E = FN.stitched(FN.coin_white(), None, N15.COIN_N, N15.COIN_N, EX + (CS - N15.COIN_N * u) / 2, EY + (CS - N15.COIN_N * u) / 2, u)
 FACING = poly(INNER + [(Q[3][0] - 60, Q[3][1]), (Q[3][0] - 60, 0), (Q[0][0], 0)])
@@ -198,7 +198,7 @@ STAR = FN.stitched(AW, AR, 27, 27, MOTIF_C[0] - 27 * FN.CELL / 2, MOTIF_C[1] - 2
 src = Image.open(os.path.join(HERE, "..", "rev6", "skizzen", "2026-10-16_baum_referenz_patch_d.jpg")).convert("RGB")
 buf = io.BytesIO(); src.crop((80, 118, 948, 884)).resize((400, 355), Image.LANCZOS).save(buf, "JPEG", quality=92)
 PATCH = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
-PW, PH = 80 * S, 71 * S; PX, PY = 2 * 853 - PW / 2, 2 * 110
+PW, PH = 80 * S, 71 * S; PX, PY = 2 * 974 - PW / 2, 2 * 110   # hinten rechts, zwischen Mittel- und rechter Schlaufe
 
 back = [pocket(L_PTS, f'<g transform="translate({F(b2x)} {F(b2y)})">{V16.B2_V16}</g>', 2 * 749.5 - 80 * S, 2 * 233, "pkL"),
         pocket(R_PTS, STAR, 2 * 970 - 80 * S, 2 * 233, "pkR"),
@@ -217,7 +217,7 @@ DEFS = ('<defs><radialGradient id="cop" cx="0.38" cy="0.32" r="0.75"><stop offse
         '<filter id="softmm"><feGaussianBlur stdDeviation="0.9"></feGaussianBlur></filter></defs>')
 TXT = "font-family: Helvetica, Arial, sans-serif"
 title = (f'<text x="60" y="110" style="{TXT}; font-size: 44px; font-weight: 700; fill: #1d2330; letter-spacing: 2px">NOVALIFE · TIME TRAVEL · NVL-TT-01</text>'
-         f'<text x="60" y="160" style="{TXT}; font-size: 28px; fill: #6b717c">Mockup Design v1.9 · Fit wie Referenz · vorn A, E, Knopf, Nieten · hinten B2, C, Patch D</text>')
+         f'<text x="60" y="160" style="{TXT}; font-size: 28px; fill: #6b717c">Mockup Design v1.9 · Fit wie Referenz · vorn A, E, Knopf, Nieten · hinten B2, C, Patch D rechts</text>')
 
 svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}'
        f'<image href="{BASE_URI}" x="0" y="0" width="{W}" height="{H}"></image>{title}{"".join(front)}{"".join(back)}</svg>')

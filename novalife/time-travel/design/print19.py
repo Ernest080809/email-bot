@@ -229,7 +229,7 @@ rows = [
     ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
     ("C", "Achtstern", "rechte Gesäßtasche, 36 × 36 mm, 27 × 27 Stiche, Höhe wie B2-Band", "Rot, Weiß", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
-    ("D", "Patch = hintere Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, Naturleinen, 4 Kupfernieten, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
+    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, Naturleinen, 4 Kupfernieten, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
     ("K", "Knopf", f"Shank Button {F(BUTTON_D)} mm, Antik-Kupfer, Achtstern vertieft", "Kupfer", "Fabrik (Knopf-Lieferant)"),
     ("N", "Nieten", "Antik-Kupfer, glatt: 6 × 9 mm vorn, 4 × 6 mm am Patch", "Kupfer", "Fabrik"),
 ]
@@ -260,7 +260,8 @@ for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bl
           f"Band A: Innenkante {INNER_MM} mm statt 186 mm. Die Außenkante ist {OUTER_MM} mm lang, weil das Band 23 mm breit im Bogen läuft.",
           "Knopf: 17 → 20 mm. 20 mm ist die Standardgröße (Ligne 32), dafür gibt es die meisten Lieferanten.",
           "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion. Der Gürtel passt weiter durch.",
-          "Gesäßtaschen: 144 × 172 → 160/130 × ~150 mm. Neigung jetzt 5 mm statt 16 mm, und andersherum: innen höher."]:
+          "Gesäßtaschen: 144 × 172 → 160/130 × ~150 mm. Neigung jetzt 5 mm statt 16 mm, und andersherum: innen höher.",
+          "Patch D: sitzt jetzt hinten rechts statt in der Mitte. Die hintere Mittelschlaufe bleibt."]:
     p.append(T(14, y, "· " + s, 2.8, 400, SUB)); y += 5
 y += 4
 p.append(T(12, y, "Größen W30–W38", 3.4, 700)); y += 6
@@ -279,7 +280,7 @@ BTX, BTY = 196 - BAND_W_MM, 266 - BAND_H_MM      # Band rechts unten
 band_g = f'<g transform="translate({F(BTX)} {F(BTY)}) scale(1.25) translate({F(-BX0)} {F(-BY0)})">{BAND}{cut(BAND_CUT)}</g>'
 p = header(2, "Vorn · Band A, Münztasche E, Knopf, Nieten", [
     "A und E gehören an die Vordertasche mit der Münztasche (vom Träger aus rechts). Innere Bogenkante von A auf die Taschenöffnung.",
-    "E: die ganze Münztasche, 62 × 62 mm wie in v1.8. Oben bündig an die Münztaschen-Naht.",
+    "E: die ganze Münztasche, 62 × 62 mm. Oben bündig an die Münztaschen-Naht, rechte Kante direkt an der Niete der Taschenöffnung.",
     "Knopf: auf deinen Bundknopf kleben. Nieten: an die Ecken der Vordertaschen und der Münztasche.",
 ])
 p += [f'<rect x="{F(EX)}" y="{F(EY)}" width="{F(COIN_W)}" height="{F(COIN_H)}" style="fill: #34506f"></rect>', E,
@@ -328,10 +329,11 @@ p += [f'<g transform="translate({PX} {PY})">{pocket_svg(R_PTS, star)}</g>',
 pages.append(p)
 
 # ---- 5 Patch D
-p = header(5, "Hinten Mitte · Patch D als Gürtelschlaufe", [
+p = header(5, "Hinten rechts · Patch D als Gürtelschlaufe", [
     f"Dein Baum-Bild 1:1, jetzt {F(PATCH_W)} × {F(PATCH_H)} mm. Die 4 Garnfarben legt der Patch-Hersteller mit dir fest: Gold, Kupfer, Dunkelbraun, Rot.",
-    "Der Patch ersetzt die hintere Mittelschlaufe: nur links und rechts genäht und genietet, oben und unten offen, der Gürtel läuft dahinter.",
-    "Papiertest: Bild auf Pappe kleben, ausschneiden, mittig hinten mit Krepp nur links und rechts fixieren, Gürtel durchziehen.",
+    "Sitz hinten rechts (vom Träger aus), zwischen Mittelschlaufe und rechter Schlaufe.",
+    "Nur links und rechts genäht und genietet, oben und unten offen, der Gürtel läuft dahinter.",
+    "Papiertest: Bild auf Pappe kleben, ausschneiden, hinten rechts mit Krepp nur links und rechts fixieren, Gürtel durchziehen.",
 ])
 px, py = 14, 56
 p += [f'<image href="{PATCH_PHOTO}" x="{px}" y="{py}" width="{F(PATCH_W)}" height="{F(PATCH_H)}" preserveAspectRatio="none"></image>',
@@ -349,7 +351,7 @@ p += [T(14, by, "Bauplan für die Fabrik", 3.6, 700),
 for i, s in enumerate(["Schraffiert: je 8 mm Nahtzone links und rechts, dort genäht", "und mit je 2 Kupfernieten (6 mm) gesichert.",
                        "Oben und unten offen, keine Naht.", "Kante umgeschlagen und gesteppt, Grund Naturleinen.",
                        "Linien mind. 0,8 mm, Einrollungen mind. 2,5 mm.", "Muster vom Patch-Hersteller ist Pflicht vor 100 Stück.",
-                       "Sitz: mittig über der hinteren Mittelnaht,", "Oberkante bündig mit der Bundoberkante."]):
+                       "Sitz: hinten rechts, mittig zwischen", "Mittelschlaufe und rechter Schlaufe.", "Oberkante bündig mit der Bundoberkante."]):
     p.append(T(102, by + 10 + i * 5, s, 2.8, 400, SUB))
 p.append(checkline(272))
 pages.append(p)

@@ -2,16 +2,16 @@
 
 Antwortfrist in allen Anfragen: Fr 23.10.2026.
 
-| Fabrik | Weg | Status |
+| Fabrik | Adresse (laut eigener Kontaktseite) | Status |
 |---|---|---|
-| Kuzgunlar (Istanbul) | info@kuzgunlar.com.tr, laut Firmen-Website | **gesendet** am 17.10. aus Gmail |
-| 5D (Famalicão, Nachrücker) | 5d@5d.com.pt, laut Firmen-Website | **Entwurf** in Gmail, nicht gesendet |
-| Lisama (Guimarães) | Kontaktseite auf lisama.pt (E-Mail im Netz nur maskiert) | von Hand, Kurztext unten |
-| Chasco Jeans (Barcelos) | Kontaktseite auf chascojeans.pt, Telefon laut Website +351 253 851 974 | von Hand, Kurztext unten |
-| NTC Jeans (Istanbul) | E-Mail und WhatsApp auf der Kontaktseite von ntcjeans.com | von Hand, Kurztext unten |
-| DiZNEW (Dongguan) | Anfrage-Formular auf diznew.com | von Hand, Kurztext unten |
+| Kuzgunlar (Istanbul) | info@kuzgunlar.com.tr | **gesendet** 17.10. |
+| Lisama (Guimarães) | comercial@lisama.pt, Kopie an lisama@lisama.pt | **gesendet** 17.10. |
+| Chasco Jeans (Barcelos) | geral@chascojeans.pt | **gesendet** 17.10. |
+| NTC Jeans (Istanbul) | info@ntcjeans.com | **gesendet** 17.10. |
+| DiZNEW (Dongguan) | sales01@diznew.com, Kopie an info@diznew.com | **gesendet** 17.10. |
+| 5D (Famalicão, Nachrücker) | 5d@5d.com.pt | **gesendet** 17.10. |
 
-Keine WhatsApp-Nummer ließ sich von hier prüfen. Nimm nur Nummern, die auf der Kontaktseite der Firma selbst stehen.
+WhatsApp, laut Website der Firma: NTC Jeans +90 534 771 1757. Lisama nennt ein Mobiltelefon +351 919 988 288 (ob WhatsApp, unklar). Nur nutzen, falls bis Mi 21.10. keine Antwort kommt.
 
 ## Kurztext für Kontaktformular oder WhatsApp
 

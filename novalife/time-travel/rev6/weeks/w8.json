@@ -204,7 +204,7 @@
     "s": [
      "TikTok und Instagram: 5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin). Ein echter Satz zur Sache, kein „nice“.",
      "Alle DMs beantworten.",
-     "Jedes „Ja, ich bestelle am 14.01.“ mit Größe ins Blatt „Die ersten 35“, Bereich „Zusage“. Alles ohne Größe oder Datum unter „Vielleicht“."
+     "Jedes „Ja, ich bestelle am 01.02.“ mit Größe ins Blatt „Die ersten 35“, Bereich „Zusage“. Alles ohne Größe oder Datum unter „Vielleicht“."
     ],
     "f": "5 Kommentare geschrieben, keine DM offen, neue Zusagen eingetragen.",
     "o": [
@@ -368,38 +368,6 @@
       "u": "https://www.youtube.com"
      }
     ]
-   },
-   {
-    "c": "A",
-    "t": "19:00 · Website Schritt 2: Theme-Kopie, Git, GitHub",
-    "m": 45,
-    "s": [
-     "Terminal im Ordner ~/Claude/Novalife/website: shopify theme list --store DEIN-SHOP (DEIN-SHOP = Teil vor .myshopify.com). Beim ersten Mal öffnet sich der Browser zum Einloggen. ID des Themes mit der Rolle „live“ notieren.",
-     "shopify theme duplicate --theme <ID> --name „TT Story“ --store DEIN-SHOP. Meldet Shopify „Maximum number of themes reached“: alte Test-Themes im Admin unter Onlineshop → Themes löschen (Höchstzahl ungeprüft).",
-     "mkdir tt-theme, hineinwechseln, shopify theme pull --theme „TT Story“ --store DEIN-SHOP.",
-     "git init, git add -A, git commit -m „Ausgangsstand TT Story“.",
-     "claude starten und den Prompt unten geben. Vor jedem Push fragt Claude Code dich.",
-     "Notieren, welches Theme du hast (Dawn, Horizon oder ein anderes)."
-    ],
-    "f": "der erste Commit in einem privaten GitHub-Repo „novalife-tt-theme“ liegt und du weißt, welches Theme du hast.",
-    "p": "Projekt Time Travel, Docket W8, Website Schritt 2. Dieser Ordner ist eine Kopie meines Shopify-Themes. In Shopify heißt sie „TT Story“ und ist NICHT veröffentlicht.\n1. Lies config/settings_schema.json und sag mir: Welches Theme ist das (Name, Version)?\n2. Lege eine .gitignore an mit: node_modules/, .DS_Store, .env, *.log.\n3. Lege eine .shopifyignore an, die CLAUDE.md, docs/ und tools/ vom Hochladen zu Shopify ausschließt.\n4. Hilf mir, dieses Repo als PRIVATES GitHub-Repo „novalife-tt-theme“ zu sichern. Erklär jeden Schritt in einem Satz, bevor du ihn ausführst, und frag mich vor jedem Push.\nLade nichts zu Shopify hoch. Commit am Ende: „gitignore und shopifyignore“.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Themes"
-     },
-     {
-      "n": "GitHub",
-      "u": "https://github.com",
-      "h": "privates Repo „novalife-tt-theme“"
-     },
-     {
-      "n": "Shopify CLI (npm)",
-      "u": "https://registry.npmjs.org/@shopify/cli",
-      "h": "Node ≥ 22.12.0"
-     }
-    ]
    }
   ],
   "2026-11-05": [
@@ -487,7 +455,7 @@
     "s": [
      "5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin).",
      "Alle DMs beantworten.",
-     "Jedes „Ja“ mit Größe und „ich bestelle am 14.01.“ ins Blatt „Die ersten 35“ (Zusage), alles andere „Vielleicht“."
+     "Jedes „Ja“ mit Größe und „ich bestelle am 01.02.“ ins Blatt „Die ersten 35“ (Zusage), alles andere „Vielleicht“."
     ],
     "f": "5 Kommentare geschrieben, keine DM offen, neue Zusagen eingetragen.",
     "o": [
@@ -570,25 +538,6 @@
     ]
    },
    {
-    "c": "A",
-    "t": "10:00 · Produkthaftpflicht: Preis bei 1–2 Versicherern anfragen",
-    "m": 20,
-    "s": [
-     "Zwei Versicherer wählen, die Betriebs- oder Produkthaftpflicht für Kleingewerbe anbieten. Kontakt nur von deren offizieller Website (Formular oder Mail), keine Vergleichsportale.",
-     "Anfrage: „Ich bin Kleingewerbe in Berlin (Novalife). Ich lasse 100 Jeans unter eigener Marke im Ausland fertigen und verkaufe online in Deutschland [ggf. EU], Drop April 2027. Was kostet eine Produkthaftpflicht dafür pro Jahr, mit welcher Deckungssumme und Selbstbeteiligung?“",
-     "Preis ins Blatt „Kasse“, Zeile „ungeplant“ (Produkthaftpflicht). Bis zur Antwort: Schätzung mit dem Vermerk „ungeprüft“.",
-     "Keine Rechtsberatung: Ob du sie brauchst, entscheidest du mit dem Steuerberater oder der IHK."
-    ],
-    "f": "2 Anfragen raus sind und die Zeile „Produkthaftpflicht“ im Blatt „Kasse“ steht.",
-    "o": [
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Kasse“, Zeile „ungeplant“"
-     }
-    ]
-   },
-   {
     "c": "C",
     "t": "18:00 · V012 posten: REAL „Ein einziges Thema“",
     "m": 20,
@@ -662,11 +611,11 @@
      "B2-Band: Rat weiße Kante, dazu das Ergebnis von Story 4 (22.10.) und die UA/PL-Stimmen aus den Gesprächen. Gab es diese Woche ≥ 3 Kommentare mit „Sowjet“, „Wappen“ oder „Holodomor“ (G7): weiße B2-Kante jetzt einfrieren (0 bis +0,22 €/Paar).",
      "Namen nach außen: Wortliste (Time Travel, Kreuzstich-Band, Achtstern), dazu die Antworten aus Story 8.",
      "Sprache der Hooks nach dem DE-Test W6–W7 (V004, V006, V007, V009 mit Test-Hook B auf Deutsch): Anmeldungen je 1.000 Views DE gegen EN vergleichen. Ohne klares Ergebnis: EN-Hook mit DE-Zeile.",
-     "Liefergebiet folgt der Sprache: Hooks englisch → am 24.11. englische Rechtstexte mitbuchen, englische Produktseite am 18.12. · Hooks deutsch → bis zum Drop nur Versand nach Deutschland (spart OSS und Retouren-Aufwand). Dazu die Zahlen aus der Medienstudie.",
+     "Liefergebiet folgt der Sprache: Hooks englisch → am Fr 15.01. englische Rechtstexte mitbuchen, englische Produktseite am Mo 25.01. · Hooks deutsch → bis zum Drop nur Versand nach Deutschland (spart OSS und Retouren-Aufwand). Dazu die Zahlen aus der Medienstudie.",
      "Alles in den Prompt unten, Claude baut daraus Spec Rev. 14 (bis So 08.11.). Danach Freeze-Zettel aktualisieren und der Fabrik die finalen Farben des B2-Bands schicken, bevor das Digitizing fertig ist."
     ],
     "f": "alle vier Entscheidungen im Blatt „Entscheidungen“ stehen, der Prompt an Claude raus ist und die Fabrik die finalen Farben des B2-Bands hat.",
-    "p": "Projekt Time Travel, Docket W8, Sa 07.11. Meine Entscheidungen vor dem Digitizing:\n1 B2-Band: [weiße Kante / andere], Grund: [Story 4, Stimmen]\n2 Namen nach außen: [Wortliste bestätigt / Änderungen], Antworten aus Story 8: [..]\n3 Sprache der Hooks: [EN / DE / EN mit DE-Zeile], DE-Test: Anmeldungen je 1.000 Views DE [..] gegen EN [..]; Medienstudie: Instagram [..] %, TikTok [..] % bei 14–29\n4 Liefergebiet: [nur DE / DE + EU]\nMach daraus Spec Rev. 14 mit Änderungsliste gegen Rev. 13. Sag mir, was sich für die Rechtstexte am 24.11. und die Produktseite am 18.12. ändert, und schreib mir die Mail mit den finalen Farben des B2-Bands an die Fabrik auf Englisch.",
+    "p": "Projekt Time Travel, Docket W8, Sa 07.11. Meine Entscheidungen vor dem Digitizing:\n1 B2-Band: [weiße Kante / andere], Grund: [Story 4, Stimmen]\n2 Namen nach außen: [Wortliste bestätigt / Änderungen], Antworten aus Story 8: [..]\n3 Sprache der Hooks: [EN / DE / EN mit DE-Zeile], DE-Test: Anmeldungen je 1.000 Views DE [..] gegen EN [..]; Medienstudie: Instagram [..] %, TikTok [..] % bei 14–29\n4 Liefergebiet: [nur DE / DE + EU]\nMach daraus Spec Rev. 14 mit Änderungsliste gegen Rev. 13. Sag mir, was sich für die Rechtstexte am 15.01. und die Produktseite am 25.01. ändert, und schreib mir die Mail mit den finalen Farben des B2-Bands an die Fabrik auf Englisch.",
     "o": [
      {
       "n": "Google Sheets · „Time Travel Tracking“",
@@ -717,27 +666,6 @@
       "n": "Google Sheets · „Time Travel Tracking“",
       "u": "https://sheets.google.com",
       "h": "Blatt „Creator“"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "14:00 · Website Schritt 3: CLAUDE.md mit deinen Regeln",
-    "m": 30,
-    "s": [
-     "Anhang A aus website.md als CLAUDE.md in den Ordner tt-theme kopieren (TextEdit → Format → In reinen Text umwandeln, „Als reinen Text sichern“).",
-     "DEIN-SHOP und DEINE-DOMAIN ersetzen. Die Entscheidungen von heute (Sprache, Wortliste) in die Sprachregeln übernehmen.",
-     "claude starten, mit /context prüfen, ob CLAUDE.md geladen ist.",
-     "Prompt unten geben, Zusammenfassung lesen: Fehlt eine Regel (kein Mockup bis 03.12., nie „authentisch“), CLAUDE.md ergänzen.",
-     "Commit „Regeln und Termine“."
-    ],
-    "f": "Claude Code die Regeln richtig in 8 Punkten zusammenfasst, docs/TERMINE.md existiert und der Commit gemacht ist.",
-    "p": "Projekt Time Travel, Docket W8, Website Schritt 3. Lies CLAUDE.md. Fasse mir die harten Regeln in 8 kurzen Punkten zusammen, damit ich sehe, dass du sie verstanden hast.\nDann lege docs/TERMINE.md an: die Zustandstabelle aus CLAUDE.md, dazu für jeden Zustand einen Test-Link mit ?t= (30 Sekunden vor der Grenze) und einen mit ?t= und ?key=.\nCommit: „Regeln und Termine“.",
-    "o": [
-     {
-      "n": "GitHub",
-      "u": "https://github.com",
-      "h": "Repo „novalife-tt-theme“"
      }
     ]
    },
@@ -817,7 +745,7 @@
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“ (nur bestätigte). Nach Quellen-Tag aufteilen (src-instagram, src-tiktok, src-qr, src-email, ref-netz, ref-papier, ref-stick, ref-…) ins Blatt „Warteliste“.",
      "Content: je Post Views, Saves, Shares, neue Follower, Anmeldungen je 1.000 Views ins Blatt „Content“. Median der letzten Videos neu rechnen.",
      "Kassencheck K − F − R im Blatt „Kasse“: Kontostand minus feste Ausgaben minus Rücklage. Grün ≥ 300 €, gelb 0–300 €, rot < 0 (G12).",
-     "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower gesamt TikTok + Instagram, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (bis 14.01. noch 0).",
+     "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower gesamt TikTok + Instagram, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (bis 01.02. noch 0).",
      "Aktivzeiten ablesen: TikTok → Profil → Menü → Business Suite → Analysen → Follower → Follower-Aktivität · Instagram → Profil → Professional Dashboard → Insights → Follower → Aktivste Zeiten (Menüpfade vor Ort prüfen). Weicht die Spitze mehr als 1 h von 18:00 ab: Postzeit ab W9 um ±1 h schieben und im Blatt notieren.",
      "Offenes aus W8 im Blatt notieren. Dann die Zeile unten an Claude."
     ],

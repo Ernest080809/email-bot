@@ -1,7 +1,7 @@
 {
  "n": 11,
  "phase": "P2",
- "goal": "Proto entsteht, Shop rechtssicher, Stick-Abend, Sperrwoche ohne Ernte-Bild einhalten",
+ "goal": "Proto entsteht, Berliner Muster fertig, Stick-Abend, Sperrwoche ohne Ernte-Bild einhalten",
  "kpi": [
   {
    "k": "Warteliste",
@@ -130,85 +130,6 @@
   ],
   "2026-11-24": [
    {
-    "c": "A",
-    "t": "Rechtstexte: AGB, Widerruf, Versand, Zahlung mit Abmahnschutz + Hotline",
-    "m": 75,
-    "s": [
-     "Rechtstexte-Service mit Abmahnschutz wählen (z. B. IT-Recht Kanzlei oder Händlerbund, Websites selbst öffnen und prüfen). Preis vorher vergleichen. Über 80 € in die Zeile „ungeplant“ im Blatt „Kasse“.",
-     "Texte erzeugen: AGB, Widerrufsbelehrung mit Muster-Widerrufsformular, Versand- und Zahlungsinformationen. In Shopify → Einstellungen → Richtlinien einsetzen und im Footer verlinken. Bei englischen Hooks (Entscheidung 07.11.) die englischen Rechtstexte mitbuchen.",
-     "Hotline anrufen, Fragen vorher aufschreiben: 1 Creator-Kennzeichnung bei geschenkten Paaren · 2 Geld-zurück-Regel · 3 „Platz in der ersten Stunde sichern“ (kostenlos und mit 10 €) · 4 CTA „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“",
-     "Weiter: 5 Preisangabe „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“ ohne Streichpreis (PAngV § 11, ungeprüft) · 6 Widerruf bei Zipper und Polo, die erst nach Bestellung bestickt werden · 7 Bin ich bei bestickten Blanks Hersteller? · 8 der Preissatz in V021 („Pre-order price €149 from 14.01. until 23.05.“).",
-     "Antworten wörtlich mitschreiben, ins Blatt „Recht“. Es gilt, was die Hotline sagt, nicht Claude. Keine Rechtsberatung durch Claude.",
-     "Danach den Prompt unten an Claude, damit CTA, Captions und Shop-Texte angepasst werden."
-    ],
-    "f": "AGB, Widerruf, Versand- und Zahlungsinfos im Shop verlinkt sind und alle 8 Hotline-Antworten im Blatt „Recht“ stehen.",
-    "p": "Projekt Time Travel, Docket W11, Di 24.11. Antworten der Rechtstexte-Hotline: 1 Creator-Kennzeichnung: [..] · 2 Geld-zurück-Regel: [..] · 3 „Platz in der ersten Stunde sichern“ A/B: [..] · 4 CTA „Die Liste kauft zuerst“: [..] · 5 Preisangabe ohne Streichpreis: [..] · 6 Widerruf Zipper/Polo: [..] · 7 Hersteller bei bestickten Blanks: [..] · 8 Preissatz V021: [..] · Kosten Service: [€].\nSag mir: Welche CTA-Zeilen in 9.3 ändern sich, ob V021 am Fr so raus darf, was das für die Reservierung am So 29.11. heißt und was im Shop noch fehlt.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Einstellungen → Richtlinien"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blätter „Recht“ und „Kasse“"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "Datenschutz-Endkontrolle (community.md 3.3), Double-Opt-in prüfen",
-    "m": 10,
-    "s": [
-     "Datenschutzerklärung (e-recht24 vom 07.10.) öffnen: Tally (13.10.), Quellen-Tags und Code (15.10.) und Größe (11.11.) stehen schon drin? Shopify Email mit Double-Opt-in und die Links zu deinen Kanälen erwähnt?",
-     "Double-Opt-in läuft: mit einer Testadresse eintragen, Bestätigungsmail kommt, erst danach zählt der Kunde. Testkunden löschen.",
-     "Keine Liste zu Meta hochladen. Keine Telefonnummern sammeln, WhatsApp nur als Kanal, nie als Gruppe.",
-     "Zettel für Fr ausdrucken: „Heute wird fotografiert. Sag Bescheid, wenn du nicht drauf willst.“"
-    ],
-    "f": "alle Punkte der Checkliste abgehakt sind und der Zettel für den Stick-Abend ausgedruckt ist.",
-    "o": [
-     {
-      "n": "Tally",
-      "u": "https://tally.so",
-      "h": "Formular vom 13.10."
-     },
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "LUCID: Verpackungsregister spätestens heute registrieren",
-    "m": 20,
-    "s": [
-     "Verpackungsregister öffnen und als Hersteller registrieren, bevor das erste Paket rausgeht (das Proto-Paket kommt zu dir, aber ab Januar verschickst du).",
-     "Bereitlegen: Name, Anschrift, Gewerbeanmeldung, Steuernummer, Marke „Novalife“, Mail.",
-     "Registrierungsnummer notieren und ins Blatt „Recht“. Die Systembeteiligung (Verpackungslizenz) kommt später am Di 09.03.",
-     "Unklar, welche Verpackungsarten du angeben musst: Prompt an Claude in einem Chat mit Websuche, Ergebnis selbst auf der Seite des Registers prüfen."
-    ],
-    "f": "die LUCID-Registrierungsnummer im Blatt „Recht“ steht.",
-    "p": "Projekt Time Travel, Docket W11, Di 24.11. Ich registriere mich heute bei LUCID (Verpackungsregister). Ich verschicke ab Januar Jeans in Versandkartons mit Seidenpapier, rund 100 Pakete. Erklär mir mit Websuche in 6 Punkten, welche Angaben die Registrierung verlangt und was danach bis zum ersten Versand noch fehlt (Systembeteiligung). Markiere, was du nicht auf der offiziellen Seite gefunden hast, als ungeprüft.",
-    "o": [
-     {
-      "n": "Verpackungsregister (LUCID)",
-      "u": "https://www.verpackungsregister.org",
-      "h": "Registrierung vor dem ersten Paket"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai",
-      "h": "Chat mit Websuche"
-     }
-    ]
-   },
-   {
     "c": "V",
     "t": "Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt",
     "m": 10,
@@ -277,35 +198,6 @@
    }
   ],
   "2026-11-25": [
-   {
-    "c": "A",
-    "t": "Zahlungsanbieter: PayPal verbinden, Auszahlungspläne notieren",
-    "m": 30,
-    "s": [
-     "Shopify Payments ist seit 30.10. aktiv. Heute: Shopify → Einstellungen → Zahlungen → PayPal aktivieren und mit deinem PayPal-Geschäftskonto verbinden (Ausweis und Bankdaten bereithalten).",
-     "Auszahlungsplan Shopify Payments ablesen: Einstellungen → Zahlungen → Shopify Payments → Auszahlungen. Rhythmus und Dauer bis zum Bankkonto notieren.",
-     "PayPal: im PayPal-Konto nachsehen, wann und wie Geld aufs Bankkonto geht (automatisch oder manuell). Nichts annehmen, was du nicht im Konto siehst.",
-     "Beides ins Blatt „Kasse“, Zeile „Auszahlung“. Die Gates am 20.12. und 16.05. hängen an der Auszahlungsdauer.",
-     "Status von Shopify Payments prüfen: „verifiziert“? Wenn nicht, heute das Ticket beim Payments-Support aufmachen (Gate So 29.11.)."
-    ],
-    "f": "PayPal verbunden ist und beide Auszahlungspläne sowie der Status „verifiziert“ im Blatt „Kasse“ stehen.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Einstellungen → Zahlungen"
-     },
-     {
-      "n": "PayPal-Geschäftskonto",
-      "h": "in der PayPal-App oder im Browser selbst öffnen"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Kasse“"
-     }
-    ]
-   },
    {
     "c": "C",
     "t": "18:00 · V020 „Warum Panel-Stickerei“ posten (ORIGIN)",
@@ -502,12 +394,12 @@
     "t": "18:00 · V021 „Warum 169 €“ vorplanen (Stick-Abend ab 18:30)",
     "m": 20,
     "s": [
-     "Vormittags: Preissatz mit der Hotline-Antwort vom 24.11. abgleichen. Hat die Hotline etwas anders gesagt: Text im Bild und Caption anpassen, sonst nicht posten.",
+     "Vormittags prüfen: Im Bild und in der Caption steht nur „169 €“, kein Vorbestellpreis daneben, kein Vergleich. Den Vorbestellpreis zeigst du erst nach der Rechtstexte-Hotline im Januar.",
      "TikTok: Video hochladen, Caption einfügen, über die Planen-Funktion auf 18:00 stellen (Business-Konto). Instagram: Reel hochladen und für 18:00 planen. YouTube: Short für 18:00 planen.",
      "Um 18:00 kurz prüfen, ob alles live ist. Reel in die Story mit Link-Sticker.",
      "Kommentare nach dem Stick-Abend ab 20:15 beantworten, 15 Min."
     ],
-    "f": "V021 um 18:00 auf drei Plattformen live ist und der Preissatz der Hotline-Antwort entspricht.",
+    "f": "V021 um 18:00 auf drei Plattformen live ist und nur „169 €“ ohne Vergleich zu sehen ist.",
     "v": {
      "id": "V021",
      "slot": "REAL",
@@ -518,14 +410,14 @@
      "shots": [
       "Papier: „€169 → ~€60 to make (estimate)“",
       "Darunter: payment fees, shipping, returns, next drop",
-      "Text: „pre-order price €149 · 14.01.–23.05.“"
+      "Text: „pre-order price €149 · 01.02.–23.05.“"
      ],
      "ort": "Wohnung · Schreibtisch, Draufsicht (gedreht am So 22.11.)",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
      "text": "0–2 s Hook EN, Untertitel, „estimate“ sichtbar",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 23.05. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
-     "check": "Kein Streichpreis, keine fremden Marken, Schätzung gekennzeichnet, Preissatz von der Hotline geprüft, Sperrwoche ohne Ernte-Bild."
+     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 01.02. until 23.05. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
+     "check": "Kein Streichpreis, keine fremden Marken, Schätzung gekennzeichnet, nur „169 €“, kein Vergleichspreis, Sperrwoche ohne Ernte-Bild."
     },
     "o": [
      {
@@ -553,7 +445,7 @@
      "18:30 Begrüßung in zwei Sätzen: „Heute stickt jeder eine Raute. Die Raute steht für ein bestelltes Feld und ist eines der ältesten Motive im Kreuzstich.“ (nur sagen, wenn die Belegtabelle es trägt).",
      "18:40–19:30 sticken. Du gehst herum und hilfst. Nur Raute und Achtstern auf dem Tisch: kein Weizen, auch nicht auf den Stickproben.",
      "19:30 die gewaschenen Stickproben zeigen (nur Band A, Achtstern, Patch). Erzählen: am 03.12. kommt das Proto.",
-     "19:45 QR zeigen: „Wer auf die Liste will, scannt hier und bestätigt die Mail.“ Wer sagt, dass er am 14.01. bestellt: Größe fragen und ins Blatt „Die ersten 35“, Spalte „Zusage“. Alles andere „Vielleicht“.",
+     "19:45 QR zeigen: „Wer auf die Liste will, scannt hier und bestätigt die Mail.“ Wer sagt, dass er am 01.02. bestellt: Größe fragen und ins Blatt „Die ersten 35“, Spalte „Zusage“. Alles andere „Vielleicht“.",
      "Fotos nur von Leuten, die Ja sagen. Am Sa 28.11. postest du nichts davon (Gedenktag), frühestens ab So.",
      "Danach: Zahl der Gäste, neue Anmeldungen mit ref-stick, Zusagen ins Blatt „Abende“."
     ],
@@ -577,7 +469,7 @@
     "m": 60,
     "plus": true,
     "s": [
-     "Wer weiter sticken will, bleibt bis 21:00. Gespräche führen: Welche Größe trägst du? Was müsste die Jeans haben, damit du am 14.01. bestellst?",
+     "Wer weiter sticken will, bleibt bis 21:00. Gespräche führen: Welche Größe trägst du? Was müsste die Jeans haben, damit du am 01.02. bestellst?",
      "Jede ausdrückliche Zusage mit Größe sofort ins Blatt „Die ersten 35“.",
      "21:00 aufräumen, Material für den nächsten Abend in eine Kiste."
     ],
@@ -597,26 +489,6 @@
     "t": "Kein Post heute: Holodomor-Gedenktag (4. Samstag im November). Auch keine Story, kein Werbe-Kommentar."
    },
    {
-    "c": "A",
-    "t": "Versand im Shop einrichten: Deutschland, EU nur bei englischen Hooks",
-    "m": 30,
-    "s": [
-     "Shopify → Einstellungen → Versand und Zustellung → Versandprofil: Zone Deutschland anlegen.",
-     "EU nur, wenn du am 07.11. bei englischen Hooks geblieben bist. Dann die OSS-Antwort vom Steuerberater (13.10.) umsetzen. Bei deutschen Hooks: nur Versand nach DE bis zum Drop.",
-     "Gewicht je Paket 1,0 kg ansetzen (Jeans ca. 0,7 kg plus Karton). Echte Portokosten im DHL-Geschäftskundenportal nachsehen.",
-     "Kundenpreis: Empfehlung 4,90 € in Deutschland (aus Rev. 5.3), EU nach DHL-Tarif aufgerundet. Den Lieferzeit-Satz noch nicht einsetzen, der kommt am Mo 14.12.",
-     "Testbestellung kommt später. Heute nur speichern und Vorschau prüfen."
-    ],
-    "f": "die Versandzone(n) mit Preis gespeichert sind und die Wahl DE oder DE + EU zur Entscheidung vom 07.11. passt.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Einstellungen → Versand und Zustellung"
-     }
-    ]
-   },
-   {
     "c": "V",
     "t": "Holy Shit Shopping im CANK + Sing Blackbird (Grind+, als Besucher)",
     "m": 120,
@@ -625,7 +497,7 @@
      "Vorher prüfen: Holy Shit Shopping im CANK, Karl-Marx-Straße, Neukölln, 28.–29.11. laut berlin.de. Datum, Öffnung und Eintritt auf der offiziellen Seite nachsehen.",
      "Als Besucher hingehen, nicht verkaufen. 10 Designer ansprechen: „Wie bewirbt man sich hier, und was kostet ein Stand?“ Antworten ins Blatt „Berlin“.",
      "Keine Fotos für Posts heute, kein Post (Gedenktag). Notizen reichen.",
-     "Danach Sing Blackbird, Sanderstr. 11: nach der Mail vom 18.11. fragen, Termine 12.01., 16.01., 30.01., 15.05. Öffnung vorher prüfen."
+     "Danach Sing Blackbird, Sanderstr. 11: nach der Mail vom 18.11. fragen, Termine 30.01., 03.02., 10.02., 15.05. Öffnung vorher prüfen."
     ],
     "f": "10 Antworten zu Bewerbung und Standpreis im Blatt „Berlin“ stehen und Sing Blackbird nachgefasst ist.",
     "o": [
@@ -652,18 +524,18 @@
   "2026-11-29": [
    {
     "c": "A",
-    "t": "Wochenreview W11 + Reservierung entscheiden",
+    "t": "Wochenreview W11 + Reservierung A/B entscheiden",
     "m": 30,
     "s": [
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Zahl, Zuwachs und Verteilung nach Quellen-Tag (ref-stick neu) ins Blatt „Warteliste“. Monatsende November notieren.",
      "Content: V019, V117, V020, V118, V021 mit Views, Saves, Shares, neuen Followern ins Blatt „Content“. Anmeldungen je 1.000 Views. Kommentare „Sowjet/Wappen/Holodomor“ zählen.",
-     "Kassencheck K − F − R (Rechtstexte, Stick-Material) ins Blatt „Kasse“. Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0).",
+     "Kassencheck K − F − R (Stick-Material) ins Blatt „Kasse“. Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0).",
      "Gates 7.1: G1 unter Alarm 170 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos · G2 unter 390 → bestes Video in 2 Varianten · G3 < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil · G5 Varianten-Regel · G6 schwacher Slot tauschen · G7 ≥ 3 kritische Kommentare → 2 Wochen kein Ernte-Bild · G8 Folklore → Totale aus 3 m · G9 > 70 % warme Tags → 3 neue Hooks · G12 Kasse gelb/rot → Ausgaben-Stopp.",
      "Reservierung entscheiden (siehe Gate): Option B kostenlos ist Standard. Entscheidung ins Blatt „Gates“.",
      "Zeile an Claude (Prompt unten)."
     ],
     "f": "die Cockpit-Zahlen eingetragen, alle Gates geprüft, die Reservierung A oder B entschieden ist und Claude die Zeile hat.",
-    "p": "Projekt Time Travel, Docket W11, So 29.11. W11: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Stick-Abend [Gäste]/10, Anmeldungen ref-stick [n]. Proto-Versand: [Datum]. Reservierung: Option [A/B]. Rechtstexte live: [ja/nein]. Payments verifiziert: [ja/nein]. Offen aus W11: [..]. Sag mir, welches Gate greift und was ich in W12 anders mache. Schreib mir außerdem die Reservierungsseite „Platz in der ersten Stunde sichern“ als Text für Option [A/B].",
+    "p": "Projekt Time Travel, Docket W11, So 29.11. W11: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Follower gesamt [F], Zusagen [Z35], Stick-Abend [Gäste]/10, Anmeldungen ref-stick [n]. Proto-Versand: [Datum]. Reservierung: Option [A/B]. Offen aus W11: [..]. Sag mir, welches Gate greift und was ich in W12 anders mache. Schreib mir außerdem die Reservierungsseite „Platz in der ersten Stunde sichern“ als Text für Option [A/B].",
     "o": [
      {
       "n": "Shopify-Admin",
@@ -685,15 +557,14 @@
    },
    {
     "c": "D",
-    "t": "GATE Reservierung A/B · Payments verifiziert · Rechtstexte live",
+    "t": "GATE Reservierung A/B (gebaut wird nach dem Sample-Gate)",
     "m": 5,
     "s": [
-     "Liste < 170: Reservierung mit 10 € (Option A), nur wenn Rechtstexte-Hotline und Shopify ok sind. Sonst die kostenlose Liste „Platz in der ersten Stunde sichern“ (Option B, Standard).",
-     "Shopify Payments verifiziert? Wenn nicht: Reservierung ohne Zahlung und Ticket beim Payments-Support aufmachen.",
-     "Rechtstexte live (AGB, Widerruf, Versand, Zahlung im Footer)? Wenn nicht: fertig machen bis Fr 04.12.",
-     "Ergebnis ins Blatt „Gates“. Die Reservierung baust du am Sa 05.12., sie öffnet Mo 07.12., 19:00."
+     "Liste < 170: Reservierung mit 10 € (Option A). Sonst die kostenlose Liste „Platz in der ersten Stunde sichern“ (Option B, Standard).",
+     "Nur entscheiden, nicht bauen: Shop, Zahlungen und Rechtstexte kommen erst nach dem Sample-Gate am Di 05.01.",
+     "Ergebnis ins Blatt „Gates“. Die Reservierung baust du am Mo 18.01., sie öffnet Mi 20.01., 19:00, bis So 31.01."
     ],
-    "f": "im Blatt „Gates“ für den 29.11. Option A oder B, Payments-Status und Rechtstexte-Status stehen.",
+    "f": "im Blatt „Gates“ für den 29.11. Option A oder B steht.",
     "o": [
      {
       "n": "Shopify-Admin",

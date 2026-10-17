@@ -1,7 +1,7 @@
 {
  "n": 14,
  "phase": "P2",
- "goal": "Vorbestellung und Stufe 2 als Entwurf bauen, Presse-Welle 1 senden, Kontingent, Nummern und Orte festlegen",
+ "goal": "Presse-Welle 1 senden, Zipper und Polo abholen und freigeben, Kontingent, Nummern und Orte festlegen",
  "kpi": [
   {
    "k": "Warteliste",
@@ -31,90 +31,15 @@
  "days": {
   "2026-12-14": [
    {
-    "c": "A",
-    "t": "Vorbestellung in Shopify anlegen: 35 Paar, Liefertext, Status Entwurf",
-    "m": 60,
-    "s": [
-     "Shopify → Produkte → Produkt hinzufügen: „Time Travel Jeans · Vorbestellung“, Preis 149 €, Varianten W30 · W32 · W34 · W36 · W38. Kein Vergleichspreis, kein Streichpreis.",
-     "Bestand gesamt 35. Bis Sa 19.12. als Platzhalter die Startannahme aus Rev. 5.3: W30 5 · W32 10 · W34 10 · W36 7 · W38 3. Die echte Verteilung nach den gr-Tags machst du am Samstag. „Inventar verfolgen“ an, „Weiterverkaufen, wenn nicht vorrätig“ bei jeder Variante AUS.",
-     "Oben in den Text, fett, genau dieser eine Satz: „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni.“ Derselbe Satz gilt überall: Produktseite, Bestellbestätigung, Website, Pressemappe. Kein anderes Lieferfenster mehr verwenden.",
-     "Preiszeile: „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“. Nie „149 € statt 169 €“, du hast 169 € nie verlangt (PAngV § 11, ungeprüft, keine Rechtsberatung).",
-     "Darunter: Faser- und Herstellerangabe (Faserzusammensetzung aus der Spec, Hersteller: Novalife mit Adresse wie im Nackenlabel), Hinweis § 19 UStG im Wortlaut vom Steuerberater (13.10.).",
-     "Satz unter dem Größenblock: „Deine Größe ist weg? Stufe 2 oder Liste.“",
-     "Status „Entwurf“ lassen. Speichern, Vorschau am Handy prüfen."
-    ],
-    "f": "das Produkt mit 5 Varianten, 35 Stück Bestand, Liefersatz, Preiszeile ohne Streichpreis, Faser-, Hersteller- und § 19-Angabe als Entwurf gespeichert ist.",
-    "o": [
-     {
-      "n": "Shopify-Admin · Produkte",
-      "u": "https://admin.shopify.com",
-      "h": "Produkte → Produkt hinzufügen"
-     },
-     {
-      "n": "Shopify Hilfe · Pre-orders",
-      "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders",
-      "h": "Einrichtung nachlesen"
-     },
-     {
-      "n": "§ 19 UStG",
-      "u": "https://www.gesetze-im-internet.de/ustg_1980/__19.html",
-      "h": "Wortlaut des Hinweises gilt laut Steuerberater"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "Stufe 2 als Entwurf: tt_produkt_stufe2, Nr. 036–060, 25 Paar zu 169 €",
-    "m": 15,
-    "s": [
-     "Shopify → Produkte → das Vorbestell-Produkt öffnen → Mehr Aktionen → Duplizieren. Name „Time Travel Jeans · Vorbestellung Stufe 2“, Preis 169 €, Bestand 25, gleiche Varianten.",
-     "Gleicher Liefertext: „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni.“ Preiszeile: „Stufe 2: 169 €, Nummern 036–060.“",
-     "Im Theme-Editor → Theme-Einstellungen das Feld tt_produkt_stufe2 auf dieses Produkt setzen (Feld legt Claude Code am Mo 21.12. an, falls es noch fehlt).",
-     "Regel oben in die interne Notiz des Produkts: „Geht live, sobald Nr. 035 verkauft ist, frühestens 14.01., spätestens So 23.05., 20:00.“",
-     "Status „Entwurf“."
-    ],
-    "f": "Stufe 2 als zweites Produkt mit 25 Stück zu 169 € im Entwurf liegt und die Live-Regel in der Notiz steht.",
-    "o": [
-     {
-      "n": "Shopify-Admin · Produkte",
-      "u": "https://admin.shopify.com"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "Vorlage „Bestellbestätigung“ um Vorbestell-Textblock ergänzen",
-    "m": 20,
-    "s": [
-     "Shopify → Einstellungen → Benachrichtigungen → Kunden-Benachrichtigungen → Bestellbestätigung → Code bearbeiten.",
-     "Prompt unten an Claude schicken, den gelieferten Liquid-Block unter die Artikelliste setzen.",
-     "Der Block erscheint nur bei Vorbestell-Produkten und enthält: Liefersatz, Nummernlogik („Nummern nach Bestelldatum, ab 001“) und Geld-zurück-Regel („Startet die Produktion am 15.02. nicht, bekommst du dein Geld vollständig zurück.“).",
-     "Vorschau anzeigen, Test-Mail an dich senden. Den echten Test mit Zahlung machst du am Di 29.12."
-    ],
-    "f": "die Test-Mail den Block mit Liefersatz, Nummernlogik und Geld-zurück-Regel zeigt.",
-    "p": "Projekt Time Travel, Docket W14, Mo 14.12. Schreib mir einen Liquid-Block für die Shopify-Benachrichtigung „Bestellbestätigung“. Er soll nur erscheinen, wenn die Bestellung ein Produkt mit dem Tag „vorbestellung“ enthält (Hauptprodukt und Stufe 2). Inhalt auf Deutsch, kurz: 1) „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni.“ 2) „Deine Nummer vergeben wir nach Bestelldatum, ab 001.“ 3) „Startet die Produktion am 15.02. nicht, bekommst du dein Geld vollständig zurück.“ Sag mir, wo genau im Standard-Template ich ihn einfüge und welchen Tag ich an beide Produkte hängen muss.",
-    "o": [
-     {
-      "n": "Shopify-Admin · Benachrichtigungen",
-      "u": "https://admin.shopify.com",
-      "h": "Einstellungen → Benachrichtigungen"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai"
-     }
-    ]
-   },
-   {
     "c": "C",
-    "t": "18:00 · V033 posten: BUILD Day 64 „Die Vorbestellseite“",
+    "t": "18:00 · V033 posten: BUILD Day 64 „Erst die Muster, dann der Shop“",
     "m": 20,
     "s": [
      "17:55 W14/final/V033_final.mp4 in TikTok hochladen (Business-Konto). Musik nur aus der Commercial Music Library, leise unter dem O-Ton. Caption unten einfügen.",
      "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Hook als erste Zeile, höchstens 5 Hashtags) und als Short auf YouTube (Titel = Hook EN).",
      "Reel in die Instagram-Story, Link-Sticker auf die Warteliste.",
      "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband und Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Standard: „Das Muster gibt es in Belarus, Polen, Russland und der Ukraine. Es gehört keinem allein.“",
-     "Wer nach Preis oder Datum fragt: „14.01., 18:00 für die Liste, 19:00 für alle. Link in Bio.“ Jedes „Ich will eine“ per DM nach Größe fragen, ins Blatt „Die ersten 35“."
+     "Wer nach Preis oder Datum fragt: „01.02., 18:00 für die Liste, 19:00 für alle. Link in Bio.“ Jedes „Ich will eine“ per DM nach Größe fragen, ins Blatt „Die ersten 35“."
     ],
     "f": "V033 auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
     "v": {
@@ -122,20 +47,20 @@
      "slot": "BUILD",
      "dauer": "20–30 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Day 64: building the page where you'll pre-order.",
-     "hook_de": "Tag 64: Ich baue die Seite, auf der du vorbestellst.",
+     "hook_en": "Day 64: no shop until all three samples pass.",
+     "hook_de": "Tag 64: Kein Shop, bis alle drei Muster bestehen.",
      "shots": [
-      "Bildschirmaufnahme Shopify-Editor, Produktseite im Entwurf (Cmd + Shift + 5)",
-      "Größen-Buttons „W32 · 81 cm“",
-      "Liefersatz „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“ (EN-Untertitel: delivery by 30.06.2027 at the latest, planned early June)",
-      "Handy-Vorschau der Seite, Gesicht oder Hände am Schreibtisch"
+      "Schreibtisch, Draufsicht: Proto-Jeans, die Berliner Stickproben, die Stickdatei auf dem Laptop",
+      "Zettel „Di 05.01. · Sample-Gate“ neben der Jeans",
+      "Du klappst den Laptop zu und legst die Jeans darauf",
+      "Endkarte „Pre-order · 01.02. · 19:00“"
      ],
-     "ort": "Wohnung · Mac-Bildschirmaufnahme plus Schreibtisch, Licht von vorn",
+     "ort": "Wohnung · Schreibtisch, Licht von vorn",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
-     "text": "0–2 s Hook EN, darunter DE klein; Untertitel; Endkarte „Pre-order · 14.01. · 19:00“",
+     "text": "0–2 s Hook EN, darunter DE klein; Untertitel; Endkarte „Pre-order · 01.02. · 19:00“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Day 64. Pre-order opens 14.01., 19:00: 35 pairs at €149. Delivery by 30.06.2027 at the latest, planned early June. Every size button shows the real waist in cm. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
-     "check": "Kein Streichpreis im Bild (Rev.-5.3-Text „149 € statt 169 €“ entfällt), Liefersatz statt „24.–30.06.“, Proto-Fotos erlaubt, CTA der Phase, nie „authentisch“."
+     "caption": "Day 64. Jeans, zipper, polo: I open the shop only when all three samples pass. Pre-order opens 01.02., 19:00. Link in bio: join the list. The list buys first. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Nur echte Muster und Stickproben im Bild, keine Renderings, kein Preisvergleich, nie „authentisch“."
     },
     "o": [
      {
@@ -158,38 +83,13 @@
   ],
   "2026-12-15": [
    {
-    "c": "A",
-    "t": "Vorbestellung rechtlich sauber machen + Geld-zurück-Regel",
-    "m": 30,
-    "s": [
-     "Produktseite und FAQ: Geld-zurück-Regel wörtlich einfügen: „Startet die Produktion am 15.02. nicht, bekommst du dein Geld vollständig zurück.“",
-     "Interne Regel ins Blatt „Kasse“: Vorbestellgeld bleibt bis 15.02. unangetastet. Keine Ausgabe aus diesem Geld vor der Mengenentscheidung.",
-     "Liefersatz überall gleich prüfen: Produktseite, Stufe 2, Bestellbestätigung, FAQ, Website, Pressemappe. Nie nur „voraussichtlich“.",
-     "FAQ ergänzen: Widerrufsrecht 14 Tage ab Erhalt der Ware gilt auch bei Vorbestellung. „Was, wenn sich die Produktion verzögert?“ → „Du bekommst sofort eine Mail und auf Wunsch dein Geld zurück.“",
-     "Die Formulierungen beim Rechtstexte-Service (seit 24.11.) gegenlesen lassen: Mail mit Link auf die Entwurfsvorschau. Keine Rechtsberatung von Claude."
-    ],
-    "f": "Geld-zurück-Regel und Liefersatz auf Produktseite und FAQ identisch stehen, die Regel im Blatt „Kasse“ notiert ist und die Anfrage beim Rechtstexte-Service raus ist.",
-    "o": [
-     {
-      "n": "Shopify-Admin · Seiten (FAQ)",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Seiten"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Kasse“"
-     }
-    ]
-   },
-   {
     "c": "V",
     "t": "Handheber-DMs: jedes „Ja“ aus der ASK-Story vom 12.12. nach Größe fragen",
     "m": 20,
     "s": [
      "Instagram → Story-Archiv → Story vom Sa 12.12. → Umfrage-Ergebnis öffnen, alle „Ja“-Stimmen ansehen.",
-     "Jedem eine DM: „Hey [Name], du hast bei meiner Story Ja gedrückt. Danke! Welche Größe trägst du (echter Bund in cm, wenn du ihn kennst)? Am 14.01. um 18:00 bekommt die Liste den Link, eine Stunde vor allen.“",
-     "Antworten ins Blatt „Die ersten 35“: „Zusage“ nur mit Name, Größe und dem Satz „ich bestelle am 14.01.“, sonst „Vielleicht“.",
+     "Jedem eine DM: „Hey [Name], du hast bei meiner Story Ja gedrückt. Danke! Welche Größe trägst du (echter Bund in cm, wenn du ihn kennst)? Am 01.02. um 18:00 bekommt die Liste den Link, eine Stunde vor allen.“",
+     "Antworten ins Blatt „Die ersten 35“: „Zusage“ nur mit Name, Größe und dem Satz „ich bestelle am 01.02.“, sonst „Vielleicht“.",
      "Keine Herkunft notieren (Art. 9 DSGVO)."
     ],
     "f": "jede „Ja“-Stimme eine DM hat und jede Antwort in „Zusage“ oder „Vielleicht“ steht.",
@@ -208,7 +108,7 @@
    },
    {
     "c": "V",
-    "t": "PRESSE-WELLE 1 „Vorbestellung ab 14.01.“ an 7 Medien",
+    "t": "PRESSE-WELLE 1 „Vorbestellung ab 01.02.“ an 7 Medien",
     "m": 25,
     "s": [
      "Kontakt je Medium nur von der offiziellen Seite (Impressum oder Redaktionskontakt), nie scrapen: Berliner Zeitung, Tagesspiegel, Denimhunters, TextilWirtschaft, FashionUnited, Gründerszene, deutsche-startups.",
@@ -218,7 +118,7 @@
      "Ins Blatt „Presse“: Medium, Kontaktweg, gesendet 15.12., ref-Tag. Nachfassen nur einmal, am Di 05.01."
     ],
     "f": "7 einzelne Mails mit eigenem ref-Link gesendet sind und im Blatt „Presse“ stehen.",
-    "p": "Projekt Time Travel, Docket W14, Di 15.12. Schreib mir eine Pressemail „Vorbestellung ab 14.01.“ für [Medium] (Ressort [Ressort]). Fakten: Novalife, entworfen in Berlin, Jeans „Time Travel“, 100 Stück nummeriert, Kreuzstich-Band, Achtstern, maschinengestickt auf dem Zuschnitt, Fäden von Hand. Vorbestellung ab Do 14.01.2027, 19:00 (Liste ab 18:00), 35 Paar zum Vorbestellpreis 149 €, ab 24.06. 169 €. Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. Drop Do 24.06.2027, 19:00. Link: [Link mit ?ref=p-medium]. Max. 150 Wörter, Betreff unter 60 Zeichen, deutsch, ein Angebot (Proto ansehen, Gespräch, Fotos). Wortliste beachten, nie „authentisch“, nichts Politisches, keine Länder außer alphabetisch und nur wenn nötig.",
+    "p": "Projekt Time Travel, Docket W14, Di 15.12. Schreib mir eine Pressemail „Vorbestellung ab 01.02.“ für [Medium] (Ressort [Ressort]). Fakten: Novalife, entworfen in Berlin, Jeans „Time Travel“, 100 Stück nummeriert, Kreuzstich-Band, Achtstern, maschinengestickt auf dem Zuschnitt, Fäden von Hand. Vorbestellung ab Mo 01.02.2027, 19:00 (Liste ab 18:00), 35 Paar zum Vorbestellpreis 149 €, ab 24.06. 169 €. Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. Drop Do 24.06.2027, 19:00. Link: [Link mit ?ref=p-medium]. Max. 150 Wörter, Betreff unter 60 Zeichen, deutsch, ein Angebot (Proto ansehen, Gespräch, Fotos). Wortliste beachten, nie „authentisch“, nichts Politisches, keine Länder außer alphabetisch und nur wenn nötig.",
     "o": [
      {
       "n": "Berliner Zeitung",
@@ -310,17 +210,17 @@
   "2026-12-16": [
    {
     "c": "C",
-    "t": "Vier Mails zum Vorbestell-Start als Entwurf (07.01., 13.01., 14.01., 25.01.)",
+    "t": "Vier Mails zum Vorbestell-Start als Entwurf (26.01., 31.01., 01.02., 08.02.)",
     "m": 45,
     "s": [
      "Prompt unten an Claude, Texte prüfen: Liefersatz, kein Streichpreis, CTA der Phase, Wortliste.",
      "Shopify → Marketing → Kampagnen → Kampagne erstellen → Shopify Email. Vier Entwürfe anlegen, Namen „TT-0107 Vorbestellung 1“, „TT-0113 Morgen“, „TT-0114 Die Liste kauft zuerst“, „TT-0118 Noch X Paar“.",
-     "Empfänger je Entwurf eintragen: 07.01. Liste (Mess-Abende), 13.01. ganze Liste, 14.01. 18:00 ganze Liste, 25.01. Liste ohne Kauf.",
+     "Empfänger je Entwurf eintragen: 26.01. Liste (Mess-Abende), 31.01. ganze Liste, 01.02. 18:00 ganze Liste, 08.02. Liste ohne Kauf.",
      "Button-Links mit utm_source=mail und ?ref= wie im Schema vom 10.10.",
      "Nichts terminieren. Senden bzw. planen erst im Januar laut Plan."
     ],
     "f": "vier Entwürfe mit Betreff, Vorschautext und Button in Shopify Email liegen.",
-    "p": "Projekt Time Travel, Docket W14, Mi 16.12. Schreib mir 4 Mails für Shopify Email, deutsch, Du-Form: 1) Do 07.01. Vorbestellung 1: Am 14.01. öffnet die Vorbestellung, dazu Einladung zu den Mess-Abenden 16.01. und 30.01. ([Orte]). 2) Mi 13.01.: „Morgen: 18:00 für die Liste, 19:00 für alle.“ 3) Do 14.01., 18:00, an die ganze Liste: „Die Liste kauft zuerst“, 35 Paar zum Vorbestellpreis 149 €, ab 24.06. 169 €. 4) Mo 25.01.: „Noch [X] Paar“ (nur echte Zahl). Fakten: Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. Startet die Produktion am 15.02. nicht, gibt es das Geld vollständig zurück. Nummern nach Bestelldatum ab 001. Kein Streichpreis, nie „149 statt 169“, nie „authentisch“, Wortliste (Kreuzstich-Band, Achtstern, entworfen in Berlin). Je Mail: Betreff unter 45 Zeichen, Vorschautext, 80–120 Wörter, ein Button.",
+    "p": "Projekt Time Travel, Docket W14, Mi 16.12. Schreib mir 4 Mails für Shopify Email, deutsch, Du-Form: 1) Di 26.01. Vorbestellung 1: Am 01.02. öffnet die Vorbestellung, dazu Einladung zu den Mess-Abenden 03.02. und 10.02. ([Orte]). 2) So 31.01.: „Morgen: 18:00 für die Liste, 19:00 für alle.“ 3) Mo 01.02., 18:00, an die ganze Liste: „Die Liste kauft zuerst“, 35 Paar zum Vorbestellpreis 149 €, ab 24.06. 169 €. 4) Mo 08.02.: „Noch [X] Paar“ (nur echte Zahl). Fakten: Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. Startet die Produktion am 15.02. nicht, gibt es das Geld vollständig zurück. Nummern nach Bestelldatum ab 001. Kein Streichpreis, nie „149 statt 169“, nie „authentisch“, Wortliste (Kreuzstich-Band, Achtstern, entworfen in Berlin). Je Mail: Betreff unter 45 Zeichen, Vorschautext, 80–120 Wörter, ein Button.",
     "o": [
      {
       "n": "Shopify-Admin · Marketing",
@@ -383,32 +283,16 @@
   "2026-12-17": [
    {
     "c": "B",
-    "t": "Berliner Muster abholen und entscheiden (Stichbild, Topping, Rückseite)",
+    "t": "Zipper und Polo fertig abholen und prüfen (Einzelstücke fürs Sample-Gate)",
     "m": 45,
     "s": [
-     "Mitnehmen: Graukarte, Maßband, Handy, Notizzettel mit den drei Prüfpunkten. Zipper und Polo beim Berliner Sticker abholen (Adresse aus deinem Blatt „Sticker“, Öffnungszeit vorher prüfen).",
-     "Bei Tageslicht prüfen: Stichbild (sauber, keine Lücken), Topping-Reste im Fleece und im Piqué, Rückseite (Vlies sauber geschnitten, keine losen Fäden), Verzug.",
-     "Einmal waschen (30 °C, auf links) und nochmal prüfen. Fotos mit Graukarte.",
-     "Vor Ort fragen und schriftlich bestätigen lassen: Preis pro Teil bei 1 / 10 / 50, Lieferzeit pro Auftrag, und was das Teppich-Medaillon direkt auf den Zipper-Rücken gestickt kostet (Antwort brauchst du am Sa).",
-     "Ergebnis ins Blatt „Sticker“: bestanden ja/nein, Preis, Lieferzeit."
+     "Termin beim Berliner Sticker vorher bestätigen (Vorlage „Berliner Sticker“). Mitnehmen: Graukarte, Maßband, Handy, die Prüfpunkte vom 30.11.",
+     "Zipper: Teppich-Front, Bänder, Achtstern. Polo: Kreuzstich-Baum auf der Brust. Bei Tageslicht prüfen: Stichbild, Topping-Reste, Rückseite, Verzug, Farbe gegen die Freigabe.",
+     "Einmal waschen (30 °C, auf links), am Sa nochmal prüfen. Fotos mit Graukarte, vorn, hinten, Detail.",
+     "Schriftlich bestätigen lassen: Preis pro Teil bei 10 und 50 Stück, Lieferzeit für die Serie, Mindestmenge.",
+     "Ergebnis ins Blatt „Sticker“ und „Proto“: was passt, was nicht."
     ],
-    "f": "Stichbild, Topping und Rückseite bewertet sind, der Sticker gewählt ist und Preis, Lieferzeit und Rücken-Preis schriftlich vorliegen.",
-    "o": [
-     {
-      "n": "Berliner Sticker (gewählt)",
-      "a": "[Adresse aus Blatt „Sticker“]",
-      "h": "Öffnungszeit vorher prüfen"
-     },
-     {
-      "n": "Docket · Referenz → Vorlagen",
-      "h": "Vorlage „Berliner Sticker“"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Sticker“"
-     }
-    ]
+    "f": "Zipper und Polo bei dir sind, geprüft und fotografiert, und Preis, Lieferzeit und Mindestmenge für die Serie schriftlich vorliegen."
    },
    {
     "c": "B",
@@ -505,7 +389,7 @@
     "m": 20,
     "s": [
      "Blatt „Creator“ öffnen: wer hat auf die Anfrage vom 12.12. nicht geantwortet?",
-     "Einmal kurz nachfassen mit der Vorlage „Creator-DM“ (Docket → Referenz → Vorlagen), Creator-Preview am Di 12.01. nennen, Link mit ?ref=c-[name].",
+     "Einmal kurz nachfassen mit der Vorlage „Creator-DM“ (Docket → Referenz → Vorlagen), Creator-Preview am Sa 30.01. nennen, Link mit ?ref=c-[name].",
      "Zusagen zählen. Unter 5: Creator Nr. 9–12 aus dem Blatt mit derselben Vorlage anschreiben.",
      "Abmachung bleibt 1 Clip + 1 Story (Entscheidung 11.12.)."
     ],
@@ -529,31 +413,6 @@
       "n": "Google Sheets · „Time Travel Tracking“",
       "u": "https://sheets.google.com",
       "h": "Blatt „Creator“"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "Nur bei englischen Hooks (07.11.): englische Produktseite",
-    "m": 30,
-    "s": [
-     "Hat die Entscheidung am Sa 07.11. deutsch ergeben (Versand nur DE): Aufgabe streichen.",
-     "Sonst: Shopify → Einstellungen → Sprachen → Englisch hinzufügen, Übersetzung mit der App Translate & Adapt (laut tools.md, vor Ort prüfen).",
-     "Vorbestellseite übersetzen. Liefersatz EN: „Delivery by 30.06.2027 at the latest, planned early June.“ Geld-zurück EN: „If production doesn't start on 15.02., you get your money back in full.“",
-     "Prompt unten für den Rest der Seite. Kein Streichpreis, Wortliste EN.",
-     "Sprachwechsler im Handy prüfen."
-    ],
-    "f": "die Vorbestellseite auf Englisch vollständig ist oder die Aufgabe begründet gestrichen ist.",
-    "p": "Projekt Time Travel, Docket W14, Fr 18.12. Übersetze mir die Produktseite „Time Travel Jeans · Vorbestellung“ ins Englische, knapp und klar: [Text der DE-Seite einfügen]. Feste Sätze: „Delivery by 30.06.2027 at the latest, planned early June.“ und „If production doesn't start on 15.02., you get your money back in full.“ Preiszeile: „Pre-order price €149 until 23.05. · from 24.06. €169“. Kein Streichpreis, kein „authentic“, Wortliste: cross-stitch band, eight-point star, designed in Berlin.",
-    "o": [
-     {
-      "n": "Shopify-Admin · Sprachen",
-      "u": "https://admin.shopify.com",
-      "h": "Translate & Adapt, vor Ort prüfen"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai"
      }
     ]
    },
@@ -639,7 +498,7 @@
     "s": [
      "Entscheidung: 35 zu 149 € + Stufe 2 zu 169 € (statt „Kontingent 45“).",
      "Nummern: 001–035 Vorbestellung · 036–060 Stufe 2 · 061–065 Creator · 066–067 Reserve · Rest Drop. Ohne Lücke nach Bestelldatum: Füllt sich Stufe 2 nicht, rücken Creator, Reserve und Drop nach. Bei 75 Stück: Stufe 2 nur 036–045.",
-     "Gilt für Website-Raster (Mo 21.12.), Hangtag-Plan und Packliste: in allen drei Dokumenten eintragen.",
+     "Gilt für Website-Raster (Sa 23.01.), Hangtag-Plan und Packliste: in allen drei Dokumenten eintragen.",
      "Bestand je Größe: Shopify → Kunden → Segmente, je gr-Tag (gr-w30 … gr-w38) zählen. Prompt unten, Claude verteilt 35 proportional. Ergebnis im Vorbestell-Produkt eintragen, Summe 35 prüfen.",
      "Entscheidung Claude melden (Prompt)."
     ],
@@ -693,31 +552,25 @@
    },
    {
     "c": "D",
-    "t": "Zipper-Front (Teppich): gestickt (Rat) oder Chenille",
+    "t": "Zipper und Polo freigeben oder Korrektur bestellen",
     "m": 15,
     "s": [
-     "Angebot vom Do (Teppich-Panel vorn gestickt beim Berliner Sticker, Mindestmenge 1) neben Chenille legen: Chenille hat meist 50–100 Stück Mindestmenge, vor dem Drop zu zahlen.",
-     "Rat: gestickt. Chenille nur, wenn ein Anbieter 20 Stück oder weniger macht. Teppich-Flor kommt in Drop 2.",
-     "Bei Chenille: Muster jetzt bestellen (Budget 120 €, steht auf der Ausgaben-Stopp-Liste).",
+     "Gewaschene Teile vom Do nochmal ansehen, aus 3 m und aus 30 cm.",
+     "Alles ok: schriftlich an den Sticker „freigegeben für die Serie“, Fotos ins Blatt „Proto“.",
+     "Nicht ok: Korrekturliste mit Foto und Maß, zweites Muster bis Sa 02.01. Ohne das wackelt das Sample-Gate am Di 05.01.",
      "Entscheidung Claude schreiben."
     ],
-    "f": "die Entscheidung im Blatt „Entscheidungen“ steht und Claude sie hat.",
-    "o": [
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com"
-     }
-    ]
+    "f": "„freigegeben“ oder die Korrektur mit Termin im Blatt „Entscheidungen“ steht."
    },
    {
     "c": "V",
-    "t": "Orte fest: Creator-Preview 12.01., Mess-Abende 16.01., 30.01., 15.05.",
+    "t": "Orte fest: Creator-Preview 30.01., Mess-Abende 03.02., 10.02., 15.05.",
     "m": 15,
     "s": [
      "Antworten auf die Anfragen vom 12.12. prüfen. Je Termin einen Ort mit schriftlicher Zusage ins Blatt „Abende“.",
      "Ohne Zusage: Fläche über Giggster (Suche vom 13.12.) anfragen, Pop-up-Flächen Berlin, Preis und Stornoregel vorher lesen.",
      "Zusage schriftlich: Datum, Uhrzeit, Kosten, Zugang, Strom, Spiegel.",
-     "Orte an Claude für die Mails vom 07.01. und den Event-Tipp am 30.12."
+     "Orte an Claude für die Mails vom 26.01. und den Event-Tipp am 30.12."
     ],
     "f": "für alle vier Termine ein Ort schriftlich fest ist oder eine Giggster-Anfrage läuft.",
     "o": [
@@ -741,7 +594,7 @@
     "m": 20,
     "s": [
      "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nach src-/ref-Tags zählen. Views, Anmeldungen je 1.000 Views ins Blatt „Content“.",
-     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (vor 14.01.: 0).",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (vor 01.02.: 0).",
      "Kassencheck K − F − R: grün ≥ 300 € · gelb 0–300 €: keine Ausgaben außerhalb Plan 3 · rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter (G12).",
      "G1/G2: Liste unter Alarm 260 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · unter Soll 620 → bestes Video in 2 Varianten, Kommentarzeit 15′.",
      "G3: Anmeldungen je 1.000 Views < 1,0 → angehefteter Kommentar „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“, Link-Sticker in jede Story. G5: Video ≥ 2 × Median → 5 Varianten in 14 Tagen.",
@@ -769,11 +622,11 @@
    },
    {
     "c": "D",
-    "t": "GATE 21.12.: Zusagen ≥ 15, Auszahlung, Stufe 2, Patch, Liste ≥ 620",
+    "t": "GATE 21.12.: Zusagen ≥ 15, Stufe 2, Patch, Zipper und Polo frei, Liste ≥ 620",
     "m": 10,
     "s": [
      "Zusagen mit Größe ≥ 15, nur Spalte „Zusage“. 10–14: jeden Tag bis Mi 3 persönliche DMs. Unter 10: Ausgaben-Stopp-Liste aktivieren, Proto-Runde verlängern.",
-     "Auszahlung geklärt: Shopify → Einstellungen → Payments → Auszahlungsplan, Werktage notieren. Unklar: kein Start am 14.01. ohne Klärung (echter Test Di 29.12.).",
+     "Zipper und Polo freigegeben (Sa 19.12.)? Sonst steht das zweite Muster mit Termin bis Sa 02.01. im Blatt „Proto“.",
      "Stufe 2 entschieden (Sa 19.12.)? Sonst heute.",
      "Patch bestellt? Sonst Bestellung Mo 21.12. und die Fabrik über die neue Patch-Frist Fr 05.02. informieren.",
      "Liste ≥ 620 (Alarm 260): Maßnahmen aus G1/G2 im Review."
@@ -798,7 +651,7 @@
     "m": 90,
     "s": [
      "Ordner W15/final und W16/final anlegen. Kamera 9:16, Licht von vorn, je Shot 3 Takes.",
-     "Ort 1 Schreibtisch (Draufsicht): V038 Zeitachse von Hand (04.01. final sample · 14.01. pre-order · Feb production · 06.03. shoot · 24.06. drop), mit rotem Stift abhaken · V039 Belege und Liste auf Papier (Digitizing, Stickproben, Proto, Stoffe, Patches), echte Summe aus Blatt „Ausgaben“ einkreisen · V041 Kalender 2027, vier Daten markieren: 14.01. · 15.02. · 06.03. · 24.06.",
+     "Ort 1 Schreibtisch (Draufsicht): V038 Zeitachse von Hand (04.01. final sample · 01.02. pre-order · Feb production · 06.03. shoot · 24.06. drop), mit rotem Stift abhaken · V039 Belege und Liste auf Papier (Digitizing, Stickproben, Proto, Stoffe, Patches), echte Summe aus Blatt „Ausgaben“ einkreisen · V041 Kalender 2027, vier Daten markieren: 01.02. · 15.02. · 06.03. · 24.06.",
      "Ort 2 leerer Raum mit Stuhl, Fensterlicht: V042 Proto auf dem Stuhl, Handy kreist langsam, Endframe „prototype“.",
      "Ort 3 Detailfotos für Stories: V040 Detailfoto für den Countdown, V043 Proto-Detail für den Frage-Sticker.",
      "Schneiden in CapCut: Hook EN in die ersten 2 s, Untertitel automatisch, keine Musik einbacken, Endkarte mit CTA der Phase. Liefersatz nur „bis spätestens 30.06.2027, geplant Anfang Juni“.",
@@ -810,7 +663,7 @@
      "slot": "BUILD · REAL · ASK · BUILD · REACH · ASK",
      "dauer": "7–30 s je Video, Stories 2 Frames",
      "plattform": "TikTok + Reels + Shorts, Stories auf Instagram",
-     "hook_en": "Day 71: everything left before the drop. · What this drop has cost me so far. · Tap remind me: pre-order opens 14.01. · 2027 plan: 100 jeans, one drop, 22 April. · Only one pair exists right now. This one. · Pre-order opens in 12 days. Ask me anything.",
+     "hook_en": "Day 71: everything left before the drop. · What this drop has cost me so far. · Tap remind me: pre-order opens 01.02. · 2027 plan: 100 jeans, one drop, 22 April. · Only one pair exists right now. This one. · Pre-order opens in 12 days. Ask me anything.",
      "hook_de": "Tag 71: Alles, was bis zum Drop noch fehlt. · Was mich dieser Drop bis jetzt gekostet hat. · Tipp auf Erinnern. · Plan 2027. · Gerade gibt es nur ein Paar. · Frag mich alles.",
      "shots": [
       "V038 Zeitachse schreiben, abhaken, Finger auf „24.06.“",

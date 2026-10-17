@@ -1,7 +1,7 @@
 {
  "n": 12,
  "phase": "P2",
- "goal": "Das erste echte Teil kommt, ab jetzt darf gezeigt werden",
+ "goal": "Das erste echte Teil kommt, Zipper-Front in Auftrag, ab jetzt darf gezeigt werden",
  "kpi": [
   {
    "k": "Warteliste",
@@ -51,27 +51,31 @@
     ]
    },
    {
-    "c": "A",
-    "t": "Absender-Domain in Shopify authentifizieren (vor der Mail am 07.12.)",
-    "m": 15,
+    "c": "B",
+    "t": "Berliner Muster abholen und prüfen (Stichbild, Topping, Rückseite)",
+    "m": 45,
     "s": [
-     "Shopify-Admin → Einstellungen → Benachrichtigungen → Absender-E-Mail (Menü vor Ort prüfen, der Pfad kann anders heißen).",
-     "Dort „Domain authentifizieren“ wählen. Shopify zeigt dir DNS-Einträge (meist CNAME). Fenster offen lassen.",
-     "Beim Anbieter deiner Domain einloggen → DNS-Verwaltung → die Einträge genau so anlegen, wie Shopify sie zeigt. Nichts Bestehendes löschen.",
-     "Zurück in Shopify auf „Überprüfen“ klicken. Ist es noch nicht grün: morgen und Mi noch einmal prüfen. DNS braucht manchmal Stunden.",
-     "Absender-Adresse auf deine Novalife-Adresse an der eigenen Domain setzen, nicht Gmail.",
-     "Status ins Blatt „Gates“: „Domain authentifiziert am …“. Die erste große Mail geht am Mo 07.12., 19:00."
+     "Mitnehmen: Graukarte, Maßband, Handy, Notizzettel mit den drei Prüfpunkten. Zipper und Polo beim Berliner Sticker abholen (Adresse aus deinem Blatt „Sticker“, Öffnungszeit vorher prüfen).",
+     "Bei Tageslicht prüfen: Stichbild (sauber, keine Lücken), Topping-Reste im Fleece und im Piqué, Rückseite (Vlies sauber geschnitten, keine losen Fäden), Verzug.",
+     "Einmal waschen (30 °C, auf links) und nochmal prüfen. Fotos mit Graukarte.",
+     "Vor Ort fragen und schriftlich bestätigen lassen: Preis pro Teil bei 1 / 10 / 50, Lieferzeit pro Auftrag, und was das Teppich-Medaillon direkt auf den Zipper-Rücken gestickt kostet (Antwort brauchst du am Di).",
+     "Ergebnis ins Blatt „Sticker“: bestanden ja/nein, Preis, Lieferzeit."
     ],
-    "f": "Shopify die Domain als authentifiziert zeigt oder die DNS-Einträge angelegt sind und die Prüfung für Mi 02.12. im Kalender steht.",
+    "f": "Stichbild, Topping und Rückseite bewertet sind, der Sticker gewählt ist und Preis, Lieferzeit und Rücken-Preis schriftlich vorliegen.",
     "o": [
      {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Einstellungen → Benachrichtigungen → Absender-E-Mail (vor Ort prüfen)"
+      "n": "Berliner Sticker (gewählt)",
+      "a": "[Adresse aus Blatt „Sticker“]",
+      "h": "Öffnungszeit vorher prüfen"
      },
      {
-      "n": "Anbieter deiner Domain",
-      "h": "DNS-Verwaltung, Login aus deinen Unterlagen"
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Berliner Sticker“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Sticker“"
      }
     ]
    },
@@ -149,6 +153,24 @@
   ],
   "2026-12-01": [
    {
+    "c": "D",
+    "t": "Zipper-Front (Teppich): gestickt (Rat) oder Chenille",
+    "m": 15,
+    "s": [
+     "Angebot vom Mo 30.11. (Teppich-Panel vorn gestickt beim Berliner Sticker, Mindestmenge 1) neben Chenille legen: Chenille hat meist 50–100 Stück Mindestmenge, vor dem Drop zu zahlen.",
+     "Rat: gestickt. Chenille nur, wenn ein Anbieter 20 Stück oder weniger macht. Teppich-Flor kommt in Drop 2.",
+     "Bei Chenille: Muster jetzt bestellen (Budget 120 €, steht auf der Ausgaben-Stopp-Liste).",
+     "Entscheidung Claude schreiben."
+    ],
+    "f": "die Entscheidung im Blatt „Entscheidungen“ steht und Claude sie hat.",
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com"
+     }
+    ]
+   },
+   {
     "c": "C",
     "t": "18:00 · V023 posten: ORIGIN „Warum ein Sample“",
     "m": 20,
@@ -198,6 +220,33 @@
   ],
   "2026-12-02": [
    {
+    "c": "B",
+    "t": "Zipper-Front (Teppich) beim Berliner Sticker in Auftrag geben",
+    "m": 20,
+    "s": [
+     "Gestickt (Entscheidung vom Di): Zipper-Muster und Teppich-Dateien von Claude zum Berliner Sticker aus dem Blatt „Sticker“ bringen. Vorher Termin per Mail oder Telefon, Vorlage „Berliner Sticker“ im Docket.",
+     "Chenille: Sobald der Muster-Patch da ist, vom Sticker oder einer Schneiderei annähen lassen, nicht aufbügeln, dahinter ein Stabilisatorstreifen.",
+     "Abholung bis Mi 16.12. vereinbaren, schriftlich mit Preis. Termin in den Kalender. Am Do 17.12. holst du Zipper und Polo fertig ab.",
+     "Preis ins Blatt „Kasse“. Liegt er über Plan: Kassen-Ampel prüfen, bei gelb nur das Nötigste."
+    ],
+    "f": "der Zipper beim Sticker ist und die Abholung bis Mi 16.12. im Kalender steht.",
+    "o": [
+     {
+      "n": "Docket · Referenz → Vorlagen",
+      "h": "Vorlage „Berliner Sticker“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Sticker“ und „Kasse“"
+     },
+     {
+      "n": "Google Kalender",
+      "u": "https://calendar.google.com"
+     }
+    ]
+   },
+   {
     "c": "V",
     "t": "Creator-Shortlist 12: Engagement, Views, Brand-Safety",
     "m": 30,
@@ -240,7 +289,7 @@
      "Zeitplan: Do 03.12., 19:00. Kommt das Proto später: Termin heute noch verschieben, die Mail geht nie ohne Proto raus."
     ],
     "f": "die Mail in Shopify Email für Do 03.12., 19:00 terminiert ist und die Testmail gut aussieht.",
-    "p": "Projekt Time Travel, Docket W12, Mi 02.12. Schreib mir die Werkstatt-Mail 2 „Das Proto ist da“ an meine Warteliste, Versand Do 03.12., 19:00, zeitgleich mit dem Unboxing-Video V025. Max. 120 Wörter, deutsch, Du-Form, 3 Betreffzeilen, 1 Vorschauzeile. Inhalt: Zwei Monate Papier, heute kam der Prototyp. Nicht perfekt, Fit-Test am Samstag, dann Korrekturen an die Fabrik. Am Mo 07.12., 19:00 öffnet „Platz in der ersten Stunde sichern“. CTA: „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ Keine Nummer versprechen. Regeln: nie „authentisch“, Subjekt ist das Muster, „Kreuzstich-Band“, „entworfen in Berlin“, keine Länder.",
+    "p": "Projekt Time Travel, Docket W12, Mi 02.12. Schreib mir die Werkstatt-Mail 2 „Das Proto ist da“ an meine Warteliste, Versand Do 03.12., 19:00, zeitgleich mit dem Unboxing-Video V025. Max. 120 Wörter, deutsch, Du-Form, 3 Betreffzeilen, 1 Vorschauzeile. Inhalt: Zwei Monate Papier, heute kam der Prototyp. Nicht perfekt, Fit-Test am Samstag, dann Korrekturen an die Fabrik. Die Vorbestellung öffnet erst, wenn Jeans, Zipper und Polo als Muster bestanden haben: Mo 01.02., 19:00. CTA: „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“ Keine Nummer versprechen. Regeln: nie „authentisch“, Subjekt ist das Muster, „Kreuzstich-Band“, „entworfen in Berlin“, keine Länder.",
     "o": [
      {
       "n": "Shopify-Admin",
@@ -338,7 +387,7 @@
      "Google Sheets → Blatt „Die ersten 35“: alle „Vielleicht“ und die wärmsten Namen aus „Netz“ auswählen, Ziel 20 Termine bis So 13.12.",
      "Je Person eine persönliche Nachricht (WhatsApp oder DM): „Das Proto ist da. Willst du es sehen? 15 Minuten, bei mir, im Café oder per Video-Call. Passt [Tag, Uhrzeit]?“",
      "Die Slots dieser Woche zuerst anbieten: Fr 04.12. (2 Calls), Mo 07.12. (2 Calls), Di 08.12. (2 Calls), Mi 09.12. und Do 10.12. (je 2–3 Treffen), Sa 12.12. (3 Treffen mit der A-Liste).",
-     "Im Termin die eine Frage: „Bestellst du am 14.01. um 18:00?“ Antwort mit Größe ins Blatt, Spalte „Zusage“ nur bei klarem Ja mit Größe, sonst „Vielleicht“. Das Kaufsignal 18:00 gilt für die Liste.",
+     "Im Termin die eine Frage: „Bestellst du am 01.02. um 18:00?“ Antwort mit Größe ins Blatt, Spalte „Zusage“ nur bei klarem Ja mit Größe, sonst „Vielleicht“. Das Kaufsignal 18:00 gilt für die Liste.",
      "Termine in den Kalender, Zahl der vereinbarten Termine oben ins Blatt."
     ],
     "f": "mindestens 10 Anfragen raus sind und die ersten Termine im Kalender stehen.",
@@ -460,7 +509,7 @@
     "s": [
      "Vor dem Call: Proto auf Bügel an die weiße Tür, Ringlicht oder Fenster. Handy mit WhatsApp-Video oder Instagram-Video.",
      "Zeigen: erst Totale, dann Band A, Münztasche E, Rückseite.",
-     "Die Frage: „Bestellst du am 14.01. um 18:00? Welche Größe?“ Kennt die Person ihre Größe nicht: Bundmaß ihrer Lieblingsjeans flach gemessen × 2.",
+     "Die Frage: „Bestellst du am 01.02. um 18:00? Welche Größe?“ Kennt die Person ihre Größe nicht: Bundmaß ihrer Lieblingsjeans flach gemessen × 2.",
      "Sofort danach ins Blatt „Die ersten 35“: Zusage (nur klares Ja mit Größe) oder Vielleicht (was fehlt).",
      "Den Satz der Person, der am meisten überzeugt, als Zitat notieren (für Captions, nur mit Erlaubnis)."
     ],
@@ -585,43 +634,13 @@
     ]
    },
    {
-    "c": "A",
-    "t": "Reservierung bauen: „Platz in der ersten Stunde sichern“",
-    "m": 45,
-    "s": [
-     "Option prüfen: Am So 29.11. entschieden. Standard ist Option B (kostenlos). Option A (10 €) nur, wenn am 29.11. so entschieden.",
-     "Shopify-Admin → Onlineshop → Seiten → Seite hinzufügen: „Platz in der ersten Stunde sichern“, Text von Claude (Prompt vom 29.11.). Sichtbarkeit: verborgen bis Mo 07.12., 19:00.",
-     "Formular: E-Mail, Vorname, Größe. Kundenformular wie beim Newsletter (`{% form 'customer' %}`, `contact[tags]` = reserviert, Größe als zweiter Tag z. B. „gr-w32“). Den Bau macht Claude Code mit dem Prompt unten.",
-     "Bestätigungstext: „Am 14.01. um 17:55 bekommst du den Link von mir, deine Größe ist vorgemerkt.“ Keine Nummer versprechen: Nummern gehen nach Bestelldatum.",
-     "Test mit deiner zweiten Mail-Adresse: Kunde erscheint in Shopify → Kunden mit Tag „reserviert“ und Größen-Tag.",
-     "Segment anlegen: Shopify → Kunden → Segmente → „Tag enthält reserviert“. Das brauchst du am 14.01. um 17:55."
-    ],
-    "f": "die verborgene Seite funktioniert, der Testkunde den Tag „reserviert“ und seine Größe trägt und das Segment existiert.",
-    "p": "Projekt Time Travel, Docket W12, Sa 05.12. Bau mir in meinem Theme eine Seiten-Vorlage „page.reservierung“ mit einem Kundenformular wie in Dawn sections/newsletter.liquid ({% form 'customer' %}): Felder E-Mail (Pflicht), Vorname, Größe als Auswahl aus meiner Größentabelle [Größen einfügen]. Beim Absenden: contact[tags] = „reserviert, gr-[größe]“. Erfolgstext: „Am 14.01. um 17:55 bekommst du den Link von mir, deine Größe ist vorgemerkt.“ Kein Wort von Nummern. Halte dich an CLAUDE.md und zeig mir, wie ich es in der Vorschau teste. Commit nach meinem „passt“.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Seiten · Kunden → Segmente"
-     },
-     {
-      "n": "Dawn · newsletter.liquid (Vorbild)",
-      "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid"
-     },
-     {
-      "n": "Claude Code",
-      "u": "https://claude.ai"
-     }
-    ]
-   },
-   {
     "c": "D",
     "t": "GATE Proto und Fit ok → PP am Mo 07.12. bestellen",
     "m": 5,
     "s": [
      "Prüfen: Messwerte im Rahmen der Toleranz oder klar korrigierbar? Stickerei ohne kritischen Befund? Fit bei beiden Personen tragbar?",
      "Alles ok: PP-Sample am Mo 07.12. bestellen, Korrekturen per Foto und Maß.",
-     "Nicht ok (Fit falsch, Stickerei kritisch): zweites Proto bestellen, Öffnung der Vorbestellung nach B-Zeitachse 1 auf Do 28.01. (strategie.md 7.4). Claude schreiben: „Gate 05.12. rot, Grund: …, rechne B-Zeitachse 1.“",
+     "Nicht ok (Fit falsch, Stickerei kritisch): zweites Proto bestellen, Öffnung der Vorbestellung nach B-Zeitachse 1 auf Mo 15.02. (strategie.md 7.4). Claude schreiben: „Gate 05.12. rot, Grund: …, rechne B-Zeitachse 1.“",
      "Ergebnis ins Blatt „Gates“ mit Datum."
     ],
     "f": "im Blatt „Gates“ grün oder rot mit Grund steht.",

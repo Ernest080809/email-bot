@@ -312,7 +312,7 @@
      "Preisfragen (Frage 8): Ab welchem Preis zu billig? Gutes Angebot? Teuer, aber überlegenswert? Zu teuer, egal was? Dann Frage 9: „Würdest du sie im Januar zu 149 € vorbestellen, wenn sie im April kommt?“",
      "Zum Schluss Fragen 10–13: Rangfolge, Jeans, Zipper oder Polo zuerst, wo entdecken, wen soll ich noch fragen.",
      "Mitschreiben im Blatt „Gespräche“ nur mit Code G3 und G4: Datum, Segment, Antwort je Frage, Zitate. Nie ein Name neben dem Segment (Art. 9 DSGVO).",
-     "Sagt jemand „Ja, ich bestelle am 14.01.“: Name und Größe ins Blatt „Die ersten 35“, Spalte „Zusage“, ohne Herkunft. Sonst Spalte „Vielleicht“."
+     "Sagt jemand „Ja, ich bestelle am 01.02.“: Name und Größe ins Blatt „Die ersten 35“, Spalte „Zusage“, ohne Herkunft. Sonst Spalte „Vielleicht“."
     ],
     "f": "Fertig, wenn G3 und G4 vollständig im Blatt „Gespräche“ stehen und jedes Ja im Blatt „Die ersten 35“.",
     "o": [
@@ -329,7 +329,7 @@
     "s": [
      "TikTok und Instagram: 5 Accounts aus deiner Nische (Denim, Stickerei, Berliner Streetwear). Je ein Kommentar mit einem ganzen Satz zum Inhalt, kein „nice“ mit Emoji.",
      "Keine Eigenwerbung, kein Link im Kommentar.",
-     "Alle DMs beantworten. Wer „Ja“ sagt oder eine Größe nennt: ins Blatt „Die ersten 35“. Zusage nur mit Name, Größe und „ich bestelle am 14.01.“, sonst „Vielleicht“."
+     "Alle DMs beantworten. Wer „Ja“ sagt oder eine Größe nennt: ins Blatt „Die ersten 35“. Zusage nur mit Name, Größe und „ich bestelle am 01.02.“, sonst „Vielleicht“."
     ],
     "f": "Fertig, wenn 5 Kommentare geschrieben, alle DMs beantwortet und neue Zusagen eingetragen sind.",
     "o": [
@@ -548,7 +548,7 @@
     "s": [
      "Zip-Hoodie Fleece 330–350 g/m² und Piqué-Polo, je 1 Stück in deiner Größe, Farbe vom Di (Skizze: Weiß, Rat: Naturweiß).",
      "Anbieter: AS Colour (Europa-Shop) oder Stanley/Stella über einen Händler, z. B. den Großhändler L-Shop-Team (Unna). Grammatur und Material auf der Produktseite prüfen.",
-     "Großhandel: Gewerbeschein Novalife bereithalten. Mindestbestellwert und Versandkosten bei Einzelstücken prüfen.",
+     "Noch kein Gewerbe (Stand 17.10.): Großhändler wie L-Shop-Team verkaufen meist nur an Gewerbe. Dann im Online-Shop der Marke oder bei einem Händler für Privatkunden bestellen. Mindestbestellwert und Versandkosten bei Einzelstücken prüfen.",
      "Richtwert laut Spec: Zipper ~28 €, Polo ~12 € (Schätzung). Deutlich teurer: anderen Anbieter nehmen.",
      "Bestellen, Beleg ins Blatt „Ausgaben“, Lieferdatum ins Blatt „Sticker“. Beide Teile gehen als Musterteil zum Berliner Sticker."
     ],
@@ -869,7 +869,7 @@
      "18:10 Jeder klebt die Vorlagen auf die eigene Jeans.",
      "18:45 Fotos und Clips nur mit Ja. Material für den Batch am So.",
      "19:00 Drei Fragen an alle: Welche Stelle zuerst? Wo würdest du sie tragen? Welche Größe trägst du? Antworten ohne Namen ins Blatt „Gespräche“, Größe mit Namen nur in „Die ersten 35“. Herkunft fragst du in der Runde nie.",
-     "19:15 Eintragen am Handy über den QR-Zettel. Dann: „Schick deinen Link an 3 Leute“ (der eigene Link steht in der Willkommens-Mail). Wer „Ich bestelle am 14.01.“ sagt: Name und Größe in Spalte „Zusage“.",
+     "19:15 Eintragen am Handy über den QR-Zettel. Dann: „Schick deinen Link an 3 Leute“ (der eigene Link steht in der Willkommens-Mail). Wer „Ich bestelle am 01.02.“ sagt: Name und Größe in Spalte „Zusage“.",
      "Gespräche 6 und 7 (je 20 Min., Fragen zielgruppe.md 5.1) mit zwei Gästen, die früh fertig sind, ab 18:30 oder nach 19:30. Codes G6 und G7."
     ],
     "f": "Fertig, wenn mindestens 10 Gäste da waren, ihre Anmeldungen mit ref-papier in Shopify stehen und G6, G7 im Blatt „Gespräche“ sind.",

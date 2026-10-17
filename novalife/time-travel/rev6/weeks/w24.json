@@ -167,7 +167,7 @@
    },
    {
     "c": "N",
-    "t": "Info: „Werkzeuge für das Spiel“ (Rev. 5.3) entfällt, die Werkzeuge stehen seit 31.10."
+    "t": "Info: „Werkzeuge für das Spiel“ (Rev. 5.3) entfällt, die Werkzeuge stehen seit 11.01."
    },
    {
     "c": "S",
@@ -203,7 +203,7 @@
    },
    {
     "c": "N",
-    "t": "Info: „Theme-Kopie holen“ (Rev. 5.3) entfällt, erledigt am 04.11."
+    "t": "Info: „Theme-Kopie holen“ (Rev. 5.3) entfällt, erledigt am 12.01."
    }
   ],
   "2027-02-25": [
@@ -466,7 +466,7 @@
      "Im Blatt „Netz“ einen Bereich „Helfer“ anlegen: Hochschule, angefragt am, Antwort."
     ],
     "f": "der Pressetext v2 auf /pages/presse steht und der Aushang an mindestens 3 Hochschulen angefragt ist (oder die Mail an den Steuerberater zu Frage 10 raus ist).",
-    "p": "Projekt Time Travel, Docket W24, Sa 27.02. Zwei Texte. 1) Pressetext v2 für Novalife Time Travel, deutsch und englisch, je höchstens 300 Wörter, plus Factsheet: 100 nummerierte Jeans mit vier gestickten Stellen und einem Lebensbaum-Patch als hinterer Gürtelschlaufe, Vorbestellung seit 14.01., Vorbestellpreis 149 € bis 23.05. (35 Paar), Drop Do 24.06.2027, 19:00, 169 €, Zipper 139 €, Polo 79 €, Produktion läuft seit 22.02., Shoot am 06.03., Lieferung „bis spätestens 30.06.2027, geplant Anfang Juni“. Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, keine Politik. 2) Aushang „Helfer gesucht, bezahlt“ für Hochschulen, eine A4-Seite: Warenprüfung 02.06.–04.06., Packen 08.–09.06. und 24.–26.06., DMs am Drop-Abend 18–20 Uhr, Stundenlohn [laut Steuerberater], Beschäftigungsart [laut Steuerberater], Kontakt [Mail]. Freundlich, kein Druck.",
+    "p": "Projekt Time Travel, Docket W24, Sa 27.02. Zwei Texte. 1) Pressetext v2 für Novalife Time Travel, deutsch und englisch, je höchstens 300 Wörter, plus Factsheet: 100 nummerierte Jeans mit vier gestickten Stellen und einem Lebensbaum-Patch als hinterer Gürtelschlaufe, Vorbestellung seit 01.02., Vorbestellpreis 149 € bis 23.05. (35 Paar), Drop Do 24.06.2027, 19:00, 169 €, Zipper 139 €, Polo 79 €, Produktion läuft seit 22.02., Shoot am 06.03., Lieferung „bis spätestens 30.06.2027, geplant Anfang Juni“. Wortliste: „Time Travel“, „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“, Subjekt ist das Muster, nie „authentisch“, keine Politik. 2) Aushang „Helfer gesucht, bezahlt“ für Hochschulen, eine A4-Seite: Warenprüfung 02.06.–04.06., Packen 08.–09.06. und 24.–26.06., DMs am Drop-Abend 18–20 Uhr, Stundenlohn [laut Steuerberater], Beschäftigungsart [laut Steuerberater], Kontakt [Mail]. Freundlich, kein Druck.",
     "o": [
      {
       "n": "Shopify-Admin",
@@ -535,7 +535,7 @@
      "Vorbestellungen ≥ 14 bezahlt (Soll 20)? Darunter: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl (G10).",
      "Produktionsplan schriftlich da? Wenn nein: Mail heute, Call Mo 09:00.",
      "Stoff da (reserviert seit 06.01.)? Wenn nein: sofort Call mit der Fabrik, neues Datum schriftlich.",
-     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story."
+     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 22.01. aktivieren), Mail an alle ohne Kauf, Story."
     ],
     "f": "alle vier Fragen mit ja/nein im Blatt „Kasse“ (Gates) stehen und jede Gegenmaßnahme terminiert ist.",
     "o": [

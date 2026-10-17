@@ -1,7 +1,7 @@
 {
  "n": 9,
  "phase": "P2",
- "goal": "Stickdatei prüfen und freigeben, Website Stufe 1 bauen",
+ "goal": "Stickdatei prüfen und freigeben, Blanks zum Berliner Sticker, Stoff anfragen",
  "kpi": [
   {
    "k": "Warteliste",
@@ -159,39 +159,13 @@
     ]
    },
    {
-    "c": "A",
-    "t": "19:00 · Website Schritt 4: Zeit-Modul und Countdown",
-    "m": 60,
-    "s": [
-     "Terminal im Ordner tt-theme, claude starten, Prompt unten geben.",
-     "In einem zweiten Terminal-Fenster: shopify theme dev --store DEIN-SHOP. Den Vorschau-Link am Handy öffnen.",
-     "Testen mit ?t=2027-01-14T18:59:30+01:00: nach 30 Sekunden muss „Vorbestellung offen“ erscheinen (nur mit tt_testmodus an).",
-     "Die weiteren ?t=-Links aus docs/TERMINE.md durchklicken.",
-     "„läuft“ schreiben, Claude Code committet. Push nach GitHub bestätigen."
-    ],
-    "f": "der Countdown am Handy bis Do 14.01., 19:00 läuft und der ?t=-Test auf „Vorbestellung offen“ springt.",
-    "p": "Projekt Time Travel, Docket W9, Website Schritt 4. Baue das Zeit-Modul für die Drop-Seite. Halte dich an CLAUDE.md.\n1. config/settings_schema.json: neue Gruppe „Time Travel“ mit allen Einstellungen aus CLAUDE.md, Abschnitt „Theme-Einstellungen“ (Zeiten als text mit Offset, tt_testmodus als checkbox, Produkte als product, Kollektion als collection, Zahlen als number). Werte aus der Termin-Tabelle als Standard.\n2. assets/tt-clock.js ohne Bibliotheken: Serverzeit über fetch('/cart.js', {cache: 'no-store'}), Header „Date“ plus „Age“, Abstand zur Geräteuhr merken, alle 5 Minuten und bei visibilitychange neu, sonst Geräteuhr und intern markieren. ?t= nur bei tt_testmodus. Zustände WARTELISTE, VORBESTELLUNG, ZWISCHENZEIT, SCHLUESSEL (nur mit ?key= gleich tt_schluessel), LIVE, AUSVERKAUFT. Ereignis „tt:state“ bei jedem Wechsel, „tt:tick“ jede Sekunde. ?key= im sessionStorage (try/catch).\n3. snippets/tt-countdown.liquid: festes Zieldatum als Text in <time datetime>, JavaScript ersetzt es durch „Noch 12 T 04 Std 31 Min 09 Sek“; Screenreader nur minütlich (aria-live=\"polite\").\n4. Eine erste sections/tt-hero.liquid nur mit dem Countdown, oben in templates/index.json.\nBenutze nie Liquid 'now' für Zeitentscheidungen. Erklär mir danach, wie ich die Vorschau aufs Handy hole und welche ?t=-Links aus docs/TERMINE.md ich teste. Commit, wenn ich „läuft“ schreibe.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Themes → „TT Story“ (unveröffentlicht)"
-     },
-     {
-      "n": "GitHub",
-      "u": "https://github.com",
-      "h": "Repo „novalife-tt-theme“"
-     }
-    ]
-   },
-   {
     "c": "V",
     "t": "Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt",
     "m": 10,
     "s": [
      "5 Kommentare mit Inhalt bei Accounts aus deiner Nische (Denim, Stickerei, Berlin).",
      "Alle DMs beantworten.",
-     "Jedes „Ja“ mit Größe und „ich bestelle am 14.01.“ ins Blatt „Die ersten 35“ (Zusage), sonst „Vielleicht“."
+     "Jedes „Ja“ mit Größe und „ich bestelle am 01.02.“ ins Blatt „Die ersten 35“ (Zusage), sonst „Vielleicht“."
     ],
     "f": "5 Kommentare geschrieben, keine DM offen, Zusagen eingetragen.",
     "o": [
@@ -314,66 +288,9 @@
       "u": "https://www.youtube.com"
      }
     ]
-   },
-   {
-    "c": "A",
-    "t": "19:00 · Website Schritt 5: Wartelisten-Formular mit Größen- und Quellen-Tags",
-    "m": 60,
-    "s": [
-     "claude im Ordner tt-theme starten, Prompt unten geben (Prompt aus website.md, ergänzt).",
-     "shopify theme dev, Vorschau am Handy. Zweimal mit einer neuen Testadresse eintragen: ohne Größe, dann mit Größe und ?utm_source=instagram&ref=netz.",
-     "Bestätigungs-Mail anklicken. Shopify → Kunden → Testadresse: abonniert? Tags tt-warteliste, tt-story, src-instagram, gr-w32, ref-netz, code-…? Notieren, ob mehrere Tags gehen und ob eine bestehende Adresse neue Tags bekommt.",
-     "Danke-Text mit persönlichem Link und WhatsApp-Knopf am Handy antippen.",
-     "Am selben Tag: Absatz zur Größenangabe in die Datenschutzerklärung (Shopify → Einstellungen → Richtlinien oder dein Rechtstexte-Generator; Text von Claude, keine Rechtsberatung). Keine Herkunftsfrage im Formular.",
-     "„passt“ schreiben, Commit."
-    ],
-    "f": "die Testadresse in Shopify abonniert ist mit Ort-, Quellen-, Größen- und code-Tags und der Absatz zur Größenangabe in der Datenschutzerklärung steht.",
-    "p": "Projekt Time Travel, Docket W9, Website Schritt 5. Baue snippets/tt-warteliste-form.liquid und binde es in sections/tt-hero.liquid unter dem Countdown ein. Halte dich an CLAUDE.md.\n- {% form 'customer', return_to: 'back' %} wie in Dawns sections/newsletter.liquid: verstecktes Feld contact[tags], Eingabe contact[email] (type=\"email\", autocomplete=\"email\", required, sichtbares <label>).\n- Freiwillige Auswahl „Deine Größe“: kleiner als W30, W30, W32, W34, W36, W38, größer als W38, „weiß ich noch nicht“ (Tags gr-klein, gr-w30 … gr-w38, gr-gross).\n- Parameter „ort“ (tt-story, tt-huette, tt-feld, tt-drop2), Standard tt-story.\n- assets/tt-story.js setzt vor dem Absenden contact[tags] auf „tt-warteliste,<ort>,src-<quelle>,gr-<groesse>“, bei ?ref= zusätzlich „ref-<code>“. Quelle aus utm_source (instagram, tiktok, qr, email), sonst „direkt“. Schema vom 10.10.: utm_source = Kanal, ?ref= = Person, Abend, Creator. Nur Kleinbuchstaben, Ziffern, Bindestrich, max. 30 Zeichen je Tag.\n- Aus der Dawn-Lösung vom 15.10. übernehmen: eigener Code code-[6 Zeichen] je Anmeldung, Danke-Text mit persönlichem Link (?ref=code-…) und WhatsApp-Knopf zum Teilen.\n- Formular normal absenden, NICHT per fetch (hCaptcha möglich). form.posted_successfully?: „Fast geschafft. Bestätige deine Adresse in der E-Mail, die gerade kommt.“ Bei form.errors die Meldung von Shopify.\n- Einstellung datenschutz_text (richtext) unter dem Knopf. Knopf „Auf die Liste“, mindestens 44 px hoch.\nSag mir danach, wo ich in Shopify die Tags sehe. Ich teste erst mit EINEM Tag, dann mit allen. Speichert Shopify nur einen Tag: zusammengesetzter Tag „tt-<ort>-<quelle>-<groesse>“. Schreib mir zum Schluss einen kurzen Absatz für die Datenschutzerklärung zur freiwilligen Größenangabe (Zweck, Speicherort Shopify, Löschung), als Entwurf ohne Rechtsberatung. Commit nach meinem „passt“.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Kunden (Tags), Einstellungen → Richtlinien"
-     },
-     {
-      "n": "Dawn · newsletter.liquid",
-      "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid",
-      "h": "Vorbild für das Formular"
-     }
-    ]
    }
   ],
   "2026-11-12": [
-   {
-    "c": "A",
-    "t": "09:00 · Größenseite und FAQ: „W32 — 81 cm“, Umrechnung, sechs Einwände",
-    "m": 45,
-    "s": [
-     "Prompt unten an Claude. Maße kommen aus der Spec, nicht geschätzt.",
-     "Shopify → Onlineshop → Seiten → „Größen“ und „FAQ“ als Entwurf anlegen, noch nicht im Menü verlinken.",
-     "Größenseite: je Größe eine Zeile im Format „W32 — 81 cm“, darunter Umrechnung Eightyfive/Carhartt/Dickies → Novalife.",
-     "Block „Miss deine Lieblingsjeans“ in 4 Schritten mit Video: kurzes Handyvideo (Jeans flach, Maßband am Bund, am Innenbein), hochladen unter Inhalt → Dateien.",
-     "FAQ mit den sechs Einwand-Antworten von Claude, dazu Lieferzeit, Pflege, Stücknummer. Kein Preisversprechen ohne die CTA-Regeln.",
-     "Den „Miss deine Jeans“-Clip auch fürs Karussell (G9-Reserve) im Ordner W09 ablegen."
-    ],
-    "f": "die Seiten „Größen“ und „FAQ“ als Entwurf in Shopify stehen, mit Video und sechs Einwand-Antworten.",
-    "p": "Projekt Time Travel, Docket W9, Do 12.11. Schreib mir die Größenseite für Shopify: Tabelle W30–W38 aus der Spec (Bund, Hüfte, Innenbein), Kopfzeile je Größe im Format „W32 — 81 cm“, Umrechnung „Eightyfive/Carhartt/Dickies → Novalife“ nur so weit, wie sie aus meinen Messungen belegt ist (sonst als Faustregel markieren), Anleitung „Miss deine Lieblingsjeans“ in 4 Schritten für ein kurzes Video. Dazu ein FAQ mit sechs Einwand-Antworten (zu teuer, Größe passt nicht, Stickerei hält die Wäsche?, warum so lange warten, was ist mit Rückgabe, warum dieses Muster) plus Lieferzeit, Pflege, Stücknummer. Regeln: Subjekt ist das Muster, nie „authentisch“, Wortliste, kein „149 statt 169 €“.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Seiten; Inhalt → Dateien"
-     },
-     {
-      "n": "Eightyfive bei Zalando (Preisanker, Größen)",
-      "u": "https://www.zalando.de/damenbekleidung-jeans/eightyfive"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai"
-     }
-    ]
-   },
    {
     "c": "V",
     "t": "Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt",
@@ -533,33 +450,6 @@
   ],
   "2026-11-14": [
    {
-    "c": "A",
-    "t": "10:00 · Website Schritt 6: Startseite Stufe 1 „Prozess“",
-    "m": 90,
-    "s": [
-     "Vorher 15 Min.: 3 Papiertest-Fotos (Hochformat) und 1 Teppich-Foto in Shopify hochladen (Inhalt → Dateien). Teppich nur, wenn deine Familie zustimmt.",
-     "design/fine.py und front_band.svgfrag, front_coin.svgfrag, front_alatyr.svgfrag aus dem ZIP der Arbeitsdateien nach tt-theme/tools/motive/ kopieren (Dateinamen intern, nach außen heißt es Achtstern).",
-     "Abschnitt 4.2 aus website.md (K0, K1–K4, K8) nach tt-theme/docs/TEXTE-STUFE1.md kopieren, Sätze ändern, die nicht nach dir klingen. K3 nur mit echten Zahlen.",
-     "claude starten, Prompt unten. Kein fertiges Teil, kein Mockup bis 03.12.",
-     "shopify theme dev, Vorschau am Handy: Kopf, K1–K4, K8, Formular am Ende. Keine Jeans-Silhouette mit Motiven.",
-     "„passt“ schreiben, Commit."
-    ],
-    "f": "die Vorschau Kopf, K1–K4 und K8 ohne Mockup zeigt und am Handy gut aussieht.",
-    "p": "Projekt Time Travel, Docket W9, Website Schritt 6. Baue die Startseite Stufe 1 der Scroll-Story. Halte dich an CLAUDE.md, besonders an die Sprachregeln und „kein Mockup bis 03.12.“.\n1. sections/tt-kapitel.liquid: Kapitel mit Überschrift, Anker-ID und Blöcken „bild“ (Alt-Text Pflicht), „text“, „motiv“ (band, muenztasche, achtstern; SVG plus Karte mit Maß und Stichzahl; Rückseite „Bedeutung“ nur mit eingetragenem Text; Karte als <button aria-expanded>).\n2. Aus tools/motive/ eigenständige SVGs in assets/: tt-motiv-band.svg (gerader Streifen, 17 Stiche hoch), tt-motiv-muenztasche.svg (45 × 45), tt-motiv-achtstern.svg (27 × 27); je höchstens 10 KB, flach, NICHT auf eine Jeans-Silhouette gelegt.\n3. sections/tt-hero.liquid: „Time Travel“, „100 Jeans. Jede mit Nummer. Do 24.06.2027, 19:00.“, Countdown, Formular, Listenstand aus tt_liste_zahl und tt_liste_datum (ausblenden bei 0).\n4. snippets/tt-shop-button.liquid: fester Link oben rechts, mind. 44 × 44 px, ohne JavaScript „Auf die Liste“ → #liste.\n5. templates/index.json: tt-hero, K1 „Was hier entsteht“, K2 „Das Raster“, K3 „Die Suche“, K4 „Der Teppich“, K8 „Ehrliche Größen“, am Ende noch einmal das Formular. Texte aus docs/TEXTE-STUFE1.md, jeden Satz gegen die Sprachregeln prüfen und Treffer markieren.\n6. assets/tt-story.css: Palette aus CLAUDE.md, mobil zuerst, ab 320 px ohne waagerechtes Scrollen, Schalter „Bewegung aus“ (localStorage in try/catch).\nKeine Bibliotheken. Zeig mir die neuen Dateien mit Größe in KB. Commit nach meinem „passt“.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Inhalt → Dateien"
-     },
-     {
-      "n": "GitHub",
-      "u": "https://github.com",
-      "h": "Repo „novalife-tt-theme“"
-     }
-    ]
-   },
-   {
     "c": "V",
     "t": "12:00 · Presseliste Teil 1: 8 Medien, je 3 Artikel lesen",
     "m": 30,
@@ -594,7 +484,7 @@
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“ (nur bestätigte), nach Quellen-Tag (src-, ref-, gr-) ins Blatt „Warteliste“. Neu: Größen-Tags aus dem Formular zählen.",
      "Content: je Post Views, Saves, Shares, neue Follower, Anmeldungen je 1.000 Views ins Blatt „Content“. Story-Umfragen 7 und 8 auswerten.",
      "Kassencheck K − F − R im Blatt „Kasse“ (Entwicklung, Patch-Muster, Sticker eingerechnet). Grün ≥ 300 €.",
-     "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower gesamt TikTok + Instagram, Zusagen (nur „Zusage“), bezahlte Jeans (bis 14.01. noch 0).",
+     "Zahlen ins Cockpit eintragen (Docket → „Zahlen-Cockpit“): Warteliste bestätigt, Follower gesamt TikTok + Instagram, Zusagen (nur „Zusage“), bezahlte Jeans (bis 01.02. noch 0).",
      "Zeile an Claude (Prompt unten)."
     ],
     "f": "Blätter und Cockpit aktuell sind und die Zeile an Claude raus ist.",
@@ -633,31 +523,6 @@
       "n": "Google Sheets · „Time Travel Tracking“",
       "u": "https://sheets.google.com",
       "h": "Blatt „Gates“"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "11:00 · Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)",
-    "m": 30,
-    "s": [
-     "claude im Ordner tt-theme starten, Prompt unten.",
-     "Vorschau-Link aus shopify theme dev an dich selbst per Instagram-DM schicken und dort antippen: So öffnet er im Instagram-Browser. Formular, Countdown, Schalter „Bewegung aus“ testen.",
-     "In Chrome am Laptop: Entwicklertools → Netzwerk → Drosselung „Fast 4G“, Zeit bis zum ersten Bild notieren, Spalte „Content-Encoding“ für tt-story.js prüfen.",
-     "Die ersten fünf Probleme repariert Claude Code, den Rest notierst du für Mo 16.11. Live geht die Seite erst Mi 18.11."
-    ],
-    "f": "Theme Check ohne Fehler in tt-Dateien, die Seite im Instagram-Browser geprüft und tools/budget-check.mjs grün ist.",
-    "p": "Projekt Time Travel, Docket W9, Website Schritt 7. Prüf die Startseite wie ein strenger Tester. Halte dich an CLAUDE.md.\n1. Lege tools/budget-check.mjs an (Node, ohne Pakete): summiert alle assets/tt-* roh und gzip und bricht ab, wenn eigene CSS > 15 KB, eigene JS > 25 KB oder tt-feld-*.svg zusammen > 25 KB roh. Führ es aus.\n2. Führ shopify theme check aus und erklär mir Fehler in tt-Dateien. Andere Theme-Dateien nicht anfassen.\n3. Prüfliste: Kontrast laut Palette, Tippziele ≥ 44 px, Tab-Reihenfolge und sichtbarer Fokus, Schalter „Bewegung aus“, prefers-reduced-motion, Seite ohne JavaScript (Datum, Formular, Links da?), Alt-Texte.\n4. Sag mir, wie ich in Chrome die Netzwerk-Drosselung einschalte, die Zeit bis zum ersten Bild messe und in „Content-Encoding“ sehe, ob tt-story.js komprimiert kommt.\nGib mir alle Probleme als Liste nach Schwere. Repariere die ersten fünf, dann stopp und zeig mir die Änderungen.",
-    "o": [
-     {
-      "n": "Instagram",
-      "u": "https://www.instagram.com",
-      "h": "Link per DM an dich selbst, im In-App-Browser öffnen"
-     },
-     {
-      "n": "GitHub",
-      "u": "https://github.com",
-      "h": "Repo „novalife-tt-theme“"
      }
     ]
    },

@@ -1,7 +1,7 @@
 {
  "n": 10,
  "phase": "P2",
- "goal": "Stickproben und Stoff bewerten und freigeben, Teppich-Post, Website Stufe 1 live, Orte für Januar und März schriftlich anfragen",
+ "goal": "Stickproben und Stoff bewerten und freigeben, Teppich-Post, Orte für Januar und März schriftlich anfragen",
  "kpi": [
   {
    "k": "Warteliste",
@@ -152,7 +152,7 @@
     "s": [
      "Grün, wenn alle Elemente nach der Wäsche ok sind oder nur Korrekturen haben, die die Fabrik ohne neue Probe zusagt: Proto läuft. Ergebnis ins Blatt „Gates“.",
      "Rot, wenn die Stickerei auf gewaschenem Denim nicht trägt (Wellen, Einzug, Fransen, Weiß stumpf): kein Proto. Den Fehler benennen, nicht „sieht schlecht aus“.",
-     "Rot, Weg 1 (B-Zeitachse 1): Fabrik bekommt heute den benannten Fehler mit Foto und Maß und die Bitte um eine neue Stickprobe mit Datum. Öffnung rückt dann höchstens auf Do 28.01.",
+     "Rot, Weg 1 (B-Zeitachse 1): Fabrik bekommt heute den benannten Fehler mit Foto und Maß und die Bitte um eine neue Stickprobe mit Datum. Öffnung rückt dann höchstens auf Mo 15.02.",
      "Rot, Weg 2 (B-Zeitachse 2): Fabrik 2 aus dem Blatt „Fabriken“ heute warm anschreiben (Vorlage „Nachfassen“, Docket → Referenz → Vorlagen), Tech Pack und Stickdatei anhängen, Stickprobe anfragen.",
      "Bei Rot den Prompt unten an Claude, damit die Folgewochen neu geplant werden."
     ],
@@ -317,43 +317,17 @@
     ]
    },
    {
-    "c": "A",
-    "t": "Website Schritt 8: Stufe 1 live, altes Theme wird PLAN B, Test ?ref=test",
-    "m": 20,
-    "s": [
-     "Claude Code mit dem Prompt unten starten. Claude prüft git status, Budget-Check und theme check und pusht erst nach deinem „ja“ auf „TT Story“.",
-     "Shopify → Onlineshop → Themes: das bisher veröffentlichte Theme (Dawn-Warteliste vom 08.10.) in „PLAN B“ umbenennen.",
-     "„TT Story“ selbst veröffentlichen: im Admin auf „Veröffentlichen“.",
-     "Test mit dem Handy: Seite über deine Instagram-Bio öffnen, ?ref=test an die Adresse hängen, mit einer neuen Testadresse eintragen, Double-Opt-in bestätigen.",
-     "Shopify → Kunden → Testkunde öffnen: Tag „ref-test“ da? Eigener Code und persönlicher Link erscheinen nach der Bestätigung? Screenshot.",
-     "Testkunden danach löschen, damit er die Warteliste nicht zählt. Klappt etwas nicht: „PLAN B“ wieder veröffentlichen und Claude den Fehler schicken."
-    ],
-    "f": "„TT Story“ live ist, „PLAN B“ unveröffentlicht in der Theme-Bibliothek liegt und die Testanmeldung mit Tag „ref-test“, Code und persönlichem Link angekommen ist.",
-    "p": "Projekt Time Travel, Docket W10, Mi 18.11., Website Schritt 8. Ich will Stufe 1 live schalten. Prüfe vorher: git status sauber, tools/budget-check.mjs grün, shopify theme check ohne Fehler in tt-Dateien. Zeig mir den push-Befehl auf „TT Story“ und führ ihn erst aus, wenn ich „ja“ schreibe. Den publish mache ich selbst im Admin. Danach eine Checkliste, was ich auf dem Handy über die Instagram-Bio teste, inklusive ?ref=test: Tag ref-test, eigener Code, persönlicher Link.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Themes, Kunden"
-     },
-     {
-      "n": "Claude Code",
-      "h": "im Repo der Website"
-     }
-    ]
-   },
-   {
     "c": "V",
     "t": "Orte schriftlich vorab anfragen: GATE194, Sing Blackbird, Studio183",
     "m": 15,
     "s": [
      "Text mit dem Prompt unten bei Claude holen (DE und EN, je 5 Sätze).",
      "GATE194: Mail an store@gate194.berlin. Sing Blackbird und Studio183: nur über ihre offiziellen Kanäle (Kontakt auf der eigenen Website oder offizielles Instagram), Links vorher öffnen und prüfen.",
-     "Inhalt: Bitte, Di 12.01., Sa 16.01., Sa 30.01. und Sa 15.05. abends freizuhalten. Kleine Abende (Mess-Abende), 10–20 Gäste. Das Proto ist ab Do 03.12. da, du kommst dann gern vorbei und zeigst es.",
+     "Inhalt: Bitte, Sa 30.01., Mi 03.02., Mi 10.02. und Sa 15.05. abends freizuhalten. Kleine Abende (Mess-Abende), 10–20 Gäste. Das Proto ist ab Do 03.12. da, du kommst dann gern vorbei und zeigst es.",
      "Ins Blatt „Orte“: Ort, Kanal, gesendet am 18.11., Antwort offen. Nachfassen am Mi 25.11., wenn nichts kommt."
     ],
     "f": "drei Anfragen raus sind und im Blatt „Orte“ stehen.",
-    "p": "Projekt Time Travel, Docket W10, Mi 18.11. Schreib mir eine kurze Voranfrage auf Deutsch und Englisch (je höchstens 5 Sätze) an drei Berliner Läden: GATE194, Sing Blackbird, Studio183. Ich bin Ernest, Novalife, eine kleine Denim-Marke aus Berlin, 100 nummerierte Jeans, Drop 24.06.2027. Bitte: Di 12.01., Sa 16.01., Sa 30.01. und Sa 15.05. abends für kleine Mess-Abende (10–20 Gäste) freihalten. Das Proto ist ab 03.12. da, ich zeige es gern vorbei. Ton: freundlich, konkret, keine Floskeln, nie „authentisch“.",
+    "p": "Projekt Time Travel, Docket W10, Mi 18.11. Schreib mir eine kurze Voranfrage auf Deutsch und Englisch (je höchstens 5 Sätze) an drei Berliner Läden: GATE194, Sing Blackbird, Studio183. Ich bin Ernest, Novalife, eine kleine Denim-Marke aus Berlin, 100 nummerierte Jeans, Drop 24.06.2027. Bitte: Sa 30.01., Mi 03.02., Mi 10.02. und Sa 15.05. abends für kleine Mess-Abende (10–20 Gäste) freihalten. Das Proto ist ab 03.12. da, ich zeige es gern vorbei. Ton: freundlich, konkret, keine Floskeln, nie „authentisch“.",
     "o": [
      {
       "n": "GATE194 (Overkill GATE Store)",
@@ -380,31 +354,6 @@
    }
   ],
   "2026-11-19": [
-   {
-    "c": "A",
-    "t": "Produktseite Jeans als Entwurf + Vertrauens-Checkliste (9 Punkte)",
-    "m": 45,
-    "s": [
-     "Shopify → Produkte → Produkt hinzufügen. Status „Entwurf“ (unsichtbar). Titel „Time Travel Jeans · NVL-TT-01“. Varianten W30, W32, W34, W36, W38. Preis 169 €. Das Feld „Vergleichspreis“ bleibt leer: kein Streichpreis.",
-     "Produkttext mit dem Prompt unten bei Claude holen und einsetzen. Wortliste beachten: „Kreuzstich-Band“, „Achtstern“, „maschinengestickt auf dem Zuschnitt, Fäden von Hand“, „entworfen in Berlin“.",
-     "Vertrauens-Checkliste als 9 Abschnitte anlegen (Platzhalter, wo noch nichts da ist): 1 echte Fotos (ab Proto) · 2 Größe (Maßtabelle) · 3 Lieferdatum · 4 Geld-zurück-Regel · 5 „X von 35“ (nur echte Zahl) · 6 Gesicht (du, ein Foto, ein Satz) · 7 Element-Karten A–E · 8 Pflichtangaben (Material, Pflege, Hersteller) · 9 FAQ.",
-     "Bilder bleiben leer bis zum Proto. Kein Mockup, kein Rendering als Platzhalter.",
-     "Vorschau auf dem Handy ansehen. Was offen ist, als Liste ins Blatt „Website“."
-    ],
-    "f": "die Produktseite als Entwurf existiert, der Text drin ist und alle 9 Punkte der Checkliste als Abschnitt oder Platzhalter stehen.",
-    "p": "Projekt Time Travel, Docket W10, Do 19.11. Schreib mir den Produkttext für die Time Travel Jeans NVL-TT-01: 1 Satz Kern, 1 Absatz zum Muster (Kreuzstich-Band, Zickzack, Achtstern, Lebensbaum, Ähren auf rotem Band mit Goldfäden), 1 Absatz Material und Passform (12 oz, 100 % Baumwolle, rigid, Straight, ehrliche Größen), Pflege, Stücknummer 001–100. Dazu je 2 Sätze für die Vertrauens-Checkliste: Größe, Lieferdatum (Platzhalter), Geld-zurück-Regel (Platzhalter), Pflichtangaben, und 5 FAQ. Regeln: Subjekt ist das Muster, nie „authentisch“, Lebensbaum nie „slawisch“, Wortliste aus 9.3, „entworfen in Berlin“, kein Streichpreis.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Produkte → Produkt hinzufügen, Status Entwurf"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai"
-     }
-    ]
-   },
    {
     "c": "V",
     "t": "Presseliste Teil 2: Kontakte nur aus Impressum oder offizieller Seite",
@@ -683,7 +632,7 @@
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte zählen. Zahl und Zuwachs ins Blatt „Warteliste“, dazu die Verteilung nach Quellen-Tag (ref-netz, ref-papier, ref-stick, src-bio, src-qr …).",
      "Content: je Post (V016, V114, V017, V122, V018) Views, Saves, Shares, neue Follower ins Blatt „Content“. Anmeldungen je 1.000 Views ausrechnen.",
      "Kassencheck K − F − R ins Blatt „Kasse“: grün ≥ 300 €, gelb 0–300 €, rot < 0. Belege der Woche ins Blatt „Ausgaben“ (Stick-Material).",
-     "Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“ eintragen: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0 bis 14.01.).",
+     "Zahlen ins Docket-Abschnitt „Zahlen-Cockpit“ eintragen: Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (nur Spalte „Zusage“), bezahlte Jeans (0 bis 01.02.).",
      "Gates 7.1 prüfen: G1 Liste unter Alarm 140 → Netz-Runde an alle Offenen bis Mi, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos zeigen · G2 unter Soll 330 → bestes Video in 2 Varianten nachdrehen · G3 < 1,0 je 1.000 Views → angehefteter Kommentar „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“, Link-Sticker in jede Story · G4 Seitenquote < 6,6 % zwei Sonntage → Seite vereinfachen.",
      "Weiter: G5 Video ≥ 2 × Median und Teilrate über Median → 5 Varianten in 14 Tagen · G6 3 schwache Videos im selben Slot → Slot 2 Wochen tauschen · G7 ≥ 3 Kommentare „Sowjet/Wappen/Holodomor“ → danken, zählen, nie löschen, 2 Wochen kein Ernte-Bild · G8 ≥ 3 Folklore-Kommentare → erst Totale aus 3 m im Streetwear-Outfit · G9 > 70 % warme Tags → 3 neue Hooks · G12 Kasse gelb/rot → Ausgaben-Stopp nach 7.3.",
      "Zeile an Claude (Prompt unten), Offenes aus W10 dazuschreiben."
@@ -816,9 +765,9 @@
     "m": 25,
     "s": [
      "Schreibtisch, Draufsicht, Fensterlicht von der Seite. Auf Papier von Hand: „€169 → ~€60 to make (estimate)“. Die Zahl vorher mit Docket → Referenz → Kalkulation abgleichen, bei Abweichung die aktuelle Zahl nehmen.",
-     "Darunter: payment fees, shipping, returns, next drop. Am Ende: „Pre-order price €149 from 14.01. until 23.05.“. Keine fremden Marken, kein Streichpreis, kein „statt“.",
+     "Darunter: payment fees, shipping, returns, next drop. Am Ende: „Pre-order price €149 from 01.02. until 23.05.“. Keine fremden Marken, kein Streichpreis, kein „statt“.",
      "O-Ton einsprechen, Zeile für Zeile. CapCut: Hook EN in die ersten 2 s, Untertitel, 25–35 s. Export W11/final/V021.",
-     "Den Preissatz lässt du am Di 24.11. von der Rechtstexte-Hotline prüfen, bevor du postest."
+     "Rechtstexte und Hotline kommen erst im Januar. Bis dahin nur „169 €“ zeigen: kein Vorbestellpreis daneben, kein Vergleich."
     ],
     "f": "V021 geschnitten in W11/final liegt und die Zahl mit der Kalkulation übereinstimmt.",
     "v": {
@@ -831,14 +780,14 @@
      "shots": [
       "Papier: „€169 → ~€60 to make (estimate)“",
       "Darunter: payment fees, shipping, returns, next drop",
-      "Text: „pre-order price €149 · 14.01.–23.05.“"
+      "Text: „pre-order price €149 · 01.02.–23.05.“"
      ],
      "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
      "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der App",
      "text": "0–2 s Hook EN, Untertitel, „estimate“ sichtbar bei der Herstellzahl",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 14.01. until 23.05. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
-     "check": "Kein Streichpreis, keine fremden Marken, Schätzung als Schätzung, Sperrwoche ohne Ernte-Bild, Preissatz vor dem Post von der Hotline geprüft."
+     "caption": "€169. About €60 goes into making it (estimate). The rest pays fees, shipping, returns and the next drop. Pre-order price €149 from 01.02. until 23.05. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #smallbusiness #denim #pricing #novalifetimetravel",
+     "check": "Kein Streichpreis, keine fremden Marken, Schätzung als Schätzung, Sperrwoche ohne Ernte-Bild, nur „169 €“, kein Vergleichspreis."
     },
     "o": [
      {

@@ -156,7 +156,7 @@ V = [
       caption="Rewind #10. Me in 2026 vs me in 2027. Time Travel · 24.06.2027",
       check="Licht in beiden Takes gleich · Maske sauber · Codewort RW10"),
  dict(id="R11", name="G-Klasse II", phase=3, top=True,
-      shoot=("2027-01-08", 120), edit=("2027-01-09", 45), post=("2027-01-14", "19:00"), mo="2027-01-28",
+      shoot=("2027-01-08", 120), edit=("2027-01-09", 45), post=("2027-02-01", "19:00"), mo="2027-02-08",
       trick="Rückwärts", dauer="12 s",
       idee="Die Fortsetzung von #01, jetzt mit dem PP-Muster. Gleicher Ablauf, gleicher Seitschritt. Nach der Drehung siehst du Patch D mit dem Gürtel dahinter. Dann die Endkarte zur Vorbestellung.",
       ort="derselbe Ort wie bei REWIND #01",

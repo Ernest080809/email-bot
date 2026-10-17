@@ -1,7 +1,7 @@
 {
  "n": 22,
  "phase": "P3",
- "goal": "Aufholwoche: keine neuen Aufgaben. Offenes nachholen, sonst frei.",
+ "goal": "Vorbestellung am Laufen halten, Mess-Abend 2 am Mi, Hochrechnung und Kaufquote vor der Schwelle",
  "kpi": [
   {
    "k": "Warteliste",
@@ -27,20 +27,392 @@
  "days": {
   "2027-02-08": [
    {
-    "c": "A",
-    "t": "Aufholwoche: Offenes der letzten zwei Wochen nachholen",
-    "m": 60,
+    "c": "C",
+    "t": "E-Mail 4 „Noch X Paar“ mit echter Zahl planen (Versand 18:00)",
+    "m": 10,
     "s": [
-     "Im Docket die letzten zwei Wochen durchgehen: Was ist nicht abgehakt?",
-     "Nach Wirkung sortieren: zuerst alles, was Geld, Fabrik oder Vorbestellungen betrifft, dann Content.",
-     "Was nach zwei Wochen immer noch offen ist und nichts bewegt: streichen und Claude Bescheid sagen.",
-     "Diese Woche kommen keine neuen Aufgaben dazu. Wenn nichts offen ist: frei."
+     "Echte Zahl holen: Shopify → Bestellungen → Filter Produkt „Time Travel“ (Vorbestellung), nur bezahlte zählen. Rest = 35 − bezahlte Vorbestellungen.",
+     "Shopify → Marketing → Kampagnen → Shopify Email → Entwurf 4 öffnen (Text mit dem Prompt unten holen, falls der Entwurf fehlt).",
+     "Empfänger: Segment „abonniert, keine Bestellung“ (Kunden → Segmente: email_subscription_status = 'SUBSCRIBED' AND number_of_orders = 0). Wer schon bestellt hat, bekommt diese Mail nicht.",
+     "Betreff mit echter Zahl, z. B. „Noch [Y] von 35 zum Vorbestellpreis“. Kein Streichpreis, keine „statt 169 €“-Formulierung. Ein Bild vom PP-Sample, ein Button zur Produktseite mit utm_source=mail und ?ref=mail4 nach dem Schema vom 10.10.",
+     "Testmail an dich, Link am Handy anklicken, dann „Planen“ → Mo 08.02., 18:00."
     ],
-    "f": "nichts Wichtiges aus den letzten zwei Wochen mehr offen ist."
+    "f": "E-Mail 4 steht mit echter Zahl auf Mo 08.02., 18:00 geplant und die Testmail-Links funktionieren.",
+    "p": "Projekt Time Travel, Docket W22, Mo 08.02. Schreib mir E-Mail 4 „Noch X Paar“ an Abonnenten ohne Kauf, deutsch, Du-Form, max. 90 Wörter, Betreff unter 45 Zeichen. Fakten: [X] Vorbestellungen bezahlt, noch [Y] von 35 zum Vorbestellpreis 149 € bis 23.05., ab 24.06. 169 €. Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. Mess-Abend 2 am Mi 10.02., 18:00, [Ort]. Kein Streichpreis, kein „statt“, nie „authentisch“, Wortliste (Kreuzstich-Band, Achtstern). Ein Button, Text „Jetzt vorbestellen“.",
+    "o": [
+     {
+      "n": "Shopify-Admin · Marketing",
+      "u": "https://admin.shopify.com",
+      "h": "Marketing → Kampagnen → Shopify Email"
+     },
+     {
+      "n": "Shopify-Admin · Kunden → Segmente",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Zweite DM-Welle an Zusagen ohne Bestellung",
+    "m": 30,
+    "s": [
+     "Google Sheets → Blatt „Die ersten 35“ → Bereich „Zusage“: alle markieren, die noch nicht bezahlt haben. Abgleich mit Shopify → Bestellungen (Name, E-Mail).",
+     "Jede Person einzeln anschreiben, im Kanal, in dem sie zugesagt hat (WhatsApp, Instagram, Mail). Nie kopiert in Masse, immer mit ihrer Größe.",
+     "Inhalt: „Hey [Name], die Vorbestellung läuft. Deine [Größe] ist noch da, [Y] von 35 zum Vorbestellpreis. Link: [Link mit ?ref=netz]. Lieber anprobieren? Mi 10.02. ist Mess-Abend 2, 18:00, [Ort].“",
+     "Wer absagt: in „Vielleicht“ verschieben, nicht nachbohren. Wer eine Frage hat: heute beantworten.",
+     "Spalte „DM 2“ mit Datum 08.02. füllen. Zahl der angeschriebenen Zusagen oben ins Blatt."
+    ],
+    "f": "jede Zusage ohne Bestellung eine persönliche DM mit ihrer Größe hat und die Spalte „DM 2“ ausgefüllt ist.",
+    "p": "Projekt Time Travel, Docket W22, Mo 08.02. Hier sind meine Zusagen ohne Bestellung: [Name · Größe · Kanal · was sie zuletzt geschrieben haben]. Schreib mir für jede Person eine kurze, persönliche DM auf Deutsch (max. 40 Wörter), die an ihre letzte Nachricht anknüpft, ihre Größe nennt und den Mess-Abend 2 am Mi 10.02., 18:00 anbietet. Kein Druck, kein Streichpreis, nie „authentisch“.",
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     },
+     {
+      "n": "Shopify-Admin · Bestellungen",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "DMs"
+     }
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V055 posten: BUILD Day 120 „Zwischenstand“ (echte Zahl)",
+    "m": 20,
+    "s": [
+     "Vorher: die echte Zahl von heute Mittag in die Textebene in CapCut einsetzen (Datei W22/final/V055_final.mp4 neu exportieren). Keine Musik einbacken.",
+     "17:55 Video in TikTok hochladen (Business-Konto, Musik nur aus der Commercial Music Library, leise unter dem O-Ton), Caption unten einfügen.",
+     "18:00 posten. Gleich danach als Reel auf Instagram (Caption plus DE-Hook als erste Zeile) und als Short auf YouTube (Titel = Hook EN).",
+     "Reel in die Instagram-Story, Link-Sticker auf die Produktseite der Vorbestellung.",
+     "18:00–18:15 jeden Kommentar beantworten. Z, V, Georgsband-Emojis, Kriegsverherrlichung sofort ausblenden, Kritik nie löschen. Bei „Ist das russisch?“: „No. This pattern exists in Belarus, Poland, Russia and Ukraine. It belongs to no one alone.“"
+    ],
+    "f": "V055 mit echter Zahl auf TikTok, Instagram und YouTube online ist, die Story mit Link-Sticker läuft und die ersten Kommentare beantwortet sind.",
+    "v": {
+     "id": "V055",
+     "slot": "BUILD",
+     "dauer": "15–20 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 120: [X] of 35 pairs pre-ordered.",
+     "hook_de": "Tag 99: [X] von 35 Paar vorbestellt.",
+     "shots": [
+      "Draufsicht: Hangtags auf dem Tisch, einer pro Vorbestellung, nur Nummern, keine Namen",
+      "Du sagst Danke in einem Satz in die Kamera",
+      "Restzahl groß als Text: „[Y] left at €149“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht (Handy auf Stativ oder Bücherstapel), Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s Hook EN, Untertitel, Endframe „[Y] of 35 left“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35.)",
+     "caption": "Day 120. Real numbers: [X] pre-orders, [Y] of 35 left at the pre-order price. Thank you. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
+     "check": "Echte Zahl, keine Kundennamen, kein Streichpreis „statt 169 €“, CTA der Phase, nie „authentisch“."
+    },
+    "o": [
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short, Titel = Hook EN"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "keine Musik einbacken"
+     }
+    ]
    }
   ],
-  "2027-02-09": [],
+  "2027-02-09": [
+   {
+    "c": "D",
+    "t": "Tempo bewerten: Werbegeld ja oder nein",
+    "m": 20,
+    "s": [
+     "Bezahlte Vorbestellungen zählen: Shopify → Bestellungen, Status „Bezahlt“. Kasse K − F − R aus dem Blatt „Kasse“.",
+     "Unter 10 Vorbestellungen: kein Werbegeld. Stattdessen heute 5 zusätzliche persönliche DMs an „Vielleicht“ aus „Die ersten 35“ und den Mess-Abend 2 in der Story bewerben.",
+     "Ab 10 und Kasse grün (≥ 300 €): höchstens 50 € Retargeting-Test auf dein bestes Video (höchste Haltequote der letzten 14 Tage). Meta Werbeanzeigenmanager → Kampagne „Traffic“ → Zielgruppe: Personen, die in den letzten 30 Tagen mit deinem Instagram-Konto interagiert haben, nur Deutschland, 7 Tage, Ziel-URL Produktseite mit utm_source=ads.",
+     "Ab 10, aber Kasse gelb oder rot: kein Werbegeld (Gate G12).",
+     "Entscheidung mit Zahl und Begründung ins Blatt „Pre-Order“, Spalte „Tempo 09.02.“."
+    ],
+    "f": "die Entscheidung (0 € oder Test bis 50 €) mit Zahl der Vorbestellungen und Kassenstand im Blatt „Pre-Order“ steht.",
+    "o": [
+     {
+      "n": "Shopify-Admin · Bestellungen",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Pre-Order“, „Kasse“"
+     },
+     {
+      "n": "Meta Werbeanzeigenmanager",
+      "h": "über Instagram → Professional Dashboard → Werbung erreichbar, Pfad am Konto prüfen"
+     }
+    ]
+   },
+   {
+    "c": "C",
+    "t": "E-Mail an Abonnenten ohne Kauf planen",
+    "m": 20,
+    "s": [
+     "Shopify → Kunden → Segmente: „abonniert, keine Bestellung“ (email_subscription_status = 'SUBSCRIBED' AND number_of_orders = 0). Größe des Segments notieren.",
+     "Text mit dem Prompt unten bei Claude holen: noch [Y] Paar zum Vorbestellpreis, ein Bild (Makro vom Sample), ein Button.",
+     "Shopify → Marketing → Kampagnen → Shopify Email → neue Mail, Link mit utm_source=mail und ?ref=mail5.",
+     "Testmail an dich, dann planen (19:00 wie die anderen Werkstatt-Mails)."
+    ],
+    "f": "die Mail an das Segment ohne Kauf mit echter Zahl geplant ist.",
+    "p": "Projekt Time Travel, Docket W22, Di 09.02. Schreib mir eine kurze Mail an Abonnenten ohne Kauf, deutsch, Du-Form, max. 80 Wörter, Betreff unter 45 Zeichen. Fakten: noch [Y] von 35 zum Vorbestellpreis 149 € bis 23.05., ab 24.06. 169 €. Lieferung bis spätestens 30.06.2027, geplant Anfang Juni. [Mess-Abend 2 morgen, Mi 10.02., 18:00, Ort]. Ein Satz, warum es nur 100 gibt. Kein Streichpreis, nie „authentisch“, Wortliste. Ein Button „Vorbestellen“.",
+    "o": [
+     {
+      "n": "Shopify-Admin · Kunden → Segmente",
+      "u": "https://admin.shopify.com"
+     },
+     {
+      "n": "Shopify-Admin · Marketing",
+      "u": "https://admin.shopify.com",
+      "h": "Marketing → Kampagnen → Shopify Email"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
+    ]
+   },
+   {
+    "c": "C",
+    "t": "18:00 · V060 posten: BUILD Day 121 „Noch X Paar“ (nur echte Zahl)",
+    "m": 20,
+    "s": [
+     "Mittags die echte Restzahl aus Shopify (35 − bezahlte Vorbestellungen) in CapCut einsetzen, W22/final/V060_final.mp4 neu exportieren.",
+     "17:55 in TikTok hochladen (Business-Konto, Musik nur aus der Commercial Music Library), Caption einfügen.",
+     "18:00 posten, gleich danach Reel auf Instagram (DE-Hook als erste Zeile) und Short auf YouTube.",
+     "Reel in die Story mit Link-Sticker auf die Vorbestellung.",
+     "15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9)."
+    ],
+    "f": "V060 mit der echten Restzahl auf allen drei Plattformen online ist und die Story läuft.",
+    "v": {
+     "id": "V060",
+     "slot": "BUILD",
+     "dauer": "10–15 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 121: [Y] pairs left at €149.",
+     "hook_de": "Tag 106: Noch [Y] Paar zu 149 €.",
+     "shots": [
+      "Hangtag-Stapel auf dem Tisch",
+      "Zeitraffer: Hand nimmt für jede Vorbestellung einen Hangtag weg",
+      "Echte Restzahl groß",
+      "Endframe: „€149 until 23.05.“"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "0–2 s Hook EN, Endframe „€149 until 23.05. · from 24.06. €169“",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35.)",
+     "caption": "Day 121. [Y] of 35 left at the pre-order price. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Nur echte Zahl, kein „statt 169 €“, keine Namen, CTA der Phase."
+    },
+    "o": [
+     {
+      "n": "TikTok",
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
+     },
+     {
+      "n": "YouTube",
+      "u": "https://www.youtube.com",
+      "h": "Short"
+     },
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com"
+     }
+    ]
+   }
+  ],
   "2027-02-10": [
+   {
+    "c": "C",
+    "t": "12:00 · V059 ASK: Story-Q&A starten, Antworten abends live",
+    "m": 10,
+    "s": [
+     "12:00 Instagram-Story mit Fragen-Sticker „Ask me anything about the pre-order“ (DE-Zeile „Frag mich alles zur Vorbestellung“), Link-Sticker auf die Vorbestellung.",
+     "Nachmittags Fragen sammeln. Antworten am Abend live vom Mess-Abend posten (Größe, Lieferung, Rückgabe).",
+     "Rechtliche Fragen (Widerruf) nur mit dem Text der Rechtsseite beantworten, Link zur Seite „Rückgabe“.",
+     "Danach als Highlight „DROP INFO“ sichern."
+    ],
+    "f": "die Story mit Fragen-Sticker läuft und die Antworten bis 21:00 online und im Highlight „DROP INFO“ sind.",
+    "v": {
+     "id": "V059",
+     "slot": "ASK",
+     "dauer": "1 Frame + Antworten",
+     "plattform": "Instagram-Story (TikTok-Story optional)",
+     "hook_en": "Ask me anything about the pre-order.",
+     "hook_de": "Frag mich alles zur Vorbestellung.",
+     "shots": [
+      "Frame 1: Fragen-Sticker auf Foto vom PP-Sample",
+      "Antwort-Frames am Abend, live vom Mess-Abend"
+     ],
+     "ort": "Wohnung, abends Mess-Abend-Ort",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "Fragen-Sticker, Link-Sticker",
+     "cta": "Link-Sticker auf die Vorbestellung",
+     "caption": "(Story) Ask me anything about the pre-order. Size, delivery, returns.",
+     "check": "Widerruf nur mit Text der Rechtsseite, keine Kundennamen in den Antworten."
+    },
+    "o": [
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story, Fragen-Sticker, Highlight „DROP INFO“"
+     }
+    ]
+   },
+   {
+    "c": "V",
+    "t": "18:00 · MESS-ABEND 2 (bis 20:00), QR ?ref=mess2, Nano-Creator willkommen",
+    "m": 110,
+    "s": [
+     "16:30 packen: PP-Sample, Maßbänder, Maßtabelle (ausgedruckt), Größen-Testpaare, Hangtags, QR-Aufsteller (Link mit utm_source=qr und ?ref=mess2), Handy mit Shopify-App, Ladekabel, Klebeband, Stifte.",
+     "17:30 aufbauen am Ort aus Blatt „Abende“ (fest seit 19.12.). Einen Tisch zum Messen, einen zum Anprobieren, QR sichtbar an der Tür.",
+     "18:00–20:00: Gäste messen ihre Lieblingsjeans, du zeigst das Sample. Ein Satz: „Vorbestellung jetzt über den QR, 149 € bis 23.05., noch [Y] von 35.“ Größe immer aus der Maßtabelle, nie schätzen.",
+     "Nano-Creator begrüßen, nicht drängen. Wer filmt: Bitte um keine Länder, keine Flaggen, keine Politik (Vorlage C4).",
+     "Jedes „Ja“ sofort ins Blatt „Die ersten 35“ (Zusage mit Größe) oder direkt am Handy bestellen lassen.",
+     "Fotos nur mit Erlaubnis. Fragen aus V059 live in die Story beantworten.",
+     "20:00 Kern-Ende. Zahl der Gäste, Bestellungen mit ref-mess2, Zusagen ins Blatt „Abende“."
+    ],
+    "f": "der Abend stattgefunden hat und Gäste, Bestellungen mit ?ref=mess2 und Zusagen im Blatt „Abende“ stehen.",
+    "o": [
+     {
+      "n": "Ort Mess-Abend 2",
+      "a": "laut Blatt „Abende“ (fest seit 19.12.)",
+      "h": "Schlüssel und Zugang am Vortag bestätigen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Abende“, „Die ersten 35“"
+     },
+     {
+      "n": "Shopify-Admin · Bestellungen",
+      "u": "https://admin.shopify.com"
+     }
+    ]
+   },
+   {
+    "c": "V",
+    "t": "20:00 · Grind+ Mess-Abend bis 21:00 offen lassen",
+    "m": 60,
+    "plus": true,
+    "s": [
+     "Wer nach 20:00 kommt, bekommt dasselbe: messen, Sample, QR.",
+     "Ab 20:45 abbauen, Maßtabellen mit Namen nicht liegen lassen (DSGVO).",
+     "21:00 Schluss. Morgen ist Sonntag mit Review und Batch: nur Pflicht."
+    ],
+    "f": "der Abend um 21:00 geschlossen ist und nichts mit Namen am Ort liegt.",
+    "o": [
+     {
+      "n": "Ort Mess-Abend 2",
+      "a": "laut Blatt „Abende“"
+     }
+    ]
+   }
+  ],
+  "2027-02-11": [
+   {
+    "c": "D",
+    "t": "Hochrechnung Cash-Schwelle für Mo 15.02.",
+    "m": 20,
+    "s": [
+     "Shopify → Einstellungen → Payments → Auszahlungen: Welche Vorbestellungen sind bis So 14.02. ausgezahlt? Mit der Auszahlungsdauer vom Test am 22.01. rechnen. Nur ausgezahltes Geld zählt.",
+     "Wochenrate = (bezahlte Vorbestellungen 02.–14.02.) ÷ 2. Die laufende Woche bis So hochrechnen, den Starttag 01.02. nicht mitzählen.",
+     "Hochrechnung = ausgezahlt bis Fr 12.02. + 6 × Wochenrate. Ziel: ≥ 32 ausgezahlt bis Di 18.05. (bei Steuer zusätzlich ≥ 40 bis Mi 26.05., inkl. Stufe 2).",
+     "Ergebnis: ≥ 10 ausgezahlt und Hochrechnung ≥ 32 → 100 · Schwelle ja, Hochrechnung darunter → 75 · 7–9 → Zipper-Notfall · < 10 → schieben (B-Zeitachse 2).",
+     "Kontostand gegen Anzahlung laut Proforma stellen: reicht, knapp oder fehlt. Bei „fehlt“: Prompt unten an Claude.",
+     "Alles ins Blatt „Gates“, Zeile „Schwelle 1 Vorschau“."
+    ],
+    "f": "die Hochrechnung mit ausgezahlter Zahl, Wochenrate und Ergebnis (100/75/schieben) im Blatt „Gates“ steht.",
+    "p": "Projekt Time Travel, Docket W22, Do 11.02. Hochrechnung Schwelle 1: ausgezahlt bis Fr 12.02. [A] (davon sicher [A1], abhängig von der Auszahlung [A2]), Vorbestellungen 02.–07.02. [a], 08.02. bis heute [b], Auszahlungsdauer [n Werktage], Kontostand [K], Anzahlung laut Proforma [€] bei 100 und [€] bei 75, Steuer DAP [ja/nein]. Rechne die Mengenformel (ausgezahlt + 6 × Wochenrate ≥ 32 bis 18.05.) und sag mir, was am Mo herauskommt und was ich bis So noch ändern kann.",
+    "o": [
+     {
+      "n": "Shopify-Admin · Payments",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Payments → Auszahlungen"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blätter „Gates“, „Kasse“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
+    ]
+   },
+   {
+    "c": "V",
+    "t": "Vorbestellungen und DMs: Fragen beantworten, Zusagen ohne Kauf freundlich nachfassen",
+    "m": 20,
+    "s": [
+     "Shopify-Mails und DMs durchgehen.",
+     "Jede Zusage aus „Die ersten 35“ ohne Bestellung einmal persönlich anschreiben, nie drängen."
+    ],
+    "f": "keine Kundenfrage älter als 48 Stunden ist."
+   },
+   {
+    "c": "V",
+    "t": "Persönliche DMs an Zusagen und Handheber ohne Kauf",
+    "m": 45,
+    "s": [
+     "Liste bauen: Blatt „Die ersten 35“ (Zusage und Vielleicht) plus alle, die je kommentiert oder auf eine Story geantwortet haben, aber nicht bestellt haben. Abgleich mit Shopify → Bestellungen.",
+     "Jede Nachricht einzeln, nicht kopiert, ein Satz mit Bezug auf ihren Kommentar oder ihre Größe. 20–40 Nachrichten.",
+     "Alle mit 2 bestätigten Freunden („Bring 3“, Tag ref-[code]): „Zwei deiner Leute sind schon drin, einer fehlt noch.“",
+     "Spalte „DM 3“ mit Datum 03.02. füllen."
+    ],
+    "f": "mindestens 20 persönliche DMs raus sind und die Spalte „DM 3“ ausgefüllt ist.",
+    "p": "Projekt Time Travel, Docket W22, Do 11.02. Hier sind Leute ohne Kauf mit ihrem letzten Kommentar oder ihrer Größe: [Name · Größe · Kommentar · Freunde bestätigt]. Schreib mir je eine DM auf Deutsch, max. 35 Wörter, persönlich, ohne Druck. Bei 2 bestätigten Freunden der Satz „einer fehlt noch“. Fakten: noch [Y] von 35 zu 149 € bis 23.05., Link [Link mit ?ref=netz]. Nie „authentisch“.",
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Die ersten 35“"
+     },
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "DMs"
+     },
+     {
+      "n": "Shopify-Admin · Bestellungen",
+      "u": "https://admin.shopify.com"
+     }
+    ]
+   }
+  ],
+  "2027-02-12": [
    {
     "c": "C",
     "t": "18:00 · Reserve-Post oder Variante deines besten Videos",
@@ -52,40 +424,141 @@
     "f": "ein Post läuft."
    }
   ],
-  "2027-02-11": [
-   {
-    "c": "V",
-    "t": "Vorbestellungen und DMs: Fragen beantworten, Zusagen ohne Kauf freundlich nachfassen",
-    "m": 20,
-    "s": [
-     "Shopify-Mails und DMs durchgehen.",
-     "Jede Zusage aus „Die ersten 35“ ohne Bestellung einmal persönlich anschreiben, nie drängen."
-    ],
-    "f": "keine Kundenfrage älter als 48 Stunden ist."
-   }
-  ],
-  "2027-02-12": [],
   "2027-02-13": [
    {
     "c": "C",
-    "t": "12:00 · Reserve-Post oder Story-Serie",
-    "m": 15,
+    "t": "12:00 · V064 ASK-Story „Montag entscheidet“",
+    "m": 10,
     "s": [
-     "Zweiter Reserve-Post der Woche oder 3 Storys mit Proto-Details."
+     "Echte Zahl der bezahlten Vorbestellungen in die Vorlage vom 14.02. eintragen.",
+     "Ist die Schwelle (10 ausgezahlt) schon sicher erfüllt: Frame 1 wird „[X] of 35“ statt „Monday decides“.",
+     "12:00 Instagram-Story mit 2 Frames, Frame 2 mit Link-Sticker auf die Vorbestellung.",
+     "Antworten auf die Story heute persönlich beantworten."
     ],
-    "f": "der Post oder die Storys laufen."
+    "f": "die Story mit echter Zahl und Link-Sticker online ist.",
+    "v": {
+     "id": "V064",
+     "slot": "ASK",
+     "dauer": "2 Frames",
+     "plattform": "Instagram-Story",
+     "hook_en": "Monday decides if 100 pairs get made.",
+     "hook_de": "Montag entscheidet, ob 100 Paar gemacht werden.",
+     "shots": [
+      "Frame 1: echte Zahl",
+      "Frame 2: Link-Sticker"
+     ],
+     "ort": "Story-Vorlage",
+     "ton": "kein Ton (Story-Sticker)",
+     "text": "„[X] pre-orders. Monday is the deadline.“",
+     "cta": "Link-Sticker auf die Vorbestellung",
+     "caption": "(Story) [X] pre-orders. Monday decides if 100 pairs get made.",
+     "check": "Nur wenn die Schwelle noch offen ist, sonst „[X] of 35“; echte Zahl."
+    },
+    "o": [
+     {
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Story mit Link-Sticker"
+     }
+    ]
    }
   ],
   "2027-02-14": [
    {
     "c": "A",
-    "t": "Wochenreview (kurz): Zahlen ins Cockpit",
+    "t": "10:00 · Wochenreview W22 + Kaufquote + Cockpit + Zeile an Claude",
     "m": 20,
     "s": [
-     "Warteliste, Follower, Zusagen und Vorbestellungen ins Cockpit.",
-     "Eine Zeile an Claude: Was ist liegen geblieben, was hat gewirkt?"
+     "Liste nach Quellen-Tag: Shopify → Kunden → Segment „E-Mail-Abonnenten“, src-/ref-Tags zählen (auch ref-mess2, c-[name]). Views und Anmeldungen je 1.000 Views ins Blatt „Content“.",
+     "Eigene Kaufquote = bezahlte Vorbestellungen ÷ Liste vom 31.01. (Wert aus dem Cockpit). Ins Blatt „Gates“.",
+     "Zahlen ins Cockpit (Docket-Abschnitt „Zahlen-Cockpit“): Warteliste bestätigt, Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“), bezahlte Jeans.",
+     "Kassencheck K − F − R im Blatt „Kasse“: grün ≥ 300 € · gelb (0–300 €) → keine Ausgaben außerhalb Plan 3 · rot → Ausgaben-Stopp-Liste, Notfall-Leiter (G12).",
+     "G1: Liste unter Alarm 600 → Netz-Runde, „Bring 3“-Story, Abend festmachen, Claude die 3 schwächsten Videos · G2: unter Soll 1.500 → bestes Video in 2 Varianten, Kommentarzeit 15′ · G3: < 1,0 je 1.000 Views → angehefteter Kommentar mit Vorteil, Link-Sticker in jede Story.",
+     "G4: Seitenquote < 6,6 % zwei Sonntage → echtes Foto oben, nur E-Mail Pflicht · G5: Video ≥ 2 × Median → 5 Varianten in 14 Tagen · G7/G8: Kommentare zählen · G9: > 70 % warm → 3 neue Hooks · G10: Vorbestellungen unter Alarm 8 → DM an jede Zusage mit Größe · G11: Conversion < 1,3 % bei ≥ 300 Sitzungen → häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis.",
+     "Zeile an Claude (Prompt unten)."
     ],
-    "f": "die Zahlen im Cockpit stehen."
+    "f": "die vier Cockpit-Zahlen und die Kaufquote stehen, die Gates aus 7.1 geprüft sind und die Zeile an Claude raus ist.",
+    "p": "Projekt Time Travel, Docket W22, So 14.02. W22: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Vorbestellungen bezahlt [V], Kaufquote [V ÷ Liste 31.01. = %], Mess-Abend 2: [Gäste, Bestellungen ref-mess2], Patches: [bestätigt ja/nein]. Offen aus W22: [..]. Sag mir, welches Listen-Ziel jetzt gilt.",
+    "o": [
+     {
+      "n": "Shopify-Admin · Kunden",
+      "u": "https://admin.shopify.com",
+      "h": "Segment „E-Mail-Abonnenten“"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Zahlen-Cockpit, „Content“, „Kasse“, „Gates“"
+     },
+     {
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai"
+     }
+    ]
+   },
+   {
+    "c": "D",
+    "t": "10:20 · Gate Kaufquote, Vor-Check Schwelle, Patches, Stufe-2-Check",
+    "m": 10,
+    "s": [
+     "Kaufquote < 1,0 % → Listen-Ziel ab jetzt 3.400, die Grind+-Spalte wird Pflicht · 1,0–1,5 % → Mess-Abend 15.05. als Hauptereignis · > 1,5 % → Kurs halten.",
+     "Vor-Check Schwelle: ≥ 10 Vorbestellungen ausgezahlt (Shopify → Payments → Auszahlungen)? Soll 16. Unter 10: heute Abend noch Notfall-Leiter Stufe 1 (persönliche Nachrichten an alle „Vielleicht“). Bei 7–9: Zipper-Notfall für morgen vorbereiten.",
+     "Patches bei der Fabrik? Ohne Foto und Stückzahl: Montag Call und neue Rechnung für den Produktionsstart anfordern.",
+     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 22.01. aktivieren), Mail an alle ohne Kauf, Story.",
+     "Alle Entscheidungen ins Blatt „Gates“ und in die Zeile an Claude."
+    ],
+    "f": "Kaufquote, ausgezahlte Zahl, Patch-Status und Stufe-2-Status im Blatt „Gates“ stehen.",
+    "o": [
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Gates“, „Abende“"
+     },
+     {
+      "n": "Shopify-Admin · Produkte",
+      "u": "https://admin.shopify.com",
+      "h": "Stufe-2-Entwurf vom 22.01."
+     }
+    ]
+   },
+   {
+    "c": "C",
+    "t": "11:00 · Content-Batch W23 vorbereiten (V065 drehst du am Mo)",
+    "m": 25,
+    "s": [
+     "Ordner „W23“ anlegen. V065 „100 oder 75“ wird erst am Mo nach der Schwelle gedreht, heute nur vorbereiten.",
+     "Papier vorbereiten: Regel aus dem Plan sauber von Hand („≥ 10 paid + forecast ≥ 32 → 100 · else 75“), Feld für die Zahl leer.",
+     "Schreibtisch-Setup testen: Handy auf Stativ, Draufsicht, Fensterlicht von der Seite, 3 Probe-Takes.",
+     "B-Roll für V066 und V067 drehen: Hände am Laptop, ein Atemzug, Banking-App ohne Daten. Bildschirmaufnahmen kommen am Mi und Fr.",
+     "In CapCut Vorlage mit Textebene für Hook und Untertitel anlegen, keine Musik einbacken."
+    ],
+    "f": "Papier, Setup-Test, B-Roll und CapCut-Vorlage im Ordner „W23“ liegen.",
+    "v": {
+     "id": "V065",
+     "slot": "BUILD",
+     "dauer": "15–25 s",
+     "plattform": "TikTok + Reels + Shorts",
+     "hook_en": "Day 126: 100 pairs or 75? Today I decide.",
+     "hook_de": "Tag 113: 100 Paar oder 75? Heute entscheide ich.",
+     "shots": [
+      "Zahl der Vorbestellungen auf Papier (Mo eintragen)",
+      "Regel aus dem Plan daneben",
+      "Deine Entscheidung in einem Satz"
+     ],
+     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
+     "ton": "O-Ton (deine Stimme) + Untertitel",
+     "text": "0–2 s Hook EN, Untertitel",
+     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.",
+     "caption": "Day 126. [X] pre-orders. Decision: [100/75] pairs. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #novalifetimetravel",
+     "check": "Heute nur Vorbereitung, das Ergebnis kommt am Mo; echte Zahl."
+    },
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "keine Musik einbacken"
+     }
+    ]
    }
   ]
  }

@@ -1,7 +1,7 @@
 {
  "n": 18,
  "phase": "P3",
- "goal": "Vorbestellung öffnet Do 19:00 (Liste 18:00), Creator-Preview am Di, Mess-Abend 1 am Sa",
+ "goal": "Shop-Block 1: Website Stufe 1 bauen, Rechtstexte, Versand, LUCID. Marketing läuft weiter",
  "kpi": [
   {
    "k": "Warteliste",
@@ -28,171 +28,242 @@
   "2027-01-11": [
    {
     "c": "A",
-    "t": "Generalprobe Vorbestellung: Checkout, Bestätigung, Zeitsteuerung",
-    "m": 40,
+    "t": "Website Schritt 1: Werkzeuge auf dem Mac (website.md 9)",
+    "m": 60,
     "s": [
-     "Shopify-Admin → Produkte → „Testprodukt TT“ anlegen (1 €, zwei Größen, je 2 Stück, nirgends verlinkt). Ein Freund kauft am Handy über den Produktlink. Du erstattest sofort: Bestellungen → Bestellung → Erstatten.",
-     "Prüfen: Preis aus Shopify, Liefersatz „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“ auf der Seite, Größenseite verlinkt, Bestellbestätigung mit dem Vorbestell-Textblock (Liefersatz, Geld-zurück-Regel, Stücknummer nach Bestelldatum).",
-     "Erinnerung bei abgebrochenem Checkout: einen Checkout bis zur Zahlungsseite gehen und abbrechen. Kommt die Erinnerungsmail? Dann die Funktion für den 14.01. einschalten (Menüpunkt in Shopify vor Ort prüfen, z. B. Marketing → Automatisierungen).",
-     "Zeitsteuerung: Testprodukt auf „heute in 20 Minuten“ veröffentlichen lassen (Future Publishing, in den Unterlagen nicht belegt). Uhrzeit notieren, ob es pünktlich live geht. Geht es nicht: am 14.01. um 17:50 von Hand aktiv schalten.",
-     "Umschichten üben: Bestand von Größe A auf Größe B verschieben (Produkt → Varianten → Bestand), Summe bleibt gleich. Zeit stoppen.",
-     "Testprodukt zurück auf „Entwurf“, Vorbestell-Produkt bleibt Entwurf mit Bestand 35. Ergebnisse ins Blatt „Website“."
+     "Terminal öffnen: Cmd + Leertaste, „Terminal“ tippen, Enter.",
+     "Node.js: auf nodejs.org die LTS-Version als macOS-Installer laden und installieren (die Shopify CLI braucht 22.12.0 oder neuer). Prüfen: node -v.",
+     "Git: git --version eingeben. Fragt der Mac nach den „Command Line Tools“, auf Installieren klicken.",
+     "Shopify CLI: npm install -g @shopify/cli. Kommt „permission denied“: kein sudo, Claude fragen. Prüfen: shopify version zeigt 4.8.5 oder höher.",
+     "Claude Code: curl -fsSL https://claude.ai/install.sh | bash, dann ein neues Terminal-Fenster und claude --version. Braucht macOS 13 oder neuer und ein Pro-, Max-, Team- oder Enterprise-Konto.",
+     "Ordner: mkdir -p ~/Claude/Novalife/website && cd ~/Claude/Novalife/website, dann claude starten und den Prompt unten einfügen."
     ],
-    "f": "Testkauf und Erstattung geklappt haben, die Erinnerungsmail getestet und eingeschaltet ist und du weißt, ob die Zeitsteuerung pünktlich war.",
+    "f": "Fertig, wenn Claude Code eine Tabelle mit fünf Werkzeugen zeigt, alle „ok“.",
+    "p": "Projekt Time Travel, Website Schritt 1 (Docket W18, Mo 11.01.). Ich bin neu auf dem Mac und kein Entwickler. Prüfe nur, installiere nichts und benutze nie sudo: node -v (muss 22.12.0 oder neuer sein), npm -v, git --version, shopify version, claude --version. Zeig mir eine Tabelle: Werkzeug | Version | ok / nicht ok. Wenn etwas fehlt oder zu alt ist, erklär mir in einfachen Schritten, was ich selbst tun muss.",
     "o": [
      {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Produkte, Bestellungen, Marketing; Menüpfade vor Ort prüfen"
+      "n": "Node.js (LTS, macOS-Installer)",
+      "u": "https://nodejs.org",
+      "h": "Download-Seite vor Ort ansehen, nicht geprüft"
      },
      {
-      "n": "Shopify Help Center · Pre-orders",
-      "u": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders/setup"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Website“"
+      "n": "Claude Code · Einrichtung",
+      "u": "https://code.claude.com/docs/en/setup"
      }
     ]
    },
    {
     "c": "A",
-    "t": "30-Sekunden-Test: Freund findet Größe, Lieferdatum, Geld zurück",
-    "m": 10,
-    "s": [
-     "Ein Freund ohne Vorwissen bekommt dein Handy mit der Vorbestellseite (Vorschau). Stoppuhr an.",
-     "Drei Fragen: „Welche Größe nimmst du?“, „Wann kommt die Jeans?“, „Was passiert, wenn sie nicht passt oder nicht kommt?“",
-     "Findet er eine Antwort nicht in 30 Sekunden: genau diese Stelle nach oben holen oder fett setzen. Heute noch ändern.",
-     "Ergebnis (Zeit je Frage) ins Blatt „Website“."
-    ],
-    "f": "alle drei Antworten in 30 Sekunden gefunden werden oder die Seite heute entsprechend geändert ist.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Vorschau der Vorbestellseite"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "Kaufgrund-Frage in die Bestellbestätigung „Was hat dich überzeugt?“",
+    "t": "Absender-Domain in Shopify authentifizieren (vor E-Mail 1 am Di 26.01.)",
     "m": 15,
     "s": [
-     "Shopify-Admin → Einstellungen → Benachrichtigungen → Bestellbestätigung (Pfad vor Ort prüfen).",
-     "Unter den Vorbestell-Textblock: „Eine Frage: Was hat dich überzeugt? Antworte einfach auf diese Mail, ein Satz reicht.“ Alternativ ein anonymes Tally-Formular mit einer Frage.",
-     "Keine Frage nach Herkunft. Ethnische Herkunft speicherst du nie neben Name oder E-Mail.",
-     "Testmail an dich schicken. Neues Blatt „Kaufgrund“: Datum, Antwort, Quellen-Tag."
+     "Shopify-Admin → Einstellungen → Benachrichtigungen → Absender-E-Mail (Menü vor Ort prüfen, der Pfad kann anders heißen).",
+     "Dort „Domain authentifizieren“ wählen. Shopify zeigt dir DNS-Einträge (meist CNAME). Fenster offen lassen.",
+     "Beim Anbieter deiner Domain einloggen → DNS-Verwaltung → die Einträge genau so anlegen, wie Shopify sie zeigt. Nichts Bestehendes löschen.",
+     "Zurück in Shopify auf „Überprüfen“ klicken. Ist es noch nicht grün: morgen und Mi noch einmal prüfen. DNS braucht manchmal Stunden.",
+     "Absender-Adresse auf deine Novalife-Adresse an der eigenen Domain setzen, nicht Gmail.",
+     "Status ins Blatt „Gates“: „Domain authentifiziert am …“. Die nächste große Mail ist E-Mail 1 am Di 26.01."
     ],
-    "f": "die Frage in der Test-Bestellbestätigung steht und das Blatt „Kaufgrund“ angelegt ist.",
+    "f": "Shopify die Domain als authentifiziert zeigt oder die DNS-Einträge angelegt sind und die Prüfung für Mi 02.12. im Kalender steht.",
     "o": [
      {
       "n": "Shopify-Admin",
       "u": "https://admin.shopify.com",
-      "h": "Einstellungen → Benachrichtigungen"
+      "h": "Einstellungen → Benachrichtigungen → Absender-E-Mail (vor Ort prüfen)"
      },
      {
-      "n": "Tally",
-      "u": "https://tally.so",
-      "h": "nur falls Formular statt Antwort-Mail; Preise auf tally.so prüfen"
+      "n": "Anbieter deiner Domain",
+      "h": "DNS-Verwaltung, Login aus deinen Unterlagen"
      }
     ]
    },
    {
     "c": "C",
-    "t": "Countdown-Sticker „Do 19:00“ in die Story",
-    "m": 5,
-    "s": [
-     "Instagram → Story → Foto vom PP-Sample → Countdown-Sticker „Pre-order · Thu 19:00“, Ende 14.01., 19:00.",
-     "Darunter Link-Sticker auf die Warteliste und die Zeile „The list gets in at 18:00.“",
-     "Story in die Highlights „Drop“ legen, damit sie bis Do sichtbar bleibt."
-    ],
-    "f": "die Story mit Countdown und Link-Sticker online und im Highlight ist.",
-    "o": [
-     {
-      "n": "Instagram",
-      "u": "https://www.instagram.com"
-     }
-    ]
-   },
-   {
-    "c": "C",
-    "t": "18:00 · V049 posten: BUILD „Donnerstag, 19 Uhr“",
+    "t": "18:00 · V056 posten: ORIGIN „Links die Ernte“ (sonst V110)",
     "m": 20,
     "s": [
-     "17:55 W18/final/V049_final.mp4 in TikTok hochladen (Business-Konto), Musik nur aus der Commercial Music Library leise oder keine, Caption unten.",
-     "18:00 posten, gleich danach als Reel auf Instagram und als Short auf YouTube.",
-     "Reel in die Story mit Link-Sticker auf die Warteliste.",
-     "18:00–18:15 Kommentare beantworten. Jede Kaufabsicht mit Größe ins Blatt „Die ersten 35“."
+     "Bedingung prüfen: Gate G7 in den letzten 2 Wochen nicht ausgelöst. Ist es ausgelöst, gilt „kein Ernte-Bild“: Reserve V110 (Achtstern-Karussell, 4 Slides) posten, Datei W18/final/V110.",
+     "Drei Ähren, nie „fünf“. Die Goldfäden einmal in Bewegung zeigen. Kein roter Hintergrund, kein Erntewerkzeug als Requisite.",
+     "17:55 hochladen (TikTok Business-Konto, Musik nur Commercial Music Library), Caption unten. Bei V110 die Caption aus dem Kasten „Reserve“ im Schritt darunter.",
+     "Reserve-Caption V110: „The eight-point star stands for the sun. Mine: 27 × 27 stitches. Link in bio: join the list. #crossstitch #folkembroidery #embroidery #novalifetimetravel“",
+     "18:00 posten, gleich danach Reel auf Instagram und Short auf YouTube, Reel in die Story mit Link-Sticker.",
+     "15 Min. Kommentare: „Sowjet“, „Wappen“, „Holodomor“ danken, zählen (Blatt „Content“, Gate G7), nie löschen."
     ],
-    "f": "V049 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
+    "f": "V056 oder ersatzweise V110 auf allen drei Plattformen online ist und die Bedingung im Blatt „Content“ vermerkt ist.",
     "v": {
-     "id": "V049",
-     "slot": "BUILD",
-     "dauer": "20–25 s",
+     "id": "V056",
+     "slot": "ORIGIN",
+     "dauer": "12–20 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Day 92: three days until pre-order. Here's the plan.",
-     "hook_de": "Tag 92: Drei Tage bis zur Vorbestellung. So läuft es.",
+     "hook_en": "Why the harvest sits on my back pocket.",
+     "hook_de": "Warum die Ernte auf meiner Gesäßtasche sitzt.",
      "shots": [
-      "Ablauf auf Papier schreiben: „18:00 the list · 19:00 everyone · 19:00 live“",
-      "Handy mit Shop-Vorschau (Entwurf)",
-      "Du in die Kamera, ein Satz: „See you Thursday.“"
+      "Makro linke Gesäßtasche im Streiflicht: drei Ähren auf dem roten Band, Hose auf Bügel",
+      "Finger fährt die Ähren entlang, dann schwingen die Goldfäden",
+      "Text im Bild: „left: the harvest“"
      ],
-     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
-     "ton": "O-Ton mit Untertiteln, Musik nur leise aus der Business-Bibliothek",
-     "text": "Hook EN in den ersten 2 s, Untertitel, Endkarte „14.01. · 18:00 list · 19:00 all“",
+     "ort": "Wohnung · weiße Wand oder Tür, Hose auf Bügel, Streiflicht vom Fenster",
+     "ton": "O-Ton (deine Stimme) + Untertitel. Musik nur leise aus der Business-Bibliothek der jeweiligen App",
+     "text": "0–2 s Hook EN, Untertitel, „left: the harvest“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Day 92. Thursday: the list gets in at 18:00, everyone at 19:00. I go live and answer size questions. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
-     "check": "Ablauf passt zu den Mails (18:00 Liste, 19:00 alle), CTA bis 13.01., nie „authentisch“."
+     "caption": "Left back pocket: three wheat ears on a red band, nine gold threads below, set by hand after the wash. Right side the pattern, left side the harvest. Link in bio: join the list. #crossstitch #folkembroidery #embroidereddenim #denim #novalifetimetravel",
+     "check": "Nur ohne G7 in den letzten 2 Wochen; drei Ähren, nie „fünf“; kein roter Hintergrund; kein Erntewerkzeug im Bild; Bedeutung nur mit Beleg."
     },
     "o": [
      {
       "n": "TikTok",
-      "u": "https://www.tiktok.com"
+      "u": "https://www.tiktok.com",
+      "h": "Business-Konto, Commercial Music Library"
      },
      {
       "n": "Instagram",
-      "u": "https://www.instagram.com"
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
      },
      {
       "n": "YouTube",
-      "u": "https://www.youtube.com"
+      "u": "https://www.youtube.com",
+      "h": "Short"
+     },
+     {
+      "n": "Google Sheets · „Time Travel Tracking“",
+      "u": "https://sheets.google.com",
+      "h": "Blatt „Content“, G7-Zähler"
      }
     ]
    }
   ],
   "2027-01-12": [
    {
+    "c": "A",
+    "t": "19:00 · Website Schritt 2: Theme-Kopie, Git, GitHub",
+    "m": 45,
+    "s": [
+     "Terminal im Ordner ~/Claude/Novalife/website: shopify theme list --store DEIN-SHOP (DEIN-SHOP = Teil vor .myshopify.com). Beim ersten Mal öffnet sich der Browser zum Einloggen. ID des Themes mit der Rolle „live“ notieren.",
+     "shopify theme duplicate --theme <ID> --name „TT Story“ --store DEIN-SHOP. Meldet Shopify „Maximum number of themes reached“: alte Test-Themes im Admin unter Onlineshop → Themes löschen (Höchstzahl ungeprüft).",
+     "mkdir tt-theme, hineinwechseln, shopify theme pull --theme „TT Story“ --store DEIN-SHOP.",
+     "git init, git add -A, git commit -m „Ausgangsstand TT Story“.",
+     "claude starten und den Prompt unten geben. Vor jedem Push fragt Claude Code dich.",
+     "Notieren, welches Theme du hast (Dawn, Horizon oder ein anderes)."
+    ],
+    "f": "der erste Commit in einem privaten GitHub-Repo „novalife-tt-theme“ liegt und du weißt, welches Theme du hast.",
+    "p": "Projekt Time Travel, Docket W8, Website Schritt 2. Dieser Ordner ist eine Kopie meines Shopify-Themes. In Shopify heißt sie „TT Story“ und ist NICHT veröffentlicht.\n1. Lies config/settings_schema.json und sag mir: Welches Theme ist das (Name, Version)?\n2. Lege eine .gitignore an mit: node_modules/, .DS_Store, .env, *.log.\n3. Lege eine .shopifyignore an, die CLAUDE.md, docs/ und tools/ vom Hochladen zu Shopify ausschließt.\n4. Hilf mir, dieses Repo als PRIVATES GitHub-Repo „novalife-tt-theme“ zu sichern. Erklär jeden Schritt in einem Satz, bevor du ihn ausführst, und frag mich vor jedem Push.\nLade nichts zu Shopify hoch. Commit am Ende: „gitignore und shopifyignore“.",
+    "o": [
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Themes"
+     },
+     {
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "privates Repo „novalife-tt-theme“"
+     },
+     {
+      "n": "Shopify CLI (npm)",
+      "u": "https://registry.npmjs.org/@shopify/cli",
+      "h": "Node ≥ 22.12.0"
+     }
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Website Schritt 3: CLAUDE.md mit deinen Regeln",
+    "m": 30,
+    "s": [
+     "Anhang A aus website.md als CLAUDE.md in den Ordner tt-theme kopieren (TextEdit → Format → In reinen Text umwandeln, „Als reinen Text sichern“).",
+     "DEIN-SHOP und DEINE-DOMAIN ersetzen. Die Entscheidungen von heute (Sprache, Wortliste) in die Sprachregeln übernehmen.",
+     "claude starten, mit /context prüfen, ob CLAUDE.md geladen ist.",
+     "Prompt unten geben, Zusammenfassung lesen: Fehlt eine Regel (kein Mockup bis 03.12., nie „authentisch“), CLAUDE.md ergänzen.",
+     "Commit „Regeln und Termine“."
+    ],
+    "f": "Claude Code die Regeln richtig in 8 Punkten zusammenfasst, docs/TERMINE.md existiert und der Commit gemacht ist.",
+    "p": "Projekt Time Travel, Docket W8, Website Schritt 3. Lies CLAUDE.md. Fasse mir die harten Regeln in 8 kurzen Punkten zusammen, damit ich sehe, dass du sie verstanden hast.\nDann lege docs/TERMINE.md an: die Zustandstabelle aus CLAUDE.md, dazu für jeden Zustand einen Test-Link mit ?t= (30 Sekunden vor der Grenze) und einen mit ?t= und ?key=.\nCommit: „Regeln und Termine“.",
+    "o": [
+     {
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
+     }
+    ]
+   }
+  ],
+  "2027-01-13": [
+   {
+    "c": "A",
+    "t": "19:00 · Website Schritt 4: Zeit-Modul und Countdown",
+    "m": 60,
+    "s": [
+     "Terminal im Ordner tt-theme, claude starten, Prompt unten geben.",
+     "In einem zweiten Terminal-Fenster: shopify theme dev --store DEIN-SHOP. Den Vorschau-Link am Handy öffnen.",
+     "Testen mit ?t=2027-01-14T18:59:30+01:00: nach 30 Sekunden muss „Vorbestellung offen“ erscheinen (nur mit tt_testmodus an).",
+     "Die weiteren ?t=-Links aus docs/TERMINE.md durchklicken.",
+     "„läuft“ schreiben, Claude Code committet. Push nach GitHub bestätigen."
+    ],
+    "f": "der Countdown am Handy bis Mo 01.02., 19:00 läuft und der ?t=-Test auf „Vorbestellung offen“ springt.",
+    "p": "Projekt Time Travel, Docket W9, Website Schritt 4. Baue das Zeit-Modul für die Drop-Seite. Halte dich an CLAUDE.md.\n1. config/settings_schema.json: neue Gruppe „Time Travel“ mit allen Einstellungen aus CLAUDE.md, Abschnitt „Theme-Einstellungen“ (Zeiten als text mit Offset, tt_testmodus als checkbox, Produkte als product, Kollektion als collection, Zahlen als number). Werte aus der Termin-Tabelle als Standard.\n2. assets/tt-clock.js ohne Bibliotheken: Serverzeit über fetch('/cart.js', {cache: 'no-store'}), Header „Date“ plus „Age“, Abstand zur Geräteuhr merken, alle 5 Minuten und bei visibilitychange neu, sonst Geräteuhr und intern markieren. ?t= nur bei tt_testmodus. Zustände WARTELISTE, VORBESTELLUNG, ZWISCHENZEIT, SCHLUESSEL (nur mit ?key= gleich tt_schluessel), LIVE, AUSVERKAUFT. Ereignis „tt:state“ bei jedem Wechsel, „tt:tick“ jede Sekunde. ?key= im sessionStorage (try/catch).\n3. snippets/tt-countdown.liquid: festes Zieldatum als Text in <time datetime>, JavaScript ersetzt es durch „Noch 12 T 04 Std 31 Min 09 Sek“; Screenreader nur minütlich (aria-live=\"polite\").\n4. Eine erste sections/tt-hero.liquid nur mit dem Countdown, oben in templates/index.json.\nBenutze nie Liquid 'now' für Zeitentscheidungen. Erklär mir danach, wie ich die Vorschau aufs Handy hole und welche ?t=-Links aus docs/TERMINE.md ich teste. Commit, wenn ich „läuft“ schreibe.",
+    "o": [
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Themes → „TT Story“ (unveröffentlicht)"
+     },
+     {
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
+     }
+    ]
+   },
+   {
+    "c": "A",
+    "t": "Versand im Shop einrichten: Deutschland, EU nur bei englischen Hooks",
+    "m": 30,
+    "s": [
+     "Shopify → Einstellungen → Versand und Zustellung → Versandprofil: Zone Deutschland anlegen.",
+     "EU nur, wenn du am 07.11. bei englischen Hooks geblieben bist. Dann die OSS-Antwort vom Steuerberater (13.10.) umsetzen. Bei deutschen Hooks: nur Versand nach DE bis zum Drop.",
+     "Gewicht je Paket 1,0 kg ansetzen (Jeans ca. 0,7 kg plus Karton). Echte Portokosten im DHL-Geschäftskundenportal nachsehen.",
+     "Kundenpreis: Empfehlung 4,90 € in Deutschland (aus Rev. 5.3), EU nach DHL-Tarif aufgerundet. Den Lieferzeit-Satz noch nicht einsetzen, der kommt am Do 21.01.",
+     "Testbestellung kommt später. Heute nur speichern und Vorschau prüfen."
+    ],
+    "f": "die Versandzone(n) mit Preis gespeichert sind und die Wahl DE oder DE + EU zur Entscheidung vom 07.11. passt.",
+    "o": [
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Einstellungen → Versand und Zustellung"
+     }
+    ]
+   },
+   {
     "c": "C",
-    "t": "18:00 · V050 posten: ORIGIN „Vom Wandteppich auf den Zipper“",
+    "t": "19:00 · V057 posten: REACH „Eine Hand“",
     "m": 20,
     "s": [
-     "Wegen der Preview um 18:30: Video schon mittags in TikTok und Instagram vorbereiten oder für 18:00 planen (Planen-Funktion der App, vor Ort prüfen).",
-     "Caption unten. Der Teppich ist nur Familienerinnerung, kein Land, kein „sowjetisch“.",
-     "18:00 live, Reel und Short, Story mit Link-Sticker auf die Warteliste.",
-     "Kommentare beantwortest du heute nach der Preview ab 20:00, 15 Minuten. Bei „Ist das russisch?“ nur die Standardantwort."
+     "18:55 Datei W18/final/V057_final.mp4 in TikTok hochladen (Business-Konto). Originalton, keine Musik oder sehr leise aus der Commercial Music Library. Caption unten.",
+     "19:00 posten. Gleich danach Reel auf Instagram, Short auf YouTube. Reel in die Story mit Link-Sticker auf die Vorbestellung.",
+     "In der Caption steht „Demonstration on the sample“: Du hast den Faden selbst gesetzt, das muss klar sein.",
+     "19:00–19:15 Kommentare beantworten (Regeln 9.3 Punkt 9)."
     ],
-    "f": "V050 um 18:00 online ist und die Kommentare nach der Preview beantwortet sind.",
+    "f": "V057 auf allen drei Plattformen online ist und als Demonstration gekennzeichnet ist.",
     "v": {
-     "id": "V050",
-     "slot": "ORIGIN",
-     "dauer": "15–25 s",
+     "id": "V057",
+     "slot": "REACH",
+     "dauer": "7–10 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "From a wall carpet to the back of a zipper.",
-     "hook_de": "Vom Wandteppich auf den Rücken eines Zippers.",
+     "hook_en": "Every gold thread is set by hand.",
+     "hook_de": "Jeder Goldfaden wird von Hand gesetzt.",
      "shots": [
-      "Teppich-Foto aus der Familie",
-      "Rasterzeichnung des Medaillons",
-      "Zipper-Muster aus Berlin, Rücken",
-      "Hand über das Medaillon"
+      "Demonstration am PP-Sample: Nadel zieht einen Goldfaden durch die Tasche",
+      "Knoten innen in der Tasche",
+      "Faden hängt, Loop zurück zum ersten Bild"
      ],
-     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite",
-     "ton": "O-Ton mit Untertiteln, Musik nur leise aus der Business-Bibliothek",
-     "text": "Hook EN in den ersten 2 s, ein Satz pro Bild",
+     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
+     "ton": "Originalton (Nadel, Stoff). Keine Musik oder sehr leise",
+     "text": "0–2 s Hook EN, klein unten „demonstration on the sample“",
      "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "The medallion of the wall carpet I grew up with, drawn on a grid, embroidered on the back of the zipper in Berlin. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #crossstitch #folkembroidery #embroidery #denim #novalifetimetravel",
-     "check": "Subjekt ist der Teppich, kein „sowjetisch“, keine Länder, kein roter Hintergrund, nie „authentisch“."
+     "caption": "Demonstration on the sample. Machine-embroidered on the cut panel, the threads are set by hand after the wash. Link in bio: join the list. #embroidereddenim #berlinfashion #denim #handmade #novalifetimetravel",
+     "check": "Als Demonstration gekennzeichnet, Wortliste („maschinengestickt auf dem Zuschnitt, Fäden von Hand“), CTA der Phase."
     },
     "o": [
      {
@@ -201,223 +272,67 @@
      },
      {
       "n": "Instagram",
-      "u": "https://www.instagram.com"
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
      },
      {
       "n": "YouTube",
-      "u": "https://www.youtube.com"
-     }
-    ]
-   },
-   {
-    "c": "V",
-    "t": "18:30 · CREATOR-PREVIEW bis 20:00 (Ort vom 19.12.)",
-    "m": 90,
-    "s": [
-     "Mitnehmen: Proto, PP-Sample, Maßband, Größentabelle ausgedruckt, Zettel mit den 5 Links ?ref=c-[name], Briefing-Karten, Graukarte, Powerbank. Ort aus dem Blatt „Abende“ (fest seit 19.12.), 18:15 da sein.",
-     "18:30 Begrüßung, ein Satz zum Projekt: 100 nummerierte Jeans, entworfen in Berlin, Vorbestellung Do 19:00.",
-     "Jeder Creator legt seine Lieblingsjeans flach, du misst Bund, Hüfte, Oberschenkel, Innenbein und sagst die Novalife-Größe. Größe ins Blatt „Creator“.",
-     "Proto und PP anfassen lassen: Goldfäden, Patch-Schlaufe (Gürtel einmal durchziehen lassen), Kreuzstich-Band.",
-     "Abmachung wiederholen: 1 Clip + 1 Story, „Anzeige“ ganz vorn, eigener Link [DEINE-DOMAIN]/?utm_source=creator&ref=c-[name]. Posten frühestens Do 14.01., 19:00.",
-     "Jeder bekommt seine Größe vorgemerkt. Die 5 Paar für Creator sind Geschenke, Buchung wie vom Steuerberater am 13.10. gesagt.",
-     "Danach: Blatt „Creator“ je Person Größe, Link, Posttermin."
-    ],
-    "f": "5 Creator gemessen sind, jeder seinen ?ref=c-Link und die Abmachung hat und das Blatt „Creator“ vollständig ist.",
-    "o": [
-     {
-      "n": "Ort der Creator-Preview",
-      "a": "[Adresse aus Blatt „Abende“, fest seit 19.12.]"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blätter „Abende“ und „Creator“"
-     }
-    ]
-   }
-  ],
-  "2027-01-13": [
-   {
-    "c": "C",
-    "t": "E-Mail 2 „Morgen: 18:00 für die Liste, 19:00 für alle“",
-    "m": 10,
-    "s": [
-     "Shopify-Admin → Marketing → Shopify Email: E-Mail 2 an alle Abonnenten. Betreff: „Morgen: 18:00 für die Liste, 19:00 für alle“.",
-     "Text mit dem Prompt unten. Ein Knopf mit [DEINE-DOMAIN]/?utm_source=email&utm_medium=newsletter&utm_campaign=tt-0113.",
-     "Testmail an dich, Links klicken, dann für heute 18:00 planen.",
-     "Gleich danach die E-Mail für morgen 18:00 („Die Liste kauft zuerst“) fertig machen und für Do 14.01., 18:00 planen."
-    ],
-    "f": "E-Mail 2 für heute 18:00 und die Mail „Die Liste kauft zuerst“ für Do 18:00 geplant sind.",
-    "p": "Projekt Time Travel, Docket W18, Mi 13.01. Schreib mir zwei kurze Mails an meine Warteliste (Deutsch, englische Kurzfassung darunter, je höchstens 90 Wörter). Mail 2 heute 18:00: „Morgen: 18:00 für die Liste, 19:00 für alle“. Mail 3 morgen 18:00: „Die Liste kauft zuerst“, Link offen ab jetzt, 35 Paar. Beide: Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €, Lieferung bis spätestens 30.06.2027, geplant Anfang Juni, Stücknummer nach Bestelldatum, Mess-Abend 1 Sa 16.01. [Ort]. Kein Streichpreis, nie „authentisch“. Je 2 Betreffzeilen.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Marketing → Shopify Email (Pfad vor Ort prüfen)"
-     },
-     {
-      "n": "Claude · Projekt „novalife time travel“",
-      "u": "https://claude.ai"
-     }
-    ]
-   },
-   {
-    "c": "V",
-    "t": "Persönliche Nachricht an jede Zusage und jeden Reservierer",
-    "m": 30,
-    "s": [
-     "Blatt „Die ersten 35“ (Spalte „Zusage“) und die Liste der Reservierer aus Shopify öffnen.",
-     "Jedem einzeln im Kanal, über den ihr schreibt: „Morgen um 17:55 schicke ich dir den Link, deine Größe [Größe] ist vorgemerkt. Ab 18:00 kannst du bestellen, bevor es um 19:00 öffentlich wird.“",
-     "Keine Massennachricht, Name in die erste Zeile.",
-     "Im Blatt: angeschrieben am 13.01. Liste für morgen 17:55 vorbereiten (Kontakte als Favoriten, Text kopierbereit)."
-    ],
-    "f": "jede Zusage und jeder Reservierer heute eine persönliche Nachricht hat und die 17:55-Liste fertig ist.",
-    "o": [
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Die ersten 35“"
-     },
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Kunden mit Reservierung"
-     }
-    ]
-   },
-   {
-    "c": "D",
-    "t": "Gate: Reservierung schließen · Handheber ≥ 40 · Liste über 380",
-    "m": 5,
-    "s": [
-     "Reservierung heute Abend schließen: Formular „Platz in der ersten Stunde sichern“ ausblenden bzw. Produkt auf Entwurf.",
-     "Handheber zählen (Zusagen plus Reservierungen, ohne Doppelte). ≥ 40: weiter.",
-     "Unter 20 Handheber: Mess-Abend 16.01. als Hauptereignis bewerben: Story heute und morgen, Mail-Absatz in Mail 3, DM an alle „Vielleicht“ mit Einladung.",
-     "Liste über Alarm 380: weiter. Darunter: G1-Maßnahmen (Netz-Runde, „Bring 3“-Story).",
-     "Zahlen ins Zahlen-Cockpit."
-    ],
-    "f": "die Reservierung geschlossen ist, die Handheber-Zahl im Cockpit steht und bei unter 20 die Bewerbung des Mess-Abends läuft.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com"
-     },
-     {
-      "n": "Docket · Zahlen-Cockpit"
-     }
-    ]
-   },
-   {
-    "c": "N",
-    "t": "Regel ab morgen: Stufe 2 geht live, sobald Nr. 035 verkauft ist (Entwurf vom 14.12. aktivieren, Mail an alle ohne Kauf, Story). Spätestens So 23.05., 20:00."
-   },
-   {
-    "c": "C",
-    "t": "19:00 · V051 posten: REACH „Morgen“",
-    "m": 20,
-    "s": [
-     "18:55 W18/final/V051_final.mp4 in TikTok hochladen, Trend-Sound aus der Commercial Music Library (Creative Center, Region DE, für Business freigegeben).",
-     "19:00 posten, Reel mit Musik aus der Business-Bibliothek der App, Short.",
-     "Story mit Link-Sticker auf die Warteliste.",
-     "19:00–19:15 Kommentare beantworten."
-    ],
-    "f": "V051 auf allen drei Plattformen online ist.",
-    "v": {
-     "id": "V051",
-     "slot": "REACH",
-     "dauer": "6–9 s",
-     "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Tomorrow, 19:00. 35 pairs at €149.",
-     "hook_de": "Morgen, 19 Uhr. 35 Paar zu 149 €.",
-     "shots": [
-      "Makro Goldfäden, langsam",
-      "Hangtag 001 in der Hand",
-      "Endframe: „tomorrow 19:00“"
-     ],
-     "ort": "Archiv-Clips (Ordner content/archiv) und Fensterbank-Makros vom Batch",
-     "ton": "Trend-Sound aus der Commercial Music Library bzw. Business-Bibliothek",
-     "text": "Hook EN, Endframe „tomorrow 19:00“",
-     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
-     "caption": "Tomorrow, 19:00. The list gets in at 18:00. Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. #embroidereddenim #berlinfashion #denim #crossstitch #novalifetimetravel",
-     "check": "Loopt, kein Streichpreis, CTA bis 13.01., Musik nur aus der Business-Bibliothek."
-    },
-    "o": [
-     {
-      "n": "TikTok",
-      "u": "https://www.tiktok.com",
-      "h": "Commercial Music Library"
-     },
-     {
-      "n": "Instagram",
-      "u": "https://www.instagram.com"
-     },
-     {
-      "n": "YouTube",
-      "u": "https://www.youtube.com"
+      "u": "https://www.youtube.com",
+      "h": "Short"
      }
     ]
    }
   ],
   "2027-01-14": [
    {
-    "c": "V",
-    "t": "17:50 · VORBESTELLUNG: 18:00 Liste, 19:00 öffentlich, Live, V052",
-    "m": 105,
+    "c": "A",
+    "t": "19:00 · Website Schritt 5: Wartelisten-Formular mit Größen- und Quellen-Tags",
+    "m": 60,
     "s": [
-     "17:50 Vorbestell-Produkt auf „Aktiv“ (oder Zeitsteuerung vom Mo geprüft), Bestand 35 über alle Größen, Stufe-2-Produkt bleibt Entwurf.",
-     "17:55 DM an alle Reservierer, Zusagen und alle, die am Sa „Ja“ getippt haben: „Hier ist dein Link: [Link]. Deine Größe [Größe] ist da.“",
-     "17:58 Link im privaten Browserfenster testen: Seite, Preis, Knopf, Checkout bis zur Zahlungsseite.",
-     "18:00 geht die geplante Mail „Die Liste kauft zuerst“ an die ganze Liste. In Shopify Email prüfen, dass sie raus ist.",
-     "18:55 Broadcast im Instagram-Kanal: „19:00 öffnet es für alle. Link in Bio.“",
-     "19:00 öffentlich: V052 posten (TikTok, Reel, Short), Story mit Link-Sticker auf die Vorbestellung, Bio-Link prüfen. Live auf Instagram oder TikTok 19:00–19:30 nur für Größenfragen: Maßband und PP-Sample neben dir.",
-     "Bis 21:00 jede Frage in 30 Minuten beantworten. 21:00 Story mit der echten Zahl „X von 35“.",
-     "22:00 Bestand je Größe prüfen: Ist eine Größe leer und eine andere voll, Stücke umschichten, Summe bleibt 35. Ins Blatt „Pre-Order“."
+     "claude im Ordner tt-theme starten, Prompt unten geben (Prompt aus website.md, ergänzt).",
+     "shopify theme dev, Vorschau am Handy. Zweimal mit einer neuen Testadresse eintragen: ohne Größe, dann mit Größe und ?utm_source=instagram&ref=netz.",
+     "Bestätigungs-Mail anklicken. Shopify → Kunden → Testadresse: abonniert? Tags tt-warteliste, tt-story, src-instagram, gr-w32, ref-netz, code-…? Notieren, ob mehrere Tags gehen und ob eine bestehende Adresse neue Tags bekommt.",
+     "Danke-Text mit persönlichem Link und WhatsApp-Knopf am Handy antippen.",
+     "Am selben Tag: Absatz zur Größenangabe in die Datenschutzerklärung (Shopify → Einstellungen → Richtlinien oder dein Rechtstexte-Generator; Text von Claude, keine Rechtsberatung). Keine Herkunftsfrage im Formular.",
+     "„passt“ schreiben, Commit."
     ],
-    "f": "die Vorbestellung um 18:00 für die Liste und um 19:00 für alle offen war, V052 online ist, das Live gelaufen ist und um 22:00 der Bestand je Größe geprüft ist.",
-    "v": {
-     "id": "V052",
-     "slot": "BUILD",
-     "dauer": "10–15 s + Live 30 min",
-     "plattform": "TikTok + Reels + Shorts, danach Live",
-     "hook_en": "Pre-order is open. 35 pairs. €149.",
-     "hook_de": "Die Vorbestellung ist offen. 35 Paar. 149 €.",
-     "shots": [
-      "Handy zeigt den Shop live (heute 19:00 aufnehmen, 3 s)",
-      "Du, ein Satz: „It's open.“",
-      "Fünf Sekunden Detail-Montage: Goldfäden, Patch, Kreuzstich-Band",
-      "„link in bio“"
-     ],
-     "ort": "Wohnung · Schreibtisch, Draufsicht, Fensterlicht von der Seite (Shop-Clip heute um 19:00)",
-     "ton": "O-Ton mit Untertiteln, Musik nur leise aus der Business-Bibliothek",
-     "text": "Hook EN, Endkarte „link in bio · [Y] of 35 left“",
-     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35.)",
-     "caption": "Open now: 35 pairs, numbered in order of pre-order. Delivery by 30.06.2027 at the latest, planned early June. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #buildinpublic #clothingbrand #denim #embroidereddenim #novalifetimetravel",
-     "check": "Kein „€149 instead of €169“, Liefersatz exakt, [Y] nur mit echter Zahl, nie „authentisch“."
-    },
+    "f": "die Testadresse in Shopify abonniert ist mit Ort-, Quellen-, Größen- und code-Tags und der Absatz zur Größenangabe in der Datenschutzerklärung steht.",
+    "p": "Projekt Time Travel, Docket W9, Website Schritt 5. Baue snippets/tt-warteliste-form.liquid und binde es in sections/tt-hero.liquid unter dem Countdown ein. Halte dich an CLAUDE.md.\n- {% form 'customer', return_to: 'back' %} wie in Dawns sections/newsletter.liquid: verstecktes Feld contact[tags], Eingabe contact[email] (type=\"email\", autocomplete=\"email\", required, sichtbares <label>).\n- Freiwillige Auswahl „Deine Größe“: kleiner als W30, W30, W32, W34, W36, W38, größer als W38, „weiß ich noch nicht“ (Tags gr-klein, gr-w30 … gr-w38, gr-gross).\n- Parameter „ort“ (tt-story, tt-huette, tt-feld, tt-drop2), Standard tt-story.\n- assets/tt-story.js setzt vor dem Absenden contact[tags] auf „tt-warteliste,<ort>,src-<quelle>,gr-<groesse>“, bei ?ref= zusätzlich „ref-<code>“. Quelle aus utm_source (instagram, tiktok, qr, email), sonst „direkt“. Schema vom 10.10.: utm_source = Kanal, ?ref= = Person, Abend, Creator. Nur Kleinbuchstaben, Ziffern, Bindestrich, max. 30 Zeichen je Tag.\n- Aus der Dawn-Lösung vom 15.10. übernehmen: eigener Code code-[6 Zeichen] je Anmeldung, Danke-Text mit persönlichem Link (?ref=code-…) und WhatsApp-Knopf zum Teilen.\n- Formular normal absenden, NICHT per fetch (hCaptcha möglich). form.posted_successfully?: „Fast geschafft. Bestätige deine Adresse in der E-Mail, die gerade kommt.“ Bei form.errors die Meldung von Shopify.\n- Einstellung datenschutz_text (richtext) unter dem Knopf. Knopf „Auf die Liste“, mindestens 44 px hoch.\nSag mir danach, wo ich in Shopify die Tags sehe. Ich teste erst mit EINEM Tag, dann mit allen. Speichert Shopify nur einen Tag: zusammengesetzter Tag „tt-<ort>-<quelle>-<groesse>“. Schreib mir zum Schluss einen kurzen Absatz für die Datenschutzerklärung zur freiwilligen Größenangabe (Zweck, Speicherort Shopify, Löschung), als Entwurf ohne Rechtsberatung. Commit nach meinem „passt“.",
     "o": [
      {
       "n": "Shopify-Admin",
       "u": "https://admin.shopify.com",
-      "h": "Produkte, Bestand, Shopify Email"
+      "h": "Kunden (Tags), Einstellungen → Richtlinien"
      },
      {
-      "n": "TikTok",
-      "u": "https://www.tiktok.com",
-      "h": "Post und Live"
+      "n": "Dawn · newsletter.liquid",
+      "u": "https://github.com/Shopify/dawn/blob/main/sections/newsletter.liquid",
+      "h": "Vorbild für das Formular"
+     }
+    ]
+   },
+   {
+    "c": "A",
+    "t": "LUCID: Verpackungsregister spätestens heute registrieren",
+    "m": 20,
+    "s": [
+     "Verpackungsregister öffnen und als Hersteller registrieren, bevor das erste Paket rausgeht (das Proto-Paket kommt zu dir, aber ab Januar verschickst du).",
+     "Bereitlegen: Name, Anschrift, Gewerbeanmeldung, Steuernummer, Marke „Novalife“, Mail.",
+     "Registrierungsnummer notieren und ins Blatt „Recht“. Die Systembeteiligung (Verpackungslizenz) kommt später am Di 09.03.",
+     "Unklar, welche Verpackungsarten du angeben musst: Prompt an Claude in einem Chat mit Websuche, Ergebnis selbst auf der Seite des Registers prüfen."
+    ],
+    "f": "die LUCID-Registrierungsnummer im Blatt „Recht“ steht.",
+    "p": "Projekt Time Travel, Docket W18, Do 14.01. Ich registriere mich heute bei LUCID (Verpackungsregister). Ich verschicke ab Januar Jeans in Versandkartons mit Seidenpapier, rund 100 Pakete. Erklär mir mit Websuche in 6 Punkten, welche Angaben die Registrierung verlangt und was danach bis zum ersten Versand noch fehlt (Systembeteiligung). Markiere, was du nicht auf der offiziellen Seite gefunden hast, als ungeprüft.",
+    "o": [
+     {
+      "n": "Verpackungsregister (LUCID)",
+      "u": "https://www.verpackungsregister.org",
+      "h": "Registrierung vor dem ersten Paket"
      },
      {
-      "n": "Instagram",
-      "u": "https://www.instagram.com",
-      "h": "Reel, Story, Broadcast, Live"
-     },
-     {
-      "n": "YouTube",
-      "u": "https://www.youtube.com"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Pre-Order“"
+      "n": "Claude · Projekt „novalife time travel“",
+      "u": "https://claude.ai",
+      "h": "Chat mit Websuche"
      }
     ]
    }
@@ -425,103 +340,28 @@
   "2027-01-15": [
    {
     "c": "A",
-    "t": "Bestellungen ins Blatt „Pre-Order“",
-    "m": 15,
+    "t": "Rechtstexte: AGB, Widerruf, Versand, Zahlung mit Abmahnschutz + Hotline",
+    "m": 75,
     "s": [
-     "Shopify-Admin → Bestellungen, Filter auf das Vorbestell-Produkt.",
-     "Je Bestellung: Datum, Stücknummer, Größe, Betrag, Land, Quellen-Tag (utm/ref). Kein Name im Content.",
-     "Oben ins Blatt: Summe bezahlt, Stand „X von 35“, Bestand je Größe.",
-     "Antworten auf die Kaufgrund-Frage ins Blatt „Kaufgrund“."
+     "Rechtstexte-Service mit Abmahnschutz wählen (z. B. IT-Recht Kanzlei oder Händlerbund, Websites selbst öffnen und prüfen). Preis vorher vergleichen. Über 80 € in die Zeile „ungeplant“ im Blatt „Kasse“.",
+     "Texte erzeugen: AGB, Widerrufsbelehrung mit Muster-Widerrufsformular, Versand- und Zahlungsinformationen. In Shopify → Einstellungen → Richtlinien einsetzen und im Footer verlinken. Bei englischen Hooks (Entscheidung 07.11.) die englischen Rechtstexte mitbuchen.",
+     "Hotline anrufen, Fragen vorher aufschreiben: 1 Creator-Kennzeichnung bei geschenkten Paaren · 2 Geld-zurück-Regel · 3 „Platz in der ersten Stunde sichern“ (kostenlos und mit 10 €) · 4 CTA „Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.“",
+     "Weiter: 5 Preisangabe „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“ ohne Streichpreis (PAngV § 11, ungeprüft) · 6 Widerruf bei Zipper und Polo, die erst nach Bestellung bestickt werden · 7 Bin ich bei bestickten Blanks Hersteller? · 8 der Preissatz in V021 („Pre-order price €149 from 01.02. until 23.05.“).",
+     "Antworten wörtlich mitschreiben, ins Blatt „Recht“. Es gilt, was die Hotline sagt, nicht Claude. Keine Rechtsberatung durch Claude.",
+     "Danach den Prompt unten an Claude, damit CTA, Captions und Shop-Texte angepasst werden."
     ],
-    "f": "alle Bestellungen bis heute im Blatt stehen und „X von 35“ oben aktuell ist.",
+    "f": "AGB, Widerruf, Versand- und Zahlungsinfos im Shop verlinkt sind und alle 8 Hotline-Antworten im Blatt „Recht“ stehen.",
+    "p": "Projekt Time Travel, Docket W18, Fr 15.01. Antworten der Rechtstexte-Hotline: 1 Creator-Kennzeichnung: [..] · 2 Geld-zurück-Regel: [..] · 3 „Platz in der ersten Stunde sichern“ A/B: [..] · 4 CTA „Die Liste kauft zuerst“: [..] · 5 Preisangabe ohne Streichpreis: [..] · 6 Widerruf Zipper/Polo: [..] · 7 Hersteller bei bestickten Blanks: [..] · 8 Preissatz V021: [..] · Kosten Service: [€].\nSag mir: Welche CTA-Zeilen in 9.3 ändern sich, ob V021 am Fr so raus darf, was das für die Reservierung am So 29.11. heißt und was im Shop noch fehlt.",
     "o": [
      {
       "n": "Shopify-Admin",
       "u": "https://admin.shopify.com",
-      "h": "Bestellungen"
+      "h": "Einstellungen → Richtlinien"
      },
      {
       "n": "Google Sheets · „Time Travel Tracking“",
       "u": "https://sheets.google.com",
-      "h": "Blätter „Pre-Order“ und „Kaufgrund“"
-     }
-    ]
-   },
-   {
-    "c": "A",
-    "t": "Bestand je Größe umschichten, morgens und abends (Summe 35)",
-    "m": 10,
-    "s": [
-     "Morgens 09:00: Produkt → Varianten → Bestand. Ist eine Größe leer und eine andere hat noch viele: ein bis zwei Stück verschieben.",
-     "Leitlinie: Gefragte Größen aus DMs und Mess-Notizen zuerst. Keine Größe darf die 149 € blockieren.",
-     "Abends 21:00 dasselbe. Summe bleibt 35. Jede Umschichtung mit Uhrzeit ins Blatt „Pre-Order“."
-    ],
-    "f": "morgens und abends geprüft wurde, die Summe 35 ist und jede Änderung im Blatt steht.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Produkte → Varianten → Bestand"
-     }
-    ]
-   },
-   {
-    "c": "V",
-    "t": "DM an alle Reservierer und Netz-Namen ohne Vorbestellung",
-    "m": 30,
-    "s": [
-     "Blatt „Pre-Order“ gegen die Blätter „Die ersten 35“, „Netz“ und die Reservierer abgleichen: Wer hat noch nicht bestellt?",
-     "Jedem einzeln: „Hey [Name], die Vorbestellung läuft seit gestern. In [Größe] sind noch [n] Paar da. Hier dein Link: [Link mit ?ref=netz]. Fragen zur Größe? Sa 16.01. ist Mess-Abend, [Ort].“",
-     "Nur echte Restzahlen nennen. Kein Druck, ein Nachfassen pro Person.",
-     "Im Blatt „Netz“: angeschrieben am 15.01."
-    ],
-    "f": "jeder Reservierer und Netz-Name ohne Bestellung eine persönliche DM hat.",
-    "o": [
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blätter „Netz“, „Die ersten 35“, „Pre-Order“"
-     },
-     {
-      "n": "Instagram",
-      "u": "https://www.instagram.com",
-      "h": "DMs"
-     }
-    ]
-   },
-   {
-    "c": "B",
-    "t": "Feld am Stadtrand für Shoot und „Das Feld wächst“ suchen",
-    "m": 30,
-    "s": [
-     "Google Maps, Satellitenansicht: Felder in S-Bahn-Nähe am Berliner Stadtrand. In Berlin gibt es Felder z. B. bei Lübars (ungeprüft). Zweite Option: Domäne Dahlem, Museumsbauernhof mit Feldern (ungeprüft, Fotoregeln prüfen).",
-     "Drei Kandidaten notieren: Lage, S-Bahn-Station, Fußweg, Blickrichtung zum Sonnenuntergang (mit einer Sonnen-App prüfen).",
-     "Landwirt bzw. Betrieb nur über den offiziellen Kontakt fragen (Website, Telefon im Impressum). Text mit dem Prompt unten.",
-     "Erlaubnis schriftlich: Drehen am Sa 06.03. und an den Countdown-Sonntagen, Feld nicht betreten, nur Fahrspuren, kein Team, Handy.",
-     "Ersatz: Tempelhofer Feld; kommerzielles Drehen braucht vermutlich eine Genehmigung des Betreibers (ungeprüft, prüfen).",
-     "Ins Blatt „Shoot“: Feld, Kontakt, angefragt am 15.01. Ziel: Feld bis Ende Januar fix."
-    ],
-    "f": "drei Kandidaten im Blatt stehen und mindestens eine Anfrage über den offiziellen Kontakt raus ist.",
-    "p": "Projekt Time Travel, Docket W18, Fr 15.01. Schreib mir eine kurze, höfliche Anfrage (Deutsch, höchstens 100 Wörter) an einen Landwirt am Berliner Stadtrand: Ich bin Ernest, kleine Denim-Marke aus Berlin, und möchte am Rand seines Felds mit dem Handy Fotos und kurze Videos drehen, am Sa 06.03.2027 und an einigen Sonntagen im Mai/Juni. Ich betrete das Feld nicht, nutze nur die Fahrspuren, kein Team, keine Technik außer dem Handy. Ich frage um schriftliche Erlaubnis und biete [Gegenleistung, z. B. Bilder, Nennung]. Ohne Floskeln.",
-    "o": [
-     {
-      "n": "Google Maps",
-      "u": "https://maps.google.com",
-      "h": "Satellitenansicht, Stadtrand mit S-Bahn"
-     },
-     {
-      "n": "Felder bei Lübars",
-      "h": "ungeprüft (berlin.md 4.2)"
-     },
-     {
-      "n": "Domäne Dahlem",
-      "a": "Dahlem, nahe MEK",
-      "h": "ungeprüft, Fotoregeln prüfen"
-     },
-     {
-      "n": "Tempelhofer Feld",
-      "a": "Tempelhof/Neukölln",
-      "h": "nur Ersatz, Genehmigung des Betreibers prüfen"
+      "h": "Blätter „Recht“ und „Kasse“"
      },
      {
       "n": "Claude · Projekt „novalife time travel“",
@@ -530,34 +370,57 @@
     ]
    },
    {
+    "c": "A",
+    "t": "Datenschutz-Endkontrolle (community.md 3.3), Double-Opt-in prüfen",
+    "m": 10,
+    "s": [
+     "Datenschutzerklärung (e-recht24 vom 07.10.) öffnen: Tally (13.10.), Quellen-Tags und Code (15.10.) und Größe (11.11.) stehen schon drin? Shopify Email mit Double-Opt-in und die Links zu deinen Kanälen erwähnt?",
+     "Double-Opt-in läuft: mit einer Testadresse eintragen, Bestätigungsmail kommt, erst danach zählt der Kunde. Testkunden löschen.",
+     "Keine Liste zu Meta hochladen. Keine Telefonnummern sammeln, WhatsApp nur als Kanal, nie als Gruppe.",
+     "Zettel für Fr ausdrucken: „Heute wird fotografiert. Sag Bescheid, wenn du nicht drauf willst.“"
+    ],
+    "f": "alle Punkte der Checkliste abgehakt sind und der Zettel für den Stick-Abend ausgedruckt ist.",
+    "o": [
+     {
+      "n": "Tally",
+      "u": "https://tally.so",
+      "h": "Formular vom 13.10."
+     },
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com"
+     }
+    ]
+   },
+   {
     "c": "C",
-    "t": "18:00 · V053 posten: DETAIL „Der Patch“",
+    "t": "18:00 · V058 posten: DETAIL „Die Schnittkante“ (nach 5 Wäschen)",
     "m": 20,
     "s": [
-     "Caption mit deinem echten Waschergebnis ausfüllen ([Ergebnis]) und mit der echten Restzahl [Y] aus dem Blatt „Pre-Order“.",
-     "17:55 in TikTok hochladen, Originalton, keine Musik oder sehr leise aus der Commercial Music Library.",
-     "18:00 posten, Reel und Short, Story mit Link-Sticker auf die Vorbestellung.",
-     "18:00–18:15 Kommentare beantworten. Lebensbaum nie „slawisch“ nennen, auch nicht in Antworten."
+     "17:55 Datei W18/final/V058_final.mp4 in TikTok hochladen (Business-Konto, ruhiger Track aus der Commercial Music Library unter dem Originalton). Caption unten.",
+     "Material aus der PP-Waschserie: Kante und Fäden nach 5 Wäschen. Im Text klein „after 5 washes“.",
+     "18:00 posten, danach Reel auf Instagram und Short auf YouTube, Reel in die Story mit Link-Sticker.",
+     "15 Min. Kommentare beantworten (Regeln 9.3 Punkt 9)."
     ],
-    "f": "V053 mit echtem Ergebnis und echter Restzahl online ist.",
+    "f": "V058 auf allen drei Plattformen online ist und die ersten Kommentare beantwortet sind.",
     "v": {
-     "id": "V053",
+     "id": "V058",
      "slot": "DETAIL",
-     "dauer": "10–15 s",
+     "dauer": "8–12 s",
      "plattform": "TikTok + Reels + Shorts",
-     "hook_en": "Three patch samples. One tree of life made it.",
-     "hook_de": "Drei Patch-Muster. Ein Lebensbaum hat es geschafft.",
+     "hook_en": "Raw hem, cut after the wash. Look.",
+     "hook_de": "Roher Saum, nach der Wäsche geschnitten. Schau.",
      "shots": [
-      "Drei Patch-Muster nebeneinander",
-      "Vorher/Nachher Waschtest 3 × 60 °C",
-      "Gewinner am Bund, Makro, langsamer Schwenk vom Stamm zu den Wurzeln"
+      "Makro Saum nach 5 Wäschen",
+      "Finger fährt die Kante entlang, die Fäden sind sichtbar",
+      "Gehen, der Saum bewegt sich"
      ],
-     "ort": "Wohnung · Fensterbank, Tageslicht von der Seite",
-     "ton": "Originalton (Stoff, Nadel), keine Musik oder sehr leise",
-     "text": "Hook EN in den ersten 2 s, „3 × 60 °C“",
-     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. (DE: Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35.)",
-     "caption": "I washed three patch samples three times at 60°C. [Ergebnis]. The winner sits on every waistband. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #embroidereddenim #crossstitch #denim #treeoflife #novalifetimetravel",
-     "check": "Echte Ergebnisse, nie „Slavic tree of life“, kein Streichpreis, [Y] nur echt."
+     "ort": "Berlin · Hinterhof oder Treppenhaus mit Fensterlicht (keine Sowjet- oder DDR-Monumentalkulisse, keine Flaggen im Bild)",
+     "ton": "Ruhiger Track aus der Business-Bibliothek der App, darunter Originalton",
+     "text": "0–2 s Hook EN, klein „after 5 washes“",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "No turn-up, no stitch. The hem is cut to length after the wash. This is the edge after 5 washes: the frays come from wearing. Link in bio: join the list. #rawhem #embroidereddenim #denim #novalifetimetravel",
+     "check": "Keine Sowjet-Kulisse, keine Streifen in verbotenen Farben, CTA der Phase."
     },
     "o": [
      {
@@ -566,11 +429,13 @@
      },
      {
       "n": "Instagram",
-      "u": "https://www.instagram.com"
+      "u": "https://www.instagram.com",
+      "h": "Reel und Story mit Link-Sticker"
      },
      {
       "n": "YouTube",
-      "u": "https://www.youtube.com"
+      "u": "https://www.youtube.com",
+      "h": "Short"
      }
     ]
    }
@@ -578,104 +443,28 @@
   "2027-01-16": [
    {
     "c": "A",
-    "t": "Bestand je Größe umschichten (morgens und vor dem Mess-Abend)",
-    "m": 5,
+    "t": "10:00 · Website Schritt 6: Startseite Stufe 1 „Prozess“",
+    "m": 90,
     "s": [
-     "09:00 und 17:30: Shopify → Produkt → Varianten → Bestand. Leere Größe bekommt Stück aus einer vollen, Summe 35.",
-     "Vor dem Mess-Abend besonders die Größen um W32 prüfen: Wer anprobiert, soll seine Größe vorfinden.",
-     "Jede Änderung ins Blatt „Pre-Order“."
+     "Vorher 15 Min.: 3 Papiertest-Fotos (Hochformat) und 1 Teppich-Foto in Shopify hochladen (Inhalt → Dateien). Teppich nur, wenn deine Familie zustimmt.",
+     "design/fine.py und front_band.svgfrag, front_coin.svgfrag, front_alatyr.svgfrag aus dem ZIP der Arbeitsdateien nach tt-theme/tools/motive/ kopieren (Dateinamen intern, nach außen heißt es Achtstern).",
+     "Abschnitt 4.2 aus website.md (K0, K1–K4, K8) nach tt-theme/docs/TEXTE-STUFE1.md kopieren, Sätze ändern, die nicht nach dir klingen. K3 nur mit echten Zahlen.",
+     "claude starten, Prompt unten. Kein fertiges Teil, kein Mockup bis 03.12.",
+     "shopify theme dev, Vorschau am Handy: Kopf, K1–K4, K8, Formular am Ende. Keine Jeans-Silhouette mit Motiven.",
+     "„passt“ schreiben, Commit."
     ],
-    "f": "beide Prüfungen gemacht sind und die Summe 35 ist.",
+    "f": "die Vorschau Kopf, K1–K4 und K8 ohne Mockup zeigt und am Handy gut aussieht.",
+    "p": "Projekt Time Travel, Docket W9, Website Schritt 6. Baue die Startseite Stufe 1 der Scroll-Story. Halte dich an CLAUDE.md, besonders an die Sprachregeln und „kein Mockup bis 03.12.“.\n1. sections/tt-kapitel.liquid: Kapitel mit Überschrift, Anker-ID und Blöcken „bild“ (Alt-Text Pflicht), „text“, „motiv“ (band, muenztasche, achtstern; SVG plus Karte mit Maß und Stichzahl; Rückseite „Bedeutung“ nur mit eingetragenem Text; Karte als <button aria-expanded>).\n2. Aus tools/motive/ eigenständige SVGs in assets/: tt-motiv-band.svg (gerader Streifen, 17 Stiche hoch), tt-motiv-muenztasche.svg (45 × 45), tt-motiv-achtstern.svg (27 × 27); je höchstens 10 KB, flach, NICHT auf eine Jeans-Silhouette gelegt.\n3. sections/tt-hero.liquid: „Time Travel“, „100 Jeans. Jede mit Nummer. Do 24.06.2027, 19:00.“, Countdown, Formular, Listenstand aus tt_liste_zahl und tt_liste_datum (ausblenden bei 0).\n4. snippets/tt-shop-button.liquid: fester Link oben rechts, mind. 44 × 44 px, ohne JavaScript „Auf die Liste“ → #liste.\n5. templates/index.json: tt-hero, K1 „Was hier entsteht“, K2 „Das Raster“, K3 „Die Suche“, K4 „Der Teppich“, K8 „Ehrliche Größen“, am Ende noch einmal das Formular. Texte aus docs/TEXTE-STUFE1.md, jeden Satz gegen die Sprachregeln prüfen und Treffer markieren.\n6. assets/tt-story.css: Palette aus CLAUDE.md, mobil zuerst, ab 320 px ohne waagerechtes Scrollen, Schalter „Bewegung aus“ (localStorage in try/catch).\nKeine Bibliotheken. Zeig mir die neuen Dateien mit Größe in KB. Commit nach meinem „passt“.",
     "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com"
-     }
-    ]
-   },
-   {
-    "c": "C",
-    "t": "12:00 · V054 Story: ASK „Zwischenstand 48 h“ (nur echte Zahl)",
-    "m": 10,
-    "s": [
-     "Echte Zahl aus dem Blatt „Pre-Order“ (bezahlte Vorbestellungen). Keine Rundung, keine Schätzung.",
-     "Frame 1: Story-Vorlage, Indigo-Fläche, „48 hours in: [X] of 35 pre-ordered.“",
-     "Frame 2: Link-Sticker auf die Vorbestellung, Zeile „Mess-Abend tonight 18:00, [Ort]“.",
-     "Reaktionen und DMs bis 13:00 beantworten."
-    ],
-    "f": "beide Frames mit echter Zahl online sind.",
-    "v": {
-     "id": "V054",
-     "slot": "ASK",
-     "dauer": "2 Story-Frames",
-     "plattform": "Instagram-Story (TikTok-Story optional)",
-     "hook_en": "48 hours in: [X] of 35 pre-ordered.",
-     "hook_de": "Nach 48 Stunden: [X] von 35 vorbestellt.",
-     "shots": [
-      "Frame 1: echte Zahl groß auf Indigo",
-      "Frame 2: Link-Sticker Vorbestellung, Hinweis Mess-Abend"
-     ],
-     "ort": "Story-Vorlage aus dem Batch",
-     "ton": "kein Ton (Story-Sticker)",
-     "text": "„48 hours in: [X] of 35 pre-ordered.“",
-     "cta": "Link-Sticker auf die Vorbestellung",
-     "caption": "(Story) 48 hours in: [X] of 35 pre-ordered. Link sticker: pre-order.",
-     "check": "Nur echte Zahl, kein roter Hintergrund."
-    },
-    "o": [
-     {
-      "n": "Instagram",
-      "u": "https://www.instagram.com"
-     }
-    ]
-   },
-   {
-    "c": "V",
-    "t": "18:00 · MESS-ABEND 1 bis 20:00 (Aufbau ab 17:40)",
-    "m": 110,
-    "s": [
-     "Mitnehmen: Sample W32 zum Anprobieren, PP-Sample, Proto, 2 Maßbänder, Größentabelle (Lieblingsjeans flach → Novalife-Größe) ausgedruckt, QR-Aufsteller mit [DEINE-DOMAIN]/?utm_source=qr&utm_medium=print&utm_campaign=tt&ref=mess1, Zettel und Stift, Powerbank, Spiegel falls nicht vor Ort.",
-     "17:40 Aufbau am Ort aus dem Blatt „Abende“: Messtisch, Spiegel, QR sichtbar am Eingang und am Tisch.",
-     "Ablauf je Gast: Lieblingsjeans flach messen (Bund, Hüfte, Oberschenkel, Innenbein) → Novalife-Größe sagen → Sample W32 anprobieren → vorbestellen am eigenen Handy über den QR.",
-     "Keine Kasse, kein Bargeld. Wer nicht am Handy zahlen will, bekommt den Link per DM.",
-     "Fragen zu Rückgabe oder Lieferung nur mit dem Text der Vorbestellseite beantworten. Liefersatz: „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni.“",
-     "Gäste und Größen ohne Namen auf einen Zettel, danach ins Blatt „Abende“: Gäste, Messungen, Vorbestellungen mit ref=mess1.",
-     "Fotos nur mit Erlaubnis der Gäste."
-    ],
-    "f": "der Abend gelaufen ist und Gäste, Messungen und Vorbestellungen mit ref=mess1 im Blatt „Abende“ stehen.",
-    "o": [
-     {
-      "n": "Ort Mess-Abend 1",
-      "a": "[Adresse aus Blatt „Abende“, fest seit 19.12.]"
-     },
-     {
-      "n": "Google Sheets · „Time Travel Tracking“",
-      "u": "https://sheets.google.com",
-      "h": "Blatt „Abende“"
-     },
      {
       "n": "Shopify-Admin",
       "u": "https://admin.shopify.com",
-      "h": "Bestellungen live mitverfolgen"
-     }
-    ]
-   },
-   {
-    "c": "V",
-    "plus": true,
-    "t": "Mess-Abend 1 bis 21:00 offen lassen",
-    "m": 60,
-    "s": [
-     "Nur wenn der Ort es erlaubt und noch Gäste kommen.",
-     "20:00 Story „Still here until 21:00“ mit Ort und Link-Sticker.",
-     "21:00 abbauen, Bestand je Größe prüfen."
-    ],
-    "f": "der Abend bis 21:00 lief oder du um 20:00 bewusst geschlossen hast.",
-    "o": [
+      "h": "Inhalt → Dateien"
+     },
      {
-      "n": "Instagram",
-      "u": "https://www.instagram.com",
-      "h": "Story"
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
      }
     ]
    }
@@ -683,36 +472,17 @@
   "2027-01-17": [
    {
     "c": "A",
-    "t": "Bestand je Größe ein letztes Mal umschichten (morgens)",
-    "m": 5,
-    "s": [
-     "09:00 Shopify → Produkt → Varianten → Bestand: letzte Umschichtung, Summe 35.",
-     "Messwerte vom Mess-Abend berücksichtigen.",
-     "Um 19:00 endet das Umschichten (72 h). Danach bleibt der Bestand je Größe, wie er ist."
-    ],
-    "f": "die letzte Umschichtung im Blatt „Pre-Order“ steht.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com"
-     }
-    ]
-   },
-   {
-    "c": "A",
     "t": "Wochenreview W18, Zahlen ins Cockpit, Zeile an Claude",
     "m": 20,
     "s": [
      "Warteliste: Shopify → Kunden → Segment „E-Mail-Abonnenten“, nur bestätigte. Zahl, Zuwachs und Liste nach Quellen-Tag ins Zahlen-Cockpit.",
-     "Follower TikTok + Instagram gesamt, Zusagen (Spalte „Zusage“) und bezahlte Jeans (Vorbestellungen, Blatt „Pre-Order“) ins Cockpit. Für die Schwellen zählt nur ausgezahltes Geld: Shopify → Finanzen → Auszahlungen.",
+     "Follower TikTok + Instagram gesamt und Zusagen (Spalte „Zusage“) ins Cockpit. Shop-Block: welche Schritte fertig, welche offen?",
      "Content: je Post Views, Saves, Shares, neue Follower ins Blatt „Content“. Anmeldungen je 1.000 Views.",
-     "Tempo: Bestellungen pro Tag seit Do. Hochrechnung bis So 14.02.: reicht es für mindestens 10 ausgezahlt bis Mo 15.02.?",
      "Kassencheck K − F − R, Ampel ins Cockpit. Ausgaben der Woche mit Beleg ins Blatt „Ausgaben“.",
-     "Kaufgrund-Antworten lesen: häufigster Grund in einem Satz.",
      "Zeile an Claude (Prompt unten)."
     ],
-    "f": "Warteliste bestätigt, Follower gesamt, Zusagen und bezahlte Jeans im Cockpit stehen und Claude die Zeile hat.",
-    "p": "W18: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Vorbestellungen bezahlt [B], ausgezahlt [A], Mess-Abend 1 [Gäste/Bestellungen], häufigster Kaufgrund [..]. Hochrechnung bis 07.02.: [..]. Offen aus W18: [..].",
+    "f": "Warteliste, Follower, Zusagen und der Stand des Shop-Blocks im Cockpit stehen und Claude die Zeile hat.",
+    "p": "W18: Liste [X] (+[Y]), Views [Z], bestes Video V0xx, schwächstes V0xx, Anmeldungen je 1.000 Views [Q], kritische Kommentare [K], Kasse [Ampel]. Shop-Block: Gewerbe [ja/nein], Fragebogen [ja/nein], Payments [verifiziert ja/nein], Website Schritte fertig [..], offen [..].",
     "o": [
      {
       "n": "Shopify-Admin",
@@ -735,73 +505,54 @@
    },
    {
     "c": "D",
-    "t": "Gate: Vorbestellungen ≥ 8 · Liste ≥ 1.000 · Stufe-2-Check",
+    "t": "Gate: Payments verifiziert · Rechtstexte live · LUCID · Liste ≥ 1.000",
     "m": 5,
     "s": [
-     "Vorbestellungen ≥ 8 (Soll 10, Alarm 6): weiter. Darunter: Mo zweite DM-Welle an alle Zusagen und „Vielleicht“ ohne Kauf mit ihrer Größe, Creator-Clips reposten (nur mit Erlaubnis), Mess-Abend 2 am Sa 30.01. doppelt bewerben.",
-     "G10 unter Alarm 6: persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum Mess-Abend 2, „X von 35“ nur mit echter Zahl.",
-     "G11: Produktseiten-Conversion unter 1,3 % bei ≥ 300 Sitzungen: häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis, Goldfäden-Video als zweites Bild.",
+     "Shopify Payments verifiziert? Sonst Ticket beim Payments-Support, PayPal am Mo als zweiter Weg.",
+     "Rechtstexte live (AGB, Widerruf, Versand, Zahlung im Footer)? Sonst fertig machen bis Mi 20.01.",
+     "LUCID-Registrierung und Fragebogen zur steuerlichen Erfassung raus? Sonst Mo.",
      "Liste ≥ 1.000: weiter. Unter Alarm 450 (G1): Netz-Runde, „Bring 3“-Story, Claude die 3 schwächsten Videos zeigen. Unter Soll (G2): bestes Video in 2 Varianten.",
-     "Stufe-2-Check (G13): Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story.",
-     "Umschichten endet heute 19:00 (72 h). G12: Kasse gelb oder rot nach Plan."
+     "G12: Kasse gelb oder rot nach Plan."
     ],
-    "f": "jedes Gate im Cockpit grün oder mit Gegenmaßnahme und Datum steht.",
+    "f": "jedes Gate im Cockpit grün oder mit Gegenmaßnahme und Datum steht."
+   },
+   {
+    "c": "A",
+    "t": "11:00 · Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)",
+    "m": 30,
+    "s": [
+     "claude im Ordner tt-theme starten, Prompt unten.",
+     "Vorschau-Link aus shopify theme dev an dich selbst per Instagram-DM schicken und dort antippen: So öffnet er im Instagram-Browser. Formular, Countdown, Schalter „Bewegung aus“ testen.",
+     "In Chrome am Laptop: Entwicklertools → Netzwerk → Drosselung „Fast 4G“, Zeit bis zum ersten Bild notieren, Spalte „Content-Encoding“ für tt-story.js prüfen.",
+     "Die ersten fünf Probleme repariert Claude Code, den Rest notierst du für morgen. Live geht die Seite am Mo 18.01."
+    ],
+    "f": "Theme Check ohne Fehler in tt-Dateien, die Seite im Instagram-Browser geprüft und tools/budget-check.mjs grün ist.",
+    "p": "Projekt Time Travel, Docket W9, Website Schritt 7. Prüf die Startseite wie ein strenger Tester. Halte dich an CLAUDE.md.\n1. Lege tools/budget-check.mjs an (Node, ohne Pakete): summiert alle assets/tt-* roh und gzip und bricht ab, wenn eigene CSS > 15 KB, eigene JS > 25 KB oder tt-feld-*.svg zusammen > 25 KB roh. Führ es aus.\n2. Führ shopify theme check aus und erklär mir Fehler in tt-Dateien. Andere Theme-Dateien nicht anfassen.\n3. Prüfliste: Kontrast laut Palette, Tippziele ≥ 44 px, Tab-Reihenfolge und sichtbarer Fokus, Schalter „Bewegung aus“, prefers-reduced-motion, Seite ohne JavaScript (Datum, Formular, Links da?), Alt-Texte.\n4. Sag mir, wie ich in Chrome die Netzwerk-Drosselung einschalte, die Zeit bis zum ersten Bild messe und in „Content-Encoding“ sehe, ob tt-story.js komprimiert kommt.\nGib mir alle Probleme als Liste nach Schwere. Repariere die ersten fünf, dann stopp und zeig mir die Änderungen.",
     "o": [
      {
-      "n": "Docket · Zahlen-Cockpit"
+      "n": "Instagram",
+      "u": "https://www.instagram.com",
+      "h": "Link per DM an dich selbst, im In-App-Browser öffnen"
      },
      {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Stufe-2-Produkt (Entwurf vom 14.12.)"
+      "n": "GitHub",
+      "u": "https://github.com",
+      "h": "Repo „novalife-tt-theme“"
      }
     ]
    },
    {
     "c": "C",
-    "t": "Content-Batch W20: V055–V059 drehen und schneiden",
-    "m": 90,
+    "t": "Content-Batch W19: V061, V062, V063 drehen und schneiden",
+    "m": 55,
     "s": [
-     "Ordner „W20/roh“ und „W19/final“ anlegen. Kamera 9:16, je Shot 3 Takes, Graukarte in den ersten Frame.",
-     "Ort 1 · Schreibtisch, Draufsicht: V055 „Zwischenstand“ (Hangtags auf dem Tisch, einer pro Vorbestellung, nur Nummern; dein Danke-Satz; Rest-Zahl groß). Am Mo mit der echten Zahl nachschneiden.",
-     "Ort 2 · Fensterbank: V056 und V057 nach Konzept im Docket (W19). V058 „Die Schnittkante“: Fotos der Waschserie plus Makro Saum, Finger fährt die Kante entlang.",
-     "Ort 3 · Hinterhof oder Treppenhaus mit Fensterlicht: V058 Gehen, der Saum bewegt sich. Keine DDR-Monumentalkulisse, keine Flaggen.",
-     "V059 Story-Vorlage: Frage-Sticker „Ask me anything about the pre-order.“",
-     "Schnitt in CapCut ohne Musik, Hook in die ersten 2 s, Untertitel. CTA ab 14.01.: „Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.“",
-     "Alles in „W19/final“."
+     "Ordner „W19“ anlegen. Kamera 9:16, Licht von vorn bzw. Fensterlicht von der Seite wie im Briefing, je Shot 3 Takes. Erst Schreibtisch (V061, V062), dann Fensterbank (V063).",
+     "V061 ORIGIN „Warum 100“: Du am Tisch, Papier „factory minimum per style: 100“, Satz in die Kamera „And it's what I can pack and answer for, myself.“",
+     "V062 REACH „POV“: Hangtag-Makro, Hand dreht den Hangtag, Jeans gefaltet. 6–9 s, Trend-Sound erst in der App.",
+     "V063 DETAIL „Der Stern“: Makro Achtstern rechte Gesäßtasche, Lineal 36 mm, Finger. Nur „eight-point star“, nie „Alatyr“.",
+     "In CapCut schneiden: Hook als Text in die ersten 2 Sekunden, Untertitel automatisch, keine Musik einbacken. CTA bis 31.01.: „Link in bio: join the list.“ Alles nach „W19/final“ exportieren."
     ],
-    "f": "V055–V058 fertig (V055 mit Platzhalter-Zahl) und V059 als Vorlage in „W19/final“ liegen.",
-    "v": {
-     "id": "V055–V059",
-     "slot": "Batch",
-     "dauer": "8–20 s je Video, V059 Story",
-     "plattform": "TikTok + Reels + Shorts, V059 Story",
-     "hook_en": "V055 Day 99: [X] of 35 pairs pre-ordered. · V058 Raw hem, cut after the wash. Look. · V059 Ask me anything about the pre-order.",
-     "hook_de": "V055 Tag 99: [X] von 35 Paar vorbestellt. · V058 Roher Saum, nach der Wäsche geschnitten. Schau. · V059 Frag mich alles zur Vorbestellung.",
-     "shots": [
-      "Ort 1 Schreibtisch: V055 Hangtags nur mit Nummern, Danke-Satz, Rest-Zahl",
-      "Ort 2 Fensterbank: V056, V057 nach Docket W20",
-      "Ort 2 Fensterbank: V058 Makro Saum, Finger an der Kante",
-      "Ort 3 Hinterhof: V058 Gehen, Saum in Bewegung",
-      "Story-Vorlage V059: Frage-Sticker"
-     ],
-     "ort": "Wohnung · Schreibtisch und Fensterbank; Berliner Hinterhof oder Treppenhaus mit Fensterlicht (Erlaubnis des Hauses)",
-     "ton": "O-Ton mit Untertiteln; V058 ruhiger Track erst in der App, darunter Originalton",
-     "text": "Hook EN in den ersten 2 s, Untertitel",
-     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.",
-     "caption": "Captions stehen an den Posttagen W19.",
-     "check": "Keine Kundennamen, nur echte Zahlen, kein Streichpreis, keine Sowjet- oder DDR-Kulisse."
-    },
-    "o": [
-     {
-      "n": "CapCut",
-      "u": "https://www.capcut.com"
-     },
-     {
-      "n": "Berliner Hinterhof oder Treppenhaus",
-      "h": "nur mit Erlaubnis des Hauses"
-     }
-    ]
+    "f": "V061, V062 und V063 fertig in „W19/final“ liegen."
    },
    {
     "c": "C",
@@ -829,8 +580,8 @@
      "ort": "Wohnung · Schreibtisch, Fensterlicht von der Seite",
      "ton": "O-Ton mit Untertiteln",
      "text": "Kommentar-Sticker, Untertitel",
-     "cta": "Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left.",
-     "caption": "You asked, here's the answer. Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
+     "cta": "Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. (DE: Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis.)",
+     "caption": "You asked, here's the answer. Link in bio: join the list. #embroidereddenim #berlinfashion #denim #novalifetimetravel",
      "check": "Rechtliche Fragen nur mit dem Text der Rechtsseite, Standardantwort bei Herkunftsfragen, nie „authentisch“."
     },
     "o": [

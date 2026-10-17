@@ -17,7 +17,7 @@ Quellen stehen als [W-Nummer] im Text und vollständig in Abschnitt 13. **Schät
 
 **Architektur (A und B):** Kopie deines Live-Themes mit eigenen Sections. Ein Zeit-Modul `tt-clock.js` kennt sechs Zustände, von „Warteliste“ bis „Ausverkauft“. Die Uhrzeit kommt vom Server (Date-Header [W16]), nicht vom Handy. Liquid-„now“ ist gecacht [W8] und taugt nicht. Das echte Schloss bleibt Shopify. Um 19:00 musst du kein Theme umschalten. Das alte Theme bleibt als PLAN B liegen, Umschalten mit einem Befehl [W7].
 
-**Vor dem 19.02. (Schritte 1–12, ab Sa 31.10.):** Werkzeuge auf dem Mac, Theme-Kopie mit Git, CLAUDE.md mit deinen Regeln, Countdown, Formular, Prozess-Story (live Mi 18.11.), echte Proto-Fotos (Fr 11.12.), Nummern-Raster (Sa 19.12.), Vorbestell-Zustände (Di 05.01.), UTM-Links und Tags (Sa 09.01.).
+**Vor dem 19.02. (Schritte 1–12, seit 17.10. erst nach dem Sample-Gate, ab Mo 11.01.):** Werkzeuge auf dem Mac, Theme-Kopie mit Git, CLAUDE.md mit deinen Regeln, Countdown, Formular, Prozess-Story (live Mo 18.01.), echte Proto-Fotos (Mi 20.01.), Nummern-Raster (Sa 23.01.), Vorbestell-Zustände (Mo 25.01.), UTM-Links und Tags (Di 26.01.).
 
 **Neu gegenüber Rev. 5:** Die Shopify CLI ist jetzt Version 4.8.5 und braucht Node.js ab 22.12 [W7]. Phaser 4 ist seit 10.04.2026 stabil (aktuell 4.2.1), aber größer [W1][W3]. Beim Spiel bleibt es bei 3.90.0.
 
@@ -136,8 +136,8 @@ Alle Zeiten Europe/Berlin. Die Sommerzeit beginnt 2027 am So 30.05. (EU-Regel �
 
 | Zustand | Von | Bis | Was die Startseite zeigt | „Direkt zum Shop“ führt zu |
 |---|---|---|---|---|
-| **WARTELISTE** | jetzt | Do 14.01.2027, 19:00 (`2027-01-14T19:00:00+01:00`) | Countdown „Vorbestellung öffnet in …“, Formular, Prozess-Story | Formular (Anker `#liste`), Text „Auf die Liste“ |
-| **VORBESTELLUNG** | 14.01., 19:00 | So 23.05.2027, 20:00 (`2027-03-21T20:00:00+01:00`) | „Vorbestellung offen · 149 € statt 169 €“, Nummern-Raster, Countdown „Vorbestellpreis endet in …“ | Produktseite Vorbestellung |
+| **WARTELISTE** | jetzt | Mo 01.02.2027, 19:00 (`2027-02-01T19:00:00+01:00`) | Countdown „Vorbestellung öffnet in …“, Formular, Prozess-Story | Formular (Anker `#liste`), Text „Auf die Liste“ |
+| **VORBESTELLUNG** | 01.02., 19:00 | So 23.05.2027, 20:00 (`2027-03-21T20:00:00+01:00`) | „Vorbestellung offen · 149 € statt 169 €“, Nummern-Raster, Countdown „Vorbestellpreis endet in …“ | Produktseite Vorbestellung |
 | **ZWISCHENZEIT** | 23.05., 20:00 | Do 24.06.2027, 18:00 (`2027-04-22T18:00:00+02:00`) | Countdown „Drop in …“, ab 31.05. das Feld-Kapitel öffentlich, Formular „Hol dir den Schlüssel“ | Formular, Text „Drop 24.06. · 19:00“ |
 | **SCHLÜSSEL** | 24.06., 18:00 | 24.06., 19:00 (`2027-04-22T19:00:00+02:00`) | mit `?key=…` aus der E-Mail T−1h: „Die Tür ist offen“. Ohne Schlüssel: Countdown 60 Minuten | mit Schlüssel: Kollektion. Ohne: Formular |
 | **LIVE** | 24.06., 19:00 | bis ausverkauft | Tür offen, drei Produkte, Nummern-Raster füllt sich | Kollektion „Time Travel“ |
@@ -291,9 +291,9 @@ Die Seite wächst mit dem Projekt. **Gezeigt wird nur, was es gibt** (Plan 0 und
 
 | Stufe | Ab | Inhalt | Regel |
 |---|---|---|---|
-| **1 · Prozess** | Mi 18.11.2026 | Kopf mit Countdown bis 14.01. und Formular · Papiertest · Kreuzstich-Raster als Zeichnung · Fabriksuche in echten Zahlen · Teppich | **kein fertiges Teil, kein Mockup**. Motive nur flach, nie auf eine Jeans-Silhouette gelegt |
+| **1 · Prozess** | Mo 18.01.2027 | Kopf mit Countdown bis 01.02. und Formular · Papiertest · Kreuzstich-Raster als Zeichnung · Fabriksuche in echten Zahlen · Teppich | **kein fertiges Teil, kein Mockup**. Motive nur flach, nie auf eine Jeans-Silhouette gelegt |
 | **2 · Das Muster** | Fr 11.12.2026 | Detailfotos vom Proto (03.12.) und Mini-Shoot (08. und 10.12.) zu jedem Element, Bedeutungen | Bedeutungstexte nur mit Beleg (4.2) |
-| **3 · Die Nummern** | Do 14.01.2027, 19:00 | Vorbestellung offen, Nummern-Raster, Countdown bis Preisende | nur echte Zahlen |
+| **3 · Die Nummern** | Mo 01.02.2027, 19:00 | Vorbestellung offen, Nummern-Raster, Countdown bis Preisende | nur echte Zahlen |
 | **4 · Der Weg zur Hütte** | Mo 24.05. still, Mo 31.05. öffentlich | Feld-Kapitel als Scroll-Szene, Shoot-Fotos (06.03.), Countdown bis 24.06. | Himmel nie hellblau über Weizen |
 | **5 · Die Tür** | Do 24.06.2027 | Schlüssel 18:00, live 19:00, später „ausverkauft“ | Shop-Link immer oben |
 
@@ -568,18 +568,18 @@ Die Daten liegen auf Tagen, an denen im Docket Rev. 5.3 wenig steht. Die Zahl �
 
 | # | Datum | Schritt | Dauer | Docket |
 |---|---|---|---|---|
-| 1 | Sa 31.10.2026 | Werkzeuge auf dem Mac | 60 | 30 |
-| 2 | Mi 04.11. | Theme-Kopie, Git, GitHub | 45 | 30 |
-| 3 | Sa 07.11. | CLAUDE.md | 30 | 30 (Puffer) |
-| 4 | Di 10.11. | Zeit-Modul und Countdown | 60 | 40 |
-| 5 | Mi 11.11. | Wartelisten-Formular mit Tags | 60 | 35 |
-| 6 | Sa 14.11. | Startseite Stufe 1 | 90 | 30 (Puffer) |
-| 7 | So 15.11. | Prüfen | 30 | 45 |
-| 8 | Mi 18.11. | Stufe 1 live, PLAN B | 20 | 60 |
-| 9 | Fr 11.12. | Stufe 2: Das Muster | 60 | 15 |
-| 10 | Sa 19.12. | Nummern-Raster | 90 | 40 |
-| 11 | Di 05.01.2027 | Vorbestell-Zustände | 60 | 45 |
-| 12 | Sa 09.01. | Analytics | 30 | 10 |
+| 1 | Mo 11.01.2027 | Werkzeuge auf dem Mac | 60 | Shop-Block |
+| 2 | Di 12.01. | Theme-Kopie, Git, GitHub | 45 | Shop-Block |
+| 3 | Di 12.01. | CLAUDE.md | 30 | Shop-Block |
+| 4 | Mi 13.01. | Zeit-Modul und Countdown | 60 | Shop-Block |
+| 5 | Do 14.01. | Wartelisten-Formular mit Tags | 60 | Shop-Block |
+| 6 | Sa 16.01. | Startseite Stufe 1 | 90 | Shop-Block |
+| 7 | So 17.01. | Prüfen | 30 | Shop-Block |
+| 8 | Mo 18.01. | Stufe 1 live, PLAN B | 20 | Shop-Block |
+| 9 | Mi 20.01. | Stufe 2: Das Muster | 60 | Shop-Block |
+| 10 | Sa 23.01. | Nummern-Raster | 90 | Shop-Block |
+| 11 | Mo 25.01. | Vorbestell-Zustände | 60 | Shop-Block |
+| 12 | Di 26.01. | Analytics | 30 | Shop-Block |
 | 13 | Fr 19.02. | Entscheidung A | 20 | 80 (inkl. dieser Aufgabe) |
 | 14 | Sa 13.03. | Shoot-Bilder | 60 | 10 |
 | 15 | Do 18.03. | Drop-Zustände | 60 | 45 |
@@ -606,7 +606,7 @@ Die Daten liegen auf Tagen, an denen im Docket Rev. 5.3 wenig steht. Die Zahl �
 ---
 
 ### Schritt 1 · Werkzeuge auf dem Mac
-**Wann:** Sa 31.10.2026 · **Dauer:** 60 min
+**Wann:** Mo 11.01.2027 (nach dem Sample-Gate) · **Dauer:** 60 min
 
 **Was du tust:**
 1. Terminal öffnen: ⌘ + Leertaste, „Terminal“ tippen, Enter.
@@ -629,7 +629,7 @@ Wenn etwas fehlt oder zu alt ist, erklär mir in einfachen Schritten, was ich se
 ---
 
 ### Schritt 2 · Theme-Kopie holen, Git und GitHub
-**Wann:** Mi 04.11. · **Dauer:** 45 min
+**Wann:** Di 12.01. · **Dauer:** 45 min
 
 **Was du tust:**
 1. Im Ordner `~/Claude/Novalife/website`: `shopify theme list --store DEIN-SHOP`. DEIN-SHOP ist der Teil vor `.myshopify.com`, die CLI nimmt auch nur dieses Präfix [W7]. Beim ersten Mal öffnet sich der Browser zum Einloggen. Notiere die ID des Themes mit der Rolle „live“.
@@ -653,7 +653,7 @@ Lade nichts zu Shopify hoch. Commit am Ende: „gitignore und shopifyignore“.
 ---
 
 ### Schritt 3 · CLAUDE.md: deine Regeln für Claude Code
-**Wann:** Sa 07.11. (Puffer-Tag) · **Dauer:** 30 min
+**Wann:** Di 12.01. · **Dauer:** 30 min
 
 **Was du tust:** Anhang A dieser Datei als `CLAUDE.md` in den Ordner `tt-theme` kopieren (TextEdit, „Als reinen Text sichern“). DEIN-SHOP und DEINE-DOMAIN ersetzen. Claude Code lädt eine `CLAUDE.md` im Projektordner zu Beginn jeder Sitzung [W24]. Mit `/context` siehst du, ob sie geladen ist [W24].
 
@@ -669,11 +669,11 @@ Commit: „Regeln und Termine“.
 ---
 
 ### Schritt 4 · Zeit-Modul und Countdown
-**Wann:** Di 10.11. · **Dauer:** 60 min
+**Wann:** Mi 13.01. · **Dauer:** 60 min
 
 **Was du tust:** Prompt geben, dann `shopify theme dev --store DEIN-SHOP` in einem zweiten Terminal-Fenster. Den Vorschau-Link öffnest du am Handy [W7].
 
-**Fertig, wenn:** Der Countdown läuft am Handy bis Do 14.01., 19:00. Mit `?t=2027-01-14T18:59:30+01:00` springt er nach 30 Sekunden auf „Vorbestellung offen“.
+**Fertig, wenn:** Der Countdown läuft am Handy bis Mo 01.02., 19:00. Mit `?t=2027-02-01T18:59:30+01:00` springt er nach 30 Sekunden auf „Vorbestellung offen“.
 
 **Prompt für Claude Code:**
 ```
@@ -688,7 +688,7 @@ Baue das Zeit-Modul für die Drop-Seite. Halte dich an CLAUDE.md.
    - Ereignis „tt:state“ auf window mit {zustand, jetzt, naechsteGrenze} bei jedem Wechsel, „tt:tick“ einmal pro Sekunde.
    - ?key= im sessionStorage merken (in try/catch), damit er beim Weiterklicken erhalten bleibt.
 
-3. snippets/tt-countdown.liquid: rendert in Liquid das feste Zieldatum als Text („Do 14.01.2027, 19:00“) in <time datetime="…">. JavaScript ersetzt den Text durch „Noch 12 T 04 Std 31 Min 09 Sek“. Für Screenreader nur minütlich ansagen (eigenes, visuell verstecktes Element mit aria-live="polite").
+3. snippets/tt-countdown.liquid: rendert in Liquid das feste Zieldatum als Text („Mo 01.02.2027, 19:00“) in <time datetime="…">. JavaScript ersetzt den Text durch „Noch 12 T 04 Std 31 Min 09 Sek“. Für Screenreader nur minütlich ansagen (eigenes, visuell verstecktes Element mit aria-live="polite").
 
 4. Eine erste sections/tt-hero.liquid nur mit dem Countdown, oben in templates/index.json eingebaut, damit ich testen kann.
 
@@ -698,7 +698,7 @@ Benutze nie Liquid 'now' für Zeitentscheidungen. Erklär mir danach, wie ich mi
 ---
 
 ### Schritt 5 · Wartelisten-Formular mit Quellen- und Größen-Tags
-**Wann:** Mi 11.11. · **Dauer:** 60 min
+**Wann:** Do 14.01. · **Dauer:** 60 min
 
 **Was du tust:** Prompt geben, dann zweimal mit einer neuen Testadresse eintragen: einmal ohne Größe, einmal mit Größe und mit `?utm_source=instagram`. Bestätigungs-Mail anklicken. In Shopify unter Kunden nachsehen.
 
@@ -723,7 +723,7 @@ Sag mir danach genau, wo ich in Shopify die Testadresse und ihre Tags sehe. Ich 
 ---
 
 ### Schritt 6 · Startseite Stufe 1: Prozess-Story
-**Wann:** Sa 14.11. (Puffer-Tag) · **Dauer:** 90 min
+**Wann:** Sa 16.01. · **Dauer:** 90 min
 
 **Was du tust vorher (15 min):**
 1. 3 Papiertest-Fotos (Hochformat) und 1 Teppich-Foto in Shopify hochladen: Inhalt → Dateien. Teppich nur, wenn deine Familie zustimmt.
@@ -748,7 +748,7 @@ Keine Bibliotheken. Zeig mir am Ende die neuen Dateien mit Größe in KB. Commit
 ---
 
 ### Schritt 7 · Prüfen: Theme Check, Handy, Instagram
-**Wann:** So 15.11. · **Dauer:** 30 min
+**Wann:** So 17.01. · **Dauer:** 30 min
 
 **Was du tust:** Prompt geben. Den Vorschau-Link aus `shopify theme dev` schickst du dir selbst per Instagram-DM und tippst ihn dort an. So öffnet er im In-App-Browser von Instagram.
 
@@ -767,7 +767,7 @@ Gib mir alle Probleme als Liste nach Schwere. Repariere die ersten fünf, dann s
 ---
 
 ### Schritt 8 · Stufe 1 live, altes Theme wird PLAN B
-**Wann:** Mi 18.11. · **Dauer:** 20 min
+**Wann:** Mo 18.01. · **Dauer:** 20 min
 
 **Was du tust:**
 1. Prompt geben. Claude Code pusht nach deinem „ja“ auf „TT Story“ (`shopify theme push --theme "TT Story"` [W7]).
@@ -785,7 +785,7 @@ Ich will Stufe 1 live schalten. Prüfe vorher: git status sauber, tools/budget-c
 ---
 
 ### Schritt 9 · Stufe 2: Das Muster mit echten Proto-Fotos
-**Wann:** Fr 11.12. · **Dauer:** 60 min
+**Wann:** Mi 20.01. · **Dauer:** 60 min
 **Voraussetzung:** Mini-Shoot Di 08.12. und On-Body-Fotos Do 10.12. (Docket). Für jede Bedeutung, die gezeigt wird, ein Beleg in der Belegtabelle (Spec Teil 5). Ohne Beleg zeigt die Karte nur Maß und Stichzahl.
 
 **Was du tust vorher:** 6 Detailfotos in Shopify hochladen. Text K5 aus Abschnitt 4.2 nach `docs/TEXTE-STUFE2.md` kopieren und anpassen.
@@ -804,7 +804,7 @@ Zeig mir die Vorschau-Schritte. Commit nach meinem „passt“.
 ---
 
 ### Schritt 10 · Nummern-Raster 001–100
-**Wann:** Sa 19.12. (nach der Kontingent-Entscheidung am selben Tag) · **Dauer:** 90 min
+**Wann:** Sa 23.01. (Kontingent entschieden am Sa 19.12.) · **Dauer:** 90 min
 **Voraussetzung:** Vorbestell-Produkt angelegt (Docket Mo 14.12.), „Inventar verfolgen“ an. Ein Testprodukt „TT Test“ mit Bestand 35, auf Aktiv, aber in keiner Kollektion und nirgends verlinkt. *(Ob ein Produkt im Status „Entwurf“ in Liquid gelesen werden kann, ist ungeprüft. Darum für den Test kurz auf Aktiv, danach zurück.)*
 
 **Fertig, wenn:** Das Raster zeigt mit „TT Test“ die richtige Zahl. Nach Senken des Bestands um 2 springt es. Du hast notiert, wie lange das dauert. „TT Test“ ist wieder Entwurf.
@@ -824,9 +824,9 @@ Erst mit „TT Test“ als tt_produkt_vorbestellung testen. Sag mir, wie ich den
 ---
 
 ### Schritt 11 · Vorbestell-Zustände und Shop-Links
-**Wann:** Di 05.01.2027 · **Dauer:** 60 min
+**Wann:** Mo 25.01. · **Dauer:** 60 min
 
-**Was du tust zusätzlich:** Bei der Generalprobe der Vorbestellung am Mo 11.01. (Docket) testest du **auch Future Publishing**: das Vorbestell-Produkt auf „heute in 20 Minuten“ terminieren und beobachten. So weißt du schon im Januar, ob das Schloss für den 14.01. und den 24.06. so funktioniert, und nicht erst im Juni.
+**Was du tust zusätzlich:** Bei der Generalprobe der Vorbestellung am Fr 29.01. (Docket) testest du **auch Future Publishing**: das Vorbestell-Produkt auf „heute in 20 Minuten“ terminieren und beobachten. So weißt du schon im Januar, ob das Schloss für den 01.02. und den 24.06. so funktioniert, und nicht erst im Juni.
 
 **Fertig, wenn:** Mit `?t=2027-01-14T18:59:30+01:00` wechselt die Seite pünktlich: Knopf „Vorbestellen · 149 €“ zur Vorbestellung, Countdown „Vorbestellpreis endet in …“, Raster sichtbar.
 
@@ -843,7 +843,7 @@ Teste alle Grenzen aus docs/TERMINE.md mit ?t= und zeig mir die Links. Commit na
 ---
 
 ### Schritt 12 · Analytics: UTM-Links, Tags, Wochenzahlen
-**Wann:** Sa 09.01. · **Dauer:** 30 min
+**Wann:** Di 26.01. · **Dauer:** 30 min
 
 **Fertig, wenn:** Die UTM-Links stehen in beiden Bios und in deinen E-Mail-Vorlagen. Die Tracking-Tabelle (Docket W4) hat ein Blatt „Website“ mit den Spalten aus 3.8. Claude Code hat dir mit Link zur Shopify-Doku gesagt, ob eigene Ereignisse mit Einwilligung gehen.
 
@@ -1189,8 +1189,8 @@ Hier sind meine Notizen vom Playtest mit 5 Leuten: … Ordne die Probleme nach �
 | **Prozess-Story Stufe 1** | 18.11. | Zeigt, dass hier wirklich gebaut wird, ohne Produkt zu zeigen (Regel 01.10.) |
 | **PLAN B** | 18.11. | Ab dem ersten Live-Gang gibt es einen Rückweg |
 | **Echte Proto-Fotos, Stufe 2** | 11.12. | Der erste Moment, in dem die Seite das Produkt zeigen darf |
-| **Nummern-Raster** | 19.12. gebaut, sichtbar ab 14.01. | „X von 35“ ist der Kern des Contents vom 04.01. bis 21.02. (Plan 10) |
-| **Vorbestell-Zustände** | 05.01. | Startseite schaltet am 14.01. um 19:00 von selbst um |
+| **Nummern-Raster** | 23.01. gebaut, sichtbar ab 01.02. | „X von 35“ ist der Kern des Contents vom 04.01. bis 21.02. (Plan 10) |
+| **Vorbestell-Zustände** | 25.01. | Startseite schaltet am 01.02. um 19:00 von selbst um |
 | **Future Publishing testen** | Mo 11.01. | Klärt das Schloss drei Monate vor dem Drop |
 | **Analytics-Grundlage** | 09.01. | Ohne Zahlen ist die Spiel-Entscheidung am 19.02. Bauchgefühl |
 | Spiel-Stiltest (Docket So 27.12., 150 min) | 27.12. | **Nur machen, wenn du A ernsthaft willst.** Sonst die 150 Minuten in Content stecken |
@@ -1312,7 +1312,7 @@ Ich (Ernest) bin neu auf dem Mac und kein Entwickler. Erklär kurz, auf Deutsch,
 | Zustand | ab | ISO |
 |---|---|---|
 | WARTELISTE | jetzt | — |
-| VORBESTELLUNG | Do 14.01.2027 19:00 | 2027-01-14T19:00:00+01:00 |
+| VORBESTELLUNG | Mo 01.02.2027 19:00 | 2027-02-01T19:00:00+01:00 |
 | ZWISCHENZEIT (Preisende) | So 23.05.2027 20:00 | 2027-03-21T20:00:00+01:00 |
 | Feld öffentlich | Mo 31.05.2027 18:00 | 2027-03-29T18:00:00+02:00 |
 | SCHLUESSEL (nur mit ?key=) | Do 24.06.2027 18:00 | 2027-04-22T18:00:00+02:00 |

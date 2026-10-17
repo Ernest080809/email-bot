@@ -31,15 +31,15 @@
     "t": "10:00 · SCHWELLE: 100, 75 oder schieben (Mengenformel rechnen)",
     "m": 30,
     "s": [
-     "Shopify → Einstellungen → Payments → Auszahlungen: Zahl der Vorbestellungen, deren Geld bis So 07.02. ausgezahlt ist. Nur das zählt.",
-     "Wochenrate W19–W20 = bezahlte Vorbestellungen 25.01.–07.02. ÷ 2. Hochrechnung = ausgezahlt am 07.02. + 6 × Wochenrate (Ziel ≥ 32 ausgezahlt bis Di 18.05.).",
+     "Shopify → Einstellungen → Payments → Auszahlungen: Zahl der Vorbestellungen, deren Geld bis Fr 12.02. ausgezahlt ist. Nur das zählt.",
+     "Wochenrate = bezahlte Vorbestellungen 02.–14.02. ÷ 2. Hochrechnung = ausgezahlt bis Fr 12.02. + 6 × Wochenrate (Ziel ≥ 32 ausgezahlt bis Di 18.05.).",
      "Mit Steuer (DAP): zusätzlich prüfen, ob ≥ 40 bis Mi 26.05. inkl. Stufe 2 erreichbar sind.",
      "Budget übrig laut Blatt „Ausgaben“ plus ausgezahlte Vorbestellungen gegen die Anzahlung laut Proforma (bei 100 und beim Preis bei 75 aus dem Angebot) und den Shoot (150 €).",
      "Zahlen und Rechnung mit dem Prompt unten an Claude, Ergebnis gegenlesen.",
      "Ergebnis ins Blatt „Gates“, Zeile „Schwelle 1“."
     ],
     "f": "ausgezahlte Zahl, Wochenrate, Hochrechnung und Kassenlage im Blatt „Gates“ stehen.",
-    "p": "Projekt Time Travel, Docket W23, Mo 15.02. Schwelle 1: ausgezahlt bis 07.02. [A], Vorbestellungen W19 [w19], W20 [w20], bezahlt gesamt [V], Kontostand [K], Budget übrig [B], Anzahlung laut Proforma bei 100 [€] und bei 75 [€], Shoot 150 €, Steuer DAP [ja/nein]. Rechne die Mengenformel (ausgezahlt + 6 × Wochenrate ≥ 32 bis Di 18.05.; bei Steuer ≥ 40 bis Mi 26.05. inkl. Stufe 2) und sag mir klar: 100, 75, schieben (B-Zeitachse 2) oder Zipper-Notfall. Zeig die Rechnung in drei Zeilen.",
+    "p": "Projekt Time Travel, Docket W23, Mo 15.02. Schwelle 1: ausgezahlt bis Fr 12.02. [A], Vorbestellungen 02.–07.02. [a], 08.–14.02. [b], bezahlt gesamt [V], Kontostand [K], Budget übrig [B], Anzahlung laut Proforma bei 100 [€] und bei 75 [€], Shoot 150 €, Steuer DAP [ja/nein]. Rechne die Mengenformel (ausgezahlt + 6 × Wochenrate ≥ 32 bis Di 18.05.; bei Steuer ≥ 40 bis Mi 26.05. inkl. Stufe 2) und sag mir klar: 100, 75, schieben (B-Zeitachse 2) oder Zipper-Notfall. Zeig die Rechnung in drei Zeilen.",
     "o": [
      {
       "n": "Shopify-Admin · Payments",
@@ -610,7 +610,7 @@
      "PO bestätigt und Anzahlung bezahlt? Sonst Montag Call, Produktionsstart neu rechnen (B-Zeitachse 7.4).",
      "Vorbestellungen ≥ 12 (Soll 18)? Darunter: Mess-Abend 3 jetzt einladen (Termin aus Blatt „Abende“), Notfall-Leiter Stufe 1.",
      "Kasse grün? Sonst Shoot mit Handy und Freunden, 150 € sparen.",
-     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story.",
+     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Entwurf vom 22.01. aktivieren), Mail an alle ohne Kauf, Story.",
      "Ergebnisse ins Blatt „Gates“."
     ],
     "f": "alle vier Prüfungen mit Ergebnis im Blatt „Gates“ stehen.",
@@ -623,7 +623,7 @@
      {
       "n": "Shopify-Admin · Produkte",
       "u": "https://admin.shopify.com",
-      "h": "Stufe-2-Entwurf vom 14.12."
+      "h": "Stufe-2-Entwurf vom 22.01."
      }
     ]
    },

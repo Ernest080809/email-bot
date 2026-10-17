@@ -938,24 +938,8 @@
     ]
    },
    {
-    "c": "A",
-    "t": "Grind+ LUCID registrieren, falls noch nicht geschehen",
-    "m": 20,
-    "plus": true,
-    "s": [
-     "Nur wenn die Prüfung vom 08.10. „nein“ ergab.",
-     "Verpackungsregister LUCID → Registrierung, Firmenname genau so, wie du ihn später beim dualen System angibst. Die Registrierung ist laut tools.md kostenlos (ungeprüft).",
-     "Registriernummer ins Blatt „Tools“. Pflicht vor dem ersten Paket an Endkunden, also vor den Creator-Paaren und vor dem 08.06.",
-     "Die Lizenz (Systembeteiligung für Karton, Papier, Polybeutel) kommt erst am Di 09.03. mit der Verpackung."
-    ],
-    "f": "die LUCID-Registriernummer im Blatt „Tools“ steht.",
-    "o": [
-     {
-      "n": "Zentrale Stelle Verpackungsregister · LUCID",
-      "u": "https://www.verpackungsregister.org",
-      "h": "Ablauf auf der Seite prüfen"
-     }
-    ]
+    "c": "N",
+    "t": "Neue Reihenfolge ab heute: Erst Designs, Fabrik und Muster. Website, Shop und Papiere (LUCID, Gewerbe, Zahlungen, Rechtstexte) starten nach dem Sample-Gate am Di 05.01. Das Marketing läuft weiter. LUCID kommt am Do 14.01."
    }
   ],
   "2026-10-18": [
@@ -1035,7 +1019,7 @@
      "Warum: B kostet ~18 h (Schätzung), läuft ohne JavaScript und bleibt bei eigenen Dateien unter 95 KB. A kostet zusätzlich 20–40 h, die Spiel-Bibliothek allein wiegt 1,20 MB, und am Drop-Tag stünde das Spiel zwischen Besucher und Kasse. Einen belegten Verkaufseffekt hat es nicht.",
      "Deine Idee bleibt in B: Scrollen ist Laufen, Feld bei Sonnenuntergang → Jeans, Zipper, Polo → Hütte → Teppich.",
      "Willst du A offen halten: gebaut wird nur, wenn am Fr 19.02. ≥ 25 Vorbestellungen, kein Gate rot und die Kasse grün ist.",
-     "Entscheidung an Claude: „Spiel: gestrichen“ oder „Spiel: offen bis 19.02.“. Der Website-Bau startet so oder so am Sa 31.10. mit Schritt 1."
+     "Entscheidung an Claude: „Spiel: gestrichen“ oder „Spiel: offen bis 19.02.“. Der Website-Bau startet so oder so nach dem Sample-Gate, am Mo 11.01. mit Schritt 1."
     ],
     "f": "die Spiel-Entscheidung schriftlich bei Claude ist.",
     "o": [

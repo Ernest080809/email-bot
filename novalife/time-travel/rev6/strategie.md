@@ -16,6 +16,8 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 
 ## 0 · Auf einer Seite
 
+**Stand Sa 17.10.: Erst Muster, dann Shop.** Bis Di 05.01. laufen nur Designs, Fabrik und Muster, dazu das Marketing. Das **Sample-Gate am Di 05.01.** ist bestanden, wenn Jeans-PP, Zipper und Polo als Einzelstücke bei dir sind und du sie schriftlich freigegeben hast. Erst danach kommt der Shop-Block (06.–31.01.): Gewerbe, Steuer-Fragebogen, Zahlungen, Website Stufe 1, Rechtstexte, LUCID, Produkt- und Vorbestellseite, Reservierung. **Die Vorbestellung öffnet Mo 01.02., 19:00** (Liste 18:00), die Schwelle bleibt Mo 15.02. Die Aufholwochen W19 und W22 sind dafür aufgebraucht.
+
 **Stand Di 13.10.: Der Drop ist auf Do 24.06.2027, 19:00 verschoben, weil die schriftlichen Abiturprüfungen (ca. 07.04.–05.05.) auf den alten Termin fielen.** Bis Weihnachten bleibt alles wie geplant. Im Januar und Februar gibt es zwei Aufholwochen (W19, W22), vom 22.03. bis 09.05. ist Abi-Pause (W28–W34). Die Fabrik produziert in der Pause, die Ware ist bis Fr 14.05. fertig. Alle Daten unten sind auf den neuen Plan umgerechnet.
 
 **Die Lage.** Dein Plan Rev. 5.3 trägt im mittleren Fall. Im vorsichtigen Fall endet er bei Break-even, und mit der wahrscheinlichen Einfuhrsteuer reicht das Kontingent von 35 Vorbestellungen nicht für die Restzahlung. Der Engpass ist nicht das Design und nicht der Preis. Es fehlen Reichweite für die Liste und Wärme für die Kaufquote, und das Geld muss vor den Zahlungsterminen da sein.
@@ -51,8 +53,8 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 
 | Thema | Wachstum | Cash | Marke | **Entscheidung Rev. 6** | Warum |
 |---|---|---|---|---|---|
-| Listen-Soll | 3.390 (Korridor × 1,13 ab W12) | Korridor 3.000 | Korridor, ×1,13 nur bei Kaufquote < 1,5 % | **Soll = Korridor 3.000, Grind+-Ziel 3.390.** Am So 31.01. entscheidet deine gemessene Kaufquote: unter 1,0 % wird das Grind+-Ziel Pflicht | Ein Soll über dem eigenen Kanal-Mix demotiviert. Die echte Quote ist ab 14.01. messbar |
-| Wärme vor der Öffnung | Reservierung mit 10 € ab 07.12. | Zusagen-Liste, Anzahlung nur bei < 10 Zusagen am 20.12. | Handheber-Liste | **Zusagen-Liste „Die ersten 35“ immer** (Spalte „Zusage“: Name, Größe, „ich bestelle am 14.01.“; daneben eine eigene Spalte „Vielleicht“, die kein Gate zählt). Dazu ab Mo 07.12. eine **kostenlose** Liste **„Platz in der ersten Stunde sichern“** mit Größe (Option B): DM mit Link um 17:55, Größe vorgemerkt, **keine Nummer versprochen** (Nummern gehen nach Bestelldatum). **10 € Anzahlung (Option A)** nur, wenn am So 29.11. die Liste unter 170 liegt **und** Rechtstexte-Hotline und Shopify zustimmen | Dieselbe Idee in drei Stärken. Die Anzahlung bringt laut Kickstarter-Daten den stärksten Effekt [M-Q26][M-Q27], kostet aber App, Recht und deine Zeit |
+| Listen-Soll | 3.390 (Korridor × 1,13 ab W12) | Korridor 3.000 | Korridor, ×1,13 nur bei Kaufquote < 1,5 % | **Soll = Korridor 3.000, Grind+-Ziel 3.390.** Am So 14.02. entscheidet deine gemessene Kaufquote: unter 1,0 % wird das Grind+-Ziel Pflicht | Ein Soll über dem eigenen Kanal-Mix demotiviert. Die echte Quote ist ab 01.02. messbar |
+| Wärme vor der Öffnung | Reservierung mit 10 € ab 07.12. | Zusagen-Liste, Anzahlung nur bei < 10 Zusagen am 20.12. | Handheber-Liste | **Zusagen-Liste „Die ersten 35“ immer** (Spalte „Zusage“: Name, Größe, „ich bestelle am 01.02.“; daneben eine eigene Spalte „Vielleicht“, die kein Gate zählt). Dazu ab Mo 07.12. eine **kostenlose** Liste **„Platz in der ersten Stunde sichern“** mit Größe (Option B): DM mit Link um 17:55, Größe vorgemerkt, **keine Nummer versprochen** (Nummern gehen nach Bestelldatum). **10 € Anzahlung (Option A)** nur, wenn am So 29.11. die Liste unter 170 liegt **und** Rechtstexte-Hotline und Shopify zustimmen | Dieselbe Idee in drei Stärken. Die Anzahlung bringt laut Kickstarter-Daten den stärksten Effekt [M-Q26][M-Q27], kostet aber App, Recht und deine Zeit |
 | Mehr als 35 Vorbestellungen | Kontingent 45 (Plan) | **Stufe 2: Nr. 036–060 zu 169 €** bis So 06.06. | — | **Stufe 2 zu 169 €** (du entscheidest am Sa 19.12.). **Auslöser:** Stufe 2 geht live, sobald Nr. 035 verkauft ist, frühestens 14.01., spätestens So 23.05., 20:00. Entwurf liegt ab Mo 14.12. bereit, jeden Sonntag ab 17.01. prüfst du: „35 erreicht? Dann heute live, Mail und Story.“ | 45 × 149 € + 19 × 169 € = 9.916 € verfehlt das Ziel. 35 × 149 € + 29 × 169 € = 10.116 €, egal ob die 29 vorher oder im Drop kommen [R]. Stufe 2 bringt nur früher Geld |
 | Mess-Abend 3 | Sa 22.05. | **Sa 15.05.** | Sa 22.05. | **Sa 15.05.** | Das Geld vom 22.05. kommt nach der Restzahlung am 21.05. an [Cash] |
 | Pixel-Spiel | jetzt streichen (18.10.) | Kriterium für 19.02. | Rat streichen, 19.02. | **Scroll-Story B ist gesetzt.** Spiel: Rat streichen am So 18.10.; wer es offen hält, baut nur bei ≥ 25 Vorbestellungen, keinem roten Gate und grüner Kasse am Fr 19.02. | Kein belegter Verkaufseffekt [M] Hebel 11, 20–40 h [W] |
@@ -96,7 +98,7 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 
 1. **Kein Produkt bis 03.12.** Deine Regel ist richtig, aber bis dahin verkaufst du Prozess. Die stärksten Bilder kommen erst ab Dezember.
 2. **Kleines Konto.** TikTok-Business-Konten mit 1.000–5.000 Followern holen im Schnitt 317 Views pro Post [M-Q37]. Reels erreichen in dieser Größe ~9,8 % der Follower [M-Q38]. Ausreißer kann niemand planen.
-3. **Die Kaufquote ist unbekannt.** Fast alle Wartelisten-Zahlen kommen aus Software und Crowdfunding, nicht aus Mode [M 2.1]. Deine eigene Quote misst du erst ab 14.01.
+3. **Die Kaufquote ist unbekannt.** Fast alle Wartelisten-Zahlen kommen aus Software und Crowdfunding, nicht aus Mode [M 2.1]. Deine eigene Quote misst du erst ab 01.02.
 4. **Lange Wartezeit.** Wer länger als 90 Tage wartet, kauft deutlich seltener als bei schnellem Zugang (Software, nur die Richtung ist übertragbar) [M-Q25].
 5. **Kosten und Steuer** sind erst ab 23.10. und 09.11. bekannt.
 6. **Fabrik, Zoll, Feiertage:** Ramadan-Fest in der Türkei 08.–11.03. [P 7], Ostern 26.–29.03.2027 [R], Puffer bis zum spätesten Ankunftstermin nur ~16 Tage [Cash 6.1]. **Neu in 6.1:** Nach dem tabellarischen Islam-Kalender läuft der Ramadan etwa vom 08.02. bis 09.03.2027 [R, ±1–2 Tage, ungeprüft], also über die ganze Produktion in der Türkei. Der 29.10. ist Nationalfeiertag in der Türkei, am 28.10. ist nachmittags frei (Allgemeinwissen, ungeprüft): genau die Woche mit Fabrikwahl und Proforma. In Portugal sind 01.12. und 08.12. Feiertage (ungeprüft): Proto-Versand und PP-Bestellung. In Berlin ist der 10.05. Feiertag (ungeprüft). Gegenmaßnahmen stehen im Docket (Calls 21.–23.10., Konditionen bis 27.10. mittags, Produktionsplan 19.02., Event-Tipp 19.03.).
@@ -145,7 +147,7 @@ Tagesplan dazu: `rev6/skeleton.json` (Wochen 4–32, jeder Tag vom 08.10.2026 bi
 
 ### 5.2 Drei Szenarien
 
-Formeln wie `markt.md` 3.3 und 3.4. Liste am 13.01. = 28 %, am 23.05. = 85 % der Liste vom 24.06. (Verhältnis aus dem Plan-Korridor). Vorbestellungen gedeckelt bei 35. **Alle Quoten sind Annahmen.** Ab So 01.11. ersetzt du die Anmeldequote, ab So 31.01. die Kaufquote durch deine echten Werte.
+Formeln wie `markt.md` 3.3 und 3.4. Liste am 31.01. = 28 %, am 23.05. = 85 % der Liste vom 24.06. (Verhältnis aus dem Plan-Korridor). Vorbestellungen gedeckelt bei 35. **Alle Quoten sind Annahmen.** Ab So 01.11. ersetzt du die Anmeldequote, ab So 14.02. die Kaufquote durch deine echten Werte.
 
 | Annahme | **A · vorsichtig** | **B · Plan Rev. 6** | **C · mittel** | Woher |
 |---|---|---|---|---|
@@ -159,7 +161,7 @@ Formeln wie `markt.md` 3.3 und 3.4. Liste am 13.01. = 28 %, am 23.05. = 85 % der
 
 | Wofür | A | B | C |
 |---|---|---|---|
-| 10 Vorbestellungen bis 07.02. allein aus der Liste (Stand 13.01.) | 900 | 570 | 400 |
+| 10 Vorbestellungen ausgezahlt bis 12.02. allein aus der Liste (Stand 31.01.) | 900 | 570 | 400 |
 | 35 Vorbestellungen bis 23.05. | 2.100 | 1.490 | 935 |
 | 37 Drop-Käufe brutto (Liste am 24.06.) | **3.365** | **2.130** | **1.515** |
 | Views dafür | ~3,4 Mio | ~1,1 Mio | ~0,6 Mio |
@@ -213,7 +215,7 @@ Formeln wie `markt.md` 3.3 und 3.4. Liste am 13.01. = 28 %, am 23.05. = 85 % der
 **Regeln, die daraus folgen:**
 - Bis zur schriftlichen Antwort des Steuerberaters planst du mit 1.150 € Steuer.
 - **Für eine Zahlung zählt nur Geld, das drei Werktage vorher auf dem Konto ist** [Cash Hebel 2]. Daraus folgen die Stichtage: **Mo 15.02.** (Anzahlung Do 18.02.), **Di 18.05.** (Restzahlung Fr 21.05.), **Mi 26.05.** (Steuer bei Einfuhr ab ~27.05.). Darum liegt Mess-Abend 2b auf Mi 03.02. und nicht auf Sa 06.02., und Mess-Abend 3 auf Sa 15.05. Am Di 29.12. misst du die echte Auszahlungsdauer, dann rechnet Claude alle Stichtage nach.
-- **Stufe 2 geht live, sobald Nr. 035 verkauft ist**, frühestens Do 14.01., spätestens So 23.05., 20:00 (wenn die 149 € enden). Sie läuft bis So 06.06., 20:00.
+- **Stufe 2 geht live, sobald Nr. 035 verkauft ist**, frühestens Mo 01.02., spätestens So 23.05., 20:00 (wenn die 149 € enden). Sie läuft bis So 06.06., 20:00.
 - **DAP statt DDP** (Rat, du entscheidest am 27.10.): Bei DDP steckt die Steuer im Preis und wäre schon mit der Restzahlung fällig. Dann bräuchtest du 40 bis zum 18.05., und die gibt es mit 35 Paar zu 149 € nicht.
 - Die 3 Paar Puffer sind deine Erstattungsreserve, nie für Kostenüberschreitungen [Cash 4.1].
 - Jede Ausgabe außerhalb von Plan 3 muss mindestens eine zusätzliche Vorbestellung (146 €) wahrscheinlich machen.
@@ -234,7 +236,7 @@ Im Fall A bei 3.000 Adressen: 68 Jeans brutto, nach 10–15 % Retoure ~9.170–9
 - **Follower** = neue Follower TikTok + Instagram seit 12.10., Schätzung 3 je Anmeldung [M 3.7]. Ab So 01.11. ersetzt du sie durch deine Quote.
 - **Posts** = Feed-Posts und ASK-Storys laut `content.md` + 2 Grind+ (Karussell oder Variante).
 - **Vorbestellungen** kumuliert, bezahlt. Für die Schwellen zählt nur ausgezahltes Geld. Soll aus Cash 2.7, Alarm = Mindestwert.
-- **Zusagen** = Blatt „Die ersten 35“, nur Spalte „Zusage“: Name, Größe, „ich bestelle am 14.01.“ [Cash Hebel 6]. „Vielleicht“ steht in einer eigenen Spalte und zählt in keinem Gate.
+- **Zusagen** = Blatt „Die ersten 35“, nur Spalte „Zusage“: Name, Größe, „ich bestelle am 01.02.“ [Cash Hebel 6]. „Vielleicht“ steht in einer eigenen Spalte und zählt in keinem Gate.
 
 | W | KW-Sonntag | Warteliste Soll (Alarm) | Grind+-Ziel | Follower TikTok + IG, neu (Schätzung) | Posts/Woche (Kern + Grind+) | Vorbestellungen kumuliert Soll (Alarm) | Zusagen „Die ersten 35“ |
 |---|---|---|---|---|---|---|---|
@@ -268,7 +270,7 @@ Im Fall A bei 3.000 Adressen: 68 Jeans brutto, nach 10–15 % Retoure ~9.170–9
 | 31 | 20.06. | 2.920 (1.400) | 3.300 | ~8.760 | 7 | — | — |
 | 32 | 27.06. | **3.000** (1.515) | 3.390 | ~9.000 | 10 | **Drop: 37 brutto (Alarm < 29 netto)** | — |
 
-**Dazu jeden Sonntag:** Kassen-Ampel K − F − R ≥ 300 € (grün) [Cash 4.1] · Anmeldequote der Wartelisten-Seite ≥ 6,6 % (Landingpage-Median [M-Q36]) · ab 14.01. Produktseiten-Conversion ≥ 1,3 % (Mode-Median [M-Q35]).
+**Dazu jeden Sonntag:** Kassen-Ampel K − F − R ≥ 300 € (grün) [Cash 4.1] · Anmeldequote der Wartelisten-Seite ≥ 6,6 % (Landingpage-Median [M-Q36]) · ab 01.02. Produktseiten-Conversion ≥ 1,3 % (Mode-Median [M-Q35]).
 
 ---
 
@@ -287,8 +289,8 @@ Im Fall A bei 3.000 Adressen: 68 Jeans brutto, nach 10–15 % Retoure ~9.170–9
 | G7 | **≥ 3 Kommentare** pro Woche mit „Sowjet“, „Wappen“, „Holodomor“ | danken, zählen, nie löschen · 2 Wochen kein Ernte-Bild · vor 09.11.: weiße B2-Kante einfrieren (0 bis +0,22 €/Paar, Schwellen bleiben [D 3.7]) |
 | G8 | ≥ 3 Folklore-Kommentare („Oma“, „Kostüm“) | 2 Wochen: erst die Totale aus 3 m im Streetwear-Outfit, dann das Makro |
 | G9 | > 70 % der neuen Anmeldungen aus warmen Tags (`ref-netz`, `ref-papier`, `ref-stick`) | Content trägt nicht: 3 neue Hooks, DE-Hook vorziehen, Karussell „Miss deine Jeans“ |
-| G10 | ab 14.01.: Vorbestellungen **unter Alarm** | persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl |
-| G11 | ab 14.01.: Produktseiten-Conversion **< 1,3 %** bei ≥ 300 Sitzungen | häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis, Goldfäden-Video als zweites Bild |
+| G10 | ab 01.02.: Vorbestellungen **unter Alarm** | persönliche DM an jede Zusage ohne Kauf mit ihrer Größe, Einladung zum nächsten Mess-Abend, „X von 35“ nur mit echter Zahl |
+| G11 | ab 01.02.: Produktseiten-Conversion **< 1,3 %** bei ≥ 300 Sitzungen | häufigste DM-Frage als erstes FAQ, Größenblock unter den Preis, Goldfäden-Video als zweites Bild |
 | G12 | Kassen-Ampel gelb (0–300 €) / rot (< 0) | gelb: keine Ausgaben außerhalb von Plan 3 · rot: Ausgaben-Stopp-Liste, dann Notfall-Leiter (7.3) |
 | G13 | ab So 17.01. bis So 23.05.: **Nr. 035 verkauft?** | heute Stufe 2 live (Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story. Am So 23.05., 20:00 geht Stufe 2 in jedem Fall live |
 
@@ -308,22 +310,25 @@ Im Fall A bei 3.000 Adressen: 68 Jeans brutto, nach 10–15 % Retoure ~9.170–9
 | Di 10.11. | Stiche ≤ 28.000 (seit 11.10. ohne Serp, vorher 33.000) | freigeben | Gegenrechnung, Füllung statt echtem Kreuzstich |
 | **Di 17.11.** | Stickproben bestanden | Proto | kein Proto; benannten Fehler beheben (**B-Zeitachse 1**) oder Fabrik 2 (**B-Zeitachse 2**) |
 | So 22.11. | Proto-Versand schriftlich ≤ 30.11. | weiter | Call; bei Portugal Feiertage 01.12. und 08.12. einrechnen (ungeprüft) |
-| So 29.11. | Liste ≥ 170 · Payments verifiziert · Rechtstexte live | „Platz in der ersten Stunde sichern“ (Option B) | Liste < 170: Option A mit 10 €, nur mit Recht und Shopify · Payments offen: Reservierung ohne Zahlung, Ticket beim Payments-Support · Rechtstexte offen: bis Fr 04.12. |
-| Sa 05.12. | Proto und Fit | PP Mo 07.12. | zweites Proto, Öffnung nach **B-Zeitachse 1** (Do 28.01.) |
-| So 13.12. | Zusagen ≥ 18 · Reservierungen ≥ 15 | weiter | bis 20.12. jeden Tag 3 Termine · DM an jeden aus dem Netz |
-| **So 20.12.** | Zusagen ≥ 15, Auszahlung geklärt, Stufe 2 entschieden, Patch bestellt | Vorbestellung wie geplant | < 10 Zusagen: Ausgaben-Stopp, Proto-Runde verlängern · Auszahlung unklar: kein Start · Patch offen: Bestellung Mo 21.12., Fabrik über neue Patch-Frist Fr 05.02. informieren |
-| Di 05.01. | PP freigegeben | Öffnung 14.01. | Öffnung höchstens Do 28.01. (**B-Zeitachse 1**) |
-| So 10.01. | Zusagen ≥ 25 | weiter | alle „Vielleicht“ persönlich zum Mess-Abend 1 |
-| So 17.01. | ≥ 8 Vorbestellungen | weiter | zweite DM-Welle, Mess-Abend 2 doppelt bewerben |
-| **So 31.01.** | eigene Kaufquote (Vorbestellungen ÷ Liste 13.01.) · Mess-Abend 2b · Patches bei der Fabrik | > 1,5 %: Kurs halten | 1,0–1,5 %: Mess-Abend 15.05. als Hauptereignis · < 1,0 %: Grind+-Ziel 3.390 wird Pflicht · Mess-Abend 2b am **Mi 03.02.** (Do 04.02. nur bei Auszahlung ≤ 2 Werktage), wenn am 13.01. < 60 Reservierungen + Zusagen oder Vorbestellungen unter Soll · Patches fehlen: Call und neue Rechnung für den Produktionsstart |
-| **Mo 15.02.** | **Schwelle 1** + Mengenformel (ausgezahlt am 07.02. + 6 × Wochenrate W19–W20) | ≥ 10 und Hochrechnung ≥ 32 ausgezahlt bis Di 18.05. → 100 Stück (bei Steuer zusätzlich 40 bis Mi 26.05. inkl. Stufe 2) | Schwelle erfüllt, Hochrechnung darunter → 75 Stück, Stufe 2 nur Nr. 036–045 · < 10 → 2 Wochen schieben (**B-Zeitachse 2**) · 7–9 → Notfall-Option Zipper-Vorbestellung |
+| So 29.11. | Liste ≥ 170 · Reservierung A/B entschieden · Berliner Muster abgeholt | „Platz in der ersten Stunde sichern“ (Option B), gebaut Mo 18.01. | Liste < 170: Option A mit 10 € (gebaut im Januar) · Muster offen: Abholtermin spätestens Mo 30.11. |
+| Sa 05.12. | Proto und Fit | PP Mo 07.12. | zweites Proto, Öffnung nach **B-Zeitachse 1** (Mo 15.02.) |
+| So 13.12. | Zusagen ≥ 18 · Zipper mit Teppich-Front beim Sticker | weiter | bis 20.12. jeden Tag 3 Termine · DM an jeden aus dem Netz · Zipper fehlt: am Mo anrufen |
+| **So 20.12.** | Zusagen ≥ 15, Stufe 2 entschieden, Patch bestellt, Zipper und Polo freigegeben (Sa 19.12.) | Vorbestellung wie geplant | < 10 Zusagen: Ausgaben-Stopp, Proto-Runde verlängern · Zipper oder Polo nicht frei: zweites Muster bis Sa 02.01. · Patch offen: Bestellung Mo 21.12., Fabrik über neue Patch-Frist Fr 05.02. informieren |
+| **Di 05.01.** | **SAMPLE-GATE:** Jeans-PP, Zipper und Polo als Einzelstücke da und schriftlich freigegeben | Shop-Block ab Mi 06.01., Öffnung Mo 01.02. | erst das Muster korrigieren; Shop-Block und Öffnung rücken mit, höchstens auf Mo 15.02. (**B-Zeitachse 1**) |
+| So 10.01. | Zusagen ≥ 25 · Gewerbe angemeldet | weiter | alle „Vielleicht“ persönlich zum Mess-Abend 1 (Mi 03.02.) |
+| So 17.01. | Payments verifiziert · Rechtstexte live · LUCID | weiter | Support-Ticket, PayPal Mo 18.01. · Rechtstexte bis Mi 20.01. |
+| So 24.01. | Stufe 1 live · Vorbestellung als Entwurf · Testbestellung läuft | weiter | Shop-Block vor Grind+, Rest bis Mi 27.01. |
+| **So 31.01.** | Seite 9 von 9 · Testauszahlung da · Handheber ≥ 40 | Start Mo 01.02. | Seite nicht fertig: Start Mo 08.02. · Auszahlung fehlt: PayPal als Hauptweg |
+| So 07.02. | ≥ 8 Vorbestellungen | weiter | zweite DM-Welle, Mess-Abend 2 (Mi 10.02.) doppelt bewerben |
+| **So 14.02.** | eigene Kaufquote (Vorbestellungen ÷ Liste 31.01.) · ≥ 10 ausgezahlt · Patches bei der Fabrik | > 1,5 %: Kurs halten | 1,0–1,5 %: Mess-Abend 15.05. als Hauptereignis · < 1,0 %: Grind+-Ziel 3.390 wird Pflicht · < 10 ausgezahlt: Notfall-Leiter Stufe 1 noch am Abend (Mess-Abend 2b entfällt, das Fenster ist zu kurz) · Patches fehlen: Call und neue Rechnung für den Produktionsstart |
+| **Mo 15.02.** | **Schwelle 1** + Mengenformel (ausgezahlt bis Fr 12.02. + 6 × Wochenrate 02.–14.02., ohne den Starttag) | ≥ 10 und Hochrechnung ≥ 32 ausgezahlt bis Di 18.05. → 100 Stück (bei Steuer zusätzlich 40 bis Mi 26.05. inkl. Stufe 2) | Schwelle erfüllt, Hochrechnung darunter → 75 Stück, Stufe 2 nur Nr. 036–045 · < 10 → 2 Wochen schieben (**B-Zeitachse 2**) · 7–9 → Notfall-Option Zipper-Vorbestellung |
 | Fr 19.02. | Spiel | ≥ 25 Vorbestellungen, kein Gate rot, Kasse grün | streichen |
 | So 21.02. | PO bestätigt, Anzahlung bezahlt | weiter | Call, Produktionsstart neu rechnen |
 | So 28.02. | Stoff da (reserviert seit 06.01.) | weiter | sofort Call |
 | So 07.03. | Inline-Fotos 1 | weiter | Call, Liefertermin bestätigen lassen |
 | So 14.03. | ≥ 18 Vorbestellungen, Liste ≥ 850, Shopify-Email-Kontingent | weiter | Mail „Noch X von 35“, Brücke vorwarnen, Notfall-Option Zipper/Polo entscheiden · Kontingent zu klein: Preis ins Blatt „Kasse“ oder T−14 und T−7 nur an Abonnenten, die in 90 Tagen geöffnet oder geklickt haben |
 | So 21.03. | Inline-Fotos 2, Steuer-Rücklage | weiter | Call, Liefertermin schriftlich · ohne Rücklage Kampagne 1 streichen |
-| **So 16.05.** | ≥ 29 (Alarm 25) · absehbar **32 ausgezahlt bis Di 18.05.** (mit der Auszahlungsdauer vom 29.12.) | Restzahlung 21.05. | Notfall-Leiter ab Stufe 3, Backstop Mi 26.05. vorbereiten |
+| **So 16.05.** | ≥ 29 (Alarm 25) · absehbar **32 ausgezahlt bis Di 18.05.** (mit der Auszahlungsdauer vom Test am 22.01.) | Restzahlung 21.05. | Notfall-Leiter ab Stufe 3, Backstop Mi 26.05. vorbereiten |
 | **Fr 21.05.** | ≥ 32 ausgezahlt bis Di 18.05. und Endkontroll-Nachweis aus der PO vollständig | zahlen | nur Geld fehlt: Backstop Mi 26.05. · Endkontrolle durchgefallen: nicht zahlen, Fotos an die Fabrik |
 | So 23.05., 20:00 | 35 zu 149 € voll | — | 149 € endet trotzdem; Stufe 2 läuft spätestens ab jetzt bis So 06.06. Preis nie verlängern |
 | **Mi 26.05.** | Tracking da · bei Steuer (DAP): **40 ausgezahlt** (35 + Stufe 2) | weiter | tägliche Mail an die Fabrik, ab 02.06. Drop-Plan B · Steuer-Geld fehlt: Brücke abrufen (Stufe 7) |
@@ -355,10 +360,10 @@ Gilt, sobald ein Gate „schieben“ sagt. Entschieden wird **am Tag des Gates**
 |---|---|---|---|
 | Auslöser | — | Validierung rot (01.11.), Stickprobe mit benanntem Fehler (17.11.), zweites Proto (05.12.), PP nicht ok (05.01.) | Fabrik 2 (17.11.), Schwelle < 10 (15.02.) |
 | Proto · PP | 03.12. · ~04.01. | ~10.12. · ~11.01. | Fabrik 2: Proto frühestens Januar (Schätzung) |
-| Öffnung Vorbestellung | Do 14.01. | **Do 28.01.** | **Do 18.02.** |
-| Schwelle 1 · ausgezahlt bis | Mo 15.02. | **Mo 22.02.** | **Mo 08.03.** |
-| Anzahlung · Produktionsstart | Do 18.02. · Mo 22.02. | Do 25.02. · Mo 01.03. | Do 11.03. · Mo 15.03. |
-| Endkontrolle und Restzahlung | Fr 21.05. (Geld bis Di 18.05.) | **Do 27.05.** (Geld bis Mo 24.05.) | **Fr 11.06.** (Geld bis Di 08.06.) |
+| Öffnung Vorbestellung | Mo 01.02. (seit 17.10.) | **Mo 15.02.** | **Do 18.02.** |
+| Schwelle 1 · ausgezahlt bis | Mo 15.02. | **Mo 01.03.** | **Mo 08.03.** |
+| Anzahlung · Produktionsstart | Do 18.02. · Mo 22.02. | Do 04.03. · Mo 08.03. | Do 11.03. · Mo 15.03. |
+| Endkontrolle und Restzahlung | Fr 21.05. (Geld bis Di 18.05.) | **Do 03.06.** (Geld bis Mo 31.05., Schätzung seit 17.10.) | **Fr 11.06.** (Geld bis Di 08.06.) |
 | Vorbestellpreis endet | So 23.05., 20:00 | So 23.05., 20:00 (bleibt) | **So 06.06., 20:00** |
 | Stufe 2 bis | So 06.06. | So 06.06. | So 20.06. |
 | Ware da | ~01.06. | ~08.06. | ~21.06. (nach dem spätesten Termin 17.06.) |
@@ -375,12 +380,12 @@ Sortiert nach Wirkung pro Stunde deiner Zeit. Wirkung ist meine Einschätzung au
 
 | # | Hebel | Wirkung | Kerntermine |
 |---|---|---|---|
-| 1 | **Warmes Netz + Zusagen-Liste „Die ersten 35“** | trägt Schwelle 1 | Di 13.10. zählen · Fr 16.10. N1 · Do 29.10. N2 · Proto-Runde 03.–13.12. · DMs 15.12., 13.01., 03.02. |
+| 1 | **Warmes Netz + Zusagen-Liste „Die ersten 35“** | trägt Schwelle 1 | Di 13.10. zählen · Fr 16.10. N1 · Do 29.10. N2 · Proto-Runde 03.–13.12. · DMs 15.12., 31.01., 11.02. |
 | 2 | **Content-Maschine:** 3 Hook-Typen (Zahl, Fehler, Frage), Varianten-Regel, Serien „Day X“, „Omas Teppich“, „Miss deine Jeans“, DE-Test | einziger Weg zu Ausreißern | ab Mo 12.10. jede Woche |
 | 3 | **Abende:** Papiertest 24.10., Stick 27.11., Mess-Abende 16.01., 30.01., 15.05., Drop-Abend 26.06. | Wärme + Größen-Sicherheit; Pop-ups in der Mode 25–40 % Conversion [M-Q54, Güte C] | siehe Berlin-Plan |
 | 4 | **Event-Momente:** Proto im Broadcast zuerst, Early Access 18:00 für die ganze Liste, Live 19:00, Countdown-Sticker, Mail am Fristende („heute 20:00 endet 149 €“) | Käufe kommen am Anfang und Ende einer Frist [M-Q31] | 03.12., 14.01., 23.05. 12:00, 31.05., 24.06. |
 | 5 | **Steuer- und Kostenwahrheit, Auszahlung prüfen** | ±8 Vorbestellungen bei Schwelle 2 | 13.10., 23.10., 30.10., 10.11., 29.12. |
-| 6 | **Stufe 2 zu 169 € + Mengenformel** | +5–8 Vorbestellungen ohne Rabatt (Schätzung Cash), deckt die Einfuhrsteuer am 26.05. | 14.12. Entwurf, 19.12. Nummern, ab 14.01. live bei Nr. 035, 15.02., 24.05. Mail, 06.06. |
+| 6 | **Stufe 2 zu 169 € + Mengenformel** | +5–8 Vorbestellungen ohne Rabatt (Schätzung Cash), deckt die Einfuhrsteuer am 26.05. | 22.01. Entwurf, 19.12. Nummern, ab 01.02. live bei Nr. 035, 15.02., 24.05. Mail, 06.06. |
 | 7 | **Creator früh:** Erst-DM 11.12., Preview 12.01., Nano-Welle 27.01. | Clips treffen die Öffnung; Nano-Engagement 1,78 % [M-Q40] | 07.11.–12.01. |
 | 8 | **Vertrauen und Größe:** Checkliste 9/9, Geld-zurück-Regel, „W32 = 81 cm“, „Miss deine Lieblingsjeans“ | 67 % der Retouren wegen Größe [M-Q44]; dieselbe Unsicherheit bremst den Kauf (Schätzung) | 12.11., 19.11., 15.12., 07.01. |
 | 9 | **„Bring 3 Freunde“ + Quellen-Tags** | +15–25 % (Viral-Faktor [M-Q51]); Power-Referrer kaufen zu 30–50 % [M-Q23] | Sa 10.10. Schema, Do 15.10. Einbau, Mi 11.11. in die Theme-Kopie, Mi 18.11. Test |
@@ -416,7 +421,7 @@ Quelle: [K 1.4, 3]. Uhrzeiten sind Plan-Zeiten, keine geprüften Bestzeiten. Am 
 | 23.–29.11. | 3, **ohne Ernte-Bild**, Sa 28.11. gar keiner | Holodomor-Gedenktag am 4. Samstag im November [Z-Q51] | |
 | 30.11.–20.12. | **5–6/Woche** | ab 03.12. Proto: Unboxing V025, Makros, Fit, „Uhrwerk“ | Broadcast ab Mo 30.11. |
 | 21.12.–03.01. | 3/Woche | Feiertage | |
-| 04.01.–21.02. | 5–6/Woche | Vorbestellung, echte Zahlen „X von 35“, Creator-Clips | Live 14.01. |
+| 04.01.–21.02. | 5–6/Woche | Vorbestellung, echte Zahlen „X von 35“, Creator-Clips | Live 01.02. |
 | 22.02.–30.05. | 4–5/Woche + Story | Produktion, Shoot, Kampagnenfilm, Set | **Mi 24.02. nichts Werbliches** (5. Jahrestag des Großangriffs [Z-Q32]), V078 am Do 11.03. |
 | 31.05.–23.06. | **täglich 18:00** | Countdown CD-T24 bis CD-T01, vorproduziert am 18. und 22.05. aus dem Shoot-Rohmaterial (die 24 Motive stehen ab 03.03. auf der Shotliste). CD-T06 wird V125, CD-T13 heißt „So ist der Shoot entstanden.“ | an echten Tagen ersetzt ein Live-Clip das Asset |
 | 24.–27.06. | 7 Drop-Posts | V101–V107. **Am Drop-Tag:** keine Ernte-Hooks, als billige Vorsicht. Antwortbaustein: „Der Termin ist der Donnerstag nach der Lieferung, sonst nichts.“ Der Termin bleibt | Live 18:00–18:30 |
@@ -433,12 +438,12 @@ Quelle: [K 1.4, 3]. Uhrzeiten sind Plan-Zeiten, keine geprüften Bestzeiten. Am 
 8. **Musik** nur aus der Business-Bibliothek der jeweiligen App, eigener Ton zuerst, nie in CapCut einbacken [K 1.9] (Plattformregeln ungeprüft).
 9. **Kommentare:** Z, V, Georgsband, Kriegsverherrlichung sofort ausblenden. Kritik nie löschen. Standard: „Das Muster gibt es in Belarus, Polen, Russland und der Ukraine. Es gehört keinem allein.“ [Z 3.8]
 10. **Keine** Telegram-Gruppen, keine russischsprachigen Captions, kein #slavicembroidery [K 1.8][C 3.1].
-11. **CTA je Phase** (ersetzt die Standard-CTA in `content.md` 3, Wortlaut prüft die Rechtstexte-Hotline am 24.11.). Grund: „Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis“ kann bei ~850 Adressen und 35 Paar zu 149 € für die meisten nicht stimmen (Risiko irreführende Werbung, UWG, ungeprüft). „149 € statt 169 €“ entfällt, weil du 169 € nie verlangt hast (Streichpreis ohne früheren Preis, PAngV § 11, ungeprüft, keine Rechtsberatung).
+11. **CTA je Phase** (ersetzt die Standard-CTA in `content.md` 3, Wortlaut prüft die Rechtstexte-Hotline ab Fr 15.01.). Grund: „Wer auf der Liste ist, kauft zuerst und zum Vorbestellpreis“ kann bei ~850 Adressen und 35 Paar zu 149 € für die meisten nicht stimmen (Risiko irreführende Werbung, UWG, ungeprüft). „149 € statt 169 €“ entfällt, weil du 169 € nie verlangt hast (Streichpreis ohne früheren Preis, PAngV § 11, ungeprüft, keine Rechtsberatung).
 
 | Zeitraum | CTA (DE) | CTA (EN) |
 |---|---|---|
-| bis 13.01. | Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis. | Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. |
-| 14.01.–23.05. | Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35. | Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. |
+| bis 31.01. | Link in Bio: Trag dich ein. Die Liste kauft zuerst. 35 Paar zum Vorbestellpreis. | Link in bio: join the list. The list buys first. 35 pairs at the pre-order price. |
+| 01.02.–23.05. | Vorbestellen über den Link in Bio. Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €. Noch [Y] von 35. | Pre-order in bio. Pre-order price €149 until 23.05. · from 24.06. €169. [Y] of 35 left. |
 | 24.05.–06.06. | Drop 24.06., 19:00. Bis So 06.06. noch vorbestellen: 169 €, Lieferung Anfang Juni. Link in Bio. | Drop 24.06., 19:00. Pre-order until Sun 06.06.: €169, ships early June. Link in bio. |
 | 07.06.–23.06. | Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio. | Drop 24.06., 19:00. The list gets in at 18:00. Link in bio. |
 | ab 24.06., 19:00 | Jetzt live. Link in Bio. | Live now. Link in bio. |
@@ -455,17 +460,17 @@ Jeder Link trägt das Schema vom Sa 10.10.: `utm_source` zeigt den Kanal (Bio, Q
 
 ### 9.5 E-Mail-Plan (neu in 6.1)
 
-Risiko 7 „Liste altert“ verlangt alle 2–4 Wochen ein Ereignis. Vorher bekam die Liste acht Wochen lang keine Mail. Jede Werkstatt-Mail ist kurz, Text von Claude, 15′ für dich. Vor der ersten großen Mail (07.12.) authentifizierst du am Mo 30.11. die Absender-Domain in Shopify (vor Ort prüfen).
+Risiko 7 „Liste altert“ verlangt alle 2–4 Wochen ein Ereignis. Vorher bekam die Liste acht Wochen lang keine Mail. Jede Werkstatt-Mail ist kurz, Text von Claude, 15′ für dich. Die Absender-Domain authentifizierst du am Mo 11.01. im Shop-Block, vor E-Mail 1 am Di 26.01. (vor Ort prüfen).
 
 | Datum | Mail |
 |---|---|
 | ab Fr 09.10. | Willkommens-Mail nach dem Double-Opt-in (ab Do 15.10. mit „Bring 3“-Link) |
 | Mo 02.11. | Werkstatt 1: Ergebnis der Validierung |
 | Do 03.12., 19:00 | Werkstatt 2: Das Proto ist da (terminiert am 02.12.) |
-| Mo 07.12., 19:00 | „Platz in der ersten Stunde sichern“ öffnet |
-| Do 07.01. · Mi 13.01. | Vorbestellung 1 (Mess-Abende) · „Morgen: 18:00 für die Liste, 19:00 für alle“ |
-| **Do 14.01., 18:00** | **an die ganze Liste:** Die Liste kauft zuerst (17:55 DM an Reservierer und Zusagen) |
-| Mo 25.01. · Di 02.02. | „Noch X Paar“ · an Abonnenten ohne Kauf |
+| Mi 20.01., 19:00 | „Platz in der ersten Stunde sichern“ öffnet (bis So 31.01.) |
+| Di 26.01. · So 31.01. | Vorbestellung 1 (Mess-Abende) · „Morgen: 18:00 für die Liste, 19:00 für alle“ |
+| **Mo 01.02., 18:00** | **an die ganze Liste:** Die Liste kauft zuerst (17:55 DM an Reservierer und Zusagen) |
+| Mo 08.02. · Di 09.02. | „Noch X Paar“ · an Abonnenten ohne Kauf |
 | Do 18.02. | Werkstatt 3: „Bestellt. X von 35“ |
 | Mo 08.03. | Werkstatt 4: Der Shoot |
 | Mo 17.05. | „Vorbestellpreis endet So 20:00“ |
@@ -492,15 +497,14 @@ Adressen und Zeiten aus Suchtreffern der Recherche (`berlin.md`), **vor jedem Be
 | Sa 21.11. | **Burg & Schild**, Rosa-Luxemburg-Str. 3 | gewaschene Stickproben, Feedback der Denim-Kenner | Kern | [B-1] |
 | Fr 27.11. | bei dir oder Kunstraum Heartspace, Danziger Str. 172 (Anfrage 05.11.) | **Stick-Abend** 18:30–20:00, nur Raute und Achtstern | Kern | [Z-Q59][C 6.2] |
 | Sa 28.11. | Holy Shit Shopping, CANK, Karl-Marx-Straße, Neukölln (28.–29.11.) | als Besucher: Designer nach Bewerbung und Standpreis fragen; kein Post | Grind+ | [B-39][B-40] |
-| Mi 18.11. | GATE194 über store@gate194.berlin, Sing Blackbird und Studio183 über ihre offiziellen Kanäle | **schriftliche Voranfrage** (15′): Di 12.01., Sa 16.01., Sa 30.01., Sa 15.05. abends freihalten, Proto ab 03.12. | Kern | [B-10][B-15][B-23] |
+| Mi 18.11. | GATE194 über store@gate194.berlin, Sing Blackbird und Studio183 über ihre offiziellen Kanäle | **schriftliche Voranfrage** (15′): Sa 30.01., Mi 03.02., Mi 10.02., Sa 15.05. abends freihalten, Proto ab 03.12. | Kern | [B-10][B-15][B-23] |
 | Sa 12.12. | **GATE194**, Köpenicker Str. 194 (Hinterhof, laut Website Mo–Sa 12–20 Uhr) und **Sing Blackbird**, Sanderstr. 11 | mit Proto: Abende fest anfragen, gebündelt mit 3 Treffen der Proto-Runde (90′ statt 60′, zwei Läden samt Weg sind sonst zu knapp) | Kern | [B-10][B-15] |
 | So 13.12. | — | kein Laden hat zugesagt: Ersatz über Giggster suchen (10′) | Kern | [B-46] |
 | Fr 18.12. | Studio183, Konk (Kleine Hamburger Str. 15, Status prüfen) | A-Liste Teil 2 | Grind+ | [B-23][B-11][B-12] |
 | Sa 19.12. | — | **Orte fest**, sonst Fläche über Giggster | Kern | [B-46] |
-| Di 12.01. | Ort vom 19.12. | **Creator-Preview** 18:30–20:00 | Kern | [C 2.4] |
-| Sa 16.01. · Sa 30.01. · **Sa 15.05.** | Ort vom 19.12. | **Mess-Abende** 18:00–20:00 (bis 21:00 Grind+) | Kern | [C 6.3], Cash |
-| **Mi 03.02.** (Ausweich Do 04.02.) | Ort vom 19.12. | Mess-Abend 2b 18:30–20:00, nur bei Gate So 31.01. Nicht mehr Sa 06.02.: Wer dort bestellt, ist bis Mo 15.02. nicht ausgezahlt | Grind+ | Wachstum, Regel 5.4 |
-| Do 15.10. · Sa 09.01. · Fr 15.01. | Familie · Lette Verein oder Studierende (offizieller Kontakt) · Feld am Stadtrand | Teppich leihen? · Fotograf mit schriftlichen Nutzungsrechten (Shop, Werbung, Presse) · Landwirt fragen | Kern | [B 5][B 4.2][B 7] (ungeprüft) |
+| Sa 30.01. | Ort vom 19.12. | **Creator-Preview** 18:30–20:00 | Kern | [C 2.4] |
+| Mi 03.02. · Mi 10.02. · **Sa 15.05.** | Ort vom 19.12. | **Mess-Abende** 18:00–20:00 (bis 21:00 Grind+) | Kern | [C 6.3], Cash |
+| Do 15.10. · Sa 09.01. · Di 02.02. | Familie · Lette Verein oder Studierende (offizieller Kontakt) · Feld am Stadtrand | Teppich leihen? · Fotograf mit schriftlichen Nutzungsrechten (Shop, Werbung, Presse) · Landwirt fragen | Kern | [B 5][B 4.2][B 7] (ungeprüft) |
 | Sa 06.03. | Wohnung mit Familienteppich + Feld zur goldenen Stunde | **Shoot „Die Hütte“**; Shotliste ab 03.03. mit den 24 Countdown-Motiven | Ausnahme | [B 4.1] |
 | Sa 29.05. | Holzmarkt-Flohmarkt (Saison 2027 nur fortgeschrieben) | Countdown-Stand, nur wenn Stand < ~146 € | Grind+ | [B-37] |
 | So 30.05., 06.06., 13.06., 20.06. | ein Feld am Stadtrand, nur mit Erlaubnis des Landwirts | „Das Feld wächst“, gleicher Platz, Sonnenuntergang | Grind+ | [B 4.1] (Weizen-Kalender ungeprüft) |
@@ -521,13 +525,13 @@ Adressen und Zeiten aus Suchtreffern der Recherche (`berlin.md`), **vor jedem Be
 | **Fr 11.12.** | Erst-DM C2 an die Top 8 |
 | Fr 18.12. | einmal nachfassen; unter 5 Zusagen Nr. 9–12 |
 | Di 05.01. | Zusage, Briefing-Karte |
-| **Di 12.01., 18:30** | **Preview** mit Proto und PP, eigener Link `?ref=c-[name]` |
-| Mi 13.–Fr 15.01. | Clips zur Öffnung |
+| **Sa 30.01., 18:30** | **Preview** mit Proto und PP, eigener Link `?ref=c-[name]` |
+| So 31.01.–Di 02.02. | Clips zur Öffnung |
 | Mi 27.01. | Nano-Welle 2: 10 Nano-Creator aus deinen Kommentaren zum Mess-Abend 2, ohne Paar |
-| Mo 01.02. | Clips einsammeln, Anmeldungen je Creator |
+| Fr 05.02. | Clips einsammeln, Anmeldungen je Creator |
 | Mo 17.05. · Do 10.06. · Do 17.06. | Story-Bitte „Preis endet“ · Pakete · Erinnerung Post 19.–23.06. |
 
-**Abmachung (Vorschlag, du entscheidest):** 1 Clip bis 15.01., 1 Story 19.–23.06. Kein Rabattcode, kein Geld. Geschenktes Paar = „Anzeige“ ganz vorn plus Plattform-Label; die Rechtslage (§ 5a UWG, BGH 09.09.2021) ist in den Recherchen ungeprüft, du klärst sie vor Fr 11.12. über die Hotline des Rechtstexte-Service [C 2.6]. Die 5 Paare sind im Plan schon abgezogen [P 3.2].
+**Abmachung (Vorschlag, du entscheidest):** 1 Clip bis 02.02., 1 Story 19.–23.06. Kein Rabattcode, kein Geld. Geschenktes Paar = „Anzeige“ ganz vorn plus Plattform-Label; die Rechtslage (§ 5a UWG, BGH 09.09.2021) ist in den Recherchen ungeprüft, du klärst sie vor der Preview am Sa 30.01. über die Hotline des Rechtstexte-Service (gebucht ab Fr 15.01.); bis dahin sagst du „Anzeige“ in der DM fest zu [C 2.6]. Die 5 Paare sind im Plan schon abgezogen [P 3.2].
 
 ### 11.2 Presse
 
@@ -535,7 +539,7 @@ Adressen und Zeiten aus Suchtreffern der Recherche (`berlin.md`), **vor jedem Be
 |---|---|---|
 | Sa 14.11. · Do 19.11. | Presseliste (17 Medien aus [C 5.2], Kontakt nur aus Impressum oder offizieller Seite) | — |
 | Mi 09.12. | Pressemappe v1, Seite `/pages/presse` | — |
-| **Di 15.12.** | **Welle 1** „Vorbestellung ab 14.01.“: Lokalpresse, Gründer-Medien, Denim-Blogs | Ehrliche Größen · Die Vorbestellung baut die Fabrik · Vom Bleichen zur eigenen Hose |
+| **Di 15.12.** | **Welle 1** „Vorbestellung ab 01.02.“: Lokalpresse, Gründer-Medien, Denim-Blogs | Ehrliche Größen · Die Vorbestellung baut die Fabrik · Vom Bleichen zur eigenen Hose |
 | Mi 30.12. → Sa 02.01. | Event-Tipp Mess-Abende an tip Berlin, Mit Vergnügen, iHeartBerlin, The Berliner | Ein Abend in Berlin |
 | Sa 13.03. | Pressemappe v2 mit Shoot-Fotos | — |
 | **Do 18.03.** | **Welle 2** „Drop 24.06.“ (nicht am 24.02.) | Der Faden, der die Hose verlässt · Ehrliche Größen · Teppich nur mit Sprachregel |
@@ -578,7 +582,7 @@ Presse ist Bonus und steht nicht im Soll [C 1.1]. Nachfassen einmal, nie öfter.
 
 | | Scroll-Story B | Pixel-Spiel A |
 |---|---|---|
-| Aufwand | 24 Schritte, ~18 h (Schätzung), ~10,5 h vor dem 19.02. | +20–40 h (Schätzung) |
+| Aufwand | 24 Schritte, ~18 h (Schätzung), ~10,5 h vor dem 19.02., gebaut ab Mo 11.01. nach dem Sample-Gate | +20–40 h (Schätzung) |
 | Gewicht | eigene Dateien ≤ 95 KB | Phaser 3.90.0 allein 1,20 MB roh, 315 KB gzip [W-W3] |
 | Risiko am Drop-Tag | niedrig, läuft ohne JavaScript | steht zwischen Besucher und Kasse |
 | Deine Idee | bleibt: Scrollen ist Laufen, Feld bei Sonnenuntergang → Jeans, Zipper, Polo → Hütte → Teppich | voll |
@@ -591,7 +595,7 @@ Presse ist Bonus und steht nicht im Soll [C 1.1]. Nachfassen einmal, nie öfter.
 - **Schritt 11 (Do 07.01.):** kein durchgestrichener Drop-Preis, stattdessen „Vorbestellpreis 149 € bis 23.05. · ab 24.06. 169 €“. Lieferzeile „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“ statt „24.–30.06.2027“ (K6 genauso). Ist die Vorbestellung ausverkauft, zeigt der Knopf „Vorbestellen · 169 € · Lieferung Anfang Juni“.
 - **Schritt 15 (Fr 19.03.):** ZWISCHENZEIT zeigt bis So 06.06., 20:00 zusätzlich den Stufe-2-Knopf, danach nur „Hol dir den Schlüssel“.
 - **Schritt 5 (Mi 11.11.):** Größen auch „kleiner als W30“ und „größer als W38“ (`gr-klein`, `gr-gross`). Die Empfehlungs-Lösung vom 15.10. wird übernommen: `code-[6 Zeichen]`, Danke-Text mit persönlichem Link, WhatsApp-Knopf. Test am Mi 18.11. mit `?ref=test`.
-- **Schritt 11 und Generalprobe Mo 11.01.:** Zeitsteuerung mit einem Testprodukt „in 20 Minuten“ prüfen. Am 14.01. um 17:50 Vorbestellung aktiv oder Zeitsteuerung geprüft, 17:58 Link im privaten Fenster testen.
+- **Schritt 11 (Mo 25.01.) und Generalprobe Fr 29.01.:** Zeitsteuerung mit einem Testprodukt „in 20 Minuten“ prüfen. Am 01.02. um 17:50 Vorbestellung aktiv oder Zeitsteuerung geprüft, 17:58 Link im privaten Fenster testen.
 - **Drop-Tag:** Der Rev.-5.3-Schritt „19:00 Theme ‚Drop 24.06.‘ veröffentlichen“ entfällt (website.md 2), im Docket steht dazu eine Notiz.
 **Design der Seite:** Palette aus Teppich und Sonnenuntergang, das einzige Blau ist der Denim auf den Fotos; echte Fotos vor Grafik; Ähren nie als freigestellte Grafik, Icon oder Favicon [W 6].
 **Termine:** Schritt 1 Sa 31.10. · Formular Mi 11.11. · Stufe 1 live Mi 18.11. · Stufe 2 Fr 11.12. · Raster Mo 21.12. · Vorbestell-Zustände Do 07.01. · Shoot-Bilder Sa 13.03. · „Der Weg zur Hütte“ Sa 20.03. · PLAN B üben Mi 19.05. · stiller Launch Mo 24.05. · Generalprobe Fr 11.06. · Code-Freeze Sa 19.06. Claude Code arbeitet an der Theme-Kopie, veröffentlichen und pushen machst nur du.
@@ -605,7 +609,7 @@ Presse ist Bonus und steht nicht im Soll [C 1.1]. Nachfassen einmal, nie öfter.
 - **Woher die +14 Stunden kommen:** Prüfliste der Fabriken, Wash-Fotos, Checkliste vor dem Livegang, Proto-Runde als Kern (2 × 60′ + 6 Video-Calls), Werkstatt-Mails, Bestellbestätigung, Retouren, Helfer anmelden, Zipper/Polo-Check, Umschichten in den ersten 72 Stunden. Dafür ist die Proto-Runde kein Grind+ mehr: Das Gate am 13.12. hängt an ihr.
 - **Ausnahmen** (lange Tage, ~25 Stunden): Shoot Sa 06.03. · Warenannahme und Prüfung Di 01.06.–Fr 04.06. · Vorbestellungen packen Di 08.–Mi 09.06. · Drop und Packen Do 24.–Fr 25.06. · Packen Tag 2 an die Helfer, sonst So 27.06. vormittags · So 11.10. (60′, nur wenn Claude kein Netz hat).
 - **Abende** sind als Kern auf 90–110 Minuten begrenzt. Die Verlängerung bis 21:00 steht als Grind+.
-- **Grind+** (~50 Stunden, alles optional): Karussells und Varianten, Laden-Runden, Mauerpark, Holy Shit Shopping, Mess-Abend 2b (nur bei Gate), Waschserie mit dem PP, Feld-Drehs, Countdown-Stand, Spiel nur bei „bauen“.
+- **Grind+** (~50 Stunden, alles optional): Karussells und Varianten, Laden-Runden, Mauerpark, Holy Shit Shopping, Waschserie mit dem PP, Feld-Drehs, Countdown-Stand, Spiel nur bei „bauen“.
 - **Rangfolge, wenn die Zeit nicht reicht:** Fabrik und Sample > Geld-Gates > Abende > Pflicht-Posts > Netz und Zusagen > Grind+.
 - Am Tag nach einem langen Abend nur Pflicht.
 
@@ -738,9 +742,9 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 | 1 | **Kein Ausreißer**, Liste bleibt bei 700–1.600 | G1/G2 ab W6 | Varianten-Regel, Hook-Tests, Wärme-Kette, Gate 40.01. |
 | 2 | **Steuer nicht im Budget** (~1.150 €, 40 statt 32 Vorbestellungen) | Steuerberater 13.10. | mit 1.150 € planen, DAP verhandeln (27.10.), Steuer getrennt von der Restzahlung: 40 ausgezahlt bis Mi 26.05. über Stufe 2, sonst Brücke |
 | 3 | **Fabrikpreis oder Stiche zu hoch** | Angebote 19.10., Vorschau 09.11. | Ampel, Stichdeckel, 75 Stück (Serp schon gestrichen) |
-| 4 | **Auszahlung verzögert** | Support-Antwort 30.10., Test 29.12. | nur ausgezahltes Geld zählt, PayPal parallel |
+| 4 | **Auszahlung verzögert** | Support-Antwort 07.01., Test 22.01. | nur ausgezahltes Geld zählt, PayPal parallel |
 | 5 | **Symbol-Shitstorm** (Ähren + Rot; die Sichel ist seit 11.10. gestrichen) [Z-Q34][Z-Q35][Z-Q51] | G7 | Wortliste, Bildregeln, Sperrtermine, nie diskutieren, nie Kritik löschen |
-| 6 | **Vertrauenslücke Vorbestellung** | G10, G11, Handheber < 20 am 13.01. | Checkliste 9/9, Geld-zurück, Mess-Abende, Gesicht |
+| 6 | **Vertrauenslücke Vorbestellung** | G10, G11, Handheber < 20 am 31.01. | Checkliste 9/9, Geld-zurück, Mess-Abende, Gesicht |
 | 7 | **Liste altert** (6 Monate Warten) [M-Q25] | Klickrate der Drop-Mails | alle 2–4 Wochen ein Ereignis, Broadcast, „Day X“ |
 | 8 | **Fabrik fällt aus** nach der Anzahlung | Antwortzeiten, Inline-Fotos 02.03./15.03. | Gates bis PP, Reserve-Fabrik warm, Bankdaten-Regel, Brücke |
 | 9 | **Lieferverzug** (Ramadan ca. 08.02.–09.03. und Fest, Ostern, Zoll; Feiertage TR 28./29.10., PT 01./08.12., ungeprüft) | kein Tracking bis 26.05.; Antworten aus den Calls 21.–23.10. | Produktionsplan mit Ramadan-Arbeitszeit (19.02.), Puffer bis 17.06., B-Zeitachse 2 mit Drop 01.07., Mail mit Erstattungsangebot, wenn die Ware nach 27.06. kommt |
@@ -761,6 +765,7 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 | Bis | Frage | Mein Rat |
 |---|---|---|
 | **Fr 09.10.** | Serp-Farbe nach Testregel (entfällt, siehe 11.10.), B2-Kante, V1 Nummer, V5 Patch, V6 Karte, Taschenklappe, Nackenlabel (mit Novalife-Adresse), „goldene Nähte“, Namen nach außen | wie Abschnitt 12 |
+| **Sa 17.10.** | **Entschieden:** Erst Designs, Fabrik und Muster. Website, Shop und Papiere erst nach dem Sample-Gate Di 05.01. (Jeans-PP, Zipper, Polo als Einzelstücke freigegeben). Marketing läuft weiter. Vorbestellung Mo 01.02. statt Do 14.01. | erledigt |
 | **Fr 16.10.** | **Entschieden:** Polo-Brust-Logo als Kreuzstich-Baum (einfarbig Rot, ohne Buchstaben) · Patch D nach deinem Baum-Bild, mit „NL“, höchstens 4 Garnfarben · Zipper und Polo nach den Skizzen vom 15.10. | erledigt, Herkunft des Baum-Bildes offen |
 | **Di 13.10.** | **Entschieden:** Drop verschoben auf Do 24.06.2027 (Abitur). Bis Weihnachten wie geplant, Aufholwochen W19 und W22, Abi-Pause 22.03.–09.05. | erledigt |
 | **So 11.10.** | **Entschieden:** Serp gestrichen · Patch D wird die hintere Gürtelschlaufe (nur seitlich genäht und genietet) · Größe B, 76 × 67 mm, 3–5 mm Spiel | erledigt |
@@ -769,7 +774,7 @@ Alle Änderungen stehen im Docket (`skeleton.json`) am genannten Tag. Abweichung
 | So 18.10. | Pixel-Spiel | streichen, Scroll-Story B |
 | Di 20.10. | Patch D: mittig auf der hinteren Mittelnaht oder rechts daneben; „NL“ auf dem Patch | mittig, wenn die Fabrik Nieten über der Mittelnaht bestätigt; NL wie auf dem Foto |
 | Di 20.10. | Baum-Referenz: eigene oder fremde Vorlage? | fremd → Claude zeichnet eine eigene Fassung vor dem 28.10. |
-| ab So 01.11. | IHK-Gründungsberatung (angefragt am 13.10.), danach Gewerbe anmelden | anmelden vor der ersten Vorbestellung und bevor Rechnungen auf deinen Namen laufen; online geht es in 20 Minuten |
+| ab So 01.11. | IHK-Gründungsberatung (angefragt am 13.10.), Beratung darf vorher sein, **angemeldet wird Mi 06.01.** nach dem Sample-Gate (Fragebogen zur steuerlichen Erfassung Do 07.01.) | anmelden vor der ersten Vorbestellung und bevor Rechnungen auf deinen Namen laufen; online geht es in 20 Minuten |
 | Di 27.10. | DAP oder DDP | DAP, damit die Steuer nicht schon in der Restzahlung steckt |
 | Sa 07.11. | Sprache der Hooks und damit das Liefergebiet; Bildregel „keine Seitenansicht links“ | Test entscheidet; deutsch → nur Versand nach DE bis zum Drop; Bildregel halten |
 | So 29.11. | „Platz in der ersten Stunde sichern“ A (10 €) oder B (kostenlos) | B, A nur bei Liste < 170 und grünem Recht |

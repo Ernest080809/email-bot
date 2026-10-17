@@ -220,7 +220,7 @@
     "t": "09:00 · Restzahlung 21.05. vorbereiten (Steuer-Rücklage mitrechnen)",
     "m": 20,
     "s": [
-     "Blatt „Kasse“: Kontostand + ausgezahlte Vorbestellungen (Shopify → Finanzen → Auszahlungen) + bis Di 18.05. absehbare Auszahlungen (Auszahlungsdauer vom 29.12.).",
+     "Blatt „Kasse“: Kontostand + ausgezahlte Vorbestellungen (Shopify → Finanzen → Auszahlungen) + bis Di 18.05. absehbare Auszahlungen (Auszahlungsdauer vom 22.01.).",
      "Dagegen: Restzahlung laut Proforma (Planwert aus Rev. 5.3 bei 50/50 ca. 3.000 €, es gilt die Proforma) + Steuer-Rücklage (Einfuhrumsatzsteuer bei DAP) + Verpackung + Versand + Werbung aus Plan 3.",
      "Reicht es: Restzahlung für Fr 21.05. nach der Endkontrolle einplanen, Überweisungsdaten aus der Proforma vorab im Online-Banking als Vorlage anlegen (nicht ausführen).",
      "Reicht es nicht: Prompt unten an Claude. Optionen: Mess-Abend 3 am Sa voll nutzen, Notfall-Leiter ab Stufe 3, Backstop Mi 26.05. (Stufe 4), Teilzahlung gegen Teil-Lieferung (Stufe 6), Brücke (Stufe 7).",
@@ -689,10 +689,10 @@
     "m": 10,
     "s": [
      "Vorbestellungen ≥ 29 (Alarm 25)? Zahl aus Shopify → Bestellungen, bezahlt.",
-     "Absehbar ≥ 32 ausgezahlt bis Di 18.05.? Rechnen mit der Auszahlungsdauer vom 29.12. (Shopify → Finanzen → Auszahlungen). Ja → Restzahlung Fr 21.05. nach Endkontroll-Nachweis.",
+     "Absehbar ≥ 32 ausgezahlt bis Di 18.05.? Rechnen mit der Auszahlungsdauer vom 22.01. (Shopify → Finanzen → Auszahlungen). Ja → Restzahlung Fr 21.05. nach Endkontroll-Nachweis.",
      "Nein → Notfall-Leiter ab Stufe 3: Mess-Abend extra in dieser Woche, Bestand je Größe umschichten, persönliche DMs an alle Zusagen und „Vielleicht“. Backstop Mi 26.05. vorbereiten (Stufe 4): Fabrik heute vorwarnen, neuen Zahlungstag schriftlich.",
      "Die Frist für 149 € (So 23.05., 20:00) nie verlängern.",
-     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Shopify → Produkte → Entwurf vom 14.12. aktivieren), Mail an alle ohne Kauf, Story mit Link-Sticker.",
+     "Stufe-2-Check: Nr. 035 verkauft? Dann heute Stufe 2 live (Shopify → Produkte → Entwurf vom 22.01. aktivieren), Mail an alle ohne Kauf, Story mit Link-Sticker.",
      "Ergebnisse ins Blatt „Gates“."
     ],
     "f": "Zahl der Vorbestellungen, Hochrechnung ausgezahlt bis 18.05. und Entscheidung „Restzahlung 21.05.“ oder „Notfall-Leiter Stufe 3/Backstop“ im Blatt „Gates“ stehen.",

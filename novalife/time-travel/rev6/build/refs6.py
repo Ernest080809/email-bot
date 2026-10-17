@@ -214,7 +214,7 @@ def main():
     (BUILD / "zielgruppe.html").write_text(zg_main, encoding="utf-8")
 
     # Design (oben im Docket)
-    d_main = read(BUILD / "entscheidung_1510.html") + read(BUILD / "entscheidung_1110.html") + md2html(S["12"], key="ds1")
+    d_main = read(BUILD / "entscheidung_1710.html") + read(BUILD / "entscheidung_1510.html") + read(BUILD / "entscheidung_1110.html") + md2html(S["12"], key="ds1")
     d_main += "<h3>Papiertest 3 · Do 08.10. · Protokoll</h3>" + md2html(DS["4"], shift=1, key="dp")
     d_more = md2html(jn(DS["1"], DS["2"], DS["3"], DS["5"], DS["6"]), key="dm")
     d_main += block("design-voll", "Das ganze Design-Review · Stärken, Risiken, sechs Vorschläge, Lookbook", d_more, pill="")
@@ -222,7 +222,7 @@ def main():
 
     # Urteil (oben im Docket): handgeschriebener Kopf + Entscheidungen aus Strategie 17
     dec = re.sub(r"^## 17 · .*\n", "", S["17"])
-    urteil = read(BUILD / "entscheidung_1310.html") + read(BUILD / "entscheidung_1110.html") + read(BUILD / "urteil_head.html") + "<h3 style=\"font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;font-size:20px;margin:28px 0 10px\">Deine Entscheidungen mit Datum</h3>" + md2html(dec, key="ur")
+    urteil = read(BUILD / "entscheidung_1710.html") + read(BUILD / "entscheidung_1310.html") + read(BUILD / "entscheidung_1110.html") + read(BUILD / "urteil_head.html") + "<h3 style=\"font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;font-size:20px;margin:28px 0 10px\">Deine Entscheidungen mit Datum</h3>" + md2html(dec, key="ur")
     (BUILD / "urteil.html").write_text(urteil, encoding="utf-8")
 
     sizes = {n: len(f) for n, f in refs}

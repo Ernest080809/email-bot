@@ -1,7 +1,7 @@
 (function(){
 "use strict";
 
-var PH = {"P0": ["Design fertig", "14. Sep – 11. Okt 2026"], "P1": ["Fabrik finden", "12. Okt – 8. Nov 2026"], "P2": ["Sample", "9. Nov – 20. Dez 2026"], "P3": ["Vorbestellung", "21. Dez 2026 – 21. Feb 2027"], "P4": ["Produktion, Abi-Pause, Kampagne", "22. Feb – 30. Mai 2027"], "P5": ["Countdown & Drop", "31. Mai – 27. Jun 2027"]};
+var PH = {"P0": ["Design fertig", "14. Sep – 11. Okt 2026"], "P1": ["Fabrik finden", "12. Okt – 8. Nov 2026"], "P2": ["Sample und Sample-Gate", "9. Nov 2026 – 10. Jan 2027"], "P3": ["Shop und Vorbestellung", "11. Jan – 21. Feb 2027"], "P4": ["Produktion, Abi-Pause, Kampagne", "22. Feb – 30. Mai 2027"], "P5": ["Countdown & Drop", "31. Mai – 27. Jun 2027"]};
 var DROP = new Date("2027-06-24T19:00:00+02:00").getTime();
 var NW = WEEKS.length;
 

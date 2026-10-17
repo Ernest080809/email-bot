@@ -178,6 +178,7 @@
     "t": "Datenschutzerklärung ergänzen: Tally und „Bring 3“ (verschoben vom 13. und 15.10.)",
     "m": 20,
     "s": [
+     "Einzige Shop-Aufgabe vor dem Sample-Gate: Ohne diese zwei Absätze dürfen Tally und „Bring 3“ nicht laufen, und beide sind Marketing.",
      "e-recht24-Generator öffnen, Tally als Dienst ergänzen. Fehlt Tally dort, nimmst du Claudes Absatz vom 13.10.",
      "Claudes Satz zu Quellen-Tags und Empfehlungs-Code (Chat R1 vom 14.10.) dazu.",
      "Shopify → Onlineshop → Seiten → Datenschutz: beide Absätze einfügen, speichern.",
@@ -467,30 +468,6 @@
      "caption": "Rewind #03. The whole city went back. I didn't. Time Travel · 24.06.2027",
      "check": "Keine Gesichter groß im Bild ohne Erlaubnis · Musik aus der kommerziellen Bibliothek · nur Bleach-Teil"
     }
-   }
-  ]
- },
- "2026-11-11": {
-  "append": [
-   {
-    "c": "A",
-    "t": "Feld „Codewort aus dem Video“ ins Wartelisten-Formular",
-    "m": 10,
-    "s": [
-     "Im selben Formular wie die Größen- und Quellen-Tags ein freiwilliges Feld „Codewort aus dem Video“ ergänzen. Claude schreibt dir den Code-Schnipsel.",
-     "Gespeichert wird es als Tag „rw-[Codewort]“, z. B. „rw-rw04“.",
-     "Test mit einer Testadresse, Tag beim Kunden prüfen.",
-     "Ab REWIND #04 (Di 17.11.) zählt jedes Codewort im Cockpit für sein Video."
-    ],
-    "f": "der Test-Kunde den Tag „rw-test“ hat.",
-    "p": "Projekt Time Travel, Docket W9, Mi 11.11. Ich habe heute das Wartelisten-Formular mit Größen- und Quellen-Tags gebaut. Schreib mir den kleinsten Code-Schnipsel für ein freiwilliges Feld „Codewort aus dem Video“, das als Kunden-Tag „rw-[Wort in Kleinbuchstaben]“ gespeichert wird. Mit Testschritten.",
-    "o": [
-     {
-      "n": "Shopify-Admin",
-      "u": "https://admin.shopify.com",
-      "h": "Onlineshop → Themes → Code bearbeiten"
-     }
-    ]
    }
   ]
  },
@@ -1222,7 +1199,7 @@
     ],
     "v": {
      "id": "R11",
-     "slot": "Post Do 14.01. 19:00",
+     "slot": "Post Mo 01.02. 19:00",
      "dauer": "12 s",
      "plattform": "TikTok + Instagram Reels",
      "hook_en": "Last time I had no jeans. Now I do.",
@@ -1276,6 +1253,30 @@
  "2027-01-14": {
   "append": [
    {
+    "c": "A",
+    "t": "Feld „Codewort aus dem Video“ ins Wartelisten-Formular",
+    "m": 10,
+    "s": [
+     "Im selben Formular wie die Größen- und Quellen-Tags ein freiwilliges Feld „Codewort aus dem Video“ ergänzen. Claude schreibt dir den Code-Schnipsel.",
+     "Gespeichert wird es als Tag „rw-[Codewort]“, z. B. „rw-rw04“.",
+     "Test mit einer Testadresse, Tag beim Kunden prüfen.",
+     "Ab heute zählt jedes Codewort im Cockpit für sein Video. Bis heute hast du Codewörter nur in den Kommentaren gezählt."
+    ],
+    "f": "der Test-Kunde den Tag „rw-test“ hat.",
+    "p": "Projekt Time Travel, Docket W18, Do 14.01. Ich habe heute das Wartelisten-Formular mit Größen- und Quellen-Tags gebaut. Schreib mir den kleinsten Code-Schnipsel für ein freiwilliges Feld „Codewort aus dem Video“, das als Kunden-Tag „rw-[Wort in Kleinbuchstaben]“ gespeichert wird. Mit Testschritten.",
+    "o": [
+     {
+      "n": "Shopify-Admin",
+      "u": "https://admin.shopify.com",
+      "h": "Onlineshop → Themes → Code bearbeiten"
+     }
+    ]
+   }
+  ]
+ },
+ "2027-02-01": {
+  "append": [
+   {
     "c": "C",
     "t": "19:00 · REWIND #11 „G-Klasse II“ posten",
     "m": 15,
@@ -1296,7 +1297,7 @@
     ],
     "v": {
      "id": "R11",
-     "slot": "Do 14.01. 19:00",
+     "slot": "Mo 01.02. 19:00",
      "dauer": "12 s",
      "plattform": "TikTok + Instagram Reels",
      "hook_en": "Last time I had no jeans. Now I do.",
@@ -1313,47 +1314,6 @@
      "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
      "caption": "Rewind #11. Pre-orders are open: 35 pairs at €149. Link in bio. Time Travel · 24.06.2027",
      "check": "Rohaufnahme: Auto fährt nur rückwärts · Kennzeichen unscharf · Preis und Stückzahl stimmen mit dem Shop · Codewort RW11"
-    }
-   }
-  ]
- },
- "2027-01-28": {
-  "append": [
-   {
-    "c": "C",
-    "t": "18:00 · Making-of REWIND #11 posten: Rohaufnahme neben Endfassung",
-    "m": 20,
-    "s": [
-     "Geteiltes Bild: oben die Rohaufnahme, unten die Endfassung, gleich lang.",
-     "Text: „How we did it. Nobody was in danger.“",
-     "Auf die besten Fragen aus den Kommentaren antworten, eine davon als Video-Antwort."
-    ],
-    "f": "das Making-of läuft und auf das Original verweist.",
-    "o": [
-     {
-      "n": "CapCut",
-      "u": "https://www.capcut.com",
-      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
-     }
-    ],
-    "v": {
-     "id": "R11M",
-     "slot": "Do 28.01. 18:00",
-     "dauer": "15 s",
-     "plattform": "TikTok + Instagram Reels",
-     "hook_en": "How we did it. Nobody was in danger.",
-     "hook_de": "So haben wir's gemacht. Niemand war in Gefahr.",
-     "shots": [
-      "Rohaufnahme oben",
-      "Endfassung unten",
-      "Endkarte"
-     ],
-     "ort": "Schnitt, kein neuer Dreh",
-     "ton": "Originalton der Rohaufnahme, leiser Beat",
-     "text": "„RAW“ oben, „FINAL“ unten",
-     "cta": "Original-Video verlinken",
-     "caption": "Behind Rewind #11. The car only drove backwards.",
-     "check": "Rohaufnahme zeigt klar, dass niemand in Gefahr war"
     }
    }
   ]
@@ -1404,6 +1364,47 @@
      "cta": "Warteliste: Link in der Bio, erster Kommentar angepinnt",
      "caption": "Rewind #12. Tree of life, Tiergarten. Time Travel · 24.06.2027",
      "check": "Nie „slawischer Lebensbaum“ · Formen deckungsgleich · Codewort RW12"
+    }
+   }
+  ]
+ },
+ "2027-02-08": {
+  "append": [
+   {
+    "c": "C",
+    "t": "18:00 · Making-of REWIND #11 posten: Rohaufnahme neben Endfassung",
+    "m": 20,
+    "s": [
+     "Geteiltes Bild: oben die Rohaufnahme, unten die Endfassung, gleich lang.",
+     "Text: „How we did it. Nobody was in danger.“",
+     "Auf die besten Fragen aus den Kommentaren antworten, eine davon als Video-Antwort."
+    ],
+    "f": "das Making-of läuft und auf das Original verweist.",
+    "o": [
+     {
+      "n": "CapCut",
+      "u": "https://www.capcut.com",
+      "h": "Rückwärts, Geschwindigkeit, Maske, Standbild"
+     }
+    ],
+    "v": {
+     "id": "R11M",
+     "slot": "Mo 08.02. 18:00",
+     "dauer": "15 s",
+     "plattform": "TikTok + Instagram Reels",
+     "hook_en": "How we did it. Nobody was in danger.",
+     "hook_de": "So haben wir's gemacht. Niemand war in Gefahr.",
+     "shots": [
+      "Rohaufnahme oben",
+      "Endfassung unten",
+      "Endkarte"
+     ],
+     "ort": "Schnitt, kein neuer Dreh",
+     "ton": "Originalton der Rohaufnahme, leiser Beat",
+     "text": "„RAW“ oben, „FINAL“ unten",
+     "cta": "Original-Video verlinken",
+     "caption": "Behind Rewind #11. The car only drove backwards.",
+     "check": "Rohaufnahme zeigt klar, dass niemand in Gefahr war"
     }
    }
   ]

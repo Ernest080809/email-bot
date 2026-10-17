@@ -65,17 +65,10 @@ def img_uri(im):
 # ================= Hardware =================
 def button(cx, cy, d):
     r = d / 2
-    def star(r1, r2):
-        pts = []
-        for k in range(16):
-            ang = math.pi / 8 * k - math.pi / 2
-            rr = r1 if k % 2 == 0 else r2
-            pts.append((cx + rr * math.cos(ang), cy + rr * math.sin(ang)))
-        return poly(pts)
+    star = "".join(poly(q) for q in FN.star8_rhombi(cx, cy, r * 1.36, d * 0.02))   # Achtstern aus 8 Rauten, vertieft
     return (f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r)}" style="fill: {COP}; stroke: {COPD}; stroke-width: {F(d*0.02)}px"></circle>'
             f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r*0.84)}" style="fill: none; stroke: {COPD}; stroke-width: {F(d*0.018)}px"></circle>'
-            f'<path d="{star(r*0.62, r*0.36)}" style="fill: {COPD}; fill-opacity: 0.55; stroke: {COPD}; stroke-width: {F(d*0.012)}px"></path>'
-            f'<path d="{star(r*0.30, r*0.17)}" style="fill: {COPL}"></path>')
+            f'<path d="{star}" style="fill: {COPD}; fill-opacity: 0.6"></path>')
 
 
 def rivet(cx, cy, d=9.0):
@@ -227,10 +220,10 @@ rows = [
     ("A", "Taschenband vorn rechts", f"23 mm breit, 17 Kreuzstiche, Innenkante {INNER_MM} mm auf der Taschenöffnung", "Rot, Weiß", "Jeansfabrik"),
     ("E", "Münztasche voll bestickt", f"Tasche 62 × 62 mm, Stickerei 60 × 60 mm, {COIN_C} × {COIN_R} Stiche, wie v1.8", "Rot, Weiß", "Jeansfabrik"),
     ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
-    ("C", "Achtstern", "rechte Gesäßtasche, 36 × 36 mm, 27 × 27 Stiche, Höhe wie B2-Band", "Rot, Weiß", "Jeansfabrik"),
+    ("C", "Achtstern aus 8 Rauten", "rechte Gesäßtasche, 36 × 36 mm, Fugen 1 mm, Plattstich, Höhe wie B2-Band", "Rot", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
     ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, Naturleinen, 4 Kupfernieten, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
-    ("K", "Knopf", f"Shank Button {F(BUTTON_D)} mm, Antik-Kupfer, Achtstern vertieft", "Kupfer", "Fabrik (Knopf-Lieferant)"),
+    ("K", "Knopf", f"Shank Button {F(BUTTON_D)} mm, Antik-Kupfer, Achtstern aus 8 Rauten vertieft", "Kupfer", "Fabrik (Knopf-Lieferant)"),
     ("N", "Nieten", "Antik-Kupfer, glatt: 6 × 9 mm vorn, 4 × 6 mm am Patch", "Kupfer", "Fabrik"),
 ]
 p = header(1, "Übersicht · was sich nach Papiertest 3 geändert hat", [
@@ -261,7 +254,8 @@ for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bl
           "Knopf: 17 → 20 mm. 20 mm ist die Standardgröße (Ligne 32), dafür gibt es die meisten Lieferanten.",
           "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion. Der Gürtel passt weiter durch.",
           "Gesäßtaschen: 144 × 172 → 160/130 × ~150 mm. Neigung jetzt 5 mm statt 16 mm, und andersherum: innen höher.",
-          "Patch D: sitzt jetzt hinten rechts statt in der Mitte. Die hintere Mittelschlaufe bleibt."]:
+          "Patch D: sitzt jetzt hinten rechts statt in der Mitte. Die hintere Mittelschlaufe bleibt.",
+          "Achtstern C und Knopf: neue Form aus 8 Rauten (deine Vorlage), einfarbig Rot, Plattstich statt Kreuzstich."]:
     p.append(T(14, y, "· " + s, 2.8, 400, SUB)); y += 5
 y += 4
 p.append(T(12, y, "Größen W30–W38", 3.4, 700)); y += 6
@@ -288,7 +282,7 @@ p += [f'<rect x="{F(EX)}" y="{F(EY)}" width="{F(COIN_W)}" height="{F(COIN_H)}" s
       T(EX + COIN_W + 5, EY + 6, "E · Münztasche", 3.4, 700), T(EX + COIN_W + 5, EY + 11, "62 × 62 mm, Stickerei 60 × 60 mm", 3, 400, SUB),
       T(EX + COIN_W + 5, EY + 15.5, f"{COIN_C} × {COIN_R} Kreuzstiche, Rot und Weiß", 3, 400, SUB),
       button(170, 64, BUTTON_D), cut(f"M{F(170-BUTTON_D/2-2)} {F(64-BUTTON_D/2-2)}h{F(BUTTON_D+4)}v{F(BUTTON_D+4)}h{F(-BUTTON_D-4)}z"),
-      T(170, 82, f"K · Knopf {F(BUTTON_D)} mm", 3, 700, anchor="middle"), T(170, 86.5, "Antik-Kupfer, Achtstern vertieft", 2.7, 400, SUB, "middle"),
+      T(170, 82, f"K · Knopf {F(BUTTON_D)} mm", 3, 700, anchor="middle"), T(170, 86.5, "Antik-Kupfer, Achtstern aus 8 Rauten vertieft", 2.7, 400, SUB, "middle"),
       rivet(152, 98), rivet(164, 98), rivet(176, 98), rivet(188, 98), rivet(158, 109), rivet(170, 109),
       T(170, 119, "N · 6 Nieten 9 mm, Antik-Kupfer", 3, 700, anchor="middle"),
       band_g,
@@ -315,16 +309,15 @@ pages.append(p)
 
 # ---- 4 Hinten rechts: C
 R_PTS = pocket_shape(False)
-AW, AR = FN.alatyr_fine()
-star = FN.stitched(AW, AR, 27, 27, MOTIF_C[0] - 27 * u / 2, MOTIF_C[1] - 27 * u / 2, u)
+star = FN.star8_svg(MOTIF_C[0], MOTIF_C[1], 36.0, 1.0)
 p = header(4, "Hinten rechts · Achtstern (C)", [
     "Tasche ausschneiden und auf deine rechte Gesäßtasche legen (vom Träger aus rechts). Die Innenseite (zur Mitte) ist 5 mm höher.",
-    "Der Stern sitzt waagerecht mittig, auf gleicher Höhe wie das rote Band links.",
-    "Nach außen heißt er „eight-point star“, nicht „Alatyr“.",
+    "Der Stern sitzt waagerecht mittig, auf gleicher Höhe wie das rote Band links. Nach außen heißt er „eight-point star“.",
+    "Form: 8 Rauten mit 1 mm Fugen, durch die der Denim scheint. Einfarbig Rot, Plattstich, Stichrichtung quer zu jeder Raute.",
 ])
 p += [f'<g transform="translate({PX} {PY})">{pocket_svg(R_PTS, star)}</g>',
       f'<g transform="translate({PX} {PY})">{"".join(dims(R_PTS, False))}</g>',
-      T(PX + 80, PY + POCKET_H + 10, "C · Tasche oben 160, unten 130, Spitze je 70 mm · Stern 36 × 36 mm, 27 × 27 Stiche", 3, 700, anchor="middle"),
+      T(PX + 80, PY + POCKET_H + 10, "C · Tasche oben 160, unten 130, Spitze je 70 mm · Stern 36 × 36 mm aus 8 Rauten, Fugen 1 mm", 3, 700, anchor="middle"),
       checkline(272)]
 pages.append(p)
 

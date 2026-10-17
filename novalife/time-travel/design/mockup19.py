@@ -51,18 +51,11 @@ def rivet(cx, cy, d_mm=9.0):
 
 def button(cx, cy, d_mm=20.0):
     r = d_mm * S / 2
-
-    def star(r1, r2):
-        pts = []
-        for k in range(16):
-            a = math.pi / 8 * k - math.pi / 2; rr = r1 if k % 2 == 0 else r2
-            pts.append((cx + rr * math.cos(a), cy + rr * math.sin(a)))
-        return poly(pts)
+    star = "".join(poly(q) for q in FN.star8_rhombi(cx, cy, r * 1.36, d_mm * S * 0.02))   # Achtstern aus 8 Rauten
     return (f'<circle cx="{F(cx)}" cy="{F(cy+1.5)}" r="{F(r+1)}" style="fill: #000; opacity: 0.28"></circle>'
             f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r)}" style="fill: url(#cop); stroke: {COPD}; stroke-width: 1px"></circle>'
             f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r*0.84)}" style="fill: none; stroke: {COPD}; stroke-width: 0.8px"></circle>'
-            f'<path d="{star(r*0.62, r*0.36)}" style="fill: {COPD}; fill-opacity: 0.55; stroke: {COPD}; stroke-width: 0.5px"></path>'
-            f'<path d="{star(r*0.30, r*0.17)}" style="fill: {COPL}"></path>')
+            f'<path d="{star}" style="fill: {COPD}; fill-opacity: 0.6"></path>')
 
 
 # ================= Vorn: Band A auf der Taschenöffnung des Referenz-Fits =================
@@ -192,8 +185,7 @@ def pocket(pts, motif, x0, y0, cid):
 
 L_PTS, R_PTS = pocket_shape(True), pocket_shape(False)
 b2x, b2y = MOTIF_C[0] - 24.0, MOTIF_C[1] - 24.55
-AW, AR = FN.alatyr_fine()
-STAR = FN.stitched(AW, AR, 27, 27, MOTIF_C[0] - 27 * FN.CELL / 2, MOTIF_C[1] - 27 * FN.CELL / 2, FN.CELL)
+STAR = FN.star8_svg(MOTIF_C[0], MOTIF_C[1], 36.0, 1.0)      # Achtstern aus 8 Rauten (Vorlage 17.10.)
 
 src = Image.open(os.path.join(HERE, "..", "rev6", "skizzen", "2026-10-16_baum_referenz_patch_d.jpg")).convert("RGB")
 buf = io.BytesIO(); src.crop((80, 118, 948, 884)).resize((400, 355), Image.LANCZOS).save(buf, "JPEG", quality=92)

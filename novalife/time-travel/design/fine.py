@@ -77,3 +77,48 @@ def stitched(W,Rset,rows,cols,x0,y0,u):
        f'<path d="{cells_path(sorted(W),x0,y0,u)}" style="fill: {WHT2}"></path>',
        xstitch(red,x0,y0,u,REDL,u*0.3), xstitch(sorted(W),x0,y0,u,WHITE,u*0.34)]
     return "\n".join(o)
+
+# ---------- C · Achtstern aus 8 Rauten (Vorlage 17.10.2026) ----------
+# 8 Rauten mit 45°-Spitze in der Mitte, Fugen dazwischen. w = Breite über alles.
+def star8_rhombi(cx,cy,w,gap=1.0,_nom=None):
+    """w ist die echte Breite über alles, nach dem Ausschneiden der Fugen"""
+    if _nom is None:
+        q=star8_rhombi(0,0,w,gap,w); outer=2*max(abs(x) for p in q for x,y in p)
+        return star8_rhombi(cx,cy,w,gap,2*w-outer)
+    s=_nom/(2+2**0.5)                     # Seitenlänge: Breite ohne Fugen = 3,414 * s
+    def u(a): return (math.cos(math.radians(a)),-math.sin(math.radians(a)))
+    out=[]
+    for k in range(8):
+        a,b=u(45*k),u(45*k+45)
+        pts=[(cx,cy),(cx+s*a[0],cy+s*a[1]),(cx+s*(a[0]+b[0]),cy+s*(a[1]+b[1])),(cx+s*b[0],cy+s*b[1])]
+        out.append(_inset(pts,gap/2))
+    return out
+def _inset(pts,d):
+    n=len(pts); area=sum(pts[i][0]*pts[(i+1)%n][1]-pts[(i+1)%n][0]*pts[i][1] for i in range(n))
+    sg=1 if area>0 else -1; lines=[]
+    for i in range(n):
+        (x1,y1),(x2,y2)=pts[i],pts[(i+1)%n]; ex,ey=x2-x1,y2-y1; l=math.hypot(ex,ey)
+        nx,ny=-ey/l*sg,ex/l*sg
+        lines.append(((x1+nx*d,y1+ny*d),(ex,ey)))
+    out=[]
+    for i in range(n):
+        (p,r),(q,t)=lines[i-1],lines[i]; den=r[0]*t[1]-r[1]*t[0]
+        k=((q[0]-p[0])*t[1]-(q[1]-p[1])*t[0])/den
+        out.append((p[0]+r[0]*k,p[1]+r[1]*k))
+    return out
+def star8_svg(cx,cy,w,gap=1.0,sp=0.45):
+    """Stern gefüllt in Rot, feine Linien quer zu jeder Raute zeigen die Plattstich-Richtung"""
+    polys=star8_rhombi(cx,cy,w,gap); P=lambda q:"M"+"L".join(f"{F(x)} {F(y)}" for x,y in q)+"Z"
+    hatch=[]
+    for k,q in enumerate(polys):
+        a=math.radians(45*k+22.5); ax,ay=math.cos(a),-math.sin(a)   # Achse Mitte -> Spitze
+        proj=[(x-cx)*ax+(y-cy)*ay for x,y in q]; t=min(proj)+sp/2
+        while t<max(proj):
+            hits=[]
+            for i in range(4):
+                (x1,y1),(x2,y2)=q[i],q[(i+1)%4]; d1,d2=proj[i]-t,proj[(i+1)%4]-t
+                if d1*d2<0: f=d1/(d1-d2); hits.append((x1+(x2-x1)*f,y1+(y2-y1)*f))
+            if len(hits)==2: hatch.append(f"M{F(hits[0][0])} {F(hits[0][1])}L{F(hits[1][0])} {F(hits[1][1])}")
+            t+=sp
+    return (f'<path d="{"".join(P(q) for q in polys)}" style="fill: {REDD}"></path>'
+            f'<path d="{"".join(hatch)}" style="fill: none; stroke: {REDL}; stroke-width: {F(sp*0.55)}px; stroke-linecap: round"></path>')

@@ -121,7 +121,7 @@ INNER = edge(0); OUTER = edge(-ROWS * u)
 A_MM = round(LTOT / S)
 
 # Münztasche E, 62 x 62 mm, oben an der Bundnaht; der untere Teil steckt hinter dem Vorderteil
-EX, EY = 2 * 179, 2 * 176                  # rechte Kante an der Taschennieten-Ecke
+EX, EY = 2 * (172 - N15.COIN_MM * 0.875 / 2), 2 * 176   # waagerecht mittig zwischen Seitennaht (103) und Taschenniete (238)
 CS = N15.COIN_MM * S
 E = FN.stitched(FN.coin_white(), None, N15.COIN_N, N15.COIN_N, EX + (CS - N15.COIN_N * u) / 2, EY + (CS - N15.COIN_N * u) / 2, u)
 FACING = poly(INNER + [(Q[3][0] - 60, Q[3][1]), (Q[3][0] - 60, 0), (Q[0][0], 0)])

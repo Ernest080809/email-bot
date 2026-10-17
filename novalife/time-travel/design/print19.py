@@ -280,7 +280,7 @@ BTX, BTY = 196 - BAND_W_MM, 266 - BAND_H_MM      # Band rechts unten
 band_g = f'<g transform="translate({F(BTX)} {F(BTY)}) scale(1.25) translate({F(-BX0)} {F(-BY0)})">{BAND}{cut(BAND_CUT)}</g>'
 p = header(2, "Vorn · Band A, Münztasche E, Knopf, Nieten", [
     "A und E gehören an die Vordertasche mit der Münztasche (vom Träger aus rechts). Innere Bogenkante von A auf die Taschenöffnung.",
-    "E: die ganze Münztasche, 62 × 62 mm. Oben bündig an die Münztaschen-Naht, rechte Kante direkt an der Niete der Taschenöffnung.",
+    "E: die ganze Münztasche, 62 × 62 mm. Oben bündig an die Münztaschen-Naht, waagerecht mittig zwischen Seitennaht und Taschenniete.",
     "Knopf: auf deinen Bundknopf kleben. Nieten: an die Ecken der Vordertaschen und der Münztasche.",
 ])
 p += [f'<rect x="{F(EX)}" y="{F(EY)}" width="{F(COIN_W)}" height="{F(COIN_H)}" style="fill: #34506f"></rect>', E,

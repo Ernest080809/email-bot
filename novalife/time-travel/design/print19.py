@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Druckvorlage 1:1 · Design v1.9 (17.10.2026) · Jeans · Maße aus Papiertest 3 an der Eightyfive
-#   Münztasche E 70 x 80 mm · Band A Innenkante 175 mm · Knopf 20 mm · Patch D 80 x 71 mm
+#   Münztasche E bleibt 62 x 62 mm wie v1.8 · Band A Innenkante 175 mm · Knopf 20 mm · Patch D 80 x 71 mm
 #   Gesäßtaschen oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm
 #   1 Übersicht · 2 vorn A, E, Knopf, Nieten · 3 hinten links B2 · 4 hinten rechts C · 5 Patch D
 import base64, bisect, io, contextlib, math, os
@@ -23,8 +23,8 @@ OUT = os.path.join(HERE, "v19")
 os.makedirs(OUT, exist_ok=True)
 
 # ---- Maße v1.9
-COIN_W, COIN_H = 70.0, 80.0          # Münztasche
-COIN_C, COIN_R = 51, 59              # Kreuzstiche: 68 x 78,7 mm
+COIN_W = COIN_H = N15.COIN_MM        # Münztasche 62 x 62 wie v1.8 (Entscheidung 17.10.: nicht größer)
+COIN_C = COIN_R = N15.COIN_N         # 45 x 45 Kreuzstiche, 60 x 60 mm
 BAND_K = 0.944                       # Kurve skaliert: Innenkante 175 mm (vorher 186)
 BUTTON_D = 20.0                      # Knopf, Standardgröße 20 mm (Ligne 32)
 PATCH_W, PATCH_H = 80.0, 71.0        # Patch D, vorher 76 x 67
@@ -151,26 +151,6 @@ BX0 = min(p[0] for p in ALLB); BX1 = max(p[0] for p in ALLB); BY0 = min(p[1] for
 BAND_W_MM = (BX1 - BX0) * 1.25; BAND_H_MM = (BY1 - BY0) * 1.25
 
 
-# ================= Münztasche E 70 x 80 =================
-def coin_white2(cols, rows):
-    W = set(); h = cols // 2
-    for c in range(cols):
-        x = c - h
-        W.add(({0: 3, 1: 2, 2: 1, 3: 2}[abs(x) % 4], c))
-        if x % 2 == 0:
-            W.add((5, c))
-    for r in range(7, rows):
-        for c in range(cols):
-            x = c - h; y = r - 7
-            if (x + y) % 8 == 0 or (x - y) % 8 == 0:
-                W.add((r, c))
-            if ((x % 8 == 4 and y % 8 == 0) or (x % 8 == 0 and y % 8 == 4)) and y > 0:
-                for dr, dc in [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)]:
-                    if 7 <= r + dr < rows and 0 <= c + dc < cols:
-                        W.add((r + dr, c + dc))
-    return W
-
-
 # ================= Gesäßtaschen =================
 def pocket_shape(inner_right=True):
     """Fünfeck in Taschen-mm. Innenseite (zur hinteren Mitte) ist 5 mm länger, Spitze unten mittig."""
@@ -245,7 +225,7 @@ pages = []
 L_PTS = pocket_shape(True); POCKET_H = round(max(p[1] for p in L_PTS))
 rows = [
     ("A", "Taschenband vorn rechts", f"23 mm breit, 17 Kreuzstiche, Innenkante {INNER_MM} mm auf der Taschenöffnung", "Rot, Weiß", "Jeansfabrik"),
-    ("E", "Münztasche voll bestickt", f"Tasche 70 × 80 mm, Stickerei 68 × 79 mm, {COIN_C} × {COIN_R} Stiche", "Rot, Weiß", "Jeansfabrik"),
+    ("E", "Münztasche voll bestickt", f"Tasche 62 × 62 mm, Stickerei 60 × 60 mm, {COIN_C} × {COIN_R} Stiche, wie v1.8", "Rot, Weiß", "Jeansfabrik"),
     ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
     ("C", "Achtstern", "rechte Gesäßtasche, 36 × 36 mm, 27 × 27 Stiche, Höhe wie B2-Band", "Rot, Weiß", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
@@ -255,7 +235,7 @@ rows = [
 ]
 p = header(1, "Übersicht · was sich nach Papiertest 3 geändert hat", [
     "Seiten 2–5 sind 1:1. Alle Maße gelten für Basisgröße M (gemessen an deiner Eightyfive in M).",
-    "Neu: Münztasche 70 × 80 mm, Band A kürzer, Knopf 20 mm, Patch D 80 × 71 mm,",
+    "Neu: Band A kürzer, Knopf 20 mm, Patch D 80 × 71 mm. Münztasche E bleibt 62 × 62 mm wie in v1.8.",
     "Gesäßtaschen kleiner und nur leicht schräg (innen 5 mm höher). Ohne Serp, alle Metallteile Antik-Kupfer.",
 ], "ÜBERSICHT")
 y = 52
@@ -276,7 +256,7 @@ for k, a, b, c, d in rows:
     p.append(f'<path d="M12 {F(y-5.2)}H198" style="stroke: #e2e5ea; stroke-width: 0.3px"></path>')
 y += 4
 p.append(T(12, y, "Was sich gegenüber v1.8 geändert hat", 3.4, 700)); y += 6
-for s in ["Münztasche E: 62 × 62 → 70 × 80 mm. Mehr Stickfläche, schätzungsweise +4.000 Stiche.",
+for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bleibt bei ~28.000 Stichen.",
           f"Band A: Innenkante {INNER_MM} mm statt 186 mm. Die Außenkante ist {OUTER_MM} mm lang, weil das Band 23 mm breit im Bogen läuft.",
           "Knopf: 17 → 20 mm. 20 mm ist die Standardgröße (Ligne 32), dafür gibt es die meisten Lieferanten.",
           "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion. Der Gürtel passt weiter durch.",
@@ -294,17 +274,17 @@ pages.append(p)
 u = FN.CELL
 EX, EY = 14, 50
 ex0 = EX + (COIN_W - COIN_C * u) / 2; ey0 = EY + (COIN_H - COIN_R * u) / 2
-E = FN.stitched(coin_white2(COIN_C, COIN_R), None, COIN_R, COIN_C, ex0, ey0, u)
+E = FN.stitched(FN.coin_white(), None, COIN_R, COIN_C, ex0, ey0, u)
 BTX, BTY = 196 - BAND_W_MM, 266 - BAND_H_MM      # Band rechts unten
 band_g = f'<g transform="translate({F(BTX)} {F(BTY)}) scale(1.25) translate({F(-BX0)} {F(-BY0)})">{BAND}{cut(BAND_CUT)}</g>'
 p = header(2, "Vorn · Band A, Münztasche E, Knopf, Nieten", [
     "A und E gehören an die Vordertasche mit der Münztasche (vom Träger aus rechts). Innere Bogenkante von A auf die Taschenöffnung.",
-    "E: die ganze Münztasche, 70 × 80 mm. Oben beginnt sie in der Tasche, wie bei deiner Eightyfive.",
+    "E: die ganze Münztasche, 62 × 62 mm wie in v1.8. Oben bündig an die Münztaschen-Naht.",
     "Knopf: auf deinen Bundknopf kleben. Nieten: an die Ecken der Vordertaschen und der Münztasche.",
 ])
 p += [f'<rect x="{F(EX)}" y="{F(EY)}" width="{F(COIN_W)}" height="{F(COIN_H)}" style="fill: #34506f"></rect>', E,
       cut(f"M{F(EX)} {F(EY)}h{F(COIN_W)}v{F(COIN_H)}h{F(-COIN_W)}z"),
-      T(EX + COIN_W + 5, EY + 6, "E · Münztasche", 3.4, 700), T(EX + COIN_W + 5, EY + 11, "70 × 80 mm, Stickerei 68 × 79 mm", 3, 400, SUB),
+      T(EX + COIN_W + 5, EY + 6, "E · Münztasche", 3.4, 700), T(EX + COIN_W + 5, EY + 11, "62 × 62 mm, Stickerei 60 × 60 mm", 3, 400, SUB),
       T(EX + COIN_W + 5, EY + 15.5, f"{COIN_C} × {COIN_R} Kreuzstiche, Rot und Weiß", 3, 400, SUB),
       button(170, 64, BUTTON_D), cut(f"M{F(170-BUTTON_D/2-2)} {F(64-BUTTON_D/2-2)}h{F(BUTTON_D+4)}v{F(BUTTON_D+4)}h{F(-BUTTON_D-4)}z"),
       T(170, 82, f"K · Knopf {F(BUTTON_D)} mm", 3, 700, anchor="middle"), T(170, 86.5, "Antik-Kupfer, Achtstern vertieft", 2.7, 400, SUB, "middle"),

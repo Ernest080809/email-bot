@@ -209,8 +209,10 @@ def dims(pts, inner_right):
 
 
 # ================= Patch D =================
-src = Image.open(os.path.join(SKIZZEN, "2026-10-16_baum_referenz_patch_d.jpg")).convert("RGB")
-PATCH_PHOTO = img_uri(src.crop((80, 118, 948, 884)).resize((800, 710), Image.LANCZOS))
+# Vorlage vom 20.10.: freigestellt von patch_cut.py, Form oben und unten mittig gewölbt
+_pb = io.BytesIO(); Image.open(os.path.join(OUT, "patch_d.png")).resize((800, 710), Image.LANCZOS).save(_pb, "PNG")
+PATCH_PHOTO = "data:image/png;base64," + base64.b64encode(_pb.getvalue()).decode()
+PATCH_BULGE, PATCH_SIDE = 5.5, PATCH_H - 11.0        # Wölbung je 5,5 mm, Seiten 60 mm hoch
 
 pages = []
 
@@ -222,7 +224,7 @@ rows = [
     ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
     ("C", "Achtstern aus 8 Rauten", "rechte Gesäßtasche, 36 × 36 mm, Fugen 1 mm, Plattstich, Höhe wie B2-Band", "Rot", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
-    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, Naturleinen, 4 Kupfernieten, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
+    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, oben und unten gewölbt, Naturleinen, 4 glatte Kupfernieten, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
     ("K", "Knopf", f"Shank Button {F(BUTTON_D)} mm, Antik-Kupfer, Achtstern aus 8 Rauten vertieft", "Kupfer", "Fabrik (Knopf-Lieferant)"),
     ("N", "Nieten", "Antik-Kupfer, glatt: 6 × 9 mm vorn, 4 × 6 mm am Patch", "Kupfer", "Fabrik"),
 ]
@@ -254,7 +256,7 @@ for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bl
           "Knopf: 17 → 20 mm. 20 mm ist die Standardgröße (Ligne 32), dafür gibt es die meisten Lieferanten.",
           "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion. Der Gürtel passt weiter durch.",
           "Gesäßtaschen: 144 × 172 → 160/130 × ~150 mm. Neigung jetzt 5 mm statt 16 mm, und andersherum: innen höher.",
-          "Patch D: sitzt jetzt hinten rechts statt in der Mitte. Die hintere Mittelschlaufe bleibt.",
+          "Patch D: sitzt jetzt hinten rechts statt in der Mitte, Form wie deine Vorlage (oben und unten gewölbt).",
           "Achtstern C und Knopf: neue Form aus 8 Rauten (deine Vorlage), einfarbig Rot, Plattstich statt Kreuzstich."]:
     p.append(T(14, y, "· " + s, 2.8, 400, SUB)); y += 5
 y += 4
@@ -323,28 +325,30 @@ pages.append(p)
 
 # ---- 5 Patch D
 p = header(5, "Hinten rechts · Patch D als Gürtelschlaufe", [
-    f"Dein Baum-Bild 1:1, jetzt {F(PATCH_W)} × {F(PATCH_H)} mm. Die 4 Garnfarben legt der Patch-Hersteller mit dir fest: Gold, Kupfer, Dunkelbraun, Rot.",
+    f"Deine Vorlage 1:1: {F(PATCH_W)} mm breit, {F(PATCH_H)} mm hoch in der Mitte, {F(PATCH_SIDE)} mm an den Seiten. Garnfarben (höchstens 4): Gold, Kupfer, Dunkelbraun, Rot.",
     "Sitz hinten rechts (vom Träger aus), zwischen Mittelschlaufe und rechter Schlaufe.",
     "Nur links und rechts genäht und genietet, oben und unten offen, der Gürtel läuft dahinter.",
     "Papiertest: Bild auf Pappe kleben, ausschneiden, hinten rechts mit Krepp nur links und rechts fixieren, Gürtel durchziehen.",
 ])
 px, py = 14, 56
 p += [f'<image href="{PATCH_PHOTO}" x="{px}" y="{py}" width="{F(PATCH_W)}" height="{F(PATCH_H)}" preserveAspectRatio="none"></image>',
-      cut(f"M{px} {py}h{F(PATCH_W)}v{F(PATCH_H)}h{F(-PATCH_W)}z"),
-      T(px + PATCH_W / 2, py + PATCH_H + 6, f"D · {F(PATCH_W)} × {F(PATCH_H)} mm · Foto 1:1", 3, 700, anchor="middle")]
+      cut(FN.patch_outline(px, py, PATCH_W, PATCH_H, PATCH_BULGE)),
+      T(px + PATCH_W / 2, py + PATCH_H + 6, f"D · {F(PATCH_W)} × {F(PATCH_H)} mm, Seiten {F(PATCH_SIDE)} mm · Foto 1:1", 3, 700, anchor="middle")]
 by = 150; bw, bh = PATCH_W, PATCH_H
 p += [T(14, by, "Bauplan für die Fabrik", 3.6, 700),
-      f'<rect x="14" y="{by+5}" width="{F(bw)}" height="{F(bh)}" style="fill: #efe7d6; stroke: {INK}; stroke-width: 0.3px"></rect>',
-      f'<rect x="14" y="{by+5}" width="8" height="{F(bh)}" style="fill: url(#hatch)"></rect>',
-      f'<rect x="{F(14+bw-8)}" y="{by+5}" width="8" height="{F(bh)}" style="fill: url(#hatch)"></rect>',
-      rivet(18, by + 11, 6), rivet(14 + bw - 4, by + 11, 6), rivet(18, by + bh - 1, 6), rivet(14 + bw - 4, by + bh - 1, 6),
+      f'<path d="{FN.patch_outline(14, by + 5, bw, bh, PATCH_BULGE)}" style="fill: #efe7d6; stroke: {INK}; stroke-width: 0.3px"></path>',
+      f'<rect x="14" y="{F(by+5+PATCH_BULGE)}" width="8" height="{F(PATCH_SIDE)}" style="fill: url(#hatch)"></rect>',
+      f'<rect x="{F(14+bw-8)}" y="{F(by+5+PATCH_BULGE)}" width="8" height="{F(PATCH_SIDE)}" style="fill: url(#hatch)"></rect>',
+      rivet(18.5, by + 5 + PATCH_BULGE + 5, 6), rivet(14 + bw - 4.5, by + 5 + PATCH_BULGE + 5, 6),
+      rivet(18.5, by + 5 + bh - PATCH_BULGE - 5, 6), rivet(14 + bw - 4.5, by + 5 + bh - PATCH_BULGE - 5, 6),
       f'<rect x="22" y="{F(by+5+bh/2-9.5)}" width="{F(bw-16)}" height="19" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
       T(14 + bw / 2, by + 5 + bh / 2 - 1.5, "Gürtel läuft dahinter", 2.8, 700, "#4a6fa5", "middle"),
       T(14 + bw / 2, by + 5 + bh / 2 + 3, f"Tunnel innen ca. {F(bw-16)} mm breit", 2.6, 400, "#4a6fa5", "middle")]
-for i, s in enumerate(["Schraffiert: je 8 mm Nahtzone links und rechts, dort genäht", "und mit je 2 Kupfernieten (6 mm) gesichert.",
+for i, s in enumerate(["Schraffiert: je 8 mm Nahtzone links und rechts, dort genäht", "und mit je 2 glatten Kupfernieten (6 mm) gesichert.",
                        "Oben und unten offen, keine Naht.", "Kante umgeschlagen und gesteppt, Grund Naturleinen.",
                        "Linien mind. 0,8 mm, Einrollungen mind. 2,5 mm.", "Muster vom Patch-Hersteller ist Pflicht vor 100 Stück.",
-                       "Sitz: hinten rechts, mittig zwischen", "Mittelschlaufe und rechter Schlaufe.", "Oberkante bündig mit der Bundoberkante."]):
+                       "Sitz: hinten rechts, mittig zwischen", "Mittelschlaufe und rechter Schlaufe.", "Höchster Punkt der Wölbung bündig mit der Bundoberkante.",
+                       "Form: Seiten gerade, oben und unten mittig je 5,5 mm gewölbt.", "Nieten ohne Zeichen (die im Foto sind Bildfehler)."]):
     p.append(T(102, by + 10 + i * 5, s, 2.8, 400, SUB))
 p.append(checkline(272))
 pages.append(p)

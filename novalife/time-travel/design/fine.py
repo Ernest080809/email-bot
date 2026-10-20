@@ -122,3 +122,12 @@ def star8_svg(cx,cy,w,gap=1.0,sp=0.45):
             t+=sp
     return (f'<path d="{"".join(P(q) for q in polys)}" style="fill: {REDD}"></path>'
             f'<path d="{"".join(hatch)}" style="fill: none; stroke: {REDL}; stroke-width: {F(sp*0.55)}px; stroke-linecap: round"></path>')
+
+# ---------- D · Patch-Umriss (Vorlage 20.10.2026) ----------
+# Seiten gerade, oben und unten mittig gewölbt. h = Höhe in der Mitte, b = Wölbung je Seite, a = halbe Breite der Wölbung
+def patch_outline(x0,y0,w=80.0,h=71.0,b=5.5,a=21.0):
+    cx=x0+w/2; yT=y0+b; yB=y0+h-b; k1,k2=0.45*a,0.4*a
+    P=lambda x,y:f"{F(x)} {F(y)}"
+    return (f"M{P(x0,yT)}L{P(cx-a,yT)}C{P(cx-a+k1,yT)} {P(cx-k2,y0)} {P(cx,y0)}C{P(cx+k2,y0)} {P(cx+a-k1,yT)} {P(cx+a,yT)}"
+            f"L{P(x0+w,yT)}L{P(x0+w,yB)}L{P(cx+a,yB)}C{P(cx+a-k1,yB)} {P(cx+k2,y0+h)} {P(cx,y0+h)}"
+            f"C{P(cx-k2,y0+h)} {P(cx-a+k1,yB)} {P(cx-a,yB)}L{P(x0,yB)}Z")

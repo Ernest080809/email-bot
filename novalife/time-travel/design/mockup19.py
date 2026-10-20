@@ -187,24 +187,22 @@ L_PTS, R_PTS = pocket_shape(True), pocket_shape(False)
 b2x, b2y = MOTIF_C[0] - 24.0, MOTIF_C[1] - 24.55
 STAR = FN.star8_svg(MOTIF_C[0], MOTIF_C[1], 36.0, 1.0)      # Achtstern aus 8 Rauten (Vorlage 17.10.)
 
-src = Image.open(os.path.join(HERE, "..", "rev6", "skizzen", "2026-10-16_baum_referenz_patch_d.jpg")).convert("RGB")
-buf = io.BytesIO(); src.crop((80, 118, 948, 884)).resize((400, 355), Image.LANCZOS).save(buf, "JPEG", quality=92)
-PATCH = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+buf = io.BytesIO(); Image.open(os.path.join(OUT, "patch_d.png")).resize((400, 355), Image.LANCZOS).save(buf, "PNG")
+PATCH = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()   # freigestellt, oben und unten gewölbt
 PW, PH = 80 * S, 71 * S; PX, PY = 2 * 974 - PW / 2, 2 * 110   # hinten rechts, zwischen Mittel- und rechter Schlaufe
 
 back = [pocket(L_PTS, f'<g transform="translate({F(b2x)} {F(b2y)})">{V16.B2_V16}</g>', 2 * 749.5 - 80 * S, 2 * 233, "pkL"),
         pocket(R_PTS, STAR, 2 * 970 - 80 * S, 2 * 233, "pkR"),
-        f'<rect x="{F(PX+1.5)}" y="{F(PY+3)}" width="{F(PW)}" height="{F(PH)}" style="fill: #000; opacity: 0.35; filter: url(#soft)"></rect>',
-        f'<image href="{PATCH}" x="{F(PX)}" y="{F(PY)}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none"></image>',
-        f'<rect x="{F(PX)}" y="{F(PY)}" width="{F(PW)}" height="{F(PH)}" style="fill: none; stroke: #5a3a22; stroke-width: 1px; opacity: 0.6"></rect>']
-for dx in (4, 76):
-    for dy in (6, 65):
+        f'<image href="{PATCH}" x="{F(PX)}" y="{F(PY)}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none" style="filter: url(#patchshadow)"></image>']
+for dx in (4.5, 75.5):
+    for dy in (10.5, 60.5):
         back.append(rivet(PX + dx * S, PY + dy * S, 6.0))
 
 DEFS = ('<defs><radialGradient id="cop" cx="0.38" cy="0.32" r="0.75"><stop offset="0" stop-color="#e9b58a"></stop>'
         '<stop offset="0.45" stop-color="#b06c40"></stop><stop offset="1" stop-color="#6f3d1f"></stop></radialGradient>'
         '<filter id="emb" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="1.2" stdDeviation="1" flood-color="#0d1f3a" flood-opacity="0.45"></feDropShadow></filter>'
         '<filter id="embmm" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="0.6" stdDeviation="0.5" flood-color="#0d1f3a" flood-opacity="0.45"></feDropShadow></filter>'
+        '<filter id="patchshadow" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="1.5" dy="3" stdDeviation="2.5" flood-color="#000" flood-opacity="0.35"></feDropShadow></filter>'
         '<filter id="soft"><feGaussianBlur stdDeviation="2.5"></feGaussianBlur></filter>'
         '<filter id="softmm"><feGaussianBlur stdDeviation="0.9"></feGaussianBlur></filter></defs>')
 TXT = "font-family: Helvetica, Arial, sans-serif"

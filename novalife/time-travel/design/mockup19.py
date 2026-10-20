@@ -34,6 +34,12 @@ _lab[..., 0] = 255 * (_lab[..., 0] / 255) ** 2.2
 _lab[..., 0] -= 0.4 * (_lab[..., 0] - cv2.GaussianBlur(_lab[..., 0], (0, 0), 60))   # Aufhellungen vorn nur leicht ("bissl Waschung")
 _lab[..., 1] = 128 + (_lab[..., 1] - 128) * 1.2
 _lab[..., 2] = 128 + (_lab[..., 2] - 128) * 1.7 - 5
+# Unterschenkel: fleckige, schmutzig wirkende Stellen glätten, feine Struktur bleibt
+_ramp = np.clip((np.arange(H, dtype=np.float32)[:, None] - 0.62 * H) / (0.18 * H), 0, 1)
+_mid = cv2.GaussianBlur(_lab[..., 0], (0, 0), 14) - cv2.GaussianBlur(_lab[..., 0], (0, 0), 70)
+_lab[..., 0] -= 0.75 * _mid * _ramp
+for _c in (1, 2):
+    _lab[..., _c] -= 0.6 * (cv2.GaussianBlur(_lab[..., _c], (0, 0), 14) - cv2.GaussianBlur(_lab[..., _c], (0, 0), 70)) * _ramp
 _dark = cv2.cvtColor(np.clip(_lab, 0, 255).astype(np.uint8), cv2.COLOR_LAB2BGR).astype(np.float32)
 cv2.imwrite(BASE, np.clip(_dark * (1 - _keep) + _im.astype(np.float32) * _keep, 0, 255).astype(np.uint8))
 

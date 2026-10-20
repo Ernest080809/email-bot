@@ -48,7 +48,22 @@ for poly in OLD:
 cv2.rectangle(pk, (666, 222), (683, 256), 1, -1)
 cv2.rectangle(pk, (816, 222), (834, 256), 1, -1)
 
-mask = ((spec | seam | pk) > 0).astype(np.uint8) * 255
+# Saum: ausgefranste Stellen und Löcher an der Saumkante schließen, Flecken dort strenger erkennen
+yy = np.arange(H)[:, None] > H * 0.84
+closed = np.zeros_like(jeans)                       # je Jeans einzeln schließen, sonst wächst die Lücke zwischen vorn und hinten zu
+ncomp, comp = cv2.connectedComponents(jeans)
+for c in range(1, ncomp):
+    part = (comp == c).astype(np.uint8)
+    if part.sum() > 20000:
+        closed |= cv2.morphologyEx(part, cv2.MORPH_CLOSE, np.ones((31, 31), np.uint8))
+notch = ((closed == 1) & (jeans == 0) & yy).astype(np.uint8)
+hem = ((gray - local > 8) & (hsv[..., 1] < 75) & (closed == 1) & yy).astype(np.uint8)
+edge = np.arange(H)[:, None] > H * 0.955                 # unterste Saumkante: Fransen ohne Farbe
+hem |= ((hsv[..., 1] < 60) & (closed == 1) & edge).astype(np.uint8)
+hem |= (((hsv[..., 0] < 85) | (hsv[..., 0] > 135)) & (hsv[..., 1] > 25) & (closed == 1) & yy).astype(np.uint8)   # braune Flecken
+hem = cv2.dilate(hem, np.ones((5, 5), np.uint8)) | cv2.dilate(notch, np.ones((3, 3), np.uint8))
+
+mask = ((spec | seam | pk | hem) > 0).astype(np.uint8) * 255
 clean = cv2.inpaint(img, mask, 4, cv2.INPAINT_TELEA)
 
 # Denim-Körnung in den gefüllten Flächen nachbilden

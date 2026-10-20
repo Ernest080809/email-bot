@@ -150,5 +150,7 @@ Jede Freigabe schriftlich. Ohne Freigabe kein nächster Schritt.
 - Nummer 001–100: gedruckt auf das Innenetikett am Bund (zugleich GPSR-Produktkennung).
 - Patch D: Form wie Vorlage 20.10. (oben und unten gewölbt), 80 × 71 mm, abnehmbar mit 4 Ringfeder-Druckknöpfen 10 mm, Raster 66 × 46 mm als Novalife-Standard. Druckknopf-Test mit Gürtel steht aus.
 - Achtstern C und Knopf: Form aus 8 Rauten (Vorlage 17.10.), C im Plattstich, einfarbig Rot.
-- Offen: Wäsche (Helligkeit, Whiskers, Abrieb), Rechte am Baum-Bild, Garnfarben Patch D.
+- Wäsche: dunkler als das Referenzfoto (mittleres Vintage-Indigo), Honeycombs hinter den Knien, vorn nur leicht gewaschen, keine Löcher, kein Sandstrahlen, kein PP-Spray.
+- Patch D Bild: von Ernest mit Gemini erstellt. Google beansprucht kein Eigentum, keine Haftung, Bild nicht schutzfähig. Google-Lens-Check auf Ähnlichkeit empfohlen.
+- Garnfarben Patch D: Dunkelbraun, Gold, Rot, Kupfer.
 - Checkliste zum Abhaken: Artifact „Tech Pack NVL-TT-01“.

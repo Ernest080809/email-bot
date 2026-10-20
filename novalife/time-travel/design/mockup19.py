@@ -21,9 +21,23 @@ STITCH = "#d9b46a"
 
 subprocess.run([sys.executable, os.path.join(HERE, "mock_clean.py"), BASE], check=True)
 W, H = Image.open(BASE).size
+import cv2, numpy as np
+
+# Wäsche (Entscheidung 20.10.): dunkler als das Referenzfoto, mittleres Vintage-Indigo.
+# Die hellen Stellen des Fotos bleiben als Waschung erhalten und treten stärker hervor.
+_im = cv2.imread(BASE)
+_hsv = cv2.cvtColor(_im, cv2.COLOR_BGR2HSV)
+_bg = ((_hsv[..., 1] < 14) & (_hsv[..., 2] > 238)).astype(np.float32)
+_keep = cv2.GaussianBlur(_bg, (0, 0), 1.2)[..., None]                      # weißer Hintergrund bleibt weiß
+_lab = cv2.cvtColor(_im, cv2.COLOR_BGR2LAB).astype(np.float32)
+_lab[..., 0] = 255 * (_lab[..., 0] / 255) ** 2.2
+_lab[..., 0] -= 0.4 * (_lab[..., 0] - cv2.GaussianBlur(_lab[..., 0], (0, 0), 60))   # Aufhellungen vorn nur leicht ("bissl Waschung")
+_lab[..., 1] = 128 + (_lab[..., 1] - 128) * 1.2
+_lab[..., 2] = 128 + (_lab[..., 2] - 128) * 1.7 - 5
+_dark = cv2.cvtColor(np.clip(_lab, 0, 255).astype(np.uint8), cv2.COLOR_LAB2BGR).astype(np.float32)
+cv2.imwrite(BASE, np.clip(_dark * (1 - _keep) + _im.astype(np.float32) * _keep, 0, 255).astype(np.uint8))
 
 # Licht und Falten des Fotos als Soft-Light-Ebene auf die Stickerei
-import cv2, numpy as np
 _L = cv2.cvtColor(cv2.imread(BASE), cv2.COLOR_BGR2GRAY).astype(np.float32) + 1
 _b1 = cv2.GaussianBlur(_L, (0, 0), 10); _b2 = cv2.GaussianBlur(_L, (0, 0), 70)
 _sh = (_L / _b1) * (_b1 / _b2) ** 0.7
@@ -180,7 +194,7 @@ def pocket(pts, motif, x0, y0, cid):
             f'<path d="{poly(pts)}" style="fill: none; stroke: #f2f5f8; stroke-width: {F(1.4*sw)}px; opacity: 0.5"></path>'
             f'<path d="{open_path(st1)}{open_path(st2)}{lines}" style="fill: none; stroke: {STITCH}; stroke-width: {F(1.9*sw)}px; '
             f'stroke-dasharray: {F(1.6)} {F(1.2)}; opacity: 0.95"></path>'
-            f'<g style="filter: url(#embmm)">{motif}</g></g>' + shade(cid, 0.75))
+            f'<g style="filter: url(#embmm)">{motif}</g></g>' + shade(cid, 0.35))
 
 
 L_PTS, R_PTS = pocket_shape(True), pocket_shape(False)
@@ -191,7 +205,16 @@ buf = io.BytesIO(); Image.open(os.path.join(OUT, "patch_d.png")).resize((400, 35
 PATCH = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()   # freigestellt, oben und unten gewölbt
 PW, PH = 80 * S, 71 * S; PX, PY = 2 * 974 - PW / 2, 2 * 110   # hinten rechts, zwischen Mittel- und rechter Schlaufe
 
-back = [pocket(L_PTS, f'<g transform="translate({F(b2x)} {F(b2y)})">{V16.B2_V16}</g>', 2 * 749.5 - 80 * S, 2 * 233, "pkL"),
+# Honeycombs hinter den Knien (Entscheidung 20.10.): 5 unregelmäßige Falten je Bein, Enden laufen weich aus
+HONEY = []
+for cx, flip in ((1462, 1), (2000, -1)):
+    for dy, hw, tilt, bend in [(0, 46, -3, 8), (27, 64, 2, 12), (55, 72, -1, 14), (86, 58, 3, 10), (113, 38, -2, 6)]:
+        y = 1484 + dy; t = tilt * flip
+        d = f"M{cx-hw} {y+t}Q{cx} {y-bend} {cx+hw} {y-t}"
+        HONEY.append(f'<path d="{d}" transform="translate(0 8)" style="fill: none; stroke: url(#hcd); stroke-width: 6; opacity: 0.35; filter: url(#hcblur); mix-blend-mode: multiply"></path>')
+        HONEY.append(f'<path d="{d}" style="fill: none; stroke: url(#hcl); stroke-width: 9; opacity: 0.6; filter: url(#hcblur); mix-blend-mode: screen"></path>')
+
+back = HONEY + [pocket(L_PTS, f'<g transform="translate({F(b2x)} {F(b2y)})">{V16.B2_V16}</g>', 2 * 749.5 - 80 * S, 2 * 233, "pkL"),
         pocket(R_PTS, STAR, 2 * 970 - 80 * S, 2 * 233, "pkR"),
         f'<image href="{PATCH}" x="{F(PX)}" y="{F(PY)}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none" style="filter: url(#patchshadow)"></image>']
 for dx in (7.0, 73.0):                     # 4 Ringfeder-Druckknöpfe 10 mm, Raster 66 x 46 mm
@@ -204,10 +227,13 @@ DEFS = ('<defs><radialGradient id="cop" cx="0.38" cy="0.32" r="0.75"><stop offse
         '<filter id="embmm" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="0.6" stdDeviation="0.5" flood-color="#0d1f3a" flood-opacity="0.45"></feDropShadow></filter>'
         '<filter id="patchshadow" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="1.5" dy="3" stdDeviation="2.5" flood-color="#000" flood-opacity="0.35"></feDropShadow></filter>'
         '<filter id="soft"><feGaussianBlur stdDeviation="2.5"></feGaussianBlur></filter>'
+        '<filter id="hcblur" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="4.5"></feGaussianBlur></filter>'
+        '<linearGradient id="hcl"><stop offset="0" stop-color="#e4ecf7" stop-opacity="0"></stop><stop offset="0.5" stop-color="#e4ecf7"></stop><stop offset="1" stop-color="#e4ecf7" stop-opacity="0"></stop></linearGradient>'
+        '<linearGradient id="hcd"><stop offset="0" stop-color="#0b1a33" stop-opacity="0"></stop><stop offset="0.5" stop-color="#0b1a33"></stop><stop offset="1" stop-color="#0b1a33" stop-opacity="0"></stop></linearGradient>'
         '<filter id="softmm"><feGaussianBlur stdDeviation="0.9"></feGaussianBlur></filter></defs>')
 TXT = "font-family: Helvetica, Arial, sans-serif"
 title = (f'<text x="60" y="110" style="{TXT}; font-size: 44px; font-weight: 700; fill: #1d2330; letter-spacing: 2px">NOVALIFE · TIME TRAVEL · NVL-TT-01</text>'
-         f'<text x="60" y="160" style="{TXT}; font-size: 28px; fill: #6b717c">Mockup Design v1.9 · Fit wie Referenz · vorn A, E, Knopf, Nieten · hinten B2, C, Patch D rechts</text>')
+         f'<text x="60" y="160" style="{TXT}; font-size: 28px; fill: #6b717c">Mockup Design v1.9 · Straight wie Eightyfive · mittleres Indigo, Honeycombs, vorn leicht gewaschen</text>')
 
 svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}'
        f'<image href="{BASE_URI}" x="0" y="0" width="{W}" height="{H}"></image>{title}{"".join(front)}{"".join(back)}</svg>')

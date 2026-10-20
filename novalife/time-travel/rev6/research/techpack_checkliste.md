@@ -143,3 +143,12 @@ Jede Freigabe schriftlich. Ohne Freigabe kein nächster Schritt.
 - GPSR: https://www.compliancegate.com/gpsr-labelling-requirements/
 - Textilkennzeichnung DE: https://www.gesetze-im-internet.de/textilkennzg_2016/__4.html · https://lua.rlp.de/fileadmin/lua/Downloads/Lebensmittelueberwachung/Merkblatt_Textilkennzeichnung_Stand_April_2022.pdf
 - Nickel (REACH): https://chesar.echa.europa.eu/documents/10162/3bbe9024-52a6-8e63-5581-e686331eb459 · https://www.ul.com/news/eu-commission-updates-reference-standard-testing-nickel
+
+## Entscheidungen (Stand Di 20.10.2026)
+- Fit: Straight, Maße von Ernests Eightyfive in Gr. M, Optik wie Referenzfoto (rev6/skizzen/2026-10-17_referenz_fit_baggy.jpg). Messwerte kommen über den Messbogen (Artifact „Messbogen Eightyfive M“, db-Dokument messungen/eightyfive-m).
+- Hosenschlitz: Reißverschluss plus 20-mm-Knopf mit Achtstern.
+- Nummer 001–100: gedruckt auf das Innenetikett am Bund (zugleich GPSR-Produktkennung).
+- Patch D: Form wie Vorlage 20.10. (oben und unten gewölbt), 80 × 71 mm, abnehmbar mit 4 Ringfeder-Druckknöpfen 10 mm, Raster 66 × 46 mm als Novalife-Standard. Druckknopf-Test mit Gürtel steht aus.
+- Achtstern C und Knopf: Form aus 8 Rauten (Vorlage 17.10.), C im Plattstich, einfarbig Rot.
+- Offen: Wäsche (Helligkeit, Whiskers, Abrieb), Rechte am Baum-Bild, Garnfarben Patch D.
+- Checkliste zum Abhaken: Artifact „Tech Pack NVL-TT-01“.

@@ -194,9 +194,9 @@ PW, PH = 80 * S, 71 * S; PX, PY = 2 * 974 - PW / 2, 2 * 110   # hinten rechts, z
 back = [pocket(L_PTS, f'<g transform="translate({F(b2x)} {F(b2y)})">{V16.B2_V16}</g>', 2 * 749.5 - 80 * S, 2 * 233, "pkL"),
         pocket(R_PTS, STAR, 2 * 970 - 80 * S, 2 * 233, "pkR"),
         f'<image href="{PATCH}" x="{F(PX)}" y="{F(PY)}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none" style="filter: url(#patchshadow)"></image>']
-for dx in (4.5, 75.5):
-    for dy in (10.5, 60.5):
-        back.append(rivet(PX + dx * S, PY + dy * S, 6.0))
+for dx in (7.0, 73.0):                     # 4 Ringfeder-Druckknöpfe 10 mm, Raster 66 x 46 mm
+    for dy in (12.5, 58.5):
+        back.append(rivet(PX + dx * S, PY + dy * S, 10.0))
 
 DEFS = ('<defs><radialGradient id="cop" cx="0.38" cy="0.32" r="0.75"><stop offset="0" stop-color="#e9b58a"></stop>'
         '<stop offset="0.45" stop-color="#b06c40"></stop><stop offset="1" stop-color="#6f3d1f"></stop></radialGradient>'

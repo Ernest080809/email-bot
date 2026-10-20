@@ -213,6 +213,21 @@ def dims(pts, inner_right):
 _pb = io.BytesIO(); Image.open(os.path.join(OUT, "patch_d.png")).resize((800, 710), Image.LANCZOS).save(_pb, "PNG")
 PATCH_PHOTO = "data:image/png;base64," + base64.b64encode(_pb.getvalue()).decode()
 PATCH_BULGE, PATCH_SIDE = 5.5, PATCH_H - 11.0        # Wölbung je 5,5 mm, Seiten 60 mm hoch
+SNAP_D, SNAP_IN = 10.0, 7.0                           # Ringfeder-Druckknöpfe, Mitte 7 mm von Seitenkante und Seiten-Ober-/Unterkante
+SNAP_GX, SNAP_GY = PATCH_W - 2 * SNAP_IN, PATCH_SIDE - 2 * SNAP_IN   # Raster 66 x 46 mm, gleich auf jeder Novalife-Jeans
+
+
+def snap(cx, cy, d=SNAP_D):
+    r = d / 2
+    return (f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r)}" style="fill: {COP}; stroke: {COPD}; stroke-width: 0.3px"></circle>'
+            f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r*0.72)}" style="fill: none; stroke: {COPD}; stroke-width: 0.35px; opacity: 0.8"></circle>'
+            f'<circle cx="{F(cx)}" cy="{F(cy)}" r="{F(r*0.3)}" style="fill: {COPL}; fill-opacity: 0.7"></circle>')
+
+
+def snaps(x0, y0):
+    """4 Druckknöpfe am Patch mit linker oberer Ecke (x0, y0) der Umrissbox"""
+    ys = (y0 + PATCH_BULGE + SNAP_IN, y0 + PATCH_BULGE + SNAP_IN + SNAP_GY)
+    return "".join(snap(x, y) for x in (x0 + SNAP_IN, x0 + SNAP_IN + SNAP_GX) for y in ys)
 
 pages = []
 
@@ -224,9 +239,9 @@ rows = [
     ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
     ("C", "Achtstern aus 8 Rauten", "rechte Gesäßtasche, 36 × 36 mm, Fugen 1 mm, Plattstich, Höhe wie B2-Band", "Rot", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
-    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, oben und unten gewölbt, Naturleinen, 4 glatte Kupfernieten, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
+    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, oben und unten gewölbt, abnehmbar mit 4 Druckknöpfen, Naturleinen, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
     ("K", "Knopf", f"Shank Button {F(BUTTON_D)} mm, Antik-Kupfer, Achtstern aus 8 Rauten vertieft", "Kupfer", "Fabrik (Knopf-Lieferant)"),
-    ("N", "Nieten", "Antik-Kupfer, glatt: 6 × 9 mm vorn, 4 × 6 mm am Patch", "Kupfer", "Fabrik"),
+    ("N", "Nieten, Druckknöpfe", "Antik-Kupfer: 6 Nieten 9 mm vorn, 4 Ringfeder-Druckknöpfe 10 mm für Patch D", "Kupfer", "Fabrik"),
 ]
 p = header(1, "Übersicht · was sich nach Papiertest 3 geändert hat", [
     "Seiten 2–5 sind 1:1. Alle Maße gelten für Basisgröße M (gemessen an deiner Eightyfive in M).",
@@ -256,7 +271,7 @@ for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bl
           "Knopf: 17 → 20 mm. 20 mm ist die Standardgröße (Ligne 32), dafür gibt es die meisten Lieferanten.",
           "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion. Der Gürtel passt weiter durch.",
           "Gesäßtaschen: 144 × 172 → 160/130 × ~150 mm. Neigung jetzt 5 mm statt 16 mm, und andersherum: innen höher.",
-          "Patch D: sitzt jetzt hinten rechts statt in der Mitte, Form wie deine Vorlage (oben und unten gewölbt).",
+          "Patch D: hinten rechts, Form wie deine Vorlage, abnehmbar mit 4 Druckknöpfen (Raster 66 × 46 mm, auf jeder Novalife-Jeans gleich).",
           "Achtstern C und Knopf: neue Form aus 8 Rauten (deine Vorlage), einfarbig Rot, Plattstich statt Kreuzstich."]:
     p.append(T(14, y, "· " + s, 2.8, 400, SUB)); y += 5
 y += 4
@@ -327,28 +342,31 @@ pages.append(p)
 p = header(5, "Hinten rechts · Patch D als Gürtelschlaufe", [
     f"Deine Vorlage 1:1: {F(PATCH_W)} mm breit, {F(PATCH_H)} mm hoch in der Mitte, {F(PATCH_SIDE)} mm an den Seiten. Garnfarben (höchstens 4): Gold, Kupfer, Dunkelbraun, Rot.",
     "Sitz hinten rechts (vom Träger aus), zwischen Mittelschlaufe und rechter Schlaufe.",
-    "Nur links und rechts genäht und genietet, oben und unten offen, der Gürtel läuft dahinter.",
-    "Papiertest: Bild auf Pappe kleben, ausschneiden, hinten rechts mit Krepp nur links und rechts fixieren, Gürtel durchziehen.",
+    "Abnehmbar: 4 Ringfeder-Druckknöpfe 10 mm, Antik-Kupfer. Oben und unten offen, der Gürtel läuft dahinter. Zum Waschen abnehmen.",
+    "Papiertest: Bild auf Pappe kleben, ausschneiden, hinten rechts mit Krepp an den 4 Knopfpunkten fixieren, Gürtel durchziehen.",
 ])
 px, py = 14, 56
 p += [f'<image href="{PATCH_PHOTO}" x="{px}" y="{py}" width="{F(PATCH_W)}" height="{F(PATCH_H)}" preserveAspectRatio="none"></image>',
-      cut(FN.patch_outline(px, py, PATCH_W, PATCH_H, PATCH_BULGE)),
+      cut(FN.patch_outline(px, py, PATCH_W, PATCH_H, PATCH_BULGE)), snaps(px, py),
       T(px + PATCH_W / 2, py + PATCH_H + 6, f"D · {F(PATCH_W)} × {F(PATCH_H)} mm, Seiten {F(PATCH_SIDE)} mm · Foto 1:1", 3, 700, anchor="middle")]
 by = 150; bw, bh = PATCH_W, PATCH_H
 p += [T(14, by, "Bauplan für die Fabrik", 3.6, 700),
       f'<path d="{FN.patch_outline(14, by + 5, bw, bh, PATCH_BULGE)}" style="fill: #efe7d6; stroke: {INK}; stroke-width: 0.3px"></path>',
-      f'<rect x="14" y="{F(by+5+PATCH_BULGE)}" width="8" height="{F(PATCH_SIDE)}" style="fill: url(#hatch)"></rect>',
-      f'<rect x="{F(14+bw-8)}" y="{F(by+5+PATCH_BULGE)}" width="8" height="{F(PATCH_SIDE)}" style="fill: url(#hatch)"></rect>',
-      rivet(18.5, by + 5 + PATCH_BULGE + 5, 6), rivet(14 + bw - 4.5, by + 5 + PATCH_BULGE + 5, 6),
-      rivet(18.5, by + 5 + bh - PATCH_BULGE - 5, 6), rivet(14 + bw - 4.5, by + 5 + bh - PATCH_BULGE - 5, 6),
-      f'<rect x="22" y="{F(by+5+bh/2-9.5)}" width="{F(bw-16)}" height="19" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
+      snaps(14, by + 5),
+      f'<path d="M{F(14+SNAP_IN)} {F(by+5+PATCH_BULGE+SNAP_IN)}h{F(SNAP_GX)}M{F(14+SNAP_IN)} {F(by+5+PATCH_BULGE+SNAP_IN)}v{F(SNAP_GY)}" '
+      f'style="fill: none; stroke: {GUIDE}; stroke-width: 0.25px; stroke-dasharray: 1 0.8"></path>',
+      T(14 + bw / 2, by + 5 + PATCH_BULGE + SNAP_IN - 1.5, f"{F(SNAP_GX)} mm", 2.4, 700, GUIDE, "middle"),
+      T(14 + SNAP_IN + 1.5, by + 5 + PATCH_BULGE + SNAP_IN + SNAP_GY / 2 + 6, f"{F(SNAP_GY)} mm", 2.4, 700, GUIDE),
+      f'<rect x="{F(14+SNAP_IN+SNAP_D/2+1)}" y="{F(by+5+bh/2-9.5)}" width="{F(SNAP_GX-SNAP_D-2)}" height="19" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
       T(14 + bw / 2, by + 5 + bh / 2 - 1.5, "Gürtel läuft dahinter", 2.8, 700, "#4a6fa5", "middle"),
-      T(14 + bw / 2, by + 5 + bh / 2 + 3, f"Tunnel innen ca. {F(bw-16)} mm breit", 2.6, 400, "#4a6fa5", "middle")]
-for i, s in enumerate(["Schraffiert: je 8 mm Nahtzone links und rechts, dort genäht", "und mit je 2 glatten Kupfernieten (6 mm) gesichert.",
-                       "Oben und unten offen, keine Naht.", "Kante umgeschlagen und gesteppt, Grund Naturleinen.",
+      T(14 + bw / 2, by + 5 + bh / 2 + 3, f"Tunnel innen ca. {F(SNAP_GX-SNAP_D)} mm breit", 2.6, 400, "#4a6fa5", "middle")]
+for i, s in enumerate(["4 Ringfeder-Druckknöpfe 10 mm, Antik-Kupfer, nickelfrei.", "Am Patch Kappe und Oberteil, an der Jeans das Unterteil.",
+                       f"Mitte der Knöpfe {F(SNAP_IN)} mm von Seitenkante und Seitenende.", f"Raster {F(SNAP_GX)} × {F(SNAP_GY)} mm, gleich auf jeder Novalife-Jeans.",
+                       "Patch mit fester Einlage, sonst reißen die Knöpfe aus.", "Jeans: Unterteile innen mit Vlies 20 × 20 mm verstärken.",
+                       "Oben und unten offen. Kante umgeschlagen und gesteppt, Naturleinen.",
                        "Linien mind. 0,8 mm, Einrollungen mind. 2,5 mm.", "Muster vom Patch-Hersteller ist Pflicht vor 100 Stück.",
                        "Sitz: hinten rechts, mittig zwischen", "Mittelschlaufe und rechter Schlaufe.", "Höchster Punkt der Wölbung bündig mit der Bundoberkante.",
-                       "Form: Seiten gerade, oben und unten mittig je 5,5 mm gewölbt.", "Nieten ohne Zeichen (die im Foto sind Bildfehler)."]):
+                       "Form: Seiten gerade, oben und unten mittig je 5,5 mm gewölbt.", "Knöpfe ohne Zeichen (die im Foto sind Bildfehler)."]):
     p.append(T(102, by + 10 + i * 5, s, 2.8, 400, SUB))
 p.append(checkline(272))
 pages.append(p)

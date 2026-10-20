@@ -1,15 +1,15 @@
 # Fabrik-Anfrage · Stand Sa 17.10.2026
 
-Antwortfrist in allen Anfragen: Fr 23.10.2026.
+Antwortfrist in allen Anfragen: Fr 23.10.2026. Stand Di 20.10.: 4 Antworten, davon 1 Absage.
 
 | Fabrik | Adresse (laut eigener Kontaktseite) | Status |
 |---|---|---|
-| Kuzgunlar (Istanbul) | info@kuzgunlar.com.tr | **gesendet** 17.10. |
-| Lisama (Guimarães) | comercial@lisama.pt, Kopie an lisama@lisama.pt | **gesendet** 17.10. |
-| Chasco Jeans (Barcelos) | geral@chascojeans.pt | **gesendet** 17.10. |
-| NTC Jeans (Istanbul) | info@ntcjeans.com | **gesendet** 17.10. |
-| DiZNEW (Dongguan) | sales01@diznew.com, Kopie an info@diznew.com | **gesendet** 17.10. |
-| 5D (Famalicão, Nachrücker) | 5d@5d.com.pt | **gesendet** 17.10. |
+| Kuzgunlar (Istanbul) | info@kuzgunlar.com.tr | **Antwort 19.10.** (Emirhan Köse): MOQ 100 passt, Zeitplan machbar, Stickerei auf Zuschnitt bei festen Partnern, Wäsche bei Partnern (eigenes Wasch-Labor im Aufbau). Preis erst mit Tech Pack und Referenzbildern. Muster 200 € + Versand, Werkzeug Knopf/Nieten extra. EXW und DAP Berlin möglich, Video-Call angeboten. A.TR nicht beantwortet. |
+| Lisama (Guimarães) | comercial@lisama.pt, Kopie an lisama@lisama.pt | gesendet 17.10., noch keine Antwort (Stand 20.10.) |
+| Chasco Jeans (Barcelos) | geral@chascojeans.pt | gesendet 17.10., noch keine Antwort (Stand 20.10.) |
+| NTC Jeans (Istanbul) | info@ntcjeans.com | **Antwort 19.10.**: „everything is ok“, will Fotos des Modells, bevor sie kommentieren. |
+| DiZNEW (Dongguan) | sales01@diznew.com, Kopie an info@diznew.com | **Antwort 19.10.** (Mohan): Werbetext, MOQ 30, Muster 15–20 Tage, Bulk 30–40 Tage, BSCI. Keine Antwort auf die 6 Fragen, Call und virtueller Rundgang angeboten. |
+| 5D (Famalicão, Nachrücker) | 5d@5d.com.pt | **Absage 19.10.**: ausgebucht, keine neuen Kunden. |
 
 WhatsApp, laut Website der Firma: NTC Jeans +90 534 771 1757. Lisama nennt ein Mobiltelefon +351 919 988 288 (ob WhatsApp, unklar). Nur nutzen, falls bis Mi 21.10. keine Antwort kommt.
 

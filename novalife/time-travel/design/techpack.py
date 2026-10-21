@@ -119,7 +119,7 @@ td,th{text-align:left;vertical-align:top;padding:1.15mm 1.8mm;border-bottom:0.25
 ul,ol{margin:0;padding-left:5mm}
 li{margin-bottom:0.8mm}
 .diag{display:grid;grid-template-columns:1fr 1fr;gap:6mm;padding:0 14mm}
-.diag svg{width:100%;height:auto;max-height:76mm}
+.diag svg{width:100%;height:auto;max-height:68mm}
 .diag .cap{text-align:center;font-size:8pt;color:#68707e;margin-top:1mm}
 .gm{fill:#dbe4f0;stroke:#41618f;stroke-width:1.6}
 .sm,.pk{fill:none;stroke:#41618f;stroke-width:1.2}
@@ -181,8 +181,9 @@ page("Cover", f"""
 <div><h3>Revisions</h3><table class="kv">
 <tr><th>v0.9 · 20 Oct</th><td>Quote pack (3 pages) and artwork 1:1</td></tr>
 <tr><th>{VERSION} · 21 Oct</th><td>Measurements, grading, materials, construction, process, wash, labels, QC</td></tr>
-<tr><th>Next</th><td>Technical flats from photos of the reference jeans (22–25 Oct)</td></tr>
-</table></div>
+<tr><th>Next</th><td>Technical flats, belt loop positions and back pocket check from photos of the reference jeans (22–25 Oct)</td></tr>
+</table>
+<p class="sub" style="margin-top:1.5mm">This tech pack is the only valid reference. Changes only as a new version with a new date, never by chat message.</p></div>
 </div>""")
 
 # ================= 2 · Designübersicht =================
@@ -201,16 +202,17 @@ page("Design overview", f"""
 <tr><th>Back pockets</th><td>Top 160 mm, bottom 130 mm, sides 125 mm (inner) and 120 mm (outer), point 70 mm each side, about 150 mm high. The inner side is 5 mm higher. Same size in all sizes.</td></tr>
 <tr><th>Not graded</th><td>All embroidery, coin pocket, back pockets, patch D, button, rivets and snaps are the same in every size. One embroidery program per motif.</td></tr>
 <tr><th>Exact artwork</th><td>Annex, 4 pages in 1:1 scale. Print at 100 %; the check line must measure 100 mm.</td></tr>
+<tr><th>Tolerance</th><td>Position of every embroidery, pocket and patch: ± 3 mm.</td></tr>
 </table>""")
 
 # ================= 3 · Messpunkte Basis W32 =================
 rows = "".join(
     f'<tr><td class="no">{n}</td><td><b>{name}</b></td><td>{how}</td><td class="n base">{fmt(base)}</td>'
-    f'<td class="n">{"" if tol is None else "± " + fmt(tol)}</td></tr>' for n, name, how, base, tol, _ in POM)
+    f'<td class="n">{"" if tol is None else "± " + fmt(tol)}</td><td class="n">{"" if tol is None else f"{base / 2.54:.1f}"}</td></tr>' for n, name, how, base, tol, _ in POM)
 page("Points of measure", f"""
 <h2>Points of measure · base size W32</h2>
 <div class="diag"><div>{SVG_FRONT}<div class="cap">Front</div></div><div>{SVG_BACK}<div class="cap">Back</div></div></div>
-<table class="spec"><tr><th>No.</th><th>Point of measure</th><th>How to measure</th><th class="n base">W32 cm</th><th class="n">Tol.</th></tr>{rows}</table>
+<table class="spec"><tr><th>No.</th><th>Point of measure</th><th>How to measure</th><th class="n base">W32 cm</th><th class="n">Tol.</th><th class="n">inch</th></tr>{rows}</table>
 <p class="note">All measurements in cm on the <b>finished garment after wash</b>, laid flat, buttoned, not stretched. Widths 1–5 are half measurements (edge to edge, not doubled). Lengths follow the seam. Please set the shrinkage allowance of the pattern from your own wash test on our fabric.</p>""")
 
 # ================= 4 · Gradierung =================
@@ -234,18 +236,19 @@ page("Grading", f"""
 
 # ================= 5 · Materialliste =================
 BOM = [
-    ("Shell fabric", "12 oz (approx. 400 g/m²) rigid 100 % cotton denim, indigo, no stretch. Residual shrinkage ≤ 3 % in length and width after wash.", "Body", "Factory proposes mill and article; we approve the swatch before the proto"),
+    ("Shell fabric", "12 oz (approx. 400 g/m²) rigid 100 % cotton denim, 3/1 twill, indigo, no stretch. Residual shrinkage ≤ 3 % in length and width after wash.", "Body", "Factory proposes mill and article; we approve the swatch before the proto"),
     ("Pocketing", "Cotton, natural white, unprinted, your standard weight.", "Front pocket bags", "Factory"),
     ("Interlining", "Waistband: your standard. Behind each snap stud: 20 × 20 mm reinforcement inside (denim or fusible).", "Waistband, snaps", "Factory"),
     ("Topstitch thread", "Corespun poly/cotton, colour copper-gold, weight your standard for jeans.", "All visible topstitching and bartacks", "Factory, colour card to us"),
     ("Seam thread", "Tonal indigo.", "Inner seams, overlock", "Factory"),
     ("Embroidery thread", "Polyester, wash- and bleach-resistant (e.g. Madeira Polyneon or equivalent). Red, white, gold (non-metallic).", "A, E, B2, C", "Factory, colour card to us"),
+    ("Embroidery backing", "Cut-away backing, wash-resistant, trimmed 3–5 mm around each motif. Stitch density: your proposal in the digitizing preview.", "A, E, B2, C", "Factory"),
     ("Gold threads B2", "9 pieces, 18–30 mm, same gold as the embroidery, set by hand after wash, knotted inside the pocket.", "Left back pocket", "Factory"),
     ("Zipper", "YKK metal, antique copper finish, auto-lock slider, tonal tape. Length per size: your proposal.", "Fly", "Factory"),
     ("Shank button", "20 mm (ligne 32), antique copper, eight-point star embossed, nickel-free. Custom tooling.", "Waistband, 1 pc", "Factory sources, sample to us"),
     ("Rivets", "9 mm, plain, antique copper, nickel-free.", "6 pcs: front pocket openings and coin pocket corners", "Factory"),
     ("Snaps", "Ring-spring snaps 10 mm, antique copper, nickel-free. One system for stud, socket and cap.", "4 sets: studs on jeans, sockets and caps on patch D", "Factory sources and sets both parts"),
-    ("Patch D", "Embroidered linen 80 × 71 mm with stiff interlining, without snaps.", "Back right", "Supplied by Novalife"),
+    ("Patch D", "Embroidered linen 80 × 71 mm, pre-shrunk, sealed edge, sew-in stiff interlining, colourfast threads, without snaps. Washable by hand on its own.", "Back right", "Supplied by Novalife"),
     ("Inner label", "Printed, permanent, readable after washing. Content on page 9.", "Inside back waistband", "Factory prints, text from us"),
     ("Polybag", "Recyclable LDPE, one pair per bag, suffocation warning in German and English.", "Packing", "Factory"),
     ("Hangtag", "Design follows (supplied by Novalife or printed by factory, to be agreed).", "Left back belt loop", "Open"),
@@ -280,7 +283,7 @@ CONS = [
     ("Front pockets", "Double topstitch on the opening. Rivets at both ends of each opening."),
     ("Coin pocket", "62 × 62 mm, embroidered panel E. Top edge double topstitch, rivets at both top corners."),
     ("Back pockets", "Top hem 15 mm, double topstitch. Bartacks at both top corners (no rivets on back pockets)."),
-    ("Belt loops", "5 loops, about 1.0–1.2 cm wide, 4 cm visible length, bartacked top and bottom. Centre back loop on the centre back seam."),
+    ("Belt loops", "5 loops, about 1.0–1.2 cm wide, 4 cm visible length, bartacked top and bottom. Centre back loop on the centre back seam. Positions as on the reference jeans (flats follow)."),
     ("Hem", "1 cm, chain stitch."),
     ("Bartacks", "Copper-gold: fly end, belt loops, back pocket corners, crotch."),
 ]
@@ -295,7 +298,8 @@ page("Construction", f"""
 <li>Grid 66 × 46 mm between snap centres. This grid is the Novalife standard and must be exact: the patch has to fit every future Novalife jeans.</li>
 <li>On the jeans: 4 studs, each with a 20 × 20 mm reinforcement inside. The top two go through the waistband, the bottom two through the yoke.</li>
 <li>On the patch: sockets and caps, set by you on our patches.</li>
-<li>The belt runs between patch and jeans. Ship every pair with the patch snapped on.</li>
+<li>The belt runs between patch and jeans, between the upper and lower pair of snaps (36 mm clear). Ship every pair with the patch snapped on.</li>
+<li>The customer removes the patch before washing the jeans: no indigo on the linen.</li>
 </ul></div>
 </div>""")
 
@@ -307,7 +311,8 @@ STEPS = [
     ("Strike-off", "Embroidery of all 4 motifs on our denim, washed with our wash recipe. No puckering or waves, red must not bleed, no frayed thread.", "Photos, then physical. Gate before the proto"),
     ("Proto W32", "Complete jeans: embroidered, washed, all trims and patch D. Measurement sheet of points 1–20 against this tech pack.", "Fit and snap test by us"),
     ("Wash standard", "2–3 wash trials on the proto. We choose one physical piece; it is the binding standard for bulk.", "Signed wash standard"),
-    ("PP sample", "Pre-production sample W32 in bulk fabric, bulk trims and bulk wash. Measurement sheets for W30 and W38 from the first bulk cut.", "Written approval before bulk"),
+    ("PP sample", "Pre-production sample W32 in bulk fabric, bulk trims and bulk wash. Once approved it is sealed and is the standard for all 100 pairs. Measurement sheets for W30 and W38 from the first bulk cut.", "Written approval before bulk"),
+    ("TOP sample", "One finished pair from the running bulk production, sent to us physically before shipment.", "Approval before shipment"),
 ]
 srows = "".join(f'<tr><td class="no">{i}</td><td><b>{a}</b></td><td>{b}</td><td>{c}</td></tr>' for i, (a, b, c) in enumerate(STEPS, 1))
 page("Process", f"""
@@ -319,6 +324,7 @@ page("Process", f"""
 <table class="kv">
 <tr><th>Timeline</th><td>Proto shipped by 30 Nov 2026 · PP sample shipped by 4 Jan 2027 · bulk from mid-February · finished by 14 May 2027</td></tr>
 <tr><th>Changes</th><td>No change to fabric, trims, wash or embroidery without our written approval.</td></tr>
+<tr><th>Ownership</th><td>Design, artwork, pattern and embroidery files belong to Novalife. No reuse, resale or reproduction. Please send us the pattern and the DST files after production.</td></tr>
 </table>""")
 
 # ================= 8 · Wäsche =================
@@ -344,15 +350,16 @@ page("Labels and packing", f"""
 <table class="kv">
 <tr><th>Inner label</th><td>Printed label inside the back waistband, permanent and readable after wash. Same position on every pair.</td></tr>
 <tr><th>Side 1</th><td>NOVALIFE · NVL-TT-01 · Size W32 L32 · No. 001/100<br>Each pair has its own number 001–100. We send the number list per size before packing.</td></tr>
-<tr><th>Side 2</th><td>100 % Baumwolle / 100 % Cotton<br>Care symbols: wash 30 °C, do not bleach, do not tumble dry, iron medium (2 dots), do not dry clean<br>„Vor dem ersten Tragen separat und auf links waschen. Indigo kann abfärben.“<br>Made in [country]</td></tr>
+<tr><th>Side 2</th><td>100 % Baumwolle / 100 % Cotton<br>Care symbols: wash 30 °C, do not bleach, do not tumble dry, iron medium (2 dots), do not dry clean<br>„Vor dem ersten Tragen separat und auf links waschen. Indigo kann abfärben. Patch vor dem Waschen abnehmen.“<br>Made in [country]</td></tr>
+<tr><th>Patch care</th><td>On the hangtag: „Patch separat von Hand waschen, 30 °C, nicht auswringen, flach trocknen, erst trocken wieder anknöpfen.“ (Hand wash the patch separately at 30 °C, do not wring, dry flat, snap on only when dry.)</td></tr>
 <tr><th>Manufacturer info</th><td>Novalife · [postal address] · [e-mail]. We send the final text in January 2027 (EU General Product Safety Regulation). Style no. + serial number identify the product.</td></tr>
 <tr><th>Fibre content</th><td>German wording is mandatory for Germany (EU Regulation 1007/2011). Please confirm the composition of the bulk fabric in writing.</td></tr>
 <tr><th>Folding</th><td>Folded in thirds, front out, patch D snapped on and protected with tissue so the snaps do not mark the denim.</td></tr>
 <tr><th>Polybag</th><td>One pair per recyclable bag, suffocation warning in German and English, sticker with size and number.</td></tr>
 <tr><th>Cartons</th><td>Max. 15 kg. Marking: NOVALIFE · NVL-TT-01 · sizes and numbers inside · carton x of y.</td></tr>
-<tr><th>Shipping papers</th><td>Commercial invoice and packing list with every shipment, including proto and PP. From Turkey: ATR movement certificate for the EU-Turkey customs union.</td></tr>
+<tr><th>Shipping papers</th><td>Commercial invoice and packing list with every shipment, including proto and PP. From Turkey: ATR movement certificate for the EU-Turkey customs union. HS code 6203 42 (men's cotton trousers), please confirm.</td></tr>
 </table>
-<p class="warn"><b>Chemicals:</b> EU REACH applies. No banned azo dyes (Annex XVII entry 43), nickel release ≤ 0.5 µg/cm²/week on all metal parts (EN 1811), no PP spray. Please confirm with test reports or supplier declarations.</p>""")
+<p class="warn"><b>Chemicals:</b> EU REACH applies. No banned azo dyes (Annex XVII entry 43), nickel release ≤ 0.5 µg/cm²/week on all metal parts (EN 1811), no PP spray, no sharp edges on metal parts. Please confirm with test reports or supplier declarations; an OEKO-TEX Standard 100 certificate for the fabric is welcome.</p>""")
 
 # ================= 10 · Qualitätskontrolle =================
 page("Quality control", """
@@ -364,14 +371,15 @@ page("Quality control", """
 </table>
 <div class="grid3">
 <div class="card"><h3>Critical (0 allowed)</h3><ul><li>Holes, broken needle or sharp metal parts</li><li>Wrong or duplicate serial number</li><li>Snap opens by itself or stud comes loose</li><li>Nickel-containing metal</li></ul></div>
-<div class="card"><h3>Major</h3><ul><li>Measurement outside tolerance</li><li>Embroidery missing, off by more than 3 mm, puckered or bleeding</li><li>Open or broken seams</li><li>Wash not matching the standard</li></ul></div>
+<div class="card"><h3>Major</h3><ul><li>Measurement outside tolerance</li><li>Embroidery missing, off by more than 3 mm, puckered or bleeding</li><li>Open or broken seams</li><li>Wash not matching the standard</li><li>Label, number or gold threads missing</li></ul></div>
 <div class="card"><h3>Minor</h3><ul><li>Loose threads, untrimmed ends</li><li>Small marks that wash out</li><li>Slightly uneven topstitching</li></ul></div>
 </div>
 <h3>Snap and hardware test (proto and PP sample, condition for approval)</h3>
 <ul>
-<li>Pull a belt through behind patch D 20 times and tighten it; sit and bend; open and close every snap 50 times.</li>
+<li>Pull belts of 30, 35 and 40 mm width through behind patch D, 20 times each, and tighten them; sit and bend; open and close every snap 50 times. Tell us which belt widths pass easily.</li>
 <li>The snaps must not open by themselves and the patch must not tear. Studs, rivets and button must stay firm under a 90 N pull.</li>
 <li>If the 10 mm snaps fail, we switch to 12.5 mm and adjust the grid; tell us at once.</li>
+<li>Patch D (tested by our patch supplier): after 5 hand washes the snap grid stays 66 × 46 mm ± 0.5 mm, no fraying, no colour bleeding, interlining stays flat.</li>
 </ul>""")
 
 html = (f'<!doctype html><html><head><meta charset="utf-8"><title>NVL-TT-01 Tech Pack</title><style>{CSS}</style></head>'

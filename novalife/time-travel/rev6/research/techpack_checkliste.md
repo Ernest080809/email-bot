@@ -164,3 +164,12 @@ Jede Freigabe schriftlich. Ohne Freigabe kein nächster Schritt.
 - Druckknöpfe: kein Heimtest, Ernest überlässt die Entscheidung Claude. 10 mm Ringfeder bleibt. Haltetest am Proto ist Freigabe-Bedingung im Tech Pack, Ausweichlösung 12,5 mm mit angepasstem Raster.
 - Papiertest 4 bestanden (21.10.). Google-Lens-Check für das Patch-Bild ohne Treffer (21.10.).
 - Die Eightyfive geht als physisches Referenzmuster an die gewählte Fabrik. Vorher fotografiert Ernest sie (kommt Do 22.10.).
+
+## Abgleich Tech Pack v1.0 Entwurf (Mi 21.10.2026)
+Nach dem Abgleich mit dieser Liste ergänzt: Reserve-Frage, Zoll-Spalte, Hinweis „nur neue Versionen“, Stick-Positionstoleranz ± 3 mm, Köper 3/1, Stickvlies (Cut-away), Patch-Anforderungen (vorgeschrumpft, Kante versiegelt, Einlage eingenäht, farbecht, von Hand waschbar), versiegeltes PP-Muster, TOP-Muster, Rechte an Schnitt und Stickdateien, „Patch vor dem Waschen abnehmen“ plus Pflegetext für den Patch, HS-Code 6203 42, OEKO-TEX, scharfe Kanten, fehlende Etiketten/Nummer/Goldfäden als major, Gürteltest mit 30, 35 und 40 mm.
+
+Noch offen:
+- Technische Zeichnungen und Positionen der Gürtelschlaufen (aus Ernests Fotos, Do 22.10.).
+- Reserve: 3 Paare ohne Nummer extra? (Entscheidung Ernest)
+- Gürtelbreite: Zwischen den Druckknopf-Reihen sind 36 mm frei, und dieser Tunnel liegt 17,5–53,5 mm unter der Bundoberkante. Ein 38–40-mm-Gürtel, der im Bund läuft, passt so nicht. Breite von Ernests Gürtel klären.
+- Stichzahl je Zone und Garnnummern kommen mit Digitizing und Farbkarte der Fabrik.

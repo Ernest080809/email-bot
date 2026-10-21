@@ -1,5 +1,5 @@
 // node svg2png.mjs in.svg out.png [scale]
-import { chromium } from 'playwright';
+import { chromium } from '/opt/node-tools/node_modules/playwright/index.mjs';
 import fs from 'fs';
 const [,, inp, out, sc] = process.argv;
 const scale = parseFloat(sc || '2');

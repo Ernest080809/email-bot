@@ -30,8 +30,8 @@ _hsv = cv2.cvtColor(_im, cv2.COLOR_BGR2HSV)
 _bg = ((_hsv[..., 1] < 14) & (_hsv[..., 2] > 238)).astype(np.float32)
 _keep = cv2.GaussianBlur(_bg, (0, 0), 1.2)[..., None]                      # weißer Hintergrund bleibt weiß
 _lab = cv2.cvtColor(_im, cv2.COLOR_BGR2LAB).astype(np.float32)
-_lab[..., 0] = 255 * (_lab[..., 0] / 255) ** 2.2
-_lab[..., 0] -= 0.4 * (_lab[..., 0] - cv2.GaussianBlur(_lab[..., 0], (0, 0), 60))   # Aufhellungen vorn nur leicht ("bissl Waschung")
+_lab[..., 0] = 255 * (_lab[..., 0] / 255) ** 2.6                              # 21.10.: etwas dunkler
+_lab[..., 0] += 0.15 * (_lab[..., 0] - cv2.GaussianBlur(_lab[..., 0], (0, 0), 60))  # 21.10.: Waschung deutlicher sichtbar
 _lab[..., 1] = 128 + (_lab[..., 1] - 128) * 1.2
 _lab[..., 2] = 128 + (_lab[..., 2] - 128) * 1.7 - 5
 # Unterschenkel: fleckige, schmutzig wirkende Stellen glätten, feine Struktur bleibt
@@ -217,15 +217,13 @@ for cx, flip in ((1462, 1), (2000, -1)):
     for dy, hw, tilt, bend in [(0, 46, -3, 8), (27, 64, 2, 12), (55, 72, -1, 14), (86, 58, 3, 10), (113, 38, -2, 6)]:
         y = 1484 + dy; t = tilt * flip
         d = f"M{cx-hw} {y+t}Q{cx} {y-bend} {cx+hw} {y-t}"
-        HONEY.append(f'<path d="{d}" transform="translate(0 8)" style="fill: none; stroke: url(#hcd); stroke-width: 6; opacity: 0.35; filter: url(#hcblur); mix-blend-mode: multiply"></path>')
-        HONEY.append(f'<path d="{d}" style="fill: none; stroke: url(#hcl); stroke-width: 9; opacity: 0.6; filter: url(#hcblur); mix-blend-mode: screen"></path>')
+        HONEY.append(f'<path d="{d}" transform="translate(0 8)" style="fill: none; stroke: url(#hcd); stroke-width: 6; opacity: 0.45; filter: url(#hcblur); mix-blend-mode: multiply"></path>')
+        HONEY.append(f'<path d="{d}" style="fill: none; stroke: url(#hcl); stroke-width: 9; opacity: 0.85; filter: url(#hcblur); mix-blend-mode: screen"></path>')
 
 back = HONEY + [pocket(L_PTS, f'<g transform="translate({F(b2x)} {F(b2y)})">{V16.B2_V16}</g>', 2 * 749.5 - 80 * S, 2 * 233, "pkL"),
         pocket(R_PTS, STAR, 2 * 970 - 80 * S, 2 * 233, "pkR"),
         f'<image href="{PATCH}" x="{F(PX)}" y="{F(PY)}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none" style="filter: url(#patchshadow)"></image>']
-for dx in (7.0, 73.0):                     # 4 Ringfeder-Druckknöpfe 10 mm, Raster 66 x 46 mm
-    for dy in (12.5, 58.5):
-        back.append(rivet(PX + dx * S, PY + dy * S, 10.0))
+# 4 Druckknöpfe sitzen versteckt zwischen Rückwand und Jeans (Schlaufen-Patch, 21.10.)
 
 DEFS = ('<defs><radialGradient id="cop" cx="0.38" cy="0.32" r="0.75"><stop offset="0" stop-color="#e9b58a"></stop>'
         '<stop offset="0.45" stop-color="#b06c40"></stop><stop offset="1" stop-color="#6f3d1f"></stop></radialGradient>'

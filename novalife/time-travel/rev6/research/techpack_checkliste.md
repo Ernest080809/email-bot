@@ -173,3 +173,9 @@ Noch offen:
 - Reserve: 3 Paare ohne Nummer extra? (Entscheidung Ernest)
 - Gürtelbreite: Zwischen den Druckknopf-Reihen sind 36 mm frei, und dieser Tunnel liegt 17,5–53,5 mm unter der Bundoberkante. Ein 38–40-mm-Gürtel, der im Bund läuft, passt so nicht. Breite von Ernests Gürtel klären.
 - Stichzahl je Zone und Garnnummern kommen mit Digitizing und Farbkarte der Fabrik.
+
+## Entscheidungen (Stand Mi 21.10.2026, abends)
+- Patch D bleibt oben auf dem Bund wie bei Levi's und bleibt Gürtelschlaufe. Neu: zwei Lagen (Baum vorn, Rückwand hinten), oben und unten nur in der Mitte 30 mm verbunden, seitlich offen. Die 4 Druckknöpfe sitzen versteckt zwischen Rückwand und Jeans, der Gürtel (bis 40 mm) läuft zwischen Rückwand und Baum. Grund: Ein Standardgürtel passte nicht zwischen die Druckknöpfe (nur 36 mm frei, 17,5 mm unter der Bundoberkante). Die Variante „unter dem Bund“ ist verworfen.
+- 3 Reservepaare ohne Nummer (W32, W34, W36). Samples ersetzen sie nicht (nur W32, Proto vor Korrekturen, PP-Muster ist versiegelter Standard).
+- Mockup etwas dunkler (Helligkeit −12 bis −15 %), Waschung und Honeycombs deutlicher.
+- Fotos der Eightyfive entfallen vorerst (Ernest ist in Zypern). Technische Zeichnungen aus den 20 Maßen und dem Standardaufbau, Details später von der echten Eightyfive in der Fabrik.

@@ -90,7 +90,8 @@ PW, PH, PB, PS = P.PATCH_W, P.PATCH_H, P.PATCH_BULGE, P.PATCH_SIDE
 p = header(4, "Back right · patch D, detachable with snaps", [
     f"Embroidered linen patch supplied by Novalife: {F(PW)} mm wide, {F(PH)} mm high in the middle, {F(PS)} mm at the sides, max. 4 colours.",
     "Back right, centred between centre back loop and right loop. Highest point of the patch flush with the top of the waistband.",
-    "Open at top and bottom, the belt runs behind the patch. Removed for washing.",
+    "Two layers: tree in front, back panel behind, joined in the middle at top and bottom, open at the sides.",
+    "4 snaps hidden between back panel and jeans. The belt runs between back panel and front. Removed for washing.",
 ])
 px, py = 14, 56
 p += [f'<image href="{P.PATCH_PHOTO}" x="{px}" y="{py}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none"></image>',
@@ -103,13 +104,14 @@ p += [T(14, by, "Construction", 3.6, 700),
       f'<path d="M{F(14+sin_)} {F(by+5+PB+sin_)}h{F(gx)}M{F(14+sin_)} {F(by+5+PB+sin_)}v{F(gy)}" style="fill: none; stroke: {GUIDE}; stroke-width: 0.25px; stroke-dasharray: 1 0.8"></path>',
       T(14 + bw / 2, by + 5 + PB + sin_ - 1.5, f"{F(gx)} mm", 2.4, 700, GUIDE, "middle"),
       T(14 + sin_ + 1.5, by + 5 + PB + sin_ + gy / 2 + 6, f"{F(gy)} mm", 2.4, 700, GUIDE),
-      f'<rect x="{F(14+sin_+sd/2+1)}" y="{F(by+5+bh/2-9.5)}" width="{F(gx-sd-2)}" height="19" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
-      T(14 + bw / 2, by + 5 + bh / 2 - 1.5, "belt runs behind", 2.8, 700, "#4a6fa5", "middle"),
-      T(14 + bw / 2, by + 5 + bh / 2 + 3, f"tunnel approx. {F(gx-sd)} mm wide", 2.6, 400, "#4a6fa5", "middle")]
-for i, s in enumerate(["4 ring-spring snaps 10 mm, antique copper, nickel-free.", "Cap and socket on the patch, stud on the jeans.",
+      f'<rect x="8" y="{F(by+5+4)}" width="{F(bw+12)}" height="38" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
+      f'<path d="M{F(14+25)} {F(by+5+1.4)}h30M{F(14+25)} {F(by+5+bh-1.4)}h30" style="stroke: #6b4a2a; stroke-width: 1.2px"></path>',
+      T(14 + bw / 2, by + 5 + 26, "belt up to 40 mm runs through here", 2.6, 700, "#4a6fa5", "middle"),
+      T(14 + bw / 2, by + 5 + bh + 4.5, "brown: front and back panel joined (middle 30 mm)", 2.4, 400, "#6b4a2a", "middle")]
+for i, s in enumerate(["4 ring-spring snaps 10 mm, antique copper, nickel-free.", "Cap and socket on the back panel, stud on the jeans.",
                        f"Snap centres {F(sin_)} mm from the side edge and the side ends.", f"Grid {F(gx)} × {F(gy)} mm, the same on every Novalife jeans.",
                        "Patch with stiff interlining so the snaps cannot tear out.", "Jeans: reinforce each stud inside, interlining 20 × 20 mm.",
-                       "Edge folded and topstitched, natural linen.", "Lines min. 0.8 mm, curls min. 2.5 mm.",
+                       "Sides open, top and bottom joined only in the middle 30 mm.", "Pre-shrunk natural linen, edges folded and topstitched.", "Lines min. 0.8 mm, curls min. 2.5 mm.",
                        "Approved sample from the patch maker before 100 pcs.", "Shape: straight sides, 5.5 mm curve top and bottom.",
                        "Plain snaps without letters."]):
     p.append(T(102, by + 10 + i * 5, s, 2.8, 400, SUB))

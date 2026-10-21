@@ -49,8 +49,9 @@ PATCH_SVG = (f'<svg viewBox="-12 -8 104 92" class="plan"><path d="{FN.patch_outl
              f'<path d="M{F(SIN)} {F(PB+SIN)}h{F(GX)}M{F(SIN)} {F(PB+SIN)}v{F(GY)}" class="dim"></path>'
              f'<text x="40" y="{F(PB+SIN-2)}" class="dt">{F(GX)} mm</text>'
              f'<text x="{F(SIN+2)}" y="{F(PB+SIN+GY/2+1)}" class="dt" style="text-anchor:start">{F(GY)} mm</text>'
-             f'<rect x="{F(SIN+SD/2+1)}" y="{F(PH/2-9)}" width="{F(GX-SD-2)}" height="18" class="tun"></rect>'
-             f'<text x="40" y="{F(PH/2+1.2)}" class="tt">belt runs behind</text>'
+             f'<rect x="-6" y="4" width="{F(PW+12)}" height="38" class="tun"></rect>'
+             f'<path d="M25 1.4h30M25 {F(PH-1.4)}h30" style="stroke:#6b4a2a;stroke-width:1.2"></path>'
+             f'<text x="40" y="26" class="tt">belt up to 40 mm runs through</text>'
              f'<path d="M0 {F(PH+4)}h{F(PW)}" class="dim"></path><text x="40" y="{F(PH+8)}" class="dt">80 mm</text>'
              f'<path d="M{F(PW+4)} 0v{F(PH)}" class="dim"></path><text x="{F(PW+6)}" y="{F(PH/2)}" class="dt" style="text-anchor:start">71</text></svg>')
 
@@ -125,7 +126,7 @@ p3 = page(3, f"""
 <h2>Back patch D: detachable with snaps</h2>
 <div class="grid">
 <div class="card"><img src="{uri(IMG['D'])}" alt="D"><h3>Artwork (supplied by us)</h3><p>Embroidered linen patch, 80 mm wide, 71 mm high in the middle, 60 mm at the sides, max. 4 thread colours: dark brown, gold, red, copper.</p></div>
-<div class="card">{PATCH_SVG}<h3>Construction</h3><p>4 ring-spring snaps 10 mm, antique copper, grid 66 × 46 mm. Cap and socket on the patch (stiff interlining), studs on the jeans with 20 × 20 mm reinforcement inside. Position: back right, centred between centre back loop and right loop, top of the patch flush with the top of the waistband. Belt runs behind the patch.</p></div>
+<div class="card">{PATCH_SVG}<h3>Construction</h3><p>Two layers: tree in front, back panel behind, joined in the middle at top and bottom, open at the sides. 4 ring-spring snaps 10 mm, grid 66 × 46 mm, hidden between back panel and jeans: cap and socket on the back panel, studs on the jeans with 20 × 20 mm reinforcement inside. Position: back right, centred between centre back loop and right loop, top flush with the waistband. A belt up to 40 mm runs through the patch.</p></div>
 </div>
 <h2>What we need in your quotation</h2>
 <table>

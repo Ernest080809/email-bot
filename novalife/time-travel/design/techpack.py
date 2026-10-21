@@ -181,7 +181,7 @@ page("Cover", f"""
 <div><h3>Revisions</h3><table class="kv">
 <tr><th>v0.9 · 20 Oct</th><td>Quote pack (3 pages) and artwork 1:1</td></tr>
 <tr><th>{VERSION} · 21 Oct</th><td>Measurements, grading, materials, construction, process, wash, labels, QC</td></tr>
-<tr><th>Change · 21 Oct</th><td>3 spare pairs added. Patch D construction for a standard belt: under review.</td></tr>
+<tr><th>Change · 21 Oct</th><td>3 spare pairs added. Patch D now two layers with a back panel: snaps hidden, a standard belt up to 40 mm runs through.</td></tr>
 <tr><th>Next</th><td>Technical flats, belt loop positions and back pocket check from photos of the reference jeans (22–25 Oct)</td></tr>
 </table>
 <p class="sub" style="margin-top:1.5mm">This tech pack is the only valid reference. Changes only as a new version with a new date, never by chat message.</p></div>
@@ -193,10 +193,10 @@ page("Design overview", f"""
 <div class="grid3">
 <div class="card"><img src="{uri(IMG['A'])}" alt="A"><h3>A · Band, right front pocket</h3><p>Cross-stitch band 23 mm wide, 17 rows, red and white. Inner edge 175 mm on the pocket opening.</p></div>
 <div class="card"><img src="{uri(IMG['E'])}" alt="E"><h3>E · Coin pocket</h3><p>Pocket 62 × 62 mm, fully embroidered 60 × 60 mm, red and white. Centred between side seam and pocket rivet.</p></div>
-<div class="card"><img src="{uri(IMG['D'])}" alt="D"><h3>D · Back patch</h3><p>Linen 80 × 71 mm, supplied by us. Detachable with 4 snaps. Back right, top flush with the waistband.</p></div>
+<div class="card"><img src="{uri(IMG['D'])}" alt="D"><h3>D · Back patch</h3><p>Two-layer linen loop 80 × 71 mm, supplied by us. 4 hidden snaps, detachable. Back right, top flush with the waistband; the belt runs through.</p></div>
 <div class="card"><img src="{uri(IMG['B2'])}" alt="B2"><h3>B2 · Left back pocket</h3><p>Three wheat ears on a red band (48 mm). After washing: 9 gold threads 18–30 mm set by hand, knotted inside.</p></div>
 <div class="card"><img src="{uri(IMG['C'])}" alt="C"><h3>C · Right back pocket</h3><p>Eight-point star of 8 rhombi, 36 × 36 mm, 1 mm gaps, solid red, satin stitch. Same height as the B2 band.</p></div>
-<div class="card"><h3>Hardware</h3><p><b>Button:</b> 20 mm shank, antique copper, eight-point star embossed.</p><p><b>Rivets:</b> 6 × 9 mm, plain antique copper: corners of both front pocket openings and of the coin pocket.</p><p><b>Snaps:</b> 4 ring-spring snaps 10 mm for patch D (page 6).</p></div>
+<div class="card"><h3>Hardware</h3><p><b>Button:</b> 20 mm shank, antique copper, eight-point star embossed.</p><p><b>Rivets:</b> 6 × 9 mm, plain antique copper: corners of both front pocket openings and of the coin pocket.</p><p><b>Snaps:</b> 4 ring-spring snaps 10 mm, hidden behind patch D (page 6).</p></div>
 </div>
 <table class="kv">
 <tr><th>Left / right</th><td>Always as worn. The band A and coin pocket E are on the right front pocket (as worn). B2 is on the left back pocket, C and D are on the right back.</td></tr>
@@ -249,8 +249,8 @@ BOM = [
     ("Zipper", "YKK metal, antique copper finish, auto-lock slider, tonal tape. Length per size: your proposal.", "Fly", "Factory"),
     ("Shank button", "20 mm (ligne 32), antique copper, eight-point star embossed, nickel-free. Custom tooling.", "Waistband, 1 pc", "Factory sources, sample to us"),
     ("Rivets", "9 mm, plain, antique copper, nickel-free.", "6 pcs: front pocket openings and coin pocket corners", "Factory"),
-    ("Snaps", "Ring-spring snaps 10 mm, antique copper, nickel-free. One system for stud, socket and cap.", "4 sets: studs on jeans, sockets and caps on patch D", "Factory sources and sets both parts"),
-    ("Patch D", "Embroidered linen 80 × 71 mm, pre-shrunk, sealed edge, sew-in stiff interlining, colourfast threads, without snaps. Washable by hand on its own.", "Back right", "Supplied by Novalife"),
+    ("Snaps", "Ring-spring snaps 10 mm, antique copper, nickel-free. One system for stud, socket and cap.", "4 sets: studs on jeans, sockets and caps on the back panel of patch D", "Factory sources and sets both parts"),
+    ("Patch D", "Two layers: embroidered linen front 80 × 71 mm and back panel, joined in the middle 30 mm at top and bottom, open at the sides. Pre-shrunk, sealed edges, sew-in stiff interlining, colourfast threads, without snaps. Washable by hand on its own.", "Back right", "Supplied by Novalife"),
     ("Inner label", "Printed, permanent, readable after washing. Content on page 9.", "Inside back waistband", "Factory prints, text from us"),
     ("Polybag", "Recyclable LDPE, one pair per bag, suffocation warning in German and English.", "Packing", "Factory"),
     ("Hangtag", "Design follows (supplied by Novalife or printed by factory, to be agreed).", "Left back belt loop", "Open"),
@@ -271,8 +271,9 @@ PATCH_SVG = (f'<svg viewBox="-12 -8 104 92" class="plan"><path d="{FN.patch_outl
              f'<path d="M{F(SIN)} {F(PB+SIN)}h{F(GX)}M{F(SIN)} {F(PB+SIN)}v{F(GY)}" class="dim"></path>'
              f'<text x="40" y="{F(PB+SIN-2)}" class="dt">{F(GX)} mm</text>'
              f'<text x="{F(SIN+2)}" y="{F(PB+SIN+GY/2+1)}" class="dt" style="text-anchor:start">{F(GY)} mm</text>'
-             f'<rect x="{F(SIN+SD/2+1)}" y="{F(PH/2-9)}" width="{F(GX-SD-2)}" height="18" class="tun"></rect>'
-             f'<text x="40" y="{F(PH/2+1.2)}" class="tt">belt runs behind</text>'
+             f'<rect x="-6" y="4" width="{F(PW+12)}" height="38" class="tun"></rect>'
+             f'<path d="M25 1.4h30M25 {F(PH-1.4)}h30" style="stroke:#6b4a2a;stroke-width:1.2"></path>'
+             f'<text x="40" y="26" class="tt">belt up to 40 mm runs through</text>'
              f'<path d="M0 {F(PH+4)}h{F(PW)}" class="dim"></path><text x="40" y="{F(PH+8)}" class="dt">80 mm</text>'
              f'<path d="M{F(PW+4)} 0v{F(PH)}" class="dim"></path><text x="{F(PW+6)}" y="{F(PH/2)}" class="dt" style="text-anchor:start">71</text></svg>')
 CONS = [
@@ -295,12 +296,12 @@ page("Construction", f"""
 <table class="kv">{crows}</table>
 <div class="grid" style="align-items:center">
 <div>{PATCH_SVG}</div>
-<div><h3>Patch D: detachable with 4 snaps</h3><ul>
+<div><h3>Patch D: two-layer belt loop, detachable with 4 snaps</h3><ul>
 <li>Position: back right as worn, centred between the centre back loop and the right side loop. Top of the patch flush with the top of the waistband.</li>
 <li>Grid 66 × 46 mm between snap centres. This grid is the Novalife standard and must be exact: the patch has to fit every future Novalife jeans.</li>
 <li>On the jeans: 4 studs, each with a 20 × 20 mm reinforcement inside. The top two go through the waistband, the bottom two through the yoke.</li>
-<li>On the patch: sockets and caps, set by you on our patches.</li>
-<li>The belt runs between patch and jeans, between the upper and lower pair of snaps (36 mm clear). Ship every pair with the patch snapped on.</li>
+<li>On the patch: sockets and caps on the back panel, set by you on our patches. From outside the snaps are hidden.</li>
+<li>The belt runs through the patch, between back panel and front, over the upper pair of snaps. Belts up to 40 mm must pass. Ship every pair with the patch snapped on.</li>
 <li>The customer removes the patch before washing the jeans: no indigo on the linen.</li>
 </ul></div>
 </div>""")
@@ -379,7 +380,7 @@ page("Quality control", """
 </div>
 <h3>Snap and hardware test (proto and PP sample, condition for approval)</h3>
 <ul>
-<li>Pull belts of 30, 35 and 40 mm width through behind patch D, 20 times each, and tighten them; sit and bend; open and close every snap 50 times. Tell us which belt widths pass easily.</li>
+<li>Pull a 40 mm belt through patch D 20 times and tighten it; sit and bend; open and close every snap 50 times.</li>
 <li>The snaps must not open by themselves and the patch must not tear. Studs, rivets and button must stay firm under a 90 N pull.</li>
 <li>If the 10 mm snaps fail, we switch to 12.5 mm and adjust the grid; tell us at once.</li>
 <li>Patch D (tested by our patch supplier): after 5 hand washes the snap grid stays 66 × 46 mm ± 0.5 mm, no fraying, no colour bleeding, interlining stays flat.</li>

@@ -239,7 +239,7 @@ rows = [
     ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
     ("C", "Achtstern aus 8 Rauten", "rechte Gesäßtasche, 36 × 36 mm, Fugen 1 mm, Plattstich, Höhe wie B2-Band", "Rot", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
-    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, oben und unten gewölbt, abnehmbar mit 4 Druckknöpfen, Naturleinen, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
+    ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, oben und unten gewölbt, Schlaufe aus 2 Lagen, 4 Druckknöpfe versteckt, Naturleinen, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),
     ("K", "Knopf", f"Shank Button {F(BUTTON_D)} mm, Antik-Kupfer, Achtstern aus 8 Rauten vertieft", "Kupfer", "Fabrik (Knopf-Lieferant)"),
     ("N", "Nieten, Druckknöpfe", "Antik-Kupfer: 6 Nieten 9 mm vorn, 4 Ringfeder-Druckknöpfe 10 mm für Patch D", "Kupfer", "Fabrik"),
 ]
@@ -269,7 +269,8 @@ p.append(T(12, y, "Was sich gegenüber v1.8 geändert hat", 3.4, 700)); y += 6
 for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bleibt bei ~28.000 Stichen.",
           f"Band A: Innenkante {INNER_MM} mm statt 186 mm. Die Außenkante ist {OUTER_MM} mm lang, weil das Band 23 mm breit im Bogen läuft.",
           "Knopf: 17 → 20 mm. 20 mm ist die Standardgröße (Ligne 32), dafür gibt es die meisten Lieferanten.",
-          "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion. Der Gürtel passt weiter durch.",
+          "Patch D: 76 × 67 → 80 × 71 mm, gleiche Proportion.",
+          "Patch D (21.10.): 2 Lagen, Druckknöpfe versteckt hinter der Rückwand. So passt ein normaler Gürtel bis 40 mm durch.",
           "Gesäßtaschen: 144 × 172 → 160/130 × ~150 mm. Neigung jetzt 5 mm statt 16 mm, und andersherum: innen höher.",
           "Patch D: hinten rechts, Form wie deine Vorlage, abnehmbar mit 4 Druckknöpfen (Raster 66 × 46 mm, auf jeder Novalife-Jeans gleich).",
           "Achtstern C und Knopf: neue Form aus 8 Rauten (deine Vorlage), einfarbig Rot, Plattstich statt Kreuzstich."]:
@@ -342,7 +343,8 @@ pages.append(p)
 p = header(5, "Hinten rechts · Patch D als Gürtelschlaufe", [
     f"Deine Vorlage 1:1: {F(PATCH_W)} mm breit, {F(PATCH_H)} mm hoch in der Mitte, {F(PATCH_SIDE)} mm an den Seiten. Garnfarben (höchstens 4): Gold, Kupfer, Dunkelbraun, Rot.",
     "Sitz hinten rechts (vom Träger aus), zwischen Mittelschlaufe und rechter Schlaufe.",
-    "Abnehmbar: 4 Ringfeder-Druckknöpfe 10 mm, Antik-Kupfer. Oben und unten offen, der Gürtel läuft dahinter. Zum Waschen abnehmen.",
+    "Zwei Lagen: Baum vorn, Rückwand hinten, oben und unten in der Mitte verbunden, seitlich offen.",
+    "4 Druckknöpfe versteckt zwischen Rückwand und Jeans. Der Gürtel läuft zwischen Rückwand und Baum. Vor dem Waschen abnehmen.",
     "Papiertest: Bild auf Pappe kleben, ausschneiden, hinten rechts mit Krepp an den 4 Knopfpunkten fixieren, Gürtel durchziehen.",
 ])
 px, py = 14, 56
@@ -357,13 +359,14 @@ p += [T(14, by, "Bauplan für die Fabrik", 3.6, 700),
       f'style="fill: none; stroke: {GUIDE}; stroke-width: 0.25px; stroke-dasharray: 1 0.8"></path>',
       T(14 + bw / 2, by + 5 + PATCH_BULGE + SNAP_IN - 1.5, f"{F(SNAP_GX)} mm", 2.4, 700, GUIDE, "middle"),
       T(14 + SNAP_IN + 1.5, by + 5 + PATCH_BULGE + SNAP_IN + SNAP_GY / 2 + 6, f"{F(SNAP_GY)} mm", 2.4, 700, GUIDE),
-      f'<rect x="{F(14+SNAP_IN+SNAP_D/2+1)}" y="{F(by+5+bh/2-9.5)}" width="{F(SNAP_GX-SNAP_D-2)}" height="19" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
-      T(14 + bw / 2, by + 5 + bh / 2 - 1.5, "Gürtel läuft dahinter", 2.8, 700, "#4a6fa5", "middle"),
-      T(14 + bw / 2, by + 5 + bh / 2 + 3, f"Tunnel innen ca. {F(SNAP_GX-SNAP_D)} mm breit", 2.6, 400, "#4a6fa5", "middle")]
-for i, s in enumerate(["4 Ringfeder-Druckknöpfe 10 mm, Antik-Kupfer, nickelfrei.", "Am Patch Kappe und Oberteil, an der Jeans das Unterteil.",
+      f'<rect x="8" y="{F(by+5+4)}" width="{F(bw+12)}" height="38" style="fill: none; stroke: #4a6fa5; stroke-width: 0.5px; stroke-dasharray: 2 1.4"></rect>',
+      f'<path d="M{F(14+25)} {F(by+5+1.4)}h30M{F(14+25)} {F(by+5+bh-1.4)}h30" style="stroke: #6b4a2a; stroke-width: 1.2px"></path>',
+      T(14 + bw / 2, by + 5 + 26, "Gürtel bis 40 mm läuft hier durch", 2.6, 700, "#4a6fa5", "middle"),
+      T(14 + bw / 2, by + 5 + bh + 4.5, "braun: Vorderteil und Rückwand verbunden (Mitte 30 mm)", 2.4, 400, "#6b4a2a", "middle")]
+for i, s in enumerate(["4 Ringfeder-Druckknöpfe 10 mm, Antik-Kupfer, nickelfrei.", "An der Rückwand Kappe und Oberteil, an der Jeans das Unterteil.",
                        f"Mitte der Knöpfe {F(SNAP_IN)} mm von Seitenkante und Seitenende.", f"Raster {F(SNAP_GX)} × {F(SNAP_GY)} mm, gleich auf jeder Novalife-Jeans.",
                        "Patch mit fester Einlage, sonst reißen die Knöpfe aus.", "Jeans: Unterteile innen mit Vlies 20 × 20 mm verstärken.",
-                       "Oben und unten offen. Kante umgeschlagen und gesteppt, Naturleinen.",
+                       "Seiten offen, oben und unten nur in der Mitte 30 mm verbunden.", "Naturleinen vorgeschrumpft, Kante umgeschlagen und gesteppt.",
                        "Linien mind. 0,8 mm, Einrollungen mind. 2,5 mm.", "Muster vom Patch-Hersteller ist Pflicht vor 100 Stück.",
                        "Sitz: hinten rechts, mittig zwischen", "Mittelschlaufe und rechter Schlaufe.", "Höchster Punkt der Wölbung bündig mit der Bundoberkante.",
                        "Form: Seiten gerade, oben und unten mittig je 5,5 mm gewölbt.", "Knöpfe ohne Zeichen (die im Foto sind Bildfehler)."]):

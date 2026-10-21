@@ -100,7 +100,7 @@ h2{font-size:12.5pt;margin:0}
 h3{font-size:10pt;margin:0}
 p{margin:0}
 .sub{color:#4a5262}
-.vis{width:100%;max-height:88mm;object-fit:contain;border:0.3mm solid #d9dde4}
+.vis{width:100%;max-height:80mm;object-fit:contain;border:0.3mm solid #d9dde4}
 table{width:100%;border-collapse:collapse}
 td,th{text-align:left;vertical-align:top;padding:1.15mm 1.8mm;border-bottom:0.25mm solid #e1e4ea}
 .kv th{width:32mm;font-weight:700}
@@ -168,7 +168,7 @@ page("Cover", f"""
 <p class="sub">The visual shows the placement of all details. Fit and leg shape follow the measurements on pages 3–4 and our reference jeans, which are slimmer than the visual. The wash is darker than shown (page 8).</p>
 <table class="kv">
 <tr><th>Style</th><td>NVL-TT-01 · Time Travel · Novalife, Berlin</td></tr>
-<tr><th>Quantity</th><td>100 pairs, one style, one wash, numbered 001–100 on the inner label</td></tr>
+<tr><th>Quantity</th><td>100 pairs, one style, one wash, numbered 001–100 on the inner label, plus 3 spare pairs without number (W32, W34, W36)</td></tr>
 <tr><th>Sizes</th><td>W30 · W31 · W32 · W33 · W34 · W36 · W38, one inseam 81 cm (L32). Base size and proto: W32.</td></tr>
 <tr><th>Fabric</th><td>12 oz rigid 100 % cotton denim, no stretch, residual shrinkage ≤ 3 % after wash</td></tr>
 <tr><th>Wash</th><td>Mid-indigo vintage, honeycombs behind the knees, fading on the front thighs, no whiskers, no holes</td></tr>
@@ -181,6 +181,7 @@ page("Cover", f"""
 <div><h3>Revisions</h3><table class="kv">
 <tr><th>v0.9 · 20 Oct</th><td>Quote pack (3 pages) and artwork 1:1</td></tr>
 <tr><th>{VERSION} · 21 Oct</th><td>Measurements, grading, materials, construction, process, wash, labels, QC</td></tr>
+<tr><th>Change · 21 Oct</th><td>3 spare pairs added. Patch D construction for a standard belt: under review.</td></tr>
 <tr><th>Next</th><td>Technical flats, belt loop positions and back pocket check from photos of the reference jeans (22–25 Oct)</td></tr>
 </table>
 <p class="sub" style="margin-top:1.5mm">This tech pack is the only valid reference. Changes only as a new version with a new date, never by chat message.</p></div>
@@ -229,6 +230,7 @@ page("Grading", f"""
 <p class="sub">Grade per 1" of waist size. Between W34, W36 and W38 the step is 2". Please check against your own block and send us your comments before the proto.</p>
 <table class="spec"><tr><th>No.</th><th>Point of measure</th><th class="n">Tol.</th><th class="n">Grade / 1"</th>{hdr}</tr>{grows}
 <tr class="grp"><td></td><td colspan="3">Estimated quantity (final in February)</td>{split}</tr></table>
+<p class="sub">Plus 3 spare pairs without number: W32, W34, W36.</p>
 <div class="grid">
 <div class="note"><h3>Size names</h3><p>Our size names run larger than the measured waist on purpose: relaxed straight fit, worn with a belt. Full waist in cm: {waist_full}. Size label: W.. L32.</p></div>
 <div class="note"><h3>Same in all sizes</h3><p>Inseam 81 cm, waistband 4 cm, hem 1 cm, belt loops, back pocket size and position, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.</p></div>
@@ -366,6 +368,7 @@ page("Quality control", """
 <h2>Quality control</h2>
 <table class="kv">
 <tr><th>100 % check</th><td>Every pair is checked by the factory before packing: measurements 1, 2, 6, 7, 8 on two pairs per size, all other pairs visually.</td></tr>
+<tr><th>Spare pairs</th><td>If a numbered pair fails the final inspection, replace it with a spare pair of the same size and give it the same number (new label). Unused spares get a label without number.</td></tr>
 <tr><th>Photos</th><td>Before shipment: one photo per numbered pair (front, back, inner label with number) and a short video of the final inspection. The balance is paid after we approve them.</td></tr>
 <tr><th>Final inspection</th><td>AQL 2.5 major / 4.0 minor / 0 critical (ISO 2859-1, level II). We may send an inspector.</td></tr>
 </table>

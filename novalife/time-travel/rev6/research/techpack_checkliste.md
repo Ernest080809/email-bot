@@ -33,19 +33,19 @@ Legende: **da** = haben wir, **teils** = angefangen, **fehlt** = muss noch rein,
 | Gradierung W30–W38: Sprung pro Größe für jeden Messpunkt | fehlt |
 | Was nicht gradiert wird: Stickmotive, Münztasche, Patch, Knopf, Nieten | da |
 | Größenverteilung der 100 Paare | offen (kommt aus Vorbestellung und Mess-Abenden im Februar) |
-| Fit: Baggy wie Referenz oder Straight | **offen** |
+| Fit: Baggy wie Referenz oder Straight | entschieden: Straight wie Eightyfive M |
 
 ## 5. Materialliste (BOM)
 | Punkt | Status |
 |---|---|
 | Denim: 12 oz, 100 % Baumwolle, rigid, Bindung, Breite, Weberei und Artikel-Nr., Restschrumpf ≤ 3 % nach Wäsche | teils |
-| Taschenbeutel: Stoff, Gewicht, Farbe | fehlt |
-| Nähgarn: Steppgarn Farbe und Stärke, Nahtgarn | fehlt |
+| Taschenbeutel: Stoff, Gewicht, Farbe | entschieden: naturweiße Baumwolle, unbedruckt (Gewicht schlägt die Fabrik vor) |
+| Nähgarn: Steppgarn Farbe und Stärke, Nahtgarn | teils: Ziernähte Kupfer-Gold, Stärke schlägt die Fabrik vor |
 | Stickgarn: Marke und Farbnummern für Rot, Weiß, Gold. Polyester, weil es Bleiche und Wäsche aushält (z. B. Madeira Polyneon) | fehlt |
 | Goldfäden B2: Material, Farbe, 9 Stück 18–30 mm, Befestigung innen verknotet | teils |
 | Knopf 20 mm (Ligne 32) Shank, Antik-Kupfer, Achtstern vertieft. Nieten 6 × 9 mm vorn, 4 × 6 mm am Patch. Lieferant und Musterfreigabe | teils |
 | Patch D: Naturleinen 80 × 71 mm, Lieferant, max. 4 Garnfarben, Kante | teils |
-| Hosenschlitz: Reißverschluss (Marke, Länge) oder Knopfleiste | **offen** |
+| Hosenschlitz: Reißverschluss (Marke, Länge) oder Knopfleiste | entschieden: YKK Metall, Antik-Kupfer, Autolock, Länge nach Schlitz 15 cm |
 | Etiketten: Pflege- und Größenetikett, Hangtag, Polybeutel | fehlt |
 
 ## 6. Stickerei pro Zone (A, E, B2, C)
@@ -73,9 +73,9 @@ Zuschnitt → Stickerei auf den Zuschnittteilen (A Vorderteil, E Münztasche, B2
 ## 9. Wäsche
 | Punkt | Status |
 |---|---|
-| Waschstandard: helle Vintage-Wäsche, Referenzfoto oder physisches Muster | teils (Referenzfoto) |
+| Waschstandard: mittleres Vintage-Indigo, Referenzfotos oder physisches Muster | teils (Referenzfotos 21.10., physischer Waschstandard kommt vom Proto) |
 | Keine Sandstrahlung, kein Kaliumpermanganat-Spray (Laser oder Ozon statt PP), keine Löcher | teils |
-| Whiskers, Abrieb an Knie und Gesäß: ja oder nein | offen |
+| Whiskers, Abrieb an Knie und Gesäß: ja oder nein | entschieden: keine Whiskers. Pflicht: Honeycombs hinter den Knien und Aufhellung auf den Oberschenkeln |
 | Farbton-Toleranz gegen den freigegebenen Waschstandard | fehlt |
 
 ## 10. Etiketten und Pflichtangaben (EU, Deutschland)
@@ -154,3 +154,13 @@ Jede Freigabe schriftlich. Ohne Freigabe kein nächster Schritt.
 - Patch D Bild: von Ernest mit Gemini erstellt. Google beansprucht kein Eigentum, keine Haftung, Bild nicht schutzfähig. Google-Lens-Check auf Ähnlichkeit empfohlen.
 - Garnfarben Patch D: Dunkelbraun, Gold, Rot, Kupfer.
 - Checkliste zum Abhaken: Artifact „Tech Pack NVL-TT-01“.
+
+## Entscheidungen (Stand Mi 21.10.2026)
+- Innenbein 81 cm (L32), eine Länge für alle Größen.
+- Ziernähte Kupfer-Gold. Reißverschluss YKK Metall, Antik-Kupfer, mit Autolock. Taschenbeutel naturweiße Baumwolle, unbedruckt.
+- Wäsche: keine Whiskers. Pflicht sind Honeycombs hinter den Knien und die Aufhellung auf den Oberschenkeln.
+- Wäsche-Referenzen (rev6/skizzen/2026-10-21_waesche_referenzen.jpg, Collage mit 5 Bildern): Farbziel ist das Bild rechts in der Mitte (Model, mittleres Indigo mit leichtem Grau-Stich, Oberschenkel heller). Oberschenkel-Abrieb wie oben rechts, aber ohne Nicks und Löcher. Honeycombs wie unten rechts und rev6/skizzen/2026-10-21_honeycomb_ironheart.jpg (hoher Kontrast). Unten links nur Stimmung, Löcher und Reparaturen nicht. Oben links zeigt die Köperstruktur.
+- Größe: Ernest trägt sonst W32 (eigene Angabe), die Eightyfive M mit 86 cm Bund passt ihm. Basisgröße heißt auf dem Etikett W32, Schnitt mit 86 cm Bund. Im Shop steht eine Maßtabelle in cm.
+- Druckknöpfe: kein Heimtest, Ernest überlässt die Entscheidung Claude. 10 mm Ringfeder bleibt. Haltetest am Proto ist Freigabe-Bedingung im Tech Pack, Ausweichlösung 12,5 mm mit angepasstem Raster.
+- Papiertest 4 bestanden (21.10.). Google-Lens-Check für das Patch-Bild ohne Treffer (21.10.).
+- Die Eightyfive geht als physisches Referenzmuster an die gewählte Fabrik. Vorher fotografiert Ernest sie (kommt Do 22.10.).

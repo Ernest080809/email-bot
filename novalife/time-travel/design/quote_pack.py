@@ -98,11 +98,11 @@ p1 = page(1, f"""
 <p class="sub">Visual only: it shows placement of all details. The fit follows our reference jeans (straight leg). The wash is darker than shown: see below.</p>
 <table>
 <tr><th>Quantity</th><td>100 pairs, one style, one wash. Sizes W30–W38, estimated split: W30 8 · W31 10 · W32 20 · W33 14 · W34 20 · W36 18 · W38 10 (final split in February).</td></tr>
-<tr><th>Fit</th><td>Men's 5-pocket, straight leg, base size M = W34. Reference jeans, measured flat in cm: waist 43 · hip 52 · thigh 29 · knee 22.5 · leg opening 21 · front rise 32 · back rise 37 · inseam 78. Full spec sheet with grading follows.</td></tr>
+<tr><th>Fit</th><td>Men's 5-pocket, straight leg, base size M, labelled W32 (waist 86 cm). Reference jeans, measured flat in cm: waist 43 · hip 52 · thigh 29 · knee 22.5 · leg opening 21 · front rise 32 · back rise 37. One inseam for all sizes: 81 cm (L32). Full spec sheet with grading follows.</td></tr>
 <tr><th>Fabric</th><td>12 oz rigid 100 % cotton denim, no stretch, residual shrinkage ≤ 3 % after wash.</td></tr>
-<tr><th>Wash</th><td>Mid-indigo vintage wash, honeycombs behind the knees, light fading on the front thighs. No holes, no sandblasting, no potassium permanganate spray. Reference photos follow.</td></tr>
+<tr><th>Wash</th><td>Mid-indigo vintage wash, honeycombs behind the knees, fading on the front thighs, no whiskers. No holes, no sandblasting, no potassium permanganate spray. Reference photos follow.</td></tr>
 <tr><th>Embroidery</th><td>4 zones on cut panels before sewing, approx. 28,000 stitches in total, polyester thread that resists the wash (page 2).</td></tr>
-<tr><th>Trims</th><td>Zip fly with 20 mm (ligne 32) custom shank button, antique copper, embossed eight-point star. 6 rivets 9 mm, plain antique copper. All metal parts nickel-free (EU REACH).</td></tr>
+<tr><th>Trims</th><td>YKK metal zip fly (antique copper, auto-lock) with 20 mm (ligne 32) custom shank button, antique copper, embossed eight-point star. 6 rivets 9 mm, plain antique copper. All metal parts nickel-free (EU REACH).</td></tr>
 <tr><th>Back patch</th><td>Linen patch 80 × 71 mm, supplied by us, detachable with 4 ring-spring snaps 10 mm (page 3).</td></tr>
 <tr><th>Labels</th><td>Printed inner waistband label with serial number 001–100 plus fibre content and care in German (text supplied by us).</td></tr>
 </table>""")

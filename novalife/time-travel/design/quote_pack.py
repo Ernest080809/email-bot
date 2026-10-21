@@ -136,7 +136,7 @@ p3 = page(3, f"""
 </table>
 <h2>Timeline</h2>
 <table>
-<tr><th>Partner chosen</th><td>Monday 26 October 2026, full tech pack the same week</td></tr>
+<tr><th>Partner chosen</th><td>Thursday 29 October 2026, full tech pack the next day</td></tr>
 <tr><th>Proto</th><td>early December 2026</td></tr>
 <tr><th>Pre-production sample</th><td>4 January 2027</td></tr>
 <tr><th>Bulk</th><td>mid-February to mid-May 2027</td></tr>

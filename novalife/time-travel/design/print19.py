@@ -277,9 +277,9 @@ for s in ["Münztasche E: bleibt 62 × 62 mm (Entscheidung 17.10.). Stickerei bl
     p.append(T(14, y, "· " + s, 2.8, 400, SUB)); y += 5
 y += 4
 p.append(T(12, y, "Größen W30–W38", 3.4, 700)); y += 6
-for s in ["Basisgröße ist M. Die Fabrik gradiert die Gesäßtaschen und die Taschenöffnung vorn für die anderen Größen.",
-          "Band A wird dabei um ganze Musterrapporte länger oder kürzer, nie gestreckt.",
-          "Gleich in allen Größen: Münztasche E, Ähren B2, Stern C, Patch D, Knopf und Nieten (ein Stickprogramm je Motiv)."]:
+for s in ["Basisgröße ist M (= W32). Gesäßtaschen und Taschenöffnung vorn bleiben in allen Größen gleich (Entscheidung 22.10.).",
+          "Damit reicht ein Stickprogramm je Motiv, auch für Band A.",
+          "Gleich in allen Größen: alle Stickereien, Münztasche, Gesäßtaschen, Taschenöffnung vorn, Patch D, Knopf und Nieten."]:
     p.append(T(14, y, "· " + s, 2.8, 400, SUB)); y += 5
 pages.append(p)
 

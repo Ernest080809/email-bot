@@ -5,6 +5,7 @@
 import base64, io, math, os, subprocess, tempfile
 from PIL import Image
 import fine as FN
+import flats as FL
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
@@ -12,7 +13,7 @@ PDF_IN = os.path.join(ROOT, "pdf", "NVL_Druckvorlage_v19_Jeans.pdf")
 VIS_JPG = os.path.join(ROOT, "mockup", "NVL-TT-01_visual.jpg")
 SKIZZEN = os.path.join(ROOT, "rev6", "skizzen")
 OUT_HTML = os.path.join(HERE, "v19", "techpack.html")
-VERSION, DATE = "v1.0 draft", "21 Oct 2026"
+VERSION, DATE = "v1.0 draft", "22 Oct 2026"
 DPI = 200; K = DPI / 25.4
 F = FN.F
 
@@ -66,7 +67,7 @@ POM = [
     (13, "Back yoke at side seam", "Bottom of waistband to yoke seam, on the side seam.", 3.0, 0.3, 0.0),
     (14, "Back pocket to centre back", "Centre back seam to inner top corner of back pocket.", 3.5, 0.3, 0.0),
     (15, "Back pocket below waistband", "Bottom of waistband to top of back pocket, at the inner corner.", 8.5, 0.3, 0.0),
-    (16, "Front pocket opening, width", "At the bottom of the waistband: side seam to start of pocket opening.", 11.0, 0.3, 0.2),
+    (16, "Front pocket opening, width", "At the bottom of the waistband: side seam to start of pocket opening.", 11.0, 0.3, 0.0),
     (17, "Front pocket opening, depth", "Along the side seam: bottom of waistband to end of pocket opening.", 7.0, 0.3, 0.0),
     (18, "Belt loops, number", "2 front, 2 side back, 1 centre back.", 5, None, None),
     (19, "Belt loop length", "Visible length, top to bottom.", 4.0, 0.2, 0.0),
@@ -100,7 +101,7 @@ h2{font-size:12.5pt;margin:0}
 h3{font-size:10pt;margin:0}
 p{margin:0}
 .sub{color:#4a5262}
-.vis{width:100%;max-height:80mm;object-fit:contain;border:0.3mm solid #d9dde4}
+.vis{width:100%;max-height:72mm;object-fit:contain;border:0.3mm solid #d9dde4}
 table{width:100%;border-collapse:collapse}
 td,th{text-align:left;vertical-align:top;padding:1.15mm 1.8mm;border-bottom:0.25mm solid #e1e4ea}
 .kv th{width:32mm;font-weight:700}
@@ -112,6 +113,7 @@ td,th{text-align:left;vertical-align:top;padding:1.15mm 1.8mm;border-bottom:0.25
 .spec tr.grp td{background:#f6f7f9;font-weight:700;font-size:7.8pt;text-transform:uppercase;letter-spacing:.05em}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
 .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.grid4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:3mm}
 .card{border:0.3mm solid #d9dde4;border-radius:2mm;padding:2.5mm;display:flex;flex-direction:column;gap:1.5mm}
 .card img{width:100%;max-height:38mm;object-fit:contain}
 .note{background:#f3f5f8;border-radius:2mm;padding:2.5mm 3mm}
@@ -120,6 +122,7 @@ ul,ol{margin:0;padding-left:5mm}
 li{margin-bottom:0.8mm}
 .diag{display:grid;grid-template-columns:1fr 1fr;gap:6mm;padding:0 14mm}
 .diag svg{width:100%;height:auto;max-height:68mm}
+.flat{width:100%;height:auto;max-height:150mm}
 .diag .cap{text-align:center;font-size:8pt;color:#68707e;margin-top:1mm}
 .gm{fill:#dbe4f0;stroke:#41618f;stroke-width:1.6}
 .sm,.pk{fill:none;stroke:#41618f;stroke-width:1.2}
@@ -159,13 +162,13 @@ def render():
 
 
 # ================= 1 · Deckblatt =================
-INDEX = ["Cover and style summary", "Design overview", "Points of measure, base size W32", "Grading W30–W38",
+INDEX = ["Cover and style summary", "Design overview", "Technical flats", "Embroidery", "Points of measure, base size W32", "Grading W30–W38",
          "Bill of materials", "Construction and stitching", "Process and approvals", "Wash", "Labels, packing, compliance",
          "Quality control", "Annex: artwork 1:1 (4 pages)"]
 page("Cover", f"""
 <div><h1>NVL-TT-01 · Time Travel jeans</h1><p class="sub">Men's 5-pocket straight-leg jeans with embroidery, 100 numbered pairs. Tech pack for the nominated factory.</p></div>
 <img class="vis" src="{VIS}" alt="Visual front and back">
-<p class="sub">The visual shows the placement of all details. Fit and leg shape follow the measurements on pages 3–4, which are slimmer than the visual. The wash is darker than shown (page 8).</p>
+<p class="sub">The visual shows the placement of all details. Fit and leg shape follow the measurements on pages 5–6, which are slimmer than the visual. The wash is darker than shown (page 10).</p>
 <table class="kv">
 <tr><th>Style</th><td>NVL-TT-01 · Time Travel · Novalife, Berlin</td></tr>
 <tr><th>Quantity</th><td>100 pairs, one style, one wash, numbered 001–100 on the inner label, plus 3 spare pairs without number (W32, W34, W36)</td></tr>
@@ -174,7 +177,7 @@ page("Cover", f"""
 <tr><th>Wash</th><td>Mid-indigo vintage, honeycombs behind the knees, fading on the front thighs, no whiskers, no holes</td></tr>
 <tr><th>Embroidery</th><td>4 zones on the cut panels before sewing, about 28,000 stitches (annex)</td></tr>
 <tr><th>Trims</th><td>YKK metal zip, 20 mm shank button, 6 rivets, 4 snaps for the detachable back patch, all antique copper, nickel-free</td></tr>
-<tr><th>Reference</th><td>The measurements come from our reference jeans (size M = our W32). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page 7).</td></tr>
+<tr><th>Reference</th><td>The measurements come from our reference jeans (size M = our W32). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page 9).</td></tr>
 </table>
 <div class="grid">
 <div><h3>Contents</h3><ol>{"".join(f"<li>{t}</li>" for t in INDEX)}</ol></div>
@@ -182,7 +185,7 @@ page("Cover", f"""
 <tr><th>v0.9 · 20 Oct</th><td>Quote pack (3 pages) and artwork 1:1</td></tr>
 <tr><th>{VERSION} · 21 Oct</th><td>Measurements, grading, materials, construction, process, wash, labels, QC</td></tr>
 <tr><th>Change · 21 Oct</th><td>3 spare pairs added. Patch D now two layers with a back panel: snaps hidden, a standard belt up to 40 mm runs through.</td></tr>
-<tr><th>Next</th><td>Technical flats from the measurements (22–25 Oct)</td></tr>
+<tr><th>22 Oct</th><td>Technical flats, embroidery specification. Back pockets and front pocket opening the same in all sizes.</td></tr>
 </table>
 <p class="sub" style="margin-top:1.5mm">This tech pack is the only valid reference. Changes only as a new version with a new date, never by chat message.</p></div>
 </div>""")
@@ -196,17 +199,52 @@ page("Design overview", f"""
 <div class="card"><img src="{uri(IMG['D'])}" alt="D"><h3>D · Back patch</h3><p>Two-layer linen loop 80 × 71 mm, supplied by us. 4 hidden snaps, detachable. Back right, top flush with the waistband; the belt runs through.</p></div>
 <div class="card"><img src="{uri(IMG['B2'])}" alt="B2"><h3>B2 · Left back pocket</h3><p>Three wheat ears on a red band (48 mm). After washing: 9 gold threads 18–30 mm set by hand, knotted inside.</p></div>
 <div class="card"><img src="{uri(IMG['C'])}" alt="C"><h3>C · Right back pocket</h3><p>Eight-point star of 8 rhombi, 36 × 36 mm, 1 mm gaps, solid red, satin stitch. Same height as the B2 band.</p></div>
-<div class="card"><h3>Hardware</h3><p><b>Button:</b> 20 mm shank, antique copper, eight-point star embossed.</p><p><b>Rivets:</b> 6 × 9 mm, plain antique copper: corners of both front pocket openings and of the coin pocket.</p><p><b>Snaps:</b> 4 ring-spring snaps 10 mm, hidden behind patch D (page 6).</p></div>
+<div class="card"><h3>Hardware</h3><p><b>Button:</b> 20 mm shank, antique copper, eight-point star embossed.</p><p><b>Rivets:</b> 6 × 9 mm, plain antique copper: corners of both front pocket openings and of the coin pocket.</p><p><b>Snaps:</b> 4 ring-spring snaps 10 mm, hidden behind patch D (page 8).</p></div>
 </div>
 <table class="kv">
 <tr><th>Left / right</th><td>Always as worn. The band A and coin pocket E are on the right front pocket (as worn). B2 is on the left back pocket, C and D are on the right back.</td></tr>
 <tr><th>Back pockets</th><td>Top 160 mm, bottom 130 mm, sides 125 mm (inner) and 120 mm (outer), point 70 mm each side, about 150 mm high. The inner side is 5 mm higher. Same size in all sizes.</td></tr>
-<tr><th>Not graded</th><td>All embroidery, coin pocket, back pockets, patch D, button, rivets and snaps are the same in every size. One embroidery program per motif.</td></tr>
+<tr><th>Not graded</th><td>All embroidery, coin pocket, back pockets, front pocket opening, patch D, button, rivets and snaps are the same in every size. One embroidery program per motif.</td></tr>
 <tr><th>Exact artwork</th><td>Annex, 4 pages in 1:1 scale. Print at 100 %; the check line must measure 100 mm.</td></tr>
 <tr><th>Tolerance</th><td>Position of every embroidery, pocket and patch: ± 3 mm.</td></tr>
 </table>""")
 
-# ================= 3 · Messpunkte Basis W32 =================
+# ================= 3 · Technische Zeichnungen =================
+lrows = "".join(f'<tr><td class="no">{k}</td><td>{t}</td></tr>' for k, t in FL.LEGEND)
+page("Technical flats", f"""
+<h2>Technical flats · base size W32</h2>
+<div class="grid" style="gap:6mm;padding:0 6mm">{FL.FRONT}{FL.BACK}</div>
+<table class="spec"><tr><th>Key</th><th>Detail</th></tr>{lrows}</table>
+<p class="sub">Drawn from our measurements, not to scale. The measurements on page 5 are binding. Dashed brown lines are topstitching in copper-gold, short thick lines are bartacks. Front view: left in the drawing is the wearer's right.</p>""")
+
+# ================= 4 · Stickerei =================
+EMB = [
+    ("A", "Right front pocket (as worn), along the opening. Inner edge of the band on the opening edge, from the waistband to the side seam.",
+     "Band 23 mm wide, inner edge 175 mm", "Cross-stitch, 17 rows, cell 1.33 mm", "Red, white", "≈ 11,000"),
+    ("E", "Coin pocket, whole pocket.", "Pocket 62 × 62 mm, embroidery 60 × 60 mm", "Cross-stitch, 45 × 45 cells of 1.33 mm", "Red, white", "≈ 9,000"),
+    ("B2", "Left back pocket (as worn). Centre of the band 80 mm from the pocket sides, 47 mm below the top edge at the inner corner.",
+     "Band 48 mm, three wheat ears", "Satin and fill", "Gold, red, white", "≈ 5,000"),
+    ("C", "Right back pocket. Centre at the same point as B2.", "Star 36 × 36 mm, 8 rhombi, 1 mm gaps", "Satin stitch", "Red", "≈ 3,000"),
+]
+erows = "".join(f'<tr><td class="no">{a}</td><td>{b}</td><td>{c}</td><td>{d}</td><td>{e}</td><td class="n">{f}</td></tr>' for a, b, c, d, e, f in EMB)
+page("Embroidery", f"""
+<h2>Embroidery specification</h2>
+<table class="spec"><tr><th>Zone</th><th>Position</th><th>Size</th><th>Technique</th><th>Colours</th><th class="n">Stitches</th></tr>{erows}
+<tr class="grp"><td></td><td colspan="4">Total, estimate. The digitizing preview gives the real numbers.</td><td class="n">≈ 28,000</td></tr></table>
+<table class="kv">
+<tr><th>When</th><td>On the cut panels <b>before sewing</b>: A on the front panel, E on the coin pocket, B2 and C on the back pockets.</td></tr>
+<tr><th>Shrinkage</th><td>The denim shrinks in the wash, the thread does not. Digitize the motifs so they have the size above <b>after</b> the wash, or pre-wash the fabric. The washed strike-off shows which way works.</td></tr>
+<tr><th>Thread</th><td>Polyester embroidery thread, resistant to bleach and enzyme wash (e.g. Madeira Polyneon 40 or equivalent). Red, white and gold (non-metallic) chosen by us from your colour card.</td></tr>
+<tr><th>Backing</th><td>Cut-away, wash-resistant, trimmed 3–5 mm around each motif.</td></tr>
+<tr><th>Finish</th><td>No loose jump stitches on the visible side, all ends tied off. No puckering. Red must not bleed into white or denim.</td></tr>
+<tr><th>Gold threads B2</th><td>After the wash: 9 gold threads 18–30 mm set by hand under the B2 band, knotted inside the pocket.</td></tr>
+<tr><th>Same in all sizes</th><td>One embroidery program per motif. Back pockets and front pocket opening do not change between sizes.</td></tr>
+<tr><th>Tolerance</th><td>Position ± 3 mm, size ± 1 mm.</td></tr>
+<tr><th>Files</th><td>The embroidery files (DST) belong to Novalife. Exact artwork 1:1: annex.</td></tr>
+</table>
+<div class="grid4">{"".join(f'<div class="card"><img src="{uri(IMG[k])}" alt="{k}"><h3>{k}</h3></div>' for k in ("A", "E", "B2", "C"))}</div>""")
+
+# ================= 5 · Messpunkte Basis W32 =================
 rows = "".join(
     f'<tr><td class="no">{n}</td><td><b>{name}</b></td><td>{how}</td><td class="n base">{fmt(base)}</td>'
     f'<td class="n">{"" if tol is None else "± " + fmt(tol)}</td><td class="n">{"" if tol is None else f"{base / 2.54:.1f}"}</td></tr>' for n, name, how, base, tol, _ in POM)
@@ -233,7 +271,7 @@ page("Grading", f"""
 <p class="sub">Plus 3 spare pairs without number: W32, W34, W36.</p>
 <div class="grid">
 <div class="note"><h3>Size names</h3><p>Our size names run larger than the measured waist on purpose: relaxed straight fit, worn with a belt. Full waist in cm: {waist_full}. Size label: W.. L32.</p></div>
-<div class="note"><h3>Same in all sizes</h3><p>Inseam 81 cm, waistband 4 cm, hem 1 cm, belt loops, back pocket size and position, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.</p></div>
+<div class="note"><h3>Same in all sizes</h3><p>Inseam 81 cm, waistband 4 cm, hem 1 cm, belt loops, back pocket size and position, front pocket opening, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.</p></div>
 </div>""")
 
 # ================= 5 · Materialliste =================
@@ -251,7 +289,7 @@ BOM = [
     ("Rivets", "9 mm, plain, antique copper, nickel-free.", "6 pcs: front pocket openings and coin pocket corners", "Factory"),
     ("Snaps", "Ring-spring snaps 10 mm, antique copper, nickel-free. One system for stud, socket and cap.", "4 sets: studs on jeans, sockets and caps on the back panel of patch D", "Factory sources and sets both parts"),
     ("Patch D", "Two layers: embroidered linen front 80 × 71 mm and back panel, joined in the middle 30 mm at top and bottom, open at the sides. Pre-shrunk, sealed edges, sew-in stiff interlining, colourfast threads, without snaps. Washable by hand on its own.", "Back right", "Supplied by Novalife"),
-    ("Inner label", "Printed, permanent, readable after washing. Content on page 9.", "Inside back waistband", "Factory prints, text from us"),
+    ("Inner label", "Printed, permanent, readable after washing. Content on page 11.", "Inside back waistband", "Factory prints, text from us"),
     ("Polybag", "Recyclable LDPE, one pair per bag, suffocation warning in German and English.", "Packing", "Factory"),
     ("Hangtag", "Design follows (supplied by Novalife or printed by factory, to be agreed).", "Left back belt loop", "Open"),
 ]

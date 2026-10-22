@@ -185,7 +185,7 @@ def svg(parts, title):
 FRONT = svg(front(), "FRONT")
 BACK = svg(back(), "BACK")
 LEGEND = [("A", "Cross-stitch band along the right front pocket opening (as worn), inner edge on the opening"),
-          ("E", "Coin pocket fully embroidered, 62 × 62 mm. Must stay fully visible: if the pocket opening covers it, make the opening deeper (max. 9 cm) and tell us"),
+          ("E", "Coin pocket fully embroidered, 62 × 62 mm. Keep the pocket opening as specified (11 × 7 cm). The lower inner corner may sit under the opening edge, as on a classic 5-pocket jeans"),
           ("K", "20 mm shank button, eight-point star"), ("N", "Rivets 9 mm: both ends of each front pocket opening, both top corners of the coin pocket"),
           ("J", "Zip fly, J-stitch double needle, bartack at the end"),
           ("B2", "Left back pocket (as worn): band 48 mm, three wheat ears, 9 gold threads by hand after wash"),

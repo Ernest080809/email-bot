@@ -179,3 +179,8 @@ Noch offen:
 - 3 Reservepaare ohne Nummer (W32, W34, W36). Samples ersetzen sie nicht (nur W32, Proto vor Korrekturen, PP-Muster ist versiegelter Standard).
 - Mockup etwas dunkler (Helligkeit −12 bis −15 %), Waschung und Honeycombs deutlicher.
 - Fotos der Eightyfive entfallen vorerst (Ernest ist in Zypern). Technische Zeichnungen aus den 20 Maßen und dem Standardaufbau, Details später von der echten Eightyfive in der Fabrik.
+
+## Entscheidungen (Do 22.10.2026)
+- Gesäßtaschen und Taschenöffnung vorn in allen Größen gleich, ein Stickprogramm je Motiv (Ernest: okay).
+- Münztasche E: Die untere innere Ecke darf unter dem Rand der Taschenöffnung liegen wie bei einer klassischen 5-Pocket. Taschenöffnung bleibt 11 × 7 cm (Ernest: nicht schlimm, das Design läuft nach innen weiter).
+- Ernest ist ab Do 29.10. zurück in Berlin und kann die Eightyfive dann selbst an die Fabrik schicken.

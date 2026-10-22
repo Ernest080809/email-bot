@@ -81,7 +81,7 @@ POM = [
     (17, L("Front pocket opening, depth", "Eingriff vorn, Tiefe"), L("Along the side seam: bottom of waistband to end of pocket opening.", "Entlang der Seitennaht: Unterkante Bund bis Ende der Taschenöffnung."), 7.0, 0.3, 0.0),
     (18, L("Belt loops, number", "Gürtelschlaufen, Anzahl"), L("2 front, 2 side back, 1 centre back.", "2 vorn, 2 hinten seitlich, 1 hinten Mitte."), 5, None, None),
     (19, L("Belt loop length", "Gürtelschlaufe, Länge"), L("Visible length, top to bottom.", "Sichtbare Länge von oben bis unten."), 4.0, 0.2, 0.0),
-    (20, L("Hem height", "Saumbreite"), L("Hem edge to hem stitch line.", "Saumkante bis Steppnaht des Saums."), 1.0, 0.2, 0.0),
+    (20, L("Hem", "Saum"), L("Raw edge, cut straight after the wash at right angles to the inseam, no turn-up. Both legs equal ± 0.5 cm.", "Roh, nach der Wäsche gerade und rechtwinklig zur Innennaht geschnitten, ohne Umschlag. Beide Beine gleich lang ± 0,5 cm."), L("raw", "roh"), None, None),
 ]
 
 
@@ -134,7 +134,7 @@ td,th{text-align:left;vertical-align:top;padding:1.15mm 1.8mm;border-bottom:0.25
 ul,ol{margin:0;padding-left:5mm}
 li{margin-bottom:0.8mm}
 .diag{display:grid;grid-template-columns:1fr 1fr;gap:6mm;padding:0 14mm}
-.diag svg{width:100%;height:auto;max-height:68mm}
+.diag svg{width:100%;height:auto;max-height:55mm}
 .flat{width:100%;height:auto;max-height:150mm}
 .diag .cap{text-align:center;font-size:8pt;color:#68707e;margin-top:1mm}
 .gm{fill:#dbe4f0;stroke:#41618f;stroke-width:1.6}
@@ -158,7 +158,7 @@ li{margin-bottom:0.8mm}
 .foot{margin-top:auto;font-size:7.3pt;color:#68707e;border-top:0.25mm solid #e1e4ea;padding-top:2mm;display:flex;justify-content:space-between;gap:4mm}
 """
 if DE:
-    CSS += ".vis{max-height:60mm}\n"                   # deutscher Text ist länger
+    CSS += ".vis{max-height:60mm}\n.spec td{font-size:8.1pt}\n"   # deutscher Text ist länger
 PAGES = []
 
 
@@ -176,17 +176,20 @@ def render():
     return out
 
 
+# Seitennummern (nach INDEX)
+PG = {"flats": 3, "emb": 4, "gold": 5, "pom": 6, "grade": 7, "bom": 8, "cons": 9, "proc": 10, "wash": 11, "labels": 12, "qc": 13}
+
 # ================= 1 · Deckblatt =================
-INDEX = L(["Cover and style summary", "Design overview", "Technical flats", "Embroidery", "Points of measure, base size W32", "Grading W30–W38",
+INDEX = L(["Cover and style summary", "Design overview", "Technical flats", "Embroidery", "Gold threads B2", "Points of measure, base size W32", "Grading W30–W38",
            "Bill of materials", "Construction and stitching", "Process and approvals", "Wash", "Labels, packing, compliance",
            "Quality control", "Annex: artwork 1:1 (4 pages)"],
-          ["Deckblatt und Eckdaten", "Designübersicht", "Technische Zeichnungen", "Stickerei", "Messpunkte, Basisgröße W32", "Größen W30–W38",
+          ["Deckblatt und Eckdaten", "Designübersicht", "Technische Zeichnungen", "Stickerei", "Goldfäden B2", "Messpunkte, Basisgröße W32", "Größen W30–W38",
            "Materialliste", "Verarbeitung und Nähte", "Ablauf und Freigaben", "Wäsche", "Etiketten, Verpackung, Vorschriften",
            "Qualitätskontrolle", "Anhang: Druckvorlage 1:1 (4 Seiten)"])
 page(L("Cover", "Deckblatt"), f"""
 <div><h1>{L("NVL-TT-01 · Time Travel jeans", "NVL-TT-01 · Time-Travel-Jeans")}</h1><p class="sub">{L("Men's 5-pocket straight-leg jeans with embroidery, 100 numbered pairs. Tech pack for the nominated factory.", "Herren-5-Pocket-Jeans, gerades Bein, mit Stickerei, 100 nummerierte Paare. Tech Pack für die gewählte Fabrik.")}</p></div>
 <img class="vis" src="{VIS}" alt="Visual">
-<p class="sub">{L("The visual shows the placement of all details. Fit and leg shape follow the measurements on pages 5–6, which are slimmer than the visual. The wash is darker than shown (page 10).", "Das Bild zeigt, wo alle Details sitzen. Passform und Bein richten sich nach den Maßen auf Seite 5–6 und sind schlanker als im Bild. Die Wäsche ist dunkler als gezeigt (Seite 10).")}</p>
+<p class="sub">{L(f"The visual shows the placement of all details. Fit and leg shape follow the measurements on pages {PG['pom']}–{PG['grade']}, which are slimmer than the visual. The wash is darker than shown (page {PG['wash']}).", f"Das Bild zeigt, wo alle Details sitzen. Passform und Bein richten sich nach den Maßen auf Seite {PG['pom']}–{PG['grade']} und sind schlanker als im Bild. Die Wäsche ist dunkler als gezeigt (Seite {PG['wash']}).")}</p>
 <table class="kv">
 <tr><th>{L("Style", "Modell")}</th><td>NVL-TT-01 · Time Travel · Novalife, Berlin</td></tr>
 <tr><th>{L("Quantity", "Menge")}</th><td>{L("100 pairs, one style, one wash, numbered 001–100 on the inner label, plus 3 spare pairs without number (W32, W34, W36)", "100 Paare, ein Modell, eine Wäsche, nummeriert 001–100 auf dem Innenetikett, dazu 3 Reservepaare ohne Nummer (W32, W34, W36)")}</td></tr>
@@ -195,7 +198,7 @@ page(L("Cover", "Deckblatt"), f"""
 <tr><th>{L("Wash", "Wäsche")}</th><td>{L("Mid-indigo vintage, honeycombs behind the knees, fading on the front thighs, no whiskers, no holes", "Mittleres Vintage-Indigo, Honeycombs hinter den Knien, Aufhellung vorn auf den Oberschenkeln, keine Whiskers, keine Löcher")}</td></tr>
 <tr><th>{L("Embroidery", "Stickerei")}</th><td>{L("4 zones on the cut panels before sewing, about 28,000 stitches (annex)", "4 Zonen auf den Zuschnittteilen vor dem Nähen, etwa 28.000 Stiche (Anhang)")}</td></tr>
 <tr><th>{L("Trims", "Zutaten")}</th><td>{L("YKK metal zip, 20 mm shank button, 6 rivets, 4 snaps for the detachable back patch, all antique copper, nickel-free", "YKK-Metallreißverschluss, Knopf 20 mm, 6 Nieten, 4 Druckknöpfe für den abnehmbaren Patch, alles Antik-Kupfer, nickelfrei")}</td></tr>
-<tr><th>{L("Reference", "Referenz")}</th><td>{L("The measurements come from our reference jeans (size M = our W32). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page 9).", "Die Maße stammen von unserer Referenzjeans (Gr. M = unser W32). Ein physisches Muster gibt es vorerst nicht, die Maße in diesem Tech Pack sind verbindlich. Vor dem Zuschnitt des Protos schickt die Fabrik uns das Maßblatt ihres Schnitts (Seite 9).")}</td></tr>
+<tr><th>{L("Reference", "Referenz")}</th><td>{L(f"The measurements come from our reference jeans (size M = our W32). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page {PG['proc']}).", f"Die Maße stammen von unserer Referenzjeans (Gr. M = unser W32). Ein physisches Muster gibt es vorerst nicht, die Maße in diesem Tech Pack sind verbindlich. Vor dem Zuschnitt des Protos schickt die Fabrik uns das Maßblatt ihres Schnitts (Seite {PG['proc']}).")}</td></tr>
 </table>
 <div class="grid">
 <div><h3>{L("Contents", "Inhalt")}</h3><ol>{"".join(f"<li>{t}</li>" for t in INDEX)}</ol></div>
@@ -217,7 +220,7 @@ page(L("Design overview", "Designübersicht"), f"""
 <div class="card"><img src="{uri(IMG['D'])}" alt="D"><h3>{L("D · Back patch", "D · Patch hinten")}</h3><p>{L("Two-layer linen loop 80 × 71 mm, supplied by us. 4 hidden snaps, detachable. Back right, top flush with the waistband; the belt runs through.", "Schlaufe aus zwei Lagen Leinen, 80 × 71 mm, liefern wir. 4 versteckte Druckknöpfe, abnehmbar. Hinten rechts, oben bündig mit dem Bund, der Gürtel läuft durch.")}</p></div>
 <div class="card"><img src="{uri(IMG['B2'])}" alt="B2"><h3>{L("B2 · Left back pocket", "B2 · Linke Gesäßtasche")}</h3><p>{L("Three wheat ears on a red band (48 mm). After washing: 9 gold threads 18–30 mm set by hand, knotted inside.", "Drei Ähren auf rotem Band (48 mm). Nach der Wäsche: 9 Goldfäden 18–30 mm von Hand, innen verknotet.")}</p></div>
 <div class="card"><img src="{uri(IMG['C'])}" alt="C"><h3>{L("C · Right back pocket", "C · Rechte Gesäßtasche")}</h3><p>{L("Eight-point star of 8 rhombi, 36 × 36 mm, 1 mm gaps, solid red, satin stitch. Same height as the B2 band.", "Achtstern aus 8 Rauten, 36 × 36 mm, Fugen 1 mm, einfarbig Rot, Plattstich. Gleiche Höhe wie das B2-Band.")}</p></div>
-<div class="card"><h3>{L("Hardware", "Metallteile")}</h3><p><b>{L("Button:", "Knopf:")}</b> {L("20 mm shank, antique copper, eight-point star embossed.", "20 mm, Antik-Kupfer, Achtstern geprägt.")}</p><p><b>{L("Rivets:", "Nieten:")}</b> {L("6 × 9 mm, plain antique copper: corners of both front pocket openings and of the coin pocket.", "6 × 9 mm, glatt, Antik-Kupfer: an den Ecken beider Vordertaschen und der Münztasche.")}</p><p><b>{L("Snaps:", "Druckknöpfe:")}</b> {L("4 ring-spring snaps 10 mm, hidden behind patch D (page 8).", "4 Ringfeder-Druckknöpfe 10 mm, versteckt hinter Patch D (Seite 8).")}</p></div>
+<div class="card"><h3>{L("Hardware", "Metallteile")}</h3><p><b>{L("Button:", "Knopf:")}</b> {L("20 mm shank, antique copper, eight-point star embossed.", "20 mm, Antik-Kupfer, Achtstern geprägt.")}</p><p><b>{L("Rivets:", "Nieten:")}</b> {L("6 × 9 mm, plain antique copper: corners of both front pocket openings and of the coin pocket.", "6 × 9 mm, glatt, Antik-Kupfer: an den Ecken beider Vordertaschen und der Münztasche.")}</p><p><b>{L("Snaps:", "Druckknöpfe:")}</b> {L(f"4 ring-spring snaps 10 mm, hidden behind patch D (page {PG['cons']}).", f"4 Ringfeder-Druckknöpfe 10 mm, versteckt hinter Patch D (Seite {PG['cons']}).")}</p></div>
 </div>
 <table class="kv">
 <tr><th>{L("Left / right", "Links / rechts")}</th><td>{L("Always as worn. The band A and coin pocket E are on the right front pocket (as worn). B2 is on the left back pocket, C and D are on the right back.", "Immer vom Träger aus. Band A und Münztasche E sitzen an der rechten Vordertasche. B2 ist auf der linken Gesäßtasche, C und D sind hinten rechts.")}</td></tr>
@@ -233,36 +236,60 @@ page(L("Technical flats", "Technische Zeichnungen"), f"""
 <h2>{L("Technical flats · base size W32", "Technische Zeichnungen · Basisgröße W32")}</h2>
 <div class="grid" style="gap:6mm;padding:0 6mm">{FL.FRONT_DE if DE else FL.FRONT}{FL.BACK_DE if DE else FL.BACK}</div>
 <table class="spec"><tr><th>{L("Key", "Teil")}</th><th>{L("Detail", "Beschreibung")}</th></tr>{lrows}</table>
-<p class="sub">{L("Drawn from our measurements, not to scale. The measurements on page 5 are binding. Dashed brown lines are topstitching in copper-gold, short thick lines are bartacks. Front view: left in the drawing is the wearer's right.", "Aus unseren Maßen gezeichnet, nicht maßstäblich. Verbindlich sind die Maße auf Seite 5. Gestrichelte braune Linien sind Ziernähte in Kupfer-Gold, kurze dicke Striche sind Riegel. Vorderansicht: links im Bild ist rechts am Träger.")}</p>""")
+<p class="sub">{L(f"Drawn from our measurements, not to scale. The measurements on page {PG['pom']} are binding. Dashed brown lines are topstitching in copper-gold, short thick lines are bartacks. Front view: left in the drawing is the wearer's right.", f"Aus unseren Maßen gezeichnet, nicht maßstäblich. Verbindlich sind die Maße auf Seite {PG['pom']}. Gestrichelte braune Linien sind Ziernähte in Kupfer-Gold, kurze dicke Striche sind Riegel. Vorderansicht: links im Bild ist rechts am Träger.")}</p>""")
 
 # ================= 4 · Stickerei =================
 EMB = [
     ("A", L("Right front pocket (as worn), along the opening. Inner edge of the band on the opening edge, from the waistband to the side seam.", "Rechte Vordertasche (vom Träger aus), entlang der Öffnung. Innenkante des Bands auf der Taschenkante, vom Bund bis zur Seitennaht."),
-     L("Band 23 mm wide, inner edge 175 mm", "Band 23 mm breit, Innenkante 175 mm"), L("Cross-stitch, 17 rows, cell 1.33 mm", "Kreuzstich, 17 Reihen, Zelle 1,33 mm"), L("Red, white", "Rot, Weiß"), "≈ " + L("11,000", "11.000")),
-    ("E", L("Coin pocket, whole pocket.", "Münztasche, ganze Tasche."), L("Pocket 62 × 62 mm, embroidery 60 × 60 mm", "Tasche 62 × 62 mm, Stickerei 60 × 60 mm"),
-     L("Cross-stitch, 45 × 45 cells of 1.33 mm", "Kreuzstich, 45 × 45 Zellen à 1,33 mm"), L("Red, white", "Rot, Weiß"), "≈ " + L("9,000", "9.000")),
-    ("B2", L("Left back pocket (as worn). Centre of the band 80 mm from the pocket sides, 47 mm below the top edge at the inner corner.", "Linke Gesäßtasche (vom Träger aus). Mitte des Bands 80 mm von den Taschenseiten, 47 mm unter der Oberkante an der inneren Ecke."),
-     L("Band 48 mm, three wheat ears", "Band 48 mm, drei Ähren"), L("Satin and fill", "Plattstich und Füllstich"), L("Gold, red, white", "Gold, Rot, Weiß"), "≈ " + L("5,000", "5.000")),
-    ("C", L("Right back pocket. Centre at the same point as B2.", "Rechte Gesäßtasche. Mitte am gleichen Punkt wie B2."), L("Star 36 × 36 mm, 8 rhombi, 1 mm gaps", "Stern 36 × 36 mm, 8 Rauten, Fugen 1 mm"),
-     L("Satin stitch", "Plattstich"), L("Red", "Rot"), "≈ " + L("3,000", "3.000")),
+     L("Band 23 mm wide, inner edge 175 mm", "Band 23 mm breit, Innenkante 175 mm"), L("Cross-stitch, 17 rows, cell 1.33 mm, repeat 16 stitches", "Kreuzstich, 17 Reihen, Zelle 1,33 mm, Rapport 16 Stiche"), L("Red, white", "Rot, Weiß"), "≈ " + L("12,000", "12.000")),
+    ("E", L("Coin pocket, whole pocket, top flush with the coin pocket seam. Also embroider the lower inner corner that runs under the front panel, so no plain edge shows.", "Münztasche, ganze Fläche, oben bündig an der Münztaschennaht. Die untere innere Ecke, die unter das Vorderteil läuft, mitsticken, damit keine ungestickte Kante blitzt."), L("Pocket 62 × 62 mm, embroidery 60 × 60 mm", "Tasche 62 × 62 mm, Stickerei 60 × 60 mm"),
+     L("Cross-stitch, 45 × 45 cells of 1.33 mm", "Kreuzstich, 45 × 45 Zellen à 1,33 mm"), L("Red, white", "Rot, Weiß"), "≈ " + L("10,500", "10.500")),
+    ("B2", L("Left back pocket (as worn), centred. Middle of the red band about 45 mm below the pocket top edge, measured at the pocket centre. Ear tips at least 6 mm below the pocket hem stitching.", "Linke Gesäßtasche (vom Träger aus), mittig. Bandmitte etwa 45 mm unter der Taschenoberkante, in der Taschenmitte gemessen. Ährenspitzen mindestens 6 mm unter der Saumnaht der Tasche."),
+     L("Band 48 mm long (51 mm with round ends), 3 mm wide. Three ears, 12 mm each, fanned", "Band 48 mm lang (51 mm mit runden Enden), 3 mm breit. Drei Ähren je 12 mm, gefächert"), L("Band: satin, single red. Ears: satin and fill", "Band: Plattstich, einfach Rot. Ähren: Platt- und Füllstich"), L("Gold, dark gold, red (no white)", "Gold, Dunkelgold, Rot (kein Weiß)"), "≈ " + L("2,500", "2.500")),
+    ("C", L("Right back pocket, centred. Centre at the same height as the B2 band.", "Rechte Gesäßtasche, mittig. Mitte auf gleicher Höhe wie das B2-Band."), L("Star 36 × 36 mm, 8 rhombi, 1 mm gaps", "Stern 36 × 36 mm, 8 Rauten, Fugen 1 mm"),
+     L("Satin stitch", "Plattstich"), L("Red", "Rot"), "≈ " + L("2,500", "2.500")),
 ]
 erows = "".join(f'<tr><td class="no">{a}</td><td>{b}</td><td>{c}</td><td>{d}</td><td>{e}</td><td class="n">{f}</td></tr>' for a, b, c, d, e, f in EMB)
 page(L("Embroidery", "Stickerei"), f"""
 <h2>{L("Embroidery specification", "Stickerei")}</h2>
 <table class="spec"><tr><th>{L("Zone", "Zone")}</th><th>{L("Position", "Position")}</th><th>{L("Size", "Größe")}</th><th>{L("Technique", "Technik")}</th><th>{L("Colours", "Farben")}</th><th class="n">{L("Stitches", "Stiche")}</th></tr>{erows}
-<tr class="grp"><td></td><td colspan="4">{L("Total, estimate. The digitizing preview gives the real numbers.", "Summe, geschätzt. Die echten Zahlen kommen mit der Digitizing-Vorschau.")}</td><td class="n">≈ {L("28,000", "28.000")}</td></tr></table>
+<tr class="grp"><td></td><td colspan="4">{L("Total, estimate. The digitizing preview gives the real numbers.", "Summe, geschätzt. Die echten Zahlen kommen mit der Digitizing-Vorschau.")}</td><td class="n">≈ {L("27,500", "27.500")}</td></tr></table>
 <table class="kv">
 <tr><th>{L("When", "Wann")}</th><td>{L("On the cut panels <b>before sewing</b>: A on the front panel, E on the coin pocket, B2 and C on the back pockets.", "Auf den Zuschnittteilen <b>vor dem Nähen</b>: A auf dem Vorderteil, E auf der Münztasche, B2 und C auf den Gesäßtaschen.")}</td></tr>
 <tr><th>{L("Shrinkage", "Schrumpf")}</th><td>{L("The denim shrinks in the wash, the thread does not. Digitize the motifs so they have the size above <b>after</b> the wash, or pre-wash the fabric. The washed strike-off shows which way works.", "Der Denim schrumpft in der Wäsche, das Garn nicht. Die Motive so digitalisieren, dass sie <b>nach</b> der Wäsche die Größe oben haben, oder den Stoff vorwaschen. Die gewaschene Stickprobe zeigt, was funktioniert.")}</td></tr>
 <tr><th>{L("Thread", "Garn")}</th><td>{L("Polyester embroidery thread, resistant to bleach and enzyme wash (e.g. Madeira Polyneon 40 or equivalent). Red, white and gold (non-metallic) chosen by us from your colour card.", "Polyester-Stickgarn, beständig gegen Bleiche und Enzymwäsche (z. B. Madeira Polyneon 40 oder gleichwertig). Rot, Weiß und Gold (nicht metallisch) wählen wir auf der Farbkarte der Fabrik.")}</td></tr>
 <tr><th>{L("Backing", "Stickvlies")}</th><td>{L("Cut-away, wash-resistant, trimmed 3–5 mm around each motif.", "Schneidvlies, waschbeständig, 3–5 mm um jedes Motiv zurückgeschnitten.")}</td></tr>
 <tr><th>{L("Finish", "Ausführung")}</th><td>{L("No loose jump stitches on the visible side, all ends tied off. No puckering. Red must not bleed into white or denim.", "Keine losen Spannfäden auf der Sichtseite, alle Enden vernäht. Keine Wellen. Rot darf nicht in Weiß oder Denim ausbluten.")}</td></tr>
-<tr><th>{L("Gold threads B2", "Goldfäden B2")}</th><td>{L("After the wash: 9 gold threads 18–30 mm set by hand under the B2 band, knotted inside the pocket.", "Nach der Wäsche: 9 Goldfäden 18–30 mm von Hand unter dem B2-Band, innen in der Tasche verknotet.")}</td></tr>
 <tr><th>{L("Same in all sizes", "In allen Größen gleich")}</th><td>{L("One embroidery program per motif. Back pockets and front pocket opening do not change between sizes.", "Ein Stickprogramm je Motiv. Gesäßtaschen und Taschenöffnung vorn ändern sich nicht zwischen den Größen.")}</td></tr>
 <tr><th>{L("Tolerance", "Toleranz")}</th><td>{L("Position ± 3 mm, size ± 1 mm.", "Position ± 3 mm, Größe ± 1 mm.")}</td></tr>
 <tr><th>{L("Files", "Dateien")}</th><td>{L("The embroidery files (DST) belong to Novalife. Exact artwork 1:1: annex.", "Die Stickdateien (DST) gehören Novalife. Genaue Vorlage 1:1: Anhang.")}</td></tr>
 </table>
 <div class="grid4">{"".join(f'<div class="card"><img src="{uri(IMG[k])}" alt="{k}"><h3>{k}</h3></div>' for k in ("A", "E", "B2", "C"))}</div>""")
+
+# ================= 5 · Goldfäden B2 =================
+TX = [16.5, 18.6, 20.6, 22.6, 24.5, 26.4, 28.3, 30.2, 32.0]          # wie v16.py, Bandmitte bei 24
+TL = [19, 25, 22, 30, 27, 21, 29, 18, 24]
+GOLD_SVG = ('<svg viewBox="-6 -16 60 58" style="width:105mm;display:block;margin:0 auto">'
+            '<path d="M0 0H48" style="stroke:#b8322a;stroke-width:3;stroke-linecap:round"></path>'
+            + "".join(f'<ellipse cx="{F(24+dx)}" cy="-7" rx="1.4" ry="5" transform="rotate({a} {F(24+dx)} -1)" style="fill:#c9a24a"></ellipse>' for dx, a in ((-4, -28), (0, 0), (4, 28)))
+            + "".join(f'<path d="M{F(x)} 1.6v{F(l)}" style="stroke:#c9a24a;stroke-width:1;stroke-linecap:round"></path>'
+                      f'<text x="{F(x)}" y="{F(l+5)}" style="font:700 2.2px Helvetica,Arial,sans-serif;fill:#1b2230;text-anchor:middle">{l}</text>' for x, l in zip(TX, TL))
+            + '<path d="M16.5 36h15.5M16.5 35v2M32 35v2" style="stroke:#8a8f99;stroke-width:0.25"></path>'
+            + f'<text x="24.25" y="38.6" style="font:400 2px Helvetica,Arial,sans-serif;fill:#68707e;text-anchor:middle">≈ 16 mm</text>'
+            + f'<text x="24" y="-13" style="font:400 2px Helvetica,Arial,sans-serif;fill:#68707e;text-anchor:middle">{L("band 48 mm, three ears, threads in mm (visible length)", "Band 48 mm, drei Ähren, Fäden in mm (sichtbare Länge)")}</text></svg>')
+page(L("Gold threads B2", "Goldfäden B2"), f"""
+<h2>{L("Gold threads B2: the moment", "Goldfäden B2: der Moment")}</h2>
+<p class="sub">{L("The idea of the jeans: a thread that leaves the jeans. This detail must be exactly right.", "Die Idee der Jeans: ein Faden, der die Hose verlässt. Dieses Detail muss genau stimmen.")}</p>
+{GOLD_SVG}
+<table class="kv">
+<tr><th>{L("What", "Was")}</th><td>{L("9 gold threads hang freely out of the left back pocket, directly under the red band of B2, pointing down. Visible ends, not embroidered.", "9 Goldfäden hängen frei aus der linken Gesäßtasche, direkt unter dem roten Band von B2, nach unten. Sichtbare Enden, nicht gestickt.")}</td></tr>
+<tr><th>{L("Lengths", "Längen")}</th><td>{L("Visible length from left to right (seen from behind): 19, 25, 22, 30, 27, 21, 29, 18, 24 mm. Spread over about 16 mm, centred under the band, about 2 mm apart.", "Sichtbare Länge von links nach rechts (von hinten gesehen): 19, 25, 22, 30, 27, 21, 29, 18, 24 mm. Verteilt auf etwa 16 mm, mittig unter dem Band, etwa 2 mm Abstand.")}</td></tr>
+<tr><th>{L("Thread", "Garn")}</th><td>{L("Gold polyester, non-metallic, three-ply twisted, about 1 mm thick. Metallic thread breaks; thin thread disappears on denim.", "Gold, Polyester, nicht metallisiert, dreifach gezwirnt, etwa 1 mm dick. Metallgarn bricht, dünnes Garn verschwindet auf dem Denim.")}</td></tr>
+<tr><th>{L("Fixing", "Befestigung")}</th><td>{L("Through the back pocket only, not through the body panel. Knotted inside the pocket (reach through the pocket opening). Ends knotted or heat-sealed so they do not unravel.", "Nur durch die Gesäßtasche gestochen, nicht durch das Hosenteil. Innen in der Tasche verknotet (durch die Taschenöffnung erreichbar). Enden verknotet oder heiß versiegelt, damit sie nicht aufdröseln.")}</td></tr>
+<tr><th>{L("When", "Wann")}</th><td>{L("By hand, after wash and finishing, as a separate step. Not negotiable: loose threads do not survive the industrial wash.", "Von Hand, nach Wäsche und Finish, als eigener Arbeitsschritt. Nicht verhandelbar: Lose Fäden überleben die Industriewäsche nicht.")}</td></tr>
+<tr><th>{L("Test", "Test")}</th><td>{L("On the PP sample: put on and take off, sit, 5 home washes inside out. A thread that catches or comes loose is shortened.", "Am PP-Muster: anziehen, ausziehen, sitzen, 5 Haushaltswäschen auf links. Ein Faden, der hängen bleibt oder sich löst, wird gekürzt.")}</td></tr>
+</table>
+<div class="grid" style="grid-template-columns:1fr 1fr"><div class="card"><img src="{uri(IMG['B2'])}" alt="B2" style="max-height:60mm"><h3>{L("B2 in the artwork 1:1 (annex)", "B2 in der Druckvorlage 1:1 (Anhang)")}</h3></div><div class="note"><h3>{L("Care label", "Pflegeetikett")}</h3><p>{L("The care text says: „Goldfäden nicht abschneiden“ (do not cut the gold threads), page ", "Auf dem Etikett steht: „Goldfäden nicht abschneiden“, Seite ")}{PG['labels']}.</p></div></div>""")
 
 # ================= 5 · Messpunkte Basis W32 =================
 rows = "".join(
@@ -292,7 +319,7 @@ page(L("Grading", "Größen"), f"""
 <p class="sub">{L("Plus 3 spare pairs without number: W32, W34, W36.", "Dazu 3 Reservepaare ohne Nummer: W32, W34, W36.")}</p>
 <div class="grid">
 <div class="note"><h3>{L("Size names", "Größennamen")}</h3><p>{L("Our size names run larger than the measured waist on purpose: relaxed straight fit, worn with a belt. Full waist in cm: ", "Unsere Größen fallen bewusst weiter aus als die gemessene Bundweite: entspannter gerader Schnitt, getragen mit Gürtel. Bundweite rundum in cm: ")}{waist_full}. {L("Size label: W.. L32.", "Größenetikett: W.. L32.")}</p></div>
-<div class="note"><h3>{L("Same in all sizes", "In allen Größen gleich")}</h3><p>{L("Inseam 81 cm, waistband 4 cm, hem 1 cm, belt loops, back pocket size and position, front pocket opening, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.", "Innenbein 81 cm, Bund 4 cm, Saum 1 cm, Gürtelschlaufen, Größe und Lage der Gesäßtaschen, Taschenöffnung vorn, Münztasche, alle Stickereien, Patch D und Metallteile. Länge des Reißverschlusses je Größe: Vorschlag der Fabrik.")}</p></div>
+<div class="note"><h3>{L("Same in all sizes", "In allen Größen gleich")}</h3><p>{L("Inseam 81 cm, waistband 4 cm, raw hem, belt loops, back pocket size and position, front pocket opening, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.", "Innenbein 81 cm, Bund 4 cm, roher Saum, Gürtelschlaufen, Größe und Lage der Gesäßtaschen, Taschenöffnung vorn, Münztasche, alle Stickereien, Patch D und Metallteile. Länge des Reißverschlusses je Größe: Vorschlag der Fabrik.")}</p></div>
 </div>""")
 
 # ================= 7 · Materialliste =================
@@ -305,13 +332,13 @@ BOM = [
     (L("Seam thread", "Nähgarn"), L("Tonal indigo.", "Indigo, Ton in Ton."), L("Inner seams, overlock", "Innennähte, Overlock"), L("Factory", "Fabrik")),
     (L("Embroidery thread", "Stickgarn"), L("Polyester, wash- and bleach-resistant (e.g. Madeira Polyneon or equivalent). Red, white, gold (non-metallic).", "Polyester, wasch- und bleichbeständig (z. B. Madeira Polyneon oder gleichwertig). Rot, Weiß, Gold (nicht metallisch)."), "A, E, B2, C", L("Factory, colour card to us", "Fabrik, Farbkarte an uns")),
     (L("Embroidery backing", "Stickvlies"), L("Cut-away backing, wash-resistant, trimmed 3–5 mm around each motif. Stitch density: your proposal in the digitizing preview.", "Schneidvlies, waschbeständig, 3–5 mm um jedes Motiv zurückgeschnitten. Stichdichte: Vorschlag der Fabrik in der Digitizing-Vorschau."), "A, E, B2, C", L("Factory", "Fabrik")),
-    (L("Gold threads B2", "Goldfäden B2"), L("9 pieces, 18–30 mm, same gold as the embroidery, set by hand after wash, knotted inside the pocket.", "9 Stück, 18–30 mm, gleiches Gold wie die Stickerei, nach der Wäsche von Hand gesetzt, innen in der Tasche verknotet."), L("Left back pocket", "Linke Gesäßtasche"), L("Factory", "Fabrik")),
-    (L("Zipper", "Reißverschluss"), L("YKK metal, antique copper finish, auto-lock slider, tonal tape. Length per size: your proposal.", "YKK Metall, Antik-Kupfer, Schieber mit Autolock, Band Ton in Ton. Länge je Größe: Vorschlag der Fabrik."), L("Fly", "Schlitz"), L("Factory", "Fabrik")),
+    (L("Gold threads B2", "Goldfäden B2"), L(f"Gold polyester, non-metallic, three-ply twisted, about 1 mm. 9 pieces, visible length 18–30 mm (page {PG['gold']}), set by hand after wash, knotted inside the pocket, ends sealed.", f"Gold, Polyester, nicht metallisiert, dreifach gezwirnt, etwa 1 mm. 9 Stück, sichtbare Länge 18–30 mm (Seite {PG['gold']}), nach der Wäsche von Hand gesetzt, innen in der Tasche verknotet, Enden versiegelt."), L("Left back pocket", "Linke Gesäßtasche"), L("Factory", "Fabrik")),
+    (L("Zipper", "Reißverschluss"), L("YKK metal no. 4.5, antique copper finish, auto-lock slider, tonal tape. Length per size: your proposal.", "YKK Metall Nr. 4,5, Antik-Kupfer, Schieber mit Autolock, Band Ton in Ton. Länge je Größe: Vorschlag der Fabrik."), L("Fly", "Schlitz"), L("Factory", "Fabrik")),
     (L("Shank button", "Knopf"), L("20 mm (ligne 32), antique copper, eight-point star embossed, nickel-free. Custom tooling.", "20 mm (Ligne 32), Antik-Kupfer, Achtstern geprägt, nickelfrei. Eigenes Werkzeug."), L("Waistband, 1 pc", "Bund, 1 Stück"), L("Factory sources, sample to us", "Fabrik besorgt, Muster an uns")),
     (L("Rivets", "Nieten"), L("9 mm, plain, antique copper, nickel-free.", "9 mm, glatt, Antik-Kupfer, nickelfrei."), L("6 pcs: front pocket openings and coin pocket corners", "6 Stück: Vordertaschen und Ecken der Münztasche"), L("Factory", "Fabrik")),
     (L("Snaps", "Druckknöpfe"), L("Ring-spring snaps 10 mm, antique copper, nickel-free. One system for stud, socket and cap.", "Ringfeder-Druckknöpfe 10 mm, Antik-Kupfer, nickelfrei. Ein System für Unterteil, Oberteil und Kappe."), L("4 sets: studs on jeans, sockets and caps on the back panel of patch D", "4 Sätze: Unterteile an der Jeans, Oberteile und Kappen an der Rückwand von Patch D"), L("Factory sources and sets both parts", "Fabrik besorgt und setzt beide Teile")),
     (L("Patch D", "Patch D"), L("Two layers: embroidered linen front 80 × 71 mm and back panel, joined in the middle 30 mm at top and bottom, open at the sides. Pre-shrunk, sealed edges, sew-in stiff interlining, colourfast threads, without snaps. Washable by hand on its own.", "Zwei Lagen: besticktes Leinen vorn 80 × 71 mm und Rückwand, oben und unten in der Mitte auf 30 mm verbunden, seitlich offen. Vorgeschrumpft, Kanten versiegelt, eingenähte feste Einlage, farbechte Garne, ohne Druckknöpfe. Einzeln von Hand waschbar."), L("Back right", "Hinten rechts"), L("Supplied by Novalife", "Liefert Novalife")),
-    (L("Inner label", "Innenetikett"), L("Printed, permanent, readable after washing. Content on page 11.", "Bedruckt, dauerhaft, nach dem Waschen lesbar. Inhalt auf Seite 11."), L("Inside back waistband", "Innen am hinteren Bund"), L("Factory prints, text from us", "Fabrik druckt, Text von uns")),
+    (L("Inner label", "Innenetikett"), L(f"Printed, permanent, readable after washing. Content on page {PG['labels']}.", f"Bedruckt, dauerhaft, nach dem Waschen lesbar. Inhalt auf Seite {PG['labels']}."), L("Inside back waistband", "Innen am hinteren Bund"), L("Factory prints, text from us", "Fabrik druckt, Text von uns")),
     (L("Polybag", "Polybeutel"), L("Recyclable LDPE, one pair per bag, suffocation warning in German and English.", "Recycelbares LDPE, ein Paar pro Beutel, Erstickungswarnung auf Deutsch und Englisch."), L("Packing", "Verpackung"), L("Factory", "Fabrik")),
     (L("Hangtag", "Hangtag"), L("Design follows (supplied by Novalife or printed by factory, to be agreed).", "Design folgt (liefert Novalife oder druckt die Fabrik, wird abgestimmt)."), L("Left back belt loop", "Linke hintere Gürtelschlaufe"), L("Open", "Offen")),
 ]
@@ -347,7 +374,7 @@ CONS = [
     (L("Coin pocket", "Münztasche"), L("62 × 62 mm, embroidered panel E. Top edge double topstitch, rivets at both top corners.", "62 × 62 mm, bestickt mit E. Oberkante doppelt abgesteppt, Nieten an beiden oberen Ecken.")),
     (L("Back pockets", "Gesäßtaschen"), L("Top hem 15 mm, double topstitch. Bartacks at both top corners (no rivets on back pockets).", "Oberer Saum 15 mm, doppelt abgesteppt. Riegel an beiden oberen Ecken (keine Nieten hinten).")),
     (L("Belt loops", "Gürtelschlaufen"), L("5 loops, about 1.0–1.2 cm wide, 4 cm visible length, bartacked top and bottom. Centre back loop on the centre back seam. Positions: your standard for a 5-pocket jeans, shown in the flats.", "5 Schlaufen, etwa 1,0–1,2 cm breit, 4 cm sichtbar, oben und unten verriegelt. Mittelschlaufe auf der hinteren Mittelnaht. Positionen: Standard der Fabrik für 5-Pocket-Jeans, siehe Zeichnungen.")),
-    (L("Hem", "Saum"), L("1 cm, chain stitch.", "1 cm, Kettstich.")),
+    (L("Hem", "Saum"), L("Raw. Cut to the finished length after the wash, no stitching, no turn-up. The edge frays with wear, on purpose.", "Roh. Nach der Wäsche auf Endlänge geschnitten, ohne Naht, ohne Umschlag. Die Kante franst beim Tragen aus, gewollt.")),
     (L("Bartacks", "Riegel"), L("Copper-gold: fly end, belt loops, back pocket corners, crotch.", "Kupfer-Gold: Ende Schlitz, Gürtelschlaufen, Ecken der Gesäßtaschen, Schritt.")),
 ]
 crows = "".join(f"<tr><th>{a}</th><td>{b}</td></tr>" for a, b in CONS)
@@ -383,7 +410,7 @@ page(L("Process", "Ablauf"), f"""
 <h2>{L("Process and approvals", "Ablauf und Freigaben")}</h2>
 <table class="spec"><tr><th>{L("No.", "Nr.")}</th><th>{L("Step", "Schritt")}</th><th>{L("What", "Was")}</th><th>{L("Our approval", "Unsere Freigabe")}</th></tr>{srows}</table>
 <h3>{L("Order of production", "Reihenfolge der Produktion")}</h3>
-<p>{L("Cutting → <b>embroidery on the cut panels</b> (A front panel, E coin pocket, B2 and C back pockets) → sewing → wash → 9 gold threads by hand → rivets, button and snap studs (after wash, to protect the antique-copper finish; tell us if you recommend otherwise) → patch D snapped on → numbering → final inspection → packing.", "Zuschnitt → <b>Stickerei auf den Zuschnittteilen</b> (A Vorderteil, E Münztasche, B2 und C Gesäßtaschen) → Nähen → Wäsche → 9 Goldfäden von Hand → Nieten, Knopf und Druckknopf-Unterteile (nach der Wäsche, schützt die Antik-Kupfer-Oberfläche; die Fabrik darf widersprechen) → Patch D anknöpfen → Nummer → Endkontrolle → Verpackung.")}</p>
+<p>{L("Cutting → <b>embroidery on the cut panels</b> (A front panel, E coin pocket, B2 and C back pockets) → sewing → wash → <b>hem cut to length</b> → 9 gold threads by hand → rivets, button and snap studs (after wash, to protect the antique-copper finish; tell us if you recommend otherwise) → patch D snapped on → numbering → final inspection → packing.", "Zuschnitt → <b>Stickerei auf den Zuschnittteilen</b> (A Vorderteil, E Münztasche, B2 und C Gesäßtaschen) → Nähen → Wäsche → <b>Saum auf Länge schneiden</b> → 9 Goldfäden von Hand → Nieten, Knopf und Druckknopf-Unterteile (nach der Wäsche, schützt die Antik-Kupfer-Oberfläche; die Fabrik darf widersprechen) → Patch D anknöpfen → Nummer → Endkontrolle → Verpackung.")}</p>
 <p class="warn"><b>{L("Biggest risk: embroidery before the wash.", "Größtes Risiko: Stickerei vor der Wäsche.")}</b> {L("The thread must survive enzyme and bleach, and the denim shrinks under the embroidery, which can cause waves. That is why the washed strike-off (step 5) must be approved before the proto. If your test shows waves, propose pre-washing the fabric or a stabiliser.", "Das Garn muss Enzym und Bleiche aushalten, und der Denim schrumpft unter der Stickerei, das kann Wellen geben. Deshalb muss die gewaschene Stickprobe (Schritt 5) vor dem Proto freigegeben sein. Zeigt der Test Wellen, schlägt die Fabrik Vorwaschen des Stoffs oder ein Stabilisierungsvlies vor.")}</p>
 <table class="kv">
 <tr><th>{L("Timeline", "Termine")}</th><td>{L("Proto shipped by 30 Nov 2026 · PP sample shipped by 4 Jan 2027 · bulk from mid-February · finished by 14 May 2027", "Proto verschickt bis 30.11.2026 · PP-Muster verschickt bis 04.01.2027 · Produktion ab Mitte Februar · fertig bis 14.05.2027")}</td></tr>
@@ -400,10 +427,12 @@ page(L("Wash", "Wäsche"), f"""
 </div>
 <table class="kv">
 <tr><th>{L("Colour", "Farbe")}</th><td>{L("Mid-indigo vintage with a slight grey cast. Darker than our first visual.", "Mittleres Vintage-Indigo mit leichtem Grau-Stich. Dunkler als unser erstes Bild.")}</td></tr>
+<tr><th>{L("Shade (L*)", "Helligkeit (L*)")}</th><td>{L("Base shade after the base wash L* 34–40. Fades (honeycombs, thighs) L* 52–58, contrast ΔL* 15–20. Tolerance L* ± 2 against the approved standard. White embroidery needs the dark base to stay readable.", "Grundton nach der Grundwäsche L* 34–40. Aufhellungen (Honeycombs, Oberschenkel) L* 52–58, Kontrast ΔL* 15–20. Toleranz L* ± 2 zum freigegebenen Standard. Die weiße Stickerei braucht den dunklen Grund, sonst ist sie nicht lesbar.")}</td></tr>
 <tr><th>{L("Must have", "Pflicht")}</th><td>{L("Honeycombs behind both knees. Fading on the front thighs.", "Honeycombs hinter beiden Knien. Aufhellung vorn auf den Oberschenkeln.")}</td></tr>
 <tr><th>{L("Not wanted", "Nicht gewünscht")}</th><td>{L("Whiskers, holes, nicks or destroyed areas, sandblasting, potassium permanganate spray (PP spray).", "Whiskers, Löcher, kleine Risse oder zerstörte Stellen, Sandstrahlen, Kaliumpermanganat-Spray (PP-Spray).")}</td></tr>
-<tr><th>{L("Methods", "Methoden")}</th><td>{L("Laser and/or hand-sanding, enzyme or ozone. Your proposal, without sandblasting and PP spray.", "Laser und/oder Handschliff, Enzym oder Ozon. Vorschlag der Fabrik, ohne Sandstrahlen und PP-Spray.")}</td></tr>
-<tr><th>{L("Embroidery", "Stickerei")}</th><td>{L("No abrasion over the embroidery zones (band A, coin pocket E, both back pockets): mask them during laser and sanding.", "Kein Abrieb über den Stickereien (Band A, Münztasche E, beide Gesäßtaschen): beim Lasern und Schleifen abdecken.")}</td></tr>
+<tr><th>{L("Methods", "Methoden")}</th><td>{L("Base wash: enzyme or stone wash in the drum. Local fades: <b>laser preferred</b>, it repeats exactly over 100 numbered pairs and stays clear of the embroidery. Hand-sanding only where the laser cannot reach. No sandblasting, no PP spray.", "Grundwäsche: Enzym- oder Stonewash in der Trommel. Lokale Aufhellung: <b>bevorzugt Laser</b>, er wiederholt sich bei 100 nummerierten Paaren genau und hält Abstand zur Stickerei. Handschliff nur, wo der Laser nicht hinkommt. Kein Sandstrahlen, kein PP-Spray.")}</td></tr>
+<tr><th>{L("Embroidery", "Stickerei")}</th><td>{L("No abrasion over the embroidery zones (band A, coin pocket E, both back pockets): mask them. No edge wear on the right front pocket opening and the coin pocket top edge. Seat abrasion fades out softly around both back pockets; the pocket surfaces stay clean.", "Kein Abrieb über den Stickereien (Band A, Münztasche E, beide Gesäßtaschen): abdecken. Kein Kantenabrieb an der rechten Vordertasche und an der Oberkante der Münztasche. Der Gesäßabrieb läuft um beide Gesäßtaschen weich aus, die Taschenflächen bleiben frei.")}</td></tr>
+<tr><th>{L("Approval", "Freigabe")}</th><td>{L("Shade card, then 3 wash trials on our fabric (target, lighter, darker), judged in daylight after the full wash program. We choose one; it becomes the physical wash standard.", "Farbkarte, dann 3 Waschproben auf unserem Stoff (Ziel, heller, dunkler), bei Tageslicht nach dem vollen Waschprogramm beurteilt. Wir wählen eine, sie wird der physische Waschstandard.")}</td></tr>
 <tr><th>{L("Tolerance", "Toleranz")}</th><td>{L("Bulk matches the approved physical wash standard in daylight; no streaks, no shade differences within the lot.", "Die Produktion entspricht im Tageslicht dem freigegebenen Waschstandard, keine Streifen, keine Farbunterschiede innerhalb der Lieferung.")}</td></tr>
 <tr><th>{L("Tests", "Prüfungen")}</th><td>{L("Residual shrinkage ≤ 3 % after a home wash at 30 °C. Rubbing fastness (ISO 105-X12): please send your result with the wash standard.", "Restschrumpf ≤ 3 % nach einer Haushaltswäsche bei 30 °C. Reibechtheit (ISO 105-X12): Ergebnis kommt mit dem Waschstandard.")}</td></tr>
 </table>""")
@@ -414,7 +443,7 @@ page(L("Labels and packing", "Etiketten und Verpackung"), f"""
 <table class="kv">
 <tr><th>{L("Inner label", "Innenetikett")}</th><td>{L("Printed label inside the back waistband, permanent and readable after wash. Same position on every pair.", "Bedrucktes Etikett innen am hinteren Bund, dauerhaft und nach der Wäsche lesbar. Bei jedem Paar an der gleichen Stelle.")}</td></tr>
 <tr><th>{L("Side 1", "Seite 1")}</th><td>NOVALIFE · NVL-TT-01 · {L("Size", "Größe")} W32 L32 · {L("No.", "Nr.")} 001/100<br>{L("Each pair has its own number 001–100. We send the number list per size before packing.", "Jedes Paar hat seine eigene Nummer 001–100. Die Nummernliste je Größe schicken wir vor dem Verpacken.")}</td></tr>
-<tr><th>{L("Side 2", "Seite 2")}</th><td>100 % Baumwolle / 100 % Cotton<br>{L("Care symbols: wash 30 °C, do not bleach, do not tumble dry, iron medium (2 dots), do not dry clean", "Pflegesymbole: Wäsche 30 °C, nicht bleichen, nicht in den Trockner, mittlere Bügelstufe (2 Punkte), keine chemische Reinigung")}<br>„Vor dem ersten Tragen separat und auf links waschen. Indigo kann abfärben. Patch vor dem Waschen abnehmen.“<br>Made in [{L("country", "Land")}]</td></tr>
+<tr><th>{L("Side 2", "Seite 2")}</th><td>100 % Baumwolle / 100 % Cotton<br>{L("Care symbols: wash 30 °C, do not bleach, do not tumble dry, iron medium (2 dots), do not dry clean", "Pflegesymbole: Wäsche 30 °C, nicht bleichen, nicht in den Trockner, mittlere Bügelstufe (2 Punkte), keine chemische Reinigung")}<br>„Vor dem ersten Tragen separat und auf links waschen. Indigo kann abfärben. Patch vor dem Waschen abnehmen. Goldfäden nicht abschneiden.“<br>Made in [{L("country", "Land")}]</td></tr>
 <tr><th>{L("Patch care", "Patch-Pflege")}</th><td>{L("On the hangtag: „Patch separat von Hand waschen, 30 °C, nicht auswringen, flach trocknen, erst trocken wieder anknöpfen.“ (Hand wash the patch separately at 30 °C, do not wring, dry flat, snap on only when dry.)", "Auf dem Hangtag: „Patch separat von Hand waschen, 30 °C, nicht auswringen, flach trocknen, erst trocken wieder anknöpfen.“")}</td></tr>
 <tr><th>{L("Manufacturer info", "Herstellerangaben")}</th><td>{L("Novalife · [postal address] · [e-mail]. We send the final text in January 2027 (EU General Product Safety Regulation). Style no. + serial number identify the product.", "Novalife · [Postanschrift] · [E-Mail]. Den endgültigen Text schicken wir im Januar 2027 (EU-Produktsicherheitsverordnung GPSR). Modellnummer und Seriennummer kennzeichnen das Produkt.")}</td></tr>
 <tr><th>{L("Fibre content", "Faserangabe")}</th><td>{L("German wording is mandatory for Germany (EU Regulation 1007/2011). Please confirm the composition of the bulk fabric in writing.", "Für Deutschland ist die deutsche Angabe Pflicht (EU-Verordnung 1007/2011). Die Fabrik bestätigt die Zusammensetzung des Produktionsstoffs schriftlich.")}</td></tr>
@@ -436,7 +465,7 @@ page(L("Quality control", "Qualitätskontrolle"), f"""
 </table>
 <div class="grid3">
 <div class="card"><h3>{L("Critical (0 allowed)", "Kritisch (0 erlaubt)")}</h3><ul>{L("<li>Holes, broken needle or sharp metal parts</li><li>Wrong or duplicate serial number</li><li>Snap opens by itself or stud comes loose</li><li>Nickel-containing metal</li>", "<li>Löcher, Nadelreste oder scharfe Metallteile</li><li>Falsche oder doppelte Nummer</li><li>Druckknopf geht von selbst auf oder Unterteil löst sich</li><li>Nickelhaltiges Metall</li>")}</ul></div>
-<div class="card"><h3>{L("Major", "Schwer")}</h3><ul>{L("<li>Measurement outside tolerance</li><li>Embroidery missing, off by more than 3 mm, puckered or bleeding</li><li>Open or broken seams</li><li>Wash not matching the standard</li><li>Label, number or gold threads missing</li>", "<li>Maß außerhalb der Toleranz</li><li>Stickerei fehlt, mehr als 3 mm verschoben, wellig oder ausgeblutet</li><li>Offene oder gerissene Nähte</li><li>Wäsche entspricht nicht dem Standard</li><li>Etikett, Nummer oder Goldfäden fehlen</li>")}</ul></div>
+<div class="card"><h3>{L("Major", "Schwer")}</h3><ul>{L("<li>Measurement outside tolerance</li><li>Embroidery missing, off by more than 3 mm, puckered or bleeding</li><li>Open or broken seams</li><li>Wash not matching the standard</li><li>Label, number or gold threads missing</li><li>Legs of different length (more than 5 mm)</li>", "<li>Maß außerhalb der Toleranz</li><li>Stickerei fehlt, mehr als 3 mm verschoben, wellig oder ausgeblutet</li><li>Offene oder gerissene Nähte</li><li>Wäsche entspricht nicht dem Standard</li><li>Etikett, Nummer oder Goldfäden fehlen</li><li>Beine unterschiedlich lang (mehr als 5 mm)</li>")}</ul></div>
 <div class="card"><h3>{L("Minor", "Leicht")}</h3><ul>{L("<li>Loose threads, untrimmed ends</li><li>Small marks that wash out</li><li>Slightly uneven topstitching</li>", "<li>Lose Fäden, nicht abgeschnittene Enden</li><li>Kleine Flecken, die herausgehen</li><li>Leicht ungleichmäßige Ziernaht</li>")}</ul></div>
 </div>
 <h3>{L("Snap and hardware test (proto and PP sample, condition for approval)", "Test von Druckknöpfen und Metallteilen (Proto und PP-Muster, Bedingung für die Freigabe)")}</h3>

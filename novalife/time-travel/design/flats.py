@@ -125,12 +125,12 @@ def front():
             A_at, E_at = band[len(band) // 2], (ex0 + 31, WB + 36)
     o.append(loops((-98, 98)))
     o.append(st(poly([(x - 7, y) for x, y in mir(INSEAM)])) + st(poly([(x + 7, y) for x, y in INSEAM])))
-    o.append(st(f"M{F(-242)} 1090H-32M32 1090H242"))
     o.append(callout("A", A_at[0], A_at[1], -170, 230))
     o.append(callout("E", E_at[0], E_at[1], -300, 40))
     o.append(callout("K", 8, 22, 110, -60))
     o.append(callout("N", -112, 46, -60, 120))
     o.append(callout("J", 38, 150, 120, 200))
+    o.append(callout("H", -150, 1100, -300, 1060))
     return o
 
 
@@ -169,7 +169,6 @@ def back():
                      for x in (57, 123) for y in (12.5, 58.5)))
     o.append(f'<text x="90" y="44" style="font: 700 22px Helvetica, Arial, sans-serif; fill: {INK}; text-anchor: middle">D</text>')
     o.append(st(poly([(x - 7, y) for x, y in mir(INSEAM)])) + st(poly([(x + 7, y) for x, y in INSEAM])))
-    o.append(st(f"M{F(-242)} 1090H-32M32 1090H242"))
     o.append(callout("D", 130, 30, 300, 10))
     o.append(callout("B2", bx - 20, by, -300, 150))
     o.append(callout("C", cx + 18, cy, 300, 230))
@@ -191,7 +190,8 @@ LEGEND = [("A", "Cross-stitch band along the right front pocket opening (as worn
           ("B2", "Left back pocket (as worn): band 48 mm, three wheat ears, 9 gold threads by hand after wash"),
           ("C", "Right back pocket: eight-point star 36 × 36 mm, same height as the B2 band"),
           ("D", "Patch D: two-layer belt loop, top flush with the waistband, centred between centre back loop and right loop. Snaps hidden (dashed)"),
-          ("Y", "Back yoke: 9.5 cm at centre back, 3 cm at the side seam, flat-felled")]
+          ("Y", "Back yoke: 9.5 cm at centre back, 3 cm at the side seam, flat-felled"),
+          ("H", "Hem: raw edge, cut after the wash, no stitching")]
 
 FRONT_DE = svg(front(), "VORN")
 BACK_DE = svg(back(), "HINTEN")
@@ -202,7 +202,8 @@ LEGEND_DE = [("A", "Kreuzstich-Band an der rechten Vordertasche (vom Träger aus
              ("B2", "Linke Gesäßtasche (vom Träger aus): Band 48 mm, drei Ähren, 9 Goldfäden von Hand nach der Wäsche"),
              ("C", "Rechte Gesäßtasche: Achtstern 36 × 36 mm, gleiche Höhe wie das B2-Band"),
              ("D", "Patch D: Gürtelschlaufe aus zwei Lagen, oben bündig mit dem Bund, mittig zwischen Mittelschlaufe und rechter Schlaufe. Druckknöpfe versteckt (gestrichelt)"),
-             ("Y", "Passe hinten: 9,5 cm an der Mitte, 3 cm an der Seitennaht, Kappnaht")]
+             ("Y", "Passe hinten: 9,5 cm an der Mitte, 3 cm an der Seitennaht, Kappnaht"),
+             ("H", "Saum: roh, nach der Wäsche geschnitten, ohne Naht")]
 
 if __name__ == "__main__":
     import os

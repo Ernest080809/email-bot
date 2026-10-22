@@ -165,7 +165,7 @@ INDEX = ["Cover and style summary", "Design overview", "Points of measure, base 
 page("Cover", f"""
 <div><h1>NVL-TT-01 · Time Travel jeans</h1><p class="sub">Men's 5-pocket straight-leg jeans with embroidery, 100 numbered pairs. Tech pack for the nominated factory.</p></div>
 <img class="vis" src="{VIS}" alt="Visual front and back">
-<p class="sub">The visual shows the placement of all details. Fit and leg shape follow the measurements on pages 3–4 and our reference jeans, which are slimmer than the visual. The wash is darker than shown (page 8).</p>
+<p class="sub">The visual shows the placement of all details. Fit and leg shape follow the measurements on pages 3–4, which are slimmer than the visual. The wash is darker than shown (page 8).</p>
 <table class="kv">
 <tr><th>Style</th><td>NVL-TT-01 · Time Travel · Novalife, Berlin</td></tr>
 <tr><th>Quantity</th><td>100 pairs, one style, one wash, numbered 001–100 on the inner label, plus 3 spare pairs without number (W32, W34, W36)</td></tr>
@@ -174,7 +174,7 @@ page("Cover", f"""
 <tr><th>Wash</th><td>Mid-indigo vintage, honeycombs behind the knees, fading on the front thighs, no whiskers, no holes</td></tr>
 <tr><th>Embroidery</th><td>4 zones on the cut panels before sewing, about 28,000 stitches (annex)</td></tr>
 <tr><th>Trims</th><td>YKK metal zip, 20 mm shank button, 6 rivets, 4 snaps for the detachable back patch, all antique copper, nickel-free</td></tr>
-<tr><th>Reference</th><td>Our reference jeans (size M = our W32) is sent to you after nomination. All measurements in this tech pack come from it.</td></tr>
+<tr><th>Reference</th><td>The measurements come from our reference jeans (size M = our W32). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page 7).</td></tr>
 </table>
 <div class="grid">
 <div><h3>Contents</h3><ol>{"".join(f"<li>{t}</li>" for t in INDEX)}</ol></div>
@@ -182,7 +182,7 @@ page("Cover", f"""
 <tr><th>v0.9 · 20 Oct</th><td>Quote pack (3 pages) and artwork 1:1</td></tr>
 <tr><th>{VERSION} · 21 Oct</th><td>Measurements, grading, materials, construction, process, wash, labels, QC</td></tr>
 <tr><th>Change · 21 Oct</th><td>3 spare pairs added. Patch D now two layers with a back panel: snaps hidden, a standard belt up to 40 mm runs through.</td></tr>
-<tr><th>Next</th><td>Technical flats, belt loop positions and back pocket check from photos of the reference jeans (22–25 Oct)</td></tr>
+<tr><th>Next</th><td>Technical flats from the measurements (22–25 Oct)</td></tr>
 </table>
 <p class="sub" style="margin-top:1.5mm">This tech pack is the only valid reference. Changes only as a new version with a new date, never by chat message.</p></div>
 </div>""")
@@ -286,7 +286,7 @@ CONS = [
     ("Front pockets", "Double topstitch on the opening. Rivets at both ends of each opening."),
     ("Coin pocket", "62 × 62 mm, embroidered panel E. Top edge double topstitch, rivets at both top corners."),
     ("Back pockets", "Top hem 15 mm, double topstitch. Bartacks at both top corners (no rivets on back pockets)."),
-    ("Belt loops", "5 loops, about 1.0–1.2 cm wide, 4 cm visible length, bartacked top and bottom. Centre back loop on the centre back seam. Positions as on the reference jeans (flats follow)."),
+    ("Belt loops", "5 loops, about 1.0–1.2 cm wide, 4 cm visible length, bartacked top and bottom. Centre back loop on the centre back seam. Positions: your standard for a 5-pocket jeans, shown in the flats."),
     ("Hem", "1 cm, chain stitch."),
     ("Bartacks", "Copper-gold: fly end, belt loops, back pocket corners, crotch."),
 ]
@@ -310,6 +310,7 @@ page("Construction", f"""
 STEPS = [
     ("Fabric", "Swatch and shrinkage test of the bulk fabric with our wash. You set the pattern allowance from it.", "Swatch + shrinkage values"),
     ("Colours", "Thread colour card: topstitch copper-gold, embroidery red, white, gold.", "We choose on the real thread"),
+    ("Pattern check", "Before cutting the proto: measurement sheet of your W32 pattern for points 1–20, finished measurements after wash, and your shrinkage allowance.", "We approve before cutting"),
     ("Digitizing", "Preview of all 4 motifs: stitch count, trims, colour changes. The embroidery files (DST) belong to Novalife.", "PDF/photo preview"),
     ("Strike-off", "Embroidery of all 4 motifs on our denim, washed with our wash recipe. No puckering or waves, red must not bleed, no frayed thread.", "Photos, then physical. Gate before the proto"),
     ("Proto W32", "Complete jeans: embroidered, washed, all trims and patch D. Measurement sheet of points 1–20 against this tech pack.", "Fit and snap test by us"),

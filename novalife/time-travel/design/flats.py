@@ -193,6 +193,17 @@ LEGEND = [("A", "Cross-stitch band along the right front pocket opening (as worn
           ("D", "Patch D: two-layer belt loop, top flush with the waistband, centred between centre back loop and right loop. Snaps hidden (dashed)"),
           ("Y", "Back yoke: 9.5 cm at centre back, 3 cm at the side seam, flat-felled")]
 
+FRONT_DE = svg(front(), "VORN")
+BACK_DE = svg(back(), "HINTEN")
+LEGEND_DE = [("A", "Kreuzstich-Band an der rechten Vordertasche (vom Träger aus), Innenkante auf der Taschenöffnung"),
+             ("E", "Münztasche voll bestickt, 62 × 62 mm. Taschenöffnung bleibt 11 × 7 cm, die untere innere Ecke darf unter dem Rand liegen wie bei einer klassischen 5-Pocket"),
+             ("K", "Knopf 20 mm mit Achtstern"), ("N", "Nieten 9 mm: an beiden Enden jeder Vordertaschenöffnung, an beiden oberen Ecken der Münztasche"),
+             ("J", "Reißverschluss, J-Naht doppelt gesteppt, Riegel am Ende"),
+             ("B2", "Linke Gesäßtasche (vom Träger aus): Band 48 mm, drei Ähren, 9 Goldfäden von Hand nach der Wäsche"),
+             ("C", "Rechte Gesäßtasche: Achtstern 36 × 36 mm, gleiche Höhe wie das B2-Band"),
+             ("D", "Patch D: Gürtelschlaufe aus zwei Lagen, oben bündig mit dem Bund, mittig zwischen Mittelschlaufe und rechter Schlaufe. Druckknöpfe versteckt (gestrichelt)"),
+             ("Y", "Passe hinten: 9,5 cm an der Mitte, 3 cm an der Seitennaht, Kappnaht")]
+
 if __name__ == "__main__":
     import os
     here = os.path.dirname(os.path.abspath(__file__))

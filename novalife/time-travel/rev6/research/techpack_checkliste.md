@@ -184,3 +184,6 @@ Noch offen:
 - Gesäßtaschen und Taschenöffnung vorn in allen Größen gleich, ein Stickprogramm je Motiv (Ernest: okay).
 - Münztasche E: Die untere innere Ecke darf unter dem Rand der Taschenöffnung liegen wie bei einer klassischen 5-Pocket. Taschenöffnung bleibt 11 × 7 cm (Ernest: nicht schlimm, das Design läuft nach innen weiter).
 - Ernest ist ab Do 29.10. zurück in Berlin und kann die Eightyfive dann selbst an die Fabrik schicken.
+- Abgleich mit Produkt-Spec Rev. 13 (22.10.): Goldfäden komplett (Längen 19/25/22/30/27/21/29/18/24 mm, Garn dreifach gezwirnt ~1 mm, nur durch die Tasche, Enden versiegelt, nach der Wäsche), Pflegetext „Goldfäden nicht abschneiden“, B2 ohne Weiß, verdeckte Ecke von E mitsticken, Waschton L* 34–40 / 52–58 / ±2, Laser bevorzugt.
+- Saum: genäht, 1 cm, Kettstich in Kupfer-Gold. Die 81 cm Innenbein schließen den Saum ein (Ernest, 22.10.; ersetzt „roh“ aus Spec 2.6).
+- Größen: zurück zu ehrlichen Größen wie Spec 1.2. Etikett = gemessene Bundweite in Zoll. Basis M = 86 cm = W34, Proto und PP in W34 (Ernest, 22.10.; ersetzt „W32 = 86 cm“ vom 21.10.).

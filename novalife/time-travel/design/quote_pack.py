@@ -66,13 +66,13 @@ html,body{margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;color:#1b223
 h1{font-size:20pt;margin:0;line-height:1.1}
 h2{font-size:12pt;margin:0 0 2mm}
 .sub{color:#4a5262;margin:1mm 0 0}
-.vis{width:100%;max-height:112mm;object-fit:contain;border:0.3mm solid #d9dde4}
+.vis{width:100%;max-height:104mm;object-fit:contain;border:0.3mm solid #d9dde4}
 table{width:100%;border-collapse:collapse}
 td,th{text-align:left;vertical-align:top;padding:1.3mm 2mm;border-bottom:0.25mm solid #e1e4ea}
 th{width:31mm;font-weight:700}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
 .card{border:0.3mm solid #d9dde4;border-radius:2mm;padding:3mm;display:flex;flex-direction:column;gap:2mm}
-.card img{width:100%;max-height:50mm;object-fit:contain}
+.card img{width:100%;max-height:45mm;object-fit:contain}
 .card h3{margin:0;font-size:10.5pt}
 .card p{margin:0}
 .note{background:#f3f5f8;border-radius:2mm;padding:3mm}
@@ -101,7 +101,7 @@ p1 = page(1, f"""
 <tr><th>Quantity</th><td>100 pairs, one style, one wash. Sizes W30–W38, estimated split: W30 8 · W31 10 · W32 20 · W33 14 · W34 20 · W36 18 · W38 10 (final split in February).</td></tr>
 <tr><th>Fit</th><td>Men's 5-pocket, straight leg, base size M = W34 (waist 86 cm). Honest sizes: the label is the measured waist in inches. Reference jeans, measured flat in cm: waist 43 · hip 52 · thigh 29 · knee 22.5 · leg opening 21 · front rise 32 · back rise 37. One inseam for all sizes: 81 cm (L32). Full spec sheet with grading follows.</td></tr>
 <tr><th>Fabric</th><td>12 oz rigid 100 % cotton denim, no stretch, residual shrinkage ≤ 3 % after wash.</td></tr>
-<tr><th>Wash</th><td>Mid-indigo vintage wash, honeycombs behind the knees, fading on the front thighs, no whiskers. No holes, no sandblasting, no potassium permanganate spray. Reference photos follow.</td></tr>
+<tr><th>Wash</th><td>Mid-indigo vintage wash, honeycombs behind the knees, fading on the front thighs, no whiskers. No holes, no sandblasting, no potassium permanganate spray. No wash effects on seams, hem and embroidery. Reference photos follow.</td></tr>
 <tr><th>Embroidery</th><td>4 zones on cut panels before sewing, approx. 28,000 stitches in total, polyester thread that resists the wash (page 2).</td></tr>
 <tr><th>Trims</th><td>YKK metal zip fly (antique copper, auto-lock) with 20 mm (ligne 32) custom shank button, antique copper, embossed eight-point star. 6 rivets 9 mm, plain antique copper. All metal parts nickel-free (EU REACH).</td></tr>
 <tr><th>Back patch</th><td>Linen patch 80 × 71 mm, supplied by us, detachable with 4 ring-spring snaps 10 mm (page 3).</td></tr>
@@ -113,7 +113,7 @@ p2 = page(2, f"""
 <div class="grid">
 <div class="card"><img src="{uri(IMG['A'])}" alt="A"><h3>A · Band along the right front pocket</h3><p>23 mm wide, 17 cross-stitch rows, red and white. Inner edge 175 mm on the pocket opening (base size M).</p></div>
 <div class="card"><img src="{uri(IMG['E'])}" alt="E"><h3>E · Fully embroidered coin pocket</h3><p>Pocket 62 × 62 mm, embroidery 60 × 60 mm, 45 × 45 cross-stitches, red and white. Centred between side seam and pocket rivet.</p></div>
-<div class="card"><img src="{uri(IMG['B2'])}" alt="B2"><h3>B2 · Left back pocket</h3><p>Three wheat ears on a red band (band 48 mm), gold, red, white. After washing: 9 short gold threads (18–30 mm) set by hand under the band and knotted inside the pocket.</p></div>
+<div class="card"><img src="{uri(IMG['B2'])}" alt="B2"><h3>B2 · Left back pocket</h3><p>Three wheat ears on a red band (band 48 mm), gold, dark gold, red. After washing: 9 short gold threads (18–30 mm) set by hand under the band and knotted inside the pocket.</p></div>
 <div class="card"><img src="{uri(IMG['C'])}" alt="C"><h3>C · Right back pocket</h3><p>Eight-point star of 8 rhombi, 36 × 36 mm, 1 mm gaps, solid red, satin stitch. Same height as the B2 band.</p></div>
 </div>
 <div class="grid">

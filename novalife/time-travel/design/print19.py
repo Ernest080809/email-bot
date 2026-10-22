@@ -236,7 +236,7 @@ L_PTS = pocket_shape(True); POCKET_H = round(max(p[1] for p in L_PTS))
 rows = [
     ("A", "Taschenband vorn rechts", f"23 mm breit, 17 Kreuzstiche, Innenkante {INNER_MM} mm auf der Taschenöffnung", "Rot, Weiß", "Jeansfabrik"),
     ("E", "Münztasche voll bestickt", f"Tasche 62 × 62 mm, Stickerei 60 × 60 mm, {COIN_C} × {COIN_R} Stiche, wie v1.8", "Rot, Weiß", "Jeansfabrik"),
-    ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Rot, Weiß", "Jeansfabrik"),
+    ("B2", "Drei Ähren, rotes Band, Goldfäden", "linke Gesäßtasche, Band 48 mm, 9 Fäden 18–30 mm von Hand", "Gold, Dunkelgold, Rot", "Jeansfabrik"),
     ("C", "Achtstern aus 8 Rauten", "rechte Gesäßtasche, 36 × 36 mm, Fugen 1 mm, Plattstich, Höhe wie B2-Band", "Rot", "Jeansfabrik"),
     ("T", "Gesäßtaschen", f"oben 160, unten 130, Seiten innen 125 / außen 120, Spitze je 70 mm, ~{POCKET_H} mm hoch", "Denim", "Jeansfabrik"),
     ("D", "Patch hinten rechts, Gürtelschlaufe", f"{F(PATCH_W)} × {F(PATCH_H)} mm, oben und unten gewölbt, Schlaufe aus 2 Lagen, 4 Druckknöpfe versteckt, Naturleinen, „NL“, max. 4 Garnfarben", "4 Garnfarben", "Patch-Hersteller"),

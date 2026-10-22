@@ -56,11 +56,13 @@ HONEY = jpg(os.path.join(SKIZZEN, "2026-10-21_honeycomb_ironheart.jpg"), 600)
 SVG_FRONT = open(os.path.join(HERE, "techpack", "front.svg")).read()
 SVG_BACK = open(os.path.join(HERE, "techpack", "back.svg")).read()
 
-# ================= Maße: Basis W32 = Eightyfive M flach gemessen, nach der Wäsche =================
+# ================= Maße: Basis W34 = Eightyfive M flach gemessen, nach der Wäsche =================
+# Ehrliche Größen (Entscheidung 22.10., wie Spec Rev. 13): Etikett = gemessene Bundweite in Zoll, 86 cm = W34
+BASE = "W34"
 SIZES = ["W30", "W31", "W32", "W33", "W34", "W36", "W38"]
-STEP = {"W30": -2, "W31": -1, "W32": 0, "W33": 1, "W34": 2, "W36": 4, "W38": 6}   # Zoll Abstand zur Basis
+STEP = {"W30": -4, "W31": -3, "W32": -2, "W33": -1, "W34": 0, "W36": 2, "W38": 4}   # Zoll Abstand zur Basis
 SPLIT = {"W30": 8, "W31": 10, "W32": 20, "W33": 14, "W34": 20, "W36": 18, "W38": 10}
-# (Nr., Messpunkt, Messanleitung, Basis W32, Toleranz ±, Sprung je 1" Bund)
+# (Nr., Messpunkt, Messanleitung, Basis W34, Toleranz ±, Sprung je 1" Bund)
 POM = [
     (1, L("Waist, half", "Bund, halb"), L("Top edge of waistband, buttoned, edge to edge.", "Oberkante Bund, Knopf zu, von Kante zu Kante."), 43.0, 1.0, 1.27),
     (2, L("Hip, half", "Hüfte, halb"), L("Straight across at the level of the end of the fly (J-stitch).", "Waagerecht auf Höhe vom Ende des Schlitzes (J-Naht)."), 52.0, 1.0, 1.27),
@@ -69,7 +71,7 @@ POM = [
     (5, L("Leg opening, half", "Saumweite, halb"), L("At the hem, edge to edge.", "Am Saum, von Kante zu Kante."), 21.0, 0.5, 0.3),
     (6, L("Front rise", "Vordere Leibhöhe"), L("Crotch point to top of waistband along the seam, incl. waistband.", "Vom Schritt entlang der Naht bis Oberkante Bund, mit Bund."), 32.0, 0.5, 0.3),
     (7, L("Back rise", "Hintere Leibhöhe"), L("Crotch point to top of waistband along the seam, incl. waistband.", "Vom Schritt hinten entlang der Naht bis Oberkante Bund, mit Bund."), 37.0, 0.6, 0.4),
-    (8, L("Inseam", "Innenbeinlänge"), L("Crotch point to hem along the inseam. One length for all sizes (L32).", "Vom Schritt entlang der Innennaht bis zum Saum. Eine Länge für alle Größen (L32)."), 81.0, 1.0, 0.0),
+    (8, L("Inseam", "Innenbeinlänge"), L("Crotch point to the finished hem edge along the inseam, hem included. One length for all sizes (L32).", "Vom Schritt entlang der Innennaht bis zur fertigen Saumkante, Saum eingerechnet. Eine Länge für alle Größen (L32)."), 81.0, 1.0, 0.0),
     (9, L("Outseam", "Außenlänge"), L("Top of waistband to hem along the side seam.", "Von Oberkante Bund entlang der Seitennaht bis zum Saum."), 110.0, 1.0, 0.3),
     (10, L("Waistband height", "Bundhöhe"), L("Top to bottom edge of waistband.", "Oberkante bis Unterkante Bund."), 4.0, 0.2, 0.0),
     (11, L("Fly opening", "Schlitzlänge"), L("Bottom of waistband to end of J-stitch.", "Unterkante Bund bis Ende der J-Naht."), 15.0, 0.3, 0.2),
@@ -81,7 +83,7 @@ POM = [
     (17, L("Front pocket opening, depth", "Eingriff vorn, Tiefe"), L("Along the side seam: bottom of waistband to end of pocket opening.", "Entlang der Seitennaht: Unterkante Bund bis Ende der Taschenöffnung."), 7.0, 0.3, 0.0),
     (18, L("Belt loops, number", "Gürtelschlaufen, Anzahl"), L("2 front, 2 side back, 1 centre back.", "2 vorn, 2 hinten seitlich, 1 hinten Mitte."), 5, None, None),
     (19, L("Belt loop length", "Gürtelschlaufe, Länge"), L("Visible length, top to bottom.", "Sichtbare Länge von oben bis unten."), 4.0, 0.2, 0.0),
-    (20, L("Hem", "Saum"), L("Raw edge, cut straight after the wash at right angles to the inseam, no turn-up. Both legs equal ± 0.5 cm.", "Roh, nach der Wäsche gerade und rechtwinklig zur Innennaht geschnitten, ohne Umschlag. Beide Beine gleich lang ± 0,5 cm."), L("raw", "roh"), None, None),
+    (20, L("Hem height", "Saumbreite"), L("Hem edge to hem stitch line. Sewn hem, both legs equal ± 0.5 cm.", "Saumkante bis Steppnaht des Saums. Genähter Saum, beide Beine gleich lang ± 0,5 cm."), 1.0, 0.2, 0.0),
 ]
 
 
@@ -114,7 +116,7 @@ h2{font-size:12.5pt;margin:0}
 h3{font-size:10pt;margin:0}
 p{margin:0}
 .sub{color:#4a5262}
-.vis{width:100%;max-height:72mm;object-fit:contain;border:0.3mm solid #d9dde4}
+.vis{width:100%;max-height:66mm;object-fit:contain;border:0.3mm solid #d9dde4}
 table{width:100%;border-collapse:collapse}
 td,th{text-align:left;vertical-align:top;padding:1.15mm 1.8mm;border-bottom:0.25mm solid #e1e4ea}
 .kv th{width:32mm;font-weight:700}
@@ -180,10 +182,10 @@ def render():
 PG = {"flats": 3, "emb": 4, "gold": 5, "pom": 6, "grade": 7, "bom": 8, "cons": 9, "proc": 10, "wash": 11, "labels": 12, "qc": 13}
 
 # ================= 1 · Deckblatt =================
-INDEX = L(["Cover and style summary", "Design overview", "Technical flats", "Embroidery", "Gold threads B2", "Points of measure, base size W32", "Grading W30–W38",
+INDEX = L(["Cover and style summary", "Design overview", "Technical flats", "Embroidery", "Gold threads B2", "Points of measure, base size W34", "Grading W30–W38",
            "Bill of materials", "Construction and stitching", "Process and approvals", "Wash", "Labels, packing, compliance",
            "Quality control", "Annex: artwork 1:1 (4 pages)"],
-          ["Deckblatt und Eckdaten", "Designübersicht", "Technische Zeichnungen", "Stickerei", "Goldfäden B2", "Messpunkte, Basisgröße W32", "Größen W30–W38",
+          ["Deckblatt und Eckdaten", "Designübersicht", "Technische Zeichnungen", "Stickerei", "Goldfäden B2", "Messpunkte, Basisgröße W34", "Größen W30–W38",
            "Materialliste", "Verarbeitung und Nähte", "Ablauf und Freigaben", "Wäsche", "Etiketten, Verpackung, Vorschriften",
            "Qualitätskontrolle", "Anhang: Druckvorlage 1:1 (4 Seiten)"])
 page(L("Cover", "Deckblatt"), f"""
@@ -193,12 +195,12 @@ page(L("Cover", "Deckblatt"), f"""
 <table class="kv">
 <tr><th>{L("Style", "Modell")}</th><td>NVL-TT-01 · Time Travel · Novalife, Berlin</td></tr>
 <tr><th>{L("Quantity", "Menge")}</th><td>{L("100 pairs, one style, one wash, numbered 001–100 on the inner label, plus 3 spare pairs without number (W32, W34, W36)", "100 Paare, ein Modell, eine Wäsche, nummeriert 001–100 auf dem Innenetikett, dazu 3 Reservepaare ohne Nummer (W32, W34, W36)")}</td></tr>
-<tr><th>{L("Sizes", "Größen")}</th><td>{L("W30 · W31 · W32 · W33 · W34 · W36 · W38, one inseam 81 cm (L32). Base size and proto: W32.", "W30 · W31 · W32 · W33 · W34 · W36 · W38, eine Innenbeinlänge 81 cm (L32). Basisgröße und Proto: W32.")}</td></tr>
+<tr><th>{L("Sizes", "Größen")}</th><td>{L("W30 · W31 · W32 · W33 · W34 · W36 · W38, one inseam 81 cm (L32). Base size and proto: W34. Honest sizes: the label is the measured waist in inches.", "W30 · W31 · W32 · W33 · W34 · W36 · W38, eine Innenbeinlänge 81 cm (L32). Basisgröße und Proto: W34. Ehrliche Größen: Das Etikett ist die gemessene Bundweite in Zoll.")}</td></tr>
 <tr><th>{L("Fabric", "Stoff")}</th><td>{L("12 oz rigid 100 % cotton denim, no stretch, residual shrinkage ≤ 3 % after wash", "12 oz Denim, 100 % Baumwolle, ohne Stretch, Restschrumpf ≤ 3 % nach der Wäsche")}</td></tr>
 <tr><th>{L("Wash", "Wäsche")}</th><td>{L("Mid-indigo vintage, honeycombs behind the knees, fading on the front thighs, no whiskers, no holes", "Mittleres Vintage-Indigo, Honeycombs hinter den Knien, Aufhellung vorn auf den Oberschenkeln, keine Whiskers, keine Löcher")}</td></tr>
 <tr><th>{L("Embroidery", "Stickerei")}</th><td>{L("4 zones on the cut panels before sewing, about 28,000 stitches (annex)", "4 Zonen auf den Zuschnittteilen vor dem Nähen, etwa 28.000 Stiche (Anhang)")}</td></tr>
 <tr><th>{L("Trims", "Zutaten")}</th><td>{L("YKK metal zip, 20 mm shank button, 6 rivets, 4 snaps for the detachable back patch, all antique copper, nickel-free", "YKK-Metallreißverschluss, Knopf 20 mm, 6 Nieten, 4 Druckknöpfe für den abnehmbaren Patch, alles Antik-Kupfer, nickelfrei")}</td></tr>
-<tr><th>{L("Reference", "Referenz")}</th><td>{L(f"The measurements come from our reference jeans (size M = our W32). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page {PG['proc']}).", f"Die Maße stammen von unserer Referenzjeans (Gr. M = unser W32). Ein physisches Muster gibt es vorerst nicht, die Maße in diesem Tech Pack sind verbindlich. Vor dem Zuschnitt des Protos schickt die Fabrik uns das Maßblatt ihres Schnitts (Seite {PG['proc']}).")}</td></tr>
+<tr><th>{L("Reference", "Referenz")}</th><td>{L(f"The measurements come from our reference jeans (size M, 86 cm waist = W34). There is no physical sample for now: the measurements in this tech pack are binding. Before cutting the proto you send us the measurement sheet of your pattern (page {PG['proc']}).", f"Die Maße stammen von unserer Referenzjeans (Gr. M, 86 cm Bund = W34). Ein physisches Muster gibt es vorerst nicht, die Maße in diesem Tech Pack sind verbindlich. Vor dem Zuschnitt des Protos schickt die Fabrik uns das Maßblatt ihres Schnitts (Seite {PG['proc']}).")}</td></tr>
 </table>
 <div class="grid">
 <div><h3>{L("Contents", "Inhalt")}</h3><ol>{"".join(f"<li>{t}</li>" for t in INDEX)}</ol></div>
@@ -206,7 +208,7 @@ page(L("Cover", "Deckblatt"), f"""
 <tr><th>v0.9 · {L("20 Oct", "20.10.")}</th><td>{L("Quote pack (3 pages) and artwork 1:1", "Quote Pack (3 Seiten) und Artwork 1:1")}</td></tr>
 <tr><th>{VERSION} · {L("21 Oct", "21.10.")}</th><td>{L("Measurements, grading, materials, construction, process, wash, labels, QC", "Maße, Größen, Material, Verarbeitung, Ablauf, Wäsche, Etiketten, Qualitätskontrolle")}</td></tr>
 <tr><th>{L("Change · 21 Oct", "Änderung · 21.10.")}</th><td>{L("3 spare pairs added. Patch D now two layers with a back panel: snaps hidden, a standard belt up to 40 mm runs through.", "3 Reservepaare dazu. Patch D jetzt aus zwei Lagen mit Rückwand: Druckknöpfe versteckt, ein normaler Gürtel bis 40 mm läuft durch.")}</td></tr>
-<tr><th>{L("22 Oct", "22.10.")}</th><td>{L("Technical flats, embroidery specification. Back pockets and front pocket opening the same in all sizes.", "Technische Zeichnungen, Stickerei-Seite. Gesäßtaschen und Taschenöffnung vorn in allen Größen gleich.")}</td></tr>
+<tr><th>{L("22 Oct", "22.10.")}</th><td>{L("Technical flats, embroidery and gold thread pages. Pockets the same in all sizes. Honest sizes: base W34 = 86 cm.", "Technische Zeichnungen, Stickerei- und Goldfaden-Seite. Taschen in allen Größen gleich. Ehrliche Größen: Basis W34 = 86 cm.")}</td></tr>
 </table>
 <p class="sub" style="margin-top:1.5mm">{L("This tech pack is the only valid reference. Changes only as a new version with a new date, never by chat message.", "Dieses Tech Pack ist die einzige gültige Vorgabe. Änderungen nur als neue Version mit neuem Datum, nie per Chat-Nachricht.")}</p></div>
 </div>""")
@@ -233,7 +235,7 @@ page(L("Design overview", "Designübersicht"), f"""
 # ================= 3 · Technische Zeichnungen =================
 lrows = "".join(f'<tr><td class="no">{k}</td><td>{t}</td></tr>' for k, t in (FL.LEGEND_DE if DE else FL.LEGEND))
 page(L("Technical flats", "Technische Zeichnungen"), f"""
-<h2>{L("Technical flats · base size W32", "Technische Zeichnungen · Basisgröße W32")}</h2>
+<h2>{L("Technical flats · base size W34", "Technische Zeichnungen · Basisgröße W34")}</h2>
 <div class="grid" style="gap:6mm;padding:0 6mm">{FL.FRONT_DE if DE else FL.FRONT}{FL.BACK_DE if DE else FL.BACK}</div>
 <table class="spec"><tr><th>{L("Key", "Teil")}</th><th>{L("Detail", "Beschreibung")}</th></tr>{lrows}</table>
 <p class="sub">{L(f"Drawn from our measurements, not to scale. The measurements on page {PG['pom']} are binding. Dashed brown lines are topstitching in copper-gold, short thick lines are bartacks. Front view: left in the drawing is the wearer's right.", f"Aus unseren Maßen gezeichnet, nicht maßstäblich. Verbindlich sind die Maße auf Seite {PG['pom']}. Gestrichelte braune Linien sind Ziernähte in Kupfer-Gold, kurze dicke Striche sind Riegel. Vorderansicht: links im Bild ist rechts am Träger.")}</p>""")
@@ -291,25 +293,25 @@ page(L("Gold threads B2", "Goldfäden B2"), f"""
 </table>
 <div class="grid" style="grid-template-columns:1fr 1fr"><div class="card"><img src="{uri(IMG['B2'])}" alt="B2" style="max-height:60mm"><h3>{L("B2 in the artwork 1:1 (annex)", "B2 in der Druckvorlage 1:1 (Anhang)")}</h3></div><div class="note"><h3>{L("Care label", "Pflegeetikett")}</h3><p>{L("The care text says: „Goldfäden nicht abschneiden“ (do not cut the gold threads), page ", "Auf dem Etikett steht: „Goldfäden nicht abschneiden“, Seite ")}{PG['labels']}.</p></div></div>""")
 
-# ================= 5 · Messpunkte Basis W32 =================
+# ================= 6 · Messpunkte Basis W34 =================
 rows = "".join(
     f'<tr><td class="no">{n}</td><td><b>{name}</b></td><td>{how}</td><td class="n base">{fmt(base)}</td>'
     f'<td class="n">{"" if tol is None else "± " + fmt(tol)}</td><td class="n">{"" if tol is None else fmt(r1(base / 2.54))}</td></tr>' for n, name, how, base, tol, _ in POM)
 page(L("Points of measure", "Messpunkte"), f"""
-<h2>{L("Points of measure · base size W32", "Messpunkte · Basisgröße W32")}</h2>
+<h2>{L("Points of measure · base size W34", "Messpunkte · Basisgröße W34")}</h2>
 <div class="diag"><div>{SVG_FRONT}<div class="cap">{L("Front", "Vorn")}</div></div><div>{SVG_BACK}<div class="cap">{L("Back", "Hinten")}</div></div></div>
-<table class="spec"><tr><th>{L("No.", "Nr.")}</th><th>{L("Point of measure", "Messpunkt")}</th><th>{L("How to measure", "So wird gemessen")}</th><th class="n base">W32 cm</th><th class="n">{L("Tol.", "Tol.")}</th><th class="n">{L("inch", "Zoll")}</th></tr>{rows}</table>
+<table class="spec"><tr><th>{L("No.", "Nr.")}</th><th>{L("Point of measure", "Messpunkt")}</th><th>{L("How to measure", "So wird gemessen")}</th><th class="n base">W34 cm</th><th class="n">{L("Tol.", "Tol.")}</th><th class="n">{L("inch", "Zoll")}</th></tr>{rows}</table>
 <p class="note">{L("All measurements in cm on the <b>finished garment after wash</b>, laid flat, buttoned, not stretched. Widths 1–5 are half measurements (edge to edge, not doubled). Lengths follow the seam. Please set the shrinkage allowance of the pattern from your own wash test on our fabric.", "Alle Maße in cm am <b>fertigen Teil nach der Wäsche</b>, flach gelegt, Knopf zu, nicht gedehnt. Weiten 1–5 sind halbe Maße (von Kante zu Kante, nicht verdoppelt). Längen folgen der Naht. Die Fabrik legt die Schrumpfzugabe im Schnitt nach ihrem eigenen Waschtest mit unserem Stoff fest.")}</p>""")
 
 # ================= 6 · Gradierung =================
-hdr = "".join(f'<th class="n{" base" if s == "W32" else ""}">{s}</th>' for s in SIZES)
+hdr = "".join(f'<th class="n{" base" if s == BASE else ""}">{s}</th>' for s in SIZES)
 grows = ""
 for n, name, how, base, tol, step in POM:
-    cells = "".join(f'<td class="n{" base" if s == "W32" else ""}">{fmt(graded(base, step, s))}</td>' for s in SIZES)
+    cells = "".join(f'<td class="n{" base" if s == BASE else ""}">{fmt(graded(base, step, s))}</td>' for s in SIZES)
     gstep = "–" if not step else "+" + (f"{step:g}".replace(".", ",") if DE else f"{step:g}")
     grows += (f'<tr><td class="no">{n}</td><td>{name}</td><td class="n">{"" if tol is None else "± " + fmt(tol)}</td>'
               f'<td class="n">{gstep}</td>{cells}</tr>')
-split = "".join(f'<td class="n{" base" if s == "W32" else ""}">{SPLIT[s]}</td>' for s in SIZES)
+split = "".join(f'<td class="n{" base" if s == BASE else ""}">{SPLIT[s]}</td>' for s in SIZES)
 waist_full = " · ".join(f"{s} {fmt(r1(2 * graded(43.0, 1.27, s)))}" for s in SIZES)
 page(L("Grading", "Größen"), f"""
 <h2>{L("Grading W30–W38 (proposal)", "Größen W30–W38 (Vorschlag)")}</h2>
@@ -318,8 +320,8 @@ page(L("Grading", "Größen"), f"""
 <tr class="grp"><td></td><td colspan="3">{L("Estimated quantity (final in February)", "Geschätzte Menge (endgültig im Februar)")}</td>{split}</tr></table>
 <p class="sub">{L("Plus 3 spare pairs without number: W32, W34, W36.", "Dazu 3 Reservepaare ohne Nummer: W32, W34, W36.")}</p>
 <div class="grid">
-<div class="note"><h3>{L("Size names", "Größennamen")}</h3><p>{L("Our size names run larger than the measured waist on purpose: relaxed straight fit, worn with a belt. Full waist in cm: ", "Unsere Größen fallen bewusst weiter aus als die gemessene Bundweite: entspannter gerader Schnitt, getragen mit Gürtel. Bundweite rundum in cm: ")}{waist_full}. {L("Size label: W.. L32.", "Größenetikett: W.. L32.")}</p></div>
-<div class="note"><h3>{L("Same in all sizes", "In allen Größen gleich")}</h3><p>{L("Inseam 81 cm, waistband 4 cm, raw hem, belt loops, back pocket size and position, front pocket opening, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.", "Innenbein 81 cm, Bund 4 cm, roher Saum, Gürtelschlaufen, Größe und Lage der Gesäßtaschen, Taschenöffnung vorn, Münztasche, alle Stickereien, Patch D und Metallteile. Länge des Reißverschlusses je Größe: Vorschlag der Fabrik.")}</p></div>
+<div class="note"><h3>{L("Honest sizes", "Ehrliche Größen")}</h3><p>{L("The size label is the measured waist in inches, no vanity sizing. Full waist in cm: ", "Das Größenetikett ist die gemessene Bundweite in Zoll, nichts geschönt. Bundweite rundum in cm: ")}{waist_full}. {L("Size label: W.. L32.", "Größenetikett: W.. L32.")}</p></div>
+<div class="note"><h3>{L("Same in all sizes", "In allen Größen gleich")}</h3><p>{L("Inseam 81 cm, waistband 4 cm, hem 1 cm, belt loops, back pocket size and position, front pocket opening, coin pocket, all embroidery, patch D and hardware. Zip length per size: your proposal.", "Innenbein 81 cm, Bund 4 cm, Saum 1 cm, Gürtelschlaufen, Größe und Lage der Gesäßtaschen, Taschenöffnung vorn, Münztasche, alle Stickereien, Patch D und Metallteile. Länge des Reißverschlusses je Größe: Vorschlag der Fabrik.")}</p></div>
 </div>""")
 
 # ================= 7 · Materialliste =================
@@ -374,7 +376,7 @@ CONS = [
     (L("Coin pocket", "Münztasche"), L("62 × 62 mm, embroidered panel E. Top edge double topstitch, rivets at both top corners.", "62 × 62 mm, bestickt mit E. Oberkante doppelt abgesteppt, Nieten an beiden oberen Ecken.")),
     (L("Back pockets", "Gesäßtaschen"), L("Top hem 15 mm, double topstitch. Bartacks at both top corners (no rivets on back pockets).", "Oberer Saum 15 mm, doppelt abgesteppt. Riegel an beiden oberen Ecken (keine Nieten hinten).")),
     (L("Belt loops", "Gürtelschlaufen"), L("5 loops, about 1.0–1.2 cm wide, 4 cm visible length, bartacked top and bottom. Centre back loop on the centre back seam. Positions: your standard for a 5-pocket jeans, shown in the flats.", "5 Schlaufen, etwa 1,0–1,2 cm breit, 4 cm sichtbar, oben und unten verriegelt. Mittelschlaufe auf der hinteren Mittelnaht. Positionen: Standard der Fabrik für 5-Pocket-Jeans, siehe Zeichnungen.")),
-    (L("Hem", "Saum"), L("Raw. Cut to the finished length after the wash, no stitching, no turn-up. The edge frays with wear, on purpose.", "Roh. Nach der Wäsche auf Endlänge geschnitten, ohne Naht, ohne Umschlag. Die Kante franst beim Tragen aus, gewollt.")),
+    (L("Hem", "Saum"), L("1 cm, chain stitch, copper-gold. The inseam of 81 cm includes the hem.", "1 cm, Kettstich, Kupfer-Gold. Die 81 cm Innenbein schließen den Saum ein.")),
     (L("Bartacks", "Riegel"), L("Copper-gold: fly end, belt loops, back pocket corners, crotch.", "Kupfer-Gold: Ende Schlitz, Gürtelschlaufen, Ecken der Gesäßtaschen, Schritt.")),
 ]
 crows = "".join(f"<tr><th>{a}</th><td>{b}</td></tr>" for a, b in CONS)
@@ -397,12 +399,12 @@ page(L("Construction", "Verarbeitung"), f"""
 STEPS = [
     (L("Fabric", "Stoff"), L("Swatch and shrinkage test of the bulk fabric with our wash. You set the pattern allowance from it.", "Stoffmuster und Schrumpftest des Produktionsstoffs mit unserer Wäsche. Daraus legt die Fabrik die Schrumpfzugabe fest."), L("Swatch + shrinkage values", "Stoffmuster + Schrumpfwerte")),
     (L("Colours", "Farben"), L("Thread colour card: topstitch copper-gold, embroidery red, white, gold.", "Garnfarbkarte: Ziernaht Kupfer-Gold, Stickerei Rot, Weiß, Gold."), L("We choose on the real thread", "Wir wählen am echten Garn")),
-    (L("Pattern check", "Schnitt-Maßblatt"), L("Before cutting the proto: measurement sheet of your W32 pattern for points 1–20, finished measurements after wash, and your shrinkage allowance.", "Vor dem Zuschnitt des Protos: Maßblatt des W32-Schnitts für die Punkte 1–20, Fertigmaße nach der Wäsche und Schrumpfzugabe."), L("We approve before cutting", "Freigabe vor dem Zuschnitt")),
+    (L("Pattern check", "Schnitt-Maßblatt"), L("Before cutting the proto: measurement sheet of your W34 pattern for points 1–20, finished measurements after wash, and your shrinkage allowance.", "Vor dem Zuschnitt des Protos: Maßblatt des W34-Schnitts für die Punkte 1–20, Fertigmaße nach der Wäsche und Schrumpfzugabe."), L("We approve before cutting", "Freigabe vor dem Zuschnitt")),
     (L("Digitizing", "Digitizing"), L("Preview of all 4 motifs: stitch count, trims, colour changes. The embroidery files (DST) belong to Novalife.", "Vorschau aller 4 Motive: Stichzahl, Fadenschnitte, Farbwechsel. Die Stickdateien (DST) gehören Novalife."), L("PDF/photo preview", "Vorschau als PDF oder Foto")),
     (L("Strike-off", "Stickprobe"), L("Embroidery of all 4 motifs on our denim, washed with our wash recipe. No puckering or waves, red must not bleed, no frayed thread.", "Alle 4 Motive auf unserem Denim gestickt und mit unserer Wäsche gewaschen. Keine Wellen, Rot blutet nicht aus, kein ausgefranstes Garn."), L("Photos, then physical. Gate before the proto", "Erst Fotos, dann physisch. Bedingung vor dem Proto")),
-    (L("Proto W32", "Proto W32"), L("Complete jeans: embroidered, washed, all trims and patch D. Measurement sheet of points 1–20 against this tech pack.", "Komplette Jeans: bestickt, gewaschen, alle Zutaten und Patch D. Maßblatt der Punkte 1–20 gegen dieses Tech Pack."), L("Fit and snap test by us", "Passform- und Druckknopf-Test durch uns")),
+    (L("Proto W34", "Proto W34"), L("Complete jeans: embroidered, washed, all trims and patch D. Measurement sheet of points 1–20 against this tech pack.", "Komplette Jeans: bestickt, gewaschen, alle Zutaten und Patch D. Maßblatt der Punkte 1–20 gegen dieses Tech Pack."), L("Fit and snap test by us", "Passform- und Druckknopf-Test durch uns")),
     (L("Wash standard", "Waschstandard"), L("2–3 wash trials on the proto. We choose one physical piece; it is the binding standard for bulk.", "2–3 Waschproben am Proto. Wir wählen ein echtes Teil, es ist der verbindliche Standard für die Produktion."), L("Signed wash standard", "Unterschriebener Waschstandard")),
-    (L("PP sample", "PP-Muster"), L("Pre-production sample W32 in bulk fabric, bulk trims and bulk wash. Once approved it is sealed and is the standard for all 100 pairs. Measurement sheets for W30 and W38 from the first bulk cut.", "Vorproduktionsmuster W32 aus Produktionsstoff, mit Produktionszutaten und Produktionswäsche. Nach der Freigabe wird es versiegelt und ist der Standard für alle 100 Paare. Maßblätter für W30 und W38 aus dem ersten Produktionszuschnitt."), L("Written approval before bulk", "Schriftliche Freigabe vor der Produktion")),
+    (L("PP sample", "PP-Muster"), L("Pre-production sample W34 in bulk fabric, bulk trims and bulk wash. Once approved it is sealed and is the standard for all 100 pairs. Measurement sheets for W30 and W38 from the first bulk cut.", "Vorproduktionsmuster W34 aus Produktionsstoff, mit Produktionszutaten und Produktionswäsche. Nach der Freigabe wird es versiegelt und ist der Standard für alle 100 Paare. Maßblätter für W30 und W38 aus dem ersten Produktionszuschnitt."), L("Written approval before bulk", "Schriftliche Freigabe vor der Produktion")),
     (L("TOP sample", "TOP-Muster"), L("One finished pair from the running bulk production, sent to us physically before shipment.", "Ein fertiges Paar aus der laufenden Produktion, physisch an uns vor dem Versand."), L("Approval before shipment", "Freigabe vor dem Versand")),
 ]
 srows = "".join(f'<tr><td class="no">{i}</td><td><b>{a}</b></td><td>{b}</td><td>{c}</td></tr>' for i, (a, b, c) in enumerate(STEPS, 1))
@@ -410,7 +412,7 @@ page(L("Process", "Ablauf"), f"""
 <h2>{L("Process and approvals", "Ablauf und Freigaben")}</h2>
 <table class="spec"><tr><th>{L("No.", "Nr.")}</th><th>{L("Step", "Schritt")}</th><th>{L("What", "Was")}</th><th>{L("Our approval", "Unsere Freigabe")}</th></tr>{srows}</table>
 <h3>{L("Order of production", "Reihenfolge der Produktion")}</h3>
-<p>{L("Cutting → <b>embroidery on the cut panels</b> (A front panel, E coin pocket, B2 and C back pockets) → sewing → wash → <b>hem cut to length</b> → 9 gold threads by hand → rivets, button and snap studs (after wash, to protect the antique-copper finish; tell us if you recommend otherwise) → patch D snapped on → numbering → final inspection → packing.", "Zuschnitt → <b>Stickerei auf den Zuschnittteilen</b> (A Vorderteil, E Münztasche, B2 und C Gesäßtaschen) → Nähen → Wäsche → <b>Saum auf Länge schneiden</b> → 9 Goldfäden von Hand → Nieten, Knopf und Druckknopf-Unterteile (nach der Wäsche, schützt die Antik-Kupfer-Oberfläche; die Fabrik darf widersprechen) → Patch D anknöpfen → Nummer → Endkontrolle → Verpackung.")}</p>
+<p>{L("Cutting → <b>embroidery on the cut panels</b> (A front panel, E coin pocket, B2 and C back pockets) → sewing → wash → 9 gold threads by hand → rivets, button and snap studs (after wash, to protect the antique-copper finish; tell us if you recommend otherwise) → patch D snapped on → numbering → final inspection → packing.", "Zuschnitt → <b>Stickerei auf den Zuschnittteilen</b> (A Vorderteil, E Münztasche, B2 und C Gesäßtaschen) → Nähen → Wäsche → 9 Goldfäden von Hand → Nieten, Knopf und Druckknopf-Unterteile (nach der Wäsche, schützt die Antik-Kupfer-Oberfläche; die Fabrik darf widersprechen) → Patch D anknöpfen → Nummer → Endkontrolle → Verpackung.")}</p>
 <p class="warn"><b>{L("Biggest risk: embroidery before the wash.", "Größtes Risiko: Stickerei vor der Wäsche.")}</b> {L("The thread must survive enzyme and bleach, and the denim shrinks under the embroidery, which can cause waves. That is why the washed strike-off (step 5) must be approved before the proto. If your test shows waves, propose pre-washing the fabric or a stabiliser.", "Das Garn muss Enzym und Bleiche aushalten, und der Denim schrumpft unter der Stickerei, das kann Wellen geben. Deshalb muss die gewaschene Stickprobe (Schritt 5) vor dem Proto freigegeben sein. Zeigt der Test Wellen, schlägt die Fabrik Vorwaschen des Stoffs oder ein Stabilisierungsvlies vor.")}</p>
 <table class="kv">
 <tr><th>{L("Timeline", "Termine")}</th><td>{L("Proto shipped by 30 Nov 2026 · PP sample shipped by 4 Jan 2027 · bulk from mid-February · finished by 14 May 2027", "Proto verschickt bis 30.11.2026 · PP-Muster verschickt bis 04.01.2027 · Produktion ab Mitte Februar · fertig bis 14.05.2027")}</td></tr>
@@ -442,7 +444,7 @@ page(L("Labels and packing", "Etiketten und Verpackung"), f"""
 <h2>{L("Labels, packing, compliance", "Etiketten, Verpackung, Vorschriften")}</h2>
 <table class="kv">
 <tr><th>{L("Inner label", "Innenetikett")}</th><td>{L("Printed label inside the back waistband, permanent and readable after wash. Same position on every pair.", "Bedrucktes Etikett innen am hinteren Bund, dauerhaft und nach der Wäsche lesbar. Bei jedem Paar an der gleichen Stelle.")}</td></tr>
-<tr><th>{L("Side 1", "Seite 1")}</th><td>NOVALIFE · NVL-TT-01 · {L("Size", "Größe")} W32 L32 · {L("No.", "Nr.")} 001/100<br>{L("Each pair has its own number 001–100. We send the number list per size before packing.", "Jedes Paar hat seine eigene Nummer 001–100. Die Nummernliste je Größe schicken wir vor dem Verpacken.")}</td></tr>
+<tr><th>{L("Side 1", "Seite 1")}</th><td>NOVALIFE · NVL-TT-01 · {L("Size", "Größe")} W34 L32 · {L("No.", "Nr.")} 001/100<br>{L("Each pair has its own number 001–100. We send the number list per size before packing.", "Jedes Paar hat seine eigene Nummer 001–100. Die Nummernliste je Größe schicken wir vor dem Verpacken.")}</td></tr>
 <tr><th>{L("Side 2", "Seite 2")}</th><td>100 % Baumwolle / 100 % Cotton<br>{L("Care symbols: wash 30 °C, do not bleach, do not tumble dry, iron medium (2 dots), do not dry clean", "Pflegesymbole: Wäsche 30 °C, nicht bleichen, nicht in den Trockner, mittlere Bügelstufe (2 Punkte), keine chemische Reinigung")}<br>„Vor dem ersten Tragen separat und auf links waschen. Indigo kann abfärben. Patch vor dem Waschen abnehmen. Goldfäden nicht abschneiden.“<br>Made in [{L("country", "Land")}]</td></tr>
 <tr><th>{L("Patch care", "Patch-Pflege")}</th><td>{L("On the hangtag: „Patch separat von Hand waschen, 30 °C, nicht auswringen, flach trocknen, erst trocken wieder anknöpfen.“ (Hand wash the patch separately at 30 °C, do not wring, dry flat, snap on only when dry.)", "Auf dem Hangtag: „Patch separat von Hand waschen, 30 °C, nicht auswringen, flach trocknen, erst trocken wieder anknöpfen.“")}</td></tr>
 <tr><th>{L("Manufacturer info", "Herstellerangaben")}</th><td>{L("Novalife · [postal address] · [e-mail]. We send the final text in January 2027 (EU General Product Safety Regulation). Style no. + serial number identify the product.", "Novalife · [Postanschrift] · [E-Mail]. Den endgültigen Text schicken wir im Januar 2027 (EU-Produktsicherheitsverordnung GPSR). Modellnummer und Seriennummer kennzeichnen das Produkt.")}</td></tr>

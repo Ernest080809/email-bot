@@ -63,21 +63,31 @@ Quelle: 15 Fragerunden mit Ernest am 23.10. Ersetzt für den Zipper Spec 3C.1 un
 
 ## Folgen für den Plan
 
-Noch nicht im Docket. Der Docket wird erst nach Ernests Ja umgestellt.
+Seit Docket v35 (Fr 23.10., nach Ernests Ja) eingearbeitet. Alte Aufgaben stehen als Notizen an ihrer Stelle, neue hängen am Ende ihres Tages.
 
 - **Entfällt für den Zipper:** Blank kaufen, Berliner Sticker, Digitizing am Do 29.10., die Wahl zwischen gestickter Front und Chenille am Di 01.12. und der Rest dieser Kette.
 - **Polo:** kommt erst nach dem Zipper-Tech-Pack und gehört nicht mehr zum Sample-Gate am 05.01.
 - **Vorbestellung ab 01.02.:** Shop, Texte und Kasse brauchen den Zipper, auch für die Anzahlung an die Fabrik. Vorschlag: eine eigene Schwelle für den Zipper, so wie die Jeans eine hat.
 - **Geld:** Der eigene Schnitt bindet grob 1.500–3.000 € (Schätzung). Finanziert wird das über die Vorbestellung.
 
-## Nächste Schritte
+## Nächste Schritte (Termine im Docket)
 
-1. Messbogen RL-Zipper (Artifact). Ernest misst am Sa/So 24./25.10.
-2. Claude zeichnet den Teppich in zwei Farbvarianten. Dazu kommen die Papiertest-Drucke: Teppich in 3 Größen, Muster E fein und doppelt, Stern auf der Rippe.
-3. Papiertest auf dem RL mit Fotos.
-4. Anfragen an die Jeansfabriken und an Portugal, nur als Entwurf. Nichts geht ohne Ja raus.
-5. Samtprobe A4.
-6. Tech Pack Zipper bis Mitte November.
+| Datum | Wer | Was |
+|---|---|---|
+| Sa 24.10. (oder So) | Ernest | RL-Zipper ausmessen im Messbogen, Fotos an Claude |
+| Mo 26.10. | Claude | Teppich in zwei Farbvarianten, Papiertest-Drucke, Sweat-Fabriken in Portugal, Druckereien für Baumwollsamt |
+| Di 27.10. | Ernest | Teppich-Variante wählen |
+| Mi 28.10. | Ernest | Papiertest auf dem RL: Teppich in 3 Größen, Muster E fein und doppelt, Stern auf der Rippe |
+| Fr 30.10. | Ernest | Zipper-Anfrage an die Jeansfabriken und nach Portugal prüfen und senden (Claude legt Entwürfe an) |
+| Mo 02.11. | Ernest | Samtprobe A4 bestellen |
+| Mo 09.11. | Ernest | Entscheidung: Zipper-Fabrik, Menge, Preis, Zipper-Schwelle |
+| Do 12.11. | beide | Tech Pack Zipper durchgehen |
+| Mo 16.11. | Ernest | Tech Pack an die Fabrik, Muster bestellen |
+| Di 17.11. | beide | Polo klären, Fragerunden wie beim Zipper |
+| Di 05.01. | Ernest | Sample-Gate: Jeans-PP und Zipper-Muster |
+| Di 19.01. / Di 26.01. | Ernest | Produktseite Zipper, Zipper in die Vorbestellung |
+| Mo 15.02. | Ernest | Gate Zipper-Schwelle: produzieren oder Geld zurück |
+| Mi 17.02. / Do 18.02. | Ernest | Zipper-Bestellung und Anzahlung, nur bei erreichter Schwelle |
 
 ## Offen
 

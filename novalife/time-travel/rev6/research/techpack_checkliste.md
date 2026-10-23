@@ -190,3 +190,9 @@ Noch offen:
 - Keine Wascheffekte an genähten Stellen (Ernest, 22.10.): kein Laser, Schliff oder Abrieb an Nähten, Ziernähten, Riegeln, Saum, Bund, Gürtelschlaufen, Schlitz und Taschenkanten. Aufhellungen enden mindestens 10 mm vor jeder Naht. Grundwäsche Enzym ohne Steine, auf links, Mittel gegen Rückanfärbung in jedem Bad. Bleiche für den Grau-Stich nur, wenn die Stickprobe zeigt, dass Rot, Weiß und Kupfer-Gold sauber bleiben. Die Grundwäsche färbt die ganze Hose gleichmäßig, auch die Nähte; ausgeschlossen sind nur lokale Effekte.
 - Dazu im Tech Pack: Ziernahtgarn Polyester/Polyester statt Polyester/Baumwolle (bleibt in der Wäsche farbecht), Naht- und Saumprobe in der Stickprobe (Schritt 5), Kettstichsaum darf nicht ropen (sonst entscheidet Ernest an der Probe zwischen Kettstich und Steppstich), neuer schwerer Fehler „Wascheffekte an Nähten, Saum oder Stickerei“.
 - Endkontrolle 22.10.: Stickfarben überall mit Dunkelgold (B2), Druckvorlage Seite 1 B2 ohne Weiß, Quote Pack B2-Farben korrigiert und Seitenüberlauf behoben.
+
+## Entscheidungen (Fr 23.10.2026)
+- Nummer aufgedruckt auf dem Innenetikett, zusammen mit Größe und Pflegetext (Fabrik druckt). Grund: Versand vermutlich direkt aus der Fabrik, also keine Nummer von Hand. Nummernliste je Größe geht mit der Bestellung (PO) an die Fabrik; Endkontrolle prüft Größe und Nummer gegen die Liste. Hangtag ohne Nummer.
+- Vorschlag Vergabe: Vorbestellungen bis zur PO am Mi 17.02. nach Bestelldatum ab 001, übrige Nummern über die Größen verteilt, spätere Bestellungen bekommen die niedrigste freie Nummer ihrer Größe.
+- Rot ist Knallrot (Signalrot, kein Dunkelrot oder Bordeaux), für alle Motive ein Garn.
+- Offen bis Do 29.10.: Versand direkt aus der Fabrik (Dropshipping) oder einmal nach Deutschland. Rat: einmal nach Deutschland, selbst packen oder Fulfillment-Dienstleister in Deutschland.

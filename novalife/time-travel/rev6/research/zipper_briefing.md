@@ -89,6 +89,26 @@ Seit Docket v35 (Fr 23.10., nach Ernests Ja) eingearbeitet. Alte Aufgaben stehen
 | Mo 15.02. | Ernest | Gate Zipper-Schwelle: produzieren oder Geld zurück |
 | Mi 17.02. / Do 18.02. | Ernest | Zipper-Bestellung und Anzahlung, nur bei erreichter Schwelle |
 
+## Designvorschlag v0.1 (Sa 24.10.)
+
+`pdf/NVL-TT-02_Zipper_Designvorschlag_v0.1.pdf`, 6 Seiten, gebaut mit `design/zipper/` (`teppich.py`, `flats.py`, `vorschlag.py`, `pdf.mjs`). Inhalt: Ansicht vorn in beiden Farben, Aufbau des Teppichs, Vergleich A/B mit Ausschnitt 1:1, Rücken mit Kapuze unten und oben, Details, Fragen.
+
+- **Fragen an Ernest:**
+  - Teppichfarbe A (Oma) oder B (ausgeblichen), bis Di 27.10. Claudes Rat: A.
+  - Passt die Zeichnung?
+  - Rückendruck mit rotem Grund wie an der Münztasche (gezeichnet) oder nur die Linien rot?
+  - Dürfen die Kordeln über dem Teppich hängen?
+- **Annahmen, bis Ernest widerspricht:**
+  - Teppich 24 × 15 cm, Oberkante 6 cm unter dem Zip-Anfang. Papiertest mit 20, 24 und 28 cm Breite.
+  - Stern-Anhänger etwa 25 mm.
+  - Druckfläche aus ganzen Zellen, eine Reihe Rot als Kante, eine Reihe frei zwischen E und Band A, Stern-Motiv von Band A in der Mitte.
+  - Stern C 20 cm links von der hinteren Mitte.
+- **Prüfpunkte fürs Tech Pack:**
+  - Versatz der Teppichhälften am Zip.
+  - Fransenborte mit gewebtem Rand und Testwäsche.
+  - Vlies hinter dem Samt.
+  - Kosten des Teppichs aus den Angeboten.
+
 ## Offen
 
 - Hangtag und Verpackung: Design nach dem Tech Pack.

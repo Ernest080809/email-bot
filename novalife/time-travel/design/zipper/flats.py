@@ -2,7 +2,7 @@
 # Zipper NVL-TT-02 · technische Ansichten für den Designvorschlag v0.1 (24.10.2026)
 # Maße vorläufig (Größe M, flach): Brust 60 cm, Länge 69 cm ab Halsansatz, Schultern 4 cm überschnitten.
 # Die echten Maße kommen aus dem Messbogen RL-Zipper. Einheiten: mm, x = 0 in der vorderen Mitte, y = 0 auf Höhe Halsansatz.
-import math, os, sys
+import math, os, random, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import fine as FN
 import teppich as TP
@@ -222,14 +222,41 @@ def _e_white(x, y):
     return False
 
 
-def print_cells(scale=2, invert=False, frame=True, cut_y=PRINT_BOTTOM):
+def _smooth(e0, e1, t):
+    t = min(1.0, max(0.0, (t - e0) / (e1 - e0)))
+    return t * t * (3 - 2 * t)
+
+
+def _keep_diamond(x, y, u, e_h, half_w, seed=11):
+    """Verlauf: Jede Raute des Gitters bleibt oder fällt als Ganzes. Unten am Band bleiben alle,
+    nach oben und zur Seite fallen immer mehr weg, bis das Muster ausläuft.
+    Links und rechts gespiegelt (Zufall pro Rautenpaar), damit es gewollt aussieht wie ein Ornament."""
+    a, b = (x + y) // 8, (x - y) // 8
+    xc, yc = 4 * a + 4 * b + 4, 4 * a - 4 * b
+    t = math.hypot(yc * u / e_h, 0.85 * abs(xc) * u / half_w)
+    return random.Random(f"{abs(xc)},{yc},{seed}").random() < 1 - _smooth(0.28, 0.98, t)
+
+
+# Wege für den Rückendruck (Ernest 24.10.: „sieht irgendwie mid aus“)
+MODES = {'flaeche': 'Fläche wie bisher', 'linien': 'Nur die Linien',
+         'verlauf': 'Verlauf nach oben', 'streifen': 'Querstreifen'}
+MODE_SCALE = {'flaeche': 2, 'linien': 2, 'verlauf': 1, 'streifen': 1}     # so gezeichnet, Papiertest entscheidet
+
+
+def print_cells(scale=2, mode='flaeche', cut_y=PRINT_BOTTOM):
     """Rote Zellen der Rückenfläche. Reihen j von unten: Band A, eine Reihe Luft, darüber Muster E.
-    invert: nur die Linien von E rot (Gegenvorschlag), sonst roter Grund wie an der Münztasche."""
+    flaeche: roter Grund wie an der Münztasche, eine Reihe Rot als Kante
+    linien:  nur Linien und Kreuze von E rot, eine Reihe Rot als Kante
+    verlauf: roter Grund, die Rauten lösen sich nach oben und zur Seite auf, keine Kante"""
+    if mode == 'streifen':
+        return stripe_cells(scale)
     u = FN.CELL * scale
     pg = print_outline(cut_y)
     BR = FN.BAND_ROWS
     top = min(p[1] for p in pg)
-    hc = int(max(abs(p[0]) for p in pg) / u) + 1
+    half_w = max(abs(p[0]) for p in pg)
+    e_h = cut_y - (BR + 1) * u - top
+    hc = int(half_w / u) + 1
     ncols, nrows = 2 * hc + 1, int((cut_y - top) / u) + 1
     bw = FN.band_white(ncols, start=(11 - hc) % FN.RAP)          # Stern-Motiv von Band A in der hinteren Mitte
     cell_in = {}
@@ -237,6 +264,12 @@ def print_cells(scale=2, invert=False, frame=True, cut_y=PRINT_BOTTOM):
         for c in range(ncols):
             cx, cy = (c - hc) * u, cut_y - (j + 0.5) * u
             cell_in[(j, c)] = _inside(cx, cy, pg)
+    def whole(x, y):                                          # Raute liegt ganz in der Fläche (unten darf das Band sie schneiden)
+        a, b = (x + y) // 8, (x - y) // 8
+        xc, yc = 4 * a + 4 * b + 4, 4 * a - 4 * b
+        ends = [(xc - 3, yc), (xc + 3, yc), (xc, yc + 3)] + ([(xc, yc - 3)] if yc >= 3 else [])
+        return all(cell_in.get((ey + BR + 1, ex + hc), False) for ex, ey in ends)
+
     red = set()
     for (j, c), ok in cell_in.items():
         if not ok:
@@ -247,14 +280,55 @@ def print_cells(scale=2, invert=False, frame=True, cut_y=PRINT_BOTTOM):
         elif j == BR:
             continue                                          # eine Reihe Luft
         else:
-            w = _e_white(c - hc, j - BR - 1)
-            if w == invert:
+            x, y = c - hc, j - BR - 1
+            w = _e_white(x, y)
+            if mode == 'linien':
+                if w:
+                    red.add((j, c))
+            elif not w and (mode == 'flaeche' or (whole(x, y) and _keep_diamond(x, y, u, e_h, half_w))):
                 red.add((j, c))
-    if frame:
+    if mode in ('flaeche', 'linien'):
         for (j, c), ok in cell_in.items():
             if ok and j > BR and any(not cell_in.get((j + dj, c + dc), False) for dj, dc in ((1, 0), (-1, 0), (0, 1), (0, -1))):
                 red.add((j, c))
     return red, u, hc, pg
+
+
+STRIPE_TOP = 52.0                      # Oberkante Querstreifen, unter dem Halsansatz über den Schulterblättern
+
+
+def stripe_cells(scale=1, top=STRIPE_TOP):
+    """Querstreifen: Band A oben und unten, dazwischen zwei Rautenreihen Muster E mit roter Kante.
+    Die Enden liegen in der Lücke zwischen zwei Motiven von Band A. Liegt ganz unter der liegenden Kapuze."""
+    u = FN.CELL * scale
+    BR, ER = FN.BAND_ROWS, 17
+    hc = 92 if scale == 1 else 44
+    ncols = 2 * hc + 1
+    nrows = 2 * BR + ER + 2
+    cut_y = top + nrows * u
+    bw = FN.band_white(ncols, start=(11 - hc) % FN.RAP)
+    red = set()
+    for j in range(nrows):
+        for c in range(ncols):
+            if j < BR:
+                band_r = BR - 1 - j
+            elif j >= BR + ER + 2:
+                band_r = BR - 1 - (j - BR - ER - 2)
+            else:
+                band_r = None
+            if band_r is not None:
+                if (band_r, c) not in bw:
+                    red.add((j, c))
+            elif j in (BR, BR + ER + 1):
+                continue
+            else:
+                y = j - BR - 1
+                edge = y in (0, ER - 1) or c in (0, ncols - 1)
+                if edge or not _e_white(c - hc, y):
+                    red.add((j, c))
+    pg = print_outline()
+    assert all(_inside((c - hc) * u, cut_y - (j + 0.5) * u, pg) for j, c in red), 'Querstreifen ragt unter der Kapuze hervor'
+    return red, u, hc, pg, cut_y
 
 
 def runs_path(cells, u, hc, cut_y=PRINT_BOTTOM):
@@ -274,9 +348,11 @@ def runs_path(cells, u, hc, cut_y=PRINT_BOTTOM):
     return "".join(d)
 
 
-def hood_print(scale=2, invert=False, frame=True):
-    red, u, hc, _ = print_cells(scale, invert, frame)
-    return f'<path d="{runs_path(red, u, hc)}" style="fill:{RED}"/>'
+def hood_print(scale=2, mode='flaeche'):
+    res = print_cells(scale, mode)
+    red, u, hc = res[:3]
+    cut_y = res[4] if len(res) > 4 else PRINT_BOTTOM
+    return f'<path d="{runs_path(red, u, hc, cut_y)}" style="fill:{RED}"/>'
 
 
 def print_outline_d():
@@ -297,10 +373,10 @@ def front_view(variant, uid, carpet_scale=1.0, carpet=True):
             f'{rug}{zipper_front()}{cords()}</g>')
 
 
-def back_view(hood='down', scale=2, invert=False, hidden=False):
+def back_view(hood='down', scale=2, mode='flaeche', hidden=False):
     parts = [sleeve(-1), sleeve(1), body(False)]
     if hood == 'up':
-        parts.append(hood_print(scale, invert))
+        parts.append(hood_print(scale, mode))
         parts.append(f'<path d="M{-NX} 0Q0 16 {NX} 0" style="fill:none;stroke:{LINE};stroke-width:1.2"/>')
         parts.append(hood_up(False))
     else:
@@ -323,9 +399,9 @@ def svg(inner, vb=VB_FULL, w_px=900):
 
 if __name__ == '__main__':
     out = sys.argv[1] if len(sys.argv) > 1 else '.'
-    files = {'vorn_oma': svg(front_view('oma', 'fo')), 'vorn_blass': svg(front_view('blass', 'fb')),
-             'hinten_unten': svg(back_view('down', hidden=True), VB_DOWN),
-             'hinten_oben': svg(back_view('up', 2)), 'hinten_oben_fein': svg(back_view('up', 1))}
+    files = {'vorn_oma': svg(front_view('oma', 'fo')), 'hinten_unten': svg(back_view('down', hidden=True), VB_DOWN)}
+    for m, sc in MODE_SCALE.items():
+        files['hinten_oben_' + m] = svg(back_view('up', sc, m))
     for k, v in files.items():
         open(os.path.join(out, k + '.svg'), 'w').write(v)
     pg = print_outline()

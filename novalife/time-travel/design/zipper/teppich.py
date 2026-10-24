@@ -4,12 +4,15 @@
 #   ovales Medaillon dunkelblau, rotes Feld mit kleinen Blüten und Ranken, Viertelmedaillons in den Ecken,
 #   eine breite Bordüre mit Blütenranke und zwei schmale, keine Novalife-Zeichen.
 #   Bedruckter Baumwollsamt, Kante oben und unten dunkelrot umstickt, cremefarbene Fransen links und rechts.
-# Einheiten: mm. Nullpunkt oben links am Samt, W × H = 240 × 150 (Papiertest legt die Größe fest).
+# Einheiten: mm. Nullpunkt oben links am Samt.
+# v0.2 (24.10.): Ernest wählt A und will den Teppich etwas höher und minimal breiter: 250 × 175 statt 240 × 150.
+# Medaillon und Viertelmedaillons wachsen mit MED_K, das Feldmuster behält seine Dichte. Endgröße: Papiertest.
 import math
 
 F = lambda v: f"{v:.2f}".rstrip('0').rstrip('.')
-W, H = 240.0, 150.0
+W, H = 250.0, 175.0
 CX, CY = W / 2, H / 2
+MED_K = 1.12
 
 PAL = {
     'oma':   dict(field='#8c1d22', abrash='#7f171c', red2='#bd3a32', navy='#1c2748', navy2='#45639a', cream='#e9dab9',
@@ -25,6 +28,16 @@ FRAME = 3.0                      # Rand oben und unten unter der gestickten Kant
 G_OUT, LINE, MAIN, G_IN = 4.0, 0.6, 15.0, 4.0
 INSET = FRAME + G_OUT + LINE + MAIN + LINE + G_IN          # 27,2
 FX0, FY0, FX1, FY1 = INSET, INSET, W - INSET, H - INSET     # Feld
+
+
+def set_size(w, h, k=None):
+    """Teppichmaß umstellen, z. B. für den Vergleich mit dem alten Maß 240 × 150 (k = 1.0)"""
+    global W, H, CX, CY, FX1, FY1, MED_K
+    W, H = float(w), float(h)
+    CX, CY = W / 2, H / 2
+    FX1, FY1 = W - INSET, H - INSET
+    if k is not None:
+        MED_K = k
 
 
 def P(pts):
@@ -179,6 +192,7 @@ def corners(c):
     out = []
     rx, ry = 40.0, 27.0
     for (x, y) in ((FX0, FY0), (FX1, FY0), (FX0, FY1), (FX1, FY1)):
+        out.append(f'<g transform="translate({F(x)} {F(y)}) scale({MED_K}) translate({F(-x)} {F(-y)})">')
         out.append(f'<path d="{scallop(x, y, rx + 2.0, ry + 1.8, 32, 0.10)}" style="fill:{c["cream"]};stroke:{c["dark"]};stroke-width:0.35"/>')
         out.append(f'<path d="{scallop(x, y, rx, ry, 32, 0.10)}" style="fill:{c["navy"]};stroke:{c["dark"]};stroke-width:0.3"/>')
         out.append(f'<ellipse cx="{F(x)}" cy="{F(y)}" rx="{F(rx-6)}" ry="{F(ry-5)}" style="fill:none;stroke:{c["cream"]};stroke-width:2.2"/>')
@@ -200,6 +214,7 @@ def corners(c):
         out.append(palmette(x + sx * 12, y + sy * 8, 7.0, math.atan2(sy, sx * 1.4), c['red2'], c['gold'], c['dark']))
         out.append(leaf(x + sx * 4, y + sy * 15, 6, math.atan2(0.2 * sy, sx), 1.3, c['green'], c['dark']))
         out.append(leaf(x + sx * 20, y + sy * 3, 6, math.atan2(sy, 0.3 * sx), 1.3, c['green'], c['dark']))
+        out.append('</g>')
     return "".join(out)
 
 
@@ -274,9 +289,9 @@ def carpet(variant='oma', uid='a', texture=True):
     out.append(f'<rect x="0" y="0" width="{F(W)}" height="{F(H)}" style="fill:{c["field"]}"/>')
     # Abrasch: ganz leichte Farbstreifen im Feld, wie Wolle aus verschiedenen Färbungen
     for k, (y, h) in enumerate(((38, 9), (66, 5), (97, 11))):
-        out.append(f'<rect x="{F(FX0)}" y="{F(y)}" width="{F(FX1-FX0)}" height="{F(h)}" style="fill:{c["abrash"]};opacity:0.45"/>')
+        out.append(f'<rect x="{F(FX0)}" y="{F(y * H / 150)}" width="{F(FX1-FX0)}" height="{F(h * H / 150)}" style="fill:{c["abrash"]};opacity:0.45"/>')
     out.append(f'<g clip-path="url(#{clip})">{field_pattern(c)}{corners(c)}</g>')
-    out.append(medallion(c))
+    out.append(f'<g transform="translate({F(CX)} {F(CY)}) scale({MED_K}) translate({F(-CX)} {F(-CY)})">{medallion(c)}</g>')
     # Bordüren
     x0, y0, x1, y1 = KILIM, FRAME, W - KILIM, H - FRAME
     out.append(f'<rect x="{F(x0)}" y="{F(y0)}" width="{F(x1-x0)}" height="{F(y1-y0)}" style="fill:none;stroke:{c["dark"]};stroke-width:0.5"/>')

@@ -36,12 +36,12 @@ Quelle: 15 Fragerunden mit Ernest am 23.10. Ersetzt für den Zipper Spec 3C.1 un
   - Viertelmedaillons in den Ecken.
   - Eine breite Bordüre mit Blütenranke und zwei schmale Bordüren.
   - Keine Novalife-Zeichen im Teppich.
-- **Farben:** zwei Varianten zum Vergleich, „wie bei Oma“ und „ausgeblichen“. Grundton leicht gedeckt, keine gedruckten Löcher.
+- **Farben:** zwei Varianten zum Vergleich, „wie bei Oma“ und „ausgeblichen“. Grundton leicht gedeckt, keine gedruckten Löcher. **Entschieden am 24.10.: A „wie bei Oma“.**
 - **Material:** bedruckter Baumwollsamt, matt. Nach der Zeichnung bestellen wir eine Probe in A4.
 - **Teilung:** Der Reißverschluss teilt den Teppich. Die Innenkanten laufen direkt in die Zip-Naht. Deshalb wird der Teppich aufgenäht, bevor der Reißverschluss eingesetzt wird.
 - **Kante:** oben und unten gestickt, in Dunkelrot.
 - **Fransen:** links und rechts, also außen Richtung Ärmel. Creme, 3–4 cm lang, in Bündeln geknotet.
-- **Größe und Höhe:** entscheidet der Papiertest auf dem RL-Zipper.
+- **Größe und Höhe:** entscheidet der Papiertest auf dem RL-Zipper. Seit 24.10. ist der Mittelwert 25 × 17,5 cm, weil Ernest den Teppich etwas höher und minimal breiter will als 24 × 15. Papiertest mit 21, 25 und 29 cm Breite, die Höhe im selben Verhältnis.
 - **Wer ihn macht:** zuerst die Fabrik fragen, ob ihre Druckerei den Samt druckt und ob sie ihn aufnäht. Kann sie es nicht, liefern wir die gedruckten Teile.
 
 ## Rücken
@@ -51,6 +51,7 @@ Quelle: 15 Fragerunden mit Ernest am 23.10. Ersetzt für den Zipper Spec 3C.1 un
   - Nur Knallrot, der Stoff ist das Weiß.
   - Siebdruck, wasserbasiert, auf das Zuschnittteil vor dem Nähen.
   - Mustergröße: Papiertest, fein wie an der Jeans oder doppelt so groß.
+- **Stand 24.10.:** Ernest findet die Fläche „irgendwie mid“. Designvorschlag v0.2 zeigt vier Wege: 1 Fläche wie bisher, 2 nur die Linien, 3 Verlauf nach oben, 4 Querstreifen. Claudes Rat: 3 oder 4. Die Wahl ist offen. Wählt Ernest bis Mo 26.10. nichts, druckt Claude 3 und 4 für den Papiertest.
 - **Achtstern unten links:** wie C an der Jeans (36 mm, Knallrot, Plattstich, dieselbe Stickdatei). Er sitzt **auf der Saumrippe**, wie in der Skizze. Die Rippe wird dafür vor dem Nähen bestickt, so verschwindet die Rückseite in der Faltung. Am Muster prüfen wir, ob sich der Stern verzieht.
 
 ## Zubehör und Etiketten
@@ -109,8 +110,26 @@ Seit Docket v35 (Fr 23.10., nach Ernests Ja) eingearbeitet. Alte Aufgaben stehen
   - Vlies hinter dem Samt.
   - Kosten des Teppichs aus den Angeboten.
 
+## Designvorschlag v0.2 (Sa 24.10.)
+
+`pdf/NVL-TT-02_Zipper_Designvorschlag_v0.2.pdf`, 6 Seiten.
+
+- **Entschieden:**
+  - Teppich A „wie bei Oma“. Der Docket-Haken bei „Teppich-Variante wählen“ (Di 27.10.) ist mit Ernests Ja gesetzt.
+  - Neues Maß 25 × 17,5 cm. Medaillon und Viertelmedaillons wachsen um den Faktor 1,12 mit, das Feldmuster bleibt gleich fein.
+- **Vier Wege für den Rückendruck:**
+  - **1 Fläche wie bisher.**
+  - **2 Nur die Linien:** nur die Linien rot.
+  - **3 Verlauf nach oben:** Rauten fallen nach oben als Ganzes weg, links und rechts gespiegelt, gezeichnet fein.
+  - **4 Querstreifen:** Band A oben und unten, zwei Rautenreihen dazwischen, 25 × 7 cm ab 5 cm unter dem Halsansatz, gezeichnet fein.
+  - Alle vier bleiben in der Fläche „Kapuzenform 2 cm kleiner“.
+- **Offen:**
+  - Welcher Weg?
+  - Dürfen die Kordeln über dem Teppich hängen?
+
 ## Offen
 
+- Rückendruck: Weg 1 bis 4 (v0.2).
 - Hangtag und Verpackung: Design nach dem Tech Pack.
 - Preis und Vorbestell-Schwelle für den Zipper: nach den Angeboten.
 - Rippenhöhe, Taschenart und alle Maße: aus dem Messbogen.

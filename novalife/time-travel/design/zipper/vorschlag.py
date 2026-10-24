@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
-# Zipper NVL-TT-02 · Designvorschlag v0.1 als HTML für das PDF (A4 quer), Sa 24.10.2026
-# Aufruf: python3 vorschlag.py <ausgabeordner>  → zipper_vorschlag_v01.html, danach node pdf.mjs
+# Zipper NVL-TT-02 · Designvorschlag als HTML für das PDF (A4 quer)
+# v0.1 Sa 24.10.2026: zwei Farben, Rückendruck als Fläche
+# v0.2 Sa 24.10.2026: Ernest wählt A, Teppich 25 × 17,5 cm, Rückendruck in vier Wegen („sieht irgendwie mid aus“)
+# Aufruf: python3 vorschlag.py <ausgabeordner>  → zipper_vorschlag_v02.html, danach node pdf.mjs <ausgabeordner> 0.2
 import os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -10,7 +12,7 @@ import teppich as TP
 F = TP.F
 INK, SUB, RULE = '#2b2420', '#6b5f55', '#d8cfc3'
 FONT = 'font-family:Helvetica,Arial,sans-serif'
-VERSION, DATE, TOTAL = 'v0.1', 'Sa 24.10.2026', 6
+VERSION, DATE, TOTAL = 'v0.2', 'Sa 24.10.2026', 6
 _n = [0]
 
 
@@ -48,33 +50,40 @@ def carpet_full(variant, with_fringes=True, with_zip=True):
             + (TP.zip_strip(stitch=c['edge']) if with_zip else ''))
 
 
-# ---------------------------------------------------------------- 1 · Vorn
+def crop(vb, w, inner):
+    return svg_mm(w, vb, f'<rect x="{F(vb[0])}" y="{F(vb[1])}" width="{F(vb[2])}" height="{F(vb[3])}" style="fill:#ffffff"/>{inner}')
+
+
+# ---------------------------------------------------------------- 1 · Vorn, vorher und neu
 def p1():
-    figs = []
-    for v, lab, txt in (('oma', 'A · Wie bei Oma', 'Satte Farben, wie der Teppich noch an der Wand hängt.'),
-                        ('blass', 'B · Ausgeblichen', 'Dieselbe Zeichnung, nach 30 Jahren Sonne.')):
-        figs.append(f'<figure>{svg_mm(120, FL.VB_FULL, FL.front_view(v, uid("f")))}'
-                    f'<figcaption><b>{lab}</b> {txt}</figcaption></figure>')
-    facts = ('Naturweiß · French Terry 380–450 g/m², innen Schlaufen · Teppich 24 × 15 cm aus bedrucktem Baumwollsamt · '
+    W0, H0, K0 = TP.W, TP.H, TP.MED_K
+    TP.set_size(240, 150, 1.0)
+    old = FL.front_view('oma', uid('f'))
+    TP.set_size(W0, H0, K0)
+    new = FL.front_view('oma', uid('f'))
+    figs = [(old, 'Vorher · 24 × 15 cm', 'So war es in v0.1.'),
+            (new, 'Neu · 25 × 17,5 cm', '1 cm breiter, 2,5 cm höher. Medaillon und Ecken wachsen mit, das Feldmuster bleibt gleich fein.')]
+    cells = "".join(f'<figure>{svg_mm(120, FL.VB_FULL, g)}<figcaption><b>{lab}</b> {txt}</figcaption></figure>' for g, lab, txt in figs)
+    facts = ('Naturweiß · French Terry 380–450 g/m², innen Schlaufen · Teppich A „Wie bei Oma“, 25 × 17,5 cm, bedruckter Baumwollsamt · '
              'Fransen creme · Reißverschluss Metall antik mit Kinnschutz · Anhänger Achtstern Antik-Kupfer · außen kein Name')
-    return page(1, 'Vorn: derselbe Teppich in zwei Farbstimmungen',
-                f'<div class="pair">{"".join(figs)}</div><p class="facts">{facts}</p>')
+    return page(1, 'Vorn: Teppich A, jetzt etwas höher und breiter', f'<div class="pair">{cells}</div><p class="facts">{facts}</p>')
 
 
 # ---------------------------------------------------------------- 2 · Teppich, Aufbau
 def p2():
-    s, x0, y0 = 0.62, (273 - 0.62 * TP.W) / 2, 15.0
+    s = 0.6
+    x0, y0 = (273 - s * TP.W) / 2, 15.0
     X = lambda x: x0 + s * x
     Y = lambda y: y0 + s * y
     g = [f'<g transform="translate({F(x0)} {F(y0)}) scale({s})">{carpet_full("oma")}</g>']
     mb = TP.FRAME + TP.G_OUT + TP.LINE + TP.MAIN / 2               # Mitte der breiten Bordüre
     left = [((36, 20), ['Kante oben und unten,', 'dunkelrot gestickt'], (12, -0.5)),
-            ((36, 52), ['Fransen creme, 3–4 cm,', 'in Bündeln geknotet'], (-22, 72)),
-            ((36, 88), ['Viertelmedaillon', 'in jeder Ecke'], (TP.FX0 + 9, TP.FY1 - 7))]
-    right = [((237, 20), ['Breite Bordüre', 'mit Blütenranke'], (TP.W - mb, 34)),
-             ((237, 44), ['Feld rot mit kleinen', 'Blüten und Ranken'], (195, 62)),
-             ((237, 66), ['Medaillon persisch oval,', 'dunkelblau'], (TP.CX + 40, TP.CY)),
-             ((237, 90), ['Zwei schmale Bordüren,', 'außen und innen'], (TP.W - TP.KILIM - TP.G_OUT / 2, 118))]
+            ((36, 58), ['Fransen creme, 3–4 cm,', 'in Bündeln geknotet'], (-22, 85)),
+            ((36, 100), ['Viertelmedaillon', 'in jeder Ecke'], (TP.FX0 + 9, TP.FY1 - 7))]
+    right = [((237, 20), ['Breite Bordüre', 'mit Blütenranke'], (TP.W - mb, 40)),
+             ((237, 46), ['Feld rot mit kleinen', 'Blüten und Ranken'], (205, 70)),
+             ((237, 73), ['Medaillon persisch oval,', 'dunkelblau'], (TP.CX + 42, TP.CY)),
+             ((237, 102), ['Zwei schmale Bordüren,', 'außen und innen'], (TP.W - TP.KILIM - TP.G_OUT / 2, 140))]
     for (lx, ly), lines, (px, py) in left:
         g.append(text(lx, ly, lines, 3.0, 'end'))
         g.append(leader(lx + 1.5, ly - 1.0, X(px), Y(py)))
@@ -83,47 +92,42 @@ def p2():
         g.append(leader(lx - 1.5, ly - 1.0, X(px), Y(py)))
     g.append(text(X(TP.CX) + 4, 6.5, ['Der Reißverschluss teilt den Teppich. Die Innenkanten laufen direkt in die Zip-Naht.'], 3.0))
     g.append(leader(X(TP.CX) + 3, 5.5, X(TP.CX), Y(-4)))
-    # Maße
     yb = Y(TP.H) + 8
     g.append(f'<path d="M{F(X(0))} {F(yb)}H{F(X(TP.W))}M{F(X(0))} {F(yb-2)}v4M{F(X(TP.W))} {F(yb-2)}v4" style="stroke:{SUB};stroke-width:0.3"/>')
-    g.append(text(X(TP.CX), yb + 4.8, ['24 cm breit · 15 cm hoch'], 3.2, 'middle', SUB))
+    g.append(text(X(TP.CX), yb + 4.8, ['25 cm breit · 17,5 cm hoch'], 3.2, 'middle', SUB))
     notes = ('<div class="cols3">'
-             '<p><b>Material.</b> Bedruckter Baumwollsamt, matt. Nach deiner Farbwahl bestellen wir eine Probe in A4. '
+             '<p><b>Material.</b> Bedruckter Baumwollsamt, matt. Die Probe in A4 bestellen wir in Variante A. '
              'Der Teppich wird aufgenäht, bevor der Reißverschluss eingesetzt wird.</p>'
              '<p><b>Herkunft.</b> Die Zeichnung ist neu. Museumsteppiche dienen nur als Stimmung, übernommen ist nichts. '
              'Im Teppich stehen keine Novalife-Zeichen.</p>'
-             '<p><b>Größe.</b> 24 × 15 cm ist der Mittelwert. Beim Papiertest am Mi 28.10. legst du 20, 24 und 28 cm Breite '
-             'auf deinen RL, dann entscheiden wir.</p></div>')
-    return page(2, 'Der Teppich: so ist er aufgebaut', svg_mm(273, (0, 0, 273, 128), "".join(g)) + notes)
+             '<p><b>Größe.</b> 25 × 17,5 cm ist jetzt der Mittelwert. Beim Papiertest am Mi 28.10. legst du 21, 25 und 29 cm Breite '
+             'auf deinen RL, die Höhe wächst im selben Verhältnis mit.</p></div>')
+    return page(2, 'Der Teppich: so ist er aufgebaut', svg_mm(273, (0, 0, 273, 138), "".join(g)) + notes)
 
 
-# ---------------------------------------------------------------- 3 · Oma oder ausgeblichen
+# ---------------------------------------------------------------- 3 · Rückendruck, vier Wege
+WAYS = [('flaeche', '1 · Fläche wie bisher', 'Muster E als rote Fläche, unten Band A. Kräftig, aber ein Klecks ohne Blickfang.'),
+        ('linien', '2 · Nur die Linien', 'Nur Linien und Kreuze rot. Leichter, fast wie Spitze. Die Kapuzenform bleibt als Umriss.'),
+        ('verlauf', '3 · Verlauf nach oben', 'Unten dicht, nach oben lösen sich die Rauten auf, links und rechts gespiegelt. Kein harter Rand.'),
+        ('streifen', '4 · Querstreifen', 'Band A oben und unten, dazwischen zwei Rautenreihen. 25 × 7 cm über den Schulterblättern.')]
+
+
 def p3():
-    small, crops = [], []
-    pad = 40.0
-    for v, lab in (('oma', 'A · Wie bei Oma'), ('blass', 'B · Ausgeblichen')):
-        vb = (-pad, -8, TP.W + 2 * pad, TP.H + 16)
-        small.append(f'<figure><figcaption><b>{lab}</b></figcaption>{svg_mm(126, vb, carpet_full(v))}</figure>')
-        cvb = (-24, -4, 120, 64)                                    # oben links, 1:1
-        crops.append(f'<figure>{svg_mm(120, cvb, carpet_full(v), 64)}</figure>')
-    body = (f'<div class="pair tight">{"".join(small)}</div>'
-            f'<p class="lbl">Ausschnitt oben links in Originalgröße (bei 24 × 15 cm und Druck in 100 %)</p>'
-            f'<div class="pair tight">{"".join(crops)}</div>'
-            '<p class="rec"><b>Mein Rat: A.</b> Auf Naturweiß und im Video wirkt der kräftige Teppich. B ist leiser und sehr vintage, '
-            'kann auf Creme aber flau aussehen. Endgültig zeigt es die Samtprobe. <b>Deine Wahl bis Di 27.10.</b></p>')
-    return page(3, 'Oma oder ausgeblichen?', body)
+    vb_view, vb_close = (-340, -356, 680, 700), (-190, -10, 380, 300)
+    cols = []
+    for m, lab, txt in WAYS:
+        sc = FL.MODE_SCALE[m]
+        g = FL.back_view('up', sc, m)
+        cols.append(f'<figure class="opt">{crop(vb_view, 64, g)}{crop(vb_close, 64, g)}'
+                    f'<figcaption><b>{lab}</b><br>{txt} <span class="sub">Gezeichnet {"doppelt" if sc == 2 else "fein"}.</span></figcaption></figure>')
+    rec = ('<p class="rec"><b>Mein Rat: 3 oder 4, und 1 streichen.</b> 3 ist das Statement: Das Muster löst sich auf wie eine alte Erinnerung, '
+           'das passt zu Time Travel, und der Moment, wenn die Kapuze hochgeht, ist ein Video. 4 ist die ruhige, edle Wahl und fühlt sich '
+           'am weichsten an, weil am wenigsten Farbe drauf ist. 2 ist nur eine leichtere 1. Alle vier: nur Knallrot, Siebdruck, '
+           'versteckt unter der liegenden Kapuze.</p>')
+    return page(3, 'Rückendruck: vier Wege, du wählst', f'<div class="opts">{"".join(cols)}</div>{rec}')
 
 
-# ---------------------------------------------------------------- 4 · Rücken
-def swatch(scale, invert, w=60.0, h=27.0):
-    u = TP_CELL * scale
-    band_top = FL.PRINT_BOTTOM - FL.FN.BAND_ROWS * u
-    vb = (-w / 2, band_top - h * 0.62, w, h)
-    inner = (f'<rect x="{F(vb[0])}" y="{F(vb[1])}" width="{F(w)}" height="{F(h)}" style="fill:{FL.GARMENT}"/>'
-             + FL.hood_print(scale, invert))
-    return svg_mm(w, vb, inner, h)
-
-
+# ---------------------------------------------------------------- 4 · Rücken, Kapuze liegt
 def rib_star(w=60.0, h=50.0):
     cx, cy = 0.0, h / 2
     ribs = "".join(f"M{F(x)} 0V{F(h)}" for x in [-w / 2 + 0.9 + i * 1.8 for i in range(int(w / 1.8))])
@@ -134,35 +138,20 @@ def rib_star(w=60.0, h=50.0):
     return svg_mm(w, (-w / 2, 0, w, h), inner, h)
 
 
-TP_CELL = FL.FN.CELL
-
-
 def p4():
-    v_down = svg_mm(99, FL.VB_DOWN, FL.back_view('down', hidden=True))
-    v_up = svg_mm(99, FL.VB_FULL, FL.back_view('up', 2))
-    side = ('<div class="side">'
-            f'<p class="lbl">Muster fein, wie an der Jeans (1:1)</p>{swatch(1, False)}'
-            f'<p class="lbl">Muster doppelt, so gezeichnet (1:1)</p>{swatch(2, False)}'
-            f'<p class="lbl">Gegenvorschlag: nur die Linien rot (1:1)</p>{swatch(2, True)}'
-            f'<p class="lbl">Stern C auf der Saumrippe, 36 mm (1:1)</p>{rib_star()}</div>')
-    views = (f'<div class="views"><figure><figcaption><b>Kapuze liegt</b></figcaption>{v_down}'
-             '<p class="small">Man sieht nur den Stern. Die rote Strichlinie zeigt, wo darunter gedruckt ist: '
-             'Kapuzenform, rundum 2 cm kleiner als die liegende Kapuze.</p></figure>'
-             f'<figure><figcaption><b>Kapuze oben</b></figcaption>{v_up}</figure></div>')
-    notes = ('<div class="cols2">'
-             '<p><b>Druck.</b> Muster E von der Münztasche als Fläche, unten gerade abgeschlossen mit Band A. Nur Knallrot, '
-             'der Stoff ist das Weiß. Siebdruck wasserbasiert, auf das Zuschnittteil vor dem Nähen. Der Rotton wird aufs Stickgarn abgestimmt.</p>'
-             '<p><b>Stern.</b> Wie C an der Jeans: 36 mm, Knallrot, Plattstich, dieselbe Stickdatei. Er wird auf die Rippe gestickt, '
-             'bevor sie angenäht wird. Die Mustergröße für den Druck entscheidet der Papiertest.</p></div>')
-    return page(4, 'Rücken: der Stern immer, das Muster nur mit Kapuze oben',
-                f'<div class="back">{views}{side}</div>{notes}')
+    v_down = svg_mm(140, FL.VB_DOWN, FL.back_view('down', hidden=True))
+    side = ('<div class="side4">'
+            f'<p class="lbl">Stern C auf der Saumrippe, 36 mm (1:1)</p>{rib_star()}'
+            '<p><b>Kapuze liegt.</b> Man sieht nur den Stern. Die rote Strichlinie zeigt die größte Fläche, die bedruckt werden darf: '
+            'Kapuzenform, rundum 2 cm kleiner als die liegende Kapuze. Alle vier Wege bleiben darin.</p>'
+            '<p><b>Druck.</b> Siebdruck wasserbasiert, nur Knallrot, auf das Zuschnittteil vor dem Nähen. Der Stoff ist das Weiß. '
+            'Der Rotton wird aufs Stickgarn abgestimmt.</p>'
+            '<p><b>Stern.</b> Wie C an der Jeans: 36 mm, Knallrot, Plattstich, dieselbe Stickdatei. Er wird auf die Rippe gestickt, '
+            'bevor sie angenäht wird. Am Muster prüfen wir, ob er sich verzieht.</p></div>')
+    return page(4, 'Rücken: Kapuze liegt, der Stern bleibt sichtbar', f'<div class="back4">{v_down}{side}</div>')
 
 
 # ---------------------------------------------------------------- 5 · Details
-def crop(vb, w, inner):
-    return svg_mm(w, vb, f'<rect x="{F(vb[0])}" y="{F(vb[1])}" width="{F(vb[2])}" height="{F(vb[3])}" style="fill:#ffffff"/>{inner}')
-
-
 def labels_svg():
     tl = (f'<rect x="2" y="4" width="46" height="18" rx="1" style="fill:#f6f1e7;stroke:{FL.LINE};stroke-width:0.4"/>'
           f'<path d="M2 6.5H48M2 19.5H48" style="stroke:{FL.LINE};stroke-width:0.25;stroke-dasharray:1 0.8"/>'
@@ -205,18 +194,18 @@ def p5():
 def p6():
     q = ('<div class="qa"><div>'
          '<h2>Fragen an dich</h2><ol>'
-         '<li><b>Teppichfarbe: A oder B?</b> Bis Di 27.10. Mein Rat: A, siehe Seite 3. Wählst du früher, drucke ich den Papiertest '
-         'gleich in dieser Farbe.</li>'
-         '<li><b>Die Zeichnung.</b> Passen Medaillon, Feld, Ecken und Bordüren so? Was soll mehr nach dem Teppich bei deiner Oma aussehen?</li>'
-         '<li><b>Rückendruck.</b> Roter Grund wie an der Münztasche (gezeichnet) oder nur die Linien rot? Mein Rat: wie gezeichnet. '
-         'Dann ist es dasselbe Muster wie an der Jeans.</li>'
+         '<li><b>Rückendruck: Welcher Weg, 1 bis 4?</b> Siehe Seite 3. Mein Rat: 3 oder 4. Du kannst auch zwei nehmen, '
+         'dann liegen beide beim Papiertest nebeneinander.</li>'
          '<li><b>Kordeln vor dem Teppich.</b> Sie hängen über den Teppich, so wie beim RL. Ist das okay, oder willst du kürzere Kordeln?</li>'
          '</ol>'
+         '<h2>Entschieden am 24.10.</h2><ul>'
+         '<li>Teppich in Variante A „Wie bei Oma“.</li>'
+         '<li>Teppich etwas höher und minimal breiter: 25 × 17,5 cm statt 24 × 15 cm.</li>'
+         '</ul>'
          '<h2>Annahmen</h2><p class="small">Habe ich so gezeichnet. Sag Bescheid, wenn du es anders willst.</p><ul>'
-         '<li>Teppich 24 × 15 cm, Oberkante 6 cm unter dem Zip-Anfang. Für den Papiertest: 20, 24 und 28 cm breit.</li>'
+         '<li>Oberkante Teppich 6 cm unter dem Zip-Anfang. Papiertest: 21, 25 und 29 cm breit, Höhe im selben Verhältnis.</li>'
+         '<li>Medaillon und Viertelmedaillons wachsen mit dem Teppich, das Feldmuster bleibt gleich fein.</li>'
          '<li>Stern-Anhänger etwa 25 mm, an einem Ring am Schieber.</li>'
-         '<li>Druckfläche: eine Reihe Rot als saubere Kante, eine Reihe frei zwischen Muster E und Band A, '
-         'das Stern-Motiv von Band A in der Mitte.</li>'
          '<li>Stern C sitzt 20 cm links von der hinteren Mitte, mittig auf der Rippe.</li>'
          '</ul></div><div>'
          '<h2>Worauf ich beim Tech Pack achte</h2><ul>'
@@ -229,8 +218,8 @@ def p6():
          '</ul>'
          '<h2>Nächste Schritte</h2><table>'
          '<tr><td>Sa/So 24./25.10.</td><td>du</td><td>RL-Zipper ausmessen (Messbogen), Fotos schicken</td></tr>'
-         '<tr><td>Mo 26.10.</td><td>ich</td><td>Papiertest-Drucke, Sweat-Fabriken in Portugal, Druckereien für Baumwollsamt</td></tr>'
-         '<tr><td>Di 27.10.</td><td>du</td><td>Teppichfarbe wählen, Fragen beantworten</td></tr>'
+         '<tr><td>Mo 26.10.</td><td>ich</td><td>Papiertest-Drucke: Teppich A in 3 Größen, dein Rückendruck fein und doppelt, Stern auf der Rippe. '
+         'Wählst du bis dahin nichts, drucke ich 3 und 4. Dazu Sweat-Fabriken in Portugal und Druckereien für Baumwollsamt.</td></tr>'
          '<tr><td>Mi 28.10.</td><td>du</td><td>Papiertest auf deinem RL</td></tr>'
          '</table></div></div>')
     return page(6, 'Fragen, Annahmen und nächste Schritte', q)
@@ -246,17 +235,17 @@ h2{{font-size:10.5pt;margin:0 0 1.6mm;font-weight:700}}
 footer{{position:absolute;left:12mm;right:12mm;bottom:5mm;display:flex;justify-content:space-between;font-size:6.5pt;color:{SUB};border-top:.3mm solid {RULE};padding-top:1.4mm}}
 figure{{margin:0}} svg{{display:block}}
 figcaption{{font-size:9pt;line-height:1.35;margin:1.2mm 0}}
+.sub{{color:{SUB}}}
 .pair{{display:flex;justify-content:space-between;gap:8mm}} .pair figure{{flex:1;display:flex;flex-direction:column;align-items:center}}
-.pair.tight{{gap:6mm}}
 .facts{{font-size:8.3pt;line-height:1.45;color:{INK};margin:2mm 0 0;border-top:.3mm solid {RULE};padding-top:2mm}}
 .cols3{{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7mm;font-size:8.6pt;line-height:1.42;margin-top:2mm}}
-.cols2{{display:grid;grid-template-columns:1fr 1fr;gap:7mm;font-size:8.4pt;line-height:1.42;margin-top:1mm}}
-.cols3 p,.cols2 p{{margin:0}}
-.lbl{{font-size:7.6pt;color:{SUB};margin:1.6mm 0 1mm}}
-.rec{{font-size:9pt;line-height:1.4;margin:2.5mm 0 0}}
-.back{{display:flex;justify-content:space-between}}
-.views{{display:flex;gap:8mm}} .views figure{{width:99mm}}
-.side{{width:60mm}} .side .lbl:first-child{{margin-top:0}}
+.cols3 p{{margin:0}}
+.lbl{{font-size:7.6pt;color:{SUB};margin:0 0 1mm}}
+.rec{{font-size:8.8pt;line-height:1.42;margin:2.5mm 0 0;border-top:.3mm solid {RULE};padding-top:2mm}}
+.opts{{display:grid;grid-template-columns:repeat(4,64mm);justify-content:space-between}}
+.opt svg{{margin-bottom:1.5mm}} .opt figcaption{{font-size:8.2pt;line-height:1.38}}
+.back4{{display:flex;gap:12mm;align-items:flex-start}}
+.side4{{flex:1;font-size:8.6pt;line-height:1.42}} .side4 p{{margin:0 0 2.6mm}} .side4 svg{{margin-bottom:4mm}}
 .small{{font-size:7.8pt;line-height:1.4;color:{SUB};margin:1mm 0}}
 .dets{{display:grid;grid-template-columns:64mm 98mm 62mm;justify-content:space-between;align-items:start}}
 .det figcaption{{font-size:8.3pt}}
@@ -275,6 +264,6 @@ if __name__ == '__main__':
     pages = [p1(), p2(), p3(), p4(), p5(), p6()]
     html = (f'<!doctype html><html lang="de"><head><meta charset="utf-8"><title>Zipper NVL-TT-02 Designvorschlag {VERSION}</title>'
             f'<style>{CSS}</style></head><body>{"".join(pages)}</body></html>')
-    path = os.path.join(out, 'zipper_vorschlag_v01.html')
+    path = os.path.join(out, f'zipper_vorschlag_{VERSION.replace(".", "")}.html')
     open(path, 'w', encoding='utf-8').write(html)
     print('ok', path, round(len(html) / 1e6, 1), 'MB')

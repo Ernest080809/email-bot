@@ -131,9 +131,45 @@ Seit Docket v35 (Fr 23.10., nach Ernests Ja) eingearbeitet. Alte Aufgaben stehen
   - Welcher Weg? Entschieden am 25.10.: Weg 1 als echter Abdruck der RL-Kapuze.
   - Dürfen die Kordeln über dem Teppich hängen?
 
+## Maße RL-Zipper (Ernest, So 25.10., Größe M, flach)
+
+Gespeichert im Messbogen-Artefakt (`messungen/rl-zipper`). Ernests Wunsch für unseren Zipper: „Ein wenig relaxed, aber trotzdem die wichtigsten Dinge wie bei Slim Fit.“
+
+| Nr. | Maß | cm |
+|---|---|---|
+| 1 | Brustweite | 57 |
+| 2 | Weite über der Saumrippe | 50 |
+| 3 | Saumweite | 50 |
+| 4 | Oberarm | 21 |
+| 5 | Ärmelbündchen | 11 |
+| 6 | Länge vorn | 65 |
+| 7 | Rückenlänge Mitte | 65 |
+| 8 | Schulterbreite | 53,5 |
+| 9 | Ärmellänge | 60,5 |
+| 10 | Armloch gerade | 26 |
+| 11 | Reißverschluss | 58 |
+| 12 | Kapuzenhöhe | 31 (auf dem Foto 30,5) |
+| 13 | Kapuzenbreite | 27 |
+| 14 | Liegende Kapuze, Tiefe | 30 (auf dem Foto 29,5) |
+| 15 | Liegende Kapuze, Breite | 26 |
+| 16 | Ausschnitt vorn | 6,5 |
+| 17 | Saumrippe, Höhe | 7 |
+| 18 | Ärmelrippe, Höhe | 7 |
+| 19 | Tasche, Eingriff | 17 |
+| 20 | Tasche über der Saumrippe | 5 |
+| 21 | Tasche bis Reißverschluss | 15,5 |
+| 22 | Gewicht | fehlt noch |
+
+- **12 und 14 von Claude anhand der Fotos geprüft, beide richtig gemessen.** Die Quernaht bei 10 cm auf dem Foto zu 14 ist die Kordelnaht am Rand der Kapuzenöffnung, nicht die Halsnaht.
+- **Material:** laut Etikett noch offen. RL-Loopback-Zipper (innen Schlaufen) sind 100 % Baumwolle, RL-Fleece-Zipper (innen angeraut) meist 86 % Baumwolle und 14 % Polyester.
+- **Folgen:**
+  - Die liegende Kapuze ist nur 26 cm breit statt 38 cm wie in der Platzhalter-Zeichnung. Der Rückendruck wird damit etwa 22 × 25 cm.
+  - Die Saumrippe ist 7 cm hoch, der Stern mit 36 mm passt mit Luft.
+
 ## Offen
 
 - Rückendruck: Umriss der RL-Kapuze aus Ernests Foto, danach Druckvorlage und Papiertest-Druck.
+- Messbogen: Gewicht (22) und Material laut Etikett.
 - Hangtag und Verpackung: Design nach dem Tech Pack.
 - Preis und Vorbestell-Schwelle für den Zipper: nach den Angeboten.
 - Rippenhöhe, Taschenart und alle Maße: aus dem Messbogen.

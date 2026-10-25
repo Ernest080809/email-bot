@@ -51,7 +51,11 @@ Quelle: 15 Fragerunden mit Ernest am 23.10. Ersetzt für den Zipper Spec 3C.1 un
   - Nur Knallrot, der Stoff ist das Weiß.
   - Siebdruck, wasserbasiert, auf das Zuschnittteil vor dem Nähen.
   - Mustergröße: Papiertest, fein wie an der Jeans oder doppelt so groß.
-- **Stand 24.10.:** Ernest findet die Fläche „irgendwie mid“. Designvorschlag v0.2 zeigt vier Wege: 1 Fläche wie bisher, 2 nur die Linien, 3 Verlauf nach oben, 4 Querstreifen. Claudes Rat: 3 oder 4. Die Wahl ist offen. Wählt Ernest bis Mo 26.10. nichts, druckt Claude 3 und 4 für den Papiertest.
+- **Stand 24.10.:** Ernest findet die Fläche „irgendwie mid“. Designvorschlag v0.2 zeigt vier Wege: 1 Fläche wie bisher, 2 nur die Linien, 3 Verlauf nach oben, 4 Querstreifen. Claudes Rat: 3 oder 4.
+- **Entschieden am 25.10.: Weg 1, die Fläche.** Ernests Bedingung: „Es muss wirklich der Abdruck vom Ralph Lauren sein.“ Die Form kommt deshalb von seiner echten RL-Kapuze, nicht aus der Platzhalter-Zeichnung.
+  - Quelle: Foto „hinten flach mit liegender Kapuze“ senkrecht von oben, mit einem A4-Blatt daneben als Maßstab, dazu die Messbogen-Felder 14 und 15 zur Kontrolle.
+  - Claude zeichnet den Umriss nach und setzt ihn rundum 2 cm nach innen. Unten schließt Band A gerade ab wie in Weg 1.
+  - Prüfung beim Papiertest: Druck in 1:1 auf den RL legen, Kapuze darüberklappen, es darf nichts vorschauen.
 - **Achtstern unten links:** wie C an der Jeans (36 mm, Knallrot, Plattstich, dieselbe Stickdatei). Er sitzt **auf der Saumrippe**, wie in der Skizze. Die Rippe wird dafür vor dem Nähen bestickt, so verschwindet die Rückseite in der Faltung. Am Muster prüfen wir, ob sich der Stern verzieht.
 
 ## Zubehör und Etiketten
@@ -124,12 +128,12 @@ Seit Docket v35 (Fr 23.10., nach Ernests Ja) eingearbeitet. Alte Aufgaben stehen
   - **4 Querstreifen:** Band A oben und unten, zwei Rautenreihen dazwischen, 25 × 7 cm ab 5 cm unter dem Halsansatz, gezeichnet fein.
   - Alle vier bleiben in der Fläche „Kapuzenform 2 cm kleiner“.
 - **Offen:**
-  - Welcher Weg?
+  - Welcher Weg? Entschieden am 25.10.: Weg 1 als echter Abdruck der RL-Kapuze.
   - Dürfen die Kordeln über dem Teppich hängen?
 
 ## Offen
 
-- Rückendruck: Weg 1 bis 4 (v0.2).
+- Rückendruck: Umriss der RL-Kapuze aus Ernests Foto, danach Druckvorlage und Papiertest-Druck.
 - Hangtag und Verpackung: Design nach dem Tech Pack.
 - Preis und Vorbestell-Schwelle für den Zipper: nach den Angeboten.
 - Rippenhöhe, Taschenart und alle Maße: aus dem Messbogen.

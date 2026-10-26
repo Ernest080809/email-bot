@@ -359,6 +359,135 @@ def print_outline_d():
     return poly(print_outline())
 
 
+# ---------------------------------------------------------------- Abdruck der echten RL-Kapuze (Weg 1, Ernest 25.10.)
+# Vorläufig aus dem Messbogen (14: 30 cm tief, 15: 26 cm breit) und dem Foto vom 25.10.: Die liegende Kapuze
+# ist oben am Hals gerade, wird bis zur Mitte etwas breiter und läuft unten in eine Spitze (Ende der Mittelnaht).
+# Wird ersetzt, sobald Ernest den Umriss abgepaust hat.
+RL_HOOD = [((-100, 0), (-112, 22), (-130, 60), (-130, 110)),
+           ((-130, 110), (-130, 175), (-48, 262), (0, 295)),
+           ((0, 295), (48, 262), (130, 175), (130, 110)),
+           ((130, 110), (130, 60), (112, 22), (100, 0))]
+
+
+def rl_hood_d():
+    s = RL_HOOD
+    return f"M{F(s[0][0][0])} {F(s[0][0][1])}" + "".join(
+        f"C{F(b[1][0])} {F(b[1][1])} {F(b[2][0])} {F(b[2][1])} {F(b[3][0])} {F(b[3][1])}" for b in s) + "Z"
+
+
+def rl_hood_poly():
+    hp = []
+    for b in RL_HOOD:
+        hp += _bez(b, 48)
+    return hp + [RL_HOOD[-1][3]]
+
+
+def rl_print_outline(inset=INSET_MM):
+    """Umriss rundum inset kleiner. An den oberen Ecken bildet die Linienverschiebung eine kleine Schleife,
+    deshalb prüfen die Zellen den Abstand zum Kapuzenrand direkt (_in_abdruck) und nicht diesen Umriss."""
+    hp = rl_hood_poly()
+    pts = FN._inset(hp, inset)
+    return pts if abs(_area(pts)) < abs(_area(hp)) else FN._inset(hp, -inset)
+
+
+def _dist_to_edges(x, y, pg):
+    best = 1e9
+    for i in range(len(pg)):
+        (x1, y1), (x2, y2) = pg[i], pg[(i + 1) % len(pg)]
+        dx, dy = x2 - x1, y2 - y1
+        t = max(0.0, min(1.0, ((x - x1) * dx + (y - y1) * dy) / (dx * dx + dy * dy or 1)))
+        best = min(best, math.hypot(x - x1 - t * dx, y - y1 - t * dy))
+    return best
+
+
+def _in_abdruck(x, y, hp, inset=INSET_MM):
+    return _inside(x, y, hp) and _dist_to_edges(x, y, hp) >= inset
+
+
+def _cut_below(pts, cut_y):
+    out, n = [], len(pts)
+    for i in range(n):
+        p, q = pts[i], pts[(i + 1) % n]
+        if p[1] <= cut_y:
+            out.append(p)
+        if (p[1] <= cut_y) != (q[1] <= cut_y):
+            f = (cut_y - p[1]) / (q[1] - p[1])
+            out.append((p[0] + (q[0] - p[0]) * f, cut_y))
+    return out
+
+
+ABDRUCK = {'unten': 'Band A unten, gerade abgeschnitten', 'oben': 'Band A oben am Hals', 'ohne': 'Ohne Band, nur Muster E'}
+
+
+def abdruck_cells(scale=2, band='oben', min_band=150.0):
+    """Rote Zellen für Weg 1 im echten Kapuzen-Abdruck, Reihen r von oben.
+    band='unten': Band A schließt unten gerade ab, darunter fällt die Spitze weg (Schnitt, wo die Fläche noch min_band breit ist)
+    band='oben':  Band A läuft oben am Hals entlang, Muster E füllt den Abdruck bis in die Spitze
+    band='ohne':  nur Muster E bis in die Spitze
+    Muster E immer mit roter Kante aus einer Zellreihe, zwischen Band und Muster eine Reihe frei."""
+    u = FN.CELL * scale
+    pg = rl_print_outline()
+    hp = rl_hood_poly()
+    cut = None
+    if band == 'unten':
+        y = max(p[1] for p in pg) - 0.5
+        while True:
+            span = _row_span(pg, y)
+            if span and span[1] - span[0] >= min_band:
+                break
+            y -= 1
+        cut = y
+        pg = _cut_below(pg, y)
+    top = max(min(p[1] for p in pg), min(p[1] for p in hp) + INSET_MM)
+    bottom = max(p[1] for p in pg)
+    half_w = max(abs(p[0]) for p in pg)
+    hc = int(half_w / u) + 1
+    ncols, nrows = 2 * hc + 1, int((bottom - top) / u)
+    BR = FN.BAND_ROWS
+    bw = FN.band_white(ncols, start=(11 - hc) % FN.RAP)
+    cell_in = {}
+    for r in range(nrows):
+        cy = top + (r + 0.5) * u
+        for c in range(ncols):
+            cx = (c - hc) * u
+            cell_in[(r, c)] = (cut is None or cy <= cut) and _in_abdruck(cx, cy, hp)
+    if band == 'oben':
+        band_rows, e_rows = range(0, BR), range(BR + 1, nrows)
+    elif band == 'unten':
+        band_rows, e_rows = range(nrows - BR, nrows), range(0, nrows - BR - 1)
+    else:
+        band_rows, e_rows = range(0), range(0, nrows)
+    e0 = e_rows.start
+    red = set()
+    for (r, c), ok in cell_in.items():
+        if not ok:
+            continue
+        if r in band_rows:
+            if (r - band_rows.start, c) not in bw:
+                red.add((r, c))
+        elif r in e_rows:
+            edge = any(not cell_in.get((r + dr, c + dc), False) or (r + dr) not in e_rows
+                       for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)))
+            if edge or not _e_white(c - hc, r - e0):
+                red.add((r, c))
+    return red, u, hc, top, pg
+
+
+def _row_span(pg, y):
+    xs = []
+    for i in range(len(pg)):
+        (x1, y1), (x2, y2) = pg[i], pg[(i + 1) % len(pg)]
+        if (y1 > y) != (y2 > y):
+            xs.append(x1 + (y - y1) * (x2 - x1) / (y2 - y1))
+    return (min(xs), max(xs)) if len(xs) >= 2 else None
+
+
+def abdruck_print(scale=2, band='oben'):
+    red, u, hc, top, _ = abdruck_cells(scale, band)
+    d = "".join(f"M{F((c - hc - 0.5) * u)} {F(top + r * u)}h{F(u)}v{F(u)}h{F(-u)}z" for r, c in sorted(red))
+    return f'<path d="{d}" style="fill:{RED}"/>'
+
+
 def star_c(cx, cy, w=36):
     return FN.star8_svg(cx, cy, w).replace(FN.REDD, RED).replace(FN.REDL, RED_L)
 

@@ -166,11 +166,56 @@ Gespeichert im Messbogen-Artefakt (`messungen/rl-zipper`). Ernests Wunsch für u
   - Die liegende Kapuze ist nur 26 cm breit statt 38 cm wie in der Platzhalter-Zeichnung. Der Rückendruck wird damit etwa 22 × 25 cm.
   - Die Saumrippe ist 7 cm hoch, der Stern mit 36 mm passt mit Luft.
 
+## Maßtabelle unser Zipper (Mo 26.10.)
+
+Quelle: `design/zipper/masse.py`. Ernests Antworten vom 26.10.:
+- Brustweite: „so, dass man das Design noch sieht und es nicht wie ein Sack ist“. Claude setzt das als 60 cm um, also 3 cm mehr als beim RL.
+- Schulter: 2 cm pro Seite tiefer.
+- Saum: Die Rippe zieht zusammen wie beim RL.
+- Oberarm: 22,5 cm.
+
+Die Abstufung zwischen den Größen ist Claudes Vorschlag nach üblichen Schritten. Alle Werte in cm, flach.
+
+| Nr. | Maß | RL M | S | **M** | L | XL | Warum |
+|---|---|---|---|---|---|---|---|
+| 1 | Brustweite | 57 | 58 | **60** | 62 | 64 | +3: lockerer, der Teppich liegt aber noch glatt, kein Sack |
+| 2 | Weite über der Saumrippe | 50 | 51 | **53** | 55 | 57 | +3 wie die Brust, gleiche Verjüngung wie beim RL |
+| 3 | Saumweite | 50 | 48 | **50** | 52 | 54 | wie RL: die Rippe zieht zusammen |
+| 4 | Oberarm | 21 | 21,5 | **22,5** | 23,5 | 24,5 | +1,5, Ernests Wahl |
+| 5 | Ärmelbündchen | 11 | 10,5 | **11** | 11,5 | 12 | wie RL |
+| 6 | Länge vorn | 65 | 63 | **65** | 67 | 69 | wie RL, Länge wie ein normaler Slim Fit |
+| 7 | Rückenlänge Mitte | 65 | 63 | **65** | 67 | 69 | wie RL |
+| 8 | Schulterbreite | 53,5 | 56 | **57,5** | 59 | 60,5 | +4: Naht 2 cm pro Seite tiefer, Ernests Wahl |
+| 9 | Ärmellänge | 60,5 | 57,5 | **58,5** | 59,5 | 60,5 | −2, weil die Schulternaht 2 cm tiefer sitzt, das Bündchen bleibt, wo es ist |
+| 10 | Armloch gerade | 26 | 26 | **27** | 28 | 29 | +1 wegen tieferer Schulter und weiterer Brust |
+| 11 | Reißverschluss | 58 | 56 | **58** | 60 | 62 | wie RL, wächst mit der Länge |
+| 12 | Kapuzenhöhe | 31 | 30 | **31** | 32 | 33 | wie RL |
+| 13 | Kapuzenbreite | 27 | 26,5 | **27** | 27,5 | 28 | wie RL |
+| 16 | Ausschnitt vorn | 6,5 | 6,5 | **6,5** | 6,5 | 6,5 | wie RL |
+| 17 | Saumrippe, Höhe | 7 | 7 | **7** | 7 | 7 | wie RL, der Stern passt mit Luft |
+| 18 | Ärmelrippe, Höhe | 7 | 7 | **7** | 7 | 7 | wie RL |
+| 19 | Tasche, Eingriff | 17 | 17 | **17** | 17 | 17 | wie RL |
+| 20 | Tasche über der Saumrippe | 5 | 5 | **5** | 5 | 5 | wie RL |
+| 21 | Tasche bis Reißverschluss | 15,5 | 15 | **15,5** | 16 | 16,5 | wie RL |
+
+## Rückendruck im echten Abdruck (Mo 26.10.)
+
+- Ernests Foto zu Maß 14 zeigt: Die liegende Kapuze läuft unten spitz zu, dort endet die Mittelnaht. Mit Band A unten müsste diese Spitze wegfallen.
+- **Entschieden am 26.10.: B, Band A oben am Hals.** Muster E füllt den Abdruck bis in die Spitze, mit roter Kante. Zwischen Band und Muster bleibt eine Reihe frei.
+- Der Druck misst etwa 22 × 25 cm. Der Umriss ist vorläufig aus den Maßen 14 und 15 (`RL_HOOD` in `flats.py`). Der echte Umriss kommt aus Ernests Abpausung: zwei A4-Blätter auf den Rücken legen, die Kapuze darüber, mit Bleistift an der Kante entlangfahren und das Blatt flach fotografieren.
+
+## Papiertest Mi 28.10.
+
+`pdf/NVL-TT-02_Papiertest_Zipper.pdf`, 11 Seiten A4, in Originalgröße drucken. Gebaut mit `design/zipper/papiertest.py` und `papier.mjs`.
+- Seite 1: Anleitung, Kontrollquadrat 5 × 5 cm, Stern C auf der Saumrippe.
+- Teppich A in S (21 × 14,7 cm), M (25 × 17,5 cm) und L (29 × 20,3 cm), je eine linke und eine rechte Hälfte.
+- Rückendruck B fein und doppelt, je zwei Hälften.
+
 ## Offen
 
-- Rückendruck: Umriss der RL-Kapuze aus Ernests Foto, danach Druckvorlage und Papiertest-Druck.
+- Rückendruck: echten Umriss aus Ernests Abpausung übernehmen, danach Druckvorlage neu.
 - Messbogen: Gewicht (22) und Material laut Etikett.
 - Hangtag und Verpackung: Design nach dem Tech Pack.
 - Preis und Vorbestell-Schwelle für den Zipper: nach den Angeboten.
-- Rippenhöhe, Taschenart und alle Maße: aus dem Messbogen.
+- Taschenart: wie beim RL, Foto fehlt noch.
 - Teppichgröße und Mustergröße E: aus dem Papiertest.

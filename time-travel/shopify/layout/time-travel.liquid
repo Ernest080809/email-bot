@@ -1,4 +1,3 @@
-{% layout none %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -138,5 +137,6 @@
 { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
 </script>
 <script type="module" src="{{ 'time-travel.js' | asset_url }}"></script>
+<div hidden>{{ content_for_layout }}</div>
 </body>
 </html>

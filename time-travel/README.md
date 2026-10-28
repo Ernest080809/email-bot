@@ -72,8 +72,8 @@ Shopify ограничивает Liquid-шаблон 256 KB, поэтому ст
    Удали заготовку и вставь всё содержимое `shopify/templates/page.time-travel.liquid`. Сохрани.
 4. Online Store → **Pages → Add page** «Time Travel», справа шаблон `page.time-travel`, Visible. Сохрани.
 5. Онлайн-магазин → Навигация → **URL Redirects**: `/timetravel` → `/` (старые ссылки ведут на главную).
-   **Главная страница = поле.** В теме вместо `templates/index.json` лежит `templates/index.liquid` (та же
-   страница, что `page.time-travel`). Остальной магазин (товары, коллекции, корзина) работает по прямым
+   **Главная страница = поле.** `templates/index.json` в теме ссылается на layout `layout/time-travel.liquid`
+   (та же страница, что `page.time-travel`). Остальной магазин (товары, коллекции, корзина) работает по прямым
    ссылкам, но с главной в него не попасть. Вернуть обычную главную — опубликовать предыдущую тему.
 6. **Double opt-in включить** (Settings → Customer privacy / Notifications → Marketing) — в Германии обязательно.
 7. **Privacy Policy дополнить** (Settings → Policies): номер ключа, тег «кто пригласил» (`ref-…`),

@@ -7,6 +7,7 @@ Google (GDPR). Also writes shopify/ (template + assets) for the Shopify theme.
     python3 time-travel/build.py --fragment X   # also writes the body-less fragment to X
 """
 import base64
+import json
 import pathlib
 import re
 import shutil
@@ -45,7 +46,8 @@ def build_shopify(fragment: str) -> None:
     """Shopify caps Liquid templates at 256 KB, so ship a small template plus two theme assets.
 
     shopify/templates/page.time-travel.liquid  markup only, links the assets via asset_url
-    shopify/templates/index.liquid             the same page as the home page (replaces index.json)
+    shopify/layout/time-travel.liquid          the same page as a layout, for the home page
+    shopify/templates/index.json               home page template that uses that layout (replaces the theme's)
     shopify/assets/time-travel.css             fonts (inlined) + styles
     shopify/assets/time-travel.js              the scene (ES module, three.js via import map)
     shopify/assets/time-travel-og.jpg          share preview (copied from og-image.jpg)
@@ -71,7 +73,13 @@ def build_shopify(fragment: str) -> None:
         "<script type=\"module\" src=\"{{ 'time-travel.js' | asset_url }}\"></script>\n</body>\n</html>\n"
     )
     (out / "templates" / "page.time-travel.liquid").write_text(template)
-    (out / "templates" / "index.liquid").write_text(template)
+    # Home page: a JSON template cannot be swapped for a Liquid one without deleting it, so it points to a
+    # layout that is this page; content_for_layout (an empty Custom Liquid section) is rendered hidden.
+    (out / "layout").mkdir(exist_ok=True)
+    layout = template.replace("{% layout none %}\n", "", 1).replace("</body>", "<div hidden>{{ content_for_layout }}</div>\n</body>", 1)
+    (out / "layout" / "time-travel.liquid").write_text(layout)
+    index = {"layout": "time-travel", "sections": {"main": {"type": "custom-liquid", "settings": {"custom_liquid": "", "padding_top": 0, "padding_bottom": 0}}}, "order": ["main"]}
+    (out / "templates" / "index.json").write_text(json.dumps(index, indent=2) + "\n")
     size = len(template.encode()) / 1024
     assert size < 256, "Liquid template over Shopify's 256 KB limit"
     print("wrote", out, f"(template {size:.0f} KB)")

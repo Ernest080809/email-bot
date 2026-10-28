@@ -1,0 +1,142 @@
+{% layout none %}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Novalife — Time Travel</title>
+<meta name="description" content="Walk through the wheat field to the closed door. Novalife Time Travel: pre-order from 01.02.2027, the door opens on 24.06.2027 at 18:00 CEST.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Novalife">
+<meta property="og:title" content="Novalife — Time Travel">
+<meta property="og:description" content="The door is closed. Get the key before it opens.">
+<meta property="og:url" content="{{ canonical_url }}">
+<link rel="canonical" href="{{ canonical_url }}">
+<meta property="og:image" content="{{ 'time-travel-og.jpg' | asset_url | prepend: 'https:' }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="{{ 'time-travel-og.jpg' | asset_url | prepend: 'https:' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#15110d">
+{{ content_for_header }}
+{{ 'time-travel.css' | asset_url | stylesheet_tag }}
+</head>
+<body>
+<canvas id="scene" aria-label="First-person view: a path through a ripe wheat field leading to a wooden izba with a closed door"></canvas>
+
+<header class="hud">
+  <div class="mark">Novalife</div>
+  <nav>
+    <button class="link sound" id="soundBtn" aria-pressed="false"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span id="soundLabel">Sound off</span></button>
+    <button class="link" id="skipBtn">Waitlist</button>
+  </nav>
+</header>
+
+<div class="flash" id="flash" aria-hidden="true"></div>
+<div class="spawn" id="spawn" aria-live="polite">
+  <span class="eyebrow" id="spawnEyebrow">Time Travel</span>
+  <p>You’ve been teleported.</p>
+  <small id="spawnLine">Somewhere in the Slavic fields.</small>
+</div>
+
+<div class="caption" id="caption" aria-live="polite">
+  <p id="captionText">The door is closed.</p>
+  <span class="eyebrow" id="captionSub"></span>
+</div>
+
+<div class="walk">
+  <span class="hint" id="lookHint" aria-hidden="true"></span>
+  <div class="walk-row">
+  <button class="back-btn" id="backBtn" aria-label="Walk back"><svg viewBox="0 0 20 12" aria-hidden="true"><path d="M19 6H2M6 1L1 6l5 5"/></svg></button>
+  <button class="walk-btn" id="walkBtn"><span class="dot" aria-hidden="true"></span><span id="walkLabel">Hold to walk</span><span class="dist" id="walkDist"></span></button>
+  </div>
+  <div class="walk-bar" aria-hidden="true"><i id="walkBar"></i></div>
+</div>
+
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+  <div class="drawer-in">
+    <div class="drawer-top">
+      <span class="eyebrow" id="drawerEyebrow">Waitlist</span>
+      <button class="close" id="closeBtn" aria-label="Close"><svg viewBox="0 0 16 16"><path d="M2 2l12 12M14 2L2 14"/></svg></button>
+    </div>
+
+    <h2 id="drawerTitle">Pre-order opens on <em>14&nbsp;January</em>.</h2>
+
+    <div class="count" id="count" role="timer" aria-label="Time until the pre-order opens">
+      <div><b id="cdD">000</b><small>Days</small></div>
+      <div><b id="cdH">00</b><small>Hours</small></div>
+      <div><b id="cdM">00</b><small>Min</small></div>
+      <div><b id="cdS">00</b><small>Sec</small></div>
+    </div>
+
+    <p class="lede" id="lede"></p>
+    <a class="submit" id="cta" href="/collections/time-travel" hidden><span id="ctaLabel">Pre-order</span><svg viewBox="0 0 22 10" aria-hidden="true"><path d="M0 5h20M16 1l4 4-4 4"/></svg></a>
+
+    <div id="wlWrap">
+      <form id="wlForm" method="post" action="/contact#waitlist" accept-charset="UTF-8" novalidate>
+        <input type="hidden" name="form_type" value="customer">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="contact[tags]" id="wlTags" value="newsletter,time-travel-waitlist">
+        <div class="field">
+          <label for="wlEmail">Email</label>
+          <input id="wlEmail" type="email" name="contact[email]" required autocomplete="email" inputmode="email" placeholder="your@email.com">
+        </div>
+        <label class="consent" for="wlConsent">
+          <input type="checkbox" id="wlConsent" required>
+          <span>Email me the key and Novalife news. Unsubscribe anytime. <a id="privacyLink" href="/policies/privacy-policy" target="_blank" rel="noopener">Privacy policy</a></span>
+        </label>
+        <button class="submit" type="submit" id="wlSubmit"><span id="wlSubmitLabel">Request the key</span><svg viewBox="0 0 22 10" aria-hidden="true"><path d="M0 5h20M16 1l4 4-4 4"/></svg></button>
+        <p class="err" id="wlErr" role="alert"></p>
+      </form>
+    </div>
+
+    <div class="done" id="wlDone" hidden>
+      <div class="key-row">
+        <a class="ticket" id="ticket" href="#" aria-label="Save your key image"><img id="ticketImg" alt=""></a>
+        <div class="key-text">
+          <span class="eyebrow">Key Nº <b id="keyNo"></b></span>
+          <h3>Your key is reserved.</h3>
+          <p id="doneText"></p>
+        </div>
+      </div>
+      <div class="found" id="foundBox" hidden>
+        <p class="small"><b>You found the golden key.</b> Add it to your key and you get in at <span id="innerTime">16:00 CET</span>.</p>
+        <input id="attachEmail" type="email" autocomplete="email" inputmode="email" placeholder="your@email.com" aria-label="Your email">
+        <button class="ghost" type="button" id="attachBtn">Add it to my key</button>
+      </div>
+      <div class="actions">
+        <button class="submit" type="button" id="shareBtn"><span id="shareLabel">Share your key</span><svg viewBox="0 0 22 10" aria-hidden="true"><path d="M0 5h20M16 1l4 4-4 4"/></svg></button>
+        <button class="ghost" type="button" id="copyBtn"><span id="copyLabel">Copy your link</span></button>
+      </div>
+      <p class="small" id="refLine"></p>
+      <div class="follow" id="follow" hidden><a id="igLink" target="_blank" rel="noopener">Instagram</a><a id="tkLink" target="_blank" rel="noopener">TikTok</a></div>
+    </div>
+    <form id="attachForm" method="post" action="/contact#waitlist" accept-charset="UTF-8" hidden>
+      <input type="hidden" name="form_type" value="contact">
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="contact[email]" id="attachFormEmail">
+      <input type="hidden" name="contact[body]" id="attachFormBody">
+    </form>
+
+    <div class="legal"><a id="imprintLink" href="/policies/legal-notice" target="_blank" rel="noopener">Imprint</a><a id="privacyLink2" href="/policies/privacy-policy" target="_blank" rel="noopener">Privacy</a><span>Novalife</span></div>
+  </div>
+</aside>
+
+<div class="loader" id="loader">
+  <div class="loader-in">
+    <div class="mark">Novalife</div>
+    <div class="loader-bar"><i id="loaderBar"></i></div>
+    <div class="eyebrow" id="loaderText"></div>
+    <div class="gate" id="gate" hidden>
+      <button class="enter" id="enterBtn"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>Enter</button>
+      <button class="quiet" id="enterQuiet">Enter without sound</button>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
+</script>
+<script type="module" src="{{ 'time-travel.js' | asset_url }}"></script>
+</body>
+</html>

@@ -159,8 +159,9 @@ function fbm(u, v, fx, fy, oct = 4) {
 const coarse = matchMedia("(pointer: coarse)").matches;
 const lowEnd = coarse || Math.min(innerWidth, innerHeight) < 600 || (navigator.hardwareConcurrency || 8) <= 4;
 const Q = lowEnd
-  ? { near: 1700, far: 3400, birch: 45, pr: Math.min(devicePixelRatio, 1.25), samples: 4, shadow: 1024, bloomScale: 0.4 }
-  : { near: 3800, far: 7600, birch: 70, pr: Math.min(devicePixelRatio, 1.5), samples: 4, shadow: 2048, bloomScale: 0.5 };
+  // phones: sharper start, never below 1:1 pixels, and 30 frames a second count as smooth enough
+  ? { near: 1700, far: 3400, birch: 45, pr: Math.min(devicePixelRatio, 1.75), minPr: Math.min(devicePixelRatio, 1), budget: 0.034, samples: 4, shadow: 1024, bloomScale: 0.4 }
+  : { near: 3800, far: 7600, birch: 70, pr: Math.min(devicePixelRatio, 1.5), minPr: 0.75, budget: 0.022, samples: 4, shadow: 2048, bloomScale: 0.5 };
 
 /* ==========================================================================
    Renderer, scene, camera
@@ -1917,8 +1918,8 @@ canvas.addEventListener("pointermove", (e) => {
   if (e.pointerType === "touch") {
     if (!touch || S.drawer || !S.started) return;
     const dx = e.clientX - touch.lx, dy = e.clientY - touch.ly; touch.lx = e.clientX; touch.ly = e.clientY;
-    if (!touch.mode && Math.hypot(e.clientX - touch.x, e.clientY - touch.y) > 10) touch.mode = Math.abs(e.clientX - touch.x) > Math.abs(e.clientY - touch.y) ? "look" : "swipe";
-    if (touch.mode === "look" || touch.mode === "walk") turn((dx / innerWidth) * Math.PI * 1.1);   // grab the world: drag right, look left
+    if (!touch.mode && Math.hypot(e.clientX - touch.x, e.clientY - touch.y) > 14) touch.mode = Math.abs(e.clientX - touch.x) > Math.abs(e.clientY - touch.y) ? "look" : "swipe";
+    if (touch.mode === "look" || touch.mode === "walk") turn((dx / innerWidth) * Math.PI * 0.45);   // grab the world: drag right, look left (a full-width drag ≈ 80°)
     if (touch.mode === "swipe" && !(S.arrived && dy < 0)) S.scrollVel = clamp(S.scrollVel - dy * 0.03, -WALK, WALK * 1.3);
     return;
   }
@@ -2059,14 +2060,16 @@ function setOpenState() {
 
 // Adaptive quality: measure real frame time in 1.5 s windows and step the
 // resolution down (then switch off bloom) until the device keeps up.
+// Phones switch off bloom first and never drop below one pixel per screen pixel.
 const perf = { acc: 0, n: 0, warm: 2.5, pr: Q.pr };
 function adapt(raw) {
   if (perf.warm > 0) { perf.warm -= raw; return; }
   perf.acc += raw; perf.n++;
   if (perf.acc < 1.5) return;
   const avg = perf.acc / perf.n; perf.acc = 0; perf.n = 0;
-  if (avg < 0.022) return;
-  if (perf.pr > 0.8) { perf.pr = Math.max(0.75, perf.pr - 0.25); renderer.setPixelRatio(perf.pr); composer.setPixelRatio(perf.pr); resize(); }
+  if (avg < Q.budget) return;
+  if (lowEnd && bloom.enabled) bloom.enabled = false;   // phones give up the glow before the sharpness
+  else if (perf.pr - 0.25 >= Q.minPr - 1e-6) { perf.pr -= 0.25; renderer.setPixelRatio(perf.pr); composer.setPixelRatio(perf.pr); resize(); }
   else if (bloom.enabled) bloom.enabled = false;
 }
 let sdt = 1 / 60;

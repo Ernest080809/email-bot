@@ -1,0 +1,60 @@
+
+/* ---- Rev. 7 ---- */
+:root{ --des:#5B3F8C; --desbg:#E3DCEE; --law:#1F6660; --lawbg:#CDE3E0; --web:#1D5F8C; --webbg:#D2E2EE; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --des:#B39DDB; --desbg:#231A33; --law:#6CC0B6; --lawbg:#102825; --web:#79B4E0; --webbg:#0F2130; } }
+:root[data-theme="dark"]{ --des:#B39DDB; --desbg:#231A33; --law:#6CC0B6; --lawbg:#102825; --web:#79B4E0; --webbg:#0F2130; }
+.tg.G{background:var(--desbg); color:var(--des)}
+.tg.R{background:var(--lawbg); color:var(--law)}
+.tg.W{background:var(--webbg); color:var(--web)}
+.chip.ml{border-color:var(--law); color:var(--law)}
+.stat.b{background:var(--indigobg); color:var(--indigo)}
+
+/* Briefings */
+.vb.br .brt{padding:8px 10px 0; font-family:'Anton',sans-serif; text-transform:uppercase; font-size:16px; line-height:1.1; color:var(--ink)}
+.vb .bz{margin:6px 10px 4px; font-size:13.4px; color:var(--ink2)}
+.vb .bz b{color:var(--ink)}
+.vb .halt{padding:0 10px 8px; font-size:12.8px; color:var(--ink2)}
+.vb .halt b{color:var(--ink)}
+.vb .beats{margin:4px 10px 10px; overflow-x:auto; border:1px solid var(--line); background:var(--bg)}
+.vb .beats table{min-width:560px; font-size:12.8px}
+.vb .beats th, .vb .beats td{padding:6px 9px; vertical-align:top}
+.vb .rc{margin:0 10px 10px; font-size:12.6px; color:var(--ink2); border-left:3px solid var(--crit); padding:6px 9px; background:var(--critbg)}
+.vb .rc b{color:var(--crit); font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; margin-right:8px}
+.vb details.pmv{margin:0 10px 10px; border:1px solid var(--line); background:var(--bg)}
+.vb details.pmv > summary{cursor:pointer; padding:7px 10px; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink2)}
+.vb details.pmv > summary:focus-visible{outline:2px solid var(--brass); outline-offset:-2px}
+.vb details.pmv dl{padding:4px 10px 8px}
+.vb.mb{border-color:var(--law); background:var(--lawbg)}
+.vb.mb .vbh .eyebrow{color:var(--law)}
+.lazy:empty{display:none}
+
+/* Design-Inventur */
+#inventur h3{font-family:'Anton',sans-serif; font-weight:400; text-transform:uppercase; font-size:20px; margin:28px 0 6px}
+#inventur .invsum{display:flex; flex-wrap:wrap; gap:8px; margin:0 0 6px}
+#inventur table.inv{min-width:880px; font-size:13px}
+#inventur table.inv td{vertical-align:top}
+#inventur table.inv td.mono{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink2)}
+
+/* Content-Plan */
+#contentplan select{font:inherit; font-size:14px; padding:7px 10px; border:1px solid var(--line2); background:var(--surface); color:var(--ink)}
+#contentplan select:focus-visible{outline:2px solid var(--brass); outline-offset:1px}
+.cpstat{display:flex; flex-wrap:wrap; gap:6px 16px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink2); margin:-8px 0 18px}
+.cpstat b{color:var(--ink)}
+.cpw{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--brass); font-weight:600; margin:18px 0 6px}
+details.cpi{border:1px solid var(--line); background:var(--surface); margin-bottom:6px}
+details.cpi > summary{display:flex; flex-wrap:wrap; gap:4px 12px; align-items:baseline; padding:9px 12px; cursor:pointer}
+details.cpi > summary:focus-visible{outline:2px solid var(--brass); outline-offset:-2px}
+details.cpi[open] > summary{background:var(--sunk); border-bottom:1px solid var(--line)}
+.cpi .cpd{font-size:11.5px; color:var(--ink2); min-width:104px}
+.cpi .cpid{font-size:11.5px; color:var(--indigo); font-weight:600; min-width:56px}
+.cpi .cpt{font-size:14px; color:var(--ink); flex:1 1 220px; min-width:0}
+.cpi .cps{font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--ink3)}
+.cpi .vb{margin:10px}
+.cpi.miss{display:none}
+
+/* E-Mails */
+#mails details.ref > summary{font-family:'Archivo',sans-serif; text-transform:none; font-size:15px; font-weight:600; flex-wrap:wrap}
+#mails .mid{font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; color:var(--law)}
+#mails .msub{flex:1 1 240px; min-width:0}
+#mails .mwann{font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:400; color:var(--ink3)}
+#mails .inner .vb{margin:0}

@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """REWIND-Serie in Rev. 7: Daten aus rev6/build/rewind_data.py, neue Termine."""
-import copy, sys
-sys.path.insert(0, '/home/user/email-bot/novalife/time-travel/rev6/build')
+import copy, os, sys
+for _p in (os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'rev6', 'build'), '/home/user/email-bot/novalife/time-travel/rev6/build'):
+    if os.path.isdir(_p):
+        sys.path.insert(0, _p)
+        break
 import rewind_data as RD
 from clib import VIDS, SCHED, OLDMAP, dl, REGELN, POST_VIDEO, MESSEN, VARIANTEN, TAG
 
@@ -32,6 +35,8 @@ NEU = {
 FIX = {
     'R11': dict(kleidung="Proto (oder PP, falls es schon da ist)",
                 idee="Die Fortsetzung von #01, jetzt mit der echten Jeans. Gleicher Ablauf, gleicher Seitschritt. Nach der Drehung siehst du Patch D, der Gürtel läuft durch. Dann die Endkarte zur Vorbestellung."),
+    'R06': dict(idee="Die Fahrstuhltür schließt sich, beim Öffnen trägst du jedes Mal ein anderes Jahrzehnt. Beim letzten Mal geht die Tür auf und es ist dunkel, nur ein Satz leuchtet: „Vorbestellung läuft. 35 Paar zu 149 €.“",
+                text="„35 × 149 €“ in der letzten Öffnung · 3 Frames „RW06“ · Endkarte"),
     'R02': dict(ort="Stick-Abend am Fr 18.12., alle Gäste mit Stickrahmen oder Papier auf ihren eigenen Jeans",
                 idee="Am Stick-Abend klatschst du, alle Gäste frieren mitten in der Bewegung ein. Du gehst durch den Raum und rückst einem Gast den Stickrahmen zurecht. Du klatschst, alle bewegen sich wieder."),
 }

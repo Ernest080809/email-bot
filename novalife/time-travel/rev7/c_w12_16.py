@@ -423,7 +423,7 @@ S("S05", "Frag mich alles", ("2027-01-02", "12:00"), old=("V043",),
   ziel="Einwände sammeln, bevor die Produktseite geschrieben wird.",
   frames=[["Foto: du mit dem Proto, neutraler Hintergrund", "Noch 30 Tage bis zur Vorbestellung. Frag mich alles.", "Frage-Sticker „Deine Frage zu Time Travel“"],
           ["Antworten: je eine Frage als Bild, deine Antwort als Text oder 10-s-Clip", "", ""]],
-  folge="Alle Fragen ins Blatt „Einwände“. Die sechs häufigsten gehen am Do 07.01. in die FAQ (Aufgabe „Größenseite und FAQ“).")
+  folge="Alle Fragen ins Blatt „Einwände“. Die sechs häufigsten kommen bis Mo 11.01. in die FAQ, zusammen mit der Produktseite Jeans.")
 
 # Grind+ in W12–W16
 V("V291", "BUILD", "Die eine Frage an Fabriken", ("2026-12-05", "18:00"), ("2026-11-29", 15), old=("V120",), plus=True, pm=15,

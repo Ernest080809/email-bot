@@ -323,7 +323,7 @@ def w16():
     di = [O('w18d5t0', id='r7-web-6', c='W', t="Website Schritt 6: Startseite Stufe 1 „Prozess“"),
           O('w16d1t0', id='r7-comm-1229')]
     mi = [O('w16d2t0', id='r7-eventtipp', rep=[("Orte aus dem Blatt „Abende“ (fest seit 19.12.)", "Orte aus dem Blatt „Abende“ (fest seit 19.12.)")]),
-          O('w18d6t0', id='r7-web-7', c='W', t="Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)")]
+          O('w18d6t2', id='r7-web-7', c='W', t="Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)")]
     do = [O('w16d3t0', id='r7-monat-dez', rep=[("(Korridor: 700 auf der Liste)", "(Korridor: 380 auf der Liste)"), ("Zahl gegen den Korridor 700.", "Zahl gegen den Korridor 380."), ("(Korridor 700)", "(Korridor 380)")]),
           O('w16d3t1', id='r7-bruecke'),
           O('w19d0t0', id='r7-web-8', c='W', t="Website Schritt 8: Stufe 1 live, altes Theme wird PLAN B, Test ?ref=test"),

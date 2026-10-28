@@ -26,7 +26,7 @@ ROWS = [
  ("2026-12-20", 14, 260, 100, 780, 10, None, None, "So 20.12.: VALIDIERUNG grün ≥ 250 und ≥ 10 Zusagen · Reservierung A/B · Sprache und Liefergebiet.",
   ["Gelb (100–249) → bis 10.01. nur Ausgaben nach Plan, bestes Video in 3 Varianten · Rot (< 100) → Ausgaben-Stopp außer Patch-Serie, Claude ändert Hooks, Kanäle und Abende."] + STD),
  ("2026-12-27", 15, 320, 120, 960, 12, None, None, "Feiertage: Patch-Serie bestellt, Belege sortiert.", STD),
- ("2027-01-03", 16, 380, 150, 1140, 14, None, None, "So 03.01.: Website Stufe 1 live · PP-Versand bis 08.01. schriftlich · Brücke ja/nein.", STD),
+ ("2027-01-03", 16, 380, 150, 1140, 14, None, None, "So 03.01.: Website Stufe 1 live seit Do 31.12. · PP-Versand bis 08.01. schriftlich · Brücke ja/nein.", STD),
  ("2027-01-10", 17, 480, 190, 1440, 18, None, None, "So 10.01.: Rechtstexte live · LUCID · Zusagen ≥ 18.", STD),
  ("2027-01-17", 18, 600, 240, 1800, 22, None, None, "Fr 15.01.: SAMPLE-GATE (Jeans-PP und Zipper-Muster freigegeben).",
   ["Sample-Gate rot → erst das Muster korrigieren; die Vorbestellung bleibt am 01.02. mit Proto-Fotos, die Bestellung (PO) am 17.02. braucht das freigegebene PP."] + STD),
@@ -53,8 +53,21 @@ ROWS += [
 ]
 
 
+# Texte aus v35, die in Rev. 7 nicht mehr stimmen
+FIXK = [("So 24.01.: Stufe 1 live · Vorbestellung als Entwurf · Testbestellung läuft", "So 24.01.: Produktseiten · Reservierung offen · Vorbestellung als Entwurf · Testbestellung läuft"),
+        ("der Shop-Block hat Vorrang vor Grind+", "die Shop-Aufgaben haben Vorrang vor Grind+"),
+        ("mit der Auszahlungsdauer vom 29.12.", "mit der Auszahlungsdauer aus der Testbestellung vom 22.01.")]
+
+
+def _fx(x):
+    for a, b in FIXK:
+        x = x.replace(a, b)
+    return x
+
+
 def kpi():
     out = []
     for d, w, wl, wla, fo, zu, pre, prea, gate, mass in ROWS:
+        gate, mass = _fx(gate or ""), [_fx(m) for m in mass]
         out.append(dict(d=d, w=w, wl=wl, wl_a=wla, fo=fo, zu=zu, pre=pre, pre_a=prea, gate=gate, mass=mass))
     return out

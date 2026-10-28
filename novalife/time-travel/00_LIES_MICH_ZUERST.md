@@ -1,6 +1,6 @@
 # Time Travel Drop · Alles in einem Paket
 
-**Stand: Mittwoch, 28.10.2026, morgens.** Novalife Berlin, Gründer Ernest Veskimäe.
+**Stand: Mittwoch, 28.10.2026, mittags. Der Docket Rev. 7 ist live.** Novalife Berlin, Gründer Ernest Veskimäe.
 
 Diese Datei ist der Einstieg. Sie sagt, was das Projekt ist, wo es gerade steht, welche Regeln gelten und welche Datei wofür da ist. Wer nur eine Datei liest, liest diese.
 
@@ -12,7 +12,7 @@ Es gibt zwei ZIPs:
 
 | ZIP | Inhalt | Wann hochladen |
 |---|---|---|
-| **TimeTravel_Drop_Stand_2026-10-28.zip** | Wissen, Stand, Regeln, Recherche, Briefings, Design-Quellcode, Bilder, Artefakte, Text aller aktuellen PDFs | in jeden Chat zum Drop |
+| **TimeTravel_Drop_Stand_2026-10-28_Rev7.zip** | Wissen, Stand, Regeln, Recherche, Briefings, Design-Quellcode, Bilder, Artefakte, Text aller aktuellen PDFs | in jeden Chat zum Drop |
 | **TimeTravel_Drop_PDFs_2026-10-28.zip** | die 8 aktuellen PDFs im Original (Tech Pack, Druckvorlage, Artwork, Quote Pack, Zipper-Vorschlag, Papiertest, Call-Leitfaden) | nur, wenn ein Chat an Druckdateien arbeitet oder du etwas an eine Fabrik schicken willst |
 
 1. ZIP in den Chat ziehen. Damit Claude eine ZIP öffnen kann, muss in claude.ai die Codeausführung („Codeausführung und Dateierstellung“) an sein. Ist sie aus, lade stattdessen diese Datei einzeln hoch.
@@ -22,7 +22,8 @@ Es gibt zwei ZIPs:
 Das ist mein Projekt „Time Travel“ von Novalife Berlin. Entpacke die ZIP und lies zuerst
 00_LIES_MICH_ZUERST.md komplett. Halte dich an die Arbeitsregeln in Abschnitt 4. Abschnitt 6
 sagt dir, welche Dateien aktuell sind und welche veraltet. Frag mich, bevor du eine
-Design-Entscheidung triffst. Meine Aufgabe: …
+Design-Entscheidung triffst. Den Plan findest du in rev7/export/Docket_Rev7_Tagesplan.md.
+Meine Aufgabe: …
 ```
 
 3. Für ein Claude-Projekt: Lade diese Datei und die Dateien, die du für das Thema brauchst, einzeln als Projektwissen hoch (z. B. `rev6/research/zipper_briefing.md`, `pdf_texte/NVL-TT-01_TechPack_v1.0_DE.txt`).
@@ -66,7 +67,7 @@ Noch hat **keine Fabrik einen Preis genannt.** Heute früh ist keine neue Fabrik
 | **LOGIC** (Łódź, Polen) | Anfrage am 26.10. gesendet, Antwort bis Fr 30.10. erbeten. Die Website wirkt KI-generiert. Vor jeder Zahlung prüfen: echte Fotos oder Video aus der Halle, Videocall, Firmenregister (CEIDG/KRS), Muster vor Anzahlung. Die Mail-Adresse ist eine private Freemail-Adresse und steht deshalb in keiner Datei. |
 | raus | NTC (21.10. von Ernest gestrichen), Lisama und Chasco (keine Antwort bis 23.10.), 5D (Absage 19.10., ausgebucht) |
 
-Fabrikwahl: im Docket v35 Do 29.10. Im Entwurf Rev. 7 **Di 03.11.**, ohne schriftlichen Preis Fr 06.11. Noch nicht von Ernest bestätigt. Leitfaden für den Call: `pdf_texte/NVL_Leitfaden_Fabrik-Calls.txt`. Alle Details: `rev6/research/anfrage_fabriken_2026-10-17.md`.
+Fabrikwahl laut Docket Rev. 7: **Di 03.11.**, ohne schriftlichen Preis Fr 06.11. Am Mo 02.11. entscheidest du vorher den Versandweg (Claudes Rat: eine Sendung nach Deutschland). Leitfaden für den Call: `pdf_texte/NVL_Leitfaden_Fabrik-Calls.txt`. Alle Details: `rev6/research/anfrage_fabriken_2026-10-17.md`.
 
 ### 3.2 Entscheidungen der letzten Tage
 
@@ -86,7 +87,7 @@ Fabrikwahl: im Docket v35 Do 29.10. Im Entwurf Rev. 7 **Di 03.11.**, ohne schrif
 
 ### 3.3 Design-Inventur (Stand 27.10.)
 
-Jedes Design, sein Status und wann es dran ist. Die Termine in der Spalte „Wann“ kommen aus dem Entwurf Rev. 7 und sind noch nicht bestätigt.
+Jedes Design, sein Status und wann es dran ist. Die Termine in der Spalte „Wann“ sind Aufgaben im Docket Rev. 7.
 
 Zusammen: 5 fertig · 5 entschieden · 12 teilweise offen · 10 fehlt noch.
 
@@ -153,9 +154,9 @@ Zusammen: 5 fertig · 5 entschieden · 12 teilweise offen · 10 fehlt noch.
 7. Abpausung der RL-Kapuze: Daraus kommt der echte Umriss für den Rückendruck.
 8. Versand: einmal nach Deutschland (Claudes Rat) oder direkt aus der Fabrik zu jedem Kunden?
 
-### 3.5 Die nächsten zwei Wochen (Entwurf Rev. 7, noch nicht veröffentlicht)
+### 3.5 Die nächsten zwei Wochen (Docket Rev. 7)
 
-Die Woche vom 26.10. ist die Design-Suche, die Woche ab 02.11. der erste Teil von „Design fertig“. Die volle Fassung mit allen Schritten kommt mit dem Docket Rev. 7.
+Die Woche vom 26.10. ist die Design-Suche, die Woche ab 02.11. der erste Teil von „Design fertig“. Alle Schritte, Links und Prompts stehen im Docket und in `rev7/export/Docket_Rev7_Tagesplan.md`.
 
 | Tag | Art | Aufgabe | Min. |
 |---|---|---|---|
@@ -174,6 +175,7 @@ Die Woche vom 26.10. ist die Design-Suche, die Woche ab 02.11. der erste Teil vo
 | So 01.11. | Admin | Wochenreview W7: Design-Suche und Fabrik-Stand | 15 |
 | Mo 02.11. | Produkt/Fabrik | Papiertest Zipper auf dem RL und Kapuze abpausen | 75 |
 | Mo 02.11. | Recht | Steuer vor der Fabrikwahl: Was ändert Türkei, Polen oder China? | 20 |
+| Mo 02.11. | Entscheidung | Versandweg entscheiden: einmal nach Deutschland oder direkt aus der Fabrik zu jedem Kunden? | 10 |
 | Di 03.11. | Entscheidung | FABRIK WÄHLEN: Scorecard mit Preis, Stickerei, Steuer und Zahlung | 45 |
 | Di 03.11. | Admin | EORI-Nummer beantragen, nur bei Türkei oder China | 30 |
 | Mi 04.11. | Produkt/Fabrik | Konditionen verhandeln, Proforma für die Entwicklung anfordern | 40 |
@@ -192,16 +194,18 @@ Die Woche vom 26.10. ist die Design-Suche, die Woche ab 02.11. der erste Teil vo
 
 ### 3.6 Docket und Zahlen
 
-- **Live ist Docket v35** (Rev. 6 mit Änderungen bis 27.10.): https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm. Ab Woche 7 ist er veraltet, Rev. 7 ersetzt ihn.
-- **Abgehakt sind 29 Aufgaben:** W1–W3 komplett (18), in W4 10 von 27, dazu die Teppichwahl am 27.10. In W5 und W6 ist nichts abgehakt (0 von 77), obwohl einiges erledigt ist, zum Beispiel ist der RL-Zipper gemessen. Die Bestandsaufnahme ist für heute geplant. Häkchen setzt nur Ernest oder Claude nach Rückfrage.
-- **Im Zahlen-Cockpit steht noch keine Zahl.** Warteliste, Follower, Zusagen und Bestellungen sind nicht eingetragen.
+- **Live ist Docket Rev. 7** (Version 37, seit Mi 28.10.): https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm. Neu darin: Design-Inventur, Content-Plan mit vollem Briefing für jedes Video, jede Story und jeden Countdown-Tag, alle 22 Mails fertig geschrieben, und eine Liste, was aus jeder alten Aufgabe geworden ist (394 übernommen, 82 mit Grund gestrichen, 248 durch den Content-Plan ersetzt).
+- **Abgehakt sind 29 Aufgaben**, alle aus v35 übernommen: W1–W3 komplett (18), in W4 10 von 27, dazu die Teppichwahl am 27.10. In W5 und W6 ist nichts abgehakt (0 von 77), obwohl einiges erledigt ist, zum Beispiel ist der RL-Zipper gemessen. Die Bestandsaufnahme ist für heute geplant. Häkchen setzt nur Ernest oder Claude nach Rückfrage.
+- **Im Zahlen-Cockpit steht noch keine Zahl.** Startwerte trägst du am So 29.11. ein, ab So 06.12. jeden Sonntag.
+- **Last:** im Schnitt rund 90 Minuten am Tag ab W7 (ohne Abi-Pause), an 42 Tagen mehr als zwei Stunden. Der Dezember ist der härteste Monat.
+- **Zwei Termine hängen an dir:** der Zipper-Papiertest (Mo 02.11., nur wenn du in Berlin bist) und die Fabrikwahl (Di 03.11., nur mit schriftlichem Preis).
 
-**Termine: Docket v35 gegen den Entwurf Rev. 7** (Rev. 7 = Claudes Vorschläge, noch nicht bestätigt)
+**Was Rev. 7 gegenüber v35 geändert hat**
 
-| Was | Docket v35 | Rev. 7 (Vorschlag) |
+| Was | Docket v35 | Docket Rev. 7 |
 |---|---|---|
 | Design-Suche | – | Mo 26.10. – So 01.11. |
-| Zipper-Papiertest | Mi 28.10. | Mo 02.11. (hängt an deiner Rückkehr) |
+| Zipper-Papiertest | Mi 28.10. | Mo 02.11. |
 | Fabrikwahl Jeans | Do 29.10. | Di 03.11., ohne schriftlichen Preis Fr 06.11. |
 | Design-Gate (alle Designs fertig) | – | So 29.11. |
 | Marketing-Start | lief seit 12.10. | Mo 30.11., bis dahin nur Material sammeln |
@@ -249,7 +253,7 @@ Die Artefakte sind privat und öffnen sich nur in Ernests Claude-Konto.
 
 | Was | Link | im Paket |
 |---|---|---|
-| Time Travel Drop Docket (v35, gepinnt) | https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm | `artefakte/docket_v35/` |
+| Time Travel Drop Docket (Rev. 7, gepinnt) | https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm | `artefakte/docket_rev7/`, lesbar als Markdown in `rev7/export/` |
 | REWIND · Video-Bibel (Claude Docs) | https://claude.ai/artifact/UEvQ2PrfHn8rwmujfURiTW | `artefakte/video_bibel/` als Markdown |
 | Messbogen RL-Zipper | https://claude.ai/artifact/HtgJUNUmfucqHemECDTTPS | `artefakte/messboegen/` mit den Werten |
 | Messbogen Eightyfive (Jeans, M) | https://claude.ai/artifact/TSPS4CYJW8RzbPcpZdxJB6 | `artefakte/messboegen/` mit den Werten |
@@ -269,11 +273,14 @@ Die Artefakte sind privat und öffnen sich nur in Ernests Claude-Konto.
 
 | Thema | Datei |
 |---|---|
+| Plan, Termine, Zahlen | `rev7/export/Docket_Rev7_Tagesplan.md` und `rev7/export/Cockpit_Rev7.md` (aktuell) |
 | Jeans, alles Technische | `pdf_texte/NVL-TT-01_TechPack_v1.0_DE.txt` (aktuell), Original-PDF in ZIP 2 |
 | Zipper | `rev6/research/zipper_briefing.md` (aktuell, 26.10.) |
 | Fabriken | `rev6/research/anfrage_fabriken_2026-10-17.md` (aktuell, 27.10.), `rev6/research/reports/Jeansfabriken mit Stickerei Top 5.md` |
 | Strategie, Zahlen, Zielgruppe | `rev6/strategie.md` (Grundlage, 17.10.) |
-| Videos und Content | `artefakte/video_bibel/Time_Travel_Video-Bibel.md` (Grundlage, die Termine darin sind alt), `rev6/research/content.md`, `rev6/briefs/` |
+| Videos und Content | `rev7/export/Content_Plan_Rev7.md` (aktuell, jedes Briefing komplett), dazu `artefakte/video_bibel/Time_Travel_Video-Bibel.md` (Grundlage, die Termine darin sind alt) |
+| Mails an die Liste | `rev7/export/Mails_Rev7.md` (aktuell) |
+| Design-Stand | `rev7/export/Design_Inventur.md` (aktuell, 27.10.) |
 | Website | `rev6/research/website.md` (Grundlage) |
 | Marke | `marke/SKILL_novalife-context.md` (Stand 17.10., siehe unten) |
 
@@ -292,8 +299,8 @@ Die Artefakte sind privat und öffnen sich nur in Ernests Claude-Konto.
 | `bilder/jeans/` | Mockup v19 (als JPG verkleinert), Visual | aktuell |
 | `bilder/zipper/` | Teppich A, Designvorschlag v0.2 Seite 1–6, Rückendruck 4 Wege, Abdruck mit Band oben, Papiertest-Übersicht | aktuell, außer dem Rückendruck-Umriss (vorläufig, bis die Abpausung da ist) |
 | `pdf_texte/` | Text der 8 aktuellen PDFs, damit ein Chat sie ohne ZIP 2 lesen kann (nur Text, ohne Bilder) | aktuell |
-| `artefakte/` | gesicherte Kopien der Artefakte (Abschnitt 5), Docket v35 als HTML mit den Häkchen als JSON, beide Messbögen mit den gespeicherten Werten | Docket ab W7 veraltet, der Rest wie in Abschnitt 5 |
-| `rev7_entwurf/` | Python-Datenmodule für Docket Rev. 7: Design-Wochen (`weeks_d.py`), Marketing-Wochen (`weeks_m.py`), spätere Wochen (`weeks_px.py`), Video- und Story-Briefings (`c_*.py`, `clib.py`), Mails E00–E21 (`mails.py`), Design-Inventur (`inventur7.py`), Cockpit (`kpi7.py`). Liest `weeks_v35.json`. | **Entwurf, unfertig, nicht veröffentlicht.** Nicht als Plan verwenden. |
+| `artefakte/` | gesicherte Kopien der Artefakte (Abschnitt 5): Docket Rev. 7 als HTML mit den Häkchen als JSON, beide Messbögen mit den gespeicherten Werten, Tech Pack, Weltenbaum, Website-Prototyp, Faden, Video-Bibel | aktuell, außer wo Abschnitt 5 „historisch“ sagt |
+| `rev7/` | Quellcode des Dockets Rev. 7 (Python-Datenmodule, Seitenbau) und `rev7/export/` mit Tagesplan, Content-Plan, Mails, Design-Inventur und Cockpit als Markdown | aktuell |
 
 Nur in der ZIP, nicht auf GitHub: `bilder/` und `pdf_texte/` (beide aus den PDFs abgeleitet) und `marke/` (Kopie von `novalife/novalife-context/SKILL.md`). Auf GitHub liegen die PDFs in `novalife/time-travel/pdf/`.
 
@@ -314,7 +321,7 @@ Nur in der ZIP, nicht auf GitHub: `bilder/` und `pdf_texte/` (beide aus den PDFs
 Damit kein Chat mit alten Designs arbeitet:
 
 - Alte Design-Stände `design/v15` bis `v18`, `old11`, `old13`, `old14`, `proto`.
-- Alter Docket-Generator `r5/`, `fitcanvas/`, `live_weeks_r41.json`, `rev6/docket_rev6.html`.
+- Alter Docket-Generator `r5/`, `fitcanvas/`, `live_weeks_r41.json`, `rev6/docket_rev6.html` und der Docket v35 als Seite (`artefakte/docket_v35/`, nur auf GitHub).
 - Alte PDFs: Druckvorlagen 1zu1, v15, v17, v18, `Serp_v17.png`, Papiertest Patch-Schlaufe, Zipper-Designvorschlag v0.1.
 - Die zwei alten ZIPs vom 07.10. und die alten Hinweise `LIESMICH.md` und `UEBERNAHME-07-10.md`.
 - Das Mockup v19 als PNG in voller Größe (4,9 MB). Im Paket liegt es als JPG.

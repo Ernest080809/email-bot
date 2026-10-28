@@ -1,0 +1,248 @@
+<title>Messbogen RL-Zipper</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: Messbogen wie ein Werkstattblatt, Schwesterblatt zur Eightyfive. Oben drei Skizzen mit nummerierten Messpunkten, darunter die Felder in derselben Nummerierung */
+:root{
+  --bg:#f2f4f7; --surface:#ffffff; --ink:#172031; --muted:#566076; --line:#d7dce5;
+  --copper:#9c5a30; --stitch:#c9976f; --red:#a8302a; --ok:#2c6e4c; --warn:#9a5410;
+  --garment:#eee7d8; --garment-line:#7a6a52; --zip:#4b3a2c;
+  --f-display:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e131b; --surface:#151c27; --ink:#e4e8ef; --muted:#9aa3b4; --line:#283244;
+    --copper:#e09f6c; --stitch:#7d5c42; --red:#e8766f; --ok:#73c899; --warn:#eaa95f;
+    --garment:#2a2620; --garment-line:#c4b39a; --zip:#cdb99e; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e131b; --surface:#151c27; --ink:#e4e8ef; --muted:#9aa3b4; --line:#283244;
+  --copper:#e09f6c; --stitch:#7d5c42; --red:#e8766f; --ok:#73c899; --warn:#eaa95f;
+  --garment:#2a2620; --garment-line:#c4b39a; --zip:#cdb99e; color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+#app{max-width:860px;margin:0 auto;padding-block:28px 56px;display:flex;flex-direction:column;gap:22px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin:0 0 6px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(32px,7vw,44px);line-height:1.04;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:10px 0 0;max-width:64ch}
+.rules{margin:0;padding:14px 16px 14px 34px;background:var(--surface);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;gap:4px}
+.status{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+.status .count{font-family:var(--f-display);font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}
+.save{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.save.saved{color:var(--ok)} .save.pending,.save.saving{color:var(--warn)} .save.err{color:var(--red)}
+.figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
+.fig{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 10px 6px}
+.fig figcaption{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center}
+.fig svg{display:block;width:100%;height:auto;max-width:100%}
+.gm{fill:var(--garment);stroke:var(--garment-line);stroke-width:1.6}
+.hole{fill:var(--surface);stroke:var(--garment-line);stroke-width:1.4}
+.sm{fill:none;stroke:var(--garment-line);stroke-width:1.1}
+.st{fill:none;stroke:var(--garment-line);stroke-width:0.9;stroke-dasharray:3 2.4;opacity:.8}
+.rib{fill:none;stroke:var(--garment-line);stroke-width:0.6;opacity:.55}
+.pk{fill:none;stroke:var(--garment-line);stroke-width:1.4}
+.cd{fill:none;stroke:var(--garment-line);stroke-width:1.5;stroke-linecap:round}
+.zp{fill:none;stroke:var(--zip);stroke-width:2.8;stroke-dasharray:1.2 0.9}
+.zl{fill:none;stroke:var(--zip);stroke-width:0.8}
+.lp{fill:var(--garment);stroke:var(--garment-line);stroke-width:1}
+.bt{fill:var(--copper)}
+.ml{stroke:var(--copper);stroke-width:1.5;fill:none}
+.ml.dash{stroke-dasharray:3 3;stroke-width:1}
+.bd circle{fill:var(--copper)}
+.bd text{fill:var(--surface);font-family:var(--f-mono);font-size:9.5px;font-weight:500;text-anchor:middle}
+.group{display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:2px dashed var(--stitch)}
+h2{font-family:var(--f-display);font-size:24px;font-weight:700;margin:0}
+.gnote{margin:0;color:var(--muted);font-size:15px}
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{display:grid;grid-template-columns:30px minmax(0,1fr) 128px;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.num{width:26px;height:26px;border-radius:50%;background:var(--copper);color:var(--surface);font-family:var(--f-mono);font-size:12px;display:grid;place-items:center}
+.row label{font-weight:600;display:block}
+.how{margin:2px 0 0;color:var(--muted);font-size:14px}
+.warn{margin:4px 0 0;color:var(--warn);font-size:14px}
+.field{display:flex;align-items:center;gap:6px}
+.field input{width:100%;min-width:0;font:inherit;font-family:var(--f-mono);font-size:16px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);text-align:right}
+.field span{font-family:var(--f-mono);font-size:12px;color:var(--muted);min-width:34px}
+.row.wide{grid-template-columns:minmax(0,1fr)}
+.row.wide .field input{text-align:left}
+.row.filled{border-color:color-mix(in srgb, var(--ok) 45%, var(--line))}
+input:focus-visible,button:focus-visible{outline:2px solid var(--copper);outline-offset:2px}
+.copy{display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:2px dashed var(--stitch)}
+.copy button{align-self:flex-start;font:inherit;font-weight:600;padding:10px 16px;border-radius:8px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer;min-height:42px}
+.copy pre{margin:0;white-space:pre-wrap;word-break:break-word;font-family:var(--f-mono);font-size:13px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px}
+@media (max-width:760px){.figs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.figs{grid-template-columns:minmax(0,1fr)} .row{grid-template-columns:30px minmax(0,1fr)} .row .field{grid-column:2}}
+</style>
+<main id="app"></main>
+<template id="svg-front"><svg viewBox="0 0 360 400" role="img" aria-label="Zipper von vorn mit Messpunkten"><title>Zipper von vorn mit Messpunkten</title>
+<path class="gm" d="M150 92L92 112L42 336L74 344L98 178L100 372L260 372L262 178L286 344L318 336L268 112L210 92Z"></path>
+<path class="sm" d="M92 112L98 178M268 112L262 178M47 314L77 324M313 314L283 324M100 350L260 350"></path>
+<path class="rib" d="M108 352V370M116 352V370M124 352V370M132 352V370M140 352V370M148 352V370M156 352V370M164 352V370M172 352V370M188 352V370M196 352V370M204 352V370M212 352V370M220 352V370M228 352V370M236 352V370M244 352V370M252 352V370"></path>
+<path class="gm" d="M150 92C128 70 132 24 180 14C228 24 232 70 210 92Z"></path>
+<path class="st" d="M180 130C157 120 145 88 151 60C157 33 203 33 209 60C215 88 203 120 180 130"></path>
+<path class="hole" d="M180 122C162 114 152 88 158 62C163 42 197 42 202 62C208 88 198 114 180 122Z"></path>
+<path class="zl" d="M180 122V372"></path><path class="zp" d="M180 124V372"></path>
+<rect class="lp" x="175" y="117" width="10" height="10" rx="2"></rect>
+<path class="cd" d="M170 116C168 135 167 150 167 166M190 116C192 135 193 150 193 166"></path>
+<circle class="bt" cx="170" cy="116" r="2.2"></circle><circle class="bt" cx="190" cy="116" r="2.2"></circle>
+<rect class="bt" x="165" y="165" width="4" height="9" rx="1"></rect><rect class="bt" x="191" y="165" width="4" height="9" rx="1"></rect>
+<path class="pk" d="M122 262L138 318M238 262L222 318"></path>
+<path class="st" d="M127 261L143 317M233 261L217 317"></path>
+<path class="ml" d="M99 188H261M99 184V192M261 184V192"></path>
+<path class="ml" d="M100 342H260M100 338V346M260 338V346"></path>
+<path class="ml" d="M100 384H260M100 380V388M260 380V388"></path>
+<path class="ml" d="M75.5 186H96.8M75.5 182V190M96.8 182V190"></path>
+<path class="ml" d="M40 346L72 354"></path>
+<path class="ml dash" d="M210 92H240"></path><path class="ml" d="M240 92V372M236 92H244M236 372H244"></path>
+<path class="ml" d="M278 110L328 334"></path>
+<path class="ml" d="M258 114L253 176"></path>
+<path class="ml" d="M200 122V372M196 122H204M196 372H204"></path>
+<path class="ml dash" d="M144 122H175"></path><path class="ml" d="M144 92V122M140 92H148M140 122H148"></path>
+<path class="ml" d="M108 350V372M104 350H112M104 372H112"></path>
+<path class="ml" d="M321 312L326 334"></path>
+<path class="ml" d="M114 264L130 320"></path>
+<path class="ml" d="M146 318V350M142 318H150M142 350H150"></path>
+<path class="ml" d="M132 296H180M132 292V300M180 292V300"></path>
+<g class="bd"><circle cx="128" cy="188" r="8"></circle><text x="128" y="191.6">1</text></g>
+<g class="bd"><circle cx="128" cy="342" r="8"></circle><text x="128" y="345.6">2</text></g>
+<g class="bd"><circle cx="128" cy="384" r="8"></circle><text x="128" y="387.6">3</text></g>
+<g class="bd"><circle cx="62" cy="180" r="8"></circle><text x="62" y="183.6">4</text></g>
+<g class="bd"><circle cx="28" cy="352" r="8"></circle><text x="28" y="355.6">5</text></g>
+<g class="bd"><circle cx="240" cy="232" r="8"></circle><text x="240" y="235.6">6</text></g>
+<g class="bd"><circle cx="303" cy="222" r="8"></circle><text x="303" y="225.6">9</text></g>
+<g class="bd"><circle cx="246" cy="146" r="8"></circle><text x="246" y="149.6">10</text></g>
+<g class="bd"><circle cx="200" cy="300" r="8"></circle><text x="200" y="303.6">11</text></g>
+<g class="bd"><circle cx="132" cy="107" r="8"></circle><text x="132" y="110.6">16</text></g>
+<g class="bd"><circle cx="90" cy="361" r="8"></circle><text x="90" y="364.6">17</text></g>
+<g class="bd"><circle cx="340" cy="322" r="8"></circle><text x="340" y="325.6">18</text></g>
+<g class="bd"><circle cx="106" cy="292" r="8"></circle><text x="106" y="295.6">19</text></g>
+<g class="bd"><circle cx="160" cy="334" r="8"></circle><text x="160" y="337.6">20</text></g>
+<g class="bd"><circle cx="156" cy="296" r="8"></circle><text x="156" y="299.6">21</text></g>
+</svg></template>
+<template id="svg-back"><svg viewBox="0 0 360 400" role="img" aria-label="Zipper von hinten mit Messpunkten"><title>Zipper von hinten mit Messpunkten</title>
+<path class="gm" d="M150 92L92 112L42 336L74 344L98 178L100 372L260 372L262 178L286 344L318 336L268 112L210 92Z"></path>
+<path class="sm" d="M92 112L98 178M268 112L262 178M47 314L77 324M313 314L283 324M100 350L260 350"></path>
+<path class="rib" d="M108 352V370M116 352V370M124 352V370M132 352V370M140 352V370M148 352V370M156 352V370M164 352V370M172 352V370M180 352V370M188 352V370M196 352V370M204 352V370M212 352V370M220 352V370M228 352V370M236 352V370M244 352V370M252 352V370"></path>
+<path class="gm" d="M150 92C126 104 116 142 132 168C148 190 212 190 228 168C244 142 234 104 210 92Z"></path>
+<path class="sm" d="M180 96V186"></path>
+<path class="st" d="M150 96C130 108 122 142 136 165C150 184 210 184 224 165C238 142 230 108 210 96"></path>
+<path class="ml" d="M92 104H268M92 100V108M268 100V108"></path>
+<path class="ml dash" d="M166 96H180"></path><path class="ml" d="M166 96V372M162 96H170M162 372H170"></path>
+<path class="ml" d="M194 96V187M190 96H198M190 187H198"></path>
+<path class="ml" d="M121 146H239M121 142V150M239 142V150"></path>
+<g class="bd"><circle cx="166" cy="280" r="8"></circle><text x="166" y="283.6">7</text></g>
+<g class="bd"><circle cx="110" cy="104" r="8"></circle><text x="110" y="107.6">8</text></g>
+<g class="bd"><circle cx="194" cy="118" r="8"></circle><text x="194" y="121.6">14</text></g>
+<g class="bd"><circle cx="140" cy="146" r="8"></circle><text x="140" y="149.6">15</text></g>
+</svg></template>
+<template id="svg-hood"><svg viewBox="0 0 220 200" role="img" aria-label="Kapuze seitlich flach gelegt mit Messpunkten"><title>Kapuze seitlich flach gelegt mit Messpunkten</title>
+<path class="gm" d="M44 182C40 120 44 70 62 36C82 14 132 14 156 40C176 64 182 110 176 150C172 168 160 178 140 180Z"></path>
+<path class="st" d="M53 178C49 120 53 74 69 44"></path>
+<circle class="bt" cx="54" cy="166" r="2.2"></circle><path class="cd" d="M54 166C52 176 50 186 50 194"></path>
+<path class="ml dash" d="M110 17H196M140 181H196"></path><path class="ml" d="M196 17V181M192 17H200M192 181H200"></path>
+<path class="ml" d="M44 92H180M44 88V96M180 88V96"></path>
+<g class="bd"><circle cx="196" cy="100" r="8"></circle><text x="196" y="103.6">12</text></g>
+<g class="bd"><circle cx="112" cy="92" r="8"></circle><text x="112" y="95.6">13</text></g>
+</svg></template>
+<script type="application/json" id="fields">{"groups": [
+{"title": "Weiten", "note": "Flach von Kante zu Kante messen, nicht verdoppeln. Rippen nicht dehnen.", "items": [
+{"k": "brust", "n": 1, "t": "Brustweite", "how": "Reißverschluss zu. 2,5 cm unter den Achseln, waagerecht von Seitenkante zu Seitenkante.", "min": 46, "max": 76, "unit": "cm"},
+{"k": "weite_rippe", "n": 2, "t": "Weite über der Saumrippe", "how": "Direkt über der Naht, an der die Saumrippe angenäht ist, von Kante zu Kante.", "min": 42, "max": 76, "unit": "cm"},
+{"k": "saum", "n": 3, "t": "Saumweite", "how": "Unterkante der Saumrippe, entspannt liegend, nicht gedehnt.", "min": 36, "max": 72, "unit": "cm"},
+{"k": "oberarm", "n": 4, "t": "Oberarm", "how": "Ein Ärmel, 2,5 cm unter der Achsel, quer zum Ärmel.", "min": 16, "max": 34, "unit": "cm"},
+{"k": "buendchen", "n": 5, "t": "Ärmelbündchen", "how": "Ein Ärmel, ganz unten an der Rippe, entspannt, von Kante zu Kante.", "min": 6, "max": 15, "unit": "cm"}]},
+{"title": "Längen", "note": "Das Maßband liegt gerade, nicht über Falten.", "items": [
+{"k": "laenge_vorn", "n": 6, "t": "Länge vorn", "how": "Vom höchsten Punkt der Schulter an der Kapuzennaht senkrecht nach unten bis zur Unterkante der Saumrippe.", "min": 58, "max": 86, "unit": "cm"},
+{"k": "ruecken", "n": 7, "t": "Rückenlänge Mitte", "how": "Kapuze nach vorn klappen. Hinten in der Mitte von der Kapuzennaht bis zur Unterkante der Saumrippe.", "min": 56, "max": 84, "unit": "cm"},
+{"k": "schulter", "n": 8, "t": "Schulterbreite", "how": "Hinten, von Schulternaht zu Schulternaht, dort wo der Ärmel angenäht ist.", "min": 38, "max": 68, "unit": "cm"},
+{"k": "aermel", "n": 9, "t": "Ärmellänge", "how": "Von der Schulternaht oben am Ärmel entlang bis zum Ende der Rippe.", "min": 48, "max": 76, "unit": "cm"},
+{"k": "armloch", "n": 10, "t": "Armloch gerade", "how": "Gerade Linie von der Schulternaht bis zur Achsel, entlang der Ärmelnaht.", "min": 19, "max": 35, "unit": "cm"},
+{"k": "zip", "n": 11, "t": "Reißverschluss", "how": "Sichtbare Länge der Zähne, vom unteren Ende bis ganz oben.", "min": 48, "max": 80, "unit": "cm"}]},
+{"title": "Kapuze", "note": "Die Kapuze hat ihre eigene Skizze. 14 und 15 legen fest, wo der Druck unter der Kapuze hinkommt.", "items": [
+{"k": "kapuze_hoehe", "n": 12, "t": "Kapuzenhöhe", "how": "Kapuze seitlich flach hinlegen. Von der Naht am Hals bis zum höchsten Punkt.", "min": 28, "max": 46, "unit": "cm"},
+{"k": "kapuze_breite", "n": 13, "t": "Kapuzenbreite", "how": "Kapuze seitlich flach. Von der vorderen Kante bis zur hinteren Naht, an der breitesten Stelle.", "min": 19, "max": 34, "unit": "cm"},
+{"k": "kapuze_liegt", "n": 14, "t": "Liegende Kapuze, Tiefe", "how": "Zipper anziehen oder flach mit Kapuze nach hinten: von der Kapuzennaht hinten Mitte bis zum tiefsten Punkt der liegenden Kapuze.", "min": 14, "max": 40, "unit": "cm"},
+{"k": "kapuze_liegt_breite", "n": 15, "t": "Liegende Kapuze, Breite", "how": "Kapuze liegt hinten: breiteste Stelle von links nach rechts.", "min": 22, "max": 48, "unit": "cm"},
+{"k": "ausschnitt", "n": 16, "t": "Ausschnitt vorn", "how": "Vom höchsten Punkt der Schulter an der Kapuzennaht senkrecht nach unten bis zum oberen Ende des Reißverschlusses.", "min": 3, "max": 18, "unit": "cm"}]},
+{"title": "Details", "note": "Für Rippen, Taschen und den Stern auf der Saumrippe.", "items": [
+{"k": "rippe_saum", "n": 17, "t": "Saumrippe, Höhe", "how": "Von der Annähnaht bis zur Unterkante. Der Stern braucht mindestens 5 cm.", "min": 2.5, "max": 12, "unit": "cm"},
+{"k": "rippe_aermel", "n": 18, "t": "Ärmelrippe, Höhe", "how": "Von der Annähnaht bis zum Ende des Ärmels.", "min": 2.5, "max": 12, "unit": "cm"},
+{"k": "tasche_eingriff", "n": 19, "t": "Tasche, Eingriff", "how": "Länge der Taschenöffnung, eine Tasche.", "min": 10, "max": 24, "unit": "cm"},
+{"k": "tasche_rippe", "n": 20, "t": "Tasche über der Saumrippe", "how": "Von der Annähnaht der Saumrippe senkrecht nach oben bis zum unteren Ende der Taschenöffnung.", "min": 0, "max": 18, "unit": "cm"},
+{"k": "tasche_zip", "n": 21, "t": "Tasche bis Reißverschluss", "how": "Waagerecht vom Reißverschluss bis zum nächsten Punkt der Taschenöffnung.", "min": 1, "max": 18, "unit": "cm"},
+{"k": "gewicht", "n": 22, "t": "Gewicht, ganzer Zipper", "how": "Mit der Küchenwaage. Daraus schätze ich die Stoffstärke. Keine Skizze.", "min": 400, "max": 1500, "unit": "g"}]}
+], "label": [
+{"k": "material", "t": "Material laut Pflegeetikett", "ph": "z. B. 80 % Baumwolle, 20 % Polyester"},
+{"k": "groesse", "t": "Größe auf dem Etikett", "ph": "z. B. M"},
+{"k": "anders", "t": "Was soll an unserem Zipper anders sein als an deinem RL?", "ph": "z. B. Schultern tiefer, Brust etwas weiter, Länge gleich"}
+]}</script>
+<script>(function(){
+  var F=JSON.parse(document.getElementById('fields').textContent);
+  var app=document.getElementById('app');
+  var DOC='messungen/rl-zipper', LS='nvl-messbogen-rl';
+  var vals={}, dirty={}, focusKey=null, ref=null, mode='wait', timer=null, writing=false, again=false, retried=false;
+  try{vals=JSON.parse(localStorage.getItem(LS)||'{}')||{};}catch(e){vals={};}
+  var NUM=[];F.groups.forEach(function(g){g.items.forEach(function(it){NUM.push(it);});});
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
+  function num(v){if(v==null)return NaN;var s=String(v).trim().replace(',','.');return s===''?NaN:Number(s);}
+  function statusText(){return {wait:'Verbindet …',local:'Speichern hier nicht möglich. Unten kopieren und mir schicken.',ro:'Nur lesen',saved:'Gespeichert, Claude kann es lesen',pending:'Noch nicht gespeichert',saving:'Speichert …',err:'Speichern fehlgeschlagen, unten kopieren'}[mode]||'';}
+  function setMode(m){mode=m;var s=document.getElementById('save');if(s){s.className='save '+m;s.textContent=statusText();}}
+  function filledCount(){return NUM.filter(function(it){return !isNaN(num(vals[it.k]));}).length;}
+  function unitSuffix(u){return u==='cm'?' cm':(u==='g'?' g':'');}
+  function warnText(it){var v=num(vals[it.k]);if(isNaN(v))return '';
+    if(it.k==='rippe_saum'&&v<5&&v>=it.min)return 'Unter 5 cm passt der Stern nicht auf die Rippe. Wert stimmt? Dann wird unsere Rippe höher.';
+    if(v<it.min||v>it.max){if(it.k==='gewicht')return 'Ungewöhnliches Gewicht, bitte noch mal wiegen.';
+      return it.k==='brust'&&v>it.max?'Ungewöhnlich groß. Hast du den ganzen Umfang gemessen? Gemeint ist flach von Kante zu Kante.':'Ungewöhnlicher Wert, bitte noch mal messen.';}return '';}
+  function refreshRow(it){var r=document.getElementById('row-'+it.k);if(!r)return;var w=r.querySelector('.warn');var t=warnText(it);w.textContent=t;w.hidden=!t;
+    r.classList.toggle('filled',!isNaN(num(vals[it.k])));}
+  function refreshCount(){var c=document.getElementById('cnt');if(c)c.textContent=filledCount()+' von '+NUM.length+' Maßen';var p=document.getElementById('sum');if(p)p.textContent=summary();}
+  function onInput(k,v){vals[k]=v;dirty[k]=true;try{localStorage.setItem(LS,JSON.stringify(vals));}catch(e){}
+    NUM.forEach(function(it){if(it.k===k)refreshRow(it);});refreshCount();schedule();}
+  function input(k,ph,isNum){var i=el('input');i.id='in-'+k;i.type='text';if(isNum){i.inputMode='decimal';i.autocomplete='off';}i.placeholder=ph||'';i.value=vals[k]||'';
+    i.addEventListener('input',function(){onInput(k,i.value);});i.addEventListener('focus',function(){focusKey=k;});i.addEventListener('blur',function(){focusKey=null;});return i;}
+  function summary(){var lines=['RL-Zipper, flach gemessen:'];
+    NUM.forEach(function(it){var v=vals[it.k];if(v&&String(v).trim())lines.push(it.n+' '+it.t+': '+String(v).trim()+unitSuffix(it.unit));});
+    F.label.forEach(function(l){var v=vals[l.k];if(v&&String(v).trim())lines.push(l.t+': '+String(v).trim());});
+    return lines.join('\n');}
+  function render(){
+    var h=el('header');h.append(el('p','eyebrow','Novalife · Time Travel · NVL-TT-02 Zipper'),el('h1',null,'Messbogen RL-Zipper'),
+      el('p','lede','Dein weißer Ralph-Lauren-Zipper wird die Basis für unseren eigenen Schnitt. Daraus rechne ich die Passform: Schultern 3–5 cm überschnitten, Länge wie ein normaler Slim Fit, Ärmel normal lang. Jeder Wert speichert sich beim Tippen, ich lese ihn danach aus.'));
+    app.append(h);
+    var ol=el('ol','rules');['Zipper flach auf einen Tisch legen, Reißverschluss zu, Kapuze nach hinten.','Glatt streichen, nicht am Stoff ziehen, Rippen nicht dehnen.','In Zentimetern, auf einen halben Zentimeter genau. Komma oder Punkt geht beides.','Weiten nie verdoppeln: nur einmal von Kante zu Kante.','Fotos im Chat schicken: vorn flach, hinten flach mit liegender Kapuze, Kapuze seitlich, eine Tasche von nah, Saumrippe mit Maßband, Etikett innen.'].forEach(function(t){ol.append(el('li',null,t));});
+    app.append(ol);
+    var st=el('div','status');var c=el('span','count');c.id='cnt';var s=el('span','save '+mode,statusText());s.id='save';s.setAttribute('role','status');st.append(c,s);app.append(st);
+    var figs=el('div','figs');[['Vorn','svg-front'],['Hinten','svg-back'],['Kapuze seitlich','svg-hood']].forEach(function(f){var fg=el('figure','fig');fg.innerHTML=document.getElementById(f[1]).innerHTML;fg.append(el('figcaption',null,f[0]));figs.append(fg);});
+    app.append(figs);
+    F.groups.forEach(function(g){var sec=el('section','group');sec.append(el('h2',null,g.title),el('p','gnote',g.note));var rows=el('div','rows');
+      g.items.forEach(function(it){var r=el('div','row');r.id='row-'+it.k;var n=el('span','num',String(it.n));n.setAttribute('aria-hidden','true');
+        var b=el('div');b.style.minWidth='0';var lab=el('label',null,it.n+'. '+it.t);lab.htmlFor='in-'+it.k;var w=el('p','warn');w.hidden=true;b.append(lab,el('p','how',it.how),w);
+        var fd=el('div','field');fd.append(input(it.k,'',true),el('span',null,it.unit));r.append(n,b,fd);rows.append(r);});
+      sec.append(rows);app.append(sec);});
+    var sec=el('section','group');sec.append(el('h2',null,'Etikett und Gefühl'),el('p','gnote','Vom Pflegeetikett innen. Ist viel Polyester drin, fällt unser Baumwoll-Sweat anders, dann gleiche ich das aus.'));
+    var rows=el('div','rows');F.label.forEach(function(l){var r=el('div','row wide');var b=el('div');var lab=el('label',null,l.t);lab.htmlFor='in-'+l.k;b.append(lab);var fd=el('div','field');fd.append(input(l.k,l.ph,false));b.append(fd);r.append(b);rows.append(r);});
+    sec.append(rows);app.append(sec);
+    var cp=el('section','copy');cp.append(el('h2',null,'Als Text'),el('p','gnote','Falls das Speichern nicht klappt: kopieren und mir im Chat schicken.'));
+    var btn=el('button',null,'Text kopieren');btn.type='button';btn.id='copybtn';var pre=el('pre');pre.id='sum';pre.textContent=summary();
+    btn.addEventListener('click',function(){var t=summary();pre.textContent=t;
+      try{navigator.clipboard.writeText(t).then(function(){btn.textContent='Kopiert';setTimeout(function(){btn.textContent='Text kopieren';},1800);},function(){selectPre(pre);});}catch(e){selectPre(pre);}});
+    cp.append(btn,pre);app.append(cp);
+    NUM.forEach(refreshRow);refreshCount();
+  }
+  function selectPre(pre){var r=document.createRange();r.selectNodeContents(pre);var s=window.getSelection();s.removeAllRanges();s.addRange(r);}
+  function schedule(){if(!ref){if(mode==='wait')setMode('local');return;}if(mode==='ro')return;setMode('pending');clearTimeout(timer);timer=setTimeout(flush,1000);}
+  function flush(){if(!ref)return;if(writing){again=true;return;}writing=true;setMode('saving');var sent=Object.assign({},dirty);
+    ref.set({values:Object.assign({},vals),updated:new Date().toISOString()}).then(function(){writing=false;Object.keys(sent).forEach(function(k){delete dirty[k];});
+      if(again){again=false;flush();}else setMode('saved');},function(e){writing=false;var c=e&&e.code;
+      if(c==='unavailable'&&!retried){retried=true;setTimeout(flush,700+Math.random()*900);return;}
+      if(c==='invalid_argument'||c==='not_granted'||c==='revoked'){setMode('ro');return;}setMode('err');});}
+  render();
+  var cl=window.claude;
+  if(cl&&typeof cl.use==='function'){cl.use('db').then(function(db){if(!db){setMode('local');return;}ref=db.doc(DOC);setMode('saved');
+    ref.onSnapshot(function(snap){if(!snap.exists)return;var d=snap.data()||{};var v=d.values||{};
+      Object.keys(v).forEach(function(k){if(k===focusKey||dirty[k])return;if(vals[k]===v[k])return;vals[k]=v[k];var i=document.getElementById('in-'+k);if(i)i.value=v[k];});
+      try{localStorage.setItem(LS,JSON.stringify(vals));}catch(e){}NUM.forEach(refreshRow);refreshCount();},function(){setMode('err');});},function(){setMode('local');});}
+  else{setMode('local');}
+})();
+</script>

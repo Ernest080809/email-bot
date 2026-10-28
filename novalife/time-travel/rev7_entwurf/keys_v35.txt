@@ -1,0 +1,725 @@
+w7d0t0	N				VERSCHOBEN 21.10.: Fabrik entscheiden auf Do 29.10. (deine Entscheidung). NTC ist raus, du hast den Verlauf am
+w7d0t1	A	30			Nur bei Türkei: EORI-Nummer heute beantragen
+w7d0t2	V	15			Fotos an die Papierabend-Gäste, Bitte um Story mit eigenem Link
+w7d0t3	C	20		V007	18:00 · BUILD V007 „8 Fabriken angeschrieben“ (DE-Hook-Test)
+w7d0t4	C	20		R01M	18:00 · Making-of REWIND #01 posten: Rohaufnahme neben Endfassung
+w7d0t5	N				Info · Claude zeichnet den Teppich in zwei Farbvarianten (wie bei Oma, ausgeblichen) und baut die Papiertest-D
+w7d1t0	N				VERSCHOBEN 21.10.: Konditionen verhandeln und Proforma anfordern auf Fr 30.10.
+w7d1t1	N				VERSCHOBEN 21.10.: Absagen und Nr. 2 warm halten auf Fr 30.10.
+w7d1t2	C	5		Story 5	Story 5: Patch-Papier als Gürtelschlaufe, Schieberegler „Wie sehr würdest du das tragen?“
+w7d1t3	V	40			Gespräche 8 und 9 à 20 Min. (fehlende Segmente zuerst)
+w7d1t4	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w7d1t5	C	10	+	V121	18:00 · Grind+ · V121 „Warteliste-Stand“ (nur echte Zahl)
+w7d1t6	D	15			Teppich-Variante wählen: wie bei Oma oder ausgeblichen
+w7d2t0	B	45			Patch-Hersteller anfragen: 3 Anbieter mit feinen Mehrton-Patches
+w7d2t1	C	20		V008	18:00 · ORIGIN V008 „Die Goldfäden“ posten
+w7d2t2	B	60			Papiertest Zipper auf dem RL: Teppich, Muster E, Stern
+w7d3t0	N				VERSCHOBEN 23.10.: Berliner Sticker auswählen gilt nur noch fürs Polo und kommt mit der Polo-Klärung ab Di 17.
+w7d3t1	N				ENTFÄLLT 23.10.: Digitizing beim Berliner Sticker. Der Stern auf der Zipper-Rippe nutzt die Stickdatei von C a
+w7d3t2	V	20			Netz-Runde 2 (N2): einmal erinnern, Eingetragene um 3 Links bitten
+w7d3t3	C	5		Story 6	Story 6: „Was wäre fair?“ 129 · 149 · 169 · 189 €, dazu Tally-Link
+w7d3t4	V	20			Gespräch 10 à 20 Min., Gesprächsrunde abschließen
+w7d3t5	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w7d3t6	C	10	+	V120	18:00 · Grind+ · V120 „Die eine Frage an Fabriken“
+w7d3t7	C	15		R02	19:00 · REWIND #02 „Ich klatsche, die Zeit bleibt stehen“ posten
+w7d3t8	D	45			FABRIK ENTSCHEIDEN: Scorecard mit Steuer und Zahlung, Nr. 2 Reserve
+w7d4t0	A	5			EORI: nur Kontrolle, ob der Antrag läuft (Portugal: entfällt)
+w7d4t1	D	5			Gate · Bei Türkei: Proforma angefordert? Bis Mo 02.11. muss sie da sein
+w7d4t2	C	20		V009	18:00 · REAL V009 „Was eine Jeans kostet“ (DE-Hook-Test)
+w7d4t3	C	60		R03	Dreh · REWIND #03 „Rückwärts durch Berlin“ (Rückwärts)
+w7d4t4	B	40			Konditionen verhandeln, Proforma anfordern (Türkei: bis 12:00)
+w7d4t5	B	15			Absagen an die anderen, Nr. 2 warm halten
+w7d4t6	A	20			Zipper-Anfrage prüfen und senden: Jeansfabriken und Portugal
+w7d5t0	A	30			Zahlen für die Validierung sammeln: Anmeldungen, Views, Quote
+w7d5t1	V	20			Gespräche, Tally und Storys an Claude: Markenkriterien 1–3
+w7d5t2	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w7d5t3	N				Info · B-Zeitachse aus Referenz „Wochenziele, Gates“ 7.4 gilt bei jedem Gate „schieben“
+w7d6t0	A	40			VALIDIERUNG + Wochenreview W7: Liste, Zusagen, Views, Kasse, Cockpit
+w7d6t1	D	5			Gate · VALIDIERUNG: grün ≥ 150 · gelb 50–149 · rot < 50
+w7d6t2	V	90	+		Grind+ · Vintage & Heritage Market im Ballhaus Berlin (nach den Zahlen)
+w7d6t3	C	25		V010	Batch W8 1/3 · V010 „Die Fabrik steht“ (Mac + Schreibtisch)
+w7d6t4	C	25		V011	Batch W8 2/3 · V011 „Der Achtstern“ (nur mit Beleg, sonst V117)
+w7d6t5	C	25		V012	Batch W8 3/3 · V012 „Ein einziges Thema“ (Schreibtisch)
+w8d0t0	B	30			09:00 · Proforma prüfen und Entwicklung bezahlen (nur grün/gelb)
+w8d0t1	C	15			15:00 · Werkstatt-Mail 1 an die Liste: Ergebnis der Validierung
+w8d0t2	C	20		V010	18:00 · V010 posten: BUILD Day 22 „Die Fabrik steht“
+w8d0t3	B	20			Samtprobe bestellen: bedruckter Baumwollsamt, etwa A4
+w8d1t0	B	45			09:00 · Dateien an die Fabrik, Shade Card und 3 Lab Dips anfordern
+w8d1t1	C	5		Story 7	12:00 · Story 7: Umfrage „Was zuerst?“ Jeans · Zipper · Polo
+w8d1t2	V	10			Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w8d1t3	C	10	+	V110	18:00 · Grind+ · V110 Karussell „Achtstern“ (nur mit Beleg)
+w8d1t4	C	15		R03	19:00 · REWIND #03 „Rückwärts durch Berlin“ posten
+w8d2t0	A	15			09:00 · Labels, Hangtag-Karte „Bedeutung innen“, Patch-Datei bei Claude
+w8d2t1	V	30			10:00 · Hochschul-Mails H1 an HTW, ESMOD, AMD, Weißensee
+w8d2t2	C	20		V011	18:00 · V011 posten: ORIGIN „Der Achtstern“
+w8d3t0	A	30			09:00 · Labels freigeben und an die Fabrik
+w8d3t1	V	15			10:00 · Ort für den Stick-Abend Fr 27.11. anfragen
+w8d3t2	C	5		Story 8	12:00 · Story 8: „Wie würdest du dieses Band nennen?“
+w8d3t3	V	10			Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w8d3t4	C	10	+	V113	18:00 · Grind+ · V113 „Mein Fehler: die realistische Szene“
+w8d4t0	B	20			09:00 · Patch-Angebote eintragen
+w8d4t1	C	20		V012	18:00 · V012 posten: REAL „Ein einziges Thema“
+w8d4t2	V	10	+		Grind+ · ARD/ZDF-Medienstudie 2025: Reichweite 14–29 notieren
+w8d5t0	D	25			10:00 · ENTSCHEIDUNGEN: B2-Band, Namen, Sprache, Liefergebiet → Spec Rev. 14
+w8d5t1	V	30			11:00 · Creator-Longlist Runde 1: 10 Namen von Hand
+w8d5t2	V	10			Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w8d5t3	V	120	+		15:00 · Grind+ · Laden-Runde Mitte-Nord (4 Läden)
+w8d6t0	A	25			10:00 · Wochenreview W8, Cockpit, Aktivzeiten, Zeile an Claude
+w8d6t1	D	10			10:25 · Gate: Liste ≥ 210 · Entwicklung bezahlt · Fabrik ≤ 3 Werktage
+w8d6t2	C	25		V013	11:00 · Content-Batch W9 · 1/3: V013 vorbereiten (Gesicht, Raster)
+w8d6t3	C	25		V014	11:25 · Content-Batch W9 · 2/3: V014 „Der Lebensbaum“ drehen
+w8d6t4	C	25		V015	11:50 · Content-Batch W9 · 3/3: V015 „Zickzack“ drehen
+w9d0t0	B	45			09:00 · Digitizing-Vorschau prüfen: Stichzahl, Fadenschnitte, Farbwechsel
+w9d0t1	C	20		V013	18:00 · V013 posten: BUILD Day 29 „Muster als Maschinen-Code“
+w9d0t2	D	45			ENTSCHEIDUNG Zipper: Fabrik, Menge, Preis und Zipper-Schwelle
+w9d1t0	D	20			09:00 · Gate: Digitizing freigeben (≤ 28.000 Stiche)
+w9d1t1	N				ENTFÄLLT 23.10.: Blanks zum Berliner Sticker. Der Zipper kommt aus der Fabrik, das Polo später.
+w9d1t2	V	10			Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w9d1t3	C	10	+	V112	18:00 · Grind+ · V112 Karussell „Lebensbaum“ (nur mit Beleg)
+w9d2t0	B	20			09:00 · Stoffoptionen anfordern (12 oz und 13 oz)
+w9d2t1	C	20		V014	18:00 · V014 posten: ORIGIN „Der Lebensbaum“
+w9d3t0	V	10			Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w9d3t1	C	20	+	V119	18:00 · Grind+ · V119 „Wie ich die Größe der Münztasche gefunden habe“
+w9d3t2	C	60		R04	Dreh · REWIND #04 „Das Muster lässt sich nicht zerreißen“ (Rückwärts)
+w9d3t3	B	60			Tech Pack Zipper mit Claude durchgehen, wie bei der Jeans
+w9d4t0	B	20			09:00 · Muster des Label-Patches bestellen (3 Stück)
+w9d4t1	V	15			10:00 · Einladung Stick-Abend Fr 27.11. (E2), 10 Plätze
+w9d4t2	C	20		V015	18:00 · V015 posten: DETAIL „Zickzack“
+w9d5t0	V	30			12:00 · Presseliste Teil 1: 8 Medien, je 3 Artikel lesen
+w9d6t0	A	20			10:00 · Wochenreview W9, Cockpit, Zeile an Claude
+w9d6t1	D	10			10:20 · Gate: Liste ≥ 270 · Zusagen ≥ 11 · Stiche ≤ 28.000
+w9d6t2	V	20			11:30 · Creator-Longlist Runde 2 (10 Namen)
+w9d6t3	C	25		V017	12:00 · Content-Batch W10: V017 „Der Teppich“ (Stickproben drehst du Mo 16.11.)
+w10d0t0	B	60			Stickproben bewerten: gewaschen, aus 3 m, Rot auf Indigo, Weiß
+w10d0t1	C	45		V016	18:00 · V016 „Die erste Stickprobe“ drehen und posten
+w10d0t2	B	30			Tech Pack Zipper an die Fabrik, Muster bestellen
+w10d1t0	D	30			Stickproben und Garnfarben freigeben, schriftlich an die Fabrik
+w10d1t1	D	10			GATE Stickproben: trägt die Stickerei auf gewaschenem Denim?
+w10d1t2	V	10			Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+w10d1t3	C	10	+	V114	18:00 · V114 „Mein Fehler: Deadline verpasst“ (Grind+)
+w10d1t4	C	15		R04	19:00 · REWIND #04 „Das Muster lässt sich nicht zerreißen“ posten
+w10d1t5	B	45			Polo klären: Fragerunden mit Claude, wie beim Zipper
+w10d2t0	B	45			Stoffmuster und 3 Lab Dips bewerten, einen als Waschstandard freigeben
+w10d2t1	C	20		V017	18:00 · V017 „Der Teppich“ posten (ORIGIN, vorgezogen)
+w10d2t2	V	15			Orte schriftlich vorab anfragen: GATE194, Sing Blackbird, Studio183
+w10d3t0	V	30			Presseliste Teil 2: Kontakte nur aus Impressum oder offizieller Seite
+w10d3t1	V	10			Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+w10d3t2	C	10	+	V122	18:00 · V122 Story „Schick mir deinen Teppich“ (Grind+)
+w10d4t0	C	45		V018	18:00 · V018 „Was die Wäsche mit der Stickprobe macht“ drehen + posten
+w10d4t1	C	90		R05	Dreh · REWIND #05 „Jeans von 1970 bis 2027“ (Outfit-Sprung)
+w10d5t0	V	60			Burg & Schild: gewaschene Stickproben zeigen, Feedback holen
+w10d5t1	B	20			Material für den Stick-Abend kaufen: Denim, Garn, Nadeln, 10 Rahmen
+w10d5t2	V	10			Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+w10d5t3	V	60	+		Nudie Repair Shop und Das Neue Schwarz auf dem Weg (Grind+)
+w10d6t0	A	20			Wochenreview W10: Liste, Views, Anmeldungen je 1.000 Views, Kasse
+w10d6t1	D	10			GATE Liste ≥ 330 (Alarm 140) · Proto-Versand schriftlich ≤ 30.11.
+w10d6t2	C	25		V019	Content-Batch W11 (1/3): V019 „Drei Stoffe“ drehen und schneiden
+w10d6t3	C	25		V020	Content-Batch W11 (2/3): V020 „Warum Panel-Stickerei“ drehen
+w10d6t4	C	25		V021	Content-Batch W11 (3/3): V021 „Warum 169 €“ drehen
+w11d0t0	N				Sperrwoche 23.–29.11.: kein Ernte-Post und kein Ernte-Bild in Stories (Holodomor-Gedenktag Sa 28.11.). Sa 28.1
+w11d0t1	B	15			Status Proto abfragen: Fotos und Versanddatum schriftlich
+w11d0t2	C	20		V019	18:00 · V019 „Drei Stoffe“ posten (BUILD Day 43)
+w11d0t3	V	10			Stick-Abend: Teilnehmer bestätigen, QR mit ?ref=stick bauen
+w11d1t0	V	10			Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+w11d1t1	C	10	+	V117	18:00 · V117 „Antwort auf Kommentar“ (Grind+)
+w11d2t0	C	20		V020	18:00 · V020 „Warum Panel-Stickerei“ posten (ORIGIN)
+w11d3t0	B	35			Patch-Muster prüfen, 3× von Hand bei 30 °C waschen, Innenetikett mittesten
+w11d3t1	B	20			Prüfung des Protos vorbereiten: Prüfplan, Werkzeug, Fit-Termin
+w11d3t2	V	20			Creator-Longlist Runde 3: auf 30 Namen komplett
+w11d3t3	V	10			Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+w11d3t4	C	10	+	V118	18:00 · V118 „Stickmaschine ASMR“ (Grind+, nur mit Erlaubnis)
+w11d3t5	C	15		R05	19:00 · REWIND #05 „Jeans von 1970 bis 2027“ posten
+w11d4t0	C	20		V021	18:00 · V021 „Warum 169 €“ vorplanen (Stick-Abend ab 18:30)
+w11d4t1	V	90			18:30 · STICK-ABEND bis 20:00: Raute 7 × 7 in Rot/Weiß auf Denim
+w11d4t2	V	60	+		Stick-Abend bis 21:00 offen lassen (Grind+)
+w11d5t0	N				Kein Post heute: Holodomor-Gedenktag (4. Samstag im November). Auch keine Story, kein Werbe-Kommentar.
+w11d5t1	V	120	+		Holy Shit Shopping im CANK + Sing Blackbird (Grind+, als Besucher)
+w11d5t2	C	90		R06	Dreh · REWIND #06 „Der Fahrstuhl in die Zukunft“ (One-Take mit versteckten Schnitten)
+w11d6t0	A	30			Wochenreview W11 + Reservierung A/B entscheiden
+w11d6t1	D	5			GATE Reservierung A/B (gebaut wird nach dem Sample-Gate)
+w11d6t2	C	10			Instagram-Broadcast-Kanal „Time Travel · Werkstatt“ anlegen
+w11d6t3	C	20		V022	Content-Batch W12 (1/4): V022 „Sie ist unterwegs“ drehen
+w11d6t4	C	20		V023	Content-Batch W12 (2/4): V023 „Warum ein Sample“ drehen
+w11d6t5	C	20		V024	Content-Batch W12 (3/4): V024 „Donnerstag“ aus Archiv-Clips schneiden
+w11d6t6	C	15		V025	Content-Batch W12 (4/4): V025 Unboxing vorbereiten
+w12d0t0	B	10			09:00 · Versand des Protos verfolgen
+w12d0t1	B	45			Berliner Muster abholen und prüfen (Stichbild, Topping, Rückseite)
+w12d0t2	V	10			17:00 · Broadcast starten: „Am Donnerstag kommt das erste echte Teil“
+w12d0t3	C	20		V022	18:00 · V022 posten: BUILD Day 50 „Sie ist unterwegs“
+w12d1t0	N				ENTSCHIEDEN 23.10.: Die Zipper-Front wird ein Mini-Teppich aus bedrucktem Baumwollsamt mit Fransen, weder gest
+w12d1t1	C	20		V023	18:00 · V023 posten: ORIGIN „Warum ein Sample“
+w12d1t2	C	15		R06	19:00 · REWIND #06 „Der Fahrstuhl in die Zukunft“ posten
+w12d2t0	N				ENTFÄLLT 23.10.: Zipper-Front beim Berliner Sticker. Die Zipper-Fabrik näht den Samt-Teppich auf, bevor der Re
+w12d2t1	V	30			Creator-Shortlist 12: Engagement, Views, Brand-Safety
+w12d2t2	C	15			Werkstatt-Mail „Das Proto ist da“ auf Do 03.12., 19:00 terminieren
+w12d2t3	C	20		V024	19:00 · V024 posten: REACH „Donnerstag“ + Countdown-Sticker
+w12d3t0	B	75			PROTO DA: auspacken (filmen), 10 Messpunkte, Fotos
+w12d3t1	V	15			15:00 · Proto-Runde starten: 20 Termine bis So 13.12.
+w12d3t2	V	5			18:00 · Broadcast: Proto 1 h vor dem Feed
+w12d3t3	C	20		V025	19:00 · V025 posten: BUILD „Unboxing des Prototyps“ (NEU)
+w12d3t4	N				19:00 geht die Werkstatt-Mail „Das Proto ist da“ geplant raus (terminiert am Mi)
+w12d4t0	B	45			Stickerei und Verarbeitung prüfen (Prüfplan)
+w12d4t1	V	30			Proto-Runde: 2 Video-Calls à 15′
+w12d4t2	C	45		V026	18:00 · V026 drehen und posten: DETAIL „Echter Kreuzstich“
+w12d5t0	B	60			10:00 · Fit-Test mit zwei Körpergrößen
+w12d5t1	C	10		V027	12:00 · V027 Story: ASK „Was zuerst?“
+w12d5t2	D	5			GATE Proto und Fit ok → PP am Mo 07.12. bestellen
+w12d6t0	B	45			10:00 · Korrekturliste mit Claude
+w12d6t1	A	15			Wochenreview W12: Liste nach Quellen-Tag, Views, Kassencheck
+w12d6t2	D	5			GATE W12: ≥ 80 neue Anmeldungen, Proto-Post ≥ 2 × Median, Liste ≥ 470
+w12d6t3	C	20		V028	Content-Batch W13 (1/3): V028 „Was nicht gepasst hat“ drehen
+w12d6t4	C	15		V029	Content-Batch W13 (2/3): V029 „Das Band in echt“ (Match-Cut)
+w12d6t5	C	20		V031	Content-Batch W13 (3/3): V031 „Die Goldfäden“ drehen
+w12d6t6	C	10	+	V125	18:00 · V125 „Aus drei Metern“ posten (Variante)
+w13d0t0	B	45			09:00 · Korrekturen per Foto und Maß senden, PP-Sample bestellen
+w13d0t1	B	10			2 Patch-Muster D per Express an die Fabrik fürs PP
+w13d0t2	V	30			Proto-Runde: 2 Video-Calls à 15′
+w13d0t3	C	20		V028	18:00 · V028 posten: BUILD Day 57 „Was nicht gepasst hat“
+w13d1t0	B	60		V030	10:00 · Mini-Shoot 1 (Proto): Makros, Graukarte, Fahrt 3 m → 30 cm
+w13d1t1	V	30			Proto-Runde: 2 Video-Calls à 15′
+w13d1t2	C	20		V029	18:00 · V029 posten: ORIGIN „Das Band in echt“
+w13d2t0	V	30			PRESSE: Pressemappe v1 (Prompt P0) und Seite /pages/presse
+w13d2t1	V	60			Proto-Runde: 2–3 Treffen (Kern, das Gate am 13.12. hängt daran)
+w13d2t2	C	20		V030	19:00 · V030 posten: REACH „Uhrwerk“
+w13d3t0	B	55			11:00 · On-Body-Fotos: zwei Körper, mit Größe und Bundmaß
+w13d3t1	D	5			GATE: Proto noch nicht da? Vorbestellung nur mit echten Fotos
+w13d3t2	N				Community heute über die Proto-Runde: die Treffen ersetzen die 10′ Kommentare in der Nische
+w13d3t3	V	60			Proto-Runde: 2–3 Treffen (Kern, das Gate am 13.12. hängt daran)
+w13d3t4	C	10	+	V124	18:00 · V124 „Auf links“ posten (Variante)
+w13d4t0	V	30			10:00 · CREATOR: Erst-DM C2 an die Top 8
+w13d4t1	C	20		V031	18:00 · V031 posten: DETAIL „Die Goldfäden“
+w13d4t2	N				Waschserie nicht mit dem Proto: Es ist bis 13.12. dein einziges Vorzeigeteil. Die Waschserie läuft mit dem PP 
+w13d5t0	C	10		V032	12:00 · V032 Story: ASK „Vorbestellen?“
+w13d5t1	V	90			13:00 · Mit dem Proto zur A-Liste: GATE194 und Sing Blackbird
+w13d5t2	V	5	+		„Bring 3“-Story
+w13d6t0	A	15			10:00 · Wochenreview W13: Liste nach Quellen-Tag, Views, Kassencheck
+w13d6t1	D	5			GATE So 13.12.: Zusagen ≥ 18 · Zipper-Muster unterwegs · Liste ≥ 550
+w13d6t2	V	10			Kein Laden für die Abende zugesagt? Ersatzfläche über Giggster suchen
+w13d6t3	C	15		V033	Content-Batch W14 (1/4): V033 „Erst die Muster, dann der Shop“ aufnehmen
+w13d6t4	C	15		V034	Content-Batch W14 (2/4): V034 „Ehrliche Größen“ drehen
+w13d6t5	C	15		V035	Content-Batch W14 (3/4): V035 „100 Stück“ schneiden
+w13d6t6	C	15		V036	Content-Batch W14 (4/4): V036 „Die Rückseite“ drehen
+w13d6t7	C	10	+	Variante (bestes Proto-Video)	18:00 · Variante deines besten Proto-Videos posten
+w14d0t0	C	20		V033	18:00 · V033 posten: BUILD Day 64 „Erst die Muster, dann der Shop“
+w14d1t0	V	20			Handheber-DMs: jedes „Ja“ aus der ASK-Story vom 12.12. nach Größe fragen
+w14d1t1	V	25			PRESSE-WELLE 1 „Vorbestellung ab 01.02.“ an 7 Medien
+w14d1t2	C	20		V034	18:00 · V034 posten: ORIGIN „Ehrliche Größen“
+w14d2t0	C	45			Vier Mails zum Vorbestell-Start als Entwurf (26.01., 31.01., 01.02., 08.02.)
+w14d2t1	C	20		V035	19:00 · V035 posten: REACH „100 Stück“ (nur echte Zahlen)
+w14d3t0	N				ÜBERHOLT 23.10.: Zipper und Polo abholen. Das Zipper-Muster kommt aus der Fabrik zum Sample-Gate Di 05.01., da
+w14d3t1	B	30			Patch D in Serie: 110 Stück direkt an die Fabrik bis 29.01.
+w14d3t2	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w14d3t3	C	10	+	V111	Grind+ 18:00 · V111 Karussell „drei Ähren“ (nur mit Beleg)
+w14d4t0	V	20			CREATOR nachfassen (C3); unter 5 Zusagen: Nr. 9–12 anschreiben
+w14d4t1	C	20		V036	18:00 · V036 posten: DETAIL „Die Rückseite“
+w14d4t2	V	60	+		Grind+ · A-Liste Teil 2 mit Proto: Studio183 und Konk
+w14d5t0	D	20			Vorbestellung festlegen: 35 zu 149 € + Stufe 2, Nummern, Bestand je Größe
+w14d5t1	C	10		V037	12:00 · V037 ASK-Story „Größe“
+w14d5t2	N				ÜBERHOLT 23.10.: Den Zipper gibst du am Sample-Gate Di 05.01. frei, zusammen mit dem Jeans-PP.
+w14d5t3	V	15			Orte fest: Creator-Preview 30.01., Mess-Abende 03.02., 10.02., 15.05.
+w14d5t4	C	60		R07	Dreh · REWIND #07 „Die Hose zieht sich selbst an“ (Rückwärts)
+w14d6t0	A	20			Wochenreview W14 + Cockpit + Zeile an Claude
+w14d6t1	D	10			GATE 21.12.: Zusagen ≥ 15, Stufe 2, Patch, Zipper-Muster, Liste ≥ 620
+w14d6t2	C	90		V038–V043	Content-Batch W15 und W16: V038–V043 drehen und schneiden
+w14d6t3	C	10	+		Grind+ 18:00 · Variante deines besten Videos
+w15d0t0	C	20		V038	18:00 · V038 posten: BUILD Day 71 „Was bis zum Drop fehlt“
+w15d1t0	A	30			Belege 2026 sortieren, Summen pro Monat ins Blatt „Ausgaben“
+w15d1t1	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w15d1t2	C	15		R07	19:00 · REWIND #07 „Die Hose zieht sich selbst an“ posten
+w15d2t0	C	20		V039	18:00 · V039 posten: REAL „Was es bis jetzt gekostet hat“
+w15d2t1	C	5			Broadcast: „01.02., 19:00. Schöne Feiertage.“
+w15d3t0	N				Frei. Kein Post, keine Aufgabe. DMs nur, wenn du willst.
+w15d4t0	N				Frei. Kein Post, keine Aufgabe.
+w15d5t0	C	10		V040	12:00 · V040 ASK-Story „Erinnerung 01.02.“ mit Countdown
+w15d5t1	C	120		R08	Dreh · REWIND #08 „8 Handys, 1 Sekunde“ (Bullet Time)
+w15d6t0	C	30			Die 12 besten Proto-Bilder für Produktseite und Mails auswählen
+w15d6t1	A	15			Wochenreview W15 + Cockpit + Zeile an Claude
+w15d6t2	C	45		R09	Dreh · REWIND #09 „Hält der Lebensbaum 20 kg?“ (Speed Ramp)
+w16d0t0	B	10			Versand des PP-Samples bestätigen, Tracking holen
+w16d0t1	C	20		V041	18:00 · V041 posten: BUILD Day 78 „Was 2027 passiert“
+w16d1t0	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w16d1t1	C	15		R08	19:00 · REWIND #08 „8 Handys, 1 Sekunde“ posten
+w16d2t0	V	20			PRESSE: Event-Tipp P3 (Mess-Abende 03.02., 10.02.), geplant Sa 02.01., 09:00
+w16d2t1	C	20		V042	19:00 · V042 posten: REACH „Die einzige ihrer Art“
+w16d2t2	C	90		R10	Dreh · REWIND #10 „Ich treffe mein Ich aus 2027“ (Klon)
+w16d3t0	A	15			Monatsabschluss Dezember (Korridor: 700 auf der Liste)
+w16d3t1	A	30			Brücke klären: schriftliche Stand-by-Zusage 1.500 € in der Familie
+w16d3t2	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w16d3t3	C	20		R08M	18:00 · Making-of REWIND #08 posten: Rohaufnahme neben Endfassung
+w16d4t0	N				Frei. Kein Post, keine Aufgabe.
+w16d5t0	N				09:00 geht der Event-Tipp geplant raus (in Gmail unter „Geplant“ kurz prüfen).
+w16d5t1	C	10		V043	12:00 · V043 ASK-Story „Frag mich alles“
+w16d5t2	C	15		R09	12:00 · REWIND #09 „Hält der Lebensbaum 20 kg?“ posten
+w16d6t0	A	20			Wochenreview W16 + Cockpit + Zeile an Claude
+w16d6t1	D	10			GATE 03.01.: Liste ≥ 740, PP unterwegs, Brücke ja/nein
+w16d6t2	C	75		V044–V048	Content-Batch W17: V044, V045, V047, V048 vorbereiten und drehen
+w16d6t3	C	10	+		Grind+ · WhatsApp-Kanal anlegen (optional, nur Erinnerungen)
+w16d6t4	C	15		R10	19:00 · REWIND #10 „Ich treffe mein Ich aus 2027“ posten
+w17d0t0	B	90			PP-Sample prüfen: 10 Maße, Fäden, Patch, Knopf, Nieten, Labels
+w17d0t1	C	20		V044	18:00 · V044 posten: BUILD „Das finale Sample“
+w17d0t2	V	5			Briefing-Karte für die Creator-Preview bei Claude bestellen
+w17d0t3	B	10	+		Waschserie mit dem PP starten: bis Fr täglich 1× auf links
+w17d1t0	B	30			PP-Sample schriftlich freigeben
+w17d1t1	D	10			SAMPLE-GATE: Jeans-PP und Zipper-Muster freigegeben?
+w17d1t2	V	15			CREATOR: Zusagen bestätigen, Briefing-Karte schicken (C4)
+w17d1t3	V	10			PRESSE: Welle 1 einmal nachfassen (P4)
+w17d1t4	C	20		V045	18:00 · V045 posten: ORIGIN „Warum vorbestellen“
+w17d2t0	B	35			Bestellkonditionen festzurren, Stoff für 100 Paar reservieren
+w17d2t1	B	30			Mini-Shoot 2 mit dem PP: Goldfäden, N°, Makros für die Produktseite
+w17d2t2	A	15			Bank: Tageslimit ≥ 3.100 €, Auslandsüberweisung, Kontoart prüfen
+w17d2t3	C	20			18:00 · Reserve-Post oder Variante deines besten Videos
+w17d2t4	A	20			Gewerbe anmelden (erst nach dem Sample-Gate)
+w17d3t0	A	45			Fragebogen zur steuerlichen Erfassung in ELSTER senden
+w17d3t1	V	10			Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w17d3t2	A	30			Shopify Payments aktivieren, Support fragen: Reserve und Auszahlung
+w17d3t3	A	20			Produkthaftpflicht: Preis bei 1–2 Versicherern anfragen
+w17d3t4	C	10	+	V117	18:00 · Karussell oder Variante (Varianten-Regel) oder V117
+w17d4t0	C	20		V047	18:00 · V047 posten: DETAIL „Stücknummer“
+w17d4t1	C	120		R11	Dreh · REWIND #11 „G-Klasse II“ (Rückwärts)
+w17d5t0	C	10		V048	12:00 · V048 Story: ASK „Erinnerung“ mit Countdown
+w17d5t1	V	15			Mess-Abend-Zusagen zählen, Hochschul-Aushang mit ?ref=h-[kürzel]
+w17d5t2	C	30			Fotograf für den Shoot 06.03. anfragen (Lette Verein, Studierende)
+w17d5t3	C	45			Schnitt · REWIND #11 „G-Klasse II“
+w17d6t0	A	15			Wochenreview W17, Zahlen ins Cockpit, Zeile an Claude
+w17d6t1	D	5			Gate: Zusagen ≥ 25 · Liste ≥ 850 · Sample-Gate durch · Gewerbe angemeldet
+w17d6t2	C	55		V049–V054	Content-Batch W18: V056, V057, V058 drehen und schneiden
+w17d6t3	C	10	+	V117	18:00 · Karussell oder Variante (Varianten-Regel) oder V117
+w18d0t0	A	60			Website Schritt 1: Werkzeuge auf dem Mac (Referenz „Website“ 9)
+w18d0t1	A	15			Absender-Domain in Shopify authentifizieren (vor E-Mail 1 am Di 26.01.)
+w18d0t2	C	20		V056	18:00 · V056 posten: ORIGIN „Links die Ernte“ (sonst V110)
+w18d1t0	A	45			19:00 · Website Schritt 2: Theme-Kopie, Git, GitHub
+w18d1t1	A	30			Website Schritt 3: CLAUDE.md mit deinen Regeln
+w18d2t0	A	60			19:00 · Website Schritt 4: Zeit-Modul und Countdown
+w18d2t1	A	30			Versand im Shop einrichten: Deutschland, EU nur bei englischen Hooks
+w18d2t2	C	20		V057	19:00 · V057 posten: REACH „Eine Hand“
+w18d3t0	A	60			19:00 · Website Schritt 5: Wartelisten-Formular mit Größen- und Quellen-Tags
+w18d3t1	A	20			LUCID: Verpackungsregister spätestens heute registrieren
+w18d3t2	A	10			Feld „Codewort aus dem Video“ ins Wartelisten-Formular
+w18d4t0	A	75			Rechtstexte: AGB, Widerruf, Versand, Zahlung mit Abmahnschutz + Hotline
+w18d4t1	A	10			Datenschutz-Endkontrolle (Referenz „Warteliste, Netz, Creator, Presse“ 3.3), Double-Opt-in prüfen
+w18d4t2	C	20		V058	18:00 · V058 posten: DETAIL „Neun Längen“ (nach 5 Wäschen)
+w18d5t0	A	90			10:00 · Website Schritt 6: Startseite Stufe 1 „Prozess“
+w18d6t0	A	20			Wochenreview W18, Zahlen ins Cockpit, Zeile an Claude
+w18d6t1	D	5			Gate: Payments verifiziert · Rechtstexte live · LUCID · Liste ≥ 1.000
+w18d6t2	A	30			11:00 · Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)
+w18d6t3	C	55			Content-Batch W19: V061, V062, V063 drehen und schneiden
+w18d6t4	C	10	+	V117	18:00 · Karussell oder Variante (Varianten-Regel) oder V117
+w19d0t0	A	20			Website Schritt 8: Stufe 1 live, altes Theme wird PLAN B, Test ?ref=test
+w19d0t1	A	30			Zahlungsanbieter: PayPal verbinden, Auszahlungspläne notieren
+w19d0t2	A	45			Reservierung bauen: „Platz in der ersten Stunde sichern“
+w19d0t3	C	20		V061	18:00 · V061 posten: ORIGIN „Warum 100“
+w19d1t0	A	45			Größenseite und FAQ: „W32 — 81 cm“, Umrechnung, sechs Einwände
+w19d1t1	A	45			Produktseite Jeans als Entwurf + Vertrauens-Checkliste (9 Punkte)
+w19d1t2	V	10			Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w19d1t3	A	45			Produktseite Zipper als Entwurf: Vorbestellung, Größen mit Brustweite
+w19d2t0	V	15			19:00 · „Platz in der ersten Stunde sichern“ öffnen (bis So 31.01.)
+w19d2t1	A	60			Website Schritt 9: Stufe 2 „Das Muster“ mit Proto-Fotos
+w19d2t2	C	20		V062	19:00 · V062 posten: REACH „POV“
+w19d3t0	A	30			Produktseite mit echten Bildern (Proto und PP)
+w19d3t1	A	60			Vorbestellung in Shopify anlegen: 35 Paar, Liefertext, Status Entwurf
+w19d3t2	V	10			Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w19d4t0	A	15			Stufe 2 als Entwurf: tt_produkt_stufe2, Nr. 036–060, 25 Paar zu 169 €
+w19d4t1	A	20			Vorlage „Bestellbestätigung“ um Vorbestell-Textblock ergänzen
+w19d4t2	A	30			Vorbestellung rechtlich sauber machen + Geld-zurück-Regel
+w19d4t3	A	30			Testbestellung mit echter Karte, Auszahlung bis aufs Konto verfolgen
+w19d4t4	C	20		V063	18:00 · V063 posten: DETAIL „Der Stern“
+w19d5t0	A	90			Website Schritt 10: Nummern-Raster 001–100 als Kreuzstich
+w19d5t1	C	15			12:00 · Reserve-Post oder Story-Serie
+w19d5t2	S	150	+		Grind+ · Spiel-Stiltest (nur wenn das Pixel-Spiel noch Option ist)
+w19d6t0	A	20			Wochenreview W19, Zahlen ins Cockpit, Zeile an Claude
+w19d6t1	D	5			Gate: Stufe 1 live · Vorbestellung als Entwurf · Testbestellung läuft
+w19d6t2	C	75			Content-Batch W20: V046, V049, V050, V051, V053 drehen und schneiden
+w20d0t0	C	20		V046	19:00 · V046 posten: REACH „Nächster Montag“
+w20d0t1	A	60			Website Schritt 11: Vorbestell-Zustände ohne Streichpreis
+w20d0t2	A	30			Nur bei englischen Hooks (07.11.): englische Produktseite
+w20d1t0	A	45			Vorbestellseite final (Checkliste 9 von 9), E-Mail 1 und Broadcast
+w20d1t1	A	30			Website Schritt 12: UTM-Links, Tags, Wochenzahlen
+w20d1t2	V	10			Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w20d1t3	A	20			Zipper in die Vorbestellung: Checkliste wie bei der Jeans
+w20d2t0	V	30			CREATOR-Welle 2: 10 Nano-Creator zum Mess-Abend 2 einladen (C6)
+w20d2t1	C	20			18:00 · Reserve-Post oder Variante deines besten Videos
+w20d3t0	A	15			Kaufgrund-Frage in die Bestellbestätigung „Was hat dich überzeugt?“
+w20d3t1	A	30			Rückgabe festlegen: Umtausch, Erstattung, Retourengrund
+w20d3t2	V	10			Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w20d3t3	C	10	+	V117	18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+w20d4t0	A	40			Generalprobe Vorbestellung: Checkout, Bestätigung, Zeitsteuerung
+w20d4t1	A	10			30-Sekunden-Test: Freund findet Größe, Lieferdatum, Geld zurück
+w20d4t2	B	10			Patch-Serie: Ankunft und 110 Stück per Foto bestätigen lassen
+w20d4t3	C	5			Countdown-Sticker „Mo 19:00“ in die Story
+w20d4t4	C	20		V049	18:00 · V049 posten: BUILD „Montag, 19 Uhr“
+w20d5t0	C	20		V050	18:00 · V050 posten: ORIGIN „Vom Wandteppich auf den Zipper“
+w20d5t1	V	90			18:30 · CREATOR-PREVIEW bis 20:00 (Ort vom 19.12.)
+w20d6t0	A	20			Wochenreview W20, Zahlen ins Cockpit, Zeile an Claude
+w20d6t1	C	10			E-Mail 2 „Morgen: 18:00 für die Liste, 19:00 für alle“
+w20d6t2	V	30			Persönliche Nachricht an jede Zusage und jeden Reservierer
+w20d6t3	D	5			Gate Start-Check: Seite 9 von 9 · Testauszahlung da · Reservierung schließen · Handheber ≥ 40
+w20d6t4	N				Regel ab morgen: Stufe 2 geht live, sobald Nr. 035 verkauft ist (Entwurf vom 22.01. aktivieren, Mail an alle o
+w20d6t5	C	20		V051	19:00 · V051 posten: REACH „Morgen“
+w20d6t6	C	10	+	V117	18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+w21d0t0	V	105		V052	17:50 · VORBESTELLUNG: 18:00 Liste, 19:00 öffentlich, Live, V052
+w21d0t1	C	15		R11	19:00 · REWIND #11 „G-Klasse II“ posten
+w21d1t0	A	15			Bestellungen ins Blatt „Pre-Order“
+w21d1t1	A	10			Bestand je Größe umschichten, morgens und abends (Summe 35)
+w21d1t2	V	30			DM an alle Reservierer und Netz-Namen ohne Vorbestellung
+w21d1t3	B	30			Feld am Stadtrand für Shoot und „Das Feld wächst“ suchen
+w21d2t0	A	5			Bestand je Größe umschichten (morgens und vor dem Mess-Abend)
+w21d2t1	C	10		V054	12:00 · V054 Story: ASK „Zwischenstand 48 h“ (nur echte Zahl)
+w21d2t2	V	110			18:00 · MESS-ABEND 1 bis 20:00 (Aufbau ab 17:40)
+w21d2t3	V	60	+		Mess-Abend 1 bis 21:00 offen lassen
+w21d3t0	A	5			Bestand je Größe ein letztes Mal umschichten (morgens)
+w21d3t1	V	10			13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w21d3t2	C	10	+	V117	18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+w21d3t3	C	90		R12	Dreh · REWIND #12 „Der Baum wächst aus der Hose“ (Match Cut)
+w21d4t0	V	30			11:00 · CREATOR-Clips einsammeln, Anmeldungen je Creator, Danke-DM
+w21d4t1	C	20		V053	18:00 · V053 posten: DETAIL „Der Patch“
+w21d6t0	A	15			10:00 · Monatsabschluss Januar (Korridor 1.500 auf der Liste)
+w21d6t1	A	20			10:15 · Wochenreview W21 + Cockpit + Zeile an Claude
+w21d6t2	D	5			Gate: Vorbestellungen ≥ 8 · Liste ≥ 1.500 · Stufe-2-Check
+w21d6t3	C	45		V055–V059	Content-Batch W22: V055, V060 drehen, V059 und V064 als Vorlage
+w21d6t4	C	10	+	V117	18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+w22d0t0	C	10			E-Mail 4 „Noch X Paar“ mit echter Zahl planen (Versand 18:00)
+w22d0t1	V	30			Zweite DM-Welle an Zusagen ohne Bestellung
+w22d0t2	C	20		V055	18:00 · V055 posten: BUILD Day 120 „Zwischenstand“ (echte Zahl)
+w22d0t3	C	20		R11M	18:00 · Making-of REWIND #11 posten: Rohaufnahme neben Endfassung
+w22d1t0	D	20			Tempo bewerten: Werbegeld ja oder nein
+w22d1t1	C	20			E-Mail an Abonnenten ohne Kauf planen
+w22d1t2	C	20		V060	18:00 · V060 posten: BUILD Day 121 „Noch X Paar“ (nur echte Zahl)
+w22d2t0	C	10		V059	12:00 · V059 ASK: Story-Q&A starten, Antworten abends live
+w22d2t1	V	110			18:00 · MESS-ABEND 2 (bis 20:00), QR ?ref=mess2, Nano-Creator willkommen
+w22d2t2	V	60	+		20:00 · Grind+ Mess-Abend bis 21:00 offen lassen
+w22d3t0	D	20			Hochrechnung Cash-Schwelle für Mo 15.02.
+w22d3t1	V	20			Vorbestellungen und DMs: Fragen beantworten, Zusagen ohne Kauf freundlich nachfassen
+w22d3t2	V	45			Persönliche DMs an Zusagen und Handheber ohne Kauf
+w22d4t0	C	20			18:00 · Reserve-Post oder Variante deines besten Videos
+w22d5t0	C	10		V064	12:00 · V064 ASK-Story „Montag entscheidet“
+w22d6t0	A	20			10:00 · Wochenreview W22 + Kaufquote + Cockpit + Zeile an Claude
+w22d6t1	D	10			10:20 · Gate Kaufquote, Vor-Check Schwelle, Patches, Stufe-2-Check
+w22d6t2	C	25		V065	11:00 · Content-Batch W23 vorbereiten (V065 drehst du am Mo)
+w23d0t0	D	30			10:00 · SCHWELLE: 100, 75 oder schieben (Mengenformel rechnen)
+w23d0t1	D	10			10:30 · Gate Schwelle 1 entscheiden und umsetzen
+w23d0t2	C	20		V065	18:00 · V065 drehen und posten: BUILD Day 127 „100 oder 75“
+w23d0t3	D	15			10:45 · Gate Zipper-Schwelle: produzieren oder Geld zurück
+w23d1t0	B	30			10:00 · Größensplit für die Bestellung festlegen
+w23d1t1	V	10			13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w23d1t2	C	15		R12	19:00 · REWIND #12 „Der Baum wächst aus der Hose“ posten
+w23d2t0	B	40			10:00 · BESTELLUNG (PO) senden mit Endkontroll-Nachweis und Klauseln
+w23d2t1	N				Info · Ab der Anzahlung gibt es keinen Ausstieg ohne Schaden für Vorbesteller
+w23d2t2	C	45		V066	19:00 · V066 drehen und posten: REACH „Bestellt“
+w23d2t3	B	30			Zipper-Bestellung (PO) senden, nur bei erreichter Zipper-Schwelle
+w23d3t0	B	15			10:00 · Anzahlung überweisen (nur auf das Konto der ersten Proforma)
+w23d3t1	V	10			13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w23d3t2	C	15			14:00 · Werkstatt-Mail 3 „Bestellt. X von 35“ planen (19:00)
+w23d3t3	C	10	+	V117	18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+w23d3t4	C	60		R13	Dreh · REWIND #13 „Rückgängig“ (Rückwärts + Zeitlupe)
+w23d3t5	B	10			Anzahlung Zipper-Fabrik, nur bei Zipper-Bestellung
+w23d4t0	B	15			10:00 · Produktionsplan schriftlich (Ramadan, Fest, Ferien, Feiertage)
+w23d4t1	D	20			11:00 · Spiel: bauen oder streichen
+w23d4t2	C	45		V067	18:00 · V067 drehen und posten: REAL „Überwiesen“
+w23d5t0	A	30			10:00 · Shoot „Die Hütte“ planen (Sa 06.03.)
+w23d5t1	V	10			11:00 · Top-3-Werber und Creator mit W34 für den Shoot fragen
+w23d5t2	V	10			13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w23d6t0	A	20			10:00 · Wochenreview W23 + Cockpit + Zeile an Claude
+w23d6t1	D	10			10:20 · Gate PO, Anzahlung, Vorbestellungen, Kasse, Stufe-2-Check
+w23d6t2	C	50		W22-ORIGIN	11:00 · Content-Batch W24: 2 Videos drehen und schneiden
+w23d6t3	C	10	+	V117	18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+w24d0t0	B	15			09:00 · Produktionsplan im Blick, Ramadan-Zeiten, Zuschnitt-Fotos
+w24d0t1	C	45		V068	18:00 · V068 drehen und posten: BUILD Day 134 „In Produktion“
+w24d1t0	C	20		V069	18:00 · V069 posten: ORIGIN „Wie eine Jeans entsteht“ (Karussell)
+w24d1t1	N				Info: „Werkzeuge für das Spiel“ (Rev. 5.3) entfällt, die Werkzeuge stehen seit 11.01.
+w24d1t2	S	60	+		20:00 · Nur bei Spiel = bauen: A1 Graubox (Referenz „Website“ 9)
+w24d1t3	C	15		R13	19:00 · REWIND #13 „Rückgängig“ posten
+w24d2t0	N				Info: Heute nichts Werbliches, kein Post und keine Story (5. Jahrestag des russischen Großangriffs). Der Post 
+w24d2t1	N				Info: „Theme-Kopie holen“ (Rev. 5.3) entfällt, erledigt am 12.01.
+w24d3t0	N				Info: „Prompt 1: Graubox“ nur bei Spiel = bauen
+w24d3t1	V	10			12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w24d3t2	S	60	+		20:00 · Nur bei Spiel = bauen: Graubox weiter
+w24d3t3	C	10	+	V117	18:00 · Grind+: Variante des besten Videos oder V117
+w24d3t4	C	20		V070	19:00 · V070 posten: REACH „Stoff“
+w24d3t5	C	90		R14	Dreh · REWIND #14 „Ein Goldfaden setzt sich selbst“ (Stop-Motion)
+w24d4t0	A	45			10:00 · Hangtags und Hangtag-Karte in Druck geben (ohne Nummer)
+w24d4t1	C	45		V071	18:00 · V071 drehen und posten: DETAIL „Der Hangtag“
+w24d5t0	C	10		V072	12:00 · V072 Story ASK „Casting“ für den Shoot am 06.03.
+w24d5t1	V	30			14:00 · PRESSE: Pressetext v2 mit Drop-Daten, Helfer-Aushang Hochschulen
+w24d6t0	A	20			10:00 · Wochenreview W24 und Zahlen ins Cockpit
+w24d6t1	D	5			10:20 · Gate W24: Vorbestellungen ≥ 14, Produktionsplan, Stoff, Stufe 2
+w24d6t2	C	95		V073	11:00 · Content-Batch W25: V073, V074, V075, V076 drehen und schneiden
+w24d6t3	S	20	+		16:00 · Nur bei Spiel = bauen: Spiel-Check Steuerung
+w24d6t4	C	10	+		18:00 · Grind+: Variante des besten Videos oder V117
+w25d0t0	C	20		V073	18:00 · V073 posten: BUILD Day 141 „Shoot am Samstag“
+w25d0t1	S	20	+		20:00 · Nur bei Spiel = bauen: Palette und Flaggen-Check
+w25d1t0	B	20			10:00 · Inline-Kontrolle 1: bestickte Panels prüfen
+w25d1t1	C	20		V074	18:00 · V074 posten: ORIGIN „Der Zipper“
+w25d1t2	C	15		R14	19:00 · REWIND #14 „Ein Goldfaden setzt sich selbst“ posten
+w25d2t0	A	40			10:00 · Shotliste und Shoot-Konzept „Die Hütte“ schreiben
+w25d2t1	C	20		V075	19:00 · V075 posten: REACH „Drei Teile“
+w25d3t0	A	20			11:00 · Trockenweizen und Requisiten besorgen, Model-Einwilligungen
+w25d3t1	V	10			12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w25d3t2	S	90	+		20:00 · Nur bei Spiel = bauen: Pixel-Art Teil 1
+w25d3t3	C	10	+	V117	18:00 · Grind+: Variante des besten Videos oder V117
+w25d3t4	C	90		R15	Dreh · REWIND #15 „Gleicher Ort, 100 Jahre später“ (Match Cut)
+w25d4t0	A	45			10:00 · Shoot vorbereiten: Kamera, Kleidung, Packliste
+w25d4t1	C	20		V076	18:00 · V076 posten: DETAIL „Der Polo“
+w25d5t0	C	180		Shoot-Roh (V077, V078, V079, CD-T24–CD-T01)	14:00 · SHOOT „Die Hütte“: drinnen mit Teppich, dann goldene Stunde
+w25d6t0	A	60			10:00 · Shoot sichten und auswählen
+w25d6t1	C	5			11:00 · Erstes Shoot-Bild zuerst im Broadcast
+w25d6t2	A	20			11:10 · Wochenreview W25 und Zahlen ins Cockpit
+w25d6t3	D	5			11:30 · Gate W25: Vorbestellungen ≥ 16, Inline-Fotos 1, Stufe 2
+w25d6t4	C	30			14:00 · Content-Batch W26: V077 und V078 schneiden
+w25d6t5	C	10	+		18:00 · Grind+: Variante des besten Videos oder V117
+w26d0t0	C	20		V077	18:00 · V077 posten: BUILD Day 148 „Hinter den Kulissen“
+w26d0t1	C	15			19:00 · Werkstatt-Mail 4 „Der Shoot“ senden
+w26d0t2	S	90	+		20:00 · Nur bei Spiel = bauen: Pixel-Art Teil 2 und Prompt 2
+w26d1t0	A	45			09:00 · Shop-Bilder aufbereiten und hochladen
+w26d1t1	A	30			10:00 · Verpackung bestellen: 110 Kartons unbedruckt, Stempel
+w26d1t2	A	30			10:30 · Verpackungslizenz abschließen, Menge in LUCID melden
+w26d1t3	V	10			12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+w26d2t0	A	30			10:00 · Drop-E-Mails schreiben lassen (intern, nur Entwürfe)
+w26d2t1	C	15		R15	19:00 · REWIND #15 „Gleicher Ort, 100 Jahre später“ posten
+w26d3t0	C	60			10:00 · Kampagnenfilm schneiden (30 s)
+w26d3t1	C	20		V078	19:00 · V078 posten: REACH „Das erste Bild“ (vom 24.02. verschoben)
+w26d3t2	S	90	+		20:00 · Nur bei Spiel = bauen: Pixel-Art Teil 3 und Prompt 3
+w26d3t3	C	10	+		18:00 · Grind+: Variante des besten Videos oder V117
+w26d4t0	C	45		V079	18:00 · V079 posten: DETAIL „Kampagnenfilm“
+w26d5t0	C	10		V080	12:00 · V080 Story ASK „Hauptbild“
+w26d5t1	V	30			13:00 · PRESSE: Pressemappe v2 mit Shoot-Fotos und Kampagnenfilm
+w26d5t2	A	60			15:00 · Website Schritt 14: Shoot-Bilder in die Story
+w26d6t0	A	15			10:00 · Monatsabschluss Februar (Korridor 2.400)
+w26d6t1	A	25			10:15 · Wochenreview W26, Cockpit, Shopify-Email-Kontingent für Juni
+w26d6t2	D	5			10:40 · Gate 14.03.: Vorbestellungen ≥ 18, Liste ≥ 850, Kontingent, Stufe 2
+w26d6t3	C	75		W25-BUILD „Das ist Time Travel“	11:00 · Content-Batch W27: 4 Videos drehen und schneiden
+w26d6t4	S	15	+		16:00 · Nur bei Spiel = bauen: Formular-Test im Spiel
+w26d6t5	C	10	+		18:00 · Grind+: Variante des besten Videos oder V117
+w27d0t0	B	30			09:00 · Inline-Kontrolle 2: genäht und gewaschen
+w27d0t1	C	20		V081	18:00 · V081 posten: BUILD „Das ist Time Travel“
+w27d0t2	B	15			Fabrik informieren: Abi-Pause, Ware fertig bis Fr 14.05.
+w27d1t0	A	45			10:00 · Versandweg wählen und einrichten (DHL oder Sendcloud)
+w27d1t1	C	20		V082	18:00 · V082 posten: ORIGIN „Rot und Weiß“
+w27d1t2	S	60	+		20:00 · Spiel: Prompt 4 „Tür mit drei Zuständen“ (nur bei bauen)
+w27d1t3	C	45			Autopilot für die Abi-Pause (1/2): 4 Posts vorproduzieren und einplanen
+w27d2t0	A	40			16:00 · Probepaket packen, Zeit stoppen, Zeitraffer filmen
+w27d2t1	C	20		V083	19:00 · V083 posten: REACH „Nummer vergeben“
+w27d2t2	C	45			Autopilot für die Abi-Pause (2/2): 3 Posts einplanen, einer davon ehrlich
+w27d3t0	B	15			09:00 · Fabrik: Plan rund um das Opferfest (TR ca. 15.–19.05.)
+w27d3t1	A	30			10:00 · Textbausteine für Kundenfragen als Kürzel aufs Handy
+w27d3t2	V	30			11:00 · PRESSE-WELLE 2 „Drop 24.06.“ an 7 Medien senden
+w27d3t3	V	5			12:00 · Event-Tipp Mess-Abend 3 für Fr 19.03., 09:00 planen
+w27d3t4	V	10			17:00 · Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w27d3t5	C	10	+	V117	18:00 · Grind+ Variante des besten Videos oder V117
+w27d4t0	N				09:00 · Der Event-Tipp Mess-Abend 3 geht geplant raus
+w27d4t1	D	15			09:30 · Freie Tage und Packhilfe planen; Drop-Abend Sa 26.06.?
+w27d4t2	V	15			10:00 · Countdown-Stand prüfen: Holzmarkt und Nowkoelln Flowmarkt
+w27d4t3	A	60			11:00 · Website Schritt 15: Drop-Zustände (Schlüssel, Live, Ausverkauft)
+w27d4t4	C	20		V084	18:00 · V084 posten: DETAIL „Fäden nicht abschneiden“
+w27d5t0	V	10			10:00 · Einladung Mess-Abend 3 (Sa 15.05.) an alle ohne Vorbestellung
+w27d5t1	C	10		V085	12:00 · V085 ASK-Story „Paket“
+w27d5t2	A	90			14:00 · Website Schritt 16: „Der Weg zur Hütte“
+w27d6t0	A	20			10:00 · Wochenreview W27 + Cockpit + Zeile an Claude
+w27d6t1	D	10			10:20 · Gate: Vorbestellungen ≥ 21, Inline-Fotos 2, Rücklage, Stufe 2
+w27d6t2	C	80		V089	15:30 · Content-Batch W35: V086–V090 drehen, bauen, schneiden
+w27d6t3	C	10	+	V117	18:00 · Grind+ Variante des besten Videos oder V117
+w28d0t0	N				Abi-Pause, Woche 1 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w28d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w29d0t0	N				Abi-Pause, Woche 2 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w29d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w30d0t0	N				Abi-Pause, Woche 3 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w30d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w31d0t0	N				Abi-Pause, Woche 4 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w31d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w32d0t0	N				Abi-Pause, Woche 5 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w32d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w33d0t0	N				Abi-Pause, Woche 6 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w33d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w34d0t0	N				Abi-Pause, Woche 7 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktio
+w34d6t0	A	10			10 Minuten: Mails von Kunden und Fabrik
+w34d6t1	A	20			Neustart vorbereiten: Docket W35 lesen, Fabrik nach dem Liefertermin fragen
+w35d0t0	N				Info · Kein Feiertag (korrigiert 22.10.: der Frauentag ist am 08.03.). Feiertage im Mai: Do 06.05. Himmelfahrt
+w35d0t1	B	15			09:00 · Fabrik-Status vor dem Fest anfordern (bis 10:00)
+w35d0t2	A	60			10:00 · Website Schritt 17: Gerätetest mit strengem Prüf-Prompt
+w35d0t3	C	20		V086	18:00 · V086 posten: BUILD „Fast fertig“
+w35d1t0	A	60			10:00 · Werbung vorbereiten: Konto, Zahlung, Pixel mit Cookie-Banner
+w35d1t1	C	20		V087	18:00 · V087 posten: ORIGIN Karussell „Für alle Neuen“ (anheften)
+w35d2t0	B	20			09:00 · Restzahlung 21.05. vorbereiten (Steuer-Rücklage mitrechnen)
+w35d2t1	C	20		V088	19:00 · V088 posten: REACH „So wird verpackt“
+w35d2t2	C	100		R16	Dreh · REWIND #16 „Riesen-Jeans am Fernsehturm“ (KI-Video)
+w35d3t0	B	20			09:00 · Versandpapiere klären (TR: A.TR, Handelsrechnung, Packliste)
+w35d3t1	B	30			10:00 · Warenannahme und Prüfung vorbereiten (Ankunft ab 01.06.)
+w35d3t2	V	10			17:00 · Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+w35d3t3	C	10	+	V117	18:00 · Grind+ Variante des besten Videos oder V117
+w35d3t4	C	15		R16	19:00 · REWIND #16 „Riesen-Jeans am Fernsehturm“ posten
+w35d4t0	C	15			09:00 · E-Mail „Vorbestellpreis endet“ für Mo 17.05., 18:00 planen
+w35d4t1	V	15			10:00 · PRESSE: Welle 2 einmal nachfassen
+w35d4t2	V	10			10:15 · Nur bei Drop-Abend = ja: Laden schriftlich bestätigen
+w35d4t3	C	20		V089	18:00 · V089 posten: DETAIL „Gold im Licht“
+w35d5t0	C	10		V090	12:00 · V090 ASK-Story „Letzte Woche Vorbestellpreis“
+w35d5t1	C	5	+	Bring3-W26	13:00 · Grind+ „Bring 3“-Story: „Letzte Woche Vorbestellpreis“
+w35d5t2	V	110			18:00 · MESS-ABEND 3 (18:00–20:00), QR ?ref=mess3
+w35d5t3	S	60	+		14:00 · Spiel: Playtest mit 5 Leuten (nur bei bauen)
+w35d6t0	A	30			10:00 · Wochenreview W35 + Cockpit + Zeile an Claude
+w35d6t1	D	10			10:30 · Gate ≥ 29 Vorbestellungen · 32 ausgezahlt bis 18.05. · Stufe 2
+w35d6t2	C	80		W27-BUILD	14:00 · Content-Batch W36: 4 Videos drehen und schneiden
+w35d6t3	C	10	+	V117	18:00 · Grind+ Variante des besten Videos oder V117
+w36d0t0	N				Info · Shopify-E-Mail „Vorbestellpreis endet“ geht heute raus, Countdown-Sticker auf So 23.05., 20:00
+w36d0t1	B	15			09:00 · Fabrik-Status nach dem Fest: Endkontrolle und Versand bestätigen
+w36d0t2	V	5			10:00 · Creator um freiwillige Story „Vorbestellpreis endet So 20:00“ bitten
+w36d0t3	C	20		V091	18:00 · V091 posten: BUILD Day 218 „Noch bis Sonntag“
+w36d0t4	S	60	+		Grind+ · Nur bei Spiel = bauen: Playtest-Probleme beheben
+w36d1t0	A	75			Drop-Produkte fertig machen: Jeans, Zipper, Polo (falls dabei), Kollektion (Entwurf)
+w36d1t1	C	20		V092	18:00 · V092 posten: ORIGIN „Gold nur, wo etwas wächst“
+w36d2t0	A	30			Shop-Durchlauf mit echter Karte: Kauf, Rechnung, Label, Erstattung
+w36d2t1	A	20			21:30 · Website Schritt 18: PLAN B anlegen und Umschalten üben (< 1 Min.)
+w36d2t2	C	20		V093	19:00 · V093 posten: REACH „Papier zu Garn“
+w36d3t0	C	60		CD-T24 bis CD-T13	Countdown-Assets Teil 1: CD-T24 bis CD-T13 bauen und exportieren
+w36d3t1	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w36d3t2	C	10	+	V117	Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+w36d4t0	B	45			10:00 · ENDKONTROLLE nach dem Nachweis aus der PO prüfen
+w36d4t1	D	10			Gate · ≥ 32 ausgezahlt bis 18.05. + Nachweis vollständig → RESTZAHLUNG
+w36d4t2	C	20		V094	18:00 · V094 posten: DETAIL „45 × 45“
+w36d5t0	C	60		CD-T12 bis CD-T01	Countdown-Assets Teil 2: CD-T12 bis CD-T01 bauen und exportieren
+w36d5t1	C	10		V095	12:00 · V095 posten: ASK-Story „Letzter Tag“
+w36d5t2	C	15			Mail „Heute 20:00 endet der Vorbestellpreis“ auf So 12:00 terminieren
+w36d6t0	N				Info · 12:00 geht die Mail „Heute 20:00 endet der Vorbestellpreis“ geplant raus
+w36d6t1	A	20			10:00 · Wochenreview W36 mit Gates, Kassencheck und Cockpit
+w36d6t2	C	60		V096 · V097 · V099	11:00 · Content-Batch W37: V096, V097, V099 drehen und schneiden
+w36d6t3	D	5			Gate · 35 zu 149 € voll? Sonst Rest über Stufe 2, Preis nie verlängern
+w36d6t4	A	20			19:55 · Broadcast, 20:00 Vorbestellpreis schließen, Stufe 2 live, Bestand
+w36d6t5	S	15	+		Grind+ · Nur bei Spiel = bauen: letzter Stand vor dem Launch
+w36d6t6	C	10	+		Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+w37d0t0	N				Info · CTA bis 06.06.: „Drop 24.06., 19:00. Bis So 06.06. noch vorbestellen: 169 €, Lieferung Anfang Juni. Lin
+w37d0t1	B	15			09:00 · Sendung verfolgen: Tracking, Ankunftstag in den Kalender
+w37d0t2	A	30			Website Schritt 19: stiller Launch Stufe 4 „Der Weg zur Hütte“
+w37d0t3	C	15			Mail an alle ohne Kauf: „Stufe 2 bis So 06.06.: 169 €“
+w37d0t4	C	20		V096	18:00 · V096 posten: BUILD Day 225 „Alles bezahlt“
+w37d1t0	A	45			Lager und Packstation aufbauen, Zeitraffer für V098 filmen
+w37d1t1	C	20		V097	18:00 · V097 posten: ORIGIN „Warum Time Travel“
+w37d2t0	D	10			Gate · Tracking da? Backstop Restzahlung? Steuer-Geld: 40 ausgezahlt?
+w37d2t1	V	20			Vorbesteller informieren: Lieferung Anfang Juni, wie in der Bestätigung
+w37d2t2	C	45		V098	19:00 · V098 schneiden und posten: REACH „Packstation“
+w37d3t0	A	30			Support festlegen: Postfach, Antwortzeiten, Textbausteine
+w37d3t1	A	30			Helfer: Vertrag unterschrieben, angemeldet, Lohn ins Blatt „Kasse“
+w37d3t2	V	10			Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+w37d3t3	C	10	+	V117	Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+w37d3t4	C	60		R18	Dreh · REWIND #18 „Der Zeitsog“ (Dolly-Zoom)
+w37d4t0	N				Info · Normaler Werktag (korrigiert 22.10.: Karfreitag war am 26.03.). Zoll und Zustellung laufen.
+w37d4t1	V	60			Werbung einreichen: Kampagne 1 „Warteliste“ und Kampagne 2 „Drop“
+w37d4t2	C	20		V099	18:00 · V099 posten: DETAIL „Vier Stickereien, ein Patch“
+w37d5t0	C	10		V100	12:00 · V100 posten: ASK-Story „Größe“
+w37d5t1	A	20			Alle Termine bis zum Drop in den Kalender, Zeitzone prüfen
+w37d5t2	V	300	+		Grind+ · 12:00–18:00 Countdown-Stand Holzmarkt-Flohmarkt, QR ?ref=stand
+w37d5t3	C	120		R17	Dreh · REWIND #17 „Berlin steht still“ (Zeit anhalten)
+w37d6t0	N				Info · Normaler Sonntag (korrigiert 22.10.: Ostern war am 28.03.). Sommerzeit gilt seit 28.03., alle Countdown
+w37d6t1	A	20			10:00 · Wochenreview W37 mit Gates, Kassencheck und Cockpit
+w37d6t2	D	10			Gate · Ware mit Tracking? Stufe 2 ≥ 2? Kasse deckt die Steuer?
+w37d6t3	C	15			Countdown-Start vorbereiten: 24 Dateien, 24 Captions, CD-T24 Mo 18:00
+w37d6t4	V	20			PRESSE-WELLE 3 schreiben (Event Drop 24.06.), Versand geplant Mo 07.06.
+w37d6t5	C	90	+	Reserve · Das Feld wächst 1	Grind+ · „Das Feld wächst“ Dreh 1: Sonnenuntergang am Feld
+w37d6t6	C	10	+		Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+w38d0t0	N				Info · Normaler Montag (korrigiert 22.10.: Ostermontag war am 29.03.). Post und Läden offen.
+w38d0t1	N				Info · CTA bis So 06.06. mit Stufe 2 (siehe Mo 24.05.): „Drop 24.06., 19:00. Bis So 06.06. noch vorbestellen: 
+w38d0t2	A	10			10:00 · Werbung: Freigabe prüfen (Kampagne 1)
+w38d0t3	A	10			10:15 · Feld-Kapitel der Startseite öffentlich schalten (ohne Spiel)
+w38d0t4	C	10		CD-T24	18:00 · CD-T24 posten: Ganzkörper vorn, Zoom auf die Tasche
+w38d1t0	B	45			Ganztägig · WARENANNAHME: Kartons zählen, Fotos, Lieferschein
+w38d1t1	C	20		CD-T23	18:00 · CD-T23 als Live-Clip „They're here.“, zuerst im Broadcast
+w38d1t2	C	15		R17	19:00 · REWIND #17 „Berlin steht still“ posten
+w38d2t0	B	100			10:00 · Prüfung Teil 1: Sichtprüfung der ersten 50 (mit Helfer)
+w38d2t1	C	10		CD-T22	18:00 · CD-T22 posten: Münztasche E, Lineal daneben
+w38d3t0	B	100			10:00 · Prüfung Teil 2: Sichtprüfung der zweiten 50
+w38d3t1	C	10		CD-T21	18:00 · CD-T21 posten: linke Gesäßtasche, drei Ähren, Goldfäden
+w38d4t0	B	60			10:00 · Prüfung Teil 3: Maße, 15 % Stichprobe, Grundton bei Tageslicht
+w38d4t1	B	30			11:00 · Fehler sortieren und reklamieren, Fehlerteile nicht verkaufen
+w38d4t2	C	10		CD-T20	18:00 · CD-T20 posten: Goldfäden in Bewegung
+w38d5t0	A	45			11:00 · Bestand einsortieren und im Shop setzen
+w38d5t1	C	10		CD-T19	18:00 · CD-T19 posten: Achtstern, Kamera kommt näher
+w38d5t2	C	15		R18	12:00 · REWIND #18 „Der Zeitsog“ posten
+w38d6t0	A	15			10:00 · Monatsabschluss Mai
+w38d6t1	A	20			10:15 · Wochenreview W38 + Cockpit + Zeile an Claude
+w38d6t2	D	10			10:35 · Gate: Ware geprüft · Steuer bezahlt · ≥ 40 · Liste ≥ 2.720
+w38d6t3	C	10		CD-T18	18:00 · CD-T18 posten: Lebensbaum-Patch (oder echtes Prüfergebnis)
+w38d6t4	A	15			20:00 · Stufe 2 schließen, Drop-Bestand rechnen, Packliste
+w38d6t5	C	90	+	Feld-Dreh 2	Grind+ · „Das Feld wächst“ Dreh 2 (vor Sonnenuntergang)
+w39d0t0	N				Info · PRESSE-WELLE 3 (Event Drop 24.06.) geht heute geplant raus, geschrieben am So 30.05.
+w39d0t1	N				Info · Ab heute CTA: „Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.“
+w39d0t2	C	60			11:00 · Produktfotos der Serienware an 3 Körpern (W30, W32/34, W36/38)
+w39d0t3	C	10		CD-T17	18:00 · CD-T17 posten: Gruppenbild Jeans, Zipper, Polo
+w39d1t0	A	90			10:00 · Vorbestellungen packen Teil 1 (Nummer steht auf dem Etikett)
+w39d1t1	C	10		CD-T16	18:00 · CD-T16 posten: Zipper-Rücken (oder „Pre-orders shipping today.“)
+w39d2t0	A	75			10:00 · Vorbestellungen packen Teil 2 und abgeben
+w39d2t1	C	10		CD-T15	18:00 · CD-T15 posten: Polo-Knopfleiste (oder Packtisch-Clip)
+w39d3t0	C	10			10:00 · E-Mail T−14 senden (terminiert 18:00)
+w39d3t1	V	45			11:00 · CREATOR-Pakete verschicken (Link auf der Karte, Kennzeichnung)
+w39d3t2	C	10		CD-T14	18:00 · CD-T14 posten: Hangtag 001 in der Hand
+w39d4t0	A	10			10:00 · Werbung: Zwischenstand Kampagne 1
+w39d4t1	A	45			10:15 · Website Schritt 20: Generalprobe mit Testprodukt
+w39d4t2	C	10		CD-T13	18:00 · CD-T13 posten: „So ist der Shoot entstanden.“
+w39d5t0	V	30			10:00 · Fotos von Vorbestellern einsammeln (nur mit Erlaubnis)
+w39d5t1	V	10			10:30 · Vorbesteller: „Wer soll am 24.06. auch eine haben?“
+w39d5t2	C	10		CD-T12	18:00 · CD-T12 posten: Goldfäden, neun Längen
+w39d5t3	C	100		R19	Dreh · REWIND #19 „Paar 001, eingefroren“ (Bullet Time)
+w39d6t0	A	20			10:00 · Wochenreview W39 + Cockpit + Zeile an Claude
+w39d6t1	D	10			10:20 · Gate: Vorbestellungen verschickt · Liste ≥ 2.820
+w39d6t2	C	10		CD-T11	18:00 · CD-T11 posten: Zickzack am Band (oder Kundenfotos)
+w39d6t3	C	90	+	Feld-Dreh 3	Grind+ · „Das Feld wächst“ Dreh 3 (vor Sonnenuntergang)
+w40d0t0	A	30			09:00 · Bestand ein letztes Mal zählen: Regal gegen Shop
+w40d0t1	A	20			10:00 · Retouren bearbeiten: prüfen, erstatten, einbuchen, Grund eintragen
+w40d0t2	N				ÜBERHOLT 23.10.: Zipper und Polo vorbereiten. Der Zipper liegt als Ware aus der Fabrik da. Den Polo-Ablauf leg
+w40d0t3	C	10		CD-T10	18:00 · CD-T10 posten: Teppich-Foto, harter Schnitt aufs Medaillon
+w40d1t0	A	30			09:00 · Veröffentlichung auf Do 24.06., 18:00 terminieren
+w40d1t1	V	10			12:30 · 10 Min. Community: fünf Kommentare mit Inhalt in der Nische
+w40d1t2	C	10		CD-T09	18:00 · CD-T09 posten: Innenseite der Stickerei, Hose auf links
+w40d1t3	C	15		R19	19:00 · REWIND #19 „Paar 001, eingefroren“ posten
+w40d2t0	A	30			09:00 · Packstation für den Drop fertig machen
+w40d2t1	A	45			10:00 · Drop-Startseite vorbereiten: Hero prüfen, keine Ernte-Hooks
+w40d2t2	C	10		CD-T08	18:00 · CD-T08 posten: Gehen, Rückansicht
+w40d3t0	D	10			09:00 · Gate spätester Ankunftstermin: Ware war da?
+w40d3t1	C	10			09:15 · E-Mail T−7 heute 18:00 senden (terminieren)
+w40d3t2	V	10			09:30 · Creator erinnern: Post zwischen 17. und 23.06., Kennzeichnung
+w40d3t3	A	20			10:00 · Website Schritt 21: Schlüssel-Link in die E-Mail T−1h
+w40d3t4	V	10			10:20 · Presse: Welle 3 einmal nachfassen
+w40d3t5	C	10		CD-T07	18:00 · CD-T07 posten: Ganzkörper hinten, „Noch 1 Woche“
+w40d4t0	A	30			09:00 · Drop-Ablauf durchplanen, ausdrucken
+w40d4t1	V	10			09:30 · Top-Werber ziehen (3 bestätigte Freunde): DM um 17:55 am 24.06.
+w40d4t2	C	10		V125	18:00 · V125 „Aus drei Metern“ als CD-T06 posten
+w40d5t0	A	30			10:00 · Letzte Testbestellung: Handy und Laptop
+w40d5t1	A	5			10:30 · CODE-FREEZE: Testmodus aus
+w40d5t2	C	30		ASK-Q&A	12:00 · Story-Q&A zum Drop
+w40d5t3	C	10		CD-T05	18:00 · CD-T05 posten: Pflegeetikett „Fäden nicht abschneiden“
+w40d6t0	A	20			10:00 · Wochenreview W40 mit Gates, Kassencheck und Cockpit
+w40d6t1	D	10			10:20 · Gate: Liste ≥ 2.920 (Alarm 1.400) · Drop-Bestand im Shop korrekt
+w40d6t2	C	10		CD-T04	18:00 · CD-T04 posten: Hand in der Tasche, Detail
+w40d6t3	C	90	+	Das Feld wächst · Dreh 4	Grind+ · „Das Feld wächst“ Dreh 4 + Zeitraffer
+w41d0t0	C	10			09:00 · E-Mail T−3 heute 18:00 senden (terminieren)
+w41d0t1	V	15			09:15 · Textbausteine griffbereit, dazu der Datums-Baustein
+w41d0t2	C	10		CD-T03	18:00 · CD-T03 posten: Papiertest aus dem Oktober → fertiges Teil
+w41d1t0	V	20			10:00 · Helfer briefen: Prüfen, Packen, DMs am Drop-Abend 18–20 Uhr
+w41d1t1	C	10		CD-T02	18:00 · CD-T02 posten: vier Stickereien und Patch, A · E · C · D · B2
+w41d2t0	A	20			09:00 · Letzter Check: Shop, Preise, Bestand, Mails, Kampagne 2
+w41d2t1	C	15			09:20 · Mail T−1h (Do 18:00) und LIVE-Mail (Do 19:00) terminieren
+w41d2t2	C	10			09:35 · E-Mail T−24h senden und Broadcast
+w41d2t3	C	10		CD-T01	18:00 · CD-T01 posten: Kampagnenfilm 10 s, „Morgen 19:00“
+w41d3t0	N				Info · „19:00 Theme ‚Drop 24.06.‘ veröffentlichen“ (Rev. 5.3) entfällt: Die Seite schaltet selbst um (Referenz
+w41d3t1	N				Info · Symbol-Hygiene heute: keine Ernte-Hooks (billige Vorsicht, auch ohne Serp); Antwortbaustein /datum vom 
+w41d3t2	V	10			17:55 · DM an die Top-Werber
+w41d3t3	A	105			17:00–23:00 · DROP: 18:00 Liste per Schlüssel-Link, 19:00 öffentlich
+w41d3t4	C	35		V101	18:00 · V101 ASK „Die Liste kauft gerade“ + Live 18:00–18:30
+w41d3t5	C	15		V102	19:00 · V102 REACH „Live“ posten
+w41d3t6	C	10		V103	20:00 · V103 ASK „Restbestand“ (Update 19:15, 20:00, 22:00)
+w41d3t7	D	15			21:00 · Gate: Do 21:00 ≥ 15 Käufe? Sonst 21:15 DM-Welle
+w41d3t8	C	30		V107	21:00 · V107 ASK „Drop-Live vom Packtisch“
+w41d3t9	S	10	+		Grind+ · Nur bei Spiel = bauen: Spiel am Drop-Tag beobachten
+w41d4t0	C	10			10:00 · Nur wenn Do 21:00 unter 15: Mail an LIVE-Nicht-Öffner
+w41d4t1	A	180			10:15 · Packen Tag 1 (mit Helfer)
+w41d4t2	C	20		V104	18:00 · V104 BUILD „24 Stunden“ drehen und posten
+w41d4t3	D	10			19:00 · Gate: Fr 19:00 ≥ 26 Käufe? Sonst Story mit Restgrößen
+w41d4t4	C	30		R20	Dreh · REWIND #20 „Diesmal fuhr er vorwärts“ (Rückblende auf #01)
+w41d5t0	A	30			10:00–15:00 · Packen Tag 2 machen die Helfer, du prüfst Stichproben
+w41d5t1	C	10		V105	12:00 · V105 ASK „Drop 2“
+w41d5t2	V	180			17:00–20:00 · DROP-ABEND im Partnerladen (nur mit Packhilfe)
+w41d5t3	C	15		R20	12:00 · REWIND #20 „Diesmal fuhr er vorwärts“ posten
+w41d6t0	A	180			09:00 · Nur wenn die Helfer Sa nicht packen konnten: Packen Tag 2
+w41d6t1	N				ÜBERHOLT 23.10.: Blanks bestellen. Der Zipper ist Ware aus der Fabrik, der Polo-Ablauf ist noch offen.
+w41d6t2	D	45			14:00 · Auswertung nach 72 Stunden: Quellen-Tag, Kaufgrund, Größen
+w41d6t3	A	20			15:00 · Wochenreview W41 mit Gates, Kassencheck und Cockpit
+w41d6t4	D	15			15:20 · Gate: ≥ 29 netto im Drop? Sonst Retargeting 72 h weiter
+w41d6t5	C	20		V106	18:00 · V106 REAL „Was der Drop gebracht hat“ drehen und posten
+w41d6t6	S	10	+		Grind+ · Nur bei Spiel = bauen: Feld behalten oder zurück
+w41d6t7	N				Info · Ab Mo 28.06.: täglich 10′ Retouren (prüfen, binnen 14 Tagen erstatten, wieder einbuchen, Nummer neu ver

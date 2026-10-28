@@ -1,0 +1,131 @@
+<title>Messbogen Eightyfive M</title><meta name="claude:viewport-fit-sides" content="cover"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap"><style>/* Layout: Messbogen wie ein Werkstattblatt. Oben die zwei Skizzen mit nummerierten Messpunkten, darunter die Felder in derselben Nummerierung */
+:root{
+  --bg:#f2f4f7; --surface:#ffffff; --ink:#172031; --muted:#566076; --line:#d7dce5;
+  --indigo:#2b4a77; --indigo-soft:#e2e9f4; --copper:#9c5a30; --copper-soft:#f6e9df; --stitch:#c9976f;
+  --red:#a8302a; --ok:#2c6e4c; --ok-soft:#e0efe6; --warn:#9a5410; --denim:#dbe4f0; --denim-line:#41618f;
+  --f-display:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e131b; --surface:#151c27; --ink:#e4e8ef; --muted:#9aa3b4; --line:#283244;
+    --indigo:#97b4e3; --indigo-soft:#1d2b42; --copper:#e09f6c; --copper-soft:#35261b; --stitch:#7d5c42;
+    --red:#e8766f; --ok:#73c899; --ok-soft:#163024; --warn:#eaa95f; --denim:#1c2b42; --denim-line:#8eaad6; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e131b; --surface:#151c27; --ink:#e4e8ef; --muted:#9aa3b4; --line:#283244;
+  --indigo:#97b4e3; --indigo-soft:#1d2b42; --copper:#e09f6c; --copper-soft:#35261b; --stitch:#7d5c42;
+  --red:#e8766f; --ok:#73c899; --ok-soft:#163024; --warn:#eaa95f; --denim:#1c2b42; --denim-line:#8eaad6; color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+#app{max-width:820px;margin:0 auto;padding-block:28px 56px;display:flex;flex-direction:column;gap:22px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin:0 0 6px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(32px,7vw,44px);line-height:1.04;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:10px 0 0;max-width:64ch}
+.rules{margin:0;padding:14px 16px 14px 34px;background:var(--surface);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;gap:4px}
+.status{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+.status .count{font-family:var(--f-display);font-size:22px;font-weight:700}
+.save{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.save.saved{color:var(--ok)} .save.pending,.save.saving{color:var(--warn)} .save.err{color:var(--red)}
+.figs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fig{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 10px 6px}
+.fig figcaption{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center}
+.fig svg{display:block;width:100%;height:auto;max-width:100%}
+.gm{fill:var(--denim);stroke:var(--denim-line);stroke-width:1.6}
+.sm{fill:none;stroke:var(--denim-line);stroke-width:1.2}
+.st{fill:none;stroke:var(--stitch);stroke-width:1.2;stroke-dasharray:3 2.4}
+.pk{fill:none;stroke:var(--denim-line);stroke-width:1.2}
+.lp{fill:var(--denim);stroke:var(--denim-line);stroke-width:1}
+.bt{fill:var(--copper)}
+.ml{stroke:var(--copper);stroke-width:1.5;fill:none}
+.ml.dash{stroke-dasharray:3 3;stroke-width:1}
+.bd circle{fill:var(--copper)}
+.bd text{fill:var(--surface);font-family:var(--f-mono);font-size:9.5px;font-weight:500;text-anchor:middle}
+.group{display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:2px dashed var(--stitch)}
+h2{font-family:var(--f-display);font-size:24px;font-weight:700;margin:0}
+.gnote{margin:0;color:var(--muted);font-size:15px}
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{display:grid;grid-template-columns:30px minmax(0,1fr) 128px;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.num{width:26px;height:26px;border-radius:50%;background:var(--copper);color:var(--surface);font-family:var(--f-mono);font-size:12px;display:grid;place-items:center}
+.row label{font-weight:600;display:block}
+.how{margin:2px 0 0;color:var(--muted);font-size:14px}
+.warn{margin:4px 0 0;color:var(--warn);font-size:14px}
+.field{display:flex;align-items:center;gap:6px}
+.field input{width:100%;min-width:0;font:inherit;font-family:var(--f-mono);font-size:16px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);text-align:right}
+.field span{font-family:var(--f-mono);font-size:12px;color:var(--muted);min-width:34px}
+.row.wide{grid-template-columns:minmax(0,1fr)}
+.row.wide .field input{text-align:left}
+.row.filled{border-color:color-mix(in srgb, var(--ok) 45%, var(--line))}
+input:focus-visible,button:focus-visible{outline:2px solid var(--copper);outline-offset:2px}
+.copy{display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:2px dashed var(--stitch)}
+.copy button{align-self:flex-start;font:inherit;font-weight:600;padding:10px 16px;border-radius:8px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer;min-height:42px}
+.copy pre{margin:0;white-space:pre-wrap;word-break:break-word;font-family:var(--f-mono);font-size:13px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px}
+@media (max-width:560px){.figs{grid-template-columns:minmax(0,1fr)} .row{grid-template-columns:30px minmax(0,1fr)} .row .field{grid-column:2}}
+</style><main id="app"></main><template id="svg-front"><svg viewBox="0 0 320 448" role="img" aria-label="Jeans von vorn mit Messpunkten"><title>Jeans von vorn mit Messpunkten</title><path class="gm" d="M70 30L250 30L252 44L262 150L256 420L168 420L160 175L152 420L64 420L58 150L68 44Z"></path><path class="sm" d="M68 44L252 44"></path><path class="sm" d="M160 44L160 140"></path><path class="st" d="M172 44L172 128Q172 142 160 146"></path><path class="sm" d="M94 44Q92 78 61 84"></path><path class="sm" d="M226 44Q228 78 259 84"></path><rect class="lp" x="88" y="26" width="6" height="22"></rect><rect class="lp" x="226" y="26" width="6" height="22"></rect><circle class="bt" cx="166" cy="37" r="3.2"></circle><path class="st" d="M64 412L152 412M168 412L256 412"></path><path class="ml" d="M70 18L250 18"></path><path class="ml" d="M70 14L70 22"></path><path class="ml" d="M250 14L250 22"></path><path class="ml" d="M59 140L261 140"></path><path class="ml" d="M59 136L59 144"></path><path class="ml" d="M261 136L261 144"></path><path class="ml" d="M59 190L159.5 190"></path><path class="ml" d="M59 186L59 194"></path><path class="ml" d="M159.5 186L159.5 194"></path><path class="ml" d="M61 300L156 300"></path><path class="ml" d="M61 296L61 304"></path><path class="ml" d="M156 296L156 304"></path><path class="ml" d="M64 432L152 432"></path><path class="ml" d="M64 428L64 436"></path><path class="ml" d="M152 428L152 436"></path><path class="ml" d="M186 30L186 175"></path><path class="ml" d="M182 30L190 30"></path><path class="ml" d="M182 175L190 175"></path><path class="ml dash" d="M160 175L186 175"></path><path class="ml" d="M170 180L178 416"></path><path class="ml" d="M284 30L284 420"></path><path class="ml" d="M280 30L288 30"></path><path class="ml" d="M280 420L288 420"></path><path class="ml" d="M266 30L266 44"></path><path class="ml" d="M262 30L270 30"></path><path class="ml" d="M262 44L270 44"></path><path class="ml" d="M148 44L148 140"></path><path class="ml" d="M144 44L152 44"></path><path class="ml" d="M144 140L152 140"></path><path class="ml" d="M68 52L94 52"></path><path class="ml" d="M68 48L68 56"></path><path class="ml" d="M94 48L94 56"></path><path class="ml" d="M56 44L48 84"></path><g class="bd"><circle cx="110" cy="18" r="8"></circle><text x="110" y="21.6">1</text></g><g class="bd"><circle cx="110" cy="140" r="8"></circle><text x="110" y="143.6">2</text></g><g class="bd"><circle cx="109" cy="190" r="8"></circle><text x="109" y="193.6">3</text></g><g class="bd"><circle cx="108" cy="300" r="8"></circle><text x="108" y="303.6">4</text></g><g class="bd"><circle cx="108" cy="432" r="8"></circle><text x="108" y="435.6">5</text></g><g class="bd"><circle cx="186" cy="105" r="8"></circle><text x="186" y="108.6">6</text></g><g class="bd"><circle cx="174" cy="300" r="8"></circle><text x="174" y="303.6">8</text></g><g class="bd"><circle cx="284" cy="230" r="8"></circle><text x="284" y="233.6">9</text></g><g class="bd"><circle cx="266" cy="58" r="8"></circle><text x="266" y="61.6">10</text></g><g class="bd"><circle cx="140" cy="98" r="8"></circle><text x="140" y="101.6">11</text></g><g class="bd"><circle cx="81" cy="64" r="8"></circle><text x="81" y="67.6">16</text></g><g class="bd"><circle cx="44" cy="64" r="8"></circle><text x="44" y="67.6">17</text></g></svg></template><template id="svg-back"><svg viewBox="0 0 320 448" role="img" aria-label="Jeans von hinten mit Messpunkten"><title>Jeans von hinten mit Messpunkten</title><path class="gm" d="M70 30L250 30L252 44L262 150L256 420L168 420L160 175L152 420L64 420L58 150L68 44Z"></path><path class="sm" d="M68 44L252 44"></path><path class="sm" d="M160 44L160 175"></path><path class="st" d="M64 92L160 112L256 92"></path><path class="pk" d="M88 124L140 120L136 180L113 192L92 182Z"></path><path class="pk" d="M180 120L232 124L228 182L207 192L184 180Z"></path><rect class="lp" x="86" y="26" width="6" height="22"></rect><rect class="lp" x="157" y="26" width="6" height="22"></rect><rect class="lp" x="228" y="26" width="6" height="22"></rect><path class="st" d="M64 412L152 412M168 412L256 412"></path><path class="ml" d="M146 30L146 175"></path><path class="ml" d="M142 30L150 30"></path><path class="ml" d="M142 175L150 175"></path><path class="ml dash" d="M146 175L160 175"></path><path class="ml" d="M174 44L174 112"></path><path class="ml" d="M170 44L178 44"></path><path class="ml" d="M170 112L178 112"></path><path class="ml" d="M268 44L268 92"></path><path class="ml" d="M264 44L272 44"></path><path class="ml" d="M264 92L272 92"></path><path class="ml" d="M160 117L180 117"></path><path class="ml" d="M160 113L160 121"></path><path class="ml" d="M180 113L180 121"></path><path class="ml" d="M244 44L244 124"></path><path class="ml" d="M240 44L248 44"></path><path class="ml" d="M240 124L248 124"></path><path class="ml" d="M240 26L240 48"></path><path class="ml" d="M236 26L244 26"></path><path class="ml" d="M236 48L244 48"></path><path class="ml" d="M110 412L110 420"></path><path class="ml" d="M106 412L114 412"></path><path class="ml" d="M106 420L114 420"></path><g class="bd"><circle cx="146" cy="150" r="8"></circle><text x="146" y="153.6">7</text></g><g class="bd"><circle cx="174" cy="74" r="8"></circle><text x="174" y="77.6">12</text></g><g class="bd"><circle cx="268" cy="68" r="8"></circle><text x="268" y="71.6">13</text></g><g class="bd"><circle cx="170" cy="130" r="8"></circle><text x="170" y="133.6">14</text></g><g class="bd"><circle cx="244" cy="74" r="8"></circle><text x="244" y="77.6">15</text></g><g class="bd"><circle cx="176" cy="14" r="8"></circle><text x="176" y="17.6">18</text></g><g class="bd"><circle cx="254" cy="37" r="8"></circle><text x="254" y="40.6">19</text></g><g class="bd"><circle cx="110" cy="434" r="8"></circle><text x="110" y="437.6">20</text></g></svg></template><script type="application/json" id="fields">{"groups": [{"title": "Weiten", "note": "Flach von Kante zu Kante messen, nicht verdoppeln.", "items": [{"k": "bund", "n": 1, "t": "Bund", "how": "Knopf zu. Oberkante Bund, von Kante zu Kante.", "min": 34, "max": 52, "unit": "cm"}, {"k": "huefte", "n": 2, "t": "Hüfte", "how": "Waagerecht auf Höhe vom Ende des Hosenschlitzes.", "min": 42, "max": 64, "unit": "cm"}, {"k": "oberschenkel", "n": 3, "t": "Oberschenkel", "how": "Ein Bein, 2,5 cm unter dem Schritt, rechtwinklig zum Bein.", "min": 26, "max": 42, "unit": "cm"}, {"k": "knie", "n": 4, "t": "Knie", "how": "Ein Bein, 33 cm unter dem Schritt (auf der Innennaht gemessen), quer.", "min": 19, "max": 32, "unit": "cm"}, {"k": "saum", "n": 5, "t": "Saumweite", "how": "Ein Bein, unten am Saum von Kante zu Kante.", "min": 17, "max": 30, "unit": "cm"}]}, {"title": "Längen", "note": "Entlang der Naht messen, das Maßband folgt der Naht.", "items": [{"k": "leib_vorn", "n": 6, "t": "Vordere Leibhöhe", "how": "Vom Schritt (wo sich die Nähte kreuzen) vorn bis Oberkante Bund, mit Bund.", "min": 24, "max": 38, "unit": "cm"}, {"k": "leib_hinten", "n": 7, "t": "Hintere Leibhöhe", "how": "Vom Schritt hinten bis Oberkante Bund, mit Bund.", "min": 32, "max": 48, "unit": "cm"}, {"k": "innenbein", "n": 8, "t": "Innenbeinlänge", "how": "Vom Schritt entlang der Innennaht bis zum Saum.", "min": 68, "max": 92, "unit": "cm"}, {"k": "aussen", "n": 9, "t": "Außenlänge", "how": "Von Oberkante Bund entlang der Seitennaht bis zum Saum.", "min": 92, "max": 120, "unit": "cm"}]}, {"title": "Details", "note": "Für den Schnitt und die Position unserer Teile.", "items": [{"k": "bundhoehe", "n": 10, "t": "Bundhöhe", "how": "Breite des Bunds, oben bis unten.", "min": 2.5, "max": 6, "unit": "cm"}, {"k": "schlitz", "n": 11, "t": "Schlitzlänge", "how": "Unterkante Bund bis zum unteren Ende der J-Naht.", "min": 13, "max": 25, "unit": "cm"}, {"k": "passe_mitte", "n": 12, "t": "Passe hinten Mitte", "how": "Unterkante Bund bis zur Passennaht, an der hinteren Mittelnaht.", "min": 4, "max": 13, "unit": "cm"}, {"k": "passe_seite", "n": 13, "t": "Passe an der Seite", "how": "Unterkante Bund bis zur Passennaht, an der Seitennaht.", "min": 1.5, "max": 8, "unit": "cm"}, {"k": "tasche_mitte", "n": 14, "t": "Gesäßtasche bis Mitte", "how": "Hintere Mittelnaht bis zur inneren oberen Taschenecke.", "min": 2, "max": 10, "unit": "cm"}, {"k": "tasche_hoehe", "n": 15, "t": "Gesäßtasche unter dem Bund", "how": "Unterkante Bund bis Oberkante Gesäßtasche, an der inneren Ecke.", "min": 4, "max": 14, "unit": "cm"}, {"k": "eingriff_breite", "n": 16, "t": "Eingriff vorn, Breite", "how": "Unterkante Bund: von der Seitennaht bis zum Anfang der Taschenöffnung.", "min": 8, "max": 17, "unit": "cm"}, {"k": "eingriff_tiefe", "n": 17, "t": "Eingriff vorn, Tiefe", "how": "Entlang der Seitennaht: Unterkante Bund bis Ende der Taschenöffnung.", "min": 4, "max": 13, "unit": "cm"}, {"k": "schlaufen", "n": 18, "t": "Gürtelschlaufen, Anzahl", "how": "Wie viele Schlaufen hat die Jeans?", "min": 4, "max": 8, "unit": "Stück"}, {"k": "schlaufe_laenge", "n": 19, "t": "Gürtelschlaufe, Länge", "how": "Eine Schlaufe, sichtbare Länge von oben bis unten.", "min": 3.5, "max": 7.5, "unit": "cm"}, {"k": "saumbreite", "n": 20, "t": "Saumbreite", "how": "Vom Saumrand bis zur Steppnaht des Saums.", "min": 0.8, "max": 4, "unit": "cm"}]}], "label": [{"k": "material", "t": "Material laut Pflegeetikett", "ph": "z. B. 100 % Baumwolle oder 99 % Baumwolle, 1 % Elasthan"}, {"k": "groesse", "t": "Größe auf dem Etikett", "ph": "z. B. M oder W32 L32"}]}</script><script>(function(){
+  var F=JSON.parse(document.getElementById('fields').textContent);
+  var app=document.getElementById('app');
+  var DOC='messungen/eightyfive-m', LS='nvl-messbogen';
+  var vals={}, dirty={}, focusKey=null, ref=null, mode='wait', timer=null, writing=false, again=false, retried=false;
+  try{vals=JSON.parse(localStorage.getItem(LS)||'{}')||{};}catch(e){vals={};}
+  var NUM=[];F.groups.forEach(function(g){g.items.forEach(function(it){NUM.push(it);});});
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
+  function num(v){if(v==null)return NaN;var s=String(v).trim().replace(',','.');return s===''?NaN:Number(s);}
+  function statusText(){return {wait:'Verbindet …',local:'Speichern hier nicht möglich. Unten kopieren und mir schicken.',ro:'Nur lesen',saved:'Gespeichert, Claude kann es lesen',pending:'Noch nicht gespeichert',saving:'Speichert …',err:'Speichern fehlgeschlagen, unten kopieren'}[mode]||'';}
+  function setMode(m){mode=m;var s=document.getElementById('save');if(s){s.className='save '+m;s.textContent=statusText();}}
+  function filledCount(){return NUM.filter(function(it){return !isNaN(num(vals[it.k]));}).length;}
+  function warnText(it){var v=num(vals[it.k]);if(isNaN(v))return '';
+    if(v<it.min||v>it.max){return it.k==='bund'&&v>it.max?'Ungewöhnlich groß. Hast du den ganzen Umfang gemessen? Gemeint ist flach von Kante zu Kante.':'Ungewöhnlicher Wert, bitte noch mal messen.';}return '';}
+  function refreshRow(it){var r=document.getElementById('row-'+it.k);if(!r)return;var w=r.querySelector('.warn');var t=warnText(it);w.textContent=t;w.hidden=!t;
+    r.classList.toggle('filled',!isNaN(num(vals[it.k])));}
+  function refreshCount(){var c=document.getElementById('cnt');if(c)c.textContent=filledCount()+' von '+NUM.length+' Maßen';var p=document.getElementById('sum');if(p)p.textContent=summary();}
+  function onInput(k,v){vals[k]=v;dirty[k]=true;try{localStorage.setItem(LS,JSON.stringify(vals));}catch(e){}
+    NUM.forEach(function(it){if(it.k===k)refreshRow(it);});refreshCount();schedule();}
+  function input(k,ph,isNum){var i=el('input');i.id='in-'+k;i.type='text';if(isNum){i.inputMode='decimal';i.autocomplete='off';}i.placeholder=ph||'';i.value=vals[k]||'';
+    i.addEventListener('input',function(){onInput(k,i.value);});i.addEventListener('focus',function(){focusKey=k;});i.addEventListener('blur',function(){focusKey=null;});return i;}
+  function summary(){var lines=['Eightyfive Gr. M, flach gemessen:'];
+    NUM.forEach(function(it){var v=vals[it.k];if(v&&String(v).trim())lines.push(it.n+' '+it.t+': '+String(v).trim()+(it.unit==='cm'?' cm':''));});
+    F.label.forEach(function(l){var v=vals[l.k];if(v&&String(v).trim())lines.push(l.t+': '+String(v).trim());});
+    return lines.join('\n');}
+  function render(){
+    var h=el('header');h.append(el('p','eyebrow','Novalife · Time Travel · NVL-TT-01'),el('h1',null,'Messbogen Eightyfive M'),
+      el('p','lede','Die Maße deiner Eightyfive werden die Maßtabelle für die Fabrik. Jeder Wert speichert sich beim Tippen, ich lese ihn danach aus.'));
+    app.append(h);
+    var ol=el('ol','rules');['Jeans flach auf einen Tisch legen, Reißverschluss und Knopf zu.','Glatt streichen, nicht am Stoff ziehen.','In Zentimetern, auf einen halben Zentimeter genau. Komma oder Punkt geht beides.','Weiten nie verdoppeln: nur einmal von Kante zu Kante.','Von 1 bis 9 je ein Foto mit Maßband machen und mir im Chat schicken.'].forEach(function(t){ol.append(el('li',null,t));});
+    app.append(ol);
+    var st=el('div','status');var c=el('span','count');c.id='cnt';var s=el('span','save '+mode,statusText());s.id='save';s.setAttribute('role','status');st.append(c,s);app.append(st);
+    var figs=el('div','figs');[['Vorn','svg-front'],['Hinten','svg-back']].forEach(function(f){var fg=el('figure','fig');fg.innerHTML=document.getElementById(f[1]).innerHTML;fg.append(el('figcaption',null,f[0]));figs.append(fg);});
+    app.append(figs);
+    F.groups.forEach(function(g){var sec=el('section','group');sec.append(el('h2',null,g.title),el('p','gnote',g.note));var rows=el('div','rows');
+      g.items.forEach(function(it){var r=el('div','row');r.id='row-'+it.k;var n=el('span','num',String(it.n));n.setAttribute('aria-hidden','true');
+        var b=el('div');b.style.minWidth='0';var lab=el('label',null,it.n+'. '+it.t);lab.htmlFor='in-'+it.k;var w=el('p','warn');w.hidden=true;b.append(lab,el('p','how',it.how),w);
+        var fd=el('div','field');fd.append(input(it.k,'',true),el('span',null,it.unit));r.append(n,b,fd);rows.append(r);});
+      sec.append(rows);app.append(sec);});
+    var sec=el('section','group');sec.append(el('h2',null,'Etikett'),el('p','gnote','Vom Pflegeetikett innen. Wichtig: Ist Elasthan drin, sitzt unsere Jeans aus festem Denim enger und wir geben Weite zu.'));
+    var rows=el('div','rows');F.label.forEach(function(l){var r=el('div','row wide');var b=el('div');var lab=el('label',null,l.t);lab.htmlFor='in-'+l.k;b.append(lab);var fd=el('div','field');fd.append(input(l.k,l.ph,false));b.append(fd);r.append(b);rows.append(r);});
+    sec.append(rows);app.append(sec);
+    var cp=el('section','copy');cp.append(el('h2',null,'Als Text'),el('p','gnote','Falls das Speichern nicht klappt: kopieren und mir im Chat schicken.'));
+    var btn=el('button',null,'Text kopieren');btn.type='button';btn.id='copybtn';var pre=el('pre');pre.id='sum';pre.textContent=summary();
+    btn.addEventListener('click',function(){var t=summary();pre.textContent=t;
+      try{navigator.clipboard.writeText(t).then(function(){btn.textContent='Kopiert';setTimeout(function(){btn.textContent='Text kopieren';},1800);},function(){selectPre(pre);});}catch(e){selectPre(pre);}});
+    cp.append(btn,pre);app.append(cp);
+    NUM.forEach(refreshRow);refreshCount();
+  }
+  function selectPre(pre){var r=document.createRange();r.selectNodeContents(pre);var s=window.getSelection();s.removeAllRanges();s.addRange(r);}
+  function schedule(){if(!ref){if(mode==='wait')setMode('local');return;}if(mode==='ro')return;setMode('pending');clearTimeout(timer);timer=setTimeout(flush,1000);}
+  function flush(){if(!ref)return;if(writing){again=true;return;}writing=true;setMode('saving');var sent=Object.assign({},dirty);
+    ref.set({values:Object.assign({},vals),updated:new Date().toISOString()}).then(function(){writing=false;Object.keys(sent).forEach(function(k){delete dirty[k];});
+      if(again){again=false;flush();}else setMode('saved');},function(e){writing=false;var c=e&&e.code;
+      if(c==='unavailable'&&!retried){retried=true;setTimeout(flush,700+Math.random()*900);return;}
+      if(c==='invalid_argument'||c==='not_granted'||c==='revoked'){setMode('ro');return;}setMode('err');});}
+  render();
+  var cl=window.claude;
+  if(cl&&typeof cl.use==='function'){cl.use('db').then(function(db){if(!db){setMode('local');return;}ref=db.doc(DOC);setMode('saved');
+    ref.onSnapshot(function(snap){if(!snap.exists)return;var d=snap.data()||{};var v=d.values||{};
+      Object.keys(v).forEach(function(k){if(k===focusKey||dirty[k])return;if(vals[k]===v[k])return;vals[k]=v[k];var i=document.getElementById('in-'+k);if(i)i.value=v[k];});
+      try{localStorage.setItem(LS,JSON.stringify(vals));}catch(e){}NUM.forEach(refreshRow);refreshCount();},function(){setMode('err');});},function(){setMode('local');});}
+  else{setMode('local');}
+})();
+</script>

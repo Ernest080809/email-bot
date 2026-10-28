@@ -1,0 +1,705 @@
+ 
+ Time Travel Drop Docket 
+ Novalife · Berlin · seit 2023 
+ Drop Docket · Rev. 6 · 08.10.2026 
+ Time
+Trav el 
+ Eine Kultur, eine Fabrik, 100 bestickte Jeans. Ziel: 10.000 € Umsatz bis 27. Juni. Jeder Tag bis zum Drop steht hier: was du tust, wohin du gehst, welches Video du drehst, mit Links, Prompts und einem „Fertig, wenn“.
+ — Tage bis Drop 
+ --:--:--
+ Drop Donnerstag, 24. Juni 2027 · 19:00 · Warteliste ab 18:00
+ Woche — 
+ Fortschritt gesamt 0 % · 0/0 
+ Fortschritt wird gespeichert …
+ Heute Nächste 7 Tage Alle 41 Wochen Cockpit Urteil Zielgruppe Design Referenz 
+ Heute 
+ — 
+ — 
+ —
+ Die nächsten 7 Tage Ganzer Plan bis zum Drop: 794 Aufgaben in 41 Wochen ↓ 
+ BUILD Produkt, Fabrik, Sample 
+ CONTENT Videos, Posts, E-Mails 
+ VERKAUF Warteliste, Creator, Berlin, Presse 
+ ENTSCHEIDUNG hier legst du etwas fest 
+ ADMIN Shop, Recht, Steuer, Versand 
+ SPIEL nur wenn du es baust · Bauplan 
+ Grind+ optional, wenn du mehr Zeit hast 
+ mit Claude Prompt zum Kopieren 
+ 01 Der ganze Plan · alle 41 Wochen
+ 41 Wochen, 794 Aufgaben. Die laufende Woche ist offen. „So geht’s“ zeigt Schritte, Orte, Links und Video-Briefing. 
+ Alle Wochen aufklappen 
+ Grind+-Aufgaben zeigen 
+ 02 Zahlen-Cockpit
+ Jeden Sonntag drei Zahlen eintragen. Das Cockpit sagt dir, ob du im Plan bist und was du sonst tust. 
+ Die Ziele sind die Wochenwerte aus der Strategie, in Klammern der Alarmwert. Trag am Sonntagabend die echten Zahlen ein: bestätigte Warteliste (Shopify → Kunden, „E-Mail-Marketing: abonniert“), Follower TikTok und Instagram zusammen als Gesamtzahl (die Seite zieht den Startwert ab), Zusagen aus dem Blatt „Die ersten 35“ (nur Spalte „Zusage“), bezahlte Jeans-Bestellungen. Grün : alles im Soll. Gelb : unter Soll, aber über Alarm, dann greifen die Gegenmaßnahmen. Rot : unter Alarm.
+ Sonntag Warteliste Soll Ist Follower neu Soll Ist gesamt Zusagen Soll Ist Jeans bezahlt Soll Ist Status 
+ 03 Das Urteil
+ Einmal lesen. Dann jeden Tag oben „Heute“ abarbeiten. 
+ Umsatzziel 10.000 €
+ 64 Jeans netto · 72 Bestellungen brutto (35 vorbestellt + 37 im Drop)
+ Jeans 100
+ 1 Design, 1 Fabrik, nummeriert 001–100
+ Preise 169 €
+ Vorbestellung 149 € (35 Paar) · ab Nr. 036 Stufe 2 zu 169 € · Zipper nach Angebot, vorbestellbar 20 € günstiger · Polo 79 € (Plan)
+ Stückkosten ~63 €
+ Schätzung, echte Stichzahl am 09.11. · Zipper nach Angebot (eigener Schnitt) · Polo ~19 € (Plan)
+ Break-even 60
+ Jeans, das sind 9.440 €
+ Kapitalbedarf 9.380 €
+ Budget 4.500 € · Lücke 4.880 € · ohne Einfuhrsteuer
+ Schwellen 10 / 32
+ ausgezahlt bis 12.02. / bis 18.05. · mit Türkei-Steuer 40 bis 26.05.
+ Warteliste 3.000
+ bestätigte Adressen bis 24.06. · 150 bis 01.11. · 1.500 bis 07.02.
+ Entscheidung Fr 23.10. · Zipper: eigener Schnitt, vorbestellbar 
+ Nach 15 Fragerunden: Der Zipper wird ein eigener Schnitt nach deinem weißen Ralph-Lauren-Zipper, in Naturweiß aus schwerem French Terry. Vorn sitzt ein persischer Mini-Wandteppich aus bedrucktem Baumwollsamt mit Fransen, den der Reißverschluss teilt. Unter der Kapuze kommt das Muster der Münztasche als Siebdruck, auf die Saumrippe der Achtstern C.
+ Geld: Der Zipper ist ab Mo 01.02. vorbestellbar, 20 € unter dem Drop-Preis, und hat eine eigene Schwelle. Das weicht ab von „alles gleichzeitig am 24.06.“ (24.09.). Preis, Menge und Schwelle legst du am Mo 09.11. mit den Angeboten fest.
+ Polo: kommt erst nach dem Zipper-Tech-Pack, die Klärung beginnt Di 17.11. Alles Weitere steht im Briefing rev6/research/zipper_briefing.md .
+ Entscheidung Sa 17.10. · Erst die Muster, dann der Shop 
+ Neue Reihenfolge: Bis Di 05.01. machst du nur Designs, Fabrik und Muster. Das Marketing läuft weiter wie geplant, mit allen Videos, REWIND, Proto-Runde und Abenden.
+ Sample-Gate Di 05.01.: Jeans-PP und Zipper-Muster liegen bei dir, und du hast beide schriftlich freigegeben. Erst dann startet der Shop-Block. Das Polo gehört seit 23.10. nicht mehr dazu.
+ Zipper (Stand 23.10.): eigener Schnitt aus der Fabrik. RL messen Sa 24.10., Teppich wählen Di 27.10., Papiertest Mi 28.10., Anfrage Fr 30.10., Fabrik und Zipper-Schwelle Mo 09.11., Tech Pack an die Fabrik Mo 16.11., Muster zum Sample-Gate Di 05.01. Das Polo klären wir ab Di 17.11.
+ Shop-Block 06.–31.01.: Gewerbe (Mi 06.01.), Steuer-Fragebogen (Do 07.01.), Shopify Payments, PayPal, Website Stufe 1 (live Mo 18.01.), Rechtstexte, LUCID, Produkt- und Vorbestellseite, Reservierung (Mi 20.–So 31.01.), Testbestellung, Generalprobe.
+ Die Vorbestellung öffnet Mo 01.02., 19:00 (Liste 18:00, Winterferien). Creator-Preview Sa 30.01., Mess-Abende Mi 03.02. und Mi 10.02.
+ Die Schwelle bleibt Mo 15.02., Anzahlung Do 18.02. Es zählt, was bis Fr 12.02. ausgezahlt ist.
+ Vor dem Gate bleiben nur drei Ausnahmen: Datenschutz-Absätze für Tally und „Bring 3“ (Fr 23.10., sonst steht das Marketing), die Steuer-Antwort (Fr 23.10., sie entscheidet die Fabrik) und EORI, nur bei Türkei (sonst kommt kein Muster durch den Zoll).
+ Was es kostet: Beide Aufholwochen (W19, W22) sind weg. Bis zur Schwelle läuft die Vorbestellung zwei Wochen statt viereinhalb. Der Januar trägt rund 24 Stunden Shop-Arbeit in vier Wochen, neben der Schule.
+ Was du gewinnst: Kein Shop für ein Produkt, das noch nicht stimmt. Oktober bis Dezember werden um rund 19 Stunden leichter, Zeit für Fabrik, Muster und Videos.
+ Entscheidung Di 13.10. · Drop verschoben auf Do 24.06.2027 (Vorbestellung und Aufholwochen am 17.10. geändert) 
+ Warum: Die schriftlichen Abiturprüfungen laufen ungefähr vom 07.04. bis 05.05.2027. Der alte Drop am 22.04. lag mittendrin, und Produktion und Countdown fielen genau in deine Lernphase.
+ Was bleibt: Bis Weihnachten läuft alles wie geplant: Fabrik, Proto am 03.12., PP-Muster am 04.01. Die Vorbestellung öffnet weiter am Do 14.01. zu 149 €.
+ Was neu ist: 
+ Zwei Aufholwochen ohne neue Aufgaben: W19 (18.–24.01.) und W22 (08.–14.02.).
+ Schwelle von 10 Vorbestellungen bis So 14.02., Anzahlung bis Do 18.02.
+ Abi-Pause W28–W34 (22.03.–09.05.): keine Aufgaben. 7 vorbereitete Posts laufen automatisch, die Fabrik produziert.
+ Die Ware ist bis Fr 14.05. fertig, vor dem Opferfest. Restzahlung am Fr 21.05.
+ Countdown ab Mo 31.05. Die Vorbesteller bekommen ihre Hose ab Di 08.06.
+ Drop am Do 24.06. um 19:00.
+ Was es kostet: Die Vorbesteller warten fast fünf Monate. Der Liefersatz heißt jetzt „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“. Shopify läuft zwei Monate länger. Die Warteliste muss die Pause überstehen, dafür sorgen die Autopilot-Posts.
+ Was du gewinnst: 9 Wochen mehr, um die Liste aufzubauen. Außerdem liegt der Drop eine Woche vor den Sommerferien, die am 01.07. beginnen.
+ Entscheidung So 11.10. · Serp raus, Patch wird Gürtelschlaufe 
+ Der Serp (B) ist gestrichen. Damit ist das größte Verkaufsrisiko weg, die Sichel mit roter Schneide. Der Schnelltest zur Schneidenfarbe ist erledigt, und das Datum des alten Drops (22.04., Lenins Geburtstag) spielt seit der Verschiebung keine Rolle mehr. Die Ernte erzählt jetzt B2 allein: drei Ähren auf dem roten Band und die Goldfäden.
+ Patch D wird die hintere Gürtelschlaufe , genau wie auf deinem Foto: Naturleinen, Baum mit Knotenfeldern, Goldkordel, vier rote Rauten, vier Kupfernieten. Er ist nur links und rechts genäht und genietet, oben und unten offen, und der Gürtel läuft dahinter durch. So verdeckt der Gürtel den Baum nie.
+ Gegenrechnung (Schätzung): Serp raus spart rund 5.000 Stiche und eine Stickzone, also etwa −3,75 € je Paar. Die Schlaufen-Konstruktion kostet etwa +0,30 bis +0,80 € je Paar (Verstärkung, Riegel, Nieten). Netto sind es rund −3 € je Paar, die Stückkosten sinken von ~63 € auf ~60 € und der Kapitalbedarf um rund 300 €. Rechnerisch sinken die Schwellen auf etwa 9 und 30. Der Plan bleibt trotzdem bei 10 und 32, bis die echte Stichzahl am 09.11. da ist. Das ist dein Puffer.
+ Neues Risiko: Der Patch trägt jetzt den Zug des Gürtels. Leinen allein dehnt sich und franst aus. Er braucht eine Verstärkung auf der Rückseite, und Nähte und Nieten müssen halten. Beim Patch-Waschtest kommt deshalb ein Zugtest dazu: Gürtel 20-mal durchziehen und festziehen.
+ Größe: B, 76 × 67 mm (entschieden 11.10.), mit 3–5 mm Spiel, damit der Gürtel nicht klemmt. So bleiben je 8 mm Abstand zu den Schlaufen, und der Patch knickt beim Sitzen weniger.
+ Noch offen: Position mittig auf der hinteren Mittelnaht oder rechts daneben (die Fabrik fragst du, ob Nieten über der Mittelnaht gehen) · „NL“ auf dem Patch: Am 27.09. hattest du es gestrichen, das Foto zeigt es. Ich gehe von „wie auf dem Foto“ aus, also mit NL · Herkunft der Baum-Vorlage bis Di 20.10. klären (Urheberrecht).
+ Seit Di 13.10. ist der Tagesplan neu geschnitten: Ab heute steht der Serp in keiner Aufgabe mehr. Stich-Deckel 28.000, Stückkosten 59,90 € (siehe Kalkulation), Schwellen im Plan weiter 10 und 32.
+ Überholt am 21. und 22.10.: Patch D ist jetzt 80 × 71 mm aus zwei Lagen und sitzt hinten rechts, oben bündig mit dem Bund. Statt Nieten halten ihn 4 versteckte Druckknöpfe, er ist abnehmbar und wird nicht mitgewaschen. Der Gürtel läuft zwischen Rückwand und Vorderteil. Keine Nummern-Lasche. Verbindlich: Tech Pack v1.0.
+ Die ehrliche Antwort zu „100 Prozent“ 
+ Eine Garantie gibt es nicht, und wer dir eine verspricht, lügt. Bis zum Proto am 03.12. hast du kein Produkt zum Zeigen. Dein Konto ist klein, und kleine Business-Konten holen im Schnitt ein paar hundert Views pro Post. Deine echte Kaufquote kennst du erst ab dem 01.02. Stichzahl, Fabrikpreis und Steuer sind erst im Oktober und November klar.
+ Erreichbar ist etwas anderes: Jede Woche wird gemessen, und für jede Abweichung steht die Gegenmaßnahme schon fest. Dann merkst du einen Fehler nach sieben Tagen und nicht erst im Juni. Darum gibt es das Zahlen-Cockpit direkt unter diesem Abschnitt.
+ Der Engpass 
+ Nicht das Design, nicht der Preis, sondern Reichweite und Wärme. Bestickter Kunst-Denim kostet bei Designer-Labels 270 bis über 1.000 Dollar. Mit 169 € bist du günstig, nur kennt dich noch niemand. Für 72 Bestellungen (64 netto nach Retouren) brauchst du rund 3.000 bestätigte Adressen auf der Liste. Mit durchschnittlichen Posts kommst du realistisch auf 700 bis 1.600. Den Rest bringen nur Ausreißer-Videos, dein warmes Netz, Abende in Berlin, Creator und Empfehlungen.
+ Mit 3.000 Adressen erreichst du im mittleren Fall das Ziel mit Puffer und im vorsichtigen Fall Break-even. Der Unterschied zwischen beiden Fällen sind rund 20 Käufer bei gleicher Liste, und zwar allein durch Wärme: Leute, die dich, das Papier oder das Sample schon gesehen haben.
+ Etappe 1 · bis So 01.11. Beweis
+ Validierung 
+ Ziel 150 auf der Liste und 10 echte Zusagen im Blatt „Die ersten 35“. Sonst Kein Geld an die Fabrik. Eine Woche schieben, sechs neue Posts, das beste Video in fünf Varianten. 
+ Etappe 2 · bis Di 18.05. Kasse
+ Schwellen 
+ Ziel Mindestens 10 ausgezahlte Vorbestellungen bis Mo 15.02. und 32 bis Di 18.05. Produzierst du in der Türkei, kommen rund 1.150 € Einfuhrsteuer dazu, dann brauchst du 40 bis Mi 26.05. Sonst Die Notfall-Leiter im Abschnitt „Gates“, immer von oben nach unten. 
+ Etappe 3 · Do 24.06. Drop
+ 37 Käufe brutto 
+ Ziel Aus einer Liste von rund 3.000. Zipper und Polo zählen nie für die Jeans-Schwellen. Der Zipper hat seit 23.10. eine eigene Schwelle (Mo 15.02.). Prüfpunkte Do 21:00 mindestens 15, Fr 19:00 mindestens 26, So mindestens 29 netto. 
+ Was Rev. 6 dafür baut
+ Eine Content-Maschine: drei Posts pro Woche ab 12.10. mit Hook-Tests. Läuft ein Video doppelt so gut wie dein Schnitt, drehst du es in fünf Varianten nach. Nur so entstehen Ausreißer.
+ Eine Wärme-Kette: warmes Netz, Papiertest-Abend, Stick-Abend, Proto-Runde, Creator-Preview und drei Mess-Abende. Aus Adressen werden Käufer.
+ Kassendisziplin: erst Steuer, Fabrikpreis und Auszahlungsdauer klären, Geld nur in Stufen. Ab Nr. 036 gilt Stufe 2 zu 169 € statt eines größeren Kontingents zu 149 €.
+ Symbol- und Sprachhygiene: Wortliste nach außen, Sperrtermine.
+ Deine Zeit
+ Kern im Schnitt rund 72 Minuten pro Tag , höchstens 120. Ausnahmen gibt es nur an wenigen langen Tagen: diese Woche bis Sonntag (kritischer Pfad), Shoot, Warenprüfung, Packen und Drop.
+ Grind+ ist alles, was du zusätzlich tun kannst, wenn du mehr Zeit hast: Karussells, Varianten, Laden-Runden, Märkte, Feld-Drehs. Das sind rund 50 Stunden, alles optional. Mit dem Schalter im Tagesplan blendest du sie aus.
+ Reicht die Zeit nicht, gilt diese Reihenfolge: Fabrik und Sample, dann Geld-Gates, Abende, Pflicht-Posts, Netz und Zusagen. Grind+ kommt zuletzt.
+ Diese Woche · kritischer Pfad 
+ Do 08.10.: Papiertest 3 mit dem Varianten-Blatt, 8 Wash-Fotos der Eightyfive, Schnelltest mit 10 Leuten, Steuertermin buchen. Fr 09.10.: 12:00 Auswertung mit Claude, Freeze, Tech Pack bestellen, Startseite als Warteliste live. Sa 10.10.: Profile, Startwerte zählen, Link-Schema, Claude prüft die Fabriken. So 11.10.: Tech Pack und Fabrikliste freigeben. Am Mo 12.10. gehen die Anfragen raus, und der erste Post ist online.
+ Mein Rat als Mentor 
+ 1 · Der Freeze hält am Freitag. Er ist schon einmal gerutscht. Was dir nach Freitag noch einfällt, kommt in Drop 2. Eine Version 1.8 kostet dich die Fabrikanfrage am Montag.
+ 2 · Der Serp ist raus, damit ist dein größtes Verkaufsrisiko weg. Am 11.10. hast du ihn gestrichen. Die Ernte erzählt jetzt B2 allein. Das neue Risiko sitzt hinten: Patch D trägt als Gürtelschlaufe jeden Tag den Zug des Gürtels. Reißt er bei Kunden aus, sind das Retouren und schlechte Bewertungen. Der Zugtest am Proto ist deshalb Pflicht.
+ 3 · Der Drop ist am Do 24.06., nach dem Abi. Am 13.10. hast du ihn verschoben, weil die schriftlichen Prüfungen genau auf den alten Termin fielen. Das ist richtig: Einen Drop, den du nebenbei machst, verkaufst du schlechter. Der Preis dafür: Die Vorbesteller warten bis Anfang Juni, und die Fabrik produziert, während du Prüfungen schreibst. Darum müssen Anzahlung und Liefertermin vor dem 22.03. schriftlich stehen.
+ 4 · Die Liste ist dein Job, nicht das Posten. Frag dich jeden Abend: Wie viele Menschen haben heute zum ersten Mal von Time Travel gehört? Ein Video, das niemand sieht, zählt nicht. Ein Gespräch im Laden zählt.
+ Deine Entscheidungen mit Datum
+ Bis 
+ Frage 
+ Mein Rat 
+ Fr 23.10. 
+ Entschieden (Zipper, 15 Fragerunden): Eigener Schnitt nach deinem weißen RL-Zipper statt Blank, Naturweiß, schwerer French Terry 380–450 g/m², Schultern leicht überschnitten · vorn ein persischer Mini-Wandteppich aus bedrucktem Baumwollsamt mit cremefarbenen Fransen, vom Reißverschluss geteilt (bewusste Ausnahme von der Drei-von-vier-Regel, wie Patch D) · unter der Kapuze Siebdruck Muster E mit Band A, Stern C auf der Saumrippe · Anfrage bei unseren Jeansfabriken und parallel in Portugal, Menge nach Angebot · vorbestellbar ab Mo 01.02., 20 € günstiger , eigene Zipper-Schwelle (weicht ab von deiner Entscheidung vom 24.09.) · Muster zum Sample-Gate Di 05.01. · Polo erst nach dem Zipper-Tech-Pack 
+ erledigt · Preis, Menge und Schwelle am Mo 09.11. 
+ Fr 23.10. 
+ Entschieden: Die Nummer wird aufs Innenetikett gedruckt, zusammen mit Größe und Pflegetext (Fabrik), weil der Versand vermutlich direkt aus der Fabrik läuft. Vergabe (Vorschlag Claude): Vorbestellungen bis zur Bestellung (PO) am Mi 17.02. bekommen ihre Nummer nach Bestelldatum ab 001, die übrigen Nummern werden über die Größen verteilt, jede spätere Bestellung bekommt die niedrigste freie Nummer ihrer Größe · Rot ist Knallrot, kein Dunkelrot 
+ erledigt 
+ Do 29.10. 
+ Versand: direkt aus der Fabrik an jeden Kunden (Dropshipping) oder einmal als Sendung nach Deutschland? 
+ Einmal nach Deutschland, dann selbst packen oder über einen Fulfillment-Dienstleister in Deutschland. Dropshipping aus der Türkei oder China heißt Zoll und Einfuhrsteuer pro Paket, Gebühren beim Kunden ab 150 € Warenwert, längere Lieferzeit, und Retouren brauchen trotzdem eine Adresse in Deutschland 
+ Do 22.10. 
+ Entschieden: Zurück zu ehrlichen Größen: Das Etikett ist die echte Bundweite in Zoll, die Basisgröße M mit 86 cm heißt W34 (W32 = 81 cm), Proto und PP in W34 · Saum genäht, 1 cm, Kettstich, statt roh · Tech Pack v1.0 komplett auf Deutsch und Englisch · Keine Wascheffekte an genähten Stellen: Enzymwäsche ohne Steine, Ziernaht Polyester, 10 mm Abstand der Aufhellungen zu jeder Naht · Keine Nummern-Lasche an Patch D, die Nummer kommt nicht an den abnehmbaren Patch (dein Ok zu meinem Rat) 
+ erledigt 
+ Mi 21.10. 
+ Entschieden: Patch D bleibt oben auf dem Bund wie bei Levi's, jetzt als Schlaufe aus zwei Lagen: Druckknöpfe versteckt hinter der Rückwand, ein Standardgürtel bis 40 mm läuft durch (vorher passte er nicht zwischen die Knöpfe) · 3 Reservepaare ohne Nummer · Innenbein 81 cm (Größen am 22.10. geändert) 
+ erledigt 
+ Mi 21.10. 
+ Entschieden: Fabrikwahl auf Do 29.10. verschoben, damit die Angebote auf das Quote Pack vom 20.10. noch reinkommen · NTC ist raus · Konditionen und Absagen Fr 30.10., Proforma bis Mo 02.11. In der Türkei ist der 29.10. Nationalfeiertag. 
+ erledigt 
+ Fr 09.10. 
+ Serp-Farbe nach Testregel (entfällt, siehe 11.10.), B2-Kante, V1 Nummer, V5 Patch, V6 Karte, Taschenklappe, Nackenlabel (mit Novalife-Adresse), „goldene Nähte“, Namen nach außen 
+ wie Abschnitt 12 
+ Sa 17.10. 
+ Entschieden: Erst Designs, Fabrik und Muster. Website, Shop und Papiere erst nach dem Sample-Gate Di 05.01. (Jeans-PP, Zipper, Polo als Einzelstücke freigegeben). Marketing läuft weiter. Vorbestellung Mo 01.02. statt Do 14.01. 
+ erledigt 
+ Fr 16.10. 
+ Entschieden: Polo-Brust-Logo als Kreuzstich-Baum (einfarbig Rot, ohne Buchstaben) · Patch D nach deinem Baum-Bild, mit „NL“, höchstens 4 Garnfarben · Zipper und Polo nach den Skizzen vom 15.10. 
+ erledigt, Herkunft des Baum-Bildes offen 
+ Di 13.10. 
+ Entschieden: Drop verschoben auf Do 24.06.2027 (Abitur). Bis Weihnachten wie geplant, Aufholwochen W19 und W22, Abi-Pause 22.03.–09.05. 
+ erledigt 
+ So 11.10. 
+ Entschieden: Serp gestrichen · Patch D wird die hintere Gürtelschlaufe (nur seitlich genäht und genietet) · Größe B, 76 × 67 mm, 3–5 mm Spiel 
+ erledigt 
+ So 11.10. 
+ Innenbein-Gradierung +1,0 oder +1,5 
+ kein eigener Rat, mir fehlen Daten. Die Spec steht auf +1,0; ohne Grund für +1,5 bleibt es dabei 
+ Do 15.10. 
+ Wie viel Familie in den Content; Teppich für den Shoot leihen 
+ über Gegenstände, nicht über Länder 
+ So 18.10. 
+ Pixel-Spiel 
+ streichen, Scroll-Story B 
+ Di 20.10. 
+ Patch D: mittig auf der hinteren Mittelnaht oder rechts daneben; „NL“ auf dem Patch 
+ mittig, wenn die Fabrik Nieten über der Mittelnaht bestätigt; NL wie auf dem Foto 
+ Di 20.10. 
+ Baum-Referenz: eigene oder fremde Vorlage? 
+ fremd → Claude zeichnet eine eigene Fassung vor dem 28.10. 
+ ab So 01.11. 
+ IHK-Gründungsberatung (angefragt am 13.10.), Beratung darf vorher sein, angemeldet wird Mi 06.01. nach dem Sample-Gate (Fragebogen zur steuerlichen Erfassung Do 07.01.) 
+ anmelden vor der ersten Vorbestellung und bevor Rechnungen auf deinen Namen laufen; online geht es in 20 Minuten 
+ Di 27.10. 
+ DAP oder DDP 
+ DAP, damit die Steuer nicht schon in der Restzahlung steckt 
+ Sa 07.11. 
+ Sprache der Hooks und damit das Liefergebiet; Bildregel „keine Seitenansicht links“ 
+ Test entscheidet; deutsch → nur Versand nach DE bis zum Drop; Bildregel halten 
+ So 29.11. 
+ „Platz in der ersten Stunde sichern“ A (10 €) oder B (kostenlos) 
+ B, A nur bei Liste < 170 und grünem Recht 
+ Fr 11.12. 
+ Creator-Abmachung 1 Clip + 1 Story 
+ ja 
+ Mo 14.12. 
+ Liefertext 
+ „Lieferung bis spätestens 30.06.2027, geplant Anfang Juni“, überall derselbe Satz 
+ Di 15.12. 
+ Geld-zurück-Regel, Vorbestellgeld bis 15.02. unangetastet 
+ ja 
+ Sa 19.12. 
+ Stufe 2 zu 169 € statt Kontingent 45; Nummern 001–035 · 036–060 · 061–065 · 066–067 · Rest 
+ ja 
+ Do 31.12. 
+ Brücke 1.500 € in der Familie 
+ anfragen, nur als Versicherung 
+ So 31.01. 
+ Mess-Abend 2b (Mi 03.02.) 
+ entfällt: Mess-Abend 1 (Mi 03.02.) und 2 (Mi 10.02.) stehen seit 17.10. fest im Plan 
+ Mo 15.02. 
+ Mengenformel 100/75; Zipper-Schwelle (der Zipper ist seit 23.10. regulär vorbestellbar) 
+ ja / Zahl am Mo 09.11. 
+ Fr 19.03. 
+ Drop-Abend Sa 26.06.; Countdown-Stand 
+ ja nur, wenn Packen Tag 2 an die Helfer geht oder auf So 27.06. rückt / nur unter ~146 € 
+ nach dem Drop 
+ Marke „Novalife“ anmelden; W28 in den Größenlauf 
+ Markenrecherche vom 16.10. und Nachfrage „kleiner als W30“ auswerten, erst dann rechnen 
+ 04 Die Zielgruppe
+ Wer die ersten 35 Paare kauft und was sie hören muss. 
+ 4 · Zielgruppe in 10 Zeilen
+ Priorität 1 · Warmes Netz und Novalife-Bestand (Freunde, Familie, Bleach-Käufer): trägt die ersten 10 Vorbestellungen. Größe unbekannt, du zählst sie am Di 13.10. [Z 4].
+ Priorität 2 · Ost-Wurzeln, zweite Generation, 18–35: füllt 10 → 32 über die Liste und kauft im Drop. Pool: 1,5 Mio in Polen, 1,3 Mio in der Ukraine, 1,0 Mio in Russland Geborene in DE [Z-Q1], 1,66 Mio Aussiedler aus der früheren Sowjetunion [Z-Q2].
+ Auslöser: Wiedererkennen , der Teppich an Omas Wand, Kreuzstich auf Omas Tisch. Kanal: TikTok und Reels, auf Deutsch [Z S1]. Instagram erreicht 77–82 % , TikTok 50–52 % der 14- bis 29-Jährigen pro Woche [Z-Q23]. Hinweis: Abschnitt „Zielgruppe“ nennt 77/50, Referenz „Markt“ aus derselben ARD/ZDF-Studie 82/52, Referenz „Content-System“ markiert den Widerspruch. Du öffnest das PDF (Link in 18) am Fr 06.11. selbst und übernimmst eine Zahl. Für die Entscheidungen ändert die Spanne nichts.
+ Einwand: „Ist das russisch, ist das politisch?“ 91 % der Ukrainer sehen Russland negativ [Z-Q46], 72 % der Polen lehnen Russen ab [Z-Q48]. Darum: Subjekt ist das Muster.
+ Dein Inhalt ist dein Targeting. Meta hat das Targeting nach ethnischer Herkunft 2022 entfernt [Z-Q52]. Der Teppich-Hook findet sie, Werbung nicht.
+ Priorität 3 · Denim- und Streetwear-Käufer ohne Ost-Bezug: Drop-Käufer zu 169 €. Argument: Nummer 1/100, Makros, ehrliche Größe. Anker: Eightyfive 79,95–89,95 €, Carhartt WIP 110 €, Levi's 501 109,95 € [Z-Q26].
+ Priorität 4 · Handwerk und Stickerei, vor allem Frauen 20–40: kaufen eher Polo und Zipper. Nie „handgestickt“ sagen, nur die Fäden sind von Hand [Z S4].
+ Zipper und Polo sind die zweite Tür für alle, denen 169 € zu viel ist [Z 4].
+ Prüfstein, keine Zielgruppe: seit 2022 Angekommene aus der Ukraine. Um Rat fragen, nie bewerben [Z S2].
+ Keine Zeit für: Touristen und politische Diaspora-Orte jeder Seite [Z S6, 3.6].
+ Wer die ersten 35 kauft
+ 4 · Priorisierung: Wer kauft die ersten 35?
+ Segment 1: Dein warmes Netz und der Novalife-Bestand (aus S5 und S1)
+ Warum: Eine Vorbestellung ist ein Vertrauenskauf. 149 € für eine Hose, die frühestens Anfang Juni kommt, für die es nur Proto-Fotos gibt. Das kauft man von jemandem, den man kennt, oder von einer Marke, bei der man schon gekauft hat. Deine Bleach-Kunden haben bewiesen, dass sie für ein Einzelstück von dir zahlen.
+ Rolle im Plan: Die Schwelle am Mo 15.02. (mindestens 10) hängt an diesem Segment. Schätzung: Aus einer Liste von 50 Namen (Freunde, Familie, Ex-Kunden, die dich kennen) kaufen 10 bis 15. Das ist eine Annahme, keine belegte Quote. Prüfen kannst du sie schon im November mit der Frage „Würdest du vorbestellen?“.
+ Segment 2: Ost-Wurzeln, zweite Generation (S1)
+ Warum: Sie haben den stärksten emotionalen Auslöser (der Teppich, das Muster von zu Hause), die richtige Ästhetik (Streetwear, Zipper, Baggy) und sind über TikTok und Instagram ohne Werbegeld erreichbar [Q23]. Der Pool ist groß [Q1][Q2][Q10]. Ihr Einwand ist politisch. Genau deshalb sind die Regeln in Kapitel 3 kein Beiwerk, sondern Verkaufsvoraussetzung.
+ Rolle im Plan: Sie füllen die Lücke von 10 auf 32 (Restzahlung Fr 21.05.) über die Warteliste. Schätzung: Mit 1.500 Anmeldungen bis 07.02. (dein Zielkorridor) braucht es eine Quote von 1,5–1,7 % für 22–25 Vorbestellungen. Eine belegte Branchenquote für Warteliste zu Vorbestellung habe ich nicht gefunden. Du misst sie selbst ab dem 01.02.
+ Warum nicht die anderen zuerst
+ S3 Denim-Käufer ohne Bezug: Sie kaufen im Drop, nicht drei Monate vorher. 169 € sind für sie 60–90 € über ihren gewohnten Marken [Q26]. Ab dem Proto sind sie Reichweite und Drop-Käufer.
+ S2 Neu Angekommene: wenig Geld [Q29], eigene ukrainische Marken [Q28], höchstes Risiko. Als Ratgeber wertvoll, als Zielgruppe nicht.
+ S4 Handwerk: kauft eher Polo und Zipper im Drop.
+ S6 Touristen: spielt bis zum Drop keine Rolle.
+ Zipper und Polo
+ Zipper 139 €: S1 und S5. Dein Satz „Zipper passt mehr zu mir und dann automatisch zu meiner Zielgruppe“ stimmt hier. Saison laut Spec September bis Februar. Der Drop im Juni liegt nach der Saison, Fleece verkauft sich im Sommer schwerer (Schätzung). Wer die Jeans in der Vorbestellung zu teuer findet, ist im Drop die Zipper-Kundschaft.
+ Polo 79 €: Einstiegsprodukt für S3, S4 und alle, denen 169 € zu viel sind. Saison April bis August passt zum Drop.
+ Die Personas
+ 2 · Personas
+ Namen sind Platzhalter. Alle Hooks halten die Reihenfolge ein: Bis zum Proto am 03.12. zeigst du Papier, Garn und Prozess, kein fertiges Teil.
+ P1 · [Name], 23, Heritage-Kid
+ Alltag: Eltern Russlanddeutsche aus Kasachstan, aufgewachsen in Marzahn, wohnt jetzt in Friedrichshain. Ausbildung oder Studium, Nebenjob. Trägt Baggy Jeans, Zip-Hoodie, Sneaker. Ist jeden Tag auf TikTok. Russisch versteht er, spricht es kaum.
+ Kauftrigger: Er erkennt das Muster. Ein Video, in dem er den Teppich seiner Oma wiedersieht. Dazu: nur 100 Stück, nummeriert.
+ Einwand: „Ist das jetzt so ein Russland-Ding? Meine Freundin ist Ukrainerin.“ Und: 149 € sind ein halber Monat Nebenjob.
+ Hook (bis 03.12.): „Dieser Teppich hing bei deiner Oma an der Wand. Ich mache daraus gerade Garn.“
+ Hook (ab Proto): „Nummer 001 bis 100. Das Muster kennst du von zu Hause.“
+ Kanal: TikTok, Instagram Reels, Deutsch. Warteliste mit Vorbestellpreis. Zipper zu 139 € als Alternative.
+ P2 · [Name], 31, Denim-Nerd ohne Ost-Bezug
+ Alltag: Arbeitet in Berlin im Tech- oder Kreativbereich. Kauft wenige, teure Teile. Kennt Gewicht, Waschung, Leibhöhe. Hat eine Carhartt WIP und eine Levi's 501.
+ Kauftrigger: Fit-Daten und Handwerk. Ehrliche Größe, rigid 12 oz, 28.000 Stiche. Die Sicherheit, dass er sie zurückschicken kann.
+ Einwand: „Zu viel Ornament.“ „Unbekannte Marke, keine Reviews.“
+ Hook (bis 03.12.): „Wir labeln nach dem echten Maß. W32 ist 81 cm.“
+ Hook (ab Proto): „Aus drei Metern ein paar Punkte. Aus dreißig Zentimetern ein Uhrwerk.“
+ Kanal: Instagram (Detail-Makros), Größentabelle auf der Produktseite. Er kauft eher im Drop als in der Vorbestellung.
+ P3 · [Name], 28, Polnisch-deutsche Kreative mit Handarbeit
+ Alltag: Familie aus Polen, aufgewachsen in Berlin, arbeitet als Grafikerin. Stickt am Wochenende selbst, geht auf Designmärkte. Kauft lieber ein Polo von einer kleinen Marke als drei Shirts im Kaufhaus.
+ Kauftrigger: Die Raute, die sie aus dem Haus ihrer Großeltern kennt. Die Goldfäden von Hand.
+ Einwand: „Slawische Einheit? Polen ist nicht Russland.“ Die Ablehnung von Russen liegt in Polen bei 72 % [Q48]. Und: Die Jeans gibt es nur in Herrengrößen.
+ Hook: „Die Raute bedeutet überall dasselbe: ein bestelltes Feld.“ (aus deiner Sprachregel)
+ Kanal: Instagram, Pinterest, Designmärkte. Kauft eher Polo (79 €) oder Zipper (139 €) im Drop. 
+ P4 · [Name], 27, Ukrainerin, seit 2022 in Berlin (Prüfstein, nicht Kernkäuferin)
+ Alltag: Aus Charkiw, spricht heute bewusst Ukrainisch statt Russisch. Arbeitet, macht Deutschkurs. Trägt zu Feiertagen eine Vyshyvanka einer ukrainischen Marke.
+ Kauftrigger: Würde nur kaufen, wenn sie sicher ist, dass die Marke nichts verwischt. Das Muster muss als Muster gezeigt werden, nicht als „gemeinsames Volk“.
+ Einwand: „Das Wort ‚slawisch‘ hat Putin gekapert.“ „Ähren auf rotem Band und ein Stern: sieht aus wie ein Wappen.“ „Ähren: Holodomor.“
+ Hook: Keiner. Du bewirbst sie nicht. Du fragst sie um Rat.
+ Kanal: Persönliches Gespräch. Wenn sie ja sagt, ist das mehr wert als 100 Likes.
+ Was verbindet, was trennt · Do und Don't
+ 3.2 Was verbindet
+ Das Häusliche. Wandteppiche hingen in Russland, Belarus und der Ukraine in sehr vielen Wohnungen, Sie waren Zeichen von Wohlstand, man sparte und wartete lange auf sie, viele kamen aus den zentralasiatischen Republiken [Q40]. Sie schmückten und hielten Zugluft und Lärm der dünnen Wände ab [Q40]. Der Teppich ist also Erinnerung an Omas Wohnung, kein „slawisches“ Erbe. So solltest du ihn auch erzählen.
+ Das Textile. Kreuzstich, Raute, Achtstern, Lebensbaum sind in allen vier Traditionen belegt (deine Drei-von-vier-Regel aus der Spec). Der Achtstern taucht nach einer schwachen Quelle auch in lettischen, karelischen, mordwinischen und tschuwaschischen Ornamenten auf [Q39]. Das stützt die Linie: Das Muster gehört niemandem allein.
+ Die Ernte. Sie ist ein Motiv der ländlichen Kindheit, des Sommers bei den Großeltern.
+ 3.3 Was trennt
+ Der Krieg. 91 % der Ukrainer haben im September 2025 ein negatives Bild von Russland, 85 % von den Russen, die in Russland leben [Q46].
+ Die Sprache. Ukrainisch wird zur Alltagssprache. Laut Gradus Research sprechen 2025 68 % der Ukrainer im Alltag Ukrainisch, 2022 waren es 53 % [Q47]. Russisch klingt für viele heute nach dem Angreifer.
+ Die Sowjetunion. Nur 12 % der Ukrainer bewerteten 2022 den Zerfall der UdSSR negativ, 73 % positiv [Q41]. „Sowjet-Nostalgie“ ist für diese Gruppe kein Verkaufsargument.
+ Polen. 72 % der Polen lehnen Russen ab. Die Sympathie für Ukrainer ist auf 30 % gefallen, die Abneigung auf 38 % gestiegen. Gründe: Streit um Wolhynien, Sozialleistungen, russische Propaganda [Q48].
+ Belarus. Zwei Flaggen. Rot-grün mit rot-weißem Ornament ist die Staatsflagge seit dem umstrittenen Referendum 1995. Weiß-rot-weiß ist die Flagge der Opposition [Q33]. In Belarus wurden Menschen für rot-weiße Socken, einen Regenschirm oder ein Handtuch auf dem Balkon bestraft [Q36].
+ Die russischsprachige Community in Deutschland ist selbst gespalten. Die Meinungen sind vielfältig, die pauschale Annahme, sie stehe hinter Putin, ist laut DeZIM nicht haltbar [Q31]. Gleichzeitig gab es über Telegram Mobilisierung für den Krieg [Q31].
+ Das Wort „slawisch“. Panslawismus war Werkzeug des Zarenreichs und der Sowjetunion [Q43]. Putin schrieb 2021, Russen und Ukrainer seien „ein Volk“ und ihre Trennung sei künstlich [Q42]. Selenskyj antwortete: eher „wie Kain und Abel“ [Q42]. Der Kreml nutzt Kultur und Sprache als Machtinstrument („Russkiy Mir“) [Q44].
+ 3.6 Do / Don't für Content
+ Do 
+ Das Muster ist das Subjekt. „Diese Raute bedeutet überall dasselbe: ein bestelltes Feld.“
+ Den Teppich als Omas Wohnzimmer erzählen. Deine Familie, deine Fotos.
+ Unterschiede zeigen, nicht verwischen: „Jede Region stickt die Raute anders. Die Bedeutung bleibt.“
+ Captions auf Deutsch und Englisch. Wie im Novalife-Skill festgelegt, Englisch für das internationale Publikum.
+ Länder alphabetisch nennen, wenn überhaupt: Belarus, Polen, Russland, Ukraine.
+ Ernte als Sommer bei den Großeltern zeigen. Sonnenuntergang statt Blau.
+ Bei Kritik ruhig bleiben. Standard-Antwort: „Hier geht es um Muster, nicht um Politik. Danke, dass du es sagst.“
+ Don't 
+ Kein „slawische Einheit“, „eine Kultur“, „Brudervölker“, „ein Volk“, „wir“.
+ Kein „sowjetisch“, kein CCCP, keine Sowjet-Interieurs, keine Uniformen, keine Orden.
+ Keine russischsprachigen Captions, keine Werbung in russischsprachigen Telegram-Gruppen.
+ Keine Farbpaare als Streifen: Blau-Gelb, Rot-Schwarz, Orange-Schwarz, Rot-Grün, Weiß-Rot-Weiß.
+ Kein Z, kein V als Gestaltungselement.
+ Keine Landkarte der Region.
+ Keine Sichel im Bild, auch nicht als Requisite (der Serp ist seit 11.10. gestrichen). Kein roter Grund hinter Ähren und Stern.
+ Nie „fünf Ähren“. B2 hat drei, dabei bleiben.
+ Keine Neuheiden-Symbole, keine Runen, kein Kolovrat, keine Schwarze Sonne.
+ Keine Kooperation und kein Auftritt bei politischen Diaspora-Organisationen, egal welcher Seite.
+ Die ganze Zielgruppenanalyse · Segmente, Zahlen, Symbol-Check, Tests 0 · Wie belastbar die Zahlen sind
+ Recherchiert am 07.10.2026 nur mit WebSearch. WebFetch war durch die Netzwerk-Richtlinie dieser Sitzung blockiert (destatis.de, statistik-berlin-brandenburg.de, wikipedia.org, mediendienst-integration.de, rlp.de). Ich habe also Such-Auszüge gesehen, nicht die Volltexte.
+ Jede Zahl unten hat eine Quelle. Wo Quellen sich widersprechen, steht eine Spanne. Wo der Stand unklar ist, steht „Stand unklar“.
+ Schätzung = meine Rechnung oder Annahme, nicht belegt. Vor Ort prüfen = Adresse oder Zeit aus Sekundärquelle.
+ Hashtag-Größen konnte ich nicht prüfen. Die Hashtags unten sind Vorschläge zum Zuhören, keine Reichweitenangabe.
+ 1 · Die Segmente
+ 1.0 Überblick
+ # 
+ Segment 
+ Größe (Pool) 
+ Alter 
+ Kaufkraft für 169 € 
+ Priorität Vorbestellung 
+ S1 
+ Ost-Wurzeln, zweite Generation 
+ DE: mehrere Mio mit Familie aus PL/RU/UA/KZ/BY [Q1][Q2]. Berlin: 150–300 Tsd. Russischsprachige (Schätzung) [Q10] 
+ 18–35 (Kern) 
+ mittel 
+ hoch 
+ S2 
+ Neu angekommen seit 2022 (UA-Geflüchtete, RU/BY-Exil) 
+ DE: 1,35 Mio UA-Geflüchtete im AZR, 30.06.2026 [Q4]. Berlin: 57–76 Tsd. ukr. Staatsangehörige [Q7] 
+ 18–45 
+ niedrig 
+ niedrig, aber Prüfstein 
+ S3 
+ Denim- und Streetwear-Käufer, Gen Z und Millennials 
+ DE: 10,49 Mio Männer 20–39 [Q15]. Berlin: 945.732 Menschen 15 bis unter 35 [Q14] 
+ 18–35 
+ niedrig bis mittel 
+ mittel (ab Proto) 
+ S4 
+ Handwerk und Stickerei 
+ 85 % der Frauen machen Handarbeit, 18–29 größte Gruppe [Q24] 
+ 20–40 
+ niedrig (Jeans), mittel (Polo) 
+ niedrig für Jeans, gut für Polo/Zipper 
+ S5 
+ Vintage, Upcycling und Novalife-Bestand 
+ 70 % der Millennials und Gen Z haben Secondhand gekauft [Q22]. Bestand: unbekannt 
+ 18–35 
+ mittel 
+ hoch (Bestand) 
+ S6 
+ Berlin-Touristen 
+ 12,4 Mio Gäste 2025 [Q16] 
+ alle 
+ mittel 
+ keine (erst nach Drop) 
+ Kaufkraft-Rahmen für alle: 
+ Durchschnittliche Kaufkraft pro Kopf in Deutschland 2025: 29.566 € [Q19]. Berlin liegt darunter, eine Zahl habe ich nicht gesehen.
+ Modeausgaben pro Kopf 2025: 547 € im Jahr, Europa-Schnitt 772 € [Q18]. 149 € sind damit rund 27 %, 169 € rund 31 % eines durchschnittlichen Modejahres (Schätzung, eigene Rechnung).
+ 18- bis 25-Jährige geben laut einem Bericht 80–150 € im Monat für Mode aus [Q21]. Bis zu 68 % der Gen Z teilen ihre Modeausgaben mit Eltern oder Partner [Q20].
+ Preisanker: Eightyfive Straight mit UVP 79,95–89,95 € [Q26], Carhartt WIP Landon Denim 110 € [Q26], Levi's 501 auf levi.com/DE 109,95 € [Q26]. Deine 169 € müssen also 60–90 € Aufpreis erklären. Die Erklärung: nummeriert 1/100, ~28.000 Stiche, Goldfäden von Hand, ehrliche Größe.
+ Eine ältere Umfrage unter Frauen (2019): im Schnitt 53 € für eine Jeans, Obergrenze 78 € [Q64]. Für die breite Masse ist 169 € Luxus.
+ S1 · Ost-Wurzeln, zweite Generation (dein Kernsegment)
+ Wer: 18–35, in Deutschland aufgewachsen oder als Kind gekommen. Familie aus Russland, Kasachstan, Ukraine, Belarus, Polen, Baltikum. Spricht Deutsch, versteht oft Russisch oder Polnisch. Trägt Streetwear.
+ Größe: 
+ Eingewanderte 2025 nach Geburtsland: Polen 1,5 Mio, Ukraine 1,3 Mio, Russland 1,0 Mio [Q1].
+ (Spät-)Aussiedler 2024: 2,69 Mio, davon 1,66 Mio aus Nachfolgestaaten der Sowjetunion [Q2]. Dazu kommen ihre in Deutschland geborenen Kinder.
+ Russisch war 2021 für 1,54 Mio Menschen die vorwiegend zu Hause gesprochene Sprache [Q3].
+ Berlin: 150.000–300.000 Russischsprachige (Schätzung aus Community-Quellen) mit Schwerpunkten in Marzahn-Hellersdorf und Charlottenburg-Wilmersdorf [Q10]. Ein älterer Stand nennt ~112.000 Berliner mit polnischen und ~145.000 mit Wurzeln in der früheren Sowjetunion [Q11] (vor 2022, Stand unklar).
+ Der Teil davon, der 18–35 ist und Streetwear kauft, ist nicht belegt. Schätzung: ein niedriger einstelliger Prozentsatz des Pools. Für 35 Paar reicht das trotzdem um Größenordnungen.
+ Kaufkraft für 169 €: mittel. Viele in Ausbildung oder Berufseinstieg. Die Vorbestellung zu 149 € ist die realistische Schwelle.
+ Motiv: 
+ Wiedererkennen. Der Teppich hing bei Oma, der Kreuzstich lag auf Omas Tisch. Das ist kein Folklore-Kostüm, sondern Familie.
+ Junge Russlanddeutsche verhandeln ihre Identität zwischen Herkunfts- und Ankunftsland [Q30]. Mode ist für 53 % der deutschen Gen Z das wichtigste Mittel des Selbstausdrucks [Q20].
+ Die „post-sowjetische“ Ästhetik hat in der Mode schon funktioniert (Gosha Rubchinskiy, Demna, Vetements) [Q27]. Du bist die Version davon, die ohne Politik und ohne Ironie auskommt.
+ Einwände: 
+ „Ist das russisch? Ist das politisch?“ Vor allem, wenn ein Elternteil aus der Ukraine oder aus Polen kommt.
+ „Das trägt meine Oma, nicht ich.“ Folklore-Angst.
+ „149 € für eine Hose, die ich nicht anprobieren kann.“
+ Online: TikTok und Instagram Reels auf Deutsch. Instagram erreicht 77 %, TikTok 50 % der 14- bis 29-Jährigen jede Woche [Q23]. 60 % der Gen Z entdecken neue Mode über Social Media [Q20]. Werbung kann Herkunft nicht gezielt ansteuern: Meta hat Targeting nach ethnischer Herkunft im Januar 2022 entfernt [Q52]. Du erreichst S1 nur über den Inhalt selbst. Hashtags zum Zuhören (Größe nicht geprüft): #russlanddeutsch #spätaussiedler #osteuropa #babushka #teppich #kreuzstich #polskawniemczech. Gute Gesprächspartner für später: Podcasts wie „Steppenkinder“ (Russlanddeutsche Themen, vor Ort prüfen) [Q30].
+ Offline in Berlin: 
+ Marzahn-Hellersdorf und Charlottenburg-Wilmersdorf [Q10].
+ Mix Markt (osteuropäische Lebensmittel), z. B. Jan-Petersen-Straße 18 in Marzahn und Brunsbütteler Damm 273 in Spandau [Q55] (vor Ort prüfen). Dort nur schauen und mit Freunden hingehen. Keine Flyer ohne Erlaubnis der Filiale.
+ Polnisches Institut, Burgstraße 27 (Kultur, Film, Konzerte) [Q54]. Als Gast hingehen, nicht verkaufen.
+ Nie: das Russische Haus in der Friedrichstraße. Seine Trägerorganisation steht seit 2022 auf der EU-Sanktionsliste, die Staatsanwaltschaft hat ermittelt [Q45].
+ Botschaft, die zieht: „Du kennst dieses Muster. Es hing bei deiner Oma an der Wand.“ Das Subjekt ist der Teppich, nicht das Volk. Keine Länderliste, kein „wir“.
+ S2 · Neu angekommen seit 2022 (ukrainische Geflüchtete, russisches und belarussisches Exil)
+ Größe: 
+ 1.350.599 Geflüchtete aus der Ukraine im Ausländerzentralregister am 30.06.2026 [Q4]. Ende 2025 waren Ukrainer mit 1.164.000 die größte Gruppe unter den Schutzsuchenden [Q4].
+ Berlin: 56.744–76.420 ukrainische Staatsangehörige Ende 2024, je nach Statistik [Q7]. Davon sind 53.345 als Geflüchtete im AZR erfasst, 42.702 mit vorübergehendem Schutz (Stand unklar) [Q8]. 22.900 waren im November 2025 in Berlin beschäftigt [Q9].
+ Russische Staatsangehörige in Berlin: ~35.600–37.210 [Q7].
+ Belarussen in Deutschland: 28.835 Staatsangehörige Ende 2022, mit Eingebürgerten geschätzt 45.000–50.000 [Q12].
+ Alter: 18–45. Rund 353.520 der ukrainischen Geflüchteten in Deutschland sind unter 18 [Q4], viele Erwachsene sind also Eltern.
+ Kaufkraft für 169 €: niedrig. Die Erwerbstätigenquote der 2022 gekommenen Ukrainer lag Mitte 2025 bei 50 % [Q29].
+ Motiv: Heimat, Würde, Zugehörigkeit. Aber: Die Vyshyvanka ist seit 2014 und erst recht seit 2022 Zeichen ukrainischer Identität [Q32]. Ukrainische Ethno-Marken wie Etnodim, Svarga, Gaptuvalnya bedienen genau diesen Wunsch [Q28]. Eine Berliner Marke mit „slawischem“ Rahmen steht da nicht an erster Stelle.
+ Einwände: „Warum ‚slawisch‘ und nicht ‚ukrainisch‘?“ „Wer ist der Gründer, wo steht er politisch?“ „Russen nehmen uns schon den Borschtsch und die Vyshyvanka“ [Q32].
+ Online: Instagram, Telegram (vor allem russischsprachige Gruppen [Q31]). Für Novalife: keine Telegram-Gruppen, keine russischsprachigen Captions.
+ Offline in Berlin: Die Karte „Ukrainische Orte in Berlin“ (2. Auflage 2025) listet u. a. UA Nest Berlin (Levetzowstraße 13), den Ukrainischen Kinoklub in der Brotfabrik (Caligariplatz 1) und das Ukrainische Institut (Friedrichstraße 95) [Q53] (vor Ort prüfen). Belarussische Diaspora: RAZAM e.V., entstanden aus den Protesten 2020 [Q13]. Das sind politische oder halb-politische Orte. Dort nie werben. Du gehst höchstens als Gast hin oder fragst eine Person aus deinem Umfeld, ob sie mit dir spricht.
+ Botschaft, die zieht: Keine Kampagne. Respekt zeigen: fragen, zuhören, Feedback ernst nehmen. Für S2 bist du kein Verkäufer, sondern jemand, der um Rat fragt. Ihre Meinung ist dein Frühwarnsystem.
+ S3 · Denim- und Streetwear-Käufer, Gen Z und Millennials
+ Größe: 10,49 Mio Männer zwischen 20 und 39 in Deutschland 2024 [Q15]. In Berlin 945.732 Menschen zwischen 15 und unter 35 (Ende 2024) [Q14]. Den Anteil, der 150 € und mehr für eine Jeans ausgibt, habe ich nicht belegt gefunden. Schätzung: klein, wenige Prozent. 
+ Alter: 18–35. Größenlauf W30–W38 ist ein Herrenschnitt, Frauen kaufen ihn als Unisex.
+ Kaufkraft für 169 €: niedrig bis mittel. Wer Carhartt WIP für 110 € kauft [Q26], schafft 169 € nur mit einem klaren Grund.
+ Motiv: Seltenheit, Detail, Fit. Knappheitssignale steigern laut einer Studie von 2025 die Angst, etwas zu verpassen, und damit die Zahlungsbereitschaft [Q25]. „Nummeriert 1/100“ ist dein stärkstes Argument für S3, nicht die Herkunft.
+ Einwände: „Unbekannte Marke, 169 €, kein Anprobieren.“ „Zu viel Stickerei, sieht nach Kostüm aus.“ „Rigid Denim, 12 oz, wie fällt das?“
+ Online: Instagram, TikTok [Q23]. Hashtags zum Zuhören: #denim #vintagedenim #straightleg #streetwearberlin #berlinfashion #embroidereddenim (Größe nicht geprüft).
+ Offline in Berlin: Overkill, Köpenicker Straße 195A, Kreuzberg; Voo Store, Oranienstraße 24 [Q56] (vor Ort prüfen). Dort schauen, was getragen und bezahlt wird. Modehochschulen für Gesprächspartner und spätere Creator: HTW Berlin (Modedesign), ESMOD Berlin, AMD Akademie Mode & Design (Charlottenburg), Kunsthochschule Weißensee [Q61]. Kontakt nur über die offiziellen Websites.
+ Botschaft, die zieht: „28.000 Stiche. 100 Stück. Ehrliche Größe: W32 ist 81 cm.“ Herkunft als zweiter Satz, nicht als erster.
+ S4 · Handwerk und Stickerei
+ Größe: Laut Initiative Handarbeit (Erhebung durch GfK) machen 85 % der Frauen in Deutschland zumindest ab und zu Handarbeit, 2021 waren es 76 %. Die 18- bis 29-Jährigen sind inzwischen die größte Gruppe [Q24]. Das ist ein Hobby-Markt, kein Käufermarkt für Jeans zu 169 €.
+ Alter: 20–40, überwiegend Frauen.
+ Kaufkraft für 169 €: niedrig für die Jeans. Für das Polo zu 79 € und den Zipper zu 139 € mittel. 
+ Motiv: Respekt vor Handarbeit. Die Goldfäden „setzt eine Hand“ ist für diese Gruppe der stärkste Satz im ganzen Drop. Kreuzstich im 1,33-mm-Raster ist für sie nachvollziehbar.
+ Einwände: „Maschinenstickerei ist keine Handarbeit.“ Deshalb nie „handgestickt“ sagen. Nur die Fäden sind von Hand.
+ Online: Instagram, Pinterest, TikTok. Hashtags zum Zuhören: #kreuzstich #crossstitch #sticken #embroidery #handembroidery #folkembroidery (Größe nicht geprüft). Vorsicht bei #slavicembroidery und ähnlichen Tags: Dort mischt sich die Neuheiden-Szene mit ein [Q39].
+ Offline in Berlin: 
+ Stick-Workshops, z. B. im Kunstraum Heartspace, Danziger Straße 172, Prenzlauer Berg [Q59]. Weitere Termine laufend über visitBerlin und gokonfetti [Q59].
+ Holy Shit Shopping, Designmarkt, Sa–So 28.–29.11.2026 im Cank, Karl-Marx-Straße 95 [Q60] (vor Ort prüfen). Bis zum Proto am 03.12. nur als Besucher, kein Stand, kein fertiges Teil.
+ Botschaft, die zieht: „Die Ähren sind gestickt. Die Fäden darunter setzt eine Hand. Bei jeder Jeans anders.“
+ S5 · Vintage, Upcycling und dein Novalife-Bestand
+ Größe: Laut PwC haben 70 % der Millennials und Gen Z schon Secondhand gekauft, in der Erhebung davor (2023) waren es 51 % [Q22]. Der Secondhand-Modemarkt in Deutschland sollte bis 2025 auf 5–6 Mrd € wachsen [Q22]. Dein eigener Bestand (Follower, Käufer der Bleach-Teile zu 50–70 €, E-Mail-Liste) ist unbekannt. Offener Punkt.
+ Alter: 18–35.
+ Kaufkraft für 169 €: mittel. Secondhand-Käufer sind preisbewusst [Q22]. Deine Bleach-Kunden haben aber schon für ein Einzelstück bezahlt.
+ Motiv: Einzigartigkeit. Kein Paar ist gleich (Fäden, Nummer). Die Geschichte hinter dem Teil, wie bei „We sell stories“.
+ Einwände: „Neuware statt Upcycling, passt das zu Novalife?“ „Früher 60 €, jetzt 169 €?“ Dein Sprung muss erklärt werden: eigene Produktion, eigener Schnitt, 100 Stück, nicht mehr fremde Marken.
+ Online: Dein eigenes Instagram und TikTok, deine Kundenliste (nur mit Einwilligung anschreiben). Hashtags zum Zuhören: #vintageberlin #secondhandberlin #upcycling #customdenim #bleachdenim (Größe nicht geprüft).
+ Offline in Berlin: 
+ Flohmarkt im Mauerpark, Bernauer Straße 63–64, sonntags 10–18 Uhr, rund 400 Stände [Q58] (vor Ort prüfen).
+ Humana am Frankfurter Tor 3, Friedrichshain, vier Etagen Secondhand [Q57] (vor Ort prüfen).
+ Botschaft, die zieht: „Früher habe ich fremde Jeans verändert. Jetzt baue ich meine eigene. 100 Stück.“
+ S6 · Berlin-Touristen
+ Größe: 12,4 Mio Gäste und 29,4 Mio Übernachtungen 2025, 41 % der Übernachtungen aus dem Ausland. Größte Auslandsmärkte: USA (1,28 Mio Übernachtungen), Großbritannien (1,27 Mio), Niederlande (786.400) [Q16].
+ Kaufkraft: Hotelgäste gaben 2016 im Schnitt 205,80 € pro Tag aus, Tagesgäste 32,90 € [Q17] (alte Zahl).
+ Bewertung: Für die Vorbestellung (01.02.–23.05.2027) und den Online-Drop am Do 24.06., 19:00 spielen Touristen keine Rolle. Relevant erst für einen späteren Laden oder Pop-up. Keine Zeit hier investieren. 
+ 3.1 Die Lage in Zahlen
+ Gruppe in Berlin 
+ Zahl 
+ Quelle 
+ Einwohner Berlin Ende 2025 
+ 3.700.577 (Fortschreibung) 
+ [Q5] 
+ Anteil mit Migrationshintergrund 
+ 42,3 % (Einwohnerregister 31.12.2025) 
+ [Q6] 
+ Ukrainische Staatsangehörige 
+ 56.744–76.420 (Ende 2024, je nach Statistik) 
+ [Q7] 
+ Polnische Staatsangehörige 
+ 44.400–62.115 (Ende 2024, je nach Statistik) 
+ [Q7] 
+ Russische Staatsangehörige 
+ ~35.600–37.210 
+ [Q7] 
+ Russischsprachige insgesamt 
+ 150.000–300.000 (Schätzung) 
+ [Q10] 
+ 3.4 Symbol-Check für dein Design und deinen Content
+ Bild, Wort oder Symbol 
+ Wer reagiert 
+ Wie 
+ Risiko 
+ Beleg 
+ Sichel allein (B, gestrichen 11.10.) 
+ — 
+ Seit 11.10. erledigt, der Serp ist gestrichen. Die Verbote in UA, LT und PL zielen auf Hammer und Sichel und auf Sowjetsymbole 
+ entfällt 
+ [Q37] 
+ Sichel + Ähren + rotes Band (B + B2, gestrichen 11.10.) 
+ Ukrainer, Polen, belarussische Opposition 
+ Seit 11.10. erledigt. Es bleiben Ähren auf rotem Band (B2) und der Achtstern (C). Das belarussische Staatswappen zeigt Ähren mit rot-grünem Band und einen roten Stern 
+ Rest-Risiko, im Test prüfen 
+ [Q34][Q35] 
+ Ähren (B2; das Stoppelfeld ist seit 11.10. gestrichen) 
+ Ukrainer 
+ Holodomor. Das „Gesetz über die fünf Ähren“ (07.08.1932) bestrafte sogar das Auflesen liegengebliebener Ähren auf dem abgeernteten Feld. Ähren und Kerzen sind Symbole der Holodomor-Denkmäler. Der Bundestag hat den Holodomor am 30.11.2022 als Völkermord eingestuft 
+ mittel 
+ [Q51] 
+ Weizen unter hellblauem Himmel 
+ alle 
+ Die ukrainische Flagge wird gern als blauer Himmel über gelbem Weizen gelesen 
+ hoch, schon verboten 
+ [Q50] 
+ Rot-weiß als Ornament (A, C, E) 
+ Polen, Belarussen 
+ Normale Textilfarben. Unproblematisch als Kreuzstich 
+ gering 
+ [Q33] 
+ Weiß-rot-weiß als Streifen 
+ Belarussen 
+ Flagge der Opposition, in Belarus verfolgt 
+ mittel (politisch) 
+ [Q33][Q36] 
+ Rot-grün 
+ Belarussen 
+ Staatsflagge (Regime-Symbol für die Opposition) 
+ mittel 
+ [Q33] 
+ Rot-schwarz 
+ Polen 
+ Flagge von OUN-UPA, verbunden mit den Massakern in Wolhynien. Polens Präsident fordert ein Verbot 
+ hoch 
+ [Q49] 
+ Orange-schwarze Streifen, Z, V 
+ alle 
+ Georgsband und Kriegssymbole. Berliner Polizei hat sie am 8./9. Mai 2025 an den sowjetischen Ehrenmalen verboten, das Verwaltungsgericht hat das bestätigt 
+ hoch 
+ [Q38] 
+ Wort „Vyshyvanka“ 
+ Ukrainer 
+ Nationalsymbol, Vyshyvanka-Tag, Debatte über russische Aneignung 
+ mittel 
+ [Q32] 
+ Wort „Alatyr“ 
+ alle Kenner 
+ Begriff aus russischer Folklore, beliebt in der Rodnover-Szene (Neuheiden), die eng mit russischem Nationalismus verknüpft ist. Die Wagner-Gruppe nutzte neuheidnische Symbole 
+ mittel 
+ [Q39] 
+ „Slawisch“, „eine Kultur“, „Brudervölker“, „ein Volk“ 
+ Ukrainer, Polen 
+ Panslawismus, Putins „ein Volk“ 
+ hoch 
+ [Q42][Q43] 
+ „Älter als jede Grenze“ 
+ Ukrainer 
+ Kann wie „Grenzen sind künstlich“ klingen 
+ mittel 
+ [Q42] 
+ „Sowjetisch“, CCCP, Sowjet-Interieur 
+ Ukrainer, Polen, Balten 
+ Nostalgie für die UdSSR 
+ hoch 
+ [Q41] 
+ Russische Kyrillica als Schriftgrafik 
+ Ukrainer 
+ Einschätzung: liest sich heute als russisch. Nicht belegt, im Test prüfen 
+ mittel (Schätzung) 
+ — 
+ 3.5 Was das für das Design heißt (Abweichungen benannt, du entscheidest)
+ A · B und B2 zusammen. Seit 11.10. erledigt: Der Serp ist gestrichen. An der Hose stehen keine Sichel mehr, es bleiben Ähren auf rotem Band (B2) und der Achtstern (C). Die Frage nach dem B2-Band bleibt offen.
+ Option 1, so lassen: B2 rot lassen, kein Flatlay mit allen Motiven auf rotem Grund.
+ Option 2, B2-Band in eine andere Farbe: z. B. Weiß oder Ocker statt Rot. Das löst nebenbei Farbregel 2 (Rot ohne Weiß auf Indigo, Spec 3.4). Gegenrechnung: Eine reine Farbänderung ändert die Stichzahl nicht. Stückkosten, Kapital und Schwellen bleiben gleich (Spec 2.8: „Der einzige Kostentreiber ist die Stichzahl“). Eine weiße Kante von einem Stich rund um das Band wären geschätzt 100–500 Stiche mehr. Bei 0,55 € je 1.000 Stiche (Spec 3.11) sind das 0,06–0,28 € je Paar, 6–28 € auf 100 Paar. Kapital und Schwellen ändern sich praktisch nicht (Schätzung, echte Zahl mit der Digitizing-Vorschau am 09.11.).
+ Option 3, erst testen: Entscheidung nach den Gesprächen, spätestens vor dem Digitizing am Mo 09.11. Mein Rat: Option 3. Beim Freeze am Fr 09.10. als „Farbvorbehalt B2-Band bis 08.11.“ notieren. Das kostet nichts und hält den Freeze.
+ B · Stoppelfeld. Seit 11.10. erledigt: Das Stoppelfeld ist mit dem Serp gestrichen. Die Ernte erzählt jetzt B2 allein. Ob die Ähren für Ukrainerinnen nach Holodomor klingen, fragst du in den Gesprächen weiter ab.
+ C · Namen nach außen. Intern bleiben A „Vyshyvanka-Band“ und C „Alatyr“. Nach außen schlage ich vor: A = „Kreuzstich-Band“, C = „Achtstern“, D = „Lebensbaum“ (wie schon geregelt).
+ D · Projektname. „Projekt Slavic“ intern lassen. Nach außen nur „Time Travel“. Wenn „slawisch“ fällt, dann nur im Plural und mit dem Muster als Subjekt: „Muster aus den slawischen Textiltraditionen“.
+ 3.7 Sensible Termine bis zum Drop (betrifft deinen Docket)
+ Termin 
+ Warum 
+ Was im Docket steht 
+ Vorschlag (du entscheidest) 
+ Mi 14.10.2026 
+ — 
+ ORIGIN „Älter als jede Grenze“ (Hook: „Dieses Muster ist älter als jede Grenze.“) 
+ Hook ändern, z. B. „Jede Region stickt diese Raute anders. Die Bedeutung bleibt.“ 
+ Mi 25.11.2026 
+ 3 Tage vor dem Holodomor-Gedenktag 
+ ORIGIN „Der Teppich“ 
+ Eine Woche früher oder später. In der Woche 25.–29.11. kein Ernte-Post 
+ Sa 28.11.2026 
+ Holodomor-Gedenktag, 4. Samstag im November [Q51] 
+ kein Post 
+ so lassen, nichts posten 
+ Mi 09.12.2026 
+ — 
+ REACH „Älter als jede Grenze“ 
+ Hook wie oben ändern 
+ Mi 24.02.2027 
+ 5. Jahrestag des russischen Großangriffs (24.02.2022 [Q32]) 
+ REACH 19:00 „Das erste Bild“ 
+ Auf Do 11.03. schieben. Am 24.02. nichts Werbliches 
+ Nach dem Drop, für später: 8./9. Mai (Gedenken mit Flaggenverboten in Berlin [Q38]), Vyshyvanka-Tag im Mai [Q32].
+ 3.8 Kommentare moderieren
+ Sofort ausblenden: Z, V, Georgsband-Emojis, Kriegsverherrlichung, „Rus“-Parolen, Beleidigungen gegen eine Nation.
+ Ruhig beantworten: „Ist das russisch?“ → „Nein. Das Muster gibt es in Belarus, Polen, Russland und der Ukraine. Es gehört keinem allein.“
+ Ernst nehmen: „Das erinnert mich an Sowjetsymbole / den Holodomor.“ → Danken, notieren, im Wochenreview zählen. Drei solche Kommentare in einer Woche sind ein Signal für Option 2 aus 3.5.
+ Nie diskutieren, nie löschen, was nur Kritik ist.
+ 5 · Günstig testen in den nächsten 4 Wochen (12.10.–08.11.2026)
+ Ziel: Bis zur Validierung am So 01.11. wissen: (1) Wer reagiert auf welche Hook? (2) Welche Wörter und Bilder lösen Ablehnung aus? (3) Ist 149/169 € für S1 tragbar? Bis zum Digitizing am Mo 09.11. entscheidest du über das B2-Band.
+ Kosten: fast 0 €. Tally hat einen kostenlosen Plan mit unbegrenzten Formularen [Q63] (auf tally.so prüfen). Kaffee für 10 Gesprächspartner ca. 40 € (Schätzung, aus dem Puffer).
+ Datenschutz: Fragen nach Herkunft betreffen die ethnische Herkunft, eine besondere Kategorie nach Art. 9 DSGVO. Verarbeiten darfst du sie nur mit ausdrücklicher Einwilligung [Q65]. Deshalb: Umfrage anonym , keine E-Mail-Adresse im selben Formular, die Herkunftsfrage freiwillig. Tally in die Datenschutzerklärung aufnehmen (prüfen mit e-recht24).
+ Was du zeigen darfst: Papiertest-Fotos vom 08.10. Papier an der Hose ist Prozess, kein fertiges Teil. Das passt zur Regel.
+ 5.1 Zehn Gespräche (je 20 Minuten)
+ Wen: nur aus deinem Umfeld oder per Empfehlung („Kennst du jemanden, der …?“). Keine kalten DMs an Fremde.
+ Anzahl 
+ Wer 
+ 3 
+ S1 mit russlanddeutschem oder russischem Familienhintergrund 
+ 2 
+ S1 mit polnischem Familienhintergrund 
+ 2 
+ Ukrainisch (mindestens eine Person, die seit 2022 hier ist) 
+ 1 
+ Belarussisch, falls jemand im Umfeld ist (sonst ein Balte oder eine Baltin) 
+ 2 
+ S3 Denim- oder Streetwear-Käufer ohne Ost-Bezug 
+ Ablauf: Erst die Fotos ohne Erklärung zeigen, dann mit Erklärung. Sonst bekommst du nur höfliche Antworten.
+ Die Fotos (aus Papiertest 3): 1 vorn gesamt, 2 hinten gesamt, 3 Achtstern (C), 4 linke Gesäßtasche mit Ähren und Band (B2), 5 Band und Münztasche (A + E), 6 Patch D als Gürtelschlaufe mit Gürtel, 7 Lebensbaum-Patch nah (D).
+ Die Fragen: 
+ „Was siehst du?“ (Foto 1 und 2, ohne Erklärung)
+ „Woran erinnert dich das?“ (jedes Foto einzeln, Foto 3 und 4 zuerst)
+ „Gibt es etwas, das du so nicht tragen würdest? Warum?“
+ „Zu welchem Land oder welcher Zeit würdest du das zuordnen?“
+ Nur für UA/PL/BY/Balten: „Erinnert dich etwas an Sowjetsymbole, an ein Wappen oder an ein bestimmtes Ereignis?“
+ „Ich nenne dir Wörter. Sag mir, was du fühlst: slawisch · Vyshyvanka · Alatyr · Lebensbaum · Teppich bei Oma · Ernte.“ (ein Wort pro Antwort: gut / neutral / schlecht)
+ „Hatte deine Familie so einen Teppich an der Wand? Hast du ein Foto?“
+ Preis (4 Fragen): „Ab welchem Preis wäre diese Jeans so billig, dass du an der Qualität zweifelst?“ · „… ein gutes Angebot?“ · „… teuer, aber du würdest noch überlegen?“ · „… zu teuer, egal was?“
+ „Würdest du sie im Februar zu 149 € vorbestellen, wenn sie im Juni kommt? Ja, vielleicht, nein. Was müsste passieren, damit du Ja sagst?“
+ „Was ist für dich das Beste daran: nummeriert, Goldfäden von Hand, das Muster, die ehrliche Größe?“ (Rangfolge)
+ „Jeans 169 €, Zipper 139 €, Polo 79 €. Welches würdest du zuerst kaufen?“
+ „Wo würdest du so etwas entdecken? Welcher Account, welcher Laden?“
+ „Wen kennst du, mit dem ich auch sprechen sollte?“
+ Mitschreiben: in die Tracking-Tabelle, ein Blatt „Gespräche“: Datum, Segment, Antwort je Frage, auffällige Zitate.
+ 5.2 Acht Story-Umfragen (Instagram, 5 Minuten pro Story)
+ Instagram bietet Umfrage-Sticker mit bis zu vier Antworten, einen Emoji-Schieberegler, ein Quiz und einen Frage-Sticker [Q62]. Immer ein Papiertest-Foto als Hintergrund.
+ Nr. 
+ Wann 
+ Bild 
+ Sticker 
+ Frage und Antworten 
+ 1 
+ Di 13.10. 
+ Papier-Münztasche 
+ Umfrage 
+ „Hing so ein Muster bei euch zu Hause?“ · Ja, an der Wand · Ja, auf dem Tisch · Nein 
+ 2 
+ Do 15.10. 
+ Teppich-Foto deiner Familie 
+ Frage-Sticker 
+ „Schick mir ein Foto vom Teppich deiner Oma.“ 
+ 3 
+ Di 20.10. 
+ Gesäßtasche B2 
+ Umfrage, 4 Antworten 
+ „Woran erinnert dich das?“ · Ernte · Kindheit · Wappen · Nichts 
+ 4 
+ Do 22.10. 
+ B2 rot vs. B2 mit weißer Kante (zwei Papierversionen, die zweite druckt dir Claude) 
+ Umfrage 
+ „Links oder rechts?“ 
+ 5 
+ Di 27.10. 
+ Patch D als Gürtelschlaufe, Gürtel dahinter (Papier) 
+ Schieberegler 
+ „Wie sehr würdest du das tragen?“ 
+ 6 
+ Do 29.10. 
+ ganze Hose hinten, Papier 
+ Umfrage, 4 Antworten 
+ „Was wäre fair?“ · 129 € · 149 € · 169 € · 189 € 
+ 7 
+ Di 03.11. 
+ drei Produkte als Strichzeichnung, kein Mockup (Jeans, Zipper, Polo) 
+ Umfrage, 3 Antworten 
+ „Was zuerst?“ · Jeans · Zipper · Polo 
+ 8 
+ Do 05.11. 
+ Band A in Nahaufnahme 
+ Frage-Sticker 
+ „Wie würdest du dieses Band nennen?“ 
+ Ergebnisse: Screenshot am nächsten Tag, Zahl ins Blatt „Content“.
+ 5.3 Eine anonyme Umfrage (Tally, 12 Fragen, 3 Minuten)
+ Link in Bio und in Story 2 und 6. Ziel: 100 Antworten bis Sa 31.10. (Schätzung, abhängig von deiner Reichweite).
+ Alter (Spannen)
+ Wohnort: Berlin / anderes Deutschland / Ausland
+ Wie viel hast du für deine letzte Jeans bezahlt? (bis 50 · 50–99 · 100–149 · 150+)
+ Wo kaufst du Jeans? (Mehrfachauswahl)
+ Bild B2: Was fällt dir zuerst ein? (offen)
+ Bild C (Achtstern): Was fällt dir zuerst ein? (offen)
+ Welches Wort passt für dich am besten zu diesem Muster? (Kreuzstich-Band · Vyshyvanka · Folklore · Ornament)
+ Würdest du zu 149 € vorbestellen? (Ja · Vielleicht · Nein)
+ Was würde dich überzeugen? (Fit-Video · Proto in echt sehen · Rückgaberecht · Stücknummer · Freunde tragen es)
+ Jeans, Zipper oder Polo zuerst?
+ Freiwillig: Hat deine Familie Wurzeln in einem dieser Länder? (Belarus · Baltikum · Kasachstan · Polen · Russland · Ukraine · anderes · möchte ich nicht sagen). Darüber der Satz: „Freiwillig. Die Umfrage ist anonym. Mit der Antwort willigst du ein, dass ich sie für diese Auswertung nutze.“
+ Etwas, das ich wissen sollte? (offen)
+ Am Ende ein Link zur Warteliste, nicht im selben Formular.
+ 5.4 Ein Sonntag auf dem Mauerpark-Flohmarkt
+ So 25.10. , 12–14 Uhr, vor dem Content-Batch (Öffnungszeit laut Sekundärquelle So 10–18 Uhr [Q58], vor Ort prüfen). Nicht der 01.11., das ist Validierungstag.
+ Mitnehmen: drei laminierte Papiertest-Fotos (B2, Patch D als Gürtelschlaufe, ganze Hose) und dein Handy mit der Tally-Umfrage.
+ 15 Menschen in Jeans fragen, ob sie zwei Minuten haben. Nur Fragen 1, 2, 8 und 9 aus 5.1.
+ Nichts verkaufen, nichts verteilen. Hinweis zur Warteliste nur, wenn jemand fragt.
+ 5.5 Zeitplan in deinen 1–2 Stunden pro Tag
+ Woche 
+ Was 
+ Zeit 
+ W5 (12.–18.10.) 
+ Tally-Umfrage anlegen (Fragen aus 5.3, Claude macht den Text fertig) · 15 Namen für Gespräche sammeln · Story 1 und 2 · Gespräche 1–2 am Wochenende 
+ ca. 2,5 h 
+ W6 (19.–25.10.) 
+ Gespräche 3–6 · Story 3 und 4 · Mauerpark So 25.10. 
+ ca. 3,5 h 
+ W7 (26.10.–01.11.) 
+ Gespräche 7–10 · Story 5 und 6 · Sa 31.10. Auswertung (Claude fasst zusammen) → So 01.11. Validierung 
+ ca. 3,5 h 
+ W8 (02.–08.11.) 
+ Story 7 und 8 · Entscheidung B2-Band und Namen nach außen · vor dem Digitizing Mo 09.11. an Claude 
+ ca. 1 h 
+ 5.6 Entscheidungsregeln (Vorschlag, du entscheidest)
+ Wenn … 
+ dann … 
+ mindestens 2 von 5 Personen mit UA/PL/BY/baltischem Hintergrund bei Foto 3 oder 4 spontan „Sowjet“, „Wappen“, „Kolchose“ oder „Holodomor“ sagen 
+ B2-Band in Weiß oder Ocker (Option 2 in 3.5). Kostet 0 Stiche 
+ in Story 4 die Version mit weißer Kante klar gewinnt (über 60 %) 
+ weiße Kante am B2-Band, löst auch Farbregel 2 
+ mindestens 2 von 4 Personen mit UA/PL-Hintergrund „slawisch“ schlecht finden 
+ „slawisch“ verschwindet aus allem Öffentlichen 
+ „Vyshyvanka“ in Umfrage-Frage 7 und Story 8 nicht vorne liegt 
+ nach außen „Kreuzstich-Band“ 
+ der Median „zu teuer“ (Frage 8) bei S1 unter 149 € liegt 
+ Vorbestellpreis halten, aber Zipper und Polo stärker zeigen; bei der Validierung als gelb werten 
+ mehr als die Hälfte der S1-Gespräche bei Frage 9 „Ja“ oder „Vielleicht“ sagt 
+ S1 bestätigt, Content-Hooks auf Teppich und Familie 

@@ -1,0 +1,175 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body><title>Tech Pack NVL-TT-01</title><meta name="claude:viewport-fit-sides" content="cover"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap"><style id="page-css">/* Layout: schmaler Laufzettel wie in der Fabrik, Abschnitte durch eine Steppnaht getrennt, Kopf wie ein eingenähtes Etikett */
+:root{
+  --bg:#f2f4f7; --surface:#ffffff; --ink:#172031; --muted:#566076; --line:#d7dce5;
+  --indigo:#2b4a77; --indigo-soft:#e2e9f4; --copper:#9c5a30; --copper-soft:#f6e9df; --stitch:#c9976f;
+  --red:#a8302a; --ok:#2c6e4c; --ok-soft:#e0efe6; --warn:#9a5410;
+  --label-bg:#1f385d; --label-fg:#eef2f8;
+  --f-display:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e131b; --surface:#151c27; --ink:#e4e8ef; --muted:#9aa3b4; --line:#283244;
+    --indigo:#97b4e3; --indigo-soft:#1d2b42; --copper:#e09f6c; --copper-soft:#35261b; --stitch:#7d5c42;
+    --red:#e8766f; --ok:#73c899; --ok-soft:#163024; --warn:#eaa95f;
+    --label-bg:#24385a; --label-fg:#e6ecf6; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e131b; --surface:#151c27; --ink:#e4e8ef; --muted:#9aa3b4; --line:#283244;
+  --indigo:#97b4e3; --indigo-soft:#1d2b42; --copper:#e09f6c; --copper-soft:#35261b; --stitch:#7d5c42;
+  --red:#e8766f; --ok:#73c899; --ok-soft:#163024; --warn:#eaa95f;
+  --label-bg:#24385a; --label-fg:#e6ecf6; color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+#app{max-width:760px;margin:0 auto;padding-block:28px 48px;display:flex;flex-direction:column;gap:22px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin:0 0 6px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(32px,7vw,44px);line-height:1.04;letter-spacing:-.01em;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:10px 0 16px;max-width:62ch}
+.label{display:flex;flex-wrap:wrap;background:var(--label-bg);color:var(--label-fg);border-radius:3px;padding:10px 12px;
+  outline:1px dashed var(--stitch);outline-offset:-5px;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.label span{padding:2px 12px}
+.label span+span{border-left:1px solid color-mix(in srgb, var(--label-fg) 30%, transparent)}
+.summary{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.sumline{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.count{font-family:var(--f-display);font-size:24px;font-weight:700}
+.save{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.save.saved{color:var(--ok)} .save.pending,.save.saving{color:var(--warn)} .save.err{color:var(--red)}
+.bar{height:8px;background:var(--indigo-soft);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--indigo)}
+.next{margin:0;display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;font-size:15px}
+.next .k{font-family:var(--f-mono);font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--copper)}
+.next span:last-child{min-width:0}
+.filters{display:flex;gap:8px;flex-wrap:wrap}
+.chipbtn{font:inherit;font-size:15px;display:inline-flex;gap:8px;align-items:center;padding:6px 14px;min-height:38px;border-radius:999px;
+  border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.chipbtn .n{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.chipbtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chipbtn.on .n{color:var(--bg);opacity:.8}
+.chipbtn:focus-visible,.item input:focus-visible,a:focus-visible{outline:2px solid var(--copper);outline-offset:2px}
+.group{display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:2px dashed var(--stitch)}
+.ghead{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+h2{font-family:var(--f-display);font-size:24px;font-weight:700;margin:0}
+.gcount{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.gnote{margin:0;color:var(--muted);font-size:15px;max-width:62ch}
+.items{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.item{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;align-items:start;background:var(--surface);
+  border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.item input{width:22px;height:22px;margin:2px 0 0;accent-color:var(--indigo);cursor:pointer}
+.item input:disabled{cursor:default}
+.ititle{font-weight:600;cursor:pointer;display:block}
+.item.done{background:transparent}
+.item.done .ititle{text-decoration:line-through;text-decoration-color:var(--muted);color:var(--muted)}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.who,.due{font-family:var(--f-mono);font-size:12px;padding:2px 8px;border-radius:4px;white-space:nowrap}
+.w-du{background:var(--indigo-soft);color:var(--indigo)}
+.w-claude{background:var(--copper-soft);color:var(--copper)}
+.w-fabrik{border:1px solid var(--line);color:var(--muted)}
+.w-du-claude{background:linear-gradient(90deg,var(--indigo-soft) 50%,var(--copper-soft) 50%);color:var(--ink)}
+.due{color:var(--muted);border:1px solid var(--line)}
+.due.late{color:var(--red);border-color:var(--red)}
+.due.today{color:var(--warn);border-color:var(--warn)}
+.due.ok{color:var(--ok);border-color:transparent;background:var(--ok-soft)}
+.where{margin:8px 0 0;color:var(--muted);font-size:15px;max-width:62ch}
+.links{margin:6px 0 0;display:flex;gap:14px;flex-wrap:wrap;font-size:15px}
+.links a{color:var(--indigo);text-underline-offset:3px}
+.foot{color:var(--muted);font-size:13px;font-family:var(--f-mono);border-top:1px solid var(--line);padding-top:14px}
+.foot p{margin:0}
+@media (prefers-reduced-motion: no-preference){.fill{transition:width .3s ease}}
+</style><main id="app"></main><script type="application/json" id="state">{"v":1,"updated":"2026-10-23","groups":[{"id":"g1","title":"Entscheiden","note":"Das kannst nur du. Bis Do 22.10., damit die Maßtabelle steht."},{"id":"g2","title":"Messen und testen","note":"Zu Hause, mit Maßband, Malerkrepp und Drucker."},{"id":"g3","title":"Fabriken","note":"Stand Fr 23.10.: Lisama und Chasco haben bis zur Frist nicht geantwortet und sind raus. Im Rennen: Kuzgunlar (Favorit, Preis zum Quote Pack noch offen) und DiZNEW (Musterkosten und Serienpreis angekündigt, Frist Di 27.10.). Noch hat keine Fabrik einen Preis genannt. Entscheidung Do 29.10."},{"id":"g4","title":"Tech Pack bauen","note":"Das mache ich, aus deinen Maßen und Entscheidungen."},{"id":"g5","title":"Von Fabrik und Lieferanten","note":"Kommt nach der Fabrikwahl. Ich prüfe mit dir, du gibst frei."},{"id":"g6","title":"Später","note":"Hängt am Gewerbe oder an der Vorbestellung."}],"items":[{"id":"f-fit","g":"g1","t":"Fit festlegen: Baggy wie Referenzfoto oder Straight","who":"du","due":"2026-10-22","where":"Entschieden: Straight, Maße von deiner Eightyfive in M, Optik wie das Referenzfoto. Passt zu „straight leg“ in den Fabrik-Mails.","done":true,"doneAt":"2026-10-20","links":[{"t":"Mockup","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/mockup/NVL_Mockup_v19_Jeans.png"}]},{"id":"f-fly","g":"g1","t":"Hosenschlitz: Reißverschluss oder Knopfleiste","who":"du","due":"2026-10-22","where":"Entschieden: Reißverschluss plus 20-mm-Knopf mit Achtstern.","done":true,"doneAt":"2026-10-20"},{"id":"f-num","g":"g1","t":"Platz der Nummer 001–100","who":"du","due":"2026-10-22","where":"Entschieden: gedruckt auf das Innenetikett am Bund. Dient auch als Produktkennung nach GPSR.","done":true,"doneAt":"2026-10-20"},{"id":"f-wash","g":"g1","t":"Wäsche festlegen: Helligkeit, Whiskers, Abrieb an Knie und Gesäß","who":"du","due":"2026-10-22","where":"Entschieden: dunkler als das Referenzfoto (mittleres Vintage-Indigo), Honeycombs hinter den Knien, vorn nur leicht gewaschen. Keine Löcher, kein Sandstrahlen.","done":true,"doneAt":"2026-10-20"},{"id":"f-rights","g":"g1","t":"Rechte am Baum-Bild für Patch D klären","who":"du","due":"2026-10-25","where":"Geklärt: selbst mit Gemini erstellt. Google beansprucht laut Nutzungsbedingungen kein Eigentum daran. Schützen lässt sich das Bild nicht, und Google haftet nicht. Ein kurzer Check mit Google Lens zeigt, ob es einem fremden Design zu ähnlich ist.","done":true,"doneAt":"2026-10-20"},{"id":"f-patchcol","g":"g1","t":"Garnfarben für Patch D bestätigen (höchstens 4)","who":"du","due":"2026-10-28","where":"Entschieden: Dunkelbraun, Gold, Rot, Kupfer.","done":true,"doneAt":"2026-10-20"},{"id":"m-print","g":"g2","t":"Druckvorlage v1.9 drucken, Seiten 2 bis 5","who":"du","due":"2026-10-21","where":"Mit dem Papiertest erledigt.","done":true,"doneAt":"2026-10-21","links":[{"t":"Druckvorlage v1.9 (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL_Druckvorlage_v19_Jeans.pdf"}]},{"id":"m-paper","g":"g2","t":"Papiertest 4 an der Eightyfive, Fotos an Claude","who":"du","due":"2026-10-22","where":"Bestanden, laut dir alles gut.","done":true,"doneAt":"2026-10-21"},{"id":"m-measure","g":"g2","t":"Eightyfive vermessen, Fotos mit Maßband schicken","who":"du","due":"2026-10-22","where":"Maße 20 von 20 sind da (Di 20.10.). Fotos entfallen vorerst, du bist in Zypern. Ich zeichne aus den Maßen, die Fabrik übernimmt Details später von der echten Eightyfive.","done":false,"doneAt":null,"links":[{"t":"Messbogen Eightyfive M","u":"https://claude.ai/artifact/TSPS4CYJW8RzbPcpZdxJB6"}]},{"id":"m-snap","g":"g2","t":"Druckknopf-Test mit Gürtel an einer alten Jeans","who":"du","due":"2026-10-25","where":"Kein Heimtest, du überlässt mir die Entscheidung: 10 mm Ringfeder bleibt. Der Haltetest wird am Proto gemacht und ist Bedingung für die Freigabe. Springt er auf, nehmen wir 12,5 mm.","done":true,"doneAt":"2026-10-21"},{"id":"x-rfq","g":"g3","t":"Anfrage an 6 Fabriken gesendet","who":"du+claude","due":"2026-10-17","where":"Kuzgunlar, NTC, Lisama, Chasco, DiZNEW, 5D.","done":true,"doneAt":"2026-10-17"},{"id":"x-read","g":"g3","t":"Antworten gelesen: Kuzgunlar, NTC, DiZNEW, 5D","who":"claude","due":"2026-10-20","where":"Kuzgunlar will Tech Pack und Referenzbilder, Muster 200 € plus Versand, gestickt wird bei Partnern. NTC will Fotos. DiZNEW schickt Werbetext ohne Antworten und bietet einen Call an. 5D ist ausgebucht und sagt ab.","done":true,"doneAt":"2026-10-20"},{"id":"x-ntc","g":"g3","t":"NTC antworten: Mockup und Druckvorlage schicken","who":"du+claude","due":"2026-10-22","where":"Entfällt: NTC ist raus, du hast den Verlauf bewusst gelöscht.","done":true,"doneAt":"2026-10-21"},{"id":"x-calls","g":"g3","t":"Video-Calls mit Kuzgunlar und DiZNEW vereinbaren","who":"du+claude","due":"2026-10-21","where":"Mails an Kuzgunlar und DiZNEW sind am Di 20.10. raus, Vorschlag Do 22.10. oder Fr 23.10. um 17:30 Istanbuler Zeit. Ich schreibe den Leitfaden mit Fragen, du führst die Calls. Stand 23.10.: In Gmail ist von keiner der beiden Fabriken ein bestätigter Termin. Liefen die Calls per WhatsApp, schreib mir kurz deinen Eindruck.","done":false,"doneAt":null},{"id":"x-wait","g":"g3","t":"Lisama und Chasco: Antwort bis Fr 23.10. abwarten","who":"claude","due":"2026-10-23","where":"Geprüft am Fr 23.10., 18:00: Weder Lisama noch Chasco haben geantwortet. Beide fallen aus der Auswahl.","done":true,"doneAt":"2026-10-23"},{"id":"x-decide","g":"g3","t":"Fabrik entscheiden","who":"du","due":"2026-10-29","where":"Ich lege dir einen Vergleich vor: Stickerei, Wäsche, Musterkosten, Preis und dein Eindruck aus dem Call. Du entscheidest. In der Türkei ist der 29.10. Nationalfeiertag, die Fabrik liest deine Zusage am Fr 30.10.","done":false,"doneAt":null},{"id":"x-send","g":"g3","t":"Tech Pack v1.0 an die gewählte Fabrik senden","who":"du+claude","due":"2026-10-30","where":"Ich bereite die Mail vor, du sagst „senden“.","done":false,"doneAt":null},{"id":"t-guide","g":"g4","t":"Messanleitung mit Skizze und Tabelle zum Ausfüllen","who":"claude","due":"2026-10-21","where":"Messbogen mit Skizze vorn und hinten, 20 Messpunkte und Etikett. Werte speichern sich beim Tippen.","done":true,"doneAt":"2026-10-20","links":[{"t":"Messbogen Eightyfive M","u":"https://claude.ai/artifact/TSPS4CYJW8RzbPcpZdxJB6"}]},{"id":"t-callguide","g":"g4","t":"Leitfaden für die Fabrik-Calls","who":"claude","due":"2026-10-21","where":"12 Fragen auf Englisch zum Vorlesen, Rundgang, Bewertungsbogen mit Gewichtung und K.-o.-Gründen.","done":true,"doneAt":"2026-10-22","links":[{"t":"PDF","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL_Leitfaden_Fabrik-Calls.pdf"}]},{"id":"t-spec","g":"g4","t":"Maßtabelle Basisgröße W34 (M) mit Toleranzen","who":"claude","due":"2026-10-24","where":"Seite 6 im Tech Pack. Etikett W34, Bund 86 cm, Innenbein 81 cm mit Saum.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-grade","g":"g4","t":"Gradierung W30 bis W38 als Vorschlag","who":"claude","due":"2026-10-24","where":"Seite 4: W30 bis W38, Sprung je Zoll, Mengenschätzung. Die Fabrik prüft und kommentiert vor dem Proto.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-flats","g":"g4","t":"Technische Zeichnungen vorn, hinten, Seite und Details","who":"claude","due":"2026-10-25","where":"Seite 3 im Tech Pack: vorn und hinten mit allen Details, aus deinen Maßen gezeichnet.","done":true,"doneAt":"2026-10-22","links":[{"t":"PDF","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-emb","g":"g4","t":"Stickerei-Seiten A, E, B2 und C","who":"claude","due":"2026-10-25","where":"Seite 4: Position, Größe, Technik, Farben und Stichzahl je Zone, dazu Schrumpf-Regel und Anhang 1:1.","done":true,"doneAt":"2026-10-22","links":[{"t":"PDF","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-bom","g":"g4","t":"Materialliste (BOM)","who":"claude","due":"2026-10-25","where":"Seite 5: 15 Positionen. Artikelnummern und Lieferanten trägt die Fabrik ein.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-order","g":"g4","t":"Arbeitsreihenfolge und Waschtest-Vorgabe","who":"claude","due":"2026-10-25","where":"Seite 7: 7 Freigabeschritte, Reihenfolge der Produktion, gewaschene Stickprobe als Gate vor dem Proto.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-labels","g":"g4","t":"Etiketten-Texte","who":"claude","due":"2026-10-25","where":"Seite 9: Innenetikett mit Nummer, Faserangabe Deutsch, Pflege, GPSR-Platzhalter, Verpackung, REACH.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-qc","g":"g4","t":"Qualitätskontrolle, Verpackung und Versand","who":"claude","due":"2026-10-25","where":"Seite 10: 100-%-Prüfung, Foto je Nummer, AQL 2,5/4,0, Fehlerklassen.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-pdf","g":"g4","t":"Tech Pack v1.0 als PDF auf Englisch","who":"claude","due":"2026-10-26","where":"16 Seiten mit Anhang, alle Teile drin. Letzter Check bis Mo 26.10., geht nach der Fabrikwahl am 29.10. raus.","done":true,"doneAt":"2026-10-23","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"t-snapgrid","g":"g4","t":"Druckknopf-Raster als Novalife-Standard: 66 × 46 mm","who":"claude","due":"2026-10-20","where":"Steht in der Druckvorlage auf Seite 5. Jede künftige Novalife-Jeans bekommt dieselben 4 Unterteile, damit der Patch überall passt.","done":true,"doneAt":"2026-10-20"},{"id":"t-print","g":"g4","t":"Druckvorlage v1.9, 1:1, 5 Seiten","who":"claude","due":"2026-10-17","where":"","done":true,"doneAt":"2026-10-17","links":[{"t":"Druckvorlage v1.9 (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL_Druckvorlage_v19_Jeans.pdf"}]},{"id":"t-mock","g":"g4","t":"Mockup im Referenz-Fit","who":"claude","due":"2026-10-17","where":"","done":true,"doneAt":"2026-10-17","links":[{"t":"Mockup","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/mockup/NVL_Mockup_v19_Jeans.png"}]},{"id":"t-list","g":"g4","t":"Alle Tech-Pack-Inhalte recherchiert","who":"claude","due":"2026-10-17","where":"","done":true,"doneAt":"2026-10-17","links":[{"t":"Inhalte im Detail","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/rev6/research/techpack_checkliste.md"}]},{"id":"s-patch","g":"g5","t":"Patch-Hersteller anfragen: 3 Anbieter","who":"du+claude","due":"2026-10-28","where":"Ich suche Anbieter und schreibe die Anfragen, du sagst „senden“. Der Patch braucht eine feste Einlage für die 4 Druckknöpfe.","done":false,"doneAt":null},{"id":"s-offer","g":"g5","t":"Angebot: Preis pro Paar, Musterkosten, Zahlung, EXW und DAP Berlin","who":"fabrik","due":"2026-11-02","where":"Stand 23.10.: noch kein Preis. DiZNEW hat Musterkosten und geschätzten Serienpreis angekündigt (Frist Di 27.10.). Kuzgunlar nennt 200 € plus Versand fürs Muster und Werkzeug extra, der Preis pro Paar zum Quote Pack vom 20.10. steht aus.","done":false,"doneAt":null},{"id":"s-fabric","g":"g5","t":"Stoffmuster 12 oz und Restschrumpf-Wert","who":"fabrik","due":"2026-11-09","where":"","done":false,"doneAt":null},{"id":"s-thread","g":"g5","t":"Garnfarbkarte: Rot, Weiß und Gold am echten Garn wählen","who":"fabrik","due":"2026-11-09","where":"Du wählst am Muster, ich gleiche mit der Druckvorlage ab.","done":false,"doneAt":null},{"id":"s-digit","g":"g5","t":"Digitizing-Vorschau prüfen: Stichzahl, Fadenschnitte, Farbwechsel","who":"fabrik","due":"2026-11-09","where":"Wir prüfen zusammen, laut Docket am Mo 09.11.","done":false,"doneAt":null},{"id":"s-hw","g":"g5","t":"Knopf, Nieten und Druckknöpfe: Muster, Werkzeugkosten, Nickel-Nachweis","who":"fabrik","due":"2026-11-16","where":"","done":false,"doneAt":null},{"id":"s-stitch","g":"g5","t":"Stickproben auf Denim mit Waschtest bewerten","who":"du","due":"2026-11-16","where":"Gate am Di 17.11.: Trägt die Stickerei auf gewaschenem Denim? Erst dort zeigt sich, ob der Stern wirklich perfekt ist.","done":false,"doneAt":null},{"id":"l-addr","g":"g6","t":"Postanschrift fürs Etikett (GPSR)","who":"du","due":"2027-01-06","where":"Erst nach dem Gewerbe am Mi 06.01.","done":false,"doneAt":null},{"id":"l-labels","g":"g6","t":"Etiketten und Hangtags mit Nummern bestellen","who":"fabrik","due":"2027-01-15","where":"Nach der Freigabe des PP-Musters.","done":false,"doneAt":null},{"id":"l-sizes","g":"g6","t":"Größenverteilung der 100 Paare","who":"du+claude","due":"2027-02-14","where":"Aus den Vorbestellungen und den Mess-Abenden im Februar.","done":false,"doneAt":null},{"id":"f-inseam","g":"g1","t":"Innenbein: eine Länge für alle Größen, 78 oder 81 cm","who":"du","due":"2026-10-22","where":"Entschieden: 81 cm (L32), eine Länge für alle Größen.","done":true,"doneAt":"2026-10-21"},{"id":"f-wlabel","g":"g1","t":"W-Zahl abstimmen: eine Jeans mit W-Etikett flach messen","who":"du","due":"2026-10-22","where":"Entschieden 22.10.: ehrliche Größen wie in deiner Spec. Das Etikett ist die echte Bundweite in Zoll: deine M mit 86 cm heißt W34, W32 sind 81 cm. Proto und PP in W34.","done":true,"doneAt":"2026-10-21"},{"id":"f-topstitch","g":"g1","t":"Farbe der Ziernähte","who":"du","due":"2026-10-23","where":"Entschieden: Kupfer-Gold.","done":true,"doneAt":"2026-10-21"},{"id":"f-zip","g":"g1","t":"Reißverschluss: Art und Farbe","who":"du","due":"2026-10-23","where":"Entschieden: YKK Metall, Antik-Kupfer, mit Autolock.","done":true,"doneAt":"2026-10-21"},{"id":"f-pocketing","g":"g1","t":"Stoff der Taschenbeutel","who":"du","due":"2026-10-23","where":"Entschieden: naturweiße Baumwolle, unbedruckt.","done":true,"doneAt":"2026-10-21"},{"id":"f-whisk","g":"g1","t":"Whiskers vorn an der Hüfte: ja oder nein","who":"du","due":"2026-10-23","where":"Entschieden: keine Whiskers. Pflicht sind Honeycombs hinter den Knien und die Aufhellung auf den Oberschenkeln.","done":true,"doneAt":"2026-10-21"},{"id":"m-washref","g":"g2","t":"2 bis 3 Referenzfotos für die Wäsche","who":"du","due":"2026-10-23","where":"5 Bilder plus Iron-Heart-Honeycombs. Farbziel: Bild rechts in der Mitte. Oberschenkel wie oben rechts, aber ohne Nicks und Löcher. Honeycombs mit hohem Kontrast.","done":true,"doneAt":"2026-10-21"},{"id":"m-lens","g":"g2","t":"Google-Lens-Check für das Patch-Bild","who":"du","due":"2026-10-25","where":"Kein ähnliches Design gefunden.","done":true,"doneAt":"2026-10-21"},{"id":"t-snaptest","g":"g4","t":"Haltetest der Druckknöpfe als Freigabe-Bedingung","who":"claude","due":"2026-10-25","where":"Seite 10: Gürtel 20-mal, 50-mal auf und zu, 90 N Zug. Bedingung für die Freigabe.","done":true,"doneAt":"2026-10-21","links":[{"t":"Tech Pack v1.0 Entwurf (PDF)","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/pdf/NVL-TT-01_TechPack_v1.0.pdf"}]},{"id":"x-sample","g":"g3","t":"Optional: Eightyfive als Muster an die Fabrik","who":"du","due":"2026-10-30","where":"Die Jeans ist in Berlin, du in Zypern. Nicht nötig: Stattdessen prüfen wir vor dem Proto das Maßblatt des Schnitts. Kann jemand bei dir zu Hause sie verschicken, ist sie eine Zusatzhilfe.","done":false,"doneAt":null},{"id":"f-patchloop","g":"g1","t":"Patch D: oben auf dem Bund wie bei Levi's, Gürtel läuft durch","who":"du","due":"2026-10-21","where":"Entschieden: Schlaufe aus zwei Lagen (Baum vorn, Rückwand hinten), Druckknöpfe versteckt dahinter, Gürtel bis 40 mm läuft durch. Grund: Ein Standardgürtel passte nicht zwischen die Druckknöpfe.","done":true,"doneAt":"2026-10-21","links":[{"t":"Skizze","u":"https://github.com/Ernest080809/email-bot/blob/claude/time-travel-drop-docket-i92rvk/novalife/time-travel/rev6/skizzen/2026-10-21_patch_schlaufe_levis.png"}]},{"id":"f-spare","g":"g1","t":"3 Reservepaare ohne Nummer","who":"du","due":"2026-10-21","where":"Entschieden: je eins in W32, W34 und W36, grob 100–180 €.","done":true,"doneAt":"2026-10-21"},{"id":"t-patterncheck","g":"g4","t":"Maßblatt des Schnitts vor dem Proto als Freigabe-Schritt","who":"claude","due":"2026-10-22","where":"Steht im Tech Pack auf Seite 7: Die Fabrik schickt die Maße ihres W32-Schnitts (Punkte 1–20), wir geben frei, erst dann wird zugeschnitten.","done":true,"doneAt":"2026-10-22"},{"id":"f-hem","g":"g1","t":"Saum: genäht oder roh","who":"du","due":"2026-10-22","where":"Entschieden: genäht, 1 cm, Kettstich in Kupfer-Gold. Die 81 cm Innenbein schließen den Saum ein.","done":true,"doneAt":"2026-10-22"}]}</script><script id="page-js">(function(){
+  var RESET=':root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}';
+  var FONTS='https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap';
+  var S=JSON.parse(document.getElementById('state').textContent);
+  var app=document.getElementById('app');
+  var WD=['So','Mo','Di','Mi','Do','Fr','Sa'];
+  var WHO={'du':'Du','claude':'Claude','fabrik':'Fabrik','du+claude':'Du + Claude'};
+  var FILTERS=[['alle','Alle'],['du','Du'],['claude','Claude'],['fabrik','Fabrik']];
+  var filter='alle';
+  try{filter=localStorage.getItem('nvl-tp-filter')||'alle';}catch(e){}
+  var art=null,mode='wait',timer=null,retried=false;
+  function pad(n){return String(n).padStart(2,'0');}
+  function iso(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+  var today=iso(new Date());
+  function fmt(s){var p=s.split('-');var d=new Date(+p[0],+p[1]-1,+p[2]);return WD[d.getDay()]+' '+p[2]+'.'+p[1]+'.'+(p[0]==='2026'?'':p[0]);}
+  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
+  function matches(it,f){if(f==='alle')return true;if(f==='du')return it.who==='du'||it.who==='du+claude';if(f==='claude')return it.who==='claude'||it.who==='du+claude';return it.who===f;}
+  function statusText(){return {wait:'Verbindet …',local:'Häkchen bleiben nur in diesem Fenster',ro:'Nur lesen',saved:'Gespeichert',pending:'Noch nicht gespeichert',saving:'Speichert …',err:'Speichern fehlgeschlagen, später noch mal'}[mode]||'';}
+  function setMode(m){mode=m;var s=document.getElementById('save');if(s){s.className='save '+m;s.textContent=statusText();}
+    if(m==='ro'){var cs=document.querySelectorAll('.item input');for(var i=0;i<cs.length;i++)cs[i].disabled=true;}}
+  function row(it){
+    var li=el('li','item'+(it.done?' done':''));var id='c-'+it.id;
+    var cb=el('input');cb.type='checkbox';cb.id=id;cb.checked=!!it.done;cb.disabled=(mode==='ro');
+    cb.addEventListener('change',function(){it.done=cb.checked;it.doneAt=cb.checked?today:null;S.updated=today;render();var c=document.getElementById(id);if(c)c.focus();schedule();});
+    var body=el('div');body.style.minWidth='0';
+    var lab=el('label','ititle',it.t);lab.htmlFor=id;
+    var meta=el('div','meta');meta.append(el('span','who w-'+it.who.replace('+','-'),WHO[it.who]||it.who));
+    if(it.due){var cls='due',txt=fmt(it.due);
+      if(it.done){cls+=' ok';txt='erledigt'+(it.doneAt?' '+fmt(it.doneAt):'');}
+      else if(it.due<today){cls+=' late';txt+=' · überfällig';}
+      else if(it.due===today){cls+=' today';txt+=' · heute';}
+      meta.append(el('span',cls,txt));}
+    body.append(lab,meta);
+    if(it.where)body.append(el('p','where',it.where));
+    if(it.links&&it.links.length){var lk=el('p','links');it.links.forEach(function(l){var a=el('a',null,l.t);a.href=l.u;a.target='_blank';a.rel='noopener';lk.append(a);});body.append(lk);}
+    li.append(cb,body);return li;
+  }
+  function render(){
+    app.textContent='';
+    var total=S.items.length,done=S.items.filter(function(i){return i.done;}).length;
+    var head=el('header');
+    head.append(el('p','eyebrow','Novalife · Time Travel'),el('h1',null,'Tech Pack NVL-TT-01'),
+      el('p','lede','Alles, was bis zum fertigen Tech Pack fehlt, wer es macht und wo. Ein Häkchen speichert die Liste für alle, die sie öffnen.'));
+    var label=el('div','label');['NVL-TT-01','W30–W38 · Basis M','12 oz · 100 % Baumwolle','100 Paare'].forEach(function(t){label.append(el('span',null,t));});
+    head.append(label);app.append(head);
+    var sum=el('section','summary');sum.setAttribute('aria-label','Fortschritt');
+    var line=el('div','sumline');line.append(el('span','count',done+' von '+total+' erledigt'));
+    var st=el('span','save '+mode,statusText());st.id='save';st.setAttribute('role','status');line.append(st);
+    var bar=el('div','bar');var fill=el('div','fill');fill.style.width=(total?done/total*100:0).toFixed(1)+'%';bar.append(fill);
+    sum.append(line,bar);
+    var open=S.items.filter(function(i){return !i.done&&i.due;}).sort(function(a,b){return a.due<b.due?-1:a.due>b.due?1:0;});
+    if(open.length){var n=el('p','next');n.append(el('span','k','Als Nächstes'),el('span',null,open[0].t+' · '+fmt(open[0].due)+' · '+(WHO[open[0].who]||'')));sum.append(n);}
+    var fl=el('div','filters');fl.setAttribute('role','group');fl.setAttribute('aria-label','Nach Person filtern');
+    FILTERS.forEach(function(f){
+      var cnt=S.items.filter(function(i){return !i.done&&matches(i,f[0]);}).length;
+      var b=el('button','chipbtn'+(filter===f[0]?' on':''));b.type='button';b.id='f-'+f[0];b.setAttribute('aria-pressed',String(filter===f[0]));
+      b.append(el('span',null,f[1]),el('span','n',cnt+' offen'));
+      b.addEventListener('click',function(){filter=f[0];try{localStorage.setItem('nvl-tp-filter',filter);}catch(e){}render();});
+      fl.append(b);});
+    sum.append(fl);app.append(sum);
+    S.groups.forEach(function(g){
+      var all=S.items.filter(function(i){return i.g===g.id;});
+      var vis=all.filter(function(i){return matches(i,filter);});
+      if(!vis.length)return;
+      var sec=el('section','group');var gh=el('div','ghead');
+      gh.append(el('h2',null,g.title),el('span','gcount',all.filter(function(i){return i.done;}).length+'/'+all.length));
+      sec.append(gh);if(g.note)sec.append(el('p','gnote',g.note));
+      var ul=el('ul','items');vis.forEach(function(it){ul.append(row(it));});sec.append(ul);app.append(sec);});
+    var foot=el('footer','foot');foot.append(el('p',null,'Stand '+fmt(S.updated)+'. Claude hakt nur eigene Aufgaben ab, deine nie ohne dich.'));app.append(foot);
+  }
+  function buildHtml(){
+    var css=document.getElementById('page-css').textContent;
+    var js=document.getElementById('page-js').textContent;
+    var json=JSON.stringify(S).replace(/</g,'\\u003c');
+    return '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>'+RESET+'</style></head><body>'
+      +'<title>Tech Pack NVL-TT-01</title><meta name="claude:viewport-fit-sides" content="cover">'
+      +'<link rel="stylesheet" href="'+FONTS+'">'
+      +'<style id="page-css">'+css+'</style>'
+      +'<main id="app"></main>'
+      +'<script type="application/json" id="state">'+json+'</scr'+'ipt>'
+      +'<script id="page-js">'+js+'</scr'+'ipt>'
+      +'</body></html>';
+  }
+  function schedule(){if(!art){if(mode==='wait')setMode('local');return;}if(mode==='ro')return;setMode('pending');clearTimeout(timer);timer=setTimeout(save,1500);}
+  function save(){setMode('saving');art.publish(buildHtml()).then(function(){setMode('saved');},function(e){
+    var c=e&&e.code;if(c==='conflict')return;
+    if(c==='not_writer'||c==='not_granted'||c==='consent_required'||c==='capability_disabled'||c==='capability_removed'||c==='not_declared'){setMode('ro');return;}
+    if(c==='upstream_error'&&!retried){retried=true;setTimeout(save,800+Math.random()*1200);return;}
+    setMode('err');});}
+  render();
+  var cl=window.claude;
+  if(cl&&typeof cl.use==='function'){cl.use('artifact').then(function(a){art=a;setMode(a?'saved':'local');},function(){setMode('local');});}
+  else{setMode('local');}
+})();
+</script></body></html>

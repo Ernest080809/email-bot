@@ -1,0 +1,26 @@
+{
+  "updated": "2026-10-20T19:07:34.092Z",
+  "values": {
+    "aussen": "107",
+    "bund": "43",
+    "bundhoehe": "4",
+    "eingriff_breite": "11",
+    "eingriff_tiefe": "7",
+    "huefte": "52",
+    "innenbein": "78",
+    "knie": "22,5",
+    "leib_hinten": "37",
+    "leib_vorn": "32",
+    "material": "100% Baumwolle",
+    "oberschenkel": "29",
+    "passe_mitte": "9,5",
+    "passe_seite": "3",
+    "saum": "21",
+    "saumbreite": "1",
+    "schlaufe_laenge": "4",
+    "schlaufen": "5",
+    "schlitz": "15",
+    "tasche_hoehe": "8,5",
+    "tasche_mitte": "3,5"
+  }
+}

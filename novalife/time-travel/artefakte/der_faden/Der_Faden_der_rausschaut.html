@@ -1,0 +1,453 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Der Faden, der rausschaut</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#E4E2D9; --surface:#EFEDE6; --surface2:#D9D6CB;
+  --ink:#16181D; --ink2:#4A4E58; --ink3:#7C808A;
+  --line:#C4C1B5; --line2:#B2AEA0;
+  --indigo:#1F3B66; --brass:#8F6518; --crit:#9C3827;
+  --critbg:#E6D2CC; --warnbg:#E2D9C2;
+  --denim:#31486A; --denim-d:#243754; --thread:#EDE7DA;
+  --topstitch:#C9963F; --gold:#D8AC4E; --slavred:#B4453A;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1116; --surface:#161B23; --surface2:#1E2630;
+    --ink:#E9E7DF; --ink2:#A3A9B5; --ink3:#6D7480;
+    --line:#2A323E; --line2:#39434F;
+    --indigo:#7BA5DD; --brass:#CC993F; --crit:#D9765F;
+    --critbg:#2B1916; --warnbg:#2A2214;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1116; --surface:#161B23; --surface2:#1E2630;
+  --ink:#E9E7DF; --ink2:#A3A9B5; --ink3:#6D7480;
+  --line:#2A323E; --line2:#39434F;
+  --indigo:#7BA5DD; --brass:#CC993F; --crit:#D9765F;
+  --critbg:#2B1916; --warnbg:#2A2214;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font-family:'Archivo',-apple-system,BlinkMacSystemFont,sans-serif; font-size:15px; line-height:1.55; margin:0; -webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px; margin:0 auto; padding-inline:20px; padding-block:0 72px}
+h1,h2,h3{margin:0; text-wrap:balance}
+.eyebrow{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink3)}
+
+header{border-bottom:2px solid var(--ink); padding-block:28px 22px}
+.brandrow{display:flex; flex-wrap:wrap; gap:10px 18px; justify-content:space-between; align-items:baseline}
+h1{font-family:'Anton',Impact,sans-serif; font-weight:400; text-transform:uppercase; font-size:clamp(34px,7.6vw,68px); line-height:.96; margin-block:14px 12px}
+h1 .fade{color:var(--brass)}
+header p{margin:0; color:var(--ink2); max-width:64ch; font-size:16px}
+
+.strip{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); border-top:1px solid var(--line); border-left:1px solid var(--line); margin-top:24px}
+.strip div{border-right:1px solid var(--line); border-bottom:1px solid var(--line); padding:14px 15px; background:var(--surface)}
+.strip .k{font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink3); display:block; margin-bottom:7px}
+.strip .v{font-family:'Anton',sans-serif; font-size:25px; line-height:1}
+.strip .s{font-size:12px; color:var(--ink3); margin-top:5px; line-height:1.35}
+.strip div:first-child .v{color:var(--brass)}
+
+section{padding-top:54px}
+.sechead{display:flex; align-items:baseline; gap:14px; border-bottom:2px solid var(--ink); padding-bottom:9px; margin-bottom:22px; flex-wrap:wrap}
+.sechead .n{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--brass); letter-spacing:.1em; font-weight:600}
+.sechead h2{font-family:'Anton',sans-serif; font-weight:400; text-transform:uppercase; font-size:clamp(22px,4.6vw,32px); line-height:1}
+.sechead .note{margin-left:auto; font-size:13px; color:var(--ink3); max-width:32ch}
+p.intro{color:var(--ink2); max-width:68ch; margin:0 0 22px}
+p.intro b{color:var(--ink)}
+
+.thesis{border-left:4px solid var(--brass); padding:4px 0 4px 20px; margin:0 0 26px}
+.thesis p{font-family:'Anton',sans-serif; text-transform:uppercase; font-size:clamp(19px,3.6vw,27px); line-height:1.15; margin:0; letter-spacing:.01em}
+.thesis span{color:var(--brass)}
+
+.plate{border:1px solid var(--line); background:var(--surface); overflow-x:auto}
+.plate .inner{padding:22px 20px 8px; display:flex; justify-content:center; min-width:min-content}
+figcaption{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink3); padding:12px 16px; border-top:1px solid var(--line); line-height:1.6}
+figcaption b{color:var(--ink2); font-weight:500}
+figure{margin:0}
+
+.two{display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:14px; align-items:start}
+.card{border:1px solid var(--line); background:var(--surface); padding:18px}
+.card h3{font-family:'Anton',sans-serif; font-weight:400; text-transform:uppercase; font-size:17px; margin-bottom:9px}
+.card p{margin:0 0 9px; font-size:14px; color:var(--ink2)}
+.card p:last-child{margin-bottom:0}
+.card b{color:var(--ink)}
+
+.callout{border:1px solid var(--brass); background:var(--warnbg); padding:16px 18px; margin:20px 0}
+.callout .eyebrow{color:var(--brass); display:block; margin-bottom:6px}
+.callout p{margin:0; font-size:14.5px; color:var(--ink)}
+.callout p+p{margin-top:8px}
+.callout.bad{border-color:var(--crit); background:var(--critbg)}
+.callout.bad .eyebrow{color:var(--crit)}
+
+.tablewrap{overflow-x:auto; border:1px solid var(--line); background:var(--surface); margin-top:14px}
+table{border-collapse:collapse; width:100%; min-width:460px; font-size:13.5px}
+th,td{text-align:left; padding:9px 13px; border-bottom:1px solid var(--line)}
+thead th{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink3); background:var(--surface2); border-bottom:1px solid var(--line2); white-space:nowrap; font-weight:500}
+tbody tr:last-child td{border-bottom:0}
+td.num{text-align:right; font-family:'IBM Plex Mono',monospace; font-variant-numeric:tabular-nums; white-space:nowrap}
+
+footer{margin-top:58px; padding-top:18px; border-top:2px solid var(--ink); font-size:12.5px; color:var(--ink3)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="brandrow">
+    <span class="eyebrow">Novalife · Time Travel · Designentwurf</span>
+    <span class="eyebrow">17.09.2026</span>
+  </div>
+  <h1>Der Faden,<br>der <span class="fade">rausschaut</span></h1>
+  <p>Deine Weizen-Idee ist nicht ein Detail an Design 02. Sie ist das Prinzip für alle drei. Jedes Design bekommt genau einen Moment, in dem die Stickerei die Oberfläche verlässt.</p>
+
+  <div class="strip">
+    <div><span class="k">Stichzahl</span><div class="v">~17.000</div><div class="s">statt 30.000 geplant</div></div>
+    <div><span class="k">Stickkosten</span><div class="v">~12 €</div><div class="s">rund 300 € Puffer auf 100 Teile</div></div>
+    <div><span class="k">Bandbreite</span><div class="v">40 mm</div><div class="s">Design 01, Außennaht</div></div>
+    <div><span class="k">Rapport</span><div class="v">115 mm</div><div class="s">7 Wiederholungen je Bein</div></div>
+    <div><span class="k">Linienstärke</span><div class="v">2 mm</div><div class="s">Satinstich</div></div>
+    <div><span class="k">Der Moment</span><div class="v">1×</div><div class="s">pro Design, nicht mehr</div></div>
+  </div>
+</header>
+
+<!-- ============ 01 DAS PRINZIP ============ -->
+<section>
+  <div class="sechead"><span class="n">01</span><h2>Minimal und detailliert zugleich</h2><span class="note">Der Widerspruch, den du aufgemacht hast — und wie er sich auflöst.</span></div>
+
+  <div class="thesis">
+    <p>Aus drei Metern: <span>eine Linie.</span><br>Aus dreißig Zentimetern: <span>ein Uhrwerk.</span></p>
+  </div>
+
+  <p class="intro">Du willst etwas, das deine Zielgruppe tragen kann, <b>und</b> das voller Details steckt. Das ist kein Widerspruch, sondern eine Frage des Maßstabs. Die Silhouette bleibt ruhig — eine schmale Linie an der Naht, mehr sieht man beim Vorbeigehen nicht. Erst wer danebensteht, sieht die Arbeit.</p>
+
+  <p class="intro">Deshalb <b>einfarbig</b>, deshalb <b>40 mm schmal</b>, deshalb <b>eine</b> Platzierungsidee pro Design. Die Dichte steckt in den 2-Millimeter-Linien, nicht in der Fläche. Ein Design, das gleichzeitig Bein, Tasche, Bund und Saum bestickt, trägt niemand außer dir.</p>
+
+  <div class="callout">
+    <span class="eyebrow">Und genau da kommt dein Faden rein</span>
+    <p>Was du beschrieben hast — goldene Fäden, die rausschauen wie gehackter Weizen — ist der Punkt, an dem ein Kleidungsstück aufhört, bedruckt auszusehen. Die Stickerei verlässt die Fläche und wird ein Ding, das man anfassen will.</p>
+    <p><b>Das macht niemand absichtlich.</b> Lose Fadenenden sind in jeder Fabrik der Welt ein Fehler, der abgeschnitten wird. Als bewusst spezifiziertes Merkmal hat es fast keine Kosten, keine Konkurrenz — und es ist das Erste, was jemand im Laden anfasst.</p>
+  </div>
+</section>
+
+<!-- ============ 02 DER MOMENT ============ -->
+<section>
+  <div class="sechead"><span class="n">02</span><h2>Der Moment</h2><span class="note">Einer pro Design. Mehr wäre Effekthascherei.</span></div>
+
+  <figure class="plate">
+    <div class="inner">
+      <svg viewBox="0 0 900 470" width="900" height="470" role="img" aria-label="Drei Detailmomente: Weizenfäden bei Slavic, Kette durch die Naht bei Norse, offene Fläche bei Design 03">
+
+        <!-- ===== SLAVIC · WEIZEN ===== -->
+        <g transform="translate(20,0)">
+          <text x="0" y="18" fill="var(--brass)" font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="1.4" font-weight="600">DESIGN 02 · SLAVIC</text>
+          <text x="0" y="40" fill="var(--ink)" font-family="Anton, sans-serif" font-size="20">DER SCHNITT</text>
+          <rect x="0" y="56" width="250" height="300" fill="var(--denim)"/>
+
+          <!-- Ornamentband intakt -->
+          <g stroke-linecap="square">
+            <path d="M0 90 L250 90" stroke="var(--slavred)" stroke-width="3"/>
+            <path d="M0 100 L250 100" stroke="var(--thread)" stroke-width="2.4"/>
+            <path d="M0 110 L250 110" stroke="var(--slavred)" stroke-width="3"/>
+          </g>
+          <g fill="none" stroke="var(--thread)" stroke-width="1.8">
+            <path d="M14 100 l8 -8 l8 8 l-8 8 Z M46 100 l8 -8 l8 8 l-8 8 Z M78 100 l8 -8 l8 8 l-8 8 Z
+                     M110 100 l8 -8 l8 8 l-8 8 Z M142 100 l8 -8 l8 8 l-8 8 Z M174 100 l8 -8 l8 8 l-8 8 Z
+                     M206 100 l8 -8 l8 8 l-8 8 Z"/>
+          </g>
+
+          <!-- zweites Band: der Schnitt -->
+          <g stroke-linecap="square">
+            <path d="M0 190 L250 190" stroke="var(--slavred)" stroke-width="3"/>
+            <path d="M0 200 L250 200" stroke="var(--thread)" stroke-width="2.4"/>
+            <path d="M0 210 L250 210" stroke="var(--slavred)" stroke-width="3"/>
+          </g>
+          <g fill="none" stroke="var(--thread)" stroke-width="1.8">
+            <path d="M14 200 l8 -8 l8 8 l-8 8 Z M46 200 l8 -8 l8 8 l-8 8 Z M78 200 l8 -8 l8 8 l-8 8 Z
+                     M110 200 l8 -8 l8 8 l-8 8 Z M142 200 l8 -8 l8 8 l-8 8 Z M174 200 l8 -8 l8 8 l-8 8 Z
+                     M206 200 l8 -8 l8 8 l-8 8 Z"/>
+          </g>
+
+          <!-- Goldene Fäden — der Weizen -->
+          <g stroke="var(--gold)" stroke-width="2.1" fill="none" stroke-linecap="round">
+            <path d="M18 212 C20 232 17 252 21 270"/>
+            <path d="M34 212 C31 238 35 262 30 288"/>
+            <path d="M52 212 C55 230 51 244 54 258"/>
+            <path d="M70 212 C67 242 72 270 66 300"/>
+            <path d="M88 212 C91 234 87 252 90 266"/>
+            <path d="M104 212 C101 246 107 274 102 306"/>
+            <path d="M122 212 C125 230 121 246 124 262"/>
+            <path d="M140 212 C137 240 142 264 136 292"/>
+            <path d="M158 212 C161 232 157 250 160 268"/>
+            <path d="M176 212 C173 244 179 268 174 298"/>
+            <path d="M194 212 C197 230 193 246 196 260"/>
+            <path d="M212 212 C209 238 214 262 208 286"/>
+            <path d="M230 212 C233 232 229 250 232 272"/>
+          </g>
+
+          <!-- Callouts -->
+          <g stroke="var(--ink3)" stroke-width="0.9" fill="none">
+            <path d="M250 100 L286 100"/><path d="M250 250 L286 250"/>
+          </g>
+          <text x="292" y="96" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="10.5">Band intakt</text>
+          <text x="292" y="110" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="10.5">Rot + Knochenweiß</text>
+          <text x="292" y="246" fill="var(--gold)" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600">13 Fäden, 20–95 mm</text>
+          <text x="292" y="260" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="10.5">unregelmäßig, wie gemäht</text>
+          <text x="0" y="380" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Das obere Band steht. Das untere ist</text>
+          <text x="0" y="395" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">geschnitten — die Halme hängen noch dran.</text>
+        </g>
+
+        <!-- ===== NORSE · DIE NAHT ===== -->
+        <g transform="translate(480,0)">
+          <text x="0" y="18" fill="var(--brass)" font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="1.4" font-weight="600">DESIGN 01 · NORSE</text>
+          <text x="0" y="40" fill="var(--ink)" font-family="Anton, sans-serif" font-size="20">DER DURCHSTICH</text>
+          <rect x="0" y="56" width="180" height="300" fill="var(--denim)"/>
+          <!-- Kappnaht -->
+          <rect x="74" y="56" width="16" height="300" fill="var(--denim-d)"/>
+          <line x1="76" y1="56" x2="76" y2="356" stroke="var(--topstitch)" stroke-width="1.3"/>
+          <line x1="88" y1="56" x2="88" y2="356" stroke="var(--topstitch)" stroke-width="1.3"/>
+
+          <!-- Kette läuft, taucht unter die Naht, kommt wieder -->
+          <g fill="none" stroke="var(--thread)" stroke-width="2.4" stroke-linecap="round">
+            <path d="M40 56 C58 74 58 100 40 118 C22 136 22 162 40 180"/>
+            <path d="M40 56 C22 74 22 100 40 118 C58 136 58 162 40 180"/>
+            <circle cx="40" cy="87" r="8"/>
+            <circle cx="40" cy="149" r="8"/>
+            <!-- Übergang in die Naht -->
+            <path d="M40 180 C48 194 62 200 74 202"/>
+            <path d="M40 180 C44 198 58 208 74 212"/>
+          </g>
+          <!-- unter der Naht: unterbrochen -->
+          <g fill="none" stroke="var(--thread)" stroke-width="2.4" stroke-linecap="round" opacity="0.28" stroke-dasharray="3 5">
+            <path d="M74 202 L90 206"/><path d="M74 212 L90 214"/>
+          </g>
+          <!-- kommt rechts wieder raus -->
+          <g fill="none" stroke="var(--thread)" stroke-width="2.4" stroke-linecap="round">
+            <path d="M90 206 C104 210 116 220 124 236 C142 254 142 280 124 298"/>
+            <path d="M90 214 C102 220 112 228 124 236 C106 254 106 280 124 298"/>
+            <circle cx="124" cy="267" r="8"/>
+            <path d="M124 298 C142 316 142 342 124 356"/>
+            <path d="M124 298 C106 316 106 342 124 356"/>
+          </g>
+
+          <g stroke="var(--ink3)" stroke-width="0.9" fill="none"><path d="M96 208 L186 186"/></g>
+          <text x="192" y="176" fill="var(--brass)" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600">Kette geht</text>
+          <text x="192" y="190" fill="var(--brass)" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600">unter die Naht</text>
+          <text x="192" y="204" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="10.5">und wechselt</text>
+          <text x="192" y="218" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="10.5">die Seite</text>
+
+          <text x="0" y="380" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Wikinger-Flechtwerk lebt von Über und Unter.</text>
+          <text x="0" y="395" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Hier verflicht es sich mit der echten Naht.</text>
+        </g>
+
+        <!-- Fußzeile -->
+        <g stroke="var(--line2)" stroke-width="1" fill="none"><path d="M20 428 L880 428"/></g>
+        <text x="20" y="450" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="11">DESIGN 03 · KOLLABORATION — der Moment wird im Briefing gefordert, aber nicht vorgegeben.</text>
+        <text x="20" y="464" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="11">Die Künstlerin entscheidet, wo ihr Ornament die Fläche verlässt.</text>
+      </svg>
+    </div>
+    <figcaption><b>Links, deine Idee:</b> zwei identische Ornamentbänder, das untere ist „gemäht“ — dreizehn goldene Fäden in unregelmäßiger Länge hängen heraus. Bewusst ungleich, sonst sieht es nach Fransenborte aus statt nach Ernte. <b>Rechts, das Gegenstück für Norse:</b> die Ringkette läuft die Außennaht hinunter, verschwindet einmal unter der Kappnaht und kommt auf der anderen Seite wieder heraus. Nordisches Flechtwerk lebt vom Über und Unter — hier verflicht es sich mit der Konstruktion der Hose selbst.</figcaption>
+  </figure>
+
+  <div class="two" style="margin-top:14px">
+    <div class="card">
+      <h3>Warum das funktioniert</h3>
+      <p>Beide Gesten kosten fast nichts und sind <b>nicht kopierbar, ohne dass es auffällt</b>. Wer lose Goldfäden an einer Jeans sieht, denkt entweder „das ist kaputt“ oder „das ist Absicht“ — und die Antwort steht auf dem Hangtag.</p>
+      <p>Wichtiger: beide Momente sind <b>ortsgebunden</b>. Sie funktionieren nur an dieser Stelle, an diesem Kleidungsstück. Das ist der Unterschied zwischen einem Motiv, das man überall hindrucken könnte, und einem Design.</p>
+    </div>
+    <div class="card">
+      <h3>Die Regel, die du nicht brechen darfst</h3>
+      <p><b>Ein Moment pro Design.</b> Sobald an derselben Hose Fäden hängen <i>und</i> die Kette durch die Naht geht <i>und</i> noch etwas Drittes passiert, ist es kein Gedanke mehr, sondern eine Sammlung von Tricks.</p>
+      <p>Design 01 bekommt den Durchstich. Design 02 bekommt den Weizen. Design 03 bekommt, was die Künstlerin findet. Jede Hose sagt genau einen Satz.</p>
+    </div>
+  </div>
+
+  <div class="callout bad">
+    <span class="eyebrow">Und jetzt das Problem, das deine Idee fast umbringt</span>
+    <p>Lose Fäden und eine Industriewaschmaschine vertragen sich nicht. Deine Hosen laufen <b>nach</b> der Stickerei durch das komplette Waschprogramm — Trommel, Steine, Enzyme, Schleuder. Dreizehn lose Goldfäden pro Teil kommen da als Knäuel wieder raus, verheddert mit dem Nachbarteil, halb abgerissen.</p>
+    <p><b>Lösung: die Fäden werden nach der Waschung gesetzt.</b> Das Grundband wird normal mitgestickt und mitgewaschen. Die Weizenfäden kommen als eigener Arbeitsschritt danach — von Hand eingezogen und auf der Rückseite verknotet, dann ist die Kante sicher und sie reißen im Tragen nicht raus.</p>
+    <p>Das ist ein zusätzlicher Handarbeitsschritt, rund <b>1–2 € pro Teil</b>, und er muss in die RFQ. Frage 15: <i>Könnt ihr nach dem Finishing von Hand Fadenelemente setzen und rückseitig sichern? Kosten pro Teil?</i> Wenn eine Fabrik das nicht macht, machst du es selbst — 25 Teile an einem Abend.</p>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Spezifikation Weizenfäden</th><th>Wert</th><th>Warum</th></tr></thead>
+      <tbody>
+        <tr><td>Anzahl je Band</td><td class="num">11–15</td><td>ungerade Verteilung, nie gleichmäßig</td></tr>
+        <tr><td>Länge</td><td class="num">20–95 mm</td><td>stark variierend — gleich lang wirkt wie Fransenborte</td></tr>
+        <tr><td>Garn</td><td class="num">Gold, Polyester</td><td>metallisiert bricht beim Tragen, Poly nicht</td></tr>
+        <tr><td>Position</td><td class="num">unteres Band</td><td>nur das untere ist „gemäht“, das obere steht</td></tr>
+        <tr><td>Befestigung</td><td class="num">rückseitig verknotet</td><td>ohne Knoten zieht sich der Faden beim ersten Tragen raus</td></tr>
+        <tr><td>Arbeitsschritt</td><td class="num">nach der Waschung</td><td>sonst Knäuel in der Trommel</td></tr>
+        <tr><td>Pflegehinweis</td><td class="num">Pflicht</td><td>„Auf links waschen, Fäden nicht abschneiden“</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 03 AM PRODUKT ============ -->
+<section>
+  <div class="sechead"><span class="n">03</span><h2>Am Produkt</h2><span class="note">W32, Maße aus der Spec.</span></div>
+
+  <figure class="plate">
+    <div class="inner">
+      <svg viewBox="0 0 900 1060" width="900" height="1060" role="img" aria-label="Technische Zeichnung der Jeans, Vorder- und Rückansicht, mit Ornamentband an der Außennaht">
+        <defs>
+          <g id="rc">
+            <path d="M15 0 C26 12 26 33 15 45 C4 57 4 78 15 90" fill="none" stroke="var(--thread)" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M15 0 C4 12 4 33 15 45 C26 57 26 78 15 90" fill="none" stroke="var(--thread)" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M11 41 L19 49" stroke="var(--denim)" stroke-width="3.4" fill="none"/>
+            <path d="M15 45 C26 57 26 78 15 90" fill="none" stroke="var(--thread)" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="15" cy="22" r="7.5" fill="none" stroke="var(--thread)" stroke-width="2"/>
+            <circle cx="15" cy="67" r="7.5" fill="none" stroke="var(--thread)" stroke-width="2"/>
+          </g>
+          <clipPath id="cb"><rect x="0" y="0" width="30" height="810"/></clipPath>
+          <g id="jeans">
+            <path d="M60,34 C44,120 46,300 54,560 C60,760 66,850 70,930
+                     L192,930 C196,850 199,760 203,560 C208,380 212,300 216,256
+                     C219,238 225,232 230,232 C235,232 241,238 244,256
+                     C248,300 252,380 257,560 C261,760 264,850 268,930
+                     L390,930 C394,850 400,760 406,560 C414,300 416,120 400,34 Z"
+                  fill="var(--denim)" stroke="var(--denim-d)" stroke-width="1.5"/>
+            <rect x="58" y="0" width="344" height="34" fill="var(--denim)" stroke="var(--denim-d)" stroke-width="1.5"/>
+            <line x1="58" y1="34" x2="402" y2="34" stroke="var(--topstitch)" stroke-width="1.4"/>
+            <g fill="var(--denim-d)">
+              <rect x="74" y="0" width="7" height="40"/><rect x="152" y="0" width="7" height="40"/>
+              <rect x="226" y="0" width="7" height="40"/><rect x="301" y="0" width="7" height="40"/>
+              <rect x="379" y="0" width="7" height="40"/>
+            </g>
+            <path d="M216,256 C212,300 208,380 203,560 C199,760 196,850 192,930" fill="none" stroke="var(--denim-d)" stroke-width="1.2"/>
+            <path d="M244,256 C248,300 252,380 257,560 C261,760 264,850 268,930" fill="none" stroke="var(--denim-d)" stroke-width="1.2"/>
+            <line x1="70" y1="930" x2="192" y2="930" stroke="var(--thread)" stroke-width="2.6" stroke-dasharray="2 4"/>
+            <line x1="268" y1="930" x2="390" y2="930" stroke="var(--thread)" stroke-width="2.6" stroke-dasharray="2 4"/>
+          </g>
+        </defs>
+
+        <!-- VORNE -->
+        <g transform="translate(40,60)">
+          <text x="0" y="-22" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1.6">VORDERANSICHT</text>
+          <use href="#jeans"/>
+          <path d="M230,34 L230,96 C230,130 242,150 250,162" fill="none" stroke="var(--topstitch)" stroke-width="1.3"/>
+          <path d="M72,40 C110,58 132,84 146,118" fill="none" stroke="var(--topstitch)" stroke-width="1.3"/>
+          <path d="M388,40 C350,58 328,84 314,118" fill="none" stroke="var(--topstitch)" stroke-width="1.3"/>
+          <path d="M296,44 L296,80 L322,80" fill="none" stroke="var(--topstitch)" stroke-width="1.2"/>
+          <g fill="var(--topstitch)"><circle cx="74" cy="42" r="3.2"/><circle cx="146" cy="120" r="3.2"/><circle cx="386" cy="42" r="3.2"/><circle cx="314" cy="120" r="3.2"/></g>
+          <g transform="translate(48,100)" clip-path="url(#cb)">
+            <use href="#rc" y="0"/><use href="#rc" y="90"/><use href="#rc" y="180"/><use href="#rc" y="270"/><use href="#rc" y="360"/><use href="#rc" y="450"/><use href="#rc" y="540"/><use href="#rc" y="630"/><use href="#rc" y="720"/>
+          </g>
+          <g transform="translate(382,100)" clip-path="url(#cb)">
+            <use href="#rc" y="0"/><use href="#rc" y="90"/><use href="#rc" y="180"/><use href="#rc" y="270"/><use href="#rc" y="360"/><use href="#rc" y="450"/><use href="#rc" y="540"/><use href="#rc" y="630"/><use href="#rc" y="720"/>
+          </g>
+          <g stroke="var(--ink3)" stroke-width="0.9" fill="none">
+            <path d="M58,-10 L58,-4 M402,-10 L402,-4 M58,-7 L402,-7"/>
+            <path d="M-16,0 L-10,0 M-16,930 L-10,930 M-13,0 L-13,930"/>
+          </g>
+          <text x="230" y="-13" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">Bund 40,6 cm (½)</text>
+          <text x="-20" y="470" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle" transform="rotate(-90 -20 470)">Außenlänge 106,0 cm</text>
+          <g stroke="var(--brass)" stroke-width="1" fill="none"><path d="M46,470 L-2,470"/></g>
+        </g>
+
+        <!-- HINTEN -->
+        <g transform="translate(500,60)">
+          <text x="0" y="-22" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1.6">RÜCKANSICHT</text>
+          <use href="#jeans"/>
+          <path d="M52,74 L230,108 L408,74" fill="none" stroke="var(--topstitch)" stroke-width="1.4"/>
+          <rect x="82" y="124" width="112" height="128" fill="none" stroke="var(--topstitch)" stroke-width="1.3"/>
+          <rect x="266" y="124" width="112" height="128" fill="none" stroke="var(--topstitch)" stroke-width="1.3"/>
+          <path d="M82,124 L138,158 L194,124" fill="none" stroke="var(--topstitch)" stroke-width="1.1"/>
+          <path d="M266,124 L322,158 L378,124" fill="none" stroke="var(--topstitch)" stroke-width="1.1"/>
+          <g transform="translate(48,100)" clip-path="url(#cb)">
+            <use href="#rc" y="0"/><use href="#rc" y="90"/><use href="#rc" y="180"/><use href="#rc" y="270"/><use href="#rc" y="360"/><use href="#rc" y="450"/><use href="#rc" y="540"/><use href="#rc" y="630"/><use href="#rc" y="720"/>
+          </g>
+          <g transform="translate(382,100)" clip-path="url(#cb)">
+            <use href="#rc" y="0"/><use href="#rc" y="90"/><use href="#rc" y="180"/><use href="#rc" y="270"/><use href="#rc" y="360"/><use href="#rc" y="450"/><use href="#rc" y="540"/><use href="#rc" y="630"/><use href="#rc" y="720"/>
+          </g>
+          <g stroke="var(--brass)" stroke-width="1" fill="none"><path d="M230,18 L230,-6 L286,-6"/></g>
+          <text x="292" y="-2" fill="var(--brass)" font-family="IBM Plex Mono, monospace" font-size="10.5">Stücknummer 001–100, handgestickt</text>
+        </g>
+      </svg>
+    </div>
+    <figcaption>Maßstabsgetreu für <b>W32</b>. Das Band beginnt 6 cm unter der Bundoberkante und läuft bis 4 cm über den Saum — <b>7 volle Rapporte je Bein</b>, oben und unten angeschnitten, damit es nirgends „aufhört“. Der gestrichelte Saum markiert die rohe Schnittkante. Vier Bänder pro Hose, ~17.000 Stiche zusammen.</figcaption>
+  </figure>
+</section>
+
+<!-- ============ 04 DER KONFLIKT ============ -->
+<section>
+  <div class="sechead"><span class="n">04</span><h2>Der Konflikt</h2><span class="note">Verschleißkarte gegen Ornament.</span></div>
+
+  <p class="intro"><b>Honeycombs sitzen in der Kniekehle, Whiskers fächern von der Hüfte</b> — beide greifen auf die Zone, in der das Band läuft. Jeder Abrieb über gesticktem Garn franst es auf. Das muss in Woche 4 gelöst werden, bevor die Platzierung final ist.</p>
+
+  <figure class="plate">
+    <div class="inner">
+      <svg viewBox="0 0 660 540" width="660" height="540" role="img" aria-label="Bein mit Verschleißzonen und Ornamentband, Überschneidungen markiert">
+        <defs><clipPath id="cl"><rect x="0" y="0" width="30" height="450"/></clipPath></defs>
+        <path d="M70,30 C58,120 62,260 70,380 C76,460 80,490 82,510 L206,510 C208,490 212,460 218,380 C226,260 230,120 218,30 Z"
+              fill="var(--denim)" stroke="var(--denim-d)" stroke-width="1.5"/>
+        <g stroke="var(--crit)" stroke-width="2" fill="none" opacity="0.85" stroke-linecap="round">
+          <path d="M150,66 C124,74 104,80 84,84"/><path d="M152,84 C126,92 106,99 86,104"/>
+          <path d="M154,102 C128,110 108,118 88,124"/><path d="M156,120 C132,129 112,138 92,145"/>
+          <path d="M150,66 C176,74 196,80 214,84"/><path d="M152,84 C178,92 198,99 212,104"/>
+          <path d="M154,102 C180,110 198,118 210,124"/>
+        </g>
+        <g stroke="var(--crit)" stroke-width="2" fill="none" opacity="0.85" stroke-linecap="round">
+          <path d="M96,286 C130,274 166,274 198,286"/><path d="M94,306 C130,294 166,294 200,306"/>
+          <path d="M94,326 C130,314 166,314 200,326"/><path d="M96,346 C130,334 166,334 198,346"/>
+        </g>
+        <g transform="translate(62,40)" clip-path="url(#cl)">
+          <use href="#rc" y="0"/><use href="#rc" y="90"/><use href="#rc" y="180"/><use href="#rc" y="270"/><use href="#rc" y="360"/>
+        </g>
+        <g fill="none" stroke="var(--crit)" stroke-width="2.4" stroke-dasharray="5 4">
+          <rect x="56" y="70" width="44" height="86"/><rect x="56" y="278" width="44" height="78"/>
+        </g>
+        <g stroke="var(--crit)" stroke-width="1.2" fill="none">
+          <path d="M100,113 L266,113"/><path d="M100,317 L266,317"/>
+        </g>
+        <text x="274" y="109" fill="var(--crit)" font-family="IBM Plex Mono, monospace" font-size="11.5" font-weight="600">KOLLISION 1 — Whiskers</text>
+        <text x="274" y="125" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Fächer kreuzt das Band auf 9 cm</text>
+        <text x="274" y="313" fill="var(--crit)" font-family="IBM Plex Mono, monospace" font-size="11.5" font-weight="600">KOLLISION 2 — Honeycombs</text>
+        <text x="274" y="329" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Waben laufen bis an die Naht</text>
+        <text x="274" y="400" fill="var(--ink3)" font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="1.6">LEGENDE</text>
+        <line x1="274" y1="420" x2="306" y2="420" stroke="var(--crit)" stroke-width="2"/>
+        <text x="316" y="424" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Verschleißzone (Laser)</text>
+        <line x1="274" y1="444" x2="306" y2="444" stroke="var(--thread)" stroke-width="2.4"/>
+        <text x="316" y="448" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Stickerei</text>
+        <rect x="274" y="462" width="32" height="16" fill="none" stroke="var(--crit)" stroke-width="2" stroke-dasharray="5 4"/>
+        <text x="316" y="474" fill="var(--ink2)" font-family="IBM Plex Mono, monospace" font-size="11">Überschneidung</text>
+      </svg>
+    </div>
+    <figcaption>Zwei Kollisionszonen, zusammen rund <b>17 cm</b> des 80-cm-Bandes. <b>Weg A:</b> Whiskers auf 130 mm ab Naht zurücknehmen, Honeycombs 40 mm vor der Naht auslaufen lassen. <b>Weg B:</b> Abrieb bewusst über das Band laufen lassen, das Garn hellt mit auf. Kann großartig aussehen, <b>muss aber am Stitch-out in Woche 13 getestet werden.</b></figcaption>
+  </figure>
+</section>
+
+<!-- ============ 05 ============ -->
+<section>
+  <div class="sechead"><span class="n">05</span><h2>Was jetzt zu tun ist</h2></div>
+
+  <div class="callout">
+    <span class="eyebrow">Das ist ein Vorschlag, kein Entwurf zum Abnicken</span>
+    <p>Ich habe die Ringkette aus der Strukturlogik konstruiert, nicht aus einem Fundstück abgezeichnet. Deine 30 Referenzen von heute sind das Material, mit dem du diese Konstruktion prüfst und überschreibst: Stimmt das Verhältnis von Strang zu Ring? Kreuzen sich die Bänder in den Originalen anders? Ist 115 mm Rapport zu lang?</p>
+    <p><b>Der Weizen gehört dir</b> — das ist die stärkste Idee im Projekt, und sie kam nicht von mir. Am Montag schreibst du die Grammatik, dann zeichnest du dein eigenes Modul.</p>
+  </div>
+
+  <div class="two">
+    <div class="card">
+      <h3>Budget-Verschiebung</h3>
+      <p>Die Ringkette kommt auf <b>~17.000 statt 30.000 Stiche</b> — etwa <b>12 € statt 15 €</b> Stickkosten, also rund 300 € Puffer auf 100 Teile.</p>
+      <p>Davon geht ein Teil wieder weg: die Weizenfäden kosten <b>1–2 € pro Teil</b> Handarbeit nach der Waschung. Unterm Strich bleibt es neutral — und du hast dafür das Detail, das die Hose verkauft.</p>
+    </div>
+    <div class="card">
+      <h3>Drei Schritte</h3>
+      <p><b>Heute:</b> 30 Norse-Referenzen, jede mit Strukturmerkmal. Prüf dabei, ob die Ringkette im Original so auftaucht.</p>
+      <p><b>Montag:</b> Grammatik schreiben — Symmetrieachse, Modulgröße, Linienbreite, Abschlusslogik.</p>
+      <p><b>Woche 4:</b> Platzierung und Verschleißkarte <b>zusammen</b> zeichnen. Und: RFQ-Frage 15 zum Handarbeitsschritt ergänzen.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><b>Novalife · Time Travel · Designentwurf 17.09.2026.</b> Design 01 konstruiert aus der Strukturgrammatik der Borre-Ringkette (ca. 850–970 n. Chr.), kein nachgezeichnetes Fundstück. Weizen-Detail für Design 02 nach Ernests Idee. Maße nach Produkt-Spec Rev. 5, Größe W32. Stichzahlen geschätzt — verbindlich erst nach Digitizing-Angebot.</p>
+</footer>
+
+</div>
+
+</body></html>

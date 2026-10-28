@@ -1,0 +1,1113 @@
+
+=== W1 P0 2026-09-14 · Konzept festnageln und die Basis-Jeans definieren
+Mon 14.09. D [] Konzeptsatz schreiben: drei Varianten von „Time Travel“ in je einem Satz, dann eine wählen und sichtbar über den Schreibtisch hängen
+Mon 14.09. B [] ERLEDIGT 14.09.: Referenzjeans gemessen (Eightyfive Straight, Label W30, 100 % Baumwolle, 15× gewaschen). Alle Werte im Maß-Register im Projekt
+Tue 15.09. B [] Basis-Spec festlegen: Fit (straight/relaxed), Stoffgewicht (12 oder 13 oz), Waschung (Stone-Wash mittel), Saum roh, auf Endlänge nach der Waschung geschnitten, ohne Umschlag
+Tue 15.09. B [] Board anlegen (Are.na oder Pinterest, privat): „TT-Basis“ — nur Fit und Waschung, keine Ornamente
+Wed 16.09. D [] Thema festgelegt: SLAVIC. Entscheidung schriftlich begründen — warum ein Thema statt drei, und was deine persönliche Verbindung dazu ist
+Wed 16.09. B [] Slavic-Region abgrenzen: Ukraine, Polen, Belarus, Balkan, Russland. Welche Tradition ist deine? Eine Region wählen und die Wahl begründen
+Thu 17.09. B [] Herkunftsrecherche in der eigenen Familie: fragen, was es an alten Textilien, Fotos, Mustern, Geschichten gibt. Das ist der ORIGIN-Content für die nächsten 30 Wochen
+Fri 18.09. B [] Slavic-Recherche: 30 Referenzen. Quellen: Museumsdatenbanken Ukraine/Polen/Belarus, Vyshyvanka-Archive, ethnografische Publikationen. Region pro Referenz notieren
+Fri 18.09. C [] Instagram- und TikTok-Bio umstellen: „Time Travel — 100 bestickte Jeans. Drop 22.04.2027“. Highlight „TIME TRAVEL“ anlegen
+Sat 19.09. B [] Die 30 Referenzen nach Modultyp sortieren: Rhombus, Achtstern, Berehynia, Mäander, Lebensbaum. Welche drei kommen am häufigsten vor?
+Sun 20.09. A [] Wochenreview: Konzeptsatz final? Basis-Spec final? 90 Referenzen da? Was fehlt, wandert in Woche 2
+
+=== W2 P0 2026-09-21 · Herkunftsgeschichte und Ornament-Grammatik schriftlich festlegen
+Mon 21.09. B [] Herkunftsgeschichte aufschreiben: eine Seite, warum dieses Ornament deins ist. Ohne diesen Text ist jeder ORIGIN-Post beliebig
+Tue 22.09. B [] Grammatik Slavic aufschreiben: Rastermaß, Modultypen (Rhombus, 8-Stern), Bandhöhe, Farbverhältnis Rot zu Schwarz zu Grund
+Wed 23.09. B [] Polo-Konzept: welches Fragment des Ornaments trägt der Polo? Skizze plus Begründung, warum es die 149-€-Jeans nicht kannibalisiert
+Thu 24.09. B [] Zeichenwerkzeug einrichten: Illustrator, Affinity Designer oder Inkscape (kostenlos). Dokument 1:1 in cm, Raster auf deine Modulgröße gesetzt
+Fri 25.09. B [] Slavic: 10 Skizzen des Grundmoduls auf Papier, fotografieren, eine auswählen
+Sat 26.09. N [] ERLEDIGT 26.09.: Design v1.0 und v1.1 mit Claude gebaut, statt den Vektor selbst nachzubauen. Canvas „Fit-Mockup NVL-TT-01“
+Sun 27.09. N [] ERLEDIGT 27.09.: Design v1.2 und v1.3 mit Claude. Band 28 mm, Alatyr auf die Passe, Serp schneidet in die Garbe, realistischer Lebensbaum ohne NL
+
+=== W3 P0 2026-09-28 · Design an der echten Hose testen und festlegen
+Tue 29.09. N [] ERLEDIGT 29.09.: Design v1.4 mit Claude. Feiner Kreuzstich 1,33 mm statt 4-mm-Pixel, Goldfäden Variante 2 unter den Ähren
+Tue 29.09. N [] ERLEDIGT 29.09.: produkt-spec.md Rev. 10 mit allen Design-Entscheidungen (Claude)
+Thu 01.10. B [45′] Druckvorlage 1:1 drucken und ausschneiden
+Thu 01.10. N [] ERLEDIGT 01.10.: Papiertest 1 schon heute, einen Tag früher. Dein Urteil: Band schmaler, Münztasche größer, Tasche gut, Serp mit Garbe realistisch statt aufgeklebt, Goldfäden länger, Alatyr auf die andere Gesäßtasche. Claude hat d
+Fri 02.10. N [] ÜBERHOLT 07.10.: Statt Papiertest 2 hast du per Skizze entschieden: Serp und Garbe runter von der Tasche, drei Ähren auf einem einfach roten Band, dazu ein Serp im Stoppelfeld an der Seite. Claude hat daraus Design v1.7 gebaut. Pa
+Sat 03.10. N [] VERSCHOBEN: Die Entscheidungen triffst du am Do 08.10. zusammen mit Papiertest 3.
+Sun 04.10. N [] VERSCHOBEN: Das Tech Pack bestellst du am Fr 09.10. direkt nach dem Freeze.
+Sun 04.10. A [20′] Wochenreview W3
+
+=== W4 P0 2026-10-05 · Design einfrieren, Warteliste live, Tech Pack fertig, Startwerte gezählt
+   KPI Freeze: Fr 09.10., spätestens 12:00 Auswertung
+   KPI Startwerte: Sa 10.10. gezählt
+   KPI Warteliste: live und getestet bis Fr 09.10.
+Mon 05.10. N [] VERSCHOBEN auf Fr 09.10.: Du hast am 07.10. noch einmal geändert, Design v1.7. Erst Papiertest 3 am Donnerstag, dann Freeze.
+Mon 05.10. A [15′] Tracking-Tabelle anlegen
+Tue 06.10. A [60′] Shopify-Shop anlegen
+Wed 07.10. A [75′] Impressum und Datenschutzerklärung
+Thu 08.10. A [5′] Neue Projektdateien in dein Claude-Projekt laden
+Thu 08.10. N [] Die Startseite als Warteliste (Rev. 5.3) wandert auf Fr 09.10. Heute hat der Papiertest Vorrang. Langer Tag mit Absicht: Do bis So ist der kritische Pfad bis zum Freeze.
+Thu 08.10. A [10′] Steuerberater- oder IHK-Termin für Di 13.10. buchen, Gewerbeschein suchen
+Thu 08.10. B [15′] Wash Reference Sheet: 8 Fotos der Eightyfive bei Tageslicht
+Thu 08.10. B [85′] Papiertest 3 mit v1.7 und Varianten-Blatt (Blöcke 1–8)
+Thu 08.10. C [15′ Video V001] Clips 1–12 für V001, V119, V093 beim Papiertest filmen
+Thu 08.10. V [10′] Schnelltest Runde 1 an 10 Leute aus deinem Netz
+Thu 08.10. D [5′ Prompt] 22:00 · Gate: Fotos, Variantenfotos, Wash-Fotos und Maße bei Claude
+Thu 08.10. A [10′ plus] LUCID: Steht Novalife schon im Verpackungsregister?
+Fri 09.10. B [20′ Prompt] 12:00 · Schnelltest mit Claude auswerten
+Fri 09.10. D [35′ Prompt] Design-Freeze abnehmen, Tech Pack v1.0 bestellen
+Fri 09.10. D [5′] 13:00 · Gate: Freeze steht? Sonst geht die RFQ Mo trotzdem mit v1.7
+Fri 09.10. A [75′ Prompt] Startseite als Warteliste live schalten, Willkommens-Mail einrichten
+Sat 10.10. A [15′ Prompt] Claude prüft Fabriken und offene Regeln (Chat mit Websuche)
+Sat 10.10. C [35′ Prompt] Profile, Startwerte und Link-Schema; Markenkern-Blatt freigeben
+Sat 10.10. B [40′] Prüfliste 1.5 für die vier bekannten Fabriken
+Sat 10.10. C [45′ Video V001 Prompt] Content-Batch W5: V001 schneiden, 5 CapCut-Vorlagen anlegen
+Sat 10.10. C [10′ plus] Hook-Bank als Notiz am Handy anlegen
+Sun 11.10. B [30′] Fabrikliste freigeben: bis zu 8 Fabriken für die RFQ am Mo
+Sun 11.10. B [30′ plus] Nur bei weniger als 8 brauchbaren: fehlende Fabriken selbst suchen
+Sun 11.10. B [60′ Prompt] Tech Pack v1.0 prüfen und freigeben, RFQ-Zusätze holen
+Sun 11.10. C [15′ Video V002] V002 drehen und fertig schneiden (Schreibtisch)
+Sun 11.10. C [15′ Video V003] V003 drehen und fertig schneiden (Schreibtisch)
+Sun 11.10. A [15′ Prompt] Wochenreview W4, Freeze-Ergebnis festhalten
+Sun 11.10. B [20′ Prompt] Papiertest: Patch D (B, 76 × 67 mm) als Gürtelschlaufe
+Sun 11.10. N [] Entscheidung 11.10.: Der Serp (B) ist gestrichen, Patch D wird die hintere Gürtelschlaufe. Wo der Tagesplan später noch den Serp nennt, entfällt dieser Teil. Claude schneidet die betroffenen Aufgaben neu.
+
+=== W5 P1 2026-10-12 · Anfragen raus, erster Post, Steuer klären, warmes Netz zählen und anschreiben
+   KPI Warteliste: 40 bestätigt (Alarm 15)
+   KPI Follower TikTok + IG, neu seit 12.10.: ~120 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 12.10. B [60′] RFQ an alle Fabriken mit bestandenem K.-o. senden (Ziel 8)
+Mon 12.10. B [30′] 6 weitere Berliner Sticker suchen, Blatt „Sticker“
+Mon 12.10. C [20′ Video V001] 18:00 · V001 posten: BUILD Day 1 „Papier, bevor es Garn wird“
+Tue 13.10. B [5′ Prompt] Belegtabelle v0.1 bei Claude bestellen (Raute zuerst)
+Tue 13.10. A [45′ Prompt] Steuerberater: 11 Fragen klären, Ergebnis an Claude
+Tue 13.10. V [20′] Blatt „Netz“ und Blatt „Die ersten 35“ anlegen
+Tue 13.10. A [15′ Prompt] Blatt „Kasse“ mit Ampel und Zeile „ungeplant“ anlegen
+Tue 13.10. V [25′ Prompt] Tally-Umfrage anlegen (Datenschutz und Freischalten am Fr 23.10.)
+Tue 13.10. C [5′ Video Story 1] Story-Umfrage 1: „Hing so ein Muster bei euch zu Hause?“
+Tue 13.10. C [20′ plus Video V108] 18:00 · Grind+ Karussell V108 „Raute“ (nur mit Beleg)
+Tue 13.10. V [10′ plus] Community: 5 Kommentare mit Inhalt, DMs (heute optional)
+Wed 14.10. V [5′ Prompt] Prompt R1 an Claude: Empfehlungs-Mechanik ohne App
+Wed 14.10. B [20′] Nachzügler-Fabriken anschreiben (spätestens heute)
+Wed 14.10. A [20′] Nur falls nötig: Gewerbe online ummelden
+Wed 14.10. B [45′] Berliner Sticker anfragen: die 3 besten
+Wed 14.10. C [20′ Video V002] 18:00 · V002 posten: ORIGIN „Jede Region stickt die Raute anders“
+Thu 15.10. B [45′ Prompt] Teppich-Fotos, Familienbilder, Einwilligung, Shoot-Frage
+Thu 15.10. C [5′ Video Story 2] Story 2: Frage-Sticker „Schick mir ein Foto vom Teppich deiner Oma“
+Thu 15.10. V [40′] „Bring 3 Freunde“ einbauen und testen (Datenschutz und Freischalten am Fr 23.10.)
+Thu 15.10. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes Ja ins Blatt
+Thu 15.10. C [20′ plus Video V115] 18:00 · Grind+ V115 „Miss deine Lieblingsjeans“
+Fri 16.10. B [20′] Fabriken nachfassen, alle Antworten ins Blatt
+Fri 16.10. A [20′] Marke prüfen: „Novalife“ in DPMAregister und EUIPO eSearch
+Fri 16.10. V [25′] Netz-Runde 1: 15 persönliche Nachrichten mit ?ref=netz
+Fri 16.10. V [10′ plus] Grind+ Gespräche 1–2 fürs Wochenende verabreden
+Fri 16.10. C [20′ Video V003] 18:00 · V003 posten: REAL „Die Zahlen“
+Sat 17.10. N [] Der MEK-Besuch ersetzt den Puffer aus Rev. 5.3. Was diese Woche liegen blieb, holst du in den Grind+-Lücken nach.
+Sat 17.10. B [120′ Prompt] 11:00 · MEK Dahlem: Belege für Raute, Achtstern, Zickzack, Lebensbaum
+Sat 17.10. V [40′ plus] Grind+ Gespräche 1–2 à 20′ (erst Fotos ohne Erklärung)
+Sat 17.10. N [] Neue Reihenfolge ab heute: Erst Designs, Fabrik und Muster. Website, Shop und Papiere (LUCID, Gewerbe, Zahlungen, Rechtstexte) starten nach dem Sample-Gate am Di 05.01. Das Marketing läuft weiter. LUCID kommt am Do 14.01.
+Sun 18.10. A [25′ Prompt] Wochenreview W5: Liste, Views, Gates 7.1, Kasse, Zeile an Claude
+Sun 18.10. D [10′] Gate W5: Liste ≥ 40 · Netz ≥ 30 · ≥ 4 Fabrik-Antworten · Steuertermin
+Sun 18.10. D [5′] Entscheidung: Pixel-Spiel streichen, Scroll-Story B bauen
+Sun 18.10. C [25′ Video V004] Batch W6 · 1/3: V004 „Der Bauplan“ drehen und schneiden
+Sun 18.10. C [25′ Video V005] Batch W6 · 2/3: V005 „Die Drei-von-vier-Regel“ drehen und schneiden
+Sun 18.10. C [25′ Video V006] Batch W6 · 3/3: V006 „Feiner Kreuzstich“ drehen und schneiden
+Sun 18.10. V [60′ plus] Grind+ Nowkoelln Flowmarkt ansehen (Maybachufer)
+
+=== W6 P1 2026-10-19 · Angebote vergleichen, drei Calls, Papiertest-Abend als erster Wärme-Moment
+   KPI Warteliste: 90 bestätigt (Alarm 30)
+   KPI Follower TikTok + IG neu seit 12.10.: ~270 (Schätzung: 3 je Anmeldung)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“: 5 (Name, Größe, „ich bestelle am 01.02.“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Angebote: ≥ 3 mit Preis bei 75 und 100 Stück
+   KPI Gespräche: ≥ 6 von 10
+Mon 19.10. B [45′ Prompt] Angebote in den Vergleich: Preis-Ampel und Schwellen je Angebot
+Mon 19.10. C [10′ Prompt] MEK-Notizen an Claude: Belegtabelle v1.0 bestellen
+Mon 19.10. V [10′] Einladung zum Papiertest-Abend Sa 24.10. an die ersten „Ja“ (E1)
+Mon 19.10. C [20′ Video V004] 18:00 · BUILD V004 „Der Bauplan“ posten (DE-Hook-Test)
+Mon 19.10. B [10′] Knopf mit Achtstern: Preis und Mindestmenge bei den Fabriken erfragen (Skizze 15.10.)
+Tue 20.10. B [20′] Calls mit den Top 3 anfragen (Mi bis Fr, je 30 Min. per Video)
+Tue 20.10. B [10′ Prompt] Ursprung der Baum-Referenz für Patch D klären (vor V005)
+Tue 20.10. N [] ENTSCHIEDEN 23.10.: Der Zipper ist Naturweiß. Die Polo-Farbe klären wir mit dem Polo nach dem Zipper-Tech-Pack (ab Di 17.11.).
+Tue 20.10. N [] ÜBERHOLT 23.10.: Statt des Prompts haben wir den Zipper am 23.10. in 15 Fragerunden geklärt (Briefing im Repo: rev6/research/zipper_briefing.md). Claude zeichnet den Teppich jetzt direkt, die Polo-Teile kommen mit dem Polo.
+Tue 20.10. C [5′ Video Story 3] Story 3: B2-Papier „Woran erinnert dich das?“
+Tue 20.10. V [40′] Gespräche 3 und 4 à 20 Min. (Fotos erst ohne, dann mit Erklärung)
+Tue 20.10. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Tue 20.10. C [10′ plus Video V109] 18:00 · Grind+ · Karussell V109 „Zickzack“ (nur mit Beleg)
+Tue 20.10. D [15′] Fragen zu deinen Skizzen vom 15.10. entscheiden
+Wed 21.10. D [10′] Gate · Belegtabelle v1.0 fertig? Entscheidet V005 oder V120
+Wed 21.10. B [45′ Prompt] Call 1 mit Fabrik Nr. 1 (Leitfaden + Ramadan, Feiertage, A.TR)
+Wed 21.10. V [20′] Gespräch 5 à 20 Min. (Fragen Abschnitt „Zielgruppe“ 5.1)
+Wed 21.10. C [20′ Video V005] 18:00 · ORIGIN V005 „Die Drei-von-vier-Regel“ (sonst V120)
+Wed 21.10. C [90′ Video R01] Dreh · REWIND #01 „G-Klasse“ (Rückwärts)
+Thu 22.10. B [45′] Call 2 mit Fabrik Nr. 2 (gleicher Leitfaden, gleiche Reihenfolge)
+Thu 22.10. N [] ENTFÄLLT 23.10.: Blanks bestellen. Der Zipper wird ein eigener Schnitt aus der Fabrik, das Polo klären wir nach dem Zipper-Tech-Pack.
+Thu 22.10. V [20′ Prompt] 12 Sätze Druckvorlagen und QR-Zettel ?ref=papier drucken
+Thu 22.10. C [5′ Video Story 4] Story 4: B2 rot gegen B2 mit weißer Kante „Links oder rechts?“
+Thu 22.10. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Thu 22.10. C [10′ plus Video V116] 18:00 · Grind+ · V116 „Eine Stunde am Tag“
+Thu 22.10. C [45′] Schnitt · REWIND #01 „G-Klasse“
+Fri 23.10. B [45′] Call 3 mit Fabrik Nr. 3 (gleicher Leitfaden)
+Fri 23.10. A [10′ Prompt] Steuer-Deadline: Ergebnis schriftlich an Claude, Schwellen neu
+Fri 23.10. D [5′] Gate · Steuer schriftlich klar?
+Fri 23.10. C [20′ Video V006] 18:00 · DETAIL V006 „Feiner Kreuzstich“ posten (DE-Hook-Test)
+Fri 23.10. A [20′] Datenschutzerklärung ergänzen: Tally und „Bring 3“ (verschoben vom 13. und 15.10.)
+Fri 23.10. C [5′] Bio prüfen: steht dort noch „Drop 22.04.2027“?
+Fri 23.10. N [] ENTSCHIEDEN 23.10.: Zipper nach 15 Fragerunden. Eigener Schnitt nach deinem weißen RL, vorbestellbar ab Mo 01.02. (20 € unter dem Drop-Preis), Muster bis Di 05.01. Das Polo kommt erst nach dem Zipper-Tech-Pack. Briefing: rev6/rese
+Sat 24.10. B [30′] Referenzen der Top 3 prüfen: 6 Nachrichten
+Sat 24.10. V [90′] 18:00 · PAPIERTEST-ABEND: 10–12 Gäste, eigene Jeans, Gespräche 6–7
+Sat 24.10. V [60′ plus] 19:30 · Grind+ · Abend bis 20:30 offen lassen
+Sat 24.10. C [15′ Video R01] 12:00 · REWIND #01 „G-Klasse“ posten
+Sat 24.10. C [15′ Video R02] Dreh · REWIND #02 „Ich klatsche, die Zeit bleibt stehen“ (Zeit anhalten)
+Sat 24.10. B [45′] Vormittags · RL-Zipper ausmessen: Messbogen und Fotos
+Sun 25.10. A [30′ Prompt] Wochenreview W6: Liste, Views, Quote, Kasse, Cockpit, Zeile an Claude
+Sun 25.10. D [10′ Prompt] Gate W6 · Liste ≥ 90, ≥ 3 Angebote, Preis-Ampel, Sonntags-Gates
+Sun 25.10. V [120′ plus] 12:00 · Grind+ · Mauerpark-Flohmarkt: 15 Leute in Jeans fragen
+Sun 25.10. C [20′ Video V008] Batch W7 1/3 · V008 „Die Goldfäden“ an der Fensterbank
+Sun 25.10. C [25′ Video V007] Batch W7 2/3 · V007 „8 Fabriken angeschrieben“ (Mac + Schreibtisch)
+Sun 25.10. C [20′ Video V009] Batch W7 3/3 · V009 „Was eine Jeans kostet“ (Schreibtisch)
+Sun 25.10. C [10′] Clips vom Papiertest-Abend sichten, Fotos je Gast ablegen
+
+=== W7 P1 2026-10-26 · Eine Fabrik wählen, Konditionen mit Notausgang, Validierung bestehen, Zipper-Papiertest und Zipper-Anfrage
+   KPI Warteliste: 150 bestätigt (Alarm 50)
+   KPI Follower TikTok + IG neu seit 12.10.: ~450 (Schätzung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“: 10 (nur Spalte „Zusage“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Validierung: grün ≥ 150, ≥ 10 Zusagen, 50/50 schriftlich
+   KPI Gespräche: 10 von 10, Tally ≥ 50
+Mon 26.10. N [] VERSCHOBEN 21.10.: Fabrik entscheiden auf Do 29.10. (deine Entscheidung). NTC ist raus, du hast den Verlauf am 20.10. gelöscht.
+Mon 26.10. A [30′] Nur bei Türkei: EORI-Nummer heute beantragen
+Mon 26.10. V [15′] Fotos an die Papierabend-Gäste, Bitte um Story mit eigenem Link
+Mon 26.10. C [20′ Video V007] 18:00 · BUILD V007 „8 Fabriken angeschrieben“ (DE-Hook-Test)
+Mon 26.10. C [20′ Video R01M] 18:00 · Making-of REWIND #01 posten: Rohaufnahme neben Endfassung
+Mon 26.10. N [] Info · Claude zeichnet den Teppich in zwei Farbvarianten (wie bei Oma, ausgeblichen) und baut die Papiertest-Drucke: Teppich in 3 Größen, Muster E fein und doppelt, Stern auf der Rippe. Dazu Sweat-Fabriken in Portugal und Druckere
+Tue 27.10. N [] VERSCHOBEN 21.10.: Konditionen verhandeln und Proforma anfordern auf Fr 30.10.
+Tue 27.10. N [] VERSCHOBEN 21.10.: Absagen und Nr. 2 warm halten auf Fr 30.10.
+Tue 27.10. C [5′ Video Story 5] Story 5: Patch-Papier als Gürtelschlaufe, Schieberegler „Wie sehr würdest du das tragen?“
+Tue 27.10. V [40′] Gespräche 8 und 9 à 20 Min. (fehlende Segmente zuerst)
+Tue 27.10. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Tue 27.10. C [10′ plus Video V121] 18:00 · Grind+ · V121 „Warteliste-Stand“ (nur echte Zahl)
+Tue 27.10. D [15′] Teppich-Variante wählen: wie bei Oma oder ausgeblichen
+Wed 28.10. B [45′ Prompt] Patch-Hersteller anfragen: 3 Anbieter mit feinen Mehrton-Patches
+Wed 28.10. C [20′ Video V008] 18:00 · ORIGIN V008 „Die Goldfäden“ posten
+Wed 28.10. B [60′] Papiertest Zipper auf dem RL: Teppich, Muster E, Stern
+Thu 29.10. N [] VERSCHOBEN 23.10.: Berliner Sticker auswählen gilt nur noch fürs Polo und kommt mit der Polo-Klärung ab Di 17.11. Der Zipper kommt komplett aus der Fabrik.
+Thu 29.10. N [] ENTFÄLLT 23.10.: Digitizing beim Berliner Sticker. Der Stern auf der Zipper-Rippe nutzt die Stickdatei von C aus der Jeans, Teppich und Kapuzen-Muster werden gedruckt. Das Polo kommt später.
+Thu 29.10. V [20′] Netz-Runde 2 (N2): einmal erinnern, Eingetragene um 3 Links bitten
+Thu 29.10. C [5′ Video Story 6] Story 6: „Was wäre fair?“ 129 · 149 · 169 · 189 €, dazu Tally-Link
+Thu 29.10. V [20′] Gespräch 10 à 20 Min., Gesprächsrunde abschließen
+Thu 29.10. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Thu 29.10. C [10′ plus Video V120] 18:00 · Grind+ · V120 „Die eine Frage an Fabriken“
+Thu 29.10. C [15′ Video R02] 19:00 · REWIND #02 „Ich klatsche, die Zeit bleibt stehen“ posten
+Thu 29.10. D [45′ Prompt] FABRIK ENTSCHEIDEN: Scorecard mit Steuer und Zahlung, Nr. 2 Reserve
+Fri 30.10. A [5′] EORI: nur Kontrolle, ob der Antrag läuft (Portugal: entfällt)
+Fri 30.10. D [5′] Gate · Bei Türkei: Proforma angefordert? Bis Mo 02.11. muss sie da sein
+Fri 30.10. C [20′ Video V009] 18:00 · REAL V009 „Was eine Jeans kostet“ (DE-Hook-Test)
+Fri 30.10. C [60′ Video R03] Dreh · REWIND #03 „Rückwärts durch Berlin“ (Rückwärts)
+Fri 30.10. B [40′ Prompt] Konditionen verhandeln, Proforma anfordern (Türkei: bis 12:00)
+Fri 30.10. B [15′] Absagen an die anderen, Nr. 2 warm halten
+Fri 30.10. A [20′] Zipper-Anfrage prüfen und senden: Jeansfabriken und Portugal
+Sat 31.10. A [30′] Zahlen für die Validierung sammeln: Anmeldungen, Views, Quote
+Sat 31.10. V [20′ Prompt] Gespräche, Tally und Storys an Claude: Markenkriterien 1–3
+Sat 31.10. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Sat 31.10. N [] Info · B-Zeitachse aus Referenz „Wochenziele, Gates“ 7.4 gilt bei jedem Gate „schieben“
+Sun 01.11. A [40′ Prompt] VALIDIERUNG + Wochenreview W7: Liste, Zusagen, Views, Kasse, Cockpit
+Sun 01.11. D [5′ Prompt] Gate · VALIDIERUNG: grün ≥ 150 · gelb 50–149 · rot < 50
+Sun 01.11. V [90′ plus] Grind+ · Vintage & Heritage Market im Ballhaus Berlin (nach den Zahlen)
+Sun 01.11. C [25′ Video V010] Batch W8 1/3 · V010 „Die Fabrik steht“ (Mac + Schreibtisch)
+Sun 01.11. C [25′ Video V011] Batch W8 2/3 · V011 „Der Achtstern“ (nur mit Beleg, sonst V117)
+Sun 01.11. C [25′ Video V012] Batch W8 3/3 · V012 „Ein einziges Thema“ (Schreibtisch)
+
+=== W8 P1 2026-11-02 · Entwicklung bezahlen, Dateien an die Fabrik, Farbe und Namen endgültig
+   KPI Warteliste: 210 bestätigt (Alarm 80)
+   KPI Follower TikTok + IG, neu seit 12.10.: ~630 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 01.02.“): 10
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Spec Rev. 14: bis So 08.11. bei Claude
+Mon 02.11. B [30′] 09:00 · Proforma prüfen und Entwicklung bezahlen (nur grün/gelb)
+Mon 02.11. C [15′ Prompt] 15:00 · Werkstatt-Mail 1 an die Liste: Ergebnis der Validierung
+Mon 02.11. C [20′ Video V010] 18:00 · V010 posten: BUILD Day 22 „Die Fabrik steht“
+Mon 02.11. B [20′] Samtprobe bestellen: bedruckter Baumwollsamt, etwa A4
+Tue 03.11. B [45′ Prompt] 09:00 · Dateien an die Fabrik, Shade Card und 3 Lab Dips anfordern
+Tue 03.11. C [5′ Video Story 7] 12:00 · Story 7: Umfrage „Was zuerst?“ Jeans · Zipper · Polo
+Tue 03.11. V [10′] Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Tue 03.11. C [10′ plus Video V110] 18:00 · Grind+ · V110 Karussell „Achtstern“ (nur mit Beleg)
+Tue 03.11. C [15′ Video R03] 19:00 · REWIND #03 „Rückwärts durch Berlin“ posten
+Wed 04.11. A [15′ Prompt] 09:00 · Labels, Hangtag-Karte „Bedeutung innen“, Patch-Datei bei Claude
+Wed 04.11. V [30′] 10:00 · Hochschul-Mails H1 an HTW, ESMOD, AMD, Weißensee
+Wed 04.11. C [20′ Video V011] 18:00 · V011 posten: ORIGIN „Der Achtstern“
+Thu 05.11. A [30′] 09:00 · Labels freigeben und an die Fabrik
+Thu 05.11. V [15′] 10:00 · Ort für den Stick-Abend Fr 27.11. anfragen
+Thu 05.11. C [5′ Video Story 8] 12:00 · Story 8: „Wie würdest du dieses Band nennen?“
+Thu 05.11. V [10′] Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Thu 05.11. C [10′ plus Video V113] 18:00 · Grind+ · V113 „Mein Fehler: die realistische Szene“
+Fri 06.11. B [20′] 09:00 · Patch-Angebote eintragen
+Fri 06.11. C [20′ Video V012] 18:00 · V012 posten: REAL „Ein einziges Thema“
+Fri 06.11. V [10′ plus] Grind+ · ARD/ZDF-Medienstudie 2025: Reichweite 14–29 notieren
+Sat 07.11. D [25′ Prompt] 10:00 · ENTSCHEIDUNGEN: B2-Band, Namen, Sprache, Liefergebiet → Spec Rev. 14
+Sat 07.11. V [30′] 11:00 · Creator-Longlist Runde 1: 10 Namen von Hand
+Sat 07.11. V [10′] Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Sat 07.11. V [120′ plus] 15:00 · Grind+ · Laden-Runde Mitte-Nord (4 Läden)
+Sun 08.11. A [25′ Prompt] 10:00 · Wochenreview W8, Cockpit, Aktivzeiten, Zeile an Claude
+Sun 08.11. D [10′] 10:25 · Gate: Liste ≥ 210 · Entwicklung bezahlt · Fabrik ≤ 3 Werktage
+Sun 08.11. C [25′ Video V013] 11:00 · Content-Batch W9 · 1/3: V013 vorbereiten (Gesicht, Raster)
+Sun 08.11. C [25′ Video V014] 11:25 · Content-Batch W9 · 2/3: V014 „Der Lebensbaum“ drehen
+Sun 08.11. C [25′ Video V015] 11:50 · Content-Batch W9 · 3/3: V015 „Zickzack“ drehen
+
+=== W9 P2 2026-11-09 · Stickdatei prüfen und freigeben, Zipper-Fabrik und Zipper-Schwelle wählen, Stoff anfragen
+   KPI Warteliste: 270 bestätigt (Alarm 110)
+   KPI Follower TikTok + IG, neu seit 12.10.: ~810 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 01.02.“): 11
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Stiche: ≤ 28.000
+Mon 09.11. B [45′ Prompt] 09:00 · Digitizing-Vorschau prüfen: Stichzahl, Fadenschnitte, Farbwechsel
+Mon 09.11. C [20′ Video V013] 18:00 · V013 posten: BUILD Day 29 „Muster als Maschinen-Code“
+Mon 09.11. D [45′] ENTSCHEIDUNG Zipper: Fabrik, Menge, Preis und Zipper-Schwelle
+Tue 10.11. D [20′ Prompt] 09:00 · Gate: Digitizing freigeben (≤ 28.000 Stiche)
+Tue 10.11. N [] ENTFÄLLT 23.10.: Blanks zum Berliner Sticker. Der Zipper kommt aus der Fabrik, das Polo später.
+Tue 10.11. V [10′] Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Tue 10.11. C [10′ plus Video V112] 18:00 · Grind+ · V112 Karussell „Lebensbaum“ (nur mit Beleg)
+Wed 11.11. B [20′] 09:00 · Stoffoptionen anfordern (12 oz und 13 oz)
+Wed 11.11. C [20′ Video V014] 18:00 · V014 posten: ORIGIN „Der Lebensbaum“
+Thu 12.11. V [10′] Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Thu 12.11. C [20′ plus Video V119] 18:00 · Grind+ · V119 „Wie ich die Größe der Münztasche gefunden habe“
+Thu 12.11. C [60′ Video R04] Dreh · REWIND #04 „Das Muster lässt sich nicht zerreißen“ (Rückwärts)
+Thu 12.11. B [60′] Tech Pack Zipper mit Claude durchgehen, wie bei der Jeans
+Fri 13.11. B [20′] 09:00 · Muster des Label-Patches bestellen (3 Stück)
+Fri 13.11. V [15′ Prompt] 10:00 · Einladung Stick-Abend Fr 27.11. (E2), 10 Plätze
+Fri 13.11. C [20′ Video V015] 18:00 · V015 posten: DETAIL „Zickzack“
+Sat 14.11. V [30′ Prompt] 12:00 · Presseliste Teil 1: 8 Medien, je 3 Artikel lesen
+Sun 15.11. A [20′ Prompt] 10:00 · Wochenreview W9, Cockpit, Zeile an Claude
+Sun 15.11. D [10′] 10:20 · Gate: Liste ≥ 270 · Zusagen ≥ 11 · Stiche ≤ 28.000
+Sun 15.11. V [20′] 11:30 · Creator-Longlist Runde 2 (10 Namen)
+Sun 15.11. C [25′ Video V017] 12:00 · Content-Batch W10: V017 „Der Teppich“ (Stickproben drehst du Mo 16.11.)
+
+=== W10 P2 2026-11-16 · Stickproben und Stoff bewerten und freigeben, Zipper-Tech-Pack an die Fabrik, Polo klären, Teppich-Post, Orte für Januar und März schriftlich anfragen
+   KPI Warteliste: 330 bestätigt (Alarm 140)
+   KPI Follower TikTok + IG, neu seit 12.10.: ~990 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 01.02.“): 12
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Stickproben: bestanden am Di 17.11.
+Mon 16.11. B [60′ Prompt] Stickproben bewerten: gewaschen, aus 3 m, Rot auf Indigo, Weiß
+Mon 16.11. C [45′ Video V016] 18:00 · V016 „Die erste Stickprobe“ drehen und posten
+Mon 16.11. B [30′] Tech Pack Zipper an die Fabrik, Muster bestellen
+Tue 17.11. D [30′ Prompt] Stickproben und Garnfarben freigeben, schriftlich an die Fabrik
+Tue 17.11. D [10′ Prompt] GATE Stickproben: trägt die Stickerei auf gewaschenem Denim?
+Tue 17.11. V [10′] Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+Tue 17.11. C [10′ plus Video V114] 18:00 · V114 „Mein Fehler: Deadline verpasst“ (Grind+)
+Tue 17.11. C [15′ Video R04] 19:00 · REWIND #04 „Das Muster lässt sich nicht zerreißen“ posten
+Tue 17.11. B [45′] Polo klären: Fragerunden mit Claude, wie beim Zipper
+Wed 18.11. B [45′] Stoffmuster und 3 Lab Dips bewerten, einen als Waschstandard freigeben
+Wed 18.11. C [20′ Video V017] 18:00 · V017 „Der Teppich“ posten (ORIGIN, vorgezogen)
+Wed 18.11. V [15′ Prompt] Orte schriftlich vorab anfragen: GATE194, Sing Blackbird, Studio183
+Thu 19.11. V [30′] Presseliste Teil 2: Kontakte nur aus Impressum oder offizieller Seite
+Thu 19.11. V [10′] Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+Thu 19.11. C [10′ plus Video V122] 18:00 · V122 Story „Schick mir deinen Teppich“ (Grind+)
+Fri 20.11. C [45′ Video V018] 18:00 · V018 „Was die Wäsche mit der Stickprobe macht“ drehen + posten
+Fri 20.11. C [90′ Video R05] Dreh · REWIND #05 „Jeans von 1970 bis 2027“ (Outfit-Sprung)
+Sat 21.11. V [60′] Burg & Schild: gewaschene Stickproben zeigen, Feedback holen
+Sat 21.11. B [20′ Prompt] Material für den Stick-Abend kaufen: Denim, Garn, Nadeln, 10 Rahmen
+Sat 21.11. V [10′] Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+Sat 21.11. V [60′ plus] Nudie Repair Shop und Das Neue Schwarz auf dem Weg (Grind+)
+Sun 22.11. A [20′ Prompt] Wochenreview W10: Liste, Views, Anmeldungen je 1.000 Views, Kasse
+Sun 22.11. D [10′] GATE Liste ≥ 330 (Alarm 140) · Proto-Versand schriftlich ≤ 30.11.
+Sun 22.11. C [25′ Video V019] Content-Batch W11 (1/3): V019 „Drei Stoffe“ drehen und schneiden
+Sun 22.11. C [25′ Video V020] Content-Batch W11 (2/3): V020 „Warum Panel-Stickerei“ drehen
+Sun 22.11. C [25′ Video V021] Content-Batch W11 (3/3): V021 „Warum 169 €“ drehen
+
+=== W11 P2 2026-11-23 · Proto entsteht, Zipper-Muster in Arbeit, Stick-Abend, Sperrwoche ohne Ernte-Bild einhalten
+   KPI Warteliste: 390 bestätigt (Alarm 170)
+   KPI Follower TikTok + IG, neu seit 12.10.: ~1.170 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante), Sa 28.11. kein Post
+   KPI Zusagen „Die ersten 35“ (Name, Größe, „ich bestelle am 01.02.“): 13
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Proto-Versand: schriftlich ≤ 30.11.
+Mon 23.11. N [] Sperrwoche 23.–29.11.: kein Ernte-Post und kein Ernte-Bild in Stories (Holodomor-Gedenktag Sa 28.11.). Sa 28.11. gar kein Post.
+Mon 23.11. B [15′] Status Proto abfragen: Fotos und Versanddatum schriftlich
+Mon 23.11. C [20′ Video V019] 18:00 · V019 „Drei Stoffe“ posten (BUILD Day 43)
+Mon 23.11. V [10′] Stick-Abend: Teilnehmer bestätigen, QR mit ?ref=stick bauen
+Tue 24.11. V [10′] Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+Tue 24.11. C [10′ plus Video V117] 18:00 · V117 „Antwort auf Kommentar“ (Grind+)
+Wed 25.11. C [20′ Video V020] 18:00 · V020 „Warum Panel-Stickerei“ posten (ORIGIN)
+Thu 26.11. B [35′ Prompt] Patch-Muster prüfen, 3× von Hand bei 30 °C waschen, Innenetikett mittesten
+Thu 26.11. B [20′] Prüfung des Protos vorbereiten: Prüfplan, Werkzeug, Fit-Termin
+Thu 26.11. V [20′] Creator-Longlist Runde 3: auf 30 Namen komplett
+Thu 26.11. V [10′] Community: 5 Kommentare mit Inhalt in deiner Nische, DMs, Ja ins Blatt
+Thu 26.11. C [10′ plus Video V118] 18:00 · V118 „Stickmaschine ASMR“ (Grind+, nur mit Erlaubnis)
+Thu 26.11. C [15′ Video R05] 19:00 · REWIND #05 „Jeans von 1970 bis 2027“ posten
+Fri 27.11. C [20′ Video V021] 18:00 · V021 „Warum 169 €“ vorplanen (Stick-Abend ab 18:30)
+Fri 27.11. V [90′] 18:30 · STICK-ABEND bis 20:00: Raute 7 × 7 in Rot/Weiß auf Denim
+Fri 27.11. V [60′ plus] Stick-Abend bis 21:00 offen lassen (Grind+)
+Sat 28.11. N [] Kein Post heute: Holodomor-Gedenktag (4. Samstag im November). Auch keine Story, kein Werbe-Kommentar.
+Sat 28.11. V [120′ plus] Holy Shit Shopping im CANK + Sing Blackbird (Grind+, als Besucher)
+Sat 28.11. C [90′ Video R06] Dreh · REWIND #06 „Der Fahrstuhl in die Zukunft“ (One-Take mit versteckten Schnitten)
+Sun 29.11. A [30′ Prompt] Wochenreview W11 + Reservierung A/B entscheiden
+Sun 29.11. D [5′] GATE Reservierung A/B (gebaut wird nach dem Sample-Gate)
+Sun 29.11. C [10′] Instagram-Broadcast-Kanal „Time Travel · Werkstatt“ anlegen
+Sun 29.11. C [20′ Video V022] Content-Batch W12 (1/4): V022 „Sie ist unterwegs“ drehen
+Sun 29.11. C [20′ Video V023] Content-Batch W12 (2/4): V023 „Warum ein Sample“ drehen
+Sun 29.11. C [20′ Video V024] Content-Batch W12 (3/4): V024 „Donnerstag“ aus Archiv-Clips schneiden
+Sun 29.11. C [15′ Video V025] Content-Batch W12 (4/4): V025 Unboxing vorbereiten
+
+=== W12 P2 2026-11-30 · Das erste echte Teil kommt, ab jetzt darf gezeigt werden
+   KPI Warteliste: 470 bestätigt (Alarm 200), Grind+-Ziel 530
+   KPI Follower TikTok + IG, neu seit 12.10.: ~1.410 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 6 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“: 15 (Name, Größe, „ich bestelle am 01.02.“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Proto-Post V025: ≥ 2 × Median Views, ≥ 80 neue Anmeldungen in der Woche
+Mon 30.11. B [10′] 09:00 · Versand des Protos verfolgen
+Mon 30.11. B [45′] Berliner Muster abholen und prüfen (Stichbild, Topping, Rückseite)
+Mon 30.11. V [10′] 17:00 · Broadcast starten: „Am Donnerstag kommt das erste echte Teil“
+Mon 30.11. C [20′ Video V022] 18:00 · V022 posten: BUILD Day 50 „Sie ist unterwegs“
+Tue 01.12. N [] ENTSCHIEDEN 23.10.: Die Zipper-Front wird ein Mini-Teppich aus bedrucktem Baumwollsamt mit Fransen, weder gestickt noch Chenille.
+Tue 01.12. C [20′ Video V023] 18:00 · V023 posten: ORIGIN „Warum ein Sample“
+Tue 01.12. C [15′ Video R06] 19:00 · REWIND #06 „Der Fahrstuhl in die Zukunft“ posten
+Wed 02.12. N [] ENTFÄLLT 23.10.: Zipper-Front beim Berliner Sticker. Die Zipper-Fabrik näht den Samt-Teppich auf, bevor der Reißverschluss eingesetzt wird.
+Wed 02.12. V [30′ Prompt] Creator-Shortlist 12: Engagement, Views, Brand-Safety
+Wed 02.12. C [15′ Prompt] Werkstatt-Mail „Das Proto ist da“ auf Do 03.12., 19:00 terminieren
+Wed 02.12. C [20′ Video V024] 19:00 · V024 posten: REACH „Donnerstag“ + Countdown-Sticker
+Thu 03.12. B [75′] PROTO DA: auspacken (filmen), 10 Messpunkte, Fotos
+Thu 03.12. V [15′] 15:00 · Proto-Runde starten: 20 Termine bis So 13.12.
+Thu 03.12. V [5′] 18:00 · Broadcast: Proto 1 h vor dem Feed
+Thu 03.12. C [20′ Video V025] 19:00 · V025 posten: BUILD „Unboxing des Prototyps“ (NEU)
+Thu 03.12. N [] 19:00 geht die Werkstatt-Mail „Das Proto ist da“ geplant raus (terminiert am Mi)
+Fri 04.12. B [45′] Stickerei und Verarbeitung prüfen (Prüfplan)
+Fri 04.12. V [30′] Proto-Runde: 2 Video-Calls à 15′
+Fri 04.12. C [45′ Video V026] 18:00 · V026 drehen und posten: DETAIL „Echter Kreuzstich“
+Sat 05.12. B [60′] 10:00 · Fit-Test mit zwei Körpergrößen
+Sat 05.12. C [10′ Video V027] 12:00 · V027 Story: ASK „Was zuerst?“
+Sat 05.12. D [5′] GATE Proto und Fit ok → PP am Mo 07.12. bestellen
+Sun 06.12. B [45′ Prompt] 10:00 · Korrekturliste mit Claude
+Sun 06.12. A [15′ Prompt] Wochenreview W12: Liste nach Quellen-Tag, Views, Kassencheck
+Sun 06.12. D [5′] GATE W12: ≥ 80 neue Anmeldungen, Proto-Post ≥ 2 × Median, Liste ≥ 470
+Sun 06.12. C [20′ Video V028] Content-Batch W13 (1/3): V028 „Was nicht gepasst hat“ drehen
+Sun 06.12. C [15′ Video V029] Content-Batch W13 (2/3): V029 „Das Band in echt“ (Match-Cut)
+Sun 06.12. C [20′ Video V031] Content-Batch W13 (3/3): V031 „Die Goldfäden“ drehen
+Sun 06.12. C [10′ plus Video V125] 18:00 · V125 „Aus drei Metern“ posten (Variante)
+
+=== W13 P2 2026-12-07 · PP bestellen, Beweisfotos, Reservierung offen, Creator anschreiben
+   KPI Warteliste: 550 bestätigt (Alarm 230), Grind+-Ziel 620
+   KPI Follower TikTok + IG, neu seit 12.10.: ~1.650 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“: 18 (Name, Größe, „ich bestelle am 01.02.“)
+   KPI Reservierungen „Platz in der ersten Stunde“: ≥ 15
+   KPI Proto-Runde: 20 Termine bis So 13.12.
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 07.12. B [45′ Prompt] 09:00 · Korrekturen per Foto und Maß senden, PP-Sample bestellen
+Mon 07.12. B [10′] 2 Patch-Muster D per Express an die Fabrik fürs PP
+Mon 07.12. V [30′] Proto-Runde: 2 Video-Calls à 15′
+Mon 07.12. C [20′ Video V028] 18:00 · V028 posten: BUILD Day 57 „Was nicht gepasst hat“
+Tue 08.12. B [60′ Video V030] 10:00 · Mini-Shoot 1 (Proto): Makros, Graukarte, Fahrt 3 m → 30 cm
+Tue 08.12. V [30′] Proto-Runde: 2 Video-Calls à 15′
+Tue 08.12. C [20′ Video V029] 18:00 · V029 posten: ORIGIN „Das Band in echt“
+Wed 09.12. V [30′ Prompt] PRESSE: Pressemappe v1 (Prompt P0) und Seite /pages/presse
+Wed 09.12. V [60′] Proto-Runde: 2–3 Treffen (Kern, das Gate am 13.12. hängt daran)
+Wed 09.12. C [20′ Video V030] 19:00 · V030 posten: REACH „Uhrwerk“
+Thu 10.12. B [55′] 11:00 · On-Body-Fotos: zwei Körper, mit Größe und Bundmaß
+Thu 10.12. D [5′] GATE: Proto noch nicht da? Vorbestellung nur mit echten Fotos
+Thu 10.12. N [] Community heute über die Proto-Runde: die Treffen ersetzen die 10′ Kommentare in der Nische
+Thu 10.12. V [60′] Proto-Runde: 2–3 Treffen (Kern, das Gate am 13.12. hängt daran)
+Thu 10.12. C [10′ plus Video V124] 18:00 · V124 „Auf links“ posten (Variante)
+Fri 11.12. V [30′] 10:00 · CREATOR: Erst-DM C2 an die Top 8
+Fri 11.12. C [20′ Video V031] 18:00 · V031 posten: DETAIL „Die Goldfäden“
+Fri 11.12. N [] Waschserie nicht mit dem Proto: Es ist bis 13.12. dein einziges Vorzeigeteil. Die Waschserie läuft mit dem PP ab Mo 04.01.
+Sat 12.12. C [10′ Video V032] 12:00 · V032 Story: ASK „Vorbestellen?“
+Sat 12.12. V [90′] 13:00 · Mit dem Proto zur A-Liste: GATE194 und Sing Blackbird
+Sat 12.12. V [5′ plus] „Bring 3“-Story
+Sun 13.12. A [15′ Prompt] 10:00 · Wochenreview W13: Liste nach Quellen-Tag, Views, Kassencheck
+Sun 13.12. D [5′] GATE So 13.12.: Zusagen ≥ 18 · Zipper-Muster unterwegs · Liste ≥ 550
+Sun 13.12. V [10′] Kein Laden für die Abende zugesagt? Ersatzfläche über Giggster suchen
+Sun 13.12. C [15′ Video V033] Content-Batch W14 (1/4): V033 „Erst die Muster, dann der Shop“ aufnehmen
+Sun 13.12. C [15′ Video V034] Content-Batch W14 (2/4): V034 „Ehrliche Größen“ drehen
+Sun 13.12. C [15′ Video V035] Content-Batch W14 (3/4): V035 „100 Stück“ schneiden
+Sun 13.12. C [15′ Video V036] Content-Batch W14 (4/4): V036 „Die Rückseite“ drehen
+Sun 13.12. C [10′ plus Video Variante (bestes Proto-Video)] 18:00 · Variante deines besten Proto-Videos posten
+
+=== W14 P2 2026-12-14 · Presse-Welle 1 senden, Kontingent, Nummern und Orte festlegen
+   KPI Warteliste: 620 bestätigt (Alarm 260) · Grind+-Ziel 700
+   KPI Follower TikTok + IG, neu seit 12.10.: ~1.860 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“: 20 (Name, Größe, „ich bestelle am 01.02.“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Gate So 20.12.: Zusagen ≥ 15, Auszahlung geklärt, Stufe 2 entschieden, Patch bestellt
+Mon 14.12. C [20′ Video V033] 18:00 · V033 posten: BUILD Day 64 „Erst die Muster, dann der Shop“
+Tue 15.12. V [20′] Handheber-DMs: jedes „Ja“ aus der ASK-Story vom 12.12. nach Größe fragen
+Tue 15.12. V [25′ Prompt] PRESSE-WELLE 1 „Vorbestellung ab 01.02.“ an 7 Medien
+Tue 15.12. C [20′ Video V034] 18:00 · V034 posten: ORIGIN „Ehrliche Größen“
+Wed 16.12. C [45′ Prompt] Vier Mails zum Vorbestell-Start als Entwurf (26.01., 31.01., 01.02., 08.02.)
+Wed 16.12. C [20′ Video V035] 19:00 · V035 posten: REACH „100 Stück“ (nur echte Zahlen)
+Thu 17.12. N [] ÜBERHOLT 23.10.: Zipper und Polo abholen. Das Zipper-Muster kommt aus der Fabrik zum Sample-Gate Di 05.01., das Polo später.
+Thu 17.12. B [30′] Patch D in Serie: 110 Stück direkt an die Fabrik bis 29.01.
+Thu 17.12. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Thu 17.12. C [10′ plus Video V111] Grind+ 18:00 · V111 Karussell „drei Ähren“ (nur mit Beleg)
+Fri 18.12. V [20′] CREATOR nachfassen (C3); unter 5 Zusagen: Nr. 9–12 anschreiben
+Fri 18.12. C [20′ Video V036] 18:00 · V036 posten: DETAIL „Die Rückseite“
+Fri 18.12. V [60′ plus] Grind+ · A-Liste Teil 2 mit Proto: Studio183 und Konk
+Sat 19.12. D [20′ Prompt] Vorbestellung festlegen: 35 zu 149 € + Stufe 2, Nummern, Bestand je Größe
+Sat 19.12. C [10′ Video V037] 12:00 · V037 ASK-Story „Größe“
+Sat 19.12. N [] ÜBERHOLT 23.10.: Den Zipper gibst du am Sample-Gate Di 05.01. frei, zusammen mit dem Jeans-PP.
+Sat 19.12. V [15′] Orte fest: Creator-Preview 30.01., Mess-Abende 03.02., 10.02., 15.05.
+Sat 19.12. C [60′ Video R07] Dreh · REWIND #07 „Die Hose zieht sich selbst an“ (Rückwärts)
+Sun 20.12. A [20′ Prompt] Wochenreview W14 + Cockpit + Zeile an Claude
+Sun 20.12. D [10′] GATE 21.12.: Zusagen ≥ 15, Stufe 2, Patch, Zipper-Muster, Liste ≥ 620
+Sun 20.12. C [90′ Video V038–V043] Content-Batch W15 und W16: V038–V043 drehen und schneiden
+Sun 20.12. C [10′ plus] Grind+ 18:00 · Variante deines besten Videos
+
+=== W15 P2 2026-12-21 · Feiertage: wenig, aber sauber. Belege sortieren, Proto-Bilder auswählen
+   KPI Warteliste: 680 bestätigt (Alarm 280) · Grind+-Ziel 770
+   KPI Follower TikTok + IG, neu seit 12.10.: ~2.040 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern
+   KPI Zusagen „Die ersten 35“: 20 (Name, Größe, „ich bestelle am 01.02.“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 21.12. C [20′ Video V038] 18:00 · V038 posten: BUILD Day 71 „Was bis zum Drop fehlt“
+Tue 22.12. A [30′] Belege 2026 sortieren, Summen pro Monat ins Blatt „Ausgaben“
+Tue 22.12. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Tue 22.12. C [15′ Video R07] 19:00 · REWIND #07 „Die Hose zieht sich selbst an“ posten
+Wed 23.12. C [20′ Video V039] 18:00 · V039 posten: REAL „Was es bis jetzt gekostet hat“
+Wed 23.12. C [5′] Broadcast: „01.02., 19:00. Schöne Feiertage.“
+Thu 24.12. N [] Frei. Kein Post, keine Aufgabe. DMs nur, wenn du willst.
+Fri 25.12. N [] Frei. Kein Post, keine Aufgabe.
+Sat 26.12. C [10′ Video V040] 12:00 · V040 ASK-Story „Erinnerung 01.02.“ mit Countdown
+Sat 26.12. C [120′ Video R08] Dreh · REWIND #08 „8 Handys, 1 Sekunde“ (Bullet Time)
+Sun 27.12. C [30′] Die 12 besten Proto-Bilder für Produktseite und Mails auswählen
+Sun 27.12. A [15′ Prompt] Wochenreview W15 + Cockpit + Zeile an Claude
+Sun 27.12. C [45′ Video R09] Dreh · REWIND #09 „Hält der Lebensbaum 20 kg?“ (Speed Ramp)
+
+=== W16 P2 2026-12-28 · PP unterwegs, Brücke klären, Event-Tipps für die Mess-Abende raus
+   KPI Warteliste: 740 bestätigt (Alarm 300) · Grind+-Ziel 840 · Korridor 700 am 31.12.
+   KPI Follower TikTok + IG, neu seit 12.10.: ~2.220 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern
+   KPI Zusagen „Die ersten 35“: 22 (Name, Größe, „ich bestelle am 01.02.“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Gate So 03.01.: Liste ≥ 740, Testauszahlung angekommen, Brücke ja/nein
+Mon 28.12. B [10′] Versand des PP-Samples bestätigen, Tracking holen
+Mon 28.12. C [20′ Video V041] 18:00 · V041 posten: BUILD Day 78 „Was 2027 passiert“
+Tue 29.12. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Tue 29.12. C [15′ Video R08] 19:00 · REWIND #08 „8 Handys, 1 Sekunde“ posten
+Wed 30.12. V [20′ Prompt] PRESSE: Event-Tipp P3 (Mess-Abende 03.02., 10.02.), geplant Sa 02.01., 09:00
+Wed 30.12. C [20′ Video V042] 19:00 · V042 posten: REACH „Die einzige ihrer Art“
+Wed 30.12. C [90′ Video R10] Dreh · REWIND #10 „Ich treffe mein Ich aus 2027“ (Klon)
+Thu 31.12. A [15′ Prompt] Monatsabschluss Dezember (Korridor: 700 auf der Liste)
+Thu 31.12. A [30′ Prompt] Brücke klären: schriftliche Stand-by-Zusage 1.500 € in der Familie
+Thu 31.12. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Thu 31.12. C [20′ Video R08M] 18:00 · Making-of REWIND #08 posten: Rohaufnahme neben Endfassung
+Fri 01.01. N [] Frei. Kein Post, keine Aufgabe.
+Sat 02.01. N [] 09:00 geht der Event-Tipp geplant raus (in Gmail unter „Geplant“ kurz prüfen).
+Sat 02.01. C [10′ Video V043] 12:00 · V043 ASK-Story „Frag mich alles“
+Sat 02.01. C [15′ Video R09] 12:00 · REWIND #09 „Hält der Lebensbaum 20 kg?“ posten
+Sun 03.01. A [20′ Prompt] Wochenreview W16 + Cockpit + Zeile an Claude
+Sun 03.01. D [10′] GATE 03.01.: Liste ≥ 740, PP unterwegs, Brücke ja/nein
+Sun 03.01. C [75′ Video V044–V048] Content-Batch W17: V044, V045, V047, V048 vorbereiten und drehen
+Sun 03.01. C [10′ plus] Grind+ · WhatsApp-Kanal anlegen (optional, nur Erinnerungen)
+Sun 03.01. C [15′ Video R10] 19:00 · REWIND #10 „Ich treffe mein Ich aus 2027“ posten
+
+=== W17 P2 2027-01-04 · SAMPLE-GATE am Di: Jeans-PP und Zipper-Muster freigegeben. Danach Gewerbe, Steuer und Zahlungen
+   KPI Warteliste: 850 bestätigt (Alarm 380), Grind+-Ziel 960
+   KPI Follower TikTok + IG, neu seit 12.10.: ~2.550 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Zusagen „Die ersten 35“: 25 (nur Spalte „Zusage“: Name, Größe, „ich bestelle am 01.02.“)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI PP: freigegeben am Di 05.01.
+Mon 04.01. B [90′] PP-Sample prüfen: 10 Maße, Fäden, Patch, Knopf, Nieten, Labels
+Mon 04.01. C [20′ Video V044] 18:00 · V044 posten: BUILD „Das finale Sample“
+Mon 04.01. V [5′ Prompt] Briefing-Karte für die Creator-Preview bei Claude bestellen
+Mon 04.01. B [10′ plus] Waschserie mit dem PP starten: bis Fr täglich 1× auf links
+Tue 05.01. B [30′] PP-Sample schriftlich freigeben
+Tue 05.01. D [10′ Prompt] SAMPLE-GATE: Jeans-PP und Zipper-Muster freigegeben?
+Tue 05.01. V [15′] CREATOR: Zusagen bestätigen, Briefing-Karte schicken (C4)
+Tue 05.01. V [10′] PRESSE: Welle 1 einmal nachfassen (P4)
+Tue 05.01. C [20′ Video V045] 18:00 · V045 posten: ORIGIN „Warum vorbestellen“
+Wed 06.01. B [35′ Prompt] Bestellkonditionen festzurren, Stoff für 100 Paar reservieren
+Wed 06.01. B [30′] Mini-Shoot 2 mit dem PP: Goldfäden, N°, Makros für die Produktseite
+Wed 06.01. A [15′] Bank: Tageslimit ≥ 3.100 €, Auslandsüberweisung, Kontoart prüfen
+Wed 06.01. C [20′] 18:00 · Reserve-Post oder Variante deines besten Videos
+Wed 06.01. A [20′] Gewerbe anmelden (erst nach dem Sample-Gate)
+Thu 07.01. A [45′] Fragebogen zur steuerlichen Erfassung in ELSTER senden
+Thu 07.01. V [10′] Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Thu 07.01. A [30′] Shopify Payments aktivieren, Support fragen: Reserve und Auszahlung
+Thu 07.01. A [20′] Produkthaftpflicht: Preis bei 1–2 Versicherern anfragen
+Thu 07.01. C [10′ plus Video V117] 18:00 · Karussell oder Variante (Varianten-Regel) oder V117
+Fri 08.01. C [20′ Video V047] 18:00 · V047 posten: DETAIL „Stücknummer“
+Fri 08.01. C [120′ Video R11] Dreh · REWIND #11 „G-Klasse II“ (Rückwärts)
+Sat 09.01. C [10′ Video V048] 12:00 · V048 Story: ASK „Erinnerung“ mit Countdown
+Sat 09.01. V [15′] Mess-Abend-Zusagen zählen, Hochschul-Aushang mit ?ref=h-[kürzel]
+Sat 09.01. C [30′ Prompt] Fotograf für den Shoot 06.03. anfragen (Lette Verein, Studierende)
+Sat 09.01. C [45′] Schnitt · REWIND #11 „G-Klasse II“
+Sun 10.01. A [15′ Prompt] Wochenreview W17, Zahlen ins Cockpit, Zeile an Claude
+Sun 10.01. D [5′] Gate: Zusagen ≥ 25 · Liste ≥ 850 · Sample-Gate durch · Gewerbe angemeldet
+Sun 10.01. C [55′ Video V049–V054] Content-Batch W18: V056, V057, V058 drehen und schneiden
+Sun 10.01. C [10′ plus Video V117] 18:00 · Karussell oder Variante (Varianten-Regel) oder V117
+
+=== W18 P3 2027-01-11 · Shop-Block 1: Website Stufe 1 bauen, Rechtstexte, Versand, LUCID. Marketing läuft weiter
+   KPI Warteliste: 1.000 bestätigt (Alarm 450), Grind+-Ziel 1.130
+   KPI Follower TikTok + IG, neu seit 12.10.: ~3.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 6 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 10 kumuliert bezahlt (Alarm 6); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 11.01. A [60′ Prompt] Website Schritt 1: Werkzeuge auf dem Mac (Referenz „Website“ 9)
+Mon 11.01. A [15′] Absender-Domain in Shopify authentifizieren (vor E-Mail 1 am Di 26.01.)
+Mon 11.01. C [20′ Video V056] 18:00 · V056 posten: ORIGIN „Links die Ernte“ (sonst V110)
+Tue 12.01. A [45′ Prompt] 19:00 · Website Schritt 2: Theme-Kopie, Git, GitHub
+Tue 12.01. A [30′ Prompt] Website Schritt 3: CLAUDE.md mit deinen Regeln
+Wed 13.01. A [60′ Prompt] 19:00 · Website Schritt 4: Zeit-Modul und Countdown
+Wed 13.01. A [30′] Versand im Shop einrichten: Deutschland, EU nur bei englischen Hooks
+Wed 13.01. C [20′ Video V057] 19:00 · V057 posten: REACH „Eine Hand“
+Thu 14.01. A [60′ Prompt] 19:00 · Website Schritt 5: Wartelisten-Formular mit Größen- und Quellen-Tags
+Thu 14.01. A [20′ Prompt] LUCID: Verpackungsregister spätestens heute registrieren
+Thu 14.01. A [10′ Prompt] Feld „Codewort aus dem Video“ ins Wartelisten-Formular
+Fri 15.01. A [75′ Prompt] Rechtstexte: AGB, Widerruf, Versand, Zahlung mit Abmahnschutz + Hotline
+Fri 15.01. A [10′] Datenschutz-Endkontrolle (Referenz „Warteliste, Netz, Creator, Presse“ 3.3), Double-Opt-in prüfen
+Fri 15.01. C [20′ Video V058] 18:00 · V058 posten: DETAIL „Neun Längen“ (nach 5 Wäschen)
+Sat 16.01. A [90′ Prompt] 10:00 · Website Schritt 6: Startseite Stufe 1 „Prozess“
+Sun 17.01. A [20′ Prompt] Wochenreview W18, Zahlen ins Cockpit, Zeile an Claude
+Sun 17.01. D [5′] Gate: Payments verifiziert · Rechtstexte live · LUCID · Liste ≥ 1.000
+Sun 17.01. A [30′ Prompt] 11:00 · Website Schritt 7: Prüfen (Theme Check, Handy, Instagram-Browser)
+Sun 17.01. C [55′] Content-Batch W19: V061, V062, V063 drehen und schneiden
+Sun 17.01. C [10′ plus Video V117] 18:00 · Karussell oder Variante (Varianten-Regel) oder V117
+
+=== W19 P3 2027-01-18 · Shop-Block 2: Stufe 1 live, Produktseite, Vorbestellung als Entwurf, Reservierung offen, Testbestellung
+   KPI Warteliste: 1.000 bestätigt (Alarm 450), Grind+-Ziel 1.130
+   KPI Follower TikTok + IG, neu seit 12.10.: ~3.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 6 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 10 kumuliert bezahlt (Alarm 6); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 18.01. A [20′ Prompt] Website Schritt 8: Stufe 1 live, altes Theme wird PLAN B, Test ?ref=test
+Mon 18.01. A [30′] Zahlungsanbieter: PayPal verbinden, Auszahlungspläne notieren
+Mon 18.01. A [45′ Prompt] Reservierung bauen: „Platz in der ersten Stunde sichern“
+Mon 18.01. C [20′ Video V061] 18:00 · V061 posten: ORIGIN „Warum 100“
+Tue 19.01. A [45′ Prompt] Größenseite und FAQ: „W32 — 81 cm“, Umrechnung, sechs Einwände
+Tue 19.01. A [45′ Prompt] Produktseite Jeans als Entwurf + Vertrauens-Checkliste (9 Punkte)
+Tue 19.01. V [10′] Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Tue 19.01. A [45′] Produktseite Zipper als Entwurf: Vorbestellung, Größen mit Brustweite
+Wed 20.01. V [15′ Prompt] 19:00 · „Platz in der ersten Stunde sichern“ öffnen (bis So 31.01.)
+Wed 20.01. A [60′ Prompt] Website Schritt 9: Stufe 2 „Das Muster“ mit Proto-Fotos
+Wed 20.01. C [20′ Video V062] 19:00 · V062 posten: REACH „POV“
+Thu 21.01. A [30′] Produktseite mit echten Bildern (Proto und PP)
+Thu 21.01. A [60′] Vorbestellung in Shopify anlegen: 35 Paar, Liefertext, Status Entwurf
+Thu 21.01. V [10′] Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Fri 22.01. A [15′] Stufe 2 als Entwurf: tt_produkt_stufe2, Nr. 036–060, 25 Paar zu 169 €
+Fri 22.01. A [20′ Prompt] Vorlage „Bestellbestätigung“ um Vorbestell-Textblock ergänzen
+Fri 22.01. A [30′] Vorbestellung rechtlich sauber machen + Geld-zurück-Regel
+Fri 22.01. A [30′ Prompt] Testbestellung mit echter Karte, Auszahlung bis aufs Konto verfolgen
+Fri 22.01. C [20′ Video V063] 18:00 · V063 posten: DETAIL „Der Stern“
+Sat 23.01. A [90′ Prompt] Website Schritt 10: Nummern-Raster 001–100 als Kreuzstich
+Sat 23.01. C [15′] 12:00 · Reserve-Post oder Story-Serie
+Sat 23.01. S [150′ plus] Grind+ · Spiel-Stiltest (nur wenn das Pixel-Spiel noch Option ist)
+Sun 24.01. A [20′] Wochenreview W19, Zahlen ins Cockpit, Zeile an Claude
+Sun 24.01. D [5′] Gate: Stufe 1 live · Vorbestellung als Entwurf · Testbestellung läuft
+Sun 24.01. C [75′] Content-Batch W20: V046, V049, V050, V051, V053 drehen und schneiden
+
+=== W20 P3 2027-01-25 · Letzte Woche vor dem Start: Seite final, Generalprobe am Fr, Creator-Preview am Sa
+   KPI Warteliste: 1.250 bestätigt (Alarm 520); Grind+-Ziel 1.410
+   KPI Follower TikTok + IG, neu seit 12.10.: ~3.750 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 13 kumuliert bezahlt (Alarm 8); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 25.01. C [20′ Video V046] 19:00 · V046 posten: REACH „Nächster Montag“
+Mon 25.01. A [60′ Prompt] Website Schritt 11: Vorbestell-Zustände ohne Streichpreis
+Mon 25.01. A [30′ Prompt] Nur bei englischen Hooks (07.11.): englische Produktseite
+Tue 26.01. A [45′ Prompt] Vorbestellseite final (Checkliste 9 von 9), E-Mail 1 und Broadcast
+Tue 26.01. A [30′ Prompt] Website Schritt 12: UTM-Links, Tags, Wochenzahlen
+Tue 26.01. V [10′] Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Tue 26.01. A [20′] Zipper in die Vorbestellung: Checkliste wie bei der Jeans
+Wed 27.01. V [30′] CREATOR-Welle 2: 10 Nano-Creator zum Mess-Abend 2 einladen (C6)
+Wed 27.01. C [20′] 18:00 · Reserve-Post oder Variante deines besten Videos
+Thu 28.01. A [15′] Kaufgrund-Frage in die Bestellbestätigung „Was hat dich überzeugt?“
+Thu 28.01. A [30′ Prompt] Rückgabe festlegen: Umtausch, Erstattung, Retourengrund
+Thu 28.01. V [10′] Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Thu 28.01. C [10′ plus Video V117] 18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+Fri 29.01. A [40′] Generalprobe Vorbestellung: Checkout, Bestätigung, Zeitsteuerung
+Fri 29.01. A [10′] 30-Sekunden-Test: Freund findet Größe, Lieferdatum, Geld zurück
+Fri 29.01. B [10′] Patch-Serie: Ankunft und 110 Stück per Foto bestätigen lassen
+Fri 29.01. C [5′] Countdown-Sticker „Mo 19:00“ in die Story
+Fri 29.01. C [20′ Video V049] 18:00 · V049 posten: BUILD „Montag, 19 Uhr“
+Sat 30.01. C [20′ Video V050] 18:00 · V050 posten: ORIGIN „Vom Wandteppich auf den Zipper“
+Sat 30.01. V [90′] 18:30 · CREATOR-PREVIEW bis 20:00 (Ort vom 19.12.)
+Sun 31.01. A [20′] Wochenreview W20, Zahlen ins Cockpit, Zeile an Claude
+Sun 31.01. C [10′ Prompt] E-Mail 2 „Morgen: 18:00 für die Liste, 19:00 für alle“
+Sun 31.01. V [30′] Persönliche Nachricht an jede Zusage und jeden Reservierer
+Sun 31.01. D [5′] Gate Start-Check: Seite 9 von 9 · Testauszahlung da · Reservierung schließen · Handheber ≥ 40
+Sun 31.01. N [] Regel ab morgen: Stufe 2 geht live, sobald Nr. 035 verkauft ist (Entwurf vom 22.01. aktivieren, Mail an alle ohne Kauf, Story). Spätestens So 23.05., 20:00.
+Sun 31.01. C [20′ Video V051] 19:00 · V051 posten: REACH „Morgen“
+Sun 31.01. C [10′ plus Video V117] 18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+
+=== W21 P3 2027-02-01 · Vorbestellung öffnet Mo 01.02., 19:00 (Liste 18:00), Mess-Abend 1 am Mi, erste Zahlen
+   KPI Warteliste: 1.500 bestätigt (Alarm 600); Grind+-Ziel 1.690; Korridor 1.500 am 07.02.
+   KPI Follower TikTok + IG, neu seit 12.10.: ~4.500 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 16 kumuliert bezahlt (Alarm 10); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 01.02. V [105′ Video V052] 17:50 · VORBESTELLUNG: 18:00 Liste, 19:00 öffentlich, Live, V052
+Mon 01.02. C [15′ Video R11] 19:00 · REWIND #11 „G-Klasse II“ posten
+Tue 02.02. A [15′] Bestellungen ins Blatt „Pre-Order“
+Tue 02.02. A [10′] Bestand je Größe umschichten, morgens und abends (Summe 35)
+Tue 02.02. V [30′] DM an alle Reservierer und Netz-Namen ohne Vorbestellung
+Tue 02.02. B [30′ Prompt] Feld am Stadtrand für Shoot und „Das Feld wächst“ suchen
+Wed 03.02. A [5′] Bestand je Größe umschichten (morgens und vor dem Mess-Abend)
+Wed 03.02. C [10′ Video V054] 12:00 · V054 Story: ASK „Zwischenstand 48 h“ (nur echte Zahl)
+Wed 03.02. V [110′] 18:00 · MESS-ABEND 1 bis 20:00 (Aufbau ab 17:40)
+Wed 03.02. V [60′ plus] Mess-Abend 1 bis 21:00 offen lassen
+Thu 04.02. A [5′] Bestand je Größe ein letztes Mal umschichten (morgens)
+Thu 04.02. V [10′] 13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Thu 04.02. C [10′ plus Video V117] 18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+Thu 04.02. C [90′ Video R12] Dreh · REWIND #12 „Der Baum wächst aus der Hose“ (Match Cut)
+Fri 05.02. V [30′] 11:00 · CREATOR-Clips einsammeln, Anmeldungen je Creator, Danke-DM
+Fri 05.02. C [20′ Video V053] 18:00 · V053 posten: DETAIL „Der Patch“
+Sun 07.02. A [15′] 10:00 · Monatsabschluss Januar (Korridor 1.500 auf der Liste)
+Sun 07.02. A [20′ Prompt] 10:15 · Wochenreview W21 + Cockpit + Zeile an Claude
+Sun 07.02. D [5′] Gate: Vorbestellungen ≥ 8 · Liste ≥ 1.500 · Stufe-2-Check
+Sun 07.02. C [45′ Video V055–V059] Content-Batch W22: V055, V060 drehen, V059 und V064 als Vorlage
+Sun 07.02. C [10′ plus Video V117] 18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+
+=== W22 P3 2027-02-08 · Vorbestellung am Laufen halten, Mess-Abend 2 am Mi, Hochrechnung und Kaufquote vor der Schwelle
+   KPI Warteliste: 1.500 bestätigt (Alarm 600); Grind+-Ziel 1.690; Korridor 1.500 am 07.02.
+   KPI Follower TikTok + IG, neu seit 12.10.: ~4.500 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 16 kumuliert bezahlt (Alarm 10); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 08.02. C [10′ Prompt] E-Mail 4 „Noch X Paar“ mit echter Zahl planen (Versand 18:00)
+Mon 08.02. V [30′ Prompt] Zweite DM-Welle an Zusagen ohne Bestellung
+Mon 08.02. C [20′ Video V055] 18:00 · V055 posten: BUILD Day 120 „Zwischenstand“ (echte Zahl)
+Mon 08.02. C [20′ Video R11M] 18:00 · Making-of REWIND #11 posten: Rohaufnahme neben Endfassung
+Tue 09.02. D [20′] Tempo bewerten: Werbegeld ja oder nein
+Tue 09.02. C [20′ Prompt] E-Mail an Abonnenten ohne Kauf planen
+Tue 09.02. C [20′ Video V060] 18:00 · V060 posten: BUILD Day 121 „Noch X Paar“ (nur echte Zahl)
+Wed 10.02. C [10′ Video V059] 12:00 · V059 ASK: Story-Q&A starten, Antworten abends live
+Wed 10.02. V [110′] 18:00 · MESS-ABEND 2 (bis 20:00), QR ?ref=mess2, Nano-Creator willkommen
+Wed 10.02. V [60′ plus] 20:00 · Grind+ Mess-Abend bis 21:00 offen lassen
+Thu 11.02. D [20′ Prompt] Hochrechnung Cash-Schwelle für Mo 15.02.
+Thu 11.02. V [20′] Vorbestellungen und DMs: Fragen beantworten, Zusagen ohne Kauf freundlich nachfassen
+Thu 11.02. V [45′ Prompt] Persönliche DMs an Zusagen und Handheber ohne Kauf
+Fri 12.02. C [20′] 18:00 · Reserve-Post oder Variante deines besten Videos
+Sat 13.02. C [10′ Video V064] 12:00 · V064 ASK-Story „Montag entscheidet“
+Sun 14.02. A [20′ Prompt] 10:00 · Wochenreview W22 + Kaufquote + Cockpit + Zeile an Claude
+Sun 14.02. D [10′] 10:20 · Gate Kaufquote, Vor-Check Schwelle, Patches, Stufe-2-Check
+Sun 14.02. C [25′ Video V065] 11:00 · Content-Batch W23 vorbereiten (V065 drehst du am Mo)
+
+=== W23 P3 2027-02-15 · Schwelle nach der Mengenformel prüfen, Bestellung mit Endkontroll-Nachweis senden, Anzahlung zahlen, Spiel entscheiden
+   KPI Warteliste: 1.700 bestätigt (Alarm 660); Grind+-Ziel 1.920
+   KPI Follower TikTok + IG, neu seit 12.10.: ~5.100 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 3 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 18 kumuliert bezahlt (Alarm 12); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 15.02. D [30′ Prompt] 10:00 · SCHWELLE: 100, 75 oder schieben (Mengenformel rechnen)
+Mon 15.02. D [10′] 10:30 · Gate Schwelle 1 entscheiden und umsetzen
+Mon 15.02. C [20′ Video V065] 18:00 · V065 drehen und posten: BUILD Day 127 „100 oder 75“
+Mon 15.02. D [15′] 10:45 · Gate Zipper-Schwelle: produzieren oder Geld zurück
+Tue 16.02. B [30′ Prompt] 10:00 · Größensplit für die Bestellung festlegen
+Tue 16.02. V [10′] 13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Tue 16.02. C [15′ Video R12] 19:00 · REWIND #12 „Der Baum wächst aus der Hose“ posten
+Wed 17.02. B [40′ Prompt] 10:00 · BESTELLUNG (PO) senden mit Endkontroll-Nachweis und Klauseln
+Wed 17.02. N [] Info · Ab der Anzahlung gibt es keinen Ausstieg ohne Schaden für Vorbesteller
+Wed 17.02. C [45′ Video V066] 19:00 · V066 drehen und posten: REACH „Bestellt“
+Wed 17.02. B [30′] Zipper-Bestellung (PO) senden, nur bei erreichter Zipper-Schwelle
+Thu 18.02. B [15′] 10:00 · Anzahlung überweisen (nur auf das Konto der ersten Proforma)
+Thu 18.02. V [10′] 13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Thu 18.02. C [15′ Prompt] 14:00 · Werkstatt-Mail 3 „Bestellt. X von 35“ planen (19:00)
+Thu 18.02. C [10′ plus Video V117] 18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+Thu 18.02. C [60′ Video R13] Dreh · REWIND #13 „Rückgängig“ (Rückwärts + Zeitlupe)
+Thu 18.02. B [10′] Anzahlung Zipper-Fabrik, nur bei Zipper-Bestellung
+Fri 19.02. B [15′] 10:00 · Produktionsplan schriftlich (Ramadan, Fest, Ferien, Feiertage)
+Fri 19.02. D [20′] 11:00 · Spiel: bauen oder streichen
+Fri 19.02. C [45′ Video V067] 18:00 · V067 drehen und posten: REAL „Überwiesen“
+Sat 20.02. A [30′ Prompt] 10:00 · Shoot „Die Hütte“ planen (Sa 06.03.)
+Sat 20.02. V [10′] 11:00 · Top-3-Werber und Creator mit W34 für den Shoot fragen
+Sat 20.02. V [10′] 13:00 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Sun 21.02. A [20′ Prompt] 10:00 · Wochenreview W23 + Cockpit + Zeile an Claude
+Sun 21.02. D [10′] 10:20 · Gate PO, Anzahlung, Vorbestellungen, Kasse, Stufe-2-Check
+Sun 21.02. C [50′ Video W22-ORIGIN] 11:00 · Content-Batch W24: 2 Videos drehen und schneiden
+Sun 21.02. C [10′ plus Video V117] 18:00 · Grind+ Karussell oder Variante (Varianten-Regel) oder V117
+
+=== W24 P4 2027-02-22 · Produktion läuft, Hangtags in Druck, Helfer suchen
+   KPI Warteliste: 1.900 bestätigt (Alarm 720); Grind+-Ziel 2.150
+   KPI Follower TikTok + IG, neu seit 12.10.: ~5.700 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 20 kumuliert bezahlt (Alarm 14); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 22.02. B [15′ Prompt] 09:00 · Produktionsplan im Blick, Ramadan-Zeiten, Zuschnitt-Fotos
+Mon 22.02. C [45′ Video V068] 18:00 · V068 drehen und posten: BUILD Day 134 „In Produktion“
+Tue 23.02. C [20′ Video V069] 18:00 · V069 posten: ORIGIN „Wie eine Jeans entsteht“ (Karussell)
+Tue 23.02. N [] Info: „Werkzeuge für das Spiel“ (Rev. 5.3) entfällt, die Werkzeuge stehen seit 11.01.
+Tue 23.02. S [60′ plus] 20:00 · Nur bei Spiel = bauen: A1 Graubox (Referenz „Website“ 9)
+Tue 23.02. C [15′ Video R13] 19:00 · REWIND #13 „Rückgängig“ posten
+Wed 24.02. N [] Info: Heute nichts Werbliches, kein Post und keine Story (5. Jahrestag des russischen Großangriffs). Der Post von heute läuft morgen.
+Wed 24.02. N [] Info: „Theme-Kopie holen“ (Rev. 5.3) entfällt, erledigt am 12.01.
+Thu 25.02. N [] Info: „Prompt 1: Graubox“ nur bei Spiel = bauen
+Thu 25.02. V [10′] 12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Thu 25.02. S [60′ plus] 20:00 · Nur bei Spiel = bauen: Graubox weiter
+Thu 25.02. C [10′ plus Video V117] 18:00 · Grind+: Variante des besten Videos oder V117
+Thu 25.02. C [20′ Video V070] 19:00 · V070 posten: REACH „Stoff“
+Thu 25.02. C [90′ Video R14] Dreh · REWIND #14 „Ein Goldfaden setzt sich selbst“ (Stop-Motion)
+Fri 26.02. A [45′ Prompt] 10:00 · Hangtags und Hangtag-Karte in Druck geben (ohne Nummer)
+Fri 26.02. C [45′ Video V071] 18:00 · V071 drehen und posten: DETAIL „Der Hangtag“
+Sat 27.02. C [10′ Video V072] 12:00 · V072 Story ASK „Casting“ für den Shoot am 06.03.
+Sat 27.02. V [30′ Prompt] 14:00 · PRESSE: Pressetext v2 mit Drop-Daten, Helfer-Aushang Hochschulen
+Sun 28.02. A [20′ Prompt] 10:00 · Wochenreview W24 und Zahlen ins Cockpit
+Sun 28.02. D [5′] 10:20 · Gate W24: Vorbestellungen ≥ 14, Produktionsplan, Stoff, Stufe 2
+Sun 28.02. C [95′ Video V073] 11:00 · Content-Batch W25: V073, V074, V075, V076 drehen und schneiden
+Sun 28.02. S [20′ plus] 16:00 · Nur bei Spiel = bauen: Spiel-Check Steuerung
+Sun 28.02. C [10′ plus] 18:00 · Grind+: Variante des besten Videos oder V117
+
+=== W25 P4 2027-03-01 · Lookbook-Shoot „Die Hütte“
+   KPI Warteliste: 2.150 bestätigt (Alarm 790); Grind+-Ziel 2.430
+   KPI Follower TikTok + IG, neu seit 12.10.: ~6.450 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 4 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 22 kumuliert bezahlt (Alarm 16); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 01.03. C [20′ Video V073] 18:00 · V073 posten: BUILD Day 141 „Shoot am Samstag“
+Mon 01.03. S [20′ plus] 20:00 · Nur bei Spiel = bauen: Palette und Flaggen-Check
+Tue 02.03. B [20′ Prompt] 10:00 · Inline-Kontrolle 1: bestickte Panels prüfen
+Tue 02.03. C [20′ Video V074] 18:00 · V074 posten: ORIGIN „Der Zipper“
+Tue 02.03. C [15′ Video R14] 19:00 · REWIND #14 „Ein Goldfaden setzt sich selbst“ posten
+Wed 03.03. A [40′ Prompt] 10:00 · Shotliste und Shoot-Konzept „Die Hütte“ schreiben
+Wed 03.03. C [20′ Video V075] 19:00 · V075 posten: REACH „Drei Teile“
+Thu 04.03. A [20′ Prompt] 11:00 · Trockenweizen und Requisiten besorgen, Model-Einwilligungen
+Thu 04.03. V [10′] 12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Thu 04.03. S [90′ plus] 20:00 · Nur bei Spiel = bauen: Pixel-Art Teil 1
+Thu 04.03. C [10′ plus Video V117] 18:00 · Grind+: Variante des besten Videos oder V117
+Thu 04.03. C [90′ Video R15] Dreh · REWIND #15 „Gleicher Ort, 100 Jahre später“ (Match Cut)
+Fri 05.03. A [45′] 10:00 · Shoot vorbereiten: Kamera, Kleidung, Packliste
+Fri 05.03. C [20′ Video V076] 18:00 · V076 posten: DETAIL „Der Polo“
+Sat 06.03. C [180′ Video Shoot-Roh (V077, V078, V079, CD-T24–CD-T01)] 14:00 · SHOOT „Die Hütte“: drinnen mit Teppich, dann goldene Stunde
+Sun 07.03. A [60′] 10:00 · Shoot sichten und auswählen
+Sun 07.03. C [5′] 11:00 · Erstes Shoot-Bild zuerst im Broadcast
+Sun 07.03. A [20′ Prompt] 11:10 · Wochenreview W25 und Zahlen ins Cockpit
+Sun 07.03. D [5′] 11:30 · Gate W25: Vorbestellungen ≥ 16, Inline-Fotos 1, Stufe 2
+Sun 07.03. C [30′] 14:00 · Content-Batch W26: V077 und V078 schneiden
+Sun 07.03. C [10′ plus] 18:00 · Grind+: Variante des besten Videos oder V117
+
+=== W26 P4 2027-03-08 · Kampagnenmaterial fertig, 24.02. ruhig, Pressemappe v2
+   KPI Warteliste: 2.400 bestätigt (Alarm 850); Grind+-Ziel 2.710 · Korridor: 2.400 am 14.03.
+   KPI Follower TikTok + IG, neu seit 12.10.: ~7.200 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 4 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 24 kumuliert bezahlt (Alarm 18); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 08.03. C [20′ Video V077] 18:00 · V077 posten: BUILD Day 148 „Hinter den Kulissen“
+Mon 08.03. C [15′ Prompt] 19:00 · Werkstatt-Mail 4 „Der Shoot“ senden
+Mon 08.03. S [90′ plus] 20:00 · Nur bei Spiel = bauen: Pixel-Art Teil 2 und Prompt 2
+Tue 09.03. A [45′ Prompt] 09:00 · Shop-Bilder aufbereiten und hochladen
+Tue 09.03. A [30′] 10:00 · Verpackung bestellen: 110 Kartons unbedruckt, Stempel
+Tue 09.03. A [30′ Prompt] 10:30 · Verpackungslizenz abschließen, Menge in LUCID melden
+Tue 09.03. V [10′] 12:30 · Community: 5 Kommentare in der Nische, DMs, jedes „Ja“ ins Blatt
+Wed 10.03. A [30′ Prompt] 10:00 · Drop-E-Mails schreiben lassen (intern, nur Entwürfe)
+Wed 10.03. C [15′ Video R15] 19:00 · REWIND #15 „Gleicher Ort, 100 Jahre später“ posten
+Thu 11.03. C [60′] 10:00 · Kampagnenfilm schneiden (30 s)
+Thu 11.03. C [20′ Video V078] 19:00 · V078 posten: REACH „Das erste Bild“ (vom 24.02. verschoben)
+Thu 11.03. S [90′ plus] 20:00 · Nur bei Spiel = bauen: Pixel-Art Teil 3 und Prompt 3
+Thu 11.03. C [10′ plus] 18:00 · Grind+: Variante des besten Videos oder V117
+Fri 12.03. C [45′ Video V079] 18:00 · V079 posten: DETAIL „Kampagnenfilm“
+Sat 13.03. C [10′ Video V080] 12:00 · V080 Story ASK „Hauptbild“
+Sat 13.03. V [30′] 13:00 · PRESSE: Pressemappe v2 mit Shoot-Fotos und Kampagnenfilm
+Sat 13.03. A [60′ Prompt] 15:00 · Website Schritt 14: Shoot-Bilder in die Story
+Sun 14.03. A [15′] 10:00 · Monatsabschluss Februar (Korridor 2.400)
+Sun 14.03. A [25′ Prompt] 10:15 · Wochenreview W26, Cockpit, Shopify-Email-Kontingent für Juni
+Sun 14.03. D [5′] 10:40 · Gate 14.03.: Vorbestellungen ≥ 18, Liste ≥ 850, Kontingent, Stufe 2
+Sun 14.03. C [75′ Video W25-BUILD „Das ist Time Travel“] 11:00 · Content-Batch W27: 4 Videos drehen und schneiden
+Sun 14.03. S [15′ plus] 16:00 · Nur bei Spiel = bauen: Formular-Test im Spiel
+Sun 14.03. C [10′ plus] 18:00 · Grind+: Variante des besten Videos oder V117
+
+=== W27 P4 2027-03-15 · Fertige Jeans prüfen, Versand aufbauen, Presse-Welle 2 raus und Mess-Abend 3 ankündigen
+   KPI Warteliste: 2.450 bestätigt (Alarm 880); Grind+-Ziel 2.770
+   KPI Follower TikTok + IG, neu seit 12.10.: ~7.350 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 26 kumuliert bezahlt (Alarm 21); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 15.03. B [30′ Prompt] 09:00 · Inline-Kontrolle 2: genäht und gewaschen
+Mon 15.03. C [20′ Video V081] 18:00 · V081 posten: BUILD „Das ist Time Travel“
+Mon 15.03. B [15′] Fabrik informieren: Abi-Pause, Ware fertig bis Fr 14.05.
+Tue 16.03. A [45′ Prompt] 10:00 · Versandweg wählen und einrichten (DHL oder Sendcloud)
+Tue 16.03. C [20′ Video V082] 18:00 · V082 posten: ORIGIN „Rot und Weiß“
+Tue 16.03. S [60′ plus] 20:00 · Spiel: Prompt 4 „Tür mit drei Zuständen“ (nur bei bauen)
+Tue 16.03. C [45′] Autopilot für die Abi-Pause (1/2): 4 Posts vorproduzieren und einplanen
+Wed 17.03. A [40′] 16:00 · Probepaket packen, Zeit stoppen, Zeitraffer filmen
+Wed 17.03. C [20′ Video V083] 19:00 · V083 posten: REACH „Nummer vergeben“
+Wed 17.03. C [45′] Autopilot für die Abi-Pause (2/2): 3 Posts einplanen, einer davon ehrlich
+Thu 18.03. B [15′ Prompt] 09:00 · Fabrik: Plan rund um das Opferfest (TR ca. 15.–19.05.)
+Thu 18.03. A [30′ Prompt] 10:00 · Textbausteine für Kundenfragen als Kürzel aufs Handy
+Thu 18.03. V [30′ Prompt] 11:00 · PRESSE-WELLE 2 „Drop 24.06.“ an 7 Medien senden
+Thu 18.03. V [5′] 12:00 · Event-Tipp Mess-Abend 3 für Fr 19.03., 09:00 planen
+Thu 18.03. V [10′] 17:00 · Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Thu 18.03. C [10′ plus Video V117] 18:00 · Grind+ Variante des besten Videos oder V117
+Fri 19.03. N [] 09:00 · Der Event-Tipp Mess-Abend 3 geht geplant raus
+Fri 19.03. D [15′] 09:30 · Freie Tage und Packhilfe planen; Drop-Abend Sa 26.06.?
+Fri 19.03. V [15′] 10:00 · Countdown-Stand prüfen: Holzmarkt und Nowkoelln Flowmarkt
+Fri 19.03. A [60′ Prompt] 11:00 · Website Schritt 15: Drop-Zustände (Schlüssel, Live, Ausverkauft)
+Fri 19.03. C [20′ Video V084] 18:00 · V084 posten: DETAIL „Fäden nicht abschneiden“
+Sat 20.03. V [10′ Prompt] 10:00 · Einladung Mess-Abend 3 (Sa 15.05.) an alle ohne Vorbestellung
+Sat 20.03. C [10′ Video V085] 12:00 · V085 ASK-Story „Paket“
+Sat 20.03. A [90′ Prompt] 14:00 · Website Schritt 16: „Der Weg zur Hütte“
+Sun 21.03. A [20′ Prompt] 10:00 · Wochenreview W27 + Cockpit + Zeile an Claude
+Sun 21.03. D [10′] 10:20 · Gate: Vorbestellungen ≥ 21, Inline-Fotos 2, Rücklage, Stufe 2
+Sun 21.03. C [80′ Video V089] 15:30 · Content-Batch W35: V086–V090 drehen, bauen, schneiden
+Sun 21.03. C [10′ plus Video V117] 18:00 · Grind+ Variante des besten Videos oder V117
+
+=== W28 P4 2027-03-22 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 22.03. N [] Abi-Pause, Woche 1 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 28.03. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+
+=== W29 P4 2027-03-29 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 29.03. N [] Abi-Pause, Woche 2 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 04.04. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+
+=== W30 P4 2027-04-05 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 05.04. N [] Abi-Pause, Woche 3 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 11.04. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+
+=== W31 P4 2027-04-12 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 12.04. N [] Abi-Pause, Woche 4 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 18.04. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+
+=== W32 P4 2027-04-19 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 19.04. N [] Abi-Pause, Woche 5 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 25.04. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+
+=== W33 P4 2027-04-26 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 26.04. N [] Abi-Pause, Woche 6 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 02.05. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+
+=== W34 P4 2027-05-03 · Abi-Pause. Die Fabrik produziert, du schreibst Prüfungen.
+Mon 03.05. N [] Abi-Pause, Woche 7 von 7: keine Aufgaben. Automatisch laufen ein eingeplanter Post pro Woche und die Produktion in der Fabrik. Viel Erfolg!
+Sun 09.05. A [10′] 10 Minuten: Mails von Kunden und Fabrik
+Sun 09.05. A [20′] Neustart vorbereiten: Docket W35 lesen, Fabrik nach dem Liefertermin fragen
+
+=== W35 P4 2027-05-10 · Fest in der Türkei überbrücken, Restzahlung vorbereiten, Mess-Abend 3 vor die Restzahlung legen
+   KPI Warteliste: 2.500 bestätigt (Alarm 910); Grind+-Ziel 2.820
+   KPI Follower TikTok + IG, neu seit 12.10.: ~7.500 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 29 kumuliert bezahlt (Alarm 25); für die Schwellen zählt nur ausgezahltes Geld
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 10.05. N [] Info · Kein Feiertag (korrigiert 22.10.: der Frauentag ist am 08.03.). Feiertage im Mai: Do 06.05. Himmelfahrt, Mo 17.05. Pfingstmontag. Event-Tipp lief schon Fr 19.03.
+Mon 10.05. B [15′ Prompt] 09:00 · Fabrik-Status vor dem Fest anfordern (bis 10:00)
+Mon 10.05. A [60′ Prompt] 10:00 · Website Schritt 17: Gerätetest mit strengem Prüf-Prompt
+Mon 10.05. C [20′ Video V086] 18:00 · V086 posten: BUILD „Fast fertig“
+Tue 11.05. A [60′] 10:00 · Werbung vorbereiten: Konto, Zahlung, Pixel mit Cookie-Banner
+Tue 11.05. C [20′ Video V087] 18:00 · V087 posten: ORIGIN Karussell „Für alle Neuen“ (anheften)
+Wed 12.05. B [20′ Prompt] 09:00 · Restzahlung 21.05. vorbereiten (Steuer-Rücklage mitrechnen)
+Wed 12.05. C [20′ Video V088] 19:00 · V088 posten: REACH „So wird verpackt“
+Wed 12.05. C [100′ Video R16] Dreh · REWIND #16 „Riesen-Jeans am Fernsehturm“ (KI-Video)
+Thu 13.05. B [20′ Prompt] 09:00 · Versandpapiere klären (TR: A.TR, Handelsrechnung, Packliste)
+Thu 13.05. B [30′ Prompt] 10:00 · Warenannahme und Prüfung vorbereiten (Ankunft ab 01.06.)
+Thu 13.05. V [10′] 17:00 · Community: 5 Kommentare, DMs, jedes „Ja“ ins Blatt
+Thu 13.05. C [10′ plus Video V117] 18:00 · Grind+ Variante des besten Videos oder V117
+Thu 13.05. C [15′ Video R16] 19:00 · REWIND #16 „Riesen-Jeans am Fernsehturm“ posten
+Fri 14.05. C [15′ Prompt] 09:00 · E-Mail „Vorbestellpreis endet“ für Mo 17.05., 18:00 planen
+Fri 14.05. V [15′] 10:00 · PRESSE: Welle 2 einmal nachfassen
+Fri 14.05. V [10′] 10:15 · Nur bei Drop-Abend = ja: Laden schriftlich bestätigen
+Fri 14.05. C [20′ Video V089] 18:00 · V089 posten: DETAIL „Gold im Licht“
+Sat 15.05. C [10′ Video V090] 12:00 · V090 ASK-Story „Letzte Woche Vorbestellpreis“
+Sat 15.05. C [5′ plus Video Bring3-W26] 13:00 · Grind+ „Bring 3“-Story: „Letzte Woche Vorbestellpreis“
+Sat 15.05. V [110′] 18:00 · MESS-ABEND 3 (18:00–20:00), QR ?ref=mess3
+Sat 15.05. S [60′ plus] 14:00 · Spiel: Playtest mit 5 Leuten (nur bei bauen)
+Sun 16.05. A [30′ Prompt] 10:00 · Wochenreview W35 + Cockpit + Zeile an Claude
+Sun 16.05. D [10′] 10:30 · Gate ≥ 29 Vorbestellungen · 32 ausgezahlt bis 18.05. · Stufe 2
+Sun 16.05. C [80′ Video W27-BUILD] 14:00 · Content-Batch W36: 4 Videos drehen und schneiden
+Sun 16.05. C [10′ plus Video V117] 18:00 · Grind+ Variante des besten Videos oder V117
+
+=== W36 P4 2027-05-17 · Restzahlung nach bestandener Endkontrolle, Vorbestellpreis endet So 20:00, alle 24 Countdown-Assets vorproduziert
+   KPI Warteliste: 2.560 bestätigt (Alarm 950); Grind+-Ziel 2.890
+   KPI Follower TikTok + IG, neu seit 12.10.: ~7.680 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 35 kumuliert bezahlt (Alarm: 32 ausgezahlt bis Di 18.05.); Stufe 2 läuft, sobald Nr. 035 verkauft ist
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Restzahlung: Fr 21.05., spätestens Backstop Mi 26.05.
+Mon 17.05. N [] Info · Shopify-E-Mail „Vorbestellpreis endet“ geht heute raus, Countdown-Sticker auf So 23.05., 20:00
+Mon 17.05. B [15′ Prompt] 09:00 · Fabrik-Status nach dem Fest: Endkontrolle und Versand bestätigen
+Mon 17.05. V [5′] 10:00 · Creator um freiwillige Story „Vorbestellpreis endet So 20:00“ bitten
+Mon 17.05. C [20′ Video V091] 18:00 · V091 posten: BUILD Day 218 „Noch bis Sonntag“
+Mon 17.05. S [60′ plus Prompt] Grind+ · Nur bei Spiel = bauen: Playtest-Probleme beheben
+Tue 18.05. A [75′ Prompt] Drop-Produkte fertig machen: Jeans, Zipper, Polo (falls dabei), Kollektion (Entwurf)
+Tue 18.05. C [20′ Video V092] 18:00 · V092 posten: ORIGIN „Gold nur, wo etwas wächst“
+Wed 19.05. A [30′] Shop-Durchlauf mit echter Karte: Kauf, Rechnung, Label, Erstattung
+Wed 19.05. A [20′ Prompt] 21:30 · Website Schritt 18: PLAN B anlegen und Umschalten üben (< 1 Min.)
+Wed 19.05. C [20′ Video V093] 19:00 · V093 posten: REACH „Papier zu Garn“
+Thu 20.05. C [60′ Video CD-T24 bis CD-T13] Countdown-Assets Teil 1: CD-T24 bis CD-T13 bauen und exportieren
+Thu 20.05. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Thu 20.05. C [10′ plus Video V117] Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+Fri 21.05. B [45′ Prompt] 10:00 · ENDKONTROLLE nach dem Nachweis aus der PO prüfen
+Fri 21.05. D [10′] Gate · ≥ 32 ausgezahlt bis 18.05. + Nachweis vollständig → RESTZAHLUNG
+Fri 21.05. C [20′ Video V094] 18:00 · V094 posten: DETAIL „45 × 45“
+Sat 22.05. C [60′ Video CD-T12 bis CD-T01] Countdown-Assets Teil 2: CD-T12 bis CD-T01 bauen und exportieren
+Sat 22.05. C [10′ Video V095] 12:00 · V095 posten: ASK-Story „Letzter Tag“
+Sat 22.05. C [15′ Prompt] Mail „Heute 20:00 endet der Vorbestellpreis“ auf So 12:00 terminieren
+Sun 23.05. N [] Info · 12:00 geht die Mail „Heute 20:00 endet der Vorbestellpreis“ geplant raus
+Sun 23.05. A [20′ Prompt] 10:00 · Wochenreview W36 mit Gates, Kassencheck und Cockpit
+Sun 23.05. C [60′ Video V096 · V097 · V099] 11:00 · Content-Batch W37: V096, V097, V099 drehen und schneiden
+Sun 23.05. D [5′] Gate · 35 zu 149 € voll? Sonst Rest über Stufe 2, Preis nie verlängern
+Sun 23.05. A [20′] 19:55 · Broadcast, 20:00 Vorbestellpreis schließen, Stufe 2 live, Bestand
+Sun 23.05. S [15′ plus] Grind+ · Nur bei Spiel = bauen: letzter Stand vor dem Launch
+Sun 23.05. C [10′ plus] Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+
+=== W37 P4 2027-05-24 · Ware mit Tracking unterwegs, Lager, Packstation, Support und Werbung stehen, Countdown startet Mo 31.05.
+   KPI Warteliste: 2.620 bestätigt (Alarm 1.050); Grind+-Ziel 2.960
+   KPI Follower TikTok + IG, neu seit 12.10.: ~7.860 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 5 Kern + 2 Grind+ (Karussell/Variante)
+   KPI Vorbestellungen: 37 kumuliert bezahlt (Alarm 35); bei Steuer 40 ausgezahlt bis Mi 26.05.; ab Nr. 036 Stufe 2 zu 169 €
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 24.05. N [] Info · CTA bis 06.06.: „Drop 24.06., 19:00. Bis So 06.06. noch vorbestellen: 169 €, Lieferung Anfang Juni. Link in Bio.“ Ab 07.06. „Die Liste kommt um 18:00 rein.“
+Mon 24.05. B [15′ Prompt] 09:00 · Sendung verfolgen: Tracking, Ankunftstag in den Kalender
+Mon 24.05. A [30′ Prompt] Website Schritt 19: stiller Launch Stufe 4 „Der Weg zur Hütte“
+Mon 24.05. C [15′ Prompt] Mail an alle ohne Kauf: „Stufe 2 bis So 06.06.: 169 €“
+Mon 24.05. C [20′ Video V096] 18:00 · V096 posten: BUILD Day 225 „Alles bezahlt“
+Tue 25.05. A [45′] Lager und Packstation aufbauen, Zeitraffer für V098 filmen
+Tue 25.05. C [20′ Video V097 Prompt] 18:00 · V097 posten: ORIGIN „Warum Time Travel“
+Wed 26.05. D [10′] Gate · Tracking da? Backstop Restzahlung? Steuer-Geld: 40 ausgezahlt?
+Wed 26.05. V [20′ Prompt] Vorbesteller informieren: Lieferung Anfang Juni, wie in der Bestätigung
+Wed 26.05. C [45′ Video V098] 19:00 · V098 schneiden und posten: REACH „Packstation“
+Thu 27.05. A [30′ Prompt] Support festlegen: Postfach, Antwortzeiten, Textbausteine
+Thu 27.05. A [30′] Helfer: Vertrag unterschrieben, angemeldet, Lohn ins Blatt „Kasse“
+Thu 27.05. V [10′] Community: 5 Kommentare mit Inhalt, DMs, jedes „Ja“ ins Blatt
+Thu 27.05. C [10′ plus Video V117] Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+Thu 27.05. C [60′ Video R18] Dreh · REWIND #18 „Der Zeitsog“ (Dolly-Zoom)
+Fri 28.05. N [] Info · Normaler Werktag (korrigiert 22.10.: Karfreitag war am 26.03.). Zoll und Zustellung laufen.
+Fri 28.05. V [60′] Werbung einreichen: Kampagne 1 „Warteliste“ und Kampagne 2 „Drop“
+Fri 28.05. C [20′ Video V099] 18:00 · V099 posten: DETAIL „Vier Stickereien, ein Patch“
+Sat 29.05. C [10′ Video V100] 12:00 · V100 posten: ASK-Story „Größe“
+Sat 29.05. A [20′] Alle Termine bis zum Drop in den Kalender, Zeitzone prüfen
+Sat 29.05. V [300′ plus] Grind+ · 12:00–18:00 Countdown-Stand Holzmarkt-Flohmarkt, QR ?ref=stand
+Sat 29.05. C [120′ Video R17] Dreh · REWIND #17 „Berlin steht still“ (Zeit anhalten)
+Sun 30.05. N [] Info · Normaler Sonntag (korrigiert 22.10.: Ostern war am 28.03.). Sommerzeit gilt seit 28.03., alle Countdown-Zeiten +02:00.
+Sun 30.05. A [20′ Prompt] 10:00 · Wochenreview W37 mit Gates, Kassencheck und Cockpit
+Sun 30.05. D [10′] Gate · Ware mit Tracking? Stufe 2 ≥ 2? Kasse deckt die Steuer?
+Sun 30.05. C [15′] Countdown-Start vorbereiten: 24 Dateien, 24 Captions, CD-T24 Mo 18:00
+Sun 30.05. V [20′ Prompt] PRESSE-WELLE 3 schreiben (Event Drop 24.06.), Versand geplant Mo 07.06.
+Sun 30.05. C [90′ plus Video Reserve · Das Feld wächst 1] Grind+ · „Das Feld wächst“ Dreh 1: Sonnenuntergang am Feld
+Sun 30.05. C [10′ plus] Grind+ · 18:00 Variante des besten Videos oder V117 „Antwort auf Kommentar“
+
+=== W38 P5 2027-05-31 · Countdown läuft, Ware annehmen und jede Jeans prüfen, Stufe 2 am So 20:00 schließen
+   KPI Warteliste: 2.720 bestätigt (Alarm 1.170); Grind+-Ziel 3.070
+   KPI Follower TikTok + IG, neu seit 12.10.: ~8.160 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 7 Kern (Countdown CD-T24 bis CD-T18)
+   KPI Vorbestellungen: 43 inkl. Stufe 2 bis So 06.06. (Alarm: 40 ausgezahlt bis Mi 26.05., nur wenn ~1.150 € Steuer fällig sind)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 31.05. N [] Info · Normaler Montag (korrigiert 22.10.: Ostermontag war am 29.03.). Post und Läden offen.
+Mon 31.05. N [] Info · CTA bis So 06.06. mit Stufe 2 (siehe Mo 24.05.): „Drop 24.06., 19:00. Bis So 06.06. noch vorbestellen: 169 €, Lieferung Anfang Juni. Link in Bio.“
+Mon 31.05. A [10′] 10:00 · Werbung: Freigabe prüfen (Kampagne 1)
+Mon 31.05. A [10′] 10:15 · Feld-Kapitel der Startseite öffentlich schalten (ohne Spiel)
+Mon 31.05. C [10′ Video CD-T24] 18:00 · CD-T24 posten: Ganzkörper vorn, Zoom auf die Tasche
+Tue 01.06. B [45′] Ganztägig · WARENANNAHME: Kartons zählen, Fotos, Lieferschein
+Tue 01.06. C [20′ Video CD-T23] 18:00 · CD-T23 als Live-Clip „They're here.“, zuerst im Broadcast
+Tue 01.06. C [15′ Video R17] 19:00 · REWIND #17 „Berlin steht still“ posten
+Wed 02.06. B [100′] 10:00 · Prüfung Teil 1: Sichtprüfung der ersten 50 (mit Helfer)
+Wed 02.06. C [10′ Video CD-T22] 18:00 · CD-T22 posten: Münztasche E, Lineal daneben
+Thu 03.06. B [100′] 10:00 · Prüfung Teil 2: Sichtprüfung der zweiten 50
+Thu 03.06. C [10′ Video CD-T21] 18:00 · CD-T21 posten: linke Gesäßtasche, drei Ähren, Goldfäden
+Fri 04.06. B [60′ Prompt] 10:00 · Prüfung Teil 3: Maße, 15 % Stichprobe, Grundton bei Tageslicht
+Fri 04.06. B [30′ Prompt] 11:00 · Fehler sortieren und reklamieren, Fehlerteile nicht verkaufen
+Fri 04.06. C [10′ Video CD-T20] 18:00 · CD-T20 posten: Goldfäden in Bewegung
+Sat 05.06. A [45′] 11:00 · Bestand einsortieren und im Shop setzen
+Sat 05.06. C [10′ Video CD-T19] 18:00 · CD-T19 posten: Achtstern, Kamera kommt näher
+Sat 05.06. C [15′ Video R18] 12:00 · REWIND #18 „Der Zeitsog“ posten
+Sun 06.06. A [15′] 10:00 · Monatsabschluss Mai
+Sun 06.06. A [20′ Prompt] 10:15 · Wochenreview W38 + Cockpit + Zeile an Claude
+Sun 06.06. D [10′] 10:35 · Gate: Ware geprüft · Steuer bezahlt · ≥ 40 · Liste ≥ 2.720
+Sun 06.06. C [10′ Video CD-T18] 18:00 · CD-T18 posten: Lebensbaum-Patch (oder echtes Prüfergebnis)
+Sun 06.06. A [15′] 20:00 · Stufe 2 schließen, Drop-Bestand rechnen, Packliste
+Sun 06.06. C [90′ plus Video Feld-Dreh 2] Grind+ · „Das Feld wächst“ Dreh 2 (vor Sonnenuntergang)
+
+=== W39 P5 2027-06-07 · Vorbestellungen raus, Presse-Welle 3, Creator-Pakete, Produktfotos an echten Körpern
+   KPI Warteliste: 2.820 bestätigt (Alarm 1.290); Grind+-Ziel 3.190
+   KPI Follower TikTok + IG, neu seit 12.10.: ~8.460 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 7 Kern (Countdown CD-T17 bis CD-T11)
+   KPI Vorbestellungen verschickt: alle bis Mi 09.06.
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+Mon 07.06. N [] Info · PRESSE-WELLE 3 (Event Drop 24.06.) geht heute geplant raus, geschrieben am So 30.05.
+Mon 07.06. N [] Info · Ab heute CTA: „Drop 24.06., 19:00. Die Liste kommt um 18:00 rein. Link in Bio.“
+Mon 07.06. C [60′] 11:00 · Produktfotos der Serienware an 3 Körpern (W30, W32/34, W36/38)
+Mon 07.06. C [10′ Video CD-T17] 18:00 · CD-T17 posten: Gruppenbild Jeans, Zipper, Polo
+Tue 08.06. A [90′] 10:00 · Vorbestellungen packen Teil 1 (Nummer steht auf dem Etikett)
+Tue 08.06. C [10′ Video CD-T16] 18:00 · CD-T16 posten: Zipper-Rücken (oder „Pre-orders shipping today.“)
+Wed 09.06. A [75′] 10:00 · Vorbestellungen packen Teil 2 und abgeben
+Wed 09.06. C [10′ Video CD-T15] 18:00 · CD-T15 posten: Polo-Knopfleiste (oder Packtisch-Clip)
+Thu 10.06. C [10′] 10:00 · E-Mail T−14 senden (terminiert 18:00)
+Thu 10.06. V [45′] 11:00 · CREATOR-Pakete verschicken (Link auf der Karte, Kennzeichnung)
+Thu 10.06. C [10′ Video CD-T14] 18:00 · CD-T14 posten: Hangtag 001 in der Hand
+Fri 11.06. A [10′] 10:00 · Werbung: Zwischenstand Kampagne 1
+Fri 11.06. A [45′ Prompt] 10:15 · Website Schritt 20: Generalprobe mit Testprodukt
+Fri 11.06. C [10′ Video CD-T13] 18:00 · CD-T13 posten: „So ist der Shoot entstanden.“
+Sat 12.06. V [30′ Prompt] 10:00 · Fotos von Vorbestellern einsammeln (nur mit Erlaubnis)
+Sat 12.06. V [10′] 10:30 · Vorbesteller: „Wer soll am 24.06. auch eine haben?“
+Sat 12.06. C [10′ Video CD-T12] 18:00 · CD-T12 posten: Goldfäden, neun Längen
+Sat 12.06. C [100′ Video R19] Dreh · REWIND #19 „Paar 001, eingefroren“ (Bullet Time)
+Sun 13.06. A [20′ Prompt] 10:00 · Wochenreview W39 + Cockpit + Zeile an Claude
+Sun 13.06. D [10′] 10:20 · Gate: Vorbestellungen verschickt · Liste ≥ 2.820
+Sun 13.06. C [10′ Video CD-T11] 18:00 · CD-T11 posten: Zickzack am Band (oder Kundenfotos)
+Sun 13.06. C [90′ plus Video Feld-Dreh 3] Grind+ · „Das Feld wächst“ Dreh 3 (vor Sonnenuntergang)
+
+=== W40 P5 2027-06-14 · Letzte Woche vor dem Drop: alles terminieren, alles testen, Freitag Code-Freeze, Bestand und Shop stimmen aufs Stück
+   KPI Warteliste: 2.920 bestätigt (Alarm 1.400) · Grind+-Ziel 3.300
+   KPI Follower TikTok + IG, neu seit 12.10.: ~8.760 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 7 Kern (CD-T10 bis CD-T04, Fr V125)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Feste Termine: Do 17.06. spätester Ankunftstermin und E-Mail T−7 · Sa 19.06. CODE-FREEZE
+Mon 14.06. A [30′] 09:00 · Bestand ein letztes Mal zählen: Regal gegen Shop
+Mon 14.06. A [20′] 10:00 · Retouren bearbeiten: prüfen, erstatten, einbuchen, Grund eintragen
+Mon 14.06. N [] ÜBERHOLT 23.10.: Zipper und Polo vorbereiten. Der Zipper liegt als Ware aus der Fabrik da. Den Polo-Ablauf legen wir nach der Polo-Klärung fest.
+Mon 14.06. C [10′ Video CD-T10] 18:00 · CD-T10 posten: Teppich-Foto, harter Schnitt aufs Medaillon
+Tue 15.06. A [30′] 09:00 · Veröffentlichung auf Do 24.06., 18:00 terminieren
+Tue 15.06. V [10′] 12:30 · 10 Min. Community: fünf Kommentare mit Inhalt in der Nische
+Tue 15.06. C [10′ Video CD-T09] 18:00 · CD-T09 posten: Innenseite der Stickerei, Hose auf links
+Tue 15.06. C [15′ Video R19] 19:00 · REWIND #19 „Paar 001, eingefroren“ posten
+Wed 16.06. A [30′] 09:00 · Packstation für den Drop fertig machen
+Wed 16.06. A [45′ Prompt] 10:00 · Drop-Startseite vorbereiten: Hero prüfen, keine Ernte-Hooks
+Wed 16.06. C [10′ Video CD-T08] 18:00 · CD-T08 posten: Gehen, Rückansicht
+Thu 17.06. D [10′ Prompt] 09:00 · Gate spätester Ankunftstermin: Ware war da?
+Thu 17.06. C [10′] 09:15 · E-Mail T−7 heute 18:00 senden (terminieren)
+Thu 17.06. V [10′ Prompt] 09:30 · Creator erinnern: Post zwischen 17. und 23.06., Kennzeichnung
+Thu 17.06. A [20′ Prompt] 10:00 · Website Schritt 21: Schlüssel-Link in die E-Mail T−1h
+Thu 17.06. V [10′] 10:20 · Presse: Welle 3 einmal nachfassen
+Thu 17.06. C [10′ Video CD-T07] 18:00 · CD-T07 posten: Ganzkörper hinten, „Noch 1 Woche“
+Fri 18.06. A [30′] 09:00 · Drop-Ablauf durchplanen, ausdrucken
+Fri 18.06. V [10′ Prompt] 09:30 · Top-Werber ziehen (3 bestätigte Freunde): DM um 17:55 am 24.06.
+Fri 18.06. C [10′ Video V125] 18:00 · V125 „Aus drei Metern“ als CD-T06 posten
+Sat 19.06. A [30′] 10:00 · Letzte Testbestellung: Handy und Laptop
+Sat 19.06. A [5′] 10:30 · CODE-FREEZE: Testmodus aus
+Sat 19.06. C [30′ Video ASK-Q&A] 12:00 · Story-Q&A zum Drop
+Sat 19.06. C [10′ Video CD-T05] 18:00 · CD-T05 posten: Pflegeetikett „Fäden nicht abschneiden“
+Sun 20.06. A [20′ Prompt] 10:00 · Wochenreview W40 mit Gates, Kassencheck und Cockpit
+Sun 20.06. D [10′] 10:20 · Gate: Liste ≥ 2.920 (Alarm 1.400) · Drop-Bestand im Shop korrekt
+Sun 20.06. C [10′ Video CD-T04] 18:00 · CD-T04 posten: Hand in der Tasche, Detail
+Sun 20.06. C [90′ plus Video Das Feld wächst · Dreh 4] Grind+ · „Das Feld wächst“ Dreh 4 + Zeitraffer
+
+=== W41 P5 2027-06-21 · Drop-Woche: Do 24.06. 18:00 Liste, 19:00 Drop, packen mit Helfern, Drop-Abend, Auswertung nach 72 Stunden
+   KPI Warteliste: 3.000 bestätigt (Alarm 1.515) · Grind+-Ziel 3.390
+   KPI Follower TikTok + IG, neu seit 12.10.: ~9.000 (Schätzung: 3 je Anmeldung, ab 01.11. echte Quote)
+   KPI Posts: 10 Kern (CD-T03 bis CD-T01, V101–V107)
+   KPI Kassen-Ampel K − F − R: grün ≥ 300 €
+   KPI Drop: 37 Käufe brutto bis So 27.06. (Alarm < 29 netto) · Do 21:00 ≥ 15 · Fr 19:00 ≥ 26
+Mon 21.06. C [10′] 09:00 · E-Mail T−3 heute 18:00 senden (terminieren)
+Mon 21.06. V [15′] 09:15 · Textbausteine griffbereit, dazu der Datums-Baustein
+Mon 21.06. C [10′ Video CD-T03] 18:00 · CD-T03 posten: Papiertest aus dem Oktober → fertiges Teil
+Tue 22.06. V [20′] 10:00 · Helfer briefen: Prüfen, Packen, DMs am Drop-Abend 18–20 Uhr
+Tue 22.06. C [10′ Video CD-T02] 18:00 · CD-T02 posten: vier Stickereien und Patch, A · E · C · D · B2
+Wed 23.06. A [20′] 09:00 · Letzter Check: Shop, Preise, Bestand, Mails, Kampagne 2
+Wed 23.06. C [15′] 09:20 · Mail T−1h (Do 18:00) und LIVE-Mail (Do 19:00) terminieren
+Wed 23.06. C [10′] 09:35 · E-Mail T−24h senden und Broadcast
+Wed 23.06. C [10′ Video CD-T01] 18:00 · CD-T01 posten: Kampagnenfilm 10 s, „Morgen 19:00“
+Thu 24.06. N [] Info · „19:00 Theme ‚Drop 24.06.‘ veröffentlichen“ (Rev. 5.3) entfällt: Die Seite schaltet selbst um (Referenz „Website“ 3.3), PLAN B bleibt
+Thu 24.06. N [] Info · Symbol-Hygiene heute: keine Ernte-Hooks (billige Vorsicht, auch ohne Serp); Antwortbaustein /datum vom 21.06.; G7 zählt auch heute
+Thu 24.06. V [10′] 17:55 · DM an die Top-Werber
+Thu 24.06. A [105′] 17:00–23:00 · DROP: 18:00 Liste per Schlüssel-Link, 19:00 öffentlich
+Thu 24.06. C [35′ Video V101] 18:00 · V101 ASK „Die Liste kauft gerade“ + Live 18:00–18:30
+Thu 24.06. C [15′ Video V102] 19:00 · V102 REACH „Live“ posten
+Thu 24.06. C [10′ Video V103] 20:00 · V103 ASK „Restbestand“ (Update 19:15, 20:00, 22:00)
+Thu 24.06. D [15′] 21:00 · Gate: Do 21:00 ≥ 15 Käufe? Sonst 21:15 DM-Welle
+Thu 24.06. C [30′ Video V107] 21:00 · V107 ASK „Drop-Live vom Packtisch“
+Thu 24.06. S [10′ plus] Grind+ · Nur bei Spiel = bauen: Spiel am Drop-Tag beobachten
+Fri 25.06. C [10′] 10:00 · Nur wenn Do 21:00 unter 15: Mail an LIVE-Nicht-Öffner
+Fri 25.06. A [180′] 10:15 · Packen Tag 1 (mit Helfer)
+Fri 25.06. C [20′ Video V104] 18:00 · V104 BUILD „24 Stunden“ drehen und posten
+Fri 25.06. D [10′] 19:00 · Gate: Fr 19:00 ≥ 26 Käufe? Sonst Story mit Restgrößen
+Fri 25.06. C [30′ Video R20] Dreh · REWIND #20 „Diesmal fuhr er vorwärts“ (Rückblende auf #01)
+Sat 26.06. A [30′] 10:00–15:00 · Packen Tag 2 machen die Helfer, du prüfst Stichproben
+Sat 26.06. C [10′ Video V105] 12:00 · V105 ASK „Drop 2“
+Sat 26.06. V [180′] 17:00–20:00 · DROP-ABEND im Partnerladen (nur mit Packhilfe)
+Sat 26.06. C [15′ Video R20] 12:00 · REWIND #20 „Diesmal fuhr er vorwärts“ posten
+Sun 27.06. A [180′] 09:00 · Nur wenn die Helfer Sa nicht packen konnten: Packen Tag 2
+Sun 27.06. N [] ÜBERHOLT 23.10.: Blanks bestellen. Der Zipper ist Ware aus der Fabrik, der Polo-Ablauf ist noch offen.
+Sun 27.06. D [45′ Prompt] 14:00 · Auswertung nach 72 Stunden: Quellen-Tag, Kaufgrund, Größen
+Sun 27.06. A [20′ Prompt] 15:00 · Wochenreview W41 mit Gates, Kassencheck und Cockpit
+Sun 27.06. D [15′] 15:20 · Gate: ≥ 29 netto im Drop? Sonst Retargeting 72 h weiter
+Sun 27.06. C [20′ Video V106] 18:00 · V106 REAL „Was der Drop gebracht hat“ drehen und posten
+Sun 27.06. S [10′ plus] Grind+ · Nur bei Spiel = bauen: Feld behalten oder zurück
+Sun 27.06. N [] Info · Ab Mo 28.06.: täglich 10′ Retouren (prüfen, binnen 14 Tagen erstatten, wieder einbuchen, Nummer neu verkaufen, Grund eintragen). Danach entscheidest du: Marke „Novalife“ anmelden ja oder nein (Recherche 16.10.)

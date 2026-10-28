@@ -1,8 +1,8 @@
 # Time Travel — emails
 
 Ten moments from sign-up to the drop. Sent with **Shopify Email** (Marketing → Campaigns; the welcome
-email as an automation). English, short, calm: no exclamation marks, no emojis, dates as `01.02.2027 · 19:00 CET`.
-Dates follow the Drop Docket: pre-order **Mon 01.02.2027 · 19:00 CET**, drop **Thu 24.06.2027 · 19:00 CEST**.
+email as an automation). English, short, calm: no exclamation marks, no emojis, dates as `01.02.2027 · 18:00 CET`.
+Dates follow the Drop Docket, with the opening moved to 18:00 (28.10.2026): pre-order **Mon 01.02.2027 · 18:00 CET**, drop **Thu 24.06.2027 · 18:00 CEST**.
 No emails during the Abitur pause (22.03.–09.05.2027).
 
 House rules for every email:
@@ -12,7 +12,7 @@ House rules for every email:
 - No product photos before the sample gate (05.01.2027).
 - One button per email. It goes to the home page `https://novalife.store` (the field is the home page),
   or on key days to the product.
-- Footer line: `Novalife · Berlin · @novalife.store`
+- Footer line: `Novalife · Berlin · Instagram @novalife.storee · TikTok @novalife.store`
 
 ## Segments (Customers → Segments → Create segment)
 
@@ -32,18 +32,18 @@ Shopify Email only ever sends to people who agreed to marketing, so this reaches
 | # | When (Berlin) | Subject | Segment | Button |
 |---|---|---|---|---|
 | E0 | right after sign-up (automation) | Your key is reserved. | new waitlist subscriber | Back to the field |
-| E1 | Thu 19.11.2026 · 19:00 CET | Chapter II: the star woke up | waitlist | See chapter II |
-| E2 | Thu 17.12.2026 · 19:00 CET | Chapter III: the harvest | waitlist | See the door |
-| E3 | Thu 14.01.2027 · 19:00 CET | Chapter IV: light in the windows | waitlist | Back to the field |
-| E4 | Sun 31.01.2027 · 19:00 CET | Tomorrow, 18:00 CET. | waitlist (two versions) | Back to the field |
-| E5a | Mon 01.02.2027 · 17:00 CET | Your key. | inner circle | Use your key |
-| E5b | Mon 01.02.2027 · 18:00 CET | Your key. | waitlist without inner circle | Use your key |
-| E6 | Thu 04.03.2027 · 19:00 CET | Chapter V: the tree | waitlist | See chapter V |
-| E7 | Thu 20.05.2027 · 19:00 CEST | €149 until Sunday. | waitlist + no pre-order yet | Pre-order |
-| E8 | Thu 17.06.2027 · 19:00 CEST | One week. | waitlist | Back to the field |
-| E9a | Thu 24.06.2027 · 17:00 CEST | The door is open. For you. | inner circle | Enter |
-| E9b | Thu 24.06.2027 · 18:00 CEST | The door is open. For you. | waitlist without inner circle | Enter |
-| E9c | Thu 24.06.2027 · 19:00 CEST | The door is open. | all subscribers | Enter |
+| E1 | Thu 19.11.2026 · 18:00 CET | Chapter II: the star woke up | waitlist | See chapter II |
+| E2 | Thu 17.12.2026 · 18:00 CET | Chapter III: the harvest | waitlist | See the door |
+| E3 | Thu 14.01.2027 · 18:00 CET | Chapter IV: light in the windows | waitlist | Back to the field |
+| E4 | Sun 31.01.2027 · 18:00 CET | Tomorrow, 17:00 CET. | waitlist (two versions) | Back to the field |
+| E5a | Mon 01.02.2027 · 16:00 CET | Your key. | inner circle | Use your key |
+| E5b | Mon 01.02.2027 · 17:00 CET | Your key. | waitlist without inner circle | Use your key |
+| E6 | Thu 04.03.2027 · 18:00 CET | Chapter V: the tree | waitlist | See chapter V |
+| E7 | Thu 20.05.2027 · 18:00 CEST | €149 until Sunday. | waitlist + no pre-order yet | Pre-order |
+| E8 | Thu 17.06.2027 · 18:00 CEST | One week. | waitlist | Back to the field |
+| E9a | Thu 24.06.2027 · 16:00 CEST | The door is open. For you. | inner circle | Enter |
+| E9b | Thu 24.06.2027 · 17:00 CEST | The door is open. For you. | waitlist without inner circle | Enter |
+| E9c | Thu 24.06.2027 · 18:00 CEST | The door is open. | all subscribers | Enter |
 
 ```
 [Sign-up on the page] --> E0 (now)
@@ -51,11 +51,11 @@ Shopify Email only ever sends to people who agreed to marketing, so this reaches
         v
   E1 Ch. II (19.11) --> E2 Ch. III (17.12) --> E3 Ch. IV (14.01) --> E4 Reminder (31.01)
                                                                          |
-                                     inner circle / found key? --yes--> E5a 17:00 --+
+                                     inner circle / found key? --yes--> E5a 16:00 --+
                                                                          |          |
                                                                          no         |
                                                                          v          |
-                                                                     E5b 18:00 <----+
+                                                                     E5b 17:00 <----+
                                                                          |
                     E6 Ch. V (04.03) --> [Abitur pause, no emails] --> E7 €149 ends (20.05, only without pre-order)
                                                                          |
@@ -72,26 +72,26 @@ condition *customer tags contain `time-travel-waitlist`*. With double opt-in it 
 **Purpose:** confirm, give the date, make the golden key and the personal link known.
 
 Subject options: `Your key is reserved.` · `The door is closed. You have a key.` · `Time Travel: you are on the list`
-Preheader: `Pre-order 01.02.2027 — for you at 18:00 CET, an hour before everyone.`
+Preheader: `Pre-order 01.02.2027 — for you at 17:00 CET, an hour before everyone.`
 
 > The door is closed. Your key is reserved.
 >
-> **01.02.2027 · 18:00 CET** — one hour before everyone else, we send you the key to the pre-order. 35 pairs at the pre-order price.
+> **01.02.2027 · 17:00 CET** — one hour before everyone else, we send you the key to the pre-order. 35 pairs at the pre-order price.
 >
-> Until then the house changes. A new chapter opens every few weeks, always on a Thursday at 19:00. The next one: 19.11.2026.
+> Until then the house changes. A new chapter opens every few weeks, always on a Thursday at 18:00. The next one: 19.11.2026.
 >
-> Somewhere near the path there is a golden key. Whoever finds it gets in at 17:00.
-> Your key image and your personal link wait at the door — on the phone or laptop you signed up with. Three friends through your link, and you get in at 17:00 too.
+> Somewhere near the path there is a golden key. Whoever finds it gets in at 16:00.
+> Your key image and your personal link wait at the door — on the phone or laptop you signed up with. Three friends through your link, and you get in at 16:00 too.
 >
 > **[Back to the field]**
 >
-> Novalife · Berlin · @novalife.store
+> Novalife · Berlin · Instagram @novalife.storee · TikTok @novalife.store
 
 ---
 
 ## E1 · Chapter II — "The star woke up."
 
-**When:** Thu 19.11.2026 · 19:00 CET · **Segment:** TT · waitlist
+**When:** Thu 19.11.2026 · 18:00 CET · **Segment:** TT · waitlist
 **Purpose:** first reason to come back; teach that the house changes.
 
 Subject options: `Chapter II: the star woke up` · `Look above the door` · `Something changed at the izba`
@@ -104,13 +104,13 @@ Preheader: `Chapter II of Time Travel is open.`
 >
 > **[See chapter II]**
 >
-> Pre-order: 01.02.2027 · 18:00 CET for you.
+> Pre-order: 01.02.2027 · 17:00 CET for you.
 
 ---
 
 ## E2 · Chapter III — "The harvest."
 
-**When:** Thu 17.12.2026 · 19:00 CET · **Segment:** TT · waitlist
+**When:** Thu 17.12.2026 · 18:00 CET · **Segment:** TT · waitlist
 **Purpose:** second return visit; push the personal link before the holidays.
 
 Subject options: `Chapter III: the harvest` · `Three ears of wheat on the door` · `The door changed`
@@ -119,7 +119,7 @@ Preheader: `Six weeks until the pre-order.`
 > Three ears of wheat, tied together, painted on a red band across the door.
 > The harvest is in.
 >
-> Six weeks until the pre-order. If three friends join through your link, you get in at 17:00 instead of 18:00.
+> Six weeks until the pre-order. If three friends join through your link, you get in at 16:00 instead of 17:00.
 > Your link waits for you at the door.
 >
 > **[See the door]**
@@ -128,7 +128,7 @@ Preheader: `Six weeks until the pre-order.`
 
 ## E3 · Chapter IV — "Light in the windows."
 
-**When:** Thu 14.01.2027 · 19:00 CET · **Segment:** TT · waitlist
+**When:** Thu 14.01.2027 · 18:00 CET · **Segment:** TT · waitlist
 **Purpose:** the sample gate is behind you — first real look is allowed now. Build up to the pre-order.
 
 Subject options: `Chapter IV: light in the windows` · `Someone is home` · `18 days`
@@ -136,7 +136,7 @@ Preheader: `The pre-order opens on 01.02.2027.`
 
 > There is light in the windows now.
 >
-> In 18 days the pre-order opens: 01.02.2027, 18:00 CET for you.
+> In 18 days the pre-order opens: 01.02.2027, 17:00 CET for you.
 >
 > *(If the sample is approved: one close-up of the embroidery. The pattern, not a person.)*
 >
@@ -144,18 +144,18 @@ Preheader: `The pre-order opens on 01.02.2027.`
 
 ---
 
-## E4 · Reminder — "Tomorrow, 18:00 CET."
+## E4 · Reminder — "Tomorrow, 17:00 CET."
 
-**When:** Sun 31.01.2027 · 19:00 CET · two versions:
-inner circle (`17:00` in the copy) and waitlist without inner circle (`18:00`).
+**When:** Sun 31.01.2027 · 18:00 CET · two versions:
+inner circle (`16:00` in the copy) and waitlist without inner circle (`17:00`).
 **Purpose:** make sure nobody misses the hour.
 
-Subject options: `Tomorrow, 18:00 CET.` · `Your key arrives tomorrow` · `24 hours`
+Subject options: `Tomorrow, 17:00 CET.` · `Your key arrives tomorrow` · `24 hours`
 Preheader: `The pre-order opens for you one hour before everyone else.`
 
 > Tomorrow the pre-order opens. 35 pairs at €149.
 >
-> Your key arrives by email at **18:00 CET** — one hour before everyone else. No account needed, the link is the key.
+> Your key arrives by email at **17:00 CET** — one hour before everyone else. No account needed, the link is the key.
 >
 > **[Back to the field]**
 
@@ -163,29 +163,29 @@ Preheader: `The pre-order opens for you one hour before everyone else.`
 
 ## E5 · The key — "Your key."
 
-**When:** Mon 01.02.2027 · **E5a 17:00 CET** to TT · inner circle, **E5b 18:00 CET** to TT · waitlist without inner circle.
+**When:** Mon 01.02.2027 · **E5a 16:00 CET** to TT · inner circle, **E5b 17:00 CET** to TT · waitlist without inner circle.
 **Purpose:** the money moment. The button goes straight to the pre-order product.
-**Shopify:** publish the product at 17:00 but keep it out of menus and collections until 19:00
-(the page shows its *Pre-order* button from 19:00 by itself).
+**Shopify:** publish the product at 16:00 but keep it out of menus and collections until 18:00
+(the page shows its *Pre-order* button from 18:00 by itself).
 
-Subject options: `Your key.` · `The pre-order is open — for you` · `17:00. Your key.` (E5a) / `18:00. Your key.` (E5b)
+Subject options: `Your key.` · `The pre-order is open — for you` · `16:00. Your key.` (E5a) / `17:00. Your key.` (E5b)
 Preheader: `One hour before everyone else. 35 pairs at €149.`
 
 > The pre-order is open — for you, before everyone else.
 >
 > **35 pairs at €149.** After that, and from 24.05., €169.
 > Delivery: by 30.06.2027 at the latest, planned for early June.
-> At 19:00 CET it opens for everyone.
+> At 18:00 CET it opens for everyone.
 >
 > **[Use your key]**
 >
-> (Please keep this link to yourself until 19:00.)
+> (Please keep this link to yourself until 18:00.)
 
 ---
 
 ## E6 · Chapter V — "The tree."
 
-**When:** Thu 04.03.2027 · 19:00 CET · **Segment:** TT · waitlist
+**When:** Thu 04.03.2027 · 18:00 CET · **Segment:** TT · waitlist
 **Purpose:** last email before the Abitur pause; keep the pre-order alive.
 
 Subject options: `Chapter V: the tree` · `A tree appeared under the roof` · `Under the roof`
@@ -203,7 +203,7 @@ Preheader: `The pre-order is open. The door opens on 24.06.2027.`
 
 ## E7 · Last days at €149 — "€149 until Sunday."
 
-**When:** Thu 20.05.2027 · 19:00 CEST · **Segment:** TT · waitlist + TT · no pre-order yet
+**When:** Thu 20.05.2027 · 18:00 CEST · **Segment:** TT · waitlist + TT · no pre-order yet
 **Purpose:** the price step on 24.05. is real urgency — use it once.
 Skip this email if the 35 pairs at €149 are already gone.
 
@@ -221,15 +221,15 @@ Preheader: `From 24.05. the pre-order costs €169.`
 
 ## E8 · One week — "One week."
 
-**When:** Thu 17.06.2027 · 19:00 CEST · **Segment:** TT · waitlist · same evening as chapter VI
+**When:** Thu 17.06.2027 · 18:00 CEST · **Segment:** TT · waitlist · same evening as chapter VI
 **Purpose:** last build-up; the house is fully lit.
 
-Subject options: `One week.` · `Every window is lit` · `24.06 · 19:00 CEST`
-Preheader: `The door opens on Thursday. Your time: 18:00 CEST.`
+Subject options: `One week.` · `Every window is lit` · `24.06 · 18:00 CEST`
+Preheader: `The door opens on Thursday. Your time: 17:00 CEST.`
 
 > Every window is lit. Two lanterns hang by the door.
 >
-> In one week the door opens. **24.06.2027 · 18:00 CEST** for you, 19:00 for everyone.
+> In one week the door opens. **24.06.2027 · 17:00 CEST** for you, 18:00 for everyone.
 >
 > **[Back to the field]**
 
@@ -237,8 +237,8 @@ Preheader: `The door opens on Thursday. Your time: 18:00 CEST.`
 
 ## E9 · Drop day — "The door is open."
 
-**When:** Thu 24.06.2027 · **E9a 17:00 CEST** inner circle · **E9b 18:00 CEST** waitlist without inner circle ·
-**E9c 19:00 CEST** all subscribers. The page opens its door by itself at 19:00 (`dropAt` in CONFIG).
+**When:** Thu 24.06.2027 · **E9a 16:00 CEST** inner circle · **E9b 17:00 CEST** waitlist without inner circle ·
+**E9c 18:00 CEST** all subscribers. The page opens its door by itself at 18:00 (`dropAt` in CONFIG).
 **Purpose:** sell what the pre-order left of the 100 pairs, plus the zipper and the polo.
 
 Subject options: `The door is open. For you.` (E9a/E9b) · `The door is open.` (E9c) · `001–100`
@@ -275,7 +275,7 @@ Note: Apple Mail privacy makes open rates look higher than they are. Judge by cl
 ## A/B tests (Shopify Email: *A/B test subject line*, if available in your plan)
 
 1. E1 subject: `Chapter II: the star woke up` vs `Look above the door` — winner by click rate after 4 hours.
-2. E4 subject with time vs without: `Tomorrow, 18:00 CET.` vs `Your key arrives tomorrow`.
+2. E4 subject with time vs without: `Tomorrow, 17:00 CET.` vs `Your key arrives tomorrow`.
 3. E0 button: `Back to the field` vs `Find the golden key` — winner by clicks; the second also shows in the page events (`tt_key_found`).
 
 ## What to track

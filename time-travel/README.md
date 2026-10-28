@@ -23,7 +23,7 @@
 6. **Успех** — номер ключа (например `Key Nº 7K4-QX2`, случайный, не «место в очереди»),
    картинка-ключ 9:16 для сторис (кадр двери + номер + даты), кнопки **Share your key**
    (на телефоне — системное меню «Поделиться» с картинкой, на компьютере — скачивание)
-   и **Copy your link** (личная ссылка `…/pages/time-travel?ref=КОД`).
+   и **Copy your link** (личная ссылка `novalife.store/?ref=КОД`).
    Строка «Three friends join through your link: you get in at 17:00 CET.»
    Ссылки Instagram и TikTok (@novalife.store).
 
@@ -71,14 +71,17 @@ Shopify ограничивает Liquid-шаблон 256 KB, поэтому ст
 3. **Templates → Add a new template**: тип `page`, формат `liquid`, имя `time-travel`.
    Удали заготовку и вставь всё содержимое `shopify/templates/page.time-travel.liquid`. Сохрани.
 4. Online Store → **Pages → Add page** «Time Travel», справа шаблон `page.time-travel`, Visible. Сохрани.
-5. Online Store → Navigation → **URL Redirects**: `/timetravel` → `/pages/time-travel` (короткая ссылка для био).
+5. Онлайн-магазин → Навигация → **URL Redirects**: `/timetravel` → `/` (старые ссылки ведут на главную).
+   **Главная страница = поле.** В теме вместо `templates/index.json` лежит `templates/index.liquid` (та же
+   страница, что `page.time-travel`). Остальной магазин (товары, коллекции, корзина) работает по прямым
+   ссылкам, но с главной в него не попасть. Вернуть обычную главную — опубликовать предыдущую тему.
 6. **Double opt-in включить** (Settings → Customer privacy / Notifications → Marketing) — в Германии обязательно.
 7. **Privacy Policy дополнить** (Settings → Policies): номер ключа, тег «кто пригласил» (`ref-…`),
    тег `found-key` и события аналитики — что сохраняется и зачем. Impressum проверить.
 8. **Тест с настоящей почтой**: пройди к двери, найди ключ, зарегистрируйся →
    в Customers у клиента теги `newsletter, time-travel-waitlist, key-XXXXXX, found-key`.
    Затем открой свою личную ссылку в другом браузере и зарегистрируй второй адрес → у него тег `ref-XXXXXX`.
-9. Проверь превью ссылки: вставь `novalife.store/timetravel` в WhatsApp/Telegram — должна появиться картинка.
+9. Проверь превью ссылки: вставь `novalife.store` в WhatsApp/Telegram — должна появиться картинка.
 
 После правок: `python3 time-travel/build.py` и заново загрузить изменённые файлы из `shopify/`.
 

@@ -45,6 +45,7 @@ def build_shopify(fragment: str) -> None:
     """Shopify caps Liquid templates at 256 KB, so ship a small template plus two theme assets.
 
     shopify/templates/page.time-travel.liquid  markup only, links the assets via asset_url
+    shopify/templates/index.liquid             the same page as the home page (replaces index.json)
     shopify/assets/time-travel.css             fonts (inlined) + styles
     shopify/assets/time-travel.js              the scene (ES module, three.js via import map)
     shopify/assets/time-travel-og.jpg          share preview (copied from og-image.jpg)
@@ -70,6 +71,7 @@ def build_shopify(fragment: str) -> None:
         "<script type=\"module\" src=\"{{ 'time-travel.js' | asset_url }}\"></script>\n</body>\n</html>\n"
     )
     (out / "templates" / "page.time-travel.liquid").write_text(template)
+    (out / "templates" / "index.liquid").write_text(template)
     size = len(template.encode()) / 1024
     assert size < 256, "Liquid template over Shopify's 256 KB limit"
     print("wrote", out, f"(template {size:.0f} KB)")

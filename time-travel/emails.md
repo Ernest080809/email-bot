@@ -10,8 +10,8 @@ House rules for every email:
 - Never "authentic". Never call the tree of life "Slavic". Say "eight-point star". No politics.
 - Only real numbers (35 pairs at €149, 100 pairs numbered 001–100). "[Y] of 35 left" only with the number from Shopify.
 - No product photos before the sample gate (05.01.2027).
-- One button per email. It goes to the page `https://novalife.store/pages/time-travel`
-  (short form `novalife.store/timetravel`), or on key days to the product.
+- One button per email. It goes to the home page `https://novalife.store` (the field is the home page),
+  or on key days to the product.
 - Footer line: `Novalife · Berlin · @novalife.store`
 
 ## Segments (Customers → Segments → Create segment)

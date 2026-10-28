@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Novalife — Time Travel</title>
-<meta name="description" content="Walk through the wheat field to the closed door. Novalife Time Travel: pre-order from 14.01.2027, the door opens on 22.04.2027 at 19:00 CEST.">
+<meta name="description" content="Walk through the wheat field to the closed door. Novalife Time Travel: pre-order from 01.02.2027, the door opens on 24.06.2027 at 19:00 CEST.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Novalife">
 <meta property="og:title" content="Novalife — Time Travel">
@@ -28,7 +28,7 @@
   --bone-dim:rgba(243,236,224,.62);
   --line:rgba(243,236,224,.22);
   --wheat:#d9b36a;      /* ripe wheat, the only accent */
-  --rust:#a3392c;       /* alatyr red, for errors and one detail */
+  --rust:#a3392c;       /* the red of the eight-point star, for errors and one detail */
   --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
   --ui:"Manrope","Helvetica Neue",Arial,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
@@ -93,6 +93,9 @@ button{cursor:pointer;background:none;border:0;padding:0}
 .walk-btn.door .dot{background:var(--rust)}
 .walk-btn.door .dist{display:none}
 .walk-bar{width:220px;height:1px;background:var(--line);overflow:hidden}
+.hint{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap;color:var(--bone);text-shadow:0 1px 14px rgba(0,0,0,.6);
+  opacity:0;transition:opacity .9s var(--ease);pointer-events:none;text-align:center}
+.hint.on{opacity:.92}
 .walk-bar i{display:block;height:100%;width:100%;background:var(--bone);transform-origin:left;transform:scaleX(0)}
 
 .caption{position:fixed;left:50%;top:40%;transform:translate(-50%,-50%);z-index:5;text-align:center;pointer-events:none;width:min(90vw,640px);
@@ -225,6 +228,7 @@ a.submit{text-decoration:none}
 </div>
 
 <div class="walk">
+  <span class="hint" id="lookHint" aria-hidden="true"></span>
   <div class="walk-row">
   <button class="back-btn" id="backBtn" aria-label="Walk back"><svg viewBox="0 0 20 12" aria-hidden="true"><path d="M19 6H2M6 1L1 6l5 5"/></svg></button>
   <button class="walk-btn" id="walkBtn"><span class="dot" aria-hidden="true"></span><span id="walkLabel">Hold to walk</span><span class="dist" id="walkDist"></span></button>
@@ -332,13 +336,14 @@ import { mergeGeometries, mergeVertices } from "three/addons/utils/BufferGeometr
 const CONFIG = {
   // Pre-order: the first money moment. Opens for everyone at this time (Berlin);
   // the waitlist and the inner circle get in earlier (minutes below).
-  preorderAt: "2027-01-14T19:00:00+01:00",
+  preorderAt: "2027-02-01T19:00:00+01:00",
   preorderPairs: 35,
   preorderPrice: "",                           // e.g. "€149" — shown next to the pairs when set
   preorderUrl: "/collections/time-travel",     // where "Pre-order" leads once it is open
-  preorderSoldOut: false,                      // true once the pairs are gone: hides the button
+  preorderEndsAt: "2027-06-06T23:59:00+02:00",  // last day to pre-order; after that the button goes
+  preorderSoldOut: false,                      // true closes the pre-order early (all pairs gone)
   // Drop: the door opens for everyone (Berlin)
-  dropAt: "2027-04-22T19:00:00+02:00",
+  dropAt: "2027-06-24T19:00:00+02:00",
   dropUrl: "/collections/time-travel",         // where "Enter" leads once the door is open
   waitlistEarlyMin: 60,                        // the waitlist gets the key this many minutes before everyone
   innerEarlyMin: 120,                          // inner circle: found the golden key, or brought friends
@@ -350,13 +355,13 @@ const CONFIG = {
     { at: "2026-12-17T19:00:00+01:00", line: "The harvest appeared on the door." },
     { at: "2027-01-14T19:00:00+01:00", line: "There is light in the windows." },
     { at: "2027-03-04T19:00:00+01:00", line: "A tree appeared under the roof." },
-    { at: "2027-04-15T19:00:00+02:00", line: "Every window is lit. One week left." },
+    { at: "2027-06-17T19:00:00+02:00", line: "Every window is lit. One week left." },
   ],
   // Sharing
   shareUrl: "https://novalife.store/pages/time-travel",  // personal link = this + ?ref=CODE
   shareLabel: "novalife.store/timetravel",               // printed on the key image
-  instagram: "",                                         // e.g. "https://www.instagram.com/…" — empty hides the link
-  tiktok: "",                                            // e.g. "https://www.tiktok.com/@…"
+  instagram: "https://www.instagram.com/novalife.store/", // empty hides the link
+  tiktok: "https://www.tiktok.com/@novalife.store",
   // Sign-ups: "auto" → "shopify" on the shop domain, else "endpoint" if set, else "demo"
   mode: "auto",
   shopHosts: ["novalife.store", "myshopify.com"],
@@ -396,7 +401,7 @@ function phase(now = Date.now()) {
 }
 // the next date everything counts down to: the pre-order, then the door
 const milestone = () => (preorderOpen() ? { iso: CONFIG.dropAt, at: DROP_AT } : { iso: CONFIG.preorderAt, at: PRE_AT });
-// Berlin wall time of an ISO date minus n minutes → { date: "14.01.2027", time: "18:00 CET" }
+// Berlin wall time of an ISO date minus n minutes → { date: "01.02.2027", time: "18:00 CET" }
 function berlin(iso, minus = 0) {
   const off = iso.slice(-6), zone = off === "+02:00" ? "CEST" : off === "+01:00" ? "CET" : "UTC" + off;
   const parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })
@@ -1117,7 +1122,8 @@ function buildWheat() {
     const isNear = d < 6;
     if (isNear ? nn >= Q.near : nf >= Q.far) continue;
     const sc = rr(0.9, 1.12) * (1 + smooth(8, 30, d) * 0.45);
-    m.compose(p.set(x, 0, z), q.setFromAxisAngle(Y, rnd() * Math.PI * 2), s.set(sc, rr(0.92, 1.08) * (d < 1.6 ? 0.85 : 1), sc));
+    // stalks where the bushes stand are sunk rather than skipped: the random sequence (and the rest of the field) stays the same
+    m.compose(p.set(x, inBushes(x, z) ? -9 : 0, z), q.setFromAxisAngle(Y, rnd() * Math.PI * 2), s.set(sc, rr(0.92, 1.08) * (d < 1.6 ? 0.85 : 1), sc));
     c.copy(tones[(rnd() * tones.length) | 0]).multiplyScalar(rr(0.9, 1.04));
     if (isNear) { near.setMatrixAt(nn, m); near.setColorAt(nn, c); nn++; } else { far.setMatrixAt(nf, m); far.setColorAt(nf, c); nf++; }
   }
@@ -1434,7 +1440,7 @@ function buildHouse() {
     const shackle = mesh(new THREE.TorusGeometry(0.036, 0.008, 8, 24, Math.PI), M.iron); shackle.position.set(0, -0.03, 0); lock.add(shackle);
     doorRig.pivot = pivot; doorRig.lock = lock; doorRig.hit = [leaf, ...lock.children];
     houseRig.pivot = pivot; houseRig.dW = dW; houseRig.dH = dH;
-    // frame + crown with the eight-pointed star (alatyr)
+    // frame + crown with the eight-point star
     for (const sgn of [-1, 1]) { const side = mesh(new THREE.BoxGeometry(0.15, dH + 0.18, 0.05), M.paint); side.position.set(sgn * (dW / 2 + 0.075), BASE + dH / 2 + 0.05, z + 0.03); house.add(side); }
     const CW = dW + 0.62;
     const crown = crownShape(CW, 0.2, 0.7, (s) => { s.holes.push(starPath(0, 0.37, 0.13, 0.065)); [-1, 1].forEach((k) => { const c = new THREE.Path(); c.absarc(k * CW * 0.28, 0.11, 0.045, 0, Math.PI * 2, false); s.holes.push(c); }); });
@@ -1501,8 +1507,14 @@ function applyChapter(house) {
   }
 }
 
-/* ---------- the golden key: floats in the wheat near the birch; tap it to keep it ---------- */
-const KEY_SPOT = new THREE.Vector3(9.5, 1.56, -29.8);   // just above the ears, against the tree line
+/* ---------- the golden key: hangs in a bush right of the path, behind the bend; tap it to keep it ---------- */
+const BUSHES = [
+  { x: 12.2, z: -26.6, r: 0.95, h: 0.78, tint: "#4d6a33" },   // the key hangs in this one
+  { x: 13.3, z: -27.5, r: 0.75, h: 0.62, tint: "#5a7438" },
+  { x: 11.5, z: -27.7, r: 0.7, h: 0.58, tint: "#556f36" },
+];
+const inBushes = (x, z) => BUSHES.some((b) => Math.hypot(x - b.x, z - b.z) < b.r + 0.75);
+const KEY_SPOT = new THREE.Vector3(11.66, 0.95, -26.29);   // inside the front of the first bush, facing the path
 const keyRig = { group: null, glint: null, sphere: new THREE.Sphere(KEY_SPOT.clone(), coarse ? 1 : 0.75), at: -1, from: new THREE.Vector3(), gone: false, rot: 0 };
 function buildKey() {
   if (store.get("tt_found") === "1") { keyRig.gone = true; return; }
@@ -1517,12 +1529,12 @@ function buildKey() {
     ni(new THREE.BoxGeometry(0.052, 0.064, 0.012).translate(0.272, -0.034, 0)),                     // bit
     ni(new THREE.BoxGeometry(0.016, 0.026, 0.013).translate(0.258, -0.074, 0)),
   ]).translate(-0.15, 0, 0);
-  const key = new THREE.Mesh(geo, M.gold); key.rotation.z = -0.55; key.scale.setScalar(2);
+  const key = new THREE.Mesh(geo, M.gold); key.rotation.z = -0.55; key.scale.setScalar(1.4);
   const group = new THREE.Group(); group.position.copy(KEY_SPOT); group.add(key);
-  const seenFrom = pathCurve.getPointAt(16 / PATH_LEN);         // face the stretch of path it is seen from
+  const seenFrom = pathCurve.getPointAt(19 / PATH_LEN);         // face the stretch of path it is seen from
   group.rotation.y = keyRig.rot = Math.atan2(seenFrom.x - KEY_SPOT.x, seenFrom.z - KEY_SPOT.z);
   const glint = new THREE.Sprite(new THREE.SpriteMaterial({ map: T.glint, color: "#fff0c8", transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending, fog: false }));
-  glint.position.set(-0.25, 0.16, 0.05); glint.scale.setScalar(0.5); group.add(glint);
+  glint.position.set(-0.17, 0.11, 0.05); glint.scale.setScalar(0.4); group.add(glint);
   scene.add(group); keyRig.group = group; keyRig.glint = glint;
 }
 const tmpK = new THREE.Vector3();
@@ -1530,10 +1542,10 @@ function updateKey(dt, t) {
   const k = keyRig; if (!k.group || k.gone) return;
   const g = k.group;
   if (k.at < 0) {
-    g.position.y = KEY_SPOT.y + Math.sin(t * 1.25) * 0.035;
-    g.rotation.y = k.rot + Math.sin(t * 0.55) * 0.45;
-    const ph = (t % 3.4) / 3.4, tw = ph < 0.2 ? Math.sin((ph / 0.2) * Math.PI) : 0;   // a glint every few seconds
-    k.glint.material.opacity = 0.2 + tw * 0.8; k.glint.material.rotation = t * 0.6; k.glint.scale.setScalar(0.55 + tw * 1.1);
+    g.position.y = KEY_SPOT.y + Math.sin(t * 1.25) * 0.015;      // hangs on a twig, sways a little
+    g.rotation.y = k.rot + Math.sin(t * 0.55) * 0.22;
+    const ph = (t % 3.8) / 3.8, tw = ph < 0.16 ? Math.sin((ph / 0.16) * Math.PI) : 0;   // a glint every few seconds
+    k.glint.material.opacity = tw * 0.8; k.glint.material.rotation = t * 0.6; k.glint.scale.setScalar(0.3 + tw * 0.65);
     return;
   }
   // collected: it flies to you, spins and is gone
@@ -1544,6 +1556,18 @@ function updateKey(dt, t) {
   g.scale.setScalar(Math.max(0.001, u < 0.75 ? 1 + u * 0.5 : (1 - u) * 5.5));
   k.glint.material.opacity = Math.sin(u * Math.PI); k.glint.scale.setScalar(0.5 + u * 1.2);
   if (u >= 1) { g.visible = false; k.gone = true; }
+}
+
+function buildBushes() {
+  const cores = [], cards = [];
+  BUSHES.forEach((b, i) => {
+    const tint = new THREE.Color(b.tint);
+    puff(cores, b.x, b.h, b.z, b.r * (i ? 0.66 : 0.56), tint.clone().multiplyScalar(0.5), rnd() * 50);
+    crownCards(cards, { x: b.x, z: b.z, cy: b.h, rx: b.r, ry: b.h * 0.95, size: 0.5, n: Math.round(170 * b.r), tint });
+  });
+  // a small gap in the leaves in front of the key: you see it only from the right angle
+  const near = (c) => Math.hypot(c.p[0] - KEY_SPOT.x, c.p[1] - KEY_SPOT.y, c.p[2] - KEY_SPOT.z) < 0.2;
+  scene.add(mesh(mergeGeometries(cores), M.foliageCore), cardsMesh(cards.filter((c) => !near(c)), M.leaf));
 }
 
 /* ---------- trees: a soft, dark core for volume, leaf-cluster cards for the silhouette ---------- */
@@ -1905,7 +1929,7 @@ document.addEventListener("visibilitychange", () => { if (!audio.ctx) return; if
    ========================================================================== */
 const S = {
   dist: 0, vel: 0, scrollVel: 0, holding: false, bob: 0, lastStep: 0,
-  lookX: 0, lookY: 0, tLookX: 0, tLookY: 0,
+  lookX: 0, lookY: 0, tLookX: 0, tLookY: 0, yaw: 0, yawS: 0, turnDir: 0, lookedAt: 0, hinted: false,
   arrived: false, arriveAt: 0, drawer: false, shake: 0, opened: false, doorAngle: 0, spawnAt: -1, spawnDone: false, fovKick: false, busy: false, started: false,
 };
 const WALK = 3.2;
@@ -1957,11 +1981,11 @@ $("skipBtn").addEventListener("click", () => (S.drawer ? closeDrawer() : openDra
 /* where the story stands → the copy in the drawer and at the door */
 let copy = { lede: "", sub: "" }, shownPhase = "";
 function renderPhase() {
-  const ph = phase();
-  if (ph === shownPhase) return;
-  shownPhase = ph;
+  const ph = phase(), closed = CONFIG.preorderSoldOut || Date.now() >= Date.parse(CONFIG.preorderEndsAt);
+  if (ph + closed === shownPhase) return;
+  shownPhase = ph + closed;
   const pre = berlin(CONFIG.preorderAt), drop = berlin(CONFIG.dropAt), n = CONFIG.preorderPairs;
-  const pairs = `${n} pairs${CONFIG.preorderPrice ? " at " + CONFIG.preorderPrice : ""}`;
+  const pairs = `${n} pairs at ${CONFIG.preorderPrice || "the pre-order price"}`;
   const wlPre = berlin(CONFIG.preorderAt, CONFIG.waitlistEarlyMin).time, wlDrop = berlin(CONFIG.dropAt, CONFIG.waitlistEarlyMin).time;
   copy = {
     pre: { title: `Pre-order opens on <em>${dayMonth(CONFIG.preorderAt)}</em>.`, lede: `${pairs}. The waitlist gets in first, at ${wlPre}.`,
@@ -1969,8 +1993,8 @@ function renderPhase() {
     "pre-early": { title: "The key is <em>out</em>.", lede: `The first keys are in the inboxes. The pre-order opens for everyone at ${pre.time}.`,
       count: "Time until the pre-order opens for everyone", sub: `Pre-order ${pre.date} · ${pre.time}` },
     preorder: { title: `The door opens on <em>${dayMonth(CONFIG.dropAt)}</em>.`,
-      lede: CONFIG.preorderSoldOut ? `All ${n} pre-order pairs are gone. For the drop, the waitlist gets in first, at ${wlDrop}.` : `The pre-order is open: ${pairs}. For the drop, the waitlist gets in first, at ${wlDrop}.`,
-      count: "Time until the door opens", sub: `Opens ${drop.date} · ${drop.time}`, cta: CONFIG.preorderSoldOut ? null : ["Pre-order", CONFIG.preorderUrl] },
+      lede: `The pre-order is ${closed ? "closed" : "open"}. For the drop, the waitlist gets in first, at ${wlDrop}.`,
+      count: "Time until the door opens", sub: `Opens ${drop.date} · ${drop.time}`, cta: closed ? null : ["Pre-order", CONFIG.preorderUrl] },
     "drop-early": { title: "The key is <em>out</em>.", lede: `The first keys are in the inboxes. The door opens for everyone at ${drop.time}.`,
       count: "Time until the door opens for everyone", sub: `Opens ${drop.date} · ${drop.time}` },
     open: { title: "The door is <em>open</em>.", lede: "", count: "", sub: "", cta: ["Enter", CONFIG.dropUrl] },
@@ -2187,24 +2211,46 @@ backBtn.addEventListener("click", (e) => { if (e.detail === 0) S.scrollVel = -WA
 backBtn.addEventListener("contextmenu", (e) => e.preventDefault());
 
 const ray = new THREE.Raycaster(), ndc = new THREE.Vector2();
-let downAt = null;
+let downAt = null, touch = null, holdTimer = 0;
+const YAW_MAX = 1.3;   // how far you can turn your head to either side (about 75°)
+const turn = (a) => { S.yaw = clamp(S.yaw + a, -YAW_MAX, YAW_MAX); S.lookedAt = performance.now(); $("lookHint").classList.remove("on"); };
 canvas.addEventListener("pointerdown", (e) => {
-  downAt = { x: e.clientX, y: e.clientY, t: performance.now() };
-  if (!S.arrived) { canvas.setPointerCapture(e.pointerId); startHold(); }
+  downAt = { x: e.clientX, y: e.clientY, t: e.timeStamp };
+  canvas.setPointerCapture(e.pointerId);
+  if (e.pointerType === "touch") {
+    // touch: hold still to walk, drag sideways to look around, swipe up or down to walk or go back
+    touch = { x: e.clientX, y: e.clientY, lx: e.clientX, ly: e.clientY, mode: "" };
+    clearTimeout(holdTimer);
+    holdTimer = setTimeout(() => { if (touch && !touch.mode && !S.arrived) { touch.mode = "walk"; startHold(); } }, 160);
+    return;
+  }
+  if (!S.arrived) startHold();
 });
+const endTouch = () => { clearTimeout(holdTimer); touch = null; endHold(); };
 canvas.addEventListener("pointerup", (e) => {
-  endHold();
-  if (e.pointerType === "touch") { S.tLookX = 0; S.tLookY = 0; }
-  const tap = downAt && Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) < 8;
-  if (tap && hitsKey(e)) collectKey();
-  else if (tap && S.arrived && hitsDoor(e)) doorAction();
+  const t = touch, held = downAt ? e.timeStamp - downAt.t : 1e9;   // event times, not handling times: a busy frame cannot turn a tap into a hold
+  const at = t ? { clientX: t.lx, clientY: t.ly } : e;   // a finger's last position (some browsers report the lift-off point oddly)
+  const tap = downAt && Math.hypot(at.clientX - downAt.x, at.clientY - downAt.y) < 10 && (!t || !t.mode || (t.mode === "walk" && held < 500));
+  endTouch();
+  if (tap && hitsKey(at)) collectKey();
+  else if (tap && S.arrived && hitsDoor(at)) doorAction();
   downAt = null;
 });
-canvas.addEventListener("pointercancel", endHold);
+canvas.addEventListener("pointercancel", endTouch);
 canvas.addEventListener("pointermove", (e) => {
+  if (e.pointerType === "touch") {
+    if (!touch || S.drawer || !S.started) return;
+    const dx = e.clientX - touch.lx, dy = e.clientY - touch.ly; touch.lx = e.clientX; touch.ly = e.clientY;
+    if (!touch.mode && Math.hypot(e.clientX - touch.x, e.clientY - touch.y) > 10) touch.mode = Math.abs(e.clientX - touch.x) > Math.abs(e.clientY - touch.y) ? "look" : "swipe";
+    if (touch.mode === "look" || touch.mode === "walk") turn((dx / innerWidth) * Math.PI * 1.1);   // grab the world: drag right, look left
+    if (touch.mode === "swipe" && !(S.arrived && dy < 0)) S.scrollVel = clamp(S.scrollVel - dy * 0.03, -WALK, WALK * 1.3);
+    return;
+  }
+  // mouse: the view follows the pointer
   S.tLookX = (e.clientX / innerWidth - 0.5) * 2; S.tLookY = (e.clientY / innerHeight - 0.5) * 2;
+  if (Math.abs(S.tLookX) > 0.3) $("lookHint").classList.remove("on");
   if (S.arrived) canvas.classList.toggle("hover-door", hitsDoor(e));
-  if (e.pointerType === "mouse") canvas.classList.toggle("hover-key", hitsKey(e));
+  canvas.classList.toggle("hover-key", hitsKey(e));
 });
 const aim = (e) => { ndc.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); ray.setFromCamera(ndc, camera); };
 function hitsDoor(e) { aim(e); return ray.intersectObjects(doorRig.hit, false).length > 0; }
@@ -2215,18 +2261,21 @@ function hitsKey(e) {
   return ray.ray.intersectsSphere(k.sphere);
 }
 addEventListener("wheel", (e) => { if (!S.started || S.drawer || (S.arrived && e.deltaY > 0)) return; S.scrollVel = clamp(S.scrollVel + clamp(e.deltaY, -120, 120) * 0.012, -WALK, WALK * 1.3); }, { passive: true });
-let touchY = null;
-canvas.addEventListener("touchstart", (e) => { touchY = e.touches[0].clientY; }, { passive: true });
-canvas.addEventListener("touchmove", (e) => { if (touchY === null || S.drawer || !S.started) return; const y = e.touches[0].clientY; if (S.arrived && touchY - y > 0) { touchY = y; return; } S.scrollVel = clamp(S.scrollVel + (touchY - y) * 0.03, -WALK, WALK * 1.3); touchY = y; }, { passive: true });
 addEventListener("keydown", (e) => {
   if (!S.started) return;
   if (S.drawer) { if (e.key === "Escape") closeDrawer(); return; }
   if (["ArrowUp", "w", "W"].includes(e.key)) { e.preventDefault(); startHold(); }
   if (["ArrowDown", "s", "S"].includes(e.key)) { e.preventDefault(); startBack(); }
+  if (["ArrowLeft", "a", "A"].includes(e.key)) { e.preventDefault(); S.turnDir = 1; }
+  if (["ArrowRight", "d", "D"].includes(e.key)) { e.preventDefault(); S.turnDir = -1; }
   if (S.arrived && ["e", "E", "Enter", " "].includes(e.key) && e.target !== walkBtn) { e.preventDefault(); doorAction(); }
 });
-addEventListener("keyup", (e) => { if (["ArrowUp", "w", "W"].includes(e.key)) endHold(); if (["ArrowDown", "s", "S"].includes(e.key)) endBack(); });
-addEventListener("blur", () => { endHold(); endBack(); });
+addEventListener("keyup", (e) => {
+  if (["ArrowUp", "w", "W"].includes(e.key)) endHold();
+  if (["ArrowDown", "s", "S"].includes(e.key)) endBack();
+  if (["ArrowLeft", "a", "A", "ArrowRight", "d", "D"].includes(e.key)) S.turnDir = 0;
+});
+addEventListener("blur", () => { endHold(); endBack(); S.turnDir = 0; });
 
 /* ==========================================================================
    Frame loop
@@ -2260,7 +2309,13 @@ function update(dt, t) {
     const st = t - S.spawnAt, fl = 1 - smooth(0, 2.2, st);
     const op = smooth(0.8, 2.1, st) * (1 - smooth(4.4, 5.6, st)) * (1 - smooth(0.3, 1.4, S.dist));
     $("flash").style.opacity = fl.toFixed(3); $("spawn").style.opacity = op.toFixed(3);
-    if (st > 5.7 || (S.dist > 1.4 && fl <= 0)) { S.spawnDone = true; $("flash").hidden = true; $("spawn").style.opacity = "0"; }
+    if (st > 5.7 || (S.dist > 1.4 && fl <= 0)) {
+      S.spawnDone = true; $("flash").hidden = true; $("spawn").style.opacity = "0";
+      if (!S.hinted && performance.now() - S.lookedAt > 4000) {   // once: tell people they can look around
+        S.hinted = true; $("lookHint").textContent = coarse ? "Drag sideways to look around" : "Move the mouse to look around";
+        $("lookHint").classList.add("on"); setTimeout(() => $("lookHint").classList.remove("on"), 4200);
+      }
+    }
   }
   // camera on the path with a gentle gait
   const speed = Math.abs(S.vel);
@@ -2278,11 +2333,16 @@ function update(dt, t) {
   tmpL.copy(camera.position).addScaledVector(tg, 12).add(new THREE.Vector3(0, -0.55, 0));
   const f = smooth(16, 1.5, remaining);
   tmpL.lerp(doorLook, 0.35 + 0.65 * f);
-  camera.lookAt(tmpL);
-  // free look with the pointer (smaller near the door)
+  // looking around: drag, keys or the mouse turn the head (less of it near the door, so the door stays in view)
   S.lookX += (S.tLookX - S.lookX) * Math.min(1, dt * 3); S.lookY += (S.tLookY - S.lookY) * Math.min(1, dt * 3);
-  const range = mix(0.2, 0.08, f);
-  camera.rotateY(-S.lookX * range); camera.rotateX(-S.lookY * range * 0.45);
+  if (S.turnDir) turn(S.turnDir * 1.5 * dt);
+  else if (Math.abs(S.vel) > 0.4 && performance.now() - S.lookedAt > 1500) S.yaw *= Math.pow(0.5, dt);   // walking: the head drifts back to the path
+  const maxYaw = mix(YAW_MAX, 0.45, f); S.yaw = clamp(S.yaw, -maxYaw, maxYaw);
+  S.yawS += (S.yaw - S.yawS) * Math.min(1, dt * 6);
+  const dead = (v) => Math.sign(v) * smooth(0.12, 1, Math.abs(v));
+  tmpL.sub(camera.position).applyAxisAngle(UP, S.yawS - dead(S.lookX) * mix(0.95, 0.3, f)).add(camera.position);
+  camera.lookAt(tmpL);
+  camera.rotateX(-dead(S.lookY) * mix(0.22, 0.09, f));
   camera.rotateZ(Math.sin(S.bob * 0.5) * 0.004 * gait);
   renderControl();
   // door
@@ -2364,7 +2424,7 @@ async function boot() {
   bar(0.78); await nextFrame();
   { const t0 = performance.now();buildWheat(); tm("wheat", t0); progress(); }
   bar(0.88); await nextFrame();
-  { const t0 = performance.now();buildTrees(); buildBirch(); buildClouds(); buildSmoke(houseRef); tm("trees", t0); progress(); }
+  { const t0 = performance.now();buildTrees(); buildBirch(); buildClouds(); buildSmoke(houseRef); buildBushes(); tm("trees", t0); progress(); }
   // sun + shadow camera centred on the house
   sun.position.copy(HOUSE_POS).addScaledVector(sunDir, 70); sun.target.position.copy(HOUSE_POS); sun.target.updateMatrixWorld();
   buildPost(); resize(); progress();
@@ -2374,7 +2434,7 @@ async function boot() {
   { const t0 = performance.now(); if (renderer.compileAsync) await renderer.compileAsync(scene, camera); else renderer.compile(scene, camera); tm("compile", t0); }
   composer.render(0.016); bar(1);
   renderControl(); tick();
-  window.__tt = { S, audio, song, openDrawer, setDist: (d) => { S.dist = clamp(d, 0, STOP_DIST); S.arrived = false; }, STOP_DIST, doorAction, renderer, camera, enterField, collectKey, keyRig, makeTicket, snap, phase, CH };
+  window.__tt = { S, audio, song, openDrawer, setDist: (d) => { S.dist = clamp(d, 0, STOP_DIST); S.arrived = false; }, STOP_DIST, doorAction, renderer, camera, enterField, collectKey, hitsKey, keyRig, makeTicket, snap, phase, CH };
   // straight in after a form post or with #door; everyone else gets the Enter button (the click also unlocks the sound)
   if (flag("door") || posted || flag("nogate")) enterField(false);
   else { $("loader").classList.add("ready"); $("gate").hidden = false; if (!coarse) $("enterBtn").focus({ preventScroll: true }); }

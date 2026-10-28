@@ -27,7 +27,7 @@ button{cursor:pointer;background:none;border:0;padding:0}
 :focus-visible{outline:1px solid var(--wheat);outline-offset:4px}
 #scene{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
 #scene.at-door{cursor:default}
-#scene.hover-door{cursor:pointer}
+#scene.hover-door,#scene.hover-key{cursor:pointer}
 
 .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--bone-dim)}
 
@@ -120,9 +120,29 @@ form{display:grid;gap:18px}
 .submit[disabled]{opacity:.6;cursor:progress}
 .submit svg{width:22px;height:10px;stroke:currentColor;fill:none;stroke-width:1.2}
 .err{min-height:20px;margin:-6px 0 0;font-size:13px;color:#e6806f}
-.done{display:grid;gap:14px;padding:22px 0;border-top:1px solid var(--line)}
-.done h3{margin:0;font-family:var(--display);font-style:italic;font-weight:400;font-size:34px;line-height:1.05}
+a.submit{text-decoration:none}
+/* Success: the key image, share, the personal link */
+.done{display:grid;gap:18px;padding-top:22px;border-top:1px solid var(--line)}
+.key-row{display:grid;grid-template-columns:92px 1fr;gap:18px;align-items:center}
+.ticket{display:block;width:92px;aspect-ratio:9/16;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(180deg,#5b4128,var(--ink));box-shadow:0 14px 40px rgba(0,0,0,.4)}
+.ticket img{display:block;width:100%;height:100%;object-fit:cover}
+.ticket img:not([src]){visibility:hidden}
+.key-text{display:grid;gap:8px}
+.key-text .eyebrow b{font-weight:500;color:var(--wheat)}
+.done h3{margin:0;font-family:var(--display);font-style:italic;font-weight:400;font-size:30px;line-height:1.05}
 .done p{margin:0;color:var(--bone-dim);max-width:34ch}
+.actions{display:grid;gap:10px}
+.ghost{display:flex;justify-content:center;align-items:center;width:100%;height:50px;border-radius:999px;border:1px solid rgba(243,236,224,.38);
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;transition:border-color .3s,background .3s}
+.ghost:hover{border-color:var(--bone);background:rgba(243,236,224,.05)}
+.done .small{font-size:13px;line-height:1.45}
+.done .small b{color:var(--bone);font-weight:600}
+.found{display:grid;gap:12px;padding:16px;border:1px solid rgba(217,179,106,.5);border-radius:12px;background:rgba(217,179,106,.07)}
+.found input{width:100%;padding:6px 0 9px;background:transparent;border:0;border-bottom:1px solid rgba(243,236,224,.45);border-radius:0;font-family:var(--display);font-size:20px;color:var(--bone);outline:none}
+.found input:focus{border-color:var(--wheat)}
+.follow{display:flex;gap:22px}
+.follow a{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--bone);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px}
+.follow a:hover{border-color:var(--bone)}
 .legal{margin-top:auto;display:flex;gap:18px;flex-wrap:wrap;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--bone-dim)}
 .legal a{color:var(--bone-dim);text-decoration:none;border-bottom:1px solid var(--line)}
 .legal a:hover{color:var(--bone)}
@@ -136,6 +156,18 @@ form{display:grid;gap:18px}
 .loader-bar{width:160px;height:1px;background:var(--line);overflow:hidden}
 .loader-bar i{display:block;height:100%;background:var(--bone);transform-origin:left;transform:scaleX(0);transition:transform .4s var(--ease)}
 .loader .eyebrow{min-height:1.5em}
+/* Enter: one click unlocks the sound and starts the arrival */
+.gate{display:grid;justify-items:center;gap:14px;animation:rise 1.1s var(--ease) both}
+.enter{display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 34px 0 28px;border-radius:999px;border:1px solid rgba(243,236,224,.55);
+  font-family:var(--mono);font-size:12px;letter-spacing:.26em;text-transform:uppercase;transition:background .3s,color .3s,border-color .3s}
+.enter:hover,.enter:focus-visible{background:var(--bone);color:var(--ink);border-color:var(--bone)}
+.enter .eq i{animation:eq 1.1s ease-in-out infinite}
+.enter .eq i:nth-child(2){animation-delay:-.4s}
+.enter .eq i:nth-child(3){animation-delay:-.75s}
+.quiet{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--bone-dim);padding:6px 0;border-bottom:1px solid transparent;transition:color .3s,border-color .3s}
+.quiet:hover{color:var(--bone);border-color:var(--line)}
+.loader.ready .loader-bar,.loader.ready #loaderText{display:none}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 
 .fallback{position:fixed;inset:0;z-index:21;display:grid;place-items:center;padding:24px 16px;background:var(--ink);text-align:center}
 .fallback p{max-width:40ch;color:var(--bone-dim)}

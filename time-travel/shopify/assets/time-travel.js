@@ -10,13 +10,37 @@ import { mergeGeometries, mergeVertices } from "three/addons/utils/BufferGeometr
    CONFIG — the only block you normally touch
    ========================================================================== */
 const CONFIG = {
-  dropAt:  "2027-04-22T19:00:00+02:00",   // door opens for everyone (Berlin, CEST)
-  earlyAt: "2027-04-22T18:00:00+02:00",   // waitlist gets the key
-  // "auto" → "shopify" on the shop domain, else "endpoint" if set, else "demo"
+  // Pre-order: the first money moment. Opens for everyone at this time (Berlin);
+  // the waitlist and the inner circle get in earlier (minutes below).
+  preorderAt: "2027-01-14T19:00:00+01:00",
+  preorderPairs: 35,
+  preorderPrice: "",                           // e.g. "€149" — shown next to the pairs when set
+  preorderUrl: "/collections/time-travel",     // where "Pre-order" leads once it is open
+  preorderSoldOut: false,                      // true once the pairs are gone: hides the button
+  // Drop: the door opens for everyone (Berlin)
+  dropAt: "2027-04-22T19:00:00+02:00",
+  dropUrl: "/collections/time-travel",         // where "Enter" leads once the door is open
+  waitlistEarlyMin: 60,                        // the waitlist gets the key this many minutes before everyone
+  innerEarlyMin: 120,                          // inner circle: found the golden key, or brought friends
+  referralFriends: 3,                          // friends through your link for the inner circle
+  // Chapters: the izba changes on these dates (Thursdays, 19:00). Each one is a reason to come back.
+  chapters: [
+    { at: "2026-10-01T00:00:00+02:00", line: "Somewhere in the Slavic fields." },
+    { at: "2026-11-19T19:00:00+01:00", line: "The star above the door woke up." },
+    { at: "2026-12-17T19:00:00+01:00", line: "The harvest appeared on the door." },
+    { at: "2027-01-14T19:00:00+01:00", line: "There is light in the windows." },
+    { at: "2027-03-04T19:00:00+01:00", line: "A tree appeared under the roof." },
+    { at: "2027-04-15T19:00:00+02:00", line: "Every window is lit. One week left." },
+  ],
+  // Sharing
+  shareUrl: "https://novalife.store/pages/time-travel",  // personal link = this + ?ref=CODE
+  shareLabel: "novalife.store/timetravel",               // printed on the key image
+  instagram: "",                                         // e.g. "https://www.instagram.com/…" — empty hides the link
+  tiktok: "",                                            // e.g. "https://www.tiktok.com/@…"
+  // Sign-ups: "auto" → "shopify" on the shop domain, else "endpoint" if set, else "demo"
   mode: "auto",
   shopHosts: ["novalife.store", "myshopify.com"],
-  endpoint: "",                                // e.g. a Formspree URL (POST JSON)
-  dropUrl: "/collections/time-travel",         // where "Enter" leads once the door is open
+  endpoint: "",                                          // e.g. a Formspree URL (POST JSON)
   privacyUrl: "/policies/privacy-policy",
   imprintUrl: "/policies/legal-notice",
 };
@@ -33,16 +57,75 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
   del(k) { try { localStorage.removeItem(k); } catch (e) {} },
 };
-const DROP_AT = new Date(CONFIG.dropAt).getTime();
-const EARLY_AT = new Date(CONFIG.earlyAt).getTime();
-const isOpen = () => flag("open") || Date.now() >= DROP_AT;
 const pad = (n, l = 2) => String(n).padStart(l, "0");
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 const smooth = (a, b, x) => { const t = clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
 const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
-if (flag("reset")) store.del("tt_registered");
+if (flag("reset")) ["tt_registered", "tt_found", "tt_found_attached", "tt_pending_found", "tt_code", "tt_ref", "tt_email"].forEach((k) => store.del(k));
 ["privacyLink", "privacyLink2"].forEach((id) => ($(id).href = CONFIG.privacyUrl));
 $("imprintLink").href = CONFIG.imprintUrl;
+
+// Where the story stands. #preorder and #open preview the later states.
+const MINUTE = 60000, PRE_AT = Date.parse(CONFIG.preorderAt), DROP_AT = Date.parse(CONFIG.dropAt);
+const isOpen = () => flag("open") || Date.now() >= DROP_AT;
+const preorderOpen = () => flag("preorder") || Date.now() >= PRE_AT;
+function phase(now = Date.now()) {
+  if (isOpen()) return "open";
+  if (preorderOpen()) return now >= DROP_AT - CONFIG.innerEarlyMin * MINUTE ? "drop-early" : "preorder";
+  return now >= PRE_AT - CONFIG.innerEarlyMin * MINUTE ? "pre-early" : "pre";
+}
+// the next date everything counts down to: the pre-order, then the door
+const milestone = () => (preorderOpen() ? { iso: CONFIG.dropAt, at: DROP_AT } : { iso: CONFIG.preorderAt, at: PRE_AT });
+// Berlin wall time of an ISO date minus n minutes → { date: "14.01.2027", time: "18:00 CET" }
+function berlin(iso, minus = 0) {
+  const off = iso.slice(-6), zone = off === "+02:00" ? "CEST" : off === "+01:00" ? "CET" : "UTC" + off;
+  const parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })
+    .formatToParts(new Date(Date.parse(iso) - minus * MINUTE));
+  const g = (k) => (parts.find((p) => p.type === k) || {}).value;
+  return { date: `${g("day")}.${g("month")}.${g("year")}`, time: `${g("hour")}:${g("minute")} ${zone}` };
+}
+const dayMonth = (iso) => new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Berlin", day: "numeric", month: "long" }).format(new Date(iso)).replace(" ", "&nbsp;");
+
+// Chapter of the story right now (#ch1 … #ch6 previews one)
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+const CH = (() => {
+  const forced = [...hashFlags].map((f) => /^ch(\d+)$/.exec(f)).find(Boolean);
+  if (forced) return clamp(+forced[1] - 1, 0, CONFIG.chapters.length - 1);
+  let i = 0; CONFIG.chapters.forEach((c, k) => { if (Date.now() >= Date.parse(c.at)) i = k; });
+  return i;
+})();
+$("spawnEyebrow").textContent = `Time Travel · Chapter ${ROMAN[CH]}`;
+$("spawnLine").textContent = CONFIG.chapters[CH].line;
+
+// Funnel events → Shopify customer events (custom pixels: GA4, Meta, TikTok) and Google Tag Manager, if present
+function track(name, data = {}) {
+  const payload = { chapter: CH + 1, phase: phase(), ...data };
+  try { if (window.Shopify && window.Shopify.analytics) window.Shopify.analytics.publish(name, payload); } catch (e) {}
+  try { (window.dataLayer = window.dataLayer || []).push({ event: name, ...payload }); } catch (e) {}
+}
+const tracked = new Set();
+const trackOnce = (name, data) => { if (!tracked.has(name)) { tracked.add(name); track(name, data); } };
+
+// Personal key number: printed on the key image, doubles as the referral code (no 0/O/1/I)
+const CODE_ABC = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+function myCode() {
+  let c = store.get("tt_code");
+  if (!/^[A-Z2-9]{6}$/.test(c || "")) {
+    const r = new Uint32Array(6);
+    if (window.crypto && crypto.getRandomValues) crypto.getRandomValues(r); else for (let i = 0; i < 6; i++) r[i] = Math.floor(Math.random() * 2 ** 32);
+    c = Array.from(r, (n) => CODE_ABC[n % CODE_ABC.length]).join("");
+    store.set("tt_code", c);
+  }
+  return c;
+}
+const fmtCode = (c) => `${c.slice(0, 3)}-${c.slice(3)}`;
+// came in through someone's personal link
+const REF = (() => {
+  const r = (params.get("ref") || "").toUpperCase();
+  if (/^[A-Z2-9]{6}$/.test(r) && r !== store.get("tt_code")) store.set("tt_ref", r);
+  return store.get("tt_ref") || "";
+})();
+const refLink = () => `${CONFIG.shareUrl}?ref=${myCode()}`;
 
 // seeded random so the field looks the same for everyone
 let seed = 1337;
@@ -360,6 +443,81 @@ function drawCanvasTextures() {
     [[22, 70, 26, 100], [53, 64, 24, 120], [84, 72, 26, 96]].forEach(([x, y, w, h]) => { g.fillRect(x + 6, y - 14, w - 12, 4); g.fillRect(x, y, w, h); });
     T.interior = tex(gl, { wrap: false });
   }
+  // chapter III: three golden ears on a red band, painted on the door
+  {
+    const c = makeCanvas(512, 256), g = c.getContext("2d");
+    g.fillStyle = "#9e2f25"; g.fillRect(0, 0, 512, 256);
+    g.fillStyle = "#ece4d3"; g.fillRect(0, 9, 512, 4); g.fillRect(0, 243, 512, 4);
+    for (let x = 16; x < 512; x += 32) for (const y of [27, 229]) { g.beginPath(); g.moveTo(x, y - 6); g.lineTo(x + 7, y); g.lineTo(x, y + 6); g.lineTo(x - 7, y); g.closePath(); g.fill(); }
+    const ear = (ang) => {
+      g.save(); g.translate(256, 206); g.rotate(ang); g.scale(1.45, 1.45);
+      g.strokeStyle = "#d7a64e"; g.lineWidth = 4; g.lineCap = "round";
+      g.beginPath(); g.moveTo(0, 0); g.lineTo(0, -40); g.stroke();
+      for (let k = 0; k < 6; k++) {
+        const y = -44 - k * 9, sc = 1 - k * 0.08;
+        for (const sx of [-1, 1]) {
+          g.save(); g.translate(sx * 5.5 * sc, y); g.rotate(sx * 0.42);
+          const gr = g.createLinearGradient(-5, 0, 5, 0); gr.addColorStop(0, "#b9862f"); gr.addColorStop(0.5, "#f4d58c"); gr.addColorStop(1, "#b9862f");
+          g.fillStyle = gr; g.beginPath(); g.ellipse(0, 0, 5.2 * sc, 9 * sc, 0, 0, Math.PI * 2); g.fill();
+          g.restore();
+        }
+      }
+      g.fillStyle = "#f4d58c"; g.beginPath(); g.ellipse(0, -98, 3.4, 6.5, 0, 0, Math.PI * 2); g.fill();
+      g.strokeStyle = "rgba(244,213,140,.85)"; g.lineWidth = 1.4;
+      for (let k = -2; k <= 2; k++) { g.beginPath(); g.moveTo(k * 2.2, -88 + Math.abs(k) * 5); g.lineTo(k * 6.5, -114 + Math.abs(k) * 4); g.stroke(); }
+      g.restore();
+    };
+    [-0.55, 0, 0.55].forEach(ear);
+    g.fillStyle = "#ece4d3"; g.fillRect(238, 194, 36, 8);
+    T.harvest = tex(c, { wrap: false });
+  }
+  // chapter V: a carved tree of life with two birds (white carving on a red board)
+  {
+    const c = makeCanvas(512, 256), g = c.getContext("2d");
+    g.fillStyle = "#e6dccb"; g.fillRect(0, 0, 512, 256);
+    g.fillStyle = "#9e2f25"; g.fillRect(12, 12, 488, 232);
+    const carve = (col, dx, dy, cut) => {
+      g.save(); g.translate(256 + dx, dy);
+      g.fillStyle = col; g.strokeStyle = col; g.lineCap = "round"; g.lineJoin = "round";
+      g.beginPath(); g.moveTo(-50, 236); g.quadraticCurveTo(0, 196, 50, 236); g.closePath(); g.fill();          // mound
+      g.beginPath(); g.moveTo(-8, 216); g.lineTo(-3.5, 64); g.lineTo(3.5, 64); g.lineTo(8, 216); g.closePath(); g.fill(); // trunk
+      [[190, 78, 30], [148, 62, 24], [106, 46, 18]].forEach(([y, reach, rise]) => {
+        for (const sx of [-1, 1]) {
+          g.lineWidth = 6; g.beginPath(); g.moveTo(0, y); g.quadraticCurveTo(sx * reach * 0.55, y + 4, sx * reach, y - rise); g.stroke();
+          g.lineWidth = 4; g.beginPath(); g.arc(sx * (reach + 6), y - rise - 4, 7, 0, Math.PI * 2); g.stroke();       // curl
+          g.beginPath(); g.arc(sx * (reach + 6), y - rise - 4, 2.6, 0, Math.PI * 2); g.fill();
+          g.save(); g.translate(sx * reach * 0.42, y + 11); g.rotate(sx * 0.9); g.beginPath(); g.ellipse(0, 0, 5, 12, 0, 0, Math.PI * 2); g.fill(); g.restore();
+        }
+      });
+      g.beginPath(); g.ellipse(0, 44, 7, 20, 0, 0, Math.PI * 2); g.fill();                                    // flower on top
+      for (const sx of [-1, 1]) { g.save(); g.translate(sx * 12, 54); g.rotate(sx * 0.6); g.beginPath(); g.ellipse(0, 0, 6, 16, 0, 0, Math.PI * 2); g.fill(); g.restore(); }
+      for (const sx of [-1, 1]) {                                                                               // two birds facing the tree
+        g.save(); g.translate(sx * 160, 150); g.scale(sx, 1);
+        g.beginPath(); g.ellipse(0, 0, 30, 17, -0.15, 0, Math.PI * 2); g.fill();
+        g.beginPath(); g.arc(-28, -16, 11, 0, Math.PI * 2); g.fill();
+        g.beginPath(); g.moveTo(-37, -19); g.lineTo(-52, -13); g.lineTo(-37, -9); g.closePath(); g.fill();
+        g.beginPath(); g.moveTo(24, -4); g.lineTo(58, -26); g.lineTo(52, 2); g.lineTo(60, 16); g.lineTo(24, 8); g.closePath(); g.fill();
+        g.lineWidth = 3; g.beginPath(); g.moveTo(-4, 14); g.lineTo(-8, 34); g.moveTo(6, 14); g.lineTo(4, 34); g.stroke();
+        if (cut) { g.fillStyle = "#9e2f25"; g.beginPath(); g.arc(-30, -18, 2.6, 0, Math.PI * 2); g.fill(); g.lineWidth = 2.4; g.strokeStyle = "#9e2f25"; g.beginPath(); g.arc(4, -2, 12, Math.PI * 0.15, Math.PI * 0.85); g.stroke(); }
+        g.restore();
+      }
+      g.restore();
+    };
+    carve("rgba(40,8,4,.55)", 2, 3, false);
+    carve("#ece4d3", 0, 0, true);
+    T.tree = tex(c, { wrap: false });
+  }
+  // the golden key's glint
+  {
+    const c = makeCanvas(128, 128), g = c.getContext("2d");
+    const r = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+    r.addColorStop(0, "rgba(255,255,255,1)"); r.addColorStop(0.1, "rgba(255,242,205,.9)"); r.addColorStop(0.35, "rgba(255,206,130,.22)"); r.addColorStop(1, "rgba(255,190,110,0)");
+    g.fillStyle = r; g.fillRect(0, 0, 128, 128);
+    g.globalCompositeOperation = "lighter"; g.fillStyle = "rgba(255,236,190,.55)";
+    g.beginPath(); g.ellipse(64, 64, 62, 1.6, 0, 0, Math.PI * 2); g.fill();
+    g.beginPath(); g.ellipse(64, 64, 1.6, 62, 0, 0, Math.PI * 2); g.fill();
+    T.glint = tex(c, { wrap: false });
+  }
 }
 function texturesFromPixels(C) {
   T.log = tex(C.log); T.logBump = tex(C.log, { srgb: false });
@@ -457,7 +615,14 @@ function buildMaterials() {
   M.lemekh = new THREE.MeshStandardMaterial({ map: T.lemekh, bumpMap: T.lemekhBump, bumpScale: 2.5, roughness: 0.88 });
   M.moss = new THREE.MeshStandardMaterial({ color: "#4f4a30", roughness: 1 });
   M.tin = new THREE.MeshStandardMaterial({ color: "#5f5c56", roughness: 0.5, metalness: 0.6 });
+  // chapters and the golden key
+  M.star = new THREE.MeshStandardMaterial({ color: "#9e2f25", roughness: 0.7, emissive: new THREE.Color("#ff7b30"), emissiveIntensity: 0 });
+  M.lamp = new THREE.MeshStandardMaterial({ color: "#3a2412", roughness: 0.4, emissive: new THREE.Color("#ffad55"), emissiveIntensity: 0 });
+  M.harvest = new THREE.MeshStandardMaterial({ map: T.harvest, roughness: 0.72 });
+  M.tree = new THREE.MeshStandardMaterial({ map: T.tree, roughness: 0.8 });
+  M.gold = new THREE.MeshStandardMaterial({ color: "#e8bd62", roughness: 0.28, metalness: 1, emissive: new THREE.Color("#8a5a16"), emissiveIntensity: 0.9 });
   Object.values(M).forEach((m) => { if (m.isMeshStandardMaterial && m !== M.glass) m.envMapIntensity = 0.5; });
+  M.gold.envMapIntensity = 1.4;
 }
 
 /* ==========================================================================
@@ -705,6 +870,7 @@ function mesh(geo, mat, { cast = true, receive = true } = {}) { const m = new TH
 
 /* ---------- the izba ---------- */
 const doorRig = { pivot: null, lock: null, glow: null, light: null, hit: [] };
+const houseRig = { pivot: null, dW: 0, dH: 0 };
 function buildHouse() {
   const house = new THREE.Group(); house.position.copy(HOUSE_POS); house.rotation.y = HOUSE_ROT; scene.add(house);
   const sides = [], ends = [];
@@ -947,13 +1113,14 @@ function buildHouse() {
     lock.add(mesh(bg, M.brass));
     const shackle = mesh(new THREE.TorusGeometry(0.036, 0.008, 8, 24, Math.PI), M.iron); shackle.position.set(0, -0.03, 0); lock.add(shackle);
     doorRig.pivot = pivot; doorRig.lock = lock; doorRig.hit = [leaf, ...lock.children];
+    houseRig.pivot = pivot; houseRig.dW = dW; houseRig.dH = dH;
     // frame + crown with the eight-pointed star (alatyr)
     for (const sgn of [-1, 1]) { const side = mesh(new THREE.BoxGeometry(0.15, dH + 0.18, 0.05), M.paint); side.position.set(sgn * (dW / 2 + 0.075), BASE + dH / 2 + 0.05, z + 0.03); house.add(side); }
     const CW = dW + 0.62;
     const crown = crownShape(CW, 0.2, 0.7, (s) => { s.holes.push(starPath(0, 0.37, 0.13, 0.065)); [-1, 1].forEach((k) => { const c = new THREE.Path(); c.absarc(k * CW * 0.28, 0.11, 0.045, 0, Math.PI * 2, false); s.holes.push(c); }); });
     const cg = mesh(new THREE.ExtrudeGeometry(crown, { depth: 0.045, bevelEnabled: true, bevelSize: 0.006, bevelThickness: 0.006, bevelSegments: 1, curveSegments: 10 }), M.paint);
     cg.position.set(0, BASE + dH + 0.12, z + 0.02); house.add(cg);
-    const cb = mesh(new THREE.ShapeGeometry(crownShape(CW - 0.08, 0.17, 0.64)), M.red, { cast: false }); cb.position.set(0, BASE + dH + 0.13, z + 0.012); house.add(cb);
+    const cb = mesh(new THREE.ShapeGeometry(crownShape(CW - 0.08, 0.17, 0.64)), M.star, { cast: false }); cb.position.set(0, BASE + dH + 0.13, z + 0.012); house.add(cb);
     // porch: deck, two steps, turned balusters, posts with finials
     {
       const dkW = 2.3, dkD = 1.3, z0 = HD + 0.1, top = BASE;
@@ -986,6 +1153,77 @@ function buildHouse() {
   }
 
   return house;
+}
+
+/* ---------- chapters: the izba changes over the weeks before the drop (patterns, never the product) ---------- */
+function applyChapter(house) {
+  if (CH >= 1) M.star.emissiveIntensity = 1.2;                    // II: the star above the door glows (pulses in update)
+  if (CH >= 2) {                                                  // III: the harvest band on the door leaf
+    const band = mesh(new THREE.PlaneGeometry(0.86, 0.43), M.harvest, { cast: false });
+    band.position.set(houseRig.dW / 2, 1.36, 0.0365); houseRig.pivot.add(band);
+  }
+  if (CH >= 3) M.glass.emissiveIntensity = CH >= 5 ? 2.6 : 1.8;  // IV: light in the windows (VI: every window)
+  if (CH >= 4) {                                                  // V: the carved tree under the roof
+    const panel = mesh(new THREE.PlaneGeometry(0.92, 0.46), M.tree, { cast: false });
+    panel.position.set(0, TOP_Y + 0.36, HD + 0.07); house.add(panel);
+  }
+  if (CH >= 5) {                                                  // VI: two lanterns by the door
+    for (const sgn of [-1, 1]) {
+      const x = sgn * 0.86, y = BASE + 1.72, z = HD + R + 0.17;
+      const arm = mesh(new THREE.BoxGeometry(0.025, 0.025, 0.21), M.iron); arm.position.set(x, y + 0.17, z - 0.09); house.add(arm);
+      const hook = mesh(new THREE.BoxGeometry(0.012, 0.05, 0.012), M.iron); hook.position.set(x, y + 0.14, z); house.add(hook);
+      const glass = mesh(new THREE.BoxGeometry(0.1, 0.15, 0.1), M.lamp, { cast: false }); glass.position.set(x, y, z); house.add(glass);
+      const cap = mesh(new THREE.ConeGeometry(0.085, 0.08, 4), M.iron); cap.rotation.y = Math.PI / 4; cap.position.set(x, y + 0.115, z); house.add(cap);
+      const foot = mesh(new THREE.BoxGeometry(0.12, 0.02, 0.12), M.iron); foot.position.set(x, y - 0.085, z); house.add(foot);
+    }
+    M.lamp.emissiveIntensity = 2.4;
+    if (!isOpen()) { doorRig.light.position.set(0, BASE + 1.9, HD + 1.1); doorRig.light.intensity = 1.6; }
+  }
+}
+
+/* ---------- the golden key: floats in the wheat near the birch; tap it to keep it ---------- */
+const KEY_SPOT = new THREE.Vector3(9.5, 1.56, -29.8);   // just above the ears, against the tree line
+const keyRig = { group: null, glint: null, sphere: new THREE.Sphere(KEY_SPOT.clone(), coarse ? 1 : 0.75), at: -1, from: new THREE.Vector3(), gone: false, rot: 0 };
+function buildKey() {
+  if (store.get("tt_found") === "1") { keyRig.gone = true; return; }
+  const star = new THREE.Shape();
+  for (let i = 0; i < 16; i++) { const a = (i / 16) * Math.PI * 2 + Math.PI / 2, r = i % 2 ? 0.014 : 0.032; i ? star.lineTo(Math.cos(a) * r, Math.sin(a) * r) : star.moveTo(Math.cos(a) * r, Math.sin(a) * r); }
+  const ni = (g) => g.toNonIndexed();
+  const geo = mergeGeometries([
+    ni(new THREE.TorusGeometry(0.056, 0.012, 10, 36)),                                            // bow
+    new THREE.ExtrudeGeometry(star, { depth: 0.01, bevelEnabled: false }).translate(0, 0, -0.005),  // star inside the bow
+    ni(new THREE.CylinderGeometry(0.017, 0.017, 0.022, 14).rotateZ(Math.PI / 2).translate(0.08, 0, 0)),
+    ni(new THREE.CylinderGeometry(0.0105, 0.0105, 0.23, 12).rotateZ(Math.PI / 2).translate(0.19, 0, 0)),
+    ni(new THREE.BoxGeometry(0.052, 0.064, 0.012).translate(0.272, -0.034, 0)),                     // bit
+    ni(new THREE.BoxGeometry(0.016, 0.026, 0.013).translate(0.258, -0.074, 0)),
+  ]).translate(-0.15, 0, 0);
+  const key = new THREE.Mesh(geo, M.gold); key.rotation.z = -0.55; key.scale.setScalar(2);
+  const group = new THREE.Group(); group.position.copy(KEY_SPOT); group.add(key);
+  const seenFrom = pathCurve.getPointAt(16 / PATH_LEN);         // face the stretch of path it is seen from
+  group.rotation.y = keyRig.rot = Math.atan2(seenFrom.x - KEY_SPOT.x, seenFrom.z - KEY_SPOT.z);
+  const glint = new THREE.Sprite(new THREE.SpriteMaterial({ map: T.glint, color: "#fff0c8", transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending, fog: false }));
+  glint.position.set(-0.25, 0.16, 0.05); glint.scale.setScalar(0.5); group.add(glint);
+  scene.add(group); keyRig.group = group; keyRig.glint = glint;
+}
+const tmpK = new THREE.Vector3();
+function updateKey(dt, t) {
+  const k = keyRig; if (!k.group || k.gone) return;
+  const g = k.group;
+  if (k.at < 0) {
+    g.position.y = KEY_SPOT.y + Math.sin(t * 1.25) * 0.035;
+    g.rotation.y = k.rot + Math.sin(t * 0.55) * 0.45;
+    const ph = (t % 3.4) / 3.4, tw = ph < 0.2 ? Math.sin((ph / 0.2) * Math.PI) : 0;   // a glint every few seconds
+    k.glint.material.opacity = 0.2 + tw * 0.8; k.glint.material.rotation = t * 0.6; k.glint.scale.setScalar(0.55 + tw * 1.1);
+    return;
+  }
+  // collected: it flies to you, spins and is gone
+  const u = clamp((t - k.at) / 1.3, 0, 1), e = u * u * (3 - 2 * u);
+  camera.getWorldDirection(tmpK);
+  g.position.lerpVectors(k.from, tmpK.multiplyScalar(1.15).add(camera.position), e);
+  g.rotation.y += dt * (3 + 14 * u);
+  g.scale.setScalar(Math.max(0.001, u < 0.75 ? 1 + u * 0.5 : (1 - u) * 5.5));
+  k.glint.material.opacity = Math.sin(u * Math.PI); k.glint.scale.setScalar(0.5 + u * 1.2);
+  if (u >= 1) { g.visible = false; k.gone = true; }
 }
 
 /* ---------- trees: a soft, dark core for volume, leaf-cluster cards for the silhouette ---------- */
@@ -1323,6 +1561,7 @@ const sfx = {
   step() { burst({ dur: 0.12, freq: 420, gain: 0.14 }); burst({ dur: 0.05, type: "bandpass", freq: 1800, q: 1.5, gain: 0.025, when: 0.012 }); },
   rattle() { [0, 0.13, 0.24, 0.42].forEach((w, i) => { burst({ dur: 0.14, freq: 160, gain: 0.7, when: w }); [523, 811, 1307].forEach((f) => ping(f * (1 + i * 0.01), 0.3, 0.035, w + 0.01)); }); },
   chime() { const a = audio.ctx; if (!a || !audio.on) return; [57, 60, 64, 69, 72, 76].forEach((m, i) => pluck(m, a.currentTime + 0.05 + i * 0.09, 0.5 - i * 0.04, -0.3 + i * 0.12)); },
+  found() { const a = audio.ctx; if (!a || !audio.on) return; [72, 76, 79, 84, 88, 91].forEach((m, i) => pluck(m, a.currentTime + 0.04 + i * 0.065, 0.45 - i * 0.05, -0.4 + i * 0.16)); ping(2093, 1.4, 0.03, 0.45); },
 };
 function setSound(on) {
   audio.on = on;
@@ -1347,7 +1586,7 @@ document.addEventListener("visibilitychange", () => { if (!audio.ctx) return; if
 const S = {
   dist: 0, vel: 0, scrollVel: 0, holding: false, bob: 0, lastStep: 0,
   lookX: 0, lookY: 0, tLookX: 0, tLookY: 0,
-  arrived: false, drawer: false, shake: 0, opened: false, doorAngle: 0, spawnAt: -1, spawnDone: false, fovKick: false, busy: false,
+  arrived: false, arriveAt: 0, drawer: false, shake: 0, opened: false, doorAngle: 0, spawnAt: -1, spawnDone: false, fovKick: false, busy: false, started: false,
 };
 const WALK = 3.2;
 const walkBtn = $("walkBtn"), backBtn = $("backBtn");
@@ -1367,37 +1606,133 @@ function renderControl() {
   if (backBtn.disabled !== S.dist < 0.05) backBtn.disabled = S.dist < 0.05;
 }
 
-function doorAction() {
-  if (S.busy || S.drawer) return;
-  if (isOpen()) { location.href = CONFIG.dropUrl; return; }
-  S.busy = true; S.shake = 1.4; sfx.rattle();
-  $("captionText").textContent = "The door is closed.";
-  $("captionSub").textContent = "Opens 22.04.2027 · 19:00 CEST";
-  setTimeout(() => $("caption").classList.add("on"), 450);
-  setTimeout(() => { $("caption").classList.remove("on"); openDrawer(); S.busy = false; }, 2900);
+let capTimer = 0;
+function showCaption(text, sub, ms = 0) {
+  $("captionText").textContent = text; $("captionSub").textContent = sub;
+  $("caption").classList.add("on"); clearTimeout(capTimer);
+  if (ms) capTimer = setTimeout(() => $("caption").classList.remove("on"), ms);
 }
 
-function openDrawer() {
+function doorAction() {
+  if (S.busy || S.drawer) return;
+  if (isOpen()) { track("tt_cta", { to: "drop" }); location.href = CONFIG.dropUrl; return; }
+  S.busy = true; S.shake = 1.4; sfx.rattle(); track("tt_door");
+  setTimeout(() => showCaption("The door is closed.", copy.sub), 450);
+  setTimeout(() => { $("caption").classList.remove("on"); openDrawer("door"); S.busy = false; }, 2900);
+}
+
+function openDrawer(from = "nav") {
   S.drawer = true; S.holding = false; walkBtn.classList.remove("down");
   const d = $("drawer"); d.classList.add("open"); d.setAttribute("aria-hidden", "false");
-  renderRegistered(); tick(); sfx.chime();
-  setTimeout(() => { if ($("wlDone").hidden && !coarse) $("wlEmail").focus({ preventScroll: true }); }, 700);
+  renderLede(); renderRegistered(); tick(); sfx.chime(); track("tt_waitlist_open", { from });
+  setTimeout(() => { if (!$("wlWrap").hidden && !coarse) $("wlEmail").focus({ preventScroll: true }); }, 700);
 }
 function closeDrawer() {
   S.drawer = false; const d = $("drawer"); d.classList.remove("open"); d.setAttribute("aria-hidden", "true");
   walkBtn.focus({ preventScroll: true });
 }
 $("closeBtn").addEventListener("click", closeDrawer);
-$("skipBtn").addEventListener("click", () => (S.drawer ? closeDrawer() : openDrawer()));
+$("skipBtn").addEventListener("click", () => (S.drawer ? closeDrawer() : openDrawer("nav")));
+
+/* where the story stands → the copy in the drawer and at the door */
+let copy = { lede: "", sub: "" }, shownPhase = "";
+function renderPhase() {
+  const ph = phase();
+  if (ph === shownPhase) return;
+  shownPhase = ph;
+  const pre = berlin(CONFIG.preorderAt), drop = berlin(CONFIG.dropAt), n = CONFIG.preorderPairs;
+  const pairs = `${n} pairs${CONFIG.preorderPrice ? " at " + CONFIG.preorderPrice : ""}`;
+  const wlPre = berlin(CONFIG.preorderAt, CONFIG.waitlistEarlyMin).time, wlDrop = berlin(CONFIG.dropAt, CONFIG.waitlistEarlyMin).time;
+  copy = {
+    pre: { title: `Pre-order opens on <em>${dayMonth(CONFIG.preorderAt)}</em>.`, lede: `${pairs}. The waitlist gets in first, at ${wlPre}.`,
+      count: "Time until the pre-order opens", sub: `Pre-order ${pre.date} · ${pre.time}` },
+    "pre-early": { title: "The key is <em>out</em>.", lede: `The first keys are in the inboxes. The pre-order opens for everyone at ${pre.time}.`,
+      count: "Time until the pre-order opens for everyone", sub: `Pre-order ${pre.date} · ${pre.time}` },
+    preorder: { title: `The door opens on <em>${dayMonth(CONFIG.dropAt)}</em>.`,
+      lede: CONFIG.preorderSoldOut ? `All ${n} pre-order pairs are gone. For the drop, the waitlist gets in first, at ${wlDrop}.` : `The pre-order is open: ${pairs}. For the drop, the waitlist gets in first, at ${wlDrop}.`,
+      count: "Time until the door opens", sub: `Opens ${drop.date} · ${drop.time}`, cta: CONFIG.preorderSoldOut ? null : ["Pre-order", CONFIG.preorderUrl] },
+    "drop-early": { title: "The key is <em>out</em>.", lede: `The first keys are in the inboxes. The door opens for everyone at ${drop.time}.`,
+      count: "Time until the door opens for everyone", sub: `Opens ${drop.date} · ${drop.time}` },
+    open: { title: "The door is <em>open</em>.", lede: "", count: "", sub: "", cta: ["Enter", CONFIG.dropUrl] },
+  }[ph];
+  $("drawerEyebrow").textContent = ph === "open" ? "Time Travel" : "Waitlist";
+  $("drawerTitle").innerHTML = copy.title;
+  $("count").hidden = !copy.count; if (copy.count) $("count").setAttribute("aria-label", copy.count);
+  $("cta").hidden = !copy.cta; if (copy.cta) { $("ctaLabel").textContent = copy.cta[0]; $("cta").href = copy.cta[1]; }
+  renderLede(); renderRegistered();
+  if (ph === "open") setOpenState();
+}
+// with the golden key in your pocket, the drawer says what it is worth
+function renderLede() {
+  const extra = copy.lede && store.get("tt_found") === "1" && store.get("tt_registered") !== "1" ? ` With the golden key you get in at ${berlin(milestone().iso, CONFIG.innerEarlyMin).time}.` : "";
+  $("lede").textContent = copy.lede + extra; $("lede").hidden = !$("lede").textContent;
+}
+$("cta").addEventListener("click", () => track("tt_cta", { to: isOpen() ? "drop" : "preorder" }));
 
 function tick() {
-  const now = Date.now(), diff = Math.max(0, DROP_AT - now), s = Math.floor(diff / 1000);
+  renderPhase();
+  const s = Math.floor(Math.max(0, milestone().at - Date.now()) / 1000);
   const d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
   $("cdD").textContent = pad(d, 3); $("cdH").textContent = pad(h); $("cdM").textContent = pad(m); $("cdS").textContent = pad(sec);
-  if (isOpen()) { $("drawerTitle").innerHTML = "The door is <em>open</em>."; }
-  else if (now >= EARLY_AT) { $("drawerTitle").innerHTML = "The waitlist is <em>inside</em>."; }
 }
 setInterval(tick, 1000);
+
+/* the key image: a still of the door (or the field), your key number, the dates — 9:16 for stories */
+const snap = { want: false, door: false, canvas: null, waiters: [] };
+function takeSnap() {   // right after a render, while the frame is still in the drawing buffer
+  snap.want = false;
+  const src = renderer.domElement, W = src.width, H = src.height;
+  let sw = W, sh = H; if (W / H > 9 / 16) sw = Math.round((H * 9) / 16); else sh = Math.round((W * 16) / 9);
+  try { const c = makeCanvas(sw, sh); c.getContext("2d").drawImage(src, (W - sw) / 2, (H - sh) / 2, sw, sh, 0, 0, sw, sh); snap.canvas = c; } catch (e) {}
+  snap.waiters.splice(0).forEach((r) => r(snap.canvas));
+  if (S.drawer && !$("wlDone").hidden) makeTicket();   // a better still arrived: refresh the open key image
+}
+const waitSnap = (ms) => (snap.canvas ? Promise.resolve(snap.canvas) : new Promise((r) => { snap.waiters.push(r); setTimeout(() => r(snap.canvas), ms); }));
+function spaced(g, text, cx, y, gap) {
+  const ch = [...text], ws = ch.map((c) => g.measureText(c).width);
+  let x = cx - (ws.reduce((a, b) => a + b, 0) + gap * (ch.length - 1)) / 2;
+  g.textAlign = "left"; ch.forEach((c, i) => { g.fillText(c, x, y); x += ws[i] + gap; });
+}
+function drawKeyIcon(g, cx, cy) {
+  g.save(); g.translate(cx, cy);
+  const gold = g.createLinearGradient(-130, -40, 130, 40); gold.addColorStop(0, "#f6dc9b"); gold.addColorStop(0.5, "#d9b36a"); gold.addColorStop(1, "#a97a2c");
+  g.strokeStyle = gold; g.fillStyle = gold; g.lineWidth = 11; g.lineCap = "round"; g.shadowColor = "rgba(217,179,106,.55)"; g.shadowBlur = 28;
+  g.beginPath(); g.arc(-92, 0, 34, 0, Math.PI * 2); g.stroke();
+  g.beginPath(); g.moveTo(-58, 0); g.lineTo(118, 0); g.stroke();
+  g.fillRect(84, 0, 34, 42); g.fillRect(62, 0, 14, 28);
+  g.beginPath(); for (let i = 0; i < 16; i++) { const a = (i / 16) * Math.PI * 2 - Math.PI / 2, r = i % 2 ? 8 : 18; g.lineTo(-92 + Math.cos(a) * r, Math.sin(a) * r); } g.closePath(); g.fill();
+  g.restore();
+}
+const ticket = { blob: null, url: "", from: undefined, busy: null };
+const ticketName = () => `novalife-time-travel-key-${myCode()}.jpg`;
+async function makeTicket() {
+  const bg = snap.canvas || (await waitSnap(2500));
+  if (ticket.blob && ticket.from === bg) return ticket.blob;
+  if (ticket.busy) return ticket.busy;
+  ticket.busy = (async () => {
+    await Promise.all(['italic 400 100px "Bodoni Moda"', '500 26px "IBM Plex Mono"', '600 34px "Manrope"'].map((f) => document.fonts.load(f).catch(() => null)));
+    const W = 1080, H = 1920, c = makeCanvas(W, H), g = c.getContext("2d");
+    if (bg) g.drawImage(bg, 0, 0, W, H);
+    else { const sky = g.createLinearGradient(0, 0, 0, H); sky.addColorStop(0, "#41597a"); sky.addColorStop(0.42, "#e3a868"); sky.addColorStop(0.6, "#b98545"); sky.addColorStop(1, "#15110d"); g.fillStyle = sky; g.fillRect(0, 0, W, H); }
+    let gr = g.createLinearGradient(0, 0, 0, 380); gr.addColorStop(0, "rgba(21,17,13,.7)"); gr.addColorStop(1, "rgba(21,17,13,0)"); g.fillStyle = gr; g.fillRect(0, 0, W, 380);
+    gr = g.createLinearGradient(0, H * 0.5, 0, H); gr.addColorStop(0, "rgba(21,17,13,0)"); gr.addColorStop(0.42, "rgba(21,17,13,.86)"); gr.addColorStop(1, "rgba(21,17,13,.97)"); g.fillStyle = gr; g.fillRect(0, H * 0.5, W, H * 0.5);
+    g.fillStyle = "#f3ece0"; g.font = '600 34px Manrope, "Helvetica Neue", Arial, sans-serif'; spaced(g, "NOVALIFE", W / 2, 150, 14);
+    drawKeyIcon(g, W / 2, 1290);
+    g.font = '500 26px "IBM Plex Mono", ui-monospace, monospace'; g.fillStyle = "rgba(243,236,224,.82)"; spaced(g, "TIME TRAVEL", W / 2, 1420, 7);
+    g.font = 'italic 400 100px "Bodoni Moda", Georgia, serif'; g.fillStyle = "#f3ece0"; g.textAlign = "center"; g.fillText(`Key Nº ${fmtCode(myCode())}`, W / 2, 1545);
+    const pre = berlin(CONFIG.preorderAt), drop = berlin(CONFIG.dropAt);
+    const lines = preorderOpen() ? [`DROP ${drop.date} · ${drop.time}`] : [`PRE-ORDER ${pre.date} · ${pre.time}`, `DROP ${drop.date} · ${drop.time}`];
+    g.font = '500 26px "IBM Plex Mono", ui-monospace, monospace'; g.fillStyle = "rgba(243,236,224,.78)";
+    lines.forEach((l, i) => spaced(g, l, W / 2, 1640 + i * 50, 4));
+    g.fillStyle = "#d9b36a"; spaced(g, CONFIG.shareLabel.toUpperCase(), W / 2, 1812, 5);
+    const blob = await new Promise((r) => c.toBlob(r, "image/jpeg", 0.9));
+    if (ticket.url) URL.revokeObjectURL(ticket.url);
+    Object.assign(ticket, { blob, from: bg, url: blob ? URL.createObjectURL(blob) : "", busy: null });
+    if (ticket.url) { $("ticketImg").src = ticket.url; $("ticket").href = ticket.url; $("ticket").download = ticketName(); }
+    return blob;
+  })();
+  return ticket.busy;
+}
 
 /* waitlist */
 function resolveMode() {
@@ -1405,40 +1740,126 @@ function resolveMode() {
   if (CONFIG.shopHosts.some((h) => location.hostname === h || location.hostname.endsWith("." + h))) return "shopify";
   return CONFIG.endpoint ? "endpoint" : "demo";
 }
-function renderRegistered() { const reg = store.get("tt_registered") === "1"; $("wlWrap").hidden = reg; $("wlDone").hidden = !reg; }
+const WORDS = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven"];
+function renderRegistered() {
+  const reg = store.get("tt_registered") === "1", ph = phase(), open = ph === "open";
+  $("wlWrap").hidden = reg || open; $("wlDone").hidden = !reg || open;
+  if (!reg || open) return;
+  const found = store.get("tt_found") === "1", attached = store.get("tt_found_attached") === "1", inner = found && attached;
+  const m = milestone(), when = berlin(m.iso, inner ? CONFIG.innerEarlyMin : CONFIG.waitlistEarlyMin), innerTime = berlin(m.iso, CONFIG.innerEarlyMin).time;
+  $("keyNo").textContent = fmtCode(myCode());
+  $("doneText").textContent = ph.endsWith("early") ? "The key is out. Check your email." : `${inner ? "Inner circle. " : ""}We email you the key on ${when.date} at ${when.time}.`;
+  $("foundBox").hidden = !found || attached; $("innerTime").textContent = innerTime;
+  if (!$("foundBox").hidden && !$("attachEmail").value) $("attachEmail").value = store.get("tt_email") || "";
+  $("refLine").hidden = inner;
+  $("refLine").innerHTML = `${WORDS[CONFIG.referralFriends] || CONFIG.referralFriends} friends join through your link: you get in at <b>${innerTime}</b>.`;
+  if (S.drawer) makeTicket();
+}
+if (CONFIG.instagram || CONFIG.tiktok) {
+  $("follow").hidden = false;
+  [["igLink", CONFIG.instagram], ["tkLink", CONFIG.tiktok]].forEach(([id, url]) => { if (url) $(id).href = url; else $(id).remove(); });
+}
+$("ticket").addEventListener("click", (e) => { if (!ticket.url) e.preventDefault(); else track("tt_share", { method: "image" }); });
+$("shareBtn").addEventListener("click", async () => {
+  // use the ready image straight away: share sheets need the click to be fresh
+  const blob = ticket.blob && ticket.from === snap.canvas ? ticket.blob : await makeTicket(), text = `The door is closed. I have a key. ${refLink()}`;
+  const file = blob && typeof File === "function" ? new File([blob], ticketName(), { type: "image/jpeg" }) : null;
+  try {
+    if (file && navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], text }); track("tt_share", { method: "share" }); return; }
+    if (navigator.share) { await navigator.share({ title: "Novalife — Time Travel", text, url: refLink() }); track("tt_share", { method: "link" }); return; }
+  } catch (e) { if (e && e.name === "AbortError") return; }
+  if (!ticket.url) return;
+  const a = document.createElement("a"); a.href = ticket.url; a.download = ticketName(); document.body.appendChild(a); a.click(); a.remove();
+  $("shareLabel").textContent = "Saved"; setTimeout(() => ($("shareLabel").textContent = "Share your key"), 2200);
+  track("tt_share", { method: "download" });
+});
+$("copyBtn").addEventListener("click", async () => {
+  const link = refLink(); let ok = false;
+  try { await navigator.clipboard.writeText(link); ok = true; } catch (e) {}
+  if (!ok) { const t = document.createElement("textarea"); t.value = link; t.setAttribute("readonly", ""); t.style.cssText = "position:fixed;opacity:0"; document.body.appendChild(t); t.select(); try { ok = document.execCommand("copy"); } catch (e) {} t.remove(); }
+  if (ok) { $("copyLabel").textContent = "Link copied"; setTimeout(() => ($("copyLabel").textContent = "Copy your link"), 2200); }
+  else $("refLine").textContent = link;
+  track("tt_copy_link", { ok });
+});
+
+const validEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+// the tags carry what we need later: the key number, who sent you, the golden key
+function signupTags() {
+  const t = ["newsletter", "time-travel-waitlist", `key-${myCode()}`];
+  if (REF) t.push(`ref-${REF}`);
+  if (store.get("tt_found") === "1") t.push("found-key");
+  return t.join(",");
+}
 $("wlForm").addEventListener("submit", async (e) => {
   const email = $("wlEmail").value.trim(), err = $("wlErr"), btn = $("wlSubmit"), label = $("wlSubmitLabel");
   err.textContent = "";
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { e.preventDefault(); err.textContent = "Enter a full email address, like name@domain.com."; $("wlEmail").focus(); return; }
+  if (!validEmail(email)) { e.preventDefault(); err.textContent = "Enter a full email address, like name@domain.com."; $("wlEmail").focus(); return; }
   if (!$("wlConsent").checked) { e.preventDefault(); err.textContent = "Tick the box so we are allowed to email you the key."; return; }
-  const mode = resolveMode();
-  if (mode === "shopify") { label.textContent = "Sending…"; return; }   // native Shopify post → ?customer_posted=true
+  const mode = resolveMode(), tags = signupTags(), found = store.get("tt_found") === "1";
+  $("wlTags").value = tags; store.set("tt_email", email);
+  track("tt_signup_submit", { found, ref: !!REF });
+  if (mode === "shopify") { if (found) store.set("tt_pending_found", "1"); label.textContent = "Sending…"; return; }   // native Shopify post → ?customer_posted=true
   e.preventDefault();
   btn.disabled = true; label.textContent = "Sending…";
   try {
     if (mode === "endpoint") {
-      const r = await fetch(CONFIG.endpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ email, source: "time-travel-door", consent: true, ts: new Date().toISOString() }) });
+      const r = await fetch(CONFIG.endpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ email, tags, source: "time-travel-door", consent: true, ts: new Date().toISOString() }) });
       if (!r.ok) throw new Error("HTTP " + r.status);
     } else {
-      const list = JSON.parse(store.get("tt_demo_list") || "[]"); list.push({ email, ts: Date.now() }); store.set("tt_demo_list", JSON.stringify(list));
+      const list = JSON.parse(store.get("tt_demo_list") || "[]"); list.push({ email, tags, ts: Date.now() }); store.set("tt_demo_list", JSON.stringify(list));
     }
-    store.set("tt_registered", "1"); renderRegistered();
+    store.set("tt_registered", "1"); if (found) store.set("tt_found_attached", "1");
+    track("tt_signup", { found, ref: !!REF }); renderLede(); renderRegistered();
   } catch (ex) {
     err.textContent = "The key could not be sent. Check your connection and try again.";
   } finally { btn.disabled = false; label.textContent = "Request the key"; }
 });
-if (params.get("customer_posted") === "true") { store.set("tt_registered", "1"); history.replaceState(null, "", location.pathname); S.dist = STOP_DIST; }
+// found the golden key after signing up: a note to the shop (Shopify's sign-up form cannot re-tag an existing customer)
+$("attachBtn").addEventListener("click", async () => {
+  const email = $("attachEmail").value.trim();
+  if (!validEmail(email)) { $("attachEmail").setAttribute("aria-invalid", "true"); $("attachEmail").focus(); return; }
+  store.set("tt_email", email); track("tt_key_attach");
+  const mode = resolveMode();
+  if (mode === "shopify") {
+    store.set("tt_pending_found", "1");
+    $("attachFormEmail").value = email;
+    $("attachFormBody").value = `Time Travel: golden key found.\nKey Nº ${fmtCode(myCode())}\nTag this customer: found-key`;
+    $("attachForm").submit(); return;   // native post → ?contact_posted=true
+  }
+  if (mode === "endpoint") { try { await fetch(CONFIG.endpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ email, tags: `found-key,key-${myCode()}`, source: "time-travel-key", ts: new Date().toISOString() }) }); } catch (ex) {} }
+  store.set("tt_found_attached", "1"); renderRegistered();
+});
+// back from Shopify after a native form post
+const posted = params.get("customer_posted") === "true" || params.get("contact_posted") === "true";
+if (posted) {
+  const pendingFound = store.get("tt_pending_found") === "1";
+  if (params.get("customer_posted") === "true") { store.set("tt_registered", "1"); setTimeout(() => track("tt_signup", { found: pendingFound, ref: !!REF }), 1500); }
+  if (pendingFound) store.set("tt_found_attached", "1");
+  store.del("tt_pending_found");
+  history.replaceState(null, "", location.pathname); S.dist = STOP_DIST;
+}
 if (flag("door")) S.dist = STOP_DIST;
+
+/* the golden key */
+function collectKey() {
+  const k = keyRig; if (!k.group || k.gone || k.at >= 0) return;
+  k.at = clock.elapsedTime; k.from.copy(k.group.position);
+  store.set("tt_found", "1"); track("tt_key_found");
+  sfx.found(); canvas.classList.remove("hover-key");
+  showCaption("You found the golden key.", `Inner circle · ${berlin(milestone().iso, CONFIG.innerEarlyMin).time}`, 3600);
+  renderLede();
+  if (store.get("tt_registered") === "1") setTimeout(() => { if (!S.drawer) openDrawer("key"); }, 3800);
+}
 
 /* input */
 let pressAtDoor = false;
-const startHold = () => { if (S.drawer || S.arrived) return; S.holding = true; walkBtn.classList.add("down"); if (audio.on) ensureAudio(); };
+const startHold = () => { if (!S.started || S.drawer || S.arrived) return; S.holding = true; walkBtn.classList.add("down"); if (audio.on) ensureAudio(); };
 const endHold = () => { S.holding = false; walkBtn.classList.remove("down"); };
 walkBtn.addEventListener("pointerdown", (e) => { pressAtDoor = S.arrived; if (!S.arrived) { walkBtn.setPointerCapture(e.pointerId); startHold(); } });
 ["pointerup", "pointercancel", "lostpointercapture"].forEach((ev) => walkBtn.addEventListener(ev, endHold));
 walkBtn.addEventListener("click", (e) => { if (S.arrived && (pressAtDoor || e.detail === 0)) doorAction(); pressAtDoor = false; });
 walkBtn.addEventListener("contextmenu", (e) => e.preventDefault());
-const startBack = () => { if (S.drawer) return; S.holdingBack = true; backBtn.classList.add("down"); };
+const startBack = () => { if (!S.started || S.drawer) return; S.holdingBack = true; backBtn.classList.add("down"); };
 const endBack = () => { S.holdingBack = false; backBtn.classList.remove("down"); };
 backBtn.addEventListener("pointerdown", (e) => { backBtn.setPointerCapture(e.pointerId); startBack(); });
 ["pointerup", "pointercancel", "lostpointercapture"].forEach((ev) => backBtn.addEventListener(ev, endBack));
@@ -1454,24 +1875,31 @@ canvas.addEventListener("pointerdown", (e) => {
 canvas.addEventListener("pointerup", (e) => {
   endHold();
   if (e.pointerType === "touch") { S.tLookX = 0; S.tLookY = 0; }
-  if (S.arrived && downAt && Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) < 8 && hitsDoor(e)) doorAction();
+  const tap = downAt && Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) < 8;
+  if (tap && hitsKey(e)) collectKey();
+  else if (tap && S.arrived && hitsDoor(e)) doorAction();
   downAt = null;
 });
 canvas.addEventListener("pointercancel", endHold);
 canvas.addEventListener("pointermove", (e) => {
   S.tLookX = (e.clientX / innerWidth - 0.5) * 2; S.tLookY = (e.clientY / innerHeight - 0.5) * 2;
   if (S.arrived) canvas.classList.toggle("hover-door", hitsDoor(e));
+  if (e.pointerType === "mouse") canvas.classList.toggle("hover-key", hitsKey(e));
 });
-function hitsDoor(e) {
-  ndc.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
-  ray.setFromCamera(ndc, camera);
-  return ray.intersectObjects(doorRig.hit, false).length > 0;
+const aim = (e) => { ndc.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); ray.setFromCamera(ndc, camera); };
+function hitsDoor(e) { aim(e); return ray.intersectObjects(doorRig.hit, false).length > 0; }
+function hitsKey(e) {
+  const k = keyRig;
+  if (!k.group || k.gone || k.at >= 0 || camera.position.distanceTo(k.group.position) > 24) return false;
+  aim(e); k.sphere.center.copy(k.group.position);
+  return ray.ray.intersectsSphere(k.sphere);
 }
-addEventListener("wheel", (e) => { if (S.drawer || (S.arrived && e.deltaY > 0)) return; S.scrollVel = clamp(S.scrollVel + clamp(e.deltaY, -120, 120) * 0.012, -WALK, WALK * 1.3); }, { passive: true });
+addEventListener("wheel", (e) => { if (!S.started || S.drawer || (S.arrived && e.deltaY > 0)) return; S.scrollVel = clamp(S.scrollVel + clamp(e.deltaY, -120, 120) * 0.012, -WALK, WALK * 1.3); }, { passive: true });
 let touchY = null;
 canvas.addEventListener("touchstart", (e) => { touchY = e.touches[0].clientY; }, { passive: true });
-canvas.addEventListener("touchmove", (e) => { if (touchY === null || S.drawer) return; const y = e.touches[0].clientY; if (S.arrived && touchY - y > 0) { touchY = y; return; } S.scrollVel = clamp(S.scrollVel + (touchY - y) * 0.03, -WALK, WALK * 1.3); touchY = y; }, { passive: true });
+canvas.addEventListener("touchmove", (e) => { if (touchY === null || S.drawer || !S.started) return; const y = e.touches[0].clientY; if (S.arrived && touchY - y > 0) { touchY = y; return; } S.scrollVel = clamp(S.scrollVel + (touchY - y) * 0.03, -WALK, WALK * 1.3); touchY = y; }, { passive: true });
 addEventListener("keydown", (e) => {
+  if (!S.started) return;
   if (S.drawer) { if (e.key === "Escape") closeDrawer(); return; }
   if (["ArrowUp", "w", "W"].includes(e.key)) { e.preventDefault(); startHold(); }
   if (["ArrowDown", "s", "S"].includes(e.key)) { e.preventDefault(); startBack(); }
@@ -1504,7 +1932,8 @@ function update(dt, t) {
   if (S.dist <= 0 && S.vel < 0) S.vel = 0;
   const brake = smooth(0, 3.2, remaining) * 0.9 + 0.1;
   S.dist = clamp(S.dist + S.vel * (S.vel > 0 ? brake : 1) * dt, 0, STOP_DIST);
-  if (STOP_DIST - S.dist < 0.03 && !S.arrived) { S.dist = STOP_DIST; S.arrived = true; S.vel = 0; S.scrollVel = 0; endHold(); canvas.classList.add("at-door"); renderControl(); }
+  if (S.vel > 0.6) trackOnce("tt_walk");
+  if (STOP_DIST - S.dist < 0.03 && !S.arrived) { S.dist = STOP_DIST; S.arrived = true; S.arriveAt = t; S.vel = 0; S.scrollVel = 0; endHold(); canvas.classList.add("at-door"); renderControl(); trackOnce("tt_arrive"); }
   if (S.arrived && STOP_DIST - S.dist > 0.25) { S.arrived = false; canvas.classList.remove("at-door", "hover-door"); $("caption").classList.remove("on"); }
   // arrival: the flash clears, one line fades in and out (driven here so it stays in sync with the landing)
   if (S.spawnAt >= 0 && !S.spawnDone) {
@@ -1546,6 +1975,12 @@ function update(dt, t) {
     doorRig.lock.rotation.z = Math.sin(S.shake * 11) * 0.45 * k;
     doorRig.lock.rotation.x = -Math.abs(Math.sin(S.shake * 9)) * 0.25 * k;
   }
+  updateKey(dt, t);
+  if (CH >= 1) M.star.emissiveIntensity = 1.15 + Math.sin(t * 1.4) * 0.45;
+  if (CH >= 5) M.lamp.emissiveIntensity = 2.3 + Math.sin(t * 7.1) * 0.12 + Math.sin(t * 12.7) * 0.08;
+  // a still for the key image: the door once you stand in front of it, else the field after landing
+  if (S.arrived && !snap.door && t - S.arriveAt > 0.9) { snap.want = true; snap.door = true; }
+  if (!snap.canvas && !snap.want && S.spawnAt >= 0 && t - S.spawnAt > 3.4) snap.want = true;
   updateSmoke(dt);
 }
 
@@ -1561,8 +1996,9 @@ function resize() {
 addEventListener("resize", resize);
 
 function setOpenState() {
-  if (!isOpen() || S.opened) return;
-  S.opened = true; doorRig.glow.visible = true; doorRig.light.intensity = 9; doorRig.lock.visible = false;
+  if (!isOpen() || S.opened || !doorRig.glow) return;
+  S.opened = true; doorRig.glow.visible = true; doorRig.lock.visible = false;
+  doorRig.light.position.set(0, BASE + 1.4, HD - 0.4); doorRig.light.intensity = 9;
 }
 
 // Adaptive quality: measure real frame time in 1.5 s windows and step the
@@ -1584,6 +2020,7 @@ function loop() {
   adapt(raw);            // may resize — do it before drawing so no blank frame is shown
   update(sdt, t);
   composer.render(sdt);
+  if (snap.want) takeSnap();
   requestAnimationFrame(loop);
 }
 
@@ -1603,7 +2040,7 @@ async function boot() {
   const progress = () => {};
   { const t0 = performance.now();buildMaterials(); tm("materials", t0); progress(); }
   bar(0.68); await nextFrame();
-  { const t0 = performance.now();buildEnvironment(); buildGround(); houseRef = buildHouse(); tm("house", t0); progress(); }
+  { const t0 = performance.now();buildEnvironment(); buildGround(); houseRef = buildHouse(); applyChapter(houseRef); buildKey(); tm("house", t0); progress(); }
   bar(0.78); await nextFrame();
   { const t0 = performance.now();buildWheat(); tm("wheat", t0); progress(); }
   bar(0.88); await nextFrame();
@@ -1617,12 +2054,22 @@ async function boot() {
   { const t0 = performance.now(); if (renderer.compileAsync) await renderer.compileAsync(scene, camera); else renderer.compile(scene, camera); tm("compile", t0); }
   composer.render(0.016); bar(1);
   renderControl(); tick();
+  window.__tt = { S, audio, song, openDrawer, setDist: (d) => { S.dist = clamp(d, 0, STOP_DIST); S.arrived = false; }, STOP_DIST, doorAction, renderer, camera, enterField, collectKey, keyRig, makeTicket, snap, phase, CH };
+  // straight in after a form post or with #door; everyone else gets the Enter button (the click also unlocks the sound)
+  if (flag("door") || posted || flag("nogate")) enterField(false);
+  else { $("loader").classList.add("ready"); $("gate").hidden = false; if (!coarse) $("enterBtn").focus({ preventScroll: true }); }
+}
+function enterField(withSound) {
+  if (S.started) return;
+  S.started = true;
+  if (withSound) setSound(true);
   $("loader").classList.add("gone");
   clock.start(); loop();
   // arrival: you drop in through a warm flash, one line, then the field is yours
-  S.spawnAt = flag("door") || params.get("customer_posted") === "true" ? -1 : 0.05;
+  S.spawnAt = flag("door") || posted ? -1 : 0.05;
   if (S.spawnAt < 0) $("flash").hidden = true;
-  if (params.get("customer_posted") === "true" || flag("waitlist")) setTimeout(openDrawer, 900);
-  window.__tt = { S, audio, song, openDrawer, setDist: (d) => { S.dist = clamp(d, 0, STOP_DIST); S.arrived = false; }, STOP_DIST, doorAction, renderer };
+  if (posted || flag("waitlist")) setTimeout(() => openDrawer(posted ? "return" : "link"), 900);
 }
+$("enterBtn").addEventListener("click", () => { track("tt_enter", { sound: true }); enterField(true); });
+$("enterQuiet").addEventListener("click", () => { track("tt_enter", { sound: false }); enterField(false); });
 boot().catch((e) => { console.error(e); $("loaderText").textContent = "The field could not load. Reload the page."; });

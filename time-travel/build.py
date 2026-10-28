@@ -9,6 +9,7 @@ Google (GDPR). Also writes shopify/ (template + assets) for the Shopify theme.
 import base64
 import pathlib
 import re
+import shutil
 import sys
 
 ROOT = pathlib.Path(__file__).parent
@@ -19,6 +20,14 @@ FONTS = [
     ("IBM Plex Mono", "normal", "400", "plex400.woff2"),
     ("IBM Plex Mono", "normal", "500", "plex500.woff2"),
 ]
+# share preview (og:image): absolute URL on Shopify, a sibling file for the stand-alone page
+OG_SHOPIFY = """<meta property="og:url" content="{{ canonical_url }}">
+<link rel="canonical" href="{{ canonical_url }}">
+<meta property="og:image" content="{{ 'time-travel-og.jpg' | asset_url | prepend: 'https:' }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="{{ 'time-travel-og.jpg' | asset_url | prepend: 'https:' }}">"""
+OG_LOCAL = '<meta property="og:image" content="og-image.jpg">'
 
 
 def font_css() -> str:
@@ -38,10 +47,13 @@ def build_shopify(fragment: str) -> None:
     shopify/templates/page.time-travel.liquid  markup only, links the assets via asset_url
     shopify/assets/time-travel.css             fonts (inlined) + styles
     shopify/assets/time-travel.js              the scene (ES module, three.js via import map)
+    shopify/assets/time-travel-og.jpg          share preview (copied from og-image.jpg)
+
+    {{ content_for_header }} keeps Shopify analytics, customer-event pixels and the cookie banner working.
     """
     head, body = fragment.split("<!--BODY-->", 1)
     styles = re.findall(r"<style>(.*?)</style>", head, re.S)
-    meta = re.sub(r"<style>.*?</style>", "", head, flags=re.S).strip()
+    meta = re.sub(r"<style>.*?</style>", "", head, flags=re.S).strip().replace("<!--OG-->", OG_SHOPIFY)
     module = re.search(r'<script type="module">(.*?)</script>', body, re.S)
     markup = body[: module.start()].rstrip()
     out = ROOT / "shopify"
@@ -49,10 +61,12 @@ def build_shopify(fragment: str) -> None:
     (out / "templates").mkdir(parents=True, exist_ok=True)
     (out / "assets" / "time-travel.css").write_text("\n".join(x.strip() for x in styles) + "\n")
     (out / "assets" / "time-travel.js").write_text(module.group(1).strip() + "\n")
+    if (ROOT / "og-image.jpg").exists():
+        shutil.copyfile(ROOT / "og-image.jpg", out / "assets" / "time-travel-og.jpg")
     template = (
         "{% layout none %}\n<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
-        f"{meta}\n{{{{ 'time-travel.css' | asset_url | stylesheet_tag }}}}\n</head>\n<body>{markup}\n"
+        f"{meta}\n{{{{ content_for_header }}}}\n{{{{ 'time-travel.css' | asset_url | stylesheet_tag }}}}\n</head>\n<body>{markup}\n"
         "<script type=\"module\" src=\"{{ 'time-travel.js' | asset_url }}\"></script>\n</body>\n</html>\n"
     )
     (out / "templates" / "page.time-travel.liquid").write_text(template)
@@ -65,6 +79,7 @@ def main() -> None:
     src = (ROOT / "src" / "page.html").read_text()
     fragment = src.replace("/*FONTS*/", font_css())
     build_shopify(fragment)
+    fragment = fragment.replace("<!--OG-->", OG_LOCAL)
     head, body = fragment.split("<!--BODY-->", 1)
     doc = (
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'

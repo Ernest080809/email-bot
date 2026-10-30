@@ -1,6 +1,8 @@
 # Time Travel Drop · Alles in einem Paket
 
-**Stand: Mittwoch, 28.10.2026, mittags. Der Docket Rev. 7 ist live.** Novalife Berlin, Gründer Ernest Veskimäe.
+**Stand: Freitag, 30.10.2026. Der Docket Rev. 8 ist live, alles in Abschnitt 3.6.** Novalife Berlin, Gründer Ernest Veskimäe.
+
+> **Neu seit 30.10.:** Docket Rev. 8 komplett neu geplant: öffentlich erst mit dem Proto (erster Post Di 15.12.), Gewerbe, Recht und Shop erst nach der Muster-Freigabe (Mo 18.01.), Vorbestellung ab Mo 15.02., Drop bleibt Do 24.06.2027, 19:00. Gebaut für 3–5 Stunden pro Woche bis zum Abi: 207 Aufgaben, 60 Posts, 17 Stunt-Videos (REWIND). Quellen in `rev8/`, Kopie der Seite in `artefakte/docket_rev8/`. Wo dieser Text unten noch Rev.-7-Termine nennt, gilt Rev. 8. Neu außerdem: Maßblätter v1.1 im Format von Kuzgunlar (`pdf/NVL-TT-01_Measurements_v1.1.pdf`, gebaut mit `design/kz_spec.py`) und die Farbcodes aller Garne (Claude-Docs-Dokument „NVL-TT-01 Colour Codes“).
 
 Diese Datei ist der Einstieg. Sie sagt, was das Projekt ist, wo es gerade steht, welche Regeln gelten und welche Datei wofür da ist. Wer nur eine Datei liest, liest diese.
 
@@ -194,7 +196,8 @@ Die Woche vom 26.10. ist die Design-Suche, die Woche ab 02.11. der erste Teil vo
 
 ### 3.6 Docket und Zahlen
 
-- **Live ist Docket Rev. 7** (Version 37, seit Mi 28.10.): https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm. Neu darin: Design-Inventur, Content-Plan mit vollem Briefing für jedes Video, jede Story und jeden Countdown-Tag, alle 22 Mails fertig geschrieben, und eine Liste, was aus jeder alten Aufgabe geworden ist (394 übernommen, 82 mit Grund gestrichen, 248 durch den Content-Plan ersetzt).
+- **Live ist seit Fr 30.10. Docket Rev. 8** (Version 38), gleiche Adresse. Rev. 7 (Version 37) steht in der Versionsgeschichte. Das Folgende beschreibt noch Rev. 7:
+- **Docket Rev. 7** (Version 37, Mi 28.10.): https://claude.ai/artifact/RCciF8jMPSGhgdcQiHAQTm. Neu darin: Design-Inventur, Content-Plan mit vollem Briefing für jedes Video, jede Story und jeden Countdown-Tag, alle 22 Mails fertig geschrieben, und eine Liste, was aus jeder alten Aufgabe geworden ist (394 übernommen, 82 mit Grund gestrichen, 248 durch den Content-Plan ersetzt).
 - **Abgehakt sind 29 Aufgaben**, alle aus v35 übernommen: W1–W3 komplett (18), in W4 10 von 27, dazu die Teppichwahl am 27.10. In W5 und W6 ist nichts abgehakt (0 von 77), obwohl einiges erledigt ist, zum Beispiel ist der RL-Zipper gemessen. Die Bestandsaufnahme ist für heute geplant. Häkchen setzt nur Ernest oder Claude nach Rückfrage.
 - **Im Zahlen-Cockpit steht noch keine Zahl.** Startwerte trägst du am So 29.11. ein, ab So 06.12. jeden Sonntag.
 - **Last:** im Schnitt rund 90 Minuten am Tag ab W7 (ohne Abi-Pause), an 42 Tagen mehr als zwei Stunden. Der Dezember ist der härteste Monat.

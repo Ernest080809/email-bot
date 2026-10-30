@@ -1,0 +1,288 @@
+{
+ "E00": {
+  "id": "E00",
+  "wann": "automatisch nach der Bestätigung",
+  "an": "jede neue Anmeldung (Willkommens-Mail in Shopify)",
+  "betreff": "Du bist auf der Liste. Die Liste kauft zuerst.",
+  "alt": [
+   "Willkommen bei Time Travel",
+   "Danke. Du bist drin."
+  ],
+  "vorschau": "100 nummerierte Jeans, und du bist eine Stunde früher dran.",
+  "text": "Hey,\n\ndanke, dass du dabei bist. Time Travel sind 100 nummerierte Jeans mit vier Stickereien und einem Patch, dazu ein Zipper mit einem kleinen Wandteppich vorn.\n\nWas die Liste dir bringt:\n· Die Vorbestellung öffnet am Mo 01.02.2027 um 19:00. Du bekommst den Link schon um 18:00.\n· Die ersten 35 Paar kosten 149 € statt 169 € und bekommen die kleinsten Nummern.\n· Ich schreibe dir nur, wenn etwas passiert: das erste echte Paar, das finale Muster, der Start.\n\nKennst du jemanden, der Jeans liebt? Dein eigener Link: [BRING-3-LINK]\n\nBis bald,\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Bring-3-Link nur, wenn „Bring 3 Freunde“ eingebaut ist und der Datenschutz-Absatz online steht."
+ },
+ "E01": {
+  "id": "E01",
+  "wann": "Mo 30.11., 19:00",
+  "an": "Segment „E-Mail-Abonnenten“ (nur bestätigte)",
+  "betreff": "Ab heute öffentlich: 10 Wochen Papier",
+  "alt": [
+   "Tag 1: Ich zeige jetzt alles",
+   "Die Jeans ist fertig gezeichnet"
+  ],
+  "vorschau": "Was in zehn Wochen entstanden ist, und was als Nächstes kommt.",
+  "text": "Hey,\n\nzehn Wochen lang habe ich an einer einzigen Jeans gezeichnet. Jede Stickerei habe ich zuerst als Papier auf meine eigene Hose geklebt, bevor sie in eine Stickdatei durfte. Seit gestern ist das Design fertig. Ab heute zeige ich alles öffentlich.\n\nWas feststeht:\n· 100 Paar, nummeriert, aus einer Fabrik\n· vier Stickereien: ein Kreuzstich-Band an der Tasche, eine bestickte Münztasche, drei Ähren mit neun Goldfäden, ein Achtstern\n· ein Lebensbaum-Patch aus Leinen, der zugleich die hintere Gürtelschlaufe ist\n\nWas als Nächstes kommt: Nächste Woche kommt das erste echte Paar, der Prototyp. Du siehst ihn hier zuerst.\n\n[FOTO: Papiertest an der Jeans]\n\nDie Liste kauft zuerst: 35 Paar zum Vorbestellpreis, am Mo 01.02. um 18:00, eine Stunde vor allen anderen.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Kein fertiges Teil im Bild, nur Papier. Link zur Seite mit utm_source=email&utm_campaign=e01."
+ },
+ "E02": {
+  "id": "E02",
+  "wann": "Di 08.12., 19:00 (nur wenn das Proto da ist)",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Das erste echte Paar ist da",
+  "alt": [
+   "Zehn Wochen Papier. Heute: Garn.",
+   "Ich habe es gerade ausgepackt"
+  ],
+  "vorschau": "Der Prototyp ist angekommen. Nicht perfekt, aber echt.",
+  "text": "Hey,\n\nheute kam der Prototyp. Zehn Wochen Papier, und jetzt liegt die erste echte Jeans auf meinem Tisch.\n\nEhrlich: Sie ist noch nicht perfekt. Diese Woche messe ich alles nach, zwei Leute probieren sie an, und dann geht eine Korrekturliste an die Fabrik. Das nächste Muster ist das finale, nach dem alle 100 Paar gemacht werden.\n\nDas Auspacken habe ich gefilmt, ungeschnitten:\n[BUTTON: Das Auspacken ansehen → TikTok-Profil]\n\nWillst du sie in echt sehen? Antworte einfach auf diese Mail. Ich zeige sie bis Weihnachten in kleinen Runden, 15 Minuten, bei mir, im Café oder per Video.\n\nDie Vorbestellung öffnet am Mo 01.02. um 19:00. Die Liste ist um 18:00 drin.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Nie senden, bevor das Proto wirklich da ist. Termin sonst verschieben."
+ },
+ "E03": {
+  "id": "E03",
+  "wann": "Mi 20.01., 19:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Freigegeben. Und: dein Platz in der ersten Stunde",
+  "alt": [
+   "Das finale Muster ist freigegeben",
+   "Reservier dir die erste Stunde"
+  ],
+  "vorschau": "Das Muster für alle 100 Paar steht. Ab heute kannst du dir einen Platz sichern.",
+  "text": "Hey,\n\nam Freitag habe ich das finale Muster freigegeben. Es ist jetzt versiegelt und der Maßstab für alle 100 Paar.\n\n[FOTO: versiegeltes Muster]\n\nAb heute bis So 31.01. kannst du dir einen Platz in der ersten Stunde sichern. Dann bekommst du am Mo 01.02. um 18:00 den Link als Erste oder Erster.\n[BUTTON: Platz sichern]\n\nSo läuft der 01.02.:\n· 18:00: Link für die Liste\n· 19:00: offen für alle\n· 35 Paar zu 149 €, danach 169 €\n· Lieferung bis spätestens 30.06.2027, geplant Anfang Juni\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Text an die Reservierungs-Entscheidung anpassen (kostenlos oder 10 €)."
+ },
+ "E04": {
+  "id": "E04",
+  "wann": "Di 26.01., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Montag, 19:00: So läuft die Vorbestellung",
+  "alt": [
+   "Noch 6 Tage",
+   "Alles, was du für Montag wissen musst"
+  ],
+  "vorschau": "Größe, Preis, Lieferung, Geld-zurück-Regel. Alles in einer Mail.",
+  "text": "Hey,\n\nnächsten Montag, 01.02., öffnet die Vorbestellung. Damit du nicht suchen musst, hier alles:\n\nWann: Mo 01.02. Du bekommst um 18:00 den Link, alle anderen um 19:00.\nWas: Time Travel Jeans NVL-TT-01, nummeriert 001–100.\nPreis: Die ersten 35 Paar 149 €, danach 169 €.\nGröße: W30 bis W38, ehrlich gemessen. Das Etikett ist die echte Bundweite: W34 = 86 cm. So misst du: Lieblingsjeans flach hinlegen, Knopf zu, Bund von Kante zu Kante, mal zwei.\nLieferung: bis spätestens 30.06.2027, geplant Anfang Juni.\nWenn es nicht klappt: Kommen bis zum 15.02. nicht genug Vorbestellungen zusammen, bekommst du dein Geld vollständig zurück.\nNummer: Wer zuerst bestellt, bekommt die kleinste Nummer.\n\n[ZIPPER: Absatz nur, wenn der Zipper vorbestellbar ist: „Auch der Zipper ist ab Montag vorbestellbar, 20 € unter dem Drop-Preis.“]\n\nFragen? Antworte einfach.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Geld-zurück-Satz genau wie auf der Seite (rechtlich geprüft in W18)."
+ },
+ "E05": {
+  "id": "E05",
+  "wann": "So 31.01., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Morgen: 18:00 für dich, 19:00 für alle",
+  "alt": [
+   "Morgen ist es so weit",
+   "24 Stunden"
+  ],
+  "vorschau": "Halte morgen um 18:00 dein Postfach offen.",
+  "text": "Hey,\n\nmorgen um 18:00 bekommst du eine Mail mit dem Link zur Vorbestellung. Eine Stunde vor allen anderen.\n\nZwei Tipps:\n1. Miss heute Abend deine Lieblingsjeans (flach, Knopf zu, Bund mal zwei). Dann musst du morgen nicht überlegen.\n2. Leg dein Zahlungsmittel bereit. Die 35 Paar zu 149 € sind nur 35.\n\nBis morgen, 18:00.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E06": {
+  "id": "E06",
+  "wann": "Mo 01.02., 18:00 (terminiert)",
+  "an": "Segment „E-Mail-Abonnenten“ (nur die Liste)",
+  "betreff": "Du bist drin. Die Vorbestellung ist offen.",
+  "alt": [
+   "Jetzt. Eine Stunde vor allen.",
+   "Dein Link"
+  ],
+  "vorschau": "35 Paar zu 149 €. Für alle anderen öffnet es um 19:00.",
+  "text": "Hey,\n\ndie Vorbestellung ist offen, für dich eine Stunde vor allen anderen.\n\n[BUTTON: Jetzt vorbestellen → Schlüssel-Link]\n\n· 35 Paar zu 149 €, danach 169 €\n· nummeriert nach Bestelldatum, ab 001\n· Lieferung bis spätestens 30.06.2027, geplant Anfang Juni\n\nDanke, dass du von Anfang an dabei bist.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Schlüssel-Link testen: öffnet er die Seite schon um 18:00? Nicht in die Story posten."
+ },
+ "E07": {
+  "id": "E07",
+  "wann": "Mo 08.02., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“ ohne Kauf",
+  "betreff": "Noch [Y] Paar zu 149 €",
+  "alt": [
+   "Eine Woche Vorbestellung",
+   "[X] von 35 sind weg"
+  ],
+  "vorschau": "Danach kostet sie 169 €.",
+  "text": "Hey,\n\neine Woche Vorbestellung: [X] von 35 Paar zu 149 € haben einen Besitzer. Noch [Y] sind übrig, danach kostet die Jeans 169 €.\n\nUnsicher bei der Größe? Mittwoch, 10.02., 18:00–20:00 ist Mess-Abend 2 in [ORT]. Komm vorbei und probier.\n\n[BUTTON: Vorbestellen]\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Nur echte Zahlen. Unter 5 verkauft: Betreff „Mess-Abend am Mittwoch“, ohne Zahl."
+ },
+ "E08": {
+  "id": "E08",
+  "wann": "Di 09.02., 18:00",
+  "an": "Abonnenten ohne Kauf, die E06 geöffnet haben",
+  "betreff": "Eine Frage an dich",
+  "alt": [
+   "Was hält dich zurück?",
+   "Kurze Frage, ehrliche Antwort"
+  ],
+  "vorschau": "Antworte mit einem Wort, das hilft mir sehr.",
+  "text": "Hey,\n\ndu hast die Mail zur Vorbestellung geöffnet, aber noch nicht bestellt. Völlig okay. Darf ich fragen, warum?\n\nAntworte einfach mit einem Wort:\n· Größe\n· Preis\n· Lieferzeit\n· Design\n· später\n\nIch lese jede Antwort selbst. Wenn es die Größe ist: Mittwoch ist Mess-Abend, oder schick mir deine Bundweite, und ich sage dir, welche passt.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E09": {
+  "id": "E09",
+  "wann": "Do 18.02., 19:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Bestellt.",
+  "alt": [
+   "[100] Paar sind bestellt",
+   "Es passiert wirklich"
+  ],
+  "vorschau": "Die Fabrik hat die Bestellung. Fertig bis 14.05.",
+  "text": "Hey,\n\ngestern habe ich die Bestellung an die Fabrik geschickt: [100] Paar Time Travel. Heute ist die Anzahlung raus.\n\nDank [X] Vorbestellungen ist das möglich geworden. Wenn du dazugehörst: Danke. Wirklich.\n\nWie es weitergeht:\n· Produktion ab Mitte Februar\n· im März ein Shoot in Berlin\n· fertig bis 14.05.\n· Lieferung an die Vorbesteller Anfang Juni\n· Drop für alle: Do 24.06., 19:00\n\nNoch [Y] Paar gibt es zum Vorbestellpreis.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E10": {
+  "id": "E10",
+  "wann": "Mo 08.03., 19:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Die ersten echten Fotos",
+  "alt": [
+   "Der Shoot",
+   "So sieht Time Travel aus"
+  ],
+  "vorschau": "Samstag haben wir fotografiert. Hier ist das erste Bild.",
+  "text": "Hey,\n\nam Samstag war der erste Shoot: ein Raum mit einem alten Wandteppich, danach die goldene Stunde draußen.\n\n[FOTO: Hauptbild]\n\nDie Bilder kommen diese Woche auf die Seite. Ab dem 22.03. wird es hier ruhiger: Ich schreibe meine Abiturprüfungen, die Fabrik produziert. Im Mai melde ich mich mit den ersten Fotos der fertigen Serie.\n\n[BUTTON: Alle Bilder ansehen]\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E11": {
+  "id": "E11",
+  "wann": "Mo 17.05., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“ ohne Kauf",
+  "betreff": "149 € endet am Sonntag",
+  "alt": [
+   "Letzte Woche Vorbestellpreis",
+   "Noch 6 Tage"
+  ],
+  "vorschau": "So 23.05., 20:00. Danach 169 €.",
+  "text": "Hey,\n\nich bin zurück, und die Jeans sind fast fertig. [FOTO: Serienware]\n\nDer Vorbestellpreis von 149 € endet am So 23.05. um 20:00. Danach kostet sie 169 €.\nSamstag, 15.05., war Mess-Abend 3 [oder: ist Mess-Abend 3, wenn die Mail vorher rausgeht].\n\nLieferung an Vorbesteller: Anfang Juni.\n\n[BUTTON: Vorbestellen]\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Mess-Abend-Satz an das Datum anpassen."
+ },
+ "E12": {
+  "id": "E12",
+  "wann": "So 23.05., 12:00",
+  "an": "Segment „E-Mail-Abonnenten“ ohne Kauf",
+  "betreff": "Heute 20:00 endet der Vorbestellpreis",
+  "alt": [
+   "Letzte Stunden zu 149 €",
+   "Heute Abend"
+  ],
+  "vorschau": "Danach 169 €.",
+  "text": "Hey,\n\nnur kurz: Heute um 20:00 endet der Vorbestellpreis von 149 €. [Y] Paar sind noch übrig zu diesem Preis.\n\n[BUTTON: Vorbestellen]\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Nur senden, wenn noch Paare zu 149 € übrig sind."
+ },
+ "E13": {
+  "id": "E13",
+  "wann": "Mo 24.05., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“ ohne Kauf",
+  "betreff": "Bis So 06.06.: vorbestellen und Anfang Juni tragen",
+  "alt": [
+   "Noch zwei Wochen",
+   "169 €, Lieferung Anfang Juni"
+  ],
+  "vorschau": "Wer jetzt vorbestellt, hat die Jeans vor dem Drop.",
+  "text": "Hey,\n\nder Drop für alle ist am Do 24.06. um 19:00. Wer bis So 06.06. vorbestellt, bekommt die Jeans schon Anfang Juni, für 169 €.\n\n[BUTTON: Vorbestellen]\n\nDanach geht es erst am 24.06. weiter: um 18:00 für die Liste, um 19:00 für alle.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E14": {
+  "id": "E14",
+  "wann": "Mi 26.05., 18:00",
+  "an": "nur Vorbesteller (Shopify → Kunden mit Bestellung)",
+  "betreff": "Deine Time Travel kommt Anfang Juni",
+  "alt": [
+   "Update zu deiner Bestellung",
+   "Deine Nummer"
+  ],
+  "vorschau": "Die Ware ist unterwegs. So geht es weiter.",
+  "text": "Hey [Vorname],\n\nkurzes Update zu deiner Vorbestellung: Die 100 Paar sind fertig und unterwegs zu mir. Ich prüfe jedes Paar selbst, dann packe ich.\n\nDeine Nummer: [Nr.]\nDeine Größe: [Größe]\nVersand: zwischen 08. und 09.06. Du bekommst eine Versandbestätigung mit Sendungsnummer.\n\nEin Wunsch: Wenn sie da ist, schick mir ein Foto oder markier mich. Nur wenn du magst.\n\nDanke, dass du vorbestellt hast. Ohne dich gäbe es diese 100 Paar nicht.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Pro Kunde Nummer und Größe richtig. Lieber in kleinen Gruppen senden als falsch."
+ },
+ "E15": {
+  "id": "E15",
+  "wann": "Do 10.06., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "In zwei Wochen: Drop",
+  "alt": [
+   "T−14",
+   "24.06., 19:00"
+  ],
+  "vorschau": "Die Liste ist um 18:00 drin.",
+  "text": "Hey,\n\nin zwei Wochen ist der Drop: Do 24.06., 19:00. Du bist um 18:00 drin, eine Stunde vor allen.\n\nDie ersten Paare sind schon bei den Vorbestellern. [FOTO: Kunde mit Erlaubnis oder Paket]\n\nMerk dir den Termin: [BUTTON: In den Kalender]\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E16": {
+  "id": "E16",
+  "wann": "Do 17.06., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Noch eine Woche",
+  "alt": [
+   "T−7",
+   "Nächsten Donnerstag"
+  ],
+  "vorschau": "Größen, Zeiten, alles Wichtige.",
+  "text": "Hey,\n\nnächsten Donnerstag, 24.06.:\n· 18:00: Link für dich (Liste)\n· 19:00: offen für alle\n· Preis: 169 €\n· Größen W30–W38, das Etikett ist die echte Bundweite\n\nZipper [Preis] €[, Polo 79 €, falls im Drop].\n\nUnsicher bei der Größe? Antworte mit deiner Bundweite in cm.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E17": {
+  "id": "E17",
+  "wann": "Mo 21.06., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Donnerstag, 18:00",
+  "alt": [
+   "T−3",
+   "Noch drei Tage"
+  ],
+  "vorschau": "Halt Donnerstag um 18:00 dein Postfach offen.",
+  "text": "Hey,\n\nDonnerstag um 18:00 bekommst du hier den Link, eine Stunde vor allen anderen.\n\n[FOTO: Papiertest Oktober neben Serienware]\nIm Oktober war das Papier auf meiner Jeans. Donnerstag ist es deine.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E18": {
+  "id": "E18",
+  "wann": "Mi 23.06., 18:00",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Morgen.",
+  "alt": [
+   "T−24 h",
+   "Morgen 18:00"
+  ],
+  "vorschau": "Der Link kommt morgen um 18:00.",
+  "text": "Hey,\n\nmorgen um 18:00 kommt der Link. Miss heute Abend noch einmal deine Lieblingsjeans und leg dein Zahlungsmittel bereit.\n\nBis morgen.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ },
+ "E19": {
+  "id": "E19",
+  "wann": "Do 24.06., 18:00 (terminiert)",
+  "an": "Segment „E-Mail-Abonnenten“ (Liste)",
+  "betreff": "Du bist drin.",
+  "alt": [
+   "Jetzt, für dich",
+   "Eine Stunde vor allen"
+  ],
+  "vorschau": "Time Travel ist offen. Für alle anderen um 19:00.",
+  "text": "Hey,\n\njetzt. Eine Stunde vor allen anderen:\n\n[BUTTON: Zum Drop → Schlüssel-Link]\n\n100 Paar, nummeriert. Danke, dass du dabei bist.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Schlüssel-Link funktioniert nur für die Liste. Nicht in Stories posten."
+ },
+ "E20": {
+  "id": "E20",
+  "wann": "Do 24.06., 19:00 (terminiert)",
+  "an": "Segment „E-Mail-Abonnenten“",
+  "betreff": "Time Travel ist live",
+  "alt": [
+   "Jetzt für alle offen",
+   "Live"
+  ],
+  "vorschau": "Noch [X] Paar.",
+  "text": "Hey,\n\nTime Travel ist jetzt für alle offen.\n\n[BUTTON: Zum Shop]\n\nNoch verfügbar: [Größen]. Fragen zur Größe beantworte ich heute Abend live auf Instagram.\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen. Größen um 18:55 aus Shopify eintragen."
+ },
+ "E21": {
+  "id": "E21",
+  "wann": "Fr 25.06., 10:00 (nur wenn Do 21:00 unter 15 Käufe)",
+  "an": "Abonnenten, die E19 und E20 nicht geöffnet haben",
+  "betreff": "Hast du es gestern gesehen?",
+  "alt": [
+   "Time Travel ist offen",
+   "Noch da"
+  ],
+  "vorschau": "Noch [X] Paar, diese Größen.",
+  "text": "Hey,\n\ngestern um 19:00 war der Drop. Falls du die Mail verpasst hast: Es gibt noch [X] Paar.\n\nVerfügbare Größen: [Größen]\n\n[BUTTON: Zum Shop]\n\nErnest\nNovalife · Berlin\n\nDu bekommst diese Mail, weil du dich für Time Travel eingetragen hast. Abmelden: Link unten.",
+  "check": "Platzhalter in [eckigen Klammern] durch echte Zahlen ersetzen. Testmail an dich, am Handy lesen, Links antippen."
+ }
+}

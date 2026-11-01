@@ -147,7 +147,7 @@ Zusammen: 5 fertig · 5 entschieden · 12 teilweise offen · 10 fehlt noch.
 
 ### 3.4 Offene Fragen an Ernest
 
-1. Wann bist du zurück in Berlin? Davon hängt der Zipper-Papiertest ab (geplant war Mi 28.10., Rev. 7 schlägt Mo 02.11. vor).
+1. ~~Wann bist du zurück in Berlin?~~ Geklärt am 01.11.: Ernest ist in Berlin. Zipper-Papiertest laut Rev. 8 am Sa 07.11.
 2. Fabrikwahl am Di 03.11. ok, oder später?
 3. Wie alt bist du? Unter 18 brauchst du für die Gewerbe-Anmeldung die Eltern und das Familiengericht, das dauert Wochen.
 4. Woher stammt das Baum-Bild für Patch D? Das ist seit 20.10. offen (Urheberrecht). Ist es fremd, zeichnet Claude eine eigene Fassung.

@@ -28,9 +28,9 @@ A('2026-10-30', 'B', "Maßblätter v1.1 und Farbcodes an Nargiza schicken", 20, 
 A('2026-10-30', 'B', "LOGIC und DiZNEW: Stand prüfen", 10, id="r8-andere-fabriken", s=[
     "Claude prüft Gmail: Hat LOGIC bis heute geantwortet? Hat DiZNEW einen Preis geschickt?",
     "Nichts absagen, bevor die Fabrik am Do 05.11. entschieden ist."], f="du weißt, ob es ein zweites Angebot gibt.", o=['gmail'])
-A('2026-10-31', 'D', "Zwei Fragen an Claude beantworten: Alter und Berlin", 5, id="r8-fragen-alter", s=[
+A('2026-10-31', 'D', "Eine Frage an Claude beantworten: Alter", 5, id="r8-fragen-alter", s=[
     "Bist du 18 oder älter? Unter 18 brauchst du für das Gewerbe die Zustimmung der Eltern und des Familiengerichts. Das dauert Wochen und muss dann schon im November starten.",
-    "Ab wann bist du wieder in Berlin? Der Zipper-Papiertest am Sa 07.11. braucht deinen RL-Zipper."], f="Claude beide Antworten hat.")
+    "Berlin ist geklärt: Du bist seit 01.11. da."], f="Claude die Antwort hat.")
 review('2026-11-01', 1, ["Startwert Follower ist 170 (schon eingetragen). Warteliste: 0."])
 
 # ---- W2 · 02.–08.11. ----
@@ -51,7 +51,7 @@ A('2026-11-06', 'A', "Proforma prüfen und Muster anzahlen", 20, id="r8-muster-z
     "Bankdaten nur aus der Proforma, nie aus einer späteren Mail mit „neuer Bankverbindung“. Im Zweifel bei Nargiza per WhatsApp nachfragen.",
     "Überweisen (Wise oder Bank), Beleg als PDF in den Ordner „TT Belege“."], f="die Anzahlung überwiesen ist und der Beleg abgelegt ist.")
 A('2026-11-07', 'G', "Zipper-Papiertest und RL-Kapuze abpausen", 60, id="r8-zipper-papier", s=[
-    "Nur wenn du in Berlin bist. Sonst verschiebt Claude auf das nächste Wochenende in Berlin.",
+    "Du bist in Berlin (Stand 01.11.). Hast du schon unter der Woche eine Stunde, mach ihn früher.",
     "PDF „Papiertest Zipper“ in 100 % drucken, Teppich in S, M und L ausschneiden, mit Malerkrepp auf deinen RL-Zipper.",
     "Vor dem Spiegel fotografieren: vorn, seitlich, mit offenem Reißverschluss. Clip mit einer Drehung für V201 filmen.",
     "Kapuze flach legen und den Umriss auf Papier abpausen (Rückendruck). Foto von oben mit Lineal daneben.",
@@ -368,7 +368,6 @@ DONE_STATIC = [
 ]
 OPEN_Q = [
     ("Sa 31.10.", "Bist du 18 oder älter? (Gewerbe)"),
-    ("Sa 31.10.", "Ab wann bist du wieder in Berlin? (Zipper-Papiertest, Proto)"),
     ("Mi 04.11.", "Schriftlicher Preis von Kuzgunlar, Mindestmenge, Versand an Endkunden"),
     ("Mi 18.11.", "Zipper und Polo in diesem Drop oder im nächsten"),
     ("Mo 10.05.", "Hast du nach den schriftlichen Prüfungen wirklich mehr Zeit? (Plan rechnet mit 6–8 Stunden pro Woche)"),

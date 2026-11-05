@@ -63,7 +63,9 @@ def uri(im):
 
 
 IMG = {"E": crop(2, 13, 49, 77, 113), "A": crop(2, 40, 146, 197, 267), "B2": crop(3, 24, 61, 186, 213),
-       "C": crop(4, 24, 61, 186, 213), "D": crop(5, 13, 55, 95, 128)}
+       "C": crop(4, 24, 61, 186, 213)}
+_pd = Image.open(os.path.join(HERE, "v19", "patch_d_clean.png")).convert("RGBA")   # Patch ohne sichtbare Druckknöpfe (patch_clean.py)
+IMG["D"] = Image.alpha_composite(Image.new("RGBA", _pd.size, "white"), _pd).convert("RGB")
 from PIL import ImageDraw                              # deutsche Beschriftung links neben Band A überdecken (wie im Tech Pack)
 ImageDraw.Draw(IMG["A"]).rectangle((0, int(14 * K), int(68 * K), int(44 * K)), fill="white")
 
@@ -171,7 +173,7 @@ def svg_back_main():
     d.line(0, 2, 0, 288); d.ann(-130, 250, 7, cm(37))
     for x in (-180, 0, 180):
         d.ann(x, -46, 18, "")
-    d.ring(90, 36, 70)
+    d.ring(FL.PATCH_X + 40, 36, 70)
     return d.svg("-410 -135 820 1350", flat("back"), "height:100%;width:auto")
 
 
@@ -315,6 +317,17 @@ def svg_patch():
 
 
 # ================= Lage-Skizzen (klein) =================
+def svg_position():
+    """Patch D am Bund hinten rechts: Abstand zur hinteren Mitte und zur rechten hinteren Gürtelschlaufe (05.11.: wie bei Levi's)."""
+    d = Dim(1.0, 10.5)
+    px, lr = FL.PATCH_X, FL.LOOP_R
+    d.ext(0, -5, 0, -30); d.ext(px + 40, 0, px + 40, -30); d.line(0.5, -24, px + 39.5, -24); d.ann((px + 40) / 2, -32, None, "12.5 cm (W34)")
+    d.ext(px + 80, 62, px + 80, 74); d.ext(lr - 5.5, 47, lr - 5.5, 74); d.line(px + 80.5, 70, lr - 6, 70); d.ann(lr + 18, 70, None, "1 cm")
+    d.text(0, 60, "centre back loop", "middle", .85, 400, INK); d.text(lr, 60, "right back loop", "middle", .85, 400, INK)
+    d.text(px + 40, 86, "top of the patch = top of the waistband", "middle", .85, 700)
+    return d.svg("-40 -44 280 140", flat("back"), "width:100%")
+
+
 def loc(view, x, y, r, label):
     d = Dim(3, 40)
     d.ring(x, y, r, label)
@@ -336,7 +349,7 @@ def note(t):
 
 
 def page(n, title, body):
-    return f'<section class="pg">{header(title)}{body}<div class="ft"><span>NVL-TT-01 · measurements v1.1 · 30 Oct 2026 · sample size W34</span><span>page {n} of 9</span></div></section>'
+    return f'<section class="pg">{header(title)}{body}<div class="ft"><span>NVL-TT-01 · measurements v1.2 · 05 Nov 2026 · sample size W34</span><span>page {n} of 9</span></div></section>'
 
 
 def legend(nums):
@@ -370,9 +383,9 @@ pages.append(page(4, "SIZE CHART W30–W38", note("Sample size W34 (yellow). Hon
 
 crv, band, xs40 = band_geometry()
 m = band[len(band) // 2]
-def detail(n, title, nt, drawing, spec, key, cap, locsvg, fs="FINISHED SIZE<br><small>(after wash)</small>"):
+def detail(n, title, nt, drawing, spec, key, cap, locsvg, fs="FINISHED SIZE<br><small>(after wash)</small>", loch="LOCATION"):
     return page(n, title, note(nt) + f'<div class="dt"><div class="dw dd">{drawing}</div>{ref(key, cap)}'
-                f'<div class="col"><p class="fs">{fs}</p><p class="sp">{spec}</p></div><div class="loc"><h4>LOCATION</h4>{locsvg}</div></div>')
+                f'<div class="col"><p class="fs">{fs}</p><p class="sp">{spec}</p></div><div class="loc"><h4>{loch}</h4>{locsvg}</div></div>')
 
 
 pages.append(detail(5, "FRONT POCKET BAND · A", "Wearer's RIGHT front pocket (the one with the coin pocket). Cross-stitch on the cut front panel BEFORE sewing. The inner edge of the band sits exactly on the pocket opening, from the waistband to the side seam.",
@@ -388,10 +401,10 @@ pages.append(detail(7, "LEFT BACK POCKET · B2", "Wearer's LEFT back pocket. Ban
 pages.append(detail(8, "RIGHT BACK POCKET · C", "Wearer's RIGHT back pocket. Eight-point star centred, its centre at the SAME HEIGHT as the B2 band on the left pocket (4.5 cm below the pocket top edge). 8 rhombi, 1 mm gaps (denim shows through).",
                     pocket_svg(False), "Satin stitch across each rhombus, solid bright red 18-1662 TCX<br>Star 3.6 × 3.6 cm · about 2,500 stitches<br>Same pocket shape as B2",
                     "C", "Artwork 1:1, annex page 3", loc("back", 115, 150, 90, "C")))
-pages.append(detail(9, "BACK PATCH · D", "Back RIGHT (as worn). Top of the patch flush with the top of the waistband, centred between centre back loop and right back loop. Two layers: tree in front, back panel behind, joined only in the middle 3 cm at top and bottom. 4 snaps HIDDEN behind, plain caps without letters. A belt up to 4 cm runs through.",
+pages.append(detail(9, "BACK PATCH · D", "Back RIGHT (as worn), placed like the back patch of a classic 5-pocket jeans: top flush with the top of the waistband, right edge 1 cm left of the right back belt loop (W34: patch centre 12.5 cm from the centre back seam). Two layers: tree in front, back panel behind, joined only in the middle 3 cm at top and bottom. 4 snaps HIDDEN behind, plain caps without letters. A belt up to 4 cm runs through.",
                     svg_patch(), "Embroidery on pre-shrunk natural linen, max. 4 colours: dark brown 19-1432 TCX, copper-gold 17-1340 TCX, gold 14-0952 TCX, bright red 18-1662 TCX<br>"
                     "Snaps: ring-spring 10 mm, antique copper, cap and socket on the back panel, stud on the jeans with 2 × 2 cm reinforcement inside<br>Stiff interlining in the patch",
-                    "D", "Embroidery artwork. The snaps in this picture are NOT visible on the real patch: they sit hidden behind.", loc("back", 90, 36, 80, "D"), "FINISHED SIZE"))
+                    "D", "Embroidery artwork, snaps removed from the picture: on the real patch they sit hidden behind.", svg_position(), "FINISHED SIZE", "POSITION"))
 
 CSS = """@page{size:210mm 297mm;margin:0}*{box-sizing:border-box}
 html,body{margin:0;padding:0;font-family:'Roboto Condensed',Arial,sans-serif;color:#1b2230;font-size:9.5pt;line-height:1.3}

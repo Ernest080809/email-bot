@@ -62,7 +62,7 @@ def legend():
 
 
 def page(n, title, body):
-    return (f'<section class="pg">{KZ.header(title)}{body}<div class="ft"><span>NVL-TT-01 · patch D artwork v1.0 · 05 Nov 2026 · same patch for all sizes</span>'
+    return (f'<section class="pg">{KZ.header(title)}{body}<div class="ft"><span>NVL-TT-01 · patch D artwork v1.1 · 05 Nov 2026 · same patch for all sizes</span>'
             f'<span>page {n} of 3</span></div></section>')
 
 
@@ -76,9 +76,9 @@ pages = [
     page(2, "BACK PATCH · D · ARTWORK 2:1", KZ.note("Enlarged twice, to see the details. Use this page for the colour areas; use page 1 for the size. "
                                                    "The photo shows shades of each colour: please digitize them with the 4 colours below.")
          + f'<div class="art big">{art(168, True)}</div>{spots()}'),
-    page(3, "BACK PATCH · D · CONSTRUCTION", KZ.note("Two layers: tree in front, back panel behind, joined only in the middle 3 cm at top and bottom, open at the sides. "
-                                                    "4 ring-spring snaps 10 mm, antique copper, on the BACK panel. A belt up to 4 cm runs between back panel and front.")
-         + f'<div class="dt"><div class="dw dd">{KZ.svg_patch()}</div><div class="loc"><h4>LOCATION</h4>{KZ.loc("back", 90, 36, 80, "D")}</div>'
+    page(3, "BACK PATCH · D · CONSTRUCTION", KZ.note("Position like the back patch of a classic 5-pocket jeans: top flush with the waistband, right edge 1 cm left of the right back belt loop. "
+                                                    "Two layers, joined only in the middle 3 cm at top and bottom. 4 ring-spring snaps 10 mm on the BACK panel. A belt up to 4 cm runs through.")
+         + f'<div class="dt"><div class="dw dd">{KZ.svg_patch()}</div><div class="loc"><h4>POSITION</h4>{KZ.svg_position()}</div>'
          '<div class="col"><p class="fs">FINISHED SIZE</p><p class="sp">Size 8 × 7.1 cm (6 cm at the sides), curve 5.5 mm top and bottom<br>'
          'Snap grid 6.6 × 4.6 cm, snap centres 0.7 cm from the side edges · cap and socket on the back panel, stud on the jeans with 2 × 2 cm reinforcement inside<br>'
          'Stiff interlining in the patch so the snaps cannot tear out · edges folded and topstitched · no indigo on the linen<br>'

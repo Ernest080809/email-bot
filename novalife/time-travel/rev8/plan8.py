@@ -40,6 +40,11 @@ A('2026-11-02', 'B', "Kuzgunlar: schriftliches Angebot anfordern", 20, id="r8-an
     "Dazu: Mindestmenge, Musterkosten (Proto und PP), Preis für 2 zusätzliche Marketing-Paare, Werkzeugkosten Knopf, Lieferzeit Muster und Serie, Zahlung 50/50.",
     "Und der Versand: eine Sendung nach Berlin (DAP) und alternativ jedes Paar einzeln an Kunden in der EU (Preis pro Paket, wer verzollt).",
     "In der Türkei war am 29.10. Feiertag. Antwort bis Mi 04.11. ist realistisch."], f="die Anfrage raus ist.", o=['gmail', 'callbogen'])
+A('2026-11-05', 'B', "Patch D weiter rechts: neue Unterlagen an Nargiza", 10, id="r8-patch-rechts", s=[
+    "Entschieden am 05.11.: Patch D sitzt wie bei Levi's, rechte Kante 1 cm neben der rechten hinteren Gürtelschlaufe (W34: Mitte 12,5 cm von der hinteren Mitte).",
+    "Neu deshalb: Maßblätter v1.2, Patch-Vorlage v1.1 und Tech Pack v1.1 (Links unten). Die alten Fassungen nicht mehr verwenden.",
+    "Per WhatsApp an Nargiza, die drei PDFs anhängen. Den russischen Text hat Claude im Chat geschrieben."],
+  f="Nargiza die drei neuen PDFs hat.", o=['masse', 'patchpdf', 'techpack'])
 A('2026-11-05', 'D', "Fabrik entscheiden", 30, id="r8-fabrik-wahl", s=[
     "Claude legt dir den Vergleich hin: Preis pro Paar, Muster, Stickerei im Haus, Wäsche im Haus, Eindruck aus dem Call (4,2 von 5).",
     "Ampel Preis pro Paar bei 100 Stück: bis 60 € grün, bis 63 € gelb, darüber rot.",
@@ -60,7 +65,7 @@ review('2026-11-08', 2)
 
 # ---- W3 · 09.–15.11. ----
 A('2026-11-09', 'B', "Unterlagen an Kuzgunlar: Startschuss fürs Muster", 20, id="r8-unterlagen", s=[
-    "Claude stellt das Paket zusammen: Tech Pack v1.0, Maßblätter v1.1, Farbcodes, Artwork 1:1, Patch D als Stickerei in ihrem Auftrag.",
+    "Claude stellt das Paket zusammen: Tech Pack v1.1, Maßblätter v1.2, Farbcodes, Artwork 1:1, Patch-D-Vorlage v1.1, Patch D als Stickerei in ihrem Auftrag.",
     "Gebeten wird um: Digitizing-Vorschau aller 5 Motive mit Stichzahl, Fotos der Garne neben den Pantone-Farben bei Tageslicht, gewaschene Stickprobe vor dem Proto.",
     "Du sagst „senden“."], f="das Paket raus ist und Nargiza den Eingang bestätigt hat.", o=['techpack', 'masse', 'farben', 'artwork'])
 A('2026-11-11', 'G', "Innenetikett und Hangtag wählen", 30, id="r8-etikett-hangtag", s=[
@@ -364,6 +369,7 @@ DONE_STATIC = [
     ("28.10.", "Call mit Kuzgunlar (Nargiza): Stickerei und Wäsche im Haus, Muster in ein paar Wochen, 50/50"),
     ("28.10.", "Farbcodes aller Garne, Patch D wird von Kuzgunlar gestickt"),
     ("30.10.", "Maßblätter v1.1 im Format von Kuzgunlar"),
+    ("05.11.", "Patch D als PDF für Kuzgunlar, Patch weiter rechts wie bei Levi's: Maßblätter v1.2, Tech Pack v1.1"),
     ("Okt", "Shopify-Shop angelegt, Warteliste als Startseite mit Willkommens-Mail"),
 ]
 OPEN_Q = [

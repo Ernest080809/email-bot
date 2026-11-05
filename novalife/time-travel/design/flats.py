@@ -10,6 +10,8 @@ F = FN.F
 WB = 40.0
 INK, STITCH, RED, GOLD, COP, LINEN = "#1b2230", "#b07a50", "#b8322a", "#c9a24a", "#a8643a", "#efe7d6"
 LBL = "#9c5a30"
+LOOP_R = 180.0                     # rechte hintere Gürtelschlaufe (Mitte), Rückansicht
+PATCH_X = LOOP_R - 5.5 - 10 - 80   # Patch D (05.11.): rechte Kante 1 cm neben der rechten hinteren Schlaufe, wie bei Levi's → 84,5
 
 SIDE = [(215, 0), (221, 40), (252, 140), (260, 190), (266, 290), (248, 620), (242, 1100)]   # Seitennaht (rechte Bildhälfte)
 INSEAM = [(0, 290), (7, 330), (24, 620), (32, 1100)]                                          # Innennaht ab Schritt
@@ -163,15 +165,15 @@ def back():
     o.append("".join(f'<path d="M{F(bx-12+i*3)} {F(by+3)}v{F(18+(i%3)*5)}" style="stroke: {GOLD}; stroke-width: 1.2"></path>' for i in range(9)))
     cx, cy = pockets[1]
     o.append(FN.star8_svg(cx, cy, 36.0, 1.0))
-    o.append(loops((-180, 0, 180)))
-    D = FN.patch_outline(50, 0, 80, 71, 5.5)                                       # Patch D hinten rechts, oben bündig
+    o.append(loops((-LOOP_R, 0, LOOP_R)))
+    D = FN.patch_outline(PATCH_X, 0, 80, 71, 5.5)                                  # Patch D hinten rechts wie bei Levi's, oben bündig
     o.append(f'<path d="{D}" style="fill: {LINEN}; stroke: {INK}; stroke-width: 2"></path>')
     o.append("".join(f'<circle cx="{F(x)}" cy="{F(y)}" r="5" style="fill: none; stroke: {COP}; stroke-width: 1.2; stroke-dasharray: 2 1.5"></circle>'
-                     for x in (57, 123) for y in (12.5, 58.5)))
-    o.append(f'<text x="90" y="44" style="font: 700 22px Helvetica, Arial, sans-serif; fill: {INK}; text-anchor: middle">D</text>')
+                     for x in (PATCH_X + 7, PATCH_X + 73) for y in (12.5, 58.5)))
+    o.append(f'<text x="{F(PATCH_X + 40)}" y="44" style="font: 700 22px Helvetica, Arial, sans-serif; fill: {INK}; text-anchor: middle">D</text>')
     o.append(st(poly([(x - 7, y) for x, y in mir(INSEAM)])) + st(poly([(x + 7, y) for x, y in INSEAM])))
     o.append(st(f"M{F(-242)} 1090H-32M32 1090H242"))
-    o.append(callout("D", 130, 30, 300, 10))
+    o.append(callout("D", PATCH_X + 80, 30, 300, 10))
     o.append(callout("B2", bx - 20, by, -300, 150))
     o.append(callout("C", cx + 18, cy, 300, 230))
     o.append(callout("Y", 120, WB + 66, 300, 110))
@@ -191,7 +193,7 @@ LEGEND = [("A", "Cross-stitch band along the right front pocket opening (as worn
           ("J", "Zip fly, J-stitch double needle, bartack at the end"),
           ("B2", "Left back pocket (as worn): band 48 mm, three wheat ears, 9 gold threads by hand after wash"),
           ("C", "Right back pocket: eight-point star 36 × 36 mm, same height as the B2 band"),
-          ("D", "Patch D: two-layer belt loop, top flush with the waistband, centred between centre back loop and right loop. Snaps hidden (dashed)"),
+          ("D", "Patch D: two-layer belt loop, top flush with the waistband, right edge 1 cm left of the right back belt loop, like the back patch of a classic 5-pocket jeans (W34: centre 12.5 cm from the centre back seam). Snaps hidden (dashed)"),
           ("Y", "Back yoke: 9.5 cm at centre back, 3 cm at the side seam, flat-felled"),
           ("H", "Hem 1 cm, chain stitch, copper-gold. Inseam 81 cm includes the hem")]
 
@@ -203,7 +205,7 @@ LEGEND_DE = [("A", "Kreuzstich-Band an der rechten Vordertasche (vom Träger aus
              ("J", "Reißverschluss, J-Naht doppelt gesteppt, Riegel am Ende"),
              ("B2", "Linke Gesäßtasche (vom Träger aus): Band 48 mm, drei Ähren, 9 Goldfäden von Hand nach der Wäsche"),
              ("C", "Rechte Gesäßtasche: Achtstern 36 × 36 mm, gleiche Höhe wie das B2-Band"),
-             ("D", "Patch D: Gürtelschlaufe aus zwei Lagen, oben bündig mit dem Bund, mittig zwischen Mittelschlaufe und rechter Schlaufe. Druckknöpfe versteckt (gestrichelt)"),
+             ("D", "Patch D: Gürtelschlaufe aus zwei Lagen, oben bündig mit dem Bund, rechte Kante 1 cm neben der rechten hinteren Gürtelschlaufe, wie der Patch einer klassischen 5-Pocket (W34: Mitte 12,5 cm von der hinteren Mitte). Druckknöpfe versteckt (gestrichelt)"),
              ("Y", "Passe hinten: 9,5 cm an der Mitte, 3 cm an der Seitennaht, Kappnaht"),
              ("H", "Saum 1 cm, Kettstich, Kupfer-Gold. Die 81 cm Innenbein schließen den Saum ein")]
 

@@ -12,7 +12,7 @@ PAGES = 4
 
 
 def header(n, title, lines):
-    return ([T(12, 14, "NOVALIFE · NVL-TT-01 · ARTWORK v1.9 · 20 OCT 2026 · SCALE 1:1", 2.8, 700, GREY),
+    return ([T(12, 14, "NOVALIFE · NVL-TT-01 · ARTWORK v1.9.1 · 05 NOV 2026 · SCALE 1:1", 2.8, 700, GREY),
              T(198, 14, f"page {n} of {PAGES}", 2.8, 400, GREY, "end"), T(12, 24, title, 6.2, 700)]
             + [T(12, 31 + i * 4.4, s, 3.0, 400, SUB) for i, s in enumerate(lines)])
 
@@ -86,16 +86,27 @@ p += [f'<g transform="translate({PX} {PY})">{P.pocket_svg(P.R_PTS, FN.star8_svg(
 pages.append(p)
 
 # ---- 4 patch D
+# v1.9.1 (05.11.): Bild ohne sichtbare Druckknöpfe (patch_clean.py), die versteckten Knöpfe nur gestrichelt
+_pb = io.BytesIO(); P.Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "v19", "patch_d_clean.png")).resize((800, 710), P.Image.LANCZOS).save(_pb, "PNG")
+PATCH_CLEAN = "data:image/png;base64," + P.base64.b64encode(_pb.getvalue()).decode()
+
+
+def hidden_snaps(x0, y0):
+    ys = (y0 + P.PATCH_BULGE + P.SNAP_IN, y0 + P.PATCH_BULGE + P.SNAP_IN + P.SNAP_GY)
+    return "".join(f'<circle cx="{F(x)}" cy="{F(y)}" r="{F(P.SNAP_D / 2)}" style="fill: none; stroke: #a8643a; stroke-width: 0.3px; stroke-dasharray: 1 0.7"></circle>'
+                   for x in (x0 + P.SNAP_IN, x0 + P.SNAP_IN + P.SNAP_GX) for y in ys)
+
+
 PW, PH, PB, PS = P.PATCH_W, P.PATCH_H, P.PATCH_BULGE, P.PATCH_SIDE
 p = header(4, "Back right · patch D, detachable with snaps", [
-    f"Embroidered linen patch supplied by Novalife: {F(PW)} mm wide, {F(PH)} mm high in the middle, {F(PS)} mm at the sides, max. 4 colours.",
-    "Back right, centred between centre back loop and right loop. Highest point of the patch flush with the top of the waistband.",
+    f"Embroidered linen patch, made by you: {F(PW)} mm wide, {F(PH)} mm high in the middle, {F(PS)} mm at the sides, max. 4 colours.",
+    "Back right like a 5-pocket patch: right edge 1 cm from the right back belt loop, top flush with the waistband.",
     "Two layers: tree in front, back panel behind, joined in the middle at top and bottom, open at the sides.",
     "4 snaps hidden between back panel and jeans. The belt runs between back panel and front. Removed for washing.",
 ])
 px, py = 14, 56
-p += [f'<image href="{P.PATCH_PHOTO}" x="{px}" y="{py}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none"></image>',
-      cut(FN.patch_outline(px, py, PW, PH, PB)), P.snaps(px, py),
+p += [f'<image href="{PATCH_CLEAN}" x="{px}" y="{py}" width="{F(PW)}" height="{F(PH)}" preserveAspectRatio="none"></image>',
+      cut(FN.patch_outline(px, py, PW, PH, PB)), hidden_snaps(px, py),
       T(px + PW / 2, py + PH + 6, f"D · {F(PW)} × {F(PH)} mm, sides {F(PS)} mm · artwork 1:1", 3, 700, anchor="middle")]
 by, bw, bh = 150, PW, PH
 gx, gy, sin_, sd = P.SNAP_GX, P.SNAP_GY, P.SNAP_IN, P.SNAP_D
@@ -112,7 +123,7 @@ for i, s in enumerate(["4 ring-spring snaps 10 mm, antique copper, nickel-free."
                        f"Snap centres {F(sin_)} mm from the side edge and the side ends.", f"Grid {F(gx)} × {F(gy)} mm, the same on every Novalife jeans.",
                        "Patch with stiff interlining so the snaps cannot tear out.", "Jeans: reinforce each stud inside, interlining 20 × 20 mm.",
                        "Sides open, top and bottom joined only in the middle 30 mm.", "Pre-shrunk natural linen, edges folded and topstitched.", "Lines min. 0.8 mm, curls min. 2.5 mm.",
-                       "Approved sample from the patch maker before 100 pcs.", "Shape: straight sides, 5.5 mm curve top and bottom.",
+                       "Approved patch sample before 100 pcs.", "Shape: straight sides, 5.5 mm curve top and bottom.",
                        "Plain snaps without letters."]):
     p.append(T(102, by + 10 + i * 5, s, 2.8, 400, SUB))
 p.append(checkline(272))

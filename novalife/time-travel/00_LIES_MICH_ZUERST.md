@@ -2,6 +2,8 @@
 
 **Stand: Freitag, 30.10.2026. Der Docket Rev. 8 ist live, alles in Abschnitt 3.6.** Novalife Berlin, Gründer Ernest Veskimäe.
 
+> **Neu seit 07.11.:** Die Marke ist festgelegt: der Achtstern als Zeichen überall, die Garnfarben (dunkel für Bildschirme, hell für Papier), Cinzel und Inter. Alles Sichtbare richtet sich danach: `../marke/MARKE.md`, Logos in `../marke/logo/`, Übersicht `../marke/markenblatt.png`. Außerdem: Ernest ist 18 und alleiniger Inhaber, sein Freund steigt ab August 2027 ein (Claude-Docs-Dokument „Novalife · Alles auf Ernest umstellen“).
+
 > **Neu seit 30.10.:** Docket Rev. 8 komplett neu geplant: öffentlich erst mit dem Proto (erster Post Di 15.12.), Gewerbe, Recht und Shop erst nach der Muster-Freigabe (Mo 18.01.), Vorbestellung ab Mo 15.02., Drop bleibt Do 24.06.2027, 19:00. Gebaut für 3–5 Stunden pro Woche bis zum Abi: 207 Aufgaben, 60 Posts, 17 Stunt-Videos (REWIND). Quellen in `rev8/`, Kopie der Seite in `artefakte/docket_rev8/`. Wo dieser Text unten noch Rev.-7-Termine nennt, gilt Rev. 8. Neu außerdem: Maßblätter v1.1 im Format von Kuzgunlar (`pdf/NVL-TT-01_Measurements_v1.1.pdf`, gebaut mit `design/kz_spec.py`) und die Farbcodes aller Garne (Claude-Docs-Dokument „NVL-TT-01 Colour Codes“).
 
 Diese Datei ist der Einstieg. Sie sagt, was das Projekt ist, wo es gerade steht, welche Regeln gelten und welche Datei wofür da ist. Wer nur eine Datei liest, liest diese.

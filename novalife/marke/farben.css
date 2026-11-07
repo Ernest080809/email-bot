@@ -1,0 +1,11 @@
+:root{
+  --nl-schwarz: #1A1416;
+  --nl-leinen: #E8DCC6;
+  --nl-rot: #CD212A;  /* Pantone 18-1662 TCX */
+  --nl-gold: #D8AE47;  /* Pantone 14-0952 TCX */
+  --nl-weiss: #F4EFE6;  /* Pantone 11-0602 TCX */
+  --nl-braun: #56352D;  /* Pantone 19-1432 TCX */
+  --nl-kupfer: #A3623B;  /* Pantone 17-1340 TCX */
+  --nl-font-head: 'Cinzel', Georgia, serif;   /* nur Großbuchstaben, 600, Sperrung .1em */
+  --nl-font-text: 'Inter', system-ui, sans-serif;
+}

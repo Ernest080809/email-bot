@@ -4,7 +4,7 @@
 
 **Die Idee in einem Satz:** Die Marke trägt die Farben ihres Garns: Rot, Gold und Weiß aus der Stickerei, Leinen vom Patch, dunkel wie der Teppich bei Nacht. Das Zeichen ist der Achtstern von der Gesäßtasche.
 
-Übersicht als Bild: `markenblatt.png`. Alles neu erzeugen: `python3 marke.py` (braucht `fonttools` und Playwright).
+Übersicht als Bild: `markenblatt.png`. Dasselbe als Design-System in claude.ai, das Präsentationen und Designs von Claude benutzen: [Novalife](https://claude.ai/artifact/N8fXYNcAwJky1e16ogf1bw). Alles neu erzeugen: `python3 marke.py` (braucht `fonttools` und Playwright).
 
 ---
 

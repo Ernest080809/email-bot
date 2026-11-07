@@ -37,7 +37,7 @@ The user (Ernest Veskimäe) runs Novalife and works with Claude across many sepa
 
 ### Brand identity (fixed 07.11.2026, decided by Ernest)
 
-Everything people see from Novalife looks the same, so that every colour, symbol and typeface makes people think of Novalife. Full rules, logo files, palette files and fonts: `novalife/marke/MARKE.md`. The core:
+Everything people see from Novalife looks the same, so that every colour, symbol and typeface makes people think of Novalife. Full rules, logo files, palette files and fonts: `novalife/marke/MARKE.md`, and as a Design System artifact "Novalife" (https://claude.ai/artifact/N8fXYNcAwJky1e16ogf1bw): use it for every deck, design or mock-up. The core:
 
 - **Symbol: the eight-point star** (Achtstern C from the back pocket: 8 rhombi with gaps, never redrawn). It is the logo everywhere: profile pictures, end card of every video, website, hangtag, box stamp, mails, zipper. Outwardly "eight-point star" / "Achtstern", never "Alatyr". The tree stays a motif, not the logo (polo chest, patch D).
 - **Colours = the thread colours of the jeans.** Dark for screens: Teppich-Schwarz `#1A1416` ground, Leinen `#E8DCC6` / Garn-Weiß `#F4EFE6` (11-0602) text, Knallrot `#CD212A` (18-1662) and Gold `#D8AE47` (14-0952) as accents. Light for paper: Leinen ground, Dunkelbraun `#56352D` (19-1432) text, red star, Kupfer `#A3623B` (17-1340) only large. About 70 % ground, 20 % text, 10 % red and gold. Red is never a background. The only blue is the denim itself.

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Zipper NVL-TT-02 · Papiertest für Mi 28.10.2026, Druckvorlage in Originalgröße (A4 hoch)
+# Zipper NVL-TT-02 · Papiertest, Druckvorlage in Originalgröße (A4 hoch). Erst Mi 28.10., mit Rev. 8 auf Sa 07.11.2026 verschoben.
 # Teppich A in drei Größen, Rückendruck B (Band A oben am Hals) fein und doppelt, Stern C auf der Saumrippe.
 # Alles, was breiter als ein A4-Blatt ist, kommt in zwei Hälften: links und rechts der Mitte.
 # Aufruf: python3 papiertest.py <ordner>  → papiertest_zipper.html, danach node papier.mjs <ordner>
@@ -97,11 +97,13 @@ def first_page():
         ('Drucken', 'In tatsächlicher Größe, also 100 %, nicht „an Seite anpassen“. Prüf das Quadrat: genau 5 × 5 cm.'),
         ('Teppich', 'Für jede Größe zwei Blätter, links und rechts. Ausschneiden, an die Mittellinie (Reißverschluss) legen,'),
         ('', 'Oberkante 6 cm unter dem Anfang des Reißverschlusses. Mit Malerkrepp fixieren, nicht mit Tesa auf den Stoff.'),
-        ('', 'Je ein Foto von vorn aus 2 m und eins angezogen im Spiegel. Dann sagst du mir, welche Größe: S, M oder L.'),
+        ('', 'Pro Größe angezogen im Spiegel fotografieren: vorn, seitlich und mit offenem Reißverschluss.'),
+        ('Video', 'Bei deiner Lieblingsgröße einen Clip mit einer langsamen Drehung filmen. Den brauchen wir für Post V201.'),
         ('Rücken', 'Rückendruck B in fein und doppelt, je zwei Hälften. An der Mittellinie zusammenkleben, Oberkante'),
         ('', '2 cm unter der Kapuzennaht. Erst Kapuze darüberklappen: Es darf nichts vorschauen. Dann Kapuze hoch, Foto.'),
         ('', 'Der Umriss ist noch vorläufig, aus deinen Maßen 14 und 15. Der echte Abdruck kommt von dir (Punkt Abdruck).'),
         ('Stern', 'Unten ausschneiden und hinten links auf die Saumrippe legen, Mitte 20 cm von der hinteren Mitte.'),
+        ('Anhänger', 'Den kleinen Stern unten (25 mm) ausschneiden und an den Schieber halten. Foto von nah, mit Kinn im Bild.'),
         ('Abdruck', 'Zwei A4-Blätter zusammenkleben, oben auf den Rücken legen, Kapuze glatt darüber. Mit Bleistift rundum'),
         ('', 'an der Kante der Kapuze entlangfahren. Blatt flach fotografieren, das 5-cm-Quadrat daneben. Foto an mich.'),
     ]
@@ -117,9 +119,13 @@ def first_page():
     out.append(f'<rect x="12" y="{F(y)}" width="50" height="50" style="fill:none;stroke:{INK};stroke-width:0.4"/>')
     out.append(text(37, y + 27, '5 × 5 cm', 3.2, 'middle', SUB))
     out.append(rib_star(80, y))
-    out.append(text(80, y + 56, 'Stern C, 36 mm, auf der Saumrippe (7 cm hoch, hier 5 cm gezeigt)', 2.8, 'start', SUB))
-    out.append(text(12, y + 72, 'Sende mir danach: deine Teppichgröße, fein oder doppelt, Fotos und den Abdruck.', 3.2, 'start', INK, 700))
-    return page("".join(out), 'Papiertest Zipper NVL-TT-02', 'Mi 28.10.2026 · alles in Originalgröße · Teppich A, Rückendruck B, Stern C')
+    out.append(text(80, y + 56, 'Stern C, 36 mm, auf der Saumrippe', 2.8, 'start', SUB))
+    out.append(text(80, y + 60.5, '(Rippe 7 cm hoch, hier 5 cm gezeigt)', 2.8, 'start', SUB))
+    out.append(FL.star_charm(170, y + 30, 25))
+    out.append(text(170, y + 56, 'Anhänger, 25 mm', 2.8, 'middle', SUB))
+    out.append(text(12, y + 72, 'Schick mir danach alle Fotos, den Clip und den Abdruck. Dazu deine Wahl:', 3.2, 'start', INK, 700))
+    out.append(text(12, y + 78, 'Teppich S, M oder L? Rücken fein oder doppelt? Anhänger so groß oder kleiner?', 3.2, 'start', INK, 700))
+    return page("".join(out), 'Papiertest Zipper NVL-TT-02', 'Sa 07.11.2026 · alles in Originalgröße · Teppich A, Rückendruck B, Stern C, Anhänger')
 
 
 def build():

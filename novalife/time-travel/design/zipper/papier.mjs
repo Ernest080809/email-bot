@@ -1,7 +1,9 @@
 // node papier.mjs <ordner>  → papiertest_zipper.html als PDF (A4 hoch) und Vorschaubilder der Seiten
-import { chromium } from '/opt/node-tools/node_modules/playwright/index.mjs';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright');
 const dir = process.argv[2] || '.';
-const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: 1.5 });
 await p.goto('file://' + dir + '/papiertest_zipper.html');
 await p.waitForTimeout(800);

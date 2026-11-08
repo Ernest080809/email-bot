@@ -12,7 +12,7 @@ import { mergeGeometries, mergeVertices } from "three/addons/utils/BufferGeometr
 const CONFIG = {
   // Pre-order: the first money moment. Opens for everyone at this time (Berlin);
   // the waitlist and the inner circle get in earlier (minutes below).
-  preorderAt: "2027-02-01T18:00:00+01:00",
+  preorderAt: "2027-02-15T18:00:00+01:00",
   preorderPairs: 35,
   preorderPrice: "",                           // e.g. "€149" — shown next to the pairs when set
   preorderUrl: "/collections/time-travel",     // where "Pre-order" leads once it is open
@@ -77,7 +77,7 @@ function phase(now = Date.now()) {
 }
 // the next date everything counts down to: the pre-order, then the door
 const milestone = () => (preorderOpen() ? { iso: CONFIG.dropAt, at: DROP_AT } : { iso: CONFIG.preorderAt, at: PRE_AT });
-// Berlin wall time of an ISO date minus n minutes → { date: "01.02.2027", time: "17:00 CET" }
+// Berlin wall time of an ISO date minus n minutes → { date: "15.02.2027", time: "17:00 CET" }
 function berlin(iso, minus = 0) {
   const off = iso.slice(-6), zone = off === "+02:00" ? "CEST" : off === "+01:00" ? "CET" : "UTC" + off;
   const parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })

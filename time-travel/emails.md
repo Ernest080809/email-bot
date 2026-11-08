@@ -1,8 +1,8 @@
 # Time Travel — emails
 
 Ten moments from sign-up to the drop. Sent with **Shopify Email** (Marketing → Campaigns; the welcome
-email as an automation). English, short, calm: no exclamation marks, no emojis, dates as `01.02.2027 · 18:00 CET`.
-Dates follow the Drop Docket, with the opening moved to 18:00 (28.10.2026): pre-order **Mon 01.02.2027 · 18:00 CET**, drop **Thu 24.06.2027 · 18:00 CEST**.
+email as an automation). English, short, calm: no exclamation marks, no emojis, dates as `15.02.2027 · 18:00 CET`.
+Dates follow the Drop Docket (Rev. 8), with the opening at 18:00 (decided 08.11.2026): pre-order **Mon 15.02.2027 · 18:00 CET**, drop **Thu 24.06.2027 · 18:00 CEST**.
 No emails during the Abitur pause (22.03.–09.05.2027).
 
 House rules for every email:
@@ -35,9 +35,9 @@ Shopify Email only ever sends to people who agreed to marketing, so this reaches
 | E1 | Thu 19.11.2026 · 18:00 CET | Chapter II: the star woke up | waitlist | See chapter II |
 | E2 | Thu 17.12.2026 · 18:00 CET | Chapter III: the harvest | waitlist | See the door |
 | E3 | Thu 14.01.2027 · 18:00 CET | Chapter IV: light in the windows | waitlist | Back to the field |
-| E4 | Sun 31.01.2027 · 18:00 CET | Tomorrow, 17:00 CET. | waitlist (two versions) | Back to the field |
-| E5a | Mon 01.02.2027 · 16:00 CET | Your key. | inner circle | Use your key |
-| E5b | Mon 01.02.2027 · 17:00 CET | Your key. | waitlist without inner circle | Use your key |
+| E4 | Sun 14.02.2027 · 18:00 CET | Tomorrow, 17:00 CET. | waitlist (two versions) | Back to the field |
+| E5a | Mon 15.02.2027 · 16:00 CET | Your key. | inner circle | Use your key |
+| E5b | Mon 15.02.2027 · 17:00 CET | Your key. | waitlist without inner circle | Use your key |
 | E6 | Thu 04.03.2027 · 18:00 CET | Chapter V: the tree | waitlist | See chapter V |
 | E7 | Thu 20.05.2027 · 18:00 CEST | €149 until Sunday. | waitlist + no pre-order yet | Pre-order |
 | E8 | Thu 17.06.2027 · 18:00 CEST | One week. | waitlist | Back to the field |
@@ -49,7 +49,7 @@ Shopify Email only ever sends to people who agreed to marketing, so this reaches
 [Sign-up on the page] --> E0 (now)
         |
         v
-  E1 Ch. II (19.11) --> E2 Ch. III (17.12) --> E3 Ch. IV (14.01) --> E4 Reminder (31.01)
+  E1 Ch. II (19.11) --> E2 Ch. III (17.12) --> E3 Ch. IV (14.01) --> E4 Reminder (14.02)
                                                                          |
                                      inner circle / found key? --yes--> E5a 16:00 --+
                                                                          |          |
@@ -72,11 +72,11 @@ condition *customer tags contain `time-travel-waitlist`*. With double opt-in it 
 **Purpose:** confirm, give the date, make the golden key and the personal link known.
 
 Subject options: `Your key is reserved.` · `The door is closed. You have a key.` · `Time Travel: you are on the list`
-Preheader: `Pre-order 01.02.2027 — for you at 17:00 CET, an hour before everyone.`
+Preheader: `Pre-order 15.02.2027 — for you at 17:00 CET, an hour before everyone.`
 
 > The door is closed. Your key is reserved.
 >
-> **01.02.2027 · 17:00 CET** — one hour before everyone else, we send you the key to the pre-order. 35 pairs at the pre-order price.
+> **15.02.2027 · 17:00 CET** — one hour before everyone else, we send you the key to the pre-order. 35 pairs at the pre-order price.
 >
 > Until then the house changes. A new chapter opens every few weeks, always on a Thursday at 18:00. The next one: 19.11.2026.
 >
@@ -104,7 +104,7 @@ Preheader: `Chapter II of Time Travel is open.`
 >
 > **[See chapter II]**
 >
-> Pre-order: 01.02.2027 · 17:00 CET for you.
+> Pre-order: 15.02.2027 · 17:00 CET for you.
 
 ---
 
@@ -114,12 +114,12 @@ Preheader: `Chapter II of Time Travel is open.`
 **Purpose:** second return visit; push the personal link before the holidays.
 
 Subject options: `Chapter III: the harvest` · `Three ears of wheat on the door` · `The door changed`
-Preheader: `Six weeks until the pre-order.`
+Preheader: `Two months until the pre-order.`
 
 > Three ears of wheat, tied together, painted on a red band across the door.
 > The harvest is in.
 >
-> Six weeks until the pre-order. If three friends join through your link, you get in at 16:00 instead of 17:00.
+> Two months until the pre-order. If three friends join through your link, you get in at 16:00 instead of 17:00.
 > Your link waits for you at the door.
 >
 > **[See the door]**
@@ -131,12 +131,12 @@ Preheader: `Six weeks until the pre-order.`
 **When:** Thu 14.01.2027 · 18:00 CET · **Segment:** TT · waitlist
 **Purpose:** the sample gate is behind you — first real look is allowed now. Build up to the pre-order.
 
-Subject options: `Chapter IV: light in the windows` · `Someone is home` · `18 days`
-Preheader: `The pre-order opens on 01.02.2027.`
+Subject options: `Chapter IV: light in the windows` · `Someone is home` · `One month`
+Preheader: `The pre-order opens on 15.02.2027.`
 
 > There is light in the windows now.
 >
-> In 18 days the pre-order opens: 01.02.2027, 17:00 CET for you.
+> In one month the pre-order opens: 15.02.2027, 17:00 CET for you.
 >
 > *(If the sample is approved: one close-up of the embroidery. The pattern, not a person.)*
 >
@@ -146,7 +146,7 @@ Preheader: `The pre-order opens on 01.02.2027.`
 
 ## E4 · Reminder — "Tomorrow, 17:00 CET."
 
-**When:** Sun 31.01.2027 · 18:00 CET · two versions:
+**When:** Sun 14.02.2027 · 18:00 CET · two versions:
 inner circle (`16:00` in the copy) and waitlist without inner circle (`17:00`).
 **Purpose:** make sure nobody misses the hour.
 
@@ -163,7 +163,7 @@ Preheader: `The pre-order opens for you one hour before everyone else.`
 
 ## E5 · The key — "Your key."
 
-**When:** Mon 01.02.2027 · **E5a 16:00 CET** to TT · inner circle, **E5b 17:00 CET** to TT · waitlist without inner circle.
+**When:** Mon 15.02.2027 · **E5a 16:00 CET** to TT · inner circle, **E5b 17:00 CET** to TT · waitlist without inner circle.
 **Purpose:** the money moment. The button goes straight to the pre-order product.
 **Shopify:** publish the product at 16:00 but keep it out of menus and collections until 18:00
 (the page shows its *Pre-order* button from 18:00 by itself).
